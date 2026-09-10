@@ -4,6 +4,7 @@
   let notesIndex = null;
   let currentNote = null;
   let supabaseClient = null;
+  let userName = '';
 
   const SUPABASE_URL = 'https://firvfvkadexbdrsfuzpk.supabase.co';
   const SUPABASE_KEY = 'sb_publishable_VGm4obXnBc10xM6vsUUb4w_78Df8Qxt';
@@ -12,28 +13,56 @@
     if (SUPABASE_URL && SUPABASE_KEY && window.supabase) {
       supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
     }
+    loadUserName();
     try {
       const resp = await fetch('notes/index.json');
-      if (resp.ok) {
-        notesIndex = await resp.json();
-      } else {
-        notesIndex = { specialties: [] };
-      }
-    } catch {
-      notesIndex = { specialties: [] };
-    }
+      if (resp.ok) notesIndex = await resp.json();
+      else notesIndex = { specialties: [] };
+    } catch { notesIndex = { specialties: [] }; }
     buildSidebar();
     buildWelcome();
     setupRouting();
     setupMobileMenu();
     setupHighlightToolbar();
-    setupAnnotations();
   }
 
+  // ── User identity ──
+  function loadUserName() {
+    try { userName = localStorage.getItem('mn-username') || ''; } catch {}
+  }
+
+  function promptUserName() {
+    return new Promise(resolve => {
+      if (userName) { resolve(userName); return; }
+      const overlay = document.createElement('div');
+      overlay.className = 'user-prompt-overlay';
+      overlay.innerHTML = `<div class="user-prompt-box">
+        <h2>Welcome!</h2>
+        <p>Enter your name for shared highlights and notes</p>
+        <input type="text" id="userNameInput" placeholder="Your name" maxlength="20">
+        <br><button id="userNameBtn">Start</button>
+      </div>`;
+      document.body.appendChild(overlay);
+      const input = document.getElementById('userNameInput');
+      const btn = document.getElementById('userNameBtn');
+      input.focus();
+      function submit() {
+        const name = input.value.trim() || 'Anonymous';
+        userName = name;
+        try { localStorage.setItem('mn-username', name); } catch {}
+        overlay.remove();
+        resolve(name);
+      }
+      btn.addEventListener('click', submit);
+      input.addEventListener('keydown', e => { if (e.key === 'Enter') submit(); });
+    });
+  }
+
+  // ── Sidebar & Welcome ──
   function buildSidebar() {
     const nav = document.getElementById('navContent');
     if (!notesIndex.specialties.length) {
-      nav.innerHTML = '<p style="padding:1.25rem;color:var(--text-muted);font-size:0.85rem;">No notes yet. Generate notes using the CLI tool.</p>';
+      nav.innerHTML = '<p style="padding:1.25rem;color:var(--text-muted);font-size:0.85rem;">No notes yet.</p>';
       return;
     }
     let html = '';
@@ -44,9 +73,8 @@
       html += `<span class="arrow">&#9654;</span>${spec.name} (${spec.diseases.length})`;
       html += '</div>';
       html += `<div class="nav-diseases" id="diseases-${specId}">`;
-      for (const d of spec.diseases) {
+      for (const d of spec.diseases)
         html += `<a class="nav-disease" data-id="${d.id}" onclick="loadNote('${d.id}')">${d.name}</a>`;
-      }
       html += '</div></div>';
     }
     nav.innerHTML = html;
@@ -55,24 +83,13 @@
   function buildWelcome() {
     const grid = document.getElementById('specialtyGrid');
     if (!notesIndex.specialties.length) {
-      grid.innerHTML = `
-        <div style="grid-column:1/-1;text-align:center;padding:2rem;">
-          <p style="color:var(--text-muted);font-size:0.95rem;line-height:1.8;">
-            No notes have been generated yet.<br>
-            Use the note generation script to create notes:<br>
-            <code style="background:var(--bg-sidebar);padding:0.2rem 0.5rem;border-radius:4px;font-size:0.85rem;">
-              python scripts/generate_note.py "Disease Name"
-            </code>
-          </p>
-        </div>`;
+      grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;"><p style="color:var(--text-muted);">No notes yet.</p></div>';
       return;
     }
     let html = '';
     for (const spec of notesIndex.specialties) {
       html += `<div class="specialty-card" onclick="expandSpecialty('${slugify(spec.name)}')">`;
-      html += `<h3>${spec.name}</h3>`;
-      html += `<span class="count">${spec.diseases.length} topics</span>`;
-      html += '</div>';
+      html += `<h3>${spec.name}</h3><span class="count">${spec.diseases.length} topics</span></div>`;
     }
     grid.innerHTML = html;
   }
@@ -87,19 +104,16 @@
   }
 
   function setupMobileMenu() {
-    const btn = document.getElementById('menuToggle');
-    const sidebar = document.getElementById('sidebar');
-    btn.addEventListener('click', () => sidebar.classList.toggle('open'));
-    document.getElementById('mainContent').addEventListener('click', () => {
-      sidebar.classList.remove('open');
-    });
+    document.getElementById('menuToggle').addEventListener('click', () =>
+      document.getElementById('sidebar').classList.toggle('open'));
+    document.getElementById('mainContent').addEventListener('click', () =>
+      document.getElementById('sidebar').classList.remove('open'));
   }
 
   window.toggleSpec = function(el) {
     const specId = el.dataset.spec;
-    const diseases = document.getElementById('diseases-' + specId);
     el.classList.toggle('expanded');
-    diseases.classList.toggle('show');
+    document.getElementById('diseases-' + specId).classList.toggle('show');
   };
 
   window.expandSpecialty = function(specId) {
@@ -108,9 +122,10 @@
       el.classList.add('expanded');
       document.getElementById('diseases-' + specId).classList.add('show');
     }
-    el && el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
 
+  // ── Note Loading & Rendering ──
   window.loadNote = async function(noteId) {
     window.location.hash = noteId;
     document.getElementById('welcomePage').style.display = 'none';
@@ -134,6 +149,8 @@
       if (!resp.ok) throw new Error('Not found');
       currentNote = await resp.json();
       renderNote(currentNote);
+      await restoreHighlights();
+      await loadAndShowAnnotations();
     } catch {
       notePage.innerHTML = '<p style="color:var(--text-muted);padding:2rem;">Note not found.</p>';
     }
@@ -145,74 +162,52 @@
   function renderNote(note) {
     const page = document.getElementById('notePage');
     let html = '<div class="note-header">';
-    html += `<h1>${esc(note.title)}</h1>`;
-    html += '<div class="note-meta">';
+    html += `<h1>${esc(note.title)}</h1><div class="note-meta">`;
     if (note.specialty) html += `<span>${esc(note.specialty)}</span>`;
     if (note.sources) html += `<span>Sources: ${esc(note.sources.join(', '))}</span>`;
     if (note.generated) html += `<span>${esc(note.generated)}</span>`;
     html += '</div></div>';
 
-    for (const sec of note.sections) {
-      html += '<div class="note-section">';
+    note.sections.forEach((sec, idx) => {
+      html += `<div class="note-section" data-sec="${idx}">`;
       html += `<h2>${esc(sec.title)}</h2>`;
       html += renderContent(sec.content);
       html += '</div>';
-    }
+    });
 
     if (note.related && note.related.length) {
-      html += '<div class="related-notes">';
-      html += '<h3>Related Notes</h3>';
-      for (const r of note.related) {
+      html += '<div class="related-notes"><h3>Related Notes</h3>';
+      for (const r of note.related)
         html += `<a class="related-link" onclick="loadNote('${r.id}')">${esc(r.name)}</a>`;
-      }
       html += '</div>';
     }
-
     page.innerHTML = html;
   }
 
   function renderContent(content) {
-    if (typeof content === 'string') {
-      return renderMarkdown(content);
-    }
-    if (Array.isArray(content)) {
-      return content.map(renderBlock).join('');
-    }
+    if (typeof content === 'string') return renderMarkdown(content);
+    if (Array.isArray(content)) return content.map(renderBlock).join('');
     return '';
   }
 
   function renderBlock(block) {
     if (typeof block === 'string') return renderMarkdown(block);
     if (!block || !block.type) return '';
-
     switch (block.type) {
       case 'callout':
-        return `<div class="callout callout-${esc(block.style || 'logic')}">
-          <span class="callout-icon">${calloutIcon(block.style)}</span>${renderMarkdown(block.text)}
-        </div>`;
-
+        return `<div class="callout callout-${esc(block.style || 'logic')}"><span class="callout-icon">${calloutIcon(block.style)}</span>${renderMarkdown(block.text)}</div>`;
       case 'collapsible':
-        return `<details class="collapsible">
-          <summary>${esc(block.summary)}</summary>
-          <div class="content">${renderMarkdown(block.text)}</div>
-        </details>`;
-
-      case 'table':
-        return renderTable(block);
-
-      case 'heading':
-        return `<h3>${esc(block.text)}</h3>`;
-
-      case 'list':
+        return `<details class="collapsible"><summary>${esc(block.summary)}</summary><div class="content">${renderMarkdown(block.text)}</div></details>`;
+      case 'table': return renderTable(block);
+      case 'heading': return `<h3>${esc(block.text)}</h3>`;
+      case 'list': {
         const tag = block.ordered ? 'ol' : 'ul';
         const items = (block.items || []).map(i => `<li>${renderMarkdown(i)}</li>`).join('');
         return `<${tag} style="padding-left:1.25rem;margin:0.5rem 0;">${items}</${tag}>`;
-
+      }
       case 'source':
         return `<span class="source-tag">${esc(block.book)} p.${esc(block.pages)}</span>`;
-
-      default:
-        return block.text ? renderMarkdown(block.text) : '';
+      default: return block.text ? renderMarkdown(block.text) : '';
     }
   }
 
@@ -226,8 +221,7 @@
       for (const cell of row) html += `<td>${esc(cell)}</td>`;
       html += '</tr>';
     }
-    html += '</tbody></table></div>';
-    return html;
+    return html + '</tbody></table></div>';
   }
 
   function renderMarkdown(text) {
@@ -241,8 +235,7 @@
   }
 
   function calloutIcon(style) {
-    const icons = { guideline: '\u{1F4CC}', logic: '\u{1F4A1}', trap: '⚠️' };
-    return icons[style] || '\u{1F4A1}';
+    return { guideline: '\u{1F4CC}', logic: '\u{1F4A1}', trap: '⚠️' }[style] || '\u{1F4A1}';
   }
 
   function esc(str) {
@@ -256,163 +249,241 @@
     return text.replace(/[^\w一-鿿]+/g, '-').replace(/^-|-$/g, '');
   }
 
-  // Highlight toolbar
+  // ── Highlight System ──
   function setupHighlightToolbar() {
     const toolbar = document.getElementById('highlightToolbar');
-    document.addEventListener('mouseup', (e) => {
+    let hideTimer = null;
+
+    document.addEventListener('mouseup', () => {
+      if (hideTimer) { clearTimeout(hideTimer); hideTimer = null; }
       const sel = window.getSelection();
       if (!sel || sel.isCollapsed || !document.getElementById('notePage').contains(sel.anchorNode)) {
-        setTimeout(() => { toolbar.style.display = 'none'; }, 200);
+        hideTimer = setTimeout(() => { toolbar.style.display = 'none'; }, 200);
         return;
       }
       const range = sel.getRangeAt(0);
       const rect = range.getBoundingClientRect();
-      toolbar.style.left = (rect.left + rect.width / 2 - 70) + 'px';
-      toolbar.style.top = (rect.top - 40 + window.scrollY) + 'px';
+      toolbar.style.left = Math.max(0, rect.left + rect.width / 2 - 80) + 'px';
+      toolbar.style.top = (rect.top - 44) + 'px';
       toolbar.style.display = 'flex';
     });
 
     toolbar.querySelectorAll('.hl-btn').forEach(btn => {
-      btn.addEventListener('mousedown', (e) => {
+      btn.addEventListener('mousedown', async (e) => {
         e.preventDefault();
         const color = btn.dataset.color;
         const sel = window.getSelection();
         if (!sel || sel.isCollapsed) return;
+
+        const anchor = getTextAnchor(sel);
+        const range = sel.getRangeAt(0).cloneRange();
+
         if (color === 'none') {
-          removeHighlight(sel);
+          await removeHighlight(sel);
+        } else if (color === 'annotate') {
+          sel.removeAllRanges();
+          if (!userName) await promptUserName();
+          await addAnnotationFromSelection(anchor);
         } else {
-          applyHighlight(sel, color);
+          if (!userName) await promptUserName();
+          await applyHighlightFromRange(range, anchor, color);
         }
         toolbar.style.display = 'none';
       });
     });
   }
 
-  function applyHighlight(sel, color) {
+  function getTextAnchor(sel) {
     const range = sel.getRangeAt(0);
-    const span = document.createElement('span');
-    span.className = 'highlight-' + color;
-    span.dataset.hlId = Date.now().toString(36);
-    try {
-      range.surroundContents(span);
-    } catch {
-      const contents = range.extractContents();
-      span.appendChild(contents);
-      range.insertNode(span);
-    }
-    sel.removeAllRanges();
-    saveHighlights();
+    const text = sel.toString().trim();
+    if (!text) return null;
+
+    const section = range.startContainer.parentElement.closest('.note-section');
+    const secIdx = section ? parseInt(section.dataset.sec) : -1;
+
+    const sectionText = section ? section.textContent : '';
+    const selStart = sectionText.indexOf(text);
+    const prefix = selStart > 0 ? sectionText.slice(Math.max(0, selStart - 30), selStart).trim() : '';
+    const suffix = sectionText.slice(selStart + text.length, selStart + text.length + 30).trim();
+
+    return { text, prefix, suffix, secIdx };
   }
 
-  function removeHighlight(sel) {
+  async function applyHighlightFromRange(range, anchor, color) {
+    if (!anchor || anchor.secIdx < 0) return;
+
+    const span = document.createElement('span');
+    span.className = 'highlight-' + color;
+    span.title = userName;
+    try { range.surroundContents(span); }
+    catch { const c = range.extractContents(); span.appendChild(c); range.insertNode(span); }
+    window.getSelection().removeAllRanges();
+
+    if (supabaseClient) {
+      await supabaseClient.from('highlights').insert({
+        note_id: currentNote.id,
+        section_idx: anchor.secIdx,
+        anchor_text: anchor.text.slice(0, 500),
+        anchor_prefix: anchor.prefix.slice(0, 100),
+        anchor_suffix: anchor.suffix.slice(0, 100),
+        color: color,
+        user_name: userName,
+      });
+    }
+  }
+
+  async function removeHighlight(sel) {
     const node = sel.anchorNode.parentElement;
     if (node && node.className && node.className.startsWith('highlight-')) {
+      const text = node.textContent;
       const parent = node.parentNode;
       while (node.firstChild) parent.insertBefore(node.firstChild, node);
       parent.removeChild(node);
+
+      if (supabaseClient && currentNote) {
+        await supabaseClient.from('highlights')
+          .delete()
+          .eq('note_id', currentNote.id)
+          .eq('anchor_text', text.slice(0, 500));
+      }
     }
     sel.removeAllRanges();
-    saveHighlights();
   }
 
-  function saveHighlights() {
-    if (!currentNote) return;
-    const noteEl = document.getElementById('notePage');
-    const highlights = [];
-    noteEl.querySelectorAll('[class^="highlight-"]').forEach(el => {
-      highlights.push({
-        id: el.dataset.hlId,
-        color: el.className.replace('highlight-', ''),
-        text: el.textContent,
+  async function restoreHighlights() {
+    if (!supabaseClient || !currentNote) return;
+    try {
+      const { data } = await supabaseClient.from('highlights')
+        .select('*')
+        .eq('note_id', currentNote.id);
+      if (!data || !data.length) return;
+
+      for (const hl of data) {
+        const section = document.querySelector(`.note-section[data-sec="${hl.section_idx}"]`);
+        if (!section) continue;
+        highlightTextInNode(section, hl.anchor_text, hl.color, hl.user_name);
+      }
+    } catch {}
+  }
+
+  function highlightTextInNode(root, text, color, user) {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    let node;
+    while (node = walker.nextNode()) {
+      const idx = node.textContent.indexOf(text);
+      if (idx === -1) continue;
+      if (node.parentElement.className && node.parentElement.className.startsWith('highlight-')) continue;
+
+      const range = document.createRange();
+      range.setStart(node, idx);
+      range.setEnd(node, idx + text.length);
+      const span = document.createElement('span');
+      span.className = 'highlight-' + color;
+      span.title = user || '';
+      range.surroundContents(span);
+      return true;
+    }
+    return false;
+  }
+
+  // ── Annotation System (right sidebar) ──
+  function showAnnotationInput(quoteText) {
+    return new Promise(resolve => {
+      const overlay = document.createElement('div');
+      overlay.className = 'user-prompt-overlay';
+      overlay.innerHTML = `<div class="user-prompt-box">
+        <h2>Add Note</h2>
+        <p style="font-style:italic;color:var(--text-muted);font-size:0.8rem;max-height:2.4em;overflow:hidden;margin-bottom:0.5rem;">"${esc(quoteText.slice(0, 80))}"</p>
+        <textarea id="annInput" rows="3" placeholder="Your note..." style="width:100%;padding:0.5rem 0.75rem;border:1px solid var(--border);border-radius:4px;font-size:0.9rem;font-family:var(--font-sans);resize:vertical;margin-bottom:0.75rem;"></textarea>
+        <br><button id="annSaveBtn" style="padding:0.5rem 1.5rem;border:none;border-radius:4px;background:var(--accent);color:#fff;cursor:pointer;font-size:0.9rem;margin-right:0.5rem;">Save</button>
+        <button id="annCancelBtn" style="padding:0.5rem 1.5rem;border:1px solid var(--border);border-radius:4px;background:var(--bg-card);cursor:pointer;font-size:0.9rem;">Cancel</button>
+      </div>`;
+      document.body.appendChild(overlay);
+      const input = document.getElementById('annInput');
+      input.focus();
+      document.getElementById('annSaveBtn').addEventListener('click', () => {
+        const val = input.value.trim();
+        overlay.remove();
+        resolve(val || null);
+      });
+      document.getElementById('annCancelBtn').addEventListener('click', () => {
+        overlay.remove();
+        resolve(null);
       });
     });
-    try {
-      localStorage.setItem('hl-' + currentNote.id, JSON.stringify(highlights));
-    } catch {}
-    if (supabaseClient && currentNote) {
-      supabaseClient.from('highlights').upsert({
+  }
+
+  async function addAnnotationFromSelection(anchor) {
+    if (!anchor || anchor.secIdx < 0) return;
+
+    const body = await showAnnotationInput(anchor.text);
+    if (!body) return;
+
+    if (supabaseClient) {
+      await supabaseClient.from('annotations').insert({
         note_id: currentNote.id,
-        data: highlights,
-        updated_at: new Date().toISOString(),
-      }, { onConflict: 'note_id' }).then(() => {});
+        section_idx: anchor.secIdx,
+        anchor_text: anchor.text.slice(0, 500),
+        anchor_prefix: anchor.prefix.slice(0, 100),
+        anchor_suffix: anchor.suffix.slice(0, 100),
+        body: body.trim(),
+        user_name: userName,
+      });
     }
+    await loadAndShowAnnotations();
   }
 
-  // Annotations (margin notes)
-  function setupAnnotations() {
-    document.getElementById('notePage').addEventListener('dblclick', (e) => {
-      const section = e.target.closest('.note-section');
-      if (!section || !currentNote) return;
-      const sectionTitle = section.querySelector('h2')?.textContent || '';
-      showAnnotationDialog(sectionTitle, section);
-    });
-  }
+  async function loadAndShowAnnotations() {
+    let panel = document.getElementById('annotationPanel');
+    if (!panel) {
+      panel = document.createElement('div');
+      panel.id = 'annotationPanel';
+      panel.className = 'annotation-panel';
+      document.body.appendChild(panel);
+    }
 
-  function showAnnotationDialog(sectionTitle, sectionEl) {
-    let existing = sectionEl.querySelector('.annotation-box');
-    if (existing) { existing.focus(); return; }
+    if (!supabaseClient || !currentNote) {
+      panel.innerHTML = '<h3>Notes</h3><p style="font-size:0.78rem;color:var(--text-muted);">Select text and click the note button to add annotations.</p>';
+      return;
+    }
 
-    const box = document.createElement('div');
-    box.className = 'annotation-box';
-    box.style.cssText = 'background:var(--bg-card);border:1px solid var(--accent);border-radius:var(--radius);padding:0.75rem;margin:0.75rem 0;';
-    box.innerHTML = `
-      <div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.4rem;">Annotation for "${esc(sectionTitle)}"</div>
-      <textarea style="width:100%;min-height:60px;border:1px solid var(--border);border-radius:4px;padding:0.5rem;font-size:0.85rem;font-family:var(--font-sans);resize:vertical;" placeholder="Write your notes here..."></textarea>
-      <div style="margin-top:0.4rem;text-align:right;">
-        <button onclick="this.closest('.annotation-box').remove()" style="padding:0.3rem 0.6rem;border:1px solid var(--border);border-radius:4px;background:var(--bg-page);cursor:pointer;font-size:0.8rem;margin-right:0.3rem;">Cancel</button>
-        <button class="save-annotation" style="padding:0.3rem 0.6rem;border:none;border-radius:4px;background:var(--accent);color:#fff;cursor:pointer;font-size:0.8rem;">Save</button>
-      </div>`;
-    sectionEl.appendChild(box);
+    try {
+      const { data } = await supabaseClient.from('annotations')
+        .select('*')
+        .eq('note_id', currentNote.id)
+        .order('created_at', { ascending: true });
 
-    const textarea = box.querySelector('textarea');
-    textarea.focus();
-
-    loadAnnotation(currentNote.id, sectionTitle).then(text => {
-      if (text) textarea.value = text;
-    });
-
-    box.querySelector('.save-annotation').addEventListener('click', () => {
-      const text = textarea.value.trim();
-      if (text) {
-        saveAnnotation(currentNote.id, sectionTitle, text);
-        box.innerHTML = `<div class="margin-note" style="position:relative;right:auto;width:auto;margin:0.5rem 0;">
-          <strong style="font-size:0.75rem;">My Note:</strong> ${esc(text)}
-        </div>`;
+      let html = '<h3>Notes (' + (data ? data.length : 0) + ')</h3>';
+      if (!data || !data.length) {
+        html += '<p style="font-size:0.78rem;color:var(--text-muted);">Select text, then click the note button (speech bubble) to add annotations.</p>';
       } else {
-        box.remove();
+        for (const ann of data) {
+          html += `<div class="ann-card" data-sec="${ann.section_idx}" onclick="scrollToSection(${ann.section_idx})">`;
+          if (userName === ann.user_name) {
+            html += `<button class="ann-delete" onclick="event.stopPropagation();deleteAnnotation(${ann.id})" title="Delete">&times;</button>`;
+          }
+          html += `<div class="ann-quote">${esc(ann.anchor_text.slice(0, 80))}</div>`;
+          html += `<div class="ann-body">${esc(ann.body)}</div>`;
+          html += `<div class="ann-meta">${esc(ann.user_name)} &middot; ${new Date(ann.created_at).toLocaleDateString()}</div>`;
+          html += '</div>';
+        }
       }
-    });
-  }
-
-  async function saveAnnotation(noteId, section, text) {
-    try {
-      localStorage.setItem(`ann-${noteId}-${section}`, text);
-    } catch {}
-    if (supabaseClient) {
-      await supabaseClient.from('annotations').upsert({
-        note_id: noteId,
-        section: section,
-        text: text,
-        updated_at: new Date().toISOString(),
-      }, { onConflict: 'note_id,section' });
+      panel.innerHTML = html;
+    } catch {
+      panel.innerHTML = '<h3>Notes</h3><p style="font-size:0.78rem;color:var(--text-muted);">Could not load annotations.</p>';
     }
   }
 
-  async function loadAnnotation(noteId, section) {
-    if (supabaseClient) {
-      try {
-        const { data } = await supabaseClient.from('annotations')
-          .select('text')
-          .eq('note_id', noteId)
-          .eq('section', section)
-          .single();
-        if (data) return data.text;
-      } catch {}
-    }
-    try {
-      return localStorage.getItem(`ann-${noteId}-${section}`) || '';
-    } catch { return ''; }
-  }
+  window.scrollToSection = function(secIdx) {
+    const sec = document.querySelector(`.note-section[data-sec="${secIdx}"]`);
+    if (sec) sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  window.deleteAnnotation = async function(annId) {
+    if (!supabaseClient) return;
+    await supabaseClient.from('annotations').delete().eq('id', annId);
+    await loadAndShowAnnotations();
+  };
 
   init();
 })();
