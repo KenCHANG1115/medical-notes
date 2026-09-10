@@ -1,0 +1,534 @@
+[
+  {
+    "file": "Harrison's Principles of Internal Medicine - 22nd edition (1).pdf",
+    "total_pages": 4273,
+    "sampled": 20,
+    "text_pages": 19,
+    "ocr_pages": 1,
+    "text_ratio": 0.95,
+    "needs_ocr": false,
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 214,
+        "chars": 5219,
+        "has_text": true,
+        "preview": "171 Neurologic Causes of Weakness and Paralysis  CHAPTER 26 Hemiparesis UMN signs Cerebral signs Bra"
+      },
+      {
+        "page": 427,
+        "chars": 6522,
+        "has_text": true,
+        "preview": "384 PART 2 Cardinal Manifestations and Presentation of Diseases FIGURE 60-2  Dyshidrotic eczema. Dee"
+      },
+      {
+        "page": 640,
+        "chars": 6308,
+        "has_text": true,
+        "preview": "Oncologic Emergencies 597 CHAPTER 80 FIGURE 80-6  Abdominal computed tomography (CT) scans of a 72-y"
+      },
+      {
+        "page": 853,
+        "chars": 7586,
+        "has_text": true,
+        "preview": "810 PART 4 Oncology and Hematology TABLE 107-3  Some Drugs and Chemicals Associated with Aplastic  A"
+      },
+      {
+        "page": 1066,
+        "chars": 8095,
+        "has_text": true,
+        "preview": "Pneumonia 1023 CHAPTER 131 Pneumonia Lionel A. Mandell, Michael S. Niederman 131 DEFINITION Pneumoni"
+      },
+      {
+        "page": 1279,
+        "chars": 9307,
+        "has_text": true,
+        "preview": "1236 PART 5 Infectious Diseases were intubated during the first 2 days of hospitalization. The sever"
+      },
+      {
+        "page": 1492,
+        "chars": 8063,
+        "has_text": true,
+        "preview": "Lyme Borreliosis 1449 CHAPTER 191 or polyneuropathy, or acrodermatitis may develop (stage 3, persist"
+      },
+      {
+        "page": 1705,
+        "chars": 3348,
+        "has_text": true,
+        "preview": "1662 PART 5 Infectious Diseases TABLE 215-1  Zoonotic Arthropod- and Rodent-Borne Viruses That Infec"
+      },
+      {
+        "page": 1918,
+        "chars": 1583,
+        "has_text": true,
+        "preview": "Electrocardiography 1875 CHAPTER 247 Hypokalemia Hypothermia Amiodarone II Tricyclic overdose I Suba"
+      },
+      {
+        "page": 2131,
+        "chars": 8581,
+        "has_text": true,
+        "preview": "2088 PART 6 Disorders of the Cardiovascular System TABLE 283-1  Spectrum of Cardiac Abnormalities Fo"
+      },
+      {
+        "page": 2344,
+        "chars": 3734,
+        "has_text": true,
+        "preview": "Acute Respiratory Distress Syndrome  2301 CHAPTER 312 FIGURE 312-3  The injured alveolus in the acut"
+      },
+      {
+        "page": 2557,
+        "chars": 7590,
+        "has_text": true,
+        "preview": "2514 PART 10 Disorders of the Gastrointestinal System the need for diagnostic testing in most patien"
+      },
+      {
+        "page": 2770,
+        "chars": 8392,
+        "has_text": true,
+        "preview": "Diseases of the Gallbladder and Bile Ducts  2727 CHAPTER 357 Diseases of the  Gallbladder and Bile D"
+      },
+      {
+        "page": 2983,
+        "chars": 6861,
+        "has_text": true,
+        "preview": "2940 PART 11 Immune-Mediated, Inflammatory, and Rheumatologic Disorders  Trauma/fracture Low back pa"
+      },
+      {
+        "page": 3196,
+        "chars": 6399,
+        "has_text": true,
+        "preview": "3153 Infertility and Contraception  CHAPTER 408 performed during a cesarean section or after a vagin"
+      },
+      {
+        "page": 3409,
+        "chars": 8470,
+        "has_text": true,
+        "preview": "3366 PART 12 Endocrinology and Metabolism as lactose (glucose plus galactose) through breastmilk or "
+      },
+      {
+        "page": 3622,
+        "chars": 3322,
+        "has_text": true,
+        "preview": "Multiple Sclerosis 3579 CHAPTER 455 Time (years) A EDSS Relapses MRI Activity RIS CIS Relapsing MS P"
+      },
+      {
+        "page": 3835,
+        "chars": 6901,
+        "has_text": true,
+        "preview": "3792 PART 16 Genes, the Environment, and Disease paternal origin. The opposite situation occurs in o"
+      },
+      {
+        "page": 4048,
+        "chars": 6250,
+        "has_text": true,
+        "preview": "INDEX I-5 parathyroid, 3275. See also  Hyperparathyroidism pituitary. See Pituitary tumors (adenomas"
+      }
+    ],
+    "book_id": "harrison",
+    "book_name": "Harrison's Principles of Internal Medicine"
+  },
+  {
+    "file": "醫學(三)第2冊原稿頁碼有錯336起,誤為374起.pdf",
+    "total_pages": 363,
+    "sampled": 20,
+    "text_pages": 0,
+    "ocr_pages": 20,
+    "text_ratio": 0.0,
+    "needs_ocr": true,
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 19,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 37,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 55,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 73,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 91,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 109,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 127,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 145,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 163,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 181,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 199,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 217,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 235,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 253,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 271,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 289,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 307,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 325,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 343,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      }
+    ],
+    "book_id": "first-choice-2",
+    "book_name": "醫學(三) 第2冊"
+  },
+  {
+    "file": "醫學(三)第3冊.pdf",
+    "total_pages": 386,
+    "sampled": 20,
+    "text_pages": 0,
+    "ocr_pages": 20,
+    "text_ratio": 0.0,
+    "needs_ocr": true,
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 20,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 39,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 58,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 77,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 96,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 115,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 134,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 153,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 172,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 191,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 210,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 229,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 248,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 267,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 286,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 305,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 324,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 343,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 362,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      }
+    ],
+    "book_id": "first-choice-3",
+    "book_name": "醫學(三) 第3冊"
+  },
+  {
+    "file": "醫學(三)第4冊.pdf",
+    "total_pages": 513,
+    "sampled": 20,
+    "text_pages": 0,
+    "ocr_pages": 20,
+    "text_ratio": 0.0,
+    "needs_ocr": true,
+    "page_details": [
+      {
+        "page": 1,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 26,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 51,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 76,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 101,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 126,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 151,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 176,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 201,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 226,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 251,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 276,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 301,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 326,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 351,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 376,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 401,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 426,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 451,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      },
+      {
+        "page": 476,
+        "chars": 0,
+        "has_text": false,
+        "preview": "(empty)"
+      }
+    ],
+    "book_id": "first-choice-4",
+    "book_name": "醫學(三) 第4冊"
+  }
+]
