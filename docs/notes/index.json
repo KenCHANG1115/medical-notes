@@ -3,7 +3,8 @@
     {
       "name": "心臟內科",
       "diseases": [
-        {"id": "hypertension", "name": "Hypertension (高血壓)"}
+        {"id": "hypertension", "name": "Hypertension (高血壓)"},
+        {"id": "ecg-arrhythmias", "name": "ECG & Arrhythmias (心電圖與心律不整)"}
       ]
     },
     {

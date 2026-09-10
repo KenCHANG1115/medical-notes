@@ -1,0 +1,235 @@
+{
+  "id": "ecg-arrhythmias",
+  "title": "ECG & Arrhythmias (心電圖與心律不整)",
+  "title_en": "ECG & Arrhythmias",
+  "title_zh": "心電圖與心律不整",
+  "specialty": "心臟內科",
+  "sources": [
+    "Harrison's 22e - Ch.247 Electrocardiography (p.1911-1918)",
+    "Harrison's 22e - Ch.251-252 Bradyarrhythmias (p.1942-1947)",
+    "Harrison's 22e - Ch.258 Atrial Fibrillation (p.1990-1996)",
+    "First Choice 醫學(三) - 丁、心電圖判讀、心律不整 (p.116-124)"
+  ],
+  "generated": "2026-09-10",
+  "sections": [
+    {
+      "title": "Overview / Epidemiology",
+      "content": [
+        "心電圖 (ECG/EKG) 是記錄心臟電氣活動的非侵入性檢查，可偵測 arrhythmias、conduction disturbances、myocardial ischemia/infarction、電解質異常及藥物毒性。",
+        {"type": "callout", "style": "guideline", "text": "ECG 判讀六步口訣 (First Choice)：\n**RAte → RHythm → Interval → Axis → Hypertrophy → Infarct**\nRate 評估速率，Rhythm 評估節律來源，Interval/Axis 評估傳導阻滯，Hypertrophy 評估心肌肥大，Infarct 評估心肌缺血"},
+        "心律不整是常見的心血管疾病。**Atrial fibrillation (AF)** 是最常見的持續性心律不整，盛行率隨年齡增加，>60 歲佔 >95%，>80 歲約 20%。40 歲男性終生風險約 25%。",
+        {"type": "callout", "style": "logic", "text": "AF 的重要性：\n- 死亡風險增加 1.5-1.9 倍\n- 約 25% 的中風由 AF 引起\n- 可導致 tachycardia-induced cardiomyopathy\n- 增加 dementia 風險"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1911, 1990-1991"}
+      ]
+    },
+    {
+      "title": "Etiology / Risk Factors",
+      "content": [
+        {"type": "heading", "text": "心律不整的常見原因"},
+        {"type": "list", "ordered": false, "items": [
+          "**結構性心臟病**：HF、cardiomyopathy、valvular disease (尤其 mitral stenosis)、CHD",
+          "**電解質異常**：低血鉀、低血鎂 → QT prolongation → Torsades de Pointes (TdP)；高血鉀 → peaked T wave → widened QRS → VF",
+          "**代謝/內分泌**：Hyperthyroidism (AF)、hypothyroidism (bradycardia)",
+          "**藥物**：Digoxin toxicity、antiarrhythmics (proarrhythmic effect)、QT-prolonging drugs",
+          "**其他**：acute alcohol (holiday heart)、MI、PE、pericarditis、cardiac surgery (術後 AF 高達 50%)"
+        ]},
+        {"type": "heading", "text": "AF 的危險因子"},
+        {"type": "list", "ordered": false, "items": [
+          "高齡 (最重要因子)、高血壓、糖尿病",
+          "心臟疾病（HF、CAD、valvular disease）",
+          "肥胖、sleep-disordered breathing",
+          "家族史、酒精使用",
+          "甲狀腺疾病"
+        ]},
+        {"type": "callout", "style": "trap", "text": "Holiday heart syndrome：急性酒精中毒誘發的 AF，常見於節假日後的年輕患者，通常可自行恢復"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1990-1991"}
+      ]
+    },
+    {
+      "title": "Pathophysiology",
+      "content": [
+        {"type": "heading", "text": "心肌細胞電生理"},
+        "心肌動作電位分為五個 phase：",
+        {"type": "table", "headers": ["Phase", "離子流", "說明"], "rows": [
+          ["Phase 4 (靜止期)", "K+ 濃度差維持", "靜止膜電位 -90 mV，由 Na+/K+ ATPase (3Na出2K入) 及 Ik1 通道維持"],
+          ["Phase 0 (去極化)", "Na+ 快速流入", "膜電位達閾值 -60 mV，Na+ 正電流入使電位急速上升"],
+          ["Phase 1 (早期復極)", "K+ (Ito) 短暫外流", "去極化活化的 Ito 通道打開，電位稍下降"],
+          ["Phase 2 (高原期)", "Ca2+ 流入 = K+ 外流", "L-type Ca2+ 通道開放，形成 plateau，對應 ECG 的 ST segment"],
+          ["Phase 3 (復極化)", "K+ 持續外流", "鉀離子通道持續開放，電位回到休息狀態，對應 T wave"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "SA node vs 心室細胞的關鍵差異：\n- SA node 靜止電位較高 (-55~-65 mV vs -85~-90 mV)\n- SA node Phase 0 由 **L-type Ca2+ 通道** 驅動（較慢），非 Na+ 快速通道\n- SA node 有 Phase 4 自動去極化 (pacemaker potential)：If (funny current) 使細胞緩慢自動去極化\n- SA node 無明顯 Phase 2 平台期"},
+        {"type": "heading", "text": "AF 的病理生理"},
+        "AF 的發生為多因子過程：Pulmonary vein musculature 的 enhanced automaticity → ectopic beats → 引發 AF。後續 atrial remodeling（電氣、收縮、結構重塑）→ refactory period 縮短 → 維持 AF。",
+        {"type": "callout", "style": "logic", "text": "**AF begets AF**：AF 造成 atrial remodeling → refractory period 縮短 → 更容易維持 AF → 進一步 remodeling，形成惡性循環。Paroxysmal → Persistent → Long-standing persistent"},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "116-118"}
+      ]
+    },
+    {
+      "title": "Pathology",
+      "content": [
+        {"type": "heading", "text": "心臟傳導系統"},
+        {"type": "list", "ordered": true, "items": [
+          "**SA node** (竇房結)：位於 right atrium 上方，正常 pacemaker (60-100 bpm)",
+          "**AV node** (房室結)：位於 interatrial septum 下方，PR interval 的主要延遲處",
+          "**Bundle of His** → **Right bundle branch** + **Left bundle branch** (分為 left anterior fascicle + left posterior fascicle)",
+          "**Purkinje fibers**：快速傳導至心室心內膜"
+        ]},
+        {"type": "heading", "text": "ECG 基本波形"},
+        {"type": "table", "headers": ["波形/間期", "代表意義", "正常值"], "rows": [
+          ["P wave", "心房去極化", "< 120 ms, < 2.5 mm (II)"],
+          ["PR interval", "心房 → 心室傳導時間（含 AV node delay）", "120-200 ms (3-5 小格)"],
+          ["QRS complex", "心室去極化", "< 120 ms (< 3 小格)"],
+          ["ST segment", "心室高原期（Phase 2）", "等電位線"],
+          ["T wave", "心室復極化（Phase 3）", "與 QRS 主波方向一致"],
+          ["QT interval", "心室去極化 + 復極化總時間", "QTc < 450 ms (男), < 460 ms (女)"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "計算心率 (若節律規則)：\n**HR = 300 ÷ RR interval 大格數** 或 **1500 ÷ RR interval 小格數**\n記錄速度 25 mm/s：1 小格 = 40 ms，1 大格 = 200 ms"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1911-1914"}
+      ]
+    },
+    {
+      "title": "Clinical Presentation",
+      "content": [
+        {"type": "heading", "text": "Tachyarrhythmias (> 100 bpm) 的鑑別"},
+        {"type": "callout", "style": "guideline", "text": "以 **QRS 寬窄** + **規則性** 四象限分類：\n\n**窄 QRS + 規則**：Sinus tachycardia、Atrial flutter、AVNRT、AVRT (orthodromic)、Junctional tachycardia\n**窄 QRS + 不規則**：AF、Atrial flutter with variable block、MAT\n**寬 QRS + 規則**：VT、SVT + BBB、SVT + accessory pathway (antidromic AVRT)\n**寬 QRS + 不規則**：VF、Polymorphic VT (TdP)、AF + BBB、AF + accessory pathway"},
+        {"type": "callout", "style": "trap", "text": "寬 QRS tachycardia 的原則：**先當 VT 處理**，直到證實不是！\nSVT with aberrancy 較少見。若不確定，給 IV adenosine 不安全（若為 AF + WPW，可能致命）"},
+        {"type": "heading", "text": "Bradyarrhythmias (< 60 bpm)"},
+        {"type": "list", "ordered": false, "items": [
+          "**Sinus bradycardia**：可為生理性（運動員）或病理性",
+          "**AV block**：依嚴重度分為 1st, 2nd (Type I/II), 3rd degree",
+          "**Sick sinus syndrome**：交替出現 bradycardia 和 tachycardia (Brady-tachy syndrome)"
+        ]},
+        {"type": "heading", "text": "AF 的臨床表現"},
+        {"type": "list", "ordered": false, "items": [
+          "**Palpitations**：不規則心跳感，部分患者無症狀",
+          "**Exercise intolerance, fatigue, dyspnea**：喪失 atrial kick (15-25% of CO)",
+          "**Presyncope / syncope**：過快或過慢心率",
+          "**Stroke / TIA**：LA appendage thrombus 栓塞",
+          "**Heart failure**：長期快速心率 → tachycardia-induced cardiomyopathy"
+        ]},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "119-122"}
+      ]
+    },
+    {
+      "title": "Diagnosis",
+      "content": [
+        {"type": "heading", "text": "ECG 判讀系統方法"},
+        {"type": "callout", "style": "guideline", "text": "1. **Rate**：300/大格 或 1500/小格\n2. **Rhythm**：P wave present? Regular? P:QRS ratio?\n3. **Intervals**：PR (120-200ms)、QRS (<120ms)、QT/QTc\n4. **Axis**：Lead I (+) + aVF (+) = 正常軸 (0° ~ +90°)\n5. **Hypertrophy**：LVH (Sokolow-Lyon: SV1+RV5/V6 ≥ 35mm)、RVH (R>S in V1)\n6. **Ischemia/Infarct**：ST elevation/depression、Q waves、T wave changes"},
+        {"type": "heading", "text": "AV Block 的診斷"},
+        {"type": "table", "headers": ["Type", "ECG 特徵", "臨床意義"], "rows": [
+          ["1st degree", "PR > 200 ms，每個 P 都傳導", "通常良性，不需治療"],
+          ["2nd degree Type I (Wenckebach)", "PR 逐漸延長 → dropped QRS", "通常良性 (AV node level)"],
+          ["2nd degree Type II (Mobitz II)", "PR 固定，QRS 突然消失", "危險！Infra-nodal block → 可能進展至 3rd degree"],
+          ["3rd degree (Complete)", "P 與 QRS 各跳各的 (AV dissociation)", "需 pacemaker"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "Type I vs Type II 2nd degree AV block：\n- Type I (Wenckebach)：PR **漸行漸遠** (progressive prolongation)，QRS 通常窄\n- Type II (Mobitz II)：PR **固定**，QRS 突然 drop，QRS 通常寬 → 需 pacemaker"},
+        {"type": "heading", "text": "Bundle Branch Block (BBB)"},
+        {"type": "table", "headers": ["Type", "V1 特徵", "記憶法"], "rows": [
+          ["LBBB", "深 V 形 (rS or QS)", "**L**eft → Lead V1 像 **V** 字"],
+          ["RBBB", "兔耳朵 (rsR')", "**R**ight → **R**abbit ears"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "BBB 定義：QRS ≥ 120 ms (3 小格)\n若 QRS 寬但無典型 LBBB/RBBB pattern → **IVCD** (Interventricular conduction delay)"},
+        {"type": "heading", "text": "AF 的臨床分類"},
+        {"type": "table", "headers": ["類型", "定義", "LA 大小", "治療反應"], "rows": [
+          ["Paroxysmal AF", "< 7 天自行或治療後終止", "正常~輕度增大", "AAD 通常有效"],
+          ["Persistent AF", "> 7 天 ~ < 1 年", "輕~重度增大", "AAD 效果次之"],
+          ["Long-standing persistent AF", "> 1 年", "通常重度增大", "AAD 通常無效"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1912-1918, 1990-1991"}
+      ]
+    },
+    {
+      "title": "Treatment",
+      "content": [
+        {"type": "heading", "text": "Tachyarrhythmia 的急性處理"},
+        {"type": "callout", "style": "guideline", "text": "不穩定的 tachyarrhythmia (hemodynamic compromise)：**立即 synchronized cardioversion**\n穩定的 narrow QRS tachycardia：**Vagal maneuver → IV Adenosine → Rate control agents**\n穩定的 wide QRS (assume VT)：**IV Amiodarone**\nVF / Pulseless VT：**Immediate defibrillation (unsynchronized)**"},
+        {"type": "heading", "text": "AF 治療三大目標"},
+        {"type": "list", "ordered": true, "items": [
+          "**Rate control 和/或 Rhythm control**",
+          "**Stroke prevention (抗凝血)**",
+          "**修正可改變的危險因子**"
+        ]},
+        {"type": "heading", "text": "AF Rate Control"},
+        {"type": "table", "headers": ["藥物", "機轉", "注意事項"], "rows": [
+          ["Beta-blockers (metoprolol, esmolol)", "阻斷 AV node 傳導", "First-line；HF with reduced EF 可用"],
+          ["Non-DHP CCB (Diltiazem, Verapamil)", "阻斷 AV node Ca2+ channel", "不可用於 HFrEF (negative inotropic)"],
+          ["Digoxin", "增加 vagal tone → 減慢 AV conduction", "Narrow therapeutic window；近期研究顯示增加死亡率"],
+          ["Amiodarone", "Multi-channel blocker", "用於其他藥物無效或嚴重 HF"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "Rate control 目標：\n- 休息心率 < 80 bpm，輕度運動 < 100 bpm\n- Lenient strategy (< 110 bpm at rest) 也可接受，效果與嚴格控制相當"},
+        {"type": "heading", "text": "AF Rhythm Control"},
+        {"type": "callout", "style": "logic", "text": "Early rhythm control (確診 1 年內) 相較 rate control 可減少心血管事件和死亡。\nCatheter ablation 可作為 first-line therapy，尤其 paroxysmal AF。\n即使維持 sinus rhythm，仍需根據 CHA2DS2-VASc 評分決定是否抗凝"},
+        {"type": "collapsible", "summary": "Antiarrhythmic drugs 選擇", "text": "**無結構性心臟病**：Flecainide, Propafenone (Class IC)\n**有 CAD 或結構性心臟病**：Sotalol, Dofetilide (Class III) — 約 3% TdP 風險，需住院監測\n**HF / CAD**：Amiodarone — 最有效 (~2/3 維持 SR)，但 >40% 長期毒性 (肺、肝、甲狀腺、皮膚)\n**Dronedarone**：禁用於 HF 和 long-standing persistent AF (增加死亡率)"},
+        {"type": "heading", "text": "AF Stroke Prevention"},
+        {"type": "callout", "style": "guideline", "text": "**CHA2DS2-VASc Score** (每項 1-2 分)：\nC - CHF (1) | H - Hypertension (1) | A2 - Age ≥75 (2)\nD - DM (1) | S2 - Stroke/TIA history (2)\nV - Vascular disease (1) | A - Age 65-74 (1) | Sc - Sex (female) (1)\n\n→ **Score ≥ 1 (排除單獨女性因子)：建議口服抗凝血劑**"},
+        {"type": "table", "headers": ["DOAC", "標準劑量", "減量劑量", "減量條件"], "rows": [
+          ["Dabigatran", "150 mg bid", "110 mg bid", "≥80 歲、併用 verapamil、出血高風險"],
+          ["Rivaroxaban", "20 mg qd", "15 mg qd", "CrCl 15-49 mL/min"],
+          ["Apixaban", "5 mg bid", "2.5 mg bid", "≥80歲 + 體重≤60kg + Cr≥1.5 (至少符合2項)"],
+          ["Edoxaban", "60 mg qd", "30 mg qd", "CrCl 30-50、體重≤60kg、或併用特定藥物"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "Warfarin 仍為必要的情況：\n1. Mechanical heart valve → **只能用 warfarin** (DOAC 禁忌！dabigatran RE-ALIGN trial 早期終止)\n2. Rheumatic mitral stenosis\nDOAC 整體優於 warfarin：較少 intracranial hemorrhage，不需常規 INR 監測"},
+        {"type": "heading", "text": "Cardioversion 注意事項"},
+        {"type": "callout", "style": "guideline", "text": "AF > 48 小時或持續時間不明 → cardioversion 前需：\n- 持續抗凝 ≥ 3 週 → cardioversion → 續抗凝 ≥ 4 週\n- 或先做 TEE 排除 LA appendage thrombus → cardioversion → 抗凝 ≥ 4 週\n原因：cardioversion 後可能出現 atrial stunning，即使恢復 sinus rhythm 也可能形成 thrombus"},
+        {"type": "heading", "text": "Bradyarrhythmia 的治療"},
+        {"type": "callout", "style": "guideline", "text": "需要 pacemaker 的情況：\n- Symptomatic sinus bradycardia\n- 2nd degree Type II AV block\n- 3rd degree (complete) AV block\n- Sick sinus syndrome with symptoms\n\n1st degree 和 Type I 2nd degree 通常不需治療（除非有症狀）"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1991-1996"}
+      ]
+    },
+    {
+      "title": "Prognosis / Follow-up",
+      "content": [
+        {"type": "list", "ordered": false, "items": [
+          "AF 控制不佳可導致 **tachycardia-induced cardiomyopathy**，通常在 rate control 後**可逆**",
+          "Long-standing persistent AF：LA 擴大 + fibrosis → **stiff left atrial syndrome** (LA filling pressure 升高、HF)",
+          "AF 患者的中風風險持續存在，即使看似 paroxysmal，也常有 asymptomatic episodes",
+          "Catheter ablation 在 HFrEF 患者中顯示 **all-cause mortality benefit**",
+          "Complete AV block 若未置放 pacemaker 可能致命（escape rhythm 不穩定）"
+        ]},
+        {"type": "callout", "style": "logic", "text": "AF 進展規律：\nEctopic beats (PV foci) → Paroxysmal AF → Persistent AF → Long-standing persistent AF\n每個階段伴隨更多 atrial remodeling、fibrosis、LA enlargement，治療效果逐漸下降"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1990-1992"}
+      ]
+    },
+    {
+      "title": "Special Populations",
+      "content": [
+        {"type": "heading", "text": "WPW (Wolff-Parkinson-White) Syndrome"},
+        {"type": "callout", "style": "trap", "text": "WPW + AF 是致命組合！\n- Accessory pathway 可快速傳導 → 極快心室率 → VF\n- **禁用 AV node blockers**：Adenosine、Digoxin、Verapamil、Diltiazem\n- 治療：Procainamide 或 electrical cardioversion\nECG 特徵：短 PR + delta wave + 寬 QRS"},
+        {"type": "heading", "text": "心臟術後 AF"},
+        "心臟手術後 AF 發生率高達 50%，通常在術後 2-4 天出現，多數為自限性。Beta-blockers 可預防。",
+        {"type": "heading", "text": "運動員的心電圖"},
+        {"type": "list", "ordered": false, "items": [
+          "Sinus bradycardia (可低至 30-40 bpm) — 正常，高 vagal tone",
+          "1st degree AV block — 常見，不需治療",
+          "Early repolarization (J-point elevation) — 正常變異",
+          "LVH voltage criteria — 可為生理性 (athlete's heart)"
+        ]},
+        {"type": "heading", "text": "Torsades de Pointes (TdP)"},
+        {"type": "callout", "style": "trap", "text": "QT prolongation → Polymorphic VT with twisting QRS axis\n原因：QT-prolonging drugs、低血鉀、低血鎂、先天性 long QT syndrome\n治療：**IV Magnesium** (first-line)、Isoproterenol、Overdrive pacing\n**禁用一般抗心律不整藥物** (會進一步延長 QT)"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1993-1994"}
+      ]
+    },
+    {
+      "title": "High-Yield Exam Points",
+      "content": [
+        {"type": "callout", "style": "trap", "text": "考試常見陷阱整理：\n1. 寬 QRS tachycardia → **先想 VT**，不要急著給 adenosine\n2. AF + WPW → **禁用 AV node blockers** (adenosine, verapamil, digoxin)\n3. Torsades de Pointes → **IV Mg2+**，不是 amiodarone\n4. Type II 2nd degree AV block → **需 pacemaker**；Type I 通常不需\n5. New LBBB + chest pain → 高度懷疑 **acute MI**，需緊急處理\n6. DOAC 禁用於 mechanical valve 和 rheumatic MS → **只能 warfarin**"},
+        {"type": "callout", "style": "guideline", "text": "ECG 速記：\n- **LBBB** in V1 = 深 V (Like a V)\n- **RBBB** in V1 = 兔耳朵 rsR' (R = Rabbit)\n- **AF** = no P waves + irregularly irregular rhythm\n- **Atrial flutter** = sawtooth pattern (250-300 bpm atrial rate)\n- **VT** = wide QRS + regular + AV dissociation\n- **3rd degree AV block** = P 和 QRS 各跳各的"},
+        {"type": "callout", "style": "logic", "text": "CHA2DS2-VASc 口訣記憶：\n**C**HF + **H**TN + **A**ge≥75(x2) + **D**M + **S**troke(x2) + **V**ascular + **A**ge65-74 + **Sc** (female)\n≥ 1 分 (排除單獨女性) → 口服抗凝血劑"},
+        {"type": "table", "headers": ["心律不整", "首選治療", "禁忌"], "rows": [
+          ["Stable narrow complex SVT", "Vagal → Adenosine", "AF + WPW 不可用"],
+          ["Stable wide complex (assume VT)", "IV Amiodarone", "Adenosine 不安全"],
+          ["Unstable tachycardia", "Synchronized cardioversion", "無絕對禁忌"],
+          ["VF / Pulseless VT", "Defibrillation (unsynchronized)", "無絕對禁忌"],
+          ["Symptomatic bradycardia", "Atropine → Pacing", "-"],
+          ["Torsades de Pointes", "IV Magnesium", "一般 antiarrhythmics"],
+          ["AF rate control", "Beta-blocker / Diltiazem", "Verapamil/Diltiazem in HFrEF"],
+          ["AF stroke prevention", "DOAC (or Warfarin)", "DOAC in mechanical valve"]
+        ]},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "116-124"}
+      ]
+    }
+  ],
+  "related": [
+    {"id": "hypertension", "name": "Hypertension (高血壓)"}
+  ]
+}

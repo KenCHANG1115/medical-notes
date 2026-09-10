@@ -199,6 +199,7 @@
     {"id": "heart-failure", "name": "Heart Failure (心臟衰竭)"},
     {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
     {"id": "aortic-dissection", "name": "Aortic Dissection (主動脈剝離)"},
-    {"id": "pheochromocytoma", "name": "Pheochromocytoma (嗜鉻細胞瘤)"}
+    {"id": "pheochromocytoma", "name": "Pheochromocytoma (嗜鉻細胞瘤)"},
+    {"id": "ecg-arrhythmias", "name": "ECG & Arrhythmias (心電圖與心律不整)"}
   ]
 }
