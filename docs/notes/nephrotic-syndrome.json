@@ -1,0 +1,165 @@
+{
+  "id": "nephrotic-syndrome",
+  "title": "Nephrotic Syndrome (腎病症候群)",
+  "title_en": "Nephrotic Syndrome",
+  "title_zh": "腎病症候群",
+  "specialty": "腎臟內科",
+  "sources": [
+    "Harrison's 22e - Glomerular Diseases (p.2181-2202)",
+    "First Choice 醫學(三) - 腎臟疾病各論 (p.58-100)"
+  ],
+  "generated": "2026-09-10",
+  "sections": [
+    {
+      "title": "Overview / Epidemiology",
+      "content": [
+        "Nephrotic syndrome 是以 **massive proteinuria** 為主要表現的腎絲球疾病症候群，定義為蛋白尿 > 3.5 g/day (或 urine protein/creatinine ratio > 3.5)。",
+        {"type": "callout", "style": "guideline", "text": "Nephrotic syndrome 四大特徵：\n1. Proteinuria > 3.5 g/day\n2. Hypoalbuminemia (< 3.0 g/dL)\n3. Peripheral edema\n4. Hyperlipidemia"},
+        "好發率因病因而異。在兒童，**Minimal Change Disease (MCD)** 佔 70-90%；在成人，**Membranous Nephropathy** 和 **Focal Segmental Glomerulosclerosis (FSGS)** 最常見。",
+        {"type": "source", "book": "Harrison's 22e", "pages": "2181-2185"}
+      ]
+    },
+    {
+      "title": "Etiology / Risk Factors",
+      "content": [
+        {"type": "heading", "text": "Primary (Idiopathic) Causes"},
+        {"type": "table", "headers": ["Disease", "好發族群", "Key Feature"], "rows": [
+          ["Minimal Change Disease (MCD)", "兒童 (2-6 y/o)", "Foot process effacement on EM"],
+          ["Focal Segmental Glomerulosclerosis (FSGS)", "African American, HIV, obesity", "Focal sclerosis"],
+          ["Membranous Nephropathy", "成人 (30-50 y/o)", "PLA2R antibodies (70%)"],
+          ["Membranoproliferative GN (MPGN)", "Young adults", "Tram-track on LM"],
+          ["Diabetic Nephropathy", "DM > 10 years", "Kimmelstiel-Wilson nodules"]
+        ]},
+        {"type": "heading", "text": "Secondary Causes"},
+        {"type": "collapsible", "summary": "Secondary Causes of Nephrotic Syndrome", "text": "**Systemic diseases:** SLE (Class V), DM, Amyloidosis\n**Infections:** HBV (Membranous), HCV (MPGN), HIV (FSGS)\n**Drugs:** NSAIDs (MCD), Gold, Penicillamine (Membranous)\n**Malignancy:** Solid tumors → Membranous; Lymphoma → MCD"},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "58-65"}
+      ]
+    },
+    {
+      "title": "Pathophysiology",
+      "content": [
+        "核心機制：**Glomerular basement membrane (GBM) permeability 增加** → 大量白蛋白從尿液流失。",
+        {"type": "callout", "style": "logic", "text": "Nephrotic syndrome 的 pathophysiology cascade:\nProteinuria → Hypoalbuminemia → Decreased oncotic pressure → Edema\n同時 liver 代償性增加 lipoprotein 合成 → Hyperlipidemia\nUrinary loss of antithrombin III + increased clotting factors → Hypercoagulable state"},
+        "**Podocyte injury** 是 nephrotic syndrome 的核心病理：\n- MCD: Podocyte foot process effacement (可逆)\n- FSGS: Podocyte loss → sclerosis (不可逆)\n- Membranous: Immune complex deposition on GBM subepithelial side",
+        {"type": "source", "book": "Harrison's 22e", "pages": "2185-2190"}
+      ]
+    },
+    {
+      "title": "Pathology",
+      "content": [
+        {"type": "table", "headers": ["Disease", "Light Microscopy", "IF", "Electron Microscopy"], "rows": [
+          ["MCD", "Normal", "Negative", "Foot process effacement"],
+          ["FSGS", "Focal segmental sclerosis", "IgM, C3 in sclerotic areas", "Foot process effacement"],
+          ["Membranous", "GBM thickening, spikes", "Granular IgG, C3", "Subepithelial deposits"],
+          ["MPGN", "Tram-track, mesangial proliferation", "C3, IgG", "Subendothelial (Type I) or dense deposits (Type II)"],
+          ["Diabetic", "Kimmelstiel-Wilson nodules", "Linear IgG", "GBM thickening"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "LM normal + IF negative + EM shows foot process effacement = MCD，不是 FSGS！\nFSGS 在 LM 上可見 focal segmental sclerosis，但早期 biopsy 可能 miss (sampling error)"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2190-2195"}
+      ]
+    },
+    {
+      "title": "Clinical Presentation",
+      "content": [
+        {"type": "list", "ordered": false, "items": [
+          "**Periorbital edema** (especially morning) → Peripheral edema → Anasarca",
+          "Frothy urine (from proteinuria)",
+          "Weight gain (from fluid retention)",
+          "Fatigue, malaise"
+        ]},
+        {"type": "callout", "style": "logic", "text": "Nephrotic edema 好發於 periorbital area (早晨) 和 lower extremities (下午)，和 nephritic edema 的差異在於：\n- Nephrotic: oncotic pressure 下降 → transudative edema\n- Nephritic: salt/water retention → volume overload"},
+        {"type": "heading", "text": "Complications"},
+        {"type": "list", "ordered": false, "items": [
+          "**Thromboembolism**: Renal vein thrombosis (especially Membranous), PE, DVT",
+          "**Infection**: Loss of immunoglobulins → 特別是 encapsulated bacteria (Streptococcus pneumoniae)",
+          "**Hyperlipidemia**: LDL, VLDL 升高；HDL 可能正常或降低",
+          "**AKI**: Hypovolemia, bilateral renal vein thrombosis"
+        ]},
+        {"type": "callout", "style": "trap", "text": "Nephrotic syndrome + 突然 flank pain + hematuria → 要想到 **renal vein thrombosis**！\n最常見於 Membranous Nephropathy"},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "70-78"}
+      ]
+    },
+    {
+      "title": "Diagnosis",
+      "content": [
+        {"type": "heading", "text": "Lab Findings"},
+        {"type": "list", "ordered": true, "items": [
+          "**Urinalysis**: Proteinuria (3+ to 4+), oval fat bodies, fatty casts, maltese cross under polarized light",
+          "**24-hr urine protein** > 3.5 g/day 或 **UPCR** > 3.5",
+          "**Serum albumin** < 3.0 g/dL",
+          "**Lipid panel**: Total cholesterol, LDL 升高",
+          "**Complement levels**: C3/C4 (正常 in MCD/FSGS/Membranous; 低 in MPGN/SLE)"
+        ]},
+        {"type": "callout", "style": "guideline", "text": "Complement levels 的鑑別診斷：\n- C3 低, C4 正常: MPGN Type II, Post-infectious GN\n- C3 低, C4 低: SLE (Class V), Cryoglobulinemia\n- C3/C4 正常: MCD, FSGS, Membranous, Diabetic"},
+        {"type": "heading", "text": "Kidney Biopsy"},
+        "Kidney biopsy 是確定診斷的 gold standard，**但兒童若臨床高度懷疑 MCD 可先 empirical steroid treatment**，response 本身即可做為診斷。",
+        {"type": "source", "book": "Harrison's 22e", "pages": "2195-2198"}
+      ]
+    },
+    {
+      "title": "Treatment",
+      "content": [
+        {"type": "heading", "text": "General Measures"},
+        {"type": "list", "ordered": false, "items": [
+          "**ACE inhibitor / ARB**: 降低 proteinuria (first-line for all)",
+          "**Dietary sodium restriction**: < 2 g/day",
+          "**Loop diuretics** ± albumin infusion for severe edema",
+          "**Statin** for hyperlipidemia",
+          "**Anticoagulation**: Consider if albumin < 2.0 g/dL or Membranous"
+        ]},
+        {"type": "heading", "text": "Disease-Specific Treatment"},
+        {"type": "collapsible", "summary": "MCD Treatment Protocol", "text": "**First-line**: Prednisolone 1 mg/kg/day × 4-8 weeks → taper\n**Relapse**: Repeat steroid course\n**Frequent relapse / Steroid-dependent**: Cyclophosphamide, Calcineurin inhibitors (Cyclosporine/Tacrolimus), Rituximab\n**Response rate**: > 90% remission with steroids"},
+        {"type": "collapsible", "summary": "Membranous Nephropathy Treatment", "text": "**Observation**: Moderate proteinuria (< 4g) → ACEi/ARB × 6 months\n**Immunosuppression indications**: Proteinuria > 4g after 6 months, declining GFR\n**Regimen**: Ponticelli protocol (alternating Steroids + Cyclophosphamide × 6 months) 或 Rituximab\n**Anti-PLA2R antibodies**: Monitor for treatment response"},
+        {"type": "collapsible", "summary": "FSGS Treatment", "text": "**First-line**: Prednisolone (longer course than MCD, 4-6 months)\n**Steroid-resistant**: Calcineurin inhibitors (Cyclosporine + low-dose prednisone)\n**Prognosis**: 50% progress to ESRD in 5-10 years if untreated"},
+        {"type": "callout", "style": "guideline", "text": "ACEi/ARB 是所有 nephrotic syndrome 的 first-line 降蛋白尿藥物，和 specific immunosuppressive therapy 同步使用"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2198-2202"}
+      ]
+    },
+    {
+      "title": "Prognosis / Follow-up",
+      "content": [
+        {"type": "table", "headers": ["Disease", "Prognosis", "ESRD Risk"], "rows": [
+          ["MCD", "Excellent, > 90% remission", "< 5%"],
+          ["FSGS", "Poor if steroid-resistant", "50% in 5-10 yr"],
+          ["Membranous", "Rule of thirds", "33% remission, 33% stable, 33% progress"],
+          ["MPGN", "Variable", "40-50% in 10 yr"],
+          ["Diabetic", "Progressive", "High without control"]
+        ]},
+        "Follow-up 重點：定期監測 proteinuria (UPCR), serum albumin, renal function (eGFR), lipids。",
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "90-95"}
+      ]
+    },
+    {
+      "title": "Special Populations",
+      "content": [
+        {"type": "heading", "text": "兒童"},
+        "兒童 nephrotic syndrome 絕大多數是 MCD (70-90%)，可先 empirical steroid therapy 不需 biopsy。Biopsy indications: steroid resistance, age < 1 or > 12, low C3, renal failure。",
+        {"type": "heading", "text": "孕婦"},
+        "Pregnancy 會惡化 proteinuria。ACEi/ARB 為 **pregnancy category D**，孕期禁用，改用 methyldopa 或 nifedipine 控制血壓。",
+        {"type": "heading", "text": "老年人"},
+        "老年人 nephrotic syndrome 要特別排除 **malignancy** (Membranous) 和 **amyloidosis**。"
+      ]
+    },
+    {
+      "title": "High-Yield Exam Points",
+      "content": [
+        {"type": "callout", "style": "trap", "text": "常考鑑別：\n1. 兒童 + nephrotic → **MCD** (先用 steroid)\n2. 成人 + nephrotic + PLA2R Ab (+) → **Membranous**\n3. African American + nephrotic + HIV → **FSGS**\n4. DM > 10 yr + nephrotic → **Diabetic Nephropathy**\n5. Nephrotic + renal vein thrombosis → **Membranous**"},
+        {"type": "callout", "style": "logic", "text": "Nephrotic vs Nephritic 比較：\n- Nephrotic: Proteinuria > 3.5g, hypoalbuminemia, edema, hyperlipidemia\n- Nephritic: Hematuria (RBC casts), mild proteinuria, HTN, oliguria\n- Mixed: MPGN, SLE can present with both"},
+        {"type": "callout", "style": "guideline", "text": "必背：各 nephrotic disease 的 pathology hallmark\n- MCD: Foot process effacement only (LM/IF negative)\n- FSGS: Focal segmental sclerosis\n- Membranous: Spike and dome, subepithelial deposits\n- MPGN: Tram-track (double contour GBM)\n- Diabetic: Kimmelstiel-Wilson nodules"},
+        {"type": "list", "ordered": false, "items": [
+          "Maltese cross under polarized light = **lipiduria** (nephrotic syndrome)",
+          "Oval fat bodies = **renal tubular cells with fat** (nephrotic)",
+          "Anti-PLA2R = **primary Membranous Nephropathy** marker",
+          "兒童 MCD steroid response rate > 90%",
+          "ACEi/ARB 是所有 nephrotic syndrome 的基本治療"
+        ]}
+      ]
+    }
+  ],
+  "related": [
+    {"id": "nephritic-syndrome", "name": "Nephritic Syndrome (腎炎症候群)"},
+    {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
+    {"id": "diabetic-nephropathy", "name": "Diabetic Nephropathy (糖尿病腎病變)"},
+    {"id": "lupus-nephritis", "name": "Lupus Nephritis (狼瘡性腎炎)"}
+  ]
+}
