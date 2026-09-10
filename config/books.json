@@ -1,0 +1,39 @@
+{
+  "library_path": "C:\\Medicine study",
+  "output_path": "C:\\Users\\User\\medical-notes\\book-library",
+  "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "tessdata_dir": "C:\\Users\\User\\.tessdata",
+  "books": [
+    {
+      "id": "harrison",
+      "name": "Harrison's Principles of Internal Medicine",
+      "edition": "22nd",
+      "filename": "Harrison's Principles of Internal Medicine - 22nd edition (1).pdf",
+      "language": "eng"
+    },
+    {
+      "id": "first-choice-1",
+      "name": "醫學(三) 第1冊",
+      "filename": "醫學(三)第1冊.pdf",
+      "language": "chi_tra+eng"
+    },
+    {
+      "id": "first-choice-2",
+      "name": "醫學(三) 第2冊",
+      "filename": "醫學(三)第2冊原稿頁碼有錯336起,誤為374起.pdf",
+      "language": "chi_tra+eng"
+    },
+    {
+      "id": "first-choice-3",
+      "name": "醫學(三) 第3冊",
+      "filename": "醫學(三)第3冊.pdf",
+      "language": "chi_tra+eng"
+    },
+    {
+      "id": "first-choice-4",
+      "name": "醫學(三) 第4冊",
+      "filename": "醫學(三)第4冊.pdf",
+      "language": "chi_tra+eng"
+    }
+  ]
+}
