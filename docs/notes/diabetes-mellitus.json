@@ -1,0 +1,202 @@
+{
+  "id": "diabetes-mellitus",
+  "title": "Diabetes Mellitus (糖尿病)",
+  "title_en": "Diabetes Mellitus",
+  "title_zh": "糖尿病",
+  "specialty": "新陳代謝科",
+  "sources": [
+    "Harrison's 22e - Ch.415 DM: Diagnosis, Classification, Pathophysiology (p.3238-3247)",
+    "Harrison's 22e - Ch.416 DM: Management and Therapies (p.3248-3263)",
+    "Harrison's 22e - Ch.417 DM: Complications (p.3264-3272)"
+  ],
+  "generated": "2026-09-10",
+  "sections": [
+    {
+      "title": "Overview / Epidemiology",
+      "content": [
+        "Diabetes mellitus (DM) 是一群以 **hyperglycemia** 為共同表現的代謝疾病，因 insulin 分泌不足、作用缺陷或兩者兼有所致。",
+        {"type": "callout", "style": "guideline", "text": "DM 是美國 ESRD、非外傷性下肢截肢、成人失明的首要原因。心血管疾病是 DM 患者最主要的致死原因。"},
+        "全球約 5.37 億人患有糖尿病（2021 年），預計 2045 年將達 7.83 億人。Type 2 DM 佔 90-95%，Type 1 DM 佔 5-10%。",
+        {"type": "source", "book": "Harrison's 22e", "pages": "3238-3240"}
+      ]
+    },
+    {
+      "title": "Etiology / Risk Factors",
+      "content": [
+        {"type": "table", "headers": ["", "Type 1 DM", "Type 2 DM"], "rows": [
+          ["機制", "Autoimmune beta cell destruction → absolute insulin deficiency", "Insulin resistance + relative insulin deficiency + increased hepatic glucose production"],
+          ["好發年齡", "通常 < 30 歲 (peak 10-14 y/o)", "通常 > 40 歲 (但越來越年輕化)"],
+          ["體型", "Normal or thin", "通常 overweight/obese (80%)"],
+          ["遺傳", "HLA-DR3/DR4 相關", "Strong family history, polygenic"],
+          ["Autoantibodies", "Anti-GAD65, Anti-IA2, Anti-insulin, Anti-ZnT8", "Absent"],
+          ["Ketosis tendency", "High (DKA)", "Low (HHS more common)"],
+          ["C-peptide", "Low or absent", "Normal or elevated"]
+        ]},
+        {"type": "heading", "text": "Other Types of DM"},
+        {"type": "collapsible", "summary": "DM 分類 (ADA Classification)", "text": "**I. Type 1 DM**: Immune-mediated beta cell destruction\n**II. Type 2 DM**: Insulin resistance + secretory defect\n**III. Other specific types**:\n- MODY (Monogenic diabetes): AD inheritance, onset < 25 y/o\n  - MODY 1: HNF4α\n  - MODY 2: Glucokinase (mild fasting hyperglycemia)\n  - MODY 3: HNF1α (most common)\n- Diseases of exocrine pancreas: Pancreatitis, CF, hemochromatosis\n- Endocrinopathies: Acromegaly, Cushing's, Pheochromocytoma\n- Drug-induced: Glucocorticoids, Thiazides, Calcineurin inhibitors\n- Gestational DM (GDM)\n**IV. Gestational DM**"},
+        {"type": "callout", "style": "trap", "text": "Type 1 DM 的三個 stages:\n- Stage 1: Autoantibodies (+), normoglycemia\n- Stage 2: Autoantibodies (+), dysglycemia (IFG/IGT)\n- Stage 3: Clinical diabetes (symptomatic hyperglycemia)"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "3238-3242"}
+      ]
+    },
+    {
+      "title": "Pathophysiology",
+      "content": [
+        {"type": "heading", "text": "Type 1 DM"},
+        "遺傳易感性（HLA-DR3/DR4）+ 環境觸發 → T cell-mediated autoimmune destruction of pancreatic beta cells → absolute insulin deficiency。Beta cell mass 破壞 > 80-90% 時出現臨床症狀。",
+        {"type": "heading", "text": "Type 2 DM"},
+        {"type": "callout", "style": "logic", "text": "Type 2 DM 的 pathophysiology triad:\n1. **Insulin resistance** (muscle, liver, adipose tissue)\n2. **Impaired insulin secretion** (beta cell dysfunction → eventually beta cell failure)\n3. **Increased hepatic glucose production** (gluconeogenesis)"},
+        {"type": "list", "ordered": false, "items": [
+          "**Insulin resistance**: Obesity → increased FFA → lipotoxicity → 干擾 insulin signaling → 肌肉 glucose uptake 減少",
+          "**Beta cell dysfunction**: 初期代償性 hyperinsulinemia → 漸進性 beta cell failure → insulin 分泌不足",
+          "**Hepatic glucose production**: Insulin 無法抑制肝臟 gluconeogenesis → fasting hyperglycemia",
+          "**Incretin effect 減弱**: GLP-1 和 GIP 對 beta cell 的 insulin secretion 刺激效果下降",
+          "**Glucagon excess**: Alpha cell dysfunction → inappropriate glucagon secretion"
+        ]},
+        {"type": "callout", "style": "logic", "text": "Prediabetes 的進展：\nNormal → Impaired Fasting Glucose (IFG) / Impaired Glucose Tolerance (IGT) → Type 2 DM\n\nIFG: Fasting glucose 100-125 mg/dL\nIGT: 2h OGTT glucose 140-199 mg/dL\nHbA1c 5.7-6.4% 也可視為 prediabetes"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "3240-3247"}
+      ]
+    },
+    {
+      "title": "Pathology",
+      "content": [
+        {"type": "heading", "text": "Pancreas"},
+        {"type": "list", "ordered": false, "items": [
+          "**Type 1**: Insulitis (lymphocytic infiltration of islets) → beta cell destruction → islet atrophy",
+          "**Type 2**: Amyloid deposition in islets (islet amyloid polypeptide/amylin) → beta cell loss (減少 20-65%)"
+        ]},
+        {"type": "heading", "text": "Vascular Pathology"},
+        {"type": "table", "headers": ["Microvascular", "Macrovascular"], "rows": [
+          ["Retinopathy: Non-proliferative → Proliferative", "Accelerated atherosclerosis"],
+          ["Nephropathy: GBM thickening → Kimmelstiel-Wilson nodules", "CAD (2-4x risk)"],
+          ["Neuropathy: Segmental demyelination → axonal degeneration", "Stroke (2-3x risk)"],
+          ["", "PAD → non-traumatic amputation"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "Kimmelstiel-Wilson nodules (nodular glomerulosclerosis) 是 DM nephropathy 的特徵性病理，但 diffuse mesangial expansion 更常見且出現更早"}
+      ]
+    },
+    {
+      "title": "Clinical Presentation",
+      "content": [
+        {"type": "heading", "text": "Classic Symptoms (3P + 1)"},
+        {"type": "list", "ordered": false, "items": [
+          "**Polyuria**: Osmotic diuresis from glucosuria",
+          "**Polydipsia**: Compensatory thirst",
+          "**Polyphagia**: Cellular starvation despite hyperglycemia",
+          "**Weight loss**: Especially Type 1 (catabolic state)"
+        ]},
+        {"type": "heading", "text": "Type 1 vs Type 2 Presentation"},
+        {"type": "table", "headers": ["", "Type 1", "Type 2"], "rows": [
+          ["Onset", "Acute (days to weeks)", "Insidious (months to years)"],
+          ["Symptoms", "Severe 3P, weight loss, fatigue", "Often asymptomatic or mild"],
+          ["Initial presentation", "DKA in 25-30%", "Incidental finding or complication"],
+          ["Acanthosis nigricans", "Absent", "Present (insulin resistance marker)"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "LADA (Latent Autoimmune Diabetes in Adults)：\n成人發病但有 autoantibodies → 初期像 Type 2 但漸進需要 insulin\n若成人 DM 對 oral agents 效果差且 BMI 正常，考慮檢測 Anti-GAD65"}
+      ]
+    },
+    {
+      "title": "Diagnosis",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "DM 診斷標準 (ADA, 符合任一即可，需重複確認)：\n1. **Fasting plasma glucose (FPG)** >= 126 mg/dL\n2. **2h OGTT** >= 200 mg/dL (75g glucose load)\n3. **HbA1c** >= 6.5%\n4. **Random glucose** >= 200 mg/dL + classic symptoms (不需重複)"},
+        {"type": "table", "headers": ["", "Normal", "Prediabetes", "Diabetes"], "rows": [
+          ["FPG (mg/dL)", "< 100", "100-125 (IFG)", ">= 126"],
+          ["2h OGTT (mg/dL)", "< 140", "140-199 (IGT)", ">= 200"],
+          ["HbA1c (%)", "< 5.7", "5.7-6.4", ">= 6.5"]
+        ]},
+        {"type": "heading", "text": "Autoantibody Testing (Type 1 DM)"},
+        {"type": "list", "ordered": false, "items": [
+          "**Anti-GAD65** (Glutamic acid decarboxylase): Most sensitive, persists longest",
+          "**Anti-IA2** (Insulinoma-associated antigen 2)",
+          "**Anti-insulin antibodies (IAA)**: Most useful in children",
+          "**Anti-ZnT8** (Zinc transporter 8)"
+        ]},
+        {"type": "callout", "style": "logic", "text": "HbA1c 反映過去 2-3 個月的平均血糖（紅血球壽命 120 天）\n\n注意 HbA1c 不準確的情況：\n- 溶血性貧血、血紅素病變 → 偏低\n- 鐵缺乏性貧血、脾切除 → 偏高\n- 懷孕、CKD → 可能不準確"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "3242-3245"}
+      ]
+    },
+    {
+      "title": "Treatment",
+      "content": [
+        {"type": "heading", "text": "Treatment Goals"},
+        {"type": "callout", "style": "guideline", "text": "ADA 治療目標：\n- HbA1c < 7% (一般成人)\n- HbA1c < 6.5% (年輕、無併發症、低低血糖風險)\n- HbA1c < 8% (老年、多重共病、預期壽命短)\n- Preprandial glucose: 80-130 mg/dL\n- Peak postprandial glucose: < 180 mg/dL"},
+        {"type": "heading", "text": "Type 1 DM Treatment"},
+        "**Insulin** is essential and lifelong. Basal-bolus regimen or insulin pump (CSII).",
+        {"type": "collapsible", "summary": "Insulin 分類", "text": "**Rapid-acting** (onset 15 min, peak 1-2h, duration 3-5h):\n- Lispro, Aspart, Glulisine\n\n**Short-acting** (onset 30 min, peak 2-4h, duration 6-8h):\n- Regular insulin\n\n**Intermediate** (onset 1-2h, peak 4-8h, duration 12-16h):\n- NPH\n\n**Long-acting** (onset 1-2h, no peak, duration 20-24h):\n- Glargine (Lantus), Detemir (Levemir)\n\n**Ultra-long-acting** (onset 1h, no peak, duration >42h):\n- Degludec (Tresiba)"},
+        {"type": "heading", "text": "Type 2 DM Treatment"},
+        {"type": "table", "headers": ["藥物", "機制", "優點", "注意事項"], "rows": [
+          ["Metformin", "Decrease hepatic glucose production, improve insulin sensitivity", "First-line, weight neutral, no hypoglycemia, CV benefit", "Lactic acidosis (rare), GI side effects, 禁用 eGFR < 30"],
+          ["SGLT2 inhibitors (-gliflozin)", "Block renal glucose reabsorption", "CV & renal benefit, weight loss, BP reduction", "UTI, Genital mycosis, euglycemic DKA, 截肢風險 (canagliflozin)"],
+          ["GLP-1 RA (-glutide/-natide)", "Incretin mimetic → insulin secretion, suppress glucagon", "CV benefit, weight loss, no hypoglycemia", "GI side effects (nausea), 禁用 MTC/MEN2 family hx, Pancreatitis risk"],
+          ["DPP-4 inhibitors (-gliptin)", "Prevent GLP-1 degradation", "Weight neutral, well tolerated", "Less potent, possible HF risk (saxagliptin)"],
+          ["Sulfonylureas (-glyburide/-glipizide)", "Stimulate insulin secretion (close K-ATP channel)", "Cheap, potent", "Hypoglycemia, weight gain"],
+          ["Thiazolidinediones (-glitazone)", "PPARγ agonist → improve insulin sensitivity", "Durable glucose lowering", "Weight gain, edema, HF, fractures, bladder cancer (pioglitazone)"],
+          ["Insulin", "Replace deficient insulin", "Most potent, no dose ceiling", "Hypoglycemia, weight gain"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "ADA/EASD 2022 Type 2 DM 治療流程：\n1. **Metformin** + lifestyle modification (first-line for all)\n2. 合併 ASCVD or high risk → add **GLP-1 RA** or **SGLT2i** (有 CV benefit)\n3. 合併 HF or CKD → add **SGLT2i** (preferred) or GLP-1 RA\n4. 需要額外降糖 → 依個別情況加 DPP-4i, TZD, SU, or insulin\n5. HbA1c > 10% or symptoms → consider insulin early"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "3248-3263"}
+      ]
+    },
+    {
+      "title": "Prognosis / Follow-up",
+      "content": [
+        {"type": "heading", "text": "Monitoring"},
+        {"type": "list", "ordered": false, "items": [
+          "**HbA1c**: 每 3 個月 (未達標) 或每 6 個月 (穩定控制)",
+          "**Self-monitoring blood glucose (SMBG)**: Type 1 至少 4 次/天; Type 2 依治療方案",
+          "**Eye exam**: 每年散瞳眼底檢查",
+          "**Foot exam**: 每次就診檢查 + 每年完整足部評估",
+          "**Renal function**: 每年 UACR + eGFR",
+          "**Lipid panel**: 每年",
+          "**BP**: 每次就診 (目標 < 130/80)"
+        ]},
+        {"type": "heading", "text": "Complications Screening"},
+        {"type": "table", "headers": ["Complication", "Screening", "When to Start"], "rows": [
+          ["Retinopathy", "Dilated eye exam", "Type 1: 5 yr after dx; Type 2: at diagnosis"],
+          ["Nephropathy", "UACR + eGFR", "Type 1: 5 yr after dx; Type 2: at diagnosis"],
+          ["Neuropathy", "10g monofilament + vibration", "Type 1: 5 yr after dx; Type 2: at diagnosis"],
+          ["CVD", "Lipids, BP, lifestyle assessment", "At diagnosis"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "DCCT/UKPDS legacy effect:\n早期嚴格血糖控制的好處可持續數十年（metabolic memory），即使後來控制放鬆。強調 early intensive control 的重要性。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "3264-3272"}
+      ]
+    },
+    {
+      "title": "Special Populations",
+      "content": [
+        {"type": "heading", "text": "Gestational DM (GDM)"},
+        "妊娠 24-28 週篩檢（75g OGTT）。治療首選 lifestyle modification → insulin（Metformin 可考慮但非首選）。產後 4-12 週重新評估糖代謝。",
+        {"type": "heading", "text": "兒童/青少年 Type 2 DM"},
+        "Metformin 為 first-line oral agent (FDA approved for age >= 10)。近年與肥胖流行相關，發病率快速增加。",
+        {"type": "heading", "text": "老年人"},
+        "HbA1c 目標可放寬至 < 8%（避免 hypoglycemia）。Avoid SU 和 sliding-scale insulin。優先使用低低血糖風險藥物（Metformin, DPP-4i, SGLT2i）。",
+        {"type": "heading", "text": "CKD 合併 DM"},
+        "SGLT2i 在 eGFR >= 20 可使用（renoprotective benefit > glycemic benefit）。Metformin 禁用於 eGFR < 30。Insulin 劑量需減少（腎臟清除減少）。"
+      ]
+    },
+    {
+      "title": "High-Yield Exam Points",
+      "content": [
+        {"type": "callout", "style": "trap", "text": "DKA vs HHS 鑑別：\n- DKA: Type 1 (也可 Type 2), pH < 7.3, HCO3 < 18, Ketones (+), AG metabolic acidosis\n- HHS: Type 2, Glucose > 600, Osmolality > 320, 意識改變, 無顯著 acidosis\n\n共同：Dehydration + electrolyte imbalance + hyperglycemia\n治療共同原則：IV fluids (first!) → Insulin → K+ correction"},
+        {"type": "callout", "style": "trap", "text": "DKA 治療注意：\n- 先補液再給 insulin（否則加重低血壓）\n- K+ < 3.3 → 先補鉀再給 insulin（insulin 會讓 K+ 進入細胞更低）\n- 不要用 HCO3 除非 pH < 6.9\n- Glucose 降到 200-250 → 改 D5W + insulin drip（避免 cerebral edema）"},
+        {"type": "callout", "style": "guideline", "text": "必記藥物重點：\n- **Metformin**: First-line Type 2, 禁用 eGFR < 30, lactic acidosis\n- **SGLT2i**: CV + renal benefit, -gliflozin, euglycemic DKA, genital infection\n- **GLP-1 RA**: CV benefit, weight loss, 禁用 MTC/MEN2 hx\n- **Sulfonylureas**: Hypoglycemia risk, 尤其 glyburide (elderly 禁用)\n- **Insulin Glargine**: Long-acting, no peak (好用作 basal insulin)"},
+        {"type": "list", "ordered": false, "items": [
+          "Type 1 DM: Anti-GAD65 most sensitive autoantibody",
+          "Type 2 DM: Metformin first-line, 加 SGLT2i/GLP-1 RA if ASCVD/HF/CKD",
+          "HbA1c reflects 2-3 month average; goal < 7% (general)",
+          "DKA: 先補液 → 補鉀 (if K < 3.3) → Insulin → 到 glucose 200-250 加 D5W",
+          "MODY: AD inheritance, onset < 25, most common = MODY 3 (HNF1α)",
+          "Diabetic nephropathy: First sign = microalbuminuria (UACR 30-300 mg/g)",
+          "Kimmelstiel-Wilson nodules = pathognomonic for diabetic nephropathy",
+          "GDM screening: 24-28 weeks with 75g OGTT"
+        ]}
+      ]
+    }
+  ],
+  "related": [
+    {"id": "diabetic-nephropathy", "name": "Diabetic Nephropathy (糖尿病腎病變)"},
+    {"id": "hypertension", "name": "Hypertension (高血壓)"},
+    {"id": "hyperlipidemia", "name": "Hyperlipidemia (高血脂)"},
+    {"id": "metabolic-syndrome", "name": "Metabolic Syndrome (代謝症候群)"},
+    {"id": "thyroid-disease", "name": "Thyroid Disease (甲狀腺疾病)"}
+  ]
+}

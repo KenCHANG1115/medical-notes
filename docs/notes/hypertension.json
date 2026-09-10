@@ -1,0 +1,204 @@
+{
+  "id": "hypertension",
+  "title": "Hypertension (高血壓)",
+  "title_en": "Hypertension",
+  "title_zh": "高血壓",
+  "specialty": "心臟內科",
+  "sources": [
+    "Harrison's 22e - Ch.288 Hypertension (p.2176-2192)",
+    "First Choice 醫學(三) - 甲、高血壓 (p.10-40)"
+  ],
+  "generated": "2026-09-10",
+  "sections": [
+    {
+      "title": "Overview / Epidemiology",
+      "content": [
+        "High blood pressure 是全球最常見的心血管疾病危險因子，與 stroke、CHD、HF、PAD、CKD、dementia 及全因死亡率密切相關。",
+        {"type": "callout", "style": "guideline", "text": "ACC/AHA 血壓分類 (2017):\n- Normal: < 120/80 mmHg\n- Elevated: 120-129 / < 80\n- Stage 1 HTN: 130-139 / 80-89\n- Stage 2 HTN: >= 140 / >= 90"},
+        {"type": "callout", "style": "guideline", "text": "2022 台灣高血壓治療指引 (TSOC):\n- 居家血壓 >= 130/80 即診斷高血壓\n- 一般人 >= 140/90 開始藥物治療\n- ASCVD or high CV risk: >= 130/80 即開始藥物治療\n- 治療目標: < 130/80 (一般人)"},
+        "美國成人 HTN 盛行率約 46%，20-44 歲為 20-30%，75 歲以上高達 80-85%。全球約 10 億人受影響。",
+        {"type": "callout", "style": "logic", "text": "居家血壓監測 722 法則：連續 7 天、每天 2 次（早晚各一）、每次 2 次取平均值"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2176-2180"}
+      ]
+    },
+    {
+      "title": "Etiology / Risk Factors",
+      "content": [
+        {"type": "heading", "text": "Primary (Essential) HTN (95%)"},
+        "常有家族史。50 歲前通常 SBP 和 DBP 同時升高（因 resistance arterioles vasoconstriction）；60 歲後常見 **Isolated systolic HTN**（SBP > 140, DBP < 90），因大動脈 elastin 被 collagen 取代，血管彈性變差。",
+        {"type": "heading", "text": "Secondary HTN (5%)"},
+        "< 30 或 > 60 歲被診斷、突發性或難以控制的高血壓需考慮。口訣：**腎內主神藥**。",
+        {"type": "table", "headers": ["分類", "病因", "線索"], "rows": [
+          ["腎臟 (4%)", "腎動脈狹窄 (Fibromuscular dysplasia in 年輕女性; Atherosclerosis in 老年)", "腹部 bruit、ACEi 後急性腎衰竭"],
+          ["腎臟", "慢性腎臟病 (80-85% CKD 有 HTN)", "Cr 升高、蛋白尿"],
+          ["內分泌 (0.5%)", "Primary Hyperaldosteronism (Conn's)", "低血鉀、代謝性鹼中毒"],
+          ["內分泌", "Pheochromocytoma", "陣發性 HTN、心悸、頭痛、出汗"],
+          ["內分泌", "Cushing's syndrome", "月亮臉、中心肥胖"],
+          ["血管 (0.2%)", "Coarctation of aorta", "上肢 BP > 下肢 BP"],
+          ["藥物", "避孕藥、NSAIDs、類固醇、EPO、Cocaine", "用藥史"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "Coarctation of aorta：狹窄處最常在 left subclavian artery 分出後的 descending aorta，上肢 BP 高於下肢。30% 合併 bicuspid aortic valve"},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "13-16"}
+      ]
+    },
+    {
+      "title": "Pathophysiology",
+      "content": [
+        "**BP = Cardiac Output (CO) x Systemic Vascular Resistance (SVR)**",
+        {"type": "callout", "style": "logic", "text": "收縮壓 (SBP)：血管壁被撐開的壓力，離心臟越遠越高\n舒張壓 (DBP)：血管壁回彈的壓力，離心臟越近越高\n脈壓 (Pulse Pressure)：SBP - DBP"},
+        "動脈壓主要由 **renal-volume-endocrine pressure control system** 調控。初始 BP 升高源自 increased CO 和 expanded intravascular volume，隨後 peripheral resistance 增加而 CO 回歸正常。",
+        {"type": "list", "ordered": false, "items": [
+          "**RAAS system**: Angiotensin II → vasoconstriction + aldosterone → Na retention",
+          "**Sympathetic nervous system**: Norepinephrine → vasoconstriction + increased HR",
+          "**Endothelial dysfunction**: Decreased NO → impaired vasodilation",
+          "**Pressure-natriuresis**: 當 BP 升高 → 腎臟排鈉增加以維持 Na balance → 需更高 BP 來排鈉"
+        ]},
+        {"type": "callout", "style": "logic", "text": "Isolated Systolic HTN (老年人)：大動脈 elastin 被 collagen 取代 → 收縮時血管無法擴張 (SBP 升高) → 舒張時無回彈推力 (DBP 下降) → Pulse pressure 增加"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2176-2178"}
+      ]
+    },
+    {
+      "title": "Pathology",
+      "content": [
+        {"type": "heading", "text": "Target Organ Damage (口訣：腦心腎周眼)"},
+        {"type": "table", "headers": ["Target Organ", "Pathology", "Clinical Manifestation"], "rows": [
+          ["腦", "Lacunar infarcts, Charcot-Bouchard microaneurysms", "TIA, Stroke, Vascular dementia"],
+          ["心", "LV hypertrophy → diastolic dysfunction → HF", "S4 gallop, Loud A2, CHF"],
+          ["腎", "Hyaline arteriolosclerosis → nephrosclerosis", "Proteinuria, CKD"],
+          ["周邊血管", "Atherosclerosis acceleration", "PAD, Aortic aneurysm"],
+          ["眼", "Hypertensive retinopathy", "AV nicking, Cotton-wool spots, Papilledema"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "高血壓心音特徵：\n- Loud S2 (A2)：高血壓導致動脈瓣關閉變大聲\n- S4 gallop：心房對抗肥厚、順應性差的心室產生的聲音\n- 注意：S3 是心衰竭的徵象，不是單純高血壓"}
+      ]
+    },
+    {
+      "title": "Clinical Presentation",
+      "content": [
+        "多數高血壓患者**無症狀** (silent killer)，常在體檢或併發症出現時才被診斷。",
+        {"type": "heading", "text": "症狀 (通常表示嚴重或併發症)"},
+        {"type": "list", "ordered": false, "items": [
+          "Headache (especially occipital, morning headache)",
+          "Dizziness, blurred vision",
+          "Dyspnea on exertion (LVH/HF)",
+          "Epistaxis (severe cases)"
+        ]},
+        {"type": "heading", "text": "Hypertensive Crisis"},
+        {"type": "table", "headers": ["", "Hypertensive Emergency", "Hypertensive Urgency"], "rows": [
+          ["定義", "BP 常 > 180/120 + 急性目標器官損傷", "BP 常 > 180/120 但無急性器官損傷"],
+          ["器官損傷", "腦中風、心肌梗塞、主動脈剝離、急性腎衰竭、Papilledema", "無"],
+          ["處理", "IV 藥物，分鐘至數小時內降壓", "口服藥物，24-48 小時內降壓"],
+          ["目標", "第一小時降 25%，2-6h 達 160/100", "24-48h 內逐步控制"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "Hypertensive emergency 的重點是「有無急性器官損傷」，不是血壓數字！\n血壓 200/110 無器官損傷 = urgency\n血壓 180/110 + 新發 focal deficit = emergency"},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "20-22"}
+      ]
+    },
+    {
+      "title": "Diagnosis",
+      "content": [
+        {"type": "heading", "text": "血壓量測方式"},
+        {"type": "table", "headers": ["方法", "全名", "特點"], "rows": [
+          ["OBPM", "Office BP Measurement", "門診量測，簡便但代表性差"],
+          ["AOBP", "Automated Office BP", "無人環境自動多次取平均，排除白袍效應"],
+          ["HBPM", "Home BP Monitoring", "居家量測，722 法則，推薦用於診斷與監控"],
+          ["ABPM", "24h Ambulatory BP Monitoring", "最完整，可評估夜間血壓 (dipper/non-dipper)"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "White coat HTN：診間 BP 高但居家 BP 正常 (15-25%)\nMasked HTN：診間 BP 正常但居家 BP 高 (15-25%)\n→ White coat HTN 風險較低，非藥物治療為主\n→ Masked HTN 風險等同 sustained HTN，需藥物治療"},
+        {"type": "heading", "text": "基本檢查"},
+        {"type": "list", "ordered": false, "items": [
+          "CBC, electrolytes (Na, K, Ca), Cr/eGFR",
+          "Lipid profile, HbA1c or fasting glucose",
+          "TSH, Urinalysis + UACR",
+          "12-lead ECG (LVH screening)",
+          "Fundoscopy (retinopathy grading)"
+        ]},
+        {"type": "heading", "text": "Secondary HTN 篩檢"},
+        {"type": "list", "ordered": false, "items": [
+          "**Renal artery stenosis**: Renal Doppler US (screening) → MRA/CTA (confirmation)",
+          "**Primary aldosteronism**: Aldosterone/Renin ratio (ARR) → confirmatory test",
+          "**Pheochromocytoma**: 24h urine metanephrines / plasma free metanephrines",
+          "**Cushing's**: 24h urine cortisol, overnight dexamethasone suppression test",
+          "**Coarctation**: Four-limb BP, CXR (rib notching), Echo/CT angiography"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2180-2186"}
+      ]
+    },
+    {
+      "title": "Treatment",
+      "content": [
+        {"type": "heading", "text": "Non-pharmacologic (Lifestyle Modification)"},
+        {"type": "list", "ordered": false, "items": [
+          "**DASH diet**: 蔬果、低脂乳、減少飽和脂肪 (可降 SBP 8-14 mmHg)",
+          "**Sodium restriction**: < 2.3 g/day (理想 < 1.5 g/day)",
+          "**Exercise**: 每週 150 分鐘中等強度有氧運動",
+          "**Weight loss**: BMI 維持 18.5-24.9",
+          "**Limit alcohol**: 男性 <= 2 drinks/day, 女性 <= 1 drink/day"
+        ]},
+        {"type": "heading", "text": "First-line 藥物"},
+        {"type": "table", "headers": ["藥物", "機制", "優點", "缺點/禁忌"], "rows": [
+          ["Thiazide diuretics", "抑制 DCT Na-Cl cotransporter", "便宜有效、老年 ISH 佳", "低血鉀鈉鎂、高尿酸鈣、糖尿病風險"],
+          ["ACEi", "抑制 ACE → AT II 減少、Bradykinin 增加", "腎臟心臟保護、Post-MI、HF", "乾咳 (20%)、高血鉀、Bilateral RAS 禁用、孕婦禁用"],
+          ["ARB", "阻斷 AT1 receptor", "同 ACEi 但無咳嗽", "高血鉀、Bilateral RAS 禁用、孕婦禁用"],
+          ["CCB (DHP)", "阻斷血管 L-type Ca channel", "預防中風佳、老年 ISH 佳", "Ankle edema、Flushing、心跳加速"]
+        ]},
+        {"type": "collapsible", "summary": "Beta Blocker 詳細分類", "text": "**Selective B1 blocker**: Atenolol, Bisoprolol, Metoprolol\n**Nonselective B blocker**: Propranolol, Nadolol, Timolol\n**a1 + B blocker**: Carvedilol, Labetalol\n**NO + B1 blocker**: Nebivolol\n\nISA (+): Acebutolol, Pindolol → 較不易心跳慢但無法降低猝死率\nHF 有 EBM 證據: CBM (Carvedilol, Bisoprolol, Metoprolol)\n\n注意：B blocker 已非一線降壓藥（降壓效果較差、有 diabetogenic potential）"},
+        {"type": "collapsible", "summary": "CCB 分類 (DHP vs Non-DHP)", "text": "**DHP (字尾 -pine)**: 血管選擇性強，用於降血壓\n- 1代: Nifedipine\n- 2代: Nicardipine, Felodipine\n- 3代: Amlodipine, Lacidipine\n\n**Non-DHP (字尾非 -pine)**: 心臟選擇性強，用於降低心率\n- Diltiazem\n- Verapamil\n\n所有 CCB 皆由肝臟代謝，肝硬化需調整"},
+        {"type": "callout", "style": "guideline", "text": "特殊情況首選藥物：\n- DM + proteinuria → ACEi/ARB\n- Post-MI / HF → ACEi/ARB + B-blocker\n- 老年 Isolated Systolic HTN → Thiazide 或 DHP CCB\n- 孕婦 → Methyldopa, Labetalol, Nifedipine\n- 黑人 → Thiazide 或 CCB（對 ACEi/ARB 反應較差）"},
+        {"type": "heading", "text": "Hypertensive Emergency 用藥"},
+        {"type": "collapsible", "summary": "Hypertensive Emergency 降壓藥物與目標", "text": "**一般**：IV Nitroprusside 或 Labetalol → 2h 內降至 160/100\n**缺血性中風**：> 220/120 才需降壓（若要用 tPA → 先降至 185/110）\n**出血性中風**：SBP 150-220 → 降至 140；SBP > 220 → IV 藥物降至 140-160\n**Aortic dissection**：SBP 降至 100-120（20 分鐘內）\n\n注意：中風患者避免 Nitroprusside/Nitroglycerin（會增加腦壓）"},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "16-25"}
+      ]
+    },
+    {
+      "title": "Prognosis / Follow-up",
+      "content": [
+        "控制良好的高血壓可顯著降低心血管事件風險：",
+        {"type": "list", "ordered": false, "items": [
+          "Stroke risk 降低 35-40%",
+          "MI risk 降低 20-25%",
+          "HF risk 降低 50%"
+        ]},
+        "Follow-up 頻率依控制狀況而定：初診或調藥後每 2-4 週回診，穩定後每 3-6 個月。定期監測 electrolytes、Cr/eGFR、UACR。",
+        {"type": "callout", "style": "logic", "text": "50 歲前：DBP 升高與冠心病較相關\n60 歲後：SBP 和 Pulse Pressure 是主要危險因子，甚至 DBP 越低風險越高（J-curve phenomenon）"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2186-2192"}
+      ]
+    },
+    {
+      "title": "Special Populations",
+      "content": [
+        {"type": "heading", "text": "孕婦"},
+        "孕期高血壓分類：Chronic HTN、Gestational HTN、Preeclampsia/Eclampsia。ACEi/ARB 為 **teratogenic**，孕婦禁用。首選 Methyldopa、Labetalol、Nifedipine。",
+        {"type": "heading", "text": "老年人"},
+        "以 Isolated Systolic HTN 為主。治療目標 SBP < 130（TSOC Class I）。Thiazide 和 DHP CCB 效果佳。注意 orthostatic hypotension 風險。",
+        {"type": "heading", "text": "CKD 患者"},
+        "建議 SBP < 130（若可耐受可更低至 < 120）。ACEi/ARB 為首選（腎臟保護）。注意監測 K+ 和 Cr。",
+        {"type": "heading", "text": "糖尿病患者"},
+        "ACEi/ARB 為首選（減少蛋白尿、腎臟保護）。避免高劑量 Thiazide（insulin resistance）和 B-blocker（mask hypoglycemia、diabetogenic）。"
+      ]
+    },
+    {
+      "title": "High-Yield Exam Points",
+      "content": [
+        {"type": "callout", "style": "trap", "text": "Secondary HTN 鑑別線索：\n- 年輕女性 + 腹部 bruit → Fibromuscular dysplasia\n- 低血鉀 + metabolic alkalosis → Primary aldosteronism\n- 陣發性 HTN + 心悸 + 出汗 + 頭痛 → Pheochromocytoma\n- 上肢 BP > 下肢 BP → Coarctation of aorta\n- Truncal obesity + striae → Cushing's syndrome"},
+        {"type": "callout", "style": "guideline", "text": "降壓藥禁忌必背：\n- ACEi/ARB：孕婦、Bilateral RAS、高血鉀\n- B-blocker：氣喘、心臟傳導異常 (2/3度 AV block)、憂鬱症\n- Thiazide：痛風、低血鉀/鈉\n- Non-DHP CCB (Verapamil/Diltiazem)：HF (EF 低)、AV block\n- 不要合併 ACEi + ARB（ONTARGET trial: 無額外好處且副作用增加）"},
+        {"type": "callout", "style": "logic", "text": "ACEi 的腎臟保護機制：\nACEi 擴張 efferent arteriole > afferent → 降低 glomerular pressure → 減少 proteinuria → 保護腎小管\n但若 bilateral RAS → 兩側腎臟都仰賴 AT II 維持 GFR → ACEi 會導致急性腎衰竭"},
+        {"type": "list", "ordered": false, "items": [
+          "BP = CO x SVR",
+          "台灣指引：居家 BP >= 130/80 即為高血壓",
+          "Essential HTN 佔 95%，Secondary 佔 5%",
+          "Hypertensive emergency = 有急性器官損傷，不看數字",
+          "ACEi 副作用：乾咳 (20%)、angioedema、高血鉀、teratogenic",
+          "HF 有 EBM 的 B-blocker: CBM (Carvedilol, Bisoprolol, Metoprolol)",
+          "CCB 分辨：字尾 -pine = DHP (降壓)；非 -pine = Non-DHP (降心率)"
+        ]}
+      ]
+    }
+  ],
+  "related": [
+    {"id": "coronary-artery-disease", "name": "Coronary Artery Disease (冠狀動脈疾病)"},
+    {"id": "heart-failure", "name": "Heart Failure (心臟衰竭)"},
+    {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
+    {"id": "aortic-dissection", "name": "Aortic Dissection (主動脈剝離)"},
+    {"id": "pheochromocytoma", "name": "Pheochromocytoma (嗜鉻細胞瘤)"}
+  ]
+}

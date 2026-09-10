@@ -1,6 +1,18 @@
 {
   "specialties": [
     {
+      "name": "心臟內科",
+      "diseases": [
+        {"id": "hypertension", "name": "Hypertension (高血壓)"}
+      ]
+    },
+    {
+      "name": "新陳代謝科",
+      "diseases": [
+        {"id": "diabetes-mellitus", "name": "Diabetes Mellitus (糖尿病)"}
+      ]
+    },
+    {
       "name": "腎臟內科",
       "diseases": [
         {"id": "nephrotic-syndrome", "name": "Nephrotic Syndrome (腎病症候群)"}
