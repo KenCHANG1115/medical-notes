@@ -131,7 +131,14 @@
         ]},
         {"type": "heading", "text": "低血鉀鑑別診斷 — TTKG 的應用"},
         {"type": "callout", "style": "guideline", "text": "**TTKG (Transtubular K⁺ Gradient)**：\nTTKG = (UK / Uosm) / (PK / Posm)\n= 尿鉀占血鉀的比例，再各以滲透壓校正\n\n- **TTKG > 7** → 腎臟流失 (Renal K⁺ loss)\n- **TTKG < 3** → 腎外流失 (Extrarenal loss / Transcellular shift)\n\n使用前提：\n1. Urine Na > 25 mEq/L\n2. Urine Osm > Plasma Osm (或 > 300)"},
-        {"type": "callout", "style": "logic", "text": "**Bartter's vs Gitelman's syndrome 鑑別**：\n\n共同特徵：低血鉀 + 代謝性鹼中毒 + 高 Renin + 高 Aldosterone + 血壓正常\n\n| | Bartter's | Gitelman's |\n|---|---|---|\n| 病變位置 | TALH (Na-K-2Cl) | DCT (Na-Cl) |\n| 類似藥物 | Furosemide | Thiazide |\n| 血鎂 | 低 | 低 |\n| **尿鈣** | **高** | **低** (鑑別關鍵！) |\n| 嚴重度 | 較重、可致產前多羊水 | 較輕 |"},
+        {"type": "callout", "style": "logic", "text": "**Bartter's vs Gitelman's syndrome 鑑別**：\n\n共同特徵：低血鉀 + 代謝性鹼中毒 + 高 Renin + 高 Aldosterone + 血壓正常"},
+        {"type": "table", "headers": ["", "Bartter's", "Gitelman's"], "rows": [
+          ["病變位置", "TALH (Na-K-2Cl)", "DCT (Na-Cl)"],
+          ["類似藥物", "Furosemide", "Thiazide"],
+          ["血鎂", "低", "低"],
+          ["尿鈣", "高", "低 (鑑別關鍵！)"],
+          ["嚴重度", "較重、可致產前多羊水", "較輕"]
+        ]},
         {"type": "heading", "text": "高血鉀鑑別 — TTKG 的應用"},
         {"type": "callout", "style": "guideline", "text": "**排除 Pseudo → Transcellular shift → 收集尿液**：\n- TTKG ≥ 8 → Aldosterone 有作用 → 考慮 ECF 不足或攝取過多\n- TTKG < 5 → Aldosterone 無功能 → 進一步測 Renin/Aldo\n  - Aldo 低 + Renin 低 → NSAID、β-blocker、DM 腎病\n  - Aldo 低 + Renin 高 → ACEI/ARB、Addison's\n  - Aldo 正常 + 給 Fludrocortisone 後 TTKG 仍 <10 → 腎小管抗性 (TMP、Spironolactone)"},
         {"type": "heading", "text": "高血鈣鑑別"},
@@ -199,7 +206,12 @@
       "title": "Related Disorders / Differential Diagnosis",
       "content": [
         {"type": "heading", "text": "低血鉀合併代謝性鹼中毒的鑑別"},
-        {"type": "callout", "style": "guideline", "text": "三大慢性低血鉀+代謝性鹼中毒的鑑別：\n\n| | Urine Cl⁻ | Urine Na⁺/K⁺/Cl⁻ | 特殊 |\n|---|---|---|---|\n| **偷偷嘔吐 (Bulimia)** | <10 mM | — | 代謝性鹼中毒，查尿 Cl⁻ |\n| **利尿劑濫用** | 變化大 | 升高但變化 | 尿液利尿劑篩檢 |\n| **Gitelman's** | 持續升高 | 持續升高 | 低尿鈣 |"},
+        {"type": "callout", "style": "guideline", "text": "**三大慢性低血鉀 + 代謝性鹼中毒的鑑別**："},
+        {"type": "table", "headers": ["病因", "Urine Cl⁻", "Urine Na⁺/K⁺/Cl⁻", "特殊"], "rows": [
+          ["偷偷嘔吐 (Bulimia)", "<10 mM", "—", "代謝性鹼中毒，查尿 Cl⁻"],
+          ["利尿劑濫用", "變化大", "升高但變化", "尿液利尿劑篩檢"],
+          ["Gitelman's", "持續升高", "持續升高", "低尿鈣"]
+        ]},
         {"type": "heading", "text": "高血鈣伴低血磷 vs 高血磷"},
         {"type": "table", "headers": ["PTH", "血磷", "病因"], "rows": [
           ["↑", "↓", "原發性副甲狀腺功能亢進 (PTH 增加腎磷排泄)"],
@@ -247,9 +259,6 @@
           ["低血鈣", "**QTc 延長**、T 波平坦"],
           ["高血鈣", "**QTc 縮短**"]
         ]},
-        {"type": "heading", "text": "練習題"},
-        {"type": "collapsible", "title": "題目：60 歲男性伯伯術後意識改變，無水腫，Na⁺ 105 mEq/L，體重 60 kg。如何安全矯正？", "content": "Step 1：排除假性低血鈉 (血糖、血脂正常 → 真性低血鈉)\nStep 2：Euvolemia + 術後壓力 → SIADH 可能性高\nStep 3：計算 3% NaCl 需求\n- 目標先升到 125：TBW × (125−105) = 0.513 × X → 60×0.6×20 = 0.513×X → X = 1,403 cc\n- 每日限 ≤8 mEq/L → 60×0.6×8 = 0.513×X → X = 561 cc，除以二 → **給 300 cc 3% NaCl 滴 24 小時**\n- 隔天再測 Na⁺\n- 同時補 NS 提供 volume"},
-        {"type": "collapsible", "title": "題目：35 歲女性多尿，限水後 Uosm 290，DDAVP 後 Uosm 320。診斷？", "content": "限水後 Uosm 僅 290 (未達 >600) → 排除 Primary polydipsia\nDDAvP 後 Uosm 僅輕微上升至 320 (升幅 <50%，遠低於 600) → 排除 Central DI\n→ 診斷：**Nephrogenic DI**\n→ 治療：**Thiazide** (造成 mild volume depletion，減少流經異常集尿管的尿液量)"},
         {"type": "source", "book": "First Choice 醫學(三)", "pages": "30-65"}
       ]
     }
