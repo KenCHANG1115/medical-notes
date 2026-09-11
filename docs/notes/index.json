@@ -19,7 +19,8 @@
         {"id": "nephrotic-syndrome", "name": "Nephrotic Syndrome (腎病症候群)"},
         {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
         {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
-        {"id": "acid-base-disorders", "name": "Acid-Base Disorders (酸鹼平衡異常)"}
+        {"id": "acid-base-disorders", "name": "Acid-Base Disorders (酸鹼平衡異常)"},
+        {"id": "electrolyte-disorders", "name": "Electrolyte Disorders (離子平衡異常)"}
       ]
     }
   ]
