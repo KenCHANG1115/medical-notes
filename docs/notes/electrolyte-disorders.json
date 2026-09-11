@@ -259,6 +259,13 @@
           ["低血鈣", "**QTc 延長**、T 波平坦"],
           ["高血鈣", "**QTc 縮短**"]
         ]},
+        {"type": "heading", "text": "練習題"},
+        {"type": "collapsible", "summary": "Q1：60 歲男性術後意識改變，無水腫，Na⁺ 105 mEq/L，Uosm 450，UNa 55，體重 60 kg。最可能診斷及如何安全矯正？", "text": "**診斷：SIADH**\n- Euvolemia + 術後 + Uosm >100 + UNa >40 → 符合 SIADH\n\n**矯正計算 (3% NaCl)**：\n- TBW = 60 × 0.6 = 36 L\n- 每日限升 ≤8 mEq/L → 需要量 = TBW × 8 / 0.513 = 36 × 8 / 0.513 ≈ 561 cc\n- 分 24h 給予，約 **23 cc/h**\n- 每 2~4h 監測 Na⁺\n- 若矯正過快 → 立即給 DDAVP + D5W 壓回"},
+        {"type": "collapsible", "summary": "Q2：35 歲女性多尿 (6 L/day)，Na⁺ 152，限水試驗後 Uosm 180，給 DDAVP 後 Uosm 升至 620。診斷與治療？", "text": "**診斷：Central DI (中樞型尿崩症)**\n- 限水後 Uosm 仍低 (180 <300) → 排除 primary polydipsia\n- DDAVP 後 Uosm 大幅上升至 620 (升幅 >50%) → **Central DI**\n\n**治療**：DDAVP (Desmopressin) 鼻噴或口服\n\n**鑑別**：若 DDAVP 後 Uosm 無變化 (<10% 升幅) → Nephrogenic DI → 治療改用 Thiazide"},
+        {"type": "collapsible", "summary": "Q3：28 歲亞洲男性，晨起四肢無力無法動彈，K⁺ 2.1，TTKG 1.8，甲狀腺腫大。診斷與急性處理？", "text": "**診斷：Thyrotoxic Periodic Paralysis (TPP，甲亢週期性麻痺)**\n- 年輕亞洲男性 + 急性低血鉀麻痺 + TTKG <3 (非腎性流失) + 甲狀腺腫大\n- 確認：TSH ↓、free T4 ↑\n\n**急性處理**：\n- **Propranolol** (非選擇性 β-blocker) 3 mg/kg → 可快速逆轉\n- 小心補充 KCl (慎防 rebound hyperkalemia，因為是 transcellular shift)\n- **不宜大量靜脈補鉀**\n\n**根本治療**：控制甲狀腺功能亢進"},
+        {"type": "collapsible", "summary": "Q4：72 歲女性長期使用 Furosemide，K⁺ 2.8，補充 KCl 數日無效，Mg²⁺ 1.0。為何補不回來？", "text": "**原因：低血鎂未矯正**\n- 低血鎂使 ROMK 通道持續開放 → 腎臟持續排 K⁺\n- 因此**必須同時補充 Mg²⁺**，否則 K⁺ 永遠補不回來\n\n**處理**：\n1. 靜脈補充 MgSO₄\n2. 繼續口服 KCl\n3. 考慮加用保鉀利尿劑 (Spironolactone / Amiloride)\n4. 評估是否可減少 Furosemide 劑量"},
+        {"type": "collapsible", "summary": "Q5：65 歲男性 CKD stage 4，K⁺ 7.2，EKG 示 peaked T waves 及 QRS widening。急救順序？", "text": "**立即處理** (K⁺ 7.2 + EKG 變化 = 急症)：\n\n1. **10% Ca²⁺ gluconate 10~20 mL IV** (1~3 分鐘起效，穩定心肌，不降 K⁺)\n2. **Insulin 10U + D50W 25g IV** (15~30 min，shift K⁺ 入細胞)\n3. **Nebulized Albuterol 10~20 mg** (30 min，β₂ shift K⁺)\n4. **NaHCO₃ IV** (若有酸中毒)\n5. **Furosemide IV** (增加腎排泄，CKD 效果有限)\n6. **Kayexalate/SZC/Patiromer** (腸道移除)\n7. **緊急血液透析** — CKD 4 期對上述治療反應差時\n\n⚠ Ca²⁺ gluconate 只保護心臟，不降 K⁺！"},
+        {"type": "collapsible", "summary": "Q6：55 歲女性疲倦、多尿、便秘，Ca²⁺ 12.8 mg/dL，PTH 85 pg/mL (正常 10~65)。診斷？", "text": "**診斷：原發性副甲狀腺功能亢進 (Primary Hyperparathyroidism)**\n- 高血鈣 + PTH 不適當升高 (inappropriately elevated)\n- 門診高血鈣最常見原因\n- 80% 為腺瘤 (adenoma)\n\n**需排除 FHH**：Ca/Cr clearance ratio\n- <0.01 → FHH (家族性低尿鈣高血鈣症，良性，不需手術)\n- >0.02 → pHPT → 考慮手術 (parathyroidectomy)\n\n**急性處理** (若 Ca >14 或有症狀)：\n1. 大量 NS 補液\n2. Furosemide (補液充足後)\n3. Calcitonin → Bisphosphonate"},
         {"type": "source", "book": "First Choice 醫學(三)", "pages": "30-65"}
       ]
     }
