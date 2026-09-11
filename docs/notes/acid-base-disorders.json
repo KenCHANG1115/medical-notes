@@ -1,0 +1,295 @@
+{
+  "id": "acid-base-disorders",
+  "title": "Acid-Base Disorders (酸鹼平衡異常)",
+  "title_en": "Acid-Base Disorders",
+  "title_zh": "酸鹼平衡異常",
+  "specialty": "腎臟內科",
+  "sources": [
+    "Harrison's 22e - Ch.58 Acidosis and Alkalosis (p.409-419)",
+    "First Choice 醫學(三) - 甲、酸鹼平衡觀念 (p.12-29)"
+  ],
+  "generated": "2026-09-11",
+  "sections": [
+    {
+      "title": "Overview / Epidemiology",
+      "content": [
+        "酸鹼平衡異常是臨床最常見且最重要的內科基本功之一。動脈血 pH 正常範圍 7.35~7.45，由肺（調控 PaCO₂）和腎臟（調控 HCO₃⁻）兩大器官共同維持。",
+        {"type": "callout", "style": "guideline", "text": "**Henderson-Hasselbalch 方程式**：\npH = 6.1 + log([HCO₃⁻] / 0.03 × PaCO₂)\n\n**正常值**：\n- pH = 7.35~7.45\n- HCO₃⁻ = 24 mmol/L\n- PaCO₂ = 40 mmHg"},
+        {"type": "callout", "style": "logic", "text": "**四種基本酸鹼異常**：\n1. **代謝性酸中毒** (Metabolic Acidosis)：HCO₃⁻ ↓ → pH ↓\n2. **代謝性鹼中毒** (Metabolic Alkalosis)：HCO₃⁻ ↑ → pH ↑\n3. **呼吸性酸中毒** (Respiratory Acidosis)：PaCO₂ ↑ → pH ↓\n4. **呼吸性鹼中毒** (Respiratory Alkalosis)：PaCO₂ ↓ → pH ↑\n\n呼吸酸和呼吸鹼不可能並存，但代謝的 3 種異常（高 AG 代謝酸、正常 AG 代謝酸、代謝鹼）可以同時存在。"},
+        "慢性呼吸性鹼中毒是唯一代償可使 pH 完全回到正常的酸鹼異常。Chronic respiratory alkalosis 也是 ICU 重症患者最常見的酸鹼異常，嚴重時預後不佳。",
+        {"type": "source", "book": "Harrison's 22e", "pages": "409-410"}
+      ]
+    },
+    {
+      "title": "Etiology / Risk Factors",
+      "content": [
+        {"type": "heading", "text": "High AG Metabolic Acidosis 病因"},
+        {"type": "callout", "style": "guideline", "text": "**高陰離子間隙代謝酸四大病因**：\n1. **Lactic acidosis** — 組織灌流不足（shock, HF）、mitochondrial 異常\n2. **Ketoacidosis** — DKA, AKA (alcoholic), starvation\n3. **Toxins** — Ethylene glycol, Methanol, Salicylates, Propylene glycol\n4. **Kidney failure** — acute & chronic (磷酸根、硫酸根蓄積)"},
+        {"type": "heading", "text": "Non-AG (Normal AG) Metabolic Acidosis 病因"},
+        {"type": "table", "headers": ["分類", "病因", "特徵"], "rows": [
+          ["GI HCO₃⁻ loss", "腹瀉 (最常見)、胰瘘、small-bowel drainage", "UAG < 0 (腎臟排酸正常)"],
+          ["Type 1 RTA (Distal)", "自體免疫 (Sjögren's, RA)、Amphotericin B", "低血鉀、尿 pH > 5.5、UAG > 0"],
+          ["Type 2 RTA (Proximal)", "Multiple myeloma、Acetazolamide、Fanconi syn.", "低血鉀、FeHCO₃⁻ > 15%、合併 glycosuria/aminoaciduria"],
+          ["Type 4 RTA (Distal)", "DM nephropathy、ACEI/ARB、NSAID、Heparin", "高血鉀 (唯一)、低 Renin/Aldo、UAG > 0、尿 pH < 5.3"]
+        ]},
+        {"type": "heading", "text": "Metabolic Alkalosis 病因"},
+        {"type": "table", "headers": ["分類", "Urine Cl⁻", "常見病因"], "rows": [
+          ["Saline-responsive (容量不足)", "< 20 mEq/L", "嘔吐、NG 引流、先前使用利尿劑、Post-hypercapnia"],
+          ["Saline-resistant (容量正常/過多)", "> 20 mEq/L", "Current 利尿劑使用、Primary aldosteronism、Cushing's、Bartter's/Gitelman's syn."]
+        ]},
+        {"type": "heading", "text": "Respiratory Acid-Base Disorders 病因"},
+        {"type": "table", "headers": ["類型", "機轉", "常見原因"], "rows": [
+          ["呼吸性酸中毒", "Hypoventilation → CO₂ retention", "COPD、鎮靜劑/嗎啡、呼吸肌疲勞、NM disease (MG, GBS)"],
+          ["呼吸性鹼中毒", "Hyperventilation → CO₂ wash-out", "疼痛/焦慮、低血氧、Salicylates、敗血症 (early)、肝衰竭、懷孕"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**嗎啡抑制呼吸 → 呼吸性酸中毒**（不會造成呼吸性鹼中毒）\n**Salicylates** → 刺激呼吸中樞 → 呼吸性鹼中毒，同時也產生代謝性酸中毒 → 常見 mixed disorder"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "411-418"}
+      ]
+    },
+    {
+      "title": "Pathophysiology",
+      "content": [
+        {"type": "heading", "text": "代償機制原則"},
+        "身體透過肺（快速，分鐘級）和腎臟（慢速，數小時至數天）來維持酸鹼平衡。代償的方向永遠與 primary change 同方向：代謝性問題引起 PaCO₂ 同方向變化，呼吸性問題引起 HCO₃⁻ 同方向變化。若 PaCO₂ 與 HCO₃⁻ 變化方向相反，則一定是 mixed disorder。",
+        {"type": "callout", "style": "guideline", "text": "**代償公式速查表**：\n\n| 異常 | 代償公式 |\n|---|---|\n| 代謝酸 | PaCO₂ = 1.5 × [HCO₃⁻] + 8 ± 2 (**Winter's formula**) |\n| 代謝酸 (速算) | PaCO₂ = [HCO₃⁻] + 15 |\n| 代謝鹼 | PaCO₂ ↑ 0.75 mmHg per 1 mmol/L ↑ HCO₃⁻ |\n| 代謝鹼 (速算) | PaCO₂ = [HCO₃⁻] + 15 |\n| 急性呼吸酸 | HCO₃⁻ ↑ 0.1 × ΔPaCO₂ |\n| 慢性呼吸酸 | HCO₃⁻ ↑ 0.4 × ΔPaCO₂ |\n| 急性呼吸鹼 | HCO₃⁻ ↓ 0.2 × ΔPaCO₂ |\n| 慢性呼吸鹼 | HCO₃⁻ ↓ 0.4 × ΔPaCO₂ |"},
+        {"type": "heading", "text": "Anion Gap 的意義"},
+        {"type": "callout", "style": "logic", "text": "**AG = Na⁺ − (Cl⁻ + HCO₃⁻)**\n正常值 ≈ 10~12 mmol/L\n\nAG 代表「未測量的陰離子 − 未測量的陽離子」。當有機酸（乳酸、酮體等）蓄積時，其酸根取代 HCO₃⁻ → AG 上升。\n\n**低白蛋白校正**：每低 1 g/dL albumin (低於正常 4.5 g/dL)，AG 需加回 2.5 mmol/L\ncorrected AG = 算出的 AG + (4.5 − Alb) × 2.5"},
+        {"type": "heading", "text": "ΔAG / ΔHCO₃⁻ (Delta-Delta) 分析"},
+        {"type": "callout", "style": "logic", "text": "**有 high-AG metabolic acidosis 時，進一步比較 ΔAG 與 ΔHCO₃⁻**：\n\n- **ΔAG = ΔHCO₃⁻**：單純 high-AG metabolic acidosis\n- **ΔAG < ΔHCO₃⁻** (HCO₃⁻ 下降太多)：high-AG acidosis **合併** non-AG acidosis\n- **ΔAG > 2× ΔHCO₃⁻** (HCO₃⁻ 下降太少)：high-AG acidosis **合併** metabolic alkalosis"},
+        {"type": "heading", "text": "Osmolal Gap"},
+        "Osmolal gap = 測量的血漿滲透壓 − 計算的滲透壓 (2×Na⁺ + Glu/18 + BUN/2.8)。OG > 10 提示有未測量的 osmolytes 存在（甲醇、乙二醇、乙醇、異丙醇等）。OG 升高通常早於 AG 升高；隨著代謝產物累積，AG 逐漸上升而 OG 下降。",
+        {"type": "source", "book": "Harrison's 22e", "pages": "409-413"}
+      ]
+    },
+    {
+      "title": "Pathology",
+      "content": [
+        {"type": "heading", "text": "RTA 的腎臟病理"},
+        {"type": "table", "headers": ["RTA Type", "損傷位置", "病理特徵", "相關疾病"], "rows": [
+          ["Type 1 (Distal)", "集尿管 α-intercalated cell", "H⁺-ATPase 缺陷 → 無法排 H⁺", "Sjögren's → 腎鈣化/腎結石/骨病變"],
+          ["Type 2 (Proximal)", "近端腎小管", "NHE3 或 NBCe1 缺陷 → 無法再吸收 HCO₃⁻", "Fanconi syndrome (glycosuria, aminoaciduria, phosphaturia)"],
+          ["Type 4 (Generalized distal)", "集尿管 principal cell", "Aldosterone 缺乏或抗性 → K⁺ 和 H⁺ 排泄減少", "DM nephropathy → tubulointerstitial fibrosis"]
+        ]},
+        {"type": "heading", "text": "Lactic Acidosis 的組織變化"},
+        {"type": "list", "ordered": false, "items": [
+          "**Type A** (缺氧型)：組織低灌流 → 無氧代謝 → lactate 堆積。見於 shock、嚴重貧血、心衰、CO 中毒",
+          "**Type B** (非缺氧型)：肝衰竭 (乳酸清除減少)、惡性腫瘤、藥物 (Metformin, NRTIs)、thiamine deficiency"
+        ]},
+        {"type": "heading", "text": "Toxic Alcohol 的器官損傷"},
+        {"type": "list", "ordered": false, "items": [
+          "**Ethylene glycol**：代謝為 glycolate + oxalate → 急性腎小管損傷 + oxalate 結晶阻塞 → AKI",
+          "**Methanol**：代謝為 formaldehyde + formic acid → 視神經損傷 (視力喪失) + CNS damage",
+          "**Isopropanol**：代謝為 acetone → 無 high-AG acidosis (acetone 不是酸)，但有升高 osmolal gap"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "413-416"}
+      ]
+    },
+    {
+      "title": "Clinical Presentation",
+      "content": [
+        {"type": "heading", "text": "Metabolic Acidosis 的臨床表現"},
+        {"type": "list", "ordered": false, "items": [
+          "**呼吸系統**：代償性 hyperventilation → Kussmaul breathing (deep, rapid)",
+          "**心血管**：心肌收縮力下降、周邊血管擴張 → 低血壓；容易引發肺水腫",
+          "**CNS**：頭痛、嗜睡、意識混亂，嚴重可至昏迷",
+          "**代謝**：葡萄糖耐受不良、高血鉀 (H⁺/K⁺ exchange)"
+        ]},
+        {"type": "heading", "text": "Metabolic Alkalosis 的臨床表現"},
+        {"type": "list", "ordered": false, "items": [
+          "類似低血鈣症狀：肌肉痙攣、tetany、paresthesia",
+          "CNS：意識混亂、obtundation、癲癇傾向",
+          "心律不整加重 (尤其合併低血鉀時)",
+          "常合併低血鉀和低血氯"
+        ]},
+        {"type": "heading", "text": "Respiratory Acidosis 的臨床表現"},
+        {"type": "table", "headers": ["急性", "慢性"], "rows": [
+          ["焦慮、呼吸困難、意識混亂", "嗜睡、記憶力減退、人格改變"],
+          ["嚴重可至精神異常、幻覺、昏迷", "Tremor, myoclonus, asterixis"],
+          ["—", "頭痛、papilledema (類似 ICP 升高表現)"]
+        ]},
+        {"type": "heading", "text": "Respiratory Alkalosis 的臨床表現"},
+        {"type": "list", "ordered": false, "items": [
+          "腦血管收縮 → 頭暈、意識混亂，嚴重可至癲癇",
+          "Hyperventilation syndrome：口周麻木、胸悶、無法深呼吸、tetany",
+          "急性呼吸性鹼中毒造成 K⁺ 和 PO₄²⁻ 細胞內移，游離 Ca²⁺ 下降 (增加蛋白結合)"
+        ]},
+        {"type": "callout", "style": "trap", "text": "**腸胃道遺失電解質整理**：\n- **嘔吐**：失去 H⁺ 和 Cl⁻ → pH ↑ (代謝鹼中毒)\n- **腹瀉**：失去 K⁺ 和 HCO₃⁻ → pH ↓ (代謝酸中毒)\n\n口訣：**「吐酸拉鹼」**（吐出 H⁺ 造成鹼中毒，拉出 HCO₃⁻ 造成酸中毒）"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "411-418"}
+      ]
+    },
+    {
+      "title": "Diagnosis",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "**酸鹼判讀三步驟** (Physiological Approach)：\n\n**Step 1：看 pH** → 判斷酸或鹼\n- pH < 7.35 → 酸中毒：HCO₃⁻ ↓ = 代謝酸，PaCO₂ ↑ = 呼吸酸\n- pH > 7.45 → 鹼中毒：HCO₃⁻ ↑ = 代謝鹼，PaCO₂ ↓ = 呼吸鹼\n- pH 正常但數值異常 → mixed disorder\n\n**Step 2：判斷代償是否合宜** → 不合宜則有混合異常\n\n**Step 3：計算 AG → 若 AG 升高，進一步算 ΔAG/ΔHCO₃⁻**"},
+        {"type": "heading", "text": "Urine Anion Gap (UAG)"},
+        {"type": "callout", "style": "logic", "text": "**UAG = U_Na⁺ + U_K⁺ − U_Cl⁻**\n反映尿中 NH₄⁺ 的排泄量（未測量的陽離子）\n\n- **UAG < 0** (負值)：尿中 NH₄⁺ 增加 → 腎臟排酸正常 → **腸胃道原因** (腹瀉) 或 Type 2 RTA\n- **UAG > 0** (正值)：尿中 NH₄⁺ 減少 → 腎臟排酸異常 → **Type 1 或 Type 4 RTA**"},
+        {"type": "heading", "text": "RTA 的鑑別診斷"},
+        {"type": "table", "headers": ["特徵", "Type 1 (Distal)", "Type 2 (Proximal)", "Type 4 (Distal)"], "rows": [
+          ["缺陷", "無法排 H⁺", "無法再吸收 HCO₃⁻", "Aldosterone ↓ → 高血鉀"],
+          ["血鉀", "低", "低", "高 (唯一高血鉀的 RTA)"],
+          ["尿 pH", "> 5.5 (不適當的鹼尿)", "< 5.5 (酸化正常)", "< 5.3"],
+          ["UAG", "> 0", "不一定", "> 0"],
+          ["FeHCO₃⁻", "< 3%", "> 15%", "< 3%"],
+          ["併發症", "腎結石/腎鈣化", "Fanconi syn.", "—"],
+          ["常見病因", "Sjögren's, RA", "Multiple myeloma, Acetazolamide", "DM, ACEI/ARB"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**RTA 記憶口訣**：\n「一遠二近、一石二軟、一尿不酸、四鉀朝天」\n- 一遠二近：Type 1 = distal，Type 2 = proximal\n- 一石二軟：Type 1 → 腎結石，Type 2 → 骨軟化 (rickets)\n- 一尿不酸：Type 1 尿 pH > 5.5\n- 四鉀朝天：Type 4 = 高血鉀"},
+        {"type": "heading", "text": "Metabolic Alkalosis 鑑別：Urine Cl⁻"},
+        {"type": "callout", "style": "logic", "text": "**U_Cl⁻ < 20 mEq/L → Saline-responsive** (Cl⁻ responsive)\n- 嘔吐、NG aspiration、先前利尿劑使用\n- 給 isotonic saline 可校正\n\n**U_Cl⁻ > 20 mEq/L → Saline-resistant** (Cl⁻ unresponsive)\n- Current diuretics、Hyperaldosteronism、Bartter's/Gitelman's\n- 需針對病因治療"},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "13-22"}
+      ]
+    },
+    {
+      "title": "Treatment",
+      "content": [
+        {"type": "heading", "text": "Metabolic Acidosis 治療"},
+        {"type": "callout", "style": "guideline", "text": "**NaHCO₃ 的使用原則**：\n- 嚴重酸血症 (pH < 7.0 或 7.2) 時才考慮給予\n- 目標：pH ↑ 至 7.20，HCO₃⁻ ↑ 至 10~12 mmol/L，**不要矯正到正常**\n- DKA：僅在 pH < 7.00 且/或 shock 時才給，避免 bolus，慢速 infusion\n- Lactic acidosis：矯正根本原因（恢復灌流）比給 NaHCO₃ 更重要"},
+        {"type": "callout", "style": "trap", "text": "**NaHCO₃ 的副作用**：\n- 刺激 phosphofructokinase → 反而增加 lactate 產生\n- 矯正原因後 organic acid 代謝為 HCO₃⁻ → rebound alkalosis\n- 體液過載、hypokalemia (需同時補鉀)"},
+        {"type": "heading", "text": "DKA 治療重點"},
+        {"type": "list", "ordered": true, "items": [
+          "**Volume resuscitation**：isotonic saline，避免過度擴容 (可引起 hyperchloremic acidosis)",
+          "**Regular insulin**：0.1 U/kg bolus → 0.1 U/kg/h infusion，至 AG 回到正常",
+          "**注意 euglycemic DKA (eDKA)**：SGLT2i 使用者血糖可能正常但仍有酮酸中毒"
+        ]},
+        {"type": "heading", "text": "Toxic Alcohol 中毒治療"},
+        {"type": "table", "headers": ["治療", "說明"], "rows": [
+          ["Fomepizole", "抑制 alcohol dehydrogenase (首選)，15 mg/kg IV loading → 10 mg/kg q12h"],
+          ["Hemodialysis", "pH < 7.3、osmolar gap > 20、end-organ damage 時適應症"],
+          ["Thiamine + Pyridoxine", "Ethylene glycol 中毒的輔助治療"],
+          ["Ethanol", "歷史性治療，僅在 fomepizole 不可用時才考慮"]
+        ]},
+        {"type": "heading", "text": "CKD 的酸中毒治療"},
+        "CKD stage 3-4 的 chronic metabolic acidosis → 口服 alkali (NaHCO₃ 或 sodium citrate/Shohl's solution) 維持 HCO₃⁻ > 22 mmol/L，可減緩 CKD 進展、減少肌肉流失和骨質流失。增加蔬果攝取（含 citrate）也可有效提升血中 HCO₃⁻。",
+        {"type": "heading", "text": "Non-AG Acidosis (RTA) 治療"},
+        {"type": "table", "headers": ["Type", "治療策略"], "rows": [
+          ["Type 1 (Distal)", "先矯正低血鉀 → Alkali therapy (NaHCO₃ or Shohl's solution) 維持 HCO₃⁻ 24~26。長期治療可減少腎結石、改善骨密度"],
+          ["Type 2 (Proximal)", "Alkali + 補鉀 (因 alkali 增加遠端 K⁺ 分泌)。最難治療的 RTA"],
+          ["Type 4", "矯正高血鉀 (Patiromer 8.4g BID, 限鉀飲食) + Alkali → 若為 isolated hypoaldo → fludrocortisone"]
+        ]},
+        {"type": "heading", "text": "Metabolic Alkalosis 治療"},
+        {"type": "list", "ordered": false, "items": [
+          "**Saline-responsive**：isotonic saline + KCl 即可矯正",
+          "**Saline-resistant + Hyperaldosteronism**：針對病因治療 (手術或 spironolactone)",
+          "**合併 HF 無法給 saline 時**：Acetazolamide 125~250 mg IV (需注意低血鉀)",
+          "**Liddle's syndrome**：Amiloride 或 Triamterene (抑制 ENaC)"
+        ]},
+        {"type": "heading", "text": "Respiratory Acidosis 治療"},
+        {"type": "list", "ordered": false, "items": [
+          "急性：恢復通氣 → 可能需插管和機械通氣",
+          "COPD 給氧需謹慎，避免 CO₂ retention 惡化",
+          "慢性：逐漸降低 PaCO₂，避免快速矯正 (可引起心律不整、腦灌流不足、癲癇)",
+          "補充 Cl⁻ 和 K⁺ 促進腎臟排出多餘 HCO₃⁻"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "411-419"}
+      ]
+    },
+    {
+      "title": "Prognosis",
+      "content": [
+        {"type": "heading", "text": "預後判斷"},
+        {"type": "list", "ordered": false, "items": [
+          "**Lactic acidosis**：死亡率高，取決於根本原因是否可逆。Septic shock 引起的 lactic acidosis 死亡率 > 50%",
+          "**DKA**：及時治療下死亡率 < 1%；延遲治療或合併感染則預後差",
+          "**Toxic alcohol ingestion**：早期使用 fomepizole + hemodialysis 可大幅降低死亡率和器官損傷",
+          "**CKD metabolic acidosis**：未治療的慢性酸中毒加速 CKD 進展、肌肉消耗和骨質流失",
+          "**Chronic respiratory alkalosis in ICU**：嚴重時預後不佳，常反映底層疾病嚴重度"
+        ]},
+        {"type": "callout", "style": "logic", "text": "**Lactate clearance** 是 sepsis 預後的重要指標。6 小時內 lactate 下降 ≥ 10% 與較好的預後相關。持續升高的 lactate 提示組織灌流未改善。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "413-414"}
+      ]
+    },
+    {
+      "title": "Special Populations",
+      "content": [
+        {"type": "heading", "text": "DKA 的特殊注意事項"},
+        {"type": "collapsible", "summary": "Euglycemic DKA (eDKA) — SGLT2i 使用者", "content": [
+          "SGLT2 inhibitors 引起 glycosuria → osmotic diuresis → volume depletion → 血糖正常但酮體蓄積",
+          "臨床陷阱：血糖正常不代表沒有 DKA → 要測 β-hydroxybutyrate 和 AG",
+          "Nitroprusside 尿酮試驗無法準確偵測 β-hydroxybutyrate，可能低估酮症程度"
+        ]},
+        {"type": "heading", "text": "Alcoholic Ketoacidosis (AKA)"},
+        {"type": "collapsible", "summary": "AKA 的特殊性與治療", "content": [
+          "特徵：酗酒 + 嘔吐 + 腹痛 + volume depletion + 血糖正常或偏低",
+          "治療：D5NS + 監測低磷 (通常入院 12-24h 後出現)、低鉀、低鎂",
+          "補液後 β-hydroxybutyrate → acetoacetate → nitroprusside reaction 「假性升高」(其實是好轉)",
+          "常見 mixed disorder：lactic acidosis + respiratory alkalosis (肝病) + metabolic alkalosis (嘔吐)"
+        ]},
+        {"type": "heading", "text": "Salicylate 中毒"},
+        {"type": "collapsible", "summary": "Salicylate 中毒的處理", "content": [
+          "成人：常見 mixed high-AG metabolic acidosis + respiratory alkalosis",
+          "治療：洗胃 (isotonic saline) → activated charcoal 1 g/kg → NaHCO₃ 鹼化尿液 (目標 urine pH > 7.5)",
+          "尿 pH 從 6.5 升至 7.5 可增加 salicylate 清除率 5 倍",
+          "若 AKI 導致無法清除 → hemodialysis (standard bicarbonate dialysate)"
+        ]},
+        {"type": "heading", "text": "Pyroglutamic Acid (5-Oxoproline)"},
+        "Acetaminophen 引起的 high-AG metabolic acidosis，在重症或營養不良患者使用標準劑量即可發生。機轉：glutathione depleted → 5-oxoproline 累積。治療：停用 acetaminophen + NaHCO₃。",
+        {"type": "heading", "text": "Hyperaldosteronism 鑑別"},
+        {"type": "collapsible", "summary": "Suspect Hyperaldosteronism 流程", "content": [
+          "代謝鹼 + 高血壓 + 低血鉀 → 測 Plasma renin & aldosterone",
+          "**↓ Renin + ↑ Aldo** (Aldo:Renin > 20) → salt suppression test → **1° Hyperaldosteronism** → Adrenal CT/MRI → adenoma vs hyperplasia",
+          "**↑ Renin + ↑ Aldo** → **2° Hyperaldosteronism** → Renovascular disease, CHF, Cirrhosis",
+          "**↓ Renin + ↓ Aldo** → Non-aldosterone mineralocorticoid excess → Cushing's, Licorice, Liddle's syndrome",
+          "**Liddle's syndrome**：ENaC gain-of-function mutation → 高血壓 + 低血鉀 + 代謝鹼 + 低 renin + 低 aldo → 治療用 Amiloride (非 spironolactone)"
+        ]},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "22-24"}
+      ]
+    },
+    {
+      "title": "Mixed Acid-Base Disorders",
+      "content": [
+        {"type": "heading", "text": "混合型酸鹼異常"},
+        "Mixed acid-base disorders 在重症患者中非常常見，可導致危險的 pH 極端值。診斷關鍵在於計算 AG 和比較代償預測值。",
+        {"type": "callout", "style": "guideline", "text": "**Mixed Disorder 診斷要點**：\n1. PaCO₂ 和 HCO₃⁻ 變化方向相反 → 一定是 mixed disorder\n2. 代償不足或過度 → 合併另一種異常\n3. pH 正常但 AG 升高 → 隱藏的 high-AG acidosis + metabolic alkalosis"},
+        {"type": "heading", "text": "經典 Mixed Disorder 範例"},
+        {"type": "table", "headers": ["類型", "典型 ABG", "臨床情境"], "rows": [
+          ["代謝酸 + 呼吸鹼", "pH 7.39, HCO₃⁻ 14, PaCO₂ 24, AG 20", "ICU 敗血症 (lactic acidosis + 代償性過度通氣)"],
+          ["代謝酸 + 呼吸酸", "pH 7.25, HCO₃⁻ 18, PaCO₂ 42, AG 20", "嚴重肺炎/肺水腫 (乳酸中毒 + 通氣不足)"],
+          ["代謝鹼 + 呼吸酸", "pH 7.42, HCO₃⁻ 42, PaCO₂ 67, AG 10", "COPD + 過度利尿劑使用"],
+          ["代謝酸 + 代謝鹼", "pH 7.42, HCO₃⁻ 25, PaCO₂ 40, AG 20", "Uremia + 嘔吐 (pH 正常但 AG 升高!)"],
+          ["High-AG + Non-AG acidosis", "pH 7.20, HCO₃⁻ 10, PaCO₂ 25, AG 15", "敗血症合併腹瀉 (ΔAG < ΔHCO₃⁻)"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**pH 正常不代表沒有酸鹼異常！**\n\n範例：Na⁺ 140, K⁺ 3.0, Cl⁻ 95, HCO₃⁻ 25, pH 7.42, PaCO₂ 40\n看似全部正常，但 AG = 140 − 95 − 25 = **20** (升高！)\nΔAG = 10, ΔHCO₃⁻ = 0 → HCO₃⁻ 沒有因酸根而下降 → **high-AG acidosis + metabolic alkalosis** 共存\n臨床情境：Uremia 病人合併嘔吐"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "410-411"}
+      ]
+    },
+    {
+      "title": "High-Yield Exam Points",
+      "content": [
+        {"type": "heading", "text": "國考高頻考點"},
+        {"type": "table", "headers": ["考點", "關鍵知識"], "rows": [
+          ["AG 計算", "AG = Na⁺ − (Cl⁻ + HCO₃⁻)，正常 10~12。低 albumin 需校正：cAG = AG + (4.5 − Alb) × 2.5"],
+          ["Winter's formula", "PaCO₂ = 1.5 × [HCO₃⁻] + 8 ± 2 (代謝酸的預期呼吸代償)"],
+          ["速算法", "PaCO₂ = [HCO₃⁻] + 15 (代謝酸和代謝鹼都適用，[HCO₃⁻] 12~36 範圍)"],
+          ["唯一高血鉀 RTA", "Type 4 RTA (Hypoaldo → 留鉀留氫)"],
+          ["RTA 口訣", "一遠二近、一石二軟、一尿不酸、四鉀朝天"],
+          ["腹瀉 vs RTA", "UAG < 0 → 腹瀉 (腎排酸正常)；UAG > 0 → Type 1 or 4 RTA"],
+          ["吐酸拉鹼", "嘔吐 → 失 H⁺/Cl⁻ → 代謝鹼；腹瀉 → 失 K⁺/HCO₃⁻ → 代謝酸"],
+          ["Metabolic alkalosis 鑑別", "U_Cl⁻ < 20 = saline responsive (嘔吐)；> 20 = saline resistant (aldosteronism)"],
+          ["Salicylate 中毒", "Mixed high-AG acidosis + respiratory alkalosis；NaHCO₃ 鹼化尿液 (urine pH > 7.5)"],
+          ["Osmolal gap > 10", "Methanol, Ethylene glycol (有 AG↑)；Ethanol, Isopropanol (無 AG↑)"],
+          ["嗎啡 vs Salicylate", "嗎啡 → 呼吸酸 (抑制呼吸)；Salicylate → 呼吸鹼 (刺激呼吸中樞)"],
+          ["eDKA", "SGLT2i 使用者，血糖正常但有酮酸中毒，需測 β-hydroxybutyrate"],
+          ["Fomepizole", "Toxic alcohol 中毒首選 (抑制 alcohol dehydrogenase)，取代 ethanol"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**經典陷阱題型**：\n\n1. pH 正常 + AG 升高 → 不要漏掉隱藏的 mixed disorder，一定要算 AG！\n2. Non-AG metabolic acidosis + 高血鉀 → Type 4 RTA (不是 Type 1 或 2)\n3. 代謝鹼 + 低血鉀 + 高血壓 → 想到 Hyperaldosteronism\n4. Sjögren's syndrome → Type 1 (distal) RTA → 代謝酸，不是代謝鹼\n5. 慢性呼吸鹼的代償比急性更多 (0.4 vs 0.2 × ΔPaCO₂)，是唯一可使 pH 完全回正常的代償"},
+        {"type": "heading", "text": "臨床實戰：ABG 判讀練習"},
+        {"type": "collapsible", "summary": "練習題 1：pH 7.39, HCO₃⁻ 14, PaCO₂ 24, Na⁺ 140, K⁺ 4.0, Cl⁻ 106", "content": [
+          "Step 1：pH 偏酸 → 代謝酸 (HCO₃⁻ ↓)",
+          "Step 2：預期 PaCO₂ = 14 + 15 = 29，實際 24 → PaCO₂ 太低 → 合併呼吸鹼",
+          "Step 3：AG = 140 − 106 − 14 = 20 → high-AG acidosis；ΔAG (10) = ΔHCO₃⁻ (10) → 單純 high-AG acidosis",
+          "結論：**High-AG metabolic acidosis + Respiratory alkalosis**",
+          "臨床：ICU 敗血症，用上呼吸器後的狀況"
+        ]},
+        {"type": "collapsible", "summary": "練習題 2：pH 7.42, HCO₃⁻ 25, PaCO₂ 40, Na⁺ 140, K⁺ 3.0, Cl⁻ 95", "content": [
+          "Step 1：pH 正常，所有數值看似正常",
+          "Step 2：AG = 140 − 95 − 25 = 20 → AG 升高！",
+          "Step 3：ΔAG = 10, ΔHCO₃⁻ = 0 → HCO₃⁻ 沒有下降 → HCO₃⁻ gain",
+          "結論：**High-AG metabolic acidosis + Metabolic alkalosis**",
+          "臨床：Uremia 合併嘔吐"
+        ]},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "12-29"}
+      ]
+    }
+  ],
+  "related": ["acute-kidney-injury", "chronic-kidney-disease", "diabetes-mellitus"]
+}
