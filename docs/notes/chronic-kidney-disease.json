@@ -1,0 +1,248 @@
+{
+  "id": "chronic-kidney-disease",
+  "title": "Chronic Kidney Disease (慢性腎臟病)",
+  "title_en": "Chronic Kidney Disease",
+  "title_zh": "慢性腎臟病",
+  "specialty": "腎臟內科",
+  "sources": [
+    "Harrison's 22e - Ch.322 Chronic Kidney Disease (p.2386-2400)",
+    "First Choice 醫學(三) - 丁、腎臟疾病各論A (p.80-98)",
+    "First Choice 醫學(三) - 己、透析治療 (p.142-154)"
+  ],
+  "generated": "2026-09-11",
+  "sections": [
+    {
+      "title": "Overview / Epidemiology",
+      "content": [
+        "Chronic Kidney Disease (CKD) 是指腎臟結構或功能異常持續 > 3 個月，以 eGFR 下降或白蛋白尿為標誌。",
+        {"type": "callout", "style": "guideline", "text": "**KDIGO CKD 診斷標準**（符合任一，持續 > 3 個月）：\n- eGFR < 60 mL/min/1.73m²\n- Albuminuria (UACR ≥ 30 mg/g)\n- 尿液沉渣異常\n- 腎小管功能障礙所致電解質異常\n- 組織學異常\n- 影像學結構異常\n- 腎臟移植病史"},
+        {"type": "table", "headers": ["GFR 分期", "eGFR (mL/min/1.73m²)", "描述"], "rows": [
+          ["G1", "≥ 90", "正常或升高"],
+          ["G2", "60-89", "輕度下降"],
+          ["G3a", "45-59", "輕至中度下降"],
+          ["G3b", "30-44", "中至重度下降"],
+          ["G4", "15-29", "重度下降"],
+          ["G5", "< 15", "腎衰竭 (Kidney failure)"]
+        ]},
+        {"type": "table", "headers": ["Albuminuria 分期", "UACR (mg/g)", "描述"], "rows": [
+          ["A1", "< 30", "正常至輕微增加"],
+          ["A2", "30-300", "中度增加 (microalbuminuria)"],
+          ["A3", "> 300", "嚴重增加 (macroalbuminuria)"]
+        ]},
+        "美國成人 CKD 盛行率：G1-G2 約 6%，G3-G4 約 4.5%。大多數 CKD 患者死於心血管疾病，未進展至 G5。",
+        {"type": "source", "book": "Harrison's 22e", "pages": "2386-2389"}
+      ]
+    },
+    {
+      "title": "Etiology / Risk Factors",
+      "content": [
+        {"type": "heading", "text": "CKD 五大病因 (佔 > 90%)"},
+        {"type": "table", "headers": ["病因", "說明"], "rows": [
+          ["糖尿病腎病變 (Diabetic nephropathy)", "北美/歐洲最常見；Type 2 DM 為主"],
+          ["腎絲球腎炎 (Glomerulonephritis)", "亞洲常見原因；IgA nephropathy 為成人最常見原發性腎炎"],
+          ["高血壓相關 CKD", "包含血管性/缺血性腎病；注意部分可能是潛在 GN 導致 HTN"],
+          ["ADPKD (多囊腎)", "自體顯性遺傳；PKD1/PKD2 基因突變"],
+          ["其他囊性及間質性腎病", "反覆感染、阻塞、鎮痛劑腎病"]
+        ]},
+        {"type": "heading", "text": "危險因子"},
+        {"type": "list", "ordered": false, "items": [
+          "**不可修改**：年齡、男性、家族史、APOL1 基因 (African ancestry)、早產/SGA",
+          "**可修改**：DM、HTN、肥胖 (BMI↑)、吸菸、久坐",
+          "**感染**：HIV (HIVAN)、HBV/HCV、SARS-CoV-2",
+          "**藥物/毒物**：NSAID、Lithium、PPI、化療藥",
+          "**其他**：AKI 病史 (AKI → CKD 連結)、子癇前症、單側腎"
+        ]},
+        {"type": "callout", "style": "logic", "text": "eGFR 每年自然下降約 1 mL/min（正常老化），但有 CKD 危險因子者下降速率顯著加快。若 eGFR 穩定且無蛋白尿，多數 G2-G3 患者不會進一步惡化。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2387-2389"}
+      ]
+    },
+    {
+      "title": "Pathophysiology",
+      "content": [
+        {"type": "heading", "text": "腎元減少 → 代償性 Hyperfiltration"},
+        {"type": "list", "ordered": true, "items": [
+          "腎元 (nephron) 數量減少 → 殘存腎元代償性肥大",
+          "入球小動脈擴張 → 腎絲球內壓力上升 (intraglomerular hypertension)",
+          "單一腎元 GFR 升高 (hyperfiltration) → 暫時維持整體腎功能",
+          "長期 hyperfiltration → podocyte 損傷 → 蛋白尿 → 腎絲球硬化 (sclerosis)",
+          "硬化導致更多腎元喪失 → 惡性循環 (maladaptive response)"
+        ]},
+        {"type": "callout", "style": "logic", "text": "**ACEi/ARB 的腎保護機制**：\n放鬆出球小動脈 → 降低腎絲球內壓 → 減少 hyperfiltration → 減少蛋白尿\n初期 GFR 可能下降 ≤ 30%（代表有效減壓），若穩定可接受\n\n**SGLT2i (Gliflozins) 的腎保護機制**：\n抑制近端腎小管 Na+/glucose 再吸收 → 更多 Na+ 到 macula densa → 啟動 TGF → 入球小動脈收縮 → 降低 GFR 壓力"},
+        {"type": "heading", "text": "Uremic Syndrome 的三大機轉"},
+        {"type": "list", "ordered": true, "items": [
+          "**毒素蓄積**：正常由腎臟排泄的含氮代謝廢物累積 (BUN/Cr 只是部分指標)",
+          "**內分泌/體液調節喪失**：EPO↓、Calcitriol↓、PTH↑、FGF-23↑、性荷爾蒙異常",
+          "**全身性發炎**：CRP↑、Albumin↓ → malnutrition-inflammation-atherosclerosis (MIA) syndrome"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2386-2390"}
+      ]
+    },
+    {
+      "title": "Pathology",
+      "content": [
+        {"type": "heading", "text": "CKD 的共通病理變化"},
+        {"type": "list", "ordered": false, "items": [
+          "**腎絲球硬化 (Glomerulosclerosis)**：局灶性或全面性硬化，細胞外基質增生",
+          "**間質纖維化 (Interstitial fibrosis)**：膠原沉積取代正常腎間質",
+          "**腎小管萎縮 (Tubular atrophy)**：小管細胞退化、基底膜增厚",
+          "**血管硬化 (Vascular sclerosis)**：小動脈壁增厚、管腔狹窄"
+        ]},
+        {"type": "heading", "text": "依病因的特異性病理"},
+        {"type": "table", "headers": ["病因", "特徵性病理"], "rows": [
+          ["Diabetic nephropathy", "Kimmelstiel-Wilson nodular glomerulosclerosis, GBM 增厚, mesangial expansion"],
+          ["IgA nephropathy", "Mesangial IgA 沉積 (IF: granular), mesangial proliferative GN"],
+          ["Hypertensive nephrosclerosis", "入球小動脈玻璃樣變性 (hyaline arteriolosclerosis)"],
+          ["ADPKD", "雙側多發性大小不等囊腫，腎臟明顯增大"],
+          ["Lupus nephritis", "Full-house pattern (IgG, IgA, IgM, C3, C4, C1q 全部沉積)"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**腎臟大小的鑑別意義**：\n- CKD → 雙側萎縮、皮質變薄（需要時間）\n- 腎臟大小正常的 CKD → 考慮：DM nephropathy、Amyloidosis、HIV nephropathy\n- 腎臟增大 + 囊腫 → ADPKD"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2390-2395"}
+      ]
+    },
+    {
+      "title": "Clinical Presentation",
+      "content": [
+        "CKD 早期多無症狀，直到 G4-G5 才出現明顯的尿毒症症狀。",
+        {"type": "heading", "text": "CKD 各系統併發症"},
+        {"type": "table", "headers": ["系統", "併發症", "開始出現時期"], "rows": [
+          ["電解質/酸鹼", "高血鉀、代謝性酸中毒 (non-AG → AG)、鈉滯留水腫", "G3-G4"],
+          ["骨礦物質 (CKD-MBD)", "高磷、低鈣、PTH↑、FGF-23↑、Vit D↓", "GFR < 60 (G3)"],
+          ["心血管", "HTN、LVH、HF、動脈鈣化、Pericarditis (G5)", "G2 起逐漸增加"],
+          ["血液", "正球性正色素性貧血 (EPO↓)、出血傾向 (platelet dysfunction)", "G3-G4"],
+          ["神經肌肉", "周邊神經病變、Restless leg syndrome、Uremic encephalopathy", "G4-G5"],
+          ["消化", "Uremic fetor (口臭)、噁心嘔吐、食慾不振、營養不良", "G4-G5"],
+          ["內分泌", "Insulin 代謝延長 (低血糖風險)、性荷爾蒙↓、不孕", "G3-G5"],
+          ["皮膚", "搔癢 (uremic pruritus)、色素沉著、Calciphylaxis", "G4-G5"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**CKD-MBD (Mineral Bone Disease) 的病理生理**：\nGFR↓ → PO₄ 滯留 → FGF-23↑ (最早期指標) → Calcitriol↓ → Ca²⁺↓ → PTH↑\n→ 高轉換性骨病 (Osteitis fibrosa cystica) — PTH 過高\n→ 低轉換性骨病 (Adynamic bone disease) — PTH 被過度抑制\n→ 血管鈣化 → 心血管死亡↑"},
+        {"type": "callout", "style": "logic", "text": "**CKD 代謝性酸中毒的演變**：\n早期 (G3)：Non-anion gap metabolic acidosis (腎小管 NH₃ 生成不足)\n晚期 (G4-5)：Anion gap metabolic acidosis (有機酸蓄積)\nHCO₃⁻ < 20-23 mmol/L 時需補充 NaHCO₃，可減緩蛋白質分解與 CKD 進展"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2389-2395"}
+      ]
+    },
+    {
+      "title": "Diagnosis",
+      "content": [
+        {"type": "heading", "text": "eGFR 估算公式"},
+        {"type": "table", "headers": ["公式", "適用", "特點"], "rows": [
+          ["CKD-EPI (2021 race-free)", "成人標準", "目前推薦的無種族校正版本"],
+          ["MDRD", "成人", "較舊公式，在 GFR > 60 時低估"],
+          ["Cockcroft-Gault", "藥物劑量調整", "估算 CCr，納入體重；女性 × 0.85"],
+          ["Schwartz", "兒童", "兒童專用公式"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**Cockcroft-Gault 公式**：\nCCr = (140 - Age) × BW / (72 × sCr)\n女性 × 0.85\n\n注意：肌肉量少（老年、截肢）的患者 sCr 會偏低 → eGFR 被高估"},
+        {"type": "heading", "text": "CKD 的診斷評估"},
+        {"type": "list", "ordered": false, "items": [
+          "**血液**：sCr, eGFR, BUN, electrolytes, Ca/PO₄/PTH, CBC, albumin, lipid profile",
+          "**尿液**：UACR (spot urine) 或 24-hr urine protein, urine sediment (RBC cast, WBC cast, waxy cast)",
+          "**影像**：Renal ultrasound (首選) — 大小、對稱性、有無阻塞/囊腫",
+          "**切片**：雙側腎臟未萎縮且 eGFR 穩定下降原因不明時考慮"
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Waxy cast** 在尿液沉渣中出現 → 提示 CKD (慢性腎臟病)，而非急性\n\n**區分 AKI vs CKD 的線索**：\n- 既往 sCr 正常 → 可能是急性\n- 雙側腎臟萎縮 → 慢性\n- 貧血 + 骨病變 + 高磷 → 慢性的線索\n- 腎臟大小正常不能排除 CKD (DM, Amyloidosis, HIV)"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2394-2396"}
+      ]
+    },
+    {
+      "title": "Treatment",
+      "content": [
+        {"type": "heading", "text": "延緩 CKD 進展的核心策略"},
+        {"type": "table", "headers": ["策略", "目標/用法", "機轉"], "rows": [
+          ["ACEi / ARB", "蛋白尿 > 300 mg/day 時首選；BP < 130/80", "出球小動脈擴張 → 降低腎絲球內壓"],
+          ["SGLT2i (Dapagliflozin, Empagliflozin)", "DM 或 non-DM CKD 均可；甚至 G4 可用", "啟動 TGF → 入球小動脈收縮 → 降低 GFR 壓力 + 心血管保護"],
+          ["Finerenone (nsMRA)", "DKD 且蛋白尿者", "非類固醇 MRA → 抗纖維化 + 抗發炎"],
+          ["GLP-1 RA (Semaglutide)", "DM + CKD、肥胖", "減少心血管事件 + 腎保護"],
+          ["限鹽", "< 2g Na/day", "減少 ECFV 過多 + 降壓"],
+          ["蛋白質限制", "0.6-0.8 g/kg/day (G4-5)", "減少含氮廢物 + 減輕 hyperfiltration"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**ACEi + ARB 併用 → 禁忌**\n多個 RCT 顯示：AKI↑、高血鉀↑、心血管事件↑\n\n**sCr 上升 ≤ 30% 使用 ACEi/ARB → 可接受**\n代表有效降低腎絲球內壓；若穩定，繼續使用並監測\n超過 30% 或持續上升 → 懷疑腎動脈狹窄"},
+        {"type": "heading", "text": "併發症的處理"},
+        {"type": "collapsible", "title": "高血鉀處理", "content": [
+          {"type": "list", "ordered": false, "items": [
+            "飲食限鉀 + 避免含鉀鹽替代品",
+            "Kaliuretic diuretics (loop diuretics)",
+            "鉀結合劑：Patiromer, Calcium zirconium cyclosilicate (Lokelma), Polystyrene",
+            "SGLT2i 有助於維持鉀離子平衡",
+            "持續高血鉀可能需要開始透析"
+          ]}
+        ]},
+        {"type": "collapsible", "title": "CKD-MBD 處理", "content": [
+          {"type": "list", "ordered": false, "items": [
+            "**低磷飲食 + 磷結合劑**：Calcium acetate/carbonate (注意高鈣)、Sevelamer、Lanthanum (非鈣)",
+            "**Vitamin D**：Calcitriol 或 Paricalcitol (抑制 PTH + 補鈣；注意高鈣高磷)",
+            "**Calcimimetics**：Cinacalcet, Etelcalcetide (增強 Ca-sensing receptor → 降 PTH)",
+            "目標 PTH：正常上限的 2-9 倍 (KDIGO)；過低 PTH → Adynamic bone disease"
+          ]}
+        ]},
+        {"type": "collapsible", "title": "貧血處理", "content": [
+          {"type": "list", "ordered": false, "items": [
+            "確認鐵儲備足夠 (Ferritin, TSAT) → 先補鐵",
+            "ESA (Erythropoietin stimulating agents)：目標 Hb 10-11.5 g/dL (不需正常化)",
+            "HIF-PHI (新類) prolyl-hydroxylase inhibitors：增加內源性 EPO + 促進鐵吸收",
+            "Hb 正常化 → 不推薦 (增加中風、血栓風險)"
+          ]}
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2396-2400"}
+      ]
+    },
+    {
+      "title": "Prognosis / Follow-up",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "**Kidney Failure Risk Equation (KFRE)**：\n用 eGFR + UACR + 年齡 + 性別 預測 2 年及 5 年進展至 ESKD 的風險\n幫助決定是否轉介腎臟科及規劃透析準備"},
+        {"type": "list", "ordered": false, "items": [
+          "多數 G2-G3 且無蛋白尿患者 → eGFR 不再進一步下降",
+          "有蛋白尿 + DM/HTN 者 → 進展風險最高",
+          "心血管疾病是 CKD 所有分期的首要死亡原因 (10-200 倍風險增加)",
+          "CKD G4 以上建議腎臟科追蹤",
+          "eGFR < 30 → 開始評估腎臟替代療法 (透析 vs 移植)，提前建立 AV fistula"
+        ]},
+        {"type": "heading", "text": "腎臟替代療法時機"},
+        {"type": "callout", "style": "guideline", "text": "**開始透析的適應症**：\neGFR < 15 mL/min (G5) 合併：\n- 持續尿毒症症狀 (噁心、嘔吐、意識改變)\n- 無法控制的體液過多\n- 頑固性高血鉀\n- 嚴重代謝性酸中毒\n- Uremic pericarditis（絕對適應症）\n- 營養惡化\n\n一般建議 eGFR 10-15 時準備，不需等到出現嚴重併發症"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2398-2400"}
+      ]
+    },
+    {
+      "title": "Special Populations",
+      "content": [
+        {"type": "heading", "text": "透析治療選擇"},
+        {"type": "table", "headers": ["方式", "頻率", "特點", "缺點"], "rows": [
+          ["IHD (間歇性血液透析)", "1 週 3 次，每次 3-4h", "快速矯正生化異常", "血液動力學不穩定"],
+          ["SLED (持續低效透析)", "1 週 3 次，每次 8-10h", "介於 IHD 和 CRRT 之間", "時間長"],
+          ["CRRT (連續性腎替代療法)", "連續 24 小時", "血流動力學穩定的 ICU 患者", "需更多抗凝劑、低體溫"],
+          ["PD (腹膜透析)", "每天，居家自行操作", "保留殘餘腎功能、飲水限制較少", "感染風險、不適用於腹膜沾黏"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**血液透析足量標準**：\n- URR (Urea Reduction Rate) > 65-70%\n- Kt/V > 1.2\n\n**血管通路**（優先順序）：\n1. AV fistula (自體) — 最佳，需 4-8 週成熟\n2. AV graft (人工) — 血流量大但心臟負荷↑\n3. CVC (暫時) — 緊急使用，感染風險最高 (內頸 < 3 週，股靜脈 < 5 天)"},
+        {"type": "heading", "text": "腹膜透析的併發症"},
+        {"type": "list", "ordered": false, "items": [
+          "**CAPD Peritonitis**：Cloudy effluent, Ascites WBC > 100 (Neu > 50%); 最常見菌：CoNS (S. epidermidis)",
+          "**Exit-site infection**：最常見菌為 S. aureus",
+          "**Encapsulating peritoneal sclerosis**：長期 PD 後腸壁被纖維包覆 → ileus",
+          "**代謝異常**：高血糖 (葡萄糖吸收 60-80%)、血脂異常、低血鉀"
+        ]},
+        {"type": "heading", "text": "CKD 的藥物劑量調整"},
+        {"type": "callout", "style": "trap", "text": "CKD 需調整劑量的常用藥物：\n- **Metformin**：eGFR < 30 禁用\n- **LMWH**：需減量或改用 UFH，監測 anti-Xa\n- **Gabapentin/Pregabalin**：腎排泄，需減量\n- **DOAC**：Apixaban 在 CKD/透析較安全\n- **Warfarin**：CKD 患者 calciphylaxis 風險↑ → 盡量避免\n- **Gadolinium (MRI 顯影)**：eGFR < 30 避免 → Nephrogenic systemic fibrosis"},
+        {"type": "source", "book": "First Choice 醫學(三)", "pages": "142-150"}
+      ]
+    },
+    {
+      "title": "High-Yield Exam Points",
+      "content": [
+        {"type": "callout", "style": "trap", "text": "考試必考重點：\n1. **CKD 最常見病因** → 北美/歐洲：DM nephropathy；亞洲：GN\n2. **延緩 CKD 進展** → ACEi/ARB (降腎絲球內壓) + SGLT2i (TGF 啟動)\n3. **ACEi + ARB 併用** → 禁忌 (AKI↑、高血鉀↑)\n4. **CKD-MBD 最早期指標** → FGF-23 升高 (早於 PTH, PO₄)\n5. **貧血目標 Hb** → 10-11.5 g/dL (正常化反而有害)\n6. **Waxy cast** → CKD 的尿液特徵\n7. **Uremic pericarditis** → 透析的絕對適應症\n8. **Calciphylaxis** → 避免 Warfarin、CKD 患者特有"},
+        {"type": "table", "headers": ["CKD 用藥", "腎保護機轉", "禁忌/注意"], "rows": [
+          ["ACEi/ARB", "出球 AA 擴張 → 降低腎絲球內壓", "雙側腎動脈狹窄、高血鉀 > 5.5"],
+          ["SGLT2i", "TGF → 入球 AA 收縮 → 降壓", "eGFR < 20 啟動效益不明"],
+          ["Finerenone", "nsMRA → 抗纖維化", "高血鉀"],
+          ["Calcitriol", "抑制 PTH + 補鈣", "高鈣、高磷"],
+          ["Cinacalcet", "Calcimimetic → 降 PTH", "低鈣"],
+          ["ESA", "刺激紅血球生成", "不可正常化 Hb (中風↑)"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**CKD 進展速查**：\nG1-G2 無蛋白尿 → 定期追蹤，多數不進展\nG3 有蛋白尿 → ACEi/ARB + SGLT2i + 限鹽限蛋白\nG4 → 腎臟科 + 評估替代療法 + AV fistula 準備\nG5 → 透析或腎移植"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2386-2400"}
+      ]
+    }
+  ],
+  "related": [
+    {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
+    {"id": "nephrotic-syndrome", "name": "Nephrotic Syndrome (腎病症候群)"},
+    {"id": "hypertension", "name": "Hypertension (高血壓)"},
+    {"id": "diabetes-mellitus", "name": "Diabetes Mellitus (糖尿病)"}
+  ]
+}
