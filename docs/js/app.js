@@ -5,6 +5,7 @@
   let currentNote = null;
   let supabaseClient = null;
   let userName = '';
+  let tocScrollHandler = null;
 
   const SUPABASE_URL = 'https://firvfvkadexbdrsfuzpk.supabase.co';
   const SUPABASE_KEY = 'sb_publishable_VGm4obXnBc10xM6vsUUb4w_78Df8Qxt';
@@ -168,8 +169,10 @@
     if (note.generated) html += `<span>${esc(note.generated)}</span>`;
     html += '</div></div>';
 
+    html += buildToc(note);
+
     note.sections.forEach((sec, idx) => {
-      html += `<div class="note-section" data-sec="${idx}">`;
+      html += `<div class="note-section" data-sec="${idx}" id="sec-${idx}">`;
       html += `<h2>${esc(sec.title)}</h2>`;
       html += renderContent(sec.content);
       html += '</div>';
@@ -177,12 +180,89 @@
 
     if (note.related && note.related.length) {
       html += '<div class="related-notes"><h3>Related Notes</h3>';
-      for (const r of note.related)
-        html += `<a class="related-link" onclick="loadNote('${r.id}')">${esc(r.name)}</a>`;
+      for (const r of note.related) {
+        const id = typeof r === 'string' ? r : r.id;
+        const name = typeof r === 'string' ? r : r.name;
+        html += `<a class="related-link" onclick="loadNote('${id}')">${esc(name)}</a>`;
+      }
       html += '</div>';
     }
     page.innerHTML = html;
+    setupTocIds();
+    setupScrollSpy(note);
   }
+
+  function buildToc(note) {
+    let sectionsHtml = '';
+    note.sections.forEach((sec, idx) => {
+      sectionsHtml += `<a class="toc-link" data-sec="${idx}" onclick="tocJump('sec-${idx}',event)">${esc(sec.title)}</a>`;
+    });
+    return `<nav class="note-toc" id="noteToc"><div class="toc-sections">${sectionsHtml}</div><div class="toc-sub" id="tocSub"></div></nav>`;
+  }
+
+  function setupTocIds() {
+    document.querySelectorAll('.note-section').forEach(sec => {
+      let hIdx = 0;
+      sec.querySelectorAll('h3').forEach(h3 => {
+        h3.id = sec.id + '-h-' + hIdx;
+        hIdx++;
+      });
+    });
+  }
+
+  function setupScrollSpy(note) {
+    const sections = document.querySelectorAll('.note-section');
+    const tocLinks = document.querySelectorAll('.toc-link');
+    if (!tocLinks.length) return;
+
+    if (tocScrollHandler) window.removeEventListener('scroll', tocScrollHandler);
+    let lastActive = -1;
+    tocScrollHandler = function() {
+      const tocH = document.getElementById('noteToc');
+      const offset = tocH ? tocH.offsetHeight + 16 : 60;
+      let activeIdx = 0;
+      for (let i = sections.length - 1; i >= 0; i--) {
+        if (sections[i].getBoundingClientRect().top <= offset) { activeIdx = i; break; }
+      }
+      if (activeIdx === lastActive) return;
+      lastActive = activeIdx;
+      tocLinks.forEach(l => l.classList.remove('active'));
+      const active = tocLinks[activeIdx];
+      if (active) {
+        active.classList.add('active');
+        active.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+      updateSubHeadings(note, activeIdx);
+    };
+    window.addEventListener('scroll', tocScrollHandler, { passive: true });
+    tocLinks[0].classList.add('active');
+    updateSubHeadings(note, 0);
+  }
+
+  function updateSubHeadings(note, secIdx) {
+    const sub = document.getElementById('tocSub');
+    if (!sub) return;
+    const sec = note.sections[secIdx];
+    if (!sec) { sub.innerHTML = ''; return; }
+    const headings = (Array.isArray(sec.content) ? sec.content : []).filter(b => b && b.type === 'heading');
+    if (!headings.length) { sub.innerHTML = ''; return; }
+    let html = '';
+    headings.forEach((h, hIdx) => {
+      html += `<a class="toc-sublink" onclick="tocJump('sec-${secIdx}-h-${hIdx}',event)">${esc(h.text)}</a>`;
+    });
+    sub.innerHTML = html;
+  }
+
+  window.tocJump = function(id, e) {
+    if (e) e.preventDefault();
+    const el = document.getElementById(id);
+    if (!el) return;
+    const tocH = document.getElementById('noteToc');
+    const offset = tocH ? tocH.offsetHeight + 8 : 0;
+    const top = el.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo(0, top);
+    window.dispatchEvent(new Event('scroll'));
+  };
 
   function renderContent(content) {
     if (typeof content === 'string') return renderMarkdown(content);

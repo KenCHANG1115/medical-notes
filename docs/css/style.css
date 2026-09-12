@@ -267,6 +267,83 @@ body {
   font-family: var(--font-sans);
 }
 
+/* Table of Contents */
+.note-toc {
+  position: sticky;
+  top: 0;
+  z-index: 8;
+  background: var(--bg-page);
+  border-bottom: 1px solid var(--border);
+  margin: 0 -3rem;
+  padding: 0.5rem 3rem;
+}
+
+.toc-sections {
+  display: flex;
+  gap: 0.2rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.toc-sections::-webkit-scrollbar { display: none; }
+
+.toc-link {
+  flex-shrink: 0;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: all 0.15s;
+  text-decoration: none;
+}
+
+.toc-link:hover {
+  color: var(--text-primary);
+  background: rgba(0,0,0,0.04);
+}
+
+.toc-link.active {
+  color: var(--accent);
+  background: var(--accent-light);
+  font-weight: 500;
+}
+
+.toc-sub {
+  display: flex;
+  gap: 0.15rem;
+  overflow-x: auto;
+  margin-top: 0.3rem;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.toc-sub::-webkit-scrollbar { display: none; }
+
+.toc-sub:empty {
+  display: none;
+  margin-top: 0;
+}
+
+.toc-sublink {
+  flex-shrink: 0;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-radius: 3px;
+  white-space: nowrap;
+  transition: all 0.15s;
+  text-decoration: none;
+}
+
+.toc-sublink:hover {
+  color: var(--text-primary);
+  background: rgba(0,0,0,0.04);
+}
+
 /* Note content */
 .note-header {
   margin-bottom: 2rem;
@@ -526,4 +603,8 @@ details.collapsible .content {
     display: block;
   }
   .annotation-panel { display: none; }
+  .note-toc {
+    margin: 0 -1.25rem;
+    padding: 0.5rem 1.25rem;
+  }
 }
