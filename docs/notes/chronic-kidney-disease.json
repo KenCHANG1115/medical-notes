@@ -155,31 +155,12 @@
         ]},
         {"type": "callout", "style": "trap", "text": "**ACEi + ARB 併用 → 禁忌**\n多個 RCT 顯示：AKI↑、高血鉀↑、心血管事件↑\n\n**sCr 上升 ≤ 30% 使用 ACEi/ARB → 可接受**\n代表有效降低腎絲球內壓；若穩定，繼續使用並監測\n超過 30% 或持續上升 → 懷疑腎動脈狹窄"},
         {"type": "heading", "text": "併發症的處理"},
-        {"type": "collapsible", "title": "高血鉀處理", "content": [
-          {"type": "list", "ordered": false, "items": [
-            "飲食限鉀 + 避免含鉀鹽替代品",
-            "Kaliuretic diuretics (loop diuretics)",
-            "鉀結合劑：Patiromer, Calcium zirconium cyclosilicate (Lokelma), Polystyrene",
-            "SGLT2i 有助於維持鉀離子平衡",
-            "持續高血鉀可能需要開始透析"
-          ]}
-        ]},
-        {"type": "collapsible", "title": "CKD-MBD 處理", "content": [
-          {"type": "list", "ordered": false, "items": [
-            "**低磷飲食 + 磷結合劑**：Calcium acetate/carbonate (注意高鈣)、Sevelamer、Lanthanum (非鈣)",
-            "**Vitamin D**：Calcitriol 或 Paricalcitol (抑制 PTH + 補鈣；注意高鈣高磷)",
-            "**Calcimimetics**：Cinacalcet, Etelcalcetide (增強 Ca-sensing receptor → 降 PTH)",
-            "目標 PTH：正常上限的 2-9 倍 (KDIGO)；過低 PTH → Adynamic bone disease"
-          ]}
-        ]},
-        {"type": "collapsible", "title": "貧血處理", "content": [
-          {"type": "list", "ordered": false, "items": [
-            "確認鐵儲備足夠 (Ferritin, TSAT) → 先補鐵",
-            "ESA (Erythropoietin stimulating agents)：目標 Hb 10-11.5 g/dL (不需正常化)",
-            "HIF-PHI (新類) prolyl-hydroxylase inhibitors：增加內源性 EPO + 促進鐵吸收",
-            "Hb 正常化 → 不推薦 (增加中風、血栓風險)"
-          ]}
-        ]},
+        {"type": "collapsible", "summary": "高血鉀處理", "text": "- 飲食限鉀 + 避免含鉀鹽替代品\n- **Kaliuretic diuretics** (loop diuretics) → 增加腎排鉀\n- **鉀結合劑** (腸道移除 K⁺)：\n  - Patiromer — 較新、較安全\n  - Sodium Zirconium Cyclosilicate (Lokelma/SZC) — 起效快\n  - Polystyrene sulfonate (Kayexalate) — 有腸壞死風險，已逐漸被取代\n- SGLT2i 有助於維持鉀離子平衡\n- 持續高血鉀可能需要開始透析\n\n⚠ 新型 K⁺ binder 可讓 CKD 病人繼續使用 ACEi/ARB，維持腎保護效果"},
+        {"type": "collapsible", "summary": "代謝性酸中毒處理", "text": "- HCO₃⁻ < 22 mmol/L 時開始補充 **口服 NaHCO₃** (1~3 g/day，分次服用)\n- 目標 HCO₃⁻ ≥ 22 mmol/L\n- **矯正酸中毒的好處**：\n  - 減緩肌肉蛋白質分解 (catabolism)\n  - 減緩 CKD 進展速率\n  - 改善骨密度 (酸中毒促進骨溶解)\n- 注意：NaHCO₃ 含鈉，可能加重水腫及高血壓\n- 嚴重酸中毒 (HCO₃⁻ <15) 或無法口服 → 考慮透析"},
+        {"type": "collapsible", "summary": "CKD-MBD 處理", "text": "**高血磷**：\n- 低磷飲食 (限制乳製品、加工食品)\n- **磷結合劑** (隨餐服用，結合食物中的磷)：\n  - 含鈣類：Calcium acetate/carbonate — 注意高鈣風險\n  - 非鈣類：Sevelamer、Lanthanum — 不增加血管鈣化風險\n\n**繼發性副甲狀腺功能亢進**：\n- **Vitamin D 類似物**：Calcitriol 或 Paricalcitol → 抑制 PTH + 促進鈣吸收；注意高鈣高磷\n- **Calcimimetics**：Cinacalcet (口服)、Etelcalcetide (IV) → 增強 CaSR 敏感度 → 降 PTH\n- 目標 PTH：正常上限的 **2~9 倍** (KDIGO)；過低 PTH → Adynamic bone disease\n- 藥物無法控制 → 副甲狀腺切除術\n\n**注意**：Ca × P 乘積 >55 mg²/dL² → 軟組織/血管鈣化風險顯著增加"},
+        {"type": "collapsible", "summary": "貧血處理", "text": "**Step 1：先補鐵**\n- 確認鐵儲備：Ferritin >100 ng/mL (透析 >200)，TSAT >20%\n- 口服鐵劑吸收差 → CKD G4-5 / 透析患者首選 **IV iron** (Ferric carboxymaltose, Iron sucrose)\n\n**Step 2：ESA (促紅血球生成素)**\n- Epoetin alfa, Darbepoetin alfa\n- **目標 Hb 10~11.5 g/dL** (不需正常化！)\n- Hb 正常化 → 中風↑、血栓↑、心血管事件↑ (CHOIR, CREATE, TREAT trials)\n\n**Step 3 (新藥)：HIF-PHI**\n- Roxadustat, Daprodustat\n- 口服，抑制 prolyl-hydroxylase → 穩定 HIF → 增加內源性 EPO + 促進鐵吸收\n\n**ESA resistance 常見原因**：鐵缺乏 (#1)、感染/發炎、副甲狀腺亢進、鋁中毒、葉酸/B12 缺乏"},
+        {"type": "collapsible", "summary": "心血管併發症處理", "text": "CKD 患者首要死因為心血管疾病 (CVD)，風險為一般人 10~200 倍。\n\n**高血壓**：\n- 目標 BP < 130/80 mmHg\n- 首選 ACEi/ARB (合併蛋白尿時)；加用 Amlodipine 或 Loop diuretic\n- 限鹽 <2g Na/day\n\n**左心室肥大 (LVH) / 心衰竭**：\n- 控制血壓 + 體液管理\n- 透析患者避免 volume overload → 調整乾重 (dry weight)\n\n**Uremic pericarditis**：\n- **透析的絕對適應症** → 連續每日透析直到症狀改善\n- ⚠ 禁止使用抗凝劑 (避免心包填塞)\n\n**血管鈣化**：控制高磷 (非鈣類磷結合劑)、避免 Warfarin (Calciphylaxis 風險)"},
+        {"type": "collapsible", "summary": "水腫 / 體液過多處理", "text": "- **限鹽** <2g Na/day + 適度限水 (G5)\n- **Loop diuretics** (Furosemide)：CKD 患者需較高劑量 (GFR↓ → 分泌至管腔量↓)\n  - G4-5 常需 80~200 mg/dose\n  - 可合併 Thiazide (sequential nephron blockade)\n- 利尿劑無效 → **超濾 (Ultrafiltration)** 或透析\n- 評估乾重：臨床判斷 + 肺部超音波 (B-lines)"},
         {"type": "source", "book": "Harrison's 22e", "pages": "2396-2400"}
       ]
     },
