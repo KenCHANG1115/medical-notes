@@ -26,7 +26,8 @@
     {
       "name": "感染科",
       "diseases": [
-        {"id": "urinary-tract-infection", "name": "Urinary Tract Infection (泌尿道感染)"}
+        {"id": "urinary-tract-infection", "name": "Urinary Tract Infection (泌尿道感染)"},
+        {"id": "pneumonia", "name": "Pneumonia (肺炎)"}
       ]
     }
   ]

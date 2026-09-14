@@ -1,0 +1,278 @@
+{
+  "id": "pneumonia",
+  "title": "Pneumonia (肺炎)",
+  "title_en": "Pneumonia",
+  "title_zh": "肺炎",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.126 Pneumonia (p.953-970)",
+    "First Choice 醫學(三) - 肺炎"
+  ],
+  "generated": "2026-09-15",
+  "sections": [
+    {
+      "title": "Overview / Epidemiology",
+      "content": [
+        "肺炎 (Pneumonia) 是下呼吸道的急性感染，導致肺泡發炎與滲出液堆積。依感染地點分為 Community-Acquired Pneumonia (CAP)、Hospital-Acquired Pneumonia (HAP)、Ventilator-Associated Pneumonia (VAP)。",
+        {"type": "table", "headers": ["分類", "定義", "特徵"], "rows": [
+          ["CAP", "社區中感染或入院 < 48 小時內發病", "最常見類型；病原以 S. pneumoniae 為主"],
+          ["HAP", "入院 ≥ 48 小時後發生，且入院時無潛伏感染", "常見 MDR 菌株；死亡率高"],
+          ["VAP", "機械通氣 ≥ 48 小時後發生", "HAP 的亞型；biofilm 相關感染"],
+          ["Aspiration Pneumonia", "吸入口咽分泌物或胃內容物引起", "常見於意識不清、吞嚥困難患者"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**流行病學關鍵數字**：\n- 美國每年約 150 萬人因 CAP 住院\n- CAP 住院死亡率約 10-12%，ICU 患者可達 30-40%\n- 肺炎是全球感染性疾病死亡的首要原因\n- 老年人 (≥ 65 歲) 發生率與死亡率顯著上升"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "953-954"}
+      ]
+    },
+    {
+      "title": "Etiology / Risk Factors",
+      "content": [
+        {"type": "heading", "text": "CAP 常見病原菌"},
+        {"type": "table", "headers": ["病原菌", "特徵", "臨床線索"], "rows": [
+          ["Streptococcus pneumoniae", "CAP 最常見；Gram (+) lancet-shaped diplococci", "急性發作、rusty sputum、lobar consolidation"],
+          ["Haemophilus influenzae", "第二常見；non-typeable 菌株為主", "COPD、吸菸者常見"],
+          ["Moraxella catarrhalis", "Gram (-) diplococci", "COPD 急性惡化"],
+          ["Mycoplasma pneumoniae", "Atypical；無細胞壁", "年輕人、walking pneumonia、bullous myringitis"],
+          ["Chlamydophila pneumoniae", "Atypical；obligate intracellular", "漸進式發作、hoarseness"],
+          ["Legionella pneumophila", "Atypical；水源感染", "高燒、GI 症狀、低血鈉、冷卻水塔/旅館"],
+          ["Staphylococcus aureus", "Post-influenza pneumonia", "Cavitary lesion、rapid deterioration"],
+          ["Klebsiella pneumoniae", "Gram (-) rod；alcoholics", "Currant jelly sputum、upper lobe cavitation"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Typical vs Atypical 的區分在臨床上不可靠**，X-ray pattern 與臨床表現有大量重疊。經驗性治療應同時涵蓋 typical 和 atypical 病原。"},
+        {"type": "heading", "text": "HAP/VAP 常見病原菌"},
+        {"type": "table", "headers": ["病原菌", "特徵", "抗藥性考量"], "rows": [
+          ["Pseudomonas aeruginosa", "HAP/VAP 最重要病原", "Intrinsic resistance 多；需 anti-pseudomonal agents"],
+          ["MRSA", "HAP 重要病原", "需 Vancomycin 或 Linezolid"],
+          ["Acinetobacter baumannii", "ICU 常見", "Extensively drug-resistant (XDR) 菌株增加"],
+          ["Enterobacteriaceae (ESBL)", "Klebsiella, E. coli 等", "Carbapenem 為首選"],
+          ["Stenotrophomonas maltophilia", "Immunocompromised 患者", "TMP-SMX 為首選"]
+        ]},
+        {"type": "heading", "text": "危險因子"},
+        {"type": "table", "headers": ["因子", "機轉/說明"], "rows": [
+          ["年齡 ≥ 65 歲", "免疫老化 (immunosenescence)、mucociliary clearance 下降"],
+          ["吸菸/COPD", "損害 mucociliary escalator、增加細菌定殖"],
+          ["酗酒", "抑制 gag reflex → aspiration；impaired neutrophil function"],
+          ["免疫低下", "HIV、chemotherapy、solid organ transplant"],
+          ["糖尿病", "Neutrophil dysfunction、microangiopathy"],
+          ["住院/機構", "MDR pathogen exposure、tube feeding aspiration risk"],
+          ["近期流感/病毒感染", "破壞呼吸道上皮 → secondary bacterial infection"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "954-957"}
+      ]
+    },
+    {
+      "title": "Pathophysiology",
+      "content": [
+        {"type": "heading", "text": "感染途徑"},
+        {"type": "list", "ordered": false, "items": [
+          "**微吸入 (Microaspiration)**：最常見途徑；口咽部定殖菌吸入下呼吸道",
+          "**飛沫吸入 (Inhalation)**：Legionella、Mycoplasma、TB、influenza",
+          "**血行播散 (Hematogenous)**：S. aureus (如 IE 合併 septic emboli)",
+          "**直接延伸/鄰近感染**：肝膿瘍穿透橫膈、食道穿孔"
+        ]},
+        {"type": "heading", "text": "宿主防禦機制"},
+        {"type": "table", "headers": ["防禦層", "機轉", "失效原因"], "rows": [
+          ["上呼吸道", "鼻毛過濾、mucociliary clearance、IgA", "吸菸、intubation、病毒感染"],
+          ["下呼吸道", "Cough reflex、alveolar macrophages", "鎮靜劑、alcoholism、immunosuppression"],
+          ["免疫反應", "Neutrophil recruitment、complement、surfactant proteins (SP-A, SP-D)", "Neutropenia、HIV、corticosteroids"]
+        ]},
+        {"type": "heading", "text": "病理分型"},
+        {"type": "table", "headers": ["分型", "特徵", "常見病原"], "rows": [
+          ["Lobar Pneumonia", "整葉均勻實質化 (consolidation)", "S. pneumoniae (最典型)"],
+          ["Bronchopneumonia", "patchy, multifocal，沿支氣管分布", "S. aureus, H. influenzae, Gram (-) rods"],
+          ["Interstitial Pneumonia", "間質性發炎、ground-glass opacity", "Virus, Mycoplasma, PJP"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**Lobar Pneumonia 四個病理階段**：\n1. **Congestion** (1-2 天)：血管充血、漿液滲出\n2. **Red Hepatization** (2-4 天)：RBC + fibrin 充滿肺泡\n3. **Gray Hepatization** (4-8 天)：WBC degradation、fibrin 持續\n4. **Resolution** (> 8 天)：macrophage 清除碎片、恢復正常"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "957-958"}
+      ]
+    },
+    {
+      "title": "Pathology",
+      "content": [
+        {"type": "heading", "text": "組織病理學特徵"},
+        {"type": "table", "headers": ["病原", "組織學特徵"], "rows": [
+          ["S. pneumoniae", "肺泡內 fibrinopurulent exudate、PMN 浸潤、lobar distribution"],
+          ["S. aureus", "Necrotizing pneumonia、abscess formation、hemorrhagic necrosis"],
+          ["Klebsiella", "Mucoid exudate (Friedlander's pneumonia)、tissue destruction"],
+          ["Legionella", "Fibrinopurulent with macrophage predominance"],
+          ["Mycoplasma", "Peribronchial lymphocytic infiltration、interstitial pattern"],
+          ["PJP (Pneumocystis)", "Foamy eosinophilic exudate in alveoli；GMS stain (+)"],
+          ["Influenza", "Diffuse alveolar damage (DAD)、hyaline membrane formation"]
+        ]},
+        {"type": "heading", "text": "併發症的病理變化"},
+        {"type": "table", "headers": ["併發症", "病理", "臨床意義"], "rows": [
+          ["Parapneumonic effusion", "Simple：sterile exudate", "通常自行吸收"],
+          ["Empyema", "Pus in pleural space；pH < 7.2, glucose < 40", "需 chest tube drainage"],
+          ["Lung abscess", "Necrotic cavity with air-fluid level", "常見於 anaerobic infection"],
+          ["Organizing pneumonia", "Granulation tissue plugs in alveoli", "COP：對 steroid 反應好"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "958-959"}
+      ]
+    },
+    {
+      "title": "Clinical Presentation",
+      "content": [
+        {"type": "heading", "text": "Typical Pneumonia 表現"},
+        {"type": "list", "ordered": false, "items": [
+          "**急性發作**：突然高燒 (> 39°C)、shaking chills",
+          "**呼吸道症狀**：productive cough (purulent/rusty sputum)、pleuritic chest pain、dyspnea",
+          "**身體檢查**：tachypnea、tachycardia、dullness to percussion、bronchial breath sounds、increased tactile fremitus、crackles/rales",
+          "**全身症狀**：malaise、myalgia、anorexia"
+        ]},
+        {"type": "heading", "text": "Atypical Pneumonia 表現"},
+        {"type": "list", "ordered": false, "items": [
+          "**漸進式發作**：低度發燒、乾咳為主",
+          "**全身症狀較顯著**：headache、myalgia、sore throat",
+          "**Physical exam 與 X-ray 不成比例**：聽診可能正常但 X-ray 有浸潤",
+          "**特殊表現**：Mycoplasma → bullous myringitis、erythema multiforme；Legionella → 腹瀉、confusion、hyponatremia"
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**Legionella 的臨床線索 (考試重點)**：\n- 高燒 + 相對性心搏過緩 (relative bradycardia)\n- GI 症狀：腹瀉、噁心、嘔吐\n- CNS：confusion、headache\n- Lab：**低血鈉 (hyponatremia)**、elevated LDH、elevated CK\n- 水源暴露：冷卻水塔、旅館、溫泉"},
+        {"type": "heading", "text": "特殊病原的臨床線索"},
+        {"type": "table", "headers": ["病原", "關鍵線索"], "rows": [
+          ["S. pneumoniae", "Rusty sputum、lobar consolidation、acute onset"],
+          ["Klebsiella", "Currant jelly sputum、upper lobe cavitation、alcoholics"],
+          ["S. aureus", "Post-influenza、cavitary lesion、rapid deterioration"],
+          ["Mycoplasma", "Young adults、walking pneumonia、cold agglutinins、bullous myringitis"],
+          ["Legionella", "高燒 + GI 症狀 + hyponatremia + 水源暴露"],
+          ["PJP", "HIV (CD4 < 200)、bilateral diffuse GGO、elevated LDH、dry cough"],
+          ["Anaerobes", "Aspiration history、foul-smelling sputum、abscess"]
+        ]},
+        {"type": "heading", "text": "老年人的非典型表現"},
+        {"type": "callout", "style": "trap", "text": "老年患者可能**無發燒**、**無咳嗽**，僅表現為：\n- Acute confusion / delirium（最常見的非典型表現）\n- 功能性退化、食慾下降\n- Tachypnea（可能是唯一的生命徵象異常）\n- 原有慢性病急性惡化"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "959-961"}
+      ]
+    },
+    {
+      "title": "Diagnosis",
+      "content": [
+        {"type": "heading", "text": "臨床診斷標準"},
+        {"type": "callout", "style": "guideline", "text": "**CAP 診斷需要**：\n1. 新的肺部浸潤 (CXR 或 CT)\n2. **加上** 至少兩項臨床表現：\n   - 發燒 (> 38°C) 或低體溫 (< 36°C)\n   - 新的或加重的咳嗽\n   - Purulent sputum\n   - Dyspnea\n   - Pleuritic chest pain\n   - 聽診異常 (crackles, bronchial breathing)"},
+        {"type": "heading", "text": "影像學"},
+        {"type": "table", "headers": ["影像表現", "可能病原/診斷"], "rows": [
+          ["Lobar consolidation", "S. pneumoniae (最典型)、Klebsiella"],
+          ["Bilateral patchy infiltrates", "Mycoplasma、virus、PJP"],
+          ["Cavitation", "S. aureus、Klebsiella、anaerobes、TB、Nocardia"],
+          ["Upper lobe cavitation", "TB (reactivation)、Klebsiella (alcoholics)"],
+          ["Bilateral diffuse GGO", "PJP、viral pneumonia (influenza, COVID-19)"],
+          ["Hilar lymphadenopathy", "TB、fungal (Histoplasma, Coccidioides)、lymphoma"],
+          ["Round pneumonia", "S. pneumoniae (兒童常見)"],
+          ["Air-fluid level", "Lung abscess (anaerobes)"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**CXR 的限制**：\n- Dehydration 可能遮蓋浸潤 → 補液後才顯現\n- Neutropenia 患者可能沒有明顯浸潤\n- 早期感染 (< 12 小時) CXR 可能正常\n- CT 比 CXR 更敏感，但通常不作為初始檢查"},
+        {"type": "heading", "text": "實驗室檢查"},
+        {"type": "table", "headers": ["檢查", "用途", "備註"], "rows": [
+          ["CBC", "WBC ↑ (bacterial)；lymphopenia (viral)", "WBC > 15,000 或 < 4,000 提示嚴重感染"],
+          ["CRP / Procalcitonin", "區分 bacterial vs viral", "Procalcitonin > 0.25 支持 bacterial"],
+          ["BUN / Creatinine", "評估嚴重度 (CURB-65)", "BUN > 20 mg/dL = 1 分"],
+          ["ABG / Lactate", "評估氧合與灌注", "P/F ratio < 250 提示嚴重"],
+          ["Blood culture × 2", "嚴重 CAP 應做", "陽性率僅 5-14%"],
+          ["Sputum Gram stain + culture", "引導抗生素選擇", "品質要求：PMN > 25, epithelial < 10 per LPF"],
+          ["Urine Legionella Ag", "Legionella serogroup 1", "Sensitivity 70-90%；持續陽性數週"],
+          ["Urine Pneumococcal Ag", "S. pneumoniae", "不受先前抗生素影響"]
+        ]},
+        {"type": "heading", "text": "嚴重度評估"},
+        {"type": "table", "headers": ["項目", "CURB-65", "PSI/PORT"], "rows": [
+          ["適用場景", "快速篩檢，適合急診", "較精確，20 項參數"],
+          ["評分項目", "C: Confusion\nU: Urea > 7 mmol/L (BUN > 20)\nR: RR ≥ 30\nB: BP < 90/60\n65: Age ≥ 65", "年齡、共病、生命徵象、Lab、X-ray"],
+          ["處置建議", "0-1: 門診\n2: 短期住院或密切追蹤\n3-5: 住院 (4-5 考慮 ICU)", "Class I-II: 門診\nClass III: 短期住院\nClass IV-V: 住院"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**ATS/IDSA ICU 入住標準 (Major criteria，任一即 ICU)**：\n- Septic shock requiring vasopressors\n- Respiratory failure requiring mechanical ventilation\n\n**Minor criteria (≥ 3 項考慮 ICU)**：\nRR ≥ 30、P/F ratio ≤ 250、multilobar infiltrates、confusion、BUN ≥ 20、WBC < 4000、platelets < 100,000、hypothermia < 36°C、hypotension requiring aggressive fluid"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "961-964"}
+      ]
+    },
+    {
+      "title": "Treatment",
+      "content": [
+        {"type": "heading", "text": "CAP 經驗性抗生素治療"},
+        {"type": "table", "headers": ["族群", "首選方案", "替代方案"], "rows": [
+          ["門診 — 無共病", "Amoxicillin 1g TID\n或 Doxycycline 100mg BID", "Macrolide (Azithromycin 500mg → 250mg) — 僅限 pneumococcal resistance < 25% 地區"],
+          ["門診 — 有共病", "Amoxicillin/Clavulanate + Macrolide\n或 Respiratory FQ (Levofloxacin 750mg QD)", "Cefpodoxime + Macrolide"],
+          ["住院 — 一般病房", "β-lactam (Ampicillin/Sulbactam 或 Ceftriaxone) + Macrolide", "Respiratory FQ monotherapy (Levofloxacin 或 Moxifloxacin)"],
+          ["住院 — ICU", "β-lactam (Ceftriaxone 或 Ampicillin/Sulbactam) + Macrolide (Azithromycin IV)", "β-lactam + Respiratory FQ"],
+          ["ICU + Pseudomonas risk", "Anti-pseudomonal β-lactam (Piperacillin/Tazobactam, Cefepime, 或 Meropenem) + Ciprofloxacin 或 Levofloxacin", "Anti-pseudomonal β-lactam + Aminoglycoside + Azithromycin"],
+          ["ICU + MRSA risk", "加上 Vancomycin 或 Linezolid", "—"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**為什麼 CAP 要加 Macrolide？**\n1. 覆蓋 atypical pathogens (Mycoplasma, Chlamydophila, Legionella)\n2. Macrolide 有 **immunomodulatory effect**：抑制 pro-inflammatory cytokines\n3. 研究顯示 β-lactam + Macrolide 比單用 β-lactam 降低死亡率"},
+        {"type": "heading", "text": "HAP/VAP 經驗性治療"},
+        {"type": "table", "headers": ["情境", "方案"], "rows": [
+          ["HAP — 低 MDR 風險、死亡風險低", "Piperacillin/Tazobactam 或 Cefepime 或 Levofloxacin (單一藥物)"],
+          ["HAP — 高 MDR 風險或死亡風險高", "Anti-pseudomonal β-lactam + (FQ 或 Aminoglycoside) ± anti-MRSA agent"],
+          ["VAP — 低 MDR 風險", "Piperacillin/Tazobactam 或 Cefepime 或 Meropenem"],
+          ["VAP — 高 MDR 風險", "兩種 anti-pseudomonal agents (不同類別) + Vancomycin 或 Linezolid"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**MDR 高風險因子**：\n- 過去 90 天內使用 IV 抗生素\n- Septic shock\n- ARDS preceding HAP/VAP\n- ≥ 5 天住院後才發生 HAP/VAP\n- 該單位 MDR 盛行率 > 10-20%"},
+        {"type": "heading", "text": "特殊病原治療"},
+        {"type": "table", "headers": ["病原", "首選", "療程"], "rows": [
+          ["Legionella", "Levofloxacin 或 Azithromycin", "FQ: 7-10 天；Azithromycin: 3-5 天"],
+          ["MRSA pneumonia", "Vancomycin 或 Linezolid", "7-21 天"],
+          ["PJP", "TMP-SMX (high dose) + corticosteroid (if PaO2 < 70)", "21 天"],
+          ["Aspiration pneumonia", "Ampicillin/Sulbactam 或 Clindamycin + Ceftriaxone", "視嚴重度，5-7 天以上"],
+          ["Lung abscess", "Ampicillin/Sulbactam 或 Clindamycin", "4-6 週或直到 X-ray 吸收"]
+        ]},
+        {"type": "heading", "text": "治療原則"},
+        {"type": "callout", "style": "guideline", "text": "**治療時程**：\n- 一般 CAP：最短 **5 天**（需 afebrile ≥ 48 小時且臨床穩定）\n- HAP/VAP：**7 天**（不建議更長，除非 Pseudomonas 或療效差）\n- 臨床穩定標準：T < 37.8°C、HR < 100、RR < 24、SBP ≥ 90、SpO2 ≥ 90%、able to eat、mental status baseline"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "964-967"}
+      ]
+    },
+    {
+      "title": "Complications",
+      "content": [
+        {"type": "heading", "text": "肺部併發症"},
+        {"type": "table", "headers": ["併發症", "機轉/表現", "處置"], "rows": [
+          ["Parapneumonic effusion", "Simple (sterile)：小量積液，pH > 7.2", "觀察；抗生素通常可解決"],
+          ["Complicated parapneumonic effusion", "pH 7.0-7.2、LDH > 1000、glucose < 60", "需 thoracentesis ± chest tube"],
+          ["Empyema", "Frank pus in pleural space、pH < 7.0", "Chest tube drainage + fibrinolytics；手術 if 引流不佳"],
+          ["Lung abscess", "Cavitary lesion with air-fluid level", "長期抗生素 (4-6 週)；percutaneous drainage if no improvement"],
+          ["Necrotizing pneumonia", "Multiple small cavities within consolidated area", "長期 IV 抗生素；手術 rare"],
+          ["ARDS", "Bilateral diffuse infiltrates、P/F < 300", "Lung-protective ventilation、prone positioning"]
+        ]},
+        {"type": "heading", "text": "全身性併發症"},
+        {"type": "table", "headers": ["併發症", "說明"], "rows": [
+          ["Sepsis / Septic shock", "最常見的嚴重併發症；需 aggressive fluid resuscitation + vasopressors"],
+          ["Acute cardiac events", "MI、arrhythmia、HF — CAP 後 30 天內心血管風險顯著上升"],
+          ["Disseminated intravascular coagulation (DIC)", "嚴重感染引起消耗性凝血病"],
+          ["Secondary infection", "院內感染、C. difficile colitis (抗生素相關)"],
+          ["Post-infectious organizing pneumonia", "持續浸潤不吸收 → 可能需要 steroid"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Pleural effusion 的 Light's criteria (區分 transudate vs exudate)**：\n符合任一即為 exudate：\n- Pleural/serum protein ratio > 0.5\n- Pleural/serum LDH ratio > 0.6\n- Pleural LDH > 2/3 upper limit of serum normal\n\nParapneumonic effusion 幾乎都是 **exudate**"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "967-968"}
+      ]
+    },
+    {
+      "title": "Prevention",
+      "content": [
+        {"type": "heading", "text": "疫苗接種"},
+        {"type": "table", "headers": ["疫苗", "適應症", "備註"], "rows": [
+          ["PCV20 (Prevnar 20)", "所有 ≥ 65 歲成人\n19-64 歲有慢性病/免疫低下", "Conjugate vaccine；誘導 T-cell dependent immunity → 較好的免疫記憶"],
+          ["PCV15 + PPSV23", "PCV15 先打 → 至少 1 年後追加 PPSV23", "替代方案 (若無法取得 PCV20)"],
+          ["Influenza vaccine", "所有 ≥ 6 個月者 (每年)", "預防流感後繼發性細菌性肺炎"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**2023 ACIP 建議**：\n- ≥ 65 歲：**PCV20** (首選) 或 PCV15 → PPSV23\n- 19-64 歲 + risk factors：同上\n- Risk factors：慢性心肺腎肝病、DM、alcoholism、吸菸、cochlear implant、CSF leak、asplenia、immunocompromised"},
+        {"type": "heading", "text": "其他預防措施"},
+        {"type": "list", "ordered": false, "items": [
+          "**戒菸**：吸菸是 CAP 最重要的可修改危險因子",
+          "**口腔衛生**：減少口咽部細菌定殖 → 降低 aspiration pneumonia 風險",
+          "**吞嚥評估**：CVA 後、失智症患者需定期評估吞嚥功能",
+          "**VAP bundle**：HOB elevation 30-45°、daily sedation vacation、DVT prophylaxis、peptic ulcer prophylaxis、daily assessment for extubation",
+          "**Hand hygiene**：最基本也最有效的感染控制措施"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "968-969"}
+      ]
+    },
+    {
+      "title": "Special Populations & Practice",
+      "content": [
+        {"type": "heading", "text": "特殊族群"},
+        {"type": "collapsible", "summary": "Immunocompromised Host Pneumonia", "text": "**常見病原 (依免疫缺損類型)**：\n- **Neutropenia**：Pseudomonas, Aspergillus, Mucor\n- **T-cell defect (HIV, transplant)**：PJP, CMV, Mycobacterium, Cryptococcus\n- **Humoral defect (hypogammaglobulinemia)**：encapsulated bacteria (S. pneumoniae, H. influenzae)\n- **Solid organ transplant**：CMV (1-6 月後)、Aspergillus、Nocardia\n\n**診斷考量**：\n- CXR 可能沒有典型浸潤 (neutropenia)\n- 需積極取得組織/病原學診斷：BAL、CT-guided biopsy\n- Galactomannan、β-D-glucan assay 輔助黴菌診斷\n- 經驗性治療範圍需較廣"},
+        {"type": "collapsible", "summary": "HIV-associated Pneumonia", "text": "**依 CD4 count 常見病原**：\n- **CD4 > 500**：與正常人相似 (S. pneumoniae, H. influenzae)\n- **CD4 200-500**：TB 風險上升\n- **CD4 < 200**：**PJP** (最經典)、TB\n- **CD4 < 100**：Toxoplasma、Cryptococcus\n- **CD4 < 50**：MAC (Mycobacterium avium complex)、CMV\n\n**PJP 治療**：\n- TMP-SMX (15-20 mg/kg/day of TMP) × 21 天\n- PaO2 < 70 或 A-a gradient > 35 → **加 Prednisone**\n- 預防：CD4 < 200 → TMP-SMX 1 DS daily"},
+        {"type": "collapsible", "summary": "Aspiration Pneumonia vs Aspiration Pneumonitis", "text": "**Aspiration Pneumonitis**：\n- 化學性肺損傷 (胃酸)\n- 急性發作：吸入後 1-2 小時\n- 通常自限性，**不需要抗生素**（除非 48 小時後未改善）\n- Mendelson syndrome\n\n**Aspiration Pneumonia**：\n- 細菌性感染 (口咽部菌叢)\n- 較漸進式發作\n- **需要抗生素**：Ampicillin/Sulbactam 或 Clindamycin\n- 好發部位：**右下葉** (right lower lobe) — 因右主支氣管較直且短\n- 仰臥位：**上葉後段** (superior segment of lower lobe)"},
+        {"type": "heading", "text": "臨床實戰：肺炎判讀練習"},
+        {"type": "collapsible", "summary": "Case 1：68 歲男性，突然高燒 39.5°C、rusty sputum、右側胸痛", "text": "**分析**：\n- 急性發作 + 高燒 + productive cough (rusty sputum) + pleuritic chest pain → **Typical pneumonia**\n- Rusty sputum 是 **S. pneumoniae** 的經典表現\n- 預期 CXR：**右側 lobar consolidation**\n\n**處置**：\n- CURB-65 評估：Age ≥ 65 (1分)，需進一步評估其他項目\n- 若住院：**Ceftriaxone + Azithromycin**\n- Blood culture × 2、sputum culture、urine pneumococcal Ag"},
+        {"type": "collapsible", "summary": "Case 2：22 歲大學生，漸進式乾咳 1 週、低燒、headache", "text": "**分析**：\n- 年輕人 + 漸進式發作 + 乾咳 + 低燒 + headache → **Atypical pneumonia**\n- 最可能病原：**Mycoplasma pneumoniae**\n- 可能合併：bullous myringitis、erythema multiforme\n- 預期 CXR：bilateral patchy infiltrates (worse than exam suggests)\n\n**處置**：\n- 門診治療 (walking pneumonia)\n- **Doxycycline 100mg BID** 或 **Azithromycin 500mg → 250mg × 4 天**\n- Cold agglutinin 可能陽性 (但特異度低)"},
+        {"type": "collapsible", "summary": "Case 3：55 歲男性，旅館住宿後高燒、腹瀉、confusion、Na 128", "text": "**分析**：\n- 旅館住宿 (水源暴露) + 高燒 + **GI 症狀** + **CNS 症狀** + **低血鈉** → **Legionella pneumophila**\n- 關鍵線索組合：水源 + 肺外症狀 (GI + CNS) + hyponatremia\n\n**處置**：\n- Urine Legionella Ag (serogroup 1)\n- **Levofloxacin 750mg IV QD** (首選) 或 **Azithromycin 500mg IV QD**\n- 嚴重者住院、ICU 評估\n- Legionella 不是 person-to-person transmission → 不需隔離，但需通報 public health"},
+        {"type": "collapsible", "summary": "Case 4：35 歲 HIV 患者，CD4 = 80，漸進式乾咳、呼吸困難、bilateral GGO", "text": "**分析**：\n- HIV + CD4 < 200 + 漸進式乾咳 + dyspnea + **bilateral diffuse GGO** → **PJP (Pneumocystis jirovecii pneumonia)**\n- 預期 Lab：**elevated LDH**、low PaO2、elevated β-D-glucan\n- 確診：**BAL with GMS (Gomori methenamine silver) stain** 或 DFA\n\n**處置**：\n- **TMP-SMX** (15-20 mg/kg/day of TMP component) × 21 天\n- PaO2 < 70 mmHg → **加 Prednisone** (40mg BID × 5d → 40mg QD × 5d → 20mg QD × 11d)\n- 穩定後開始 ART\n- 預防：CD4 < 200 → TMP-SMX 1 DS daily 直到 CD4 > 200 持續 3 個月"}
+      ]
+    }
+  ],
+  "related": ["urinary-tract-infection"]
+}
