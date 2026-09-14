@@ -455,6 +455,81 @@ details.collapsible .content {
   border: 1px solid var(--border);
 }
 
+/* Image upload */
+.img-dropzone {
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  margin-top: 0.75rem;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.img-dropzone:hover {
+  border-color: var(--accent);
+  color: var(--text-secondary);
+}
+
+.img-dropzone.dragover {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  color: var(--text-primary);
+}
+
+.img-dropzone.uploading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.img-block {
+  background: var(--bg-collapsible);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 0.75rem 0;
+}
+
+.img-block summary {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.img-content {
+  padding: 0 1rem 0.75rem;
+}
+
+.img-content img {
+  max-width: 100%;
+  border-radius: 4px;
+  display: block;
+}
+
+.img-actions {
+  margin-top: 0.5rem;
+  text-align: right;
+}
+
+.img-delete-btn {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.img-delete-btn:hover {
+  color: #f44336;
+  border-color: #f44336;
+}
+
 /* Cross-links */
 .related-notes {
   margin-top: 2rem;

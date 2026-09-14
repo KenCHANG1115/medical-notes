@@ -6,6 +6,7 @@
   let supabaseClient = null;
   let userName = '';
   let tocScrollHandler = null;
+  const IMAGE_BUCKET = 'note-images';
 
   const SUPABASE_URL = 'https://firvfvkadexbdrsfuzpk.supabase.co';
   const SUPABASE_KEY = 'sb_publishable_VGm4obXnBc10xM6vsUUb4w_78Df8Qxt';
@@ -175,6 +176,8 @@
       html += `<div class="note-section" data-sec="${idx}" id="sec-${idx}">`;
       html += `<h2>${esc(sec.title)}</h2>`;
       html += renderContent(sec.content);
+      html += `<div class="img-container" id="img-sec-${idx}"></div>`;
+      html += `<div class="img-dropzone" data-sec="${idx}">Drag & drop image here</div>`;
       html += '</div>';
     });
 
@@ -190,6 +193,8 @@
     page.innerHTML = html;
     setupTocIds();
     setupScrollSpy(note);
+    setupDropZones();
+    loadNoteImages(note.id);
   }
 
   function buildToc(note) {
@@ -327,6 +332,137 @@
 
   function slugify(text) {
     return text.replace(/[^\w一-鿿]+/g, '-').replace(/^-|-$/g, '');
+  }
+
+  // ── Image Upload System ──
+  function setupDropZones() {
+    document.querySelectorAll('.img-dropzone').forEach(zone => {
+      zone.addEventListener('dragover', e => {
+        e.preventDefault();
+        zone.classList.add('dragover');
+      });
+      zone.addEventListener('dragleave', () => {
+        zone.classList.remove('dragover');
+      });
+      zone.addEventListener('drop', async e => {
+        e.preventDefault();
+        zone.classList.remove('dragover');
+        const files = Array.from(e.dataTransfer.files).filter(f => f.type.startsWith('image/'));
+        if (!files.length) return;
+        if (!userName) await promptUserName();
+        const secIdx = parseInt(zone.dataset.sec);
+        for (const file of files) {
+          await uploadImage(file, secIdx);
+        }
+      });
+      zone.addEventListener('click', () => {
+        const input = document.createElement('input');
+        input.type = 'file';
+        input.accept = 'image/*';
+        input.multiple = true;
+        input.addEventListener('change', async () => {
+          if (!input.files.length) return;
+          if (!userName) await promptUserName();
+          const secIdx = parseInt(zone.dataset.sec);
+          for (const file of input.files) {
+            await uploadImage(file, secIdx);
+          }
+        });
+        input.click();
+      });
+    });
+  }
+
+  async function uploadImage(file, secIdx) {
+    if (!supabaseClient || !currentNote) return;
+    const ext = file.name.split('.').pop() || 'png';
+    const path = `${currentNote.id}/${secIdx}/${Date.now()}.${ext}`;
+
+    const zone = document.querySelector(`.img-dropzone[data-sec="${secIdx}"]`);
+    if (zone) { zone.textContent = 'Uploading...'; zone.classList.add('uploading'); }
+
+    const { error: uploadErr } = await supabaseClient.storage
+      .from(IMAGE_BUCKET)
+      .upload(path, file, { contentType: file.type });
+
+    if (uploadErr) {
+      if (zone) { zone.textContent = 'Upload failed'; zone.classList.remove('uploading'); }
+      setTimeout(() => { if (zone) zone.textContent = 'Drag & drop image here'; }, 2000);
+      return;
+    }
+
+    const caption = '';
+    await supabaseClient.from('note_images').insert({
+      note_id: currentNote.id,
+      section_idx: secIdx,
+      storage_path: path,
+      caption: caption,
+      user_name: userName,
+    });
+
+    if (zone) { zone.textContent = 'Drag & drop image here'; zone.classList.remove('uploading'); }
+    await loadNoteImages(currentNote.id);
+  }
+
+  async function loadNoteImages(noteId) {
+    if (!supabaseClient) return;
+    try {
+      const { data } = await supabaseClient.from('note_images')
+        .select('*')
+        .eq('note_id', noteId)
+        .order('created_at', { ascending: true });
+      if (!data) return;
+
+      document.querySelectorAll('.img-container').forEach(c => { c.innerHTML = ''; });
+
+      for (const img of data) {
+        const container = document.getElementById('img-sec-' + img.section_idx);
+        if (!container) continue;
+
+        const { data: urlData } = supabaseClient.storage
+          .from(IMAGE_BUCKET)
+          .getPublicUrl(img.storage_path);
+        const url = urlData ? urlData.publicUrl : '';
+        if (!url) continue;
+
+        const wrapper = document.createElement('details');
+        wrapper.className = 'collapsible img-block';
+        wrapper.open = true;
+        const summary = document.createElement('summary');
+        summary.textContent = img.caption || ('Image — ' + (img.user_name || 'Anonymous'));
+        wrapper.appendChild(summary);
+
+        const content = document.createElement('div');
+        content.className = 'content img-content';
+
+        const imgEl = document.createElement('img');
+        imgEl.src = url;
+        imgEl.alt = img.caption || 'Note image';
+        imgEl.loading = 'lazy';
+        content.appendChild(imgEl);
+
+        if (userName && userName === img.user_name) {
+          const actions = document.createElement('div');
+          actions.className = 'img-actions';
+          const delBtn = document.createElement('button');
+          delBtn.textContent = 'Delete';
+          delBtn.className = 'img-delete-btn';
+          delBtn.addEventListener('click', () => deleteImage(img.id, img.storage_path));
+          actions.appendChild(delBtn);
+          content.appendChild(actions);
+        }
+
+        wrapper.appendChild(content);
+        container.appendChild(wrapper);
+      }
+    } catch {}
+  }
+
+  async function deleteImage(id, storagePath) {
+    if (!supabaseClient) return;
+    await supabaseClient.storage.from(IMAGE_BUCKET).remove([storagePath]);
+    await supabaseClient.from('note_images').delete().eq('id', id);
+    if (currentNote) await loadNoteImages(currentNote.id);
   }
 
   // ── Highlight System ──
