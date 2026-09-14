@@ -202,35 +202,15 @@
       "title": "Special Populations",
       "content": [
         {"type": "heading", "text": "DKA 的特殊注意事項"},
-        {"type": "collapsible", "summary": "Euglycemic DKA (eDKA) — SGLT2i 使用者", "content": [
-          "SGLT2 inhibitors 引起 glycosuria → osmotic diuresis → volume depletion → 血糖正常但酮體蓄積",
-          "臨床陷阱：血糖正常不代表沒有 DKA → 要測 β-hydroxybutyrate 和 AG",
-          "Nitroprusside 尿酮試驗無法準確偵測 β-hydroxybutyrate，可能低估酮症程度"
-        ]},
+        {"type": "collapsible", "summary": "Euglycemic DKA (eDKA) — SGLT2i 使用者", "text": "**機轉**：SGLT2 inhibitors (Empagliflozin, Dapagliflozin 等) 引起 glycosuria → osmotic diuresis → volume depletion + insulin ↓ / glucagon ↑ → 脂肪分解增加 → 酮體蓄積，但血糖因持續排糖而**正常或僅輕微升高** (<250 mg/dL)。\n\n**臨床陷阱**：\n- 血糖正常 ≠ 沒有 DKA → 必須測 **β-hydroxybutyrate** 和 **AG**\n- Nitroprusside 尿酮試驗只測 acetoacetate，無法偵測 β-hydroxybutyrate → 可能**低估**酮症程度\n- 容易延遲診斷，尤其術後、禁食或低碳飲食時\n\n**處置**：\n- 停用 SGLT2i\n- IV insulin + **含 dextrose 的輸液** (D5NS)，因為血糖不高\n- 監測 AG 和 β-hydroxybutyrate 至正常\n- 術前應停用 SGLT2i ≥ 3 天"},
         {"type": "heading", "text": "Alcoholic Ketoacidosis (AKA)"},
-        {"type": "collapsible", "summary": "AKA 的特殊性與治療", "content": [
-          "特徵：酗酒 + 嘔吐 + 腹痛 + volume depletion + 血糖正常或偏低",
-          "治療：D5NS + 監測低磷 (通常入院 12-24h 後出現)、低鉀、低鎂",
-          "補液後 β-hydroxybutyrate → acetoacetate → nitroprusside reaction 「假性升高」(其實是好轉)",
-          "常見 mixed disorder：lactic acidosis + respiratory alkalosis (肝病) + metabolic alkalosis (嘔吐)"
-        ]},
+        {"type": "collapsible", "summary": "AKA 的特殊性與治療", "text": "**典型情境**：慢性酗酒者因嘔吐、腹痛、無法進食而就診。血糖正常或偏低，AG 升高。\n\n**病理機轉**：\n- 長期飲酒 + 禁食 → glycogen stores 耗盡 → lipolysis ↑ → ketogenesis\n- Ethanol 代謝消耗 NAD⁺ → NADH/NAD⁺ ratio ↑ → 促進 β-hydroxybutyrate 生成\n- Volume depletion → lactic acidosis 加重\n\n**治療重點**：\n1. **D5NS** (含 dextrose！) — 刺激 insulin 分泌，抑制酮體生成。不要只給 NS\n2. 補充 **Thiamine** (在給 glucose 之前！防 Wernicke's encephalopathy)\n3. 監測電解質：**低磷** (通常入院 12-24h 後出現 refeeding syndrome)、低鉀、低鎂\n4. 通常**不需要 insulin** (與 DKA 不同)\n\n**Nitroprusside test 陷阱**：\n補液治療後 β-hydroxybutyrate → acetoacetate (NADH/NAD⁺ 正常化) → nitroprusside reaction **「假性升高」**，其實代表酮症正在好轉，不要因此加重治療。\n\n**常見 Mixed Disorder**：AKA 患者常同時有 3-4 種酸鹼異常：\n- High-AG metabolic acidosis (ketoacidosis)\n- Metabolic alkalosis (嘔吐)\n- Respiratory alkalosis (肝病刺激呼吸中樞)\n- ± Lactic acidosis (volume depletion)"},
         {"type": "heading", "text": "Salicylate 中毒"},
-        {"type": "collapsible", "summary": "Salicylate 中毒的處理", "content": [
-          "成人：常見 mixed high-AG metabolic acidosis + respiratory alkalosis",
-          "治療：洗胃 (isotonic saline) → activated charcoal 1 g/kg → NaHCO₃ 鹼化尿液 (目標 urine pH > 7.5)",
-          "尿 pH 從 6.5 升至 7.5 可增加 salicylate 清除率 5 倍",
-          "若 AKI 導致無法清除 → hemodialysis (standard bicarbonate dialysate)"
-        ]},
+        {"type": "collapsible", "summary": "Salicylate 中毒的處理", "text": "**酸鹼異常型態**：\n- 成人：**Mixed high-AG metabolic acidosis + respiratory alkalosis** (Salicylate 同時刺激呼吸中樞 + 干擾 oxidative phosphorylation)\n- 兒童：以 metabolic acidosis 為主 (呼吸代償能力較差)\n\n**毒性劑量**：> 150 mg/kg (急性)；慢性中毒更危險，常被延遲診斷\n\n**治療步驟**：\n1. **Activated charcoal** 1 g/kg (若攝入 < 2 小時)\n2. **NaHCO₃ 鹼化尿液** — 目標 urine pH > 7.5\n   - 尿 pH 從 6.5 升至 7.5 → salicylate 清除率增加 **5 倍** (ion trapping)\n   - NaHCO₃ 150 mEq in 1L D5W，infusion rate 維持尿 pH > 7.5\n3. 補充 **K⁺** — 低血鉀時腎臟無法有效鹼化尿液\n4. **Hemodialysis** 適應症：\n   - Salicylate level > 100 mg/dL\n   - 嚴重酸血症 (pH < 7.2)\n   - 腎衰竭無法清除\n   - 意識改變、肺水腫\n\n⚠️ **禁忌**：不要插管讓病人 hypoventilate！Salicylate 中毒靠呼吸性鹼中毒代償，一旦失去過度換氣 → pH 急速下降 → 致命。若必須插管，需維持高分鐘通氣量。"},
         {"type": "heading", "text": "Pyroglutamic Acid (5-Oxoproline)"},
         "Acetaminophen 引起的 high-AG metabolic acidosis，在重症或營養不良患者使用標準劑量即可發生。機轉：glutathione depleted → 5-oxoproline 累積。治療：停用 acetaminophen + NaHCO₃。",
         {"type": "heading", "text": "Hyperaldosteronism 鑑別"},
-        {"type": "collapsible", "summary": "Suspect Hyperaldosteronism 流程", "content": [
-          "代謝鹼 + 高血壓 + 低血鉀 → 測 Plasma renin & aldosterone",
-          "**↓ Renin + ↑ Aldo** (Aldo:Renin > 20) → salt suppression test → **1° Hyperaldosteronism** → Adrenal CT/MRI → adenoma vs hyperplasia",
-          "**↑ Renin + ↑ Aldo** → **2° Hyperaldosteronism** → Renovascular disease, CHF, Cirrhosis",
-          "**↓ Renin + ↓ Aldo** → Non-aldosterone mineralocorticoid excess → Cushing's, Licorice, Liddle's syndrome",
-          "**Liddle's syndrome**：ENaC gain-of-function mutation → 高血壓 + 低血鉀 + 代謝鹼 + 低 renin + 低 aldo → 治療用 Amiloride (非 spironolactone)"
-        ]},
+        {"type": "collapsible", "summary": "Suspect Hyperaldosteronism 流程", "text": "**何時懷疑？** 代謝鹼 + 高血壓 + 低血鉀 → 測 **Plasma Aldosterone Concentration (PAC)** 和 **Plasma Renin Activity (PRA)**\n\n**鑑別診斷流程**：\n\n**1. ↓ Renin + ↑ Aldo** (ARR = Aldo:Renin > 20，PAC > 15 ng/dL)\n→ Confirmatory test (salt suppression test / fludrocortisone suppression test)\n→ 確認後 **Adrenal CT/MRI**\n→ **Adenoma** (Conn's syndrome)：手術切除\n→ **Bilateral hyperplasia**：Spironolactone 或 Eplerenone\n\n**2. ↑ Renin + ↑ Aldo** → **Secondary Hyperaldosteronism**\n→ Renovascular disease (renal artery stenosis)\n→ Renin-secreting tumor\n→ CHF, Cirrhosis (effective volume ↓)\n\n**3. ↓ Renin + ↓ Aldo** → **Non-aldosterone mineralocorticoid excess**\n→ **Cushing's syndrome**：cortisol 過多 → 活化 mineralocorticoid receptor\n→ **Licorice (甘草) 攝取**：glycyrrhizinic acid 抑制 11β-HSD2 → cortisol 無法轉為 cortisone → 活化 MR\n→ **Liddle's syndrome**：ENaC gain-of-function mutation → Na⁺ reabsorption ↑，治療用 **Amiloride** (阻斷 ENaC)，spironolactone 無效 (因不經 aldosterone)\n→ **AME (Apparent Mineralocorticoid Excess)**：11β-HSD2 基因缺陷\n\n**記憶口訣**：「高醛高腎→二次、高醛低腎→一次、低醛低腎→非醛」"},
         {"type": "source", "book": "First Choice 醫學(三)", "pages": "22-24"}
       ]
     },
@@ -273,20 +253,8 @@
         ]},
         {"type": "callout", "style": "trap", "text": "**經典陷阱題型**：\n\n1. pH 正常 + AG 升高 → 不要漏掉隱藏的 mixed disorder，一定要算 AG！\n2. Non-AG metabolic acidosis + 高血鉀 → Type 4 RTA (不是 Type 1 或 2)\n3. 代謝鹼 + 低血鉀 + 高血壓 → 想到 Hyperaldosteronism\n4. Sjögren's syndrome → Type 1 (distal) RTA → 代謝酸，不是代謝鹼\n5. 慢性呼吸鹼的代償比急性更多 (0.4 vs 0.2 × ΔPaCO₂)，是唯一可使 pH 完全回正常的代償"},
         {"type": "heading", "text": "臨床實戰：ABG 判讀練習"},
-        {"type": "collapsible", "summary": "練習題 1：pH 7.39, HCO₃⁻ 14, PaCO₂ 24, Na⁺ 140, K⁺ 4.0, Cl⁻ 106", "content": [
-          "Step 1：pH 偏酸 → 代謝酸 (HCO₃⁻ ↓)",
-          "Step 2：預期 PaCO₂ = 14 + 15 = 29，實際 24 → PaCO₂ 太低 → 合併呼吸鹼",
-          "Step 3：AG = 140 − 106 − 14 = 20 → high-AG acidosis；ΔAG (10) = ΔHCO₃⁻ (10) → 單純 high-AG acidosis",
-          "結論：**High-AG metabolic acidosis + Respiratory alkalosis**",
-          "臨床：ICU 敗血症，用上呼吸器後的狀況"
-        ]},
-        {"type": "collapsible", "summary": "練習題 2：pH 7.42, HCO₃⁻ 25, PaCO₂ 40, Na⁺ 140, K⁺ 3.0, Cl⁻ 95", "content": [
-          "Step 1：pH 正常，所有數值看似正常",
-          "Step 2：AG = 140 − 95 − 25 = 20 → AG 升高！",
-          "Step 3：ΔAG = 10, ΔHCO₃⁻ = 0 → HCO₃⁻ 沒有下降 → HCO₃⁻ gain",
-          "結論：**High-AG metabolic acidosis + Metabolic alkalosis**",
-          "臨床：Uremia 合併嘔吐"
-        ]},
+        {"type": "collapsible", "summary": "練習題 1：pH 7.39, HCO₃⁻ 14, PaCO₂ 24, Na⁺ 140, K⁺ 4.0, Cl⁻ 106", "text": "**Step 1：看 pH → 判斷主要異常**\npH 7.39 偏酸 (< 7.40) → 主要異常是酸中毒\nHCO₃⁻ = 14 (↓) → **代謝性酸中毒**\n\n**Step 2：判斷代償是否合宜**\n代謝酸的代償公式：PaCO₂ = [HCO₃⁻] + 15 = 14 + 15 = **29 mmHg**\n(或 Winter's formula：PaCO₂ = 1.5 × 14 + 8 = 29 ± 2)\n實際 PaCO₂ = 24 → **比預期低** → 呼吸代償過度 → 合併 **respiratory alkalosis**\n\n**Step 3：計算 AG 和 Delta-Delta**\nAG = 140 − (106 + 14) = **20** → high-AG metabolic acidosis\nΔAG = 20 − 10 = 10\nΔHCO₃⁻ = 24 − 14 = 10\nΔAG / ΔHCO₃⁻ = 1.0 → 單純 high-AG acidosis（無合併 non-AG acidosis 或代謝鹼）\n\n**結論：High-AG metabolic acidosis + Respiratory alkalosis**\n\n**臨床情境**：ICU 敗血症患者 — lactic acidosis (high-AG) + sepsis 刺激呼吸中樞導致過度換氣 (respiratory alkalosis)。兩者方向相反，所以 pH 看似接近正常，但實際有嚴重的 mixed disorder。"},
+        {"type": "collapsible", "summary": "練習題 2：pH 7.42, HCO₃⁻ 25, PaCO₂ 40, Na⁺ 140, K⁺ 3.0, Cl⁻ 95", "text": "**Step 1：看 pH → 判斷主要異常**\npH 7.42 正常範圍，HCO₃⁻ 25 正常，PaCO₂ 40 正常\n看似完全正常 → **但先別急！一定要算 AG！**\n\n**Step 2：計算 AG**\nAG = 140 − (95 + 25) = **20** → AG 升高！(正常 10~12)\n→ 有隱藏的 **high-AG metabolic acidosis**\n\n**Step 3：Delta-Delta 分析**\nΔAG = 20 − 10 = 10 → 應該有 10 mmol/L 的 HCO₃⁻ 被酸根取代\n預期 HCO₃⁻ = 24 − 10 = 14 mmol/L\n實際 HCO₃⁻ = 25 mmol/L → 比預期**高了 11** → 有額外的 HCO₃⁻ 來源\nΔAG (10) >> ΔHCO₃⁻ (−1) → 合併 **metabolic alkalosis**\n\n**結論：High-AG metabolic acidosis + Metabolic alkalosis**\n\n**臨床情境**：Uremia (尿毒症引起 AG↑) 合併嘔吐 (失去 H⁺/Cl⁻ → metabolic alkalosis)。\n\n**教學重點**：pH 正常不代表沒有酸鹼異常！任何病人都要算 AG，才不會漏掉隱藏的 mixed disorder。這是國考經典陷阱題型。\n\n**附加線索**：K⁺ = 3.0 (低血鉀) + Cl⁻ = 95 (低血氯) → 支持嘔吐造成的代謝鹼中毒。"},
         {"type": "source", "book": "First Choice 醫學(三)", "pages": "12-29"}
       ]
     }
