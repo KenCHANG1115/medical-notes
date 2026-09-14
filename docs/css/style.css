@@ -215,6 +215,16 @@ body {
   color: #f44336;
 }
 
+@keyframes ann-flash-anim {
+  0%, 100% { background: transparent; }
+  30% { background: var(--bg-highlight-yellow); }
+}
+
+.ann-flash {
+  animation: ann-flash-anim 1.5s ease;
+  border-radius: 3px;
+}
+
 /* Username prompt overlay */
 .user-prompt-overlay {
   position: fixed;

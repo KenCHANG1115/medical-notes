@@ -674,7 +674,7 @@
         html += '<p style="font-size:0.78rem;color:var(--text-muted);">Select text, then click the note button (speech bubble) to add annotations.</p>';
       } else {
         for (const ann of data) {
-          html += `<div class="ann-card" data-sec="${ann.section_idx}" onclick="scrollToSection(${ann.section_idx})">`;
+          html += `<div class="ann-card" data-sec="${ann.section_idx}" data-anchor="${esc(ann.anchor_text.slice(0, 200))}" onclick="scrollToAnchor(this)">`;
           if (userName === ann.user_name) {
             html += `<button class="ann-delete" onclick="event.stopPropagation();deleteAnnotation(${ann.id})" title="Delete">&times;</button>`;
           }
@@ -690,9 +690,35 @@
     }
   }
 
-  window.scrollToSection = function(secIdx) {
+  window.scrollToAnchor = function(cardEl) {
+    const secIdx = cardEl.dataset.sec;
+    const anchor = cardEl.dataset.anchor;
     const sec = document.querySelector(`.note-section[data-sec="${secIdx}"]`);
-    if (sec) sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (!sec) return;
+
+    let target = null;
+    if (anchor) {
+      const walker = document.createTreeWalker(sec, NodeFilter.SHOW_TEXT);
+      let node;
+      while (node = walker.nextNode()) {
+        if (node.textContent.indexOf(anchor.slice(0, 60)) !== -1) {
+          target = node.parentElement;
+          break;
+        }
+      }
+    }
+    if (!target) target = sec;
+
+    const tocH = document.getElementById('noteToc');
+    const offset = tocH ? tocH.offsetHeight + 12 : 0;
+    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo(0, top);
+    window.dispatchEvent(new Event('scroll'));
+
+    if (target !== sec) {
+      target.classList.add('ann-flash');
+      setTimeout(() => target.classList.remove('ann-flash'), 1500);
+    }
   };
 
   window.deleteAnnotation = async function(annId) {
