@@ -22,6 +22,12 @@
         {"id": "acid-base-disorders", "name": "Acid-Base Disorders (酸鹼平衡異常)"},
         {"id": "electrolyte-disorders", "name": "Electrolyte Disorders (離子平衡異常)"}
       ]
+    },
+    {
+      "name": "感染科",
+      "diseases": [
+        {"id": "urinary-tract-infection", "name": "Urinary Tract Infection (泌尿道感染)"}
+      ]
     }
   ]
 }

@@ -1,0 +1,263 @@
+{
+  "id": "urinary-tract-infection",
+  "title": "Urinary Tract Infection (泌尿道感染)",
+  "title_en": "Urinary Tract Infection",
+  "title_zh": "泌尿道感染",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.144 Urinary Tract Infections (p.1081-1090)",
+    "First Choice 醫學(三) - 泌尿道感染"
+  ],
+  "generated": "2026-09-14",
+  "sections": [
+    {
+      "title": "Overview / Epidemiology",
+      "content": [
+        "泌尿道感染 (UTI) 是最常見的細菌感染之一，依感染部位分為下泌尿道感染 (cystitis, 膀胱炎) 和上泌尿道感染 (pyelonephritis, 腎盂腎炎)。",
+        {"type": "table", "headers": ["分類", "定義", "特徵"], "rows": [
+          ["Uncomplicated UTI", "發生在結構與功能正常的泌尿道、無系統性疾病的停經前非懷孕女性", "最常見；主要為 cystitis"],
+          ["Complicated UTI", "有結構/功能異常、男性、懷孕、導尿管、免疫低下、或涉及上泌尿道", "病原菌較多元，抗藥性較高"],
+          ["Recurrent UTI", "一年內 ≥ 3 次或半年內 ≥ 2 次 UTI", "分為 relapse (同一菌株) 和 reinfection (不同菌株)"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**流行病學關鍵數字**：\n- 女性終生 UTI 風險約 50-60%\n- 女性:男性發生率 ≈ 30:1（生育年齡）\n- Honeymoon cystitis：性行為後 UTI 風險增加\n- 男性 UTI 少見，需排除結構異常"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1081-1082"}
+      ]
+    },
+    {
+      "title": "Etiology / Risk Factors",
+      "content": [
+        {"type": "heading", "text": "常見病原菌"},
+        {"type": "table", "headers": ["病原菌", "比例/特徵", "備註"], "rows": [
+          ["Escherichia coli", "Uncomplicated UTI 75-95%", "最常見；具 P fimbriae (pili) 附著泌尿上皮"],
+          ["Staphylococcus saprophyticus", "年輕女性第二常見 (5-15%)", "Coagulase-negative；Novobiocin resistant (鑑別 S. epidermidis)"],
+          ["Klebsiella pneumoniae", "Complicated UTI 常見", "產 ESBL 菌株增加"],
+          ["Proteus mirabilis", "男性/導管 UTI 常見", "Urease 陽性 → 鹼性尿 → Struvite stone (鹿角結石)"],
+          ["Enterococcus faecalis", "導管/院內感染", "天然抗 Cephalosporin"],
+          ["Pseudomonas aeruginosa", "院內/導管 UTI", "多重抗藥性常見"],
+          ["Candida spp.", "ICU/長期抗生素/導管", "真菌性 UTI"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Staphylococcus aureus bacteriuria**：\n若尿液培養長出 S. aureus，要高度懷疑血行性感染 (hematogenous seeding)，而非上行性感染。\n→ 必須抽血液培養，排除 endocarditis 或其他深部感染源"},
+        {"type": "heading", "text": "危險因子"},
+        {"type": "table", "headers": ["族群", "危險因子"], "rows": [
+          ["年輕女性", "性行為頻率增加、殺精劑/隔膜使用、近期抗生素使用、UTI 病史"],
+          ["停經後女性", "雌激素缺乏 → 陰道 pH 上升 → Lactobacillus 減少 → E. coli colonization"],
+          ["男性", "BPH (尿滯留)、未割包皮、肛交"],
+          ["所有族群", "糖尿病、泌尿道結構異常、VUR (膀胱輸尿管逆流)、尿路阻塞、留置導尿管、神經性膀胱"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1082-1084"}
+      ]
+    },
+    {
+      "title": "Pathophysiology",
+      "content": [
+        {"type": "heading", "text": "上行性感染途徑 (最常見)"},
+        {"type": "list", "ordered": true, "items": [
+          "腸道菌 (E. coli) colonize 會陰及尿道口",
+          "細菌經尿道上行至膀胱 → **Cystitis**",
+          "細菌經輸尿管上行至腎臟 → **Pyelonephritis**",
+          "嚴重時細菌入血 → **Urosepsis**"
+        ]},
+        {"type": "callout", "style": "logic", "text": "**為什麼女性比男性容易 UTI？**\n1. 女性尿道短 (~4 cm vs 男性 ~20 cm)\n2. 尿道口靠近肛門和陰道\n3. 缺乏男性前列腺分泌的抗菌物質\n4. 性行為時機械性地將細菌推入尿道 (honeymoon cystitis)"},
+        {"type": "heading", "text": "Uropathogenic E. coli (UPEC) 致病因子"},
+        {"type": "list", "ordered": false, "items": [
+          "**Type 1 fimbriae (FimH)**：結合膀胱上皮的 mannose receptor → 造成 cystitis",
+          "**P fimbriae (PapG)**：結合腎臟上皮的 Gal-Gal receptor → 造成 pyelonephritis",
+          "**α-hemolysin**：破壞組織，促進鐵質獲取",
+          "**Biofilm formation**：導管表面形成生物膜，抗生素難以清除",
+          "**Intracellular bacterial communities (IBC)**：在膀胱上皮細胞內形成 biofilm-like 結構，逃避宿主免疫"
+        ]},
+        {"type": "heading", "text": "血行性感染途徑"},
+        "血行性感染較少見，常見病原菌為 S. aureus、Candida spp.。通常見於菌血症或免疫低下患者。當尿液培養長出 S. aureus，應考慮血行性散播。",
+        {"type": "source", "book": "Harrison's 22e", "pages": "1082-1083"}
+      ]
+    },
+    {
+      "title": "Pathology",
+      "content": [
+        {"type": "heading", "text": "Acute Cystitis 病理"},
+        {"type": "list", "ordered": false, "items": [
+          "膀胱黏膜充血、水腫",
+          "嗜中性球浸潤 (neutrophilic infiltration)",
+          "黏膜表層糜爛或潰瘍 (嚴重時)",
+          "通常不累及肌肉層"
+        ]},
+        {"type": "heading", "text": "Acute Pyelonephritis 病理"},
+        {"type": "list", "ordered": false, "items": [
+          "腎臟腫大、表面可見黃白色膿瘍灶",
+          "髓質及皮質的嗜中性球浸潤",
+          "腎小管壞死，管腔內充滿 WBC casts",
+          "腎絲球通常不受影響 (除非有菌血症)"
+        ]},
+        {"type": "heading", "text": "特殊病理型態"},
+        {"type": "table", "headers": ["型態", "特徵", "臨床意義"], "rows": [
+          ["Emphysematous pyelonephritis", "腎實質內產氣 (CT 可見)", "糖尿病患者多見；死亡率高，常需手術"],
+          ["Xanthogranulomatous pyelonephritis", "腎實質被泡沫巨噬細胞 (foamy macrophages) 取代", "常合併 Proteus 感染+鹿角結石；CT 可誤判為腫瘤"],
+          ["Chronic pyelonephritis", "腎實質纖維化+瘢痕 → 腎臟萎縮不對稱", "常見於 VUR 兒童；可進展至 CKD"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1084-1085"}
+      ]
+    },
+    {
+      "title": "Clinical Presentation",
+      "content": [
+        {"type": "heading", "text": "Acute Cystitis (急性膀胱炎)"},
+        {"type": "list", "ordered": false, "items": [
+          "**Dysuria** (排尿疼痛/灼熱感) — 最常見症狀",
+          "**Frequency** (頻尿)",
+          "**Urgency** (急尿感)",
+          "**Suprapubic pain** (恥骨上疼痛)",
+          "**Hematuria** (血尿) — 終末血尿 (terminal hematuria) 較典型",
+          "**無全身症狀**：不發燒、不腰痛"
+        ]},
+        {"type": "heading", "text": "Acute Pyelonephritis (急性腎盂腎炎)"},
+        {"type": "list", "ordered": false, "items": [
+          "**高燒 + 寒顫** (>38.5°C)",
+          "**CVA tenderness** (肋脊角叩痛) — 最具特異性",
+          "**噁心、嘔吐**",
+          "可合併下泌尿道症狀 (dysuria, frequency)",
+          "嚴重者 → sepsis / septic shock"
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Cystitis vs Pyelonephritis 的區分**：\n關鍵在於有無 **全身性症狀 (fever, chills)** 和 **CVA tenderness**\n- Cystitis：局部症狀為主，不發燒\n- Pyelonephritis：全身症狀 + 腰痛/CVA tenderness\n\n⚠️ 老年人可能無典型症狀，以 delirium、食慾下降、跌倒表現"},
+        {"type": "heading", "text": "其他特殊表現"},
+        {"type": "table", "headers": ["情況", "表現"], "rows": [
+          ["Catheter-associated UTI (CAUTI)", "常無典型泌尿道症狀；可能以發燒、意識改變、血流動力學不穩表現"],
+          ["老年人", "非典型表現：delirium, 功能退化, 跌倒; 可能無 dysuria/frequency"],
+          ["男性 UTI", "需考慮合併 prostatitis (會陰痛、DRE 壓痛)"],
+          ["Urosepsis", "UTI + SIRS criteria → 積極處置"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1084-1085"}
+      ]
+    },
+    {
+      "title": "Diagnosis",
+      "content": [
+        {"type": "heading", "text": "尿液分析 (Urinalysis)"},
+        {"type": "table", "headers": ["檢查項目", "陽性標準", "敏感度/特異度", "備註"], "rows": [
+          ["Pyuria (膿尿)", "WBC ≥ 10/HPF", "敏感度高 (>95%)", "無 pyuria 基本排除 UTI"],
+          ["Leukocyte esterase", "Dipstick 陽性", "敏感度 75-96%", "WBC 釋放的酵素"],
+          ["Nitrite", "Dipstick 陽性", "特異度高 (>90%)", "Gram(-) 菌將 nitrate → nitrite；Enterococcus, S. saprophyticus 不產生 nitrite"],
+          ["Bacteriuria", "鏡檢可見細菌", "變異大", "未離心尿液可見＝菌量高"],
+          ["Hematuria", "RBC ≥ 3/HPF", "非特異性", "需排除其他原因 (結石、腫瘤)"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**Dipstick 判讀邏輯**：\n- Leukocyte esterase (+) AND Nitrite (+) → UTI 可能性極高\n- Leukocyte esterase (+) AND Nitrite (-) → 仍可能是 UTI (Enterococcus/S. saprophyticus 不產 nitrite)\n- Leukocyte esterase (-) AND Nitrite (-) → UTI 可能性低\n- 單獨 Nitrite (+) → 考慮 asymptomatic bacteriuria"},
+        {"type": "heading", "text": "尿液培養 (Urine Culture)"},
+        {"type": "table", "headers": ["情況", "何時需要培養？"], "rows": [
+          ["Uncomplicated cystitis", "一般不需要；可直接經驗性治療"],
+          ["Pyelonephritis", "必須做 — 需確認菌種及藥敏"],
+          ["Complicated UTI", "必須做"],
+          ["治療失敗 / 復發性 UTI", "必須做"],
+          ["懷孕", "必須做"],
+          ["CAUTI 懷疑", "必須做"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**Significant bacteriuria 標準**：\n- 中段清潔尿 (clean-catch midstream)：≥ 10⁵ CFU/mL\n- 有症狀女性 cystitis：≥ 10² CFU/mL 即有意義\n- 導尿管尿液：≥ 10³ CFU/mL\n- 恥骨上穿刺 (suprapubic aspiration)：任何菌量即有意義"},
+        {"type": "heading", "text": "影像檢查"},
+        {"type": "list", "ordered": false, "items": [
+          "**Uncomplicated cystitis/pyelonephritis**：不需要影像",
+          "**適應症**：治療 48-72h 無改善、懷疑阻塞/膿瘍、反覆 pyelonephritis、男性 UTI",
+          "**首選**：CT with contrast (腎臟膿瘍、阻塞)",
+          "**超音波**：排除 hydronephrosis、孕婦首選"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1085-1087"}
+      ]
+    },
+    {
+      "title": "Treatment",
+      "content": [
+        {"type": "heading", "text": "Uncomplicated Cystitis 經驗性治療"},
+        {"type": "table", "headers": ["藥物", "劑量/療程", "備註"], "rows": [
+          ["Nitrofurantoin (首選)", "100 mg BID × 5 天", "對 E. coli 敏感度 >95%；不適用於 CrCl <30"],
+          ["TMP-SMX (首選)", "160/800 mg BID × 3 天", "當地 E. coli 抗藥率 <20% 時可用"],
+          ["Fosfomycin", "3 g 單劑", "方便但效果略遜；對 ESBL 菌有效"],
+          ["Fluoroquinolone (FQ)", "Ciprofloxacin 250 mg BID × 3天", "⚠️ 保留給無其他選擇時用 (副作用多、助長抗藥性)"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Fluoroquinolone 不建議作為 uncomplicated cystitis 的第一線**：\n- FDA black box warning：肌腱斷裂、周邊神經病變、主動脈剝離\n- 易產生抗藥性\n- 應保留給 pyelonephritis 或 complicated UTI"},
+        {"type": "heading", "text": "Acute Pyelonephritis 治療"},
+        {"type": "table", "headers": ["嚴重度", "治療", "療程"], "rows": [
+          ["輕度 (門診可)", "Ciprofloxacin 500 mg BID PO 或 TMP-SMX DS BID PO", "7-14 天"],
+          ["中重度 (住院)", "Ceftriaxone 1g IV QD 或 Piperacillin-Tazobactam", "先 IV → 改善後轉 PO，共 10-14 天"],
+          ["Urosepsis", "廣效抗生素 + 血液培養 + 輸液復甦 ± 引流", "依培養結果調整"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**Pyelonephritis 住院指標**：\n- 無法口服 (持續嘔吐)\n- Sepsis 徵象\n- 懷疑阻塞性泌尿道感染\n- 懷孕\n- 免疫低下\n- 社會因素無法確保門診追蹤"},
+        {"type": "heading", "text": "Complicated UTI / CAUTI 治療"},
+        {"type": "list", "ordered": false, "items": [
+          "**必須送培養**，依藥敏結果調整抗生素",
+          "**移除/更換導尿管** — CAUTI 治療的關鍵步驟",
+          "經驗性治療：Ceftriaxone 或 Fluoroquinolone；ESBL 風險高時用 Carbapenem",
+          "療程：7-14 天 (依嚴重度及臨床反應)"
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Asymptomatic bacteriuria (ABU) — 何時需要治療？**\n✅ 需要治療：\n- **懷孕** (未治療 → 20-40% 進展至 pyelonephritis)\n- **即將接受泌尿道手術** (經尿道手術前)\n\n❌ 不需要治療：\n- 老年人\n- 糖尿病患者\n- 留置導尿管\n- 脊髓損傷\n- 停經後女性\n\n⚠️ 治療無症狀菌尿不減少症狀性 UTI 發生率，反而增加抗藥性"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1087-1089"}
+      ]
+    },
+    {
+      "title": "Prognosis / Follow-up",
+      "content": [
+        {"type": "heading", "text": "預後"},
+        {"type": "list", "ordered": false, "items": [
+          "Uncomplicated cystitis：預後極佳，治療後 >90% 完全緩解",
+          "Acute pyelonephritis：適當治療後大多完全恢復",
+          "Emphysematous pyelonephritis：死亡率 ~20-40%，常需 nephrectomy",
+          "Urosepsis：ICU 死亡率 20-40%，早期適當抗生素 + 引流是關鍵"
+        ]},
+        {"type": "heading", "text": "追蹤建議"},
+        {"type": "table", "headers": ["情況", "追蹤建議"], "rows": [
+          ["Uncomplicated cystitis", "症狀改善即可；不需 repeat culture"],
+          ["Pyelonephritis", "治療完成後若症狀殘留，repeat culture"],
+          ["Complicated UTI", "治療結束後 1-2 週追蹤 culture"],
+          ["懷孕 UTI/ABU", "治療後每月追蹤 urine culture 至產後"],
+          ["反覆 UTI", "評估結構異常 (影像)、考慮預防性策略"]
+        ]},
+        {"type": "heading", "text": "反覆 UTI 的預防策略"},
+        {"type": "list", "ordered": false, "items": [
+          "**行為措施**：性行為後排尿、多喝水、避免殺精劑",
+          "**Cranberry 製品**：可能有輕微預防效果 (PAC 抑制 E. coli adhesion)，但證據不一致",
+          "**停經後女性**：陰道局部雌激素 (estrogen cream) — 恢復 Lactobacillus → 降低 pH → 抑制 E. coli",
+          "**抗生素預防**：持續低劑量 (Nitrofurantoin 50mg QHS) 或性行為後單劑 (postcoital prophylaxis)",
+          "**D-Mannose**：可能阻止 E. coli FimH 附著，研究中"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1089-1090"}
+      ]
+    },
+    {
+      "title": "Special Populations",
+      "content": [
+        {"type": "heading", "text": "懷孕期 UTI"},
+        {"type": "callout", "style": "guideline", "text": "**懷孕期 UTI 的重要原則**：\n1. 所有孕婦應在第一次產檢篩檢 asymptomatic bacteriuria (urine culture)\n2. ABU 若不治療 → 20-40% 會進展至 pyelonephritis\n3. Pyelonephritis 會增加早產、低體重兒風險\n4. 安全用藥：Amoxicillin, Cephalosporins, Nitrofurantoin (避免第一孕期及近足月)\n5. **禁用**：Fluoroquinolone (軟骨毒性), TMP-SMX (第一孕期: neural tube defect; 第三孕期: kernicterus)"},
+        {"type": "heading", "text": "Catheter-Associated UTI (CAUTI)"},
+        {"type": "list", "ordered": false, "items": [
+          "定義：留置導尿管 >2 天 + 有症狀 + 尿液培養 ≥10³ CFU/mL",
+          "每日留置導尿管 → UTI 風險增加 3-7%",
+          "**預防**：盡早移除導尿管 (最有效)、無菌技術置放、避免不必要的導尿",
+          "**治療**：先更換/移除導尿管 → 再開始抗生素；治療 7 天 (若快速改善) 至 10-14 天",
+          "**不要 treat catheter-associated ABU** (除非即將接受泌尿道手術)"
+        ]},
+        {"type": "heading", "text": "男性 UTI"},
+        {"type": "list", "ordered": false, "items": [
+          "男性 UTI 均視為 complicated UTI",
+          "常見原因：BPH 導致尿滯留、導尿管、前列腺炎",
+          "需安排影像 (超音波) 評估結構異常",
+          "治療療程較長：7-14 天",
+          "合併 acute bacterial prostatitis 時：FQ 或 TMP-SMX (能穿透前列腺)，療程 4-6 週"
+        ]},
+        {"type": "heading", "text": "糖尿病患者 UTI"},
+        {"type": "list", "ordered": false, "items": [
+          "UTI 風險增加 2-3 倍（glucosuria 促進細菌生長、免疫功能下降、神經性膀胱）",
+          "Emphysematous pyelonephritis/cystitis 幾乎只見於糖尿病患者",
+          "Fungal UTI (Candida) 較常見",
+          "治療原則同一般 complicated UTI，但要特別注意血糖控制"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1087-1090"}
+      ]
+    },
+    {
+      "title": "High-Yield Exam Points",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "**必考重點整理**：\n1. UTI 最常見病原菌 = **E. coli** (uncomplicated 占 75-95%)\n2. 年輕女性第二常見 = **S. saprophyticus** (Novobiocin resistant)\n3. Struvite stone (MgNH₄PO₄) = **Proteus mirabilis** (urease +, 鹼性尿)\n4. 尿液 S. aureus → 考慮 **血行性感染**，要做 blood culture\n5. Asymptomatic bacteriuria 只在 **懷孕** 和 **泌尿道手術前** 需治療\n6. CAUTI 治療第一步 = **移除/更換導尿管**"},
+        {"type": "callout", "style": "logic", "text": "**藥物選擇邏輯**：\n- Uncomplicated cystitis 首選 = **Nitrofurantoin** 或 **TMP-SMX**\n- FQ 不是 uncomplicated cystitis 第一線 (FDA black box)\n- Pyelonephritis 門診 = **FQ** 或 TMP-SMX\n- Pyelonephritis 住院 = **Ceftriaxone** IV\n- 懷孕禁用 = **FQ** (軟骨毒性)、TMP (第一孕期 NTD)、SMX (第三孕期 kernicterus)"},
+        {"type": "callout", "style": "trap", "text": "**常見陷阱題**：\n- 老年人尿液有菌 + 無症狀 → 不治療 (ABU)\n- 導尿管患者尿液白血球增加 + 無症狀 → 不治療\n- 男性 UTI → 一律當 complicated UTI 處理\n- 治療 48-72h 無改善 → 影像排除 obstruction / abscess\n- Nitrofurantoin 不適用於 pyelonephritis (尿液濃度高但組織濃度低)\n- Nitrofurantoin CrCl <30 禁用"},
+        {"type": "collapsible", "summary": "練習題", "text": "**Q1.** 25 歲女性，3 天前蜜月旅行後出現 dysuria、frequency、urgency，無發燒、無 CVA tenderness。Dipstick: LE (+), Nitrite (+)。下一步處置？\n\n**A1.** 臨床診斷為 uncomplicated cystitis (honeymoon cystitis)。不需 urine culture，直接經驗性治療：Nitrofurantoin 100mg BID × 5 天。\n\n---\n\n**Q2.** 30 歲孕婦 (20 週) 第一次產檢 urine culture: E. coli 10⁵ CFU/mL，但完全無症狀。需要治療嗎？\n\n**A2.** 需要。懷孕期 asymptomatic bacteriuria 必須治療，否則 20-40% 會進展至 pyelonephritis。選擇安全藥物如 Amoxicillin 或 Cephalexin，並每月追蹤 urine culture。\n\n---\n\n**Q3.** 65 歲男性，留置 Foley catheter 兩週，護理人員發現尿液混濁，urine culture: E. coli 10⁴ CFU/mL，病人無發燒、無不適。需要治療嗎？\n\n**A3.** 不需要。這是 catheter-associated asymptomatic bacteriuria，無症狀不治療。應評估是否可移除導尿管。\n\n---\n\n**Q4.** 55 歲糖尿病女性，高燒 39°C + 右側 CVA tenderness + WBC 18,000。治療 72 小時後仍持續發燒。下一步？\n\n**A4.** 治療 48-72h 未改善，需安排 CT with contrast 排除腎膿瘍 (renal/perinephric abscess) 或阻塞性泌尿道感染。糖尿病患者需特別警惕 emphysematous pyelonephritis。\n\n---\n\n**Q5.** 尿液培養長出 Staphylococcus aureus，最重要的下一步？\n\n**A5.** 抽血液培養 (blood culture)。尿液 S. aureus 強烈暗示血行性感染，需排除 endocarditis 或其他深部感染源 (如骨髓炎、硬膜外膿瘍)。"}
+      ]
+    }
+  ],
+  "related": ["acute-kidney-injury", "chronic-kidney-disease", "electrolyte-disorders"]
+}
