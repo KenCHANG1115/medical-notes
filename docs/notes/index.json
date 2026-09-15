@@ -29,6 +29,12 @@
         {"id": "urinary-tract-infection", "name": "Urinary Tract Infection (泌尿道感染)"},
         {"id": "pneumonia", "name": "Pneumonia (肺炎)"}
       ]
+    },
+    {
+      "name": "值班守則",
+      "diseases": [
+        {"id": "confusion-decreased-consciousness", "name": "Confusion / Decreased Level of Consciousness (意識不清)"}
+      ]
     }
   ]
 }
