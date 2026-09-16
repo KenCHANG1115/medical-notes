@@ -33,7 +33,8 @@
     {
       "name": "值班守則",
       "diseases": [
-        {"id": "confusion-decreased-consciousness", "name": "Confusion / Decreased Level of Consciousness (意識不清)"}
+        {"id": "confusion-decreased-consciousness", "name": "Confusion / Decreased Level of Consciousness (意識不清)"},
+        {"id": "oncall-potassium-disorders", "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"}
       ]
     }
   ]
