@@ -37,16 +37,79 @@
           ["酶", "**Reverse transcriptase (RT)**\n**Integrase (IN)**\n**Protease (PR)**", "RT：RNA → DNA（藥物靶點：NRTI, NNRTI）\nIN：整合進宿主 DNA（靶點：INSTI）\nPR：切割前驅蛋白（靶點：PI）"]
         ]},
         {"type": "heading", "text": "Replication Cycle（複製週期）— 每一步都是藥物靶點"},
-        {"type": "list", "ordered": true, "items": [
-          "**Attachment & Binding** — gp120 與 CD4 結合 → 構型改變 → 結合 co-receptor（CCR5 或 CXCR4）",
-          "**Fusion & Entry** — gp41 媒介膜融合 → 病毒內容物進入細胞 → 【靶點：fusion inhibitors (enfuvirtide), CCR5 antagonists (maraviroc)】",
-          "**Reverse Transcription** — RT 將 ssRNA → dsDNA → 【靶點：NRTI (tenofovir, emtricitabine), NNRTI (efavirenz, doravirine)】",
-          "**Integration** — Integrase 將 proviral DNA 整合進宿主基因組 → 【靶點：INSTI (dolutegravir, bictegravir, cabotegravir)】",
-          "**Transcription & Translation** — 宿主細胞機制轉錄 mRNA → 翻譯出多蛋白前驅體",
-          "**Assembly & Budding** — 病毒蛋白組裝 → 從細胞膜出芽",
-          "**Maturation** — Protease 切割前驅多蛋白 → 成熟病毒粒子 → 【靶點：PI (darunavir, atazanavir)】"
+        {"type": "callout", "style": "logic", "text": "HIV 複製週期分為 7 個主要步驟，每一步都有對應的宿主限制因子（host restriction factors）試圖阻止病毒，而病毒也演化出反制策略。了解每一步的分子機制，就能理解各類 ART 藥物的作用靶點與抗藥性機轉。"},
+
+        {"type": "heading", "text": "Step 1 — Attachment & Binding（附著與結合）"},
+        {"type": "table", "headers": ["面向", "說明"], "rows": [
+          ["分子機制", "gp120（外套膜表面蛋白，以 trimer 形式存在）與宿主 CD4 分子（55-kDa glycoprotein）高親和力結合\n→ gp120 發生構型改變（conformational change）\n→ 暴露出 co-receptor 結合位點（V3 loop 區域）\n→ 結合 CCR5 或 CXCR4（七次跨膜 G protein-coupled receptor）"],
+          ["CD4 的分布", "CD4⁺ T helper cells（主要靶標）\nMonocytes / macrophages\nDendritic cells — 透過 DC-SIGN (C-type lectin receptor) 捕獲 HIV → 在淋巴結傳遞給 T cells\nMicroglia（CNS）"],
+          ["藥物靶點", "Fostemsavir（attachment inhibitor）：結合 gp120 → 阻止與 CD4 結合 → 用於多重抗藥性患者"]
         ]},
-        {"type": "callout", "style": "logic", "text": "**CCR5 vs CXCR4 — Co-receptor 的臨床意義**：\n- **R5-tropic**（用 CCR5）：感染早期為主 → macrophage-tropic → maraviroc 有效\n- **X4-tropic**（用 CXCR4）：感染晚期出現 → T cell-tropic → 通常代表疾病進展\n- **Dual/mixed tropic**：兩者皆用\n- CCR5Δ32 homozygous 突變者對 R5-tropic HIV **天然抵抗** → Berlin patient / London patient 治癒的基礎"},
+        {"type": "callout", "style": "logic", "text": "**CCR5 vs CXCR4 — Co-receptor 的臨床意義**\n\n- **R5-tropic**（用 CCR5）：感染早期為主 → macrophage-tropic → maraviroc 有效\n- **X4-tropic**（用 CXCR4）：感染晚期出現 → T cell-tropic → 代表疾病進展、易形成 syncytia → 加速 CD4 破壞\n- **Dual/mixed tropic**：兩種 co-receptor 皆可使用\n- **CCR5Δ32 homozygous** 突變者（歐洲人口 ~1%）→ 對 R5-tropic HIV 天然抵抗\n  → Berlin patient (Timothy Brown, 2007) & London patient (Adam Castillejo, 2019)：接受 CCR5Δ32 homozygous 供者的幹細胞移植後達成功能性治癒\n- 使用 maraviroc 前必須做 **tropism assay**（如 Trofile）確認為 R5-tropic"},
+
+        {"type": "heading", "text": "Step 2 — Fusion & Entry（融合與進入）"},
+        {"type": "table", "headers": ["面向", "說明"], "rows": [
+          ["分子機制", "Co-receptor 結合後 → gp41 的 fusion peptide 暴露\n→ fusion peptide 插入宿主細胞膜\n→ gp41 折疊形成 six-helix bundle (6-HB) → 拉近病毒與宿主細胞膜 → 膜融合\n→ 病毒核心（capsid + 內容物）釋放進入細胞質"],
+          ["Capsid uncoating", "融合後 capsid 外殼逐步解殼（uncoating）\n→ 形成 preintegration complex (PIC)：viral RNA + RT + IN + accessory proteins，外被 capsid & matrix proteins\n→ Capsid 在反轉錄過程中持續保護病毒核酸"],
+          ["藥物靶點", "Enfuvirtide (T-20)：fusion inhibitor → 模擬 gp41 HR2 區域 → 阻止 6-HB 形成 → 阻止膜融合（皮下注射 BID，僅用於 salvage therapy）\nMaraviroc：CCR5 antagonist → allosteric 結合 CCR5 → 阻止 gp120-CCR5 結合（僅對 R5-tropic 有效）\nLenacapavir：capsid inhibitor → 干擾 capsid uncoating（也影響 Steps 4, 6）"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Enfuvirtide 的臨床限制**：36 個胺基酸的合成多肽 → 必須皮下注射 (BID) → 幾乎所有患者出現注射部位反應 → 容易產生抗藥性（gp41 突變）→ 僅作為多重抗藥性時的 salvage therapy"},
+
+        {"type": "heading", "text": "Step 3 — Reverse Transcription（反轉錄）"},
+        {"type": "table", "headers": ["面向", "說明"], "rows": [
+          ["分子機制", "RT 在 capsid 保護下催化：\n1. (+) ssRNA → RNA:DNA hybrid（tRNALys3 作為 primer）\n2. RNase H 活性降解 RNA 模板\n3. (-) ssDNA → dsDNA（proviral DNA）\n\nRT 缺乏 3'→5' exonuclease（校正）活性 → ~1 mutation/genome/replication cycle → 快速產生 quasispecies 與抗藥性"],
+          ["宿主限制因子", "APOBEC3G/F：被包裹進病毒粒子 → 脫胺 cytidine → G→A hypermutation → 病毒基因組失能\n　→ HIV 反制：Vif 標記 APOBEC3 進行 proteasomal degradation\nSAMHD1：消耗細胞內 dNTP pool → 阻止反轉錄（靜止細胞中特別有效）\n　→ HIV-2/SIV 反制：Vpx（HIV-1 沒有 Vpx）\nTRIM5α：促進 premature capsid uncoating → 反轉錄失敗\n　→ Rhesus TRIM5α 有效阻斷 HIV-1，人類 TRIM5α 效果弱"],
+          ["藥物靶點", "NRTI — 作為 dNTP 類似物嵌入成長中的 DNA 鏈 → 缺乏 3'-OH → chain termination\n　代表藥：tenofovir (TDF/TAF), emtricitabine (FTC), abacavir (ABC), lamivudine (3TC)\n\nNNRTI — 結合 RT 的 hydrophobic pocket (allosteric site) → 改變活性位點構型 → 阻止催化\n　代表藥：efavirenz (EFV), rilpivirine (RPV), doravirine (DOR)\n　→ 只對 HIV-1 有效（HIV-2 天然抗藥）"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**NRTI vs NNRTI 的根本差異**：\n- NRTI：競爭性抑制（competitive）→ 與天然 dNTP 競爭 → 需要細胞內磷酸化活化 → 靶點是 RT 催化位點\n- NNRTI：非競爭性抑制（allosteric）→ 結合 RT 不同位置 → 不需磷酸化 → 靶點是 RT allosteric pocket\n- 兩者抗藥性突變位點不同 → NRTI 抗藥不影響 NNRTI 效果 → 可以組合使用"},
+
+        {"type": "heading", "text": "Step 4 — Nuclear Entry & Integration（進入細胞核與整合）"},
+        {"type": "table", "headers": ["面向", "說明"], "rows": [
+          ["分子機制", "PIC 透過 nuclear pore 進入細胞核（capsid 與 nuclear pore complex 交互作用）\n→ Integrase 催化兩步反應：\n　1. 3' processing：切除 proviral DNA 兩端各 2 個核苷酸\n　2. Strand transfer：將 proviral DNA 嵌入宿主基因組的活躍轉錄區域\n→ 形成 provirus（永久整合的病毒 DNA）"],
+          ["宿主限制因子", "MX2 (MxB)：IFN-induced → 阻止 PIC 進入細胞核"],
+          ["整合的後果", "Provirus 可以：\n1. 活躍轉錄 → 產生新病毒\n2. 保持沉默（latent）→ 形成 latent reservoir\n→ Latent reservoir 是 HIV 無法治癒的根本原因\n→ Half-life 估計 ~44 個月 → 完全清除需 >73 年"],
+          ["藥物靶點", "INSTI — 阻斷 strand transfer 步驟 → 阻止 proviral DNA 整合\n　代表藥：dolutegravir (DTG), bictegravir (BIC), cabotegravir (CAB)\n　→ 高基因障壁、良好耐受性 → first-line ART 核心\nLenacapavir — 干擾 capsid 與 nuclear pore 交互作用 → 阻止 PIC 入核"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Latent Reservoir — 為什麼不能停藥？**\n- 約 10⁵-10⁶ 個 resting memory CD4⁺ T cells 攜帶 intact provirus\n- 不表達病毒蛋白 → 免疫系統看不到、ART 無法觸及\n- 停止 ART → latent cells 活化 → 通常 2-3 週內 viral load 回升\n- 這就是 ART 必須終身服用的原因\n- Cure 研究方向：shock-and-kill（活化 + 清除）、block-and-lock（永久沉默）、基因編輯"},
+
+        {"type": "heading", "text": "Step 5 — Transcription & Translation（轉錄與翻譯）"},
+        {"type": "table", "headers": ["面向", "說明"], "rows": [
+          ["轉錄", "宿主 RNA Pol II 轉錄 proviral DNA → HIV mRNA\n→ 需要細胞活化信號（NF-κB, NFAT 等轉錄因子）\n→ Tat 結合 TAR element（mRNA 5' 端 stem-loop）→ 招募 P-TEFb (CDK9/Cyclin T1) → 轉錄效率增強 ~100 倍"],
+          ["mRNA 輸出", "Rev 結合 RRE (Rev Response Element) → 介導未完全剪接的 mRNA 從核內輸出到細胞質\n→ 沒有 Rev → 只產生完全剪接的 mRNA（Tat, Rev, Nef）→ 無法產生結構蛋白"],
+          ["翻譯", "mRNA → 多蛋白前驅體：\n　Gag polyprotein (p55) → 切割為 MA/CA/NC\n　Gag-Pol polyprotein → 切割為 RT/IN/PR\n　Env precursor (gp160) → 被 furin 切割為 gp120 + gp41"],
+          ["Latency 的分子基礎", "靜止 CD4⁺ T cells 中轉錄因子活性低 → provirus 維持沉默\n→ 細胞被活化（抗原刺激、IL-7）時才重新轉錄 → 這就是 latent reservoir 的機轉"],
+          ["藥物靶點", "目前沒有已上市 ART 靶向此步驟\n研究中：Tat inhibitors、latency-reversing agents (LRAs)"]
+        ]},
+
+        {"type": "heading", "text": "Step 6 — Assembly & Budding（組裝與出芽）"},
+        {"type": "table", "headers": ["面向", "說明"], "rows": [
+          ["組裝", "Gag (p55) 多聚化 → 在細胞膜內側自組裝\n→ Nucleocapsid (NC) domain 識別並包裹 2 copies 基因體 RNA\n→ Env glycoproteins (gp120/gp41 trimer) 插入宿主細胞膜"],
+          ["出芽", "利用宿主 ESCRT (endosomal sorting complexes required for transport) machinery\n→ 從細胞膜出芽 → 獲得含 gp120/gp41 的脂質外套膜\n→ 同時攫取宿主膜蛋白（HLA molecules, adhesion molecules）"],
+          ["宿主限制因子", "Tetherin (BST-2/CD317)：IFN-induced type II transmembrane protein\n→ 一端錨定在細胞膜，一端錨定在病毒膜 → 「繫住」出芽中的病毒\n→ HIV-1 反制：Vpu 降解 tetherin\n→ HIV-2 反制：用 Env 蛋白代替（HIV-2 沒有 Vpu）"],
+          ["藥物靶點", "Lenacapavir：干擾 Gag multimerization 與組裝 → 異常出芽"]
+        ]},
+
+        {"type": "heading", "text": "Step 7 — Maturation（成熟）"},
+        {"type": "table", "headers": ["面向", "說明"], "rows": [
+          ["分子機制", "出芽後或出芽過程中：\n→ Protease (aspartyl protease) 切割 Gag (p55) 和 Gag-Pol 前驅蛋白\n→ Gag → MA (p17) + CA (p24) + NC (p7) + p6\n→ Gag-Pol → RT + IN + PR\n→ Capsid 蛋白重組 → 形成成熟的圓錐形核心\n→ 只有經過 maturation 的病毒才具感染力"],
+          ["Protease 被抑制時", "產生不成熟、無感染力的病毒粒子\n→ 電子顯微鏡：immature ring-shaped，非成熟 cone-shaped core"],
+          ["藥物靶點", "PI — 模擬 protease 天然底物 → 競爭性結合 active site → 阻止 Gag/Gag-Pol 切割\n　代表藥：darunavir (DRV，高基因障壁)、atazanavir (ATV)、lopinavir (LPV)\n　→ 需要 ritonavir (r) 或 cobicistat (c) 作為 pharmacokinetic booster（抑制 CYP3A4）"]
+        ]},
+
+        {"type": "callout", "style": "logic", "text": "**Lenacapavir — 首個 Capsid Inhibitor 的多靶點機制**：\n作用涵蓋複製週期多個步驟：\n1. Uncoating（Step 2-3）：加速或異常 capsid 解殼 → 反轉錄失敗\n2. Nuclear import（Step 4）：阻止 PIC 與 nuclear pore 交互作用\n3. Assembly（Step 6）：干擾 Gag multimerization\n4. Budding（Step 6）：影響正常出芽\n→ 多靶點 → 極高基因障壁 → 每 6 個月皮下注射一次\n→ 2024 FDA 核准用於 PrEP（PURPOSE 1 & 2 trial：0 infections）"},
+
+        {"type": "heading", "text": "複製週期 — 藥物靶點總覽"},
+        {"type": "table", "headers": ["步驟", "靶點", "藥物類別", "代表藥"], "rows": [
+          ["1. Attachment", "gp120-CD4 binding", "Attachment inhibitor", "Fostemsavir"],
+          ["2. Co-receptor", "gp120-CCR5", "CCR5 antagonist", "Maraviroc"],
+          ["2. Fusion", "gp41 6-HB formation", "Fusion inhibitor", "Enfuvirtide"],
+          ["2-6. Capsid", "Capsid (multi-step)", "Capsid inhibitor", "Lenacapavir"],
+          ["3. RT (催化位)", "RT catalytic site", "NRTI", "TDF/TAF, FTC, ABC, 3TC"],
+          ["3. RT (別構位)", "RT allosteric pocket", "NNRTI", "EFV, RPV, DOR"],
+          ["4. Integration", "Integrase strand transfer", "INSTI", "DTG, BIC, CAB"],
+          ["5. Transcription", "（無已上市藥物）", "—", "研究中"],
+          ["7. Maturation", "Protease active site", "PI (+booster)", "DRV/r, ATV/r, LPV/r"]
+        ]},
         {"type": "heading", "text": "調控基因 (Regulatory Genes)"},
         {"type": "table", "headers": ["基因", "蛋白", "功能"], "rows": [
           ["gag", "p24, p17, p7", "結構蛋白（capsid, matrix, nucleocapsid）"],
