@@ -1,0 +1,210 @@
+{
+  "id": "hiv-fundamentals-diagnosis",
+  "title": "HIV — Fundamentals & Diagnosis (基礎與診斷)",
+  "title_en": "HIV — Fundamentals & Diagnosis",
+  "title_zh": "HIV 基礎與診斷",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders (p.1599-1670)",
+    "Harrison's 22e - Ch.207 The Human Retroviruses (p.1593-1599)"
+  ],
+  "generated": "2026-09-21",
+  "sections": [
+    {
+      "title": "Overview / HIV 概論",
+      "content": [
+        {"type": "table", "headers": ["項目", "說明"], "rows": [
+          ["病原體", "Human Immunodeficiency Virus (HIV-1, HIV-2)\nRetroviridae 科、Lentivirus 亞科"],
+          ["HIV-1 vs HIV-2", "HIV-1：全球大流行主因（M group）\nHIV-2：侷限西非，致病力較弱，進展較慢"],
+          ["傳播途徑", "性行為（最常見）、血液（針扎、輸血）、母子垂直傳播"],
+          ["攻擊目標", "CD4⁺ T lymphocytes（透過 CD4 receptor + CCR5/CXCR4 co-receptor）"],
+          ["自然病程", "Acute infection → Clinical latency（中位數 ~10 年）→ AIDS"],
+          ["AIDS 定義", "CD4⁺ < 200 cells/μL 或出現 AIDS-defining illness"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**為什麼 HIV 如此難對付？**\n1. **整合進宿主 DNA** — proviral DNA 嵌入基因組，終身帶病毒\n2. **攻擊免疫系統本身** — 破壞 CD4⁺ T cells = 指揮官陣亡\n3. **高突變率** — reverse transcriptase 缺乏校正功能 → 快速產生抗藥性\n4. **潛伏庫 (latent reservoir)** — resting memory CD4⁺ T cells 藏匿病毒，ART 無法觸及"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1599-1600"}
+      ]
+    },
+    {
+      "title": "病毒學 (Virology)",
+      "content": [
+        {"type": "heading", "text": "HIV 結構"},
+        {"type": "table", "headers": ["結構", "蛋白 / 成分", "功能"], "rows": [
+          ["Envelope（外套膜）", "**gp120** (surface)\n**gp41** (transmembrane)", "gp120 結合 CD4 receptor + co-receptor\ngp41 媒介膜融合（fusion）"],
+          ["Matrix", "p17 (MA)", "連接 envelope 與 capsid"],
+          ["Capsid（核殼）", "**p24** (CA)", "包裹病毒核酸；**p24 antigen 是早期診斷標記**"],
+          ["核酸", "2 copies of (+) ssRNA", "基因體，需 reverse transcription → DNA"],
+          ["酶", "**Reverse transcriptase (RT)**\n**Integrase (IN)**\n**Protease (PR)**", "RT：RNA → DNA（藥物靶點：NRTI, NNRTI）\nIN：整合進宿主 DNA（靶點：INSTI）\nPR：切割前驅蛋白（靶點：PI）"]
+        ]},
+        {"type": "heading", "text": "Replication Cycle（複製週期）— 每一步都是藥物靶點"},
+        {"type": "list", "ordered": true, "items": [
+          "**Attachment & Binding** — gp120 與 CD4 結合 → 構型改變 → 結合 co-receptor（CCR5 或 CXCR4）",
+          "**Fusion & Entry** — gp41 媒介膜融合 → 病毒內容物進入細胞 → 【靶點：fusion inhibitors (enfuvirtide), CCR5 antagonists (maraviroc)】",
+          "**Reverse Transcription** — RT 將 ssRNA → dsDNA → 【靶點：NRTI (tenofovir, emtricitabine), NNRTI (efavirenz, doravirine)】",
+          "**Integration** — Integrase 將 proviral DNA 整合進宿主基因組 → 【靶點：INSTI (dolutegravir, bictegravir, cabotegravir)】",
+          "**Transcription & Translation** — 宿主細胞機制轉錄 mRNA → 翻譯出多蛋白前驅體",
+          "**Assembly & Budding** — 病毒蛋白組裝 → 從細胞膜出芽",
+          "**Maturation** — Protease 切割前驅多蛋白 → 成熟病毒粒子 → 【靶點：PI (darunavir, atazanavir)】"
+        ]},
+        {"type": "callout", "style": "logic", "text": "**CCR5 vs CXCR4 — Co-receptor 的臨床意義**：\n- **R5-tropic**（用 CCR5）：感染早期為主 → macrophage-tropic → maraviroc 有效\n- **X4-tropic**（用 CXCR4）：感染晚期出現 → T cell-tropic → 通常代表疾病進展\n- **Dual/mixed tropic**：兩者皆用\n- CCR5Δ32 homozygous 突變者對 R5-tropic HIV **天然抵抗** → Berlin patient / London patient 治癒的基礎"},
+        {"type": "heading", "text": "調控基因 (Regulatory Genes)"},
+        {"type": "table", "headers": ["基因", "蛋白", "功能"], "rows": [
+          ["gag", "p24, p17, p7", "結構蛋白（capsid, matrix, nucleocapsid）"],
+          ["pol", "RT, IN, PR", "酵素"],
+          ["env", "gp120, gp41", "外套膜蛋白"],
+          ["tat", "Tat", "轉錄活化因子 — 大幅增加 HIV mRNA 產量"],
+          ["rev", "Rev", "調控 mRNA 從核內輸出到細胞質"],
+          ["nef", "Nef", "下調 CD4 & MHC-I 表現 → 幫助免疫逃脫"],
+          ["vif", "Vif", "對抗宿主 APOBEC3 限制因子"],
+          ["vpr", "Vpr", "幫助 preintegration complex 進入細胞核"],
+          ["vpu", "Vpu", "對抗 tetherin → 幫助病毒出芽釋放（HIV-1 only）"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1600-1603"}
+      ]
+    },
+    {
+      "title": "免疫病理 (Immunopathogenesis)",
+      "content": [
+        {"type": "heading", "text": "CD4⁺ T Cell 下降的機轉"},
+        {"type": "list", "ordered": false, "items": [
+          "**Direct cytopathic effect** — HIV 感染 → 細胞死亡（virus-induced cell lysis）",
+          "**Bystander killing** — 未感染的 CD4⁺ T cells 因為環境中的 gp120、發炎因子而凋亡（apoptosis）",
+          "**Immune activation-induced death** — 慢性免疫活化 → T cell exhaustion → activation-induced cell death (AICD)",
+          "**CTL-mediated killing** — CD8⁺ T cells 殺死被感染的 CD4⁺ T cells",
+          "**Pyroptosis** — 非生產性感染觸發 caspase-1 → 發炎性細胞死亡（在淋巴組織特別重要）",
+          "**Thymic dysfunction** — HIV 影響胸腺功能 → 新 T cell 生成減少",
+          "**Syncytia formation** — 感染細胞與鄰近 CD4⁺ 細胞融合 → 細胞死亡（X4-tropic 較常見）"
+        ]},
+        {"type": "heading", "text": "Natural History 的免疫學解釋"},
+        {"type": "table", "headers": ["階段", "CD4 / Viral Load", "免疫事件"], "rows": [
+          ["急性感染\n(0-12 weeks)", "CD4 急降\nViral load 爆衝（10⁶-10⁷）", "病毒大量複製 → 廣泛散播至淋巴組織\nCTL response 出現 → viral load 下降至 set point\nGut-associated lymphoid tissue (GALT) CD4 大量破壞"],
+          ["臨床潛伏期\n(數年-10+年)", "CD4 緩降 (~50/μL/year)\nViral load 穩定 (set point)", "表面穩定但淋巴組織持續複製\n免疫活化 → 漸進性 CD4 耗竭\n抗體、CTL 維持但逐漸不足"],
+          ["AIDS\n(CD4 < 200)", "CD4 < 200\nViral load 上升", "免疫系統崩潰\n伺機性感染、惡性腫瘤出現"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Viral Set Point 決定預後**：\n- Acute infection 後 viral load 穩定下來的水平 = **viral set point**\n- Set point 越高 → CD4 下降越快 → 進展到 AIDS 越快\n- Set point < 1000 copies/mL → 進展緩慢（long-term non-progressors）\n- Set point > 100,000 copies/mL → 可能在幾年內進展到 AIDS"},
+        {"type": "heading", "text": "特殊族群：Elite Controllers & Long-term Non-progressors"},
+        {"type": "callout", "style": "logic", "text": "**Elite controllers (< 1% of HIV+ patients)**：\n- 不用 ART，viral load 持續 < 50 copies/mL\n- 強力的 HIV-specific CD8⁺ CTL response\n- 常帶有 HLA-B*57, HLA-B*27 等保護性 HLA alleles\n- 不代表沒有病毒 — 仍有 latent reservoir\n\n**Long-term non-progressors**：\n- 感染 10+ 年但 CD4 維持正常\n- Viral load 低但不一定 undetectable"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1612-1632"}
+      ]
+    },
+    {
+      "title": "傳播途徑 (Transmission)",
+      "content": [
+        {"type": "table", "headers": ["途徑", "風險 (per exposure)", "細節"], "rows": [
+          ["**性行為**", "Receptive anal: 1.38%\nInsertive anal: 0.11%\nReceptive vaginal: 0.08%\nInsertive vaginal: 0.04%", "最常見的傳播途徑\nSTI（尤其 ulcerative）顯著增加風險\nViral load 越高風險越大"],
+          ["**針頭共用**", "0.63%", "IV drug users\nNeedle exchange programs 降低風險"],
+          ["**針扎 (Occupational)**", "0.23%", "Hollow-bore needle > solid needle\n深層穿刺、可見血液、來源病人 high viral load → 高風險"],
+          ["**輸血**", "> 90%", "現已極罕見（NAT screening）"],
+          ["**母子垂直**", "15-45% (without ART)\n< 1% (with ART)", "產前、產中（最常見）、哺乳\nART + C-section + 避免哺乳 → 幾乎可預防"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**U = U (Undetectable = Untransmittable)**：\n- ART 達到 viral load < 200 copies/mL → 性傳播風險 **effectively zero**\n- HPTN 052、PARTNER 1 & 2 study 證實：0 linked transmission\n- 這是鼓勵早期治療的重要公衛訊息"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1605-1609"}
+      ]
+    },
+    {
+      "title": "臨床分期 (Clinical Staging)",
+      "content": [
+        {"type": "heading", "text": "Acute HIV Syndrome（急性感染期）"},
+        {"type": "callout", "style": "guideline", "text": "**感染後 3-6 週出現，50-70% 有症狀**\n\n最常見表現（類似 infectious mononucleosis）：\n- **Fever**（最常見，96%）\n- **Lymphadenopathy**（~70%）\n- **Pharyngitis**\n- **Rash**（erythematous maculopapular，軀幹 > 四肢）\n- **Myalgia / arthralgia**\n- **Headache**\n- **Mucocutaneous ulceration**\n- **Diarrhea, nausea/vomiting**\n\n通常持續 1-數週後自行緩解"},
+        {"type": "callout", "style": "trap", "text": "**Acute HIV syndrome vs Infectious mononucleosis**：\n- 兩者極為相似！都有 fever, pharyngitis, lymphadenopathy, rash\n- 鑑別關鍵：**暴露史** + **mucocutaneous ulceration**（HIV 較常見）\n- EBV 的 heterophile antibody test（Monospot）可幫助區分\n- **高度懷疑時：送 HIV RNA（NAT）**，因為此時抗體尚未出現（window period）"},
+        {"type": "heading", "text": "CDC Staging System"},
+        {"type": "table", "headers": ["Stage", "CD4⁺ Count (≥6 yrs)", "臨床定義"], "rows": [
+          ["**Stage 1**", "≥ 500 cells/μL", "無 AIDS-defining condition"],
+          ["**Stage 2**", "200-499 cells/μL", "無 AIDS-defining condition"],
+          ["**Stage 3 (AIDS)**", "**< 200 cells/μL**\n或 CD4% < 14%", "或有 AIDS-defining illness（不論 CD4 count）"]
+        ]},
+        {"type": "heading", "text": "Asymptomatic Stage（臨床潛伏期）"},
+        "- 中位數約 **10 年**（未治療）\n- CD4⁺ 每年下降約 50 cells/μL\n- 病毒在淋巴組織持續複製（不是真的「潛伏」）\n- 可能完全無症狀直到出現伺機性感染",
+        {"type": "heading", "text": "Symptomatic Disease → AIDS"},
+        "隨著 CD4⁺ 下降，不同 CD4 count 對應不同感染風險（詳見第二份筆記）",
+        {"type": "source", "book": "Harrison's 22e", "pages": "1635-1636"}
+      ]
+    },
+    {
+      "title": "診斷 (Diagnosis)",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "**CDC 建議所有 13-64 歲成人至少做一次 HIV screening**\n（routine opt-out testing）"},
+        {"type": "heading", "text": "診斷演算法（CDC Recommended Algorithm）"},
+        {"type": "list", "ordered": true, "items": [
+          "**Step 1：4th-generation HIV-1/2 Ag/Ab combo assay**\n→ 同時偵測 p24 antigen + HIV-1/2 antibodies\n→ Sensitivity > 99.5%\n→ Window period: ~2 weeks（比舊的 antibody-only test 早偵測）",
+          "**Step 2：如果 reactive → HIV-1/HIV-2 antibody differentiation immunoassay**\n→ 區分 HIV-1 vs HIV-2\n→ 取代舊的 Western blot",
+          "**Step 3：如果 Ab differentiation 陰性或 indeterminate → HIV-1 NAT (RNA)**\n→ NAT 陽性 + Ab 陰性 = **Acute HIV-1 infection**\n→ NAT 陰性 = false-positive initial test"
+        ]},
+        {"type": "table", "headers": ["檢驗", "偵測目標", "Window Period", "用途"], "rows": [
+          ["4th-gen Ag/Ab combo", "p24 Ag + Ab", "~2 weeks", "**首選 screening test**"],
+          ["HIV-1/2 Ab differentiation", "HIV-1 vs HIV-2 Ab", "N/A", "確認 + 分型"],
+          ["HIV RNA (NAT)", "Viral RNA", "~10-12 days", "急性感染診斷、viral load 監測"],
+          ["Rapid test / Home test", "Ab (± Ag)", "~3-12 weeks", "Point-of-care；陽性需確認"],
+          ["Western blot", "各別 Ab band", "N/A", "**已不建議用於確認**（舊方法）"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Window Period 的陷阱**：\n- 抗體 window period: **3-12 週**（舊的 Ab-only test）\n- 4th-gen combo test window: **~2 週**（加了 p24 Ag）\n- NAT window: **~10-12 天**（最早偵測）\n- **高風險暴露後檢驗陰性不代表沒有感染！** → 需要 follow-up testing\n- 極早期感染只有 NAT 可偵測 → 如果高度懷疑 acute infection → 直接送 HIV RNA"},
+        {"type": "callout", "style": "trap", "text": "**False-positive EIA 的常見原因**：\n- 自體免疫疾病\n- 懷孕\n- 近期疫苗接種（influenza）\n- 肝臟疾病\n- 輸血或器官移植（anti-HLA antibodies）\n→ 所以 screening positive 一定要做 confirmatory test"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1632-1633"}
+      ]
+    },
+    {
+      "title": "實驗室監測 (Laboratory Monitoring)",
+      "content": [
+        {"type": "heading", "text": "CD4⁺ T Cell Count"},
+        {"type": "table", "headers": ["CD4 Count", "臨床意義", "處置建議"], "rows": [
+          ["> 500", "免疫功能尚可", "開始 ART（所有 CD4 count 都建議開始）\nCD4 monitoring 可延長至 q12 months"],
+          ["200-499", "中度免疫缺損", "ART + CD4 monitoring q3-6 months"],
+          ["**< 200**", "嚴重免疫缺損 = **AIDS**", "ART + **PJP prophylaxis (TMP-SMX)**\nCD4 monitoring q3 months"],
+          ["**< 100**", "極重度免疫缺損", "加上 **Toxoplasma prophylaxis**"],
+          ["**< 50**", "最嚴重", "加上 **MAC prophylaxis**\nCMV screening"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**CD4% 什麼時候比 CD4 count 更可靠？**\n- Hypersplenism 或 splenectomy 後\n- 使用骨髓抑制藥物（如 IFN-α）\n- HTLV-1/HIV co-infection（CD4 count 可能偽高）\n- **CD4% 15% ≈ CD4 count 200 cells/μL**"},
+        {"type": "heading", "text": "HIV RNA (Viral Load)"},
+        {"type": "table", "headers": ["時間點", "建議"], "rows": [
+          ["確診時", "Baseline viral load"],
+          ["開始 ART 後", "q4 weeks 直到 < 50 copies/mL（通常 < 6 個月）"],
+          ["穩定後", "q3-6 months"],
+          ["Virologic failure", "Viral load > 200 copies/mL（連續兩次）"]
+        ]},
+        {"type": "heading", "text": "Resistance Testing"},
+        {"type": "callout", "style": "guideline", "text": "**何時做 resistance testing？**\n1. **確診時** — baseline genotype（即使尚未開始 ART）\n2. **開始 ART 前**（若延遲開始治療）\n3. **Virologic failure** — 在還在服用 failing regimen 時就要做（因為停藥後 wild-type 會回來）\n\n**方法**：\n- Genotypic assay（常用）— 序列分析對比已知抗藥突變\n- Phenotypic assay（較貴）— 實際測試藥物對病毒的抑制效果\n- Co-receptor tropism assay — 使用 maraviroc 前需先確認 R5-tropic"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1633-1635"}
+      ]
+    },
+    {
+      "title": "AIDS-Defining Illnesses",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "出現以下任何一項 → 不論 CD4 count → 診斷 AIDS（CDC Stage 3）"},
+        {"type": "table", "headers": ["類別", "疾病"], "rows": [
+          ["**真菌**", "PJP (Pneumocystis jirovecii pneumonia)\nCandidiasis（食道/氣管/支氣管）\nCryptococcosis（extrapulmonary）\nCoccidioidomycosis（disseminated）\nHistoplasmosis（disseminated）"],
+          ["**分枝桿菌**", "TB（any site）\nMAC（disseminated）\nOther Mycobacterium（disseminated）"],
+          ["**病毒**", "CMV disease（非肝脾淋巴結）\nCMV retinitis\nHSV（chronic ulcers > 1 month / 食道炎 / 肺炎）\nPML (Progressive multifocal leukoencephalopathy — JC virus)"],
+          ["**原蟲**", "Toxoplasma encephalitis\nCryptosporidiosis（chronic > 1 month）\nIsosporiasis（chronic > 1 month）"],
+          ["**細菌**", "Recurrent bacterial infections（< 6 歲）\nRecurrent pneumonia\nRecurrent Salmonella septicemia"],
+          ["**腫瘤**", "Kaposi's sarcoma (HHV-8)\nBurkitt's lymphoma\nImmunoblastic lymphoma\nPrimary CNS lymphoma\nInvasive cervical cancer"],
+          ["**其他**", "HIV encephalopathy\nHIV wasting syndrome"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1599, Table 208-1"}
+      ]
+    },
+    {
+      "title": "Prophylaxis 預防性投藥總表",
+      "content": [
+        {"type": "table", "headers": ["病原體", "適應症", "首選方案", "替代方案"], "rows": [
+          ["**PJP**\n(P. jirovecii)", "CD4 < 200\n或口腔 candidiasis\n或曾有 PJP", "**TMP-SMX 1 DS tab QD**", "Dapsone 100 mg/d\nAtovaquone 1500 mg/d\nAerosolized pentamidine 300 mg/month"],
+          ["**Toxoplasma**", "Toxo IgG (+) 且 CD4 < 100", "**TMP-SMX 1 DS tab QD**\n（同 PJP 一藥兩效）", "Dapsone + pyrimethamine + leucovorin"],
+          ["**MAC**", "CD4 < 50\n（除非已立即開始 ART）", "**Azithromycin 1200 mg/week**\n或 Clarithromycin 500 mg BID", "Rifabutin"],
+          ["**TB**", "TST ≥ 5 mm 或\nIGRA (+) 或\n密切接觸 active TB", "**INH + Rifapentine weekly × 12 weeks**\n（3HP regimen）", "INH daily × 6-9 months\nINH + Rifampin daily × 3 months"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**停止 prophylaxis 的條件**：\n- PJP & Toxo：ART 後 CD4 > 200 持續 ≥ 3 個月\n- MAC：已開始有效 ART（viral suppression）\n- 一旦停止後 CD4 再度下降 → 需重新開始"},
+        {"type": "callout", "style": "trap", "text": "**TMP-SMX 是 HIV 病人的萬用藥**：\n- PJP prophylaxis ✓\n- Toxoplasma prophylaxis ✓\n- 還能降低 bacterial infection 風險\n- 一顆藥三重保護 → 只要 CD4 < 200 就開始"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1636, Table 208-11"}
+      ]
+    },
+    {
+      "title": "Clinical Practice / 臨床思考練習",
+      "content": [
+        {"type": "collapsible", "summary": "Case 1：28 歲男性，發燒、咽痛、全身紅疹、淋巴結腫大，持續 2 週", "text": "**分析**：\n- 症狀組合像 infectious mononucleosis → 但也要想到 **acute HIV syndrome**\n- 詢問暴露史：最近是否有 unprotected sexual contact？\n\n**應做的檢查**：\n1. **4th-gen HIV Ag/Ab combo test** — 可能在 window period 內\n2. **HIV RNA (NAT)** — 急性感染最可靠的診斷方式\n3. EBV / CMV serology — 排除 mono\n4. CBC with differential — 看 atypical lymphocytes\n\n**如果 HIV RNA > 100,000 但 Ab 陰性**：\n→ 診斷 **Acute HIV infection (Fiebig stage I-II)**\n→ 立刻開始 ART（早期治療可能限制 reservoir 大小）\n→ 通知 partner(s) + 安全性行為衛教"},
+        {"type": "collapsible", "summary": "Case 2：35 歲女性，routine health check HIV screening 陽性", "text": "**Step-by-step 處理**：\n1. 確認診斷：4th-gen combo positive → HIV-1/2 Ab differentiation → 確認 HIV-1\n2. Baseline labs：\n   - **CD4 count + %**\n   - **HIV RNA viral load**\n   - **Genotypic resistance testing**\n   - CBC, CMP, LFTs\n   - HBV (HBsAg, anti-HBs, anti-HBc), HCV Ab\n   - RPR/VDRL (syphilis)\n   - Toxoplasma IgG, CMV IgG\n   - G6PD（如果考慮 dapsone）\n   - Cervical Pap smear\n   - TB screening (TST or IGRA)\n3. CD4 結果決定是否需要 prophylaxis\n4. **All CD4 count → 建議開始 ART**\n5. 衛教：U=U、safe sex、disclosure"},
+        {"type": "collapsible", "summary": "Case 3：醫護人員被 HIV 陽性病人的針頭扎到", "text": "**Occupational PEP (Post-Exposure Prophylaxis)**：\n\n**黃金時間：越快越好，最好 < 72 小時內開始**\n\n**風險評估**：\n- Hollow-bore needle > solid needle\n- 深層穿刺 > 表淺\n- 可見血液 > 無\n- Source patient viral load high > low/undetectable\n- Overall risk: ~0.23% per needlestick\n\n**PEP 方案**（28 天）：\n- **首選：Tenofovir DF/Emtricitabine (Truvada) + Dolutegravir (DTG)**\n- 或 Tenofovir DF/Emtricitabine + Raltegravir\n\n**Follow-up**：\n- Baseline HIV test（確認暴露前是陰性）\n- 4-6 weeks, 3 months, 6 months 追蹤 HIV test\n- 如果 source 為 HBV/HCV 陽性 → 同時追蹤\n- 監測 PEP 藥物副作用"},
+        {"type": "collapsible", "summary": "Case 4：HIV 確診病人，CD4 = 80，oral thrush + 持續咳嗽 + 發燒", "text": "**分析**：\n- CD4 = 80 → severe immunodeficiency\n- Oral thrush → 提示 CD4 < 200\n- 咳嗽 + 發燒 → 最擔心 **PJP** (CD4 < 200)\n\n**鑑別診斷（CD4 < 100 可能的感染）**：\n- **PJP** — dry cough, dyspnea on exertion, bilateral ground-glass on CXR\n- **TB** — any CD4 level，但 CD4 低時更常 disseminated\n- **Toxoplasma** — CNS symptoms（但這裡以呼吸道為主）\n- **MAC** — 通常 CD4 < 50\n- **CMV** — CD4 < 50，retinitis 較常見\n\n**應做的檢查**：\n1. CXR → bilateral ground-glass = PJP 高度懷疑\n2. Sputum for PJP (induced sputum or BAL)\n3. LDH（PJP 時常升高）\n4. β-D-glucan（PJP 時升高）\n5. Blood cultures（MAC、TB）\n6. TB workup（sputum AFB, Gene Xpert）\n\n**處置**：\n- 如果高度懷疑 PJP → **TMP-SMX IV**（21 天）\n- PaO₂ < 70 或 A-a gradient > 35 → 加上 **steroids**\n- 穩定後開始 ART（PJP 治療 2 週後）\n- 開始所有適當的 prophylaxis"}
+      ]
+    }
+  ],
+  "related": ["hiv-opportunistic-infections", "hiv-treatment-art"]
+}

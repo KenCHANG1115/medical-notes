@@ -27,7 +27,10 @@
       "name": "感染科",
       "diseases": [
         {"id": "urinary-tract-infection", "name": "Urinary Tract Infection (泌尿道感染)"},
-        {"id": "pneumonia", "name": "Pneumonia (肺炎)"}
+        {"id": "pneumonia", "name": "Pneumonia (肺炎)"},
+        {"id": "hiv-fundamentals-diagnosis", "name": "HIV/AIDS (一)：基礎與診斷"},
+        {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"},
+        {"id": "hiv-treatment-art", "name": "HIV/AIDS (三)：ART 治療與預防"}
       ]
     },
     {

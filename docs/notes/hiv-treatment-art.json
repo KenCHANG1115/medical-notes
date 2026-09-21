@@ -1,0 +1,323 @@
+{
+  "title": "HIV/AIDS (三)：ART 治療與預防",
+  "sections": [
+    {
+      "title": "Overview",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "本筆記涵蓋 HIV 抗反轉錄病毒治療 (ART) 的藥物分類、初始處方選擇、治療監測、何時換藥、IRIS 處理，以及暴露後預防 (PEP) 與暴露前預防 (PrEP) 的完整內容"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "ART 核心原則：確診即治療 (start ASAP)｜不可單藥治療 (抗藥性)｜終身治療不可中斷｜治療前做 genotype resistance testing｜例外：Cryptococcal meningitis / TB → 延遲 2-8 週起始 ART（降低 IRIS 風險）"
+        },
+        {
+          "type": "list",
+          "items": [
+            "ART 目標：VL < 50 copies/mL within 6 months → 降低傳播 (U=U) + 免疫重建 (CD4 ↑ 100-150/year)",
+            "五大藥物類別：NRTI、NNRTI、PI、INSTI、Entry inhibitors + Capsid inhibitor",
+            "典型處方：2 NRTIs (backbone) + 1 INSTI / NNRTI / boosted PI",
+            "Two-drug option：DTG + 3TC（限 HBV 陰性、VL < 500,000）",
+            "Single-tablet regimens (STR) 提升順從性 → Biktarvy、Triumeq、Dovato 等",
+            "Long-acting options：Cabenuva (CAB+RPV IM monthly/q2m)、Lenacapavir (SC q6m)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "NRTI — 核苷(酸)類反轉錄酶抑制劑",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "NRTI 是 ART backbone 的核心，透過類似核苷酸的結構嵌入 DNA 鏈中，終止 reverse transcription。目前 preferred NRTIs：3TC (Lamivudine)、FTC (Emtricitabine)、ABC (Abacavir)、TDF (Tenofovir disoproxil)、TAF (Tenofovir alafenamide)"
+        },
+        {
+          "type": "table",
+          "headers": ["藥物", "劑量", "關鍵特點", "主要毒性"],
+          "rows": [
+            ["Lamivudine (3TC)", "300 mg QD", "HBV 共治療活性；與 FTC 可互換", "停藥 → HBV flare"],
+            ["Emtricitabine (FTC)", "200 mg QD", "與 3TC 類似，大多數 combo pills 含 FTC", "停藥 → HBV flare、skin discoloration"],
+            ["Abacavir (ABC)", "300 mg BID", "⚠️ 使用前必須檢驗 HLA-B*5701（陽性禁用）", "Hypersensitivity reaction（可致命）"],
+            ["Tenofovir disoproxil (TDF)", "300 mg QD", "限 CrCl > 70 使用；HBV 共治療活性", "腎毒性、骨質疏鬆、停藥 → HBV flare"],
+            ["Tenofovir alafenamide (TAF)", "25 mg QD", "較少腎/骨毒性；限 CrCl > 30", "Nausea；lipid levels 較 TDF 高"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "已淘汰 NRTIs（不建議使用）：Zidovudine (AZT)、Didanosine (ddI)、Stavudine (d4T)、Zalcitabine (ddC) → 因嚴重副作用（脂肪重分佈、乳酸酸中毒、周邊神經病變、胰臟炎）。共同機轉：粒線體毒性 (mitochondrial toxicity)"
+        }
+      ]
+    },
+    {
+      "title": "NNRTI — 非核苷類反轉錄酶抑制劑",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "NNRTI 直接結合 RT enzyme 的 hydrophobic pocket，改變酶的構象而抑制功能。對 HIV-1 有選擇性，但對 HIV-2 無效。Preferred NNRTIs：Efavirenz、Rilpivirine、Doravirine"
+        },
+        {
+          "type": "table",
+          "headers": ["藥物", "劑量", "關鍵特點", "主要毒性"],
+          "rows": [
+            ["Efavirenz (EFV)", "600 mg QHS", "曾是 preferred NNRTI；睡前服用減少 CNS 副作用", "CNS 症狀（異夢、憂鬱、暈眩）、rash、致畸性"],
+            ["Rilpivirine (RPV)", "25 mg QD", "限 ART-naïve + VL < 100,000；禁 PPI 併用", "較少 CNS 毒性；nausea、dizziness"],
+            ["Doravirine (DOR)", "100 mg QD", "較新 NNRTI；較少 CNS/lipid 副作用", "Nausea、headache"],
+            ["Etravirine (ETR)", "200 mg BID", "二線用藥（treatment-experienced + NNRTI resistance）", "Rash、hypersensitivity"],
+            ["Nevirapine (NVP)", "200 mg BID (after lead-in)", "已少用；嚴重肝毒性風險", "Hepatotoxicity（可致命）、rash"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PI — 蛋白酶抑制劑",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "PI 抑制 HIV protease，阻止 polyprotein 裂解為成熟病毒蛋白。需搭配 pharmacokinetic booster（Ritonavir 或 Cobicistat）提升血中濃度。DHHS Preferred PI：Darunavir/r (boosted darunavir)"
+        },
+        {
+          "type": "table",
+          "headers": ["藥物", "劑量", "關鍵特點", "主要毒性"],
+          "rows": [
+            ["Darunavir (DRV)", "800 mg + RTV 100 mg QD\n或 600 mg + RTV 100 mg BID (experienced)", "Preferred PI；高基因屏障", "腹瀉、nausea、rash、肝毒性、高血脂"],
+            ["Atazanavir (ATV)", "300 mg + RTV 100 mg QD", "較少 lipid 副作用；可致 PR prolongation", "間接型高膽紅素血症、腎結石"],
+            ["Ritonavir (RTV)", "100 mg（作為 booster）", "主要用作 PK enhancer（抑制 CYP3A4/2D6）", "大量藥物交互作用；GI 症狀"],
+            ["Cobicistat", "150 mg（作為 booster）", "替代 RTV 的 PK enhancer；抑制 tubular creatinine secretion → SCr ↑", "不建議 CrCl < 70"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "INSTI — 嵌合酶抑制劑",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "INSTI 阻止 HIV provirus 整合至宿主基因組，是目前最強效且最安全的 ART 類別。大多數初始治療方案都以 INSTI 為基礎。注意：INSTI-based regimen 可能與較多體重增加相關"
+        },
+        {
+          "type": "table",
+          "headers": ["藥物", "劑量", "關鍵特點", "主要毒性"],
+          "rows": [
+            ["Dolutegravir (DTG)", "50 mg QD (naïve)\n50 mg BID (experienced/with EFV/rifampin)", "Preferred INSTI；高基因屏障；可雙藥 (DTG+3TC)", "失眠、headache、hypersensitivity、肝毒性"],
+            ["Bictegravir (BIC)", "50 mg（僅在 Biktarvy 複方中）", "Noninferior to DTG；Biktarvy = BIC/TAF/FTC", "Nausea、diarrhea、headache"],
+            ["Raltegravir (RAL)", "400 mg BID", "第一個上市的 INSTI；基因屏障較低", "CPK 升高、rhabdomyolysis"],
+            ["Elvitegravir (EVG)", "150 mg（僅在 Stribild/Genvoya 中 + cobicistat）", "需 cobicistat boosting", "Diarrhea、nausea"],
+            ["Cabotegravir (CAB)", "Oral 30 mg QD (lead-in)\n→ IM 400-600 mg monthly/q2m", "⭐ Long-acting IM + RPV (Cabenuva)", "Injection site reactions"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Entry Inhibitors & Capsid Inhibitor",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "Entry inhibitors 作用於病毒進入細胞的不同階段（fusion、co-receptor binding、CD4 binding）。Capsid inhibitor 為最新藥物類別，干擾衣殼蛋白組裝。這些藥物主要用於多重抗藥性 (MDR) 患者的救援治療"
+        },
+        {
+          "type": "table",
+          "headers": ["藥物", "機轉", "劑量", "適應症/特點"],
+          "rows": [
+            ["Enfuvirtide (T-20)", "Fusion inhibitor", "90 mg SC BID", "注射部位反應；已少用；對 HIV-2 無效"],
+            ["Maraviroc (MVC)", "CCR5 antagonist", "150-600 mg BID (依併用藥)", "⚠️ 僅對 CCR5-tropic virus 有效 → 須做 tropism assay"],
+            ["Ibalizumab", "Anti-CD4 mAb", "2000 mg IV loading → 800 mg q2wk", "MDR HIV-1；rash、diarrhea"],
+            ["Fostemsavir", "gp120 attachment inhibitor", "600 mg BID", "MDR HIV-1；QTc prolongation；對 HIV-2 無效"],
+            ["Lenacapavir ⭐", "Capsid inhibitor", "SC 927 mg q6 months (after loading)", "MDR HIV-1；長效注射 q6m；injection site reactions；也用於 PrEP 研究"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "HIV-2 注意事項：NNRTIs、Enfuvirtide、Fostemsavir 對 HIV-2 無效，不可用於 HIV-2 感染者的 ART 方案中"
+        }
+      ]
+    },
+    {
+      "title": "初始治療方案與複方製劑",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "DHHS 推薦初始方案（Table 208-24）— 所有方案皆為每日一次，大多有 single-tablet regimen (STR)"
+        },
+        {
+          "type": "table",
+          "headers": ["方案", "組成", "備註"],
+          "rows": [
+            ["Biktarvy ⭐", "BIC / TAF / FTC", "Preferred STR；無需 HLA-B*5701 或 baseline VL 限制"],
+            ["DTG + TAF/TDF + FTC", "Dolutegravir + Tenofovir + Emtricitabine", "Preferred；TDF vs TAF 依腎功能選擇"],
+            ["Dovato", "DTG + 3TC（雙藥方案）", "限 HBV 陰性、VL ≤ 500,000 copies/mL"],
+            ["Triumeq", "DTG / ABC / 3TC", "需先確認 HLA-B*5701 陰性"],
+            ["DRV/c or DRV/r + TDF/TAF + FTC", "Boosted Darunavir + backbone", "用於曾用 Cabotegravir-LA PrEP 者（INSTI resistance 疑慮）"]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "常用複方製劑（Combination Formulations）"
+        },
+        {
+          "type": "table",
+          "headers": ["商品名", "成分", "備註"],
+          "rows": [
+            ["Biktarvy", "BIC 50 / TAF 25 / FTC 200", "STR, QD"],
+            ["Triumeq", "DTG 50 / ABC 600 / 3TC 300", "STR, QD; 需 HLA-B*5701 (-)"],
+            ["Dovato", "DTG 50 / 3TC 300", "STR, QD; 雙藥方案"],
+            ["Genvoya", "EVG 150 / COBI 150 / TAF 10 / FTC 200", "STR, QD"],
+            ["Symtuza", "DRV 800 / COBI 150 / TAF 10 / FTC 200", "STR, QD; PI-based"],
+            ["Odefsey", "RPV 25 / TAF 25 / FTC 200", "STR, QD; VL < 100K"],
+            ["Cabenuva", "CAB + RPV IM injection", "Long-acting monthly or q2m"],
+            ["Descovy", "TAF 25 / FTC 200", "Backbone (also for PrEP)"],
+            ["Truvada", "TDF 300 / FTC 200", "Backbone (also for PrEP)"]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "治療監測與換藥時機",
+      "content": [
+        {
+          "type": "heading",
+          "text": "治療目標與預期反應"
+        },
+        {
+          "type": "list",
+          "items": [
+            "開始 ART 後 1-2 個月：VL 應下降 ≥ 1 log (10倍)",
+            "6 個月內：VL 應 < 50 copies/mL（完全抑制）",
+            "CD4 上升：第一年上升 100-150 cells/μL → 之後 50-100/year",
+            "監測頻率：ART 開始或換藥後 2-4 週 → 每 4-8 週至 VL < 200 → 之後每 3-6 個月"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "換藥指標（Table 208-25）"
+        },
+        {
+          "type": "list",
+          "items": [
+            "4 週內 VL 未下降 ≥ 1 log",
+            "VL 從 nadir 上升 ≥ 3 倍（排除間發感染/疫苗干擾）",
+            "VL 持續 > 200 copies/mL",
+            "CD4 持續下降",
+            "臨床惡化",
+            "藥物毒性（單純毒性 → 單藥替換即可；治療失敗 → 至少換 2 個有效藥物）"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "換藥前確認：(1) 先排除 adherence 問題 (2) 做 resistance testing（須在仍使用 failing regimen 時檢測，因抗藥性病毒停藥後會 revert to wild-type）(3) 治療失敗換藥至少需 2 個新的有效藥物"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Resistance Testing 類型",
+          "text": "• Genotyping：cDNA sequencing → 偵測 ≥ 10% quasispecies\n• Phenotyping：測量酶活性 vs 不同藥物濃度；也可測 co-receptor tropism\n• Next-generation sequencing：可偵測低至 1% 的 quasispecies\n• 建議用於：初始治療選擇（美國/歐洲抗藥性傳播率高）、治療失敗換藥\n• Inhibitory quotient = trough drug level / IC50 → 評估劑量是否足夠"
+        }
+      ]
+    },
+    {
+      "title": "IRIS 與暴露後/前預防",
+      "content": [
+        {
+          "type": "heading",
+          "text": "免疫重建發炎症候群 (IRIS)"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "IRIS = ART 啟動後免疫重建引起的過度發炎反應。好發於 CD4 極低 + 高 OI 抗原負荷的患者。分為 Paradoxical IRIS（已治療 OI 惡化）和 Unmasking IRIS（未知 OI 因免疫恢復而顯現）"
+        },
+        {
+          "type": "list",
+          "items": [
+            "高風險：CD4 < 50 + 同時有 active OI（尤其 TB、Cryptococcus）",
+            "TB-IRIS：ART 啟動後 1-3 個月最常見；持續 OI 治療 + 必要時 steroids",
+            "Crypto-IRIS：延遲 ART 4-6 週（先完成 antifungal induction）+ ICP management",
+            "處理原則：繼續 ART + 繼續/加強 OI 治療 + corticosteroids（for severe IRIS）",
+            "CD4 ≥ 50 + OI：可考慮延遲 ART 2-4 週先治療 OI",
+            "CD4 < 50 + OI（非 crypto meningitis）：儘速啟動 ART"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "暴露後預防 (PEP)"
+        },
+        {
+          "type": "table",
+          "headers": ["項目", "內容"],
+          "rows": [
+            ["適應症", "職業暴露（針扎、黏膜接觸）或非職業暴露（性行為、共用針頭）"],
+            ["時間窗", "72 小時內開始（越早越好）；超過 72 小時效果不確定"],
+            ["處方", "三藥 ART × 28 天（如 TDF/FTC + DTG 或 RAL）"],
+            ["針扎風險", "Percutaneous：~0.23%；Mucous membrane：~0.09%"],
+            ["高風險因子", "深部穿刺、針上可見血液、hollow-bore needle、source VL 高"],
+            ["追蹤", "72 小時內首診 → baseline + follow-up HIV testing → 藥物毒性監測 → 追蹤至暴露後 4 個月"],
+            ["諮詢專線", "PEPline：888-448-4911（24hr）"]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "暴露前預防 (PrEP)"
+        },
+        {
+          "type": "table",
+          "headers": ["方案", "藥物", "效果", "備註"],
+          "rows": [
+            ["Daily oral", "TDF/FTC (Truvada) 每日一錠", "嚴格 adherence 下 99% 有效", "也可 on-demand (event-driven)"],
+            ["Daily oral (TAF-based)", "TAF/FTC (Descovy)", "較少腎/骨副作用", "僅限 MSM 及 transgender women 之 data"],
+            ["IM injection", "Cabotegravir (CAB-LA) q2m", "優於或不劣於 oral PrEP", "適合 adherence 困難者"],
+            ["SC injection (研究中)", "Lenacapavir q6m", "Phase 3 顯示極佳效果（cisgender women）", "其他族群研究進行中"]
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "CDC 估計美國約 120 萬人屬 PrEP 適用族群",
+            "PrEP 適應症：MSM、heterosexual with HIV+ partner、PWID、transactional sex",
+            "使用 PrEP 前需：確認 HIV 陰性、腎功能、HBV status",
+            "Treatment as Prevention (TasP)：VL undetectable = untransmittable (U=U)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Clinical Practice",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "Case 1：新診斷 HIV，選擇初始 ART",
+          "text": "30 歲男性，MSM，routine screening 發現 HIV 陽性。CD4 350, VL 85,000。HBV surface Ag (-)，HLA-B*5701 (-)，CrCl 95 mL/min。Genotype 無抗藥性突變。\n\n處方選擇：\n• Preferred：Biktarvy (BIC/TAF/FTC) 每日一錠\n• 替代：DTG + TAF/FTC 或 Triumeq (DTG/ABC/3TC，因 HLA-B*5701 陰性可用)\n• 雙藥選項：Dovato (DTG/3TC)（因 HBV(-)、VL < 500K）\n\n監測計畫：\n• 2-4 週後驗 VL（應下降 ≥ 1 log）\n• 4-8 週再驗直到 VL < 200 → 之後 q3-6m\n• 衛教 U=U 概念 + adherence 重要性"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Case 2：ART 失敗與換藥",
+          "text": "42 歲女性，使用 EFV/TDF/FTC 兩年。近期 VL 從 undetectable 升至 3,500 copies/mL（重複確認）。CD4 從 450 降至 380。\n\n分析：\n• 先確認 adherence（詢問漏藥、副作用影響）\n• 排除間發感染或疫苗干擾\n• 在仍服用 failing regimen 時做 genotype resistance testing\n\n結果：K103N mutation（EFV resistance）+ M184V（3TC/FTC resistance）\n\n換藥：\n• 至少 2 個新的有效藥物\n• 方案：DTG + TAF/FTC（DTG 對 INSTI-naïve 有效；TAF backbone 仍有活性）\n• 或 Biktarvy（BIC/TAF/FTC）\n• M184V mutation 實際上增加病毒對 TDF/TAF 的敏感度"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Case 3：針扎暴露 — PEP 處置",
+          "text": "護理師在為 HIV 陽性病人（VL 50,000）抽血時被 hollow-bore needle 扎傷手指，傷口可見出血。暴露後 1 小時求診。\n\n處理：\n1. 立即清洗傷口 + 消毒\n2. 評估風險：高風險（hollow-bore needle、source VL 高、深部穿刺）\n3. 啟動 PEP：TDF/FTC + DTG × 28 天\n4. Baseline labs：HIV Ab、HBV/HCV、CBC、renal function\n5. Follow-up：72 小時內首次回診 → 4 個月追蹤\n6. 針扎感染風險：~0.23%（未使用 PEP 時）\n\n⚠️ PEP 必須在 72 小時內開始，越早越好"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Case 4：HIV + TB — ART 啟動時機與 IRIS",
+          "text": "35 歲男性，新診斷 HIV + pulmonary TB。CD4 80, VL 250,000。\n\n處理策略：\n• 先啟動 anti-TB treatment（RIPE regimen）\n• CD4 < 50 → 2 週內啟動 ART\n• CD4 50-200 → 可延遲 2-8 週（降低 IRIS 風險）\n• 本案 CD4 80 → 先治 TB 2-4 週後再啟動 ART\n\nART 選擇（與 Rifampin 交互作用）：\n• DTG 50 mg BID（因 Rifampin 誘導代謝需加倍劑量）+ TDF/FTC\n• 避免 PI（Rifampin 大幅降低 PI 濃度）\n• 避免 EVG/COBI（交互作用）\n\nIRIS 監測：\n• 好發 ART 後 1-3 個月\n• 表現：發燒、淋巴結腫大、肺部浸潤惡化\n• 處理：繼續 ART + TB treatment + corticosteroids（if severe）"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "Harrison's Principles of Internal Medicine, 22nd Edition, Chapter 208: Human Immunodeficiency Virus Disease: AIDS and Related Disorders",
+    "DHHS Guidelines for the Use of Antiretroviral Agents in HIV-Infected Adults and Adolescents (2024)",
+    "CDC Updated U.S. PHS Guidelines for the Management of Occupational Exposures to HIV (2018)"
+  ]
+}

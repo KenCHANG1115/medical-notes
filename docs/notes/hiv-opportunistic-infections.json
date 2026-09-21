@@ -1,0 +1,188 @@
+{
+  "id": "hiv-opportunistic-infections",
+  "title": "HIV — Opportunistic Infections (伺機性感染與併發症)",
+  "title_en": "HIV — Opportunistic Infections & Complications",
+  "title_zh": "HIV 伺機性感染與併發症",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders (p.1635-1660)",
+    "NIH/CDC/IDSA 2024 Guidelines for Prevention of Opportunistic Infections"
+  ],
+  "generated": "2026-09-21",
+  "sections": [
+    {
+      "title": "Overview / CD4 分層概念",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "**核心邏輯：CD4⁺ 越低 → 可能的感染越多**\n\n像剝洋蔥一樣：CD4 下降一層，新的感染就加進來。\n記住每一層的「新增」感染，而不是試圖記住全部。"},
+        {"type": "table", "headers": ["CD4 Count", "新出現的風險", "代表性感染"], "rows": [
+          ["> 500", "接近正常人的感染", "Bacterial pneumonia（S. pneumoniae）\nTB（any CD4 level）\nHerpes zoster\nVaginal candidiasis"],
+          ["200-500", "初期免疫缺損", "Oral thrush（口腔念珠菌）\nKaposi's sarcoma\nLymphoma\nTB（更常 disseminated）"],
+          ["**< 200**\n(AIDS)", "嚴重免疫缺損", "**PJP** (Pneumocystis)\nHistoplasmosis (disseminated)\nCoccidioidomycosis"],
+          ["**< 100**", "極重度", "**Toxoplasma encephalitis**\nCryptococcal meningitis\nMicrosporidiosis\nEsophageal candidiasis"],
+          ["**< 50**", "最末期", "**CMV** (retinitis, colitis)\n**MAC** (disseminated)\nPML (JC virus)\nCNS lymphoma"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**TB 是例外！**\nTB 在 **任何 CD4 count** 都可以發生（median CD4 at presentation ≈ 326/μL）。\n但 CD4 越低，表現越不典型：\n- CD4 高 → 經典上肺葉空洞\n- CD4 低 → miliary spread、extrapulmonary、CXR 不典型"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1634, Fig.208-32"}
+      ]
+    },
+    {
+      "title": "PJP (Pneumocystis jirovecii Pneumonia)",
+      "content": [
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["病原體", "Pneumocystis jirovecii（真菌，非原蟲）"],
+          ["好發 CD4", "**< 200** (95% 的 PJP 發生在此)；median CD4 at onset: 36/μL"],
+          ["臨床表現", "**Subacute onset（數天到數週）**\n- Dry cough（非產痰性咳嗽）\n- Dyspnea on exertion → 漸進性\n- **Retrosternal chest pain**（吸氣加劇）\n- Low-grade fever\n- Tachypnea"],
+          ["CXR", "早期可能正常！\n典型：**bilateral diffuse interstitial/ground-glass infiltrates**\n不典型：upper lobe cavitation（用 aerosolized pentamidine 預防者）"],
+          ["Lab", "**LDH↑**（敏感但非特異）\n**β-D-glucan↑**（真菌標記）\nABG：hypoxemia, ↑ A-a gradient"],
+          ["診斷", "Induced sputum 或 BAL → stain（GMS, DFA）\nPCR 也可使用"],
+          ["治療", "**TMP-SMX IV/PO × 21 天**（首選）\nPaO₂ < 70 或 A-a gradient > 35 → **加 steroids**（prednisone taper）"],
+          ["替代治療", "Mild-moderate：dapsone/TMP, atovaquone, clindamycin/primaquine\nSevere：IV pentamidine"],
+          ["預防", "CD4 < 200 → **TMP-SMX 1 DS tab daily**"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**PJP 加 steroid 的適應症**：\n- PaO₂ < 70 mmHg 或 A-a gradient > 35 mmHg\n- 降低急性呼吸衰竭風險\n- 給法：Prednisone 40 mg BID × 5d → 40 mg QD × 5d → 20 mg QD × 11d\n- **一定要在 anti-PJP 治療開始 72 小時內加上**"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1639-1640"}
+      ]
+    },
+    {
+      "title": "TB in HIV",
+      "content": [
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["風險", "HIV 感染者活動性 TB 風險是一般人的 **100 倍**\nPPD (+) + HIV → 每年 7-10% 發病率（vs 一般人 1%/year）"],
+          ["好發 CD4", "**任何 CD4 level**（median ≈ 326/μL）"],
+          ["臨床表現\n（依 CD4 分）", "**CD4 高**：典型 — 上肺葉空洞、咳嗽、夜汗、體重減輕\n**CD4 低**：不典型 — miliary pattern、下肺葉浸潤、pleural effusion、hilar adenopathy、extrapulmonary"],
+          ["Extrapulmonary", "淋巴結（最常見 cervical）、骨骼、腦膜、GI、肝脾\n60-80% 有肺部侵犯，30-40% 有肺外侵犯"],
+          ["診斷", "Sputum AFB smear + culture\nGeneXpert MTB/RIF（快速 + 抗藥性）\nBlood culture（CD4 低時 15% 陽性）\nPPD ≥ 5 mm 或 IGRA (+) → latent TB treatment"],
+          ["治療", "與 HIV-negative 相同原則\nRifabutin 取代 rifampin（因藥物交互作用）\nDirectly observed therapy (DOT)"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**IRIS (Immune Reconstitution Inflammatory Syndrome)**：\n- 開始 ART 後免疫恢復 → 對 TB 的免疫反應增強 → 症狀惡化\n- 最常發生在 ART + anti-TB 同時開始的病人\n- CD4 < 50：benefit of early ART > IRIS 風險 → 盡快開始 ART\n- CD4 ≥ 50：延遲 ART 至 anti-TB 治療 **2-8 週後**再開始"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1639-1640"}
+      ]
+    },
+    {
+      "title": "Toxoplasma Encephalitis",
+      "content": [
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["病原體", "Toxoplasma gondii（intracellular protozoan）"],
+          ["好發 CD4", "**< 100**"],
+          ["機轉", "通常是 **latent infection reactivation**（非新感染）\nToxo IgG (+) 且 CD4 < 100 → 高風險"],
+          ["臨床表現", "**Focal neurologic signs**（hemiparesis, aphasia, ataxia）\nHeadache, fever, confusion\nSeizures（~30%）"],
+          ["影像", "Brain MRI：**multiple ring-enhancing lesions**\n好發：basal ganglia, corticomedullary junction\n周圍水腫"],
+          ["鑑別診斷", "**CNS lymphoma**：通常 single lesion, periventricular\nPML：no enhancement, white matter\nBrain abscess（bacterial, fungal）"],
+          ["診斷", "臨床 + 影像 + Toxo IgG (+) → **empiric treatment**\n如果 2 週內未改善 → brain biopsy"],
+          ["治療", "**Pyrimethamine + sulfadiazine + leucovorin** × 6 weeks\n替代：TMP-SMX\n之後 maintenance therapy 直到 CD4 > 200 × 6 months"],
+          ["預防", "Toxo IgG (+) 且 CD4 < 100 → **TMP-SMX 1 DS daily**"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**Toxo vs CNS Lymphoma 的鑑別**：\n- Toxo：**multiple** ring-enhancing lesions, Toxo IgG (+), responds to empiric Tx\n- CNS Lymphoma：**single** periventricular lesion, EBV PCR (+) in CSF, poor response\n- 實務上：先 empiric treat for Toxo → 2 週未改善 → biopsy → 排除 lymphoma"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1641-1642"}
+      ]
+    },
+    {
+      "title": "Cryptococcal Meningitis",
+      "content": [
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["病原體", "Cryptococcus neoformans（encapsulated yeast）"],
+          ["好發 CD4", "**< 100**（median CD4 ≈ 50）"],
+          ["臨床表現", "**Subacute meningitis**（數天到數週）\n- Headache（最常見）\n- Fever\n- Altered mental status\n- **顱內壓升高** — nausea/vomiting, papilledema, CN VI palsy\n- 明顯的 meningismus 不常見"],
+          ["診斷", "**CSF Cryptococcal antigen (CrAg)**：sensitivity > 95%\n**Serum CrAg**：sensitivity > 95%\n**India ink**：看到 encapsulated yeast（sensitivity 60-80%）\nCSF：opening pressure↑, WBC↑（lymphocyte）, protein↑, glucose↓/normal"],
+          ["治療", "**Induction（2 weeks）**：Amphotericin B + Flucytosine (5-FC)\n**Consolidation（8 weeks）**：Fluconazole 400 mg/d\n**Maintenance**：Fluconazole 200 mg/d 直到 CD4 > 100 × 1 year"],
+          ["關鍵處置", "**ICP management** — repeated LP or VP shunt\n顱內壓升高是主要死因！"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Cryptococcal meningitis 的兩大陷阱**：\n1. **CSF 可能看起來「正常」** — WBC 可能很低（免疫功能差，白血球上不來）\n2. **顱內壓是殺手** — 即使藥物有效，ICP 沒控制好病人還是會死\n   → 開放壓力 > 25 cmH₂O → 需要 therapeutic LP（抽掉 CSF 降壓）\n   → 可能需要每天 LP 直到壓力穩定"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1642-1643"}
+      ]
+    },
+    {
+      "title": "CMV & MAC",
+      "content": [
+        {"type": "heading", "text": "CMV (Cytomegalovirus)"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["好發 CD4", "**< 50**"],
+          ["CMV Retinitis\n（最常見）", "表現：**painless progressive vision loss**、floaters\n眼底鏡：perivascular hemorrhage + exudates（\"pizza pie\" / \"cottage cheese & ketchup\"）\n未治療 → 失明\n治療：**Valganciclovir PO** 或 **Ganciclovir IV**\n→ 後續 maintenance"],
+          ["CMV Colitis", "表現：Diarrhea（可為血便）、abdominal pain、fever\n內視鏡：mucosal ulceration\n組織切片：**owl-eye inclusion bodies**\n治療：Ganciclovir IV"],
+          ["CMV Esophagitis", "表現：Odynophagia、dysphagia\n與 Candida esophagitis 鑑別：CMV → large shallow ulcers; Candida → white plaques\n治療：Ganciclovir IV"],
+          ["CMV Pneumonitis", "較少見（比 transplant patients 少）\n治療：Ganciclovir ± IVIG"]
+        ]},
+        {"type": "heading", "text": "MAC (Mycobacterium avium complex)"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["好發 CD4", "**< 50**（median CD4 at diagnosis: 10/μL）"],
+          ["臨床表現", "**Disseminated disease**：\n- Fever, night sweats, weight loss\n- Diarrhea, abdominal pain\n- Hepatosplenomegaly\n- Lymphadenopathy\n- Anemia + ↑ALP（高度提示）"],
+          ["CXR", "異常約 25%：bilateral lower lobe infiltrate（miliary pattern）"],
+          ["診斷", "**Blood culture**（最可靠）\nBone marrow biopsy：大量 AFB"],
+          ["治療", "**Clarithromycin + Ethambutol** ± Rifabutin\n持續治療直到 ART 有效 + CD4 恢復"],
+          ["預防", "CD4 < 50 → **Azithromycin 1200 mg/week**（除非已立即開始 ART）"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1640-1641, 1643-1644"}
+      ]
+    },
+    {
+      "title": "其他重要感染",
+      "content": [
+        {"type": "heading", "text": "Candidiasis"},
+        {"type": "table", "headers": ["型態", "CD4", "表現", "治療"], "rows": [
+          ["Oral thrush", "< 200-300", "口腔白色斑塊（pseudomembranous）\n或 erythematous（紅斑型）", "Fluconazole 100-200 mg/d × 7-14d"],
+          ["Esophageal candidiasis\n（AIDS-defining）", "< 100", "Odynophagia, dysphagia\n可 empiric treat（不需內視鏡確診）", "Fluconazole 200 mg/d × 14-21d"]
+        ]},
+        {"type": "heading", "text": "PML (Progressive Multifocal Leukoencephalopathy)"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["病原體", "**JC virus**（reactivation）"],
+          ["好發 CD4", "< 100（通常 < 50）"],
+          ["臨床表現", "**Progressive focal neurologic deficits** 但 **無 fever、無 headache**\nHemiparesis, visual field cuts, cognitive decline, ataxia"],
+          ["MRI", "**White matter lesions**（非對稱性）\n**No mass effect, no enhancement**（vs Toxo, lymphoma）"],
+          ["診斷", "CSF JC virus PCR"],
+          ["治療", "**沒有特效藥** — 唯一希望是 **ART** 恢復免疫功能\n預後差，但 ART 可顯著改善存活率"]
+        ]},
+        {"type": "heading", "text": "Kaposi's Sarcoma (KS)"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["病原體", "**HHV-8 (Human Herpesvirus 8)**"],
+          ["好發族群", "**MSM**（男男性行為者）最常見"],
+          ["臨床表現", "**紫紅色丘疹/斑塊/結節** — 皮膚（最常見）\n口腔（硬顎）、GI tract、肺、淋巴結\n不痛"],
+          ["診斷", "皮膚切片：spindle cells + slit-like vascular channels"],
+          ["治療", "輕度：ART（可能自行消退）\n中重度：ART + chemotherapy（liposomal doxorubicin）"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1641-1650"}
+      ]
+    },
+    {
+      "title": "CNS 病變的鑑別診斷",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "**HIV 病人出現 CNS 症狀的系統性思考**：\n\n以影像表現分類："},
+        {"type": "table", "headers": ["影像特徵", "疾病", "CD4", "鑑別要點"], "rows": [
+          ["**Ring-enhancing lesions**\n（多發）", "**Toxoplasma encephalitis**", "< 100", "Toxo IgG (+)\nBasal ganglia\n2 週 empiric Tx 有效"],
+          ["**Ring-enhancing lesion**\n（單發，periventricular）", "**Primary CNS lymphoma**", "< 50", "EBV PCR (+) in CSF\nPET/thallium scan (+)\nPoor response to empiric Toxo Tx"],
+          ["**White matter lesions**\nNo enhancement", "**PML (JC virus)**", "< 100", "Progressive focal deficits\nNo fever\nCSF JC virus PCR (+)"],
+          ["**Diffuse enhancement**\n（meningeal）", "**Cryptococcal meningitis**", "< 100", "Serum/CSF CrAg (+)\nHeadache + ↑ICP"],
+          ["**Diffuse brain atrophy**", "**HIV encephalopathy\n(AIDS dementia complex)**", "< 200", "Subcortical dementia\nPsychomotor slowing\nExclusion diagnosis"],
+          ["**Focal lesion + ring enhancement**", "**Brain abscess (TB, bacterial)**", "Any", "Culture, biopsy"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**值班遇到 HIV 病人 CNS 症狀的處理**：\n1. 先做 **CT with contrast** 或 **MRI with Gad**\n2. 多發 ring-enhancing + Toxo IgG (+) → **empiric Toxo Tx**\n3. 有 meningeal signs → **LP**（先排除 mass effect）→ CrAg, India ink, Gram stain, AFB, cytology\n4. White matter lesion → CSF **JC virus PCR**\n5. 2 週 empiric Tx 無效 → **brain biopsy**"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1641-1650"}
+      ]
+    },
+    {
+      "title": "Non-AIDS Complications（非 AIDS 相關併發症）",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "ART 時代，HIV 病人壽命接近正常 → 但出現新的長期併發症。\n目前 AIDS-related illnesses 只佔 HIV 死亡的 ~25%。"},
+        {"type": "table", "headers": ["併發症", "機轉", "臨床重要性"], "rows": [
+          ["**Cardiovascular disease**", "Chronic inflammation + ART 副作用（dyslipidemia）\nHIV 本身是 CVD independent risk factor", "MI 風險增加 1.5-2 倍\n積極管理 CV risk factors"],
+          ["**Non-AIDS cancers**", "Chronic immune activation + co-infections\nLung, liver, anal, Hodgkin lymphoma", "目前佔 HIV 死因 ~25%\n比一般人早發"],
+          ["**Renal disease**", "HIV-associated nephropathy (HIVAN)\nTDF-related nephrotoxicity", "HIVAN：collapsing FSGS\n好發 African descent"],
+          ["**Hepatic disease**", "HBV/HCV co-infection\nART hepatotoxicity\nNAFLD/NASH", "HCV co-infection 需同時治療"],
+          ["**Bone disease**", "Osteopenia/osteoporosis\nAvascular necrosis", "TDF 與骨密度下降相關\nDEXA screening"],
+          ["**Neurocognitive**", "HIV-associated neurocognitive disorder (HAND)\n即使 ART 有效仍可能存在", "從 subtle cognitive impairment 到 dementia\n影響 medication adherence"],
+          ["**Metabolic**", "Lipodystrophy, dyslipidemia, insulin resistance\n與 PI、舊的 NRTI 相關", "身體脂肪重分布\n需監測 metabolic syndrome"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "1644-1650"}
+      ]
+    },
+    {
+      "title": "Clinical Practice / 臨床案例",
+      "content": [
+        {"type": "collapsible", "summary": "Case 1：HIV (+)，CD4 = 45，漸進性視力模糊 + floaters", "text": "**最可能診斷：CMV Retinitis**\n\n**分析**：\n- CD4 < 50 → CMV 的危險區間\n- Painless progressive vision loss + floaters → 經典 CMV retinitis\n\n**處理**：\n1. **緊急 ophthalmology consult** → 眼底鏡檢查\n2. 預期看到：perivascular hemorrhage + exudates (\"pizza pie\")\n3. 治療：**Valganciclovir 900 mg PO BID × 3 weeks** → 450 mg BID maintenance\n4. 開始或優化 ART → 目標 CD4 恢復\n5. CMV viral load monitoring\n6. 停 maintenance：CD4 > 100 × 6 months + 眼底穩定\n\n**注意**：CMV retinitis 未治療 → 數週內完全失明"},
+        {"type": "collapsible", "summary": "Case 2：HIV (+)，CD4 = 30，fever + weight loss + diarrhea + 貧血 + ALP↑", "text": "**最可能診斷：Disseminated MAC**\n\n**分析**：\n- CD4 < 50 + 全身性症狀 + anemia + ↑ALP → classic MAC presentation\n- MAC 的 median CD4 at diagnosis = 10/μL\n\n**處理**：\n1. **Blood cultures for AFB** (mycobacterial blood culture)\n2. CBC, LFTs, Blood smear\n3. Consider bone marrow biopsy（如果血液培養 pending 但高度懷疑）\n4. CXR（25% 異常）\n5. 開始治療：**Clarithromycin 500 mg BID + Ethambutol 15 mg/kg/d**\n6. 持續至 ART 有效且 CD4 恢復\n7. 開始 ART（可在 anti-MAC 治療 2 週後開始）"},
+        {"type": "collapsible", "summary": "Case 3：HIV (+)，CD4 = 80，headache + fever + altered mental status + 頸部僵硬", "text": "**最可能診斷：Cryptococcal Meningitis**\n\n**分析**：\n- CD4 < 100 + subacute meningitis → Cryptococcus 高度懷疑\n- 也要考慮 TB meningitis、bacterial meningitis\n\n**處理**：\n1. **CT head first** → 排除 mass effect\n2. **LP** → opening pressure（！）, CSF analysis\n   - CrAg, India ink\n   - Cell count, protein, glucose\n   - Gram stain, AFB, culture, cytology\n3. 同時送 **Serum CrAg**\n4. 如果 CrAg (+)：\n   - **Amphotericin B + Flucytosine × 2 weeks** (induction)\n   - → Fluconazole 400 mg/d × 8 weeks (consolidation)\n   - → Fluconazole 200 mg/d (maintenance)\n5. **ICP management** — 如果 opening pressure > 25 cmH₂O → therapeutic LP\n6. ART：延遲 4-6 週開始（避免 IRIS）"},
+        {"type": "collapsible", "summary": "Case 4：HIV (+)，CD4 = 60，左側肢體無力 + 認知功能下降，無發燒", "text": "**鑑別診斷**：\n- **PML** — progressive focal deficits + no fever → 首先考慮\n- **Toxoplasma** — 但通常有 fever\n- **CNS lymphoma** — 也可能\n\n**處理**：\n1. **Brain MRI with Gad**\n2. 如果看到 **white matter lesions, no enhancement** → PML\n   - CSF JC virus PCR 確認\n   - 治療 = **ART**（唯一有效方式）\n3. 如果看到 **ring-enhancing lesions** → Toxo vs Lymphoma\n   - Check Toxo IgG\n   - Empiric pyrimethamine + sulfadiazine\n   - 2 週後 repeat MRI\n4. 如果看到 **single periventricular enhancing lesion**\n   - CSF EBV PCR\n   - Consider brain biopsy\n   - Think CNS lymphoma"}
+      ]
+    }
+  ],
+  "related": ["hiv-fundamentals-diagnosis", "hiv-treatment-art"]
+}
