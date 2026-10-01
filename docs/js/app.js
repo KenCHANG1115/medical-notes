@@ -292,6 +292,7 @@
       }
       case 'source':
         return `<span class="source-tag">${esc(block.book)} p.${esc(block.pages)}</span>`;
+      case 'figure': return renderFigure(block);
       default: return block.text ? renderMarkdown(block.text) : '';
     }
   }
@@ -299,24 +300,44 @@
   function renderTable(block) {
     if (!block.headers || !block.rows) return '';
     let html = '<div style="overflow-x:auto;"><table class="note-table"><thead><tr>';
-    for (const h of block.headers) html += `<th>${esc(h)}</th>`;
+    for (const h of block.headers) html += `<th>${renderInline(h)}</th>`;
     html += '</tr></thead><tbody>';
     for (const row of block.rows) {
       html += '<tr>';
-      for (const cell of row) html += `<td>${esc(cell)}</td>`;
+      for (const cell of row) html += `<td>${renderInline(cell)}</td>`;
       html += '</tr>';
     }
     return html + '</tbody></table></div>';
   }
 
-  function renderMarkdown(text) {
+  function renderFigure(block) {
+    if (!block.src) return '';
+    const src = escAttr(block.src);
+    let html = `<figure class="note-figure"><a href="${src}" target="_blank" rel="noopener"><img src="${src}" alt="${escAttr(block.caption || block.label || '')}" loading="lazy"></a>`;
+    html += '<figcaption>';
+    if (block.label) html += `<span class="fig-label">${esc(block.label)}</span>`;
+    if (block.caption) html += esc(block.caption);
+    html += '</figcaption>';
+    if (block.explain) html += `<div class="fig-explain">${renderMarkdown(block.explain)}</div>`;
+    return html + '</figure>';
+  }
+
+  function escAttr(str) {
+    return esc(str).replace(/"/g, '&quot;');
+  }
+
+  function renderInline(text) {
     if (!text) return '';
     let s = esc(text);
     s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
     s = s.replace(/\*(.+?)\*/g, '<em>$1</em>');
     s = s.replace(/`(.+?)`/g, '<code style="background:var(--bg-sidebar);padding:0.1rem 0.3rem;border-radius:3px;font-size:0.85em;">$1</code>');
-    s = s.replace(/\n/g, '<br>');
-    return `<p style="margin:0.4rem 0;">${s}</p>`;
+    return s.replace(/\n/g, '<br>');
+  }
+
+  function renderMarkdown(text) {
+    if (!text) return '';
+    return `<p style="margin:0.4rem 0;">${renderInline(text)}</p>`;
   }
 
   function calloutIcon(style) {

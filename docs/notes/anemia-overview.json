@@ -1,0 +1,301 @@
+{
+  "id": "anemia-overview",
+  "title": "Anemia (一)：總論與診斷架構",
+  "title_en": "Anemia — Overview & Diagnostic Framework",
+  "title_zh": "貧血總論與診斷架構",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.65 Interpreting Peripheral Blood Smears (p.480-486)",
+    "Harrison's 22e - Ch.66 Anemia and Polycythemia (p.486-495)",
+    "Harrison's 22e - Ch.101 Hematopoietic Stem Cells (p.801-804)"
+  ],
+  "generated": "2026-10-01",
+  "sections": [
+    {
+      "title": "Overview / 貧血概論",
+      "content": [
+        {"type": "table", "headers": ["項目", "說明"], "rows": [
+          ["定義", "血球數值低於該族群的正常值（依年齡、性別、懷孕狀態而不同）"],
+          ["流行病學", "全球約 20 億人貧血，是最常見的醫療問題之一\n≥ 75% 屬於 hypoproliferative（製造不足）\n最常見原因：輕至中度缺鐵、發炎"],
+          ["老年人", "社區 > 65 歲約 11%、護理之家可達 40%\n與死亡、住院、衰弱風險上升相關"],
+          ["核心觀念", "貧血不是診斷，而是「症狀」→ 一定要找出原因\n常為多重原因（例：RA 病人 = 發炎 + NSAID 慢性腸胃道出血）"]
+        ]},
+        {"type": "heading", "text": "正常 Hb / Hct 值（Table 66-2）"},
+        {"type": "table", "headers": ["族群", "Hemoglobin (g/dL)", "Hematocrit (%)"], "rows": [
+          ["出生", "17", "52"],
+          ["兒童", "12", "36"],
+          ["青少年", "13", "40"],
+          ["成年男性", "16 (±2)", "47 (±6)"],
+          ["成年女性（有月經）", "13 (±2)", "40 (±6)"],
+          ["成年女性（停經後）", "14 (±2)", "42 (±6)"],
+          ["懷孕", "12 (±2)", "37 (±6)"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**貧血只有三種成因 — 用紅血球的「生命週期」來想**\n1. **製造不足（underproduction）**：骨髓做不出來 → 原料不足（鐵、B12、folate）、EPO 不足、骨髓本身壞掉\n2. **破壞增加（hemolysis）**：紅血球活不到 120 天\n3. **流失（blood loss）**：出血\n\n→ 第 1 類 reticulocyte **低**，第 2、3 類 reticulocyte **高**（骨髓正常代償）\n→ 這就是為什麼貧血 workup 的第一步是看 **reticulocyte count**"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "486-488, 491-493"}
+      ]
+    },
+    {
+      "title": "紅血球生成 (Erythropoiesis)",
+      "content": [
+        {"type": "heading", "text": "造血階層：紅血球從哪裡來"},
+        {"type": "figure", "src": "figures/anemia-overview/h101-2.png", "label": "Harrison's 22e Fig. 101-2", "caption": "造血分化階層（Hierarchy of hematopoietic differentiation）",
+          "explain": "**【怎麼看】**由左到右是分化方向：stem cell → progenitor → lineage-committed precursor → mature cell。箭頭上的黑字是**轉錄因子**，藍字是**生長因子**。\n**【紅血球這條線】**HSC → multipotent progenitor → common myeloid progenitor → **megakaryocyte-erythroid progenitor（MEP）**（需要 GATA1、FOG）→ erythrocyte progenitor →（EPO）→ RBC\n**【考點】**\n- **Aplastic anemia** 壞在最左邊的 stem cell → **pancytopenia**；**pure red cell aplasia** 只壞在 erythroid 這條 → **只有貧血**\n- 紅血球和血小板共用 MEP → EPO 和 TPO 的受體都靠 **JAK2** 傳訊 → JAK2 V617F 可造成 PV（紅血球多）或 ET（血小板多）\n- 臨床用藥對應：**EPO**（CKD 貧血）、**TPO agonist**（ITP）、**G-CSF**（neutropenia、幹細胞動員）"},
+        {"type": "table", "headers": ["項目", "說明"], "rows": [
+          ["第一個可辨認的前驅細胞", "**Pronormoblast** → 分裂 4–5 次 → 產生 16–32 個成熟紅血球"],
+          ["成熟紅血球", "直徑 **8 μm**、無核、雙凹圓盤狀（最大表面積/體積比 → 最大化氧氣交換）\n膜的完整性靠細胞內產生 ATP 維持"],
+          ["壽命與更新", "壽命 **100–120 天** → 每天替換 0.8–1% 的循環紅血球"],
+          ["Erythron", "負責紅血球生成的「器官」= 骨髓中快速增殖的 erythroid precursors + 循環中的成熟紅血球"]
+        ]},
+        {"type": "heading", "text": "EPO 回饋迴路"},
+        {"type": "figure", "src": "figures/anemia-overview/h66-1.png", "label": "Harrison's 22e Fig. 66-1", "caption": "組織氧分壓對紅血球生成的生理調控",
+          "explain": "**【怎麼看】**這是一個負回饋迴路：腎臟感測組織 **PO₂** → 分泌 **EPO** → 刺激骨髓 → red cell mass ↑ → Hb ↑ → 送到腎臟的氧氣 ↑ → EPO ↓\n**【迴路上的每一個點都可能出問題】**\n- **腎臟壞了**（CKD）→ 不會分泌 EPO → 貧血\n- **骨髓**要做紅血球還需要 **iron、folate、B12** → 原料不足時 EPO 再高也沒用\n- **Red cell destruction**（溶血）、**plasma volume**（稀釋）會影響 Hb\n- 下方的 heart、lungs、vessels、atmospheric O₂ 都會影響腎臟的 PO₂ → 慢性肺病、高海拔、**renal artery stenosis**（腎臟誤以為缺氧）→ **secondary polycythemia**"},
+        {"type": "table", "headers": ["EPO 重點", "內容"], "rows": [
+          ["製造部位", "**腎臟 peritubular capillary lining cells**（主要）、少量來自肝細胞"],
+          ["分子機轉", "常氧：HIF-1α 的 proline 被 **hydroxylate** → 被 VHL 泛素化 → proteasome 分解\n缺氧：無法 hydroxylate → HIF-1α 穩定 → 進入細胞核 → **EPO gene 表現 ↑**"],
+          ["正常值", "10–25 U/L（Fig. 66-2：9–26 mU/mL）"],
+          ["半衰期", "6–9 小時"],
+          ["反應速度", "EPO 刺激下，紅血球生成在 1–2 週內可增加 **4–5 倍** — **前提是鐵足夠**"],
+          ["會抑制 EPO 的因素", "CKD、發炎（TNF 等 cytokines）、老化、**ACE inhibitor**"]
+        ]},
+        {"type": "figure", "src": "figures/anemia-overview/h66-2.png", "label": "Harrison's 22e Fig. 66-2", "caption": "EPO 濃度對貧血的反應",
+          "explain": "**【怎麼看】**注意 y 軸是**對數刻度**。Hb 降到約 12 g/dL 以下時，EPO 開始**指數上升**；Hb 3 g/dL 時可達 10⁴ mU/mL（正常的上千倍）。\n**【考點】**\n- **CKD 和慢性發炎**：EPO 會**低於該貧血程度應有的值** → 「EPO 看起來正常」其實是**不適當地低**\n- 老化：維持正常 Hb 所需的 EPO 變多\n- 反過來用在 polycythemia：**EPO 低 → 想 PV**（骨髓自主製造）；EPO 高 → 找缺氧或 EPO 分泌腫瘤"},
+        {"type": "callout", "style": "logic", "text": "**Erythron 正常運作需要三個條件**（缺一就貧血）：\n1. 腎臟正常分泌 **EPO** → 缺乏：CKD、anemia of inflammation、老化\n2. 有功能的 **erythroid marrow** → 缺乏：aplastic anemia、PRCA、MDS、骨髓被腫瘤或感染取代\n3. 足夠的 **Hb 合成原料** → 缺乏：缺鐵、B12/folate 缺乏\n\n→ 這三點就是之後所有「製造不足型貧血」的分類依據"},
+        {"type": "callout", "style": "trap", "text": "**延伸：HIF 路徑的臨床應用**\n- **VHL 基因突變**（Chuvash polycythemia、VHL syndrome）→ HIF 無法被分解 → EPO ↑ → **polycythemia**\n- RCC、cerebellar hemangioblastoma（VHL 相關腫瘤）可分泌 EPO\n- **HIF-PH inhibitor**（如 roxadustat）：抑制 hydroxylation → 模擬缺氧 → 用於 CKD 貧血（此藥物為延伸補充，非本章內容）"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "486-487, 801-803"}
+      ]
+    },
+    {
+      "title": "臨床表現與代償機制",
+      "content": [
+        {"type": "heading", "text": "症狀與徵象"},
+        {"type": "table", "headers": ["類別", "表現"], "rows": [
+          ["氧氣運送不足", "疲倦、喘（尤其運動時）\n**黏膜/結膜蒼白**、休息時心搏過速、flow murmur"],
+          ["已有動脈硬化者", "缺血症狀：**angina**、TIA / stroke"],
+          ["原因相關線索", "**Pica**（異食癖）→ 缺鐵\n**Neuropathy** → B12 缺乏\n**Splenomegaly** → 溶血、骨髓疾病\n**糞便潛血** → 腸胃道出血"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**症狀嚴重度 ≠ Hct 高低**\n- 慢慢形成的貧血（數月）可以耐受**非常低**的 Hb\n- 急性貧血（出血）即使 Hb 下降不多也可能很不舒服\n- 心臟儲備差的病人在**較高**的 Hct 就會出現症狀\n→ Harrison：「症狀與徵象對預測 hematocrit **非常不可靠**」"},
+        {"type": "heading", "text": "三種代償機制（快 → 慢）"},
+        {"type": "table", "headers": ["機制", "時間", "原理"], "rows": [
+          ["① **Cardiac output ↑**", "數分鐘", "O₂ delivery = CO × Hb → Hb 低就提高 CO\n→ 心臟功能差的人代償不了"],
+          ["② **2,3-DPG ↑**", "數小時–數天", "穩定 deoxy-Hb → Hb 對 O₂ 親和力 ↓（**曲線右移**）→ 組織拿到更多氧\n肺泡 O₂ 分壓高，所以在肺部仍能充分氧合"],
+          ["③ **Plasma volume ↑**", "數週", "維持 CO 與血壓、降低血液黏稠度\n→ 過多時可能造成水腫、心衰竭"]
+        ]},
+        {"type": "heading", "text": "病史與理學檢查重點"},
+        {"type": "list", "ordered": false, "items": [
+          "**過去病史**：之前是否貧血、吃過鐵劑、輸過血、**捐血**",
+          "**家族史**：遺傳性貧血（thalassemia、spherocytosis、G6PD）",
+          "**月經史**：週期長度、衛生棉使用量、是否有大血塊",
+          "**腸胃症狀**：腹瀉 → 想 celiac disease、IBD（吸收不良）",
+          "**理學檢查**：貧血的後果（flow murmur）＋ 原因的線索（脾腫大、糞便潛血）"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "487"}
+      ]
+    },
+    {
+      "title": "實驗室檢查：RBC Indices 與 Reticulocyte",
+      "content": [
+        {"type": "heading", "text": "Red Cell Indices（Table 66-1）"},
+        {"type": "table", "headers": ["指標", "公式", "正常值", "臨床價值"], "rows": [
+          ["**MCV**", "Hct / RBC × 10", "85–95 fL\n（多數檢驗室用 80–100）", "**最常用** — 紅血球大小，貧血分類的依據"],
+          ["MCHC", "Hgb / Hct × 100", "33.8–34.2 g/dL", "大多數貧血變化很小 → 價值有限\n（例外：HS 時升高）"],
+          ["MCH", "Hgb / RBC × 10", "28.5–32.3 pg", "與 MCV 線性相關 → 額外價值有限"],
+          ["**RDW**", "(MCV 的 SD ÷ MCV) × 100", "11–14%", "紅血球**大小不一**的程度（anisocytosis）\n異常時升高到 15–18%"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**RDW 的兩個用途**\n1. **Microcytic 貧血鑑別**：\n   - **IDA** → 大小不一 → **RDW ↑**\n   - **Thalassemia** → 均勻地小 → **RDW 正常**\n2. **混合型貧血（dimorphic anemia）**：\n   - 例：atrophic gastritis → B12 吸收不良（大球）＋ 慢性失血缺鐵（小球）\n   - 兩者平均後 **MCV 可能正常**，但 **RDW 明顯上升** → 不要被正常 MCV 騙了"},
+        {"type": "heading", "text": "Reticulocyte Count — 骨髓有沒有在工作"},
+        {"type": "table", "headers": ["項目", "說明"], "rows": [
+          ["Reticulocyte 是什麼", "剛從骨髓釋出的紅血球，仍含 **mRNA 約 24 小時**\n用 new methylene blue（supravital stain）可染出網狀 RNA"],
+          ["在 Wright stain 上", "看起來是 **polychromasia**：比較大、偏灰藍色"],
+          ["臨床意義", "反映紅血球**製造量** → 區分「破壞/流失增加」vs「製造不足」"]
+        ]},
+        {"type": "figure", "src": "figures/anemia-overview/h66-12.jpg", "label": "Harrison's 22e Fig. 66-12", "caption": "Reticulocytes（methylene blue 染色）",
+          "explain": "**【怎麼看】**細胞內深藍色的網狀/顆粒狀物質 = 殘留的 RNA。只有用 supravital stain（new methylene blue）才看得到這個網狀結構；一般 Wright stain 只會看到偏藍的 polychromatophilic cells。"},
+        {"type": "figure", "src": "figures/anemia-overview/h66-13.png", "label": "Harrison's 22e Fig. 66-13", "caption": "Reticulocyte 百分比的判讀陷阱",
+          "explain": "**【怎麼看】**每一格的黑點都是**同樣 1 個** reticulocyte（絕對數量沒變），但紅血球總數越來越少 → 百分比從 1% → 2% → 10%。\n**【考點】**貧血時 reticulocyte **百分比會假性升高** → 必須校正 Hct，或直接看 **absolute reticulocyte count**。"},
+        {"type": "table", "headers": ["計算方式", "公式", "說明"], "rows": [
+          ["Corrected reticulocyte count", "Retic % × (病人 Hct / 45)", "校正貧血造成的百分比膨脹"],
+          ["Absolute reticulocyte count", "Retic % / 100 × RBC 數", "以單位體積計算 → **不需校正**\n新型血球計數機可直接測量"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**補充：Reticulocyte Production Index（RPI）**（國考常考，非 Harrison 22e 本章內容）\n嚴重貧血時 EPO 會讓 reticulocyte **提早釋放**到血液中，在血中存活更久 → 還要再校正「成熟時間」：\n\nRPI = Corrected retic % ÷ maturation time\n- Hct 36–45% → 1.0 天\n- Hct 26–35% → 1.5 天\n- Hct 16–25% → 2.0 天\n- Hct ≤ 15% → 2.5 天\n\n**判讀**：RPI **≥ 2–3** → 骨髓代償足夠（溶血、出血）；RPI **< 2** → 製造不足\n\n**例題**：Hct 25%、retic 6% → corrected = 6 × 25/45 = 3.3% → RPI = 3.3 / 2.0 = **1.67** → 其實是**代償不足**！"},
+        {"type": "heading", "text": "鐵學檢查（快速參考）"},
+        {"type": "table", "headers": ["檢查", "正常值", "意義"], "rows": [
+          ["Serum iron", "50–150 μg/dL", "有日夜變化"],
+          ["TIBC", "300–360 μg/dL", "≈ transferrin 量"],
+          ["Transferrin saturation", "25–50%", "= serum iron × 100 / TIBC"],
+          ["**Ferritin**", "男 ~100 μg/L、停經前女 ~30 μg/L", "反映**全身鐵存量**\n**< 30** → 鐵存量耗盡；**> 200** → 組織中至少還有一些鐵\n⚠️ **Acute-phase reactant** → 發炎時會假性升高"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "480, 487-490, 492"}
+      ]
+    },
+    {
+      "title": "周邊血液抹片 (Blood Smear)",
+      "content": [
+        {"type": "heading", "text": "怎麼看抹片"},
+        {"type": "list", "ordered": true, "items": [
+          "**看哪裡**：feathered edge（羽毛狀邊緣），紅血球單層排列、剛好相鄰不重疊",
+          "**順序**：由小到大 → 血小板 → 紅血球 → 白血球",
+          "**紅血球大小**：和 **small lymphocyte 的細胞核**比（兩者都約 8 μm）→ 比較小 = microcytic，比較大 = macrocytic",
+          "**血紅素含量**：normochromic 或 hypochromic → 紅血球**沒有** hyperchromic（Hb 做太多細胞會變大，不會變深）",
+          "**大小不一** = anisocytosis（↔ RDW ↑）；**形狀不一** = poikilocytosis",
+          "**內含物**、**排列方式**（rouleaux、agglutination）",
+          "最後看白血球（hypersegmentation、blast、smudge cell 等）"
+        ]},
+        {"type": "figure", "src": "figures/anemia-overview/h65-1.jpg", "label": "Harrison's 22e Fig. 65-1", "caption": "正常周邊血液抹片",
+          "explain": "**【怎麼看】**中間是 small lymphocyte → 用它的**細胞核**當尺：正常紅血球直徑和細胞核差不多。紅血球中央淡染區（central pallor）約佔直徑 1/3。"},
+        {"type": "heading", "text": "紅血球形態 → 病理機轉 → 疾病（Table 66-3）"},
+        {"type": "table", "headers": ["形態", "病理機轉", "代表疾病"], "rows": [
+          ["Macro-ovalocytes", "核質發育不同步（DNA 合成障礙）", "B12/folate 缺乏、MDS"],
+          ["Spherocytes", "**膜流失**", "Hereditary spherocytosis、immune hemolytic anemia"],
+          ["Hypochromia", "Hb 不足（↔ MCHC ↓）", "缺鐵、thalassemia、sideroblastic anemia、ACD"],
+          ["Schistocytes", "紅血球被**物理性切碎**", "Microangiopathic hemolysis（TTP/HUS/DIC）、人工瓣膜"],
+          ["Sickle cells", "Hb **聚合**", "Sickle cell disease"],
+          ["Target cells", "**相對膜過多**", "肝病、thalassemia、hemoglobinopathy（HbC）"],
+          ["Polychromatophilia", "多核糖體殘留（↔ reticulocyte ↑）", "溶血性貧血"],
+          ["Basophilic stippling", "多核糖體異常沉澱", "Thalassemia、**鉛中毒**"]
+        ]},
+        {"type": "heading", "text": "大小與血紅素含量"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-3.jpg", "label": "Harrison's 22e Fig. 65-3", "caption": "缺鐵的低色素小球性貧血",
+          "explain": "**【怎麼看】**紅血球比 lymphocyte 的細胞核**還小**，中央淡染區**變大**（hypochromic），大小也不一致。\n**【考點】**Hypochromic microcytic 的鑑別：**IDA、thalassemia、ACD、sideroblastic** → 下一步驗 **ferritin**。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-6.jpg", "label": "Harrison's 22e Fig. 65-6", "caption": "Macrocytosis（macro-ovalocytes）",
+          "explain": "**【怎麼看】**紅血球比正常大（MCV > 100），而且偏**橢圓形**。\n**【考點】**\n- **Oval** macrocytes → DNA 合成障礙：**B12/folate 缺乏**、藥物（化療、部分抗癲癇藥）、**MDS**\n- **Round** macrocytes → 膜的問題：酒精、肝病、甲狀腺低下、reticulocytosis"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-7.jpg", "label": "Harrison's 22e Fig. 65-7", "caption": "Hypersegmented neutrophils",
+          "explain": "**【怎麼看】**嗜中性球比正常大，核分葉 **≥ 5 葉**。\n**【考點】**Megaloblastic anemia（**B12 或 folate 缺乏**）的特徵 → 看到它就驗 B12、folate。大球性貧血 **+ hypersegmentation** = megaloblastic；**沒有** hypersegmentation 但是 oval macrocytes → 想 MDS、藥物。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-5.jpg", "label": "Harrison's 22e Fig. 65-5", "caption": "Polychromatophilia",
+          "explain": "**【怎麼看】**較大、偏淡紫/灰藍色的紅血球 = 還在製造 Hb 的年輕紅血球（含核糖體）。\n**【考點】**就是 Wright stain 上的 **reticulocyte** → 代表骨髓積極製造：**溶血、急性出血**。也可見於骨髓結構被破壞（纖維化、腫瘤浸潤）導致的不規則釋放。"},
+        {"type": "heading", "text": "形狀異常（Poikilocytes）"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-8.jpg", "label": "Harrison's 22e Fig. 65-8", "caption": "Spherocytosis",
+          "explain": "**【怎麼看】**小而深染、**沒有中央淡染區**的圓形紅血球。\n**【機轉】**膜流失 → 同樣體積下表面積最小的形狀是球形。\n**【考點】**最常見於 **autoimmune hemolytic anemia（warm）** 和 **hereditary spherocytosis** → 兩者都有 spherocytes，用 **DAT（Coombs test）**區分：AIHA 陽性、HS 陰性。其他：clostridial sepsis。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-11.jpg", "label": "Harrison's 22e Fig. 65-11", "caption": "Fragmented red cells（schistocytes）— 人工瓣膜溶血",
+          "explain": "**【怎麼看】**紅血球碎片：頭盔狀（helmet cell）、三角形、不規則碎片。\n**【機轉】**紅血球被血管中的血小板/纖維蛋白網或外力切碎。\n**【考點】**Schistocytes = **microangiopathic hemolytic anemia（MAHA）** → **TTP、HUS、DIC**、人工心臟瓣膜、march hemoglobinuria。\n⚠️ Schistocytes + thrombocytopenia → 先想 **TTP**（急症，需 plasma exchange）。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-12.jpg", "label": "Harrison's 22e Fig. 65-12", "caption": "Sickle cells（homozygous sickle cell disease）",
+          "explain": "**【怎麼看】**鐮刀狀、兩端尖的紅血球；畫面中還有一個有核紅血球（右下）和一個嗜中性球。\n**【機轉】**HbS 在去氧狀態下**聚合** → 紅血球變形。\n**【考點】**Sickle cell disease（HbSS）。抹片上常伴隨 **Howell-Jolly bodies**（反覆脾梗塞 → **autosplenectomy**）和 target cells。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-13.jpg", "label": "Harrison's 22e Fig. 65-13", "caption": "Target cells",
+          "explain": "**【怎麼看】**牛眼狀（bull's eye）：中央淡染區裡面又有一個深染的中心。\n**【機轉】**膜相對於 Hb 太多：thalassemia 是 Hb 太少，肝病是膜太多。\n**【考點】**少量見於**肝病、thalassemia**；大量是 **HbC disease** 的特徵。也可見於缺鐵，或是抹片製作不當的假象。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-14.jpg", "label": "Harrison's 22e Fig. 65-14", "caption": "Elliptocytosis",
+          "explain": "**【怎麼看】**橢圓形紅血球。\n**【考點】****Hereditary elliptocytosis**（多為 **spectrin** 突變 → 膜結構變弱）；也見於缺鐵（pencil cells）、MDS、megaloblastic anemia、thalassemia。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-16.jpg", "label": "Harrison's 22e Fig. 65-16", "caption": "Acanthocytes 與 echinocytes",
+          "explain": "**【怎麼看】**兩種有刺的紅血球：\n- **Acanthocyte（spur cell）**：刺**少、長短粗細不一、分布不規則**，細胞較緻密\n- **Echinocyte（burr cell）**：刺**小、均勻、等距分布**\n**【考點】**\n- Acanthocyte → **嚴重肝病**（膜上膽固醇結晶）、**abetalipoproteinemia**、McLeod blood group、脾切除後\n- Echinocyte → **尿毒症**、紅血球醣解酵素缺陷（如 pyruvate kinase deficiency）、MAHA；也常是**抹片乾燥的假象**、可逆"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-18.jpg", "label": "Harrison's 22e Fig. 65-18", "caption": "Teardrop cell（左）與 nucleated RBC（右）— myelofibrosis",
+          "explain": "**【怎麼看】**左：淚滴狀紅血球（dacrocyte）；右：有核紅血球。\n**【機轉】**骨髓結構被破壞（纖維化、腫瘤浸潤）→ 紅血球被「擠」出骨髓、或在髓外造血。\n**【考點】**Teardrop cells + nucleated RBCs + 不成熟白血球 = **leukoerythroblastic picture（myelophthisic）** → **必須做骨髓檢查**。Myelofibrosis 抽骨髓常 **dry tap** → 要做 biopsy。"},
+        {"type": "heading", "text": "內含物（Inclusions）"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-17.jpg", "label": "Harrison's 22e Fig. 65-17", "caption": "Howell-Jolly bodies",
+          "explain": "**【怎麼看】**紅血球內小而緻密、圓形的深藍紫色點 = **細胞核殘餘**。\n**【機轉】**正常會被脾臟清除 → 出現 = **脾臟沒有功能**。\n**【考點】**脾切除後、**功能性無脾**（sickle cell disease 的 autosplenectomy）、celiac disease；也見於成熟障礙或發育不良疾病（製造太多）。\n→ 看到它要想到**莢膜菌感染風險**（肺炎鏈球菌、腦膜炎雙球菌、Hib）→ 疫苗。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-21.jpg", "label": "Harrison's 22e Fig. 65-21", "caption": "Basophilic stippling（鉛中毒）",
+          "explain": "**【怎麼看】**紅血球內散布**粗大的藍色小點** = 沉澱的核糖體 RNA。\n**【考點】**經典是**鉛中毒**（鉛抑制 pyrimidine 5'-nucleotidase → RNA 無法分解），也見於 **thalassemia**。鉛中毒同時抑制 heme 合成 → 也可造成小球性貧血、sideroblasts。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-22.jpg", "label": "Harrison's 22e Fig. 65-22", "caption": "Heinz bodies（crystal violet 活體染色）",
+          "explain": "**【怎麼看】**紅血球邊緣的深色小團塊 = **變性沉澱的血紅素**。\n**【考點】**\n- ⚠️ 一般 Wright stain **看不到**，需要 **supravital stain**（crystal violet）\n- 見於 **G6PD deficiency**（氧化壓力下）、unstable hemoglobin\n- 脾臟把 Heinz body「咬掉」→ Wright stain 上看到的是 **bite cells**"},
+        {"type": "heading", "text": "排列異常"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-9.jpg", "label": "Harrison's 22e Fig. 65-9", "caption": "Rouleaux formation",
+          "explain": "**【怎麼看】**紅血球**疊成一串**，像一疊硬幣。\n**【機轉】**血漿蛋白（尤其免疫球蛋白）增加 → 中和紅血球表面負電荷。\n**【考點】****Multiple myeloma**、其他 paraproteinemia → 同時 **ESR 極高**。"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-10.jpg", "label": "Harrison's 22e Fig. 65-10", "caption": "Red cell agglutination",
+          "explain": "**【怎麼看】**紅血球**不規則地聚成一團**（不是整齊的一串）。\n**【考點】****Cold agglutinin disease**（IgM 自體抗體）、某些 paraproteinemia。\n⚠️ 經典陷阱：凝集會讓血球計數機算錯 → **MCV 假性升高、RBC 假性降低、MCHC 假性升高** → 把檢體**加溫到 37°C** 重測就會恢復正常。"},
+        {"type": "callout", "style": "trap", "text": "**容易混淆的對照**\n-**Rouleaux vs agglutination**：整齊疊成串（myeloma）vs 不規則團塊（cold agglutinin）\n- **Spur（acanthocyte）vs burr（echinocyte）**：不規則長刺（肝病）vs 均勻短刺（尿毒症、假象）\n- **Spherocyte vs microcyte**：沒有中央淡染區 vs 有淡染區只是比較小\n- **Heinz body vs Howell-Jolly body**：需特殊染色的變性 Hb（G6PD）vs Wright stain 可見的核殘餘（無脾）"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "480-486, 488-490"}
+      ]
+    },
+    {
+      "title": "骨髓檢查 (Bone Marrow Exam)",
+      "content": [
+        {"type": "table", "headers": ["", "Aspiration（抽吸）", "Biopsy（切片）"], "rows": [
+          ["方法", "從後髂嵴抽出骨髓，Wright / Wright-Giemsa 染色", "取出完整「core」→ 脫鈣、切片、H&E 染色"],
+          ["看什麼", "個別細胞形態、細胞分類計數、**M:E ratio**、鐵染色（鐵存量）\n可送 flow cytometry、基因、微生物檢查", "**骨髓結構**、**細胞密度**、異常浸潤、**纖維化**"],
+          ["順序", "後做", "**先做**（先抽吸的話出血會扭曲切片）"]
+        ]},
+        {"type": "table", "headers": ["正常值", "內容"], "rows": [
+          ["M:E ratio", "**2.5 : 1**（範圍 2:1 – 5:1）"],
+          ["細胞密度", "約 **50%**（一半造血細胞、一半脂肪）\n脂肪百分比 ≈ 病人年齡 → 細胞密度約 100 − 年齡"]
+        ]},
+        {"type": "figure", "src": "figures/anemia-overview/h66-14.jpg", "label": "Harrison's 22e Fig. 66-14", "caption": "正常骨髓切片（H&E，低倍）",
+          "explain": "**【怎麼看】**有核造血細胞約佔 40–50%，白色空泡（脂肪）約 50–60%。\n**【對照】**Aplastic anemia → 幾乎全是脂肪（hypocellular）；白血病、MDS → 細胞塞滿（hypercellular）；myelofibrosis → 被纖維取代。"},
+        {"type": "figure", "src": "figures/anemia-overview/h66-15.jpg", "label": "Harrison's 22e Fig. 66-15", "caption": "Erythroid hyperplasia",
+          "explain": "**【怎麼看】**紅血球系細胞比例增加，**M:E ratio 約 1:1**（正常 2.5:1）。\n**【考點】**正常骨髓對**急性出血或溶血**的代償反應 → 此時 reticulocyte 應該上升。若骨髓 erythroid hyperplasia 但 reticulocyte **不高** → **ineffective erythropoiesis**（megaloblastic anemia、thalassemia、MDS）。"},
+        {"type": "callout", "style": "guideline", "text": "**骨髓檢查的適應症**\n1. 周邊血出現不成熟細胞（如 **blasts**）\n2. 嚴重 **pancytopenia**\n3. Reticulocyte 極低（**< 0.1%**）\n4. 周邊血出現 **nucleated RBCs**\n5. 骨髓浸潤的證據（**teardrop cells**、nucleated RBCs）\n6. 某些惡性腫瘤分期（如 lymphoma）\n7. 原因不明的嚴重貧血"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "490-491"}
+      ]
+    },
+    {
+      "title": "貧血分類與診斷流程",
+      "content": [
+        {"type": "heading", "text": "兩種分類法（Table 66-4）"},
+        {"type": "table", "headers": ["依紅血球大小（MCV）", "可能疾病"], "rows": [
+          ["**Microcytic**\n（Hb 製造不足 → 細胞變小）", "Iron deficiency（無法做 heme）\nThalassemia（globin 合成缺陷）\nAnemia of inflammation（鐵無法送到紅血球；**常為 normocytic**）\nSideroblastic anemia（heme 合成缺陷）"],
+          ["**Macrocytic — oval**\n（DNA 合成障礙）", "Vitamin B12 缺乏、folate 缺乏\n藥物（化療、部分抗癲癇藥）\nMyelodysplasia"],
+          ["**Macrocytic — round**\n（膜的問題）", "酒精、肝病、甲狀腺低下\nDysproteinemia、缺氧、吸菸\nReticulocytosis（年輕紅血球本來就大）"],
+          ["**Normocytic**", "Aplastic anemia、pure red cell aplasia\n腎臟病、內分泌疾病\n骨髓侵犯、myeloma"]
+        ]},
+        {"type": "table", "headers": ["依機轉", "分類", "例子"], "rows": [
+          ["**Hyperproduction**\n（retic ↑）", "出血", "急性/慢性失血"],
+          ["", "溶血 — 後天", "Autoimmune、mechanical"],
+          ["", "溶血 — 先天", "膜缺陷、hemoglobinopathy、酵素缺陷"],
+          ["**Underproduction**\n（retic ↓）", "營養缺乏", "**鐵**、B12、folate、銅、維生素 C"],
+          ["", "缺乏紅血球前驅細胞", "Aplastic anemia、PRCA（**parvovirus B19**、自體免疫）"],
+          ["", "EPO 不足", "腎臟病、anemia of inflammation、老化"],
+          ["", "骨髓被取代", "肉芽腫疾病、感染（TB、histoplasmosis）、腫瘤（攝護腺癌轉移、myeloma）"],
+          ["", "幹細胞缺陷", "急性/慢性白血病、MDS"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**為什麼小球性 = 細胞質的問題，大球性 = 細胞核的問題？**\n- 紅血球前驅細胞會一直分裂，**直到細胞內 Hb 濃度足夠**才停止\n- **Hb 做不夠**（缺鐵、thalassemia）→ 多分裂幾次 → 細胞變**小** → microcytic =「cytoplasmic defect」\n- **DNA 做不出來**（B12/folate）→ 細胞核跟不上細胞質 → 分裂次數變少 → 細胞變**大** → macrocytic =「nuclear defect」（核質發育不同步）"},
+        {"type": "heading", "text": "診斷流程圖"},
+        {"type": "figure", "src": "figures/anemia-overview/h66-17.png", "label": "Harrison's 22e Fig. 66-17", "caption": "貧血的生理分類（診斷流程）",
+          "explain": "**【怎麼看】**整張圖只有兩個分岔點：\n**① 第一刀：Absolute reticulocyte count**\n- **高（右邊）**→ 骨髓在努力 → 問題在**破壞或流失**：出血、血管內溶血、代謝缺陷、膜異常、hemoglobinopathy、免疫破壞、碎裂性溶血\n- **低（左邊）**→ 骨髓做不出來 → 進入第二刀\n**② 第二刀：MCV**\n- **低** → cytoplasmic defect → 驗 **ferritin**：低 = **缺鐵**；正常或高 = anemia of inflammation、sideroblastic、thalassemia\n- **正常** → hypoproliferative → 找**骨髓損傷**（浸潤/纖維化、aplasia、發炎、腎病、老化）→ 驗 EPO、BUN/Cr、SPEP/light chains、骨髓檢查\n- **高** → nuclear defect → 看**抹片**：round macrocytes = 酒精、肝病；oval macrocytes → 有 hypersegmentation = **B12/folate**，沒有 = **MDS**、藥物\n**【考點】**國考題幾乎都可以用這張圖解：先給 retic，再給 MCV，最後給一個關鍵檢查（ferritin、抹片、DAT）。"},
+        {"type": "heading", "text": "各分支的下一步"},
+        {"type": "table", "headers": ["情境", "下一步", "重點"], "rows": [
+          ["**Retic 高**", "先排除出血 → 驗溶血指標", "**LDH ↑、haptoglobin ↓、indirect bilirubin ↑**、血/尿游離 Hb ↑\n抹片：spherocytes、schistocytes\n**DAT** 區分免疫性溶血"],
+          ["**Retic 低 + MCV 低**", "**Ferritin**", "低 → 缺鐵\n正常 → 評估 thalassemia（RDW 正常、RBC 數偏高）\nAnemia of inflammation 是**排除性診斷**"],
+          ["**Retic 低 + MCV 高**", "**抹片**", "Hypersegmentation + macro-ovalocytes → **B12、folate**\nMacro-ovalocytes 但營養檢查正常 → **骨髓檢查**（MDS）\nRound macrocytes → 問病史（肝病、酒精）"],
+          ["**Retic 低 + MCV 正常**", "腎功能、EPO", "排除其他疾病後仍無原因 → 考慮骨髓檢查"]
+        ]},
+        {"type": "heading", "text": "製造不足的各類原因"},
+        {"type": "table", "headers": ["類別", "重點"], "rows": [
+          ["營養缺乏", "**鐵**是最重要的營養素：每個 Hb 分子需 4 個鐵原子，每個紅血球約 10 億個鐵原子\n缺鐵是全球最常見的營養缺乏，停經前女性尤其常見\n早期缺鐵或合併肝病時**可以沒有** microcytosis\nB12、folate → megaloblastic anemia：大球 + hypersegmentation + 骨髓**高度 hypercellular**\n銅缺乏 → 常合併**神經病變、neutropenia**"],
+          ["骨髓被取代", "感染（histoplasmosis、TB）、腫瘤轉移（如攝護腺癌）、**multiple myeloma**（老年人）\n抹片呈 **myelophthisic** 表現 → 必須做骨髓檢查"],
+          ["EPO 不足", "**CKD**：GFR < 30 mL/min/1.73m² 幾乎都會貧血\n**Anemia of inflammation**：TNF 等 cytokines 抑制 EPO + **hepcidin ↑** → 鐵無法吸收、無法從儲存處釋出\n**ACE inhibitor** 可抑制 EPO"],
+          ["缺乏紅血球前驅細胞", "**Aplastic anemia**：骨髓極度 hypocellular → 三系皆低（自體免疫、藥物、毒物/放射線）\n**PRCA**：只有紅血球系減少 → **parvovirus B19**、自體免疫 → retic 極低"],
+          ["幹細胞缺陷", "AML、CML：通常白血球高 + 不成熟細胞，少數只表現為貧血\n**MDS**：可只有大球性貧血，或 pancytopenia；部分會轉成急性白血病\n診斷靠骨髓 + 分子檢測"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**診斷陷阱整理**\n1. **Ferritin 是 acute-phase reactant** → 發炎時可假性正常/偏高 → 不能排除缺鐵\n2. **混合型貧血**：MCV 正常但 RDW ↑ → 想「缺鐵 + B12 缺乏」同時存在\n3. **Anemia of inflammation 的 MCV 常是正常的** → 不要以為一定是小球性\n4. **Retic % 會假性升高** → 一定要校正或看 absolute count\n5. **Reticulocytosis 本身會讓 MCV 上升**（年輕紅血球比較大）→ 溶血病人 MCV 偏高不代表 B12 缺乏"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "491-494"}
+      ]
+    },
+    {
+      "title": "治療原則",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "**確定治療要先找到原因**，但在 workup 期間部分病人需要輸血支持\n\n**明確的輸血適應症**：\n- **低血壓**\n- **心臟受損的徵象**，例如 **angina**\n- 骨髓衰竭病人在接受確定治療前的支持"},
+        {"type": "callout", "style": "trap", "text": "**任何貧血都要完整評估鐵的狀態** — 治療前和治療中都要\n- 原因常是多重的（例：RA = 發炎 + NSAID 腸胃道出血）\n- 補 EPO 時如果鐵不夠 → 骨髓還是做不出紅血球"},
+        {"type": "table", "headers": ["治療", "適用", "詳見"], "rows": [
+          ["輸血（blood component therapy）", "嚴重或有症狀的貧血", "Ch.118"],
+          ["鐵劑", "缺鐵", "Ch.102"],
+          ["B12 / folate", "Megaloblastic anemia", "Ch.104"],
+          ["**Recombinant EPO**", "**CKD 透析病人**、化療中的癌症病人（減少輸血）", "—"],
+          ["**TGF-β inhibitor**（如 luspatercept）", "**MDS** 相關貧血", "Ch.107"],
+          ["**Complement inhibitor**（如 eculizumab）", "**PNH**", "Ch.105"],
+          ["基因治療", "Sickle cell disease 等 globin 基因疾病", "Ch.103"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "493"}
+      ]
+    },
+    {
+      "title": "延伸：Polycythemia（紅血球增多）",
+      "content": [
+        {"type": "table", "headers": ["項目", "說明"], "rows": [
+          ["何時懷疑", "Hb **> 17 g/dL（男）、> 15 g/dL（女）**\nHct > 50%（男）、> 45%（女）可能異常；> 60%（男）、> 55%（女）幾乎都是 red cell mass 真的增加"],
+          ["三大類", "**Spurious / relative**：plasma volume 減少（Gaisböck syndrome）\n**Primary**：polycythemia vera（骨髓自主製造）\n**Secondary**：幾乎都由 **EPO** 媒介"],
+          ["症狀", "**高黏稠度 + 血栓**（Hct > 55% 黏稠度呈對數上升）：眩暈、耳鳴、頭痛、視覺障礙、高血壓\nPV 特有：**aquagenic pruritus**、脾腫大、Budd-Chiari、內臟靜脈血栓"],
+          ["病史重點", "吸菸、高海拔、利尿劑、先天性心臟病、睡眠呼吸中止、慢性肺病\n**Testosterone、EPO、SGLT2 inhibitor** 使用"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**用 EPO 把 polycythemia 一刀切開**（承接本筆記的 EPO 回饋迴路）\n\n先排除缺氧（O₂ sat > 93%）→ 驗 **serum EPO**\n\n**EPO 低或正常** → 骨髓不受 EPO 控制 → **Polycythemia vera**\n- **JAK2 V617F** 突變佔 90–95%，其餘多為 exon 12 突變\n- 支持證據：白血球 ↑、basophil ↑、血小板 ↑、脾腫大\n\n**EPO 高** → 再分「適當」或「不適當」：\n- **缺氧（適當）**：肺病、心臟病（右到左分流）、高海拔、**CO 中毒/吸菸**（COHb ↑ → smoker's polycythemia）、high O₂-affinity Hb\n- **自主分泌（不適當）**：**hepatoma、uterine leiomyoma、RCC/腎囊腫**、cerebellar hemangioma、renal artery stenosis\n- 遺傳：VHL（Chuvash）、EGLN1（PHD2）、EPAS1（HIF-2α）突變"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "493-495"}
+      ]
+    },
+    {
+      "title": "Clinical Practice / 臨床思考練習",
+      "content": [
+        {"type": "collapsible", "summary": "Case 1：32 歲女性，疲倦、運動時喘。Hb 9.2、MCV 71、RDW 18.5%、reticulocyte 0.6%", "text": "**Step 1：Reticulocyte** → 低 → **製造不足**\n**Step 2：MCV** → 71 → **microcytic**（cytoplasmic defect）\n**Step 3：RDW** → 18.5% 升高 → 大小不一 → 傾向 **IDA**（thalassemia 通常 RDW 正常）\n**Step 4：驗 ferritin** → 若 < 30 μg/L → 確診缺鐵\n\n**接下來一定要問：為什麼缺鐵？**\n- 月經量（衛生棉用量、血塊）\n- 腸胃道出血（糞便潛血）\n- 吸收不良（celiac disease）\n- 飲食、捐血\n\n抹片預期：hypochromic microcytes（比 lymphocyte 細胞核小）、pencil cells"},
+        {"type": "collapsible", "summary": "Case 2：24 歲男性，健檢發現 Hb 12.0、MCV 64、RBC 6.1 × 10⁶/μL、RDW 13%、ferritin 正常", "text": "**分析**：\n- MCV 非常低，但貧血**很輕微** → 不像缺鐵（缺鐵到 MCV 64 通常 Hb 會更低）\n- **RBC 數反而偏高**、**RDW 正常** → 均勻地小\n- Ferritin 正常 → 排除缺鐵\n→ 最可能是 **thalassemia trait**\n\n**補充：Mentzer index**（非 Harrison 22e 本章內容）\nMCV ÷ RBC（百萬/μL）= 64 ÷ 6.1 ≈ **10.5**\n- **< 13** → 傾向 thalassemia trait\n- **> 13** → 傾向 IDA\n\n**下一步**：Hb electrophoresis（β-thal trait → HbA₂ ↑）\n⚠️ **不要給鐵劑** → thalassemia 病人補鐵會造成 iron overload"},
+        {"type": "collapsible", "summary": "Case 3：70 歲男性，手腳麻木、步態不穩。Hb 8.4、MCV 116、reticulocyte 低，抹片見 hypersegmented neutrophils", "text": "**分析**：\n- Retic 低 → 製造不足\n- MCV 116 → macrocytic（nuclear defect）\n- **Hypersegmented neutrophils + macro-ovalocytes** → **megaloblastic anemia**\n- **神經症狀** → 強烈指向 **B12 缺乏**（folate 缺乏不會造成神經病變）\n\n**下一步**：驗 B12、folate（必要時 methylmalonic acid、homocysteine）\n\n⚠️ **陷阱**：\n- 如果只補 folate → 貧血會改善，但 **B12 缺乏的神經損傷會繼續惡化**\n- 若 B12、folate 都正常，但仍是 oval macrocytes → 考慮 **MDS** → 骨髓檢查"},
+        {"type": "collapsible", "summary": "Case 4：26 歲女性，突然黃疸、疲倦。Hb 7.0、Hct 21%、reticulocyte 9%、LDH 上升、haptoglobin 測不到，抹片見許多 spherocytes", "text": "**Step 1：校正 reticulocyte**\nCorrected = 9 × 21/45 = **4.2%** → 仍然升高\nRPI（Hct 21% → maturation 2.0）= 4.2 / 2 = **2.1** → 骨髓有代償\n\n**Step 2：溶血證據**\nLDH ↑、haptoglobin ↓、黃疸（indirect bilirubin ↑）→ **溶血**\n\n**Step 3：Spherocytes** → 兩個主要鑑別\n- **Warm AIHA**（後天、急性發生、可能有 SLE 等自體免疫疾病）\n- **Hereditary spherocytosis**（家族史、從小就有、脾腫大、膽結石）\n\n**Step 4：DAT（direct Coombs test）**\n- 陽性（IgG ± C3）→ **warm AIHA** → 類固醇\n- 陰性 → 考慮 HS → EMA binding test / osmotic fragility\n\n**機轉連結**：被抗體結合的紅血球在脾臟被巨噬細胞「咬掉」一部分膜 → 膜流失 → spherocyte"},
+        {"type": "collapsible", "summary": "Case 5：72 歲男性，有攝護腺癌病史，背痛、貧血。抹片見 teardrop cells、nucleated RBCs、少數 myelocytes", "text": "**分析**：\n- Teardrop cells + nucleated RBCs + 不成熟白血球 = **leukoerythroblastic（myelophthisic）picture**\n- 代表骨髓結構被破壞 → 細胞被「擠」出來\n- 加上攝護腺癌病史、背痛 → 高度懷疑**骨轉移取代骨髓**\n\n**鑑別診斷**：骨髓轉移、**primary myelofibrosis**、骨髓感染（TB、histoplasmosis）、multiple myeloma\n\n**下一步**：**骨髓切片**（biopsy 必做 — 纖維化或腫瘤浸潤時抽吸常 **dry tap**）\n\n骨髓檢查適應症對照：周邊血出現 nucleated RBCs、骨髓浸潤證據（teardrop cells）→ 兩項都符合"},
+        {"type": "collapsible", "summary": "Case 6：58 歲女性，RA 病史 15 年、長期使用 NSAID。Hb 9.8、MCV 86、RDW 17%、ferritin 85 μg/L", "text": "**陷阱題**：MCV 正常 + ferritin 正常 → 很容易直接判定為 anemia of inflammation\n\n**但是**：\n1. **Ferritin 是 acute-phase reactant** → RA 活動時會被拉高 → ferritin 85 **不能排除缺鐵**\n2. **RDW 17% 升高** → 暗示有兩群大小不同的紅血球\n3. **長期 NSAID** → 慢性腸胃道出血\n→ 很可能是 **anemia of inflammation + 缺鐵** 的混合型\n\n**進一步評估**：\n- Transferrin saturation（缺鐵時 < 20%）\n- 糞便潛血、考慮內視鏡\n- （延伸）soluble transferrin receptor：缺鐵時升高，單純發炎時不升高\n\n**Harrison 的提醒**：貧血常是多重原因，任何貧血都要**完整評估鐵的狀態**"}
+      ]
+    }
+  ]
+}

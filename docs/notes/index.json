@@ -34,6 +34,12 @@
       ]
     },
     {
+      "name": "血液腫瘤科",
+      "diseases": [
+        {"id": "anemia-overview", "name": "Anemia (一)：總論與診斷架構"}
+      ]
+    },
+    {
       "name": "值班守則",
       "diseases": [
         {"id": "confusion-decreased-consciousness", "name": "Confusion / Decreased Level of Consciousness (意識不清)"},
