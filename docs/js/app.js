@@ -595,10 +595,12 @@
         .eq('note_id', currentNote.id);
       if (!data || !data.length) return;
 
+      // Fall back to the whole note so highlights survive section reordering.
+      const page = document.getElementById('notePage');
       for (const hl of data) {
         const section = document.querySelector(`.note-section[data-sec="${hl.section_idx}"]`);
-        if (!section) continue;
-        highlightTextInNode(section, hl.anchor_text, hl.color, hl.user_name);
+        if (section && highlightTextInNode(section, hl.anchor_text, hl.color, hl.user_name)) continue;
+        if (page) highlightTextInNode(page, hl.anchor_text, hl.color, hl.user_name);
       }
     } catch {}
   }
@@ -715,20 +717,18 @@
     const secIdx = cardEl.dataset.sec;
     const anchor = cardEl.dataset.anchor;
     const sec = document.querySelector(`.note-section[data-sec="${secIdx}"]`);
-    if (!sec) return;
-
-    let target = null;
-    if (anchor) {
-      const walker = document.createTreeWalker(sec, NodeFilter.SHOW_TEXT);
+    const findIn = root => {
+      if (!root || !anchor) return null;
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
       let node;
       while (node = walker.nextNode()) {
-        if (node.textContent.indexOf(anchor.slice(0, 60)) !== -1) {
-          target = node.parentElement;
-          break;
-        }
+        if (node.textContent.indexOf(anchor.slice(0, 60)) !== -1) return node.parentElement;
       }
-    }
-    if (!target) target = sec;
+      return null;
+    };
+
+    let target = findIn(sec) || findIn(document.getElementById('notePage')) || sec;
+    if (!target) return;
 
     const tocH = document.getElementById('noteToc');
     const offset = tocH ? tocH.offsetHeight + 12 : 0;
