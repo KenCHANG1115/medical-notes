@@ -36,7 +36,8 @@
     {
       "name": "血液腫瘤科",
       "diseases": [
-        {"id": "anemia-overview", "name": "Anemia (一)：總論與診斷架構"}
+        {"id": "anemia-overview", "name": "Anemia (一)：總論與診斷架構"},
+        {"id": "anemia-microcytic", "name": "Anemia (二)：小球性貧血與血紅素疾病"}
       ]
     },
     {

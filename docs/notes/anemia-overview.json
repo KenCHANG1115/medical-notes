@@ -297,5 +297,6 @@
         {"type": "collapsible", "summary": "Case 6：58 歲女性，RA 病史 15 年、長期使用 NSAID。Hb 9.8、MCV 86、RDW 17%、ferritin 85 μg/L", "text": "**陷阱題**：MCV 正常 + ferritin 正常 → 很容易直接判定為 anemia of inflammation\n\n**但是**：\n1. **Ferritin 是 acute-phase reactant** → RA 活動時會被拉高 → ferritin 85 **不能排除缺鐵**\n2. **RDW 17% 升高** → 暗示有兩群大小不同的紅血球\n3. **長期 NSAID** → 慢性腸胃道出血\n→ 很可能是 **anemia of inflammation + 缺鐵** 的混合型\n\n**進一步評估**：\n- Transferrin saturation（缺鐵時 < 20%）\n- 糞便潛血、考慮內視鏡\n- （延伸）soluble transferrin receptor：缺鐵時升高，單純發炎時不升高\n\n**Harrison 的提醒**：貧血常是多重原因，任何貧血都要**完整評估鐵的狀態**"}
       ]
     }
-  ]
+  ],
+  "related": [{"id": "anemia-microcytic", "name": "Anemia (二)：小球性貧血與血紅素疾病"}]
 }

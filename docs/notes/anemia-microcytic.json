@@ -1,0 +1,394 @@
+{
+  "id": "anemia-microcytic",
+  "title": "Anemia (二)：小球性貧血與血紅素疾病",
+  "title_en": "Anemia — Microcytic Anemias & Hemoglobin Disorders",
+  "title_zh": "小球性貧血與血紅素疾病",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.102 Iron Deficiency and Other Acquired Anemias Due to Decreased Erythrocyte Production (p.805-812)",
+    "Harrison's 22e - Ch.103 Disorders of Hemoglobin (p.812-822)"
+  ],
+  "generated": "2026-10-01",
+  "sections": [
+    {
+      "title": "Overview / 小球性貧血總覽",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "**小球性貧血 = 血紅素做不夠 → 前驅細胞多分裂幾次 → 細胞變小**\n\n**Hb = heme（鐵 + protoporphyrin）+ globin**，哪一個環節壞掉就是哪一種病：\n1. **鐵不夠**（全身缺鐵）→ **Iron deficiency anemia（IDA）**\n2. **鐵有但被鎖住**（hepcidin ↑ → 鐵卡在巨噬細胞）→ **Anemia of inflammation（ACD）**\n3. **Heme 合成缺陷**（protoporphyrin 路徑）→ **Sideroblastic anemia**、鉛中毒\n4. **Globin 合成不足** → **Thalassemia**"},
+        {"type": "table", "headers": ["疾病", "核心機轉", "關鍵檢查"], "rows": [
+          ["**IDA**", "鐵存量耗盡（absolute iron deficiency）", "**Ferritin ↓**（< 30 μg/L）"],
+          ["**ACD**", "Hepcidin ↑ → 鐵分布異常（functional iron deficiency）", "Ferritin 正常/↑ + TSAT ↓"],
+          ["**Thalassemia trait**", "Globin 鏈不平衡", "鐵學正常、**HbA₂ ↑**（β）或 DNA 分析（α）"],
+          ["**Sideroblastic**", "Heme 合成缺陷 → 鐵堆積在粒線體", "骨髓鐵染色：**ring sideroblasts**"]
+        ]},
+        {"type": "figure", "src": "figures/anemia-overview/h65-3.jpg", "label": "Harrison's 22e Fig. 65-3", "caption": "缺鐵的低色素小球性紅血球（複習）",
+          "explain": "**【怎麼看】**紅血球比 lymphocyte 的細胞核小、中央淡染區變大、大小不一。這是所有小球性貧血共同的抹片樣貌，**光看抹片無法區分 IDA 和 thalassemia** → 一定要靠鐵學檢查。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "491, 805"}
+      ]
+    },
+    {
+      "title": "鐵代謝 (Iron Metabolism)",
+      "content": [
+        {"type": "heading", "text": "鐵循環"},
+        {"type": "figure", "src": "figures/anemia-microcytic/h102-1.jpg", "label": "Harrison's 22e Fig. 102-1", "caption": "鐵循環（The iron cycle）",
+          "explain": "**【怎麼看】**中間的 **transferrin** 是血漿中運鐵的樞紐。紫色粗箭頭是主要循環：transferrin → 骨髓 erythroid precursors → 紅血球（~2500 mg）→ 脾臟巨噬細胞吞噬老紅血球 → 鐵回收到 transferrin。\n**【關鍵數字】**\n- 每天造血需要 **20–25 mg** 鐵 → 幾乎全部來自**巨噬細胞回收**\n- 腸道每天只吸收 **1–2 mg**，也只流失 1–2 mg（脫落、月經）→ **人體沒有主動排鐵的機制**\n**【Hepcidin 的位置】**虛線代表肝臟分泌的 **hepcidin** 抑制三個地方的 **ferroportin**：十二指腸（吸收）、巨噬細胞（回收）、肝細胞（儲存）→ hepcidin 一高，鐵就進不了血漿。"},
+        {"type": "table", "headers": ["蛋白", "功能", "臨床意義"], "rows": [
+          ["**Transferrin**", "血漿中運鐵（肝臟製造），只載 3–4 mg 鐵但周轉極快", "TIBC ≈ transferrin 量"],
+          ["**Transferrin receptor 1（TfR1）**", "細胞攝鐵；erythroblast 每顆有 30–40 萬個", "未結合的受體被切下 → **sTfR**（缺鐵時 ↑）"],
+          ["**Ferritin**", "細胞內儲鐵（24 個次單元的空心球殼）", "血清 ferritin 反映鐵存量；也是 **acute-phase reactant**"],
+          ["**DMT1**", "十二指腸上皮與 endosome 的 Fe²⁺ 輸入蛋白", "—"],
+          ["**Ferroportin**", "**唯一**的細胞鐵輸出蛋白", "**Hepcidin 的作用目標**"],
+          ["**Hepcidin**", "肝臟分泌的 25 胺基酸胜肽 → 降解 ferroportin", "全身鐵恆定的總開關"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Non-transferrin-bound iron（NTBI）**\n- Transferrin saturation **> 60%** 時血中出現游離鐵\n- 肝、胰、心臟會攝取 NTBI（erythroblast 不會）→ **鐵沉積在這些器官**\n→ 這就是 iron overload（hemochromatosis、反覆輸血）造成**肝硬化、糖尿病、心肌病變**的原因"},
+        {"type": "heading", "text": "腸道吸收"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["吸收部位", "**十二指腸**"],
+          ["飲食含鐵量", "每 1000 大卡約 6–7 mg → 西方飲食每天約 15 mg，只吸收 1–2 mg"],
+          ["Heme iron", "紅肉中的血基質鐵 → **容易吸收**"],
+          ["Non-heme iron 路徑", "Fe³⁺ → 胃酸 + **DCYTB** 還原成 Fe²⁺ → **DMT1** 進入上皮 → **ferroportin** 輸出（hephaestin 氧化）→ transferrin"],
+          ["**促進吸收**", "**維生素 C**、胃酸"],
+          ["**抑制吸收**", "Phytates、phosphates（蔬菜、穀類）、**tannin（茶、咖啡）**、鈣、**PPI**"],
+          ["缺鐵時的適應", "HIF-2α ↑ → DMT1、DCYTB、ferroportin 表現 ↑；hepcidin ↓ → 吸收最大化"]
+        ]},
+        {"type": "table", "headers": ["族群", "每日鐵需求（mg）"], "rows": [
+          ["兒童", "0.5–1.0"],
+          ["青少年", "1.2–1.5"],
+          ["成年男性 / 停經後女性", "1.0"],
+          ["生育年齡女性", "1.2–1.5"],
+          ["懷孕第二孕期", "2.8–3.0"],
+          ["**懷孕第三孕期**", "**4.0–5.0**（最高）"],
+          ["哺乳", "1.0–1.15"]
+        ]},
+        {"type": "heading", "text": "Hepcidin 的調控 — 全身鐵恆定的總開關"},
+        {"type": "figure", "src": "figures/anemia-microcytic/h102-2a.jpg", "label": "Harrison's 22e Fig. 102-2A", "caption": "Hepcidin 的分子調控 — 鐵充足時",
+          "explain": "**【怎麼看】**這是肝細胞。有兩條路徑會讓細胞核內的 **HAMP promoter**（hepcidin 基因）開啟：\n① **鐵的路徑（BMP-SMAD）**：diferric transferrin 結合 TfR2/HFE + 肝竇內皮細胞（LSEC）分泌 **BMPs** → BMPR + co-receptor **HJV** → SMAD 1/5/8 磷酸化 → 與 SMAD4 結合入核 → **BMP-RE**\n② **發炎的路徑**：**IL-6** → IL-6R → **STAT3** → **STAT3-RE**\n**【考點】**HFE、TfR2、HJV 突變 → 這條路徑不通 → hepcidin 過低 → 鐵吸收無上限 → **hereditary hemochromatosis**"},
+        {"type": "figure", "src": "figures/anemia-microcytic/h102-2b.jpg", "label": "Harrison's 22e Fig. 102-2B", "caption": "Hepcidin 的分子調控 — 缺鐵時",
+          "explain": "**【和 A 圖比較】**淡色的部分代表路徑被關掉：\n- Transferrin 多為 mono-/apo-transferrin → TfR2 訊號消失\n- LSEC 分泌的 BMP 變少，而且被紅血球母細胞分泌的 **ERFE（erythroferrone）**抓走\n- **TMPRSS6**（剪刀）把 HJV 從細胞膜剪掉\n→ SMAD 與 STAT3 路徑都不活化 → **hepcidin 極低** → 腸道吸收、巨噬細胞釋鐵最大化\n**【考點】****TMPRSS6 突變** → 無法壓低 hepcidin → **IRIDA**（iron-refractory IDA）：**口服鐵劑無效**"},
+        {"type": "table", "headers": ["Hepcidin", "原因", "結果", "臨床疾病"], "rows": [
+          ["**↑ 升高**", "鐵過多（BMP-SMAD）\n**發炎（IL-6 → STAT3）**", "Ferroportin 被降解 → 鐵卡在巨噬細胞、腸道吸收 ↓", "**Anemia of inflammation**\nIRIDA（TMPRSS6 突變）\n晚期 CKD（清除 ↓）"],
+          ["**↓ 降低**", "缺鐵（TMPRSS6）\n**造血旺盛（EPO → ERFE）**\n缺氧、testosterone", "鐵吸收與釋放最大化", "IDA（正常適應）\n**Hereditary hemochromatosis**（HFE/TfR2/HJV 突變）\n**非輸血依賴型 β-thal 的 iron overload**（ERFE 持續升高）"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**為什麼 thalassemia intermedia 沒輸血也會 iron overload？**\nIneffective erythropoiesis → 大量 erythroblast 在 EPO 刺激下持續分泌 **erythroferrone** → hepcidin 長期被壓低 → 腸道不停吸鐵 → 鐵超載\n→ 所以 thalassemia 病人**不能隨便補鐵**"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "805-808"}
+      ]
+    },
+    {
+      "title": "缺鐵性貧血 (Iron Deficiency Anemia)",
+      "content": [
+        {"type": "heading", "text": "定義與病程"},
+        {"type": "table", "headers": ["名詞", "定義"], "rows": [
+          ["Isolated iron deficiency", "鐵存量耗盡，但 Hb **仍正常**"],
+          ["Iron-deficiency anemia", "鐵存量耗盡 **且** 鐵不足以造血 → 貧血"],
+          ["**Absolute** iron deficiency", "全身鐵存量真的耗盡"],
+          ["**Functional** iron deficiency", "造血缺鐵，但存量**足夠甚至過多**（發炎、ESA 治療）"]
+        ]},
+        {"type": "table", "headers": ["階段", "Ferritin", "TSAT", "紅血球"], "rows": [
+          ["① 存量耗盡", "**↓（< 15–30 μg/L）**", "正常", "正常大小、正常色素"],
+          ["② 造血缺鐵", "↓", "**< 15–20%**", "開始 hypochromic、microcytic"],
+          ["③ 缺鐵性貧血", "↓↓", "< 10%", "典型 **microcytic hypochromic**、RDW ↑"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**Ferritin 最先下降，MCV 最後才變小**\n→ 早期缺鐵 MCV 可以**正常** → 不能用「MCV 正常」排除缺鐵\n→ 貧血常要到 Hb < 8 g/dL 才被發現（慢慢形成、代償良好）\n→ 心肌、骨骼肌比骨髓**更早**缺鐵 → 即使沒有貧血也會疲倦、注意力差、**restless legs syndrome**、運動能力下降"},
+        {"type": "heading", "text": "流行病學"},
+        "- 全球約 **12 億人**，約佔所有貧血的一半\n- 學齡前兒童 ~25%、**年輕女性 37–40%**、**孕婦 > 40%**\n- 第二常見的貧血是 anemia of inflammation（住院病人最常見）",
+        {"type": "heading", "text": "臨床表現"},
+        {"type": "table", "headers": ["表現", "說明"], "rows": [
+          ["**Pica**", "渴望吃非食物：**冰（pagophagia）**、土、黏土"],
+          ["指甲", "易脆、**koilonychia（匙狀指甲）**"],
+          ["口腔", "**Cheilosis**（口角炎）、**atrophic glossitis**（舌乳頭萎縮）"],
+          ["**Plummer-Vinson syndrome**", "食道蹼（esophageal web）→ **吞嚥困難** + 缺鐵"],
+          ["其他", "掉髮、restless legs"],
+          ["血液", "嚴重 IDA 可伴隨 **thrombocytosis**（共同前驅細胞偏向巨核細胞分化）"]
+        ]},
+        {"type": "heading", "text": "原因（Table 102-2）"},
+        {"type": "table", "headers": ["機轉", "原因"], "rows": [
+          ["需求 ↑", "生長期（兒童、青少年）、**懷孕、哺乳**、ESA 治療"],
+          ["攝取不足", "素食、營養不良、長期純母乳哺餵"],
+          ["吸收不良", "**胃切除、減重手術**、**celiac disease**、**H. pylori 胃炎**、**自體免疫萎縮性胃炎**、PPI、茶/鈣過多、IRIDA"],
+          ["**腸胃道失血**", "食道炎/胃炎、**消化性潰瘍**、大型裂孔疝氣、watermelon stomach、息肉、Meckel's diverticulum、**angiodysplasia**、**惡性腫瘤（尤其右側大腸癌）**、痔瘡、IBD、**鉤蟲**"],
+          ["婦科失血", "**月經過多**（可能合併未診斷的 vWD）、子宮肌瘤、子宮癌"],
+          ["泌尿道失血", "**血管內溶血**（PNH、人工瓣膜、march hemoglobinuria）→ 鐵從尿中流失\n泌尿道腫瘤、血吸蟲"],
+          ["肺部", "Pulmonary hemosiderosis、嚴重咳血"],
+          ["醫源性", "血液透析、手術、**過度抽血**、NSAID/aspirin/類固醇/抗凝血藥"],
+          ["出血體質", "vWD、凝血缺陷、血小板疾病、**HHT（Osler-Weber-Rendu）**"],
+          ["其他", "頻繁捐血、自傷（Munchausen syndrome）"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**男性與停經後女性的缺鐵 → 一定要做腸胃道內視鏡**\n- 這兩個族群沒有月經失血，缺鐵 = 要先證明**不是腸胃道惡性腫瘤**\n- **右側大腸癌**特別容易只表現為缺鐵性貧血（不太會有排便習慣改變）\n- **Heyde syndrome**：aortic stenosis + 腸道 angiodysplasia 出血 + acquired vWD\n- 老年人每天 aspirin 100 mg → 貧血與缺鐵風險增加 20%"},
+        {"type": "heading", "text": "實驗室診斷"},
+        {"type": "table", "headers": ["檢查", "IDA 的表現", "說明"], "rows": [
+          ["**Ferritin**", "**< 30 μg/L**", "**單一最佳檢查**：敏感度 92%、特異度 98%\n老年人建議切點較高（45–70 μg/L）"],
+          ["Serum iron", "↓", "有日夜變化 → 不能單獨使用"],
+          ["**TSAT**", "**< 15–20%**", "反映可用於造血的鐵"],
+          ["TIBC", "↑", "Transferrin 代償性增加"],
+          ["MCV", "< 80 fL", "早期可正常"],
+          ["**RDW**", "**↑**", "大小不一（vs thalassemia 正常）"],
+          ["sTfR", "↑", "Erythroid 前驅細胞釋出"],
+          ["CHr（reticulocyte Hb content）", "↓", "反映最近幾天的鐵供應"],
+          ["Hepcidin", "**極低**", "未常規檢驗"],
+          ["骨髓鐵染色", "無可染色的鐵", "**黃金標準**，但太侵入性，很少需要"]
+        ]},
+        {"type": "heading", "text": "治療"},
+        {"type": "table", "headers": ["", "口服鐵劑", "靜脈鐵劑"], "rows": [
+          ["適用", "**首選**（輕至中度貧血）", "口服**不耐受**或**吸收不良**\n需快速矯正（**Hb ≤ 8 g/dL**）\n懷孕第 2、3 孕期、CHF、CKD、IBD\n**術前 6 週內**診斷缺鐵"],
+          ["代表藥", "**Ferrous sulfate**：每錠 65–100 mg 元素鐵", "Iron sucrose、ferric carboxymaltose、ferric derisomaltose、ferumoxytol"],
+          ["給法", "**隔天服用**（alternate-day）＋ 飯前 ＋ **柳橙汁**\n至少 **3 個月**（補足存量）", "新一代製劑可 1–2 次輸注給足全部劑量，**不需 test dose**"],
+          ["副作用", "腸胃不適 **30–60%**：噁心、上腹灼熱、金屬味、腹瀉/便秘", "輸注反應 < 0.1%（多輕微）\n2–5 天後類流感症狀\n**Hypophosphatemia**（ferric carboxymaltose 最常見，FGF23 媒介）→ 反覆大劑量可致骨軟化"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**為什麼建議「隔天」吃鐵劑？**\n每天吃 → 每次服藥後 hepcidin **短暫升高** → 隔天的吸收反而變差\n隔天吃 → 讓 hepcidin 回落 → **總吸收量更高、副作用更少**\n→ Harrison 推薦：**隔天口服鐵鹽 + 天然維生素 C（約 80 mL 柳橙汁）**（藥物劑量的 ascorbic acid 效果不如柳橙汁）"},
+        {"type": "callout", "style": "trap", "text": "**治療反應不佳的判斷**\n- 治療 **1 週**後 reticulocyte 沒有上升，或 **2 週**後 Hb 上升 **< 1 g/dL** → 反應不足\n- 要找原因：\n  1. **沒按時吃藥**（最常見）\n  2. **持續失血**\n  3. **吸收不良**（celiac、H. pylori、萎縮性胃炎、胃切除）\n  4. 罕見：IRIDA\n  5. 診斷錯誤（其實是 thalassemia 或 ACD）\n\n**IDA 不應輸血** — 除非血行動力學不穩定或快速惡化"},
+        {"type": "callout", "style": "guideline", "text": "**預防重點**\n- **捐血者**：每單位血約含 **200 mg 鐵** → 延長捐血間隔、監測 ferritin（尤其女性）\n- **孕婦**：例行補充，或定期檢查後依需求治療\n- **術前**：篩檢並治療缺鐵（patient blood management）\n- ⚠️ **瘧疾流行區**：補鐵可能加重瘧疾 → WHO 建議同時做好瘧疾防治才補鐵"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "806-810"}
+      ]
+    },
+    {
+      "title": "Anemia of Inflammation（慢性病貧血）",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "舊稱 **anemia of chronic disease（ACD）**。因為急性狀況（敗血症、重大創傷、大手術後）也有相同機轉，現在偏好稱為 **anemia of inflammation**。\n範圍從超急性（macrophage activation syndrome）到亞臨床（CHF、糖尿病、肥胖）。\n**本質是「鐵分布異常」，不是缺鐵。**"},
+        {"type": "figure", "src": "figures/anemia-microcytic/h102-3.jpg", "label": "Harrison's 22e Fig. 102-3", "caption": "Anemia of inflammation 的病生理",
+          "explain": "**【怎麼看】**左邊免疫細胞活化 → 分泌發炎 cytokines → 從三個方向抑制造血（都指向中間的「Inhibition of erythropoiesis」）：\n① 上：**IL-6 → hepcidin ↑** → 鐵被鎖在巨噬細胞 → **hypoferremia**\n② 中：**TNF-α、IFN-γ** → 直接抑制 erythroid progenitors 對 EPO 的反應\n③ 下：**TNF-α、IL-1β** → 腎臟 **EPO 製造 ↓**（CKD 再加重這一點）\n另外：**IFN-γ → PU.1 ↑** → 骨髓偏向製造白血球（右上）；巨噬細胞吞噬紅血球 → **紅血球壽命 ↓**（右下）\n**【考點】**三個機轉中，**hepcidin 造成的鐵隔離**是核心；CKD 以 **EPO 不足**為主；只有在超發炎（Still's disease、HLH）時紅血球破壞才是主因。"},
+        {"type": "callout", "style": "logic", "text": "**從演化看 hepcidin ↑**\n把鐵藏起來是**先天免疫**的一部分 → 讓入侵的細菌拿不到鐵、長不起來\n→ 短期是保護機制，但長期或非感染性發炎時就變成**適應不良** → 貧血"},
+        {"type": "heading", "text": "臨床表現與診斷"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["貧血程度", "輕至中度"],
+          ["型態", "**Normocytic normochromic**，reticulocyte 低\n**長期**才會變成 microcytic（鐵受限的造血）"],
+          ["生化特徵", "**Hyperferritinemia**（ferritin 是 acute-phase reactant）\n**Hypoferremia + hyperferritinemia** = **functional iron deficiency**"],
+          ["合併真正缺鐵的判斷", "**Ferritin < 100 μg/L** → 最被接受的切點\nCHF、CKD：**TSAT < 20%** 不論 ferritin 都算缺鐵\n**sTfR / log ferritin**：> 2 → 合併缺鐵；< 1 → 單純 ACD"]
+        ]},
+        {"type": "heading", "text": "特殊情境"},
+        {"type": "table", "headers": ["情境", "重點"], "rows": [
+          ["**CKD**", "腎功能喪失 **> 50%** 開始貧血，隨 GFR 惡化\n機轉：**EPO 不足**（主要）+ 發炎 + 負鐵平衡\nAbsolute 缺鐵：吸收差、血小板功能異常出血、透析管路失血\nFunctional 缺鐵：hepcidin 製造 ↑、清除 ↓\n另可合併 folate/B12 缺乏、尿毒性溶血"],
+          ["**CHF**", "貧血與缺鐵盛行率 **50–60%**，預後差\n指引建議定期篩檢缺鐵"],
+          ["**癌症**", "多重原因：缺鐵、維生素缺乏、失血、化療；MDS 與 myeloma 尤其常見"],
+          ["**ICU**", "近 **50%** 病人 Hb < 9 g/dL\n額外原因：**抽血**（每天可達 40 mL）"],
+          ["耐力型運動員", "吸收 ↓、流失 ↑、hepcidin ↑（輕度發炎 + 乳酸活化 SMAD）"]
+        ]},
+        {"type": "heading", "text": "治療"},
+        {"type": "table", "headers": ["情境", "治療"], "rows": [
+          ["一般原則", "**治療潛在疾病**（例：anti-IL-6 治療 Castleman disease、RA 後貧血改善）"],
+          ["**CKD**", "**ESA**，目標 Hb **< 11.5 g/dL**（過高增加心血管併發症）\n缺鐵 → **ESA 低反應** → 通常需補鐵，多用**靜脈**（晚期 CKD hepcidin 高，口服吸收差）\nIV iron 目標：**TSAT 30–40%、ferritin 200–700 μg/L**\n口服替代：**ferric citrate**（同時結合磷 → 降血磷）\n**HIF prolyl hydroxylase inhibitors**：穩定 HIF-2α → EPO ↑ + 鐵吸收 ↑（部分國家核准，長期安全性仍有疑慮）"],
+          ["**CHF**", "**IV iron**：ferritin < 100，或 TSAT < 20% 且 ferritin 100–300 → 改善症狀與生活品質（死亡率效益未證實）"],
+          ["癌症", "IV iron 減少輸血（尤其 ferritin < 100、術前）；ESA 用於低風險 MDS、化療中且無法治癒的病人"],
+          ["**ICU**", "限制性輸血門檻 **Hb 7–8 g/dL**（血行動力學穩定者）"]
+        ]},
+        {"type": "heading", "text": "老年人貧血（Anemia of Aging）"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["盛行率", "65 歲 ~10%、> 85 歲 25%、多重疾病/住院/機構住民 50%"],
+          ["原因（各約 1/3）", "① **營養**（尤其缺鐵）\n② **發炎**（含 CKD）\n③ **原因不明**（unexplained anemia of aging）：EPO 低於預期、testosterone ↓、幹細胞耗竭"],
+          ["一定要排除", "**腸胃道惡性腫瘤**；也要想到 angiodysplasia、抗血栓藥物（如 AF 病人）"],
+          ["缺鐵切點", "Ferritin **45–70 μg/L**（比年輕人高）"],
+          ["CHIP", "Clonal hematopoiesis of indeterminate potential：70 歲 > 10%、80 多歲 > 60% → 慢性低度發炎 → 追蹤是否進展為 MDS"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "807-812"}
+      ]
+    },
+    {
+      "title": "血紅素基礎 (Hemoglobin Basics)",
+      "content": [
+        {"type": "figure", "src": "figures/anemia-microcytic/h103-1.png", "label": "Harrison's 22e Fig. 103-1", "caption": "Globin 基因群與發育過程中的血紅素轉換",
+          "explain": "**【A 圖：兩個基因群】**\n- **β-globin 基因群**在**第 11 號染色體**：ε（胚胎）→ Gγ、Aγ（胎兒）→ δ → β（成人），上游有 **LCR**（locus control region）\n- **α-globin 基因群**在**第 16 號染色體**：ζ（胚胎）→ **α2、α1**（每條染色體 2 個 → 共 **4 個 α 基因**）\n**【B 圖：Hemoglobin switching】**\n- 胎兒期 **γ（HBG1/2）** 為主 → HbF\n- 出生前後 γ 下降、**β（HBB）** 上升，約在出生後數個月完成交換\n**【考點】**\n- **β-thalassemia、sickle cell disease 出生時沒有症狀**，要到 **約 6 個月大** HbF 降下來後才發病\n- **α-thalassemia 在胎兒期就會表現**（HbF = α₂γ₂ 也需要 α 鏈）→ 最嚴重型為胎兒水腫（Hb Bart's hydrops fetalis）"},
+        {"type": "table", "headers": ["血紅素", "組成", "正常成人比例"], "rows": [
+          ["**HbA**", "α₂β₂", "> 95%"],
+          ["**HbA₂**", "α₂δ₂", "2–3%（**β-thal trait 升高到 4–6%**）"],
+          ["**HbF**", "α₂γ₂", "~1%"],
+          ["胚胎期", "Gower I（ζ₂ε₂）、Gower II（α₂ε₂）、Portland（ζ₂γ₂）", "—"],
+          ["HbA1c", "HbA 的非酵素性糖化", "糖尿病控制指標"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**HbF 的調控 — 現代治療的核心**\n- **BCL11A** 是 HbF 基因（γ-globin）的主要**抑制因子**\n- 抑制 BCL11A → HbF 重新表現 → 補償異常的 β 鏈\n- 應用：\n  - **Hydroxyurea**：誘導 HbF（sickle cell disease 標準治療）\n  - **CRISPR/Cas9 基因編輯**破壞 BCL11A enhancer → HbF 30–50% → FDA 已核准用於 **sickle cell disease 與輸血依賴型 β-thal**\n  - **HPFH**（hereditary persistence of HbF）：BCL11A 結合位突變 → 成人仍有高 HbF → 良性；同時遺傳時可減輕 sickle cell/β-thal"},
+        {"type": "figure", "src": "figures/anemia-microcytic/h103-2.png", "label": "Harrison's 22e Fig. 103-2", "caption": "血紅素-氧解離曲線",
+          "explain": "**【怎麼看】**S 形曲線（cooperativity：結合第一個 O₂ 後越來越容易結合）。**P50** = Hb 半飽和時的 PO₂，正常約 **26 mmHg**。\n- **右移**（紫線）：**pH ↓、2,3-BPG ↑、溫度 ↑** → P50 ↑ → 親和力 ↓ → **釋放更多 O₂ 到組織**\n- **左移**（綠線）：pH ↑、2,3-BPG ↓、溫度 ↓ → 親和力 ↑ → 釋氧變少\n**【考點】**\n- 貧血的代償：**2,3-DPG ↑ → 曲線右移**\n- **High O₂-affinity Hb 變異**（左移）→ 組織缺氧 → EPO ↑ → **isolated erythrocytosis**（JAK2 陰性）\n- Low affinity 變異 → cyanosis、輕度貧血\n- **HbH（β₄）、Hb Bart's（γ₄）親和力極高** → 帶了 O₂ 卻放不出來"},
+        {"type": "table", "headers": ["分類（Table 103-1）", "例子"], "rows": [
+          ["**Hemoglobinopathy**（胺基酸序列改變）", "HbS（聚合）、HbE（合成 ↓）、HbC（與膜作用）\nO₂ 親和力異常、不穩定 Hb（溶血）、M hemoglobin（變性血紅素血症）"],
+          ["**Thalassemia**（globin 鏈合成不足）", "α-thal、β-thal、複雜型"],
+          ["HPFH", "成人持續高 HbF（良性）"],
+          ["後天性", "Methemoglobin、sulfhemoglobin、**carboxyhemoglobin**（CO 中毒）、MDS 中 HbF ↑"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**血紅素疾病的診斷工具**\n- 幾乎都是**體染色體隱性或共顯性**遺傳 → 家族史常有貧血\n- 常見徵象：蒼白、黃疸、**脾腫大**\n- 第一步：CBC + reticulocyte + **周邊血抹片**\n- **Hb 分析：HPLC 或 capillary electrophoresis**（最好連同家人一起驗）→ 確認表現型\n- **DNA 定序** → 確診，也是遺傳諮詢與產前診斷的前提"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "812-814"}
+      ]
+    },
+    {
+      "title": "β-Thalassemia",
+      "content": [
+        {"type": "heading", "text": "致病機轉"},
+        {"type": "callout", "style": "logic", "text": "**Thalassemia 的核心 = globin 鏈合成「不平衡」**\n\nβ 鏈不足 → **α 鏈相對過多** → 沒有搭檔的 α 鏈不穩定、無法形成四聚體 → **沉澱在發育中的 erythroblast 內** → 膜脂質氧化受損\n\n→ **Ineffective erythropoiesis**（骨髓內前驅細胞死亡）= 貧血的**主要原因**\n→ 少數進入循環的紅血球變形能力差 → 血管外與血管內**溶血**\n\n**後續連鎖反應**（治療不足時）：\n嚴重貧血 → EPO ↑ → **骨髓擴張**（骨骼變形、骨質疏鬆）、**髓外造血**（肝脾腫大）\n→ ERFE ↑ → hepcidin ↓ → **iron overload**（肝、心、內分泌器官）\n→ 肺高壓、血栓"},
+        {"type": "table", "headers": ["突變類型", "效果"], "rows": [
+          ["**β⁰**", "該基因**完全**不產生 β 鏈"],
+          ["**β⁺**", "β 鏈產量輕至中度減少"],
+          ["突變種類", "以**單一核苷酸變異**為主（不像 α-thal 以缺失為主）：promoter、剪接位點、polyadenylation、起始密碼子、nonsense/frameshift"]
+        ]},
+        {"type": "heading", "text": "臨床分類（Table 103-4）"},
+        {"type": "table", "headers": ["分類", "Hb（g/dL）/ MCV", "Hb 組成", "臨床特徵"], "rows": [
+          ["**β-thal trait（minor）**", "10–14 / 60–80", "HbA 94%\n**HbA₂ 4–6%** ↑\nHbF 1–2%", "雜合子；輕微或無貧血\n「silent carrier」HbA₂ 與 RBC indices 可正常"],
+          ["**Non-transfusion-dependent（intermedia）**", "7–12 / 65–80", "HbF 10–40%", "不常或不需輸血\n主要問題：**iron overload**、血栓、肺高壓、**髓外造血腫塊**、腿部潰瘍"],
+          ["**Transfusion-dependent（major，Cooley's anemia）**", "**2–4** / 50–80", "HbA 0–5%\n**HbF 90–100%**", "β⁰/β⁰ 等同型合子或複合雜合子\n需終身輸血 + 排鐵；移植可治癒"],
+          ["HbE-β thal", "5–8 / 60–70", "HbE 50–70%、HbF 30–50%", "**東南亞**最常見的嚴重型 thalassemia"],
+          ["δβ-thal、Hb Lepore", "11–12 / 65–75", "HbF 7–13%", "罕見"],
+          ["HPFH（缺失型）", "12–14 / 75–85", "HbF 15–30%", "良性；同型合子 100% HbF 但無貧血"]
+        ]},
+        {"type": "heading", "text": "診斷"},
+        {"type": "table", "headers": ["類型", "診斷要點"], "rows": [
+          ["**β-thal trait**", "小球性低色素、輕微或無貧血、reticulocyte 幾乎不升高\n**先排除缺鐵** → **HPLC 發現 HbA₂ ↑**（± HbF ↑）即可確診\n有時脾臟輕度腫大\n遺傳諮詢前需找出確切突變"],
+          ["**嚴重型**", "溶血性貧血 + 小球低色素 + **reticulocytosis** + 明顯大小不一、形狀不一 + **有核紅血球**"]
+        ]},
+        {"type": "figure", "src": "figures/anemia-overview/h65-13.jpg", "label": "Harrison's 22e Fig. 65-13", "caption": "Target cells（複習）",
+          "explain": "**【和 thalassemia 的關係】**Thalassemia 的紅血球 Hb 太少、膜相對過多 → 多出來的膜在中央鼓起 → 牛眼狀 target cell。\n**【鑑別】**Target cells 也見於肝病（膜過多）、HbC（大量）、缺鐵、脾切除後。"},
+        {"type": "callout", "style": "trap", "text": "**HbA₂ 的陷阱**（補充，非 Harrison 22e 本章內容）\n- **同時缺鐵時 HbA₂ 會被壓低** → β-thal trait 可能被誤判為正常\n→ 先補鐵、鐵存量恢復後再驗 HbA₂\n- **α-thal trait 的 HbA₂ 是正常的** → 小球性 + 鐵學正常 + HbA₂ 正常 → 想 α-thal（需 DNA 分析）"},
+        {"type": "heading", "text": "併發症（Table 103-5）"},
+        {"type": "table", "headers": ["系統", "表現"], "rows": [
+          ["生長發育", "生長遲緩、**青春期延遲（50%）**、續發性無月經（25%）"],
+          ["**心臟**", "鐵毒性 + 慢性貧血 + 肺高壓 → 心衰竭、心律不整（**主要死因**）\n用 **cardiac MRI T2＊** 評估心臟鐵沉積"],
+          ["肝臟", "纖維化 → 肝硬化（與肝鐵濃度相關，MRI 監測）、肝炎"],
+          ["**內分泌**", "**糖尿病**、甲狀腺低下、副甲狀腺低下、腎上腺功能不全、**性腺功能低下**"],
+          ["骨骼", "骨髓擴張 + 鐵 + 性腺低下 → **骨質疏鬆（~50%）**；髓外造血腫塊（intermedia）"],
+          ["脾臟", "脾腫大可困住 1–40% 紅血球、增加血漿容積 → 輸血需求上升時考慮**脾切除**（之後需預防性 penicillin）"],
+          ["血栓", "血小板活化、紅血球-內皮作用、脾切除"],
+          ["**感染**", "輸血相關感染；**Yersinia**（與 iron overload 相關）；瘧疾"]
+        ]},
+        {"type": "heading", "text": "治療"},
+        {"type": "table", "headers": ["治療", "重點"], "rows": [
+          ["**輸血**", "每 **2–4 週**，目標**輸血前 Hb 9–10.5 g/dL** → 抑制 ineffective erythropoiesis（防止骨髓擴張）\n要及早開始、不中斷、終身"],
+          ["**排鐵（iron chelation）**", "口服：**deferasirox**、**deferiprone**\n靜脈/皮下：**deferoxamine**\n→ 預防心肌病變與內分泌病變，壽命延長至至少 50 歲\n用 ferritin、MRI 監測鐵存量"],
+          ["**Luspatercept**", "Activin receptor IIB 融合蛋白 → 結合 TGF-β 家族配體、減少 Smad2/3 訊號 → 促進**晚期紅血球成熟**\n每 3 週皮下注射 → 輸血需求減少 33%"],
+          ["**造血幹細胞移植**", "有配對手足捐贈者 → **治癒率 > 80%**（但只有 1/3 病人有）\n越年輕、排鐵越好、輸血越少 → 結果越好\n缺點：graft failure、GVHD、死亡率 5–20%"],
+          ["**基因治療**", "**CRISPR 編輯 BCL11A** → HbF ↑ → > 90% 脫離輸血\n**Lentiviral βA-T87Q** 加入基因（非 β⁰/β⁰ 效果最好）"],
+          ["預防", "**帶因者篩檢 + 伴侶檢驗 + 產前診斷**"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "819-821"}
+      ]
+    },
+    {
+      "title": "α-Thalassemia",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "- **亞洲人**最常見（華南、東南亞），台灣也屬於高盛行區\n- 與 β-thal 相反：多數由**基因缺失**造成，而非點突變\n- 每條第 16 號染色體有 **2 個 α 基因** → 正常共 **4 個**\n- 嚴重度取決於**剩下幾個有功能的 α 基因**"},
+        {"type": "table", "headers": ["分類（Table 103-6）", "基因型", "Hb（g/dL）/ MCV", "臨床"], "rows": [
+          ["Silent carrier（α⁺ 雜合）", "−α/αα（缺 1 個）", "正常", "無症狀（Harrison 將其歸入 trait）"],
+          ["**α-thal trait**", "**−α/−α**（trans，缺 2 個）\n**−−/αα**（cis，缺 2 個）", "12–15 / 65–80", "血液學異常幾乎都很輕微"],
+          ["**HbH disease**", "**−−/−α**（缺 3 個）\n或 non-deletion 型（如 Hb Constant Spring）", "5–12 / 60–70", "輕至中度溶血性貧血\nNon-deletion 型較嚴重、可能需輸血"],
+          ["**Hb Bart's hydrops fetalis**", "**−−/−−**（缺 4 個）", "—", "**胎死腹中或出生即死亡**"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Cis vs trans — 遺傳諮詢的關鍵**\n- **−−/（α⁰，兩個基因在同一條染色體缺失）**：常見於**東南亞**（如 **−−SEA**）\n- **−α/（α⁺，單一缺失，如 −α3.7）**：約 30% 非裔美國人帶有\n\n→ 夫妻**兩人都是 −−/αα（cis 型 trait）** → 每胎有 **1/4** 機會是 −−/−− → **Hb Bart's hydrops fetalis**\n→ 非洲裔多為 −α/−α（trans）→ 子代最多缺 2 個，不會出現 hydrops\n→ 這就是為什麼**亞洲人的 α-thal 篩檢特別重要**"},
+        {"type": "heading", "text": "致病機轉"},
+        {"type": "table", "headers": ["時期", "多出來的鏈", "形成", "後果"], "rows": [
+          ["胎兒", "γ 鏈", "**Hb Bart's（γ₄）**", "O₂ 親和力極高 → 放不出氧 → 胎兒水腫"],
+          ["成人", "β 鏈", "**HbH（β₄）**", "親和力極高 + **不穩定** → 氧化膜損傷 → **脾臟血管外溶血** + ineffective erythropoiesis"]
+        ]},
+        {"type": "figure", "src": "figures/anemia-microcytic/h103-5.jpg", "label": "Harrison's 22e Fig. 103-5", "caption": "α-Thalassemia intermedia（HbH disease）的抹片",
+          "explain": "**【怎麼看】**中間的 lymphocyte 當尺。紅血球普遍**小而淡染**（hypochromic microcytic），大小與形狀**差異很大**（anisocytosis、poikilocytosis），可見 **target cells**、淚滴狀與碎片狀細胞。\n**【考點】**HbH disease 的紅血球用 **brilliant cresyl blue** 培養染色後，可誘發出 **HbH inclusions**（高爾夫球狀）。"},
+        {"type": "heading", "text": "診斷"},
+        {"type": "table", "headers": ["類型", "診斷要點"], "rows": [
+          ["**α-thal trait**", "小球低色素 + Hb **幾乎正常** + **無缺鐵** + **HbA₂ 不升高**（排除 β-thal）→ 推定診斷\n需要遺傳諮詢或產前診斷時 → **DNA 分析**"],
+          ["**HbH disease**", "出生時 HPLC：Hb Bart's 20–30%\n成人：HbH 微量至 40%\nBrilliant cresyl blue 染色可見 HbH inclusions\n不同程度的 reticulocytosis"],
+          ["**Hb Bart's hydrops**", "幾乎全是 Hb Bart's（若 ζ 基因保留則有少量 Hb Portland）"]
+        ]},
+        {"type": "heading", "text": "併發症與處置"},
+        {"type": "table", "headers": ["類型", "重點"], "rows": [
+          ["α-thal trait", "**非缺鐵者不要補鐵**\n生育規劃時：來自高盛行區的夫妻做 DNA 遺傳諮詢"],
+          ["**HbH disease**", "最常見 −−/−α：成人平均 Hb ~11 g/dL\n20–50% 有肝脾腫大、黃疸、**臉部骨骼變化**、生長遲緩\n通常**不需要規律輸血**；急性貧血發作或懷孕時可能需要\nIron loading 存在但不像 β-thal 嚴重 → 定期驗 ferritin/MRI，通常不需排鐵\n懷孕屬高風險"],
+          ["**Hb Bart's hydrops**", "母親：死產史、**子癲前症**、**羊水過多**、產前出血、難產\n可做子宮內輸血，但存活者 ~40% 生長遲緩、20% 發展遲緩\n→ **預防最重要**：伴侶篩檢 + 產前診斷"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "821-822"}
+      ]
+    },
+    {
+      "title": "鐮刀型貧血與其他血紅素病變",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "Sickle cell disease **不是小球性貧血**（HbSS 的 MCV 80–100），但和 thalassemia 同屬 Ch.103 血紅素疾病，國考常一起比較。\n台灣本土極少見，重點放在**機轉、併發症分類、hydroxyurea**。"},
+        {"type": "heading", "text": "致病機轉"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["突變", "β-globin 第 7 個胺基酸 **Glu → Val**（GAG → GTG）\n（傳統編號為 β6；Harrison 22e 採含起始 Met 的新編號 β7）"],
+          ["基因型", "**HbSS**（sickle cell anemia，最常見）、HbSC、HbS-β⁰ thal、HbS-β⁺ thal、HbSE"],
+          ["演化", "源自非洲，雜合子對**惡性瘧（P. falciparum）**有保護力 → 高頻率"]
+        ]},
+        {"type": "figure", "src": "figures/anemia-microcytic/h103-3.jpg", "label": "Harrison's 22e Fig. 103-3", "caption": "Sickle cell disease 的病生理",
+          "explain": "**【左：分子層次】**HbS 在**氧合時溶解**，**去氧時可逆性聚合**成長纖維。聚合程度與 Hb 濃度的 **30 次方**成正比 → 細胞稍微**脫水**（Gardos channel 等）就大幅促進聚合。反覆鐮刀化 → 膜永久受損 → **irreversibly sickled cells（ISC）**。\n**【右上：血管阻塞（Vasoocclusion）】**鐮刀細胞與內皮細胞（EC）、嗜中性球（N）、網狀紅血球（R）、血小板互相黏附 → 阻塞小血管\n**【右下：溶血（Hemolysis）】**鐮刀細胞壽命 **< 20 天**（正常 120 天）→ 血管內溶血釋出 Hb 與 **arginase** → Hb 清除 **NO**、arginase 分解 NO 的原料 arginine → **NO 缺乏** → 血管收縮、血小板活化、發炎\n**【考點】**兩條路徑對應兩組不同的併發症（見下表）。"},
+        {"type": "table", "headers": ["機轉", "相關併發症", "對治療的反應"], "rows": [
+          ["**血管阻塞型**", "**急性疼痛發作**、**acute chest syndrome**、**骨壞死**（髖關節）、脾梗塞（→ 功能性無脾）", "對 **HbF 誘導（hydroxyurea）**反應最好"],
+          ["**溶血型**（NO 缺乏）", "**中風**、**肺高壓**、腎病變、**腿部潰瘍**、**陰莖異常勃起（priapism）**、膽結石", "減少溶血的治療"]
+        ]},
+        {"type": "figure", "src": "figures/anemia-microcytic/h103-4.jpg", "label": "Harrison's 22e Fig. 103-4", "caption": "Sickle cell disease 的診斷：HPLC 與抹片",
+          "explain": "**【上排 HPLC，由左至右】**\n- **Sickle cell trait（HbAS）**：HbA 大峰 + HbS 峰（HbS 30–40%）\n- **Sickle cell anemia（HbSS）**：**沒有 HbA**，HbS 為主 + 少量 HbF\n- **HbSC disease**：HbC + HbS 各約一半，沒有 HbA\n**【下排抹片】**\n- 左（HbSS）：細長尖頭的 **irreversibly sickled cells**、target cells、有核紅血球\n- 右（HbSC）：target cells、**方形 HbC 結晶**的細胞、摺疊如塔可餅的細胞、小球形細胞"},
+        {"type": "heading", "text": "常見基因型（Table 103-2）"},
+        {"type": "table", "headers": ["基因型", "Hb / MCV", "臨床"], "rows": [
+          ["**Sickle cell trait（HbAS）**", "正常", "通常良性、壽命正常\n**血尿、腎乳頭壞死、尿濃縮能力差（hyposthenuria）**、CKD ↑\nVTE 風險 2–4 倍、高海拔脾梗塞\n⚠️ **運動中熱傷害 → 橫紋肌溶解、猝死**（運動前充分補水）"],
+          ["**HbSS**", "7–10 / 80–100", "最嚴重"],
+          ["HbS-β⁰ thal", "8–11 / **60–85**", "嚴重度同 HbSS（**小球性**）"],
+          ["HbS-β⁺ thal", "10–14 / 70–80", "併發症約 HbSS 的一半"],
+          ["**HbSC**", "10–14 / 70–100", "併發症約 HbSS 的一半，但**視網膜病變**風險較高"],
+          ["HbSS + α-thal", "8–11 / 60–85", "30% HbSS 合併；中風、腿部潰瘍較少"]
+        ]},
+        {"type": "heading", "text": "重要併發症"},
+        {"type": "table", "headers": ["併發症", "重點"], "rows": [
+          ["**急性疼痛發作**", "最常見的急性事件；常是對稱、四肢或軀幹劇痛，持續數天至數週\n**沒有確診檢查**；常伴 Hb 下降 1–2 g/dL、白血球輕度上升\n治療：找誘因（感染、脫水）→ **靜脈 opioid**，用 **PCA 或固定時間給藥**（不要 PRN）\n輔助：incentive spirometry、半張生理食鹽水（**避免過度輸液**）、預防 VTE\n**沒有缺氧不需給氧**\n⚠️ 入院 48–72 小時要監測 → 約 1/4 會在 72 小時內發展成 acute chest syndrome"],
+          ["**Acute chest syndrome**", "第二常見；> 50% 病人會發生\n診斷：**胸痛、咳嗽、發燒、缺氧 + 胸部 X 光新浸潤**\n原因：原位血栓、**骨髓脂肪栓塞**、感染、術後換氣不足\n治療：**抗生素**、SpO₂ < 95% 給氧、避免過度輸液與過量 opioid\n缺氧 + 發燒 + 浸潤 → **輸血**；重症 → **exchange transfusion**\n血小板低、白血球 > 20,000、Hb 快速下降 → 預示嚴重"],
+          ["**中風**", "10–15%；兒童多為梗塞、成人可為出血\n**Transcranial Doppler 篩檢**（2–16 歲每年）→ 高風險者**規律輸血**"],
+          ["**急性貧血發作**", "**Parvovirus B19**（aplastic crisis，retic 極低）、folate 缺乏、**脾臟隔離（splenic sequestration）**、遲發性溶血輸血反應"],
+          ["其他", "Priapism（~30% 男性，急症）、膽結石（~40%）、腎病變、肺高壓、骨壞死（~50%）、腿部潰瘍"]
+        ]},
+        {"type": "heading", "text": "治療與預防"},
+        {"type": "table", "headers": ["治療", "重點"], "rows": [
+          ["**Hydroxyurea**", "**標準治療**：所有 HbSS 與 HbS-β⁰ thal（不論有無症狀），**9 個月大**開始\n機轉：**誘導 HbF** → 抑制 HbS 聚合\n成人：疼痛與 ACS 減半、Hb ↑ ~1 g/dL、**死亡率 ↓ 49%**\n依嗜中性球與血小板調整至最大耐受劑量"],
+          ["Voxelotor", "增加 Hb 對 O₂ 的親和力 → 減少溶血\n（補充：2024 年 9 月已因安全性問題**全球下市**，非 Harrison 22e 內容）"],
+          ["Crizanlizumab", "**抗 P-selectin** 單株抗體 → 減少鐮刀細胞黏附 → 疼痛發作 ↓ ~45%（後續試驗未能重現）"],
+          ["L-glutamine", "減少氧化壓力 → 疼痛發作 ↓ 25%"],
+          ["**輸血**", "適應症：嚴重症狀性貧血、**中風治療與預防**、**全身麻醉手術前提升到 Hb ~10 g/dL**、嚴重 ACS\n**避免**用於單純疼痛發作、穩定的慢性貧血\n需擴大紅血球抗原配對（Rh C/E、K）→ 減少同種免疫"],
+          ["造血幹細胞移植", "HLA 相同手足捐贈 → 無事件存活 > 95%（但只有 15% 有配對者）"],
+          ["基因治療", "βA-T87Q lentiviral、CRISPR 編輯 BCL11A → HbF 30–50%"],
+          ["**預防**", "新生兒篩檢\n**預防性 penicillin**（至 5 歲）+ **肺炎鏈球菌疫苗**（功能性無脾）\nFolic acid 1 mg/day\nTCD 篩檢中風風險"]
+        ]},
+        {"type": "heading", "text": "其他血紅素病變（Table 103-7）"},
+        {"type": "table", "headers": ["疾病", "特徵"], "rows": [
+          ["**HbC**", "非洲裔；雜合子無症狀；同型合子：**大量 target cells**、**HbC 結晶**、輕度溶血、脾腫大\n重要性在於與 HbS 合併（HbSC）"],
+          ["**HbE**", "**東南亞**（部分族群 50% 帶因）；β26/27 突變影響 mRNA 剪接 → 合成減少 → 表現像 β-thal\n同型合子無溶血、20–80% target cells\n重要性在於 **HbE-β thalassemia**（東南亞最常見的嚴重型）"],
+          ["High O₂-affinity Hb", "**Isolated erythrocytosis**、家族性、無脾腫大、**JAK2 V617F 陰性**"],
+          ["Low O₂-affinity Hb", "無症狀輕度貧血、cyanosis"],
+          ["Unstable Hb", "色素尿、溶血、reticulocytosis、脾腫大（Heinz bodies）"],
+          ["M hemoglobins", "Methemoglobinemia、cyanosis、症狀少"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "815-819, 822"}
+      ]
+    },
+    {
+      "title": "小球性貧血鑑別診斷",
+      "content": [
+        {"type": "heading", "text": "鐵學檢查比較（Table 102-3）"},
+        {"type": "table", "headers": ["檢查", "缺鐵（IDA）", "Anemia of inflammation", "混合型", "Thalassemia trait"], "rows": [
+          ["**Ferritin**", "**↓（≤ 15–30）**", "**正常至 ↑（> 100）**", "低至正常（< 70–100）", "正常至 ↑"],
+          ["Serum iron", "↓", "↓", "↓", "**正常至 ↑**"],
+          ["**TSAT**", "**↓（< 10%）**", "↓（< 20%）", "↓（< 20%）", "**正常至 ↑**"],
+          ["MCV", "↓（< 80）", "正常至 ↓", "正常至 ↓", "**↓↓**"],
+          ["**RDW**", "**↑**", "正常", "正常至 ↑", "**正常至 ↓**"],
+          ["sTfR", "↑", "低至正常", "正常至 ↑", "正常至 ↑"],
+          ["**sTfR / log ferritin**", "**> 2**", "**< 1**", "**> 2**", "—"],
+          ["Hepcidin", "**極低**", "正常至 ↑", "低", "低至正常"],
+          ["Zn-protoporphyrin", "↑（> 80）", "正常至 ↑", "↑", "↑"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**用三個問題快速判斷**\n1. **Ferritin 低嗎？** → 低 = **IDA**（唯一一個 ferritin 低的）\n2. **TSAT/serum iron 低嗎？** → 低但 ferritin 不低 = **ACD**（或混合型 → 看 sTfR/log ferritin）\n3. **鐵學都正常、MCV 卻很小？** → **Thalassemia trait**（RDW 正常、RBC 數偏高、Mentzer index < 13）\n   → **HbA₂ ↑ = β-thal**；HbA₂ 正常 = 想 **α-thal**（DNA 分析）\n   → 鐵學正常甚至鐵過多 + 骨髓 ring sideroblasts = **sideroblastic anemia**"},
+        {"type": "heading", "text": "Sideroblastic anemia 與鉛中毒"},
+        {"type": "callout", "style": "trap", "text": "**補充（非 Harrison 22e Ch.102–103 內容，Ch.66 僅列入鑑別）**\n\n**Sideroblastic anemia**：heme 合成缺陷 → 鐵進了粒線體卻無法併入 protoporphyrin → 鐵沉積在粒線體 → 骨髓 Prussian blue 染色見 **ring sideroblasts**（鐵粒環繞細胞核）\n- 鐵學：**serum iron ↑、ferritin ↑、TSAT ↑**（和 IDA 相反）\n- **先天性**：**ALAS2 突變（X-linked）** → 部分對 **pyridoxine（B6）**有反應\n- **後天性**：**酒精**、**鉛中毒**、**isoniazid**（拮抗 B6）、**銅缺乏 / 鋅過量**、**MDS with ring sideroblasts**\n\n**鉛中毒**：抑制 **ALA dehydratase** 和 **ferrochelatase** → heme 合成受阻（小球性、ring sideroblasts）＋ 抑制 pyrimidine 5'-nucleotidase → **basophilic stippling**"},
+        {"type": "figure", "src": "figures/anemia-overview/h65-21.jpg", "label": "Harrison's 22e Fig. 65-21", "caption": "Basophilic stippling（鉛中毒，複習）",
+          "explain": "**【小球性貧血的抹片線索】**粗大的嗜鹼性點彩 → 想到**鉛中毒**或 **thalassemia**。鉛中毒的病人還會有腹痛、周邊神經病變（垂腕）、牙齦鉛線，兒童有認知發展問題。"},
+        {"type": "heading", "text": "診斷流程"},
+        {"type": "list", "ordered": true, "items": [
+          "**MCV < 80** → 驗 **ferritin**（+ serum iron、TIBC、TSAT）",
+          "**Ferritin < 30** → **IDA** → 找原因（月經、腸胃道、吸收不良）；男性與停經後女性 → **內視鏡**",
+          "**Ferritin 正常/高 + TSAT 低** → **Anemia of inflammation**（找潛在發炎疾病）\n懷疑合併缺鐵 → ferritin < 100、sTfR/log ferritin > 2、或試驗性補鐵",
+          "**Ferritin、TSAT 都正常** → **Hb 電泳/HPLC**\nHbA₂ ↑ → β-thal trait；HbA₂ 正常 → α-thal（DNA）",
+          "**鐵學偏高 + 原因不明** → 骨髓鐵染色找 **ring sideroblasts**；問酒精、藥物（INH）、鉛暴露"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "810, 820, 822"}
+      ]
+    },
+    {
+      "title": "Clinical Practice / 臨床思考練習",
+      "content": [
+        {"type": "collapsible", "summary": "Case 1：62 歲男性，近半年容易疲倦。Hb 8.6、MCV 70、RDW 19%、ferritin 6 μg/L，無腸胃道症狀", "text": "**診斷**：Ferritin 6 → 確定 **IDA**\n\n**關鍵：為什麼一個男性會缺鐵？**\n- 男性沒有月經失血 → **缺鐵 = 腸胃道失血，直到證明不是**\n- 無症狀不代表沒問題：**右側大腸癌**常只表現為缺鐵性貧血\n\n**下一步**：**上消化道內視鏡 + 大腸鏡**（Harrison：男性與停經後女性**必要**）\n\n**同時問**：NSAID/aspirin/抗凝血藥、痔瘡、黑便、體重減輕、AS 病史（Heyde syndrome）\n\n**治療**：口服鐵劑（隔天服、配柳橙汁）→ 1 週檢查 retic 上升、2 週 Hb 上升 ≥ 1 g/dL"},
+        {"type": "collapsible", "summary": "Case 2：30 歲女性，IDA，規則服用口服鐵劑 6 週，Hb 從 9.0 只升到 9.3", "text": "**判斷**：2 週內 Hb 應上升 ≥ 1 g/dL → 這是**治療反應不佳**\n\n**依序思考**：\n1. **真的有吃嗎？**（腸胃副作用 30–60% → 常自行停藥）→ 改隔天服用可改善耐受性\n2. **持續失血？** → 月經量（考慮合併 vWD）、腸胃道\n3. **吸收不良？**\n   - **Celiac disease**（anti-tTG IgA）\n   - **H. pylori 胃炎**\n   - **自體免疫萎縮性胃炎**（可能同時有 B12 缺乏）\n   - 減重手術、PPI、茶/咖啡配藥吃\n4. 診斷錯誤？（其實是 thalassemia trait 合併缺鐵）\n5. 罕見：**IRIDA**（TMPRSS6 突變，hepcidin 異常高）\n\n**處置**：找出原因後，若吸收不良或無法耐受 → **靜脈鐵劑**"},
+        {"type": "collapsible", "summary": "Case 3：26 歲男性，健檢 Hb 12.8、MCV 63、RBC 6.4 × 10⁶/μL、ferritin 120、HbA₂ 5.3%", "text": "**分析**：\n- 極低 MCV、輕微貧血、RBC 偏高（Mentzer index = 63/6.4 ≈ 9.8 < 13）\n- Ferritin 正常 → 排除缺鐵\n- **HbA₂ 5.3%（> 3.5%）** → **β-thalassemia trait（minor）**\n\n**處置重點**：\n1. **不需治療**，壽命正常\n2. ⚠️ **不要給鐵劑**（不缺鐵，補了只會鐵超載）\n3. **遺傳諮詢**：未來伴侶也要篩檢\n   - 伴侶也是 β-thal trait → 每胎 **1/4** 為重型（transfusion-dependent）\n4. 需要產前診斷時，先找出確切突變"},
+        {"type": "collapsible", "summary": "Case 4：一對準備懷孕的夫妻，兩人 MCV 都約 68、鐵學正常、HbA₂ 都正常", "text": "**分析**：\n- 兩人都是小球性 + 鐵學正常 + **HbA₂ 正常** → 不是 β-thal trait → 高度懷疑 **α-thalassemia trait**\n\n**為什麼必須做 DNA 分析？**\n- α-thal trait 有兩種基因型：\n  - **−α/−α（trans）**\n  - **−−/αα（cis，如東南亞型 −−SEA）**\n- 如果**兩人都是 cis 型（−−/αα）** → 每胎 **1/4** 機會是 **−−/−−** → **Hb Bart's hydrops fetalis**（致死）\n- 母親也可能出現子癲前症、羊水過多、產前出血\n\n**處置**：\n1. 兩人做 **α-globin 基因 DNA 分析**\n2. 若兩人皆帶 α⁰（−−）→ 遺傳諮詢、**產前診斷**（絨毛膜取樣或 cell-free DNA）\n3. 兩人都**不要補鐵**"},
+        {"type": "collapsible", "summary": "Case 5：60 歲女性，RA 活動期。Hb 9.8、MCV 81、ferritin 180、TSAT 11%、CRP 升高", "text": "**分析**：\n- TSAT 低（hypoferremia）+ ferritin 高（hyperferritinemia）+ 發炎 → **functional iron deficiency** → **anemia of inflammation**\n\n**但要問：有沒有合併真正的缺鐵？**\n- Ferritin 180 是 acute-phase reactant 拉高的 → 不能單看\n- RA 病人常用 **NSAID/類固醇** → 腸胃道失血風險\n- 輔助判斷：\n  - **sTfR/log ferritin > 2** → 合併缺鐵\n  - < 1 → 單純 ACD\n  - Ferritin < 100 μg/L 是最被接受的合併缺鐵切點\n\n**治療**：\n1. **控制 RA**（如 anti-IL-6 → hepcidin ↓ → 貧血改善）\n2. 若證實合併缺鐵 → 補鐵（口服效果可能差，因 hepcidin 高 → 考慮靜脈）"},
+        {"type": "collapsible", "summary": "Case 6：55 歲男性，血液透析中，ESA 劑量逐步增加但 Hb 仍停在 9.0。Ferritin 250、TSAT 14%", "text": "**分析**：**ESA hyporesponsiveness** 最常見原因 = **缺鐵**\n- TSAT 14% < 20% → 在 CKD 定義為缺鐵（不論 ferritin 多少）\n- Ferritin 250 可能被發炎拉高\n- 透析病人的缺鐵：\n  - **Absolute**：透析管路失血、抽血、血小板功能異常出血、吸收差\n  - **Functional**：hepcidin ↑（發炎 + 腎臟清除 ↓）+ ESA 刺激造血消耗鐵\n\n**處置**：\n1. **靜脈鐵劑**（晚期 CKD hepcidin 高 → 口服吸收差）\n2. 目標 **TSAT 30–40%、ferritin 200–700 μg/L**\n3. 補鐵後通常可**降低 ESA 劑量**\n4. ESA 目標 Hb **< 11.5 g/dL**（過高 → 中風、心血管事件）\n5. 其他 ESA 低反應原因：感染/發炎、透析不足、副甲狀腺亢進、B12/folate 缺乏、PRCA（anti-EPO 抗體）"},
+        {"type": "collapsible", "summary": "Case 7：22 歲 HbSS 男性，疼痛發作住院第 2 天，出現胸痛、發燒 38.6°C、SpO₂ 91%，CXR 右下葉新浸潤", "text": "**診斷**：**Acute chest syndrome**（胸痛 + 發燒 + 缺氧 + 新浸潤）\n- 典型時機：疼痛發作住院後 **72 小時內**（約 1/4 會發生）\n- 原因：骨髓脂肪栓塞、原位血栓、感染、換氣不足（疼痛 + opioid）\n\n**處置**：\n1. **抗生素**（涵蓋典型與非典型病原）\n2. **給氧**（SpO₂ < 95%）\n3. **輸血**：缺氧 + 發燒 + 浸潤 → 輸血；病情嚴重 → **exchange transfusion**（安排期間先做 simple transfusion）\n4. **Incentive spirometry**\n5. 避免**過度輸液**與**過量 opioid**（會加重呼吸衰竭）\n6. 考慮直接入 ICU\n\n**警訊**：血小板下降、白血球 > 20,000、Hb 快速下降 → 可能進展為 ARDS、多重器官衰竭\n\n**長期**：確認有在使用 **hydroxyurea**（ACS 發生率減半）"}
+      ]
+    }
+  ],
+  "related": [{"id": "anemia-overview", "name": "Anemia (一)：總論與診斷架構"}]
+}
