@@ -6,269 +6,517 @@
   "specialty": "腎臟內科",
   "sources": [
     "Harrison's 22e - Ch.56 Fluid and Electrolyte Disturbances (p.387-404)",
-    "Harrison's 22e - Ch.57 Hypercalcemia and Hypocalcemia (p.405-408)",
-    "First Choice 醫學(三) - 乙、離子平衡 (p.30-71)"
+    "Harrison's 22e - Ch.57 Hypercalcemia and Hypocalcemia (p.405-409)",
+    "Harrison's 22e - Ch.421 Bone and Mineral Metabolism：Phosphorus & Magnesium (p.3305-3311)",
+    "First Choice 醫學(三) - 乙、離子平衡（補充）"
   ],
-  "generated": "2026-09-12",
+  "generated": "2026-10-03",
   "sections": [
     {
-      "title": "Overview / Epidemiology",
+      "title": "總覽：體液、滲透壓與調控荷爾蒙",
       "content": [
-        "離子平衡異常涵蓋鈉 (Na⁺)、鉀 (K⁺)、鈣 (Ca²⁺)、磷 (P) 等電解質的紊亂，是住院病人最常見的代謝異常之一。",
-        {"type": "callout", "style": "guideline", "text": "**常見盛行率 (住院病人)**：\n- 低血鈉 (Hyponatremia)：高達 **22%**，最常見的電解質異常\n- 低血鉀 (Hypokalemia)：高達 **20%**，與十倍院內死亡率相關\n- 高血鉀 (Hyperkalemia)：~10%；嚴重 (>6.0 mM) ~1%\n- 高血鈣 (Hypercalcemia)：門診以原發性副甲狀腺功能亢進為主"},
-        {"type": "callout", "style": "logic", "text": "**體液組成基本概念**：\n- 全身水分：男性 ~60%、女性 ~50% 體重\n- 分布：ICF 55~75%、ECF 25~45% (血管內:間質 = 1:3)\n- **Na⁺** 為主要 ECF 陽離子 → 決定 ECF 容積\n- **K⁺** 為主要 ICF 陽離子 → 98% 在細胞內\n- 滲透壓正常範圍：280~295 mOsm/kg"},
-        "鈉離子異常本質上是**水分平衡**的問題 (Na⁺/水比例)，而非鈉總量的問題。鉀離子血清濃度每下降 1 mmol/L，代表體內鉀缺乏 200~400 mmol。",
-        {"type": "source", "book": "Harrison's 22e", "pages": "387-388"}
+        {"type": "callout", "style": "logic", "text": "**這份筆記的讀法：每個離子都用同一個三步驟框架**\n① **先確認是真的**（假性異常、校正值）\n② **第一刀**（找出最大的機轉分類）\n③ **第二刀**（用尿液檢查或荷爾蒙找出確切原因）\n\n兩句話記住電解質：\n- **鈉的「濃度」問題是「水」的問題**；鈉的「總量」問題是「容積」問題\n- **鉀的問題是「分布」與「排泄」的問題**（98% 在細胞內、90% 由腎臟排出）"},
+        {"type": "table", "headers": ["離子", "① 先確認是真的", "② 第一刀", "③ 第二刀"], "rows": [
+          ["**鈉**", "血清滲透壓：排除假性低血鈉、高血糖", "**體液容積狀態**", "**尿滲透壓、尿鈉**"],
+          ["**鉀**", "假性高/低血鉀（溶血、血球過多）", "**細胞內外轉移**？", "**腎臟 vs 腎外流失**（尿鉀）→ 血壓、酸鹼、renin/aldosterone"],
+          ["**鈣**", "**校正白蛋白**或驗離子鈣", "**PTH** 高或低", "PTHrP、維生素 D、血磷、尿鈣"],
+          ["**鎂、磷**", "（磷有日夜變化，空腹驗）", "攝取/吸收、**腎臟流失**、細胞內轉移", "依病史與藥物"]
+        ]},
+        {"type": "heading", "text": "體液組成與滲透壓"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["全身水分（TBW）", "**男性 60%、女性 50%** 體重"],
+          ["分布", "ICF 55–75%；ECF 25–45%（血管內 : 間質 = **1 : 3**）"],
+          ["主要粒子", "ECF：**Na⁺**（+ Cl⁻、HCO₃⁻）；ICF：**K⁺**、有機磷酸酯"],
+          ["正常滲透壓", "**280–295 mOsm/kg**"],
+          ["**Tonicity（有效滲透壓）**", "只算會造成水移動的溶質（Na⁺、葡萄糖）\n**尿素是「無效滲透質」**（可自由穿過細胞膜）\n→ 有效滲透壓 = 測得滲透壓 − BUN/2.8"],
+          ["血漿滲透壓估算（補充）", "2 × Na⁺ + 葡萄糖/18 + BUN/2.8"]
+        ]},
+        {"type": "heading", "text": "水的調控：Vasopressin（AVP、ADH）"},
+        {"type": "figure", "src": "figures/electrolyte-disorders/h56-1.png", "label": "Harrison's 22e Fig. 56-1", "caption": "血漿滲透壓與 AVP 的關係",
+          "explain": "**【怎麼看】**綠線（正常容積）：滲透壓超過約 **285 mOsm/kg** 開始分泌 AVP，之後呈線性上升；口渴也在同一個閾值啟動。\n- **低血容（藍線）**：閾值**左移**、斜率**變陡** → 同樣的滲透壓分泌更多 AVP\n- **高血容（橘線）**：閾值右移、斜率變平\n**【考點】**\n- 這就是為什麼**低血容、心衰竭、肝硬化**都會低血鈉：容積（或有效動脈血量）不足壓過了滲透壓訊號 → AVP 持續分泌\n- AVP 半衰期只有 **10–20 分鐘** → 改變很快\n- **非滲透壓性刺激**：噁心、疼痛、壓力、多種藥物 → 術後低血鈉的原因"},
+        {"type": "figure", "src": "figures/electrolyte-disorders/h56-3.png", "label": "Harrison's 22e Fig. 56-3", "caption": "Vasopressin 調控集尿管對水的通透性",
+          "explain": "**【怎麼看】**AVP 結合基底側的 **V2 receptor** → adenylyl cyclase → cAMP → PKA → 把裝著 **aquaporin-2** 的小泡插入管腔側細胞膜 → 水經 AQP2 進入細胞、再經基底側 AQP3/4 回到血液。\n**【考點】**\n- 有 AVP：尿可濃縮到 **1200 mOsm/kg**；沒有 AVP：尿可稀釋到 **30–50 mOsm/kg**\n- **Central DI**：沒有 AVP；**Nephrogenic DI**：V2R 或 AQP2 壞掉（或被鋰、高血鈣、低血鉀干擾）\n- **Tolvaptan**：V2 拮抗劑；**DDAVP**：V2 致效劑"},
+        {"type": "figure", "src": "figures/electrolyte-disorders/h56-2.png", "label": "Harrison's 22e Fig. 56-2", "caption": "腎臟濃縮機制（countercurrent）",
+          "explain": "**【怎麼看】**左邊是 Henle 氏環，右邊是集尿管。**TALH 的 NKCC2** 把 Na⁺、K⁺、2Cl⁻ 送進髓質間質（不帶水）→ 建立髓質高滲 → 集尿管在 AVP 作用下沿著這個梯度吸收水。尿素循環也幫忙維持內髓高滲。\n**【考點：為什麼 thiazide 比 loop diuretic 更容易低血鈉？】**\n- **Loop diuretic** 抑制 NKCC2 → **破壞髓質高滲** → 尿濃縮能力下降 → 即使有 AVP 也排得出水\n- **Thiazide** 作用在 DCT（皮質）→ **不影響**濃縮機制 → AVP 仍能完全發揮作用 → 留水 → 低血鈉"},
+        {"type": "heading", "text": "鈉與容積的調控"},
+        {"type": "table", "headers": ["腎小管節段", "回收比例", "主要轉運蛋白（利尿劑）"], "rows": [
+          ["近端腎小管", "約 **2/3**", "（acetazolamide）"],
+          ["TALH", "25–30%", "**NKCC2**（furosemide）"],
+          ["DCT", "5–10%", "**NCC**（thiazide）"],
+          ["CNT、集尿管", "微調", "**ENaC**（amiloride）；aldosterone 作用處"]
+        ]},
+        {"type": "figure", "src": "figures/electrolyte-disorders/h56-4.png", "label": "Harrison's 22e Fig. 56-4", "caption": "集尿管 principal cell（PC）與 β-intercalated cell（B-IC）",
+          "explain": "**【怎麼看】**這是理解所有鉀離子疾病的關鍵圖。\n- **Principal cell**：Na⁺ 經 **ENaC** 進入細胞 → 管腔變成**負電位（−）** → 推動 K⁺ 經 **ROMK**（基礎分泌）或 **BK**（流量依賴）分泌到尿中\n- **Aldosterone** 活化 ENaC → 留鈉排鉀\n- β-intercalated cell：經 pendrin（SLC26A4）吸收 Cl⁻\n**【用這張圖推出所有鉀的考點】**\n- 遠端 **Na⁺ 遞送量 ↑ / 流量 ↑**（thiazide、loop、滲透性利尿）→ **排鉀 ↑ → 低血鉀**\n- 遠端 Na⁺ 遞送量 ↓（低血容、心衰竭）→ 排鉀 ↓ → 高血鉀\n- **阻斷 ENaC**：amiloride、triamterene、**trimethoprim、pentamidine** → **高血鉀**\n- ENaC 功能增強：**Liddle syndrome** → 高血壓 + 低血鉀\n- 低血鎂：ROMK 的鎂抑制消失 → 持續排鉀 → **補鉀補不起來**"},
+        {"type": "heading", "text": "容積不足（Hypovolemia）"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["原因", "**腎臟**：滲透性利尿（葡萄糖、尿素、mannitol）、利尿劑、TMP/pentamidine、礦物皮質素缺乏、腎小管間質疾病、DI\n**腎外**：腸胃道、皮膚（燒傷、大量出汗）、呼吸道、**第三空間**（敗血症、胰臟炎、低白蛋白）、出血"],
+          ["可靠的身體徵象", "**JVP 下降**、**姿勢性心搏過速（站起來增加 > 15–20 次/分）**、**姿勢性低血壓（下降 > 10–20 mmHg）**\n皮膚彈性、口乾在成人不可靠"],
+          ["尿液", "腎外流失：**UNa < 20 mM**、Uosm > 450\n⚠️ 嘔吐造成的低氯性鹼中毒：尿中有 HCO₃⁻ 帶走 Na⁺ → UNa 可 > 20 → 改看 **UCl < 25 mM**"],
+          ["輸液選擇", "正常或低血鈉：**0.9% NS**（albumin 沒有更好）\n高血鈉：低張溶液（純水流失 → D5W；水 + 鹽流失 → 1/2 或 1/4 NS）\n腹瀉合併代謝性酸中毒：等張 NaHCO₃（150 mEq in D5W）\n出血：輸血，Hct 不超過 35%"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "387-390, 396"}
       ]
     },
     {
-      "title": "Etiology / Risk Factors",
+      "title": "低血鈉 (Hyponatremia)",
       "content": [
-        {"type": "heading", "text": "低血鈉 (Hyponatremia) — Na⁺ < 135 mM"},
-        {"type": "callout", "style": "guideline", "text": "**診斷前先排除假性低血鈉 (Pseudohyponatremia)**：\n1. **High osmolality**：高血糖 (血糖每↑100 mg/dL → Na⁺↓2.4 mEq/L)、Mannitol\n2. **Normal osmolality**：高血脂、高蛋白 (Multiple myeloma)\n3. **Low osmolality** (<280 mOsm)：**真正的低血鈉** → 依體液狀態鑑別"},
-        {"type": "table", "headers": ["體液狀態", "UNa", "常見病因", "治療"], "rows": [
-          ["Hypervolemia (水腫)", "<10~20 mM", "心衰竭、肝硬化、腎病症候群、腎衰竭", "限水 + 利尿劑"],
-          ["Euvolemia (不乾不腫)", ">30 mM", "SIADH (最常見)、甲狀腺低下、腎上腺功能不足", "限水；嚴重者 3% NaCl"],
-          ["Hypovolemia (乾)", "腎因 >20 / 腎外 <10 mM", "利尿劑、鹽流失腎病、腹瀉、嘔吐、燒傷", "0.9% NS 補液"]
+        {"type": "callout", "style": "guideline", "text": "**定義**：Na⁺ < 135 mM，住院病人高達 **22%**（最常見的電解質異常）\n**本質**：幾乎都是 **AVP 過多（或腎臟對 AVP 過度敏感）＋ 喝進自由水**\n例外：溶質攝取過少（beer potomania）"},
+        {"type": "heading", "text": "① 先確認：真的是低張性低血鈉嗎？"},
+        {"type": "table", "headers": ["血清滲透壓", "情境", "說明"], "rows": [
+          ["**正常或升高**（tonicity 不低）", "**Pseudohyponatremia**：極度高血脂、高蛋白（如 myeloma）", "檢驗以稀釋樣本測量並假設血漿 93% 是水 → 脂質或蛋白佔體積太多時算錯"],
+          ["**升高**", "**高血糖**、mannitol", "葡萄糖把細胞內的水拉出來 → 每升高 100 mg/dL，Na⁺ 下降 **1.6–2.4 mM**\n血糖矯正後就會恢復"],
+          ["**降低**（有效滲透壓 < 275）", "**真正的低張性低血鈉**", "→ 進入第二步"]
         ]},
-        {"type": "heading", "text": "高血鈉 (Hypernatremia) — Na⁺ > 145 mM"},
-        {"type": "table", "headers": ["體液狀態", "病因", "治療"], "rows": [
-          ["Hypervolemia", "過多高張鈉溶液 (如 NaHCO₃ 急救)", "D5W + 利尿劑"],
-          ["Euvolemia", "中樞型尿崩症 (Central DI)、腎性尿崩症 (Nephrogenic DI)", "Central: DDAVP；Nephrogenic: Thiazide"],
-          ["Hypovolemia", "利尿劑過量、腸道水分流失", "補充純水 / 低張溶液"]
+        {"type": "heading", "text": "② 第一刀：體液容積狀態"},
+        {"type": "figure", "src": "figures/electrolyte-disorders/h56-5.png", "label": "Harrison's 22e Fig. 56-5", "caption": "低血鈉的診斷流程",
+          "explain": "**【怎麼看】**先評估容積，再用**尿鈉（UNa）**分支：\n- **低血容**（總水 ↓、總鈉 ↓↓）：UNa > 20 → **腎臟流失**（利尿劑、礦物皮質素缺乏、失鹽性腎病、RTA/代謝性鹼中毒的重碳酸尿、酮尿、滲透性利尿、**cerebral salt wasting**）；UNa < 20 → **腎外流失**（嘔吐、腹瀉、第三空間、燒傷、胰臟炎）\n- **正常容積**（總水 ↑、總鈉不變）：UNa > 20 → **糖皮質素缺乏、甲狀腺低下、壓力、藥物、SIADH**\n- **高血容**（總水 ↑↑、總鈉 ↑）：UNa > 20 → **腎衰竭**；UNa < 20 → **腎病症候群、肝硬化、心衰竭**\n**【陷阱】**腎外流失的低血容病人臨床上可能看起來「正常容積」，唯一線索是 **UNa < 20**。"},
+        {"type": "table", "headers": ["分類", "機轉", "重點"], "rows": [
+          ["**低血容**", "低血容 → 神經荷爾蒙活化 → AVP ↑ + 喝水", "**生理食鹽水治療有效**（AVP 驟降 → 大量排水）\n**原發性腎上腺功能不全**：低血壓 + **高血鉀** + 低血鈉 + UNa 遠高於 20 → 要立刻想到\n**Thiazide**：可模仿 SIAD；停藥 1–2 週後才能診斷 SIAD\n**Cerebral salt wasting**（SAH、腦外傷、開顱術、腦炎）：臨床低血容 + 不當排鈉 → **積極補鹽**（和 SIAD 相反）"],
+          ["**高血容**", "有效動脈血量不足 → 神經荷爾蒙活化 → AVP ↑", "CHF、肝硬化、腎病症候群：**UNa < 10**（利尿劑會干擾）\n**低血鈉程度反映神經荷爾蒙活化程度 → 重要的預後指標**"],
+          ["**正常容積**", "SIAD 最常見；甲狀腺低下；**次發性腎上腺功能不全**", "**原發性**腎上腺不全（缺 aldosterone）→ **低血容**\n**次發性**（垂體疾病，主要缺 cortisol）→ **正常容積**（cortisol 原本會負回饋抑制 AVP）\n→ 補 hydrocortisone 後 AVP 迅速正常 → 小心**矯正過快**"]
         ]},
-        {"type": "heading", "text": "低血鉀 (Hypokalemia) — K⁺ < 3.5 mM"},
-        {"type": "table", "headers": ["機制", "病因", "特徵"], "rows": [
-          ["Transcellular shift", "鹼中毒 (H-K交換)、Insulin、β₂ agonist、甲亢週期性麻痺 (TPP)", "暫時性，小心 rebound hyperkalemia"],
-          ["腸道流失", "腹瀉 (全球最常見原因)、瀉劑濫用", "UK <15 mEq/L, TTKG <3"],
-          ["腎臟流失 (合併 HTN)", "原發性醛固酮症、腎動脈狹窄、Cushing's", "UK >30 mEq/day, TTKG >7"],
-          ["腎臟流失 (正常 BP + 鹼中毒)", "利尿劑、Bartter's、Gitelman's、嘔吐", "Bartter: 低鎂高尿鈣；Gitelman: 低鎂低尿鈣"],
-          ["腎臟流失 (正常 BP + 酸中毒)", "DKA、RTA (Type 1 & 2)、Amphotericin B", "合併代謝性酸中毒"]
+        {"type": "heading", "text": "③ 第二刀：尿液與其他檢查"},
+        {"type": "table", "headers": ["檢查", "判讀"], "rows": [
+          ["**尿滲透壓**", "**< 100** → 多喝水（polydipsia）或溶質攝取不足\n**> 400** → AVP 過多為主\n中間值 → 混合機轉"],
+          ["**尿鈉**", "**< 20–30** → 低血容（排除 CHF 等高血容狀態）\n**> 30** → SIAD\n老年人兩者重疊很多 → **黃金標準：給生理食鹽水後 Na⁺ 有沒有改善**"],
+          ["**尿酸**", "**SIAD：< 4 mg/dL**（近端回收被抑制）\n低血容：常偏高"],
+          ["其他", "BUN/Cr、**血鉀**（高 → 想腎上腺不全）、血糖、**TSH、cortisol**（原發性腎上腺不全要做 **cosyntropin test**）\n高風險吸菸者 → 胸部 **CT** 找小細胞肺癌（X 光可能看不到）"]
         ]},
-        {"type": "heading", "text": "高血鉀 (Hyperkalemia) — K⁺ > 5.5 mM"},
-        {"type": "table", "headers": ["機制", "病因"], "rows": [
-          ["Pseudohyperkalemia", "溶血、血小板/白血球過高、抽血時握拳"],
-          ["Transcellular shift", "酸中毒 (Non-AG)、β-blockers、Digoxin 中毒、Succinylcholine、高滲透壓"],
-          ["腎排泄減少", "CKD/ESRD、ACEI/ARB、Spironolactone、NSAID、Trimethoprim、Hyporeninemic hypoaldosteronism (DM)"],
-          ["過量攝取", "KCl 過度補充、大量輸血、腫瘤溶解、橫紋肌溶解"]
+        {"type": "heading", "text": "SIAD（SIADH）"},
+        {"type": "callout", "style": "guideline", "text": "**SIADH 診斷要件**：\n- 低張：血漿 Osmolality < 275 mOsm/kg\n- 尿液無法稀釋：**Urine osmolality > 100 mOsm/kg**\n- Urine Na > 30–40 mmol/L（Harrison：> 30）\n- 臨床正常容積\n- BUN、Cr 偏低，**Uric acid < 4 mg/dL**（典型！）\n- 排除**甲狀腺低下、腎上腺功能不足**、利尿劑\n\n四種 AVP 分泌模式：erratic（約 1/3）、無法在低滲透壓時抑制、**reset osmostat**、測不到 AVP（如 V2R 活化突變 → nephrogenic SIAD）\n嚴格來說 SIAD 是**輕度容積擴張**，不是真正的 euvolemia"},
+        {"type": "table", "headers": ["SIAD 常見原因（Table 56-1）", "例子"], "rows": [
+          ["**惡性腫瘤**", "**小細胞肺癌**（佔腫瘤相關 SIAD 的 75%；約 10% 初診時 Na⁺ < 130）、間皮瘤、口咽、腸胃道、泌尿生殖道、淋巴瘤"],
+          ["**肺部疾病**", "肺炎、**結核**、肺膿瘍、aspergillosis、氣喘、正壓呼吸"],
+          ["**中樞神經**", "腦炎、腦膜炎、腦膿瘍、**SAH**、硬腦膜下出血、中風、腦瘤、頭部外傷、Guillain-Barré、急性間歇性紫質症"],
+          ["**藥物**", "**SSRIs**（最常見）、TCA、**carbamazepine**、chlorpropamide、**vincristine**、**cyclophosphamide**、ifosfamide、抗精神病藥、麻醉止痛藥、NSAIDs、**MDMA**、desmopressin、oxytocin"],
+          ["暫時性", "耐力運動、全身麻醉、**噁心、疼痛、壓力**"]
         ]},
-        {"type": "heading", "text": "鈣離子異常"},
-        {"type": "callout", "style": "logic", "text": "**高血鈣兩大最常見原因**：\n1. **原發性副甲狀腺功能亢進** (pHPT) — 門診最常見，PTH ↑\n2. **惡性腫瘤** — 住院最常見，PTH ↓ (分泌 PTHrP 或骨轉移)\n\n**低血鈣最常見原因**：\n1. 甲狀腺/副甲狀腺術後 — PTH ↓\n2. 維他命 D 缺乏 — PTH ↑ (secondary hyperparathyroidism)\n3. CKD — 磷蓄積 + 1,25(OH)₂D 合成不足"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "387-404, 405-408"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "30-65"}
+        {"type": "callout", "style": "trap", "text": "**Beer potomania / 低溶質攝取**\n- 只喝啤酒（鈉 1–2 mM、幾乎沒有蛋白質）或極端素食\n- 排水能力受限於**每天能排出的溶質量** → 稍微多喝水就低血鈉\n- 特徵：**Uosm < 100 到 200 出頭**、**UNa < 10–20**\n- 給生理食鹽水或恢復飲食後 → **Na⁺ 會非常快速上升**\n- 合併低血鉀、酗酒、營養不良 → **ODS 風險極高**"},
+        {"type": "heading", "text": "臨床表現"},
+        {"type": "table", "headers": ["", "急性（< 48 小時）", "慢性（> 48 小時）"], "rows": [
+          ["機轉", "細胞腫脹 → **腦水腫**（硬頭骨內）", "腦細胞排出有機滲透質（creatine、betaine、glutamate、myoinositol、taurine）→ 48 小時內完成適應"],
+          ["症狀", "噁心、頭痛、嘔吐 → **癲癇、腦幹疝脫、昏迷、死亡**\n**呼吸衰竭**（神經性肺水腫、高碳酸血症）", "通常 Na⁺ < 125 才有噁心、混亂、癲癇\n「無症狀」者也有**步態與認知缺損 → 跌倒、骨折**（骨密度也下降）"],
+          ["治療重點", "**快速**提升", "**慢慢**矯正（ODS 風險）"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**急性低血鈉的高風險情境（Table 56-2）**\n- **停經前女性**比男性更容易發生腦病變\n- **術後**：AVP ↑ + 給低張輸液\n- **Glycine 灌洗液**（TURP、子宮手術）、大腸鏡清腸\n- **最近開始使用 thiazide**\n- 精神性多喝水（polydipsia）\n- **MDMA（Ecstasy、Molly）**：同時強力刺激口渴與 AVP\n- **耐力運動**（馬拉松）"},
+        {"type": "heading", "text": "治療"},
+        {"type": "callout", "style": "guideline", "text": "**三個治療原則**\n1. **症狀嚴重度**決定緊急程度\n2. 慢性低血鈉矯正過快 → **ODS**（> 8–10 mM/24h 或 > 18 mM/48h）\n3. 治療反應**非常難預測** → 頻繁監測 Na⁺（每 2–4 小時）\n\n**急性有症狀**：\n- **3% NaCl（513 mM）100 mL bolus**（比持續輸注更有效）→ 目標每小時升 1–2 mM，**總共升 4–6 mM** 即可緩解症狀\n- 之後改用慢性低血鈉的速度限制\n- 給氧、必要時呼吸支持；IV loop diuretic 可治療肺水腫並增加排水\n- **Vaptan 不用於急性低血鈉**\n\n**慢性**：\n- 第一個 24 小時 **< 6–8 mM**，之後每 24 小時 **< 6 mM**\n- 高風險者（酗酒、低血鉀、營養不良、肝移植）目標更低\n- **矯正過快 → DDAVP ± D5W 把 Na⁺ 拉回來**\n- 也可以一開始就規律給 DDAVP（每天兩次）＋ 3% saline 慢慢矯正，從源頭避免過快"},
+        {"type": "table", "headers": ["依原因的治療", "重點"], "rows": [
+          ["**低血容**", "**0.9% NS** → AVP 驟降、大量排水 → 慢性者小心**矯正過快**"],
+          ["**高血容（CHF）**", "加強心衰竭治療（如 ACE inhibitor）"],
+          ["**SIAD：限水**", "依 **尿液/血漿電解質比 =（UNa + UK）/ PNa**：\n> 1 → 嚴格限水 **< 500 mL/d**\n≈ 1 → 500–700 mL/d\n< 1 → < 1 L/d"],
+          ["SIAD：其他", "**補鉀**也會升高 Na⁺（可能矯正過快）\n增加溶質：**鹽錠**、**口服尿素**（效果與 vaptan 相當）\n**Furosemide 20 mg bid + 鹽錠**（注意低血鉀、腎功能）\nDemeclocycline（可能降 GFR，**肝硬化避免**）"],
+          ["**Vaptans**", "**Tolvaptan**（口服 V2 拮抗劑）、**conivaptan**（IV，V1A/V2 → 可能低血壓）\n必須**住院開始**、放寬喝水（> 2 L/d）、密切監測\n約 **10% 會矯正過快**\n不用於**低血容**與**急性**低血鈉\nTolvaptan 有肝功能異常 → 使用 < 1–2 個月\n最適合：持續、限水無效的 SIAD（如小細胞肺癌）"],
+          ["Beer potomania", "生理食鹽水 + 恢復飲食 → 反應非常快 → **ODS 風險最高**"],
+          ["次發性腎上腺不全", "Hydrocortisone → AVP 迅速正常 → 小心矯正過快"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Osmotic Demyelination Syndrome (ODS) / Central Pontine Myelinolysis (CPM)**：\n- **原因**：慢性低血鈉矯正太快（> 8–10 mM/24h 或 > 18 mM/48h）→ 腦細胞重新累積有機滲透質的速度**很慢**（不對稱）→ 寡突膠細胞受損、血腦障壁破壞\n- **部位**：**橋腦**最典型；也可在小腦、外側膝狀體、視丘、殼核、大腦皮質\n- **症狀**：矯正後 **1 天以上**才出現 → 下肢或四肢癱瘓、吞嚥困難、構音障礙、複視、**locked-in syndrome**、意識喪失；橋腦外病灶可有運動失調、緘默、巴金森症狀\n- **高風險**：**酗酒、營養不良、低血鉀、肝移植**\n- **處理**：矯正過快 → **DDAVP + D5W** 重新壓低 Na⁺，可預防或減輕 ODS\n- 即使矯正速度適當，高風險者仍可能發生"},
+        {"type": "callout", "style": "logic", "text": "**3% NaCl 計算**\n- Harrison：**Na⁺ deficit = 0.6 × 體重 ×（目標 Na⁺ − 起始 Na⁺）**，再換算 3% NaCl（513 mM）的速率\n- First Choice（補充）：TBW ×（125 − Na）= 0.513 × X cc 3% NaCl（TBW：男 = BW × 0.6，女 = BW × 0.5）；先算一天最多可升 8 mEq/L 的量，再分 24 小時給\n- ⚠️ 不論用哪個公式，實際上升幅度都**很難預測** → 每 2–4 小時驗 Na⁺ 再調整"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "390-395"}
       ]
     },
     {
-      "title": "Pathophysiology",
+      "title": "高血鈉與尿崩症 (Hypernatremia & DI)",
       "content": [
-        {"type": "heading", "text": "水平衡調控 — AVP (ADH) 與滲透壓"},
-        {"type": "callout", "style": "logic", "text": "**AVP (Vasopressin) 分泌調控**：\n- 滲透壓閾值 ~285 mOsm/kg 開始分泌，呈線性關係\n- **低血容 (Hypovolemia)** → 降低閾值、增加斜率 → 更多 AVP\n- **高血容 (Hypervolemia)** → 升高閾值、降低斜率 → 抑制 AVP\n- AVP 半衰期僅 10~20 分鐘，可快速反應\n\nAVP 作用：V2 receptor → 集尿管插入 Aquaporin-2 → 回收水 → 尿液濃縮"},
-        {"type": "heading", "text": "SIADH 診斷標準"},
-        {"type": "callout", "style": "guideline", "text": "**SIADH 診斷要件**：\n- 尿液無法稀釋：**Urine osmolality > 100 mOsm/kg**\n- Urine Na > 40 mmol/L\n- 血漿：Osmolality < 275 mOsm/kg\n- BUN, Cr, **Uric acid < 4 mg/dL** (典型！)\n- 排除甲狀腺低下、腎上腺功能不足\n\n四種 AVP 分泌模式：erratic、reset osmostat、leak、non-AVP mediated"},
-        {"type": "heading", "text": "鉀離子恆定機制"},
-        {"type": "callout", "style": "logic", "text": "**遠端腎小管 K⁺ 分泌機制 (Principal cell)**：\n- ENaC 通道吸收 Na⁺ → 產生管腔負電位 → 驅動 K⁺ 經 ROMK/BK 通道分泌\n- **Aldosterone** 活化 ENaC → 留鈉排鉀\n\n**影響 K⁺ 分泌的因素**：\n- 遠端 Na⁺ 遞送量 ↑ (利尿劑) → K⁺ 分泌 ↑\n- Aldosterone ↑ → K⁺ 分泌 ↑\n- Flow rate ↑ → BK channel 活化 → K⁺ 分泌 ↑"},
-        {"type": "heading", "text": "鈣離子恆定 — PTH / Vitamin D 軸"},
-        {"type": "callout", "style": "logic", "text": "**Ca²⁺ 調控三器官**：\n1. **骨骼**：PTH → RANKL ↑ → 蝕骨細胞活化 → 釋放 Ca²⁺\n2. **腎臟**：PTH → 遠端小管 Ca²⁺ 回收 ↑；近端 1,25(OH)₂D 合成 ↑；磷排泄 ↑\n3. **腸道**：1,25(OH)₂D → Ca²⁺ 吸收 ↑\n\n**矯正鈣值公式**：\n矯正 Ca = 測量 Ca + 0.8 × (4.0 − Albumin)"},
-        {"type": "heading", "text": "細胞膜內外鉀離子轉移 (Transcellular Shift)"},
-        {"type": "table", "headers": ["通道", "造成低血鉀", "造成高血鉀"], "rows": [
-          ["H⁺-K⁺ 交換", "鹼中毒 (H⁺出、K⁺入)", "Non-AG 酸中毒 (H⁺入、K⁺出)"],
-          ["Na⁺-K⁺ ATPase", "Insulin、β₂ agonist → K⁺入細胞", "β-blocker、Digoxin 中毒 → K⁺出細胞"],
-          ["Ca²⁺ 通道", "Hypokalemic periodic paralysis", "Hyperkalemic periodic paralysis (SCN4A mutation)"]
+        {"type": "callout", "style": "guideline", "text": "**定義**：Na⁺ > 145 mM\n**死亡率高達 40–60%**（主要反映潛在疾病的嚴重度）\n**本質**：水流失多於鈉（少數是攝入過多的鈉）\n**最高風險**：口渴感下降或拿不到水的**老年人**"},
+        {"type": "heading", "text": "原因"},
+        {"type": "table", "headers": ["類別", "原因"], "rows": [
+          ["**腎外失水**", "**無感性流失**（發燒、運動、熱、燒傷、呼吸器）\n**腹瀉**：滲透性腹瀉與病毒性腸胃炎 → 糞便 Na⁺ + K⁺ < 100 mM → **失水 → 高血鈉**\n分泌性腹瀉 → 等張糞便 → 低血容（± 低血鈉）"],
+          ["**腎臟失水：滲透性利尿**", "**高血糖**、尿素過多、阻塞解除後利尿、mannitol"],
+          ["**腎臟失水：水利尿**", "**Central DI**、**Nephrogenic DI**"],
+          ["**鈉過多**", "給予高張 NaCl 或 **NaHCO₃**"],
+          ["中樞口渴缺陷", "**Adipsic DI**：同時口渴 ↓ 與 AVP ↓（腫瘤、前交通動脈阻塞或結紮、外傷、水腦、sarcoidosis）"]
         ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "387-395, 405-406"}
-      ]
-    },
-    {
-      "title": "Pathology",
-      "content": [
-        {"type": "heading", "text": "低血鈉之腦部病變"},
-        {"type": "callout", "style": "trap", "text": "**Osmotic Demyelination Syndrome (ODS) / Central Pontine Myelinolysis (CPM)**：\n- **原因**：低血鈉矯正太快 (>8~10 mM/24h 或 >18 mM/48h)\n- **病理**：橋腦中央選擇性髓鞘脫失 (selective loss of myelin)，軸突保存\n- **症狀**：意識不清 (70%)、吞嚥困難 (40%)、四肢癱瘓/Locked-in syndrome (33%)\n- **高風險**：酒精使用者、營養不良、低血鉀、肝移植\n- **處理**：若矯正過快，給 DDAVP + D5W 重新壓低 Na⁺"},
-        {"type": "heading", "text": "低血鉀之腎臟病理"},
-        "慢性低血鉀造成近端腎小管上皮細胞特異性空泡化 (vacuolizing injury)、間質性腎炎、腎臟囊腫。長期低血鉀 (如飲食障礙、瀉劑濫用) 可導致 ESRD。",
-        {"type": "heading", "text": "高血鈣之腎臟影響"},
-        "高血鈣經由 Calcium-sensing receptor 直接抑制 TALH 的 Na⁺-K⁺-2Cl⁻ 轉運和集尿管 AQP2 表達，造成腎性尿崩 (NDI) 和多尿。長期高血鈣可致腎鈣化 (Nephrocalcinosis) 和腎功能惡化。",
-        {"type": "heading", "text": "副甲狀腺病理"},
-        {"type": "callout", "style": "logic", "text": "**原發性副甲狀腺功能亢進 (pHPT)**：\n- 80% 為腺瘤 (adenoma)，其餘為增生 (hyperplasia)\n- 增生須考慮 MEN (多發性內分泌腫瘤)\n- ~30% 可找到基因異常 (Cyclin D1、Menin)\n\n**副甲狀腺功能低下最常見原因**：\n- 甲狀腺/副甲狀腺手術後損傷\n- 自體免疫 (APS-1)"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "392-394, 405-408"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "32-33, 54-57"}
-      ]
-    },
-    {
-      "title": "Clinical Presentation",
-      "content": [
-        {"type": "heading", "text": "低血鈉 (Hyponatremia)"},
-        {"type": "callout", "style": "logic", "text": "**症狀以神經學為主** (腦水腫)：\n- 輕度：噁心、頭痛\n- 中度：意識混亂、嗜睡、嘔吐\n- 重度 (Na⁺ <125 mM)：癲癇、腦幹疝出、昏迷、呼吸衰竭\n\n**急性 vs 慢性** (48小時為分界)：\n- 急性：症狀嚴重、需緊急 3% NaCl\n- 慢性：細胞已排出有機溶質適應，但矯正過快有 ODS 風險"},
-        {"type": "heading", "text": "高血鈉 (Hypernatremia)"},
-        "神經學症狀為主：意識改變 (輕至深度昏迷)。急性高血鈉可致腦實質出血、硬腦膜下血腫 (兒童較多)。矯正過快有腦水腫風險 (矯正不超過 10 mM/day)。",
-        {"type": "heading", "text": "低血鉀 (Hypokalemia)"},
-        {"type": "callout", "style": "guideline", "text": "**症狀口訣**：肌肉無力最重要！\n- **肌肉**：無力、肌肉痙攣、麻痺、橫紋肌溶解\n- **腸道**：蠕動↓ → 便秘、麻痺性腸阻塞\n- **心臟**：T波變平、出現U波、ST↓、QT延長 → VT/VF\n- **腎臟**：多尿 (AVP-resistant concentrating defect)、代謝性鹼中毒\n- **毛地黃毒性** ↑：低血鉀增加 digoxin 與 Na⁺/K⁺-ATPase 結合"},
-        {"type": "heading", "text": "高血鉀 (Hyperkalemia)"},
-        {"type": "callout", "style": "trap", "text": "**高血鉀心律不整最重要！EKG 進展**：\n- K⁺ 5.5~6.5 mM → **T 波高尖 (Peaked/Tent T wave)**\n- K⁺ 6.5~7.5 mM → P 波消失 (Sinus arrest)\n- K⁺ 7.0~8.0 mM → **QRS 變寬**\n- K⁺ >8.0 mM → **Sine wave** → VF / Cardiac arrest\n\n⚠ EKG 變化敏感度不高，尤其 CKD/ESRD 病人！\nK⁺ ≥6.0 或有 EKG 變化即須緊急處理。"},
-        {"type": "heading", "text": "鈣離子異常"},
-        {"type": "table", "headers": ["", "低血鈣", "高血鈣"], "rows": [
-          ["神經肌肉", "Tetany、感覺異常、Chvostek sign、Trousseau sign、癲癇", "疲倦、無力、意識改變、昏迷"],
-          ["腸胃", "—", "噁心、嘔吐、便秘、消化性潰瘍"],
-          ["心臟 EKG", "**QTc 延長**、T 波平坦", "**QTc 縮短**、Bradycardia"],
-          ["腎臟", "—", "多尿 (NDI)、腎結石、腎鈣化"],
-          ["骨骼", "佝僂症 (Rickets)、軟骨症", "骨痛、病理性骨折"]
+        {"type": "table", "headers": ["DI 類型", "原因"], "rows": [
+          ["**Central DI**", "原發性（AVP 神經元選擇性破壞，可為顯性遺傳）\n垂體切除、外傷、下視丘腫瘤、發炎、血管、感染"],
+          ["**Nephrogenic DI**", "遺傳：**X-linked V2R** 失功能突變、AQP2 突變（AR/AD）\n**高血鈣**（CaSR → 抑制 TALH 轉運與 AQP2）\n**低血鉀**（抑制 AVP 反應、降低 AQP2）\n**鋰鹽**（抑制 GSK3；經 **ENaC** 進入 principal cell）、ifosfamide、部分抗病毒藥"],
+          ["**妊娠性 DI**", "懷孕後期胎盤分泌 **vasopressinase** 分解 AVP → 多尿、高血鈉\n**DDAVP 有效**（不被 vasopressinase 分解）"]
         ]},
-        {"type": "callout", "style": "logic", "text": "**各離子異常的主角症狀**：\n- **低血鈉** → 中樞神經 → 意識不清\n- **低血鉀、高血鈣** → 肌肉無力、腸胃不動\n- **高血鉀** → 心律不整最致命\n- **低血鈣** → Tetany、QTc 延長"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "392-394, 396-398, 405-407"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "31-35, 39-42, 48-50, 54-60"}
-      ]
-    },
-    {
-      "title": "Diagnosis / Workup",
-      "content": [
-        {"type": "heading", "text": "低血鈉鑑別診斷流程"},
-        {"type": "callout", "style": "guideline", "text": "**Step 1**：測 Serum osmolality → 排除假性低血鈉\n- High osm → 高血糖、Mannitol\n- Normal osm → 高血脂、高蛋白\n- **Low osm (<280)** → 真正低血鈉 → 進入 Step 2\n\n**Step 2**：評估體液狀態 (Volume status)\n- 水腫 → Hypervolemia → 心肝腎\n- 不乾不腫 → Euvolemia → SIADH, 甲低, 腎上腺不足\n- 乾皺 → Hypovolemia → 看 Urine Na\n\n**Step 3**：測 Urine Na, Urine Osm\n- UNa <20 → 腎外流失 (GI loss, sweating)\n- UNa >20 → 腎臟流失 (利尿劑、salt wasting、mineralocorticoid deficiency)"},
-        {"type": "heading", "text": "尿崩症鑑別 (DI 限水試驗 + DDAVP)"},
+        {"type": "heading", "text": "臨床表現"},
+        "- 細胞脫水縮小 → 以**神經症狀**為主：輕度混亂、嗜睡到深度昏迷\n- 急性時腦突然縮小 → 腦實質、蜘蛛膜下、硬腦膜下**出血**（主要在**兒童與新生兒**）\n- 少數：滲透性脫髓鞘、**橫紋肌溶解**\n- 慢性（> 48 小時）：腦細胞累積有機滲透質適應 → 症狀較輕，但**矯正過快會腦水腫、癲癇**（尤其嬰兒）",
+        {"type": "heading", "text": "診斷"},
+        {"type": "figure", "src": "figures/electrolyte-disorders/h56-6.png", "label": "Harrison's 22e Fig. 56-6", "caption": "高血鈉的診斷流程",
+          "explain": "**【怎麼看】**\n① **ECF 容積增加** → 給了太多高張 NaCl 或 NaHCO₃\n② 容積沒增加 → **有沒有排出「少量、最大濃縮」的尿**？\n- 有（尿量 < 500 mL/d、**Uosm > 800**）→ 腎臟正常反應 → **腎外失水**（無感性、腸胃道）或之前的腎臟失水\n- 沒有 → 看**每日尿溶質排泄量**：**> 750 mOsm/d** → **利尿劑、滲透性利尿**；否則是水利尿 → **DDAVP 試驗**：尿滲透壓上升 → **Central DI**；不變 → **Nephrogenic DI**"},
         {"type": "table", "headers": ["", "Central DI", "Nephrogenic DI", "Primary Polydipsia"], "rows": [
-          ["限水後 Uosm", "仍低 (<300)", "仍低 (<300)", "升高 (>600)"],
-          ["DDAVP 後 Uosm", "↑↑ (>50% 升幅)", "無明顯變化 (<10% 升幅)", "不需測試"],
-          ["血漿 AVP", "低", "高", "低或正常"],
-          ["治療", "DDAVP", "Thiazide、治療病因", "限水"]
+          ["限水後 Uosm", "仍低", "仍低", "**升高**（能濃縮）"],
+          ["**DDAVP 後 Uosm**", "**上升**（> 50%）", "**上升 < 50% 或 < 150 mOsm/kg**", "—"],
+          ["血漿 AVP / copeptin", "低", "**高**", "低或正常"],
+          ["治療", "**DDAVP**", "治療病因；慢性多尿可用 thiazide、amiloride（鋰）、NSAIDs", "限水"]
         ]},
-        {"type": "heading", "text": "低血鉀鑑別診斷 — TTKG 的應用"},
-        {"type": "callout", "style": "guideline", "text": "**TTKG (Transtubular K⁺ Gradient)**：\nTTKG = (UK / Uosm) / (PK / Posm)\n= 尿鉀占血鉀的比例，再各以滲透壓校正\n\n- **TTKG > 7** → 腎臟流失 (Renal K⁺ loss)\n- **TTKG < 3** → 腎外流失 (Extrarenal loss / Transcellular shift)\n\n使用前提：\n1. Urine Na > 25 mEq/L\n2. Urine Osm > Plasma Osm (或 > 300)"},
+        {"type": "callout", "style": "trap", "text": "**已經高血鈉的病人：絕對不能做限水試驗！**\n- 高血鈉本身就是最強的 AVP 刺激 → 不需要再限水，限水只會讓高血鈉更嚴重\n- 直接看 **DDAVP 反應 + 血漿 AVP/copeptin**\n- 限水試驗（或高張食鹽水刺激 copeptin）只用於**血鈉正常或偏低的多尿病人**\n- 部分反應（上升 > 50% 但沒到 800 mOsm/kg）→ 用 AVP 濃度區分\n- 孕婦驗 AVP 要用含 protease inhibitor 的試管（避免 vasopressinase 分解）"},
+        {"type": "heading", "text": "治療（Table 56-3）"},
+        {"type": "table", "headers": ["步驟", "公式 / 內容"], "rows": [
+          ["① 估算 TBW", "女性 50%、男性 60% 體重"],
+          ["② **自由水缺失量**", "**[(Na⁺ − 140) / 140] × TBW**"],
+          ["③ 給予速度", "**48–72 小時**補完，**每天 Na⁺ 下降不超過 10 mM**"],
+          ["④ 持續流失：**電解質自由水清除率**", "**CeH₂O = V × [1 − (UNa + UK) / PNa]**（V = 尿量）"],
+          ["⑤ 無感性流失", "約 **10 mL/kg/天**（呼吸器較少、發燒較多）"],
+          ["⑥ 合計", "缺失量（48–72 小時）+ 每日持續流失"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**補水方式**\n- 最好**口服或鼻胃管**給水（最直接的自由水）\n- 靜脈：**D5W**（注意高血糖）；容積不足時先用 **1/4 或 1/2 NS**\n- 一般**不用生理食鹽水**（除非極重度高血鈉或明顯低血壓）\n\n**速度**：成人目標 ≤ 10 mM/天。近期證據顯示重症成人快速矯正**不增加**死亡、癲癇或腦水腫；但限制速度沒有壞處 → 仍建議限制；若超過也**不需要把 Na⁺ 拉回去**（和低血鈉不同）\n\n**病因治療**：\n- Central DI → **DDAVP**（IV、鼻噴、口服）\n- 鋰鹽 NDI → **Amiloride** 2.5–10 mg/d（阻止鋰經 ENaC 進入細胞）；長期鋰鹽會造成腎間質纖維化，停藥後 NDI 可能持續\n- **Thiazide、amiloride、NSAIDs 只用於 NDI 的慢性多尿**，不用於急性高血鈉"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "387, 394-396"}
+      ]
+    },
+    {
+      "title": "低血鉀 (Hypokalemia)",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "**定義**：K⁺ < 3.5 mM（正常 3.5–5.0）\n住院病人高達 **20%**；與**院內死亡率增加 10 倍**相關\n\n**鉀的恆定**：> 98% 在細胞內（主要在肌肉）；每日攝取的鉀 **90% 由尿排出**、10% 由糞便\n→ 低血鉀 = **細胞內轉移** 或 **腎臟/腎外流失**（或攝取不足）"},
+        {"type": "heading", "text": "① 先確認：假性低血鉀"},
+        "- 抽血後細胞在試管內繼續攝取 K⁺ → 例如**急性白血病的極度白血球增多**\n- 環境溫度高也會增加細胞攝取",
+        {"type": "heading", "text": "② 第一刀：有沒有細胞內轉移？"},
+        {"type": "table", "headers": ["機轉", "原因"], "rows": [
+          ["**鹼中毒**", "代謝性鹼中毒"],
+          ["**Insulin**", "外源性 insulin（尤其 **DKA 治療**時）；營養不良者給醣類 → 內生性 insulin → 同時低鉀、低鎂、低磷（**refeeding**）"],
+          ["**β₂ 腎上腺素活性**", "**β₂ agonists**（支氣管擴張劑、安胎藥 ritodrine）、藏在感冒糖漿或減肥藥的 pseudoephedrine/ephedrine\n交感神經興奮：**酒精戒斷、甲狀腺亢進、急性 MI、嚴重頭部外傷**\nTheophylline 過量、大量咖啡因"],
+          ["**週期性麻痺**", "**Thyrotoxic periodic paralysis（TPP）**、家族性低血鉀週期性麻痺（L-type Ca channel 或骨骼肌 Na channel 突變）"],
+          ["合成代謝狀態", "給予 **B12 或 folate**（紅血球大量生成）、GM-CSF、TPN"],
+          ["其他", "低體溫、**鋇中毒**（阻斷鉀離子漏出通道）、α 阻斷劑"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Thyrotoxic Periodic Paralysis（TPP）**\n- 好發：**亞洲或拉丁美洲裔男性**（與 Kir2.6、KCNJ2 基因變異有關）\n- 表現：四肢與肢帶無力或麻痺，**最常發生在凌晨 1–6 點**\n- **不一定**有明顯甲亢症狀\n- 低血鉀通常很嚴重，**幾乎都合併低血磷與低血鎂**\n- 機轉：Na⁺/K⁺-ATPase 活化 + 肌肉 Kir 電流下降 → 惡性循環\n- 治療：**高劑量 propranolol（3 mg/kg）**→ 快速逆轉低鉀、低磷與麻痺，**且不會反彈性高血鉀**\n- 大量補鉀 → 甲亢緩解後會**反彈性高血鉀**"},
+        {"type": "heading", "text": "③ 第二刀：腎臟還是腎外流失？"},
+        {"type": "table", "headers": ["檢查", "腎外流失", "腎臟流失"], "rows": [
+          ["**24 小時尿鉀**", "**< 15 mmol/day**", "> 15 mmol/day"],
+          ["**隨機尿鉀/肌酸酐**", "< 15 mmol/g Cr", "**> 13 mmol/g Cr**（> 1.5 mmol/mmol）"],
+          ["TTKG", "**< 3**（預期值）", "升高（Fig 56-7：> 4 → 遠端分泌 ↑）"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**TTKG（Transtubular K⁺ Gradient）的定位**\nTTKG =（尿 K⁺ / 血清 K⁺）÷（尿 Osm / 血清 Osm）\n- 用途：只有**隨機尿**時估計遠端排鉀\n- 低血鉀時預期 **< 3**；高血鉀時預期 **> 7–8**\n- ⚠️ Harrison 22e：TTKG 的預期值**主要來自歷史資料**；也有學者認為它忽略了遠端尿素再吸收而不可靠（Harrison 認為這些批評屬於理論，TTKG 仍是有用的床邊工具）\n- **低血鉀時 Harrison 優先用 24 小時尿鉀或尿鉀/肌酸酐比**，TTKG 是替代\n- 使用前提（補充）：尿 Na⁺ > 25 mM、尿 Osm > 血清 Osm"},
+        {"type": "figure", "src": "figures/electrolyte-disorders/h56-7.png", "label": "Harrison's 22e Fig. 56-7", "caption": "低血鉀的診斷流程",
+          "explain": "**【上半部 = 前兩步】**先問：急症？假性？攝取不足？**細胞內轉移**（右側清單：insulin、β₂、FHPP、甲亢、鋇、theophylline、chloroquine）？\n**【驗尿鉀分兩邊】**\n**左：腎外流失（< 15）→ 看酸鹼**\n- 代謝性**酸中毒** → **腸胃道流失**（腹瀉）\n- 正常 → 大量出汗\n- 代謝性**鹼中毒** → **之前**用過利尿劑、**之前**嘔吐（停止後尿鉀已不高）\n**右：腎臟流失（> 15）→ TTKG**\n- < 2 → 腎小管流量 ↑（滲透性利尿）\n- > 4 → 遠端分泌 ↑ → **看血壓/容積**：\n  - **高** → **Aldosterone**：高 + **renin 高** → 腎動脈狹窄、分泌 renin 的腫瘤、惡性高血壓；高 + **renin 低** → **原發性醛固酮症**、FH-I；**aldosterone 低** → 看 cortisol：高 → **Cushing**；正常 → **Liddle、甘草、SAME**\n  - **低或正常** → **看酸鹼**：酸中毒 → **近端/遠端 RTA、DKA、amphotericin B、acetazolamide**；鹼中毒 → **尿 Cl⁻**：**< 10 → 嘔吐**、chloride diarrhea；**> 20 → 尿 Ca/Cr**：**> 0.20 → loop diuretic、Bartter**；**< 0.15 → thiazide、Gitelman**；不一定 → 不可再吸收陰離子（penicillin 類）"},
+        {"type": "heading", "text": "高血壓 + 低血鉀"},
+        {"type": "table", "headers": ["Renin", "Aldosterone", "疾病", "重點"], "rows": [
+          ["↑", "↑", "**次發性醛固酮症**", "**腎動脈狹窄**（最常見）、分泌 renin 的腫瘤、惡性高血壓"],
+          ["↓", "↑", "**原發性醛固酮症**", "**Aldosterone-producing adenoma（~60%）**、雙側腎上腺增生（~40%）、腎上腺癌\n遺傳性：**FH-I（GRA，glucocorticoid 可抑制）**、FH-II、FH-III（KCNJ5）\n**Aldosterone : PRA > 50** 提示\n檢查時只有 **verapamil、α-blocker、hydralazine、低劑量 amiloride** 不干擾"],
+          ["↓", "↓", "**Apparent mineralocorticoid excess**", "**SAME**（11βHSD-2 缺乏 → cortisol 活化 MR）\n**甘草**（glycyrrhizinic acid）、carbenoxolone、**itraconazole、posaconazole** 抑制 11βHSD-2\n→ **spironolactone 有效**"],
+          ["↓", "↓", "**Liddle syndrome**", "ENaC **功能增強**（AD）→ 嚴重高血壓 + 低血鉀\n**Amiloride 有效、spironolactone 無效**"],
+          ["↓", "↓", "**Cushing syndrome**", "垂體性只有 **10%** 低血鉀；**異位 ACTH 60–100%**（11βHSD-2 被壓垮）"],
+          ["↓", "↓", "先天性腎上腺增生", "**11β-hydroxylase**（男性化）或 **17α-hydroxylase**（性腺低下）缺乏 → 11-deoxycorticosterone ↑"]
+        ]},
+        {"type": "heading", "text": "血壓正常 + 低血鉀 + 代謝性鹼中毒"},
         {"type": "callout", "style": "logic", "text": "**Bartter's vs Gitelman's syndrome 鑑別**：\n\n共同特徵：低血鉀 + 代謝性鹼中毒 + 高 Renin + 高 Aldosterone + 血壓正常"},
         {"type": "table", "headers": ["", "Bartter's", "Gitelman's"], "rows": [
-          ["病變位置", "TALH (Na-K-2Cl)", "DCT (Na-Cl)"],
-          ["類似藥物", "Furosemide", "Thiazide"],
-          ["血鎂", "低", "低"],
-          ["尿鈣", "高", "低 (鑑別關鍵！)"],
-          ["嚴重度", "較重、可致產前多羊水", "較輕"]
+          ["病變位置", "**TALH**（NKCC2 等 5 個基因）", "**DCT**（NCC，幾乎都是同一基因）"],
+          ["類似藥物", "**Furosemide**", "**Thiazide**"],
+          ["血鎂", "約 20% 低", "**一律低**"],
+          ["**尿鈣**", "**高**（可腎鈣化）", "**低（鑑別關鍵！）**"],
+          ["其他", "多尿、多渴（濃縮能力下降）\n**產前型**：多重電解質流失、**羊水過多**、前列腺素 ↑", "較輕\n可有**軟骨鈣化症（CPPD）**"]
         ]},
-        {"type": "heading", "text": "高血鉀鑑別 — TTKG 的應用"},
-        {"type": "callout", "style": "guideline", "text": "**排除 Pseudo → Transcellular shift → 收集尿液**：\n- TTKG ≥ 8 → Aldosterone 有作用 → 考慮 ECF 不足或攝取過多\n- TTKG < 5 → Aldosterone 無功能 → 進一步測 Renin/Aldo\n  - Aldo 低 + Renin 低 → NSAID、β-blocker、DM 腎病\n  - Aldo 低 + Renin 高 → ACEI/ARB、Addison's\n  - Aldo 正常 + 給 Fludrocortisone 後 TTKG 仍 <10 → 腎小管抗性 (TMP、Spironolactone)"},
-        {"type": "heading", "text": "高血鈣鑑別"},
-        {"type": "callout", "style": "guideline", "text": "**關鍵：測 PTH**\n- **PTH ↑ (或 inappropriately normal)**：pHPT\n  - 確認排除 FHH：Ca/Cr clearance ratio <0.01 → FHH\n  - Aldosterone:PRA ratio 不適用此處\n- **PTH ↓ (appropriately suppressed)**：非副甲狀腺性\n  - 測 PTHrP → 惡性腫瘤\n  - 測 1,25(OH)₂D → 肉芽腫病 (結核、Sarcoidosis)、Lymphoma\n  - 測 25(OH)D → Vitamin D 中毒\n\n口訣 **VITAMINS TRAP**：Vit D/A, Immobilization, Thyrotoxicosis/Thiazide, Addison's, Milk-alkali, Inflammation, Neoplasia, Sarcoidosis, TB, Rhabdomyolysis, AIDS, PTH/Paget's"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "392-403, 405-408"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "31-42, 54-60"}
+        {"type": "table", "headers": ["慢性低血鉀鹼中毒的三大原因", "尿 Cl⁻", "尿 Na⁺/K⁺/Cl⁻", "確認"], "rows": [
+          ["**偷偷嘔吐**（bulimia）", "**< 10 mM**", "—", "胃酸流失 → 低氯 → 留氯"],
+          ["**利尿劑濫用**", "變化大", "升高但**起伏不定**", "**尿液利尿劑篩檢**"],
+          ["**Gitelman's**", "持續升高", "**持續**升高", "低尿鈣"]
+        ]},
+        {"type": "heading", "text": "其他腎臟流失原因"},
+        {"type": "table", "headers": ["類別", "例子與機轉"], "rows": [
+          ["**利尿劑**", "增加遠端 Na⁺ 遞送與流量 + 次發性醛固酮症\n**Thiazide 比 loop 更容易低血鉀**（儘管利鈉作用較弱）：thiazide 造成**低尿鈣**；loop 造成高尿鈣 → 管腔 Ca²⁺ **抑制 ENaC** → 減少排鉀"],
+          ["**不可再吸收的陰離子**", "嘔吐/鼻胃管（**HCO₃⁻**）、近端 RTA、DKA（酮體）、吸膠（toluene）、**高劑量 penicillin 類**（nafcillin、oxacillin 等）"],
+          ["**腎小管毒性藥物**", "**Aminoglycosides、amphotericin B**、foscarnet、**cisplatin**、ifosfamide → 同時**低鉀 + 低鎂**"],
+          ["**遠端 RTA**", "H⁺-ATPase 缺陷 → 低血鉀 + 非陰離子間隙代謝性酸中毒"],
+          ["**低血鎂**", "見下方"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**低血鎂 → 補鉀補不起來**\n1. 低鎂抑制肌肉 **Na⁺/K⁺-ATPase** → 細胞攝取 K⁺ ↓\n2. 細胞內 Mg²⁺ 原本會**阻擋 ROMK** 的 K⁺ 外流 → 低鎂時阻擋消失 → 遠端**持續排鉀**\n→ **一定要同時矯正鎂**\n很多遠端腎單位疾病（Gitelman、利尿劑、腎毒性藥物）會**同時**造成低鉀與低鎂"},
+        {"type": "heading", "text": "臨床表現"},
+        {"type": "callout", "style": "guideline", "text": "**症狀口訣**：肌肉無力最重要！\n- **心臟**：心房與心室**心律不整**的主要危險因子；增加 **digoxin 毒性**（K⁺ 與 digoxin 競爭 Na⁺/K⁺-ATPase）；EKG：**T 波寬平、ST 下降、QT 延長**（K⁺ < 2.7 最明顯），可見 U 波 → 合併其他 QT 延長因素時易誘發心律不整\n- **骨骼肌**：過度極化 → 無力、**麻痺**、肌病變、**橫紋肌溶解**\n- **腸道**：**麻痺性腸阻塞**\n- **腎臟**：**多尿**（中樞性多喝 + AVP 抗性的濃縮缺陷）、NaCl 與 HCO₃⁻ 滯留 → **代謝性鹼中毒**、氨生成 ↑、磷尿、低檸檬酸尿\n- **腎臟結構**：近端腎小管**空泡化**、間質性腎炎、腎囊腫；長期（飲食障礙、瀉劑濫用）→ **ESRD**\n- **血壓**：低鉀/低鉀飲食 → 鈉滯留 → **高血壓**；也與心衰竭、血管疾病、中風有關"},
+        {"type": "heading", "text": "治療"},
+        {"type": "table", "headers": ["原則", "內容"], "rows": [
+          ["緊急程度", "看嚴重度、合併因素（心臟病、**digoxin**）、下降速度；QT 延長或心律不整風險 → **心電監測**"],
+          ["**轉移型**", "嚴重（< 2.5 mM）或有併發症才謹慎補充 → 小心**反彈性高血鉀**\n交感神經主導（**TPP、theophylline 過量、頭部外傷**）→ **propranolol 3 mg/kg**"],
+          ["**口服 KCl**", "**主要療法**\n合併低血磷 → **K phosphate**；合併代謝性酸中毒 → **K bicarbonate 或 K citrate**"],
+          ["**同時補鎂**", "低鎂者單補鉀無效"],
+          ["**估算缺失量**", "沒有轉移因素時：體內每少 **100 mmol**，血清 K⁺ 約降 **0.27 mM**\n流失 400–800 mmol → 血清 K⁺ 約降 **2.0 mM**\n要在 **24–48 小時**內慢慢補（細胞重新分布需要時間）"],
+          ["**IV KCl**", "只用於**無法口服**或有**嚴重併發症**（麻痺、心律不整）\n一定用 **生理食鹽水稀釋**，**不要用葡萄糖水**（刺激 insulin → 更低鉀）\n周邊靜脈：**20–40 mmol/L**（更濃 → 靜脈炎、疼痛）\n嚴重（< 2.5）或危急 → **中心靜脈**、ICU 心電監測、**10–20 mmol/h**\n每袋限量（如 20 mmol in 100 mL）避免意外大量輸入"],
+          ["減少流失", "降低非保鉀利尿劑劑量、限鈉、合併保鉀藥物（如 loop + ACE inhibitor）"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "396-400"}
       ]
     },
     {
-      "title": "Treatment",
+      "title": "高血鉀 (Hyperkalemia)",
       "content": [
-        {"type": "heading", "text": "低血鈉治療"},
-        {"type": "callout", "style": "guideline", "text": "**急性症狀性低血鈉 (Medical emergency)**：\n- **3% NaCl (513 mM)**：Bolus 100 mL → 目標升 Na⁺ 1~2 mM/h，共升 4~6 mM\n- 監測：每 2~4 小時測 Na⁺\n\n**慢性低血鈉 (>48h) 矯正速度限制**：\n- **<6~8 mM/24h** (第一天)；<6 mM/每後續 24h\n- 高風險病人 (酒精、低鉀、營養不良) 更嚴格\n- 矯正過快 → 立即給 **DDAVP + D5W** 壓回\n\n**依體液狀態治療**：\n- Hypervolemia → 限水 + 利尿劑\n- Euvolemia (SIADH) → 限水 ± Furosemide + 鹽錠 ± Tolvaptan (oral V2 antagonist)\n- Hypovolemia → 0.9% NS"},
-        {"type": "callout", "style": "trap", "text": "**3% NaCl 計算公式** (First Choice)：\nTBW × (125 − Na) = 0.513 × X cc 3% NaCl\n(TBW: 男 = BW×0.6, 女 = BW×0.5)\n\n為避免 CPM，先算一天最多可升 8 mEq/L 的量，再除以二給 24 小時。"},
-        {"type": "heading", "text": "高血鈉治療"},
-        {"type": "callout", "style": "guideline", "text": "**Free water deficit 計算**：\n- TBW = BW × 0.6 (男) 或 0.5 (女)\n- Free water deficit = [(Na⁺ − 140) / 140] × TBW\n- **矯正速度 ≤10 mM/day**，deficit 分 48~72 小時補充\n- 優先口服或鼻胃管補純水；IV 用 D5W 或半/四分之一 NS\n- Central DI → DDAVP\n- NDI → Amiloride (鋰鹽所致)、Thiazide"},
-        {"type": "heading", "text": "低血鉀治療"},
-        {"type": "callout", "style": "guideline", "text": "**補充原則**：\n1. 口服 KCl 為主，IV KCl 限於無法口服或嚴重併發症\n2. IV KCl 用 **Normal saline 稀釋** (非 Dextrose！糖水刺激 insulin → K⁺ 更低)\n3. 周邊靜脈：≤20 mmol/h、20~40 mmol/L 濃度\n4. 中心靜脈：可至 60 mmol/L，需心電圖監測\n5. **低血鎂必須同時矯正**，否則 K⁺ 補不回來\n6. RTA 引起者補 **K⁺ citrate** (同時矯正酸中毒)\n7. Transcellular shift 所致 → 小心補充、慎防 rebound hyperkalemia\n\n**TPP**：高劑量 Propranolol (3 mg/kg) 可迅速逆轉低血鉀"},
-        {"type": "heading", "text": "高血鉀治療"},
-        {"type": "table", "headers": ["方式", "起效時間", "機轉"], "rows": [
-          ["Ca²⁺ gluconate 1~2 amp IV", "1~3 分鐘", "穩定心肌細胞膜電位 (不降 K⁺)"],
-          ["Insulin 10U + D50W 25g IV", "15~30 分鐘", "K⁺ shift 入細胞"],
-          ["NaHCO₃ IV", "15~30 分鐘", "K⁺ shift 入細胞 (效果有限)"],
-          ["Nebulized Albuterol 10~20mg", "30 分鐘", "β₂ → K⁺ shift 入細胞"],
-          ["Furosemide IV", "30 分鐘", "增加 K⁺ 腎排泄"],
-          ["Kayexalate/Patiromer/SZC", "1~2 小時", "腸道離子交換，降低體內 K⁺ 總量"],
-          ["血液透析 (Hemodialysis)", "即刻", "最有效移除 K⁺ 的方法"]
+        {"type": "callout", "style": "guideline", "text": "**定義：K⁺ > 5.5 mM**（Harrison：≥ 5.5 mM；正常上限 5.0，部分檢驗室或教材以 > 5.0 為高血鉀）\n住院病人約 **10%**；嚴重（> 6.0 mM）約 1%，**死亡率顯著上升**\n**最常見的根本原因：腎臟排鉀減少**；單純攝取過多很少見（除非排泄能力受損）"},
+        {"type": "heading", "text": "高血鉀鑑別 — 三步驟（Fig. 56-8）"},
+        {"type": "figure", "src": "figures/electrolyte-disorders/h56-8.png", "label": "Harrison's 22e Fig. 56-8", "caption": "高血鉀的診斷流程",
+          "explain": "**【第一件事】**K⁺ ≥ 6.0 或 **EKG 變化** → **先急救**，再找原因\n**【① 假性？】**是 → 不處理\n**【② 鉀負荷增加？細胞內外轉移？】**（右側清單：高張、高血糖、succinylcholine、ε-aminocaproic acid、digoxin、β-blocker、非有機酸性代謝性酸中毒、精胺酸/離胺酸、高血鉀週期性麻痺、insulin 不足、運動）\n**【③ 尿鉀排泄減少（< 40 mmol/day）】**\n- **尿 Na⁺ < 25** → **遠端 Na⁺ 遞送減少**（給生理食鹽水或 furosemide 可能就改善）\n- **TTKG > 8** → 遠端分泌能力正常、是**流量太少**：**晚期腎衰竭（GFR ≤ 20）**、有效循環血量減少\n- **TTKG < 5** → **遠端分泌減少**（GFR > 20）→ 給 **9α-fludrocortisone**：\n  - TTKG 升到 **≥ 8** → 本來是 **aldosterone 太低** → 看 **renin**：**高** → 原發性腎上腺不全、單獨 aldosterone 缺乏、**heparin**、**ACEi/ARB**、ketoconazole；**低** → **糖尿病**、急性腎絲球腎炎、間質性腎病、PHA II、**NSAIDs、β-blocker**\n  - TTKG 仍 **< 8** → **腎小管抗性**：藥物（**amiloride、spironolactone、triamterene、trimethoprim、pentamidine**、eplerenone、drospirenone、calcineurin inhibitor）或疾病（間質性腎病、尿路阻塞、PHA I/II、**sickle cell**、腎移植、**SLE**）"},
+        {"type": "heading", "text": "① 先確認：假性高血鉀"},
+        "- 抽血時**用力握拳**、肌肉過度活動\n- 血球過多：**血小板增多、白血球增多、紅血球增多** → 試管內 K⁺ 外流\n- 試管內**溶血**\n- 抽血時焦慮 → 呼吸性鹼中毒；抽血後**冷卻**檢體\n- 遺傳性（紅血球膜通透性增加，如 AE1 突變）",
+        {"type": "heading", "text": "② 第一刀：細胞內外轉移 or 鉀負荷"},
+        {"type": "table", "headers": ["機轉", "原因"], "rows": [
+          ["**酸中毒**", "**非陰離子間隙代謝性酸中毒**（及部分呼吸性酸中毒）\n⚠️ **乳酸中毒、酮酸中毒不會**造成轉移性高血鉀"],
+          ["**高滲透壓**（solvent drag）", "Mannitol、高張食鹽水、IVIG、顯影劑；糖尿病人給高張葡萄糖卻沒給 insulin"],
+          ["**抑制 Na⁺/K⁺-ATPase**", "**Digoxin 過量**（及夾竹桃、毛地黃、蟾蜍毒）、**非選擇性 β-blocker**、氟中毒"],
+          ["**Succinylcholine**", "燒傷、神經肌肉損傷、廢用性萎縮、長期臥床 → AChR 上調 → 大量 K⁺ 外流 → **禁用**"],
+          ["其他轉移", "**精胺酸、離胺酸**、ε-aminocaproic acid；高血鉀週期性麻痺（**SCN4A**）"],
+          ["**組織壞死 / 負荷**", "**腫瘤溶解症候群**、**橫紋肌溶解**、**大量輸血**、KCl 補過頭、K⁺-penicillin\n飲食：番茄、香蕉、柑橘、**含鉀代鹽**（對易感者影響很大）"]
         ]},
-        {"type": "callout", "style": "trap", "text": "**治療高血鉀注意事項**：\n- Ca²⁺ gluconate 不降 K⁺，僅保護心臟！\n- Insulin + Glucose：先給 Insulin 再給 Glucose，之後續 infuse 10% Dextrose 避免低血糖\n- β₂ agonist：~20% ESRD 病人有抗性，不可單獨使用\n- SPS (Kayexalate) 有罕見但致命的腸壞死風險\n- Patiromer 和 Sodium Zirconium Cyclosilicate (SZC) 較安全，已取代 SPS"},
+        {"type": "heading", "text": "③ 第二刀：為什麼腎臟排不出去？"},
+        {"type": "table", "headers": ["機轉", "原因"], "rows": [
+          ["**抑制 RAAS 的藥物**", "**ACE inhibitor、ARB**、renin inhibitor（aliskiren）\n**MR 拮抗劑**：spironolactone、eplerenone、**drospirenone**（口服避孕藥 Yasmin）\n**合併使用時風險大增**"],
+          ["**阻斷 ENaC**", "**Amiloride、triamterene、trimethoprim、pentamidine**、nafamostat\n常合併**高氯性酸中毒**或低血容性低血鈉"],
+          ["**遠端遞送減少**", "**心衰竭、容積不足**"],
+          ["**低腎素性低醛固酮症**", "**糖尿病**、**老年人**、**CKD** 最常見\n藥物：**NSAIDs、COX-2 inhibitor、β-blocker、cyclosporine、tacrolimus**\n約 **50% 合併酸中毒**（NH₄⁺ 排泄 ↓、尿液陰離子間隙為正、**尿 pH < 5.5**）＝ type 4 RTA（補充）\n多為容積擴張 → ANP ↑ 抑制 renin 與 aldosterone"],
+          ["**腎臟對礦物皮質素抗性**", "間質性腎病：**SLE、類澱粉沉積、sickle cell**、尿路阻塞、ATN 恢復期\n遺傳：**PHA type I**（MR 或 ENaC 失功能 → 失鹽、低血壓）"],
+          ["**PHA type II（Gordon）**", "WNK1/WNK4、KLHL3、CUL3 突變 → **NCC 功能增強**（Gitelman 的鏡像）→ **高血壓 + 高血鉀 + 高氯性酸中毒** → **thiazide 有效**"],
+          ["**晚期腎功能不全**", "CKD、ESRD、**少尿性 AKI**（非少尿者較少）"],
+          ["**原發性腎上腺功能不全**", "自體免疫（**Addison**、多腺體症候群）、**HIV**、CMV、**結核**、黴菌、轉移性癌、出血或梗塞（抗磷脂症候群）\n**Heparin / LMWH**：選擇性抑制 aldosterone 合成"]
+        ]},
+        {"type": "heading", "text": "臨床表現"},
+        {"type": "callout", "style": "trap", "text": "**高血鉀心律不整最重要！EKG 進展**：\n- K⁺ 5.5~6.5 mM → **T 波高尖 (Peaked/Tent T wave)**\n- K⁺ 6.5~7.5 mM → **P 波消失**\n- K⁺ 7.0~8.0 mM → **QRS 變寬**（PR、QRS 漸進延長）\n- K⁺ >8.0 mM → **Sine wave** → VF / asystole\n\n其他：竇性心搏過緩、竇性停止、緩慢心室自主節律、VT\n**高血鉀型 Brugada pattern**：假性右束支傳導阻滯 + coved ST 上升（重症病人；與先天 Brugada 的差別：沒有 P 波、QRS 很寬、電軸異常）\n\n⚠ EKG 變化敏感度很差，尤其 CKD/ESRD 病人！"},
+        "- **上行性麻痺**（續發性高血鉀麻痺），可包括**橫膈麻痺、呼吸衰竭**\n- 家族性高血鉀週期性麻痺（**SCN4A**）：高鉀飲食或劇烈運動後休息誘發\n- **高血鉀本身會造成代謝性酸中毒**（K⁺ 與 NH₄⁺ 競爭 TALH 回收 → 排酸能力下降）→ 矯正高血鉀常可改善酸中毒",
+        {"type": "heading", "text": "治療"},
+        {"type": "callout", "style": "guideline", "text": "**誰需要緊急治療？**\n- **任何 EKG 變化** → 醫療急症\n- **K⁺ ≥ 6.5 mM 即使 EKG 正常**也要積極處理（EKG 預測心毒性的能力有限）\n- 住院、連續心電監測、立即治療\n\n**三階段**：① **穩定心肌** → ② **把鉀移進細胞** → ③ **把鉀排出體外**"},
+        {"type": "table", "headers": ["階段", "藥物與劑量", "起效 / 持續", "重點"], "rows": [
+          ["**① 穩定心肌**", "**10% Calcium gluconate 10 mL** IV 2–3 分鐘（或 CaCl₂ 3–4 mL）", "1–3 分鐘 / 30–60 分鐘", "**不降 K⁺**；提高動作電位閾值、恢復靜止電位與閾值的差距\nEKG 沒改善或復發 → **重複給**\n⚠️ **Digoxin** 病人：加入 100 mL D5W 輸注 20–30 分鐘"],
+          ["**② 移入細胞**", "**Regular insulin 10 U IV + D50W 50 mL（25 g）**", "10–20 分鐘起效、30–60 分鐘高峰 / 4–6 小時", "之後 **D10 50–75 mL/h** 預防低血糖\n血糖 ≥ 200–250 → **只給 insulin**\n⚠️ **絕對不要只給 D50W**（高張葡萄糖反而加重高血鉀）"],
+          ["**② 移入細胞**", "**Albuterol 10–20 mg** nebulized（4 mL NS 中，吸 10 分鐘）", "30 分鐘起效、90 分鐘高峰 / 2–6 小時", "與 insulin **相加**\n**約 20% ESRD 病人無效 → 不可單獨使用**\n心臟病人小心（心搏過速）"],
+          ["NaHCO₃", "等張輸注（150 mEq in 1 L D5W）", "數小時", "**急性治療沒有角色**；代謝性酸中毒者持續輸注 4–6 小時後可慢慢降鉀\n**不要反覆推高張原液**（高血鈉、高張）"],
+          ["**③ 排出體外**", "**Patiromer**（K⁺ 換 Ca²⁺）、**Sodium zirconium cyclosilicate（SZC）**（Na⁺/H⁺ 換 K⁺/NH₄⁺）", "—", "**優於 SPS**；讓病人能繼續使用 RAAS 抑制劑\nPatiromer 主要副作用：**低血鎂**"],
+          ["③ 排出體外", "SPS（Kayexalate）15–30 g", "慢，可長達 24 小時", "**腸壞死**（罕見但致命；腸蠕動差者風險高）→ 有其他選擇時**不用**"],
+          ["③ 排出體外", "生理食鹽水 / loop、thiazide diuretic", "—", "低血容少尿者 → NS 增加遠端遞送\n容積足夠且腎功能尚可 → 利尿劑"],
+          ["**③ 排出體外**", "**血液透析**", "最快、最可靠", "**最有效**；腹膜透析效果差得多"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**治療高血鉀注意事項**：\n- Ca²⁺ gluconate 不降 K⁺，僅保護心臟！\n- Insulin + Glucose 後要續 D10 避免低血糖\n- β₂ agonist：~20% ESRD 病人有抗性，不可單獨使用\n- **NaHCO₃ 沒有急性降鉀的角色**（舊說法「15–30 分鐘起效」已被修正）\n- SPS (Kayexalate) 有罕見但致命的腸壞死風險 → Patiromer、SZC 較安全，已取代 SPS\n- 值班實際劑量與流程 → 見「On Call: Potassium Disorders」筆記"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "396, 401-404"}
+      ]
+    },
+    {
+      "title": "鈣離子異常 (Calcium Disorders)",
+      "content": [
+        {"type": "figure", "src": "figures/electrolyte-disorders/h57-1.png", "label": "Harrison's 22e Fig. 57-1", "caption": "細胞外鈣的回饋調控",
+          "explain": "**【怎麼看】**依數字順序：\n① ECF Ca²⁺ 下降 → 副甲狀腺 **CaSR** 偵測 → **PTH ↑**\n② PTH → **骨頭**釋鈣（osteocyte RANKL ↑ → 蝕骨細胞）＋ **腎臟遠端**回收鈣 ↑（同時排磷）\n③ PTH → 腎臟近端製造 **1,25(OH)₂D** ↑\n④ 1,25(OH)₂D → **小腸**吸收鈣 ↑\n**【考點】**這個迴路的每一站壞掉都對應一類鈣離子疾病：副甲狀腺（pHPT、hypopara）、腎臟（CKD 無法活化維生素 D）、腸道（吸收不良）、骨頭（轉移、Paget）、CaSR（FHH）。正常總鈣 **8.5–10.5 mg/dL**。"},
+        {"type": "heading", "text": "① 先確認：校正白蛋白"},
+        {"type": "callout", "style": "guideline", "text": "**約 50% 的總鈣是離子鈣**，其餘主要與白蛋白結合\n\n**矯正鈣值公式**：\n矯正 Ca = 測量 Ca + 0.8 × (4.0 − Albumin)\n（白蛋白高於 4.0 時則相反地減去）\n\n- 離子鈣可直接測量，但易受採血方式影響（綁止血帶太久）→ 一般**優先用總鈣 + 白蛋白校正**\n- **鹼中毒**（呼吸性、代謝性）→ 更多鈣與白蛋白結合 → 離子鈣 ↓\n- 假性高血鈣：Waldenström 的鈣結合 IgM\n- 假性低血鈣：低白蛋白（營養不良、腎病症候群、肝硬化）、gadoversetamide 顯影劑"},
+        {"type": "heading", "text": "高血鈣：② 第一刀看 PTH"},
+        {"type": "table", "headers": ["PTH", "疾病", "重點"], "rows": [
+          ["**↑ 或「不當地正常」**", "**原發性副甲狀腺亢進（pHPT）**", "**門診最常見**；幾乎都是良性腺瘤或增生（罕見癌）\n約 30% 找得到基因異常（cyclin D1、menin）\n常合併**低血磷**（PTH 排磷）、**尿鈣排泄分率 > 0.02**\n早發或家族性、合併其他內分泌腫瘤（**MEN**）或**顎骨腫瘤（CDC73 → 副甲狀腺癌風險 ~30%）**→ 基因檢測"],
+          ["↑ 或正常", "**FHH**（家族性低尿鈣高血鈣）", "**CaSR 失功能**（AD）→ 副甲狀腺與腎臟都「感覺不到」鈣\n**Ca/Cr clearance ratio < 0.01**、家族有輕度無症狀高血鈣\n⚠️ **手術無效** → 一定要排除"],
+          ["↑", "其他", "**鋰鹽**（提高 CaSR 設定點）、**三級副甲狀腺亢進**（長期腎衰竭）、異位 PTH（極罕見）"],
+          ["**↓（被抑制）**", "**惡性腫瘤**", "**住院最常見**；通常病程**較急**\n**PTHrP**（多種實體腫瘤）或**溶骨性轉移**（乳癌、**myeloma**）\n驗 PTHrP；**myeloma 要驗 SPEP + 血清游離輕鏈**（~3% SPEP/UPEP 測不到）"],
+          ["↓", "**1,25(OH)₂D 過多**", "**肉芽腫病**（sarcoidosis、**結核**、痲瘋、黴菌、異物）、**淋巴瘤** → 巨噬細胞 CYP27B1 不受回饋控制\n血磷常偏高"],
+          ["↓", "**維生素 D 中毒**", "25(OH)D 把結合蛋白上的儲存擠出 → 高血鈣可持續**數週**\nCYP24A1 缺乏（無法分解 1,25D）"],
+          ["↓", "骨吸收增加 / 攝取過多 / 其他", "**甲狀腺亢進**、Paget's、**長期臥床**、生酮飲食\n**Milk-alkali syndrome**、TPN\n**Thiazide**、vitamin A、鋰、foscarnet、teriparatide、aromatase inhibitor\n**停用 denosumab 後反彈**、橫紋肌溶解恢復期、腎上腺不全、嗜鉻細胞瘤"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**病程是重要線索**\n- **慢性**（數月到數年）、在正常上限附近起伏 → **pHPT 或 FHH**（偶爾 myeloma）\n- **急性**、明顯升高 → **惡性腫瘤**\n\n**口訣 VITAMINS TRAP**（Harrison 22e 版本）：**V**itamin D/A 中毒；**I**mmobilization；**T**hyrotoxicosis、**T**hiazides、24-hydroxylase 缺乏；**A**ddison's、**A**cromegaly；**M**ilk-alkali；**I**nflammation（慢性）；**N**eoplasia（含 myeloma）；**S**arcoidosis；**T**B 等肉芽腫；**R**habdomyolysis 恢復期、denosumab 停藥反彈；**A**IDS；**P**TH、**P**aget's、**P**arenteral、**P**heochromocytoma、**P**regnancy PTHrP、**P**seudohypercalcemia"},
+        {"type": "heading", "text": "高血鈣臨床表現"},
+        {"type": "table", "headers": ["程度", "表現"], "rows": [
+          ["**輕度（10.5–11.9）**", "多無症狀；模糊的神經精神症狀（注意力差、個性改變、憂鬱）、疲倦、**近端肌無力**、便秘、反射減弱、**腎結石**、骨密度下降"],
+          ["**中度（12–14）至重度（≥ 14）**", "嗜睡 → 木僵 → **昏迷**\n腸胃：噁心、嘔吐、厭食、**消化性潰瘍、胰臟炎**\n**急性腎衰竭**"],
+          ["**腎臟**", "**AQP2 下降 → 腎性尿崩 → 多尿 → 脫水 → 腎前性腎衰竭**（惡性循環：脫水讓高血鈣更嚴重）"],
+          ["**EKG**", "心搏過緩、**AV block**、QRS 變寬、**QTc 縮短**"],
+          ["長期 pHPT", "骨痛、病理性骨折、高血壓"]
+        ]},
         {"type": "heading", "text": "高血鈣治療"},
-        {"type": "callout", "style": "guideline", "text": "**急性高血鈣治療步驟**：\n1. **大量 Normal saline** (4~6 L/24h) → 恢復血容、增加尿鈣排泄\n2. 補液充足後才可加 **Loop diuretic** (Furosemide)\n3. **Calcitonin** 4~8 IU/kg SC/IM q6h → 快速但短效 (48h)\n4. **IV Bisphosphonate** (Zoledronic acid 4mg 或 Pamidronate 60~90mg) → 1~2 天起效\n5. 難治性 → **Denosumab** (anti-RANKL)\n\n⚠ **Thiazide 禁用**：會加重高血鈣！\n⚠ Vitamin D 引起 → **Glucocorticoid** (Hydrocortisone 200~400mg/d)"},
-        {"type": "heading", "text": "低血鈣治療"},
-        "急性有症狀 (tetany/seizure)：IV Calcium gluconate 緩慢注射 + 心電圖監測。慢性：口服鈣片 + 活性維他命 D (Calcitriol)。使用毛地黃者靜脈補鈣需極謹慎 (增加毛地黃毒性)。",
-        {"type": "source", "book": "Harrison's 22e", "pages": "393-404, 407-408"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "32-33, 42-44, 51-52, 57-60"}
-      ]
-    },
-    {
-      "title": "Prognosis / Complications",
-      "content": [
-        {"type": "heading", "text": "低血鈉"},
-        "高血鈉死亡率高達 40~60% (主要反映潛在疾病嚴重度)。低血鈉程度是 CHF、肝硬化的重要預後指標 (反映神經體液活化程度)。慢性低血鈉即使「無症狀」，也增加跌倒、骨折風險 (低血鈉降低骨密度)。",
-        {"type": "heading", "text": "鉀離子異常"},
-        {"type": "callout", "style": "trap", "text": "**低血鉀**：院內死亡風險 ↑ 10 倍。長期低血鉀 → 高血壓、心衰竭惡化、血管疾病、中風風險 ↑。\n\n**高血鉀**：嚴重者 (>6.0 mM) 有顯著死亡率增加。CKD/ESRD 病人最大威脅為心律不整。\n\n使用 ACEI/ARB + K⁺-sparing diuretic 的病人，新型 K⁺ binder (Patiromer, SZC) 可使 RAAS 抑制劑維持使用。"},
-        {"type": "heading", "text": "鈣離子異常"},
-        "pHPT 長期可致骨質疏鬆、病理性骨折、腎結石。慢性副甲狀腺功能低下需終身補充鈣和維他命 D，若管理不當可致腎鈣化、白內障、基底核鈣化。",
-        {"type": "source", "book": "Harrison's 22e", "pages": "392-398, 405-408"}
-      ]
-    },
-    {
-      "title": "Special Populations / Considerations",
-      "content": [
-        {"type": "heading", "text": "急性低血鈉高風險族群"},
-        {"type": "callout", "style": "trap", "text": "**容易發生急性低血鈉腦病變的族群**：\n- **停經前女性**：比男性更易發生腦水腫\n- **術後病人**：AVP ↑ + 低張輸液\n- **馬拉松/耐力運動**：Exercise-associated hyponatremia\n- **MDMA (Ecstasy/Molly) 使用者**：同時刺激 AVP 和口渴\n- **近期開始使用 Thiazide 者**"},
-        {"type": "heading", "text": "CKD/ESRD 病人的電解質管理"},
-        {"type": "callout", "style": "logic", "text": "- CKD 病人無法有效排泄 K⁺ 和 P → 容易高血鉀、高血磷\n- CKD 病人 ~50% 鉀由腸道排出 (正常人僅 ~10%) → 便秘可誘發高血鉀\n- 高血磷 → Ca×P↑ → 給予 **鈣片隨餐服用** (結合磷，減少吸收)\n- 透析病人若出現低血鉀或低血磷 → 首先考慮 **poor intake**"},
-        {"type": "heading", "text": "妊娠相關"},
-        "妊娠性尿崩症 (Gestational DI)：晚期妊娠胎盤分泌 vasopressinase 分解 AVP → 多尿 + 高血鈉。治療：DDAVP (不受 vasopressinase 影響)。",
-        {"type": "heading", "text": "鋰鹽與腎性尿崩症"},
-        "鋰鹽抑制 GSK3 → 干擾 principal cell 對 AVP 的反應。鋰經 ENaC 進入 principal cell，因此 Amiloride 可減輕鋰鹽引起的 NDI。長期鋰鹽使用可致慢性腎小管間質纖維化和持久性 NDI。",
-        {"type": "source", "book": "Harrison's 22e", "pages": "392, 395-397, 405"}
-      ]
-    },
-    {
-      "title": "Related Disorders / Differential Diagnosis",
-      "content": [
-        {"type": "heading", "text": "低血鉀合併代謝性鹼中毒的鑑別"},
-        {"type": "callout", "style": "guideline", "text": "**三大慢性低血鉀 + 代謝性鹼中毒的鑑別**："},
-        {"type": "table", "headers": ["病因", "Urine Cl⁻", "Urine Na⁺/K⁺/Cl⁻", "特殊"], "rows": [
-          ["偷偷嘔吐 (Bulimia)", "<10 mM", "—", "代謝性鹼中毒，查尿 Cl⁻"],
-          ["利尿劑濫用", "變化大", "升高但變化", "尿液利尿劑篩檢"],
-          ["Gitelman's", "持續升高", "持續升高", "低尿鈣"]
+        {"type": "callout", "style": "guideline", "text": "**急性高血鈣治療步驟**：\n1. **大量 Normal saline**（第一個 24 小時 **4–6 L**；注意心衰竭）→ 恢復血容、增加尿鈣排泄（**最快**降鈣的方法）\n2. 容積**完全恢復後**才可加 **Loop diuretic**\n3. **IV aminobisphosphonate**（主力）：**Zoledronic acid 4 mg** IV 約 30 分鐘，或 **Pamidronate 60–90 mg** IV 2–4 小時 → **1–2 天**起效、60–90% 恢復正常\n   ⚠️ **GFR < 35 禁用**\n4. **Calcitonin** 4–8 IU/kg IM/SC q6h → 前 **48 小時**搭配使用（快但短效）\n5. **Denosumab**（anti-RANKL）120 mg SC：bisphosphonate 無效的惡性高血鈣；**晚期腎病**可用低劑量（0.3 mg/kg，經網狀內皮系統清除）\n6. 無尿性腎衰竭或心衰竭 → **透析**\n\n**依病因**：\n- **維生素 D / 1,25D 介導**（肉芽腫、淋巴瘤、中毒）→ **Glucocorticoid**（hydrocortisone 200–400 mg/d × 3–5 天，或 prednisone 40–60 mg/d × 7–10 天）\n- **副甲狀腺癌**、無法手術的 pHPT → **Cinacalcet**（CaSR 致效劑）\n- 甲狀腺風暴 → 治療甲亢\n\n⚠ **Thiazide 會加重高血鈣**（增加遠端回收鈣）"},
+        {"type": "heading", "text": "低血鈣：② 第一刀看 PTH"},
+        {"type": "table", "headers": ["PTH", "類別", "原因"], "rows": [
+          ["**↓（或不當地低）**", "**副甲狀腺功能低下**", "**頸部手術**（成人最常見）、**自體免疫**（約 1/4；APS-1；**免疫檢查點抑制劑**）、放射線\n浸潤：**血色素沉著症、輸血依賴型 thalassemia**、Wilson、轉移、sarcoid、IgG4\n先天：**DiGeorge**、GCM2、GATA3\n**低血鎂**（PTH 分泌 ↓ + 抗性）、**高血鎂**（產科鎂輸注 → 抑制 PTH）\nCaSR **活化**突變（自體顯性低血鈣）"],
+          ["**↑**（次發性副甲狀腺亢進）", "**維生素 D 不足或作用受損**", "營養性缺乏、**CKD**（磷滯留 + 1,25D 製造 ↓）、大量 IV 磷、維生素 D 抗性"],
+          ["↑", "**腸道吸收不良**", "**Roux-en-Y 減重手術**、短腸症、**celiac、Crohn**"],
+          ["↑", "**PTH 抗性**", "**Pseudohypoparathyroidism**（GNAS）、PTH 受體突變或抗體"],
+          ["不定", "**藥物**", "**酒精**、**檸檬酸**（大量輸血、FFP）、**bisphosphonates、denosumab**、phenytoin/phenobarbital（加速維生素 D 分解）、含磷灌腸劑"],
+          ["不定", "**其他**", "**急性胰臟炎**、橫紋肌溶解、腫瘤溶解、燒傷\n**Hungry bone syndrome**（副甲狀腺切除後）\n**成骨性轉移**（攝護腺癌）\n**鹼中毒**、refeeding"]
         ]},
-        {"type": "heading", "text": "高血鈣伴低血磷 vs 高血磷"},
-        {"type": "table", "headers": ["PTH", "血磷", "病因"], "rows": [
-          ["↑", "↓", "原發性副甲狀腺功能亢進 (PTH 增加腎磷排泄)"],
-          ["↓", "↑ 或正常", "Vitamin D 中毒、肉芽腫病 (1,25(OH)₂D 增加腸道 Ca+P 吸收)"],
-          ["↓", "不定", "惡性腫瘤 (PTHrP 引起者磷可偏低)、Thiazide"]
-        ]},
-        {"type": "heading", "text": "低血鈣鑑別 — 看 PTH 和血磷"},
         {"type": "table", "headers": ["PTH", "血磷", "病因"], "rows": [
           ["↓", "↑", "副甲狀腺功能低下 (術後最常見)"],
           ["↑", "↑", "假性副甲狀腺功能低下 (Pseudohypoparathyroidism) — PTH 抗性"],
           ["↑", "↑", "CKD (腎臟無法排磷 + 無法合成 1,25(OH)₂D)"],
-          ["↑", "↓", "Vitamin D 缺乏"]
+          ["↑", "↓", "Vitamin D 缺乏、吸收不良"]
         ]},
-        {"type": "heading", "text": "磷離子異常"},
-        {"type": "callout", "style": "logic", "text": "**低血磷 (P < 2.5 mg/dL)**：飲食不足、pHPT (PTH 增加磷排泄)、Refeeding syndrome、呼吸性鹼中毒 (shift 入細胞)\n→ 症狀：代謝性腦病、肌無力、心收縮力↓\n\n**高血磷 (P > 4.5 mg/dL)**：CKD (最常見)、副甲狀腺功能低下、腫瘤溶解/橫紋肌溶解\n→ 症狀：與鈣結合沉積 → 低血鈣症狀 + 軟組織鈣化"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "395-403, 405-408"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "39-65"}
+        {"type": "heading", "text": "低血鈣臨床表現與診斷"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["神經肌肉興奮", "**手指、腳趾、口周麻木刺痛**\n**Chvostek sign**：輕敲耳前顏面神經 → 同側嘴角抽動（**約 10% 正常人也陽性**）\n**Trousseau sign**：血壓袖帶加壓到收縮壓上 **20 mmHg 維持 3 分鐘** → 腕部痙攣（更確定）"],
+          ["嚴重", "**癲癇**、手足痙攣、**支氣管痙攣、喉痙攣**"],
+          ["心臟", "**QTc 延長** → **torsades de pointes**、猝死"],
+          ["肌肉", "嚴重維生素 D 不足或低血鎂 → **近端肌病**（雙手交叉胸前無法從椅子站起）"],
+          ["檢查", "總鈣 + **白蛋白、磷、鎂**、**PTH**（核心）\n**25(OH)D**（維生素 D 存量）；24 小時尿鈣（維生素 D 缺乏、吸收不良時偏低）\n懷疑維生素 D 抗性 → 1,25(OH)₂D"]
+        ]},
+        {"type": "heading", "text": "低血鈣治療"},
+        {"type": "table", "headers": ["情境", "治療"], "rows": [
+          ["**急性有症狀**（tetany、癲癇、QTc 延長）", "**10% calcium gluconate 10 mL**（90 mg 元素鈣）稀釋於 50 mL D5W 或 NS，IV **5–10 分鐘**，心電監測\n需要時 10–60 分鐘後再給 1–2 支\n之後常需**持續輸注**（從元素鈣 **1 mg/min** 開始），依症狀、EKG、血鈣（每 4–6 小時）調整，目標正常下限\n**同時矯正低血鎂**"],
+          ["**慢性副甲狀腺低下**", "**口服鈣 1000–3000 mg/d**（元素鈣，分次）+ **calcitriol 0.25–1 μg/d**\n目標：**校正鈣在正常低值**（沒有 PTH 時鈣太高 → 高尿鈣 → 腎結石、腎鈣化）\n24 小時尿鈣：女 < 250 mg、男 < 300 mg\n維持 vitamin D3 1000–2000 IU/d\n難治者：teriparatide（off-label）；Natpara 已停產"],
+          ["**維生素 D 缺乏**", "Ergocalciferol **50,000 IU 每週 2–3 次** × 數月\n嚴重吸收不良（如減重手術後）可能需更高劑量\n腸道疾病：**calcium citrate**（吸收較好、增加尿檸檬酸、減少結石）"],
+          ["注意", "使用 **digoxin** 者靜脈補鈣要極謹慎"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "405-409"}
       ]
     },
     {
-      "title": "High-Yield Exam Points",
+      "title": "鎂與磷 (Magnesium & Phosphate)",
       "content": [
-        {"type": "callout", "style": "trap", "text": "**國考高頻考點整理**"},
-        {"type": "table", "headers": ["考點", "重點"], "rows": [
-          ["假性低血鈉", "高血糖 (每↑100 → Na⁺↓2.4)；高血脂、高蛋白 → Osm 正常"],
-          ["SIADH", "Euvolemic + Urine Osm >100 + UNa >40 + **Uric acid <4** + 排除甲低/腎上腺不足"],
-          ["低血鈉矯正速率", "≤6~8 mEq/L/24h；過快 → **CPM/ODS** (橋腦去髓鞘化)"],
-          ["3% NaCl 適應症", "有神經症狀的嚴重低血鈉 (意識改變、抽搐)；非所有 Na⁺ <130 都要用"],
-          ["Beer potomania", "UNa <20, Uosm <200；溶質攝取不足致無法排水；矯正後 Na⁺ 極易過快上升"],
-          ["Central vs Nephrogenic DI", "DDAVP 後 Uosm ↑>50% = Central DI；無變化 = Nephrogenic DI"],
-          ["高血鈉矯正速率", "≤10 mM/day，過快 → 腦水腫"],
-          ["TTKG 判讀", "<3 = 腎外流失；>7 = 腎臟流失 (低血鉀)；<5 = Aldo 無功能 (高血鉀)"],
-          ["Bartter vs Gitelman", "鑑別關鍵：**尿鈣** (Bartter 高、Gitelman 低)"],
-          ["TPP (甲亢週期性麻痺)", "年輕亞洲男性 + 低血鉀麻痺 + TTKG 低 → TSH/free T4；治療 Propranolol"],
-          ["低血鉀 IV 補充", "用 **NS 稀釋** (非 D5W！)；同時補鎂；RTA 者用 K⁺ citrate"],
-          ["高血鉀急救順序", "Ca²⁺ gluconate (保護心臟) → Insulin+Glucose (shift K⁺) → Albuterol → 移除 K⁺"],
-          ["高血鈣兩大原因", "門診 #1 = pHPT (PTH↑)；住院 #1 = 惡性腫瘤 (PTH↓)"],
-          ["低血鈣 Trousseau sign", "血壓計袖帶壓高於收縮壓 20 mmHg 維持 3 分鐘 → 手腕痙攣"],
-          ["高血鈣禁用 Thiazide", "Thiazide 增加遠端小管 Ca²⁺ 回收 → 加重高血鈣"]
+        {"type": "heading", "text": "鎂的生理"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["正常值", "**1.7–2.4 mg/dL**（0.7–1 mmol/L）"],
+          ["分布", "一半在骨頭，幾乎都在細胞內；**只有 1% 在 ECF** → **血清鎂不能準確反映全身存量**"],
+          ["吸收", "空腸、迴腸吸收 30–40%（1,25D 促進）"],
+          ["**腎臟回收**", "近端 20%、**cTAL 60%**（細胞旁路徑，需要管腔正電位與 **claudin**）、DCT 5–10%\nPTH 增加回收；**高血鈣、高血鎂**經 CaSR 抑制回收"]
         ]},
+        {"type": "heading", "text": "低血鎂"},
+        {"type": "table", "headers": ["機轉", "原因（Table 421-4）"], "rows": [
+          ["**腸道吸收不良 / 流失**", "吸收不良症候群、維生素 D 缺乏、**PPI**（機轉不明，非腎臟流失）\n長期嘔吐、腹瀉、腸道引流與廔管（液體含鎂 ≥ 5 mmol/L）"],
+          ["**腎臟流失：遺傳**", "**Gitelman、Bartter**、claudin 16/19 突變、TRPM6 突變"],
+          ["**腎臟流失：藥物與毒物**", "**酒精**（直接抑制回收）、**利尿劑**（loop、thiazide、滲透性）\n**Cisplatin**、**aminoglycosides、amphotericin B**、pentamidine、foscarnet、**cyclosporine**、**cetuximab**（EGFR 抗體）"],
+          ["腎臟流失：其他", "ECF 擴張、醛固酮過多、SIADH、**糖尿病**（糖尿 → 滲透性利尿）、高血鈣、磷缺乏、代謝性酸中毒、甲亢"],
+          ["**快速移入細胞**", "**DKA 恢復期**、**refeeding**、呼吸性酸中毒矯正、兒茶酚胺\nHungry bone（副甲狀腺切除後）、治療維生素 D 缺乏、成骨性轉移\n胰臟炎、燒傷、大量出汗、懷孕第三期與哺乳"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**低血鎂的三個「連帶」**\n1. **低血鉀補不起來**（Na⁺/K⁺-ATPase ↓ + ROMK 抑制消失）\n2. **低血鈣補不起來**：1,25D 合成 ↓、**PTH 抗性**；血鎂 **< 1 mg/dL** 時 **PTH 分泌也受損**（可逆）\n3. **Digoxin 毒性增加**\n\n**臨床表現**：手足搐搦、癲癇、肌無力、運動失調、眼振、眩暈、憂鬱、躁動、精神病\n心律不整：竇性心搏過速、SVT、心室心律不整；EKG：**PR、QT 延長**、T 波平坦或倒置\n血鎂 > 1.2 mg/dL 通常無症狀，但症狀與數值相關性差"},
+        {"type": "table", "headers": ["低血鎂治療", "內容"], "rows": [
+          ["輕度、無症狀", "口服鎂鹽（MgCl₂、MgO、Mg(OH)₂）分次，每日 20–30 mmol；大劑量 → 腹瀉"],
+          ["**嚴重**", "**IV MgCl₂** 持續輸注 50 mmol/天（腎功能正常）；**GFR 下降 → 減量 50–75%**\nMgSO₄ IV 也可（硫酸根可能結合鈣 → 加重低血鈣）\n**不建議肌肉注射**（痛、量少）\n每 12–24 小時驗血鎂；需持續**數天**（只保留 50–70% 的 IV 劑量、細胞內缺失補得慢）"],
+          ["**合併低血鈣 + 低血磷**", "**同時給鈣和鎂** → 單獨給鎂會讓被抑制的 PTH 突然恢復 → **低血磷惡化**（神經肌肉症狀、橫紋肌溶解）"],
+          ["維生素 D 缺乏", "給 vitamin D 或 25(OH)D，**不要給 1,25(OH)₂D**（可能減少腎臟回收鎂）"]
+        ]},
+        {"type": "heading", "text": "高血鎂"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["原因", "**沒有腎衰竭時很少見**（正常腎臟每天可排 250 mmol）\n**含鎂瀉劑**（腸阻塞、穿孔、腸麻痺時滯留）、泌尿道灌洗液\n**IV 鎂（子癲前症）**\n組織損傷（外傷、休克、敗血症、心跳停止、燒傷）\nFHH、腎上腺不全、甲狀腺低下、低體溫"],
+          ["**表現**", "**> 4.8 mg/dL**：**血管擴張**（升壓劑與輸液無效的**低血壓**可為早期徵象）、**神經肌肉阻斷**\n噁心、嗜睡、無力 → 呼吸衰竭、癱瘓、昏迷，**深部肌腱反射消失**\n臉潮紅、瞳孔放大、**反常性心搏過緩**、PR/QRS/QT 延長、心臟傳導阻滯 → 接近 10 mmol/L 時 **asystole**\n經 CaSR → **低血鈣**、高尿鈣"],
+          ["治療", "**停止來源**、不含鎂的瀉劑或灌腸\n積極 IV 輸液\n**IV 鈣 100–200 mg**（1–2 小時）→ 暫時改善症狀\n腎功能差 → **血液透析**"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**產科重點（補充，非本章內容）**\n子癲前症使用 MgSO₄ 時，**深部肌腱反射消失**是鎂中毒最早的臨床警訊 → 停藥、給 calcium gluconate"},
+        {"type": "heading", "text": "磷的生理"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["正常值", "**2.5–4.5 mg/dL**（0.75–1.45 mmol/L）"],
+          ["分布", "85% 在骨頭；細胞內濃度與細胞外相近（ATP、核酸、磷脂）"],
+          ["變化大", "一天中可變動 **50%**；早上 7–10 點最低；**IV 葡萄糖**可降低 > 2 mg/dL → **空腹驗**"],
+          ["**腎臟調控**", "主要在**近端腎小管**的 **NaPi-2a/2c**\n**PTH** 和 **FGF23**（骨細胞製造）都會**減少磷回收**\nFGF23 還會**抑制 1,25D 合成**（PTH 則促進）"]
+        ]},
+        {"type": "heading", "text": "低血磷"},
+        {"type": "table", "headers": ["機轉", "原因（Table 421-1）"], "rows": [
+          ["**腎臟流失（PTH/PTHrP）**", "**原發性**、**次發性副甲狀腺亢進**（維生素 D 缺乏）、PTHrP 惡性高血鈣"],
+          ["**腎臟流失（FGF23）**", "**X-linked hypophosphatemic rickets（XLH，PHEX）**、ADHR、**腫瘤誘發骨軟化症（TIO）** → **burosumab**（anti-FGF23）"],
+          ["腎臟流失（其他）", "**Fanconi syndrome**、控制不良的**糖尿病**、**酗酒**、醛固酮過多、低血鎂\n藥物：acetazolamide、cisplatin、ifosfamide、foscarnet"],
+          ["腸道吸收減少", "**含鋁制酸劑**、sevelamer"],
+          ["**移入細胞**（住院最常見）", "**DKA 給 insulin**（數小時後最低）、**IV 葡萄糖**、**refeeding**\n兒茶酚胺（epinephrine、albuterol）、**急性呼吸性鹼中毒**、Gram(-) 敗血症\n白血病急性期、大量 EPO 治療"],
+          ["骨形成加速", "**Hungry bone**（副甲狀腺切除後）、治療維生素 D 缺乏、成骨性轉移"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**低血磷的表現 = ATP 與 2,3-DPG 耗竭**\n- 神經肌肉：無力、嗜睡、混亂、吞嚥困難、上行性麻痺、癲癇、昏迷（< 0.8 mg/dL 才可能出現嚴重後果）\n- **橫紋肌溶解**：CK 在血磷最低點後 **1–2 天**才達高峰（此時肌肉釋出的磷讓血磷看起來正常 → 容易漏掉）\n- **呼吸衰竭（呼吸肌無力）、心收縮力下降**：1.5–2.5 mg/dL 就可能發生 → **脫離呼吸器困難要想到**\n- 血液：**溶血**、2,3-DPG ↓（氧解離曲線左移）、白血球與血小板功能異常\n- 慢性：骨痛、**骨軟化症**、假性骨折；兒童**佝僂症**"},
+        {"type": "table", "headers": ["低血磷治療", "內容"], "rows": [
+          ["**嚴重（< 2 mg/dL）**", "**IV 磷**（中性鈉或鉀磷酸鹽），體重 70 kg 參考（Table 421-2）：\n< 2.5 mg/dL → 2 mmol/h × 6 h（共 12 mmol）\n< 1.5 mg/dL → 4 mmol/h × 6 h（共 24 mmol）\n< 1 mg/dL → 8 mmol/h × 6 h（共 48 mmol）\n**Cr > 2.5 mg/dL 或高血鈣 → 劑量減半**；**先矯正低血鈣**\n每 6–12 小時驗鈣磷；**Ca × P < 50**（避免異位鈣化）"],
+          ["輕中度（1.5–2.5 mg/dL）", "口服磷 750–2000 mg/d 分次（過多 → 腹脹、腹瀉）"],
+          ["慢性", "依病因：維生素 D 缺乏 → 補 D 與鈣；XLH/TIO → 口服磷 + calcitriol 或 **burosumab**；TIO → **切除腫瘤**"]
+        ]},
+        {"type": "heading", "text": "高血磷"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["定義", "空腹 > **5.5 mg/dL**（1.8 mmol/L）"],
+          ["**排泄減少**", "**腎衰竭**（最常見）→ 1,25D ↓、FGF23 ↑、PTH ↑ → **次發性副甲狀腺亢進**\n**副甲狀腺低下**、pseudohypoparathyroidism、維生素 D 中毒、肢端肥大症、tumoral calcinosis"],
+          ["**負荷過大**", "IV、口服或灌腸**磷酸鹽**（尤其兒童）\n**橫紋肌溶解、腫瘤溶解**、壓碎傷、猛爆性肝炎、嚴重溶血\n代謝性/呼吸性酸中毒（轉移）"],
+          ["**表現**", "**鈣磷沉澱 → 低血鈣**（手足搐搦、癲癇）\n**腎鈣化**加速 → 腎衰竭、高血鉀、高尿酸、代謝性酸中毒\n肺、心臟鈣化（**急性心臟傳導阻滯**）\n腫瘤溶解時血磷可高達 20 mg/dL"],
+          ["**治療**", "擴充容積增加排泄\n**磷結合劑**：含鋁制酸劑、**sevelamer**；CKD 病人**鈣片隨餐服用**\n**血液透析**（最有效，嚴重者及早考慮）"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Refeeding syndrome**\n營養不良、酗酒、長期禁食的病人 → 開始給醣類（尤其只給 IV 葡萄糖）→ insulin 大量分泌 → **磷、鉀、鎂同時移入細胞**\n→ 低血磷（呼吸衰竭、心衰竭、橫紋肌溶解）+ 低血鉀 + 低血鎂\n→ 高風險者**慢慢開始餵食**、事先與持續監測並補充電解質"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "3305-3311"}
+      ]
+    },
+    {
+      "title": "橫向整理：EKG、急症、公式、藥物",
+      "content": [
         {"type": "heading", "text": "EKG 速記"},
         {"type": "table", "headers": ["離子異常", "EKG 變化"], "rows": [
-          ["低血鉀", "T 波消失 → 出現 **U 波**、ST↓、**QT 延長** → TdP/VF"],
-          ["高血鉀", "**Tent T wave** → P 消失 → QRS 寬 → **Sine wave** → VF"],
-          ["低血鈣", "**QTc 延長**、T 波平坦"],
-          ["高血鈣", "**QTc 縮短**"]
+          ["**低血鉀**", "T 波寬平、**ST 下降**、**QT 延長**、U 波（K⁺ < 2.7 最明顯）→ 心房與心室心律不整、TdP"],
+          ["**高血鉀**", "**Tent T wave** → **P 消失** → **QRS 寬** → **Sine wave** → VF/asystole；可呈 Brugada pattern"],
+          ["**低血鈣**", "**QTc 延長** → torsades"],
+          ["**高血鈣**", "**QTc 縮短**、心搏過緩、AV block、QRS 變寬"],
+          ["**低血鎂**", "PR、**QT 延長**、T 波平坦/倒置 → 心室心律不整"],
+          ["**高血鎂**", "PR、QRS、QT 延長、傳導阻滯、反常性心搏過緩 → asystole"]
         ]},
-        {"type": "heading", "text": "練習題"},
-        {"type": "collapsible", "summary": "Q1：60 歲男性術後意識改變，無水腫，Na⁺ 105 mEq/L，Uosm 450，UNa 55，體重 60 kg。最可能診斷及如何安全矯正？", "text": "**診斷：SIADH**\n- Euvolemia + 術後 + Uosm >100 + UNa >40 → 符合 SIADH\n\n**矯正計算 (3% NaCl)**：\n- TBW = 60 × 0.6 = 36 L\n- 每日限升 ≤8 mEq/L → 需要量 = TBW × 8 / 0.513 = 36 × 8 / 0.513 ≈ 561 cc\n- 分 24h 給予，約 **23 cc/h**\n- 每 2~4h 監測 Na⁺\n- 若矯正過快 → 立即給 DDAVP + D5W 壓回"},
-        {"type": "collapsible", "summary": "Q2：35 歲女性多尿 (6 L/day)，Na⁺ 152，限水試驗後 Uosm 180，給 DDAVP 後 Uosm 升至 620。診斷與治療？", "text": "**診斷：Central DI (中樞型尿崩症)**\n- 限水後 Uosm 仍低 (180 <300) → 排除 primary polydipsia\n- DDAVP 後 Uosm 大幅上升至 620 (升幅 >50%) → **Central DI**\n\n**治療**：DDAVP (Desmopressin) 鼻噴或口服\n\n**鑑別**：若 DDAVP 後 Uosm 無變化 (<10% 升幅) → Nephrogenic DI → 治療改用 Thiazide"},
-        {"type": "collapsible", "summary": "Q3：28 歲亞洲男性，晨起四肢無力無法動彈，K⁺ 2.1，TTKG 1.8，甲狀腺腫大。診斷與急性處理？", "text": "**診斷：Thyrotoxic Periodic Paralysis (TPP，甲亢週期性麻痺)**\n- 年輕亞洲男性 + 急性低血鉀麻痺 + TTKG <3 (非腎性流失) + 甲狀腺腫大\n- 確認：TSH ↓、free T4 ↑\n\n**急性處理**：\n- **Propranolol** (非選擇性 β-blocker) 3 mg/kg → 可快速逆轉\n- 小心補充 KCl (慎防 rebound hyperkalemia，因為是 transcellular shift)\n- **不宜大量靜脈補鉀**\n\n**根本治療**：控制甲狀腺功能亢進"},
-        {"type": "collapsible", "summary": "Q4：72 歲女性長期使用 Furosemide，K⁺ 2.8，補充 KCl 數日無效，Mg²⁺ 1.0。為何補不回來？", "text": "**原因：低血鎂未矯正**\n- 低血鎂使 ROMK 通道持續開放 → 腎臟持續排 K⁺\n- 因此**必須同時補充 Mg²⁺**，否則 K⁺ 永遠補不回來\n\n**處理**：\n1. 靜脈補充 MgSO₄\n2. 繼續口服 KCl\n3. 考慮加用保鉀利尿劑 (Spironolactone / Amiloride)\n4. 評估是否可減少 Furosemide 劑量"},
-        {"type": "collapsible", "summary": "Q5：65 歲男性 CKD stage 4，K⁺ 7.2，EKG 示 peaked T waves 及 QRS widening。急救順序？", "text": "**立即處理** (K⁺ 7.2 + EKG 變化 = 急症)：\n\n1. **10% Ca²⁺ gluconate 10~20 mL IV** (1~3 分鐘起效，穩定心肌，不降 K⁺)\n2. **Insulin 10U + D50W 25g IV** (15~30 min，shift K⁺ 入細胞)\n3. **Nebulized Albuterol 10~20 mg** (30 min，β₂ shift K⁺)\n4. **NaHCO₃ IV** (若有酸中毒)\n5. **Furosemide IV** (增加腎排泄，CKD 效果有限)\n6. **Kayexalate/SZC/Patiromer** (腸道移除)\n7. **緊急血液透析** — CKD 4 期對上述治療反應差時\n\n⚠ Ca²⁺ gluconate 只保護心臟，不降 K⁺！"},
-        {"type": "collapsible", "summary": "Q6：55 歲女性疲倦、多尿、便秘，Ca²⁺ 12.8 mg/dL，PTH 85 pg/mL (正常 10~65)。診斷？", "text": "**診斷：原發性副甲狀腺功能亢進 (Primary Hyperparathyroidism)**\n- 高血鈣 + PTH 不適當升高 (inappropriately elevated)\n- 門診高血鈣最常見原因\n- 80% 為腺瘤 (adenoma)\n\n**需排除 FHH**：Ca/Cr clearance ratio\n- <0.01 → FHH (家族性低尿鈣高血鈣症，良性，不需手術)\n- >0.02 → pHPT → 考慮手術 (parathyroidectomy)\n\n**急性處理** (若 Ca >14 或有症狀)：\n1. 大量 NS 補液\n2. Furosemide (補液充足後)\n3. Calcitonin → Bisphosphonate"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "30-65"}
+        {"type": "heading", "text": "急症處置速查"},
+        {"type": "table", "headers": ["急症", "第一步", "接著", "注意"], "rows": [
+          ["**有症狀的急性低血鈉**", "**3% NaCl 100 mL bolus**", "總共升 4–6 mM 後改慢性速度", "每 2–4 小時驗 Na⁺"],
+          ["**高血鉀 + EKG 變化**", "**Ca gluconate 10% 10 mL**", "**Insulin 10 U + D50 25 g** ± albuterol → 排出（SZC/patiromer、透析）", "Digoxin 病人慢慢給鈣"],
+          ["**嚴重低血鉀**（< 2.5 或麻痺、心律不整）", "**IV KCl in NS**（中心靜脈 10–20 mmol/h、心電監測）", "改口服；**補鎂**", "TPP → propranolol"],
+          ["**嚴重高血鈣**", "**NS 4–6 L/24h**", "**Calcitonin + IV bisphosphonate**", "容積恢復後才用 loop"],
+          ["**有症狀低血鈣**", "**Ca gluconate 10 mL IV 5–10 分鐘**", "持續輸注 1 mg/min 元素鈣", "**同時補鎂**"],
+          ["**嚴重低血鎂**", "**IV MgCl₂/MgSO₄**", "持續數天", "合併低鈣低磷 → 鈣鎂一起給"],
+          ["**嚴重低血磷**（< 2 mg/dL）", "**IV 磷酸鹽**", "依 Table 421-2", "先矯正低血鈣、Ca × P < 50"]
+        ]},
+        {"type": "heading", "text": "速度限制"},
+        {"type": "table", "headers": ["情境", "限制", "過快的後果"], "rows": [
+          ["**慢性低血鈉**", "第一天 **< 6–8 mM**，之後每天 < 6 mM", "**ODS**（> 8–10/24h 或 > 18/48h）→ 用 **DDAVP + D5W** 拉回"],
+          ["**高血鈉**", "**≤ 10 mM/天**，缺失量 48–72 小時補完", "腦水腫、癲癇（兒童）；成人超過不需拉回"],
+          ["**IV KCl**", "周邊 20–40 mmol/L；中心 10–20 mmol/h", "心律不整、靜脈炎"]
+        ]},
+        {"type": "heading", "text": "公式速查"},
+        {"type": "table", "headers": ["用途", "公式"], "rows": [
+          ["有效滲透壓", "測得 Osm − BUN/2.8"],
+          ["高血糖校正 Na⁺", "血糖每 ↑ 100 mg/dL，Na⁺ ↓ **1.6–2.4 mM**"],
+          ["TBW", "男 0.6 × 體重；女 0.5 × 體重"],
+          ["Na⁺ deficit（低血鈉）", "0.6 × 體重 ×（目標 − 起始 Na⁺）"],
+          ["**自由水缺失（高血鈉）**", "[(Na⁺ − 140) / 140] × TBW"],
+          ["**電解質自由水清除率**", "V × [1 − (UNa + UK) / PNa]"],
+          ["**尿液/血漿電解質比**（SIAD 限水）", "(UNa + UK) / PNa：> 1 → < 500 mL；≈ 1 → 500–700；< 1 → < 1 L"],
+          ["**TTKG**", "(UK / PK) ÷ (Uosm / Posm)"],
+          ["尿鉀/肌酸酐", "> 13 mmol/g Cr → 腎臟流失"],
+          ["鉀缺失估算", "每少 100 mmol → K⁺ 降約 0.27 mM"],
+          ["**校正鈣**", "Ca + 0.8 × (4.0 − Albumin)"],
+          ["**Ca/Cr clearance ratio**（FHH）", "(UCa / SCa) ÷ (UCr / SCr)：< 0.01 → FHH"]
+        ]},
+        {"type": "heading", "text": "藥物引起的電解質異常"},
+        {"type": "table", "headers": ["藥物", "異常"], "rows": [
+          ["**Thiazide**", "**低血鈉**、低血鉀（比 loop 嚴重）、**高血鈣**、低血鎂"],
+          ["**Loop diuretic**", "低血鉀、低血鎂（高尿鈣）"],
+          ["**ACEi、ARB、MRA**（spironolactone、eplerenone、drospirenone）", "**高血鉀**"],
+          ["**Trimethoprim、pentamidine、amiloride、triamterene**", "**高血鉀**（阻斷 ENaC）± 低血鈉"],
+          ["**NSAIDs、COX-2 inhibitor**", "高血鉀（低腎素性低醛固酮）、SIAD"],
+          ["**Calcineurin inhibitor**", "高血鉀、低血鎂"],
+          ["**Heparin / LMWH**", "高血鉀（抑制 aldosterone 合成）"],
+          ["**β-blocker（非選擇性）、digoxin、succinylcholine**", "高血鉀（轉移）"],
+          ["**Insulin、β₂ agonist、theophylline**", "低血鉀（± 低磷、低鎂）"],
+          ["**SSRIs、carbamazepine、cyclophosphamide、vincristine、MDMA**", "**SIAD → 低血鈉**"],
+          ["**鋰鹽**", "**Nephrogenic DI**、高血鈣"],
+          ["**PPI**", "**低血鎂**"],
+          ["**Cisplatin、aminoglycosides、amphotericin B、foscarnet**", "低血鉀 + **低血鎂**"],
+          ["**高劑量 penicillin 類**", "低血鉀（不可再吸收陰離子）"],
+          ["**Bisphosphonates、denosumab**", "低血鈣（停 denosumab → 反彈高血鈣）"],
+          ["**Patiromer**", "低血鎂"],
+          ["**IV ferric carboxymaltose**", "低血磷（FGF23）— 見貧血筆記"]
+        ]},
+        {"type": "heading", "text": "國考高頻考點"},
+        {"type": "table", "headers": ["考點", "重點"], "rows": [
+          ["假性低血鈉", "高血脂、高蛋白 → Osm 正常；高血糖每↑100 → Na⁺↓1.6–2.4"],
+          ["SIADH", "Euvolemic + Urine Osm >100 + UNa >30–40 + **Uric acid <4** + 排除甲低/腎上腺不足"],
+          ["原發 vs 次發腎上腺不全", "原發：**低血容 + 高血鉀**；次發：**正常容積**、無高血鉀"],
+          ["低血鈉矯正速率", "≤6~8 mEq/L/24h；過快 → **CPM/ODS** (橋腦去髓鞘化)"],
+          ["3% NaCl 適應症", "有神經症狀的嚴重低血鈉 (意識改變、抽搐)；100 mL bolus；非所有 Na⁺ <130 都要用"],
+          ["Beer potomania", "UNa <20, Uosm <200；溶質攝取不足致無法排水；矯正後 Na⁺ 極易過快上升"],
+          ["Central vs Nephrogenic DI", "DDAVP 後 Uosm ↑ >50% = Central DI；↑ <50% 或 <150 = Nephrogenic DI"],
+          ["高血鈉禁忌", "**不可做限水試驗**"],
+          ["高血鈉矯正速率", "≤10 mM/day"],
+          ["低血鉀尿鉀判讀", "24h <15 mmol 或 K/Cr <15 mmol/g → 腎外；TTKG 低血鉀時應 <3"],
+          ["Bartter vs Gitelman", "鑑別關鍵：**尿鈣** (Bartter 高、Gitelman 低)；Gitelman 一律低鎂"],
+          ["Liddle vs SAME", "都是 renin、aldosterone 低：Liddle → **amiloride** 有效；SAME/甘草 → **spironolactone** 有效"],
+          ["TPP (甲亢週期性麻痺)", "年輕亞洲男性 + 凌晨低血鉀麻痺 + 腎外型尿鉀 → TSH/free T4；治療 Propranolol"],
+          ["低血鉀 IV 補充", "用 **NS 稀釋** (非 D5W！)；同時補鎂；RTA 者用 K⁺ citrate"],
+          ["高血鉀急救順序", "Ca²⁺ gluconate (保護心臟) → Insulin+Glucose ± Albuterol (shift K⁺) → 移除 K⁺；**NaHCO₃ 無急性角色**"],
+          ["轉移性高血鉀", "非陰離子間隙酸中毒會；**乳酸、酮酸中毒不會**"],
+          ["高血鈣兩大原因", "門診 #1 = pHPT (PTH↑)；住院 #1 = 惡性腫瘤 (PTH↓)"],
+          ["FHH", "Ca/Cr clearance ratio <0.01；**手術無效**"],
+          ["低血鈣 Trousseau sign", "血壓計袖帶壓高於收縮壓 20 mmHg 維持 3 分鐘 → 手腕痙攣"],
+          ["高血鈣禁用 Thiazide", "Thiazide 增加遠端小管 Ca²⁺ 回收 → 加重高血鈣"],
+          ["Bisphosphonate 禁忌", "GFR < 35 → 改 denosumab"],
+          ["低血鎂", "低鉀、低鈣**補不起來**；PPI、酒精、cisplatin"],
+          ["Refeeding", "**低磷** + 低鉀 + 低鎂"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "387-409, 3305-3311"}
+      ]
+    },
+    {
+      "title": "練習題",
+      "content": [
+        {"type": "collapsible", "summary": "Q1：60 歲男性術後意識改變，無水腫，Na⁺ 105 mEq/L，Uosm 450，UNa 55，體重 60 kg。最可能診斷及如何安全矯正？", "text": "**診斷：SIADH**（術後：疼痛、噁心、麻醉藥 → 非滲透壓性 AVP 分泌）\n- Euvolemia + Uosm >100 + UNa >30 → 符合 SIAD；仍要排除甲狀腺低下、腎上腺不全\n\n**有意識改變 = 有症狀**：\n1. **3% NaCl 100 mL bolus**，必要時重複 → 先升 **4–6 mM** 緩解症狀\n2. 之後依慢性速度：**第一天總共 < 6–8 mM**\n\n**First Choice 公式（補充）**：\n- TBW = 60 × 0.6 = 36 L\n- 每日限升 ≤8 mEq/L → 需要量 = 36 × 8 / 0.513 ≈ 561 cc，分 24h 給約 **23 cc/h**\n\n- 每 2~4h 監測 Na⁺\n- 若矯正過快 → 立即給 **DDAVP + D5W** 壓回"},
+        {"type": "collapsible", "summary": "Q2：35 歲女性多尿 (6 L/day)，Na⁺ 141，限水試驗後 Uosm 180，給 DDAVP 後 Uosm 升至 620。診斷與治療？", "text": "**診斷：Central DI (中樞型尿崩症)**\n- 限水後 Uosm 仍低 (180) → 排除 primary polydipsia\n- DDAVP 後 Uosm 上升 > 50%（180 → 620）→ **Central DI**\n\n**治療**：DDAVP (Desmopressin) 鼻噴或口服\n\n**鑑別**：若 DDAVP 後 Uosm 上升 < 50% 或 < 150 mOsm/kg → Nephrogenic DI → 找病因（鋰、高血鈣、低血鉀）；慢性多尿可用 thiazide、amiloride\n\n⚠️ 如果病人一開始就**高血鈉**（例如 Na⁺ 152），**不能做限水試驗** → 直接看 DDAVP 反應與 AVP/copeptin"},
+        {"type": "collapsible", "summary": "Q3：28 歲亞洲男性，凌晨醒來四肢無力無法動彈，K⁺ 2.1，尿鉀/肌酸酐偏低，甲狀腺腫大。診斷與急性處理？", "text": "**診斷：Thyrotoxic Periodic Paralysis (TPP，甲亢週期性麻痺)**\n- 年輕亞洲男性 + 凌晨發作的低血鉀麻痺 + **腎外型尿鉀**（細胞內轉移，不是流失）+ 甲狀腺腫大\n- 確認：TSH ↓、free T4 ↑；常合併低磷、低鎂\n\n**急性處理**：\n- **Propranolol** (非選擇性 β-blocker) **3 mg/kg** → 快速逆轉低鉀、低磷與麻痺，且不會反彈\n- 小心少量補充 KCl（慎防 rebound hyperkalemia，因為是 transcellular shift）\n- **不宜大量靜脈補鉀**\n\n**根本治療**：控制甲狀腺功能亢進"},
+        {"type": "collapsible", "summary": "Q4：72 歲女性長期使用 Furosemide，K⁺ 2.8，補充 KCl 數日無效，Mg²⁺ 1.0 mg/dL。為何補不回來？", "text": "**原因：低血鎂未矯正**\n- 低鎂抑制肌肉 Na⁺/K⁺-ATPase → 細胞攝取 K⁺ 減少\n- 細胞內 Mg²⁺ 原本阻擋 **ROMK** 的 K⁺ 外流 → 低鎂時阻擋消失 → 腎臟持續排 K⁺\n- 因此**必須同時補充 Mg²⁺**，否則 K⁺ 補不回來\n\n**處理**：\n1. 靜脈補充鎂（腎功能差要減量）\n2. 繼續口服 KCl\n3. 考慮加用保鉀利尿劑 (Spironolactone / Amiloride)\n4. 評估是否可減少 Furosemide 劑量\n5. 也要檢查血鈣（低鎂同樣會造成低鈣補不起來）"},
+        {"type": "collapsible", "summary": "Q5：65 歲男性 CKD stage 4，K⁺ 7.2，EKG 示 peaked T waves 及 QRS widening。急救順序？", "text": "**立即處理** (K⁺ 7.2 + EKG 變化 = 急症)：\n\n1. **10% Ca²⁺ gluconate 10 mL IV 2–3 分鐘**（1~3 分鐘起效，持續 30–60 分鐘，穩定心肌，**不降 K⁺**；EKG 沒改善就重複）\n2. **Regular insulin 10U + D50W 50 mL (25 g) IV**（10–20 分鐘起效）→ 接 **D10 50–75 mL/h** 防低血糖\n3. **Nebulized Albuterol 10~20 mg**（與 insulin 相加；ESRD 約 20% 無效，**不可單用**）\n4. **NaHCO₃**：急性期沒有角色；若有代謝性酸中毒可等張輸注數小時\n5. **SZC 或 Patiromer**（優於 Kayexalate）\n6. **緊急血液透析** — CKD 4 期對上述治療反應差時，最有效\n\n之後：停用造成高血鉀的藥物（ACEi/ARB、MRA、NSAIDs、TMP）、限鉀飲食"},
+        {"type": "collapsible", "summary": "Q6：55 歲女性疲倦、多尿、便秘，Ca²⁺ 12.8 mg/dL，PTH 85 pg/mL (正常 10~65)，血磷偏低。診斷？", "text": "**診斷：原發性副甲狀腺功能亢進 (Primary Hyperparathyroidism)**\n- 高血鈣 + PTH 不適當升高 + 低血磷（PTH 排磷）\n- 門診高血鈣最常見原因\n\n**需排除 FHH**：Ca/Cr clearance ratio\n- **< 0.01** → FHH（CaSR 失功能，良性，**手術無效**）→ 家族史、基因檢測\n- 尿鈣排泄分率 > 0.02 → 支持 pHPT → 考慮 parathyroidectomy\n\n**急性處理** (若 Ca ≥14 或有症狀)：\n1. 大量 NS 補液（4–6 L/24h）\n2. 容積恢復後才加 Furosemide\n3. Calcitonin（前 48 小時）+ IV Bisphosphonate\n\n**多尿的原因**：高血鈣 → AQP2 ↓ → 腎性尿崩 → 脫水 → 高血鈣更嚴重"},
+        {"type": "collapsible", "summary": "Q7：68 歲糖尿病男性，服用 lisinopril，K⁺ 6.1，EKG 正常，Cr 1.6，HCO₃⁻ 19（AG 正常），尿 pH 5.2", "text": "**① 假性？** 先重抽（避免握拳、溶血），血小板與白血球正常\n**② 轉移？** 非陰離子間隙代謝性酸中毒會讓 K⁺ 外移，但這裡更像結果而非原因\n**③ 為什麼排不掉？**\n- **低腎素性低醛固酮症**：糖尿病 + 老年 + CKD → 最常見的易感族群\n- 約 50% 合併**高氯性酸中毒、尿 pH < 5.5**（type 4 RTA）\n- 再加上 **ACE inhibitor**（抑制 RAAS）→ 高血鉀\n\n**處置**：\n- K⁺ 6.1 且 EKG 正常 → 不需鈣，但要降鉀\n- 低鉀飲食、檢查其他藥物（NSAIDs、β-blocker、TMP）\n- 若有容積擴張：loop 或 thiazide diuretic\n- **SZC 或 patiromer** → 可讓病人**繼續使用 ACEi** 保護腎臟\n- 矯正高血鉀本身也能改善酸中毒"},
+        {"type": "collapsible", "summary": "Q8：25 歲女性，反覆疲倦、手腳抽筋，血壓 105/65。K⁺ 2.9、HCO₃⁻ 32、Mg 1.3 mg/dL，尿 Cl⁻ 45，尿 Ca/Cr 很低", "text": "**用 Fig 56-7 走一次**：\n- 低血鉀 → 尿鉀高 → **腎臟流失**\n- 血壓**正常偏低** → 看酸鹼 → **代謝性鹼中毒**\n- **尿 Cl⁻ > 20**（排除嘔吐）→ 看**尿 Ca/Cr**\n- 尿 Ca/Cr **很低（< 0.15）** → **Thiazide 或 Gitelman's syndrome**\n\n**區分**：\n- 尿液**利尿劑篩檢**排除偷吃 thiazide\n- Gitelman：尿 Na⁺、K⁺、Cl⁻ **持續**升高（利尿劑濫用則起伏不定）、**一律低鎂**、可有軟骨鈣化症\n\n**為什麼抽筋？** 低血鎂 + 鹼中毒（離子鈣下降）\n\n**治療**：補鉀 + **補鎂**；必要時保鉀利尿劑"},
+        {"type": "collapsible", "summary": "Q9：50 歲男性長期酗酒，近一週只喝啤酒，意識混亂。Na⁺ 108，Uosm 90，UNa 8，K⁺ 2.8。入院給 NS 1 L 後 6 小時 Na⁺ 升到 116", "text": "**診斷：Beer potomania（低溶質攝取）**\n- Uosm < 100、UNa < 10 → 排水受限於溶質不足\n\n**問題：已經矯正過快！**\n- 6 小時就升了 8 mM\n- 合併**酗酒、低血鉀、營養不良** → **ODS 最高風險族群**（目標應比 6–8 mM/天更低）\n\n**處置**：\n1. **立即給 DDAVP**（阻止繼續排水）**± D5W** 把 Na⁺ 拉回目標範圍\n2. 每 2 小時驗 Na⁺\n3. 補鉀也會讓 Na⁺ 上升 → 計入矯正量\n4. 補充 thiamine、營養（小心 refeeding：磷、鉀、鎂）\n\n**ODS 警訊**：1 天以上後出現吞嚥困難、構音障礙、四肢癱瘓、locked-in"},
+        {"type": "collapsible", "summary": "Q10：40 歲女性神經性厭食症，BMI 14，住院開始鼻胃管灌食第 3 天出現呼吸喘、全身無力、心衰竭", "text": "**診斷：Refeeding syndrome**\n- 長期飢餓 → 全身磷、鉀、鎂已耗竭\n- 開始給醣類 → insulin 分泌 → **磷、鉀、鎂移入細胞**\n- **低血磷** → ATP、2,3-DPG 耗竭 → **呼吸肌無力、心收縮力下降**、橫紋肌溶解、溶血\n\n**處置**：\n1. 驗磷、鉀、鎂、鈣\n2. 磷 < 2 mg/dL → **IV 磷酸鹽**（依 Table 421-2；先矯正低血鈣）\n3. 補鉀、補鎂（鈣鎂一起給）\n4. **減慢灌食速度**，之後慢慢增加\n5. 補充 thiamine\n\n**預防**：高風險者開始餵食前與期間密切監測並補充電解質"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "387-409, 3305-3311"}
       ]
     }
   ],
-  "related": ["acid-base-disorders", "acute-kidney-injury", "chronic-kidney-disease", "nephrotic-syndrome"]
+  "related": [
+    {"id": "oncall-potassium-disorders", "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"},
+    {"id": "acid-base-disorders", "name": "Acid-Base Disorders (酸鹼平衡異常)"},
+    {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
+    {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"}
+  ]
 }
