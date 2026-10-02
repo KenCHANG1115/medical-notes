@@ -5,161 +5,251 @@
   "title_zh": "腎病症候群",
   "specialty": "腎臟內科",
   "sources": [
-    "Harrison's 22e - Glomerular Diseases (p.2181-2202)",
+    "Harrison's 22e - Ch.326 Glomerular Diseases (p.2454-2472)",
+    "Harrison's 22e - Ch.319 Approach to the Patient with Renal Disease (p.2400-2401)",
     "First Choice 醫學(三) - 腎臟疾病各論 (p.58-100)"
   ],
-  "generated": "2026-09-10",
+  "generated": "2026-10-03",
   "sections": [
     {
-      "title": "Overview / Epidemiology",
+      "title": "總覽：定義、病生理、共通併發症與一般治療",
       "content": [
-        "Nephrotic syndrome 是以 **massive proteinuria** 為主要表現的腎絲球疾病症候群，定義為蛋白尿 > 3.5 g/day (或 urine protein/creatinine ratio > 3.5)。",
-        {"type": "callout", "style": "guideline", "text": "Nephrotic syndrome 四大特徵：\n1. Proteinuria > 3.5 g/day\n2. Hypoalbuminemia (< 3.0 g/dL)\n3. Peripheral edema\n4. Hyperlipidemia"},
-        "好發率因病因而異。在兒童，**Minimal Change Disease (MCD)** 佔 70-90%；在成人，**Membranous Nephropathy** 和 **Focal Segmental Glomerulosclerosis (FSGS)** 最常見。",
-        {"type": "source", "book": "Harrison's 22e", "pages": "2181-2185"}
-      ]
-    },
-    {
-      "title": "Etiology / Risk Factors",
-      "content": [
-        {"type": "heading", "text": "Primary (Idiopathic) Causes"},
-        {"type": "table", "headers": ["Disease", "好發族群", "Key Feature"], "rows": [
-          ["Minimal Change Disease (MCD)", "兒童 (2-6 y/o)", "Foot process effacement on EM"],
-          ["Focal Segmental Glomerulosclerosis (FSGS)", "African American, HIV, obesity", "Focal sclerosis"],
-          ["Membranous Nephropathy", "成人 (30-50 y/o)", "PLA2R antibodies (70%)"],
-          ["Membranoproliferative GN (MPGN)", "Young adults", "Tram-track on LM"],
-          ["Diabetic Nephropathy", "DM > 10 years", "Kimmelstiel-Wilson nodules"]
+        {"type": "callout", "style": "logic", "text": "**這份筆記的讀法**\n腎病症候群的本質是**濾過屏障漏蛋白**：病灶在**足細胞**或**上皮下**，沒有發炎細胞參與 → 大量蛋白尿、血尿輕微。（腎絲球構造、沉積位置與「補體 / 血清學 / IF」三分法請先讀 **Nephritic Syndrome 筆記第 0–1 章**。）\n\n**讀的順序**\n- 第 0 章：所有腎病症候群**共通**的病生理、併發症與一般治療\n- 第 1 章：**診斷工具箱**——依年齡想病因、找續發原因、何時切片\n- 第 2–4 章：三大原發疾病 **MCD → FSGS → Membranous**\n- 第 5 章：糖尿病腎病變與沉積性疾病（類澱粉等）\n- 第 6 章：感染相關\n- 第 7 章：臨床題練習"},
+        {"type": "callout", "style": "guideline", "text": "**腎病症候群的定義**\n1. **蛋白尿 > 3.5 g/day**（或 UPCR > 3.5 g/g）\n2. **低白蛋白血症**（< 3.5 g/dL；嚴重者 < 2.5）\n3. **水腫**\n常合併：**高脂血症**（LDL↑、HDL↓）、**脂肪尿**\n\n只有大量蛋白尿、沒有臨床表現 → **nephrotic-range proteinuria**（不等於腎病症候群）"},
+        {"type": "table", "headers": ["表現 / 併發症", "機轉", "臨床重點"], "rows": [
+          ["**水腫**", "低白蛋白 → 膠體滲透壓↓ + **腎臟原發性保鈉**", "**眼瞼、臉部、眶周**（不同於心衰竭的端坐呼吸）；陰囊/陰莖水腫可阻塞尿道；水泡破裂 → 蜂窩性組織炎；聲帶水腫 → 聲音沙啞；嚴重 → 全身水腫（anasarca）"],
+          ["**高脂血症**", "肝臟代償性增加脂蛋白合成 + 分解減少", "**LDL↑、HDL↓**；心血管風險↑ → **所有病人都應治療**（statin）"],
+          ["**脂肪尿**", "含脂的小管上皮細胞", "**oval fat bodies**、**fatty cast**、偏光下 **Maltese cross**"],
+          ["**高凝狀態 / 血栓**", "**antithrombin III 等抗凝因子從尿流失** + 肝臟增加凝血因子與纖維蛋白原 + 血液濃縮", "**腎靜脈血栓（Membranous 最多）**、DVT、PE、動脈血栓"],
+          ["**感染**", "**IgG、補體因子從尿流失**、類固醇治療", "莢膜菌（**肺炎鏈球菌**）——兒童**自發性細菌性腹膜炎**、蜂窩性組織炎"],
+          ["**AKI**", "低血容（過度利尿）、腎間質水腫（nephrosarca）、腎靜脈血栓、ATN、藥物", "成人 MCD 常見"],
+          ["**結合蛋白流失**", "**甲狀腺結合球蛋白**、維生素 D 結合蛋白、轉鐵蛋白", "甲狀腺功能檢查判讀改變、低鈣、缺鐵"],
+          ["**負氮平衡**", "近端小管回收並分解白蛋白 > 肝臟合成", "**Muehrcke's lines**（指甲床橫向白線，快速發生的低白蛋白）"],
+          ["**GFR 下降**", "蛋白尿本身有腎毒性", "**24 h 蛋白尿越多，GFR 下降越快**"]
         ]},
-        {"type": "heading", "text": "Secondary Causes"},
-        {"type": "collapsible", "summary": "Secondary Causes of Nephrotic Syndrome", "text": "**Systemic diseases:** SLE (Class V), DM, Amyloidosis\n**Infections:** HBV (Membranous), HCV (MPGN), HIV (FSGS)\n**Drugs:** NSAIDs (MCD), Gold, Penicillamine (Membranous)\n**Malignancy:** Solid tumors → Membranous; Lymphoma → MCD"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "58-65"}
-      ]
-    },
-    {
-      "title": "Pathophysiology",
-      "content": [
-        "核心機制：**Glomerular basement membrane (GBM) permeability 增加** → 大量白蛋白從尿液流失。",
-        {"type": "callout", "style": "logic", "text": "Nephrotic syndrome 的 pathophysiology cascade:\nProteinuria → Hypoalbuminemia → Decreased oncotic pressure → Edema\n同時 liver 代償性增加 lipoprotein 合成 → Hyperlipidemia\nUrinary loss of antithrombin III + increased clotting factors → Hypercoagulable state"},
-        "**Podocyte injury** 是 nephrotic syndrome 的核心病理：\n- MCD: Podocyte foot process effacement (可逆)\n- FSGS: Podocyte loss → sclerosis (不可逆)\n- Membranous: Immune complex deposition on GBM subepithelial side",
-        {"type": "source", "book": "Harrison's 22e", "pages": "2185-2190"}
-      ]
-    },
-    {
-      "title": "Pathology",
-      "content": [
-        {"type": "table", "headers": ["Disease", "Light Microscopy", "IF", "Electron Microscopy"], "rows": [
-          ["MCD", "Normal", "Negative", "Foot process effacement"],
-          ["FSGS", "Focal segmental sclerosis", "IgM, C3 in sclerotic areas", "Foot process effacement"],
-          ["Membranous", "GBM thickening, spikes", "Granular IgG, C3", "Subepithelial deposits"],
-          ["MPGN", "Tram-track, mesangial proliferation", "C3, IgG", "Subendothelial (Type I) or dense deposits (Type II)"],
-          ["Diabetic", "Kimmelstiel-Wilson nodules", "Linear IgG", "GBM thickening"]
+        {"type": "callout", "style": "trap", "text": "**腎靜脈血栓的線索**：腎病症候群病人突然**腰痛、肉眼血尿、蛋白尿加重、腎功能下降**，或不明原因的 **PE** → 想 **Membranous**（狼瘡 class V、類澱粉也會）\n\n**大量蛋白尿卻沒有水腫** → 想 **HIV 相關腎病（HIVAN）**：也常沒有高血壓與高血脂、腎臟**大而高迴音**"},
+        {"type": "heading", "text": "所有腎病症候群的一般治療"},
+        {"type": "table", "headers": ["目標", "處置", "注意"], "rows": [
+          ["**降蛋白尿 / 保護腎功能**", "**ACEi / ARB + SGLT2i**", "與疾病特異的免疫抑制治療**同時**進行"],
+          ["**水腫**", "**限鹽**（< 2 g Na/day）+ **loop diuretic**；頑固者合併 thiazide/metolazone，極嚴重的低白蛋白可短暫合併 IV 白蛋白", "**避免血管內容積不足**（過度利尿 → AKI、血栓）"],
+          ["**高脂血症**", "**Statin**", "Harrison：所有合併高膽固醇者都應治療"],
+          ["**血栓**", "發生靜脈血栓 → **抗凝**；**預防性抗凝**有爭議，選擇性用於**低白蛋白嚴重**者（尤其 **Membranous**，KDIGO 常以 albumin < 2.0–2.5 g/dL 且出血風險低為參考）", "—"],
+          ["**感染預防**", "肺炎鏈球菌、流感疫苗；長期類固醇者考慮 PJP 預防", "臨床常規"]
         ]},
-        {"type": "callout", "style": "trap", "text": "LM normal + IF negative + EM shows foot process effacement = MCD，不是 FSGS！\nFSGS 在 LM 上可見 focal segmental sclerosis，但早期 biopsy 可能 miss (sampling error)"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2190-2195"}
+        {"type": "source", "book": "Harrison's 22e", "pages": "2400, 2457, 2464"}
       ]
     },
     {
-      "title": "Clinical Presentation",
+      "title": "診斷工具箱：依年齡想病因、找續發原因、決定切片",
       "content": [
+        {"type": "heading", "text": "① 確認與定量"},
         {"type": "list", "ordered": false, "items": [
-          "**Periorbital edema** (especially morning) → Peripheral edema → Anasarca",
-          "Frothy urine (from proteinuria)",
-          "Weight gain (from fluid retention)",
-          "Fatigue, malaise"
+          "**Dipstick 只測 albumin（酸性蛋白）**，測不到**輕鏈** → 定量用 **UPCR / UACR** 或 24 小時尿",
+          "**UPCR 高、UACR 相對低** → 尿中有非白蛋白蛋白質（**輕鏈**）→ 做血/尿**免疫電泳**、free light chain",
+          "**選擇性蛋白尿**（幾乎只有白蛋白）→ 兒童 **MCD**；成人多為**非選擇性**",
+          "**溢流性蛋白尿（overflow）**：輕鏈小而帶正電，自由通過正常腎絲球 → 不代表腎絲球受損",
+          "尿沉渣：**oval fat bodies、fatty cast、Maltese cross**；血尿通常輕微（明顯血尿 + RBC cast → 想混合型：MPGN、狼瘡）"
         ]},
-        {"type": "callout", "style": "logic", "text": "Nephrotic edema 好發於 periorbital area (早晨) 和 lower extremities (下午)，和 nephritic edema 的差異在於：\n- Nephrotic: oncotic pressure 下降 → transudative edema\n- Nephritic: salt/water retention → volume overload"},
-        {"type": "heading", "text": "Complications"},
+        {"type": "heading", "text": "② 依年齡想最可能的病因"},
+        {"type": "table", "headers": ["族群", "最可能", "要想的續發原因"], "rows": [
+          ["**兒童（尤其 < 6 歲）**", "**MCD（70–90%）**", "先天性（NPHS1 nephrin、NPHS2 podocin，< 1 歲）"],
+          ["**成人**", "**Membranous（~25%）**、**FSGS**（美國 ESKD 最常見的原發腎絲球病）；MCD 僅 10–15%", "**糖尿病**（最常見的續發原因）、狼瘡、類澱粉、HIV、HBV/HCV"],
+          ["**老人**", "Membranous、類澱粉、糖尿病", "**惡性腫瘤**（實體癌 → MN；淋巴瘤 → MCD）、**骨髓瘤 / AL 類澱粉**"],
+          ["**非洲裔**", "**FSGS**（APOL1）", "HIV（collapsing FSGS）"]
+        ]},
+        {"type": "figure", "src": "figures/nephrotic-syndrome/h319-3.png", "label": "Harrison's 22e Fig. 319-3", "caption": "腎病症候群的原發與續發病因",
+          "explain": "**【怎麼看】**五個主要病理類型，各分**原發**與**續發**：\n- **MCD**：續發 → **淋巴增生疾病（Hodgkin）**、**NSAID**\n- **FSGS**：續發 → **海洛因**、**適應性損傷（肥胖、DM）**\n- **Membranous**：原發 → 特發性、**anti-PLA2R**（70%）；續發 → **藥物（ampicillin、NSAID、金、汞、penicillamine）、SLE、瘧疾、血吸蟲、癌症（GI、攝護腺、乳癌、肺、膀胱）**\n- **MPGN（低補體）**：原發 → **C3 腎絲球病變（C3GN、DDD）**；續發 → **SLE、冷凝球蛋白、SBE、感染後**\n- **其他**：**糖尿病**、**HIV、COVID-19**、**類澱粉（AL、SAA）**\n**【考點】**這張圖就是**續發原因的檢查清單**——診斷原發之前，必須逐一排除續發原因。"},
+        {"type": "heading", "text": "③ 基本檢查"},
+        {"type": "table", "headers": ["檢查", "目的"], "rows": [
+          ["UPCR / 24 h 尿蛋白、白蛋白、血脂、Cr", "確認與嚴重度"],
+          ["**血糖、HbA1c、眼底**", "糖尿病腎病變（**視網膜病變**支持診斷）"],
+          ["**補體 C3、C4**", "**MCD、FSGS、MN、糖尿病 → 正常**；**低 → MPGN/C3G、狼瘡、冷凝球蛋白、感染相關**"],
+          ["**ANA / anti-dsDNA**", "狼瘡 class V"],
+          ["**HBV、HCV、HIV、梅毒**", "感染相關（MN、MPGN、FSGS）"],
+          ["**anti-PLA2R（± THSD7A）**", "原發 Membranous"],
+          ["**SPEP/UPEP、免疫固定、血清 free light chain**", "**> 40–50 歲**：AL 類澱粉、LCDD、骨髓瘤"],
+          ["依年齡的**癌症篩檢**", "Membranous（尤其 PLA2R 陰性的老人）"]
+        ]},
+        {"type": "heading", "text": "④ 四大原發疾病一次比較"},
+        {"type": "table", "headers": ["", "MCD", "FSGS", "Membranous", "MPGN / C3G"], "rows": [
+          ["**典型族群**", "**兒童**", "成人、**非洲裔**、肥胖、HIV", "**成人 30–50 歲**、男 2:1", "兒童 / 年輕人（DDD）、成人"],
+          ["**光鏡**", "**正常**", "**部分腎絲球的節段硬化**（皮髓交界）", "**GBM 均勻增厚**、銀染 **spike**", "**雙軌（tram-track）**、增生"],
+          ["**IF**", "**陰性**（偶有少量 mesangial IgM）", "硬化區非特異性 IgM、C3", "**顆粒狀 IgG（IgG4）、C3**；PLA2R 染色", "C3 ± Ig"],
+          ["**EM**", "**足突融合（effacement）**", "足突融合", "**上皮下沉積**", "**內皮下沉積**（DDD：GBM 內緻密沉積）"],
+          ["**血尿**", "少", "可有", "較少", "**常有**（混合型）"],
+          ["**補體**", "正常", "正常", "正常", "**低**"],
+          ["**標記**", "—", "APOL1（基因）", "**anti-PLA2R（70–80%）**", "**C3 nephritic factor**"],
+          ["**類固醇反應**", "**極佳**", "差（20–45%）", "單用無效", "不一"]
+        ]},
+        {"type": "heading", "text": "⑤ 何時切片？"},
         {"type": "list", "ordered": false, "items": [
-          "**Thromboembolism**: Renal vein thrombosis (especially Membranous), PE, DVT",
-          "**Infection**: Loss of immunoglobulins → 特別是 encapsulated bacteria (Streptococcus pneumoniae)",
-          "**Hyperlipidemia**: LDL, VLDL 升高；HDL 可能正常或降低",
-          "**AKI**: Hypovolemia, bilateral renal vein thrombosis"
+          "**成人腎病症候群**：原則上都需要切片（例外：典型**糖尿病腎病變**；**anti-PLA2R 陽性 + Cr 正常 + 無其他原因**的 MN 可不切片）",
+          "**兒童**：多數直接**經驗性類固醇**，**只有對類固醇無反應者才切片**",
+          "兒童需切片的情況（臨床常用標準）：**類固醇抵抗**、**< 1 歲或 > 12 歲**發病、**低補體**、**肉眼血尿或明顯血尿**、**高血壓或腎功能異常**",
+          "切片取樣要包含**深部（皮髓交界）腎絲球** → 否則會把 **FSGS 誤判為 MCD**"
         ]},
-        {"type": "callout", "style": "trap", "text": "Nephrotic syndrome + 突然 flank pain + hematuria → 要想到 **renal vein thrombosis**！\n最常見於 Membranous Nephropathy"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "70-78"}
+        {"type": "source", "book": "Harrison's 22e", "pages": "2400-2401, 2464-2466"}
       ]
     },
     {
-      "title": "Diagnosis",
+      "title": "Minimal Change Disease (MCD)",
       "content": [
-        {"type": "heading", "text": "Lab Findings"},
-        {"type": "list", "ordered": true, "items": [
-          "**Urinalysis**: Proteinuria (3+ to 4+), oval fat bodies, fatty casts, maltese cross under polarized light",
-          "**24-hr urine protein** > 3.5 g/day 或 **UPCR** > 3.5",
-          "**Serum albumin** < 3.0 g/dL",
-          "**Lipid panel**: Total cholesterol, LDL 升高",
-          "**Complement levels**: C3/C4 (正常 in MCD/FSGS/Membranous; 低 in MPGN/SLE)"
+        {"type": "figure", "src": "figures/nephrotic-syndrome/gs4.png", "label": "Harrison's 22e Glomerular schematic 4", "caption": "MCD：光鏡下腎絲球幾乎正常",
+          "explain": "**【怎麼看】**和正常腎絲球幾乎一樣：**沒有沉積物、沒有細胞增生、GBM 正常**。唯一的變化在電顯才看得到——足細胞（粉紅）的**足突融合（effacement）**、slit-pore membrane 變弱。\n**【考點】**「**光鏡正常 + IF 陰性 + EM 足突融合**」= MCD。名字就是因為光鏡「變化很小」。"},
+        {"type": "table", "headers": ["項目", "重點"], "rows": [
+          ["**流行病學**", "**兒童腎病症候群的 70–90%**；**成人僅 10–15%**"],
+          ["**續發原因**", "**Hodgkin's disease**（淋巴增生疾病）、**過敏**、**NSAID**、**鋰鹽**、感染、其他腎絲球疾病；常在**上呼吸道感染、過敏或預防接種**之後發生"],
+          ["**機轉**", "**免疫功能異常**——T 細胞產生的**循環通透因子**（IL-13、IL-4）、足細胞 CD80 增加；也有 B 細胞角色（**anti-nephrin 抗體**、**rituximab 有效**）"],
+          ["**病理**", "**光鏡正常**；**IF 陰性**（或少量 mesangial IgM）；**EM：足突廣泛融合**"],
+          ["**表現**", "**突然發生**水腫與腎病症候群、**尿沉渣乾淨**；平均 **10 g/day** 蛋白尿、嚴重低白蛋白；兒童為**選擇性蛋白尿**"],
+          ["**較少見的表現**", "高血壓（兒童 30%、成人 20–50%）、顯微血尿（兒童 20%、成人 33%）、**異位性體質**（40% / 30%）、**腎功能下降（25–40%）**，緩解後多恢復"]
         ]},
-        {"type": "callout", "style": "guideline", "text": "Complement levels 的鑑別診斷：\n- C3 低, C4 正常: MPGN Type II, Post-infectious GN\n- C3 低, C4 低: SLE (Class V), Cryoglobulinemia\n- C3/C4 正常: MCD, FSGS, Membranous, Diabetic"},
-        {"type": "heading", "text": "Kidney Biopsy"},
-        "Kidney biopsy 是確定診斷的 gold standard，**但兒童若臨床高度懷疑 MCD 可先 empirical steroid treatment**，response 本身即可做為診斷。",
-        {"type": "source", "book": "Harrison's 22e", "pages": "2195-2198"}
-      ]
-    },
-    {
-      "title": "Treatment",
-      "content": [
-        {"type": "heading", "text": "General Measures"},
+        {"type": "callout", "style": "trap", "text": "**成人 MCD 的 AKI**：常見於**白蛋白極低**的病人，因**腎內間質水腫（nephrosarca）**造成，**對利尿劑有反應**；要和**低血容造成的 AKI** 區分（後者利尿會更糟）。也可見 ATN、間質發炎。"},
+        {"type": "heading", "text": "治療與名詞定義"},
+        {"type": "callout", "style": "guideline", "text": "**第一線：prednisone**\n- 兒童：多數**直接用類固醇**，**無反應者才切片**；**90–95% 在 8 週內完全緩解**（最多 30% 會自行緩解）\n- 成人：**80–90% 完全緩解，但反應較慢**；**治療 4 個月仍無反應才算類固醇抵抗**\n\n**第二線**（頻繁復發、類固醇依賴、類固醇抵抗）：**cyclophosphamide、MMF、calcineurin inhibitors（CNI）、rituximab**\n- CNI 可誘導緩解，但**停藥後常復發**"},
+        {"type": "table", "headers": ["名詞", "定義"], "rows": [
+          ["**完全緩解（primary responder）**", "蛋白尿幾乎消失，常在一次 prednisone 療程後突然緩解"],
+          ["**類固醇依賴（steroid-dependent）**", "**類固醇減量期間**就復發"],
+          ["**頻繁復發（frequent relapser）**", "減量後 **6 個月內復發 ≥ 2 次**"],
+          ["**類固醇抵抗（steroid-resistant）**", "對類固醇**沒有反應**（成人：治療 **4 個月**）→ **重新切片常發現 FSGS**"]
+        ]},
         {"type": "list", "ordered": false, "items": [
-          "**ACE inhibitor / ARB**: 降低 proteinuria (first-line for all)",
-          "**Dietary sodium restriction**: < 2 g/day",
-          "**Loop diuretics** ± albumin infusion for severe edema",
-          "**Statin** for hyperlipidemia",
-          "**Anticoagulation**: Consider if albumin < 2.0 g/dL or Membranous"
+          "**兒童第一次緩解後 70–75% 會復發**；早期復發、基礎蛋白尿高 → 預示多次復發；**青春期後復發頻率下降**",
+          "成人復發較少，但復發後**較難治療**",
+          "成人出現 **AKI 或類固醇抵抗** → 長期預後較差"
         ]},
-        {"type": "heading", "text": "Disease-Specific Treatment"},
-        {"type": "collapsible", "summary": "MCD Treatment Protocol", "text": "**First-line**: Prednisolone 1 mg/kg/day × 4-8 weeks → taper\n**Relapse**: Repeat steroid course\n**Frequent relapse / Steroid-dependent**: Cyclophosphamide, Calcineurin inhibitors (Cyclosporine/Tacrolimus), Rituximab\n**Response rate**: > 90% remission with steroids"},
-        {"type": "collapsible", "summary": "Membranous Nephropathy Treatment", "text": "**Observation**: Moderate proteinuria (< 4g) → ACEi/ARB × 6 months\n**Immunosuppression indications**: Proteinuria > 4g after 6 months, declining GFR\n**Regimen**: Ponticelli protocol (alternating Steroids + Cyclophosphamide × 6 months) 或 Rituximab\n**Anti-PLA2R antibodies**: Monitor for treatment response"},
-        {"type": "collapsible", "summary": "FSGS Treatment", "text": "**First-line**: Prednisolone (longer course than MCD, 4-6 months)\n**Steroid-resistant**: Calcineurin inhibitors (Cyclosporine + low-dose prednisone)\n**Prognosis**: 50% progress to ESRD in 5-10 years if untreated"},
-        {"type": "callout", "style": "guideline", "text": "ACEi/ARB 是所有 nephrotic syndrome 的 first-line 降蛋白尿藥物，和 specific immunosuppressive therapy 同步使用"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2198-2202"}
+        {"type": "source", "book": "Harrison's 22e", "pages": "2400, 2464"}
       ]
     },
     {
-      "title": "Prognosis / Follow-up",
+      "title": "Focal Segmental Glomerulosclerosis (FSGS)",
       "content": [
-        {"type": "table", "headers": ["Disease", "Prognosis", "ESRD Risk"], "rows": [
-          ["MCD", "Excellent, > 90% remission", "< 5%"],
-          ["FSGS", "Poor if steroid-resistant", "50% in 5-10 yr"],
-          ["Membranous", "Rule of thirds", "33% remission, 33% stable, 33% progress"],
-          ["MPGN", "Variable", "40-50% in 10 yr"],
-          ["Diabetic", "Progressive", "High without control"]
+        {"type": "figure", "src": "figures/nephrotic-syndrome/gs5.jpg", "label": "Harrison's 22e Glomerular schematic 5", "caption": "FSGS：部分微血管塌陷與疤痕、足細胞脫離 GBM",
+          "explain": "**【怎麼看】**整顆腎絲球中**只有一部分（segmental）**微血管叢壞掉：\n- **Collapsed capillary and scar**（深紅）：微血管塌陷、被硬化物質取代\n- **Detachment of cell from GBM**：**足細胞脫離基底膜** → 裸露的 GBM 與 Bowman's capsule 黏連 → 疤痕\n- **Proliferation of subepithelial cells**：上皮細胞增生（collapsing 變異型的特徵）\n- 其他微血管仍正常 → 而且只有**部分腎絲球（focal）**受影響\n**【考點】**FSGS 的核心是**足細胞流失**（MCD 是足細胞「功能異常但還在」）。病灶在**皮髓交界**的腎絲球最明顯 → 切片太淺會被誤判為 MCD。"},
+        {"type": "heading", "text": "FSGS 是一種「型態」：先分原發、續發、遺傳（Table 326-4）"},
+        {"type": "table", "headers": ["類型", "原因", "治療"], "rows": [
+          ["**原發性**", "**尚未鑑定的循環通透因子**", "RAS 抑制 + SGLT2i；腎病範圍蛋白尿 → **類固醇**（6–12 個月，僅 **20–45%** 緩解）；類固醇節省 → **CNI（cyclosporine）**，但停藥常復發、CNI 本身有腎毒性"],
+          ["**續發性：適應性（hyperfiltration）**", "**腎元減少**（單腎、腎切除、反流性腎病、寡巨腎元症）、**肥胖**、**高血壓**、低出生體重、**鐮刀型貧血**、慢性缺氧（肺病、發紺性心臟病）", "**治療原因 + 降蛋白尿**；**不用類固醇或免疫抑制**"],
+          ["**續發性：病毒**", "**HIV**（collapsing）、HBV、parvovirus、**SARS-CoV-2（COVAN）**", "抗病毒、ART"],
+          ["**續發性：藥物 / 毒物**", "**海洛因**、止痛劑、**bisphosphonate（pamidronate）**、ecstasy、**interferon**、**同化類固醇**", "停用"],
+          ["**續發性：其他**", "膽固醇栓塞、放射線腎炎、癒合後的血管炎", "—"],
+          ["**遺傳性（足細胞病變）**", "**NPHS1（nephrin）、NPHS2（podocin）**、TRPC6、ACTN4、INF2、WT1、PLCE1；**Fabry**；第 IV 型膠原蛋白基因（老年人）", "**不用免疫抑制**；越早發病越可能是單基因"]
         ]},
-        "Follow-up 重點：定期監測 proteinuria (UPCR), serum albumin, renal function (eGFR), lipids。",
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "90-95"}
+        {"type": "callout", "style": "logic", "text": "**APOL1**：非洲裔的兩個風險等位基因，約佔非洲裔非糖尿病 ESKD 的 **70%** 風險，尤其 FSGS；需要「第二擊」（感染、發炎、interferon）才發病。這是非洲裔 FSGS、HIVAN、COVAN 好發的原因。"},
+        {"type": "heading", "text": "病理變異型（預後不同）"},
+        {"type": "table", "headers": ["變異型", "特徵", "預後"], "rows": [
+          ["**NOS（classic）**", "**最常見**；原發或續發都可見", "中等"],
+          ["**Cellular**", "內皮側細胞增生、大量蛋白尿", "—"],
+          ["**Collapsing（塌陷型）**", "節段或全面**微血管叢塌陷** + 上皮細胞增生；**HIV、COVID、APOL1**", "**最差：腎功能快速下降、治療抵抗**"],
+          ["**Perihilar**", "病灶在血管極", "常見於**適應性（續發）** FSGS"],
+          ["**Tip lesion**", "病灶在近端小管出口", "**最好：常對類固醇有反應**"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**臨床重點**\n- FSGS 可以有**血尿、高血壓、任何程度的蛋白尿、腎功能下降**（不像 MCD 那麼「乾淨」）\n- **腎病範圍蛋白尿 + 腎功能下降 → 10 年內 50% 進入 ESKD**；**很少自行緩解**，但**治療達到緩解能大幅改善預後**\n- **FSGS 是美國 ESKD 中最常見的原發腎絲球疾病**\n- **移植後 30% 復發**（原發型最常、續發型較少、遺傳型罕見）→ 移植後復發可用**血漿置換**（支持「循環因子」假說）\n- **續發與遺傳型 FSGS 不要給類固醇**\n- **MCD 類固醇抵抗 → 重新切片常是 FSGS**"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2400, 2454-2455, 2464-2466"}
       ]
     },
     {
-      "title": "Special Populations",
+      "title": "Membranous Nephropathy (MN)",
       "content": [
-        {"type": "heading", "text": "兒童"},
-        "兒童 nephrotic syndrome 絕大多數是 MCD (70-90%)，可先 empirical steroid therapy 不需 biopsy。Biopsy indications: steroid resistance, age < 1 or > 12, low C3, renal failure。",
-        {"type": "heading", "text": "孕婦"},
-        "Pregnancy 會惡化 proteinuria。ACEi/ARB 為 **pregnancy category D**，孕期禁用，改用 methyldopa 或 nifedipine 控制血壓。",
-        {"type": "heading", "text": "老年人"},
-        "老年人 nephrotic syndrome 要特別排除 **malignancy** (Membranous) 和 **amyloidosis**。"
+        {"type": "figure", "src": "figures/nephrotic-syndrome/gs6.png", "label": "Harrison's 22e Glomerular schematic 6", "caption": "Membranous：GBM 外側的上皮下沉積、足突融合",
+          "explain": "**【怎麼看】**許多小的藍色沉積物排列在 **GBM 外側、足細胞下方（subepithelial）**，足突融合。\n**【考點】**\n- 沉積物被 GBM **隔開**、碰不到血中的發炎細胞 → **沒有增生、沒有發炎** → 純粹的 nephrotic\n- GBM 對沉積物反應、在沉積物之間長出新的基底膜 → 銀染色的「**spike**」（之後包住沉積物 = spike and dome）\n- 機轉：**自體抗體（IgG4）在原位**與足細胞表面抗原（**PLA2R**）結合"},
+        {"type": "table", "headers": ["項目", "重點"], "rows": [
+          ["**流行病學**", "**成人腎病症候群約 25%**；**30–50 歲**高峰；**男:女 = 2:1**"],
+          ["**原發 / 抗原相關**", "**anti-PLA2R（IgG4）70–80%**；THSD7A；**NELL1**（最常見的非 PLA2R 抗原，最多 16%）；合計 > 90% 原發 MN 找得到抗原"],
+          ["**續發（20–30%）**", "**惡性腫瘤**（乳、結腸、肺、胃、腎、食道實體癌）、**感染**（**HBV**、HCV、**梅毒**、瘧疾、血吸蟲、痲瘋）、**自體免疫**（**SLE**、RA、IgG4 疾病、Hashimoto、Sjögren……）、**藥物**（**金、汞、penicillamine、NSAID**、probenecid、anti-TNF）、其他（鐮刀型貧血、DM、Crohn、類肉瘤）"],
+          ["**病理**", "光鏡：**周邊微血管 GBM 均勻增厚**（要和糖尿病、類澱粉區分）、銀染 **spike**；IF：**瀰漫顆粒狀 IgG + C3**；EM：**上皮下電子緻密沉積**"],
+          ["**表現**", "**80% 表現為腎病症候群**、**非選擇性**蛋白尿；顯微血尿比 IgA 或 FSGS 少；**補體正常**"],
+          ["**血栓**", "**所有腎病症候群中腎靜脈血栓、PE、DVT 發生率最高**"],
+          ["**自然病程（rule of thirds）**", "**20–33% 自行緩解**（常很晚）；約 1/3 反覆腎病症候群但腎功能正常；約 1/3 腎衰竭或死於腎病症候群併發症"],
+          ["**不良預後**", "男性、年紀大、高血壓、**持續腎病範圍蛋白尿**；**小管萎縮與間質纖維化**比沉積分期更能預測"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**PLA2R 的臨床價值**\n- **anti-PLA2R 陽性 + Cr 正常 + 無其他原因** → **可以不切片**直接診斷原發 MN\n- 抗體濃度與**自行緩解機率、嚴重度、治療反應**相關 → 追蹤用\n- 續發 MN 多數**沒有**這些抗體（少數 HBV、癌症、類肉瘤例外）\n\n**治療**\n1. 所有病人：**控制水腫、血脂、血壓 + RAS 抑制 + SGLT2i**\n2. **原發 MN 且持續蛋白尿** → **免疫抑制**，依**蛋白尿、GFR、白蛋白**做風險分層選擇：**rituximab**、**類固醇 + cyclophosphamide**（交替的 Ponticelli 方案）、**CNI**\n3. 低白蛋白嚴重者考慮**預防性抗凝**（有爭議、選擇性）\n4. **續發 MN → 治療原因**（切除腫瘤、治療 HBV、停藥）\n\n達到緩解 → 長期預後良好"},
+        {"type": "callout", "style": "trap", "text": "**Membranous 的必考陷阱**\n- **老人 MN → 一定要找癌症**（尤其 PLA2R 陰性）\n- **兒童 MN → 想 HBV**（HBV 帶原造成的 MN 兒童較多）\n- 切片有**內皮下沉積**或 **tubuloreticular inclusions** → **狼瘡 class V**，不是原發 MN\n- MN + 突然腰痛、血尿 → **腎靜脈血栓**\n- **單用類固醇對 MN 無效**（不像 MCD）"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2401, 2466"}
       ]
     },
     {
-      "title": "High-Yield Exam Points",
+      "title": "糖尿病腎病變與沉積性疾病（類澱粉、LCDD、Fabry）",
       "content": [
-        {"type": "callout", "style": "trap", "text": "常考鑑別：\n1. 兒童 + nephrotic → **MCD** (先用 steroid)\n2. 成人 + nephrotic + PLA2R Ab (+) → **Membranous**\n3. African American + nephrotic + HIV → **FSGS**\n4. DM > 10 yr + nephrotic → **Diabetic Nephropathy**\n5. Nephrotic + renal vein thrombosis → **Membranous**"},
-        {"type": "callout", "style": "logic", "text": "Nephrotic vs Nephritic 比較：\n- Nephrotic: Proteinuria > 3.5g, hypoalbuminemia, edema, hyperlipidemia\n- Nephritic: Hematuria (RBC casts), mild proteinuria, HTN, oliguria\n- Mixed: MPGN, SLE can present with both"},
-        {"type": "callout", "style": "guideline", "text": "必背：各 nephrotic disease 的 pathology hallmark\n- MCD: Foot process effacement only (LM/IF negative)\n- FSGS: Focal segmental sclerosis\n- Membranous: Spike and dome, subepithelial deposits\n- MPGN: Tram-track (double contour GBM)\n- Diabetic: Kimmelstiel-Wilson nodules"},
+        {"type": "heading", "text": "糖尿病腎病變（腎臟角度）"},
         {"type": "list", "ordered": false, "items": [
-          "Maltese cross under polarized light = **lipiduria** (nephrotic syndrome)",
-          "Oval fat bodies = **renal tubular cells with fat** (nephrotic)",
-          "Anti-PLA2R = **primary Membranous Nephropathy** marker",
-          "兒童 MCD steroid response rate > 90%",
-          "ACEi/ARB 是所有 nephrotic syndrome 的基本治療"
-        ]}
+          "**全世界與美國 CKD 最常見的原因**；約 **40%** 糖尿病人會發生",
+          "病理：**GBM 增厚**（DM 發病 1–2 年即出現，敏感但與腎病變相關性差）→ **mesangial 基質擴張**（與臨床表現相關）→ mesangial 硬化 → **Kimmelstiel-Wilson 結節**（PAS 陽性的結節性硬化）；IF 可見**非特異性線狀 IgG**；明顯**小動脈玻璃樣變**",
+          "機轉：**腎絲球高壓與 hyperfiltration**（RAAS 活化、**SGLT1/2 上調** → macula densa Na⁺ 減少 → TGF 失效）、AGE、ROS、TGF-β",
+          "自然病程：hyperfiltration、腎臟肥大 → **微量白蛋白尿（DM 後 5–10 年）** → 明顯蛋白尿（500 mg 到 25 g/day）→ GFR 下降 → ESKD；現代研究顯示也可能**不經白蛋白尿**（第 1 型最多 24%、第 2 型 50% 的 CKD 是正常白蛋白尿）",
+          "**篩檢**：**第 1 型 DM 診斷 5 年後開始，之後每年**；**第 2 型診斷時就開始，之後每年**（UACR）",
+          "**即使晚期 CKD，腎臟仍偏大**"
+        ]},
+        {"type": "callout", "style": "trap", "text": "**什麼時候懷疑「不是」糖尿病腎病變？**（→ 考慮切片）\n- **第 1 型 DM 有蛋白尿卻沒有視網膜病變**（> 90% 第 1 型腎病變者有視網膜病變；第 2 型只有 60%）\n- DM 病程太短（第 1 型 < 5 年）\n- **活動性尿沉渣（RBC cast、明顯血尿）**\n- **GFR 快速下降**、突然出現腎病症候群\n- 其他全身性疾病的證據\n\n**治療**：控制血糖（第 1 型強化控糖明確有效）、**血壓（多數需 ≥ 3 種藥）**、**ACEi/ARB**、**SGLT2i**、**finerenone**（非類固醇 MRA）→ 詳見 CKD 與糖尿病筆記"},
+        {"type": "heading", "text": "腎臟沉積性疾病"},
+        {"type": "table", "headers": ["", "AL 類澱粉", "AA 類澱粉", "輕鏈沉積病（LCDD）", "Fibrillary GN"], "rows": [
+          ["**沉積物**", "**輕鏈（主要 λ）**纖維", "**serum amyloid A**（急性期反應蛋白）", "**κ 輕鏈**、**非纖維狀**、顆粒狀", "隨機排列的非分支纖維（12–24 nm）、**DNAJB9 陽性**"],
+          ["**Congo red**", "**陽性**（偏光下蘋果綠雙折射）", "**陽性**", "**陰性**", "**陰性**"],
+          ["**背景**", "漿細胞異常；**約 10% 符合骨髓瘤（CRAB）**", "**慢性發炎**：RA、家族性地中海熱、結核、慢性感染、自體發炎疾病、肥胖相關慢性發炎", "骨髓瘤、Waldenström、淋巴瘤", "惡性腫瘤、自體免疫、單株免疫球蛋白"],
+          ["**腎臟**", "**腎病症候群**、可合併**腎靜脈血栓**；沉積在血管與 mesangium", "腎病症候群", "蛋白尿 + 腎損傷；沉積在小管基底膜、Bowman's capsule", "中重度蛋白尿、血尿、50% 在 2–6 年內 ESKD"],
+          ["**腎外**", "**限制型心肌病**、肝腫大、**巨舌**、周邊神經病變、**腕隧道症候群**", "同左", "心、肝、肺", "多侷限於腎"],
+          ["**進展到透析**", "~20%", "**40–60%**", "**~70%**", "50%"],
+          ["**治療**", "**melphalan + 自體造血幹細胞移植**；不適合者用 **bortezomib** 為主的方案", "**控制原發疾病**", "治療原發疾病", "無共識；rituximab"]
+        ]},
+        {"type": "list", "ordered": false, "items": [
+          "**類澱粉的診斷**：高度懷疑時**肝或腎切片 90%** 可確診；**腹部脂肪抽吸約 70%** 陽性（AA 較低）；**血清 free light chain** 用於早期診斷與追蹤",
+          "**輕鏈的三種腎臟病變**：**cast nephropathy**（AKI、不造成大量蛋白尿，見 AKI 筆記）、**LCDD**（蛋白尿 + 腎損傷）、**AL 類澱粉**（腎病症候群）",
+          "**MGRS**（monoclonal gammopathy of renal significance）：非惡性或癌前的 B 細胞 / 漿細胞株分泌單株免疫球蛋白 → 腎臟沉積 → 蛋白尿、ESKD；治療有爭議，可能需化療"
+        ]},
+        {"type": "heading", "text": "Fabry disease"},
+        {"type": "table", "headers": ["項目", "重點"], "rows": [
+          ["**遺傳**", "**X-linked**；**α-galactosidase A 缺乏** → **globotriaosylceramide（Gb3）**堆積在血管內皮、心、腦、腎"],
+          ["**典型表現（男性兒童期）**", "**肢端感覺異常（acroparesthesia）**、**血管角質瘤（angiokeratoma，鼠蹊、臍周）**、腹痛、**角膜渦狀混濁（cornea verticillata）**、**少汗**；之後心臟、腦血管、腎臟；平均約 50 歲死亡"],
+          ["**女性**", "依 X 去活化，多為輕微單一器官，少數嚴重"],
+          ["**腎臟**", "**30 多歲**出現輕中度蛋白尿 ± 顯微血尿或腎病症候群；尿中 **oval fat bodies、Maltese cross**；切片：足細胞充滿空泡，EM **斑馬體（zebra bodies）** → 最終 FSGS；40–50 歲 ESKD"],
+          ["**診斷**", "**α-Gal A 活性** + 基因突變分析"],
+          ["**治療**", "RAS 抑制；**酵素替代療法（agalsidase α/β）** 或 **migalastat**（分子伴護）；晚期器官侵犯仍會惡化；移植效果與其他原因相同"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2466-2468"}
+      ]
+    },
+    {
+      "title": "感染相關的腎病症候群",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "在全球，**感染是腎絲球腎炎最常見的原因**（瘧疾、血吸蟲、HIV、B/C 肝）。感染可造成從腎病症候群到急性腎炎的各種表現；**治療感染常能讓腎病緩解**。"},
+        {"type": "table", "headers": ["感染", "腎臟病變", "重點"], "rows": [
+          ["**HIV**", "**HIVAN = collapsing FSGS**（足細胞腫脹、小管微囊擴張、tubuloreticular inclusions）；**HIVICK**（免疫複合體：類似感染後 GN、MN、MPGN、IgA 等）", "HIV 有腎病者約 50% 為 HIVAN；與 **APOL1** 相關；**腎病範圍蛋白尿但常沒有水腫、高血壓、高血脂**；**腎臟大且高迴音**、功能可快速下降；**HIVAN 是開始 ART 的適應症**；RAS 抑制；可移植"],
+          ["**HBV**", "**MN（兒童較多）**、**MPGN（成人較多）**、冷凝球蛋白 GN；**結節性多動脈炎（PAN）**（感染後 6 個月內，腎動脈瘤、梗塞）", "腎臟沉積中有病毒抗原（多為 HBeAg）；**抗病毒治療**；兒童預後較好"],
+          ["**HCV**", "**冷凝球蛋白 GN（最常見）> MN > MPGN**；也有 PAN、IgA、FSGS", "最多 30% 慢性 C 肝有腎臟表現：第 II 型混合型冷凝球蛋白、腎病症候群、顯微血尿、**C3 低**；**DAA** 為首選"],
+          ["**SARS-CoV-2**", "**collapsing FSGS（COVAN）**最常見；也有 MCD、MN、ANCA、anti-GBM、IgA、TMA", "新發腎病症候群合併 AKI；疫苗相關案例因果未明"],
+          ["**梅毒（二期）**", "**MN**（上皮下沉積含梅毒螺旋體抗原）", "**penicillin** 治療後腎病緩解；同時篩檢其他性病"],
+          ["**瘧疾**", "**P. falciparum**：輕度蛋白尿、mesangioproliferative GN，治療後緩解；**P. malariae（四日瘧）**：**兒童、嚴重腎病症候群**，**< 50% 對類固醇有反應**，3–5 年可進展到 ESKD", "—"],
+          ["**血吸蟲**", "MN、MPGN 等", "流行地區重要原因"],
+          ["**痲瘋**", "FSGS、mesangioproliferative GN、**類澱粉**", "多重藥物治療可減少或緩解腎病"],
+          ["其他病毒", "CMV（MPGN、FSGS）、parvovirus（FSGS）、EBV、hantavirus、dengue……", "因果關係多未確立"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2471-2472"}
+      ]
+    },
+    {
+      "title": "臨床題練習",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "**每題都照這個順序想**：\n① 符合腎病症候群嗎？（蛋白尿 > 3.5 g、低白蛋白、水腫）② **年齡**與**族群** → 最可能的原發疾病 ③ 有沒有**續發原因**（DM、狼瘡、HBV/HCV/HIV、癌症、藥物、輕鏈）？ ④ **補體**正常嗎？ ⑤ 要不要切片？治療：一般處置 + 疾病特異治療 ⑥ 有沒有**併發症**（血栓、感染、AKI）？"},
+        {"type": "collapsible", "summary": "Q1：4 歲男童，感冒一週後早上眼皮腫，接著全身水腫。尿蛋白 4+、白蛋白 1.8、膽固醇 380、BP 正常、無血尿、補體正常、Cr 正常", "text": "**最可能**：**Minimal change disease**（兒童腎病症候群 70–90%）\n- 上呼吸道感染後**突然**發生、**眶周水腫**、尿沉渣乾淨、補體正常、血壓與腎功能正常\n\n**處置**：\n- **不需切片**，直接 **prednisone**（90–95% 兒童在 8 週內完全緩解）\n- 一般處置：限鹽、必要時利尿劑（避免低血容）\n\n**追蹤**：70–75% 會復發；頻繁復發 / 類固醇依賴 → cyclophosphamide、CNI、MMF、rituximab\n**類固醇抵抗** → 切片（常是 FSGS）\n\n**注意併發症**：兒童腹水 + 發燒腹痛 → **肺炎鏈球菌自發性腹膜炎**"},
+        {"type": "collapsible", "summary": "Q2：上題男童用 prednisone 8 週後蛋白尿仍 3+，切片光鏡在皮髓交界有部分腎絲球節段硬化", "text": "**診斷**：**FSGS**（類固醇抵抗）\n- 第一次切片若只取到淺層皮質，會**漏掉皮髓交界的病灶**而誤判為 MCD\n- 兒童類固醇抵抗 → 考慮**基因檢測**（NPHS1、NPHS2 等足細胞基因）\n\n**治療**：\n- **RAS 抑制**（± SGLT2i）\n- 原發型：CNI（cyclosporine、tacrolimus）\n- **遺傳型不給免疫抑制**\n\n**預後**：腎病範圍蛋白尿 + 腎功能下降 → 10 年 50% ESKD；**移植後約 30% 復發**（原發型最多）"},
+        {"type": "collapsible", "summary": "Q3：45 歲男性，下肢水腫 2 個月，蛋白尿 8 g/day、白蛋白 2.2、輕微顯微血尿、BP 135/85、補體正常、ANA 陰性、HBV/HCV/HIV 陰性、anti-PLA2R 強陽性、Cr 0.9", "text": "**診斷**：**原發性 Membranous nephropathy**\n- 成人、補體正常、**anti-PLA2R 陽性**\n- **anti-PLA2R 陽性 + Cr 正常 + 無其他原因 → 可以不切片**\n\n**處置**：\n- 一般：限鹽、利尿劑、**ACEi/ARB + SGLT2i**、statin\n- **白蛋白 2.2 → 考慮預防性抗凝**（MN 血栓風險最高；評估出血風險）\n- 依風險分層決定免疫抑制：**rituximab**、類固醇 + cyclophosphamide、或 CNI\n- **追蹤 anti-PLA2R 濃度**評估反應\n\n**rule of thirds**：1/3 自行緩解、1/3 持續但腎功能穩定、1/3 進展"},
+        {"type": "collapsible", "summary": "Q4：上題病人兩個月後突然左腰痛、肉眼血尿，Cr 0.9 → 1.6，下肢腫脹不對稱", "text": "**想到**：**腎靜脈血栓**（± DVT、PE）\n- **Membranous 是所有腎病症候群中血栓發生率最高的**\n- 機轉：antithrombin III 等抗凝因子從尿流失、凝血因子與纖維蛋白原增加、血液濃縮（過度利尿）\n\n**檢查**：腎靜脈都卜勒超音波 / CT 或 MR 靜脈攝影；下肢超音波；必要時評估 PE\n**治療**：**抗凝**（注意低白蛋白影響藥物結合）"},
+        {"type": "collapsible", "summary": "Q5：72 歲男性，體重減輕 6 kg，腎病症候群，anti-PLA2R 陰性，切片：GBM 增厚、上皮下沉積、IgG 與 C3 顆粒狀", "text": "**診斷**：**Membranous nephropathy**，**PLA2R 陰性 + 老年 + 體重減輕** → 高度懷疑**續發性（惡性腫瘤）**\n\n**下一步**：**依年齡做完整的癌症篩檢**——肺、結腸、乳房（女性）、胃、腎、攝護腺；必要時 CT\n- 其他續發原因：HBV、HCV、梅毒、SLE、藥物（NSAID、金、penicillamine）\n\n**治療**：**治療腫瘤**（腫瘤緩解後腎病常改善）；**避免盲目使用免疫抑制劑**"},
+        {"type": "collapsible", "summary": "Q6：62 歲女性，類風濕性關節炎 20 年，控制不佳。蛋白尿 6 g/day，肝腫大，舌頭變大。腹部脂肪抽吸 Congo red 陽性", "text": "**診斷**：**AA 類澱粉沉積症**（續發性）——長期**慢性發炎**（RA）\n- Congo red 陽性（偏光下蘋果綠雙折射）\n- 腎病症候群、肝腫大、巨舌\n\n**和 AL 的區別**：AL 由**漿細胞異常（λ 輕鏈）**產生 → 要做 **SPEP、免疫固定、free light chain**、骨髓檢查；本例有長期 RA → AA 較可能，但仍需確認\n\n**治療**：**積極控制 RA**（AA 類澱粉除非控制原發病，否則持續惡化）；40–60% 進展到透析\n\n**若是 AL**：melphalan + 自體幹細胞移植，或 bortezomib 為主"},
+        {"type": "collapsible", "summary": "Q7：38 歲男性，HIV 未治療，CD4 150。蛋白尿 9 g/day，但沒有水腫、血壓正常、膽固醇正常。Cr 1.2 → 2.4（三個月）。超音波雙腎增大、高迴音", "text": "**診斷**：**HIV-associated nephropathy（HIVAN）**——**collapsing FSGS**\n- 大量蛋白尿但**沒有水腫、高血壓、高血脂**（和其他腎病症候群不同）\n- **腎臟大而高迴音**、腎功能快速下降\n- 與 **APOL1** 有關（非洲裔多）\n\n**治療**：\n- **立即開始 ART**（HIVAN 本身就是開始 ART 的適應症）\n- **RAS 抑制**降蛋白尿\n- ESKD 後可透析或移植（病毒量測不到、無伺機感染史者）"},
+        {"type": "collapsible", "summary": "Q8：30 歲男性，從小手腳燒灼痛、少汗，臍周有紅紫色小丘疹，角膜有渦狀混濁。蛋白尿 2 g/day、尿中偏光見 Maltese cross", "text": "**診斷**：**Fabry disease**（X-linked，α-galactosidase A 缺乏）\n- **肢端感覺異常、少汗、血管角質瘤、cornea verticillata**\n- 腎臟：蛋白尿、**Maltese cross**（糖脂球）；切片足細胞空泡化、EM **斑馬體** → 最終 FSGS\n- 其他：心臟（左心室肥厚、心律不整）、早發中風\n\n**診斷**：**α-Gal A 活性** + 基因檢測\n**治療**：**酵素替代療法（agalsidase）**或 **migalastat** + RAS 抑制；篩檢家族（母親為帶因者）\n\n**陷阱**：**Maltese cross 不是只有腎病症候群的脂肪尿**，Fabry 也會出現"},
+        {"type": "collapsible", "summary": "Q9：55 歲女性，第 2 型糖尿病 3 年，從未有視網膜病變。兩個月內突然全身水腫，蛋白尿 10 g/day、白蛋白 1.9。RBC 15–20/HPF", "text": "**判斷**：**不像典型糖尿病腎病變**\n- DM 病程短（雖然第 2 型發病時間不確定）\n- **突然**發生的腎病症候群\n- **明顯血尿**\n- 沒有視網膜病變（第 2 型雖只有 60% 合併，但加上其他線索就要警覺）\n\n**下一步**：**腎臟切片**；同時送補體、ANA、HBV/HCV/HIV、SPEP/free light chain、anti-PLA2R\n\n**可能**：Membranous、FSGS、類澱粉、MCD……都可能疊加在糖尿病上"},
+        {"type": "collapsible", "summary": "Q10：68 歲男性，因退化性關節炎長期服用 naproxen。兩週內出現水腫、蛋白尿 6 g/day、Cr 1.0 → 2.3、無菌性膿尿、WBC cast", "text": "**診斷**：**NSAID 造成的 MCD（腎病症候群）+ 急性間質性腎炎（AIN）**\n- NSAID 可**同時**傷害腎絲球（MCD，少數 MN）與小管間質（AIN）\n- NSAID 造成的 AIN **常沒有發燒、皮疹、嗜酸性球**\n\n**處置**：\n- **立即停 NSAID**\n- 支持療法；停藥後腎功能未改善 → 考慮類固醇\n- 必要時切片確認\n\n**也要想**：老人 MCD → **淋巴增生疾病（Hodgkin）**"},
+        {"type": "callout", "style": "trap", "text": "**考前速查**\n1. 定義：**蛋白尿 > 3.5 g/day + 低白蛋白 + 水腫**（± 高血脂、脂肪尿）\n2. **兒童 → MCD**（直接類固醇，無反應才切片）；**成人 → MN、FSGS**；**非洲裔 → FSGS**\n3. MCD：光鏡正常、IF 陰性、**EM 足突融合**；續發 **Hodgkin、NSAID、鋰鹽**\n4. FSGS：**皮髓交界**節段硬化；collapsing（**HIV、COVID、APOL1**）最差、tip 最好；**續發型不用類固醇**；移植後 30% 復發\n5. MN：**上皮下沉積、spike**；**anti-PLA2R**；**老人找癌症、兒童想 HBV**；**腎靜脈血栓最多**；rule of thirds\n6. 補體：**MCD、FSGS、MN、DM 都正常**；**低補體 → MPGN/C3G、狼瘡、冷凝球蛋白**\n7. 血栓機轉：**antithrombin III 流失**\n8. 感染：IgG 流失 → **肺炎鏈球菌**\n9. DM：**沒有視網膜病變、活動性尿沉渣、快速惡化** → 切片\n10. 類澱粉：**Congo red 蘋果綠**；**AL = λ 輕鏈**、**AA = 慢性發炎**；LCDD = **κ、Congo red 陰性**\n11. HIVAN：**大量蛋白尿但沒有水腫**、腎臟大而亮、**開始 ART**\n12. 一般治療：**ACEi/ARB + SGLT2i**、限鹽 + 利尿劑、**statin**、選擇性抗凝"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2400-2401, 2464-2472"}
       ]
     }
   ],
   "related": [
     {"id": "nephritic-syndrome", "name": "Nephritic Syndrome (腎炎症候群)"},
     {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
-    {"id": "diabetic-nephropathy", "name": "Diabetic Nephropathy (糖尿病腎病變)"},
-    {"id": "lupus-nephritis", "name": "Lupus Nephritis (狼瘡性腎炎)"}
+    {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
+    {"id": "diabetes-mellitus", "name": "Diabetes Mellitus (糖尿病)"},
+    {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"}
   ]
 }

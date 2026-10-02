@@ -1,0 +1,295 @@
+{
+  "id": "nephritic-syndrome",
+  "title": "Nephritic Syndrome (腎炎症候群)",
+  "title_en": "Nephritic Syndrome",
+  "title_zh": "腎炎症候群",
+  "specialty": "腎臟內科",
+  "sources": [
+    "Harrison's 22e - Ch.326 Glomerular Diseases (p.2454-2472)",
+    "Harrison's 22e - Ch.319 Approach to the Patient with Renal Disease (p.2396-2401)",
+    "First Choice 醫學(三) - 腎臟疾病各論 (p.58-100)"
+  ],
+  "generated": "2026-10-03",
+  "sections": [
+    {
+      "title": "總覽：腎絲球構造、損傷機轉與六大症候群",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "**這份筆記的讀法**\n腎絲球疾病的病名很多，但只要抓住一個核心觀念就能串起來：\n\n**免疫沉積物的「位置」決定臨床表現**\n- 沉積在**內皮下（subendothelial）或 mesangium** → 碰得到血液中的發炎細胞與補體 → **發炎、增生** → 血尿、RBC cast、GFR 下降 → **Nephritic**\n- 沉積在**上皮下（subepithelial）**或足細胞本身受損 → 被 GBM 隔開、沒有發炎細胞 → 濾過屏障漏蛋白 → **Nephrotic**（見 Nephrotic Syndrome 筆記）\n\n**讀的順序**\n- 第 0–1 章：構造、機轉、**補體 / 血清學 / IF 三分法**（每題都用得到）\n- 第 2–5 章：依三分法排列的各疾病——**低補體組 → 狼瘡 → IgA → RPGN（anti-GBM、ANCA）**\n- 第 6 章：以血尿為主的基底膜疾病\n- 第 7 章：臨床題練習"},
+        {"type": "figure", "src": "figures/nephritic-syndrome/h326-1.jpg", "label": "Harrison's 22e Fig. 326-1", "caption": "腎絲球的構造",
+          "explain": "**【怎麼看】**\n- **A**：腎動脈分支 → 入球小動脈 → **腎絲球微血管叢** → 出球小動脈（一個「小動脈門脈系統」）\n- **B**：掃描電顯下的**足細胞**，箭頭指的是互相交錯的**足突（foot process）**，足突之間由 slit-pore membrane 連接\n- **C**：**有窗孔的內皮細胞**（fenestrated endothelium）\n- **D**：光學顯微鏡下的各區域——Bowman's capsule、**足細胞**、Bowman's space、壁層上皮、**mesangium**、**GBM**、微血管內皮\n**【考點】**濾過屏障由內到外：**有窗孔內皮 → GBM → 足細胞足突與 slit diaphragm**；靠**孔徑大小與負電荷**擋住蛋白。白蛋白半徑 3.6 nm、孔徑約 4 nm → 正常每天仍有 8–10 mg 白蛋白漏出（被近端小管 megalin/cubilin 回收）。"},
+        {"type": "figure", "src": "figures/nephritic-syndrome/h326-2.jpg", "label": "Harrison's 22e Fig. 326-2", "caption": "腎絲球損傷的機轉",
+          "explain": "**【怎麼看】**\n- **A 沉積位置**：循環中**預先形成的免疫複合體**沉積在 GBM 的**內皮下**；**原位形成（in situ）**的複合體則在**上皮下**（自體抗體找到卡在 GBM 外側的抗原，例如 membranous 的 PLA2R）\n- **B 線狀 IgG**：抗體直接黏在 GBM 上 → **anti-GBM disease**\n- **C 顆粒狀（lumpy-bumpy）IgG**：免疫複合體 → 例如 membranous、PSGN、狼瘡\n- **D 發炎放大**：免疫沉積 + 補體（C3、C5-9 MAC）吸引**巨噬細胞、嗜中性球、T 細胞** → 細胞激素、氧化物、蛋白酶 → **基底膜破壞**，以及**內皮側增生（endocapillary）**或**Bowman's space 增生（extracapillary = 新月體）**\n**【考點】**IF 的三種型態是鑑別的核心：**顆粒狀 = 免疫複合體；線狀 = anti-GBM；幾乎沒有 = pauci-immune（ANCA）**。"},
+        {"type": "heading", "text": "腎絲球疾病的六大臨床症候群（Table 326-2）"},
+        {"type": "table", "headers": ["症候群", "表現", "代表疾病"], "rows": [
+          ["**急性腎炎症候群**", "**高血壓、血尿 + RBC cast、膿尿、輕中度蛋白尿（1–2 g/day）**、水腫、SCr 上升", "PSGN、心內膜炎、狼瘡、IgA、MPGN/C3G、anti-GBM、ANCA 血管炎、HSP、冷凝球蛋白"],
+          ["**RPGN / 肺腎症候群**", "腎功能**數天到數週**內惡化；病理 = **新月體（crescentic）GN**；合併**肺出血** = 肺腎症候群", "**Goodpasture**、ANCA 血管炎、狼瘡、冷凝球蛋白、HSP"],
+          ["**腎病症候群**", "**蛋白尿 > 3–3.5 g/day**、低白蛋白、高膽固醇、水腫；血尿輕微", "MCD、FSGS、Membranous、糖尿病、類澱粉（見 Nephrotic 筆記）"],
+          ["**基底膜症候群**", "顯微血尿 + 輕到重度蛋白尿 ± 進行性腎衰竭", "anti-GBM、**Alport**、thin BM、nail-patella"],
+          ["**腎絲球-血管症候群**", "血管傷害 → 血尿 + 中度蛋白尿", "血管炎、TMA、抗磷脂、動脈硬化、膽固醇栓塞、高血壓、鐮刀型貧血"],
+          ["**感染相關症候群**", "蛋白尿 + 血尿", "PSGN、SBE、HIV、HBV/HCV、梅毒、瘧疾、血吸蟲（全球最常見的 GN 原因）"]
+        ]},
+        {"type": "table", "headers": ["", "Nephritic", "Nephrotic"], "rows": [
+          ["**本質**", "腎絲球**發炎、增生**", "濾過屏障**漏蛋白**、足細胞病變"],
+          ["**沉積位置**", "**內皮下、mesangium**（或 anti-GBM、pauci-immune）", "**上皮下**、或沒有沉積（足細胞病變）"],
+          ["**尿液**", "**dysmorphic RBC、RBC cast**、膿尿", "**大量蛋白尿**、oval fat bodies、fatty cast、Maltese cross"],
+          ["**蛋白尿**", "**< 3.5 g/day**（常 1–2 g）", "**> 3.5 g/day**"],
+          ["**水腫機轉**", "**鹽水滯留**（GFR↓）→ 高血壓、容積過多", "低白蛋白 + 腎臟保鈉"],
+          ["**高血壓**", "常見、明顯", "可有"],
+          ["**GFR**", "**下降**（少尿、氮血症）", "初期常正常"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**兩者會重疊**：MPGN、狼瘡腎炎（尤其 class IV、V）、PSGN（5% 兒童、20% 成人有腎病範圍蛋白尿）、FSGS、IgA 都可以同時有血尿和大量蛋白尿 → 看到「混合型」先想 **MPGN 與狼瘡**。\n\n**腎功能惡化最能預測預後的病理指標**是**小管間質纖維化**，而不是腎絲球損傷的種類——間質纖維化 = 不可逆的訊號。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2454-2459"}
+      ]
+    },
+    {
+      "title": "診斷工具箱：血尿判讀與「補體 / 血清學 / IF」三分法",
+      "content": [
+        {"type": "heading", "text": "① 這是腎絲球性血尿嗎？"},
+        {"type": "table", "headers": ["", "腎絲球性", "非腎絲球性（泌尿道）"], "rows": [
+          ["**RBC 形態**", "**Dysmorphic RBC**（擠過 GBM 變形）", "形態正常"],
+          ["**RBC cast**", "**有** → 幾乎確定是 GN", "無"],
+          ["**蛋白尿**", "常合併", "通常無（或輕微）"],
+          ["**顏色**", "**可樂色 / 茶色**（血紅素在酸性尿中變成 hematin）", "**鮮紅色、血塊**，可合併排尿疼痛"],
+          ["**肉眼血尿**", "少見——**IgA 腎病變與鐮刀型貧血例外**", "常見（腫瘤、結石、外傷）"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**顯微血尿**：清晨第一泡尿、離心後 **3–5 RBC/HPF** 即可疑。\n- 合併輕微蛋白尿（< 500 mg/day）的顯微血尿 → **先排除泌尿道惡性腫瘤，尤其老年男性**\n- 其他非腎絲球原因：BPH、間質性腎炎、乳頭壞死、高尿鈣、結石、囊性腎病、腎血管傷害\n- **10–20 mL 血就能把 1 L 尿染紅** → 肉眼血尿看起來很嚇人，不代表失血很多\n- **Dipstick 潛血 (+) 但顯微鏡沒有 RBC** → 肌紅素尿或血紅素尿（見 AKI 筆記）\n- 有些 GN（PSGN、MPGN）尿中有很多白血球 → 要和**泌尿道感染**區分"},
+        {"type": "heading", "text": "② 蛋白尿分級（Table 326-1）"},
+        {"type": "table", "headers": ["", "24 h 白蛋白 (mg)", "UACR (mg/g)", "Dipstick", "24 h 總蛋白 (mg)"], "rows": [
+          ["正常", "8–10", "< 30", "−", "< 150"],
+          ["微量白蛋白尿", "30–300", "30–300", "− / trace / 1+", "− / > 150"],
+          ["蛋白尿", "> 300", "> 300", "trace – 3+", "> 150"]
+        ]},
+        {"type": "list", "ordered": false, "items": [
+          "**持續 > 1–2 g/day** 通常代表腎絲球疾病",
+          "**良性（功能性、暫時性）蛋白尿**：通常 < 1 g/day、不持續——發燒、運動、肥胖、睡眠呼吸中止、情緒壓力、心衰竭",
+          "**姿勢性（orthostatic）蛋白尿**：只在站立時出現，預後良好",
+          "成人蛋白尿多為**非選擇性**；兒童 **MCD** 為**選擇性**（主要是白蛋白）"
+        ]},
+        {"type": "heading", "text": "③ 三分法：先看補體，再看血清學，最後看 IF"},
+        {"type": "callout", "style": "guideline", "text": "**Step 1 — 補體 C3 / C4**\n**Step 2 — 血清學**：ANCA（PR3、MPO）、**anti-GBM**、ANA / anti-dsDNA、**ASO / streptozyme**、cryoglobulin、RF、HBV / HCV / HIV、PLA2R\n**Step 3 — 切片 IF 型態**\n\n**典型抽血組合**：C3、C4、ANCA、anti-GBM、ANA、ASO、HBV、HCV、HIV、cryoglobulin"},
+        {"type": "table", "headers": ["補體", "疾病", "記憶"], "rows": [
+          ["**C3 ↓、C4 正常**（替代路徑活化）", "**PSGN**、**C3 腎絲球病變（DDD、C3GN）**", "替代路徑：細菌 / C3 nephritic factor"],
+          ["**C3 ↓、C4 ↓**（古典路徑活化）", "**狼瘡腎炎**、**冷凝球蛋白血症**（C4 特別低）、免疫複合體型 MPGN（HCV、HBV）", "抗原抗體複合體走古典路徑"],
+          ["**C3 ↓**（依病例）", "**心內膜炎 / shunt 腎炎**、梅毒、血吸蟲、腫瘤相關", "持續感染"],
+          ["**補體正常**", "**IgA 腎病變、IgA 血管炎（HSP）**、**anti-GBM**、**ANCA 血管炎**、Alport、thin BM（以及 MCD、FSGS、MN）", "IgA 雖在腎臟有 C3 沉積，**血中 C3 正常**"]
+        ]},
+        {"type": "table", "headers": ["IF 型態", "機轉", "疾病"], "rows": [
+          ["**顆粒狀（granular, lumpy-bumpy）**", "**免疫複合體**", "PSGN（**上皮下 hump**）、狼瘡（**full house**：IgG、IgA、IgM、C3、C1q）、**IgA（mesangial IgA）**、MPGN、冷凝球蛋白、心內膜炎"],
+          ["**線狀（linear）IgG**", "**抗 GBM 抗體**", "**anti-GBM disease / Goodpasture**（糖尿病偶有非特異性線狀 IgG）"],
+          ["**幾乎沒有（pauci-immune）**", "**ANCA** 活化嗜中性球", "**GPA、MPA、EGPA**、腎臟侷限型血管炎"],
+          ["**C3 為主、幾乎無 Ig**", "**補體替代路徑失調**", "**C3 腎絲球病變（DDD、C3GN）**"]
+        ]},
+        {"type": "heading", "text": "④ RPGN 的分類"},
+        {"type": "figure", "src": "figures/nephritic-syndrome/h319-1.png", "label": "Harrison's 22e Fig. 319-1", "caption": "RPGN 的三大類",
+          "explain": "**【怎麼看】**RPGN 是**臨床診斷**，靠三個血清檢查分成三類：\n- **ANCA (+)**：anti-PR3（→ 肉芽腫性 = GPA；或 MPA）、anti-MPO\n- **Anti-GBM (+)**：腎臟侷限型，或合併肺出血 = **Goodpasture**\n- **低 C3（免疫複合體）**：**感染後、SBE、HBV/HCV、SLE、梅毒、血吸蟲、腫瘤、冷凝球蛋白**\n**【考點】**病理上 RPGN = **新月體腎炎**（壁層上皮與發炎細胞在 Bowman's space 增生、壓迫微血管）。> 50% 腎絲球受影響 → 常走向全面硬化。一懷疑 RPGN 就要**同時送 ANCA、anti-GBM、補體**，並盡快切片。"},
+        {"type": "table", "headers": ["RPGN 類型（IF）", "比例（傳統）", "血清", "代表疾病"], "rows": [
+          ["**Type I：anti-GBM（線狀）**", "最少", "anti-GBM (+)", "Goodpasture、腎臟侷限型"],
+          ["**Type II：免疫複合體（顆粒狀）**", "中", "低補體，依病因", "PSGN、狼瘡、IgA/HSP、冷凝球蛋白、心內膜炎"],
+          ["**Type III：pauci-immune（幾乎沒有）**", "**成人最常見**", "**ANCA (+)**", "GPA、MPA、EGPA"]
+        ]},
+        {"type": "heading", "text": "⑤ 切片判讀術語"},
+        {"type": "table", "headers": ["術語", "意義"], "rows": [
+          ["**Focal / Diffuse**", "受影響的腎絲球 **< 50% / > 50%**（理想上看 20 顆）"],
+          ["**Segmental / Global**", "單一腎絲球**部分 / 大部分**受影響"],
+          ["**Endocapillary**", "**微血管叢內**細胞增生（如 PSGN）"],
+          ["**Extracapillary**", "增生延伸到 **Bowman's space**"],
+          ["**新月體（crescent）**", "纖維細胞 / 纖維素填滿 Bowman's space → **RPGN 的病理對應**"],
+          ["**Sclerosis**", "無細胞的蛋白質堆積、微血管消失；**背景硬化比例 ≈ 年齡 / 2 − 10 (%)**"]
+        ]},
+        {"type": "list", "ordered": false, "items": [
+          "**染色**：H&E（細胞與架構）、**PAS**（膜的醣類）、**silver**（基底膜：spike、雙軌）、**Congo red**（類澱粉）、**Masson trichrome**（膠原、纖維化）",
+          "**IF**：IgG、IgA、IgM、C3、C4，以及特定抗原（PLA2R、THSD7A、DNAJB9）",
+          "**EM**：沉積物的確切位置（上皮下、內皮下、mesangial）、基底膜狀態",
+          "**切片時機**：臨床穩定、凝血正常、願意接受治療者；**腎臟縮小**提示慢性"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2397-2399, 2457-2459"}
+      ]
+    },
+    {
+      "title": "低補體的腎炎：PSGN、感染相關、MPGN / C3 腎絲球病變、冷凝球蛋白",
+      "content": [
+        {"type": "heading", "text": "鏈球菌感染後腎絲球腎炎（PSGN）"},
+        {"type": "figure", "src": "figures/nephritic-syndrome/gs1.png", "label": "Harrison's 22e Glomerular schematic 1", "caption": "PSGN：上皮下 hump、內皮下與 mesangial 沉積、嗜中性球浸潤",
+          "explain": "**【怎麼看】**一條腎絲球微血管的橫切面（紫色線 = GBM；米色 = 內皮；粉紅 = 足細胞；淺綠 = mesangial 細胞）：\n- **Hump**（左上深紫）：GBM 外側的**上皮下大型沉積物** → PSGN 的招牌 EM 發現\n- **Subendothelial deposits**、**Mesangial deposits**（藍色）：碰得到血液 → 引發發炎\n- **Poly**：管腔內的**嗜中性球** → 「**exudative**」增生性 GN\n**【考點】**PSGN 是**急性內皮側增生性（endocapillary proliferative）GN** 的原型；IF 為顆粒狀 IgG、IgM、C3。增生太厲害 → 微血管被擠扁（「bloodless capillaries」）→ 濾過面積↓ → 少尿、鹽水滯留。"},
+        {"type": "table", "headers": ["項目", "重點"], "rows": [
+          ["**流行病學**", "已開發國家明顯減少、多為散發，**較常見於老人**（尤其衰弱者）；開發中國家呈流行，**2–14 歲兒童**；男性多；同住者發病率可達 40%"],
+          ["**潛伏期**", "**咽炎後 1–3 週**、**皮膚感染（膿痂疹）後 2–6 週**（特定致腎炎 M 型 A 群鏈球菌）"],
+          ["**抗原**", "SPEB（streptococcal pyrogenic exotoxin B）、NAPlr；替代路徑補體活化"],
+          ["**表現**", "**血尿（可樂色）、RBC cast、膿尿、水腫、高血壓、少尿型 AKI**（嚴重可如 RPGN）；50% 有頭痛、倦怠、**腰痛**（腎包膜腫脹）；腎病範圍蛋白尿：**兒童 5%、成人 20%**"],
+          ["**檢驗**", "**第一週 90% CH50 ↓、C3 ↓、C4 正常**；**streptozyme 陽性 80–95%**（ASO、anti-DNase B、anti-hyaluronidase 等）；培養陽性僅約 25%；RF、cryoglobulin、MPO-ANCA（10%）偶見"],
+          ["**切片**", "**很少需要**；mesangial 與內皮細胞增生、嗜中性球浸潤、顆粒狀內皮下沉積 + **上皮下 hump**"],
+          ["**治療**", "**支持療法**：控制血壓、水腫，需要時透析；**對病人與同住者治療仍存在的鏈球菌感染**；**即使有新月體也不用免疫抑制**；抗生素**無法預防**腎炎發生"],
+          ["**預後**", "兒童多在 **3–6 週內完全恢復**，3–10% 殘留顯微血尿、蛋白尿或高血壓；**老人預後差**（氮血症可達 60%、腎病範圍蛋白尿、ESKD）；很少復發；亞臨床病例是臨床病例的 4–5 倍"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**PSGN vs IgA 腎病變（必考）**\n- 時間：PSGN 感染後 **1–3 週**；IgA **感染同時或 1–3 天內**（synpharyngitic）\n- 兩者在腎臟都有 C3 沉積，但**只有 PSGN 血中 C3 低**\n\n**C3 持續偏低超過 6–8 週** → 不像 PSGN，要想 **C3 腎絲球病變、MPGN、狼瘡**（臨床常用判斷）\n\n**進行中的感染**造成的 GN（例如 **MRSA** 膿瘍、骨髓炎、膿胸）≠ 感染「後」GN：常為 **IgA 為主的沉積**，要用抗生素 + 引流"},
+        {"type": "heading", "text": "心內膜炎與其他感染相關 GN"},
+        {"type": "list", "ordered": false, "items": [
+          "常見於**亞急性細菌性心內膜炎 (SBE)**：拖很久沒治療、**血液培養陰性**、**右側心內膜炎**；共病：瓣膜疾病、**靜脈藥癮**、C 肝、糖尿病",
+          "急性心內膜炎較少：免疫複合體損傷需要 **10–14 天**，那時多已治療或手術",
+          "腎臟外觀**「跳蚤咬痕」（flea-bitten）**的被膜下出血；切片：局部或瀰漫增生，**C3（94%）**、IgG、IgA；常有**新月體**，也可有栓塞梗塞或膿瘍",
+          "檢驗：正球性貧血、ESR↑、**低補體**、**RF 高**、第 III 型冷凝球蛋白、甚至 **ANCA 陽性**",
+          "治療：**4–6 週抗生素**，及早根除則腎臟預後良好；**要排除 ANCA 血管炎**（治療相反）",
+          "**Shunt 腎炎**：腦室-心房 / 腹腔分流管、感染的人工血管、肺/腹/骨盆/皮膚感染 → 成人與免疫低下者為主，**葡萄球菌**最常見；低補體；病理可為 MPGN、DPGN；當作心內膜炎治療"
+        ]},
+        {"type": "heading", "text": "膜增生性腎絲球腎炎（MPGN）"},
+        {"type": "figure", "src": "figures/nephritic-syndrome/gs3.png", "label": "Harrison's 22e Glomerular schematic 3", "caption": "MPGN：內皮下沉積、mesangial 插入（雙軌）",
+          "explain": "**【怎麼看】**\n- **Subendothelial deposits**（藍色）：在 GBM 內側\n- **Mesangial interposition**：mesangial 細胞（淺綠）**鑽進內皮與 GBM 之間**，並在內側製造新的基底膜 → GBM 看起來有兩層\n- **Widened mesangial**、巨噬細胞與 mesangial 細胞增生\n**【考點】**銀染色下的**雙軌（double contour）/「tram-track」**是 MPGN 的招牌。沉積在內皮下 → **同時有 nephritic（發炎）與 nephrotic（大量蛋白尿）表現**，而且**低補體**。"},
+        {"type": "table", "headers": ["MPGN 現在是「型態」，依原因分三類", "代表疾病"], "rows": [
+          ["**免疫複合體媒介**", "**冷凝球蛋白血症**、**HCV**、HBV、感染相關 GN、自體免疫（狼瘡）"],
+          ["**補體媒介（C3 腎絲球病變）**", "**DDD（緻密沉積病，舊稱 MPGN type II）**、**C3GN**"],
+          ["**單株免疫球蛋白媒介**", "輕鏈 / 重鏈沉積病、MGRS；fibrillary GN 也可呈此型態"]
+        ]},
+        {"type": "table", "headers": ["C3 腎絲球病變", "DDD（dense deposit disease）", "C3GN"], "rows": [
+          ["**定義**", "IF **只有或以 C3 為主**、幾乎沒有 Ig；EM 見 **GBM 內緞帶狀緻密沉積**", "C3 為主，但沒有 DDD 的特殊形態"],
+          ["**族群**", "**兒童與年輕人**", "較年長（平均 30 歲）"],
+          ["**表現**", "蛋白尿（可達腎病範圍）、肉眼或顯微血尿；**部分脂肪營養不良（partial lipodystrophy）**、視網膜 **drusen**", "2/3 血尿、1/3 蛋白尿"],
+          ["**補體**", "**C3 低、C4 正常**；**C3 nephritic factor** 多數陽性", "C3 低、C4 正常；C3NeF 較少"],
+          ["**機轉**", "補體替代路徑失調（factor H、CFHR 基因突變）", "同左"],
+          ["**預後 / 治療**", "**50% 進展到 ESKD**", "RAS 抑制、降血脂、類固醇與免疫抑制；**eculizumab**（抗 C5）可能有效；篩檢家屬"]
+        ]},
+        {"type": "heading", "text": "冷凝球蛋白血症腎炎"},
+        {"type": "list", "ordered": false, "items": [
+          "**HCV** 是最主要原因：**第 II 型混合型冷凝球蛋白**（單株 IgM 具 RF 活性 + 多株 IgG）；也可見於副蛋白血症",
+          "**C4 特別低**（C3 也可低）、**RF 高**",
+          "腎臟：MPGN 型態，可表現 RPGN，甚至肺出血",
+          "C 肝的腎臟病變依頻率：**冷凝球蛋白 GN > MN > MPGN**；最多 30% 慢性 C 肝有腎臟表現",
+          "治療：**直接作用抗病毒藥（DAA）** 是 HCV 相關 MPGN 的首選"
+        ]},
+        {"type": "callout", "style": "logic", "text": "**Mesangioproliferative GN**：mesangium 擴張 ± 細胞增生、微血管壁薄、mesangial 沉積。見於 **IgA 腎病變、P. falciparum 瘧疾、恢復中的感染後 GN、狼瘡 class II**；排除這些後才診斷原發性（< 15% 切片）。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2397-2399, 2459-2460, 2463-2464, 2471-2472"}
+      ]
+    },
+    {
+      "title": "狼瘡腎炎 (Lupus Nephritis)",
+      "content": [
+        {"type": "list", "ordered": false, "items": [
+          "SLE 診斷時 **30%** 已有腎臟表現，**多數**在病程中會出現",
+          "機轉：主要是 **DNA–anti-DNA 免疫複合體**沉積 → 補體活化、白血球浸潤、凝血因子活化；也有原位形成；可沉積在 **mesangium、內皮下、上皮下**",
+          "最常見表現：**蛋白尿**；也有血尿、高血壓、腎功能下降、**RBC cast**",
+          "**能固定補體的 anti-dsDNA** 與腎臟疾病最相關；**急性狼瘡腎炎 70–90% 低補體**（C3、C4 都低）；**補體下降可預告復發**",
+          "IF：**full house**（IgG、IgA、IgM、C3、C1q 都陽性）",
+          "**有腎臟侵犯的病人多數要切片**：分級決定治療"
+        ]},
+        {"type": "heading", "text": "ISN/RPS 分級（Table 326-3）"},
+        {"type": "table", "headers": ["Class", "名稱", "病理", "臨床與治療"], "rows": [
+          ["**I**", "Minimal mesangial", "光鏡正常，mesangial 有沉積", "腎臟表現輕微、功能正常 → **幾乎不需治療**"],
+          ["**II**", "Mesangial proliferative", "mesangial 細胞增生與基質擴張", "同上，預後極佳"],
+          ["**III**", "**Focal**（< 50% 腎絲球）", "局部內皮側 ± 外側增生，**局部內皮下沉積** ± 纖維素樣壞死", "病程最多變；輕微者類固醇即可（5 年 < 5% 腎衰竭）；**嚴重者比照 class IV**"],
+          ["**IV**", "**Diffuse**（> 50% 腎絲球）", "**瀰漫內皮下沉積**、內皮側 ± 外側增生 ± **新月體** ± 纖維素樣壞死；分 IV-S（segmental）、IV-G（global）", "**最常見也最嚴重**：anti-DNA 高、**補體低**、血尿、RBC cast、蛋白尿（50% 腎病範圍）、高血壓、GFR↓；不治療預後最差（**IV-S 比 IV-G 差**）"],
+          ["**V**", "**Membranous**", "**瀰漫上皮下沉積**、基底膜增厚；可合併 III 或 IV（混合型，比照 IV 治療）", "**60% 表現為腎病症候群**；和原發 MN 一樣**易腎靜脈血栓**"],
+          ["**VI**", "Advanced sclerosing", "**> 90% 腎絲球全面硬化**", "ESKD → 透析或移植，**免疫抑制無益**"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**治療（class III、IV，及 V 合併增生）**\n**誘導（2–6 個月）**：**高劑量類固醇** + **cyclophosphamide 或 mycophenolate mofetil (MMF)**\n**維持**：低劑量類固醇 + **MMF 或 azathioprine**\n**新藥**：**voclosporin**（新一代 CNI）可加在類固醇 + MMF 上；**belimumab**（抗 BLyS）可加入標準維持治療\n- 生育年齡避免長期 cyclophosphamide\n- 緩解（腎功能接近正常、蛋白尿顯著下降）→ 長期腎臟預後很好\n\n**Class V**：嚴重腎病症候群、SCr 上升、進行性 → 類固醇 + 其他免疫抑制劑；**RAS 抑制**降低蛋白尿\n\n**所有狼瘡腎炎**：RAS 抑制、控制血壓、**hydroxychloroquine**（全身性 SLE 標準治療）"},
+        {"type": "callout", "style": "trap", "text": "**考點**\n- 分級**會轉變** → 病情改變時常需**重新切片**\n- **抗磷脂抗體** → 腎絲球微血栓、**TMA**，即使抗凝預後仍較差\n- 原發 MN 的切片若出現**內皮下沉積**或 **tubuloreticular inclusions** → 強烈提示是**狼瘡 class V**（可在全身表現之前出現）\n- **最多 20%** 進展到 ESKD；移植通常在**疾病不活動約 6 個月**後進行，移植腎存活率與其他病因相近\n- 全身表現與 SLE 診斷標準 → 留給之後的風濕免疫筆記"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2460-2461"}
+      ]
+    },
+    {
+      "title": "IgA 腎病變與 IgA 血管炎（HSP）",
+      "content": [
+        {"type": "figure", "src": "figures/nephritic-syndrome/gs2.png", "label": "Harrison's 22e Glomerular schematic 2", "caption": "IgA 腎病變：mesangial 沉積與 mesangial 細胞增生",
+          "explain": "**【怎麼看】**沉積物（藍色）只在**微血管柄部的 mesangium**，同時 mesangial 細胞（淺綠）**變多**；周邊微血管壁、GBM、足細胞基本正常。\n**【考點】**診斷靠切片 IF：**mesangial 以 IgA 為主（或共同為主）**的沉積，常伴 C3。光鏡可從單純 mesangial 增生到瀰漫增生、節段硬化，罕見新月體（→ RPGN）。"},
+        {"type": "heading", "text": "IgA 腎病變（Berger disease）"},
+        {"type": "table", "headers": ["項目", "重點"], "rows": [
+          ["**流行病學**", "**全世界最常見的 GN 之一**；**亞洲與太平洋沿岸 30–45%**、南歐 20%、北歐與北美 10%；**男性**、**10–30 歲**高峰"],
+          ["**機轉**", "**半乳糖缺乏的 IgA1（Gd-IgA1）** → 被 IgG/IgA 自體抗體辨認 → 免疫複合體沉積在 mesangium → 經**替代路徑與 lectin 路徑**活化補體"],
+          ["**兩種最常見表現**", "① **無症狀持續顯微血尿**；② **上呼吸道感染期間或之後立即**出現**反覆肉眼血尿**（synpharyngitic，1–3 天內）"],
+          ["**其他表現**", "蛋白尿（可晚期才出現）；腎病症候群少見；罕見 RPGN"],
+          ["**檢驗**", "**血中 C3 正常**；血清 IgA 上升僅 20–50%；皮膚切片 IgA 15–55% → **確診仍需腎臟切片**"],
+          ["**預後**", "可以很良性；**20–25 年內 25–30% 慢慢進展到 ESKD**"],
+          ["**不良預後因子**", "**高血壓、蛋白尿**（**持續 > 6 個月**最具預測力）、**沒有**肉眼血尿發作、男性、發病年齡較大；病理 **Oxford MEST-C**（M mesangial、E endocapillary、S 節段硬化、T 小管間質纖維化、C 新月體）"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**IgA 腎病變的治療**\n- **ACEi / ARB**：有蛋白尿或腎功能下降者（證據最多）\n- **SGLT2i**（dapagliflozin）、**sparsentan**（**endothelin + angiotensin II 雙重受體拮抗劑**；FDA 核准用於 UPCR > 1.5 g/g 的高風險成人）\n- **標靶釋放型口服 budesonide**：高風險快速惡化者，降蛋白尿、保護 GFR\n- 全身性類固醇 / 免疫抑制：結果不一\n- 扁桃腺切除、魚油：小型研究\n- **表現為 RPGN（新月體）** → 類固醇 + 細胞毒性藥物 + 血漿置換"},
+        {"type": "callout", "style": "trap", "text": "**續發性 IgA 沉積**（通常不造成明顯腎病）：**慢性肝病**、**乳糜瀉**、Crohn、**疱疹樣皮膚炎**、僵直性脊椎炎、HIV、Sjögren、支氣管擴張\n\n**IgA 為主的葡萄球菌感染相關 GN**：**有臨床意義**的腎病 → 治療感染\n\n**「沒有肉眼血尿」反而預後較差**：因為肉眼血尿讓病人早期就醫、早期診斷"},
+        {"type": "heading", "text": "IgA 血管炎（舊稱 Henoch-Schönlein purpura, HSP）"},
+        {"type": "table", "headers": ["", "IgA 血管炎（HSP）", "IgA 腎病變"], "rows": [
+          ["**年齡**", "**較年輕（< 20 歲，多為兒童）**", "10–30 歲成人"],
+          ["**全身表現**", "**可觸性紫斑**（下肢、臀部）、**腹痛 / GI 出血**、**關節痛**；罕見肺出血", "只有腎臟"],
+          ["**前驅感染**", "常有", "感染同時發作"],
+          ["**腎臟病理**", "與 IgA 腎病變相同（mesangial IgA）；可有新月體", "mesangial IgA"],
+          ["**血中補體**", "**正常**", "**正常**"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2398-2399, 2462"}
+      ]
+    },
+    {
+      "title": "RPGN 與肺腎症候群：Anti-GBM 與 ANCA 血管炎",
+      "content": [
+        {"type": "figure", "src": "figures/nephritic-syndrome/gs7.jpg", "label": "Harrison's 22e Glomerular schematic 7", "caption": "RPGN：Bowman's space 內的新月體壓迫微血管叢",
+          "explain": "**【怎麼看】**整顆腎絲球（外圈 = Bowman's capsule），左上方 Bowman's space 被大量增生細胞（淺綠）填滿 → **新月體（crescent）**，把旁邊的微血管叢擠扁；右上微血管內還有發炎細胞（紫）。\n**【考點】**新月體 = **extracapillary proliferation**（壁層上皮 + 巨噬細胞 + 纖維素），是**微血管壁破裂**、纖維素漏進 Bowman's space 的結果。細胞性新月體還可逆；變成**纖維性新月體**就不可逆 → 所以 RPGN 是**腎臟急症**，必須在數天內診斷與治療。"},
+        {"type": "callout", "style": "guideline", "text": "**疑似 RPGN 的處置原則**\n1. **同時**送 **ANCA（PR3、MPO）、anti-GBM、補體**（+ ANA、cryoglobulin、ASO）\n2. **盡快腎臟切片**\n3. **肺腎症候群**（咳血 + GN）：致命的肺出血常需插管、AKI 常需透析 → 在抗體結果出來前，**經驗性 IV methylprednisolone + 血漿置換**\n\n肺腎症候群的原因：**Goodpasture**、**GPA、MPA、EGPA**，少見 HSP、冷凝球蛋白、SLE"},
+        {"type": "heading", "text": "Anti-GBM disease / Goodpasture syndrome"},
+        {"type": "table", "headers": ["項目", "重點"], "rows": [
+          ["**抗原**", "**第 IV 型膠原蛋白 α3 鏈的 NC1 domain**（α345NC1 hexamer 的四級結構）；平時被藏起來，**感染、吸菸、氧化物、溶劑（碳氫化合物）**使其暴露 → 只分布在**腎臟與肺** → 肺腎症候群"],
+          ["**年齡雙峰**", "① **20 多歲年輕男性**：較常完整 Goodpasture（**咳血、Hb 驟降**、發燒、喘、血尿）；② **60–70 歲男女**：較常只有 GN"],
+          ["**切片（緊急）**", "局部節段壞死 → 大量**新月體**；**IF：GBM 線狀 IgG**（罕見 IgA）"],
+          ["**血清**", "anti-GBM 抗體（必須用 **α3 NC1** 當標的，否則會被副腫瘤的 α1 抗體干擾）；**10–15% 同時有 MPO-ANCA**"],
+          ["**不良預後**", "**新月體 > 50% 合併纖維化**、**SCr > 5–6 mg/dL**、**少尿**、**需要急性透析**；有肺出血的族群反而比長期無症狀腎損傷的老人好"],
+          ["**治療**", "**血漿置換（8–10 次）+ prednisone + cyclophosphamide**；**肺出血對血漿置換反應好**；維持低劑量免疫抑制直到抗體轉陰；rituximab、MMF 資料少"],
+          ["**移植**", "**等 6 個月且血清抗體測不到**後再移植"],
+          ["**病程**", "通常是**單次急性猛爆發作**，很少復發（與 ANCA 血管炎不同）"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**Double positive（anti-GBM + ANCA）**：病理常為 pauci-immune，ANCA 可能負責暴露 GBM 抗原 → 有 anti-GBM 的急性猛爆，也有 ANCA 的**復發傾向** → 需血漿置換，並比照 ANCA 做長期維持治療\n\n**Alport 病人移植後**：移植腎帶有病人本身缺少的膠原蛋白 → 可產生 anti-GBM 抗體，但**明顯的 Goodpasture 很少見**"},
+        {"type": "heading", "text": "ANCA 相關小血管炎（pauci-immune GN）"},
+        {"type": "list", "ordered": false, "items": [
+          "侵犯**小動脈、微血管、小靜脈**；ANCA 在 T 細胞幫助下產生，活化嗜中性球與單核球 → 傷害血管壁",
+          "**PR3-ANCA（c-ANCA）→ GPA 較常見**；**MPO-ANCA（p-ANCA）→ MPA、EGPA 較常見**；但任何一種都可能出現",
+          "腎臟切片：**節段壞死性 GN、幾乎沒有免疫沉積**（pauci-immune）、新月體",
+          "不治療死亡率高 → **幾乎都要緊急治療**；ANCA 濃度可用於追蹤治療反應或懷疑復發"
+        ]},
+        {"type": "table", "headers": ["", "GPA（舊稱 Wegener）", "MPA", "EGPA（舊稱 Churg-Strauss）"], "rows": [
+          ["**ANCA**", "**PR3 (c-ANCA)** 為主", "**MPO (p-ANCA)** 為主", "MPO 為主（僅部分陽性）"],
+          ["**肉芽腫**", "**有**（非乾酪性）", "**無**", "有（但腎臟切片通常沒有）"],
+          ["**上呼吸道**", "**膿性鼻漏、鼻潰瘍、鼻竇痛**、破壞性鼻竇炎", "少", "**過敏性鼻炎**"],
+          ["**肺**", "**結節、浸潤、空洞**、咳血", "肺微血管炎（出血），少有結節", "**氣喘**（常早於血管炎數年）、遊走性浸潤、嗜酸性球肋膜積液"],
+          ["**特徵**", "關節痛、紫斑、多發性單神經炎；**矽塵、α1-antitrypsin 缺乏**為危險因子；**最常復發**", "臨床像 GPA，但少肺與鼻竇破壞", "**周邊嗜酸性球增多**、IgE↑、紫斑、多發性單神經炎"],
+          ["**腎臟**", "節段壞死性 GN，無沉積", "同左；也可只侵犯微血管與小靜脈", "局部節段壞死性 GN，通常無嗜酸性球或肉芽腫"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**ANCA 血管炎的治療**\n**誘導**：**glucocorticoids + cyclophosphamide 或 rituximab**\n- **減量類固醇方案**（16 週停藥）有證據支持\n- **補體拮抗劑**（avacopan，C5a 受體抑制劑）可能作為類固醇節省劑\n- **血漿置換**：有爭議，但一般建議用於**快速惡化的腎衰竭、肺出血、或合併 anti-GBM 陽性**\n**維持**：緩解後 **1–2 年**，**rituximab**（或 cyclophosphamide），某些情況用 azathioprine 或 methotrexate\n\n**預後**：75–90% 可緩解，但 **25–50% 復發**（GPA 最多）；**最大威脅常是治療副作用**（尤其老人第一年的感染）；長期追蹤惡性腫瘤"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2398-2399, 2461-2463, 2468"}
+      ]
+    },
+    {
+      "title": "以血尿為主的基底膜疾病：Alport、Thin BM、Nail-patella",
+      "content": [
+        "腎臟（GBM、小管基底膜）、肺、睪丸、**耳蝸、眼睛**在發育過程中會把基底膜從 α1.α1.α2(IV) 換成更耐蛋白酶的 **α3.α4.α5(IV) 膠原網路** → 這就是為什麼 Alport 會同時有**腎、耳、眼**的問題，也解釋 anti-GBM 只打腎和肺。",
+        {"type": "table", "headers": ["", "Alport syndrome", "Thin basement membrane disease"], "rows": [
+          ["**遺傳**", "**X-linked（80–85%，COL4A5）**；AR（COL4A3/COL4A4）；AD（可能比過去以為的多）", "**AD**；約 40% 家族與 COL4A3/4 相關"],
+          ["**腎臟**", "**血尿**；蛋白尿（< 1–2 g/day）晚期出現 → 慢性硬化 → **腎衰竭**", "持續或間歇**顯微血尿**（偶有肉眼血尿合併腰痛）；**通常沒有蛋白尿、高血壓、腎功能下降**"],
+          ["**腎外**", "**感音性聽力喪失**、**前錐形水晶體（anterior lenticonus）**、**「dot and fleck」視網膜病變**、罕見平滑肌瘤病", "**無**"],
+          ["**病理**", "早期**變薄** → 後期**多層化、分裂（split / basket-weave）**的 GBM，薄與分裂交雜", "GBM **瀰漫變薄**，其他正常"],
+          ["**預後**", "X-linked 男性：**截斷型突變 → 90% 在 30 歲前 ESKD**；missense 較慢；早發聽損、lenticonus、蛋白尿 → 預後差。X-linked 女性帶因者多只有顯微血尿，但**最多 25%** 較嚴重；AR 型男女都早發嚴重", "**絕大多數良性**（又稱良性家族性血尿）"],
+          ["**診斷**", "眼科與聽力檢查（沒有腎外表現**不能排除**）；**基因檢測**；X-linked 可用**皮膚切片看 α5(IV) 缺失**；COL4A3/4 需腎臟切片", "家族史 + 切片"],
+          ["**治療**", "**控制血壓 + ACEi**（± SGLT2i）延緩惡化；**找出並追蹤所有家族成員**（包括病童的母親）；移植效果好", "追蹤"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**Nail-patella syndrome**（AD，**LMX1B**）：**骨盆髂骨角（iliac horns）**、髕骨與手肘發育不良、指甲異常 ± 聽損、青光眼；30–40% 有腎絲球病變（血尿、蛋白尿、FSGS），很少到 ESKD；RAS 抑制。\n\n**Fabry disease** 也屬遺傳性腎絲球病，但以蛋白尿為主 → 見 Nephrotic 筆記。"},
+        {"type": "callout", "style": "trap", "text": "**孤立性腎絲球血尿的鑑別**（年輕人、補體正常、腎功能正常）\n1. **IgA 腎病變**：感冒同時肉眼血尿、男性、亞洲人\n2. **Thin BM disease**：家族中多人顯微血尿、無蛋白尿、腎功能正常\n3. **Alport**：家族中有**腎衰竭 + 聽力喪失**（男性較重）\n4. 鐮刀型貧血 / 特質：腎乳頭壞死、肉眼血尿、尿濃縮能力差"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2468-2470"}
+      ]
+    },
+    {
+      "title": "臨床題練習",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "**每題都照這個順序想**：\n① 是 nephritic、nephrotic、RPGN、還是孤立性血尿？ ② **補體**低不低？C3 單獨低，還是 C3、C4 都低？ ③ **血清學**（ANCA、anti-GBM、ANA、ASO、cryo、肝炎）④ 切片 **IF 型態** ⑤ 治療：支持療法、類固醇、cyclophosphamide/rituximab、血漿置換？"},
+        {"type": "collapsible", "summary": "Q1：8 歲男童，兩週前喉嚨痛，今天眼皮腫、茶色尿。BP 140/90。尿液：dysmorphic RBC、RBC cast、蛋白 2+。C3 低、C4 正常、ASO 高", "text": "**診斷**：**鏈球菌感染後腎絲球腎炎（PSGN）**\n- 咽炎後 **1–3 週**（皮膚感染 2–6 週）\n- **C3 低、C4 正常**（替代路徑）\n- ASO / streptozyme 陽性\n\n**處置**：**支持療法**——限鹽、利尿劑、降壓；若仍有鏈球菌感染 → 病人與同住者給抗生素\n- **不需要切片**（除非非典型）\n- **不用類固醇**（即使有新月體）\n\n**追蹤**：C3 應在 **6–8 週內**恢復；若持續低 → 重新考慮 C3 腎絲球病變、MPGN、狼瘡"},
+        {"type": "collapsible", "summary": "Q2：22 歲男性，感冒第 2 天出現肉眼血尿，過去也發生過兩次。BP 正常、補體正常、Cr 正常、UPCR 0.3 g/g", "text": "**診斷**：**IgA 腎病變**——**synpharyngitic hematuria**（感染同時或 1–3 天內）、反覆發作、**補體正常**、年輕男性\n\n**和 PSGN 的區別**：時間（同時 vs 1–3 週後）、**C3（正常 vs 低）**\n\n**處置**：\n- 確診需腎臟切片（mesangial IgA）\n- 目前蛋白尿低、血壓正常、腎功能正常 → 追蹤血壓、蛋白尿、Cr\n- 若蛋白尿持續（> 0.5–1 g/day）→ **ACEi/ARB**、SGLT2i；高風險者考慮 targeted-release budesonide 或 sparsentan\n\n**預後**：20–25 年內約 25–30% 進展到 ESKD；**持續蛋白尿 > 6 個月**是最強的不良預後因子"},
+        {"type": "collapsible", "summary": "Q3：7 歲女童，下肢與臀部可觸性紫斑、陣發性腹痛、膝關節痛，尿液有 dysmorphic RBC。血小板正常、凝血正常、補體正常", "text": "**診斷**：**IgA 血管炎（Henoch-Schönlein purpura）**\n- 四大表現：**可觸性紫斑（血小板正常）、腹痛 / GI 出血、關節痛、腎炎**\n- 兒童、常有前驅上呼吸道感染\n- **補體正常**；腎臟病理同 IgA 腎病變（mesangial IgA）\n\n**注意**：腹痛要小心**腸套疊**；腎臟侵犯程度決定長期預後（有腎病範圍蛋白尿或新月體 → 預後較差）"},
+        {"type": "collapsible", "summary": "Q4：25 歲吸菸男性，一週內咳血、喘、Hb 從 14 掉到 9，Cr 1.0 → 4.2，尿液 RBC cast。胸部 X 光雙側瀰漫浸潤", "text": "**判斷**：**肺腎症候群 + RPGN**\n\n**立即**：\n- 送 **anti-GBM、ANCA、補體、ANA**\n- **緊急腎臟切片**\n- 不要等結果 → **經驗性 IV methylprednisolone + 血漿置換**\n\n**最可能**：**Goodpasture（anti-GBM disease）**——年輕男性 + 吸菸（暴露 α3 NC1 抗原）+ 咳血 + Hb 驟降\n- 切片：新月體 + **GBM 線狀 IgG**\n\n**治療**：**血漿置換（8–10 次）+ prednisone + cyclophosphamide**\n**不良預後**：新月體 > 50%、Cr > 5–6、少尿、需透析\n**鑑別**：GPA / MPA（ANCA）——若 double positive，需長期維持治療"},
+        {"type": "collapsible", "summary": "Q5：58 歲男性，數月來慢性鼻竇炎、膿性鼻涕帶血、鼻中膈潰瘍，近兩週咳血。CXR 多發空洞結節。Cr 2.8、RBC cast。PR3-ANCA (+)、補體正常", "text": "**診斷**：**Granulomatosis with polyangiitis（GPA）**——上呼吸道（鼻竇、鼻潰瘍）+ 下呼吸道（空洞結節）+ 腎（GN）\n- **PR3-ANCA（c-ANCA）**\n- 切片：**節段壞死性 GN、pauci-immune（IF 幾乎陰性）**、新月體；組織有非乾酪性肉芽腫\n\n**治療**：\n- 誘導：**glucocorticoids + rituximab 或 cyclophosphamide**；快速惡化的腎衰竭或肺出血 → 考慮血漿置換\n- 維持 1–2 年：rituximab（或 azathioprine / methotrexate）\n\n**提醒**：GPA 是 ANCA 血管炎中**最容易復發**的；最大威脅常是治療副作用（感染）"},
+        {"type": "collapsible", "summary": "Q6：28 歲女性，SLE，蛋白尿 4 g/day、RBC cast、Cr 1.0 → 1.6、anti-dsDNA 高、C3 與 C4 低。切片：> 50% 腎絲球有內皮側增生與內皮下沉積、少數新月體", "text": "**診斷**：**狼瘡腎炎 class IV（diffuse）**\n- > 50% 腎絲球、**瀰漫內皮下沉積**、新月體\n- anti-dsDNA 高、**C3 與 C4 都低**（古典路徑）\n\n**治療**：\n- **誘導**：高劑量類固醇（常先 IV methylprednisolone）+ **MMF 或 cyclophosphamide**（生育年齡女性多選 MMF）；可加 **voclosporin** 或 **belimumab**\n- **維持**：MMF（或 azathioprine）+ 低劑量類固醇\n- RAS 抑制、hydroxychloroquine、控制血壓\n\n**追蹤**：補體下降、anti-dsDNA 上升可預告復發；病情改變時可能需要重新切片（分級會轉變）"},
+        {"type": "collapsible", "summary": "Q7：50 歲女性，慢性 C 型肝炎，下肢紫斑、關節痛、周邊神經病變。Cr 2.1、血尿、蛋白尿 3 g/day。C4 很低、C3 稍低、RF 高", "text": "**診斷**：**冷凝球蛋白血症腎炎（第 II 型混合型）→ MPGN 型態**\n- HCV + 紫斑 + 關節痛 + 神經病變\n- **C4 特別低**、RF 高\n- 切片：MPGN（**雙軌**）、內皮下沉積、管腔內冷凝球蛋白血栓\n\n**治療**：**DAA 抗病毒治療**是首選；嚴重（RPGN、多器官）→ 加 rituximab ± 血漿置換\n\n**同類**：HBV 帶原 → 成人多 MPGN、兒童多 MN；HBV 也與**結節性多動脈炎（PAN）**有關"},
+        {"type": "collapsible", "summary": "Q8：35 歲男性，靜脈藥癮，發燒 6 週，新的心雜音，Cr 2.5、血尿、RBC cast、C3 低、RF 高、c-ANCA 弱陽性", "text": "**診斷**：**心內膜炎相關 GN**（SBE、右側心內膜炎常見於靜脈藥癮）\n- 免疫複合體 → **低補體**、RF 高、甚至 **ANCA 陽性**\n- 腎臟「跳蚤咬痕」、切片可見新月體\n\n**陷阱**：**ANCA 陽性不等於 ANCA 血管炎**！誤當血管炎給免疫抑制 → 感染惡化\n\n**治療**：**4–6 週抗生素**根除感染（± 手術）；及早治療，腎臟預後良好"},
+        {"type": "collapsible", "summary": "Q9：16 歲男孩，持續顯微血尿，近一年蛋白尿 1 g/day，學校聽力篩檢異常。舅舅 35 歲開始洗腎。補體正常", "text": "**診斷**：**Alport syndrome（X-linked，COL4A5）**\n- 血尿 + 漸進蛋白尿 + **感音性聽損** + **母系男性親屬腎衰竭**\n- 眼睛：**前錐形水晶體**、dot-and-fleck 視網膜病變\n- 病理：GBM **變薄與多層分裂（basket-weave）**\n\n**診斷方式**：基因檢測；X-linked 可用**皮膚切片看 α5(IV) 缺失**\n**治療**：控制血壓 + **ACEi**（± SGLT2i）；追蹤所有家族成員（含媽媽——帶因者）\n**移植**：效果好；可產生 anti-GBM 抗體但明顯 Goodpasture 罕見\n\n**對比 thin BM disease**：家族多人顯微血尿，但**沒有蛋白尿、聽損、腎衰竭**"},
+        {"type": "collapsible", "summary": "Q10：14 歲女孩，蛋白尿 3.5 g/day 合併血尿，C3 持續低超過 3 個月、C4 正常；視網膜有 drusen、臉部與上肢皮下脂肪減少", "text": "**診斷**：**緻密沉積病（DDD，C3 腎絲球病變的一種，舊稱 MPGN type II）**\n- **C3 低、C4 正常**，且**持續超過 6–8 週**（不像 PSGN）\n- **部分脂肪營養不良**、**視網膜 drusen**\n- 切片：IF **只有 C3**；EM：GBM 內**緞帶狀緻密沉積**\n- 機轉：補體替代路徑失調（**C3 nephritic factor**、factor H 異常）\n\n**預後**：約 **50% 進展到 ESKD**\n**治療**：RAS 抑制、降血脂、類固醇 / 免疫抑制；**eculizumab**（抗 C5）可能有效；篩檢家屬"},
+        {"type": "callout", "style": "trap", "text": "**考前速查**\n1. 位置決定表現：**內皮下 / mesangial → nephritic；上皮下 → nephrotic**\n2. **C3↓ C4 正常**：PSGN、C3G（DDD、C3GN）；**C3↓ C4↓**：狼瘡、冷凝球蛋白（C4 特低）\n3. **補體正常**：IgA、HSP、anti-GBM、ANCA、Alport\n4. PSGN：咽炎後 **1–3 週**、皮膚 **2–6 週**；**hump**；支持療法、**不用類固醇**\n5. IgA：**感冒同時**肉眼血尿；mesangial IgA；ACEi、budesonide、sparsentan\n6. IF：**線狀 = anti-GBM**；**顆粒狀 = 免疫複合體**；**pauci-immune = ANCA**\n7. RPGN：同時送 **ANCA、anti-GBM、補體** + 緊急切片；肺腎症候群 → 經驗性**類固醇 + 血漿置換**\n8. Goodpasture：**α3 NC1 of type IV collagen**；**血漿置換 + steroid + cyclophosphamide**\n9. ANCA：**PR3 → GPA；MPO → MPA、EGPA**；**steroid + rituximab / cyclophosphamide**\n10. 狼瘡 class **IV 最常見最嚴重**；**V = membranous**（腎靜脈血栓）；**VI 不治療**\n11. MPGN：**tram-track（雙軌）**；HCV → 冷凝球蛋白\n12. 心內膜炎 GN 可 **ANCA 陽性** → 不要誤當血管炎\n13. Alport：**COL4A5 X-linked**、聽損、**anterior lenticonus**、split GBM"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2454-2472"}
+      ]
+    }
+  ],
+  "related": [
+    {"id": "nephrotic-syndrome", "name": "Nephrotic Syndrome (腎病症候群)"},
+    {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
+    {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
+    {"id": "hypertension", "name": "Hypertension (高血壓)"}
+  ]
+}
