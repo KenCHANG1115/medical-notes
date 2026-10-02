@@ -616,13 +616,47 @@
       const range = document.createRange();
       range.setStart(node, idx);
       range.setEnd(node, idx + text.length);
-      const span = document.createElement('span');
-      span.className = 'highlight-' + color;
-      span.title = user || '';
-      range.surroundContents(span);
+      range.surroundContents(makeHighlightSpan(color, user));
       return true;
     }
-    return false;
+    return highlightAcrossNodes(root, text, color, user);
+  }
+
+  // Selections spanning <br>, <strong> etc. are stored with '\n' for line breaks;
+  // rebuild that flattened text and wrap each overlapping text-node piece.
+  function highlightAcrossNodes(root, text, color, user) {
+    const pieces = [];
+    let flat = '';
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT);
+    let n;
+    while (n = walker.nextNode()) {
+      if (n.nodeType === Node.TEXT_NODE) {
+        pieces.push({ node: n, start: flat.length });
+        flat += n.textContent;
+      } else if (n.tagName === 'BR') {
+        flat += '\n';
+      }
+    }
+    const idx = flat.indexOf(text);
+    if (idx === -1) return false;
+    const end = idx + text.length;
+    for (const p of pieces) {
+      const len = p.node.textContent.length;
+      const s = Math.max(idx, p.start), e = Math.min(end, p.start + len);
+      if (s >= e || !p.node.textContent.slice(s - p.start, e - p.start).trim()) continue;
+      const range = document.createRange();
+      range.setStart(p.node, s - p.start);
+      range.setEnd(p.node, e - p.start);
+      range.surroundContents(makeHighlightSpan(color, user));
+    }
+    return true;
+  }
+
+  function makeHighlightSpan(color, user) {
+    const span = document.createElement('span');
+    span.className = 'highlight-' + color;
+    span.title = user || '';
+    return span;
   }
 
   // ── Annotation System (right sidebar) ──
