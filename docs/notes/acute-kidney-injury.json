@@ -5,203 +5,368 @@
   "title_zh": "急性腎損傷",
   "specialty": "腎臟內科",
   "sources": [
-    "Harrison's 22e - Ch.321 Acute Kidney Injury (p.2415-2427)",
+    "Harrison's 22e - Ch.321 Acute Kidney Injury (p.2415-2428)",
     "First Choice 醫學(三) - 丙、急性腎損傷 (p.72-90)"
   ],
-  "generated": "2026-09-11",
+  "generated": "2026-10-03",
   "sections": [
     {
-      "title": "Overview / Epidemiology",
+      "title": "總覽：定義、分期與三分類",
       "content": [
-        "Acute Kidney Injury (AKI) 是指數天到數週內腎臟過濾及排泄功能的急性惡化，導致含氮廢物 (BUN/Cr) 蓄積。",
-        {"type": "callout", "style": "guideline", "text": "**KDIGO 2012 AKI 診斷標準** (符合任一即可)：\n1. sCr 在 48 小時內上升 ≥ 0.3 mg/dL\n2. sCr 在 7 天內上升至基線的 ≥ 1.5 倍\n3. 尿量 < 0.5 mL/kg/h 持續 > 6 小時"},
-        "AKI 佔急性住院的 5-7%，ICU 住院的 30%。美國年發生率約 500/10 萬人，高於中風。ICU 患者的死亡率超過 50%。",
-        {"type": "callout", "style": "logic", "text": "AKI 與 CKD 是相互關聯的症候群：\n- CKD 是 AKI 的重要危險因子\n- AKI 後最高達 10% 進展至 ESKD 需長期透析\n- AKI 存活者的心血管事件風險增加"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2415-2416"}
+        {"type": "callout", "style": "logic", "text": "**這份筆記的讀法**\nAKI 考的是**一套鑑別流程**：先確定是 AKI（而不是 CKD）→ 再分**腎前性 / 腎因性 / 腎後性** → 最後處理併發症、決定要不要透析。\n- 第 1 章：GFR 怎麼被調控（理解 NSAID、ACEi 為什麼會傷腎）\n- 第 2 章：**診斷工具箱**（病史、尿液、FENa、影像、切片）——每個病人都要跑一遍\n- 第 3–6 章：三分類各論\n- 第 7 章：處置、透析適應症與預後\n- 第 8 章：臨床題練習\n\n**一句話總結**：AKI 的第一步永遠是 **排除腎後性阻塞**、**評估容積狀態**、**停掉腎毒性藥物**。"},
+        {"type": "callout", "style": "guideline", "text": "**KDIGO AKI 診斷標準**（符合任一即可）：\n1. SCr 在 **48 小時內上升 ≥ 0.3 mg/dL**\n2. SCr 在 **7 天內上升至基線的 ≥ 1.5 倍**\n3. 尿量 **< 0.5 mL/kg/h 持續 > 6 小時**"},
+        {"type": "table", "headers": ["分期", "血清肌酸酐 (SCr)", "尿量"], "rows": [
+          ["**Stage 1**", "基線的 1.5–1.9 倍，或上升 ≥ 0.3 mg/dL", "< 0.5 mL/kg/h 持續 6–12 h"],
+          ["**Stage 2**", "基線的 2.0–2.9 倍", "< 0.5 mL/kg/h 持續 ≥ 12 h"],
+          ["**Stage 3**", "基線的 ≥ 3.0 倍，或 SCr ≥ 4.0 mg/dL，或開始腎臟替代療法（< 18 歲：eGFR < 35）", "< 0.3 mL/kg/h 持續 ≥ 24 h，或無尿 ≥ 12 h"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**分期看「最嚴重」的那一項**：SCr 與尿量分別分期，取較高的期別。\n\n**AKI、AKD、CKD 的時間軸**\n- **AKI**：數小時到 7 天內的急性變化\n- **AKD (acute kidney disease)**：腎功能異常持續 > 1 週但 < 3 個月\n- **CKD**：eGFR < 60 或 ACR > 30 mg/g 持續 **≥ 3 個月**\n\n**沒有基線 SCr 時，支持 CKD 的線索**：超音波**雙側腎臟萎縮、皮質變薄**；沒有失血卻有**正球性貧血**；**副甲狀腺亢進 + 高磷 + 低鈣**。但這些都**不能排除 AKI 疊加在 CKD 上**（acute-on-chronic）。"},
+        "**流行病學**：AKI 佔急性住院的 **5–7%**、ICU 住院的 **30%**；美國年發生率約 500/10 萬，**高於中風**。社區型 AKI 常見原因：脫水、心衰竭、藥物、尿路阻塞、惡性腫瘤；院內型 AKI 常見情境：**敗血症、大手術、重症（心/肝衰竭）、腎毒性藥物**。",
+        {"type": "callout", "style": "logic", "text": "**腎臟儲備（renal functional reserve）的概念**\n健康腎臟遇到部分腎元受損或負荷增加時，能提升剩餘腎元的功能。**老化、CKD、敗血症、腎毒性藥物**都會吃掉這個儲備 → 同樣的打擊在這些人身上更容易表現成 SCr 上升 → 這就是為什麼 **CKD 是 AKI 最重要的危險因子**。"},
+        {"type": "figure", "src": "figures/acute-kidney-injury/h321-1.png", "label": "Harrison's 22e Fig. 321-1", "caption": "AKI 主要病因分類",
+          "explain": "**【怎麼看】**這張是整份筆記的**地圖**，由上往下三大類：\n- **左 Prerenal**：低血容、心輸出量低、有效循環量不足（CHF、肝衰竭）、**腎臟自調失效（NSAID、ACEi/ARB、cyclosporine）**\n- **中 Intrinsic**：再依解剖位置分成**腎絲球**（急性 GN）、**腎小管與間質**（缺血、敗血症、腎毒素）、**血管**（血管炎、惡性高血壓、TTP-HUS）\n- **右 Postrenal**：膀胱出口阻塞，或**雙側**輸尿管阻塞（或單一功能腎的單側阻塞）\n**【考點】**腎毒素分**外源性**（顯影劑、aminoglycoside、cisplatin、amphotericin B、PPI、NSAID、免疫檢查點抑制劑）和**內源性**（溶血、橫紋肌溶解、骨髓瘤、結晶）——第 4 章逐一展開。"},
+        {"type": "table", "headers": ["分類", "比例（約）", "本質", "可逆性"], "rows": [
+          ["**腎前性 (Prerenal)**", "最常見", "灌流不足，腎實質**沒有**受損", "恢復灌流後**快速可逆**；拖太久 → 缺血性 ATN"],
+          ["**腎因性 (Intrinsic)**", "次常見", "腎實質受損（腎絲球、小管間質、血管）", "依病因；ATN 多可數週內恢復"],
+          ["**腎後性 (Postrenal)**", "最少（~5–10%）", "尿路阻塞 → 逆行壓力升高", "早期解除阻塞預後佳"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2415-2416, 2421"}
       ]
     },
     {
-      "title": "Etiology / Risk Factors",
+      "title": "GFR 的調控：為什麼 NSAID、ACEi 會傷腎",
       "content": [
-        {"type": "heading", "text": "AKI 三大分類"},
-        {"type": "table", "headers": ["分類", "比例", "機轉", "常見原因"], "rows": [
-          ["Prerenal (腎前性)", "~55%", "腎臟灌流不足 → GFR 下降", "低血壓、脫水、敗血症、HF、肝腎症候群、NSAID/ACEi/ARB"],
-          ["Intrinsic (腎因性)", "~40%", "腎臟實質損傷", "ATN (最常見)、RPGN、AIN、腎血管疾病"],
-          ["Postrenal (腎後性)", "~5%", "集尿系統阻塞", "結石、腫瘤、BPH、神經性膀胱"]
-        ]},
-        {"type": "heading", "text": "腎因性 AKI 依構造分類"},
-        {"type": "table", "headers": ["構造", "疾病", "Urine sediment", "特徵"], "rows": [
-          ["腎絲球 (Glomerular)", "RPGN", "Dysmorphic RBC, RBC cast", "水腫、血壓高、蛋白尿"],
-          ["腎小管 (Tubule)", "ATN — 缺血性或毒藥物性", "Muddy brown granular cast", "FENa > 1%, 最常見的腎因性 AKI"],
-          ["腎間質 (Interstitial)", "AIN — 藥物過敏最常見", "WBC cast, eosinophiluria", "發燒、皮疹、eosinophilia"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "ATN 的常見原因：\n- **缺血性**：持續的 prerenal AKI 惡化（敗血症 → 長期低灌流）\n- **腎毒性藥物**：Aminoglycoside, Cisplatin, NSAID, 顯影劑\n- **色素/蛋白**：Rhabdomyolysis (myoglobin), Hemolysis (hemoglobin), Multiple myeloma (light chain)"},
-        {"type": "callout", "style": "logic", "text": "AIN 藥物過敏三聯徵：**發燒 + 皮疹 + Eosinophilia**\n常見致敏藥物：Penicillin > Sulfonamide > β-lactams > NSAID > PPI\n治療：移除藥物；若持續惡化可考慮短程 Steroids (7-14天內)"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "73-79"}
-      ]
-    },
-    {
-      "title": "Pathophysiology",
-      "content": [
-        {"type": "heading", "text": "Prerenal AKI 的機轉"},
-        "腎臟灌流減少 → GFR 下降 → 含氮廢物蓄積。腎臟本身未受損，恢復灌流後可逆。",
+        "腎前性 AKI 和藥物引起的 AKI，都要回到**腎絲球內壓**來理解。GFR 由**入球小動脈（afferent）**與**出球小動脈（efferent）**的阻力共同決定。",
+        {"type": "heading", "text": "灌流壓下降時，腎臟如何維持 GFR"},
         {"type": "list", "ordered": false, "items": [
-          "**低血容量**：出血、嘔吐、腹瀉、利尿劑過量、燒傷",
-          "**有效循環量不足**：HF (低 CO)、肝硬化 (hepatorenal syndrome)、敗血症 (全身血管擴張)",
-          "**腎血管收縮**：高鈣血症、Catecholamines、Calcineurin inhibitors、Amphotericin B",
-          "**腎自調失效**：NSAID (抑制入球小動脈前列腺素擴張) + ACEi/ARB (抑制出球小動脈收縮) → GFR 急降"
+          "**Angiotensin II → 出球小動脈收縮**（優先作用在 efferent）→ 撐住腎絲球內壓",
+          "**入球小動脈擴張**：肌原性反射（myogenic reflex）+ **血管擴張性前列腺素**（PGI₂、PGE₂）+ kallikrein/kinins、NO",
+          "**Tubuloglomerular feedback (TGF)**：送到 macula densa 的溶質減少 → 入球小動脈擴張",
+          "同時全身性反應：Ang II、norepinephrine、**vasopressin** → 保鈉保水、維持血壓",
+          "**極限**：即使健康成人，**收縮壓 < 80 mmHg** 時自調通常失效"
         ]},
-        {"type": "callout", "style": "trap", "text": "**NSAID + ACEi/ARB 的雙重打擊**：\nNSAID 使入球小動脈收縮 (無法代償性擴張)\nACEi/ARB 使出球小動脈放鬆\n→ 腎絲球內壓力差減小 → GFR 急降\n尤其在脫水或老年患者風險最高"},
-        {"type": "heading", "text": "ATN 的病理進程"},
-        {"type": "list", "ordered": true, "items": [
-          "**起始期** (Initiation)：缺血或毒素導致腎小管上皮細胞損傷",
-          "**維持期** (Maintenance)：GFR 持續低下，持續數天至數週",
-          "**恢復期** (Recovery/Polyuric phase)：腎小管再生，可能出現多尿期，需注意電解質不平衡和脫水"
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2416-2420"}
+        {"type": "figure", "src": "figures/acute-kidney-injury/h321-2.jpg", "label": "Harrison's 22e Fig. 321-2", "caption": "灌流壓下降時的 GFR 自調機制，以及藥物如何破壞它",
+          "explain": "**【怎麼看】**四格圖，看箭頭粗細（血流）與黃色框（調節因子）：\n- **A 正常**：入球、出球阻力平衡 → GFR 正常\n- **B 灌流壓下降**：前列腺素↑讓**入球擴張**、Ang II↑讓**出球收縮** → 腎絲球內壓撐住 → **GFR 仍正常**\n- **C 加上 NSAID**：前列腺素被抑制 → **入球無法擴張** → 進來的血不夠 → **GFR 下降**\n- **D 加上 ACEi/ARB**：Ang II 作用被阻斷 → **出球無法收縮** → 壓力「漏掉」→ **GFR 下降**\n**【考點】**NSAID 拆掉「進水閥」、ACEi/ARB 拆掉「出水閥」，兩者合用（再加上利尿劑造成的低血容）= 臨床上俗稱的 **triple whammy**。"},
+        {"type": "callout", "style": "trap", "text": "**高風險情境**\n- **NSAID + ACEi/ARB 合用**：Harrison 特別點名為腎前性 AKI 的高風險組合\n- **雙側腎動脈狹窄**（或**單一功能腎**的腎動脈狹窄）用 ACEi/ARB：GFR 完全依賴 efferent 收縮 → 一用就掉\n- **Calcineurin inhibitors（cyclosporine、tacrolimus）**：造成**入球小動脈收縮**\n- **自調能力本來就差**的人：動脈硬化、長期高血壓、高齡（小動脈玻璃樣變、內膜增生）、CKD（入球已最大擴張）\n\n**SGLT2 抑制劑**雖然也會降低腎絲球內壓、造成利鈉，但**不增加 AKI 風險**，研究甚至顯示有保護效果。"},
+        {"type": "callout", "style": "logic", "text": "**連到 CKD**：同一個生理學在 CKD 是「好事」——ACEi/ARB 放鬆出球、SGLT2i 經 TGF 收縮入球，都是**刻意降低腎絲球內壓**來延緩 CKD 惡化。開始用藥後 eGFR 下降 **< 30% 且穩定**可以接受（詳見 CKD 筆記）。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2416-2417"}
       ]
     },
     {
-      "title": "Pathology",
+      "title": "診斷工具箱：每個 AKI 病人都要跑一遍",
       "content": [
-        {"type": "heading", "text": "ATN 的病理變化"},
-        {"type": "list", "ordered": false, "items": [
-          "腎小管上皮細胞壞死、脫落",
-          "管腔內 muddy brown granular casts (壞死細胞碎片)",
-          "腎小管基底膜可保持完整 (可再生修復)",
-          "間質水腫"
+        {"type": "callout", "style": "guideline", "text": "**AKI 鑑別流程**\n1. **確認是 AKI**：找基線 SCr；排除 CKD（或 acute-on-chronic）\n2. **排除腎後性**：膀胱導尿、腎臟超音波（**每個 AKI 都要想到阻塞**，因為早期處理幾乎都能恢復）\n3. **評估容積與血流動力學** → 腎前性？\n4. **尿液分析 + 尿沉渣**：決定是哪一種腎因性\n5. **尿液指數**（FENa、尿滲透壓、BUN/Cr）：輔助區分腎前性 vs ATN\n6. **血液檢查**：電解質、CBC、CK、尿酸、補體、自體抗體……\n7. 以上仍找不到原因 → **腎臟切片**"},
+        {"type": "heading", "text": "① 病史與理學檢查的線索"},
+        {"type": "table", "headers": ["線索", "想到"], "rows": [
+          ["嘔吐、腹瀉、糖尿造成多尿；**姿勢性低血壓、心搏過速、JVP 低、黏膜乾**", "腎前性（低血容）"],
+          ["利尿劑、NSAID、ACEi/ARB", "腎前性（自調失效）"],
+          ["CHF、肝硬化、腎病症候群", "有效循環量不足"],
+          ["攝護腺疾病、腎結石、骨盆/主動脈旁惡性腫瘤；**絞痛放射到鼠蹊**；夜尿、頻尿、解尿遲疑；**恥骨上脹痛**", "腎後性"],
+          ["新用藥後 **發燒、關節痛、搔癢性紅疹**", "過敏性間質性腎炎 (AIN)"],
+          ["**可觸性紫斑、肺出血、鼻竇炎**", "全身性血管炎合併 GN"],
+          ["近期主動脈導管/手術；**livedo reticularis**、藍趾", "膽固醇栓塞 (atheroembolic)"],
+          ["肢體缺血、擠壓傷、癲癇、長時間躺地", "橫紋肌溶解"],
+          ["**腹部緊繃**（大量輸液、燒傷、胰臟炎）", "腹腔間隔症候群 → 量**膀胱壓**"],
+          ["懷孕", "子癇前症"]
         ]},
-        {"type": "heading", "text": "AIN 的病理變化"},
+        {"type": "heading", "text": "② 尿量"},
         {"type": "list", "ordered": false, "items": [
-          "間質：淋巴細胞、單核球、嗜酸性球浸潤",
-          "腎小管：tubulitis (淋巴細胞侵犯腎小管)",
-          "腎絲球和血管通常不受影響"
+          "**少尿 (oliguria) < 400 mL/day**：代表較嚴重的 AKI，預後較差",
+          "**AKI 早期就完全無尿很少見**，只見於：**完全尿路阻塞、腎動脈阻塞、嚴重敗血性休克、嚴重缺血（皮質壞死）、嚴重增生性 GN / 血管炎**",
+          "**尿量正常不能排除 AKI**（非少尿型）：長期阻塞造成的腎性尿崩、小管間質疾病、**cisplatin / aminoglycoside** 腎毒性",
+          "尿液紅/褐色且**離心後上清液仍有顏色** → 色素腎病變（**肌紅素或血紅素**）"
         ]},
-        {"type": "heading", "text": "RPGN 的病理變化"},
-        "Bowman's capsule 內可見 **crescent formation** (新月體)，由增生的上皮細胞和巨噬細胞構成，是 RPGN 的標誌性病理發現。",
-        {"type": "source", "book": "Harrison's 22e", "pages": "2418-2420"}
+        {"type": "heading", "text": "③ 尿沉渣"},
+        {"type": "figure", "src": "figures/acute-kidney-injury/h321-6.png", "label": "Harrison's 22e Fig. 321-6", "caption": "AKI 尿沉渣判讀",
+          "explain": "**【怎麼看】**先分「**正常或幾乎正常**」vs「**異常**」：\n- **沉渣乾淨（或只有 hyaline cast）**：腎前性、腎後性、**血管性**（腎動脈血栓/栓塞、入球前血管炎、HUS/TTP、硬皮症腎危象）——血管性 AKI 的尿可以很乾淨！\n- **RBC / RBC cast**：GN、血管炎、惡性高血壓、TMA\n- **WBC / WBC cast**：間質性腎炎、腎盂腎炎、GN、移植排斥、惡性浸潤\n- **腎小管上皮細胞 / 上皮細胞 cast / 色素 cast**：**ATN**、肌紅素尿、血紅素尿\n- **Granular cast**：ATN、GN、血管炎、小管間質性腎炎\n- **嗜酸性球尿**：AIN、膽固醇栓塞、腎盂腎炎、膀胱炎、GN（特異性差）\n- **結晶尿**：尿酸（TLS）、**草酸鈣（乙二醇中毒）**、藥物（acyclovir、indinavir、sulfadiazine、amoxicillin）\n**【考點】**ATN 的典型是「**muddy brown granular cast**」，但 **> 20% 的 ATN 看不到**。"},
+        {"type": "table", "headers": ["尿液發現", "提示"], "rows": [
+          ["Hyaline cast / 沉渣乾淨", "腎前性、腎後性（正常人也可見 hyaline cast）"],
+          ["**Muddy brown granular cast**、腎小管上皮細胞 cast", "**ATN**"],
+          ["**Dysmorphic RBC、RBC cast**", "**腎絲球腎炎**（RPGN）"],
+          ["**WBC cast**、無菌性膿尿", "**AIN**（或腎盂腎炎）"],
+          ["嗜酸性球尿", "AIN、膽固醇栓塞（**診斷價值有限**）"],
+          ["**Dipstick 潛血 (+) 但顯微鏡 RBC 很少**", "**肌紅素尿 / 血紅素尿**"],
+          ["草酸鈣結晶", "乙二醇中毒"],
+          ["大量尿酸結晶", "腫瘤溶解症候群"],
+          ["Waxy cast、broad cast", "慢性腎臟病"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**蛋白尿的量也是線索**\n- 缺血或腎毒性 ATN（無 CKD 背景）：**輕度蛋白尿 < 1 g/day**\n- 更多 → 腎絲球屏障受損，或排出**骨髓瘤輕鏈**\n- **Dipstick 只測 albumin，測不到輕鏈** → 懷疑骨髓瘤要做 **sulfosalicylic acid test** 或免疫電泳\n- **腎病症候群範圍（> 3.5 g/day）**：GN、血管炎、**NSAID**（同時傷腎絲球與小管間質）；minimal change disease 也可能合併 AKI"},
+        {"type": "heading", "text": "④ 尿液指數：腎前性 vs ATN"},
+        {"type": "callout", "style": "guideline", "text": "**FENa = (U_Na × P_Cr) / (P_Na × U_Cr) × 100%**\n= 過濾出去的鈉中，**沒有被小管回收**的比例\n\n**FEUrea = (U_Urea × P_Cr) / (P_Urea × U_Cr) × 100%**\n用過利尿劑時改看 FEUrea（**< 35% 支持腎前性**）"},
+        {"type": "table", "headers": ["指標", "腎前性", "ATN"], "rows": [
+          ["**FENa**", "**< 1%**", "**> 1%**"],
+          ["**BUN / Cr**", "**> 20**", "< 10–15"],
+          ["尿滲透壓 (mOsm/kg)", "**> 500**", "**< 350**（接近等張）"],
+          ["尿比重", "> 1.018", "~1.010"],
+          ["尿鈉 (mmol/L)", "< 20", "> 40"],
+          ["FEUrea", "< 35%", "> 50%"],
+          ["尿沉渣", "Hyaline cast / 乾淨", "Muddy brown granular cast、上皮細胞"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**為什麼？**\n腎前性時小管**完好而且拼命回收**：鈉被回收（FENa 低）、水被回收（尿濃縮）、尿素在低流速下被大量回收（BUN 升得比 Cr 快）。\nATN 時小管**壞掉、回收不了** → 鈉漏出、尿無法濃縮。"},
+        {"type": "callout", "style": "trap", "text": "**FENa 的陷阱（必考）**\n**腎前性卻 FENa > 1%**：\n- 用了**利尿劑** → 改看 **FEUrea**\n- **CKD**：小管本來就回收不好\n\n**腎因性卻 FENa < 1%**：\n- **敗血症早期**\n- **橫紋肌溶解**、**顯影劑腎病**、溶血\n- **GN 早期**（小管還沒受影響）\n\n→ FENa **在少尿、沒用利尿劑、沒有 CKD 的病人最有用**；低 FENa 只是「提示」容積不足，不能單獨用來決定輸液。**對輸液的反應**本身才是腎前性最好的診斷。\n\n**BUN 不成比例上升的其他原因**：上消化道出血、TPN、組織分解增加、類固醇。\n\n**尿滲透壓**在老人和 CKD 病人本來就濃縮不好 → 不可靠。"},
+        {"type": "heading", "text": "⑤ 血液檢查"},
+        {"type": "table", "headers": ["發現", "想到"], "rows": [
+          ["沒有出血卻**嚴重貧血**", "溶血、多發性骨髓瘤、TMA（HUS/TTP）"],
+          ["**血小板低 + schistocytes + LDH↑ + haptoglobin↓**", "**TMA** → 驗 ADAMTS13、Shiga toxin E. coli"],
+          ["周邊**嗜酸性球增多**", "AIN、膽固醇栓塞、PAN、EGPA"],
+          ["**Anion gap 偏低**", "**多發性骨髓瘤**（未測量的陽離子蛋白）"],
+          ["**高 AG + 滲透壓間隙 (osmolal gap)**", "**乙二醇中毒**（合併草酸鈣結晶）"],
+          ["**高磷 + 低鈣** 很明顯", "橫紋肌溶解、腫瘤溶解症候群"],
+          ["CK 極高 + 尿酸高", "橫紋肌溶解"],
+          ["CK 正常/輕度 + **尿酸極高**", "腫瘤溶解症候群"],
+          ["補體低、ANA、ANCA、anti-GBM、cryoglobulin、ASO", "GN / 血管炎"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**SCr 上升的時間模式**\n- 腎前性：小幅上升，血流動力學改善後回到基線\n- **顯影劑**：**24–48 h 開始上升、3–5 天達高峰、1 週內恢復**\n- **Aminoglycoside、cisplatin**：**延遲 3–5 天到 2 週**才上升\n- **膽固醇栓塞**：**亞急性**（數週）\n\n**估算 eGFR 的公式只在穩定狀態有效**：AKI 時 SCr 落後於真實 GFR → **藥物劑量不能用 eGFR 公式調**。"},
+        {"type": "heading", "text": "⑥ 影像與切片"},
+        {"type": "list", "ordered": false, "items": [
+          "**膀胱導尿**即可排除尿道阻塞；**腎臟超音波 / CT** 看水腎、輸尿管擴張",
+          "**阻塞但影像正常**的情況：**嚴重脫水、後腹膜纖維化、腫瘤包覆、阻塞早期** → 臨床高度懷疑時做順行/逆行腎盂攝影",
+          "**腎臟大小**：CKD 通常縮小（例外：**糖尿病腎病、HIV 腎病、浸潤性疾病**）；AKI 大小正常；**AKI 合併腎臟變大** → 考慮 AIN 或浸潤性疾病",
+          "**腎臟切片**：已排除腎前性、腎後性、缺血/腎毒性 ATN，而懷疑 **GN、血管炎、AIN、骨髓瘤腎、HUS/TTP、移植腎排斥** 時；主要風險為**出血**（血小板低、凝血異常者特別注意）"
+        ]},
+        {"type": "heading", "text": "⑦ 新興生物標記與預後測試"},
+        {"type": "list", "ordered": false, "items": [
+          "**Furosemide stress test**：少尿型 AKI 給 IV furosemide **1.0–1.5 mg/kg**，**2 小時尿量 < 200 mL** → 進展到嚴重 AKI、需要透析的風險高",
+          "**KIM-1**：受損近端小管表現（缺血、cisplatin 等）",
+          "**NGAL**：心肺繞道後 2 小時內即可在血、尿測到；2023 FDA 核准用於**兒童** AKI 早期辨識",
+          "**TIMP-2 × IGFBP7**（細胞週期停滯標記）：2014 FDA 核准，預測 ICU 病人發生中重度 AKI",
+          "**CXCL9**：幫助區分以間質發炎為主的 **AIN**",
+          "BUN、SCr、cystatin C 都是**過濾功能**指標，不是組織損傷指標，而且上升得慢"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2421-2425"}
       ]
     },
     {
-      "title": "Clinical Presentation",
+      "title": "腎前性 AKI（含肝腎症候群、心腎症候群）",
       "content": [
+        "腎前性氮血症（prerenal azotemia）是**最常見**的 AKI：腎血漿流量與腎絲球內壓不足以維持過濾。**定義上腎實質沒有受損**，灌流恢復後快速可逆；但拖太久會變成**缺血性 ATN**（兩者是連續光譜）。",
+        {"type": "heading", "text": "病因"},
+        {"type": "table", "headers": ["機轉", "例子"], "rows": [
+          ["**真正的低血容**", "出血、嘔吐、腹瀉、利尿劑過量、燒傷、胰臟炎（液體流到第三空間）"],
+          ["**心輸出量下降**", "心衰竭、心包填塞、大面積 MI → **心腎症候群**"],
+          ["**有效循環量不足**（全身水分可能過多）", "**肝硬化**（肝腎症候群）、腎病症候群、**敗血症**的全身血管擴張"],
+          ["**腎臟自調失效**", "**NSAID、ACEi/ARB、calcineurin inhibitor**（見第 1 章）"],
+          ["**腎靜脈壓迫**", "**腹腔間隔症候群**：腹內壓 **> 20 mmHg**（大量輸液、創傷、燒傷、胰臟炎）"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**腎前性的診斷**（Harrison Table 321-2）\n- 臨床：液體攝取不足或流失、心衰竭、NSAID/ACEi/ARB；**心搏過速、低血壓或姿勢性低血壓、JVP 低、黏膜乾**\n- 檢驗：**BUN/Cr > 20、FENa < 1%、hyaline cast、尿比重 > 1.018、尿滲透壓 > 500**\n- **最有診斷價值的是：恢復血流動力學後腎功能回來**"},
+        {"type": "heading", "text": "治療：恢復腎臟灌流"},
         {"type": "list", "ordered": false, "items": [
-          "**少尿/無尿**：尿量 < 400 mL/day (oliguria) 或無尿",
-          "**體液過多**：水腫、肺水腫、JVP 升高",
-          "**電解質異常**：高血鉀 (最危險)、高磷、低鈣、代謝性酸中毒",
-          "**Uremia 症狀**：噁心嘔吐、意識改變 (uremic encephalopathy)、心包膜炎 (uremic pericarditis)",
-          "**出血傾向**：uremic platelet dysfunction"
+          "**少尿本身不是輸液的適應症**——只有**血管內容積不足**才是",
+          "補充的液體**對應流失的種類**：大量急性失血 → **PRBC**",
+          "**晶體液優於膠體液**；**HES（hydroxyethyl starch）已不再用於住院病人**（增加 AKI 風險）；白蛋白仍常用於肝衰竭",
+          "**0.9% NS vs 緩衝晶體液（Lactated Ringer's、Plasma-Lyte）**：依電解質選擇——緩衝晶體液略低張，適合高血鈉；**NS 會造成高氯性代謝性酸中毒**，但適合代謝性鹼中毒；代謝性酸中毒可用含 bicarbonate 的溶液",
+          "心臟功能不佳：強心劑、降前後負荷、抗心律不整藥、機械輔助；必要時侵入性血流動力學監測",
+          "**停用 NSAID、ACEi/ARB、利尿劑**（容積恢復後再評估是否重新開始）"
         ]},
-        {"type": "callout", "style": "trap", "text": "**非少尿型 AKI (Non-oliguric AKI)**：\n部分 ATN 患者尿量可正常或增加，但 sCr 仍上升\n常見於：腎毒性藥物 (aminoglycoside, cisplatin) 引起的 ATN\n不能僅以尿量判斷是否有 AKI"},
-        {"type": "heading", "text": "不同病因的臨床線索"},
-        {"type": "table", "headers": ["分類", "病史/理學檢查線索"], "rows": [
-          ["Prerenal", "脫水史、出血、HF/肝硬化、tachycardia、姿勢性低血壓、黏膜乾燥"],
-          ["ATN (缺血)", "敗血症、手術後、長期低血壓"],
-          ["ATN (毒物)", "腎毒性藥物使用史、顯影劑暴露"],
-          ["Rhabdomyolysis", "外傷、Crush injury、seizure、CK 極高、尿液 heme (+) but RBC (-)"],
-          ["AIN", "新藥使用 + 發燒 + 皮疹 + Eosinophilia"],
-          ["RPGN", "快速進行性腎功能惡化、Dysmorphic RBC/RBC cast"],
-          ["Postrenal", "無尿/少尿、雙側水腎 (超音波)、BPH 老年男性"]
+        {"type": "heading", "text": "肝腎症候群 (Hepatorenal Syndrome, HRS)"},
+        {"type": "callout", "style": "logic", "text": "**機轉：全身水太多，腎臟卻覺得缺水**\n肝硬化 → **內臟（splanchnic）動脈原發性擴張** → 全身血管阻力大降 → 啟動 RAAS、交感、vasopressin 等**血管收縮系統** → **腎血管強烈收縮** → GFR 下降\n常見誘因：**容積流失**（過度利尿、腹瀉、大量放腹水）、**自發性細菌性腹膜炎 (SBP)**"},
+        {"type": "table", "headers": ["", "Type 1 HRS（現稱 HRS-AKI）", "Type 2 HRS"], "rows": [
+          ["表現", "**快速進展的 AKI**，給予容積、停利尿劑後**仍持續**", "較輕、緩慢；以**頑固性腹水**為主"],
+          ["預後", "**極差**", "較好"]
         ]},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "73-81"}
+        {"type": "callout", "style": "guideline", "text": "**HRS 的處置**\n1. **排除診斷**：HRS 是 diagnosis of exclusion（與腎前性很難區分）→ 先給容積試驗、停利尿劑與腎毒性藥物\n2. **一定要排除 SBP**：腹水細胞數 + 培養；SBP 用抗生素治療時給**白蛋白可預防 AKI**\n3. **過渡治療（bridge）**：**norepinephrine** 或 **terlipressin**（vasopressin 類似物），或 **octreotide + midodrine**（α1 agonist）——**都要合併 IV 白蛋白**（25–50 g，每日最多 100 g）\n4. **根治：肝臟移植**\n\n⚠ 輸液過量會讓腹水和呼吸變差 → 容積評估很困難，必要時用容積試驗同時診斷與治療"},
+        {"type": "callout", "style": "trap", "text": "**HRS 的實驗室特徵**：FENa < 1%（往往極低）、尿沉渣乾淨、無顯著蛋白尿、**對輸液沒有反應**。\n\n**心腎症候群 (cardiorenal)**：心衰竭 → 心輸出量低 + **靜脈鬱血**（腎靜脈壓高）→ GFR 下降。重點是**解除鬱血**而不是輸液；急性失代償心衰竭時，**階梯式利尿劑治療優於超過濾**。\n\nHarrison：腎前性 AKI 預後普遍良好，**但心腎與肝腎症候群除外**。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2416-2418, 2422, 2426-2427"}
       ]
     },
     {
-      "title": "Diagnosis",
+      "title": "腎因性 AKI ①：ATN（敗血症、缺血、腎毒素）",
       "content": [
-        {"type": "heading", "text": "Prerenal vs Intrinsic (ATN) 的鑑別"},
-        {"type": "table", "headers": ["指標", "Prerenal", "ATN (Intrinsic)"], "rows": [
-          ["FENa (%)", "< 1% (鈉能回收)", "> 1% (鈉漏出)"],
-          ["Urine Na (mmol/L)", "< 10", "> 20"],
-          ["BUN/Cr ratio", "> 20", "< 10-15"],
-          ["Urine osmolality (mOsm/kg)", "> 500 (尿能濃縮)", "~300 (等張)"],
-          ["Urine specific gravity", "> 1.020", "~1.010"],
-          ["Urine sediment", "Hyaline casts", "Muddy brown granular casts"],
-          ["U/P Cr ratio", "> 40", "< 20"]
+        "腎因性 AKI 最常見的三大原因：**敗血症、缺血、腎毒素**（內源性與外源性）。習慣上統稱「急性腎小管壞死 (ATN)」，但敗血症與缺血的病人切片**常常看不到真正的壞死**——發炎、細胞凋亡、局部灌流改變才是主角。",
+        {"type": "figure", "src": "figures/acute-kidney-injury/h321-3.jpg", "label": "Harrison's 22e Fig. 321-3", "caption": "腎因性 AKI 依解剖位置的主要病因",
+          "explain": "**【怎麼看】**用**解剖位置**整理腎因性 AKI（四個黃框對應腎臟四個部位）：\n- **小血管**（左上）：GN、血管炎、TTP/HUS、DIC、膽固醇栓塞、惡性高血壓、**calcineurin inhibitor**、敗血症\n- **大血管**（中下）：腎動脈栓塞/剝離/血管炎、**腎靜脈血栓**、腹腔間隔症候群\n- **腎小管**（右上）：毒性 ATN（內源：橫紋肌溶解、溶血；外源：顯影劑、cisplatin、gentamicin）、缺血性 ATN、敗血症\n- **小管內阻塞**：骨髓瘤蛋白、尿酸（TLS）、細胞碎片、**acyclovir、methotrexate**\n- **間質**（右下）：過敏（**PCN、PPI、NSAID、rifampin**）、感染（嚴重腎盂腎炎、**Legionella**）、浸潤（淋巴瘤、白血病）、發炎（Sjögren、TINU）\n**【考點】**放大圖顯示**外髓質**是最容易缺血的區域——這是 S3 段近端小管所在。"},
+        {"type": "heading", "text": "敗血症相關 AKI"},
+        {"type": "list", "ordered": false, "items": [
+          "嚴重敗血症中 **> 50%** 合併 AKI，大幅增加死亡率；反過來 AKI 也增加敗血症風險",
+          "**沒有明顯低血壓也可能發生**",
+          "機轉：早期**出球小動脈過度擴張**（細胞激素 → iNOS → NO）、交感/RAAS/vasopressin/endothelin 造成腎血管收縮、**內皮損傷**（白血球黏附、微血栓、通透性增加、間質水腫）、粒線體功能異常、活性氧",
+          "**FENa 早期可能 < 1%**（像腎前性），之後通常 > 1%、尿滲透壓 < 500；沉渣常見 granular cast、上皮細胞 cast",
+          "病毒感染也可造成：**hantavirus、dengue、SARS-CoV-2**（細胞激素風暴、高凝狀態）"
         ]},
-        {"type": "callout", "style": "logic", "text": "**Prerenal 記憶法**：身體缺水 → 腎臟拼命回收鈉和水 → 尿鈉低 (FENa < 1%)、尿液濃縮 (Osm > 500)、BUN 回收多 (BUN/Cr > 20)\n\n**ATN 記憶法**：腎小管壞死無法回收 → 尿鈉高 (FENa > 1%)、尿液稀釋 (Osm ~300)、BUN 無法回收 (BUN/Cr < 15)"},
-        {"type": "callout", "style": "trap", "text": "FENa 的陷阱：\n- 使用 **Diuretics** 的患者 FENa 會偏高 (假陽性) → 改用 **FeUN < 35%** 判斷 prerenal\n- 早期 **Sepsis-associated AKI** 的 FENa 可能 < 1% (類似 prerenal)\n- **Contrast nephropathy** 和 **Rhabdomyolysis** 的 FENa 也可能 < 1%"},
-        {"type": "callout", "style": "guideline", "text": "**eGFR 估算公式 (Cockcroft-Gault)**：\neGFR = (140 - Age) × BW / (72 × Cr)\n女性 × 0.85"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "73-78"}
+        {"type": "heading", "text": "缺血相關 AKI"},
+        "腎臟只佔體重 **0.5%**，卻接收 **20% 心輸出量**、消耗 **10% 靜息耗氧**。**外髓質**是全身最缺氧的區域之一 → 依賴氧化磷酸化的 **S3 段近端小管**（與 TAL）最容易受傷。",
+        {"type": "figure", "src": "figures/acute-kidney-injury/h321-4.png", "label": "Harrison's 22e Fig. 321-4", "caption": "缺血性 AKI 的病生理：微血管事件與小管事件互相加重",
+          "explain": "**【怎麼看】**中間 **↓O₂** 同時打擊兩邊：\n- **左 微血管**：血管收縮↑（endothelin、adenosine、Ang II、TXA2、交感）、血管擴張↓（NO、PGE₂ 不足）、內皮與平滑肌結構損傷、**白血球-內皮黏附 → 阻塞與發炎**\n- **右 小管**：細胞骨架崩解、粒線體損傷、**失去極性**（Na-K ATPase 跑錯邊）、凋亡與壞死、細胞脫落 → **小管阻塞**、濾液**回漏 (backleak)**\n- 小管損傷釋放**發炎與血管活性介質**（下方箭頭）→ 回頭加重微血管損傷 → **惡性循環**\n**【考點】**GFR 下降的三個原因：**持續入球前血管收縮**（含 TGF 被活化）、**濾液回漏**、**脫落細胞阻塞小管**。"},
+        {"type": "list", "ordered": false, "items": [
+          "**單純短暫缺血在正常腎臟很少造成嚴重 AKI**（例如腎上主動脈夾閉、心跳停止後）——通常需要合併其他打擊",
+          "**術後 AKI**：**心臟手術合併體外循環**（尤其瓣膜 + 繞道）、**主動脈夾閉的血管手術**、腹腔內手術；需透析的嚴重 AKI 約 **1%**。危險因子：**CKD、高齡、糖尿病、心衰竭、緊急手術**、體外循環時間長",
+          "體外循環的額外機轉：白血球/發炎活化、**溶血 → 色素腎病變**、主動脈損傷 → **膽固醇栓塞**",
+          "**燒傷**（TBSA > 10% 者約 25% 發生 AKI）、**急性胰臟炎**：大量體液流失 + 失控發炎 + 敗血症風險"
+        ]},
+        {"type": "collapsible", "summary": "ATN 的臨床病程（三期）", "text": "1. **起始期 (initiation)**：缺血或毒素造成小管上皮受傷\n2. **維持期 (maintenance)**：GFR 持續低下，數天到數週\n3. **恢復期 (recovery)**：小管再生；常以**尿量增加（多尿期）**開始——原因是滯留的尿素造成**滲透性利尿**，加上小管回收功能恢復較慢 → 注意**脫水與電解質流失**（低鉀、低鎂、低鈉或高鈉）\n\n只要小管基底膜完整，上皮就能再生；但修復不完全（maladaptive repair）→ 纖維化 → CKD。"},
+        {"type": "heading", "text": "外源性腎毒素"},
+        {"type": "table", "headers": ["藥物", "機轉", "考點"], "rows": [
+          ["**含碘顯影劑**", "腎血管收縮 + 小管毒性", "腎功能正常者風險可忽略；**CKD（尤其糖尿病腎病）、心衰竭、骨髓瘤**風險高。**24–48 h 上升、3–5 天高峰、1 週內恢復**；FENa 可 < 1%"],
+          ["**Aminoglycoside**", "自由過濾後**累積在腎皮質（近端小管）**", "**非少尿型**，10–30% 療程（即使濃度在治療範圍）；**用藥 5–7 天後**出現，停藥後仍可發生；**低血鎂**"],
+          ["**Vancomycin**", "小管損傷；也可在小管內形成結晶/鑄型阻塞", "谷底濃度高、合併其他腎毒性抗生素時"],
+          ["**Amphotericin B**", "TGF 活化 → **腎血管收縮** + 插入膜膽固醇**打洞**", "劑量與療程相關；**多尿、低鎂、低鈣、非 AG 代謝性酸中毒**"],
+          ["**Acyclovir**（另 indinavir、sulfadiazine、methotrexate）", "**小管內結晶阻塞**", "大劑量 IV 推注（500 mg/m²）或低血容時"],
+          ["Foscarnet、pentamidine、**tenofovir**、cidofovir", "小管毒性", "Tenofovir：近端小管病變（Fanconi）"],
+          ["**Cisplatin / carboplatin**", "累積在近端小管 → 壞死與凋亡", "**劑量限制毒性**；積極水化可降低；SCr 延遲上升"],
+          ["**Ifosfamide**", "小管毒性", "**出血性膀胱炎** + **Fanconi 症候群（近端 RTA）**、多尿、低鉀"],
+          ["Bevacizumab、mitomycin C、gemcitabine", "**血栓性微血管病 (TMA)**", "蛋白尿、高血壓"],
+          ["**乙二醇（防凍劑）**", "代謝成草酸等 → 小管損傷 + 阻塞", "**高 AG + 滲透壓間隙 + 草酸鈣結晶**"],
+          ["馬兜鈴酸（aristolochic acid）", "慢性小管間質損傷", "「中草藥腎病變」、Balkan nephropathy；尿路上皮癌風險"],
+          ["Diethylene glycol、melamine", "小管毒性 / 結石阻塞", "藥品或食品污染事件"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**名詞更新**：舊稱 contrast nephropathy → 現稱 **contrast-associated AKI**；其中真正由顯影劑造成的叫 **contrast-induced AKI (CI-AKI)**，是較小的子集合。Harrison 指出過去很可能**過度診斷**。\n\n**Gadolinium**：嚴重腎病或 AKI 者有 **nephrogenic systemic fibrosis** 風險，但多數病例來自 group I 製劑（已少用）；標準劑量 group II 風險很低。\n\n**口服磷酸鈉瀉劑**（大腸鏡前清腸）也會造成 AKI。"},
+        {"type": "heading", "text": "內源性腎毒素"},
+        {"type": "table", "headers": ["", "原因 / 情境", "實驗室", "處置重點"], "rows": [
+          ["**橫紋肌溶解**", "擠壓傷、手術中肌肉缺血、昏迷/長時間不動、癲癇、過度運動、中暑/惡性高熱、感染、**低磷、嚴重甲狀腺低下**、藥物或發炎性肌病", "**CK 極高**、肌紅素↑；**尿潛血 (+) 但 RBC 少**；高鉀、高磷、低鈣、尿酸↑；FENa 可 < 1%", "**早期大量輸液**（初期可達 **10 L/day**），目標尿量 **200–300 mL/h**；可考慮鹼性輸液"],
+          ["**溶血**", "輸血反應等", "貧血、LDH↑、haptoglobin↓；FENa 可 < 1%", "評估輸血反應"],
+          ["**腫瘤溶解症候群**", "高惡性度淋巴瘤、**ALL** 開始化療後（偶爾自發或實體腫瘤）", "**尿酸常 > 15 mg/dL**、高鉀、高磷、低鈣；CK 正常或輕度上升", "**積極輸液 + allopurinol 或 rasburicase**"],
+          ["**多發性骨髓瘤**", "> 60 歲、全身症狀、骨痛", "M spike、free light chain↑、**AG 偏低**、貧血、**高鈣**；dipstick 蛋白可陰性", "骨髓或腎臟切片可確診；治療骨髓瘤"]
+        ]},
+        {"type": "callout", "style": "logic", "text": "**色素腎病變（肌紅素、血紅素）的三個機轉**\n1. **腎內血管收縮**\n2. **直接近端小管毒性**\n3. 與 **Tamm-Horsfall protein（uromodulin，TAL 分泌、尿中最多的蛋白）** 沉澱成鑄型 → **遠端腎元阻塞**；**酸性尿促進沉澱** → 這就是鹼化尿液的理論基礎\n\n**骨髓瘤**：輕鏈 + Tamm-Horsfall protein → **cast nephropathy**；另有直接小管毒性、腎絲球損傷；**高血鈣**造成腎血管收縮 + 尿崩性脫水。"},
+        {"type": "callout", "style": "trap", "text": "**橫紋肌溶解的陷阱**\n- **鹼性輸液**（例如 0.45% saline 加 75 mmol/L NaHCO₃）可能減少鑄型，但會**加重低血鈣**\n- 輸液足夠但尿量仍達不到 200–300 mL/h → 才考慮利尿劑\n- **無症狀低血鈣不要補鈣**：鈣會沉積在受損肌肉，恢復期再釋放出來 → **高血鈣**（只有高鉀合併心電圖變化或症狀性低鈣才給鈣）\n- **TLS vs 橫紋肌溶解**：都高鉀、高磷、低鈣；**CK 極高 → 橫紋肌溶解；尿酸極高、CK 正常 → TLS**"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2418-2420, 2422, 2427"}
       ]
     },
     {
-      "title": "Treatment",
+      "title": "腎因性 AKI ②：間質性腎炎、腎絲球與血管疾病",
       "content": [
-        {"type": "heading", "text": "Prerenal AKI：恢復腎臟灌流"},
-        {"type": "table", "headers": ["輸液類型", "推薦等級", "說明"], "rows": [
-          ["Balanced crystalloids (LR)", "強烈建議 (首選)", "減少高氯性酸中毒與 AKI 風險"],
-          ["0.9% Normal saline", "可接受", "無 balanced crystalloid 時使用，注意電解質"],
-          ["Albumin", "可考慮", "大量晶體液後仍不足者"],
-          ["Starches (HES)", "強烈建議避免", "增加腎損傷與出血風險"],
-          ["Gelatins", "建議避免", "無明顯優勢且成本高"]
+        {"type": "heading", "text": "急性間質性腎炎 (AIN)"},
+        {"type": "table", "headers": ["病因", "例子"], "rows": [
+          ["**藥物（約 75% 的切片證實 AIN）**", "**抗生素**（penicillins、cephalosporins、quinolones、sulfonamides、**rifampin**）、**PPI**、**NSAID**、**免疫檢查點抑制劑**"],
+          ["感染", "嚴重腎盂腎炎、**Legionella**、病毒（COVID、HIV、hantavirus）、敗血症"],
+          ["自體免疫 / 發炎", "**TINU（間質性腎炎合併葡萄膜炎）**、狼瘡、Sjögren"],
+          ["浸潤", "淋巴瘤、白血病、**類肉瘤**"]
         ]},
-        {"type": "heading", "text": "AKI 的一般處理原則"},
+        {"type": "callout", "style": "guideline", "text": "**AIN 的臨床表現**\n- 新藥使用後出現 **發燒、關節痛、搔癢性紅疹**，**嗜酸性球增多**\n- 尿液：**無菌性膿尿、WBC cast**、嗜酸性球尿（準確度有限）\n- 常為**非少尿型**；超音波可見**腎臟變大**\n- **確診靠腎臟切片**\n\n**治療**：**停用致病藥物**；停藥後 AKI 仍持續或惡化 → 可用**類固醇**（Harrison：常用但**未經 RCT 驗證**）"},
+        {"type": "callout", "style": "trap", "text": "**AIN 的陷阱**\n- **沒有全身過敏表現（發燒、皮疹、嗜酸性球）不能排除 AIN** → 典型三聯徵其實少見\n- **PPI** 是最被低估的元凶：AKI 病人常被開 PPI 做壓力性潰瘍預防，但 PPI 本身會造成 AIN\n- **NSAID** 可同時造成 **AIN + 腎病症候群範圍蛋白尿**（minimal change）\n- **免疫檢查點抑制劑**（ipilimumab、nivolumab、pembrolizumab）：以 **AIN** 表現的 irAE；危險因子：**GFR 較低、合併 PPI、其他器官 irAE**"},
+        {"type": "heading", "text": "腎絲球腎炎 / 血管炎（約 5% 的 AKI）"},
         {"type": "list", "ordered": false, "items": [
-          "**治療根本病因**：敗血症 (抗生素)、阻塞 (解除阻塞)、停用腎毒性藥物",
-          "**限制**：限水、低鉀、低磷、低蛋白 (0.6-0.7 g/kg/day)、熱量 35-50 kcal/kg/day",
-          "**酸中毒矯正**：Sodium bicarbonate (若 HCO₃⁻ < 16 或 pH < 7.2)",
-          "**Rhabdomyolysis / Myeloma cast nephropathy / 尿酸腎病**：大量輸液 + 利尿劑 + 鹼化尿液",
-          "**低劑量 dopamine**：**無實證醫學根據**，不建議使用",
-          "**恢復期 (Polyuric phase)**：注意電解質不平衡與脫水，可用 0.45% NS 補充"
+          "比例不高但**最需要早期辨認**：免疫抑制或血漿置換可以逆轉 AKI、減少長期損傷",
+          "線索：皮疹、關節痛、**鼻竇炎 + 肺出血**（anti-GBM、ANCA、狼瘡）、近期**皮膚感染或咽炎**（鏈球菌感染後）",
+          "尿液：**dysmorphic RBC、RBC cast**；早期 FENa 可 < 1%",
+          "檢驗：**ANA、ANCA、anti-GBM、補體、cryoglobulin、肝炎血清學、ASO、血液培養**；常需切片",
+          "治療：免疫抑制劑、抗補體治療、血漿置換（詳見腎絲球疾病筆記）"
+        ]},
+        {"type": "heading", "text": "血管性疾病"},
+        {"type": "table", "headers": ["疾病", "線索", "處置"], "rows": [
+          ["**TTP**", "神經症狀、發燒；**schistocytes、血小板低、LDH↑、haptoglobin↓**；**ADAMTS13 活性低**", "**醫療急症 → 立即血漿置換**"],
+          ["**典型 HUS**", "**腹瀉前驅期**；Shiga toxin（E. coli O157:H7 等）", "支持療法"],
+          ["**非典型 HUS (aHUS)**", "**補體替代路徑調控異常**（遺傳或後天）；佔**成人 HUS 的多數**，60–70% 有基因突變", "**補體阻斷劑**（eculizumab 等）"],
+          ["其他 TMA", "**cocaine、anti-VEGF、mitomycin、gemcitabine、CNI**、抗磷脂抗體症候群、放射線腎炎、**惡性高血壓**、懷孕/產後", "移除誘因、控制血壓"],
+          ["**硬皮症腎危象**", "硬皮症 + 突發高血壓 + AKI", "**ACE inhibitor**（唯一首選）"],
+          ["**膽固醇栓塞**", "**主動脈導管/手術後**、抗凝後或自發；**亞急性**（數週）；livedo reticularis、**視網膜斑塊**、可觸性紫斑、GI 出血；**低補體、嗜酸性球（尿）**", "皮膚或腎臟切片（膽固醇裂隙）；支持療法"],
+          ["大血管", "腎動脈栓塞/剝離/血栓、**腎靜脈血栓**、腹腔間隔症候群", "血管影像"],
+          ["**抗凝劑相關腎病變**", "**Warfarin 或其他抗凝劑過量** → 腎絲球出血 → **RBC cast 阻塞小管**", "調整抗凝"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**顯影劑 AKI vs 膽固醇栓塞**——兩者都發生在心導管後：\n- **顯影劑**：24–48 h 內上升、3–5 天高峰、**1 週內恢復**\n- **膽固醇栓塞**：**數天到數週後亞急性**惡化、常不完全恢復；**livedo reticularis、藍趾、嗜酸性球增多、低補體**\n\n**血管性 AKI 的尿沉渣可以很乾淨**（見 Fig. 321-6）——不要因為尿很乾淨就認定是腎前性。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2420-2422, 2424, 2427"}
+      ]
+    },
+    {
+      "title": "腎後性 AKI（阻塞性）",
+      "content": [
+        "尿流被部分或完全阻斷 → **逆行靜水壓上升** → 干擾腎絲球過濾。早期先有入球擴張的充血期，之後 Ang II、TXA2、vasopressin 造成**腎內血管收縮**、NO 下降 → GFR 持續下降。",
+        {"type": "callout", "style": "trap", "text": "**兩個關鍵觀念**\n1. **要兩側都阻塞**（或**單一功能腎**、或另一側本來就有 CKD）才會造成明顯 AKI；單側阻塞很少單獨造成 AKI\n2. **尿量正常不能排除部分阻塞**：GFR 原本就比尿流量大約兩個數量級，部分阻塞時尿量可以維持\n\n→ **每個 AKI 都要考慮腎後性**，因為**早期解除阻塞，治療幾乎都會成功**。"},
+        {"type": "figure", "src": "figures/acute-kidney-injury/h321-5.jpg", "label": "Harrison's 22e Fig. 321-5", "caption": "腎後性 AKI 的阻塞部位與原因",
+          "explain": "**【怎麼看】**從上到下三個層次：\n- **輸尿管 / 腎盂**（上方黃框）：**結石、血塊、外部壓迫、腫瘤、後腹膜纖維化**——必須**雙側**才會造成 AKI\n- **膀胱頸 / 攝護腺**（中間）：**攝護腺肥大、血塊、癌症**——**最常見**的腎後性原因，一處阻塞就影響兩側\n- **尿道**（下方）：**狹窄、Foley 導尿管阻塞**\n**【考點】**住院病人 SCr 突然上升，第一件事檢查 **Foley 有沒有塞住**。"},
+        {"type": "table", "headers": ["部位", "原因"], "rows": [
+          ["**膀胱頸（最常見）**", "**BPH、攝護腺癌、神經性膀胱、抗膽鹼藥物**；**Foley 阻塞**"],
+          ["下泌尿道", "血塊、結石、尿道狹窄"],
+          ["輸尿管 — 管腔內", "結石、血塊、**壞死脫落的腎乳頭**（papillary necrosis）"],
+          ["輸尿管 — 管壁", "腫瘤浸潤"],
+          ["輸尿管 — 外部壓迫", "**後腹膜纖維化**、腫瘤、膿瘍、**手術誤傷**"]
+        ]},
+        {"type": "heading", "text": "診斷"},
+        {"type": "list", "ordered": false, "items": [
+          "症狀依部位而定：**絞痛放射至鼠蹊**（輸尿管）、夜尿/頻尿/解尿遲疑（攝護腺）、**恥骨上脹痛**（膀胱漲大）；可完全無症狀",
+          "尿沉渣多半乾淨，但依病因可有血尿、膿尿",
+          "**膀胱導尿**：診斷兼治療（殘尿量大 → 下泌尿道阻塞）",
+          "**腎臟超音波 / CT**：集尿系統擴張、**水腎合併輸尿管擴張**",
+          "⚠ **影像可能偽陰性**：嚴重脫水、後腹膜纖維化、腫瘤包覆、阻塞早期 → 懷疑度高時做**順行或逆行腎盂攝影**"
+        ]},
+        {"type": "heading", "text": "治療"},
+        {"type": "list", "ordered": false, "items": [
+          "**尿道或膀胱功能性問題**：經尿道或**恥骨上導尿**通常就足夠",
+          "**輸尿管阻塞**：**經皮腎造廔（percutaneous nephrostomy）** 或 **輸尿管支架（ureteral stent）**",
+          "**阻塞後利尿（post-obstructive diuresis）**：解除阻塞後數天內出現適當的利尿；少數因小管功能異常造成**嚴重多尿**，需持續 IV 補充水分與電解質",
+          "阻塞 + 感染（阻塞性腎盂腎炎）= **泌尿科急症**，需立即引流（見泌尿道感染筆記）"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2421, 2423, 2427"}
+      ]
+    },
+    {
+      "title": "處置、透析適應症與預後",
+      "content": [
+        {"type": "callout", "style": "guideline", "text": "**AKI 處置的共同原則**（Harrison Table 321-3）\n1. **最佳化全身與腎臟血流動力學**：容積復甦 + 適當使用升壓劑；**MAP > 65 mmHg**\n2. **移除腎毒性藥物**：ACEi/ARB、NSAID、aminoglycoside、化療藥、免疫檢查點抑制劑、抗生素（若可行）\n3. **營養**：熱量 **20–30 kcal/kg/day**，避免負氮平衡；能用腸道就用腸道\n4. **藥物劑量依腎功能調整**（AKI 時 SCr 會**高估**腎功能）\n5. 有適應症時開始**腎臟替代療法**"},
+        {"type": "heading", "text": "AKI 的併發症與處理"},
+        {"type": "table", "headers": ["併發症", "重點", "處理"], "rows": [
+          ["**體液過多**", "少尿/無尿 AKI 的主要併發症 → **急性肺水腫**；AKI 也增加肺血管通透性", "**限鹽限水 + 利尿劑**（嚴重者 furosemide **200 mg IV bolus**，再 **10–40 mg/h** 滴注 ± thiazide）；無效 → 超過濾/透析"],
+          ["**高血鉀**", "最危險；橫紋肌溶解、溶血、TLS 特別嚴重", "Ca gluconate 穩定心肌 → insulin+glucose、β-agonist 轉移 → loop diuretic、K binder（SZC、patiromer）排出 → 透析（詳見離子平衡筆記）"],
+          ["**代謝性酸中毒**", "常為**高 AG**", "**pH < 7.2 且 HCO₃⁻ < 15** 才補 NaHCO₃，目標 HCO₃⁻ > 15；**避免矯正過頭**（鹼中毒、低鈣、低鉀、容積過多）"],
+          ["**低血鈉**", "給太多低張液或含 dextrose 溶液", "限制自由水；高張食鹽水、vaptan 很少需要"],
+          ["**高磷 / 低鈣**", "TLS、橫紋肌溶解最明顯", "限磷 + **磷結合劑**（calcium acetate、sevelamer、aluminum hydroxide，隨餐）；**低鈣有症狀才補**；低白蛋白時看**游離鈣**"],
+          ["**高血鎂**", "含鎂制酸劑", "停用"],
+          ["**尿毒症**", "BUN < 100 mg/dL 本身毒性小；意識改變、出血", "透析"],
+          ["**出血 / 貧血**", "尿毒血小板功能異常；貧血多因素", "**ESA 無效**；尿毒出血 → **desmopressin、雌激素**、透析"],
+          ["**感染**", "AKI 常見誘因，也是可怕的併發症", "—"],
+          ["**心臟**", "心律不整、**心包膜炎、心包積液**", "尿毒心包膜炎 → 透析"],
+          ["**營養不良**", "AKI 是高度分解代謝狀態", "見下方營養建議"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**已被證實無效的治療**（必考）\n- **低劑量 dopamine**：可能暫時增加尿量，但**無法改善 AKI 預後**，還有心律不整、腸缺血風險 → **不建議**\n- 利尿劑：增加尿量**不改變 AKI 自然病程**，但可能幫忙避免透析\n- 其他失敗的藥物：ANP、endothelin 拮抗劑、EPO、前列腺素類似物、抗氧化劑、幹細胞、p53 siRNA……\n\n**營養（KDIGO）**：熱量 20–30 kcal/kg/day；蛋白質\n- 無分解代謝、不需透析：**0.8–1.0 g/kg/day**\n- 透析中：**1.0–1.5 g/kg/day**\n- 高度分解代謝且接受 CRRT：最多 **1.7 g/kg/day**\n→ AKI **不應過度限制蛋白質**（和 CKD 不同）；透析/CRRT 病人要補微量元素與水溶性維生素\n\n**其他支持治療**：PPI/H2 blocker 預防 GI 出血（但留意 PPI → AIN）；VTE 預防——**LMWH、Xa 抑制劑在嚴重 AKI 藥動學不可預測，盡量避免**"},
+        {"type": "heading", "text": "依病因的特定治療（回顧）"},
+        {"type": "table", "headers": ["病因", "治療"], "rows": [
+          ["腎前性", "恢復灌流（第 3 章）"],
+          ["HRS", "terlipressin / norepinephrine / octreotide + midodrine **+ albumin**；根治為肝移植"],
+          ["缺血 / 敗血症 ATN", "**沒有特效藥** → 支持療法、等待恢復"],
+          ["橫紋肌溶解", "大量輸液（可達 10 L/day），尿量 200–300 mL/h"],
+          ["TLS", "輸液 + allopurinol / rasburicase"],
+          ["AIN", "停藥 ± 類固醇"],
+          ["GN / 血管炎", "免疫抑制、抗補體、血漿置換"],
+          ["TTP / aHUS", "血漿置換 / 補體阻斷"],
+          ["硬皮症腎危象", "**ACEi**"],
+          ["腎後性", "導尿、腎造廔、支架"]
         ]},
         {"type": "heading", "text": "緊急透析適應症 — AEIOU"},
-        {"type": "callout", "style": "guideline", "text": "**A** — Acidosis (嚴重代謝性酸中毒)\n**E** — Electrolyte (高血鉀，藥物無法控制)\n**I** — Intoxication (中毒：Methanol, Ethylene glycol, Salicylates)\n**O** — Overload (體液過多致急性肺水腫)\n**U** — Uremia (Uremic pericarditis, Uremic encephalopathy)"},
-        {"type": "callout", "style": "logic", "text": "透析時機：\n- sCr > 6 mg/dL 或 CCR < 15 mL/min 且合併以上 AEIOU 任一情況\n- STARRT-AKI trial：早期 vs 延遲透析在存活率上無顯著差異\n- CRRT (連續性) vs IHD (間歇性)：hemodynamically unstable 患者優先考慮 CRRT"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "80-81"}
-      ]
-    },
-    {
-      "title": "Prognosis / Follow-up",
-      "content": [
+        {"type": "callout", "style": "guideline", "text": "**A** — Acidosis：嚴重代謝性酸中毒，內科治療無效\n**E** — Electrolyte：**高血鉀**，內科治療無效\n**I** — Intoxication：可透析的中毒（**methanol、ethylene glycol、salicylate、lithium** 等）\n**O** — Overload：**體液過多**（肺水腫）利尿劑無效\n**U** — Uremia：嚴重尿毒症併發症——**asterixis、心包摩擦音或積液、腦病變、尿毒出血**"},
+        {"type": "callout", "style": "logic", "text": "**透析時機：早一點還是晚一點？**\n- 太晚：可避免的容積、電解質、代謝併發症\n- 太早：不必要的中央導管、感染、出血、低血壓\n- **RCT（STARRT-AKI 2020 等）：早期 vs 延遲透析不改善存活，早期組不良事件反而較多**\n- 但**不要等到出現致命併發症**才開始；許多腎臟科醫師在 BUN 超過某值（例如 **100 mg/dL**）且沒有恢復跡象時開始"},
+        {"type": "table", "headers": ["模式", "特點", "適用"], "rows": [
+          ["**間歇性血液透析 (IHD)**", "每次 **3–4 h**、每週 **3–4 次**；擴散 + 對流；**AKI 最常用**", "血流動力學穩定者；主要併發症是**低血壓**（可能再傷恢復中的腎臟）"],
+          ["**CRRT**", "連續進行；**CVVH**（對流，大量超過濾 + 置換液）、**CVVHD**（擴散）、**CVVHDF**（兩者）", "**血流動力學不穩定、腦水腫、嚴重容積過多**"],
+          ["**SLED / EDD**", "血流與透析液流速比 CVVHD 高，時間縮短到 ≤ 12 h；不需 24 小時人力", "介於 IHD 與 CRRT 之間"],
+          ["**腹膜透析 (PD)**", "暫時性腹腔導管；連續進行、對低血壓耐受較好", "美國成人 AKI 少用；**高度分解代謝者清除可能不足**"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**透析劑量與模式的證據**\n- 每日 IHD、高劑量 CRRT → **沒有**存活或腎功能恢復的優勢（但要避免治療不足）\n- **連續性治療並沒有比間歇性治療提高存活率** → CRRT 的優勢在於**血流動力學穩定**，不是存活"},
+        {"type": "heading", "text": "預後與追蹤"},
         {"type": "list", "ordered": false, "items": [
-          "**Prerenal AKI**：恢復灌流後預後最佳（除 cardiorenal 和 hepatorenal syndrome）",
-          "**Postrenal AKI**：解除阻塞後通常可恢復",
-          "**Intrinsic AKI (ATN)**：腎小管可再生，但嚴重者可能遺留 CKD",
-          "AKI 存活者中高達 **10% 進展至 ESKD** 需長期透析",
-          "AKI 後心血管事件風險顯著增加",
-          "AKI 後應由腎臟科追蹤，監測 albuminuria 以預測進展風險"
+          "AKI 增加**住院與長期死亡率**、住院天數、醫療費用，以及**日後心血管事件**",
+          "**腎前性（心腎、肝腎症候群除外）與腎後性**預後優於多數腎因性 AKI",
+          "即使需要透析的嚴重 AKI，腎臟仍可能恢復；但**曾需暫時透析的存活者**進展為 CKD 的風險極高，**最多 10% 進展到 ESKD**",
+          "**AKI 與 CKD 互為危險因子**：CKD 是 AKI 的主要危險因子；AKI 後修復不完全（maladaptive repair）→ 纖維化 → CKD",
+          "AKI 後測量 **albuminuria** 可預測腎病進展、做風險分層",
+          "出院後由**腎臟科追蹤**，積極做次級預防"
         ]},
-        {"type": "callout", "style": "logic", "text": "AKI → CKD 的連結：\nAKI 造成不完全修復 → maladaptive tubular repair → 纖維化 → CKD\n反之 CKD 患者也更容易發生 AKI（腎臟儲備功能下降）"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2426-2427"}
+        {"type": "source", "book": "Harrison's 22e", "pages": "2425-2428"}
       ]
     },
     {
-      "title": "Special Populations",
+      "title": "臨床題練習",
       "content": [
-        {"type": "heading", "text": "顯影劑腎病 (Contrast-Induced AKI)"},
-        {"type": "callout", "style": "guideline", "text": "高風險族群：CKD (eGFR < 30)、DM + CKD、脫水\n預防：\n- 充足水化 (IV NS 或 NaHCO₃)\n- 使用 iso-osmolar 或 low-osmolar 顯影劑\n- 盡量減少顯影劑用量\n- NAC (N-acetylcysteine) 效果不確定"},
-        {"type": "heading", "text": "Hepatorenal Syndrome (HRS)"},
-        {"type": "list", "ordered": false, "items": [
-          "肝硬化 + 腹水患者出現的功能性腎衰竭",
-          "內臟血管擴張 → 有效循環量不足 → 腎臟灌流減少",
-          "FENa < 1%，但補液無法改善",
-          "治療：Terlipressin + Albumin；終極治療為**肝臟移植**"
-        ]},
-        {"type": "heading", "text": "Rhabdomyolysis"},
-        {"type": "callout", "style": "trap", "text": "特徵：CK 極度升高 (> 10,000)、Myoglobinuria (尿液 heme + 但 RBC 少)、高血鉀、高磷、低鈣、高尿酸\n治療：大量 IV fluid (目標尿量 200-300 mL/h) + 鹼化尿液 (NaHCO₃) + 避免 Ca2+ 補充 (除非有症狀)"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2420-2424"}
-      ]
-    },
-    {
-      "title": "High-Yield Exam Points",
-      "content": [
-        {"type": "callout", "style": "trap", "text": "考試必考重點：\n1. Prerenal vs ATN 鑑別 → **FENa < 1% vs > 1%, BUN/Cr > 20 vs < 15**\n2. 使用 Diuretics 時 FENa 不準 → 改用 **FeUN < 35%**\n3. AIN 三聯徵 → **發燒 + 皮疹 + Eosinophilia** + WBC cast\n4. Rhabdomyolysis → **尿 Heme (+) 但 RBC (-)** + CK 極高\n5. 緊急透析 → **AEIOU** (Acidosis/Electrolyte/Intoxication/Overload/Uremia)\n6. 低劑量 dopamine → **無效**，不建議\n7. NSAID + ACEi/ARB → 雙重打擊，脫水者風險最高"},
-        {"type": "table", "headers": ["Urine finding", "提示"], "rows": [
-          ["Hyaline casts", "Prerenal (正常也可見)"],
-          ["Muddy brown granular casts", "ATN"],
-          ["RBC casts / Dysmorphic RBC", "Glomerulonephritis (RPGN)"],
-          ["WBC casts", "AIN or Pyelonephritis"],
-          ["Eosinophiluria", "AIN (藥物過敏)"],
-          ["Waxy casts", "CKD (慢性腎臟病)"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "AKI 處理速查：\n- Prerenal → **補液** (Balanced crystalloid 首選)\n- ATN → **支持療法** + 移除誘因\n- AIN → **停藥** ± Steroids\n- Postrenal → **解除阻塞** (Foley catheter / nephrostomy)\n- RPGN → 腎臟急症！**Pulse steroids + Cyclophosphamide ± Plasmapheresis**"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "72-81"}
+        {"type": "callout", "style": "logic", "text": "**每題都照這個順序想**：\n① 是不是 AKI？第幾期？ ② 有沒有阻塞？ ③ 容積狀態？ ④ 尿沉渣 + 尿液指數 → 哪一類？ ⑤ 有沒有需要緊急處理的併發症（K、酸、水、尿毒）？"},
+        {"type": "collapsible", "summary": "Q1：72 歲男性，腹瀉 3 天。服用 lisinopril，最近因膝痛自行吃 ibuprofen。BP 98/60、HR 108。BUN 60、Cr 2.4（基線 1.0）。尿 Na 8、尿 Cr 120、血 Na 140", "text": "**① AKI 分期**：2.4 / 1.0 = 2.4 倍 → **Stage 2**\n**② FENa** = (8 × 2.4) / (140 × 120) × 100% = **0.11%** → < 1%\n**③ BUN/Cr** = 25 → > 20\n**④ 臨床**：腹瀉 + 心搏過速 + 低血壓 → 低血容\n\n**結論**：**腎前性 AKI**——低血容 + **NSAID + ACEi 雙重打擊**（再加上脫水 = triple whammy 的情境）\n\n**處置**：補充晶體液、**停 ibuprofen 與 lisinopril**；預期輸液後 Cr 回到基線（這本身就是診斷）"},
+        {"type": "collapsible", "summary": "Q2：心衰竭病人每天吃 furosemide 80 mg，最近食慾差、喝水少。Cr 1.2 → 2.0。FENa 2.5%、FEUrea 22%", "text": "**FENa 2.5%** 看起來像 ATN，但病人在用**利尿劑** → FENa 不可信\n**FEUrea 22%（< 35%）** → 支持**腎前性**\n\n**結論**：**過度利尿 + 攝取不足造成的腎前性 AKI**（Stage 1：1.67 倍）\n\n**處置**：暫停/減少利尿劑、小心補液（注意心衰竭）、追蹤體重與肺部"},
+        {"type": "collapsible", "summary": "Q3：ICU 敗血性休克第 3 天，使用 norepinephrine。尿量 15 mL/h × 24 h。Cr 1.0 → 3.4。尿沉渣 muddy brown granular cast；FENa 3%、尿滲透壓 310。K 6.4 伴 peaked T、pH 7.12、HCO₃⁻ 10、雙側肺浸潤需高 FiO₂", "text": "**分期**：Cr 3.4 倍 + 尿量 < 0.3 mL/kg/h ≥ 24 h → **Stage 3**\n**分類**：muddy brown cast + FENa > 1% + 等張尿 → **敗血症相關 ATN**\n\n**透析適應症（AEIOU）**：\n- **A**：pH 7.12、HCO₃⁻ 10 → 嚴重酸中毒\n- **E**：K 6.4 + ECG 變化\n- **O**：肺水腫、氧合差\n→ **需要緊急透析**；先給 **Ca gluconate** 穩定心肌、insulin + glucose\n\n**模式**：**血流動力學不穩定（升壓劑中）→ CRRT**"},
+        {"type": "collapsible", "summary": "Q4：25 歲男性，炎熱天氣跑完全馬後尿呈可樂色、肌肉痠痛。Dipstick 潛血 3+，顯微鏡 RBC 0–2/HPF。CK 45,000、K 6.0、P 7.2、Ca 7.0、Cr 2.1", "text": "**關鍵線索**：**潛血 (+) 但沒有 RBC** → 肌紅素尿；CK 極高 → **橫紋肌溶解**\n\n**處置**：\n- **早期大量 IV 輸液**（初期可達 10 L/day），目標**尿量 200–300 mL/h**\n- 可考慮鹼性輸液（但會加重低鈣）\n- 處理高血鉀\n- **Ca 7.0 沒有症狀就不要補鈣**：鈣會沉積在受損肌肉，恢復期釋放 → 高血鈣\n\n**和 TLS 的區別**：TLS 的 CK 正常、尿酸極高"},
+        {"type": "collapsible", "summary": "Q5：68 歲女性，因胃食道逆流服用 omeprazole 3 個月；這兩週 Cr 從 1.0 升到 2.6。沒有發燒、皮疹。尿液：WBC 20–30/HPF、WBC cast、培養陰性。超音波雙腎稍大", "text": "**關鍵線索**：**無菌性膿尿 + WBC cast** + 腎臟變大 + 長期 **PPI** → **急性間質性腎炎 (AIN)**\n\n**陷阱**：**沒有發燒、皮疹、嗜酸性球增多不能排除 AIN**——三聯徵其實少見，PPI 引起的 AIN 尤其常常沒有過敏表現\n\n**處置**：**停 PPI**（改 H2 blocker）；停藥後腎功能未改善或惡化 → 考慮類固醇；診斷不確定時做**腎臟切片**"},
+        {"type": "collapsible", "summary": "Q6：70 歲男性，3 週前做心導管。這兩週 Cr 從 1.3 緩慢升到 3.0。雙腳趾發紫、livedo reticularis。嗜酸性球 9%、C3 偏低", "text": "**鑑別**：顯影劑 AKI vs **膽固醇栓塞**\n- 顯影劑：24–48 h 上升、**3–5 天高峰、1 週內恢復** → 時間不符\n- 本例：**數週後亞急性惡化** + **livedo、藍趾** + **嗜酸性球↑、低補體** → **膽固醇栓塞（atheroembolic disease）**\n\n**確診**：皮膚或腎臟切片（**膽固醇裂隙**）\n**處置**：支持療法；常不完全恢復；避免再做主動脈操作、抗凝要謹慎"},
+        {"type": "collapsible", "summary": "Q7：78 歲男性，感冒自行服用含 diphenhydramine 的成藥後，下腹脹痛、尿滴滴答答。Cr 3.5（基線 1.1）。超音波：雙側水腎、膀胱漲大", "text": "**關鍵**：老年男性 + **抗膽鹼藥物** + 膀胱漲大 + **雙側水腎** → **膀胱頸阻塞的腎後性 AKI**（BPH 為背景）\n\n**處置**：\n- **放 Foley 導尿管**（診斷兼治療）\n- 停用抗膽鹼藥物\n- 注意**阻塞後利尿**：解除後數天大量排尿 → 監測尿量、電解質，必要時補充\n\n**為什麼尿液「滴滴答答」還會 AKI？** 溢流性尿失禁——尿量不等於腎臟沒有阻塞"},
+        {"type": "collapsible", "summary": "Q8：55 歲酒精性肝硬化合併腹水，因 SBP 住院。Cr 1.1 → 2.5。停利尿劑並給白蛋白 2 天後 Cr 仍 2.6。無休克、無腎毒性藥物。FENa 0.1%、尿沉渣乾淨、尿蛋白陰性", "text": "**分析**：肝硬化 + 腹水 + SBP 誘發；**容積擴充、停利尿劑後仍無改善**；FENa 極低、尿液乾淨、無腎實質病變證據 → **肝腎症候群（HRS-AKI，舊稱 type 1）**\n\n**處置**：\n- 持續治療 SBP\n- **Terlipressin**（或 norepinephrine，或 octreotide + midodrine）**+ IV 白蛋白**\n- **評估肝臟移植**（唯一根治）\n\n**預防觀念**：SBP 用抗生素治療時合併**白蛋白**可預防 AKI"},
+        {"type": "collapsible", "summary": "Q9：62 歲女性，Burkitt 淋巴瘤開始化療 2 天後。K 6.5、P 9.0、Ca 6.8、尿酸 16、CK 正常、Cr 0.8 → 2.9", "text": "**診斷**：化療後 + **高鉀、高磷、低鈣、尿酸極高**、**CK 正常** → **腫瘤溶解症候群 (TLS)**，尿酸結晶阻塞小管\n\n**處置**：\n- **積極 IV 輸液**\n- **Rasburicase**（已發生高尿酸時優於 allopurinol）\n- 處理高鉀\n- 內科處置無效（高鉀、高磷、少尿）→ **透析**\n\n**預防**：高風險病人化療前就開始水化 + allopurinol/rasburicase"},
+        {"type": "collapsible", "summary": "Q10：66 歲男性，背痛、疲倦。Hb 8.5、Ca 12.0、Na 140、Cl 108、HCO₃⁻ 28、白蛋白 3.5、Cr 3.2。Dipstick 蛋白陰性，但 24 小時尿蛋白 3 g", "text": "**AG** = 140 − (108 + 28) = **4** → **AG 偏低**（未測量陽離子：單株免疫球蛋白）\n**Dipstick 陰性但尿蛋白很多** → dipstick 只測 albumin → 尿中是**輕鏈**\n**貧血 + 高血鈣 + 背痛（骨病變）+ 腎衰竭** = CRAB\n\n**診斷**：**多發性骨髓瘤 — cast nephropathy**（輕鏈 + Tamm-Horsfall protein 阻塞）合併高血鈣造成的腎血管收縮與脫水\n\n**下一步**：**SPEP/UPEP、免疫固定電泳、血清 free light chain**；骨髓切片\n**處置**：水化、治療高血鈣、**避免 NSAID 與顯影劑**、針對骨髓瘤治療"},
+        {"type": "callout", "style": "trap", "text": "**考前速查**\n1. KDIGO：**48 h 內 ≥ 0.3** 或 **7 天內 ≥ 1.5 倍** 或 **尿量 < 0.5 mL/kg/h × 6 h**\n2. 腎前 vs ATN：**FENa < 1% vs > 1%**、BUN/Cr > 20、尿滲透壓 > 500 vs < 350\n3. 用利尿劑 → 看 **FEUrea < 35%**\n4. 腎因性卻 FENa < 1%：**早期敗血症、顯影劑、橫紋肌溶解、早期 GN**\n5. **潛血 (+) 但 RBC (−)** → 肌紅素/血紅素尿\n6. **AG 低 + dipstick 陰性的蛋白尿** → 骨髓瘤\n7. **高 AG + 滲透壓間隙 + 草酸鈣結晶** → 乙二醇\n8. 顯影劑：**24–48 h 上升、3–5 天高峰、1 週恢復**；膽固醇栓塞：**數週、livedo、嗜酸性球、低補體**\n9. Aminoglycoside：**5–7 天後、非少尿、低血鎂**\n10. 硬皮症腎危象 → **ACEi**；TTP → **血漿置換**；aHUS → **補體阻斷**\n11. **低劑量 dopamine 無效**\n12. 透析：**AEIOU**；早期透析不改善存活；血流動力學不穩 → **CRRT**\n13. AKI 蛋白質**不要過度限制**（0.8–1.7 g/kg/day）"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2415-2428"}
       ]
     }
   ],
   "related": [
     {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
-    {"id": "nephrotic-syndrome", "name": "Nephrotic Syndrome (腎病症候群)"}
+    {"id": "electrolyte-disorders", "name": "Electrolyte Disorders (離子平衡異常)"},
+    {"id": "acid-base-disorders", "name": "Acid-Base Disorders (酸鹼平衡異常)"},
+    {"id": "nephrotic-syndrome", "name": "Nephrotic Syndrome (腎病症候群)"},
+    {"id": "urinary-tract-infection", "name": "Urinary Tract Infection (泌尿道感染)"}
   ]
 }

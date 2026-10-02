@@ -5,223 +5,363 @@
   "title_zh": "慢性腎臟病",
   "specialty": "腎臟內科",
   "sources": [
-    "Harrison's 22e - Ch.322 Chronic Kidney Disease (p.2386-2400)",
+    "Harrison's 22e - Ch.322 Chronic Kidney Disease (p.2428-2440)",
+    "Harrison's 22e - Ch.323 Dialysis in the Treatment of Kidney Failure (p.2441-2444)",
+    "Harrison's 22e - Ch.325 Kidney Transplantation (p.2448-2453)",
     "First Choice 醫學(三) - 丁、腎臟疾病各論A (p.80-98)",
     "First Choice 醫學(三) - 己、透析治療 (p.142-154)"
   ],
-  "generated": "2026-09-11",
+  "generated": "2026-10-03",
   "sections": [
     {
-      "title": "Overview / Epidemiology",
+      "title": "總覽：定義、KDIGO 分期與腎功能評估",
       "content": [
-        "Chronic Kidney Disease (CKD) 是指腎臟結構或功能異常持續 > 3 個月，以 eGFR 下降或白蛋白尿為標誌。",
-        {"type": "callout", "style": "guideline", "text": "**KDIGO CKD 診斷標準**（符合任一，持續 > 3 個月）：\n- eGFR < 60 mL/min/1.73m²\n- Albuminuria (UACR ≥ 30 mg/g)\n- 尿液沉渣異常\n- 腎小管功能障礙所致電解質異常\n- 組織學異常\n- 影像學結構異常\n- 腎臟移植病史"},
-        {"type": "table", "headers": ["GFR 分期", "eGFR (mL/min/1.73m²)", "描述"], "rows": [
-          ["G1", "≥ 90", "正常或升高"],
-          ["G2", "60-89", "輕度下降"],
-          ["G3a", "45-59", "輕至中度下降"],
-          ["G3b", "30-44", "中至重度下降"],
-          ["G4", "15-29", "重度下降"],
-          ["G5", "< 15", "腎衰竭 (Kidney failure)"]
+        {"type": "callout", "style": "logic", "text": "**這份筆記的讀法**\nCKD 是一條**時間軸**：早期沒症狀 → 中期出現各系統併發症 → 末期需要替代療法。讀的順序就照這條線：\n- 第 0–1 章：怎麼**分期**、為什麼會**一路惡化**（hyperfiltration）\n- 第 2 章：**延緩惡化**——ACEi/ARB、SGLT2i、血壓、酸中毒（考最多）\n- 第 3–5 章：**併發症**依系統拆開；電解質、酸鹼、貧血只寫「CKD 角度」的重點，完整機轉連到對應筆記\n- 第 6 章：**透析與移植**\n- 第 7 章：臨床題練習\n\n**一句話總結**：CKD 的病人大多**死於心血管疾病**，而不是走到洗腎。"},
+        {"type": "callout", "style": "guideline", "text": "**KDIGO CKD 定義**：腎臟**結構或功能異常持續 > 3 個月**，且對健康有影響。符合任一：\n- **eGFR < 60 mL/min/1.73 m²**\n- **白蛋白尿**（UACR ≥ 30 mg/g）\n- 尿沉渣異常、小管功能異常造成的電解質異常\n- 組織學或影像學結構異常\n- 腎臟移植病史"},
+        {"type": "table", "headers": ["GFR 分期", "eGFR (mL/min/1.73 m²)", "描述"], "rows": [
+          ["G1", "≥ 90", "正常或升高（需有腎損傷證據）"],
+          ["G2", "60–89", "輕度下降"],
+          ["G3a", "45–59", "輕至中度下降"],
+          ["G3b", "30–44", "中至重度下降"],
+          ["G4", "15–29", "重度下降 → 開始準備替代療法"],
+          ["G5", "< 15", "腎衰竭（舊稱 ESRD）"]
         ]},
-        {"type": "table", "headers": ["Albuminuria 分期", "UACR (mg/g)", "描述"], "rows": [
-          ["A1", "< 30", "正常至輕微增加"],
-          ["A2", "30-300", "中度增加 (microalbuminuria)"],
-          ["A3", "> 300", "嚴重增加 (macroalbuminuria)"]
+        {"type": "table", "headers": ["白蛋白尿分期", "UACR (mg/g)", "舊稱"], "rows": [
+          ["A1", "< 30", "正常至輕度增加"],
+          ["A2", "30–300", "中度增加（microalbuminuria）"],
+          ["A3", "> 300", "重度增加（macroalbuminuria）"]
         ]},
-        "美國成人 CKD 盛行率：G1-G2 約 6%，G3-G4 約 4.5%。大多數 CKD 患者死於心血管疾病，未進展至 G5。",
-        {"type": "source", "book": "Harrison's 22e", "pages": "2386-2389"}
+        {"type": "table", "headers": ["風險（KDIGO 熱圖）", "A1", "A2", "A3"], "rows": [
+          ["G1–G2", "低（無 CKD 若無其他證據）", "中", "高"],
+          ["G3a", "中", "高", "極高"],
+          ["G3b", "高", "極高", "極高"],
+          ["G4–G5", "極高", "極高", "極高"]
+        ]},
+        {"type": "figure", "src": "figures/chronic-kidney-disease/h322-1.png", "label": "Harrison's 22e Fig. 322-1", "caption": "依 GFR 與白蛋白尿分層的全死因死亡、心血管死亡、腎衰竭風險",
+          "explain": "**【怎麼看】**三張長條圖的 x 軸都是 **GFR 分組**，每組五根柱子是**不同程度的白蛋白尿**（藍 < 10 → 深藍 > 1000 mg/g）：\n- **A 全死因死亡**、**B 心血管死亡**：GFR 越低越高；**同一個 GFR 下，白蛋白尿越多風險越高**\n- **C 進展到需替代療法的腎衰竭**：GFR > 45 時幾乎是零，**GFR < 30 後才陡升**\n**【考點】**這就是 KDIGO 為什麼要用 **G + A 兩軸**分期：白蛋白尿是**獨立**的危險因子。另外注意 A、B 圖中 **GFR > 105** 的風險反而上升（肌肉量少造成 eGFR 假性偏高）。比較 B 和 C：多數 CKD 病人**在走到腎衰竭之前就死於心血管疾病**。"},
+        {"type": "heading", "text": "腎功能怎麼量"},
+        {"type": "table", "headers": ["工具", "重點"], "rows": [
+          ["**eGFR（以 SCr 估算）**", "Harrison 列 **MDRD** 與 **CKD-EPI** 公式；新建議為**不含種族校正的 CKD-EPI（race-free）**。**只有在 SCr 穩定時才有效**"],
+          ["**Cystatin C**", "不受肌肉量影響；肌肉量異常（截肢、肌少症、健美者）時可用"],
+          ["**Cockcroft-Gault**", "估算 CrCl，含體重；傳統用於**藥物劑量調整**：(140 − 年齡) × 體重 / (72 × SCr)，女性 × 0.85"],
+          ["**UACR**（隨機尿白蛋白/肌酸酐比）", "取代 24 小時尿；**一次以上清晨尿**；dipstick 陰性也可能異常"],
+          ["**KFRE**（Kidney Failure Risk Equation）", "用**年齡、性別、地區、eGFR、UACR** 預測進展到需透析的風險（kidneyfailurerisk.com）"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**年齡與 eGFR**\n- GFR 在 30 歲左右達高峰（~120），之後每年下降約 **1 mL/min/1.73 m²**，70 歲平均約 70\n- **80 多歲女性 SCr「正常」，GFR 可能 < 50**；老人 SCr 輕微上升往往代表 GFR 大幅下降\n- 女性平均 GFR 較低，但**男性 CKD 風險較高**\n\n**誰要篩檢？** 不建議全民篩檢；**有危險因子者每年追蹤 UACR、eGFR、血壓**。\n\n**何時轉介腎臟科？** G2–G3 且穩定、無蛋白尿 → 多數不會再惡化，可定期追蹤；**eGFR 持續下降、白蛋白尿、難控制的高血壓** → 轉介。"},
+        "**流行病學**：美國成人約 **6%** 為 CKD G1–G2，另約 **4.5%** 為 G3–G4。G1–G2 通常無症狀；**G3–G4 才開始出現明顯併發症**（貧血、食慾差、營養不良、鈣磷代謝異常、鈉鉀水與酸鹼異常）；**G5（GFR < 15）**時毒素累積 → **尿毒症候群**。",
+        {"type": "source", "book": "Harrison's 22e", "pages": "2428-2431"}
       ]
     },
     {
-      "title": "Etiology / Risk Factors",
+      "title": "病因、危險因子與惡化機轉",
       "content": [
-        {"type": "heading", "text": "CKD 五大病因 (佔 > 90%)"},
+        {"type": "heading", "text": "五大病因（佔全球 CKD > 90%）"},
         {"type": "table", "headers": ["病因", "說明"], "rows": [
-          ["糖尿病腎病變 (Diabetic nephropathy)", "北美/歐洲最常見；Type 2 DM 為主"],
-          ["腎絲球腎炎 (Glomerulonephritis)", "亞洲常見原因；IgA nephropathy 為成人最常見原發性腎炎"],
-          ["高血壓相關 CKD", "包含血管性/缺血性腎病；注意部分可能是潛在 GN 導致 HTN"],
-          ["ADPKD (多囊腎)", "自體顯性遺傳；PKD1/PKD2 基因突變"],
-          ["其他囊性及間質性腎病", "反覆感染、阻塞、鎮痛劑腎病"]
+          ["**糖尿病腎病變**", "**北美與歐洲最常見**，多為第 2 型 DM；也是 ESKD 最主要原因（~45%）"],
+          ["**腎絲球腎炎**", "亞洲較重要；IgA nephropathy 為最常見的原發性 GN"],
+          ["**高血壓相關 CKD**", "含血管性/缺血性腎病；**部分其實是潛在的腎絲球病變（如 FSGS）造成高血壓**，不是高血壓造成 CKD；老年人的慢性腎缺血常被低估"],
+          ["**ADPKD**", "最常見的孟德爾遺傳性 CKD；腎臟**變大**、多發囊腫"],
+          ["其他囊性與小管間質疾病", "阻塞、反流、藥物（鋰鹽、止痛劑、馬兜鈴酸）"]
         ]},
-        {"type": "heading", "text": "危險因子"},
-        {"type": "list", "ordered": false, "items": [
-          "**不可修改**：年齡、男性、家族史、APOL1 基因 (African ancestry)、早產/SGA",
-          "**可修改**：DM、HTN、肥胖 (BMI↑)、吸菸、久坐",
-          "**感染**：HIV (HIVAN)、HBV/HCV、SARS-CoV-2",
-          "**藥物/毒物**：NSAID、Lithium、PPI、化療藥",
-          "**其他**：AKI 病史 (AKI → CKD 連結)、子癇前症、單側腎"
+        {"type": "heading", "text": "危險因子（Table 322-1）"},
+        {"type": "table", "headers": ["類別", "例子"], "rows": [
+          ["非傳染性疾病", "**糖尿病、高血壓**、肥胖、自體發炎疾病（狼瘡、血管炎、癌症免疫治療）、**腎毒性暴露**（含許多抗癌藥）"],
+          ["感染", "鏈球菌、結核、**HIV（HIVAN）**、**HBV、HCV**、SARS-CoV-2"],
+          ["人口學", "年齡、男性、族裔、家族史、特定地區（中美洲、斯里蘭卡等原因不明的地方性腎病）"],
+          ["遺傳", "單基因（高/低外顯率）、多基因；**APOL1**"],
+          ["兒童期", "**早產、SGA**、持續顯微血尿、兒童腎病（即使已痊癒）、兒童癌症治療史"],
+          ["生活型態", "**吸菸、久坐**"],
+          ["其他", "**AKI 病史**（即使臨床恢復）、**子癇前症**、**捐腎**或其他腎切除"]
         ]},
-        {"type": "callout", "style": "logic", "text": "eGFR 每年自然下降約 1 mL/min（正常老化），但有 CKD 危險因子者下降速率顯著加快。若 eGFR 穩定且無蛋白尿，多數 G2-G3 患者不會進一步惡化。"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2387-2389"}
-      ]
-    },
-    {
-      "title": "Pathophysiology",
-      "content": [
-        {"type": "heading", "text": "腎元減少 → 代償性 Hyperfiltration"},
+        {"type": "callout", "style": "logic", "text": "**遺傳因素可佔成人 CKD 的 20%**\n- 單基因：**ADPKD**（PKD1/PKD2）、**第 IV 型膠原蛋白腎病**（COL4A3/4/5 → Alport）、ADTKD（UMOD、MUC1、HNF1B）、nephronophthisis\n- **APOL1 風險等位基因**（撒哈拉以南非洲血統）：FSGS、HIV 與 COVID 相關腎病、高血壓相關 CKD、狼瘡腎炎風險數倍；推測是對熱帶病原（錐蟲）的演化適應；需要「第二擊」（如 interferon-γ）才發病\n- 基因檢測適應症：家族史、近親婚配、腎外表現（聽力、視力、發展遲緩）、**類固醇抵抗性腎病症候群**、囊性腎病、年輕不明原因 CKD、移植前不明原因腎衰竭"},
+        {"type": "heading", "text": "為什麼 CKD 會一路惡化：Hyperfiltration"},
+        "CKD 的惡化有兩條路：(1) **病因特有**的損傷（免疫複合體、代謝、毒素……）；(2) **與病因無關的共同路徑**——殘存腎元**過度過濾與肥大**。",
+        {"type": "figure", "src": "figures/chronic-kidney-disease/h322-2.jpg", "label": "Harrison's 22e Fig. 322-2", "caption": "腎絲球內高壓對腎元存活的影響",
+          "explain": "**【怎麼看】**左右兩個腎元對照：\n- **A 正常**：入球與出球小動脈口徑平衡，小管內沒有蛋白\n- **B 腎元減少後的殘存腎元**：**Ang II↑** 使**出球小動脈收縮**（右上「Efferent arteriolar constricted」）→ **腎絲球內壓升高**（紅框、紅色雙箭頭）→ 濾過屏障受損 → **蛋白（黃點）漏進小管** → 小管間質發炎、纖維化\n**【考點】**短期代償（維持 GFR）→ 長期**適應不良**：足細胞受損、過濾屏障破壞 → **腎絲球硬化 → 再少一個腎元** → 惡性循環。治療的邏輯就是**降低腎絲球內壓**：ACEi/ARB 放鬆出球、SGLT2i 收縮入球（第 2 章）。"},
         {"type": "list", "ordered": true, "items": [
-          "腎元 (nephron) 數量減少 → 殘存腎元代償性肥大",
-          "入球小動脈擴張 → 腎絲球內壓力上升 (intraglomerular hypertension)",
-          "單一腎元 GFR 升高 (hyperfiltration) → 暫時維持整體腎功能",
-          "長期 hyperfiltration → podocyte 損傷 → 蛋白尿 → 腎絲球硬化 (sclerosis)",
-          "硬化導致更多腎元喪失 → 惡性循環 (maladaptive response)"
+          "腎元數量減少 → 殘存腎元**肥大 + 單一腎元 GFR 上升**（由血管活性荷爾蒙、細胞激素、生長因子調控）",
+          "腎內 **RAS 活性↑ + TGF 作用減弱** → 腎絲球內高壓",
+          "高壓與高流量 → 腎絲球結構扭曲、**足細胞功能異常**、濾過屏障破壞 → **蛋白尿**",
+          "→ **硬化**、腎元脫落 → 剩下的腎元負擔更大",
+          "→ 即使**原本的病因已經治好或自行緩解**，腎功能仍會在多年間持續下降"
         ]},
-        {"type": "callout", "style": "logic", "text": "**ACEi/ARB 的腎保護機制**：\n放鬆出球小動脈 → 降低腎絲球內壓 → 減少 hyperfiltration → 減少蛋白尿\n初期 GFR 可能下降 ≤ 30%（代表有效減壓），若穩定可接受\n\n**SGLT2i (Gliflozins) 的腎保護機制**：\n抑制近端腎小管 Na+/glucose 再吸收 → 更多 Na+ 到 macula densa → 啟動 TGF → 入球小動脈收縮 → 降低 GFR 壓力"},
-        {"type": "heading", "text": "Uremic Syndrome 的三大機轉"},
+        {"type": "heading", "text": "尿毒症的病生理（三個面向）"},
         {"type": "list", "ordered": true, "items": [
-          "**毒素蓄積**：正常由腎臟排泄的含氮代謝廢物累積 (BUN/Cr 只是部分指標)",
-          "**內分泌/體液調節喪失**：EPO↓、Calcitriol↓、PTH↑、FGF-23↑、性荷爾蒙異常",
-          "**全身性發炎**：CRP↑、Albumin↓ → malnutrition-inflammation-atherosclerosis (MIA) syndrome"
+          "**毒素累積**：大量水溶性、疏水性、蛋白結合型含氮代謝物；**BUN 與 Cr 只是方便測量、但非常不完整的替代指標**",
+          "**其他腎功能喪失**：體液電解質恆定、荷爾蒙調控（EPO↓、calcitriol↓、PTH↑、FGF-23↑、胰島素降解↓、性荷爾蒙、prolactin）",
+          "**全身性發炎**：CRP↑、白蛋白與 fetuin↓ → **malnutrition-inflammation-atherosclerosis/calcification** 症候群 → 加速血管疾病"
         ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2386-2390"}
+        {"type": "heading", "text": "初次評估"},
+        {"type": "table", "headers": ["項目", "重點"], "rows": [
+          ["**病史**", "高血壓、糖尿病、尿液異常史、**子癇前症或早期流產**；**藥物史**（NSAID、COX2、抗生素、化療、抗病毒、**PPI**、含磷清腸劑、**鋰鹽**）；尿毒症狀（食慾、體重、噁心、打嗝、水腫、抽筋、搔癢、不寧腿）；**家族史**（Alport、Fabry、cystinosis）"],
+          ["**理學檢查**", "血壓與標的器官；**眼底**（糖尿病視網膜病變 ↔ 糖尿病腎病變）；水腫、感覺神經病變；**asterixis、心包摩擦音** = 尿毒症候群"],
+          ["**檢驗**", "**> 35 歲不明原因 CKD → SPEP/UPEP 找骨髓瘤**（尤其貧血 + 高鈣或不該正常的正常鈣）；有血尿/蛋白尿 → 狼瘡、HBV、HCV、HIV；**連續 SCr 確認是慢性**；Ca、P、PTH；Hb、鐵、B12、葉酸；UACR 或 24 小時尿蛋白（> 300 mg 是 ACEi/ARB/SGLT2i 的適應症）"],
+          ["**腎臟超音波（最有用）**", "兩顆腎臟是否存在、對稱、大小、腫塊、阻塞；**雙側縮小 → 長期 CKD**；**兩側相差 > 1 cm** → 單側發育異常或腎血管疾病"],
+          ["**腎臟切片**", "早期 CKD（G1–3）可考慮；**雙側腎臟萎縮不建議**（技術困難、出血風險高、疤痕太多看不出病因、已錯過治療時機）"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**CKD 但腎臟沒有縮小（甚至變大）**\n- **糖尿病腎病變**（早期腎臟變大）\n- **類澱粉沉積症**\n- **HIV 腎病變**\n- **ADPKD**（幾乎都變大、多發囊腫）\n\n**切片的禁忌**：雙側小腎、難控制高血壓、活動性泌尿道感染、出血傾向（含抗凝中）、嚴重肥胖。CKD 病人切片前若出血時間延長 → 先給 **desmopressin**（或先做一次無 heparin 的透析）。\n\n**糖尿病腎病變不一定要切片**：第 1 型 DM 15–20 年 + 視網膜病變 + 腎病範圍蛋白尿 + 無血尿 → 臨床即可診斷。**有血尿、WBC cast、或沒有視網膜病變** → 懷疑其他疾病，考慮切片。\n\n**顯影劑**：CKD（尤其糖尿病腎病）盡量避免；不可避免時避免低血容、減少劑量、選低腎毒性製劑。"},
+        {"type": "callout", "style": "guideline", "text": "**最重要的第一步：區分新診斷的 CKD 和急性/亞急性腎衰竭**\n- 過去 SCr 正常 → 可能是急性、可逆\n- 過去 SCr 就偏高 → 慢性\n- 即使是慢性，也要找**疊加的急性因素**：**容積不足、泌尿道感染或阻塞、腎毒素（NSAID、顯影劑）、高血壓失控、原疾病復發（狼瘡、血管炎）**\n- 近期出現多系統表現（發燒、多發關節炎、皮疹）→ 當作**急性全身性疾病**處理\n\n→ **把 eGFR 隨時間畫成圖**，下降速度突然加快就去找可逆因素。"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2428-2432, 2437-2439"}
       ]
     },
     {
-      "title": "Pathology",
+      "title": "延緩 CKD 惡化",
       "content": [
-        {"type": "heading", "text": "CKD 的共通病理變化"},
+        {"type": "callout", "style": "logic", "text": "**治療的兩條軸**\n1. **針對病因**：控制糖尿病、治療 GN/狼瘡/血管炎；新的病因治療如 ADPKD 的標靶治療、type 1 hyperoxaluria 的 siRNA（lumasiran）、APOL1 抑制劑（inaxaplin）\n2. **打斷共同路徑（hyperfiltration）**：**降低腎絲球內壓與蛋白尿**——ACEi/ARB、SGLT2i、血壓控制\n\n好消息：這些介入**同時降低心血管併發症**。"},
+        {"type": "heading", "text": "① 血壓"},
         {"type": "list", "ordered": false, "items": [
-          "**腎絲球硬化 (Glomerulosclerosis)**：局灶性或全面性硬化，細胞外基質增生",
-          "**間質纖維化 (Interstitial fibrosis)**：膠原沉積取代正常腎間質",
-          "**腎小管萎縮 (Tubular atrophy)**：小管細胞退化、基底膜增厚",
-          "**血管硬化 (Vascular sclerosis)**：小動脈壁增厚、管腔狹窄"
+          "**目標 < 130/80 mmHg**（糖尿病或蛋白尿 > 1 g/day 的 CKD；在不造成明顯副作用的前提下）",
+          "**限鹽是第一線**；容積控制不夠時再加藥",
+          "蛋白尿越降越多 → 腎保護越好：**降蛋白尿的程度就是衡量腎保護效果的指標**",
+          "**不要一味追求更低的血壓**：CKD 病人自調能力差，降壓加強後 GFR 突然下降 → 應減藥",
+          "非 dihydropyridine CCB（**diltiazem、verapamil**）的抗蛋白尿效果可能優於 dihydropyridine",
+          "**蛋白尿輕微或沒有**的 CKD（ADPKD、小管間質疾病）→ 腎絲球高壓角色較小，其他降壓藥也可以"
         ]},
-        {"type": "heading", "text": "依病因的特異性病理"},
-        {"type": "table", "headers": ["病因", "特徵性病理"], "rows": [
-          ["Diabetic nephropathy", "Kimmelstiel-Wilson nodular glomerulosclerosis, GBM 增厚, mesangial expansion"],
-          ["IgA nephropathy", "Mesangial IgA 沉積 (IF: granular), mesangial proliferative GN"],
-          ["Hypertensive nephrosclerosis", "入球小動脈玻璃樣變性 (hyaline arteriolosclerosis)"],
-          ["ADPKD", "雙側多發性大小不等囊腫，腎臟明顯增大"],
-          ["Lupus nephritis", "Full-house pattern (IgG, IgA, IgM, C3, C4, C1q 全部沉積)"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**腎臟大小的鑑別意義**：\n- CKD → 雙側萎縮、皮質變薄（需要時間）\n- 腎臟大小正常的 CKD → 考慮：DM nephropathy、Amyloidosis、HIV nephropathy\n- 腎臟增大 + 囊腫 → ADPKD"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2390-2395"}
-      ]
-    },
-    {
-      "title": "Clinical Presentation",
-      "content": [
-        "CKD 早期多無症狀，直到 G4-G5 才出現明顯的尿毒症症狀。",
-        {"type": "heading", "text": "CKD 各系統併發症"},
-        {"type": "table", "headers": ["系統", "併發症", "開始出現時期"], "rows": [
-          ["電解質/酸鹼", "高血鉀、代謝性酸中毒 (non-AG → AG)、鈉滯留水腫", "G3-G4"],
-          ["骨礦物質 (CKD-MBD)", "高磷、低鈣、PTH↑、FGF-23↑、Vit D↓", "GFR < 60 (G3)"],
-          ["心血管", "HTN、LVH、HF、動脈鈣化、Pericarditis (G5)", "G2 起逐漸增加"],
-          ["血液", "正球性正色素性貧血 (EPO↓)、出血傾向 (platelet dysfunction)", "G3-G4"],
-          ["神經肌肉", "周邊神經病變、Restless leg syndrome、Uremic encephalopathy", "G4-G5"],
-          ["消化", "Uremic fetor (口臭)、噁心嘔吐、食慾不振、營養不良", "G4-G5"],
-          ["內分泌", "Insulin 代謝延長 (低血糖風險)、性荷爾蒙↓、不孕", "G3-G5"],
-          ["皮膚", "搔癢 (uremic pruritus)、色素沉著、Calciphylaxis", "G4-G5"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**CKD-MBD (Mineral Bone Disease) 的病理生理**：\nGFR↓ → PO₄ 滯留 → FGF-23↑ (最早期指標) → Calcitriol↓ → Ca²⁺↓ → PTH↑\n→ 高轉換性骨病 (Osteitis fibrosa cystica) — PTH 過高\n→ 低轉換性骨病 (Adynamic bone disease) — PTH 被過度抑制\n→ 血管鈣化 → 心血管死亡↑"},
-        {"type": "callout", "style": "logic", "text": "**CKD 代謝性酸中毒的演變**：\n早期 (G3)：Non-anion gap metabolic acidosis (腎小管 NH₃ 生成不足)\n晚期 (G4-5)：Anion gap metabolic acidosis (有機酸蓄積)\nHCO₃⁻ < 20-23 mmol/L 時需補充 NaHCO₃，可減緩蛋白質分解與 CKD 進展"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2389-2395"}
-      ]
-    },
-    {
-      "title": "Diagnosis",
-      "content": [
-        {"type": "heading", "text": "eGFR 估算公式"},
-        {"type": "table", "headers": ["公式", "適用", "特點"], "rows": [
-          ["CKD-EPI (2021 race-free)", "成人標準", "目前推薦的無種族校正版本"],
-          ["MDRD", "成人", "較舊公式，在 GFR > 60 時低估"],
-          ["Cockcroft-Gault", "藥物劑量調整", "估算 CCr，納入體重；女性 × 0.85"],
-          ["Schwartz", "兒童", "兒童專用公式"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "**Cockcroft-Gault 公式**：\nCCr = (140 - Age) × BW / (72 × sCr)\n女性 × 0.85\n\n注意：肌肉量少（老年、截肢）的患者 sCr 會偏低 → eGFR 被高估"},
-        {"type": "heading", "text": "CKD 的診斷評估"},
+        {"type": "heading", "text": "② RAS 抑制劑（ACEi / ARB）"},
+        {"type": "callout", "style": "guideline", "text": "**機轉**：**放鬆出球小動脈** → 降低腎絲球內壓 → 減少 hyperfiltration 與蛋白尿（效果**超出單純降血壓**）\n**適應症**：糖尿病與非糖尿病的**蛋白尿 CKD**，包括晚期\n\n**開始用藥後**\n- eGFR 下降 **< 30% 且穩定** → 代表成功卸壓，**可以接受，繼續用並監測**\n- **SCr 持續上升** → 懷疑**腎血管疾病**（大或小動脈）\n- **eGFR < 30 也可以繼續用**：研究顯示繼續用沒有傷害；**停藥反而增加死亡與心血管事件**（雖然進入透析的比例較低）"},
+        {"type": "callout", "style": "trap", "text": "**ACEi + ARB 併用 → 避免**：AKI 與心臟不良事件增加\n\n**高血鉀的對策**（讓病人能繼續用 RAS 抑制劑）：\n- 合用**排鉀利尿劑**（furosemide ± metolazone）\n- **腸道鉀結合劑**（patiromer、sodium zirconium cyclosilicate）\n- **SGLT2i** 本身也有助於鉀平衡\n- **避免保鉀利尿劑**（amiloride、triamterene）\n- **MRA**（spironolactone 或非類固醇的 **finerenone**）要**密切監測血鉀**，權衡心腎好處與致命高血鉀\n\n**ACEi/ARB 可能誘發 AKI**：尤其**缺血性腎血管疾病**時（雙側腎動脈狹窄）"},
+        {"type": "heading", "text": "③ SGLT2 抑制劑（gliflozins）"},
+        {"type": "figure", "src": "figures/chronic-kidney-disease/h322-5.png", "label": "Harrison's 22e Fig. 322-5", "caption": "Gliflozins 經由 tubuloglomerular feedback 降低腎絲球內高壓",
+          "explain": "**【怎麼看】**三格從左到右：\n- **A 正常**：近端小管 SGLT-2 回收 Na⁺/葡萄糖 → 適量 Na⁺ 到達 **macula densa** → 入球小動脈張力適當 → GFR 正常\n- **B 早期糖尿病腎病變**：高血糖 → SGLT-2 **過度回收** Na⁺/葡萄糖 → 送到 macula densa 的 Na⁺ **減少** → TGF 誤判為「灌流不足」→ **入球擴張** → **hyperfiltration**（TGF 失效）\n- **C 加上 SGLT2i**：照圖中編號 ①抑制近端回收 → ②**更多 Na⁺ 到達 macula densa** → ③TGF 恢復 → ④**入球小動脈收縮** → ⑤**GFR 回到正常**（同時有糖尿）\n**【考點】**ACEi/ARB 作用在**出球**、SGLT2i 作用在**入球**——兩者從兩端降低腎絲球內壓，所以**可以合用、效果相加**。開始用 SGLT2i 時 eGFR 小幅下降是預期中的。"},
         {"type": "list", "ordered": false, "items": [
-          "**血液**：sCr, eGFR, BUN, electrolytes, Ca/PO₄/PTH, CBC, albumin, lipid profile",
-          "**尿液**：UACR (spot urine) 或 24-hr urine protein, urine sediment (RBC cast, WBC cast, waxy cast)",
-          "**影像**：Renal ultrasound (首選) — 大小、對稱性、有無阻塞/囊腫",
-          "**切片**：雙側腎臟未萎縮且 eGFR 穩定下降原因不明時考慮"
+          "**糖尿病與非糖尿病 CKD 都有適應症**，即使到 **stage 4** 仍有效（DAPA-CKD 等）",
+          "延緩 GFR 下降 + **減少心血管事件（含心衰竭）**；另有直接保護近端小管代謝的作用",
+          "**不增加 AKI 風險**，反而可能有保護效果；幫助維持鉀平衡",
+          "**GLP-1 受體促效劑**：降低高風險病人的主要心血管事件與 CKD"
         ]},
-        {"type": "callout", "style": "trap", "text": "**Waxy cast** 在尿液沉渣中出現 → 提示 CKD (慢性腎臟病)，而非急性\n\n**區分 AKI vs CKD 的線索**：\n- 既往 sCr 正常 → 可能是急性\n- 雙側腎臟萎縮 → 慢性\n- 貧血 + 骨病變 + 高磷 → 慢性的線索\n- 腎臟大小正常不能排除 CKD (DM, Amyloidosis, HIV)"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2394-2396"}
+        {"type": "heading", "text": "④ 其他"},
+        {"type": "table", "headers": ["介入", "重點"], "rows": [
+          ["**矯正代謝性酸中毒**", "**HCO₃⁻ < 20–23 mmol/L** 時補充鹼劑（NaHCO₃）→ 減少蛋白分解；stage 3–5 補充可能**延緩進入透析**；注意鈉負荷（水腫、高血壓）"],
+          ["**限鹽**", "控制容積與血壓的基礎（KDIGO：鈉 < 2 g/day）"],
+          ["**蛋白質攝取**", "KDIGO：G3–G5 未透析者約 **0.8 g/kg/day**，避免 > 1.3；過度限制會營養不良 → 需營養師協助"],
+          ["**避免腎毒素**", "**NSAID（含 COX-2）**、顯影劑、gadolinium（第 5 章）"],
+          ["**定期找可逆因素**", "eGFR 下降加速 → 容積不足、高血壓失控、UTI、阻塞、腎毒素、原疾病復發"]
+        ]},
+        {"type": "heading", "text": "腎保護藥物一次整理"},
+        {"type": "table", "headers": ["藥物", "作用", "副作用 / 注意"], "rows": [
+          ["**ACEi / ARB**", "**出球小動脈擴張** → 降壓、降蛋白尿", "高血鉀、初期 eGFR ↓（< 30% 可接受）；**禁止兩者併用**"],
+          ["**SGLT2i**", "TGF → **入球小動脈收縮**", "初期 eGFR 小幅 ↓；生殖泌尿道感染、euglycemic DKA"],
+          ["**Finerenone**（非類固醇 MRA）", "抗發炎、抗纖維化", "**高血鉀**"],
+          ["**GLP-1 RA**", "減重、降血糖、心血管保護", "腸胃道副作用"],
+          ["**NaHCO₃**", "矯正酸中毒 → 減少分解與惡化", "鈉負荷"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2434-2435, 2438-2439"}
       ]
     },
     {
-      "title": "Treatment",
+      "title": "併發症①：體液、電解質與酸鹼",
       "content": [
-        {"type": "heading", "text": "延緩 CKD 進展的核心策略"},
-        {"type": "table", "headers": ["策略", "目標/用法", "機轉"], "rows": [
-          ["ACEi / ARB", "蛋白尿 > 300 mg/day 時首選；BP < 130/80", "出球小動脈擴張 → 降低腎絲球內壓"],
-          ["SGLT2i (Dapagliflozin, Empagliflozin)", "DM 或 non-DM CKD 均可；甚至 G4 可用", "啟動 TGF → 入球小動脈收縮 → 降低 GFR 壓力 + 心血管保護"],
-          ["Finerenone (nsMRA)", "DKD 且蛋白尿者", "非類固醇 MRA → 抗纖維化 + 抗發炎"],
-          ["GLP-1 RA (Semaglutide)", "DM + CKD、肥胖", "減少心血管事件 + 腎保護"],
-          ["限鹽", "< 2g Na/day", "減少 ECFV 過多 + 降壓"],
-          ["蛋白質限制", "0.6-0.8 g/kg/day (G4-5)", "減少含氮廢物 + 減輕 hyperfiltration"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**ACEi + ARB 併用 → 禁忌**\n多個 RCT 顯示：AKI↑、高血鉀↑、心血管事件↑\n\n**sCr 上升 ≤ 30% 使用 ACEi/ARB → 可接受**\n代表有效降低腎絲球內壓；若穩定，繼續使用並監測\n超過 30% 或持續上升 → 懷疑腎動脈狹窄"},
-        {"type": "heading", "text": "併發症的處理"},
-        {"type": "collapsible", "summary": "高血鉀處理", "text": "- 飲食限鉀 + 避免含鉀鹽替代品\n- **Kaliuretic diuretics** (loop diuretics) → 增加腎排鉀\n- **鉀結合劑** (腸道移除 K⁺)：\n  - Patiromer — 較新、較安全\n  - Sodium Zirconium Cyclosilicate (Lokelma/SZC) — 起效快\n  - Polystyrene sulfonate (Kayexalate) — 有腸壞死風險，已逐漸被取代\n- SGLT2i 有助於維持鉀離子平衡\n- 持續高血鉀可能需要開始透析\n\n⚠ 新型 K⁺ binder 可讓 CKD 病人繼續使用 ACEi/ARB，維持腎保護效果"},
-        {"type": "collapsible", "summary": "代謝性酸中毒處理", "text": "- HCO₃⁻ < 22 mmol/L 時開始補充 **口服 NaHCO₃** (1~3 g/day，分次服用)\n- 目標 HCO₃⁻ ≥ 22 mmol/L\n- **矯正酸中毒的好處**：\n  - 減緩肌肉蛋白質分解 (catabolism)\n  - 減緩 CKD 進展速率\n  - 改善骨密度 (酸中毒促進骨溶解)\n- 注意：NaHCO₃ 含鈉，可能加重水腫及高血壓\n- 嚴重酸中毒 (HCO₃⁻ <15) 或無法口服 → 考慮透析"},
-        {"type": "collapsible", "summary": "CKD-MBD 處理", "text": "**高血磷**：\n- 低磷飲食 (限制乳製品、加工食品)\n- **磷結合劑** (隨餐服用，結合食物中的磷)：\n  - 含鈣類：Calcium acetate/carbonate — 注意高鈣風險\n  - 非鈣類：Sevelamer、Lanthanum — 不增加血管鈣化風險\n\n**繼發性副甲狀腺功能亢進**：\n- **Vitamin D 類似物**：Calcitriol 或 Paricalcitol → 抑制 PTH + 促進鈣吸收；注意高鈣高磷\n- **Calcimimetics**：Cinacalcet (口服)、Etelcalcetide (IV) → 增強 CaSR 敏感度 → 降 PTH\n- 目標 PTH：正常上限的 **2~9 倍** (KDIGO)；過低 PTH → Adynamic bone disease\n- 藥物無法控制 → 副甲狀腺切除術\n\n**注意**：Ca × P 乘積 >55 mg²/dL² → 軟組織/血管鈣化風險顯著增加"},
-        {"type": "collapsible", "summary": "貧血處理", "text": "**Step 1：先補鐵**\n- 確認鐵儲備：Ferritin >100 ng/mL (透析 >200)，TSAT >20%\n- 口服鐵劑吸收差 → CKD G4-5 / 透析患者首選 **IV iron** (Ferric carboxymaltose, Iron sucrose)\n\n**Step 2：ESA (促紅血球生成素)**\n- Epoetin alfa, Darbepoetin alfa\n- **目標 Hb 10~11.5 g/dL** (不需正常化！)\n- Hb 正常化 → 中風↑、血栓↑、心血管事件↑ (CHOIR, CREATE, TREAT trials)\n\n**Step 3 (新藥)：HIF-PHI**\n- Roxadustat, Daprodustat\n- 口服，抑制 prolyl-hydroxylase → 穩定 HIF → 增加內源性 EPO + 促進鐵吸收\n\n**ESA resistance 常見原因**：鐵缺乏 (#1)、感染/發炎、副甲狀腺亢進、鋁中毒、葉酸/B12 缺乏"},
-        {"type": "collapsible", "summary": "心血管併發症處理", "text": "CKD 患者首要死因為心血管疾病 (CVD)，風險為一般人 10~200 倍。\n\n**高血壓**：\n- 目標 BP < 130/80 mmHg\n- 首選 ACEi/ARB (合併蛋白尿時)；加用 Amlodipine 或 Loop diuretic\n- 限鹽 <2g Na/day\n\n**左心室肥大 (LVH) / 心衰竭**：\n- 控制血壓 + 體液管理\n- 透析患者避免 volume overload → 調整乾重 (dry weight)\n\n**Uremic pericarditis**：\n- **透析的絕對適應症** → 連續每日透析直到症狀改善\n- ⚠ 禁止使用抗凝劑 (避免心包填塞)\n\n**血管鈣化**：控制高磷 (非鈣類磷結合劑)、避免 Warfarin (Calciphylaxis 風險)"},
-        {"type": "collapsible", "summary": "水腫 / 體液過多處理", "text": "- **限鹽** <2g Na/day + 適度限水 (G5)\n- **Loop diuretics** (Furosemide)：CKD 患者需較高劑量 (GFR↓ → 分泌至管腔量↓)\n  - G4-5 常需 80~200 mg/dose\n  - 可合併 Thiazide (sequential nephron blockade)\n- 利尿劑無效 → **超濾 (Ultrafiltration)** 或透析\n- 評估乾重：臨床判斷 + 肺部超音波 (B-lines)"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2396-2400"}
-      ]
-    },
-    {
-      "title": "Prognosis / Follow-up",
-      "content": [
-        {"type": "callout", "style": "logic", "text": "**Kidney Failure Risk Equation (KFRE)**：\n用 eGFR + UACR + 年齡 + 性別 預測 2 年及 5 年進展至 ESKD 的風險\n幫助決定是否轉介腎臟科及規劃透析準備"},
+        {"type": "callout", "style": "logic", "text": "這一章只寫 **CKD 特有**的重點。高血鉀的緊急處置與代謝性酸中毒的判讀，請看 **離子平衡異常** 與 **酸鹼平衡異常** 筆記。"},
+        {"type": "heading", "text": "鈉與水"},
         {"type": "list", "ordered": false, "items": [
-          "多數 G2-G3 且無蛋白尿患者 → eGFR 不再進一步下降",
-          "有蛋白尿 + DM/HTN 者 → 進展風險最高",
-          "心血管疾病是 CKD 所有分期的首要死亡原因 (10-200 倍風險增加)",
-          "CKD G4 以上建議腎臟科追蹤",
-          "eGFR < 30 → 開始評估腎臟替代療法 (透析 vs 移植)，提前建立 AV fistula"
+          "多數 CKD：**鈉攝取 > 排泄 → 鈉滯留、ECFV 擴張** → 水腫、高血壓（又加速 hyperfiltration）",
+          "只要水的攝取不超過排水能力，ECFV 擴張是**等鈉的**，血鈉正常；**低血鈉少見**，有的話通常限水即可",
+          "**治療**：**限鹽**；thiazide（**chlorthalidone** 在 stage 4 仍可能有效）；多數需 **loop diuretic**，CKD 要用**較高劑量**（利尿劑阻抗），可合併 **metolazone**",
+          "**利尿劑阻抗合併頑固水腫與高血壓 → 透析適應症**",
+          "少數 CKD 腎臟**留不住鈉**：遇到腸胃道流失 → 容積不足 → 腎前性 → **acute-on-chronic**；處理：暫停利尿劑，必要時小心補 NS"
         ]},
-        {"type": "heading", "text": "腎臟替代療法時機"},
-        {"type": "callout", "style": "guideline", "text": "**開始透析的適應症**：\neGFR < 15 mL/min (G5) 合併：\n- 持續尿毒症症狀 (噁心、嘔吐、意識改變)\n- 無法控制的體液過多\n- 頑固性高血鉀\n- 嚴重代謝性酸中毒\n- Uremic pericarditis（絕對適應症）\n- 營養惡化\n\n一般建議 eGFR 10-15 時準備，不需等到出現嚴重併發症"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2398-2400"}
-      ]
-    },
-    {
-      "title": "Special Populations",
-      "content": [
-        {"type": "heading", "text": "透析治療選擇"},
-        {"type": "table", "headers": ["方式", "頻率", "特點", "缺點"], "rows": [
-          ["IHD (間歇性血液透析)", "1 週 3 次，每次 3-4h", "快速矯正生化異常", "血液動力學不穩定"],
-          ["SLED (持續低效透析)", "1 週 3 次，每次 8-10h", "介於 IHD 和 CRRT 之間", "時間長"],
-          ["CRRT (連續性腎替代療法)", "連續 24 小時", "血流動力學穩定的 ICU 患者", "需更多抗凝劑、低體溫"],
-          ["PD (腹膜透析)", "每天，居家自行操作", "保留殘餘腎功能、飲水限制較少", "感染風險、不適用於腹膜沾黏"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "**血液透析足量標準**：\n- URR (Urea Reduction Rate) > 65-70%\n- Kt/V > 1.2\n\n**血管通路**（優先順序）：\n1. AV fistula (自體) — 最佳，需 4-8 週成熟\n2. AV graft (人工) — 血流量大但心臟負荷↑\n3. CVC (暫時) — 緊急使用，感染風險最高 (內頸 < 3 週，股靜脈 < 5 天)"},
-        {"type": "heading", "text": "腹膜透析的併發症"},
+        {"type": "callout", "style": "guideline", "text": "**Sick day rule**：病人若發生嘔吐、腹瀉等容積流失 → **暫停利尿劑與降壓藥（含 ACEi/ARB、SGLT2i、metformin 等）**，直到恢復正常飲食。"},
+        {"type": "heading", "text": "鉀"},
         {"type": "list", "ordered": false, "items": [
-          "**CAPD Peritonitis**：Cloudy effluent, Ascites WBC > 100 (Neu > 50%); 最常見菌：CoNS (S. epidermidis)",
-          "**Exit-site infection**：最常見菌為 S. aureus",
-          "**Encapsulating peritoneal sclerosis**：長期 PD 後腸壁被纖維包覆 → ileus",
-          "**代謝異常**：高血糖 (葡萄糖吸收 60-80%)、血脂異常、低血鉀"
+          "GFR 下降時，**遠端腎元的 aldosterone 依賴性分泌**與**腸道排鉀增加**，讓血鉀通常能維持到晚期",
+          "**誘發高血鉀的情境**：高鉀飲食、溶血、**輸注庫存血**、代謝性酸中毒、**藥物**（RAS 抑制劑、spironolactone、eplerenone、amiloride、triamterene、finerenone）",
+          "**比 GFR 預期更早出現高血鉀**：**低腎素低醛固酮（糖尿病）**、影響遠端腎元的疾病（**阻塞性尿路病變、鐮刀型貧血腎病**）→ 第 4 型 RTA",
+          "**低血鉀少見**：通常是飲食極少 + 利尿劑過量或腸胃道流失",
+          "**治療**：限鉀飲食（注意**含鉀的代鹽**）、排鉀利尿劑、鉀結合劑（patiromer、SZC、polystyrene sulfonate）、調整或停用保鉀藥物；**頑固高血鉀 → 透析**"
         ]},
-        {"type": "heading", "text": "CKD 的藥物劑量調整"},
-        {"type": "callout", "style": "trap", "text": "CKD 需調整劑量的常用藥物：\n- **Metformin**：eGFR < 30 禁用\n- **LMWH**：需減量或改用 UFH，監測 anti-Xa\n- **Gabapentin/Pregabalin**：腎排泄，需減量\n- **DOAC**：Apixaban 在 CKD/透析較安全\n- **Warfarin**：CKD 患者 calciphylaxis 風險↑ → 盡量避免\n- **Gadolinium (MRI 顯影)**：eGFR < 30 避免 → Nephrogenic systemic fibrosis"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "142-150"}
+        {"type": "heading", "text": "代謝性酸中毒"},
+        {"type": "callout", "style": "logic", "text": "**為什麼 CKD 會酸中毒？**\n多數病人仍能酸化尿液，但**氨（NH₃）製造減少** → 無法排出足夠的 H⁺。高血鉀會進一步抑制氨生成。\n\n**演變**\n- **早期**：**正常 AG（高氯性）代謝性酸中毒**——糖尿病腎病變、小管間質疾病、阻塞性尿路病變特別早出現，常合併**高血鉀**\n- **晚期**：每日淨排酸 < 30–40 mmol，**有機酸陰離子累積** → **高 AG 代謝性酸中毒**疊加上去\n- 多數為**輕度**（pH 很少 < 7.32）\n\n**為什麼要治療？** 即使輕度酸中毒也會**促進蛋白分解、骨質流失、CKD 惡化** → **HCO₃⁻ < 20–23 mmol/L 時補充 NaHCO₃**"},
+        {"type": "callout", "style": "trap", "text": "**考點連結**\n- CKD 高血鉀 + 正常 AG 酸中毒 + 糖尿病 → **第 4 型 RTA（低腎素低醛固酮）**\n- CKD 晚期病人 pH 正常，但 AG 高、HCO₃⁻ 正常 → 想想**同時有嘔吐（代謝性鹼中毒）**——每題都要算 AG\n- NaHCO₃ 含鈉 → ECFV 過多的病人要小心"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2432-2433"}
       ]
     },
     {
-      "title": "High-Yield Exam Points",
+      "title": "併發症②：CKD-MBD（鈣磷與骨病變）",
       "content": [
-        {"type": "callout", "style": "trap", "text": "考試必考重點：\n1. **CKD 最常見病因** → 北美/歐洲：DM nephropathy；亞洲：GN\n2. **延緩 CKD 進展** → ACEi/ARB (降腎絲球內壓) + SGLT2i (TGF 啟動)\n3. **ACEi + ARB 併用** → 禁忌 (AKI↑、高血鉀↑)\n4. **CKD-MBD 最早期指標** → FGF-23 升高 (早於 PTH, PO₄)\n5. **貧血目標 Hb** → 10-11.5 g/dL (正常化反而有害)\n6. **Waxy cast** → CKD 的尿液特徵\n7. **Uremic pericarditis** → 透析的絕對適應症\n8. **Calciphylaxis** → 避免 Warfarin、CKD 患者特有"},
-        {"type": "table", "headers": ["CKD 用藥", "腎保護機轉", "禁忌/注意"], "rows": [
-          ["ACEi/ARB", "出球 AA 擴張 → 降低腎絲球內壓", "雙側腎動脈狹窄、高血鉀 > 5.5"],
-          ["SGLT2i", "TGF → 入球 AA 收縮 → 降壓", "eGFR < 20 啟動效益不明"],
-          ["Finerenone", "nsMRA → 抗纖維化", "高血鉀"],
-          ["Calcitriol", "抑制 PTH + 補鈣", "高鈣、高磷"],
-          ["Cinacalcet", "Calcimimetic → 降 PTH", "低鈣"],
-          ["ESA", "刺激紅血球生成", "不可正常化 Hb (中風↑)"]
+        {"type": "heading", "text": "繼發性副甲狀腺亢進的機轉"},
+        {"type": "list", "ordered": true, "items": [
+          "**GFR ↓ → 磷排泄減少 → 磷滯留**（甚至在 GFR 可測得下降之前就開始）",
+          "磷刺激骨細胞製造 **FGF-23**（最早上升）、刺激 **PTH** 合成與**副甲狀腺增生**",
+          "磷滯留 + FGF-23 → **calcitriol（1,25(OH)₂D₃）↓**（FGF-23 還加速 calcitriol 分解）→ **游離鈣 ↓**",
+          "低 calcitriol 經**低血鈣**與**直接促進 PTH 基因轉錄**兩條路使 PTH ↑",
+          "CKD 時 FGF-23 對 PTH 的抑制（**依賴 Klotho**）減弱 → PTH 更高",
+          "通常在 **GFR < 60** 時開始"
         ]},
-        {"type": "callout", "style": "guideline", "text": "**CKD 進展速查**：\nG1-G2 無蛋白尿 → 定期追蹤，多數不進展\nG3 有蛋白尿 → ACEi/ARB + SGLT2i + 限鹽限蛋白\nG4 → 腎臟科 + 評估替代療法 + AV fistula 準備\nG5 → 透析或腎移植"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2386-2400"}
+        {"type": "callout", "style": "trap", "text": "**FGF-23**：促進排磷的 phosphatonin；**CKD-MBD 最早期的變化**；高濃度是 **LVH 與死亡**的獨立危險因子（CKD、透析、移植病人都是）\n\n**PTH 本身也是尿毒毒素**：肌肉無力、心肌纖維化、全身症狀；骨髓纖維化造成 **ESA 抵抗**"},
+        {"type": "heading", "text": "腎性骨病變的三種型態"},
+        {"type": "table", "headers": ["型態", "PTH / 骨轉換", "機轉與特徵", "臨床"], "rows": [
+          ["**Osteitis fibrosa cystica**", "**PTH ↑、高轉換**", "繼發性副甲狀腺亢進的典型病變；異常類骨質、骨與骨髓纖維化；晚期**骨囊腫**，含出血呈棕色 → **brown tumor**", "骨痛、骨折、brown tumor 壓迫、**ESA 抵抗**"],
+          ["**Adynamic bone disease**", "**PTH 低或正常、低轉換**", "**PTH 過度抑制**（維生素 D、**含鈣磷結合劑**、高鈣透析液）或慢性發炎；**盛行率上升（糖尿病、老人）**", "**骨折、骨痛最嚴重**（微骨折無法修復）；**血管與心臟鈣化↑**；腫瘤性鈣化"],
+          ["**Osteomalacia**", "—", "**calcitriol 製造與作用不足** → **未礦化類骨質**堆積", "骨痛、骨折"]
+        ]},
+        {"type": "heading", "text": "鈣、磷與心血管"},
+        {"type": "list", "ordered": false, "items": [
+          "**高磷血症與心血管死亡強烈相關**；高磷、高鈣 → 血管鈣化",
+          "CKD 病人的**冠狀動脈中層與心瓣膜鈣化**比一般人多好幾個數量級；鈣化程度與**年齡、高磷**相關，也與**低 PTH、低骨轉換**相關",
+          "理論：低轉換的骨頭**收不進**攝取的鈣 → 鈣跑到血管與軟組織",
+          "高磷會讓血管細胞變成**類成骨細胞**表現型 → 血管鈣化甚至骨化"
+        ]},
+        {"type": "figure", "src": "figures/chronic-kidney-disease/h322-3.jpg", "label": "Harrison's 22e Fig. 322-3", "caption": "腫瘤性鈣化（Tumoral calcinosis）",
+          "explain": "**【怎麼看】**長期血液透析病人，**不遵從限磷飲食、也不吃磷結合劑** → 長期嚴重高磷 → 手臂出現逐漸變大、會痛、**大範圍鈣化**的腫塊。\n**【考點】**鈣磷乘積過高時鈣沉積在**軟組織**形成大團塊。常見於 **adynamic bone disease**（骨頭收不進鈣）。治療核心是**控制磷**。"},
+        {"type": "heading", "text": "Calciphylaxis（鈣化防禦）"},
+        {"type": "figure", "src": "figures/chronic-kidney-disease/h322-4.jpg", "label": "Harrison's 22e Fig. 322-4", "caption": "Calciphylaxis",
+          "explain": "**【怎麼看】**腹膜透析病人，因心房顫動**長期使用 warfarin**。先在腹部出現**小而痛的結節**，接著**進行性皮膚壞死與潰瘍**（圖中黑色焦痂）。治療：**高壓氧、IV thiosulfate、停 warfarin**，潰瘍緩慢癒合。\n**【考點】**幾乎只見於**晚期 CKD**；**疼痛性 livedo reticularis → 皮下結節 → 缺血性壞死**，好發於**腿、大腿、腹部、乳房**（脂肪多的地方）。病理：**血管鈣化合併阻塞**。"},
+        {"type": "callout", "style": "trap", "text": "**Calciphylaxis 的危險因子與處置**\n- 傳統上與鈣磷控制差、嚴重副甲狀腺亢進有關，但**近年在沒有嚴重副甲狀腺亢進的病人也越來越常見**\n- **Warfarin**：抑制維生素 K 依賴的 **matrix GLA protein** 活化（此蛋白本來防止血管鈣化）→ **危險因子**\n- 發生 calciphylaxis → **停 warfarin**，依適應症改用其他抗凝方式\n- 治療：**sodium thiosulfate IV**、高壓氧、傷口照護、控制鈣磷"},
+        {"type": "heading", "text": "治療"},
+        {"type": "table", "headers": ["目標", "藥物 / 方法", "注意"], "rows": [
+          ["**控制磷**（預防是關鍵：副甲狀腺一旦變很大就難控制）", "**低磷飲食** + **隨餐**服用磷結合劑", "—"],
+          ["含鈣磷結合劑", "**Calcium acetate、calcium carbonate**", "**鈣累積、高血鈣**，尤其低轉換骨病變"],
+          ["非鈣磷結合劑", "**Sevelamer、lanthanum**", "不造成高血鈣，**可能減少血管鈣沉積**"],
+          ["減少腸道吸收磷", "**Tenapanor**（NHE3 抑制劑）", "CKD 與透析病人"],
+          ["**降 PTH**：活性維生素 D", "**Calcitriol**（直接抑制 PTH + 提高游離鈣）；類似物 **paricalcitol**（較少高鈣）", "**高鈣、高磷**（增加腸道吸收）"],
+          ["**降 PTH**：Calcimimetic", "**Cinacalcet**（口服）、**etelcalcetide**（IV）→ 增加副甲狀腺**鈣感受器**的敏感度", "**低血鈣**"],
+          ["**PTH 目標**", "**正常上限的 2–9 倍**（KDOQI/KDIGO）", "**PTH 太低 → adynamic bone disease**、骨折、異位鈣化"],
+          ["藥物失敗", "副甲狀腺切除", "術後 **hungry bone syndrome**（嚴重低鈣）"]
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2433-2434"}
+      ]
+    },
+    {
+      "title": "併發症③：貧血、心血管與其他系統",
+      "content": [
+        {"type": "heading", "text": "腎性貧血"},
+        "**正球性、正色素性貧血**，**stage 3 就可能出現，stage 4 幾乎都有**。主因：**EPO 製造不足**，加上紅血球壽命縮短等。",
+        {"type": "table", "headers": ["CKD 貧血的原因（Table 322-5）", ""], "rows": [
+          ["**相對性 EPO 不足**", "主要原因"],
+          ["紅血球存活時間縮短", "尿毒環境"],
+          ["出血傾向", "血小板功能異常"],
+          ["**缺鐵**", "飲食吸收差、**腸胃道失血**（透析管路也會流失）"],
+          ["**副甲狀腺亢進 / 骨髓纖維化**", "—"],
+          ["慢性發炎", "hepcidin ↑ → 功能性缺鐵"],
+          ["葉酸或 B12 缺乏", "—"],
+          ["血紅素病變", "—"],
+          ["其他", "甲狀腺功能異常、懷孕、HIV、自體免疫、免疫抑制劑"]
+        ]},
+        {"type": "callout", "style": "guideline", "text": "**治療順序**\n1. **先確認並補足鐵**：需要足夠的骨髓鐵儲存（**ferritin** 反映儲存、**TSAT** 反映可用鐵）\n   - 未透析或腹膜透析：**先試口服鐵**；不耐受或吸收差 → **IV 鐵**（注意感染風險）\n   - 同時確保 **B12、葉酸**足夠\n2. **ESA**（erythropoiesis-stimulating agent）：讓病人不再需要規律輸血 → 減少輸血感染、鐵過載、**HLA 致敏（影響日後移植）**\n3. **HIF-PH 抑制劑**（daprodustat、roxadustat 等）：抑制 prolyl hydroxylase → **HIF 穩定 → 內源性 EPO↑ + 腸道鐵吸收↑**；效果與 ESA 相近，但心血管、視網膜血管、腫瘤血管新生的安全性仍待釐清\n\n**目標 Hb：100–115 g/L（10–11.5 g/dL）**，**不要正常化**"},
+        {"type": "callout", "style": "trap", "text": "**為什麼 Hb 不能拉到正常？**\nESA 的 RCT **沒有改善心血管預後**，反而與**中風（第 2 型 DM）、血栓事件**、甚至較快的腎功能下降有關 → 症狀改善要和心血管風險權衡。\n\n**ESA 反應不佳（鐵足夠的情況下）** → 找：**急慢性發炎、透析不足、嚴重副甲狀腺亢進、慢性失血或溶血、慢性感染、惡性腫瘤**\n\n**ESA 也會讓血壓上升**、需要更多降壓藥。\n\n貧血的鑑別與鐵學檢查判讀 → 見 **Anemia (一)、(二)** 筆記。"},
+        {"type": "heading", "text": "止血異常"},
+        {"type": "list", "ordered": false, "items": [
+          "晚期 CKD：**出血時間延長**、血小板因子 III 活性下降、**血小板聚集與黏附異常** → 容易瘀青、手術傷口出血、經血過多、GI 出血",
+          "**同時也容易血栓**：尤其腎病症候群範圍蛋白尿（低白蛋白、抗凝因子從尿流失）",
+          "**治療尿毒出血**：**desmopressin (DDAVP)**、cryoprecipitate、IV 結合型雌激素、輸血、ESA；頑固致命出血可用 tranexamic acid；**充分透析**通常能矯正出血時間",
+          "**抗凝**：一般人有利的決策在晚期 CKD 不一定適用——**warfarin 出血風險高 + calciphylaxis**；**LMWH 要避免或調劑量**（監測 anti-Xa）；住院者常改用 **UFH**（依 aPTT 調整）；多數 DOAC 經腎排除，**apixaban** 在 CKD/透析使用漸多"
+        ]},
+        {"type": "heading", "text": "心血管疾病：CKD 最主要的死因"},
+        {"type": "callout", "style": "logic", "text": "**CKD 每一期的首要死因都是心血管疾病**\n- 風險是同年齡性別一般人的 **10–200 倍**（依分期）\n- **多數 CKD 病人在走到 stage 5 之前就死於心血管疾病**\n- 到 stage 5 的病人中 30–45% 已有嚴重心血管併發症\n\n**危險因子**\n- 傳統：高血壓、糖尿病、**容積過多**、血脂異常、交感過度活化、高同半胱胺酸\n- **CKD 特有**：**貧血、高磷、副甲狀腺亢進、FGF-23↑**、睡眠呼吸中止、**全身性發炎**、低 fetuin（加速鈣化）"},
+        {"type": "table", "headers": ["問題", "CKD 的特點", "處置"], "rows": [
+          ["**Troponin**", "**沒有急性缺血也常偏高** → 難以診斷 MI", "**看連續變化趨勢**；持續偏高本身就是不良預後因子"],
+          ["**心衰竭**", "缺血、**LVH**、舒張功能異常、心肌病變 + 鹽水滯留；**AV fistula** 與貧血 → **高輸出性心衰竭**", "容積控制；SGLT2i"],
+          ["**「低壓性」肺水腫**", "晚期 CKD：喘、胸部 X 光 **bat wing**；**沒有容積過多、肺靜脈壓正常或輕度上升** → 尿毒造成肺泡微血管通透性增加", "**透析**"],
+          ["**高血壓 / LVH**", "早期就出現；LVH 與擴張性心肌病是最強的心血管危險因子", "限鹽、利尿劑；頑固 → 透析適應症；目標 < 130/80"],
+          ["**動脈粥狀硬化**", "腎病症候群：高度致動脈硬化的血脂 + 高凝", "**SGLT2i** 降低心血管事件（含 stage 4）；statin（見第 6 章 SHARP）"],
+          ["**心包膜炎**", "**胸痛隨呼吸加劇 + 摩擦音**；EKG：**PR 下降、廣泛性 ST 上升**；可合併積液，偶爾填塞。現在多見於**透析不足、不遵從**的病人", "**尿毒心包膜炎 = 緊急透析（或加強透析）的絕對適應症**；透析時**不用 heparin**（心包出血風險）；反覆積液或將填塞 → 引流"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**反向流行病學**：晚期 CKD 合併**營養不良-發炎狀態**時，血壓和膽固醇反而偏低，且與左心功能差、體重下降、**預後差**相關——不要以為「血壓、膽固醇低」是好事。"},
+        {"type": "heading", "text": "其他系統"},
+        {"type": "table", "headers": ["系統", "表現", "重點"], "rows": [
+          ["**神經肌肉**", "Stage 3 起：記憶、專注、睡眠障礙；之後**打嗝、抽筋、抽動**；晚期 **asterixis、肌躍症、癲癇、昏迷**", "**周邊神經病變**（stage 4 後明顯）：感覺 > 運動、下肢 > 上肢、遠端 > 近端；**不寧腿症候群**；**無其他原因的周邊神經病變 = 開始透析的適應症**"],
+          ["**腸胃道與營養**", "**Uremic fetor**（唾液中尿素分解成氨，尿味口臭）+ **金屬味**；胃炎、消化性潰瘍、GI 出血；**便祕**（鈣片、鐵劑加重）；厭食、噁心、嘔吐", "限蛋白可減輕噁心但有營養不良風險；**體重下降與蛋白質-熱量營養不良 = 開始透析的適應症**"],
+          ["**醣類代謝**", "空腹血糖通常正常；**胰島素經腎臟清除減少** → 用胰島素者**劑量要逐漸減少**（低血糖）", "**metformin、sulfonylurea** 在腎功能明顯下降時禁用（metformin 一般以 **eGFR < 30** 為界）；gliptins 要減量"],
+          ["**生殖內分泌**", "女性：雌激素低、月經異常、不孕；**GFR ~40 時懷孕自然流產率高，約僅 20% 活產**，且可能加速腎病惡化", "男性：睪固酮低、性功能障礙、精子少；青少年**發育遲緩**；許多在**充分透析或移植後改善**"],
+          ["**皮膚**", "**搔癢**（最惱人、透析後仍常持續）；**色素沉著**（urochromes）", "排除疥瘡；**控制高磷**；保濕、外用類固醇、抗組織胺、UV 光照；**kappa opioid 受體促效劑**（difelikefalin）"],
+          ["**Nephrogenic systemic fibrosis**", "接觸 **gadolinium** 後皮下進行性硬化（四肢）", "G3：**盡量減少**；**G4–5（GFR < 30）：非必要避免**；必要時檢查後盡快**血液透析**移除；新型 gadolinium 少見"]
+        ]},
+        {"type": "heading", "text": "藥物劑量調整"},
+        {"type": "list", "ordered": false, "items": [
+          "**起始劑量（loading dose）通常不用調整**；**維持劑量**很多需要減量或延長間隔",
+          "> 70% 非腎臟排除（如肝代謝）的藥物 → 可能不需調整",
+          "**應避免**：**metformin**、**meperidine**（代謝物 normeperidine 累積 → 癲癇）、經腎排除的口服降血糖藥、**NSAID（含 COX-2）**",
+          "需調整：許多**抗生素、降壓藥、抗心律不整藥**；gabapentin/pregabalin、LMWH、DOAC",
+          "顯影劑與 gadolinium 依嚴格規範使用"
+        ]},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2434-2437, 2440"}
+      ]
+    },
+    {
+      "title": "腎臟替代療法：透析與移植",
+      "content": [
+        {"type": "heading", "text": "何時開始？"},
+        {"type": "callout", "style": "guideline", "text": "**開始維持性透析的適應症**\n- **尿毒症狀**：厭食、噁心嘔吐（排除消化性潰瘍等可逆原因）、倦怠、搔癢\n- **營養不良**的證據\n- **內科治療無效**的 **高血鉀**、**ECFV 過多**（利尿劑阻抗）、**酸中毒**\n- **出血傾向**\n- 無其他原因的**周邊神經病變**\n- **腦病變、心包膜炎**（現在已很晚期才出現，很少作為開始的理由；但**心包膜炎一出現就是絕對適應症**）\n- eGFR（或 CrCl）**< 10 mL/min/1.73 m²** 作為參考\n\n⚠ **沒有任何單一的 SCr、BUN、cystatin C 或 eGFR 數值是絕對適應症**"},
+        {"type": "callout", "style": "trap", "text": "**早一點開始比較好嗎？**\n- 在 GFR 10–14 **預先開始透析**，相較於**等出現尿毒症狀再開始**，**沒有好處**\n- 但「提前準備」很重要：**事先建立好通路**（成熟的 AV fistula 或 PD 導管）→ 避免臨時放置透析導管（感染、出血、血栓、死亡率上升）\n- 病人可能已習慣慢性尿毒而否認症狀，開始透析後才發現自己之前有多不舒服\n\n**衛教**：**最晚在 stage 4 開始**，多專業團隊介紹 **血液透析（院內/居家）、腹膜透析、腎臟移植、保守治療**；有衛教的病人較常選擇**居家透析**（較便宜、生活品質較好）；及早評估活體捐腎者"},
+        {"type": "heading", "text": "血液透析 (Hemodialysis, HD)"},
+        {"type": "figure", "src": "figures/chronic-kidney-disease/h323-1.png", "label": "Harrison's 22e Fig. 323-1", "caption": "血液透析示意圖",
+          "explain": "**【怎麼看】**左邊手臂的 **AV fistula**：**動脈端（A，紅）**引血出來 → **arterial line** → 中間 **hollow fiber dialyzer**（血液在中空纖維內流動，透析液在纖維外**逆向**流動）→ **venous line** → 從**靜脈端（V，藍）**回到病人。右邊是**透析液製備系統**：水處理（去離子 + 逆滲透）+ 酸性濃縮液（Na⁺、K⁺、Ca²⁺、Mg²⁺、Cl⁻、acetate）+ 碳酸氫鈉；機器監測動靜脈壓、血流速、**空氣偵測**、透析液流速/壓力/導電度、**漏血偵測**。\n**【考點】**清除靠**擴散**（沿濃度梯度，小分子如尿素 60 Da 清得好、肌酸酐 113 Da 較差）+ **對流**（超過濾的溶劑拖曳）；脫水靠**跨膜壓**。每次治療病人暴露約 **120 L 水** → 水必須嚴格處理。"},
+        {"type": "table", "headers": ["項目", "內容"], "rows": [
+          ["**透析器**", "中空纖維；現多為**生物相容的合成膜**（polysulfone），舊的纖維素膜會活化補體"],
+          ["**透析液**", "**K 0–4 mmol/L**（**0–1 mmol/L 與猝死增加有關**，已少用）；**Ca 1.25 mmol/L**（低血鈣、hungry bone 時提高）；**Na 135–140**；**sodium modeling**（由 145–155 漸降）可減少低血壓，但造成口渴、鈉正平衡"],
+          ["**流速**", "血流 **250–450 mL/min**；透析液 **500–800 mL/min**，**逆流**"],
+          ["**劑量 / 足量**", "**URR > 65–70%**、**Kt/V > 1.2**（未平衡）；多數需**每週 9–12 h，分 3 次**"],
+          ["**證據**", "HEMO：提高單次尿素清除**不降死亡**；FHN：**每週 6 次** → 血壓、高磷、**LV mass** 與生活品質改善；**長週末間隔後**死亡與心衰竭住院增加"]
+        ]},
+        {"type": "table", "headers": ["血管通路", "優點", "缺點"], "rows": [
+          ["**① 自體動靜脈瘻管 (AVF)**（如 Brescia-Cimino：橈動脈 + 頭靜脈）", "**長期通暢率最高、感染最少** → **fistula first**", "需要時間成熟，可能成熟失敗或早期血栓"],
+          ["**② 人工血管 (AVG)**（PTFE）", "AVF 無法建立時", "**血栓**（靜脈端吻合處**內膜增生**）、感染較多；狹窄可用血管擴張"],
+          ["**③ 隧道式導管**（多放內頸靜脈）", "AVF/AVG 失敗時的「最後生命線」", "**感染率最高**、靜脈血栓與狹窄（肢體腫、SVC 症候群）；**避免鎖骨下靜脈**（狹窄會毀掉同側日後的永久通路）；股靜脈感染較高"]
+        ]},
+        {"type": "heading", "text": "血液透析的急性併發症"},
+        {"type": "table", "headers": ["併發症", "重點", "處理 / 預防"], "rows": [
+          ["**低血壓（最常見）**", "糖尿病病人特別常見；超過濾太多太快、自主神經或血管反應差、滲透壓變化、降壓藥過量、心臟儲備差", "**停止超過濾**、給 **100–250 mL NS**（或白蛋白）；預防：重新評估**乾體重**、**超過濾 profiling**（前段多脫）、**脫水速度 < 13 mL/kg/h**、**冷透析液**、透析中不吃大餐；midodrine 證據不足"],
+          ["**肌肉抽筋**", "常與脫水太快或低於乾體重有關", "減少脫水量、超過濾 profiling、sodium modeling"],
+          ["**透析器反應 Type A**", "對**環氧乙烷（ethylene oxide，滅菌用）**的 **IgE** 過敏；**開始後幾分鐘內**，可進展為全身性過敏", "停止透析、按過敏處理"],
+          ["**透析器反應 Type B**", "**補體活化**、細胞激素；**數分鐘後**出現非特異性**胸背痛**", "通常**繼續透析會自行緩解**"],
+          ["**高輸出性心衰竭**", "血液經 AV 通路分流", "少數需結紮瘻管"]
+        ]},
+        {"type": "heading", "text": "腹膜透析 (Peritoneal Dialysis, PD)"},
+        {"type": "list", "ordered": false, "items": [
+          "灌入 **1.5–3 L 含 dextrose 的透析液**，**停留 2–4 h**；清除靠擴散 + 超過濾的對流；**高張**的透析液驅動脫水（HD 則靠跨膜壓）",
+          "**CAPD**：手動交換，白天 **3–5 次** + 睡前一次過夜停留；**CCPD / APD**：夜間**自動循環機**",
+          "**Icodextrin**：不被吸收的醣類，脫水效率比 dextrose 好 → 用於**最長的一次停留**",
+          "**PET（腹膜平衡試驗）**：**高運輸者**吸收較多葡萄糖、長停留時脫水差、**流失較多白蛋白** → 需**短而頻繁**的交換（循環機）；低運輸者較少次交換即可",
+          "**殘餘腎功能**對 PD 病人預後很重要；ADEMEX：提高尿素清除**不降死亡**",
+          "優點：連續治療 → **飲食較自由**（持續移除鉀與磷）；**比 HD 更能保留殘餘腎功能**",
+          "AKI 時已罕用（感染風險、清除效率較低）"
+        ]},
+        {"type": "table", "headers": ["PD 併發症", "重點"], "rows": [
+          ["**腹膜炎**", "通常是交換時**無菌技術破口**；**透析液混濁 + 腹痛**，常發燒；診斷：**WBC > 100/mm³ 且 PMN ≥ 50%**（比 SBP 的標準低）；最常見**革蘭氏陽性球菌（葡萄球菌，皮膚來源）**；多可**腹腔內或口服抗生素**、門診治療；**Pseudomonas 或黴菌 → 拔除導管**"],
+          ["**出口/隧道感染**", "輕者局部抗生素或硝酸銀；重者全身抗生素 + 拔管"],
+          ["**代謝**", "**白蛋白與蛋白質流失**（需提高蛋白攝取）；吸收數百大卡 dextrose → **高血糖、體重增加、高三酸甘油酯**"],
+          ["**殘餘尿毒**", "殘餘腎功能少的病人"]
+        ]},
+        {"type": "callout", "style": "trap", "text": "**HD vs PD**：沒有大型 RCT 比較，**預後大致相似** → 依個人偏好與生活品質選擇。美國 > 80% 為院內 HD。\n\n**ESKD 的長期預後**\n- **心血管疾病是主要死因**（透析病人高於移植病人，但兩者都極高），其次為**感染**\n- **Statin**：4D、AURORA 降低 LDL 但**沒有減少死亡或心血管事件**；**SHARP**（含透析與未透析 CKD）**simvastatin + ezetimibe** 使主要心血管事件**降低 17%**\n- 多數專家仍依心血管風險使用降血脂藥、aspirin、RAAS 抑制劑、β-blocker\n- ESKD 最常見原因：**糖尿病（~45%）**，其次高血壓（~30%）、GN、多囊腎、阻塞"},
+        {"type": "heading", "text": "腎臟移植（簡要）"},
+        {"type": "callout", "style": "logic", "text": "**移植是 ESKD 的首選治療**：透析只取代腎臟極小部分的過濾功能，完全沒有內分泌與抗發炎功能；移植後**存活與生活品質都優於持續透析**（存活好處在術後數天至數月內就出現）。\n- **Preemptive 移植**（多為活體捐贈，確定不可逆時直接移植、不先透析）**優於**先透析再移植\n- 1 年移植腎存活：**活體約 98%、屍腎約 93%**；平均移植腎存活約 **19 年 vs 12 年**\n- 長期失敗多為**慢性病變**（間質纖維化、小管萎縮、血管病變、腎絲球病變）"},
+        {"type": "table", "headers": ["主題", "考點"], "rows": [
+          ["**絕對禁忌**", "預期存活 **< 2 年**的慢性病、**活動性惡性腫瘤**、**活動性感染**、影響遵從性的心理社會問題、**活動性物質濫用**；**無年齡上限**；癌症病史需 2–5 年無病期"],
+          ["**超急性排斥**", "**預存抗體**（ABO 或 HLA）；**T 細胞 cytotoxic crossmatch 陽性 = 唯一公認的絕對免疫禁忌**；致敏來源：**輸血、前次移植、懷孕**"],
+          ["**T 細胞媒介排斥 (TCMR)**", "切片：間質/小管/血管免疫細胞浸潤（Banff）；**IV methylprednisolone 500–1000 mg × 3 天**，無效 → **ATG**"],
+          ["**抗體媒介排斥 (ABMR)**", "**管周微血管 C4d 沉積 + donor-specific antibody**；血漿置換、IVIG、rituximab、bortezomib"],
+          ["**維持免疫抑制**", "**tacrolimus（CNI）+ mycophenolate ± 類固醇**；誘導：ATG（高風險）或 basiliximab（低風險）"]
+        ]},
+        {"type": "collapsible", "summary": "免疫抑制劑副作用與交互作用（Table 325-3）", "text": "- **Cyclosporine**：**腎毒性**、高血壓、血脂異常、**多毛、牙齦增生**\n- **Tacrolimus**：類似 CsA，但**較少多毛/牙齦增生**，**移植後糖尿病較多**、掉髮\n- **CNI 濃度↑**（抑制 CYP3A4）：**macrolide（erythromycin）、azole（ketoconazole、fluconazole）、diltiazem、verapamil**；**濃度↓**：**phenytoin、carbamazepine**\n- **Azathioprine**：骨髓抑制（WBC > RBC > PLT）；用前驗 **TPMT**；**避免與 allopurinol 併用**（抑制 xanthine oxidase）\n- **Mycophenolate**：**腹瀉**、腸胃不適；骨髓抑制較少\n- **Sirolimus / everolimus（mTOR 抑制劑）**：**高血脂、血小板低**、口腔炎、肺炎、**傷口癒合差**（術後初期少用）；**移植後皮膚癌**病人常改用\n- **Belatacept**（CTLA-4-Ig，阻斷 CD80/86–CD28 共刺激）：避免長期 CNI 腎毒性；**PTLD** 風險\n- **類固醇**：高血壓、血糖、血脂、骨質疏鬆"},
+        {"type": "collapsible", "summary": "移植後感染與惡性腫瘤（Table 325-4）", "text": "**死因**：心血管 29%、感染 18%、惡性腫瘤 17%\n\n**感染時間軸**\n- **< 1 個月**：傷口感染、herpesvirus、口腔念珠菌、**泌尿道感染**\n- **1–6 個月**：**Pneumocystis**、**CMV**、*Legionella*、*Listeria*、HBV、HCV\n- **> 6 個月**：*Aspergillus*、*Nocardia*、**BK virus**、帶狀疱疹、HBV、HCV\n\n**預防與處理**\n- **PJP**：低劑量 **TMP-SMX 預防 6 個月**\n- **CMV**：**捐者陽性/受者陰性 (D+/R−)** 風險最高；**valganciclovir** 預防與治療\n- **BK polyomavirus**：潛伏於腎臟與尿路上皮，免疫抑制下再活化 → 若不處理一年內多數移植腎失敗；處理以**定期監測病毒量 + 減少免疫抑制**為主\n\n**惡性腫瘤**：發生率約一般人 **100 倍**；最常見**皮膚與嘴唇癌** → 防曬與皮膚篩檢；**PTLD**（多與 **EBV** 相關，早期 < 1 年或晚期 7–10 年）；治療先**減少免疫抑制**；癌症免疫治療有 **30–40% 排斥**風險"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2440-2444, 2448-2453"}
+      ]
+    },
+    {
+      "title": "臨床題練習",
+      "content": [
+        {"type": "callout", "style": "logic", "text": "**每題都照這個順序想**：\n① 分期（G + A）② 是不是 acute-on-chronic？有沒有可逆因素？ ③ 延緩惡化的藥用上了嗎？ ④ 併發症（K、酸、鈣磷 PTH、貧血、容積）⑤ 需不需要準備或開始替代療法？"},
+        {"type": "collapsible", "summary": "Q1：58 歲第 2 型糖尿病、高血壓。eGFR 48（3 個月前 50）、UACR 520 mg/g、BP 146/88、K 4.6。目前只用 amlodipine 與 metformin", "text": "**分期**：**G3a / A3** → KDIGO 熱圖「極高風險」\n\n**處置**：\n- **加 ACEi 或 ARB**（最大耐受劑量），2–4 週後追蹤 Cr 與 K：eGFR 下降 < 30% 且穩定 → 繼續\n- **加 SGLT2i**（從入球端降壓，與 ACEi/ARB 相加）\n- 仍有白蛋白尿 → 考慮 **finerenone**；也可考慮 **GLP-1 RA**\n- 血壓目標 **< 130/80**、限鹽\n- **Metformin**：eGFR 45–59 可繼續（< 30 停用），注意 sick day rule\n- **不要 ACEi + ARB 併用**"},
+        {"type": "collapsible", "summary": "Q2：上題病人開始 losartan 後 2 週，Cr 從 1.4 升到 1.6（約上升 14%），K 5.1", "text": "**判讀**：Cr 上升 < 30% → 代表**成功降低腎絲球內壓**，是預期反應\n**處置**：**繼續 losartan**；K 5.1 → 限鉀飲食、可加排鉀利尿劑或 SGLT2i，必要時鉀結合劑（patiromer、SZC）\n\n**什麼時候要擔心？** Cr 上升 **> 30%** 或**持續上升** → 懷疑**腎動脈狹窄**或容積不足；同時用了 NSAID？"},
+        {"type": "collapsible", "summary": "Q3：CKD G3b 病人。Na 138、K 5.6、Cl 112、HCO₃⁻ 18、BUN 50、Cr 2.3、血糖控制差的糖尿病", "text": "**AG** = 138 − (112 + 18) = **8** → **正常 AG（高氯性）代謝性酸中毒** + **高血鉀**，而且比 GFR 預期的更嚴重 → **第 4 型 RTA（低腎素低醛固酮）**，糖尿病典型\n\n**處置**：\n- **口服 NaHCO₃**（HCO₃⁻ < 20–23 就補）→ 減少蛋白分解、可能延緩惡化；矯正酸中毒也幫忙降鉀\n- 限鉀、排鉀利尿劑、檢查保鉀藥物\n\n**對比**：CKD 晚期的酸中毒會轉成**高 AG**（有機酸累積）"},
+        {"type": "collapsible", "summary": "Q4：血液透析 5 年的病人，P 7.8、Ca 8.4、iPTH 1100 pg/mL（正常上限 65）、ALP 上升、骨痛。目前用 calcium carbonate", "text": "**判讀**：PTH ≈ **17 倍**正常上限（> 9 倍）+ ALP↑ + 骨痛 → **繼發性副甲狀腺亢進 → osteitis fibrosa cystica（高轉換）**\n\n**處置**：\n1. **控磷**：低磷飲食；磷結合劑隨餐——血鈣不低、怕血管鈣化 → 可改/加 **sevelamer 或 lanthanum**\n2. **降 PTH**：\n   - **Cinacalcet / etelcalcetide**（calcimimetic；P 高時優先，因為不會像 calcitriol 一樣增加磷吸收）\n   - 活性維生素 D（calcitriol、paricalcitol）→ 注意高鈣高磷\n3. 目標 **PTH 2–9 倍正常上限**\n4. 藥物失敗 → **副甲狀腺切除**（術後注意 hungry bone syndrome）"},
+        {"type": "collapsible", "summary": "Q5：75 歲糖尿病透析病人，iPTH 80 pg/mL（約 1.2 倍）、ALP 正常、反覆骨折、CT 冠狀動脈嚴重鈣化。長期使用 calcium carbonate 與 calcitriol", "text": "**判讀**：PTH **低於 2 倍**正常上限 + 骨折 + 血管鈣化 + 糖尿病老人 + **含鈣磷結合劑 + calcitriol** → **Adynamic bone disease（低轉換）**\n\n**機轉**：PTH 被過度抑制 → 骨頭不重塑、收不進鈣 → 鈣跑到血管\n\n**處置**：\n- **停 calcitriol**、**改用非鈣磷結合劑**（sevelamer、lanthanum）\n- 考慮降低透析液鈣濃度\n- 讓 PTH 回到 2–9 倍的目標範圍"},
+        {"type": "collapsible", "summary": "Q6：CKD G4 病人 Hb 8.6 g/dL、MCV 88、ferritin 45 ng/mL、TSAT 12%、B12 與葉酸正常、無出血症狀", "text": "**判讀**：CKD 貧血（EPO 不足）**合併絕對缺鐵**（ferritin 低、TSAT 低）\n\n**處置順序**：\n1. **先補鐵**：未透析 → 先試口服鐵；不耐受或無效 → IV 鐵\n2. 找缺鐵原因：**腸胃道失血**（CKD 病人 GI 出血較多）\n3. 鐵補足後 Hb 仍低 → **ESA**（或 HIF-PH 抑制劑）\n4. **目標 Hb 10–11.5 g/dL**，**不要正常化**（中風、血栓↑）\n\n**若 ESA 反應差且鐵足夠** → 找發炎、感染、副甲狀腺亢進、溶血、惡性腫瘤、透析不足"},
+        {"type": "collapsible", "summary": "Q7：CKD G5 未透析，eGFR 9。近一週胸痛、躺下加劇，聽到心包摩擦音；EKG 廣泛 ST 上升、PR 下降。心臟超音波中量積液、無填塞", "text": "**診斷**：**尿毒心包膜炎**\n\n**處置**：\n- **緊急開始透析的絕對適應症**\n- 透析時**不用 heparin**（心包出血 → 填塞風險）\n- 監測填塞徵象；反覆積液或將填塞 → **心包引流**\n- 也要排除非尿毒原因（病毒、惡性、結核、自體免疫、MI 後、minoxidil）\n\n**對比**：若已在透析中還發生心包膜炎 → 通常是**透析不足或不遵從** → 加強透析"},
+        {"type": "collapsible", "summary": "Q8：腹膜透析病人透析液混濁、腹痛、發燒 38.2°C。透析液 WBC 450/mm³，PMN 80%。三天後培養長出 Pseudomonas aeruginosa", "text": "**診斷**：**PD 相關腹膜炎**（WBC > 100/mm³ 且 PMN ≥ 50%）\n- 為什麼門檻比 SBP 低？透析液含 dextrose、細菌在沒有抗生素時繁殖很快\n- 最常見菌：**革蘭氏陽性球菌（皮膚的葡萄球菌）**——通常是交換時無菌技術破口\n\n**處置**：\n- 經驗性**腹腔內抗生素**（涵蓋革蘭氏陽性與陰性）；多數可門診治療\n- **Pseudomonas（或黴菌）→ 抗生素通常不足，需拔除 PD 導管**"},
+        {"type": "collapsible", "summary": "Q9：血液透析中第 2 小時，病人血壓從 140/80 降到 82/50、頭暈、抽筋。本次預計脫水 4.5 kg（體重 60 kg，療程 4 h）", "text": "**診斷**：**透析中低血壓**（HD 最常見急性併發症）+ 抽筋\n**原因**：脫水速度 = 4500 mL / 60 kg / 4 h ≈ **18.8 mL/kg/h**（**> 13 mL/kg/h**，與心血管死亡相關）\n\n**立即處理**：**停止超過濾**、頭低腳高、給 **100–250 mL NS**\n**預防**：\n- 重新評估**乾體重**；減少兩次透析間的體重增加（限鹽限水）\n- **超過濾 profiling**、延長透析時間或增加次數\n- **冷透析液**、透析前不吃大餐、調整降壓藥服用時間"},
+        {"type": "collapsible", "summary": "Q10：腎移植後 2 個月，服用 tacrolimus + mycophenolate + prednisolone。因口腔念珠菌開始 fluconazole，5 天後 Cr 從 1.2 升到 1.9、手抖", "text": "**分析**：**Fluconazole 抑制 CYP3A4 → tacrolimus 濃度上升** → **CNI 腎毒性**（入球小動脈收縮）+ 神經毒性（震顫）\n\n**處置**：\n- 驗 **tacrolimus 谷底濃度**、調降劑量\n- 鑑別：**急性排斥**（切片是金標準）、BK 腎病變、CMV、阻塞、容積不足\n- 局部念珠菌可改用 **nystatin** 避免交互作用\n\n**其他會升高 CNI 濃度**：erythromycin/clarithromycin、ketoconazole、**diltiazem、verapamil**；**降低**：phenytoin、carbamazepine、rifampin"},
+        {"type": "callout", "style": "trap", "text": "**考前速查**\n1. CKD = 異常 > **3 個月**；分期 **G1–G5 + A1–A3**\n2. 最常見病因：**糖尿病腎病變**；腎臟不縮小的 CKD：**DM、類澱粉、HIVAN、ADPKD**\n3. 延緩惡化：**BP < 130/80**、**ACEi/ARB（出球）+ SGLT2i（入球）**、finerenone、限鹽、補鹼（HCO₃⁻ < 20–23）\n4. ACEi/ARB 後 **Cr 上升 < 30% 可接受**；**ACEi + ARB 不併用**\n5. CKD 酸中毒：**早期正常 AG → 晚期高 AG**\n6. CKD-MBD：**FGF-23 最早上升**；PTH 目標 **2–9 倍**；PTH 太低 → **adynamic**；磷結合劑**隨餐**\n7. Calciphylaxis：**warfarin** 是危險因子 → 停藥 + **thiosulfate**\n8. 貧血：**先補鐵再 ESA**；Hb 目標 **10–11.5**，**不正常化**\n9. 首要死因：**心血管疾病**；troponin 常偏高 → 看趨勢\n10. **尿毒心包膜炎 = 透析絕對適應症**，透析**不用 heparin**\n11. Gadolinium：**GFR < 30 避免**（NSF）\n12. 透析：無絕對 GFR 門檻；預先在 GFR 10–14 開始**沒有好處**；通路 **AVF > AVG > 導管**\n13. HD 最常見併發症：**低血壓**；脫水 < 13 mL/kg/h\n14. PD 腹膜炎：**WBC > 100、PMN ≥ 50%**；Pseudomonas/黴菌 → **拔管**\n15. 移植：**首選治療**；crossmatch 陽性 = 絕對禁忌；CNI + azole/macrolide/diltiazem → 濃度↑"},
+        {"type": "source", "book": "Harrison's 22e", "pages": "2428-2453"}
       ]
     }
   ],
   "related": [
     {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
+    {"id": "electrolyte-disorders", "name": "Electrolyte Disorders (離子平衡異常)"},
+    {"id": "acid-base-disorders", "name": "Acid-Base Disorders (酸鹼平衡異常)"},
+    {"id": "anemia-overview", "name": "Anemia (一)：總論與診斷架構"},
+    {"id": "anemia-microcytic", "name": "Anemia (二)：小球性貧血與血紅素疾病"},
     {"id": "nephrotic-syndrome", "name": "Nephrotic Syndrome (腎病症候群)"},
     {"id": "hypertension", "name": "Hypertension (高血壓)"},
     {"id": "diabetes-mellitus", "name": "Diabetes Mellitus (糖尿病)"}
