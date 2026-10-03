@@ -6,200 +6,615 @@
   "specialty": "心臟內科",
   "sources": [
     "Harrison's 22e - Ch.288 Hypertension (p.2176-2192)",
-    "First Choice 醫學(三) - 甲、高血壓 (p.10-40)"
+    "First Choice 醫學(三) 第1冊 - 甲、高血壓 (p.12-33)（含 2022 台灣高血壓治療指引摘要）",
+    "補充（已查證並於內文標註）：2025 AHA/ACC 高血壓指引（Guideline-at-a-Glance, JACC 2025）、ACC/AHA 2017 危象降壓目標、2022 AHA/ASA 自發性腦出血指引、2022 ACC/AHA 主動脈疾病指引、AHA 急性缺血性中風血壓建議"
   ],
-  "generated": "2026-09-10",
+  "generated": "2026-10-03",
+  "related": [
+    {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
+    {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
+    {"id": "diabetes-mellitus", "name": "Diabetes Mellitus (糖尿病)"},
+    {"id": "electrolyte-disorders", "name": "Electrolyte Disorders (離子平衡異常)"},
+    {"id": "ecg-arrhythmias", "name": "ECG & Arrhythmias (心電圖與心律不整)"}
+  ],
   "sections": [
     {
-      "title": "Overview / Epidemiology",
+      "title": "總覽：定義、分類與量測",
       "content": [
-        "High blood pressure 是全球最常見的心血管疾病危險因子，與 stroke、CHD、HF、PAD、CKD、dementia 及全因死亡率密切相關。",
-        {"type": "callout", "style": "guideline", "text": "ACC/AHA 血壓分類 (2017):\n- Normal: < 120/80 mmHg\n- Elevated: 120-129 / < 80\n- Stage 1 HTN: 130-139 / 80-89\n- Stage 2 HTN: >= 140 / >= 90"},
-        {"type": "callout", "style": "guideline", "text": "2022 台灣高血壓治療指引 (TSOC):\n- 居家血壓 >= 130/80 即診斷高血壓\n- 一般人 >= 140/90 開始藥物治療\n- ASCVD or high CV risk: >= 130/80 即開始藥物治療\n- 治療目標: < 130/80 (一般人)"},
-        "美國成人 HTN 盛行率約 46%，20-44 歲為 20-30%，75 歲以上高達 80-85%。全球約 10 億人受影響。",
-        {"type": "callout", "style": "logic", "text": "居家血壓監測 722 法則：連續 7 天、每天 2 次（早晚各一）、每次 2 次取平均值"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2176-2180"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**這份筆記的讀法**\n高血壓的題目幾乎都在問五件事：\n1. **怎麼診斷？**（本章）→ 量測方式、門檻（美國 vs 台灣）\n2. **要不要找次發性原因？**（第 3 章）→ 線索、篩檢、確認檢查\n3. **什麼時候開始吃藥、目標多少？**（第 5、6 章）\n4. **選什麼藥？**（第 6、7 章）→ 一線藥、強適應症、禁忌、頑固型\n5. **危象怎麼處理？**（第 8 章）→ 有沒有**急性器官損傷**才是重點\n\n**出處標示**：以 Harrison 22e 為主（採 ACC/AHA 2017 分類）；**2022 台灣高血壓治療指引**（First Choice 摘要）標「**台灣**」；Harrison 之後才出的 **2025 AHA/ACC 新版指引**與其他非 Harrison 數字都另外標註出處。"
+        },
+        {
+          "type": "table",
+          "headers": ["ACC/AHA 分類（Table 288-1，診間血壓）", "收縮壓 (mmHg)", "", "舒張壓 (mmHg)"],
+          "rows": [
+            ["正常", "< 120", "且", "< 80"],
+            ["偏高（elevated）", "120–129", "且", "< 80"],
+            ["**第 1 期高血壓**", "**130–139**", "或", "**80–89**"],
+            ["**第 2 期高血壓**", "**≥ 140**", "或", "**≥ 90**"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**分類規則**：要用**至少 2 次門診、每次 ≥ 2 次測量的平均值**；收縮壓與舒張壓落在不同等級時，**取較高的那一級**。\n**居家血壓的門檻與診間相同**（Harrison）：≥ 130/80 即高血壓、< 130/80 即控制良好。"
+        },
+        {
+          "type": "table",
+          "headers": ["", "美國 ACC/AHA（Harrison）", "**台灣 2022 TSOC**（First Choice p.13）"],
+          "rows": [
+            ["診斷", "診間或居家 **≥ 130/80**", "**平均居家血壓 ≥ 130/80**（舊版 2015/2017 為 140/90）"],
+            ["開始用藥", "第 2 期（≥ 140/90）一律；第 1 期需合併**已有心血管疾病或高風險**（10 年 ASCVD ≥ 10%、或 ≥ 65 歲、糖尿病、CKD）", "一般人 **≥ 140/90**；**ASCVD 或高心血管風險 ≥ 130/80**"],
+            ["治療目標", "**< 130/80**（≥ 65 歲社區長者：收縮壓 < 130）", "一般人、中風後慢性期、透析病人：**< 130/80**（Class I）；高風險者若能耐受 **收縮壓 < 120**（IIa）；CKD 收縮壓 < 130（能耐受可 < 120）；老年人收縮壓 < 130"],
+            ["其他", "—", "建議用**單一藥片複方**提升控制率與順從性"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**舊考點：目標 < 140/90**\nFirst Choice 收錄的 103 年考題答案是「不到 60 歲、無糖尿病、無 CKD → 血壓目標 < 140/90」——那是舊指引。**現行台灣 2022 指引與美國指引的一般目標都是 < 130/80**。"
+        },
+        {
+          "type": "heading",
+          "text": "量測方式"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hypertension/h288-2.png",
+          "label": "Harrison's 22e Fig. 288-2",
+          "caption": "正確測量診間血壓的要點",
+          "explain": "**【怎麼看】**病人**坐著、背有靠、雙腳平放地面**；手臂裸露、放鬆，**上臂中段與心臟同高**；袖帶綁在**肘窩上方 2–3 cm**；休息期間與測量之間**不要講話**。\n**【考點】**Harrison 的準備清單：測量前 **30 分鐘內不要咖啡因、抽菸、喝酒、運動**，先排空膀胱；安靜休息 **3–5 分鐘**；用**經驗證、最好是自動**的血壓計與**大小合適的袖帶**；第一次就診量**雙臂**，之後用血壓較高的那一側。常見錯誤會讓收縮壓平均**高估約 7 mmHg**、高血壓盛行率高估 15–20%。"
+        },
+        {
+          "type": "table",
+          "headers": ["方式", "特點", "重點"],
+          "rows": [
+            ["**OBPM**（傳統診間血壓）", "簡便普及，代表性差", "初步篩檢，不宜單獨診斷"],
+            ["**AOBP**（無人自動診間血壓）", "無人環境下自動多次取平均", "排除觀察者偏差、改善**白袍效應**"],
+            ["**HBPM**（居家血壓）", "長期追蹤、貼近日常", "**台灣：722 法則**——連續 **7** 天、每天 **2** 次（早晚各一）、每次量 **2** 次取平均（First Choice p.12）；美國：就診前約 3 天、早（服藥前）晚各 2–3 次"],
+            ["**ABPM**（24 小時動態血壓）", "最完整，含**夜間血壓**", "與診間 130/80 相當的數值：**白天 130/80、夜間 110/65、24 小時 125/75**；夜間血壓沒有下降（**non-dipper**，正常應降 10–20%）→ 心血管風險較高"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["", "診間血壓", "診間外血壓", "風險與處理（Harrison）"],
+          "rows": [
+            ["**白袍高血壓**", "高", "正常", "盛行率 15–25%；風險**接近血壓正常者** → 以非藥物治療為主，追蹤是否轉為持續性高血壓"],
+            ["**隱匿性高血壓**", "正常（常為偏高）", "高", "盛行率 15–25%；風險**等同持續性高血壓** → 可能需要藥物；**診間血壓偏高但已有 LVH 或蛋白尿**時要懷疑"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**量測相關國考題**（First Choice 考題）：\n- **袖帶太小 → 高估**血壓（需要更高壓力才能壓扁動脈）\n- 小腿收縮壓通常比上臂**高約 20 mmHg**；**兩臂收縮壓差正常 < 10 mmHg**\n- 從近心端往周邊量：**收縮壓上升、舒張壓下降**\n- **姿勢性低血壓**：平躺後站起 **1–3 分鐘內**，收縮壓下降 **≥ 20** 或舒張壓下降 **≥ 10 mmHg**\n- 影響量測的因素：姿勢、手臂尺寸、儀器種類——**性別不會**\n- **穿戴式裝置（智慧手錶）**目前都不夠準確，不建議依賴（Harrison；2025 AHA/ACC 指引亦同）"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "2176-2178"},
+        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "12-13、23-25、27-28"}
       ]
     },
     {
-      "title": "Etiology / Risk Factors",
+      "title": "流行病學與病生理",
       "content": [
-        {"type": "heading", "text": "Primary (Essential) HTN (95%)"},
-        "常有家族史。50 歲前通常 SBP 和 DBP 同時升高（因 resistance arterioles vasoconstriction）；60 歲後常見 **Isolated systolic HTN**（SBP > 140, DBP < 90），因大動脈 elastin 被 collagen 取代，血管彈性變差。",
-        {"type": "heading", "text": "Secondary HTN (5%)"},
-        "< 30 或 > 60 歲被診斷、突發性或難以控制的高血壓需考慮。口訣：**腎內主神藥**。",
-        {"type": "table", "headers": ["分類", "病因", "線索"], "rows": [
-          ["腎臟 (4%)", "腎動脈狹窄 (Fibromuscular dysplasia in 年輕女性; Atherosclerosis in 老年)", "腹部 bruit、ACEi 後急性腎衰竭"],
-          ["腎臟", "慢性腎臟病 (80-85% CKD 有 HTN)", "Cr 升高、蛋白尿"],
-          ["內分泌 (0.5%)", "Primary Hyperaldosteronism (Conn's)", "低血鉀、代謝性鹼中毒"],
-          ["內分泌", "Pheochromocytoma", "陣發性 HTN、心悸、頭痛、出汗"],
-          ["內分泌", "Cushing's syndrome", "月亮臉、中心肥胖"],
-          ["血管 (0.2%)", "Coarctation of aorta", "上肢 BP > 下肢 BP"],
-          ["藥物", "避孕藥、NSAIDs、類固醇、EPO、Cocaine", "用藥史"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "Coarctation of aorta：狹窄處最常在 left subclavian artery 分出後的 descending aorta，上肢 BP 高於下肢。30% 合併 bicuspid aortic valve"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "13-16"}
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "高血壓是**中風（缺血與出血）、冠心病、心衰竭、周邊動脈疾病、CKD / 末期腎病、失智與全死因死亡**的主要危險因子；美國門診超過 1/3 的就診與高血壓有關",
+            "美國盛行率約 **46%**（以 130/80 定義；以 140/90 定義約 32%）；**20–44 歲 20–30%，≥ 75 歲 80–85%**；非西班牙裔黑人最高（59%）",
+            "**收縮壓**隨年齡持續上升到約 80 歲；**舒張壓**約到 50 歲後持平或下降 → 老年人**脈壓變寬、單純收縮期高血壓**常見",
+            "與世隔絕的族群血壓幾乎不隨年齡上升 → 年齡相關的血壓上升**並非必然**，而是**鈉多鉀少、飲食不健康、活動少、體重增加、飲酒**造成",
+            "控制率不理想：美國 2017–2020 年只有約 48% 控制在 < 140/90、24% 在 < 130/80；全球 < 140/90 的控制率 < 14%"
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/hypertension/h288-1.png",
+          "label": "Harrison's 22e Fig. 288-1",
+          "caption": "影響血壓的因素",
+          "explain": "**【怎麼看】****動脈血壓 = 心輸出量 × 周邊阻力**；心輸出量由**心搏量**與**心跳**決定，周邊阻力由小動脈的**結構**與**功能**決定。\n**【考點】**每一類降壓藥都作用在這張圖的某一支：**β 阻斷劑**降心跳與心輸出量；**利尿劑**減少血管內容積（長期則降低周邊阻力）；**CCB、血管擴張劑**直接擴張小動脈；**ACEI / ARB** 擋 angiotensin II 的收縮血管與 aldosterone 的留鈉作用。"
+        },
+        {
+          "type": "table",
+          "headers": ["機轉", "重點"],
+          "rows": [
+            ["**腎臟－容積－內分泌系統**", "長期血壓主要由腎臟排鈉能力決定（Guyton 假說）；常見理論：一開始是**心輸出量與血管內容積增加**，之後**周邊阻力上升、心輸出量回到正常**"],
+            ["**壓力性利鈉（pressure-natriuresis）**", "吃很多鹽 → 血壓上升 → 尿鈉排出增加，以「**更高的血壓**」換取鈉平衡；排鈉能力受損的人需要更高的血壓才能平衡"],
+            ["**RAAS**", "angiotensin II 收縮血管、aldosterone 留鈉"],
+            ["**交感神經**", "收縮血管、增加心跳"],
+            ["**血管內皮**", "分泌 NO（舒張）與 endothelin（收縮）等；內皮功能異常可能參與高血壓與動脈硬化的起始"],
+            ["擴張血管的系統", "bradykinin（ACEI 抑制其分解 → **咳嗽、血管性水腫**）、利鈉胜肽"]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "收縮壓、舒張壓與脈壓（First Choice）"
+        },
+        {
+          "type": "table",
+          "headers": ["", "重點"],
+          "rows": [
+            ["收縮壓", "血管壁被撐開的壓力，**離心臟越遠越高**"],
+            ["舒張壓", "血管壁回彈的壓力，**離心臟越近越高**"],
+            ["**50 歲前**", "收縮壓與舒張壓一起升高（阻力小動脈收縮）；**舒張壓**與冠心病較相關"],
+            ["**60 歲後：單純收縮期高血壓**", "主動脈的**彈力蛋白被膠原蛋白取代** → 收縮時無法擴張（收縮壓↑）、舒張時沒有回彈推力（舒張壓↓）→ **脈壓變寬**；收縮壓與脈壓是主要危險因子"],
+            ["寬脈壓的鑑別", "血管順應性下降（動脈硬化）；心輸出量增加：**主動脈瓣閉鎖不全、甲狀腺毒症**、發燒、貧血、**動靜脈瘻管、開放性動脈導管**（**主動脈瓣狹窄是窄脈壓**——112 年國考）"]
+          ]
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "2176-2177、2178、2191-2192"},
+        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "13-14、25"}
       ]
     },
     {
-      "title": "Pathophysiology",
+      "title": "原發性 vs 次發性高血壓",
       "content": [
-        "**BP = Cardiac Output (CO) x Systemic Vascular Resistance (SVR)**",
-        {"type": "callout", "style": "logic", "text": "收縮壓 (SBP)：血管壁被撐開的壓力，離心臟越遠越高\n舒張壓 (DBP)：血管壁回彈的壓力，離心臟越近越高\n脈壓 (Pulse Pressure)：SBP - DBP"},
-        "動脈壓主要由 **renal-volume-endocrine pressure control system** 調控。初始 BP 升高源自 increased CO 和 expanded intravascular volume，隨後 peripheral resistance 增加而 CO 回歸正常。",
-        {"type": "list", "ordered": false, "items": [
-          "**RAAS system**: Angiotensin II → vasoconstriction + aldosterone → Na retention",
-          "**Sympathetic nervous system**: Norepinephrine → vasoconstriction + increased HR",
-          "**Endothelial dysfunction**: Decreased NO → impaired vasodilation",
-          "**Pressure-natriuresis**: 當 BP 升高 → 腎臟排鈉增加以維持 Na balance → 需更高 BP 來排鈉"
-        ]},
-        {"type": "callout", "style": "logic", "text": "Isolated Systolic HTN (老年人)：大動脈 elastin 被 collagen 取代 → 收縮時血管無法擴張 (SBP 升高) → 舒張時無回彈推力 (DBP 下降) → Pulse pressure 增加"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2176-2178"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**大多數是原發性**（First Choice：約 95%），找不到明確的解剖原因；遺傳只有小幅、多基因的影響，**生活型態（飲食、鈉、鉀、體重、活動、酒精）**才是主因。其他環境因子：重金屬、**空氣污染（PM2.5，收縮壓約高 3–5 mmHg）**、寒冷季節、高海拔。\n\n**什麼時候要懷疑次發性？**\n- Harrison：所有新診斷者都要想一下；尤其**頑固型高血壓**、**突然惡化**、**目標器官損傷與血壓程度不成比例**、**不明原因低血鉀**、蛋白尿或 LVH\n- First Choice：**< 30 歲或 > 60 歲才診斷**、**突發性或難以控制**的高血壓\n- First Choice 口訣：**腎內主神藥**（腎臟、內分泌、主動脈窄縮、神經、藥物）"
+        },
+        {
+          "type": "table",
+          "headers": ["病因", "盛行與機轉", "線索", "篩檢 → 確認", "治療"],
+          "rows": [
+            ["**阻塞性睡眠呼吸中止（OSA）**", "**Harrison：可能是最常見的次發性原因**；> 30% 高血壓者有 OSA；間歇缺氧 → 交感活化", "**打鼾**、睡不好、睡眠中呼吸暫停、**白天嗜睡**、肥胖、頑固型高血壓", "問卷 → **睡眠多項生理檢查**", "減重；**CPAP 對降壓幫助有限** → 仍需降壓藥"],
+            ["**藥物與物質**", "很常見（美國 > 26% 規律用 NSAID）", "用藥史", "問病史", "停藥、換藥或照常治療高血壓"],
+            ["**腎實質疾病**", "> 5%；**80–85% 晚期 CKD 有高血壓**（互為因果）；RAAS 活化", "疲倦、水腫、血尿、蛋白尿、**腎臟腫塊（多囊腎）**", "Cr、白蛋白尿 → 超音波 / CT / MRI、**腎切片**（懷疑腎絲球腎炎時）", "常需 ≥ 3 種藥；**ACEI / ARB + 利尿劑**"],
+            ["**原發性醛固酮症**", "約 **5%**；**雙側增生 60–70%**、**單側腺瘤 30–40%**", "嚴重或**頑固型**高血壓、**低血鉀**（肌肉無力、抽筋）、意外發現的腎上腺腫瘤、早發高血壓或中風家族史；可能誘發心房顫動", "**血漿 aldosterone / renin 比值（ARR）**（標準化條件下）+ 腹部 CT → 生理食鹽水抑制或 captopril 試驗；**腎上腺靜脈取樣 = 黃金標準**", "**單側腺瘤：腹腔鏡腎上腺切除**；雙側增生：**MRA（spironolactone）**+ 減鈉減重"],
+            ["**腎血管性**", "約 1–5%；**動脈粥狀硬化 90%**（年長、單側、近開口處）；**纖維肌肉發育不良（FMD）約 10%**（中年 / 年輕白人女性、遠端、串珠狀、較常雙側）", "**突然發生**的早發高血壓（想 FMD）；年長者**快速惡化或頑固型**、腎功能不明原因惡化（想粥狀硬化）；**腹部雜音**；**用 ACEI 後腎功能惡化**", "都卜勒超音波、MRA / CTA → **血管攝影（DSA）= 黃金標準**；狹窄 > 70% 才較可能造成高血壓", "**FMD：經皮血管成形術常可治癒**；**粥狀硬化：藥物治療為主**（RCT 顯示支架或手術沒有額外好處），含 RAAS 抑制劑"],
+            ["**妊娠高血壓疾患**", "約 10% 孕婦；子癲前症 3–5%", "懷孕 20 週後新發高血壓；合併蛋白尿或器官損傷 = 子癲前症", "≥ 2 次、≥ 2 個場合的血壓", "**禁用 ACEI / ARB**；labetalol、nifedipine、methyldopa（見第 9 章）"],
+            ["**嗜鉻細胞瘤**", "罕見；腎上腺髓質 80–85%（其餘為副神經節瘤）", "常 30–50 歲；**陣發性高血壓、頭痛、心悸、盜汗**", "**血漿或 24 小時尿液 catecholamine / metanephrine** → CT / MRI / PET", "手術切除；**術前先給 α 阻斷劑與補充水分 7–10 天，必要時再加 β 阻斷劑**（First Choice 111 年考題）"],
+            ["Cushing 症候群", "> 75% 有高血壓", "月亮臉、水牛肩、四肢細、**紫紋**、易瘀青", "24 小時尿液皮質醇、**隔夜 dexamethasone 抑制試驗**、影像", "依病因"],
+            ["**主動脈窄縮**", "**最常見的先天性原因**（First Choice：0.2%）", "**股動脈脈搏延遲且減弱**、**上肢血壓 > 下肢**、肩胛間區收縮期雜音、LVH", "心臟超音波、CT、血管攝影", "氣球擴張、手術、藥物"],
+            ["其他", "甲狀腺亢進或低下、肢端肥大、高血鈣（副甲狀腺亢進）；First Choice 另列：**腦壓過高**、急性腎絲球腎炎、血管炎 / **硬皮症腎危象**", "—", "—", "—"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**「最常見的次發性原因」：國考答案 vs Harrison 22e**\n- First Choice 收錄的 103、107 年考題：**腎實質疾病**最常見\n- Harrison 22e：**OSA 可能是最常見的**；排除 OSA 與藥物後，腎實質疾病與原發性醛固酮症各約 5%\n→ 考題若只有「腎實質疾病 / 原發性醛固酮症 / 嗜鉻細胞瘤 / Cushing」四選一，答**腎實質疾病**。\n**內分泌原因中最常見**：**原發性醛固酮症**（111 年國考）。\n**原發性醛固酮症是低血鉀**，不是高血鉀（103 年國考）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**嗜鉻細胞瘤的兩個陷阱**\n1. **不可以單獨給 β 阻斷劑**：β2 的血管擴張被擋掉，剩下沒有對抗的 **α 刺激** → 血壓反而急遽上升（112 年國考）。順序：**先 α、後 β**。\n2. **遺傳比例的說法不同**：First Choice 寫約 **40%** 與體顯性遺傳疾病有關（**VHL、MEN2、NF1**）；Harrison 寫「**少數**」有遺傳傾向（MEN2、VHL、神經纖維瘤、遺傳性副神經節瘤症候群）。考題若給「80% 為家族遺傳」→ 錯（107 年國考）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**主動脈窄縮的補充**（First Choice）：狹窄處最常在**剛分出左鎖骨下動脈後**的降主動脈近端（近動脈韌帶）；**男性較多**、常見於 **Turner 症候群**；側支循環（內乳、肋間動脈）可聽到連續性雜音、X 光可見**肋骨下緣凹痕（rib notching）**；**約 30% 合併雙瓣性主動脈瓣**。\n**常見升壓藥物**（Harrison）：安非他命、血管新生抑制劑、抗憂鬱劑與抗精神病藥、**鼻充血解除劑、口服避孕藥、NSAID、全身性類固醇**；First Choice 另列 **EPO、抗排斥藥（calcineurin inhibitor）**；非法藥物：**古柯鹼**、大麻、MDMA；草藥：**麻黃、甘草（大量）**、人參、聖約翰草。"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "2179-2183"},
+        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "14-16、24-30、33"}
       ]
     },
     {
-      "title": "Pathology",
+      "title": "評估：基本檢查、心血管風險與目標器官",
       "content": [
-        {"type": "heading", "text": "Target Organ Damage (口訣：腦心腎周眼)"},
-        {"type": "table", "headers": ["Target Organ", "Pathology", "Clinical Manifestation"], "rows": [
-          ["腦", "Lacunar infarcts, Charcot-Bouchard microaneurysms", "TIA, Stroke, Vascular dementia"],
-          ["心", "LV hypertrophy → diastolic dysfunction → HF", "S4 gallop, Loud A2, CHF"],
-          ["腎", "Hyaline arteriolosclerosis → nephrosclerosis", "Proteinuria, CKD"],
-          ["周邊血管", "Atherosclerosis acceleration", "PAD, Aortic aneurysm"],
-          ["眼", "Hypertensive retinopathy", "AV nicking, Cotton-wool spots, Papilledema"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "高血壓心音特徵：\n- Loud S2 (A2)：高血壓導致動脈瓣關閉變大聲\n- S4 gallop：心房對抗肥厚、順應性差的心室產生的聲音\n- 注意：S3 是心衰竭的徵象，不是單純高血壓"}
+        {
+          "type": "table",
+          "headers": ["新診斷高血壓的基本檢查（Harrison）", "目的"],
+          "rows": [
+            ["**CBC**", "—"],
+            ["**電解質（Na、K、Ca）**", "**低血鉀 → 想原發性醛固酮症**；利尿劑的 baseline"],
+            ["**Creatinine / eGFR**", "腎實質疾病、目標器官損傷；ACEI / ARB 的 baseline"],
+            ["**血脂、HbA1c 或空腹血糖**", "共病、心血管風險評估"],
+            ["**TSH**", "甲狀腺疾病"],
+            ["**尿液常規 + 尿液白蛋白 / 肌酸酐比值（UACR）**", "腎臟損傷"],
+            ["**12 導程心電圖**", "**LVH**、心律不整"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**TSH 算不算基本檢查？**（First Choice 105 年考題）題目問「35 歲新診斷高血壓，何者**不是**初步評估所需？」答案是 **TSH**——那是依舊版台灣指引；但 First Choice 編者也註明，依 **2017 ACC/AHA（Harrison 採用）TSH 屬於基本檢查**，兩種說法都可以。"
+        },
+        {
+          "type": "heading",
+          "text": "心血管風險評估：為什麼重要？"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "血壓與心血管風險呈**連續、對數線性**關係，收縮壓從 **90 到 > 180 mmHg** 都成立",
+            "同樣的血壓，**單一危險因子 vs 合併多個危險因子**，10 年風險可相差 **30 倍以上** → 第 1 期高血壓要不要吃藥，取決於**整體風險**",
+            "藥物的**相對**風險下降在各風險族群相近，但**絕對**好處在高風險者大得多",
+            "已有心血管疾病 → 本身就是高風險；沒有的話，用**風險計算器**：美國 40–75 歲用 **pooled cohort equations**（10 年 ASCVD **≥ 10% = 高風險**）；AHA 已推出 **PREVENT**（30–70 歲，納入腎功能、UACR、社會因素，可預測心衰竭）取代之"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "病史、理學檢查與目標器官損傷（First Choice）"
+        },
+        {
+          "type": "table",
+          "headers": ["面向", "要問 / 要看什麼"],
+          "rows": [
+            ["病史", "高血壓多久、過去治療效果與副作用、家族史、飲食、抽菸、糖尿病；**次發性線索**（腎臟病史、Cushing 外觀、肌肉無力 = 低血鉀、心悸）"],
+            ["**目標器官損傷（口訣：腦心腎周眼）**", "**腦**：TIA、中風；**心**：心絞痛、心肌梗塞、心衰竭；**腎**：蛋白尿；**周**：周邊血管疾病；**眼**：高血壓視網膜病變（會診眼科）"],
+            ["理學檢查", "初次診斷量**雙臂、躺坐站**血壓；心音 **S2 變大聲**（主動脈瓣關閉）、**S4 gallop**（心房對抗肥厚、順應性差的心室）；甲狀腺腫、**腹部雜音**、摸到腎臟腫大（多囊腎）；心衰竭徵象、神經學異常"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**S4 vs S3**：單純高血壓造成左心室肥厚 → 舒張期順應性差 → **S4**；**S3** 代表心衰竭（容積過多）。"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "2178-2179"},
+        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "16、31-32"}
       ]
     },
     {
-      "title": "Clinical Presentation",
+      "title": "非藥物治療：六項最有證據的介入",
       "content": [
-        "多數高血壓患者**無症狀** (silent killer)，常在體檢或併發症出現時才被診斷。",
-        {"type": "heading", "text": "症狀 (通常表示嚴重或併發症)"},
-        {"type": "list", "ordered": false, "items": [
-          "Headache (especially occipital, morning headache)",
-          "Dizziness, blurred vision",
-          "Dyspnea on exertion (LVH/HF)",
-          "Epistaxis (severe cases)"
-        ]},
-        {"type": "heading", "text": "Hypertensive Crisis"},
-        {"type": "table", "headers": ["", "Hypertensive Emergency", "Hypertensive Urgency"], "rows": [
-          ["定義", "BP 常 > 180/120 + 急性目標器官損傷", "BP 常 > 180/120 但無急性器官損傷"],
-          ["器官損傷", "腦中風、心肌梗塞、主動脈剝離、急性腎衰竭、Papilledema", "無"],
-          ["處理", "IV 藥物，分鐘至數小時內降壓", "口服藥物，24-48 小時內降壓"],
-          ["目標", "第一小時降 25%，2-6h 達 160/100", "24-48h 內逐步控制"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "Hypertensive emergency 的重點是「有無急性器官損傷」，不是血壓數字！\n血壓 200/110 無器官損傷 = urgency\n血壓 180/110 + 新發 focal deficit = emergency"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "20-22"}
+        {
+          "type": "table",
+          "headers": ["介入（Table 288-2）", "建議", "預期收縮壓下降（高血壓者 / 非高血壓者）"],
+          "rows": [
+            ["**DASH 飲食**", "多蔬果、全穀、低脂乳製品；少脂肪、飽和脂肪、膽固醇（DASH 提供每天約 4,700 mg 鉀）", "**約 5 / 2–3 mmHg**（原始 8 週供餐試驗：5.5/3.0）"],
+            ["**減重**", "行為諮商（熱量限制 + 活動）；少數用藥（GLP-1 RA）；BMI ≥ 40，或 ≥ 35 且合併高血壓等共病可考慮減重手術", "**每減 1 kg 約降 1 mmHg**；6–12 個月平均減 4.5 kg → 約 5 mmHg"],
+            ["**減鈉**", "美國飲食指南 **< 2,300 mg/d**、WHO < 2,000 mg/d，更低更好（1,500 mg/d 即可滿足營養需求）；**含鉀代鹽**", "**約 5 / 2–3 mmHg**；每減 2,300 mg 鈉約降 5.5 mmHg；含鉀代鹽在中國的大型試驗**減少中風 14%**"],
+            ["**補鉀**", "以**飲食**為主（蔬果、豆類、綠葉菜）；建議攝取約 3,500 mg/d", "**約 5 / 2–3 mmHg**；**黑人效果約 3 倍**"],
+            ["**運動**", "**每週 ≥ 150 分鐘**有氧（每次 40–60 分鐘、每週 ≥ 3 次最佳）；阻力運動可輔助", "有氧約 **5**；合併阻力運動約 **6.5–7 mmHg**（幅度與降壓藥相當）"],
+            ["**減少飲酒**", "**男性 ≤ 2 杯、女性 ≤ 1 杯 / 天**（WHO 建議戒酒）；每多 1 杯，收縮壓約高 1.5 mmHg", "**> 5 mmHg**（約 5.5）"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**DASH 的降壓幅度**：舊筆記寫的「8–14 mmHg」**沒有出處**。Harrison 22e：遵從良好時，高血壓者約 **5 mmHg**、非高血壓者 **2–3 mmHg**。\n**補鉀的禁忌**：高血鉀、晚期腎病、正在用會減少鉀排泄的藥（**保鉀利尿劑、ACEI / ARB、MRA**）。\n**通則**：各項介入大致呈**劑量反應**，任何程度的改善都有幫助；**合併多項**效果更大（例如 DASH + 減重或減鈉）；也會**增強降壓藥的效果**（減鈉最明顯）。先從**最異常、最容易改**的行為下手。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**First Choice 105 年考題**：60 歲女性 BMI 27.1、血壓 170/100、每晚紅酒 30 mL → 生活型態建議：**減輕體重**（每天 30 mL 紅酒已在建議量內，不是重點）。\n**2025 AHA/ACC 新版**（JACC Guideline-at-a-Glance）：過重者建議**至少減重 5%**。"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "2180、2183-2186"},
+        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "31"}
       ]
     },
     {
-      "title": "Diagnosis",
+      "title": "藥物治療：何時開始、目標與選藥",
       "content": [
-        {"type": "heading", "text": "血壓量測方式"},
-        {"type": "table", "headers": ["方法", "全名", "特點"], "rows": [
-          ["OBPM", "Office BP Measurement", "門診量測，簡便但代表性差"],
-          ["AOBP", "Automated Office BP", "無人環境自動多次取平均，排除白袍效應"],
-          ["HBPM", "Home BP Monitoring", "居家量測，722 法則，推薦用於診斷與監控"],
-          ["ABPM", "24h Ambulatory BP Monitoring", "最完整，可評估夜間血壓 (dipper/non-dipper)"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "White coat HTN：診間 BP 高但居家 BP 正常 (15-25%)\nMasked HTN：診間 BP 正常但居家 BP 高 (15-25%)\n→ White coat HTN 風險較低，非藥物治療為主\n→ Masked HTN 風險等同 sustained HTN，需藥物治療"},
-        {"type": "heading", "text": "基本檢查"},
-        {"type": "list", "ordered": false, "items": [
-          "CBC, electrolytes (Na, K, Ca), Cr/eGFR",
-          "Lipid profile, HbA1c or fasting glucose",
-          "TSH, Urinalysis + UACR",
-          "12-lead ECG (LVH screening)",
-          "Fundoscopy (retinopathy grading)"
-        ]},
-        {"type": "heading", "text": "Secondary HTN 篩檢"},
-        {"type": "list", "ordered": false, "items": [
-          "**Renal artery stenosis**: Renal Doppler US (screening) → MRA/CTA (confirmation)",
-          "**Primary aldosteronism**: Aldosterone/Renin ratio (ARR) → confirmatory test",
-          "**Pheochromocytoma**: 24h urine metanephrines / plasma free metanephrines",
-          "**Cushing's**: 24h urine cortisol, overnight dexamethasone suppression test",
-          "**Coarctation**: Four-limb BP, CXR (rib notching), Echo/CT angiography"
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2180-2186"}
+        {
+          "type": "figure",
+          "src": "figures/hypertension/h288-3.png",
+          "label": "Harrison's 22e Fig. 288-3",
+          "caption": "依血壓分類的處置建議",
+          "explain": "**【怎麼看】**由左到右：**正常**（< 120/80）→ 鼓勵健康生活，**12 個月**後再評估；**偏高**（120–129/< 80）→ 積極非藥物治療，**3–6 個月**再評估；**第 1 期**（130–139 或 80–89）→ 先評估 **ASCVD 風險**：低風險只做非藥物治療（3–6 個月），**高風險**（已有心血管疾病、計算風險高、或**第 1 期合併 ≥ 65 歲、糖尿病、CKD**）→ **藥物 + 非藥物**；**第 2 期**（≥ 140 或 ≥ 90）→ 一律**藥物 + 非藥物**，**1 個月**後再評估。\n**【考點】**美國約 30% 第 1 期病人屬於高風險而需要用藥；低風險第 1 期若非藥物治療 **6 個月**仍未 < 130/80，可考慮加藥（尤其終生風險高的年輕人）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**2025 AHA/ACC 新版指引的主要更新**（Harrison 22e 尚未納入；依 JACC 2025 Guideline-at-a-Glance 查證）：\n- 分類與 **< 130/80 的目標**不變\n- 第 1 期是否用藥改用 **PREVENT** 計算 10 年**總心血管風險**：**已有心血管疾病、糖尿病、CKD，或 PREVENT ≥ 7.5%** → 血壓 ≥ 130/80 就開始用藥\n- 風險 < 7.5% → 先做 **3–6 個月**生活型態介入，平均仍 ≥ 130/80 就開始用藥\n- **第 2 期：一開始就用 2 種不同類一線藥的單一藥片複方**\n- 過重者減重目標 **≥ 5%**；不建議依賴無袖帶裝置（智慧手錶）\n- 「hypertensive urgency」改稱 **severe hypertension**（見第 8 章）"
+        },
+        {
+          "type": "heading",
+          "text": "降壓治療的效益"
+        },
+        {
+          "type": "table",
+          "headers": ["結果（123 個試驗的統合分析）", "相對風險下降"],
+          "rows": [
+            ["主要心血管事件", "**20%**"],
+            ["冠心病", "17%"],
+            ["**中風**", "**27%**"],
+            ["**心衰竭**", "**28%**"],
+            ["全死因死亡", "13%"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**舊筆記的「中風降 35–40%、心肌梗塞降 20–25%、心衰竭降 50%」**在 Harrison 22e 中找不到；以上表的統合分析數字為準。相對風險下降在**有無心血管疾病**的人都差不多，且**收縮壓 130–139** 起就有好處。"
+        },
+        {
+          "type": "heading",
+          "text": "一線藥物（Table 288-4）"
+        },
+        {
+          "type": "table",
+          "headers": ["藥物", "機轉", "收縮壓下降（相對安慰劑）", "常見副作用", "重點"],
+          "rows": [
+            ["**Thiazide 類利尿劑**（chlorthalidone、HCTZ、indapamide）", "抑制**遠曲小管 Na-Cl 共同轉運蛋白**", "約 12", "**低血鈉、低血鉀、高血鈣、高尿酸、高血糖、血脂異常**（First Choice 另列**低血鎂**）", "**chlorthalidone 優先**（半衰期長、美國大型試驗都用它）；統合分析中**一線預防心血管疾病的「最佳」藥物**；女性**骨折減少**；可合併 amiloride 等抵消低血鉀"],
+            ["**ACEI**（enalapril、lisinopril、ramipril…）", "抑制 ACE → Ang II 減少；**bradykinin 不被分解**", "約 12", "**乾咳**（First Choice：約 20%）、CKD 高血鉀、**嚴重雙側腎動脈狹窄 → 急性腎衰竭**、低血壓、**血管性水腫**", "**不可與 ARB 併用**；**懷孕禁用**；咳嗽 → 換 ARB"],
+            ["**ARB**（losartan、valsartan…）", "阻斷 Ang II 與受體結合", "約 12", "CKD 高血鉀、GFR 下降、雙側 RAS 急性腎衰竭；副作用少", "**不可與 ACEI 併用**；**懷孕禁用**"],
+            ["**CCB（DHP）**（amlodipine、felodipine、nifedipine LA）", "阻擋鈣離子進入細胞，主要抑制**血管收縮**", "約 10", "**周邊水腫（約 10%，劑量相關）**、牙齦增生；First Choice 另列臉潮紅、頭痛", "amlodipine 較常用；**預防中風好**，但**預防心衰竭較差**；**HFrEF 不建議**"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**選藥原則**（Harrison）：\n- 沒有強適應症時，第一線從 **thiazide 類利尿劑、CCB、ACEI 或 ARB** 中選；**β 阻斷劑不是第一線**（在頭對頭試驗中較差，**尤其預防中風**），只在有強適應症（缺血性心臟病、心衰竭）時才當第一步\n- **降多少比用什麼藥更重要**\n- 用**長效、每日一次**的藥（如 chlorthalidone、lisinopril）\n- **低劑量兩藥合併**優於單一藥物高劑量：控制更快、副作用更少、順從性更好；**單一藥片複方**更好\n- 合理組合：**利尿劑或 CCB + ACEI 或 ARB**；三合一 = **利尿劑 + CCB + ACEI 或 ARB**\n- 試驗中達到 < 140/90 平均需要 **2 種藥**、達到 < 130/80 需要 **3 種藥**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hypertension/h288-4.png",
+          "label": "Harrison's 22e Fig. 288-4",
+          "caption": "無併發症高血壓的治療流程",
+          "explain": "**【怎麼看】**所有人都要做六項**非藥物治療**。加藥時：**單一藥物**只適用於「**非黑人**、第 1 期、平均血壓**接近 130/80**」的少數人（利尿劑、CCB、ACEI 或 ARB 擇一）；**大多數人一開始就用兩藥合併**，尤其**黑人**與**收縮壓超過目標 > 20 mmHg** 者（利尿劑或 CCB + ACEI 或 ARB，最好單一藥片）→ 仍 > 130/80 → **三合一**（利尿劑 + CCB + ACEI / ARB）→ 仍 > 130/80 = **頑固型** → 加 **MRA**、必要時血管擴張劑 → 再不行就加其他藥或轉介。\n**【考點】**這張圖就是「**A + C + D**」的階梯：ACEI/ARB + CCB + 利尿劑，第四線是 **spironolactone**。"
+        },
+        {
+          "type": "heading",
+          "text": "其他降壓藥（Table 288-4）"
+        },
+        {
+          "type": "table",
+          "headers": ["藥物", "重點與副作用"],
+          "rows": [
+            ["**β 阻斷劑**（metoprolol、carvedilol、nebivolol）", "**有強適應症才當第一步**（缺血性心臟病、心衰竭）；副作用：**氣喘**、心搏過緩、疲倦、運動耐受差；**高度房室傳導阻滯禁用**；**atenolol 不建議**（心臟保護較差）；非選擇性（舊）因支氣管痙攣很少用於高血壓；carvedilol（合併 α 阻斷）、nebivolol（擴張血管）沒有證據更能預防心血管事件"],
+            ["**Non-DHP CCB**（diltiazem、verapamil）", "主要作用在**心臟**；很少用來降壓（除非有其他強適應症）；副作用：心搏過緩、噁心、**便秘**；**不可與 β 阻斷劑併用**；**HFrEF、高度房室或竇房傳導阻滯禁用**"],
+            ["**MRA**（spironolactone、eplerenone、finerenone）", "**頑固型高血壓的第四線**、低腎素狀態；高血鉀（尤其 CKD、合併保鉀藥）；spironolactone → **男性女乳症、乳房脹痛、勃起障礙**（eplerenone 選擇性較高、finerenone 為非類固醇）"],
+            ["保鉀利尿劑（amiloride、triamterene）", "降壓效果小；用來抵消 thiazide 的低血鉀"],
+            ["**Loop 利尿劑**（furosemide、torsemide）", "**CKD GFR < 30**、**有症狀心衰竭**、搭配 minoxidil 時優先；排鈉強但作用時間短，**不適合單純降壓**；會**降低**血鈣（thiazide 是升高）"],
+            ["**α1 阻斷劑**（doxazosin）", "**姿勢性低血壓**（尤其老人）；心臟保護不如利尿劑；多用於**合併攝護腺肥大**的男性"],
+            ["**直接血管擴張劑**（hydralazine、minoxidil）", "很強；**反射性心搏過速、水腫**；hydralazine 罕見**類狼瘡**；minoxidil 女性**多毛**；通常第 4–5 線，搭配利尿劑（minoxidil 配 loop）與 β 阻斷劑"],
+            ["**中樞 α2 致效劑**（clonidine、methyldopa）", "嗜睡、口乾、心搏過緩、便秘、姿勢性低血壓；**突然停藥 → 反彈性高血壓危象**；**methyldopa 懷孕安全紀錄好**"]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "First Choice 的 β 阻斷劑與 CCB 分類（記憶用）",
+          "text": "**β 阻斷劑**（First Choice p.16–17）\n- **選擇性 β1**（字首 A–M）：atenolol、bisoprolol、metoprolol；ISA(+)：**acebutolol**\n- **非選擇性**（字首 N 之後）：propranolol、nadolol、timolol；ISA(+)：**pindolol**\n- **α1 + β**：carvedilol、labetalol\n- **NO 釋放 + β1**：nebivolol\n- **ISA(+)** 較不易心跳慢，但**只有無 ISA 的 β 阻斷劑**能減少猝死、總死亡與再梗塞\n- 心衰竭有實證的：**CBM（carvedilol、bisoprolol、metoprolol）才有 EBM**\n- 阻斷 β2 → 氣喘惡化、**低血糖警訊被遮蔽**；但低劑量選擇性 β1 可安全用於輕度 COPD、糖尿病、周邊血管疾病\n- 缺點：降壓效果較差、選擇性 β1 也有**致糖尿病傾向**（不建議用於年輕無併發症或代謝症候群者）、**預防中風與治療老年單純收縮期高血壓較差**、手腳冰冷、跛行；**氣喘、傳導異常、憂鬱症**禁用\n\n**CCB**（First Choice p.17–18）\n- **DHP**（字尾 **-pine**）：對**血管**選擇性強 → 降血壓；1 代 nifedipine、2 代 nicardipine / felodipine、3 代 amlodipine / lacidipine（越新血管選擇性越強、半衰期越長）\n- **Non-DHP**（diltiazem、verapamil）：對**心臟**選擇性強 → 降心率（verapamil >> diltiazem > DHP）\n- **所有 CCB 都由肝臟代謝**，肝硬化需延長給藥間隔\n- 優點：**預防中風**比 ACEI、β 阻斷劑好；老年單純收縮期高血壓效果佳\n- 缺點：擴張動脈多於靜脈 → **腳踝水腫**；臉潮紅、頭痛、便秘（108 年國考：換藥後腹脹便秘 → amlodipine）"
+        },
+        {
+          "type": "heading",
+          "text": "ACEI / ARB 的腎臟效應"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 ACEI / ARB 保護腎臟？**Ang II 主要收縮**出球小動脈**；擋掉它 → **出球小動脈擴張 → 腎絲球內壓下降 → 蛋白尿減少**（Harrison CKD 段落；First Choice）。\n**為什麼雙側腎動脈狹窄會急性腎衰竭？**兩側腎臟都靠 Ang II 收縮出球小動脈來維持 GFR → 擋掉後 GFR 驟降（單側狹窄但**只有一顆有功能的腎臟**也一樣）。\n**容易誘發 ACEI 急性腎損傷的情況**（107 年國考）：雙側 RAS、**大量利尿劑**（如心衰竭）、**合併 NSAID**；**合併 CCB 不會**。\n**ACEI 的禁忌**（110 年國考）：懷孕、雙側 RAS、腎功能持續惡化、**高血鉀**（不是低血鉀）。\n**ACEI + ARB 併用**：沒有額外好處，高血鉀與腎功能惡化風險增加（Harrison）。"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "2176-2177、2183-2189"},
+        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "16-19、27、29"}
       ]
     },
     {
-      "title": "Treatment",
+      "title": "頑固型高血壓",
       "content": [
-        {"type": "heading", "text": "Non-pharmacologic (Lifestyle Modification)"},
-        {"type": "list", "ordered": false, "items": [
-          "**DASH diet**: 蔬果、低脂乳、減少飽和脂肪 (可降 SBP 8-14 mmHg)",
-          "**Sodium restriction**: < 2.3 g/day (理想 < 1.5 g/day)",
-          "**Exercise**: 每週 150 分鐘中等強度有氧運動",
-          "**Weight loss**: BMI 維持 18.5-24.9",
-          "**Limit alcohol**: 男性 <= 2 drinks/day, 女性 <= 1 drink/day"
-        ]},
-        {"type": "heading", "text": "First-line 藥物"},
-        {"type": "table", "headers": ["藥物", "機制", "優點", "缺點/禁忌"], "rows": [
-          ["Thiazide diuretics", "抑制 DCT Na-Cl cotransporter", "便宜有效、老年 ISH 佳", "低血鉀鈉鎂、高尿酸鈣、糖尿病風險"],
-          ["ACEi", "抑制 ACE → AT II 減少、Bradykinin 增加", "腎臟心臟保護、Post-MI、HF", "乾咳 (20%)、高血鉀、Bilateral RAS 禁用、孕婦禁用"],
-          ["ARB", "阻斷 AT1 receptor", "同 ACEi 但無咳嗽", "高血鉀、Bilateral RAS 禁用、孕婦禁用"],
-          ["CCB (DHP)", "阻斷血管 L-type Ca channel", "預防中風佳、老年 ISH 佳", "Ankle edema、Flushing、心跳加速"]
-        ]},
-        {"type": "collapsible", "summary": "Beta Blocker 詳細分類", "text": "**Selective B1 blocker**: Atenolol, Bisoprolol, Metoprolol\n**Nonselective B blocker**: Propranolol, Nadolol, Timolol\n**a1 + B blocker**: Carvedilol, Labetalol\n**NO + B1 blocker**: Nebivolol\n\nISA (+): Acebutolol, Pindolol → 較不易心跳慢但無法降低猝死率\nHF 有 EBM 證據: CBM (Carvedilol, Bisoprolol, Metoprolol)\n\n注意：B blocker 已非一線降壓藥（降壓效果較差、有 diabetogenic potential）"},
-        {"type": "collapsible", "summary": "CCB 分類 (DHP vs Non-DHP)", "text": "**DHP (字尾 -pine)**: 血管選擇性強，用於降血壓\n- 1代: Nifedipine\n- 2代: Nicardipine, Felodipine\n- 3代: Amlodipine, Lacidipine\n\n**Non-DHP (字尾非 -pine)**: 心臟選擇性強，用於降低心率\n- Diltiazem\n- Verapamil\n\n所有 CCB 皆由肝臟代謝，肝硬化需調整"},
-        {"type": "callout", "style": "guideline", "text": "特殊情況首選藥物：\n- DM + proteinuria → ACEi/ARB\n- Post-MI / HF → ACEi/ARB + B-blocker\n- 老年 Isolated Systolic HTN → Thiazide 或 DHP CCB\n- 孕婦 → Methyldopa, Labetalol, Nifedipine\n- 黑人 → Thiazide 或 CCB（對 ACEi/ARB 反應較差）"},
-        {"type": "heading", "text": "Hypertensive Emergency 用藥"},
-        {"type": "collapsible", "summary": "Hypertensive Emergency 降壓藥物與目標", "text": "**一般**：IV Nitroprusside 或 Labetalol → 2h 內降至 160/100\n**缺血性中風**：> 220/120 才需降壓（若要用 tPA → 先降至 185/110）\n**出血性中風**：SBP 150-220 → 降至 140；SBP > 220 → IV 藥物降至 140-160\n**Aortic dissection**：SBP 降至 100-120（20 分鐘內）\n\n注意：中風患者避免 Nitroprusside/Nitroglycerin（會增加腦壓）"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "16-25"}
+        {
+          "type": "figure",
+          "src": "figures/hypertension/h288-5.png",
+          "label": "Harrison's 22e Fig. 288-5",
+          "caption": "頑固型高血壓的確認與處置",
+          "explain": "**【怎麼看】**三步驟：**① 確認診斷**——用 **3 種藥（最好含利尿劑）**仍 ≥ 130/80，或要 **≥ 4 種藥**才 < 130/80；並確認血壓量得準、病人有規則吃藥、**診間外血壓排除白袍效應**。**② 排除**——不健康生活型態、**OSA**、**升壓藥物**、解剖性次發原因（腎實質、**原發性醛固酮症**、腎血管、妊娠）。**③ 處置**——強調順從性、**長效利尿劑用足劑量**、**第四線加 MRA**、再加血管擴張劑（hydralazine 或 minoxidil）；找到解剖性原因或治療 **6 個月**仍未控制 → 轉介專科。\n**【考點】**頑固型最常見的「假」原因是**量測錯誤、白袍效應、沒吃藥**；真正頑固型要篩 **OSA 與原發性醛固酮症**；第四個藥是 **spironolactone**。"
+        },
+        {
+          "type": "table",
+          "headers": ["處置重點", "內容"],
+          "rows": [
+            ["換長效利尿劑", "**HCTZ → chlorthalidone 或 indapamide**"],
+            ["改單一藥片複方", "提升順從性"],
+            ["**加 MRA（spironolactone）**", "多數可耐受；高血鉀、頭暈、腿抽筋、**男性女乳症**時可換 eplerenone 或 finerenone"],
+            ["**腎臟去神經術（RDN）**", "美國 FDA 2023 年核准（超音波、射頻）作為輔助治療；**限真正頑固型且診間收縮壓 ≥ 160 mmHg**"]
+          ]
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "2189-2190"}
       ]
     },
     {
-      "title": "Prognosis / Follow-up",
+      "title": "高血壓危象：急症 vs 嚴重高血壓",
       "content": [
-        "控制良好的高血壓可顯著降低心血管事件風險：",
-        {"type": "list", "ordered": false, "items": [
-          "Stroke risk 降低 35-40%",
-          "MI risk 降低 20-25%",
-          "HF risk 降低 50%"
-        ]},
-        "Follow-up 頻率依控制狀況而定：初診或調藥後每 2-4 週回診，穩定後每 3-6 個月。定期監測 electrolytes、Cr/eGFR、UACR。",
-        {"type": "callout", "style": "logic", "text": "50 歲前：DBP 升高與冠心病較相關\n60 歲後：SBP 和 Pulse Pressure 是主要危險因子，甚至 DBP 越低風險越高（J-curve phenomenon）"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "2186-2192"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**關鍵不是血壓數字，而是有沒有「急性」目標器官損傷**\n- **Hypertensive emergency（急症）**：血壓很高 **+ 正在進行的器官損傷** → **住院 / 急診、靜脈藥物、仔細監測**\n- **Hypertensive urgency（亟症）**：血壓很高但**沒有急性器官損傷**（比急症常見得多）→ **門診口服藥**（開始、恢復或加強）\n\n**門檻的不同寫法**：Harrison ≥ 180/100；First Choice 收縮壓 > 180 且 / 或舒張壓 > 120（急症常高到 220/140）；**2025 AHA/ACC 新版：> 180/120 且無急性器官損傷改稱「severe hypertension」**，取代 urgency 一詞，在門診及時以口服藥處理。"
+        },
+        {
+          "type": "table",
+          "headers": ["", "急症（emergency）", "亟症 / 嚴重高血壓"],
+          "rows": [
+            ["急性器官損傷", "**有**：**高血壓腦病變**（頭痛、視力障礙、噁心嘔吐、癲癇、意識改變）、**急性左心衰竭 / 肺水腫**、**急性腎衰竭**、腦中風、急性冠心症、**主動脈剝離**、**子癲前症 / 子癲症**、嗜鉻細胞瘤危象", "**沒有**（可有頭痛、頭暈等輕微症狀；常是沒規則吃藥或劑量不足）"],
+            ["地點", "急診、加護病房", "門診 / 急診觀察"],
+            ["藥物", "**靜脈**", "**口服**"],
+            ["目標", "**降低而非立即恢復正常**（見下表）", "First Choice：**1–2 天內**口服降到 **< 160/100**"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**亟症不要快速降壓**（First Choice）：先讓病人**安靜休息**（可能就降 10–20 mmHg）；以往用的**舌下短效 nifedipine 不建議**——老人（收縮壓高、舒張壓低）快速降壓可能造成**心肌梗塞、缺血性中風**（107 年國考：「馬上給舌下 nifedipine」是錯誤處置）。\n**例子**：血壓 210/120 但沒有症狀、檢查無器官損傷 → 亟症；血壓 180/110 + 新發局部神經缺損 → 急症。\n**急症穩定後**要想**次發性原因**，尤其**腎血管疾病**（Harrison）。"
+        },
+        {
+          "type": "heading",
+          "text": "各情境的降壓目標"
+        },
+        {
+          "type": "table",
+          "headers": ["情境", "First Choice", "最新指引查證（出處）"],
+          "rows": [
+            ["**一般急症**", "靜脈藥物（nitroprusside、labetalol）在**數分鐘到 2 小時**內降到 **< 160/100**", "**ACC/AHA 2017**：第 1 小時收縮壓降**不超過 25%** → 穩定則 **2–6 小時**內降到 160/100–110 → **24–48 小時**逐步回到正常。**主動脈剝離、嚴重子癲前症 / 子癲症、嗜鉻細胞瘤危象**：第 1 小時收縮壓 < 140（主動脈剝離 < 120）"],
+            ["**主動脈剝離**", "**20 分鐘內**收縮壓降到 **100–120**", "**2022 ACC/AHA 主動脈疾病指引**：收縮壓 **< 120**（或維持器官灌流的最低血壓）、**心跳 60–80**；**先用靜脈 β 阻斷劑**，控制不佳再加血管擴張劑"],
+            ["**缺血性中風（不打血栓溶解劑）**", "**≥ 220/120** 才降壓（24 小時內降約 15% 即可）", "**AHA（2025 高血壓指引 / 中風指引）**：除非 **≥ 220/120** 否則不降；需要時 **24 小時內約降 15%**"],
+            ["**缺血性中風（要打血栓溶解劑）**", "打之前降到 **< 185/110**（無法控制則不打）；打完後 **< 180/105**", "**AHA**：同上，打完後**至少 24 小時** < 180/105；**不建議**積極降到收縮壓 < 140；**取栓後 24–72 小時避免收縮壓 < 140**"],
+            ["**出血性中風（ICH）**", "收縮壓 **150–220 → 降到 < 140**；**> 220** → 靜脈藥物快速降到 **140–160**", "**2022 AHA/ASA 腦出血指引**：輕中度 ICH、收縮壓 150–220 → **目標 140，維持在 130–150**（2b）；**急性降到 < 130 可能有害**（3: Harm）；**2 小時內開始、1 小時內達標**、避免血壓大幅波動（2a）；大量或嚴重 ICH 的積極降壓安全性未確立"]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "靜脈藥物的選擇"
+        },
+        {
+          "type": "table",
+          "headers": ["藥物", "重點（Harrison + First Choice）", "禁忌 / 注意"],
+          "rows": [
+            ["**Nicardipine**（DHP CCB）", "**Harrison：目前最常用**；老人不需調整劑量；**不增加腦壓 → 可用於中風**", "**嚴重主動脈瓣狹窄**"],
+            ["**Labetalol**（α + β）", "有效；**不增加腦壓 → 可用於中風**；**主動脈剝離優先**之一", "**氣喘 / COPD、心搏過緩、二或三度房室傳導阻滯**"],
+            ["**Esmolol**（短效 β1）", "First Choice：**主動脈剝離首選**——先降心肌收縮力與心跳，避免單用血管擴張劑造成**反射性心搏過速、剪力增加**", "—"],
+            ["**Nitroprusside**", "強效血管擴張劑，作用極快，需**加護病房 + 動脈導管**監測，避免過度降壓；主動脈剝離在 β 阻斷劑控制心跳後可加", "**增加腦壓 → 中風避免**；代謝成 **cyanide → thiocyanate**，**肝腎功能差**會累積中毒；PVC 管路會吸附藥物"],
+            ["Nitroglycerin", "低劑量擴張靜脈與冠狀動脈（降 preload）→ **心絞痛、心肌梗塞**；高劑量才降壓", "**增加腦壓**；**右心室梗塞禁用**"]
+          ]
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "2191"},
+        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "20-22、30"}
       ]
     },
     {
-      "title": "Special Populations",
+      "title": "特殊族群：妊娠、CKD、糖尿病、老年、種族與性別",
       "content": [
-        {"type": "heading", "text": "孕婦"},
-        "孕期高血壓分類：Chronic HTN、Gestational HTN、Preeclampsia/Eclampsia。ACEi/ARB 為 **teratogenic**，孕婦禁用。首選 Methyldopa、Labetalol、Nifedipine。",
-        {"type": "heading", "text": "老年人"},
-        "以 Isolated Systolic HTN 為主。治療目標 SBP < 130（TSOC Class I）。Thiazide 和 DHP CCB 效果佳。注意 orthostatic hypotension 風險。",
-        {"type": "heading", "text": "CKD 患者"},
-        "建議 SBP < 130（若可耐受可更低至 < 120）。ACEi/ARB 為首選（腎臟保護）。注意監測 K+ 和 Cr。",
-        {"type": "heading", "text": "糖尿病患者"},
-        "ACEi/ARB 為首選（減少蛋白尿、腎臟保護）。避免高劑量 Thiazide（insulin resistance）和 B-blocker（mask hypoglycemia、diabetogenic）。"
+        {
+          "type": "heading",
+          "text": "妊娠高血壓疾患"
+        },
+        {
+          "type": "table",
+          "headers": ["分類（Harrison）", "定義"],
+          "rows": [
+            ["**慢性高血壓**", "懷孕**前**就有高血壓（或 20 週前出現）"],
+            ["**妊娠高血壓**", "懷孕 **20 週後**新發高血壓，**沒有**子癲前症表現"],
+            ["**子癲前症 → 子癲症**", "高血壓 + **蛋白尿或其他器官損傷**；**子癲症 = 合併癲癇**"],
+            ["慢性高血壓合併子癲前症", "—"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["子癲前症診斷（First Choice p.22–23）", "內容"],
+          "rows": [
+            ["血壓", "懷孕 **> 20 週**，收縮壓 **≥ 140** 或舒張壓 **≥ 90**（至少 2 次、間隔 **> 4 小時**）"],
+            ["合併任一項", "**蛋白尿 ≥ 0.3 g/24 h**（或 UPCR、試紙 2+）；**血小板 < 10 萬**；**Cr > 1.1** 或上升兩倍；**肝指數 > 正常上限 2 倍**；**肺水腫**；新發持續、止痛藥無效的**頭痛**；**視覺症狀**"],
+            ["**HELLP**", "**溶血、肝指數上升、血小板低下**；子癲前症的嚴重型，**不一定有高血壓或蛋白尿**"],
+            ["流行病學（Harrison）", "高血壓 > 10% 孕婦；子癲前症 3–5%；進展到子癲症：輕度 < 1%、重度約 3%；母親日後高血壓與心血管疾病風險增加"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["孕期用藥", "Harrison", "First Choice"],
+          "rows": [
+            ["**一線**", "**labetalol、nifedipine、methyldopa**（一個試驗顯示 labetalol 與 nifedipine 預防子癲前症可能優於 methyldopa）；美國最常用的是 labetalol、nifedipine、**hydralazine**", "**methyldopa** 一線；其他：hydralazine、labetalol"],
+            ["**禁用**", "**ACEI、ARB**（致畸胎）——包括**計畫懷孕**的育齡女性", "**ACEI、ARB、直接腎素抑制劑**；建議勿用 **MRA、nitroprusside**"],
+            ["目標", "積極控制到 < 130/80 並沒有比 < 140/90 更好", "妊娠高血壓：控制在 **< 160/110**"],
+            ["效果", "降壓藥可減少進展為重度高血壓，但預防子癲前症與胎兒併發症的證據較弱", "—"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考題（111 年 × 2）**：懷孕或長期追蹤的 27 歲女性，**最不適合的降壓藥 = ACEI**；「孕期慢性高血壓首選 ACEI / ARB」是錯的。"
+        },
+        {
+          "type": "heading",
+          "text": "其他族群（Harrison）"
+        },
+        {
+          "type": "table",
+          "headers": ["族群", "目標", "用藥重點"],
+          "rows": [
+            ["**已有心血管疾病**", "< 130/80（可耐受時）", "常用 **ACEI、ARB 或 β 阻斷劑**，搭配利尿劑、CCB、MRA；心衰竭與糖尿病考慮 **SGLT2 抑制劑**；有心搏過緩或傳導阻滯風險者小心 non-DHP"],
+            ["**CKD**", "< 130/80（台灣：收縮壓 < 130，能耐受可 < 120）", "**ACEI / ARB 是核心**（擴張出球小動脈、降腎絲球內壓，**蛋白尿者尤其重要**）+ 利尿劑；以往 eGFR < 30 改用 loop，但 **chlorthalidone 在第 4 期 CKD 仍有效**；CCB 合併 ACEI / ARB 安全；**finerenone** 可加強降壓；監測鉀離子；**ACEI + ARB 併用危險**"],
+            ["**糖尿病**", "Harrison 原文寫 < 130/90（ACC/AHA 2017 與台灣指引皆為 **< 130/80**）", "幾乎都需要合併治療；**含 ACEI 或 ARB**（尤其大量蛋白尿或腎功能不全）+ 利尿劑 ± CCB；頑固型加 MRA；**SGLT2 抑制劑約降 5/2 mmHg**；注意自主神經病變造成的**姿勢性低血壓**"],
+            ["**老年人**", "**收縮壓 < 130**", "多數可與年輕人同樣治療（試驗平均年齡約 70 歲）；從**較低劑量**開始；兩藥合併時**利尿劑優於 CCB**（老人易心衰竭）；積極降壓**減少認知功能障礙**；觀察性研究的 J 曲線在隨機試驗中並未證實；共病多、預期壽命有限者依臨床判斷與病人意願"],
+            ["**黑人**", "—", "盛行率較高、較早發病；**利尿劑與 CCB 特別有效**；多數需要三種藥"],
+            ["**女性**", "—", "**thiazide 減少骨折**；女性較多 **ACEI 咳嗽**與 **CCB 水腫**；ACEI / ARB 不可用於懷孕或計畫懷孕者"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**糖尿病相關國考題**：\n- 糖尿病病人血壓目標比一般人**更嚴格**（「較寬鬆」是錯的，112 年）\n- 糖尿病 + 蛋白尿 → 起始首選 **ACEI / ARB**（104 年）\n- 糖尿病 + CKD（蛋白尿 1.5 g/day）已用 amlodipine、居家 138/86 → **加 ARB**，目標 130/80（108 年）\n- CKD 合併高血壓首選：**ACEI / ARB**（106 年）"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "2181-2183、2190-2191"},
+        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "13、22-26、28-30、33"}
       ]
     },
     {
-      "title": "High-Yield Exam Points",
+      "title": "臨床題練習",
       "content": [
-        {"type": "callout", "style": "trap", "text": "Secondary HTN 鑑別線索：\n- 年輕女性 + 腹部 bruit → Fibromuscular dysplasia\n- 低血鉀 + metabolic alkalosis → Primary aldosteronism\n- 陣發性 HTN + 心悸 + 出汗 + 頭痛 → Pheochromocytoma\n- 上肢 BP > 下肢 BP → Coarctation of aorta\n- Truncal obesity + striae → Cushing's syndrome"},
-        {"type": "callout", "style": "guideline", "text": "降壓藥禁忌必背：\n- ACEi/ARB：孕婦、Bilateral RAS、高血鉀\n- B-blocker：氣喘、心臟傳導異常 (2/3度 AV block)、憂鬱症\n- Thiazide：痛風、低血鉀/鈉\n- Non-DHP CCB (Verapamil/Diltiazem)：HF (EF 低)、AV block\n- 不要合併 ACEi + ARB（ONTARGET trial: 無額外好處且副作用增加）"},
-        {"type": "callout", "style": "logic", "text": "ACEi 的腎臟保護機制：\nACEi 擴張 efferent arteriole > afferent → 降低 glomerular pressure → 減少 proteinuria → 保護腎小管\n但若 bilateral RAS → 兩側腎臟都仰賴 AT II 維持 GFR → ACEi 會導致急性腎衰竭"},
-        {"type": "list", "ordered": false, "items": [
-          "BP = CO x SVR",
-          "台灣指引：居家 BP >= 130/80 即為高血壓",
-          "Essential HTN 佔 95%，Secondary 佔 5%",
-          "Hypertensive emergency = 有急性器官損傷，不看數字",
-          "ACEi 副作用：乾咳 (20%)、angioedema、高血鉀、teratogenic",
-          "HF 有 EBM 的 B-blocker: CBM (Carvedilol, Bisoprolol, Metoprolol)",
-          "CCB 分辨：字尾 -pine = DHP (降壓)；非 -pine = Non-DHP (降心率)"
-        ]}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**每題都照這個順序想**：① 血壓量得對嗎？（袖帶、姿勢、白袍 / 隱匿）② 分期與**整體風險** → 要不要吃藥、目標多少（美國 vs 台灣）③ 有沒有**次發性線索**？④ 有沒有**強適應症或禁忌**？⑤ 是不是**危象**？有沒有**急性器官損傷**？"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：45 歲男性，健檢血壓 136/84，第二次門診 134/86。無糖尿病、CKD、心血管疾病，10 年 ASCVD 風險 4%。下一步？",
+          "text": "**答：第 1 期高血壓、低風險 → 先做非藥物治療，3–6 個月再評估。**\n- Harrison（ACC/AHA 2017）：第 1 期且 ASCVD < 10% → 只做生活型態；6 個月仍未 < 130/80 可考慮加藥\n- 2025 AHA/ACC：PREVENT < 7.5% → 3–6 個月生活型態後平均仍 ≥ 130/80 就用藥\n- 台灣 2022：一般人 ≥ 140/90 才開始用藥\n建議確認**居家血壓**（台灣以居家 ≥ 130/80 診斷）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：60 歲糖尿病女性，居家血壓平均 148/92，UACR 400 mg/g，eGFR 55。首選藥物與目標？",
+          "text": "**答：ACEI 或 ARB（常需合併 CCB 或利尿劑），目標 < 130/80。**\n- 糖尿病 + 蛋白尿 + CKD → **ACEI / ARB**（降腎絲球內壓、減少蛋白尿）\n- 收縮壓超過目標 > 20 mmHg → **一開始就兩藥合併**（ACEI / ARB + CCB 或 thiazide，最好單一藥片）\n- 監測**鉀離子與 creatinine**；**不要 ACEI + ARB 併用**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：35 歲女性，2 個月頭痛、全身無力。血壓 160/100，K 2.6，代謝性鹼中毒，renin 0.04（低）、aldosterone 39.2（高）、ACTH 正常。診斷與後續？",
+          "text": "**答：原發性醛固酮症。**（110 年國考）\n- **高血壓 + 低血鉀 + 代謝性鹼中毒 + 低腎素 + 高醛固酮**\n- 篩檢：**ARR**；確認：生理食鹽水抑制或 captopril 試驗；腹部 CT；**腎上腺靜脈取樣**區分單側 vs 雙側\n- 單側腺瘤 → **腹腔鏡腎上腺切除**；雙側增生 → **spironolactone**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：26 歲女性，高血壓半年，3 個月來陣發性心悸、頭痛、流汗。醫師安排 24 小時尿液 catecholamine。若要先給藥控制血壓，何者不適宜？",
+          "text": "**答：單獨使用 β 阻斷劑。**（112 年國考）\n懷疑**嗜鉻細胞瘤**：單用 β 阻斷劑會擋掉 β2 的血管擴張，剩下沒有對抗的 α 作用 → **血壓急遽上升**。正確：**先給 α 阻斷劑（並補充水分），之後才加 β 阻斷劑**；CCB 可用。手術前要準備 7–10 天。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：28 歲女性，最近 3 個月突然出現高血壓 170/105，聽診肚臍旁有雜音，用 ACEI 後 creatinine 從 0.8 升到 1.5。最可能的診斷與治療？",
+          "text": "**答：纖維肌肉發育不良（FMD）造成的腎血管性高血壓。**\n- 年輕女性、**突然發生**、**腹部雜音**、**ACEI 後腎功能惡化**（狹窄側靠 Ang II 維持 GFR）\n- 檢查：都卜勒超音波或 CTA / MRA → **血管攝影**\n- 治療：**經皮血管成形術**常可治癒（粥狀硬化型則以藥物為主）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：52 歲肥胖男性，已用 amlodipine + losartan + HCTZ 足量，診間血壓仍 152/94。太太說他打鼾很大聲、白天常打瞌睡。下一步？",
+          "text": "**答：先確認是真正的頑固型高血壓，再篩次發性原因（OSA、原發性醛固酮症）。**\n1. 確認量測正確、**居家 / 動態血壓**排除白袍效應、確認**有規則吃藥**\n2. 排除**升壓藥物**（NSAID 等）與不良生活習慣\n3. **OSA**（打鼾、嗜睡、肥胖）→ 睡眠檢查；**ARR** 篩原發性醛固酮症\n4. 藥物：**HCTZ 換 chlorthalidone**、改單一藥片、**第四線加 spironolactone**\n注意：CPAP 對降壓幫助有限，仍要靠藥物。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：65 歲女性糖尿病，第一次被發現血壓 196/110，完全沒有症狀，理學與神經學檢查正常、心電圖與尿液正常。下列何者處理欠佳？(A) 休息後再量一次 (B) 詢問病史與家族史 (C) 馬上給舌下短效 nifedipine (D) 注意有無神經學變化",
+          "text": "**答：(C)。**（107 年國考）\n這是**亟症 / 嚴重高血壓**（沒有急性器官損傷）→ 休息後重量、口服藥在 **1–2 天**內降到 < 160/100、門診追蹤。**舌下 nifedipine 快速降壓**可能造成心肌梗塞或缺血性中風。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：58 歲男性突發撕裂性胸痛延伸到背部，血壓右臂 190/100、左臂 150/80，心跳 105。CT 證實主動脈剝離。降壓的順序與目標？",
+          "text": "**答：先靜脈 β 阻斷劑（esmolol、labetalol）控制心跳，再視需要加血管擴張劑（nitroprusside、nicardipine）。**\n- 目標（2022 ACC/AHA）：**收縮壓 < 120、心跳 60–80**；First Choice：20 分鐘內收縮壓 100–120\n- **不可先單用血管擴張劑**：反射性心搏過速 → 主動脈壁剪力增加、剝離惡化"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：70 歲男性右側偏癱 1.5 小時，CT 無出血，血壓 200/115，準備打 alteplase。血壓要怎麼處理？如果改成 CT 顯示腦出血、GCS 14、血壓 190/100 呢？",
+          "text": "**答：**\n- **缺血性中風要打血栓溶解劑** → 先用 **labetalol 或 nicardipine** 降到 **< 185/110** 才能打；打完後**至少 24 小時 < 180/105**；**避免 nitroprusside、nitroglycerin**（增加腦壓）\n- **腦出血（輕中度）、收縮壓 150–220** → **2 小時內開始、1 小時內**降到 **目標 140、維持 130–150**；**急性降到 < 130 可能有害**（2022 AHA/ASA）\n- 對照：不打血栓溶解劑的缺血性中風，**≥ 220/120** 才降壓，24 小時內約降 15%"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：30 週孕婦，血壓 152/98（間隔 4 小時兩次），尿蛋白 0.5 g/24 h，血小板 9 萬。診斷？哪些降壓藥可用、哪些禁用？",
+          "text": "**答：子癲前症（高血壓 + 蛋白尿，且血小板 < 10 萬）。**\n- 定義：> 20 週、≥ 140/90 + 蛋白尿或器官損傷\n- 可用：**labetalol、nifedipine、methyldopa**（First Choice 以 methyldopa 為一線）、hydralazine\n- **禁用：ACEI、ARB**（致畸胎）；First Choice 也建議勿用 MRA、nitroprusside\n- 注意 **HELLP**（溶血、肝指數上升、血小板低）與進展為**子癲症**（癲癇）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：高血壓合併糖尿病的病人服藥 3 個月後出現持續乾咳，胸部 X 光正常。最優先的處置？",
+          "text": "**答：詢問降壓藥使用情形——很可能是 ACEI 造成的乾咳。**（108 年國考）\nACEI 抑制 bradykinin 分解 → 乾咳；**換成同等劑量的 ARB** 通常很快改善。ACEI 另一個少見但危險的副作用是**血管性水腫**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：一位高血壓病人上肢血壓明顯高於下肢，股動脈脈搏延遲且微弱，肩胛間區有收縮期雜音。下列敘述何者錯誤？(A) 常合併雙瓣性主動脈瓣 (B) 女性多於男性 (C) 常見於 Turner 症候群 (D) X 光可見肋骨下緣凹痕",
+          "text": "**答：(B)。**（112 年國考）\n**主動脈窄縮**：**男性較多**；狹窄多在左鎖骨下動脈分支後；約 30% 合併**雙瓣性主動脈瓣**；Turner 症候群常見；側支循環造成**肋骨下緣**凹痕（不是上緣，110 年國考）；**最常見的先天性高血壓原因**。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": ["主題", "要背的數字 / 關鍵字"],
+          "rows": [
+            ["分類（ACC/AHA）", "正常 < 120/80；偏高 120–129/< 80；**第 1 期 130–139 或 80–89**；**第 2 期 ≥ 140 或 ≥ 90**"],
+            ["台灣 2022", "**居家 ≥ 130/80 診斷**；一般人 **≥ 140/90**、高風險 **≥ 130/80** 開始用藥；目標 **< 130/80**"],
+            ["722 法則", "7 天、早晚各 1 次、每次量 2 次"],
+            ["ABPM 對應 130/80", "白天 130/80、夜間 110/65、24 小時 125/75"],
+            ["白袍 / 隱匿", "各 15–25%；白袍風險低、隱匿風險等同持續性"],
+            ["非藥物", "DASH、減鈉、補鉀、減重（**1 kg ≈ 1 mmHg**）、運動、酒精 → 各約 **5 mmHg**"],
+            ["一線藥", "**Thiazide（chlorthalidone）、CCB、ACEI、ARB**；β 阻斷劑需強適應症"],
+            ["組合", "**A（ACEI/ARB）+ C（CCB）+ D（利尿劑）** → 第四線 **spironolactone**"],
+            ["頑固型", "3 藥（含利尿劑）仍 ≥ 130/80，或需 ≥ 4 藥；排除假性、篩 **OSA、原發性醛固酮症**"],
+            ["次發性線索", "低血鉀 → **原醛**；陣發心悸頭痛盜汗 → **嗜鉻**（**先 α 後 β**）；年輕女性 + 雜音 → **FMD**；上肢 > 下肢 → **窄縮**；打鼾嗜睡 → **OSA**"],
+            ["最常見次發性", "國考：**腎實質疾病**；Harrison 22e：**OSA**；內分泌最常見：**原醛**"],
+            ["ACEI / ARB", "懷孕、雙側 RAS、高血鉀禁用；**不可併用**；ACEI **乾咳、血管性水腫**"],
+            ["孕期", "**labetalol、nifedipine、methyldopa**；禁 **ACEI / ARB**"],
+            ["危象", "**看急性器官損傷**；急症靜脈藥（**nicardipine 最常用**、labetalol、nitroprusside）；第 1 小時降 ≤ 25%"],
+            ["中風", "缺血不打藥 ≥ 220/120 才降；打 tPA 前 **< 185/110**、後 **< 180/105**；ICH 目標 **140（130–150），< 130 有害**"],
+            ["主動脈剝離", "收縮壓 **< 120**、心跳 60–80；**先 β 阻斷劑**"],
+            ["治療效益", "中風 **−27%**、心衰竭 **−28%**、主要心血管事件 −20%、死亡 −13%"]
+          ]
+        }
       ]
     }
-  ],
-  "related": [
-    {"id": "coronary-artery-disease", "name": "Coronary Artery Disease (冠狀動脈疾病)"},
-    {"id": "heart-failure", "name": "Heart Failure (心臟衰竭)"},
-    {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
-    {"id": "aortic-dissection", "name": "Aortic Dissection (主動脈剝離)"},
-    {"id": "pheochromocytoma", "name": "Pheochromocytoma (嗜鉻細胞瘤)"},
-    {"id": "ecg-arrhythmias", "name": "ECG & Arrhythmias (心電圖與心律不整)"}
   ]
 }
