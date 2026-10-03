@@ -17,7 +17,8 @@
     }
     loadUserName();
     try {
-      const resp = await fetch('notes/index.json');
+      // GitHub Pages sends max-age=600; revalidate so note updates show immediately.
+      const resp = await fetch('notes/index.json', { cache: 'no-cache' });
       if (resp.ok) notesIndex = await resp.json();
       else notesIndex = { specialties: [] };
     } catch { notesIndex = { specialties: [] }; }
@@ -147,7 +148,7 @@
     }
 
     try {
-      const resp = await fetch(`notes/${noteId}.json`);
+      const resp = await fetch(`notes/${noteId}.json`, { cache: 'no-cache' });
       if (!resp.ok) throw new Error('Not found');
       currentNote = await resp.json();
       renderNote(currentNote);
@@ -522,12 +523,42 @@
           if (!userName) await promptUserName();
           await addAnnotationFromSelection(anchor);
         } else {
+          if (rangeOverlapsHighlight(range)) {
+            sel.removeAllRanges();
+            showToast('這段文字已經有螢光標記，請先移除原本的標記再重畫');
+            toolbar.style.display = 'none';
+            return;
+          }
           if (!userName) await promptUserName();
           await applyHighlightFromRange(range, anchor, color);
         }
         toolbar.style.display = 'none';
       });
     });
+  }
+
+  // A new highlight may not touch any existing one, whether it covers it fully or partly.
+  function rangeOverlapsHighlight(range) {
+    const page = document.getElementById('notePage');
+    if (!page) return false;
+    for (const span of page.querySelectorAll('[class^="highlight-"]')) {
+      if (range.intersectsNode(span)) return true;
+    }
+    return false;
+  }
+
+  function showToast(message) {
+    let toast = document.getElementById('hlToast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'hlToast';
+      toast.className = 'hl-toast';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.add('show');
+    clearTimeout(toast.hideTimer);
+    toast.hideTimer = setTimeout(() => toast.classList.remove('show'), 2500);
   }
 
   function getTextAnchor(sel) {
@@ -644,6 +675,8 @@
       const len = p.node.textContent.length;
       const s = Math.max(idx, p.start), e = Math.min(end, p.start + len);
       if (s >= e || !p.node.textContent.slice(s - p.start, e - p.start).trim()) continue;
+      // Older overlapping records: leave already-highlighted text alone instead of nesting spans.
+      if (p.node.parentElement.closest('[class^="highlight-"]')) continue;
       const range = document.createRange();
       range.setStart(p.node, s - p.start);
       range.setEnd(p.node, e - p.start);

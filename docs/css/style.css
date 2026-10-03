@@ -730,3 +730,23 @@ details.collapsible .content {
     padding: 0.5rem 1.25rem;
   }
 }
+
+/* Toast shown when a highlight would overlap an existing one */
+.hl-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  max-width: calc(100vw - 32px);
+  padding: 0.6rem 1rem;
+  border-radius: var(--radius);
+  background: var(--text-primary);
+  color: var(--bg-card);
+  font-size: 0.85rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  z-index: 300;
+}
+.hl-toast.show { opacity: 1; }
