@@ -580,9 +580,8 @@
   async function applyHighlightFromRange(range, anchor, color) {
     if (!anchor || anchor.secIdx < 0) return;
 
-    const span = document.createElement('span');
-    span.className = 'highlight-' + color;
-    span.title = userName;
+    const anchorText = anchor.text.slice(0, 500);
+    const span = makeHighlightSpan(color, userName, anchorText);
     try { range.surroundContents(span); }
     catch { const c = range.extractContents(); span.appendChild(c); range.insertNode(span); }
     window.getSelection().removeAllRanges();
@@ -591,7 +590,7 @@
       await supabaseClient.from('highlights').insert({
         note_id: currentNote.id,
         section_idx: anchor.secIdx,
-        anchor_text: anchor.text.slice(0, 500),
+        anchor_text: anchorText,
         anchor_prefix: anchor.prefix.slice(0, 100),
         anchor_suffix: anchor.suffix.slice(0, 100),
         color: color,
@@ -600,22 +599,41 @@
     }
   }
 
+  // Removes every highlight the selection touches. A restored highlight can be split into
+  // several spans (across <br>/<strong>), and older data may hold duplicate rows for the same
+  // text, so match on the stored anchor text: unwrap all its spans and delete all its rows.
   async function removeHighlight(sel) {
-    const node = sel.anchorNode.parentElement;
-    if (node && node.className && node.className.startsWith('highlight-')) {
-      const text = node.textContent;
-      const parent = node.parentNode;
-      while (node.firstChild) parent.insertBefore(node.firstChild, node);
-      parent.removeChild(node);
+    const page = document.getElementById('notePage');
+    if (!page || !sel.rangeCount) return;
+    const range = sel.getRangeAt(0);
+    const all = [...page.querySelectorAll('[class^="highlight-"]')];
+    let hit = all.filter(s => range.intersectsNode(s));
+    if (!hit.length && sel.anchorNode) {
+      const el = sel.anchorNode.nodeType === Node.ELEMENT_NODE ? sel.anchorNode : sel.anchorNode.parentElement;
+      const span = el && el.closest('[class^="highlight-"]');
+      if (span) hit = [span];
+    }
+    if (!hit.length) { sel.removeAllRanges(); return; }
 
-      if (supabaseClient && currentNote) {
-        await supabaseClient.from('highlights')
-          .delete()
-          .eq('note_id', currentNote.id)
-          .eq('anchor_text', text.slice(0, 500));
+    const texts = new Set(hit.map(s => s.dataset.hlText || s.textContent.slice(0, 500)));
+    for (const s of all) {
+      if (hit.includes(s) || (s.dataset.hlText && texts.has(s.dataset.hlText))) {
+        const parent = s.parentNode;
+        while (s.firstChild) parent.insertBefore(s.firstChild, s);
+        parent.removeChild(s);
+        parent.normalize();
       }
     }
     sel.removeAllRanges();
+
+    if (supabaseClient && currentNote) {
+      for (const text of texts) {
+        await supabaseClient.from('highlights')
+          .delete()
+          .eq('note_id', currentNote.id)
+          .eq('anchor_text', text);
+      }
+    }
   }
 
   async function restoreHighlights() {
@@ -642,12 +660,12 @@
     while (node = walker.nextNode()) {
       const idx = node.textContent.indexOf(text);
       if (idx === -1) continue;
-      if (node.parentElement.className && node.parentElement.className.startsWith('highlight-')) continue;
+      if (node.parentElement.closest('[class^="highlight-"]')) continue;
 
       const range = document.createRange();
       range.setStart(node, idx);
       range.setEnd(node, idx + text.length);
-      range.surroundContents(makeHighlightSpan(color, user));
+      range.surroundContents(makeHighlightSpan(color, user, text));
       return true;
     }
     return highlightAcrossNodes(root, text, color, user);
@@ -680,15 +698,17 @@
       const range = document.createRange();
       range.setStart(p.node, s - p.start);
       range.setEnd(p.node, e - p.start);
-      range.surroundContents(makeHighlightSpan(color, user));
+      range.surroundContents(makeHighlightSpan(color, user, text));
     }
     return true;
   }
 
-  function makeHighlightSpan(color, user) {
+  // hlText ties every span of one highlight back to its stored anchor_text (used for removal).
+  function makeHighlightSpan(color, user, anchorText) {
     const span = document.createElement('span');
     span.className = 'highlight-' + color;
     span.title = user || '';
+    if (anchorText) span.dataset.hlText = anchorText;
     return span;
   }
 
