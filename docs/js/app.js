@@ -561,27 +561,74 @@
     toast.hideTimer = setTimeout(() => toast.classList.remove('show'), 2500);
   }
 
+  // Flatten a subtree into one string the way selections are stored: text nodes in order,
+  // '\n' for each <br>. pieces map flat offsets back to text nodes.
+  function flattenText(root) {
+    const pieces = [];
+    let flat = '';
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT);
+    let n;
+    while (n = walker.nextNode()) {
+      if (n.nodeType === Node.TEXT_NODE) {
+        pieces.push({ node: n, start: flat.length });
+        flat += n.textContent;
+      } else if (n.tagName === 'BR') {
+        flat += '\n';
+      }
+    }
+    return { flat, pieces };
+  }
+
+  // Flat offset of a DOM boundary point (the start of a selection).
+  function flatOffset(pieces, container, offset) {
+    if (container.nodeType === Node.TEXT_NODE) {
+      const p = pieces.find(p => p.node === container);
+      if (p) return p.start + offset;
+    }
+    const probe = document.createRange();
+    probe.setStart(container, offset);
+    for (const p of pieces) {
+      if (probe.comparePoint(p.node, 0) >= 0) return p.start;
+    }
+    return -1;
+  }
+
+  // Context (30 chars each side) around the occurrence the user actually selected,
+  // so a short or repeated phrase can be put back in the right place later.
   function getTextAnchor(sel) {
     const range = sel.getRangeAt(0);
     const text = sel.toString().trim();
     if (!text) return null;
 
-    const section = range.startContainer.parentElement.closest('.note-section');
+    const startEl = range.startContainer.nodeType === Node.ELEMENT_NODE
+      ? range.startContainer : range.startContainer.parentElement;
+    const section = startEl.closest('.note-section');
     const secIdx = section ? parseInt(section.dataset.sec) : -1;
+    if (!section) return { text, prefix: '', suffix: '', secIdx };
 
-    const sectionText = section ? section.textContent : '';
-    const selStart = sectionText.indexOf(text);
-    const prefix = selStart > 0 ? sectionText.slice(Math.max(0, selStart - 30), selStart).trim() : '';
-    const suffix = sectionText.slice(selStart + text.length, selStart + text.length + 30).trim();
+    const { flat, pieces } = flattenText(section);
+    const guess = flatOffset(pieces, range.startContainer, range.startOffset);
+    let selStart = -1, best = Infinity;
+    for (let i = flat.indexOf(text); i !== -1; i = flat.indexOf(text, i + 1)) {
+      const d = Math.abs(i - guess);
+      if (d < best) { best = d; selStart = i; }
+    }
+    if (selStart === -1) return { text, prefix: '', suffix: '', secIdx };
 
+    const prefix = flat.slice(Math.max(0, selStart - 30), selStart).trim();
+    const suffix = flat.slice(selStart + text.length, selStart + text.length + 30).trim();
     return { text, prefix, suffix, secIdx };
   }
 
   async function applyHighlightFromRange(range, anchor, color) {
     if (!anchor || anchor.secIdx < 0) return;
 
-    const anchorText = anchor.text.slice(0, 500);
-    const span = makeHighlightSpan(color, userName, anchorText);
+    const key = {
+      text: anchor.text.slice(0, 500),
+      prefix: anchor.prefix.slice(0, 100),
+      suffix: anchor.suffix.slice(0, 100),
+    };
+    const span = makeHighlightSpan(color, userName, key);
     try { range.surroundContents(span); }
     catch { const c = range.extractContents(); span.appendChild(c); range.insertNode(span); }
     window.getSelection().removeAllRanges();
@@ -590,18 +637,20 @@
       await supabaseClient.from('highlights').insert({
         note_id: currentNote.id,
         section_idx: anchor.secIdx,
-        anchor_text: anchorText,
-        anchor_prefix: anchor.prefix.slice(0, 100),
-        anchor_suffix: anchor.suffix.slice(0, 100),
+        anchor_text: key.text,
+        anchor_prefix: key.prefix,
+        anchor_suffix: key.suffix,
         color: color,
         user_name: userName,
       });
     }
   }
 
-  // Removes every highlight the selection touches. A restored highlight can be split into
-  // several spans (across <br>/<strong>), and older data may hold duplicate rows for the same
-  // text, so match on the stored anchor text: unwrap all its spans and delete all its rows.
+  // Removes every highlight the selection touches. One highlight is identified by its stored
+  // text + prefix + suffix: unwrap all of its spans (a restored highlight can be split across
+  // <br>/<strong>) and delete all rows with that key (older data holds exact duplicates).
+  // Two highlights of the same phrase in different places have different context, so they
+  // are removed independently.
   async function removeHighlight(sel) {
     const page = document.getElementById('notePage');
     if (!page || !sel.rangeCount) return;
@@ -615,9 +664,13 @@
     }
     if (!hit.length) { sel.removeAllRanges(); return; }
 
-    const texts = new Set(hit.map(s => s.dataset.hlText || s.textContent.slice(0, 500)));
+    const keys = new Map();
+    for (const s of hit) {
+      const k = spanKey(s);
+      keys.set(k.id, k);
+    }
     for (const s of all) {
-      if (hit.includes(s) || (s.dataset.hlText && texts.has(s.dataset.hlText))) {
+      if (hit.includes(s) || keys.has(spanKey(s).id)) {
         const parent = s.parentNode;
         while (s.firstChild) parent.insertBefore(s.firstChild, s);
         parent.removeChild(s);
@@ -627,13 +680,26 @@
     sel.removeAllRanges();
 
     if (supabaseClient && currentNote) {
-      for (const text of texts) {
-        await supabaseClient.from('highlights')
+      for (const k of keys.values()) {
+        let q = supabaseClient.from('highlights')
           .delete()
           .eq('note_id', currentNote.id)
-          .eq('anchor_text', text);
+          .eq('anchor_text', k.text);
+        // Spans without stored context (legacy fallback) delete by text only.
+        if (k.hasContext) q = q.eq('anchor_prefix', k.prefix).eq('anchor_suffix', k.suffix);
+        await q;
       }
     }
+  }
+
+  function spanKey(span) {
+    const d = span.dataset;
+    if (d.hlText !== undefined) {
+      const prefix = d.hlPrefix || '', suffix = d.hlSuffix || '';
+      return { id: d.hlText + '\u0000' + prefix + '\u0000' + suffix, text: d.hlText, prefix, suffix, hasContext: true };
+    }
+    const text = span.textContent.slice(0, 500);
+    return { id: text, text, prefix: '', suffix: '', hasContext: false };
   }
 
   async function restoreHighlights() {
@@ -641,74 +707,83 @@
     try {
       const { data } = await supabaseClient.from('highlights')
         .select('*')
-        .eq('note_id', currentNote.id);
+        .eq('note_id', currentNote.id)
+        .order('created_at', { ascending: true });
       if (!data || !data.length) return;
 
-      // Fall back to the whole note so highlights survive section reordering.
       const page = document.getElementById('notePage');
+      const seen = new Set();
       for (const hl of data) {
+        const key = { text: hl.anchor_text, prefix: hl.anchor_prefix || '', suffix: hl.anchor_suffix || '' };
+        const id = key.text + '\u0000' + key.prefix + '\u0000' + key.suffix;
+        if (seen.has(id)) continue; // exact duplicate rows from older data
+        seen.add(id);
+        // Try the saved section first; fall back to the whole note so highlights survive
+        // section reordering.
         const section = document.querySelector(`.note-section[data-sec="${hl.section_idx}"]`);
-        if (section && highlightTextInNode(section, hl.anchor_text, hl.color, hl.user_name)) continue;
-        if (page) highlightTextInNode(page, hl.anchor_text, hl.color, hl.user_name);
+        if (section && highlightTextInNode(section, key, hl.color, hl.user_name)) continue;
+        if (page) highlightTextInNode(page, key, hl.color, hl.user_name);
       }
     } catch {}
   }
 
-  function highlightTextInNode(root, text, color, user) {
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-    let node;
-    while (node = walker.nextNode()) {
-      const idx = node.textContent.indexOf(text);
-      if (idx === -1) continue;
-      if (node.parentElement.closest('[class^="highlight-"]')) continue;
-
-      const range = document.createRange();
-      range.setStart(node, idx);
-      range.setEnd(node, idx + text.length);
-      range.surroundContents(makeHighlightSpan(color, user, text));
-      return true;
-    }
-    return highlightAcrossNodes(root, text, color, user);
+  function commonSuffixLen(a, b) {
+    let n = 0;
+    while (n < a.length && n < b.length && a[a.length - 1 - n] === b[b.length - 1 - n]) n++;
+    return n;
   }
 
-  // Selections spanning <br>, <strong> etc. are stored with '\n' for line breaks;
-  // rebuild that flattened text and wrap each overlapping text-node piece.
-  function highlightAcrossNodes(root, text, color, user) {
-    const pieces = [];
-    let flat = '';
-    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT);
-    let n;
-    while (n = walker.nextNode()) {
-      if (n.nodeType === Node.TEXT_NODE) {
-        pieces.push({ node: n, start: flat.length });
-        flat += n.textContent;
-      } else if (n.tagName === 'BR') {
-        flat += '\n';
-      }
+  function commonPrefixLen(a, b) {
+    let n = 0;
+    while (n < a.length && n < b.length && a[n] === b[n]) n++;
+    return n;
+  }
+
+  // Wrap the occurrence of key.text whose surrounding text best matches the saved
+  // prefix/suffix. Returns true if the text exists in root (even if it was already
+  // highlighted), so the caller doesn't go looking elsewhere in the note.
+  function highlightTextInNode(root, key, color, user) {
+    const { flat, pieces } = flattenText(root);
+    const text = key.text;
+    let found = false, bestIdx = -1, bestScore = -1;
+    for (let i = flat.indexOf(text); i !== -1; i = flat.indexOf(text, i + 1)) {
+      found = true;
+      if (occurrenceHighlighted(pieces, i, i + text.length)) continue;
+      const before = flat.slice(Math.max(0, i - 40), i).trim();
+      const after = flat.slice(i + text.length, i + text.length + 40).trim();
+      const score = commonSuffixLen(before, key.prefix) + commonPrefixLen(after, key.suffix);
+      if (score > bestScore) { bestScore = score; bestIdx = i; }
     }
-    const idx = flat.indexOf(text);
-    if (idx === -1) return false;
-    const end = idx + text.length;
+    if (bestIdx === -1) return found;
+
+    const end = bestIdx + text.length;
     for (const p of pieces) {
       const len = p.node.textContent.length;
-      const s = Math.max(idx, p.start), e = Math.min(end, p.start + len);
+      const s = Math.max(bestIdx, p.start), e = Math.min(end, p.start + len);
       if (s >= e || !p.node.textContent.slice(s - p.start, e - p.start).trim()) continue;
-      // Older overlapping records: leave already-highlighted text alone instead of nesting spans.
-      if (p.node.parentElement.closest('[class^="highlight-"]')) continue;
       const range = document.createRange();
       range.setStart(p.node, s - p.start);
       range.setEnd(p.node, e - p.start);
-      range.surroundContents(makeHighlightSpan(color, user, text));
+      range.surroundContents(makeHighlightSpan(color, user, key));
     }
     return true;
   }
 
-  // hlText ties every span of one highlight back to its stored anchor_text (used for removal).
-  function makeHighlightSpan(color, user, anchorText) {
+  function occurrenceHighlighted(pieces, start, end) {
+    return pieces.some(p => p.start < end && p.start + p.node.textContent.length > start &&
+      p.node.parentElement.closest('[class^="highlight-"]'));
+  }
+
+  // The data-hl-* attributes tie every span of one highlight back to its stored row.
+  function makeHighlightSpan(color, user, key) {
     const span = document.createElement('span');
     span.className = 'highlight-' + color;
     span.title = user || '';
-    if (anchorText) span.dataset.hlText = anchorText;
+    if (key) {
+      span.dataset.hlText = key.text;
+      span.dataset.hlPrefix = key.prefix || '';
+      span.dataset.hlSuffix = key.suffix || '';
+    }
     return span;
   }
 
