@@ -10,7 +10,9 @@
     {
       "name": "新陳代謝科",
       "diseases": [
-        {"id": "diabetes-mellitus", "name": "Diabetes Mellitus (糖尿病)"}
+        {"id": "diabetes-mellitus", "name": "Diabetes Mellitus (糖尿病)"},
+        {"id": "thyroid-function-thyrotoxicosis", "name": "Thyroid (一)：甲狀腺功能檢驗與甲狀腺毒症"},
+        {"id": "hypothyroidism", "name": "Thyroid (二)：甲狀腺低下"}
       ]
     },
     {
