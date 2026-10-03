@@ -1,188 +1,690 @@
 {
   "id": "hiv-opportunistic-infections",
-  "title": "HIV — Opportunistic Infections (伺機性感染與併發症)",
+  "title": "HIV — Opportunistic Infections & Complications (伺機性感染與併發症)",
   "title_en": "HIV — Opportunistic Infections & Complications",
   "title_zh": "HIV 伺機性感染與併發症",
   "specialty": "感染科",
   "sources": [
-    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders (p.1635-1660)",
-    "NIH/CDC/IDSA 2024 Guidelines for Prevention of Opportunistic Infections"
+    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders（CD4 與伺機性疾病、預防 Table 208-11、各器官系統疾病、IRIS、腫瘤 p.1633-1657）",
+    "First Choice 醫學(三) 第3冊 - 感染 AIDS：併發症及處理、疫苗、考題 (p.319-329)"
   ],
-  "generated": "2026-09-21",
+  "generated": "2026-10-03",
+  "related": [
+    {"id": "hiv-fundamentals-diagnosis", "name": "HIV/AIDS (一)：基礎與診斷"},
+    {"id": "hiv-treatment-art", "name": "HIV/AIDS (三)：ART 治療與預防"},
+    {"id": "pneumonia", "name": "Pneumonia (肺炎)"}
+  ],
   "sections": [
     {
-      "title": "Overview / CD4 分層概念",
+      "title": "總覽：CD4 決定會得什麼病",
       "content": [
-        {"type": "callout", "style": "logic", "text": "**核心邏輯：CD4⁺ 越低 → 可能的感染越多**\n\n像剝洋蔥一樣：CD4 下降一層，新的感染就加進來。\n記住每一層的「新增」感染，而不是試圖記住全部。"},
-        {"type": "table", "headers": ["CD4 Count", "新出現的風險", "代表性感染"], "rows": [
-          ["> 500", "接近正常人的感染", "Bacterial pneumonia（S. pneumoniae）\nTB（any CD4 level）\nHerpes zoster\nVaginal candidiasis"],
-          ["200-500", "初期免疫缺損", "Oral thrush（口腔念珠菌）\nKaposi's sarcoma\nLymphoma\nTB（更常 disseminated）"],
-          ["**< 200**\n(AIDS)", "嚴重免疫缺損", "**PJP** (Pneumocystis)\nHistoplasmosis (disseminated)\nCoccidioidomycosis"],
-          ["**< 100**", "極重度", "**Toxoplasma encephalitis**\nCryptococcal meningitis\nMicrosporidiosis\nEsophageal candidiasis"],
-          ["**< 50**", "最末期", "**CMV** (retinitis, colitis)\n**MAC** (disseminated)\nPML (JC virus)\nCNS lymphoma"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**TB 是例外！**\nTB 在 **任何 CD4 count** 都可以發生（median CD4 at presentation ≈ 326/μL）。\n但 CD4 越低，表現越不典型：\n- CD4 高 → 經典上肺葉空洞\n- CD4 低 → miliary spread、extrapulmonary、CXR 不典型"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1634, Fig.208-32"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**這份筆記的讀法**\n看到 HIV 病人有新症狀，先問兩件事：\n1. **CD4 多少？** → 決定可能的病原（本章）\n2. **哪個器官？** → 呼吸（第 3 章）、中樞神經（第 4 章）、眼睛與全身性（第 5 章）、口腔消化道肝膽（第 6 章）、腫瘤（第 7 章）、其他器官（第 8 章）\n再加上兩個跨章節主題：**預防用藥**（第 2 章）與**開始 ART 後的 IRIS**（第 9 章）。\n\n**最重要的治療原則**（Harrison）：不論是哪種併發症，關鍵都是**用 ART 控制病毒**，再加上適當的**初級與次級預防**。\n**出處標示**：以 Harrison 為主；First Choice 的台灣用法與舊考點另外標註。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hiv-opportunistic-infections/h208-32.png",
+          "label": "Harrison's 22e Fig. 208-32",
+          "caption": "各種伺機性疾病發生時的 CD4 數值",
+          "explain": "**【怎麼看】**每個方框是該疾病診斷時 CD4 的分布（框內橫線 = 中位數、星號 = 平均）。從左到右 CD4 越來越低：**HSV、帶狀疱疹**可以在 CD4 很高時發生；**隱孢子蟲、KS、隱球菌、食道念珠菌、PJP、NHL** 約在 100 上下；**失智、PML、wasting、弓漿蟲、CMV、復發 PJP、MAC** 都在 50 以下。\n**【考點】**MAC 是**最晚期**的感染（診斷時平均 CD4 約 10）；**KS 與帶狀疱疹不需要很低的 CD4**；結核與肺炎鏈球菌也常在 CD4 300 左右就出現（圖中沒畫）。"
+        },
+        {
+          "type": "table",
+          "headers": ["CD4 (cells/μL)", "常見疾病", "記憶點"],
+          "rows": [
+            ["**任何數值**（常 > 200）", "**肺炎鏈球菌**肺炎 / 菌血症（首次約 300）、**結核**（中位數 326）、**帶狀疱疹**、HSV、**Kaposi sarcoma**、全身性淋巴瘤（平均約 226）、急性期無菌性腦膜炎", "結核與肺炎鏈球菌可能是 HIV **最早的嚴重感染**"],
+            ["**< 300**", "**口腔念珠菌**、**口腔毛狀白斑（EBV）**", "出現就代表免疫已明顯下降（口腔念珠菌病人 59% 一年內進展為 AIDS）"],
+            ["**< 200**", "**PJP**（95% 發生在 < 200）、弓漿蟲腦炎、HIV 失智、wasting", "**PJP 預防的門檻**"],
+            ["**< 100**", "**隱球菌腦膜炎**、**弓漿蟲**（IgG+ 要預防）、Bartonella、CMV 高風險（眼科篩檢）", "**弓漿蟲預防的門檻**"],
+            ["**< 50**", "**CMV 視網膜炎**、**播散性 MAC**（平均 10）、**原發性中樞神經淋巴瘤**（中位數約 50）、組織胞漿菌（中位數 33）、PML", "**MAC 預防的門檻**（若沒有立刻開始 ART）"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**First Choice 的口訣**：「**200 / 100 / 50 → P / T / M**」= CD4 < 200 預防 **P**JP、< 100 預防 **T**oxoplasma、< 50 預防 **M**AC。\n**First Choice 的病原分類對照**：CD4 < 350 病毒（HSV、VZV）；< 200 黴菌（PJP、隱球菌、食道念珠菌）；< 100 寄生蟲（弓漿蟲）；< 50 非典型分枝桿菌（MAC）與 CMV。"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "1633-1634、1638-1639"},
+        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "321"}
       ]
     },
     {
-      "title": "PJP (Pneumocystis jirovecii Pneumonia)",
+      "title": "預防：初級、次級預防與疫苗",
       "content": [
-        {"type": "table", "headers": ["項目", "內容"], "rows": [
-          ["病原體", "Pneumocystis jirovecii（真菌，非原蟲）"],
-          ["好發 CD4", "**< 200** (95% 的 PJP 發生在此)；median CD4 at onset: 36/μL"],
-          ["臨床表現", "**Subacute onset（數天到數週）**\n- Dry cough（非產痰性咳嗽）\n- Dyspnea on exertion → 漸進性\n- **Retrosternal chest pain**（吸氣加劇）\n- Low-grade fever\n- Tachypnea"],
-          ["CXR", "早期可能正常！\n典型：**bilateral diffuse interstitial/ground-glass infiltrates**\n不典型：upper lobe cavitation（用 aerosolized pentamidine 預防者）"],
-          ["Lab", "**LDH↑**（敏感但非特異）\n**β-D-glucan↑**（真菌標記）\nABG：hypoxemia, ↑ A-a gradient"],
-          ["診斷", "Induced sputum 或 BAL → stain（GMS, DFA）\nPCR 也可使用"],
-          ["治療", "**TMP-SMX IV/PO × 21 天**（首選）\nPaO₂ < 70 或 A-a gradient > 35 → **加 steroids**（prednisone taper）"],
-          ["替代治療", "Mild-moderate：dapsone/TMP, atovaquone, clindamycin/primaquine\nSevere：IV pentamidine"],
-          ["預防", "CD4 < 200 → **TMP-SMX 1 DS tab daily**"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**PJP 加 steroid 的適應症**：\n- PaO₂ < 70 mmHg 或 A-a gradient > 35 mmHg\n- 降低急性呼吸衰竭風險\n- 給法：Prednisone 40 mg BID × 5d → 40 mg QD × 5d → 20 mg QD × 11d\n- **一定要在 anti-PJP 治療開始 72 小時內加上**"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1639-1640"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**初級預防** = 還沒得過、但 CD4 低到高風險 → 先給藥（PJP、弓漿蟲、MAC、潛伏結核）。\n**次級預防（維持治療）** = 已經得過、治療後繼續吃藥防復發（隱球菌、CMV、弓漿蟲、PJP…）。\n**停藥條件**的共同邏輯：**ART 有效（病毒抑制）+ CD4 回升超過門檻一段時間**。"
+        },
+        {
+          "type": "table",
+          "headers": ["病原（Table 208-11，NIH/CDC/IDSA 2024）", "開始預防", "首選", "停藥條件"],
+          "rows": [
+            ["**PJP**", "CD4 < 100–200（病毒量測得到時）；**CD4 < 100（不論病毒量）**；**口腔念珠菌**；**曾得過 PJP**（Harrison 內文另列：CD4% < 15、不明發燒 > 2 週）", "**TMP-SMX** 1 DS（或 1 SS）每日", "CD4 **> 200 持續 ≥ 3 個月**"],
+            ["**弓漿蟲**", "**Toxoplasma IgG 陽性 + CD4 < 100**；或曾得弓漿蟲腦炎且 CD4 < 200", "**TMP-SMX 1 DS 每日**（同一顆藥也預防 PJP）", "CD4 > 200 且病毒抑制 ≥ 3 個月"],
+            ["**MAC**", "**CD4 < 50，除非立刻開始 ART**（或無法達到病毒抑制）；曾有播散性 MAC", "**Azithromycin 1,200 mg 每週**（或 clarithromycin）", "ART 達到完全抑制即可停"],
+            ["**潛伏結核**", "**PPD > 5 mm** 或 **IGRA 陽性**、曾陽性未治療、活動性肺結核的密切接觸者", "**3HP**（isoniazid + rifapentine 每週 × 12 週）；或 3HR、6–9H、4R", "—（注意與 ART 的交互作用）"],
+            ["**隱球菌**", "**只做次級預防**（美國不建議初級預防）", "Fluconazole 200 mg/d", "治療 1 年後、CD4 > 100、無活動性感染、病毒抑制 > 3 個月"],
+            ["**CMV**", "**只做次級預防**（曾有器官侵犯）", "Valganciclovir", "CD4 > 100 持續 6 個月（< 100 再恢復）"],
+            ["組織胞漿菌", "曾得過；或 CD4 < 150 且高風險（流行區、職業暴露）", "Itraconazole", "1 年後、CD4 > 150、ART ≥ 6 個月"],
+            ["Talaromyces marneffei", "曾得過；或 CD4 < 100 且住在 / 停留於**泰北、華南、越南**", "Itraconazole", "CD4 > 100 持續 ≥ 6 個月（次級預防）"],
+            ["水痘帶狀疱疹", "無免疫力者明顯暴露於水痘或帶狀疱疹", "**10 天內**打 VZIG（替代：acyclovir / valacyclovir 5–7 天）", "—"],
+            ["HSV、念珠菌", "**只在頻繁 / 嚴重復發時**", "Valacyclovir / acyclovir；fluconazole", "—"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**舊考點 vs 新指引：MAC 預防**\n以前 CD4 < 50 一律給 azithromycin 預防 MAC；**現在只有「沒有立刻開始 ART」或「無法達到病毒抑制」才給**（Harrison Table 208-11；First Choice 也寫「現在指引已不建議，除非 CD4 < 50 且沒有好好服用 ART」）。\n**TMP-SMX 一顆三用**：預防 PJP、**弓漿蟲**，也能預防部分細菌性呼吸道感染（以及 Isospora）。"
+        },
+        {
+          "type": "heading",
+          "text": "疫苗"
+        },
+        {
+          "type": "table",
+          "headers": ["疫苗", "對象 / 重點"],
+          "rows": [
+            ["**肺炎鏈球菌**", "所有人，**最好在 CD4 降到 200 以下之前**打；PCV15 或 PCV20，若用 PCV15 則 ≥ 8 週後追加 PPSV23；CD4 < 100 時打的，CD4 > 200 後要**重打**"],
+            ["**流感**", "每年；**不活化**疫苗（不論 CD4 多少）"],
+            ["**B 型肝炎**", "anti-HBc 與 anti-HBs 都陰性者：3 劑"],
+            ["**A 型肝炎**", "anti-HAV 陰性者：2 劑（First Choice：特別是男男性行為者）"],
+            ["**HPV**", "**13–26 歲**男女：3 劑"],
+            ["COVID-19、Mpox（有暴露可能）、腦膜炎雙球菌（> 18 歲）、帶狀疱疹（**Shingrix**，不活化）", "依 CDC 建議"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**活性減毒疫苗**（First Choice p.319–320）：**水痘、MMR** 須在 **CD4 > 200** 時才能打，否則可能造成播散性感染；流感**不要用鼻噴的活性減毒疫苗**。帶狀疱疹疫苗用的是**不活化的 Shingrix**。"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "1636-1638"},
+        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "319-321、324"}
       ]
     },
     {
-      "title": "TB in HIV",
+      "title": "呼吸系統：細菌性肺炎、PJP、結核",
       "content": [
-        {"type": "table", "headers": ["項目", "內容"], "rows": [
-          ["風險", "HIV 感染者活動性 TB 風險是一般人的 **100 倍**\nPPD (+) + HIV → 每年 7-10% 發病率（vs 一般人 1%/year）"],
-          ["好發 CD4", "**任何 CD4 level**（median ≈ 326/μL）"],
-          ["臨床表現\n（依 CD4 分）", "**CD4 高**：典型 — 上肺葉空洞、咳嗽、夜汗、體重減輕\n**CD4 低**：不典型 — miliary pattern、下肺葉浸潤、pleural effusion、hilar adenopathy、extrapulmonary"],
-          ["Extrapulmonary", "淋巴結（最常見 cervical）、骨骼、腦膜、GI、肝脾\n60-80% 有肺部侵犯，30-40% 有肺外侵犯"],
-          ["診斷", "Sputum AFB smear + culture\nGeneXpert MTB/RIF（快速 + 抗藥性）\nBlood culture（CD4 低時 15% 陽性）\nPPD ≥ 5 mm 或 IGRA (+) → latent TB treatment"],
-          ["治療", "與 HIV-negative 相同原則\nRifabutin 取代 rifampin（因藥物交互作用）\nDirectly observed therapy (DOT)"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**IRIS (Immune Reconstitution Inflammatory Syndrome)**：\n- 開始 ART 後免疫恢復 → 對 TB 的免疫反應增強 → 症狀惡化\n- 最常發生在 ART + anti-TB 同時開始的病人\n- CD4 < 50：benefit of early ART > IRIS 風險 → 盡快開始 ART\n- CD4 ≥ 50：延遲 ART 至 anti-TB 治療 **2-8 週後**再開始"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1639-1640"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**HIV 病人肺部浸潤，先想三個**：**細菌性肺炎（肺炎鏈球菌）、PJP、結核**——三者都在最常見的 10 種 AIDS-defining illness 之內。其他還有非典型分枝桿菌、其他黴菌、非特異性間質性肺炎、**KS、淋巴瘤**。\n**先看 CD4**：> 200 偏向細菌、結核；< 200 才要認真想 PJP。"
+        },
+        {
+          "type": "table",
+          "headers": ["", "細菌性肺炎", "**PJP**", "結核"],
+          "rows": [
+            ["CD4", "任何（肺炎鏈球菌首次發作約 300）", "**95% < 200**（79% < 100）", "任何（中位數 **326**）"],
+            ["病程", "急性", "**亞急性、數週**；乾咳、發燒、吸氣時加劇的胸骨後痛", "數週；發燒、盜汗、體重減輕"],
+            ["X 光", "大葉實質化", "**正常**或**兩側淡淡的間質浸潤**；CT 斑塊狀毛玻璃；用 pentamidine 吸入預防者可見**上葉空洞**", "CD4 高：**上葉空洞**；CD4 低：**粟粒、下葉、肋膜積液、肺門 / 縱膈腔淋巴結**"],
+            ["實驗室", "白血球上升", "**LDH 上升**、**低血氧、A-a gradient 增加**", "血液培養陽性 15%（CD4 越低越高）"],
+            ["確診", "痰液、血液培養", "**誘導痰、BAL**、經支氣管或開胸切片看到病原；PCR", "培養；PPD / IGRA 在晚期可能陰性"]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "細菌性肺炎"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "發生率 0.8–2.0 次 / 100 人年；特別容易感染**有莢膜的細菌**：**肺炎鏈球菌、H. influenzae**（B 細胞與嗜中性球功能異常）；S. aureus、綠膿桿菌也增加",
+            "未治療 HIV：**肺炎鏈球菌肺炎 6 倍、菌血症 100 倍**；可能是 HIV **最早出現的嚴重感染**",
+            "**反覆肺炎**本身就是 AIDS-defining illness；**戒菸**可讓細菌性肺炎發生率減半",
+            "鼻竇炎在各階段都常見（上頜竇最多）；CD4 很低時要小心**白黴菌（mucormycosis）**鼻竇炎"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "PJP（Pneumocystis jirovecii pneumonia）"
+        },
+        {
+          "type": "table",
+          "headers": ["項目", "Harrison 重點"],
+          "rows": [
+            ["地位", "曾是 AIDS 的招牌疾病；預防與 ART 普及後大減，但仍是美國 HIV 病人**最常見的單一肺炎病原**（約 25%）；**約 30% 的病人不知道自己感染 HIV**"],
+            ["高風險", "**曾得過 PJP**、CD4 < 200；反覆發燒、盜汗、**鵝口瘡**、不明體重減輕"],
+            ["表現", "發燒、**乾咳**（或少量白痰）、吸氣時加劇的**胸骨後刺痛 / 灼熱痛**；病程可很緩慢（數週）"],
+            ["影像", "**X 光正常（早期）或兩側淡淡的間質浸潤**；典型的濃密肺門周圍浸潤在 AIDS 反而少見；CT 斑塊狀毛玻璃；少見：大葉浸潤、肋膜積液"],
+            ["陷阱", "接受 **pentamidine 吸入預防**的病人：**上葉空洞**（像結核）、肺外 Pneumocystis（脈絡膜、壞死性血管炎、骨髓…）"],
+            ["檢驗", "**LDH 上升**；**PaO₂ 下降、A-a gradient 增加**（同時用來分級與決定要不要用類固醇）"],
+            ["確診", "**誘導痰、BAL**、經支氣管切片、開胸切片找到病原；組織學陰性時可用 PCR"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["PJP 治療", "內容"],
+          "rows": [
+            ["首選", "**TMP-SMX**；但 HIV 病人副作用很高（**20–85%**，尤其**皮疹、骨髓抑制**）"],
+            ["輕中度替代", "dapsone + trimethoprim、clindamycin + primaquine、atovaquone"],
+            ["重度且無法用 TMP-SMX", "**IV pentamidine**（快速給藥可能低血壓、休克；也會造成胰臟炎、高血鉀）"],
+            ["**類固醇**", "**PaO₂ < 70 mmHg 或 A-a gradient > 35 mmHg** → 加上類固醇"],
+            ["療程", "**21 天**，之後接**次級預防**"],
+            ["停預防", "ART 下病毒量 **< 50**、CD4 **> 200 持續 ≥ 3 個月**"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**First Choice 的台灣用法**（p.322）：TMP 劑量 IV 15–20 mg/kg/day，**亞洲人可考慮 12–15 mg/kg/day**，穩定後改口服，共 21 天。類固醇：First Choice 印成「40 mg bid → 40 mg bid → 20 mg bid」，**應為 prednisone 40 mg bid × 5 天 → 40 mg qd × 5 天 → 20 mg qd × 11 天**（共 21 天；依 NIH/CDC/IDSA 成人 OI 指引，經 National HIV Curriculum 教材查證），且應在 PJP 治療開始後 **72 小時內**儘早加上。\n**TMP-SMX 皮疹不一定要停藥**：Harrison 指出 TMP-SMX 治療 PJP 時藥物過敏高達 65%，但約 1/3 可以繼續用；**過敏性休克極少見**，曾有皮疹者日後仍可考慮預防或減敏。"
+        },
+        {
+          "type": "heading",
+          "text": "結核與非結核分枝桿菌"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "全球約 **1/3 的 AIDS 死亡**與結核有關；HIV 感染者得活動性結核的機會增加 **100 倍**；PPD 陽性未治療 HIV：**每年 7–10%** 再活化（一般人一生約 1%/年）",
+            "結核會讓**病毒量上升、HIV 進展加快**；治療方式與 HIV 陰性者相同，但要做藥敏",
+            "**Rifamycin 與 ART 的交互作用**：需調整 **rifabutin** 劑量或改 ART（First Choice：建議 rifabutin 取代 rifampin，以減少與 PI 的交互作用）",
+            "所有 HIV 病人都要做 **PPD 或 IGRA**；CD4 < 200 時陰性 → CD4 持續 > 200 後**重驗**；持續暴露者每年驗",
+            "疑似肺結核要**隔離、負壓病房**",
+            "**MAC 主要表現為播散性疾病**（見第 5 章）；兩次痰培養陽性高度提示肺部感染"
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**結核病人什麼時候開始 ART？**（Harrison 結核段落）\n- **CD4 < 50** → **越快越好**（好處大於 IRIS 風險）\n- **CD4 ≥ 50** → 結核治療開始後 **2–8 週**再開始 ART\n同時開始兩種治療最容易發生 **IRIS**，可早在 ART 開始後 1 週出現。"
+        },
+        {
+          "type": "heading",
+          "text": "其他肺部疾病"
+        },
+        {
+          "type": "table",
+          "headers": ["疾病", "重點"],
+          "rows": [
+            ["肺隱球菌", "發燒、咳嗽、喘；> 90% 有間質浸潤；**一半以上有黴菌血症，90% 合併中樞神經感染** → 一定要做腰椎穿刺"],
+            ["麴菌", "**不是** AIDS-defining；沒有嗜中性球低下或類固醇時少見；可表現為**偽膜性氣管支氣管炎**"],
+            ["組織胞漿菌、球孢子菌", "流行區疾病；球孢子菌血清學在 HIV 病人 25% 陰性"],
+            ["Rhodococcus equi", "抗酸性陽性桿菌；空洞、實質化，血液培養常陽性"],
+            ["LIP / NIP", "LIP（兒童常見，成人約 1%）與 NIP 都是**良性、自限性**淋巴球浸潤；嚴重 LIP 可短期用類固醇"],
+            ["HIV 相關肺高壓", "約 0.5%；喘、昏厥、右心衰竭；**ART 沒有明確幫助**，中位存活約 2 年"],
+            ["**肺部 KS**", "喘；80% 有皮膚病灶；X 光**兩側下葉浸潤遮住縱膈與橫膈邊緣**，**70% 有肋膜積液**（見第 7 章）"]
+          ]
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "1638-1641、1646"},
+        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "322、324"}
       ]
     },
     {
-      "title": "Toxoplasma Encephalitis",
+      "title": "中樞神經系統",
       "content": [
-        {"type": "table", "headers": ["項目", "內容"], "rows": [
-          ["病原體", "Toxoplasma gondii（intracellular protozoan）"],
-          ["好發 CD4", "**< 100**"],
-          ["機轉", "通常是 **latent infection reactivation**（非新感染）\nToxo IgG (+) 且 CD4 < 100 → 高風險"],
-          ["臨床表現", "**Focal neurologic signs**（hemiparesis, aphasia, ataxia）\nHeadache, fever, confusion\nSeizures（~30%）"],
-          ["影像", "Brain MRI：**multiple ring-enhancing lesions**\n好發：basal ganglia, corticomedullary junction\n周圍水腫"],
-          ["鑑別診斷", "**CNS lymphoma**：通常 single lesion, periventricular\nPML：no enhancement, white matter\nBrain abscess（bacterial, fungal）"],
-          ["診斷", "臨床 + 影像 + Toxo IgG (+) → **empiric treatment**\n如果 2 週內未改善 → brain biopsy"],
-          ["治療", "**Pyrimethamine + sulfadiazine + leucovorin** × 6 weeks\n替代：TMP-SMX\n之後 maintenance therapy 直到 CD4 > 200 × 6 months"],
-          ["預防", "Toxo IgG (+) 且 CD4 < 100 → **TMP-SMX 1 DS daily**"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "**Toxo vs CNS Lymphoma 的鑑別**：\n- Toxo：**multiple** ring-enhancing lesions, Toxo IgG (+), responds to empiric Tx\n- CNS Lymphoma：**single** periventricular lesion, EBV PCR (+) in CSF, poor response\n- 實務上：先 empiric treat for Toxo → 2 週未改善 → biopsy → 排除 lymphoma"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1641-1642"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**兩條路分開想**：\n1. **局部神經學缺損 / 腦部占位** → **弓漿蟲、原發性中樞神經淋巴瘤（PCNSL）、PML**（最常見的三個），其次隱球菌瘤、中風、結核\n2. **腦膜炎 / 意識改變、沒有局部病灶** → **隱球菌腦膜炎**（AIDS 最常見的感染性腦膜炎）、HIV 本身（無菌性腦膜炎、HAND）、梅毒、結核\n癲癇在 HIV 病人常見：首次發作最常見的原因是**腦部占位（弓漿蟲為主）**、HIV 腦病變、隱球菌腦膜炎。"
+        },
+        {
+          "type": "table",
+          "headers": ["", "**弓漿蟲腦炎**", "**PCNSL**", "**PML**"],
+          "rows": [
+            ["病原", "**T. gondii**（潛伏囊體再活化）", "**EBV**（陽性率接近 100%）", "**JC virus**（多瘤病毒）"],
+            ["CD4", "< 200（IgG 陽性者 < 100 要預防）", "**中位數約 50**", "晚期；ART 時代仍持續發生"],
+            ["臨床", "**發燒、頭痛、局部缺損**；癲癇、偏癱、失語；水腫造成意識混亂到昏迷", "局部缺損、腦神經、頭痛、癲癇", "**數週到數月慢慢進展**的多處缺損：步態不穩、偏癱、視野缺損、失語；**頭痛、發燒少見**"],
+            ["MRI", "**多發性環狀顯影**、周圍水腫；**偏心標靶徵（eccentric target sign）**", "**1–3 個、3–5 cm**；環狀顯影**比弓漿蟲淡**；**深部白質**、可沿腦室室管膜顯影", "**多發性、不顯影、無占位效應**的白質病灶；**頂葉、枕葉**為主；T2 高訊號、T1 低訊號"],
+            ["診斷", "臨床 + 影像 + IgG；**經驗治療 2–4 週沒改善才切片**；IgG 陰性時弓漿蟲機率 < 10%", "切片；排除弓漿蟲", "**CSF JC virus DNA**：敏感度 76%、特異度近 100%"],
+            ["治療", "**Sulfadiazine + pyrimethamine + leucovorin ≥ 4–6 週**；替代：clindamycin + pyrimethamine；之後維持治療至 CD4 > 200 持續 6 個月", "放射治療緩解；**預後差**（2 年存活 20–30%）", "**沒有特效藥 → ART**；只有約一半神經學改善；預後好的因子：CD4 > 100、病毒量能維持 < 500"]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/hiv-opportunistic-infections/h208-41.jpg",
+          "label": "Harrison's 22e Fig. 208-41",
+          "caption": "中樞神經弓漿蟲：偏心標靶徵",
+          "explain": "**【怎麼看】**冠狀切面 T1 顯影後 MRI：左額葉一個**周邊環狀顯影**的病灶，環內有一個**偏向一側的小結節狀顯影**（箭頭）。\n**【考點】**這個「**eccentric target sign**」是弓漿蟲的典型表現（First Choice 也特別寫出）。實務上 HIV 病人 + 多發環狀顯影 + Toxoplasma IgG 陽性 → **先給弓漿蟲經驗治療**，2–4 週沒改善才切片。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hiv-opportunistic-infections/h208-45.jpg",
+          "label": "Harrison's 22e Fig. 208-45",
+          "caption": "中樞神經淋巴瘤",
+          "explain": "**【怎麼看】**軸切面 T1 顯影後 MRI：多個顯影病灶，部分呈環狀；左側外側溝的病灶有腦迴與皮質下顯影；尾核與胼胝體壓部的病灶（箭頭）**沿著鄰近的室管膜表面顯影**。\n**【考點】**PCNSL 與弓漿蟲都可以環狀顯影，區分線索：PCNSL 病灶數**較少（1–3 個）**、**較深（白質、腦室旁）**、**顯影較淡**、**沿室管膜擴散**；弓漿蟲經驗治療**沒有反應**。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考題型（111 年）**：48 歲 HIV 男性，CD4 48，頭痛、步態不穩，CT 小腦 3.5 cm 腫塊併水腫，**Toxoplasma IgG 陽性**、隱球菌抗原陰性。哪個敘述錯？\n→「最常見原因是 PCNSL、應避免開顱、儘快化療」是**錯的**。HIV 病人腦部占位**最常見的是弓漿蟲**（遠多於 PCNSL）→ 先給弓漿蟲治療 1–2 週追蹤影像，沒改善再切片；排除隱球菌與結核腦膜炎後**儘快開始 ART**；CD4 < 200 也要給 **TMP-SMX 預防 PJP**。"
+        },
+        {
+          "type": "heading",
+          "text": "隱球菌腦膜炎"
+        },
+        {
+          "type": "table",
+          "headers": ["項目", "內容"],
+          "rows": [
+            ["流行病學", "AIDS **最常見的感染性腦膜炎**；多為 C. neoformans（最多 12% 為 C. gattii）；通常 **CD4 < 100**"],
+            ["表現", "**亞急性腦膜腦炎**：發燒、噁心嘔吐、意識改變、頭痛、腦膜徵象；**癲癇與局部缺損少見**"],
+            ["CSF", "**可以接近正常**或只輕微白血球 / 蛋白上升、糖下降；**開放壓通常很高**"],
+            ["其他部位", "約 1/3 有肺部病灶；皮膚病灶像**傳染性軟疣**；攝護腺可能是潛伏的儲存處"],
+            ["診斷", "CSF **India ink 染色**或**隱球菌抗原**；**黴菌血液培養常陽性**"],
+            ["誘導期", "**Amphotericin B（或 liposomal）+ flucytosine ≥ 2 週**；腎功能下降會使 flucytosine 濃度上升 → **骨髓抑制**"],
+            ["鞏固與維持", "持續到 CSF 培養轉陰 → **fluconazole 800 mg/d × 8 週** → fluconazole 200 mg/d 直到 ART 下 CD4 > 200 持續 6 個月（Table 208-11：治療滿 1 年、CD4 > 100、病毒抑制 > 3 個月可停）"],
+            ["**腦壓**", "**重複腰椎穿刺**引流減壓（First Choice：目標降到 **< 25 cmH₂O**）"],
+            ["**ART 時機**", "先給 **4–6 週抗黴菌治療**再開始 ART（降低 IRIS）"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**First Choice 的分期寫法**（p.322–323）：誘導期 ≥ 2 週（liposomal amphotericin B 3–4 mg/kg/day 或 amphotericin B + flucytosine；神經學仍嚴重、有隱球菌瘤或重複穿刺仍有黴菌 → 延長到 ≥ 6 週）→ 鞏固期 ≥ 8 週（fluconazole 400–800 mg）→ 維持期 1 年（fluconazole 200–400 mg；CD4 > 100 且 ART 後病毒量測不到 > 3 個月可考慮停）。\n**輕中度肺部或局部感染、沒有侵犯中樞與菌血症**：fluconazole 400 mg × 6–12 個月。"
+        },
+        {
+          "type": "heading",
+          "text": "HIV 本身造成的神經疾病"
+        },
+        {
+          "type": "table",
+          "headers": ["疾病", "重點"],
+          "rows": [
+            ["**無菌性腦膜炎**", "任何時期（**AIDS 後反而少見** → 推測是免疫媒介）；急性期頭痛、畏光、頸部僵硬；**顏面神經（VII）**最常受影響；CSF 淋巴球、蛋白上升、糖正常；2–4 週自行緩解"],
+            ["**HAND**", "從無症狀神經認知障礙 → 輕度 → **HIV 相關失智（HAD，AIDS-defining）**；即使 ART 抑制仍約 50% 有輕中度障礙"],
+            ["HAD 的特徵", "**皮質下失智**：注意力、短期記憶、執行功能下降；**失語、失用、失認少見**；動作慢、步態不穩、震顫；冷漠、易怒；**意識清醒**（與代謝性腦病變的嗜睡不同）；影像**腦萎縮**；ART 可改善；**對抗精神病藥的錐體外症狀特別敏感**"],
+            ["**空泡性脊髓病變**", "約 20% AIDS；病理像**亞急性合併退化**（但多半**不是** B12 缺乏）；痙攣、步態不穩、膀胱直腸功能障礙；**ART 效果差**"],
+            ["**CMV 多發性神經根脊髓病變**", "晚期、**猛爆性**：下肢與薦部感覺異常、**無反射、尿滯留**、上行性感覺喪失；**CSF 以嗜中性球為主**、CMV PCR 陽性；**立刻 IV ganciclovir 或 foscarnet**"],
+            ["**遠端感覺多發性神經病變**", "**最常見的周邊神經病變**；腳的燒灼痛、襪套狀感覺喪失、踝反射消失；HIV 本身或 **dideoxynucleoside（ddI、d4T）**造成（「**像走在冰上**」）；症狀治療用 gabapentin、TCA"],
+            ["其他周邊神經", "早期可有 **GBS 樣**急性脫髓鞘、CIDP；多發性單神經炎（壞死性動脈炎）"],
+            ["肌病變", "HIV 本身、**zidovudine**（粒線體毒性，**ragged red fibers**，停藥可逆）、wasting"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**癲癇**（Table 208-16）：首次發作的原因以 **HIV 腦病變（24–47%）**、**弓漿蟲（28%）**、**隱球菌腦膜炎（13%）**為主；原因不明者 70% 會再發作 → **除非找到可快速矯正的原因，否則都要給抗癲癇藥**；注意與 ART 的交互作用。\n**中風**：HIV 本身會增加風險；鑑別包括 VZV 血管炎、**神經梅毒**、黴菌栓塞、TTP、古柯鹼。"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "1649-1653"},
+        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "322-323、327"}
       ]
     },
     {
-      "title": "Cryptococcal Meningitis",
+      "title": "眼睛與全身性感染",
       "content": [
-        {"type": "table", "headers": ["項目", "內容"], "rows": [
-          ["病原體", "Cryptococcus neoformans（encapsulated yeast）"],
-          ["好發 CD4", "**< 100**（median CD4 ≈ 50）"],
-          ["臨床表現", "**Subacute meningitis**（數天到數週）\n- Headache（最常見）\n- Fever\n- Altered mental status\n- **顱內壓升高** — nausea/vomiting, papilledema, CN VI palsy\n- 明顯的 meningismus 不常見"],
-          ["診斷", "**CSF Cryptococcal antigen (CrAg)**：sensitivity > 95%\n**Serum CrAg**：sensitivity > 95%\n**India ink**：看到 encapsulated yeast（sensitivity 60-80%）\nCSF：opening pressure↑, WBC↑（lymphocyte）, protein↑, glucose↓/normal"],
-          ["治療", "**Induction（2 weeks）**：Amphotericin B + Flucytosine (5-FC)\n**Consolidation（8 weeks）**：Fluconazole 400 mg/d\n**Maintenance**：Fluconazole 200 mg/d 直到 CD4 > 100 × 1 year"],
-          ["關鍵處置", "**ICP management** — repeated LP or VP shunt\n顱內壓升高是主要死因！"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**Cryptococcal meningitis 的兩大陷阱**：\n1. **CSF 可能看起來「正常」** — WBC 可能很低（免疫功能差，白血球上不來）\n2. **顱內壓是殺手** — 即使藥物有效，ICP 沒控制好病人還是會死\n   → 開放壓力 > 25 cmH₂O → 需要 therapeutic LP（抽掉 CSF 降壓）\n   → 可能需要每天 LP 直到壓力穩定"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1642-1643"}
+        {
+          "type": "table",
+          "headers": ["眼底表現", "**CMV 視網膜炎**", "棉絮斑（cotton-wool spots）", "急性視網膜壞死 / PORN"],
+          "rows": [
+            ["病原", "CMV 再活化", "微血管病變造成的**視網膜缺血**", "**HSV、VZV**"],
+            ["CD4", "**< 50**（大多數）", "晚期 HIV 都可見", "—"],
+            ["症狀", "**無痛**、漸進性視力喪失；飛蚊、閃光；通常雙側但一眼較重", "**不影響視力**", "**疼痛**、角膜炎、虹膜炎；常合併唇疱疹或三叉神經帶狀疱疹"],
+            ["眼底", "**血管周圍出血與滲出**", "白色、邊緣不規則的斑點，穩定或改善", "周邊廣泛的**灰白色**病灶，進展快"],
+            ["處理", "**口服 valganciclovir**、IV ganciclovir 或 IV foscarnet（cidofovir 替代）；**3 週誘導 → 維持**；只侵犯眼睛可眼內注射", "不需治療", "**儘快 IV ganciclovir 或 acyclovir**"],
+            ["預後", "視力喪失**不可逆**；可併發**視網膜剝離**", "—", "常併發視網膜剝離"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**CMV 視網膜炎的重點**：未治療時代 25–30% AIDS 病人會發生，ART 時代降到約 2%；**CD4 < 100 每 3–6 個月做眼科檢查**；維持治療直到 **CD4 > 100 持續 > 6 個月**；開始 ART 後多數會有某種程度的**葡萄膜炎（IRIS）**。First Choice：AIDS 的 CMV 感染 **85% 表現為視網膜炎**；**ganciclovir 最常見的副作用是骨髓毒性（嗜中性球低下）**；foscarnet、cidofovir 要充分水分避免**腎毒性**並監測電解質。\n**其他**：Pneumocystis 脈絡膜病灶（多為 pentamidine 吸入者）、弓漿蟲脈絡膜視網膜炎、**梅毒葡萄膜炎（高度合併神經梅毒）**、KS 侵犯眼瞼與結膜。"
+        },
+        {
+          "type": "heading",
+          "text": "播散性感染與 wasting syndrome"
+        },
+        {
+          "type": "table",
+          "headers": ["疾病", "CD4", "表現", "診斷與治療"],
+          "rows": [
+            ["**播散性 MAC**", "**< 50**（平均 10）", "**發燒、體重減輕、盜汗**；腹痛、腹瀉、淋巴結腫大；**貧血、ALP 上升**；X 光異常只有約 25%", "**血液培養**（≥ 85% 有分枝桿菌血症；約 2 週才陽性）、骨髓切片；**clarithromycin + ethambutol**（± rifabutin 等）；直到症狀緩解、培養陰性、**CD4 > 100 持續 3–6 個月**"],
+            ["組織胞漿菌（播散性）", "中位數 33", "4–8 週發燒與體重減輕；肝脾腫大、淋巴結腫大、血球低下；X 光約 50% 異常", "**尿液 / 血清抗原**、培養；liposomal amphotericin B → itraconazole 維持"],
+            ["**Talaromyces marneffei**", "低", "**東南亞**（泰國第 3 常見 AIDS-defining illness，雨季較多）；發燒、全身淋巴結腫大、肝脾腫大、貧血、血小板低下、**中央凹陷的丘疹（像傳染性軟疣）**", "Amphotericin B → itraconazole（直到 CD4 > 100 持續 ≥ 6 個月）"],
+            ["**Bartonella**", "**< 100**", "不明發燒；**桿菌性血管瘤病**（B. henselae，接觸有跳蚤的貓）：皮膚血管增生病灶像 KS；可侵犯肝（**peliosis hepatis**）、脾、骨", "Warthin-Starry 染色、PCR；**doxycycline 或 erythromycin ≥ 3 個月**"],
+            ["內臟利什曼原蟲", "—", "流行區；肝脾腫大、發燒、血球異常；2/3 慢性反覆", "Amphotericin B 或五價銻；易復發"],
+            ["**Wasting syndrome**（AIDS-defining）", "—", "非自主體重下降 **> 10%** + 間歇或持續**發燒** + 慢性**腹瀉或倦怠 > 30 天**，且找不到 HIV 以外的原因", "ART；類固醇、雄性素、生長激素、TPN 效果不一"]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**桿菌性血管瘤病 vs Kaposi sarcoma**：桿菌性血管瘤病的病灶**按壓會變白、會痛**，而且**常有全身症狀**；KS 不會。兩者都要切片——**桿菌性血管瘤病用抗生素就能治好**。\n**長得像傳染性軟疣的皮膚病灶**：傳染性軟疣本身、**隱球菌**、**Talaromyces**。"
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "1640、1653-1654"},
+        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "323-324"}
       ]
     },
     {
-      "title": "CMV & MAC",
+      "title": "口腔、消化道與肝膽",
       "content": [
-        {"type": "heading", "text": "CMV (Cytomegalovirus)"},
-        {"type": "table", "headers": ["項目", "內容"], "rows": [
-          ["好發 CD4", "**< 50**"],
-          ["CMV Retinitis\n（最常見）", "表現：**painless progressive vision loss**、floaters\n眼底鏡：perivascular hemorrhage + exudates（\"pizza pie\" / \"cottage cheese & ketchup\"）\n未治療 → 失明\n治療：**Valganciclovir PO** 或 **Ganciclovir IV**\n→ 後續 maintenance"],
-          ["CMV Colitis", "表現：Diarrhea（可為血便）、abdominal pain、fever\n內視鏡：mucosal ulceration\n組織切片：**owl-eye inclusion bodies**\n治療：Ganciclovir IV"],
-          ["CMV Esophagitis", "表現：Odynophagia、dysphagia\n與 Candida esophagitis 鑑別：CMV → large shallow ulcers; Candida → white plaques\n治療：Ganciclovir IV"],
-          ["CMV Pneumonitis", "較少見（比 transplant patients 少）\n治療：Ganciclovir ± IVIG"]
-        ]},
-        {"type": "heading", "text": "MAC (Mycobacterium avium complex)"},
-        {"type": "table", "headers": ["項目", "內容"], "rows": [
-          ["好發 CD4", "**< 50**（median CD4 at diagnosis: 10/μL）"],
-          ["臨床表現", "**Disseminated disease**：\n- Fever, night sweats, weight loss\n- Diarrhea, abdominal pain\n- Hepatosplenomegaly\n- Lymphadenopathy\n- Anemia + ↑ALP（高度提示）"],
-          ["CXR", "異常約 25%：bilateral lower lobe infiltrate（miliary pattern）"],
-          ["診斷", "**Blood culture**（最可靠）\nBone marrow biopsy：大量 AFB"],
-          ["治療", "**Clarithromycin + Ethambutol** ± Rifabutin\n持續治療直到 ART 有效 + CD4 恢復"],
-          ["預防", "CD4 < 50 → **Azithromycin 1200 mg/week**（除非已立即開始 ART）"]
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1640-1641, 1643-1644"}
+        {
+          "type": "figure",
+          "src": "figures/hiv-opportunistic-infections/h208-35.jpg",
+          "label": "Harrison's 22e Fig. 208-35",
+          "caption": "HIV 病人的口腔病灶：A 鵝口瘡、B 口腔毛狀白斑、C 口瘡潰瘍、D Kaposi sarcoma",
+          "explain": "**【怎麼看】****A 鵝口瘡**：後咽與軟顎**紅色黏膜上的白色乳酪狀滲出物**。**B 口腔毛狀白斑**：**舌頭側緣**白色、**刮不掉**的皺褶狀斑塊。**C 口瘡潰瘍**：後咽的疼痛性潰瘍。**D KS**：硬顎上紫紅色的斑塊。\n**【考點】****鵝口瘡 = 念珠菌**，刮下來看到**偽菌絲**即可診斷（**培養沒有意義**，HIV 病人沒有鵝口瘡時喉嚨也常培養出念珠菌）；**毛狀白斑 = EBV**，**不是癌前病變**；兩者通常代表 **CD4 < 300**。口瘡潰瘍原因不明，**thalidomide** 有效。口腔 KS 要與淋巴瘤鑑別。"
+        },
+        {
+          "type": "table",
+          "headers": ["食道炎", "內視鏡表現", "治療重點"],
+          "rows": [
+            ["**念珠菌**", "白色斑塊；鋇劑攝影黏膜不規則", "First Choice：口腔用 nystatin 漱口；**食道 → 口服 fluconazole**；fluconazole 無效的菌種（C. glabrata、C. krusei）改 echinocandin 等"],
+            ["**CMV**", "**單一個大潰瘍**", "Ganciclovir / foscarnet"],
+            ["**HSV**", "**多個小潰瘍**", "Acyclovir 類"],
+            ["其他", "KS、淋巴瘤、原因不明的大潰瘍（thalidomide）", "—"]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "腹瀉"
+        },
+        {
+          "type": "table",
+          "headers": ["病原", "特徵", "治療"],
+          "rows": [
+            ["**隱孢子蟲（Cryptosporidium）**", "CD4 < 300 每年約 1%；從自限性到致命的大量水瀉；**非發炎性**；糞便**抗酸染色**看到卵囊；可侵犯**膽道**（膽囊炎、乳頭狹窄）", "**以支持療法 + ART 為主**；nitazoxanide 約一半有效；避免接觸糞便、生水、生蠔"],
+            ["**微孢子蟲（Microsporidia）**", "很小、chromotrope 染色或電顯；可侵犯腸外（眼、腦、鼻竇、肌肉、肝）", "**ART 恢復免疫**；albendazole 部分有效"],
+            ["**Isospora belli**", "熱帶地區；**抗酸性**、比隱孢子蟲大；症狀與隱孢子蟲相同", "**TMP-SMX 很好治**（易復發，每週 3 次預防）"],
+            ["**CMV 大腸炎**", "腹瀉（通常非血便）、腹痛、體重減輕；內視鏡多處潰瘍，切片見**核內與細胞質包涵體**；腸壁變薄可造成菌血症", "Ganciclovir / valganciclovir 或 foscarnet **3–6 週**；**要檢查有沒有 CMV 視網膜炎**"],
+            ["**Salmonella、Shigella、Campylobacter**", "男男性行為者較多、較嚴重、易復發；**S. typhimurium 風險約 20 倍**、症狀可以只有發燒倦怠；**Shigella 腸胃道感染最多 50% 有菌血症**；Campylobacter 血便、糞便白血球", "Salmonella：**長期 ciprofloxacin**；Campylobacter：多數對 erythromycin 敏感；**反覆 Salmonella 敗血症是 AIDS-defining**"],
+            ["**HIV 腸病變**", "找不到其他病原的慢性腹瀉；小腸輕度萎縮、乳糖酶下降、吸收不良", "**排除性診斷**（檢查陰性且腹瀉 > 1 個月）；ART 改善"]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/hiv-opportunistic-infections/h208-37.png",
+          "label": "Harrison's 22e Fig. 208-37",
+          "caption": "HIV 病人腹瀉的檢查流程",
+          "explain": "**【怎麼看】**第一步：病史理學 + **糞便培養、蟲卵寄生蟲 × 3、C. difficile 毒素**（約 50% 在這一步找到原因）→ 沒有診斷時，依**有無大腸炎的懷疑**分成上消化道內視鏡切片或大腸鏡切片（約 30% 找到微孢子蟲或分枝桿菌）→ 仍沒有診斷 → **HIV 相關腸病變**。\n**【考點】**HIV 腸病變是**排除性診斷**；有可治療的病因（Isospora、CMV、細菌、MAC）要先排除。"
+        },
+        {
+          "type": "heading",
+          "text": "肝膽與胰臟"
+        },
+        {
+          "type": "table",
+          "headers": ["問題", "重點"],
+          "rows": [
+            ["**B 型肝炎共同感染**", "HIV 讓 HBsAg 持續陽性的機會增加約 3 倍、肝病死亡率增加 4–10 倍；**lamivudine、emtricitabine、tenofovir（TDF / TAF）、entecavir 同時有抗 HIV 活性 → 絕不能單用**（會產生抗藥 HIV）→ **B 肝治療一定要在完整 ART 下進行**；**停用這些藥可能造成 B 肝急性發作**；開始 ART 後也可能因免疫恢復使肝炎變嚴重"],
+            ["**C 型肝炎共同感染**", "C 肝病毒量約高 10 倍、進展較快；DAA 治癒率接近 100%，治療可降低死亡率；注射藥癮者 HCV 盛行率 70–95%"],
+            ["**藥物肝毒性**", "**NRTI**：粒線體毒性 → **脂肪肝、乳酸中毒**、猛爆性肝衰竭；**nevirapine**：猛爆性 / 膽汁滯留性肝炎（可致命）；**indinavir、atazanavir**：**間接膽紅素上升**（類似 Gilbert）"],
+            ["其他", "肉芽腫性肝炎（MAC 等）；**AIDS 膽管病變**（隱孢子蟲、CMV、KS 造成乳頭狹窄或硬化性膽管炎）"],
+            ["**胰臟炎**", "多半是**藥物**：**pentamidine、didanosine（ddI）**等 dideoxynucleoside"]
+          ]
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "1641-1644"},
+        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "319、322"}
       ]
     },
     {
-      "title": "其他重要感染",
+      "title": "腫瘤：Kaposi sarcoma、淋巴瘤、HPV 相關癌",
       "content": [
-        {"type": "heading", "text": "Candidiasis"},
-        {"type": "table", "headers": ["型態", "CD4", "表現", "治療"], "rows": [
-          ["Oral thrush", "< 200-300", "口腔白色斑塊（pseudomembranous）\n或 erythematous（紅斑型）", "Fluconazole 100-200 mg/d × 7-14d"],
-          ["Esophageal candidiasis\n（AIDS-defining）", "< 100", "Odynophagia, dysphagia\n可 empiric treat（不需內視鏡確診）", "Fluconazole 200 mg/d × 14-21d"]
-        ]},
-        {"type": "heading", "text": "PML (Progressive Multifocal Leukoencephalopathy)"},
-        {"type": "table", "headers": ["項目", "內容"], "rows": [
-          ["病原體", "**JC virus**（reactivation）"],
-          ["好發 CD4", "< 100（通常 < 50）"],
-          ["臨床表現", "**Progressive focal neurologic deficits** 但 **無 fever、無 headache**\nHemiparesis, visual field cuts, cognitive decline, ataxia"],
-          ["MRI", "**White matter lesions**（非對稱性）\n**No mass effect, no enhancement**（vs Toxo, lymphoma）"],
-          ["診斷", "CSF JC virus PCR"],
-          ["治療", "**沒有特效藥** — 唯一希望是 **ART** 恢復免疫功能\n預後差，但 ART 可顯著改善存活率"]
-        ]},
-        {"type": "heading", "text": "Kaposi's Sarcoma (KS)"},
-        {"type": "table", "headers": ["項目", "內容"], "rows": [
-          ["病原體", "**HHV-8 (Human Herpesvirus 8)**"],
-          ["好發族群", "**MSM**（男男性行為者）最常見"],
-          ["臨床表現", "**紫紅色丘疹/斑塊/結節** — 皮膚（最常見）\n口腔（硬顎）、GI tract、肺、淋巴結\n不痛"],
-          ["診斷", "皮膚切片：spindle cells + slit-like vascular channels"],
-          ["治療", "輕度：ART（可能自行消退）\n中重度：ART + chemotherapy（liposomal doxorubicin）"]
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1641-1650"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**AIDS-defining 的腫瘤只有三種**：**Kaposi sarcoma、非何杰金氏淋巴瘤（Burkitt、免疫母細胞、原發性腦淋巴瘤）、侵襲性子宮頸癌**。\n**病毒對照**（First Choice）：KS ↔ **HHV-8（KSHV）**；B 細胞淋巴瘤 ↔ **EBV**；子宮頸 / 肛門癌 ↔ **HPV 16、18**。\nART 時代：KS 大幅減少，淋巴瘤減少較少，**HPV 相關癌幾乎不受 ART 影響**；**非 AIDS-defining 癌症**（何杰金氏、肺、肝、肛門…）現在造成的死亡反而更多（約 10%）。"
+        },
+        {
+          "type": "heading",
+          "text": "Kaposi sarcoma（KS）"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hiv-opportunistic-infections/h208-42.jpg",
+          "label": "Harrison's 22e Fig. 208-42",
+          "caption": "三位 AIDS 病人的 KS：眼周水腫與瘀青、典型軀幹分布、上肢病灶",
+          "explain": "**【怎麼看】**左：**眼周水腫與瘀青樣**變色、鼻與額頭散在紫紅色丘疹。中：**軀幹**散布多個紫紅至褐色、沿皮紋分布的斑塊。右：上肢多處紅紫色病灶，有一個被圈起來（準備切片）。\n**【考點】**KS 是血管性腫瘤，含外滲紅血球 → 顏色**紅、紫、褐**，常像**瘀青**（帶黃色變色）；好發於**曬太陽的部位（鼻尖）**與**受傷處（Koebner 現象）**；融合的病灶可造成**淋巴水腫**。"
+        },
+        {
+          "type": "table",
+          "headers": ["項目", "重點"],
+          "rows": [
+            ["病因", "**HHV-8（KSHV）**為病毒輔因子"],
+            ["CD4", "**任何階段都可能**，即使 CD4 正常"],
+            ["**淋巴結**", "早期就可侵犯，**不代表轉移或預後差**（只侵犯淋巴結者常是免疫較好、預後最好的一群）"],
+            ["**肺**", "喘；80% 有皮膚病灶；X 光**兩側下葉濃密浸潤、遮住心臟與橫膈邊緣**；**70% 有肋膜積液**（鑑別線索）"],
+            ["**腸胃道**", "**約 50%** 侵犯：黏膜出血（可很嚴重）、阻塞；或侵犯膽道 → 阻塞性黃疸"],
+            ["診斷", "**切片**：**紡錘狀細胞**與內皮細胞增生、紅血球外滲、含鐵血黃素巨噬細胞；鑑別：淋巴瘤、**桿菌性血管瘤病**、皮膚分枝桿菌感染"],
+            ["分期（ACTG TIS）", "**T**umor（局限皮膚 / 淋巴結 vs 水腫潰瘍、廣泛口腔、腸胃、內臟）、**I**mmune（CD4 ≥ 200 vs < 200）、**S**ystemic（B 症狀、KPS < 70、曾有伺機性感染）"],
+            ["治療", "**先把 ART 做好**（可使病灶自行消退；但也可能以 **IRIS** 形式首次出現）；少數病灶 → 局部放射、病灶內 vinblastine、冷凍；廣泛或內臟侵犯 → **liposomal daunorubicin、pomalidomide**（一線）、liposomal doxorubicin、paclitaxel；**IFN-α**（CD4 > 150 才有效，也有抗病毒作用）"],
+            ["預後", "**< 10% 死於 KS 本身**，死於伺機性感染更多 → 避免過度抑制免疫的治療；HIV 病人對**放射治療的黏膜炎**特別敏感"]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/hiv-opportunistic-infections/h208-43.jpg",
+          "label": "Harrison's 22e Fig. 208-43",
+          "caption": "AIDS 病人的肺部 KS",
+          "explain": "**【怎麼看】**胸部正面 X 光：兩側**下肺野濃密浸潤**，把**心臟邊緣與橫膈遮住**；兩側肋膈角變鈍（**肋膜積液**）。\n**【考點】**HIV 病人肺部浸潤 + **肋膜積液** + 皮膚紫紅色病灶 → 想到**肺部 KS**。對照 PJP：X 光正常或淡淡的間質浸潤、**很少有肋膜積液**。"
+        },
+        {
+          "type": "heading",
+          "text": "淋巴瘤"
+        },
+        {
+          "type": "table",
+          "headers": ["類型（約佔 HIV 淋巴瘤）", "重點"],
+          "rows": [
+            ["總論", "至少 **6%** 的 AIDS 病人會得（10–20 倍）；**約 90% 為 B 細胞**、一半以上含 EBV；通常 CD4 < 200；**ART 時代減少得不如 KS 多**；> 80% 結外侵犯、多有 **B 症狀**；最常見的結外部位是**中樞神經**"],
+            ["**免疫母細胞性（~60%）**", "多為 **DLBCL**，高惡性度，年紀越大越多；變型：**原發性積液淋巴瘤（PEL）**——只有肋膜、心包膜、腹膜積液而沒有腫塊，**由 HHV-8 驅動**"],
+            ["**Burkitt（~20%）**", "**10–19 歲**最多；**c-myc 轉位**（8 → 14 或 22）；HIV 下發生率高 1,000 倍以上；**只有約 50% EBV 陽性**（非洲型 97%）"],
+            ["**原發性中樞神經淋巴瘤（~20%）**", "**EBV 陽性率接近 100%**；**CD4 中位數約 50**（比全身性淋巴瘤晚，平均 226）；2 年存活 20–30%"],
+            ["全身性淋巴瘤治療", "化療 + **持續 ART**（避免骨髓抑制的 ART）+ CD20 陽性用 rituximab；約 20% 有軟腦膜侵犯 → 分期要做**腰椎穿刺**"],
+            ["多中心型 Castleman 病", "**HHV-8 相關**淋巴增生；全身淋巴結腫大、肝脾腫大、發燒；75–82% 合併 KS；ART 時代反而增加"]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "HPV 相關癌"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "HIV 女性子宮頸抹片異常 **30–60%**（一般約 5%）；**侵襲性子宮頸癌是 AIDS-defining**",
+            "男性肛門抹片異常 20–80%；HIV 感染者子宮頸與肛門癌的相對風險 **10–100 倍**；**ART 對 HPV 病變幾乎沒有影響**",
+            "**篩檢**：初始評估時做婦科 / 肛門檢查與抹片，**6 個月後再做一次**，兩次都正常 → **每年**追蹤；嚴重發炎 → 3 個月複查；有鱗狀上皮內病變 → **陰道鏡切片**",
+            "仍建議施打 **HPV 疫苗**（雖然 HIV 族群中其他型別如 58、53 也很常見）"
+          ]
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "1654-1657"},
+        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "324"}
       ]
     },
     {
-      "title": "CNS 病變的鑑別診斷",
+      "title": "其他器官：皮膚、血液、腎臟、內分泌、心血管、風濕",
       "content": [
-        {"type": "callout", "style": "logic", "text": "**HIV 病人出現 CNS 症狀的系統性思考**：\n\n以影像表現分類："},
-        {"type": "table", "headers": ["影像特徵", "疾病", "CD4", "鑑別要點"], "rows": [
-          ["**Ring-enhancing lesions**\n（多發）", "**Toxoplasma encephalitis**", "< 100", "Toxo IgG (+)\nBasal ganglia\n2 週 empiric Tx 有效"],
-          ["**Ring-enhancing lesion**\n（單發，periventricular）", "**Primary CNS lymphoma**", "< 50", "EBV PCR (+) in CSF\nPET/thallium scan (+)\nPoor response to empiric Toxo Tx"],
-          ["**White matter lesions**\nNo enhancement", "**PML (JC virus)**", "< 100", "Progressive focal deficits\nNo fever\nCSF JC virus PCR (+)"],
-          ["**Diffuse enhancement**\n（meningeal）", "**Cryptococcal meningitis**", "< 100", "Serum/CSF CrAg (+)\nHeadache + ↑ICP"],
-          ["**Diffuse brain atrophy**", "**HIV encephalopathy\n(AIDS dementia complex)**", "< 200", "Subcortical dementia\nPsychomotor slowing\nExclusion diagnosis"],
-          ["**Focal lesion + ring enhancement**", "**Brain abscess (TB, bacterial)**", "Any", "Culture, biopsy"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "**值班遇到 HIV 病人 CNS 症狀的處理**：\n1. 先做 **CT with contrast** 或 **MRI with Gad**\n2. 多發 ring-enhancing + Toxo IgG (+) → **empiric Toxo Tx**\n3. 有 meningeal signs → **LP**（先排除 mass effect）→ CrAg, India ink, Gram stain, AFB, cytology\n4. White matter lesion → CSF **JC virus PCR**\n5. 2 週 empiric Tx 無效 → **brain biopsy**"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1641-1650"}
+        {
+          "type": "table",
+          "headers": ["皮膚（> 90% 病人有皮膚問題）", "重點"],
+          "rows": [
+            ["**脂漏性皮膚炎**", "一般人 3%、HIV **最多 50%**；CD4 越低越嚴重（與 Pityrosporum 有關）"],
+            ["毛囊炎", "約 20%；**嗜酸性膿疱性毛囊炎**：癢的蕁麻疹樣丘疹、IgE 上升"],
+            ["**帶狀疱疹**", "**10–20%**；常是**最早的免疫缺損徵象**；可跨多個皮節，但**不會侵犯內臟**；**復發率約 20%**；valacyclovir / famciclovir / acyclovir（嚴重 IV acyclovir、抗藥用 foscarnet）"],
+            ["**HSV**", "肛周、臀溝高處的**牛肉紅色、極痛**潰瘍，可以沒有水疱 → **肛周不癒合的痛性潰瘍要想到 HSV**；**慢性潰瘍 > 1 個月是 AIDS-defining**"],
+            ["傳染性軟疣", "膚色、中央凹陷；與隱球菌、Talaromyces 相似；ART 後消退"],
+            ["**藥物疹**", "HIV 病人特別多；**sulfa、NNRTI、abacavir**、部分 PI（darunavir 等）可造成 **SJS / TEN**；也容易曬傷"],
+            ["其他", "挪威疥瘡（角化型）、乾癬變嚴重（點狀）；zidovudine → 指甲藍色變色"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["血液", "重點"],
+          "rows": [
+            ["**貧血**（最常見；獨立的不良預後因子）", "**Zidovudine**（**MCV 上升**為特徵）；**dapsone**（**G6PD 缺乏 → 溶血**、**變性血紅素血症**）；**parvovirus B19**（**IVIg 有效**）；B12 偏低（胃酸缺乏、吸收不良）；約 20% Coombs 陽性但真正溶血少"],
+            ["嗜中性球低下", "約一半病人，多為輕度；藥物為主；G-CSF 有效"],
+            ["**血小板低下**", "可以是早期表現；像 **ITP**（抗 gp120 免疫複合體、直接影響巨核細胞）；**ART 最有效**；< 20,000 → IVIg 或 anti-Rh + ART；早期少數為 **TTP**"],
+            ["靜脈血栓", "每年約 1%，約一般人 **10 倍**；**D-dimer** 與全死因死亡率強相關"],
+            ["**持續性全身淋巴結腫大（PGL）**", "≥ 2 個腹股溝以外部位、> 1 cm、> 3 個月；濾泡增生；**不代表較易進展**；CD4 < 200 或有全身症狀、淋巴結變大 / 固定 / 融合才切片"],
+            ["骨髓抑制藥物（Table 208-13）", "**zidovudine、ganciclovir、TMP-SMX、pyrimethamine、flucytosine、dapsone**、IFN-α、foscarnet"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["腎臟與泌尿生殖", "重點"],
+          "rows": [
+            ["**HIVAN**", "**> 90% 為非裔或西班牙裔**；多 CD4 < 200 但也可早期出現、兒童也有；**大量蛋白尿**，**水腫與高血壓少見**；超音波**腎臟變大、回音增強**；切片 **80% 為 FSGS**；治療 **ART** ± ACEI ± prednisone；HIV 病人 **ESRD 的首要原因**"],
+            ["藥物腎毒性", "**TDF**（換 TAF 可改善）、pentamidine、amphotericin、**foscarnet**、cidofovir、adefovir；**indinavir、atazanavir → 腎結石**；**sulfadiazine → 結晶**（水分是預防與治療主軸）"],
+            ["**肌酸酐假性上升**", "**TMP-SMX、cobicistat** 抑制腎小管分泌肌酸酐 → creatinine 上升但 **GFR 沒有真的下降**"],
+            ["**梅毒**", "多數表現典型；最常見為二期的**扁平濕疣**；可有惡性梅毒、腎病症候群、**神經梅毒**（二期梅毒都要考慮腰椎穿刺）；血清學不可靠：**VDRL 偽陽性**（多株 B 細胞活化）或延遲陽轉、FTA 可陰性 → 需要時做暗視野；約 1/3 有 **Jarisch-Herxheimer 反應**"],
+            ["外陰陰道念珠菌", "常見；KOH 看偽菌絲；輕症外用、嚴重 fluconazole"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["內分泌與代謝", "重點"],
+          "rows": [
+            ["低血鈉", "**SIADH**（合併肺或中樞神經疾病）；**腎上腺功能不全**（**合併高血鉀**要想到）"],
+            ["腎上腺", "**CMV**、分枝桿菌、隱球菌、組織胞漿菌、ketoconazole"],
+            ["**高血鉀**", "腎上腺功能不全、HIVAN、**trimethoprim、pentamidine**"],
+            ["低血鉀", "**tenofovir、amphotericin**"],
+            ["**醫源性 Cushing**", "**ritonavir 或 cobicistat**（抑制 CYP3A4）+ **吸入或局部注射類固醇**（如 fluticasone）→ 類固醇半衰期延長、HPA 軸被抑制"],
+            ["甲狀腺", "以**亞臨床甲狀腺低下**最多；ART 後可出現 **Graves（IRIS，9–48 個月）**"],
+            ["其他", "男性性腺低下 20–50%；**脂肪代謝異常與乳酸中毒**見 ART 筆記"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["心血管與風濕", "重點"],
+          "rows": [
+            ["**冠心病**", "最常見的心臟病；HIV 複製與免疫活化本身就是風險（中斷治療組心血管事件較多；CD4 < 500 的風險相當於抽菸）；部分 PI 與 NRTI 增加血脂或 MI 風險"],
+            ["心肌病變", "HIV 相關擴張型心肌病變（晚期，有心肌炎成分）；**可治療的心肌炎多為弓漿蟲** → 晚期 HIV + 心肌病變要做**腦部 MRI**"],
+            ["心包膜積液", "結核、分枝桿菌、隱球菌、淋巴瘤、KS（出血 → 填塞）"],
+            ["**藥物過敏**", "**TMP-SMX 治療 PJP 時高達 65%**，但約 1/3 可繼續用、**過敏性休克極少**、可減敏；**例外：abacavir**——過敏與 **HLA-B5701** 強相關，**再次給藥可致命 → 絕對禁忌**"],
+            ["DILS", "類似 Sjögren（腮腺腫大、乾眼、口乾），但浸潤是 **CD8** 細胞、**沒有 anti-Ro/La**、多為非裔男性（HLA-DR5）"],
+            ["關節", "約 1/3 關節痛；5–10% 反應性關節炎（Reiter、乾癬性）；methotrexate 增加伺機性感染；化膿性關節炎反而少見"],
+            ["骨骼", "**股骨頭 / 肩缺血性壞死**；骨質疏鬆，ART 前 2 年骨密度下降 2–6%，**tenofovir（TDF）**尤其明顯"],
+            ["自體抗體", "多株 B 細胞活化 → 抗磷脂抗體、**VDRL 偽陽性**、ANA；但 SLE、RA 並沒有增加（甚至減輕）"]
+          ]
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "1641、1644-1649"}
       ]
     },
     {
-      "title": "Non-AIDS Complications（非 AIDS 相關併發症）",
+      "title": "IRIS：開始 ART 後反而變嚴重",
       "content": [
-        {"type": "callout", "style": "logic", "text": "ART 時代，HIV 病人壽命接近正常 → 但出現新的長期併發症。\n目前 AIDS-related illnesses 只佔 HIV 死亡的 ~25%。"},
-        {"type": "table", "headers": ["併發症", "機轉", "臨床重要性"], "rows": [
-          ["**Cardiovascular disease**", "Chronic inflammation + ART 副作用（dyslipidemia）\nHIV 本身是 CVD independent risk factor", "MI 風險增加 1.5-2 倍\n積極管理 CV risk factors"],
-          ["**Non-AIDS cancers**", "Chronic immune activation + co-infections\nLung, liver, anal, Hodgkin lymphoma", "目前佔 HIV 死因 ~25%\n比一般人早發"],
-          ["**Renal disease**", "HIV-associated nephropathy (HIVAN)\nTDF-related nephrotoxicity", "HIVAN：collapsing FSGS\n好發 African descent"],
-          ["**Hepatic disease**", "HBV/HCV co-infection\nART hepatotoxicity\nNAFLD/NASH", "HCV co-infection 需同時治療"],
-          ["**Bone disease**", "Osteopenia/osteoporosis\nAvascular necrosis", "TDF 與骨密度下降相關\nDEXA screening"],
-          ["**Neurocognitive**", "HIV-associated neurocognitive disorder (HAND)\n即使 ART 有效仍可能存在", "從 subtle cognitive impairment 到 dementia\n影響 medication adherence"],
-          ["**Metabolic**", "Lipodystrophy, dyslipidemia, insulin resistance\n與 PI、舊的 NRTI 相關", "身體脂肪重分布\n需監測 metabolic syndrome"]
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1644-1650"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**定義**：開始有效 ART 後，**免疫功能快速恢復**，對原本存在的病原（或抗原）產生過度發炎反應 → 臨床**反常惡化**。機轉類似**第 IV 型過敏反應**。\n- **Paradoxical IRIS**：已知、治療中的感染或腫瘤**反而惡化**\n- **Unmasking IRIS**：原本**沒被診斷**的感染在 ART 後**冒出來**"
+        },
+        {
+          "type": "table",
+          "headers": ["特徵（Table 208-12）", "內容"],
+          "rows": [
+            ["發生率", "**10–30%** 開始 ART 的病人"],
+            ["最高風險", "開始 ART 時 **CD4 < 50**、且**病毒量急速下降**"],
+            ["最常見的背景", "**分枝桿菌（結核、MAC）**與**黴菌（隱球菌）**感染，尤其是**抗結核藥開始後不久就開 ART**"],
+            ["時間", "ART 開始後 **2 週到 2 年**（多為數週到數月）"],
+            ["表現", "局部淋巴結炎、持續發燒、**肺部浸潤惡化**、肝炎、**顱內壓上升**（隱球菌）、**葡萄膜炎**（CMV）、類肉瘤、Graves、KS 首次出現"],
+            ["嚴重度", "病程可很長，**嚴重可致命**"],
+            ["處理", "**繼續 ART 與抗病原治療**；嚴重時加**類固醇**壓制發炎"]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": ["合併伺機性感染時何時開始 ART", "Harrison 建議"],
+          "rows": [
+            ["**大原則**", "診斷後**儘快**開始 ART"],
+            ["**CD4 < 50**", "**越快越好**（好處大於 IRIS 風險）"],
+            ["**結核**，CD4 ≥ 50", "抗結核治療開始後 **2–8 週**再開始 ART"],
+            ["其他伺機性感染，CD4 ≥ 50", "可考慮延後 **2–4 週**，先專心治療伺機性感染"],
+            ["**隱球菌腦膜炎**", "先給 **4–6 週**抗黴菌治療再開始 ART（IRIS 可造成致命的顱內壓上升）"]
+          ]
+        },
+        {"type": "source", "book": "Harrison's 22e", "pages": "1640-1641、1647、1650、1658、1664"}
       ]
     },
     {
-      "title": "Clinical Practice / 臨床案例",
+      "title": "臨床題練習",
       "content": [
-        {"type": "collapsible", "summary": "Case 1：HIV (+)，CD4 = 45，漸進性視力模糊 + floaters", "text": "**最可能診斷：CMV Retinitis**\n\n**分析**：\n- CD4 < 50 → CMV 的危險區間\n- Painless progressive vision loss + floaters → 經典 CMV retinitis\n\n**處理**：\n1. **緊急 ophthalmology consult** → 眼底鏡檢查\n2. 預期看到：perivascular hemorrhage + exudates (\"pizza pie\")\n3. 治療：**Valganciclovir 900 mg PO BID × 3 weeks** → 450 mg BID maintenance\n4. 開始或優化 ART → 目標 CD4 恢復\n5. CMV viral load monitoring\n6. 停 maintenance：CD4 > 100 × 6 months + 眼底穩定\n\n**注意**：CMV retinitis 未治療 → 數週內完全失明"},
-        {"type": "collapsible", "summary": "Case 2：HIV (+)，CD4 = 30，fever + weight loss + diarrhea + 貧血 + ALP↑", "text": "**最可能診斷：Disseminated MAC**\n\n**分析**：\n- CD4 < 50 + 全身性症狀 + anemia + ↑ALP → classic MAC presentation\n- MAC 的 median CD4 at diagnosis = 10/μL\n\n**處理**：\n1. **Blood cultures for AFB** (mycobacterial blood culture)\n2. CBC, LFTs, Blood smear\n3. Consider bone marrow biopsy（如果血液培養 pending 但高度懷疑）\n4. CXR（25% 異常）\n5. 開始治療：**Clarithromycin 500 mg BID + Ethambutol 15 mg/kg/d**\n6. 持續至 ART 有效且 CD4 恢復\n7. 開始 ART（可在 anti-MAC 治療 2 週後開始）"},
-        {"type": "collapsible", "summary": "Case 3：HIV (+)，CD4 = 80，headache + fever + altered mental status + 頸部僵硬", "text": "**最可能診斷：Cryptococcal Meningitis**\n\n**分析**：\n- CD4 < 100 + subacute meningitis → Cryptococcus 高度懷疑\n- 也要考慮 TB meningitis、bacterial meningitis\n\n**處理**：\n1. **CT head first** → 排除 mass effect\n2. **LP** → opening pressure（！）, CSF analysis\n   - CrAg, India ink\n   - Cell count, protein, glucose\n   - Gram stain, AFB, culture, cytology\n3. 同時送 **Serum CrAg**\n4. 如果 CrAg (+)：\n   - **Amphotericin B + Flucytosine × 2 weeks** (induction)\n   - → Fluconazole 400 mg/d × 8 weeks (consolidation)\n   - → Fluconazole 200 mg/d (maintenance)\n5. **ICP management** — 如果 opening pressure > 25 cmH₂O → therapeutic LP\n6. ART：延遲 4-6 週開始（避免 IRIS）"},
-        {"type": "collapsible", "summary": "Case 4：HIV (+)，CD4 = 60，左側肢體無力 + 認知功能下降，無發燒", "text": "**鑑別診斷**：\n- **PML** — progressive focal deficits + no fever → 首先考慮\n- **Toxoplasma** — 但通常有 fever\n- **CNS lymphoma** — 也可能\n\n**處理**：\n1. **Brain MRI with Gad**\n2. 如果看到 **white matter lesions, no enhancement** → PML\n   - CSF JC virus PCR 確認\n   - 治療 = **ART**（唯一有效方式）\n3. 如果看到 **ring-enhancing lesions** → Toxo vs Lymphoma\n   - Check Toxo IgG\n   - Empiric pyrimethamine + sulfadiazine\n   - 2 週後 repeat MRI\n4. 如果看到 **single periventricular enhancing lesion**\n   - CSF EBV PCR\n   - Consider brain biopsy\n   - Think CNS lymphoma"}
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**每題都照這個順序想**：① **CD4 多少？**（> 200 / < 200 / < 100 / < 50）② **哪個器官、什麼型態？**（局部 vs 瀰漫、急性 vs 亞急性）③ **最可能的病原與確診方式** ④ 治療 + **次級預防** + **ART 時機（IRIS）** ⑤ 這位病人還缺哪些**初級預防**？"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：32 歲男性，3 週漸進性喘與乾咳、低燒，吸氣時胸骨後灼痛。口腔有白斑。SpO₂ 88%，PaO₂ 62 mmHg，LDH 上升，X 光兩側淡淡的間質浸潤。從未驗過 HIV。診斷與治療？",
+          "text": "**答：PJP（很可能是未知的 HIV 感染）。**\n- 亞急性、乾咳、低血氧、LDH 上升、**X 光兩側間質浸潤**、**鵝口瘡** → 典型 PJP；約 30% PJP 病人不知道自己感染 HIV\n- 確診：**誘導痰或 BAL** 找病原\n- 治療：**TMP-SMX 21 天**；**PaO₂ < 70 → 加類固醇**\n- 之後：次級預防（TMP-SMX）至 CD4 > 200 持續 ≥ 3 個月；驗 HIV、CD4，**2 週內**開始 ART（CD4 ≥ 50 時可延 2–4 週，< 50 越快越好）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：HIV 病人 CD4 85，Toxoplasma IgG 陽性，目前沒有任何預防。該給哪些初級預防？",
+          "text": "**答：TMP-SMX 1 DS 每日**——一顆同時預防 **PJP**（CD4 < 100 不論病毒量）與**弓漿蟲**（IgG 陽性 + CD4 < 100）。\nMAC 預防只在 **CD4 < 50 且沒有立刻開始 ART** 時才給。最重要的還是**開始 ART**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：HIV 病人 CD4 40，發燒、頭痛、右側偏癱 1 週。MRI 有三個環狀顯影病灶，其中一個有偏心結節。Toxoplasma IgG 陽性。下一步？",
+          "text": "**答：經驗性弓漿蟲治療（sulfadiazine + pyrimethamine + leucovorin），2 週左右追蹤影像。**\n- 多發環狀顯影 + **eccentric target sign** + IgG 陽性 → 弓漿蟲機率高\n- 2–4 週沒改善才做**腦切片**（考慮 PCNSL）\n- 若 IgG 陰性，弓漿蟲機率 < 10% → 可較早切片\n- 治療 ≥ 4–6 週後維持治療，至 CD4 > 200 持續 6 個月"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：HIV 病人 CD4 60，2 個月來慢慢出現右手無力、說話困難、視野缺損，沒有發燒或頭痛。MRI 左頂枕葉多處不顯影的白質病灶，沒有占位效應。診斷、確診方式、治療？",
+          "text": "**答：PML（JC virus）。**\n- 數週到數月漸進、多處缺損、**沒有發燒頭痛**、**不顯影、無占位效應**、頂枕葉白質\n- 確診：**CSF JC virus DNA PCR**（敏感度 76%、特異度近 100%）\n- 治療：**沒有特效藥 → ART**（cidofovir 無明確效果）；開始 ART 後可能出現 IRIS 式惡化"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：HIV 病人 CD4 30，2 週頭痛、發燒、嘔吐、意識變差，沒有局部缺損。腰椎穿刺開放壓 38 cmH₂O，CSF 白血球 8、蛋白輕微上升、糖略低。下一步與治療計畫？",
+          "text": "**答：隱球菌腦膜炎——驗 CSF 隱球菌抗原 / India ink、黴菌血液培養。**\n- 治療：**amphotericin B（或 liposomal）+ flucytosine ≥ 2 週** → fluconazole 800 mg × 8 週 → fluconazole 200 mg 維持\n- **重複腰椎穿刺**降腦壓（First Choice：< 25 cmH₂O）\n- **ART 延到抗黴菌治療 4–6 週後**，避免 IRIS 造成致命顱內壓上升\n- 注意：**CSF 可以接近正常**，開放壓高是重要線索"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：HIV 病人 CD4 25，抱怨右眼視力慢慢變模糊、看到飛蚊，眼睛不痛不紅。眼底可見血管旁出血與白色滲出。診斷與處置？如果同時還有另一位病人雙眼劇痛、紅眼、周邊灰白色病灶快速擴大呢？",
+          "text": "**答：CMV 視網膜炎**——**無痛**、CD4 < 50、**血管周圍出血與滲出**。治療：**口服 valganciclovir**（或 IV ganciclovir / foscarnet）3 週誘導 → 維持至 CD4 > 100 持續 > 6 個月；檢查是否有其他器官 CMV；視力喪失不可逆。\n**第二位：急性視網膜壞死 / PORN（HSV 或 VZV）**——**疼痛**、角膜炎、虹膜炎、進展快 → **立刻 IV ganciclovir 或 acyclovir**。\n**對照：棉絮斑**不影響視力，不需治療。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：HIV 病人 CD4 15，發燒、夜間盜汗、體重減輕 2 個月、腹瀉，貧血、ALP 上升。最可能的診斷與確診方式？",
+          "text": "**答：播散性 MAC。**\n- CD4 < 50（平均 10）、發燒盜汗體重減輕、**貧血、ALP 上升**\n- 確診：**分枝桿菌血液培養**（≥ 85% 菌血症）或骨髓切片\n- 治療：**clarithromycin + ethambutol**（± rifabutin），直到 CD4 > 100 持續 3–6 個月\n- 這位病人若當初 CD4 < 50 時**沒有立刻開始 ART**，就應該給 azithromycin 預防"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：HIV 病人 CD4 120，慢性大量水瀉 2 個月，糞便抗酸染色看到卵囊，且大小比隱孢子蟲大。最適合的治療？",
+          "text": "**答：Isospora belli → TMP-SMX。**\n抗酸性卵囊的兩個病原：**隱孢子蟲**（小，**治療以 ART + 支持療法為主**）vs **Isospora**（大，**TMP-SMX 很好治**，易復發需每週 3 次預防）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：HIV 病人 CD4 180，胸口與手臂多個紫紅色丘疹，最近喘，X 光兩側下葉浸潤合併肋膜積液。最可能的診斷？要和什麼皮膚病鑑別？",
+          "text": "**答：Kaposi sarcoma（含肺部侵犯）。**\n- HHV-8；任何 CD4 都可能；肺部 KS **70% 有肋膜積液**、80% 有皮膚病灶\n- 皮膚鑑別：**桿菌性血管瘤病**（Bartonella，**按壓會變白、會痛、有全身症狀**，doxycycline / erythromycin ≥ 3 個月可治癒）→ 都要**切片**\n- 治療：ART + 內臟侵犯 → liposomal anthracycline 等全身治療"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：HIV 合併肺結核病人，CD4 35，開始抗結核藥 1 週後開始 ART。3 週後發高燒、頸部淋巴結腫大化膿、X 光浸潤變多，但痰液抗酸菌已減少。怎麼回事？如何處理？",
+          "text": "**答：Paradoxical IRIS。**\n- 高風險：**CD4 < 50**、病毒量急速下降、**抗結核藥開始後不久就開 ART**\n- 處理：**不要停 ART 或抗結核藥**；排除抗藥結核與其他感染；嚴重時加**類固醇**\n- 時機觀念：CD4 < 50 本來就應該儘快開 ART（好處大於 IRIS 風險）；CD4 ≥ 50 則可延到抗結核治療 2–8 週後"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：非裔 HIV 病人，大量蛋白尿 5 g/day，血壓正常、沒有水腫，超音波兩側腎臟變大、回音增強。最可能的診斷與病理？",
+          "text": "**答：HIVAN，病理 80% 為 FSGS。**\n特徵：非裔 / 西班牙裔、**大量蛋白尿但水腫與高血壓少見**、**腎臟變大且回音增強**（一般 CKD 腎臟變小）。治療：**ART** ± ACEI ± 類固醇。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：長期服用 ritonavir 加強型 ART 的病人，因氣喘改用高劑量 fluticasone 吸入劑。2 個月後出現滿月臉、水牛肩、高血糖，晨間 cortisol 很低。為什麼？",
+          "text": "**答：醫源性 Cushing 症候群 + HPA 軸抑制。**\n**Ritonavir（或 cobicistat）強力抑制 CYP3A4** → fluticasone 等類固醇代謝變慢、全身濃度上升。吸入或局部注射類固醇也會發生。處理：換成不受 CYP3A4 影響的類固醇或調整 ART；停藥要小心**腎上腺功能不全**。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": ["主題", "關鍵字"],
+          "rows": [
+            ["預防門檻", "**PJP < 200**（或口腔念珠菌、曾得過）、**弓漿蟲 IgG+ 且 < 100**、**MAC < 50 且沒立刻 ART**、**潛伏結核 PPD > 5 mm / IGRA+**"],
+            ["PJP", "CD4 < 200、乾咳、**LDH↑**、X 光正常或間質浸潤；TMP-SMX **21 天**；**PaO₂ < 70 或 A-a > 35 → 類固醇**；pentamidine 吸入 → 上葉空洞"],
+            ["結核", "任何 CD4（中位數 326）；CD4 高 → 上葉空洞、低 → 粟粒 / 肺外；**rifabutin**；CD4 < 50 儘快 ART、≥ 50 延 2–8 週"],
+            ["弓漿蟲", "多發環狀顯影、**偏心標靶徵**；sulfadiazine + pyrimethamine；經驗治療 2–4 週無效再切片"],
+            ["PCNSL", "**EBV**、CD4 ~50、1–3 個、深部、顯影淡、沿室管膜"],
+            ["PML", "**JC virus**、**不顯影、無占位效應**、頂枕葉；CSF JC DNA；只能 ART"],
+            ["隱球菌", "CD4 < 100、**開放壓高**、CSF 可近正常；**AmB + 5-FC ≥ 2 週**；重複 LP；**ART 延 4–6 週**"],
+            ["CMV 視網膜炎", "CD4 < 50、**無痛**、血管旁出血滲出；valganciclovir；**ganciclovir → 骨髓抑制、foscarnet → 腎毒性**"],
+            ["MAC", "CD4 < 50（平均 10）、發燒盜汗、**貧血 + ALP↑**；血液培養；clarithromycin + ethambutol"],
+            ["口腔", "**鵝口瘡（念珠菌，刮片）**、**毛狀白斑（EBV，舌側緣，非癌前）**；CD4 < 300"],
+            ["食道", "念珠菌白斑、**CMV 單一大潰瘍**、**HSV 多個小潰瘍**"],
+            ["抗酸性卵囊", "隱孢子蟲（小，ART）vs **Isospora（大，TMP-SMX）**"],
+            ["KS", "**HHV-8**、任何 CD4、淋巴結侵犯不代表差、肺 KS **70% 肋膜積液**"],
+            ["淋巴瘤", "免疫母細胞 60%（PEL = HHV-8）、Burkitt 20%（EBV 50%）、PCNSL 20%（EBV ~100%）"],
+            ["HIVAN", "非裔、大量蛋白尿、**腎臟大且亮**、FSGS"],
+            ["Creatinine 假性上升", "**TMP-SMX、cobicistat**"],
+            ["IRIS", "10–30%、CD4 < 50、結核 / 隱球菌；繼續治療 ± 類固醇"]
+          ]
+        }
       ]
     }
-  ],
-  "related": ["hiv-fundamentals-diagnosis", "hiv-treatment-art"]
+  ]
 }
