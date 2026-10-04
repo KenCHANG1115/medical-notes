@@ -46,6 +46,27 @@
           "explain": "**【怎麼看】**左：下視丘 **TRH** → 腦下垂體 **TSH** → 甲狀腺製造 **T4、T3**；T4、T3 回頭**抑制** TRH 與 TSH（負回饋）。右：濾泡細胞的合成步驟——**NIS** 把碘從血中抓進細胞 → 在頂端由 **TPO** 把碘接到**甲狀腺球蛋白（Tg）**的酪胺酸上（**有機化**），再把 MIT、DIT **偶合**成 T4、T3 → TSH 經 cAMP 刺激細胞把 Tg 收回、分解，釋出 T4、T3。\n**【考點】****抗甲狀腺藥（methimazole、PTU）抑制的是 TPO**（有機化與偶合）；放射碘靠 **NIS** 被甲狀腺專一吸收；回饋迴路是「**TSH 對甲狀腺素非常敏感**」的基礎 → TSH 是原發性甲狀腺疾病最敏感的指標。"
         },
         {
+          "type": "heading",
+          "text": "合成路徑的每一步 → 對應的臨床考點"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "步驟／元件",
+            "臨床連結"
+          ],
+          "rows": [
+            ["**負回饋**", "TSH 對甲狀腺素變化非常敏感 → **TSH 是原發性甲狀腺疾病最好的篩檢指標**"],
+            ["**NIS**（Na⁺/I⁻ symporter）", "放射碘（¹³¹I）與碘掃描靠 NIS 被甲狀腺專一吸收；分化良好的甲狀腺癌保有 NIS → 放射碘治療有效"],
+            ["**TPO**（thyroid peroxidase）", "**Methimazole、PTU 抑制 TPO**（阻斷有機化與偶合）；橋本氏甲狀腺炎的抗 TPO 抗體也是針對這個酶"],
+            ["**Deiodinase**（T4 → T3）", "**PTU 另外抑制周邊 T4→T3** → 甲狀腺風暴選它；amiodarone、類固醇、propranolol 也會減少轉換"],
+            ["**TSH-R**（TSH receptor）", "**Graves 病**：自體抗體（TRAb）冒充 TSH 刺激 TSH-R"],
+            ["**碘過量**", "**Wolff-Chaikoff 效應**：大量碘暫時抑制有機化 → 甲狀腺風暴要先給抗甲狀腺藥，之後才給碘"],
+            ["**Pendrin**（頂端碘轉運）", "突變 → **Pendred syndrome**（有機化缺陷＋先天性耳聾）"],
+            ["**Tg**（thyroglobulin）", "甲狀腺全切＋放射碘後正常應測不到；**Tg 又升高 = 復發**（分化型甲狀腺癌的腫瘤標記）"]
+          ]
+        },
+        {
           "type": "table",
           "headers": [
             "T4 vs T3（Table 394-1）",
