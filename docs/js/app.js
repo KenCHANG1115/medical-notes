@@ -62,39 +62,55 @@
   }
 
   // ── Sidebar & Welcome ──
+  // Top-level categories in the sidebar and welcome page; each maps to a list of groups in index.json.
+  const CATEGORIES = [
+    { key: 'specialties', title: '疾病筆記', prefix: '' },
+    { key: 'physicalExam', title: '理學檢查', prefix: 'pe-' },
+  ];
+
   function buildSidebar() {
     const nav = document.getElementById('navContent');
-    if (!notesIndex.specialties.length) {
-      nav.innerHTML = '<p style="padding:1.25rem;color:var(--text-muted);font-size:0.85rem;">No notes yet.</p>';
-      return;
-    }
     let html = '';
-    for (const spec of notesIndex.specialties) {
-      const specId = slugify(spec.name);
-      html += '<div class="nav-section">';
-      html += `<div class="nav-specialty" data-spec="${specId}" onclick="toggleSpec(this)">`;
-      html += `<span class="arrow">&#9654;</span>${spec.name} (${spec.diseases.length})`;
-      html += '</div>';
-      html += `<div class="nav-diseases" id="diseases-${specId}">`;
-      for (const d of spec.diseases)
-        html += `<a class="nav-disease" data-id="${d.id}" onclick="loadNote('${d.id}')">${d.name}</a>`;
-      html += '</div></div>';
+    for (const cat of CATEGORIES) {
+      const groups = notesIndex[cat.key] || [];
+      html += `<div class="nav-category">${cat.title}</div>`;
+      if (!groups.length) {
+        html += '<p class="nav-empty">尚無筆記</p>';
+        continue;
+      }
+      for (const spec of groups) {
+        const specId = cat.prefix + slugify(spec.name);
+        html += '<div class="nav-section">';
+        html += `<div class="nav-specialty" data-spec="${specId}" onclick="toggleSpec(this)">`;
+        html += `<span class="arrow">&#9654;</span>${spec.name} (${spec.diseases.length})`;
+        html += '</div>';
+        html += `<div class="nav-diseases" id="diseases-${specId}">`;
+        for (const d of spec.diseases)
+          html += `<a class="nav-disease" data-id="${d.id}" onclick="loadNote('${d.id}')">${d.name}</a>`;
+        html += '</div></div>';
+      }
     }
     nav.innerHTML = html;
   }
 
   function buildWelcome() {
-    const grid = document.getElementById('specialtyGrid');
-    if (!notesIndex.specialties.length) {
-      grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:2rem;"><p style="color:var(--text-muted);">No notes yet.</p></div>';
-      return;
-    }
+    const wrap = document.getElementById('specialtyGrid');
     let html = '';
-    for (const spec of notesIndex.specialties) {
-      html += `<div class="specialty-card" onclick="expandSpecialty('${slugify(spec.name)}')">`;
-      html += `<h3>${spec.name}</h3><span class="count">${spec.diseases.length} topics</span></div>`;
+    for (const cat of CATEGORIES) {
+      const groups = notesIndex[cat.key] || [];
+      html += `<h2 class="welcome-category">${cat.title}</h2>`;
+      if (!groups.length) {
+        html += '<p class="welcome-empty">尚無筆記</p>';
+        continue;
+      }
+      html += '<div class="specialty-grid">';
+      for (const spec of groups) {
+        html += `<div class="specialty-card" onclick="expandSpecialty('${cat.prefix + slugify(spec.name)}')">`;
+        html += `<h3>${spec.name}</h3><span class="count">${spec.diseases.length} topics</span></div>`;
+      }
+      html += '</div>';
     }
-    grid.innerHTML = html;
+    wrap.innerHTML = html;
   }
 
   function setupRouting() {
