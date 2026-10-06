@@ -1,235 +1,713 @@
 {
   "id": "ecg-arrhythmias",
-  "title": "ECG & Arrhythmias (心電圖與心律不整)",
-  "title_en": "ECG & Arrhythmias",
-  "title_zh": "心電圖與心律不整",
+  "title": "ECG (一)：心電圖判讀基礎",
+  "title_en": "Electrocardiography: Systematic Interpretation",
+  "title_zh": "心電圖（一）：判讀基礎",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.247 Electrocardiography (p.1911-1918)",
-    "Harrison's 22e - Ch.251-252 Bradyarrhythmias (p.1942-1947)",
-    "Harrison's 22e - Ch.258 Atrial Fibrillation (p.1990-1996)",
-    "First Choice 醫學(三) - 丁、心電圖判讀、心律不整 (p.116-124)"
+    "Harrison's 22e - Ch.247 Electrocardiography (p.1911-1919)；Ch.250 Principles of Clinical Cardiac Electrophysiology (p.1953-1954)；Ch.286 右心室梗塞 (p.2166)",
+    "First Choice 醫學(三) 第1冊 - 丁、心電圖判讀 A、B (p.117-128)；ACS 章缺血定位 (p.68-69)；考題 (p.118、128-132、179、188)"
   ],
-  "generated": "2026-09-10",
-  "sections": [
+  "generated": "2026-10-07",
+  "related": [
     {
-      "title": "Overview / Epidemiology",
-      "content": [
-        "心電圖 (ECG/EKG) 是記錄心臟電氣活動的非侵入性檢查，可偵測 arrhythmias、conduction disturbances、myocardial ischemia/infarction、電解質異常及藥物毒性。",
-        {"type": "callout", "style": "guideline", "text": "ECG 判讀六步口訣 (First Choice)：\n**RAte → RHythm → Interval → Axis → Hypertrophy → Infarct**\nRate 評估速率，Rhythm 評估節律來源，Interval/Axis 評估傳導阻滯，Hypertrophy 評估心肌肥大，Infarct 評估心肌缺血"},
-        "心律不整是常見的心血管疾病。**Atrial fibrillation (AF)** 是最常見的持續性心律不整，盛行率隨年齡增加，>60 歲佔 >95%，>80 歲約 20%。40 歲男性終生風險約 25%。",
-        {"type": "callout", "style": "logic", "text": "AF 的重要性：\n- 死亡風險增加 1.5-1.9 倍\n- 約 25% 的中風由 AF 引起\n- 可導致 tachycardia-induced cardiomyopathy\n- 增加 dementia 風險"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1911, 1990-1991"}
-      ]
+      "id": "ecg-bradyarrhythmias",
+      "name": "ECG (二)：緩脈與傳導阻滯"
     },
     {
-      "title": "Etiology / Risk Factors",
-      "content": [
-        {"type": "heading", "text": "心律不整的常見原因"},
-        {"type": "list", "ordered": false, "items": [
-          "**結構性心臟病**：HF、cardiomyopathy、valvular disease (尤其 mitral stenosis)、CHD",
-          "**電解質異常**：低血鉀、低血鎂 → QT prolongation → Torsades de Pointes (TdP)；高血鉀 → peaked T wave → widened QRS → VF",
-          "**代謝/內分泌**：Hyperthyroidism (AF)、hypothyroidism (bradycardia)",
-          "**藥物**：Digoxin toxicity、antiarrhythmics (proarrhythmic effect)、QT-prolonging drugs",
-          "**其他**：acute alcohol (holiday heart)、MI、PE、pericarditis、cardiac surgery (術後 AF 高達 50%)"
-        ]},
-        {"type": "heading", "text": "AF 的危險因子"},
-        {"type": "list", "ordered": false, "items": [
-          "高齡 (最重要因子)、高血壓、糖尿病",
-          "心臟疾病（HF、CAD、valvular disease）",
-          "肥胖、sleep-disordered breathing",
-          "家族史、酒精使用",
-          "甲狀腺疾病"
-        ]},
-        {"type": "callout", "style": "trap", "text": "Holiday heart syndrome：急性酒精中毒誘發的 AF，常見於節假日後的年輕患者，通常可自行恢復"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1990-1991"}
-      ]
+      "id": "ecg-svt-af",
+      "name": "ECG (三)：上心室性心搏過速與心房顫動"
     },
     {
-      "title": "Pathophysiology",
-      "content": [
-        {"type": "heading", "text": "心肌細胞電生理"},
-        "心肌動作電位分為五個 phase：",
-        {"type": "table", "headers": ["Phase", "離子流", "說明"], "rows": [
-          ["Phase 4 (靜止期)", "K+ 濃度差維持", "靜止膜電位 -90 mV，由 Na+/K+ ATPase (3Na出2K入) 及 Ik1 通道維持"],
-          ["Phase 0 (去極化)", "Na+ 快速流入", "膜電位達閾值 -60 mV，Na+ 正電流入使電位急速上升"],
-          ["Phase 1 (早期復極)", "K+ (Ito) 短暫外流", "去極化活化的 Ito 通道打開，電位稍下降"],
-          ["Phase 2 (高原期)", "Ca2+ 流入 = K+ 外流", "L-type Ca2+ 通道開放，形成 plateau，對應 ECG 的 ST segment"],
-          ["Phase 3 (復極化)", "K+ 持續外流", "鉀離子通道持續開放，電位回到休息狀態，對應 T wave"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "SA node vs 心室細胞的關鍵差異：\n- SA node 靜止電位較高 (-55~-65 mV vs -85~-90 mV)\n- SA node Phase 0 由 **L-type Ca2+ 通道** 驅動（較慢），非 Na+ 快速通道\n- SA node 有 Phase 4 自動去極化 (pacemaker potential)：If (funny current) 使細胞緩慢自動去極化\n- SA node 無明顯 Phase 2 平台期"},
-        {"type": "heading", "text": "AF 的病理生理"},
-        "AF 的發生為多因子過程：Pulmonary vein musculature 的 enhanced automaticity → ectopic beats → 引發 AF。後續 atrial remodeling（電氣、收縮、結構重塑）→ refactory period 縮短 → 維持 AF。",
-        {"type": "callout", "style": "logic", "text": "**AF begets AF**：AF 造成 atrial remodeling → refractory period 縮短 → 更容易維持 AF → 進一步 remodeling，形成惡性循環。Paroxysmal → Persistent → Long-standing persistent"},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "116-118"}
-      ]
+      "id": "ecg-ventricular",
+      "name": "ECG (四)：心室性心律不整與猝死"
     },
     {
-      "title": "Pathology",
-      "content": [
-        {"type": "heading", "text": "心臟傳導系統"},
-        {"type": "list", "ordered": true, "items": [
-          "**SA node** (竇房結)：位於 right atrium 上方，正常 pacemaker (60-100 bpm)",
-          "**AV node** (房室結)：位於 interatrial septum 下方，PR interval 的主要延遲處",
-          "**Bundle of His** → **Right bundle branch** + **Left bundle branch** (分為 left anterior fascicle + left posterior fascicle)",
-          "**Purkinje fibers**：快速傳導至心室心內膜"
-        ]},
-        {"type": "heading", "text": "ECG 基本波形"},
-        {"type": "table", "headers": ["波形/間期", "代表意義", "正常值"], "rows": [
-          ["P wave", "心房去極化", "< 120 ms, < 2.5 mm (II)"],
-          ["PR interval", "心房 → 心室傳導時間（含 AV node delay）", "120-200 ms (3-5 小格)"],
-          ["QRS complex", "心室去極化", "< 120 ms (< 3 小格)"],
-          ["ST segment", "心室高原期（Phase 2）", "等電位線"],
-          ["T wave", "心室復極化（Phase 3）", "與 QRS 主波方向一致"],
-          ["QT interval", "心室去極化 + 復極化總時間", "QTc < 450 ms (男), < 460 ms (女)"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "計算心率 (若節律規則)：\n**HR = 300 ÷ RR interval 大格數** 或 **1500 ÷ RR interval 小格數**\n記錄速度 25 mm/s：1 小格 = 40 ms，1 大格 = 200 ms"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1911-1914"}
-      ]
+      "id": "electrolyte-disorders",
+      "name": "Electrolyte Disorders (離子平衡異常)"
     },
     {
-      "title": "Clinical Presentation",
-      "content": [
-        {"type": "heading", "text": "Tachyarrhythmias (> 100 bpm) 的鑑別"},
-        {"type": "callout", "style": "guideline", "text": "以 **QRS 寬窄** + **規則性** 四象限分類：\n\n**窄 QRS + 規則**：Sinus tachycardia、Atrial flutter、AVNRT、AVRT (orthodromic)、Junctional tachycardia\n**窄 QRS + 不規則**：AF、Atrial flutter with variable block、MAT\n**寬 QRS + 規則**：VT、SVT + BBB、SVT + accessory pathway (antidromic AVRT)\n**寬 QRS + 不規則**：VF、Polymorphic VT (TdP)、AF + BBB、AF + accessory pathway"},
-        {"type": "callout", "style": "trap", "text": "寬 QRS tachycardia 的原則：**先當 VT 處理**，直到證實不是！\nSVT with aberrancy 較少見。若不確定，給 IV adenosine 不安全（若為 AF + WPW，可能致命）"},
-        {"type": "heading", "text": "Bradyarrhythmias (< 60 bpm)"},
-        {"type": "list", "ordered": false, "items": [
-          "**Sinus bradycardia**：可為生理性（運動員）或病理性",
-          "**AV block**：依嚴重度分為 1st, 2nd (Type I/II), 3rd degree",
-          "**Sick sinus syndrome**：交替出現 bradycardia 和 tachycardia (Brady-tachy syndrome)"
-        ]},
-        {"type": "heading", "text": "AF 的臨床表現"},
-        {"type": "list", "ordered": false, "items": [
-          "**Palpitations**：不規則心跳感，部分患者無症狀",
-          "**Exercise intolerance, fatigue, dyspnea**：喪失 atrial kick (15-25% of CO)",
-          "**Presyncope / syncope**：過快或過慢心率",
-          "**Stroke / TIA**：LA appendage thrombus 栓塞",
-          "**Heart failure**：長期快速心率 → tachycardia-induced cardiomyopathy"
-        ]},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "119-122"}
-      ]
-    },
-    {
-      "title": "Diagnosis",
-      "content": [
-        {"type": "heading", "text": "ECG 判讀系統方法"},
-        {"type": "callout", "style": "guideline", "text": "1. **Rate**：300/大格 或 1500/小格\n2. **Rhythm**：P wave present? Regular? P:QRS ratio?\n3. **Intervals**：PR (120-200ms)、QRS (<120ms)、QT/QTc\n4. **Axis**：Lead I (+) + aVF (+) = 正常軸 (0° ~ +90°)\n5. **Hypertrophy**：LVH (Sokolow-Lyon: SV1+RV5/V6 ≥ 35mm)、RVH (R>S in V1)\n6. **Ischemia/Infarct**：ST elevation/depression、Q waves、T wave changes"},
-        {"type": "heading", "text": "AV Block 的診斷"},
-        {"type": "table", "headers": ["Type", "ECG 特徵", "臨床意義"], "rows": [
-          ["1st degree", "PR > 200 ms，每個 P 都傳導", "通常良性，不需治療"],
-          ["2nd degree Type I (Wenckebach)", "PR 逐漸延長 → dropped QRS", "通常良性 (AV node level)"],
-          ["2nd degree Type II (Mobitz II)", "PR 固定，QRS 突然消失", "危險！Infra-nodal block → 可能進展至 3rd degree"],
-          ["3rd degree (Complete)", "P 與 QRS 各跳各的 (AV dissociation)", "需 pacemaker"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "Type I vs Type II 2nd degree AV block：\n- Type I (Wenckebach)：PR **漸行漸遠** (progressive prolongation)，QRS 通常窄\n- Type II (Mobitz II)：PR **固定**，QRS 突然 drop，QRS 通常寬 → 需 pacemaker"},
-        {"type": "heading", "text": "Bundle Branch Block (BBB)"},
-        {"type": "table", "headers": ["Type", "V1 特徵", "記憶法"], "rows": [
-          ["LBBB", "深 V 形 (rS or QS)", "**L**eft → Lead V1 像 **V** 字"],
-          ["RBBB", "兔耳朵 (rsR')", "**R**ight → **R**abbit ears"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "BBB 定義：QRS ≥ 120 ms (3 小格)\n若 QRS 寬但無典型 LBBB/RBBB pattern → **IVCD** (Interventricular conduction delay)"},
-        {"type": "heading", "text": "AF 的臨床分類"},
-        {"type": "table", "headers": ["類型", "定義", "LA 大小", "治療反應"], "rows": [
-          ["Paroxysmal AF", "< 7 天自行或治療後終止", "正常~輕度增大", "AAD 通常有效"],
-          ["Persistent AF", "> 7 天 ~ < 1 年", "輕~重度增大", "AAD 效果次之"],
-          ["Long-standing persistent AF", "> 1 年", "通常重度增大", "AAD 通常無效"]
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1912-1918, 1990-1991"}
-      ]
-    },
-    {
-      "title": "Treatment",
-      "content": [
-        {"type": "heading", "text": "Tachyarrhythmia 的急性處理"},
-        {"type": "callout", "style": "guideline", "text": "不穩定的 tachyarrhythmia (hemodynamic compromise)：**立即 synchronized cardioversion**\n穩定的 narrow QRS tachycardia：**Vagal maneuver → IV Adenosine → Rate control agents**\n穩定的 wide QRS (assume VT)：**IV Amiodarone**\nVF / Pulseless VT：**Immediate defibrillation (unsynchronized)**"},
-        {"type": "heading", "text": "AF 治療三大目標"},
-        {"type": "list", "ordered": true, "items": [
-          "**Rate control 和/或 Rhythm control**",
-          "**Stroke prevention (抗凝血)**",
-          "**修正可改變的危險因子**"
-        ]},
-        {"type": "heading", "text": "AF Rate Control"},
-        {"type": "table", "headers": ["藥物", "機轉", "注意事項"], "rows": [
-          ["Beta-blockers (metoprolol, esmolol)", "阻斷 AV node 傳導", "First-line；HF with reduced EF 可用"],
-          ["Non-DHP CCB (Diltiazem, Verapamil)", "阻斷 AV node Ca2+ channel", "不可用於 HFrEF (negative inotropic)"],
-          ["Digoxin", "增加 vagal tone → 減慢 AV conduction", "Narrow therapeutic window；近期研究顯示增加死亡率"],
-          ["Amiodarone", "Multi-channel blocker", "用於其他藥物無效或嚴重 HF"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "Rate control 目標：\n- 休息心率 < 80 bpm，輕度運動 < 100 bpm\n- Lenient strategy (< 110 bpm at rest) 也可接受，效果與嚴格控制相當"},
-        {"type": "heading", "text": "AF Rhythm Control"},
-        {"type": "callout", "style": "logic", "text": "Early rhythm control (確診 1 年內) 相較 rate control 可減少心血管事件和死亡。\nCatheter ablation 可作為 first-line therapy，尤其 paroxysmal AF。\n即使維持 sinus rhythm，仍需根據 CHA2DS2-VASc 評分決定是否抗凝"},
-        {"type": "collapsible", "summary": "Antiarrhythmic drugs 選擇", "text": "**無結構性心臟病**：Flecainide, Propafenone (Class IC)\n**有 CAD 或結構性心臟病**：Sotalol, Dofetilide (Class III) — 約 3% TdP 風險，需住院監測\n**HF / CAD**：Amiodarone — 最有效 (~2/3 維持 SR)，但 >40% 長期毒性 (肺、肝、甲狀腺、皮膚)\n**Dronedarone**：禁用於 HF 和 long-standing persistent AF (增加死亡率)"},
-        {"type": "heading", "text": "AF Stroke Prevention"},
-        {"type": "callout", "style": "guideline", "text": "**CHA2DS2-VASc Score** (每項 1-2 分)：\nC - CHF (1) | H - Hypertension (1) | A2 - Age ≥75 (2)\nD - DM (1) | S2 - Stroke/TIA history (2)\nV - Vascular disease (1) | A - Age 65-74 (1) | Sc - Sex (female) (1)\n\n→ **Score ≥ 1 (排除單獨女性因子)：建議口服抗凝血劑**"},
-        {"type": "table", "headers": ["DOAC", "標準劑量", "減量劑量", "減量條件"], "rows": [
-          ["Dabigatran", "150 mg bid", "110 mg bid", "≥80 歲、併用 verapamil、出血高風險"],
-          ["Rivaroxaban", "20 mg qd", "15 mg qd", "CrCl 15-49 mL/min"],
-          ["Apixaban", "5 mg bid", "2.5 mg bid", "≥80歲 + 體重≤60kg + Cr≥1.5 (至少符合2項)"],
-          ["Edoxaban", "60 mg qd", "30 mg qd", "CrCl 30-50、體重≤60kg、或併用特定藥物"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "Warfarin 仍為必要的情況：\n1. Mechanical heart valve → **只能用 warfarin** (DOAC 禁忌！dabigatran RE-ALIGN trial 早期終止)\n2. Rheumatic mitral stenosis\nDOAC 整體優於 warfarin：較少 intracranial hemorrhage，不需常規 INR 監測"},
-        {"type": "heading", "text": "Cardioversion 注意事項"},
-        {"type": "callout", "style": "guideline", "text": "AF > 48 小時或持續時間不明 → cardioversion 前需：\n- 持續抗凝 ≥ 3 週 → cardioversion → 續抗凝 ≥ 4 週\n- 或先做 TEE 排除 LA appendage thrombus → cardioversion → 抗凝 ≥ 4 週\n原因：cardioversion 後可能出現 atrial stunning，即使恢復 sinus rhythm 也可能形成 thrombus"},
-        {"type": "heading", "text": "Bradyarrhythmia 的治療"},
-        {"type": "callout", "style": "guideline", "text": "需要 pacemaker 的情況：\n- Symptomatic sinus bradycardia\n- 2nd degree Type II AV block\n- 3rd degree (complete) AV block\n- Sick sinus syndrome with symptoms\n\n1st degree 和 Type I 2nd degree 通常不需治療（除非有症狀）"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1991-1996"}
-      ]
-    },
-    {
-      "title": "Prognosis / Follow-up",
-      "content": [
-        {"type": "list", "ordered": false, "items": [
-          "AF 控制不佳可導致 **tachycardia-induced cardiomyopathy**，通常在 rate control 後**可逆**",
-          "Long-standing persistent AF：LA 擴大 + fibrosis → **stiff left atrial syndrome** (LA filling pressure 升高、HF)",
-          "AF 患者的中風風險持續存在，即使看似 paroxysmal，也常有 asymptomatic episodes",
-          "Catheter ablation 在 HFrEF 患者中顯示 **all-cause mortality benefit**",
-          "Complete AV block 若未置放 pacemaker 可能致命（escape rhythm 不穩定）"
-        ]},
-        {"type": "callout", "style": "logic", "text": "AF 進展規律：\nEctopic beats (PV foci) → Paroxysmal AF → Persistent AF → Long-standing persistent AF\n每個階段伴隨更多 atrial remodeling、fibrosis、LA enlargement，治療效果逐漸下降"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1990-1992"}
-      ]
-    },
-    {
-      "title": "Special Populations",
-      "content": [
-        {"type": "heading", "text": "WPW (Wolff-Parkinson-White) Syndrome"},
-        {"type": "callout", "style": "trap", "text": "WPW + AF 是致命組合！\n- Accessory pathway 可快速傳導 → 極快心室率 → VF\n- **禁用 AV node blockers**：Adenosine、Digoxin、Verapamil、Diltiazem\n- 治療：Procainamide 或 electrical cardioversion\nECG 特徵：短 PR + delta wave + 寬 QRS"},
-        {"type": "heading", "text": "心臟術後 AF"},
-        "心臟手術後 AF 發生率高達 50%，通常在術後 2-4 天出現，多數為自限性。Beta-blockers 可預防。",
-        {"type": "heading", "text": "運動員的心電圖"},
-        {"type": "list", "ordered": false, "items": [
-          "Sinus bradycardia (可低至 30-40 bpm) — 正常，高 vagal tone",
-          "1st degree AV block — 常見，不需治療",
-          "Early repolarization (J-point elevation) — 正常變異",
-          "LVH voltage criteria — 可為生理性 (athlete's heart)"
-        ]},
-        {"type": "heading", "text": "Torsades de Pointes (TdP)"},
-        {"type": "callout", "style": "trap", "text": "QT prolongation → Polymorphic VT with twisting QRS axis\n原因：QT-prolonging drugs、低血鉀、低血鎂、先天性 long QT syndrome\n治療：**IV Magnesium** (first-line)、Isoproterenol、Overdrive pacing\n**禁用一般抗心律不整藥物** (會進一步延長 QT)"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1993-1994"}
-      ]
-    },
-    {
-      "title": "High-Yield Exam Points",
-      "content": [
-        {"type": "callout", "style": "trap", "text": "考試常見陷阱整理：\n1. 寬 QRS tachycardia → **先想 VT**，不要急著給 adenosine\n2. AF + WPW → **禁用 AV node blockers** (adenosine, verapamil, digoxin)\n3. Torsades de Pointes → **IV Mg2+**，不是 amiodarone\n4. Type II 2nd degree AV block → **需 pacemaker**；Type I 通常不需\n5. New LBBB + chest pain → 高度懷疑 **acute MI**，需緊急處理\n6. DOAC 禁用於 mechanical valve 和 rheumatic MS → **只能 warfarin**"},
-        {"type": "callout", "style": "guideline", "text": "ECG 速記：\n- **LBBB** in V1 = 深 V (Like a V)\n- **RBBB** in V1 = 兔耳朵 rsR' (R = Rabbit)\n- **AF** = no P waves + irregularly irregular rhythm\n- **Atrial flutter** = sawtooth pattern (250-300 bpm atrial rate)\n- **VT** = wide QRS + regular + AV dissociation\n- **3rd degree AV block** = P 和 QRS 各跳各的"},
-        {"type": "callout", "style": "logic", "text": "CHA2DS2-VASc 口訣記憶：\n**C**HF + **H**TN + **A**ge≥75(x2) + **D**M + **S**troke(x2) + **V**ascular + **A**ge65-74 + **Sc** (female)\n≥ 1 分 (排除單獨女性) → 口服抗凝血劑"},
-        {"type": "table", "headers": ["心律不整", "首選治療", "禁忌"], "rows": [
-          ["Stable narrow complex SVT", "Vagal → Adenosine", "AF + WPW 不可用"],
-          ["Stable wide complex (assume VT)", "IV Amiodarone", "Adenosine 不安全"],
-          ["Unstable tachycardia", "Synchronized cardioversion", "無絕對禁忌"],
-          ["VF / Pulseless VT", "Defibrillation (unsynchronized)", "無絕對禁忌"],
-          ["Symptomatic bradycardia", "Atropine → Pacing", "-"],
-          ["Torsades de Pointes", "IV Magnesium", "一般 antiarrhythmics"],
-          ["AF rate control", "Beta-blocker / Diltiazem", "Verapamil/Diltiazem in HFrEF"],
-          ["AF stroke prevention", "DOAC (or Warfarin)", "DOAC in mechanical valve"]
-        ]},
-        {"type": "source", "book": "First Choice 醫學(三)", "pages": "116-124"}
-      ]
+      "id": "oncall-potassium-disorders",
+      "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
     }
   ],
-  "related": [
-    {"id": "hypertension", "name": "Hypertension (高血壓)"}
+  "sections": [
+    {
+      "title": "總覽：怎麼系統性地讀一張心電圖",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**心電圖四部曲的讀法**\n- **（一）本篇**：波形、間期、電軸、肥厚、束支阻滯、**缺血與梗塞定位**、**電解質與藥物**——每一張心電圖都會用到。\n- **（二）緩脈與傳導阻滯**：竇房結失能、**一度到三度房室阻滯**、節律器適應症。\n- **（三）上心室性心搏過速與心房顫動**：窄 QRS 心搏過速怎麼判斷、AVNRT、WPW、心房撲動、**心房顫動的抗凝與心率控制**。\n- **（四）心室性心律不整**：PVC、**寬 QRS 心搏過速是不是 VT**、Torsades、Brugada、ICD。\n本系列以 **Harrison 22e Ch.247、250–263** 為主，心電圖全部用 **Harrison 原圖**；First Choice 的口訣與考題穿插其中。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Harrison 建議每張心電圖都要看的 14 項**（多數錯誤是**漏看**，所以要有固定順序）：\n① 校正與技術（導程位置、雜訊）② **節律** ③ **心跳速率** ④ **PR 間期／房室傳導** ⑤ **QRS 寬度** ⑥ **QT / QTc** ⑦ **QRS 電軸** ⑧ **P 波** ⑨ **QRS 電壓** ⑩ **胸導 R 波進展** ⑪ **異常 Q 波** ⑫ **ST 段** ⑬ **T 波** ⑭ **U 波**\n**一定要和舊心電圖比較**；電腦判讀**不能不經醫師確認就接受**。\n**First Choice 口訣「RRIAHI」**：**Ra**te → **Rh**ythm → **I**nterval → **A**xis → **H**ypertrophy → **I**nfarct。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1911、1919"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "119"
+        }
+      ]
+    },
+    {
+      "title": "傳導系統、波形與間期",
+      "content": [
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-2.png",
+          "label": "Harrison's 22e Fig. 247-2",
+          "caption": "心電圖的基本波形與間期",
+          "explain": "**【怎麼看】****P 波** = 心房去極化；**QRS** = 心室去極化；**ST 段、T 波、U 波** = 心室再極化。**J 點**是 QRS 結束、ST 段開始的交界。**PR 間期**從 P 開始到 QRS 開始；**QT 間期**從 QRS 開始到 T 結束。\n**【考點】****心房的再極化（Ta）太小通常看不到**——藏在 QRS 裡，只有在急性心包膜炎、心房梗塞、房室阻滯時偶爾看得到。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "項目",
+            "正常值（Harrison）",
+            "代表什麼"
+          ],
+          "rows": [
+            [
+              "**紙速與格子**",
+              "25 mm/s：**小格 1 mm = 40 ms**、**大格 5 mm = 200 ms**；縱向 **10 mm = 1 mV**",
+              "肥厚的電壓標準以 mm 計"
+            ],
+            [
+              "**心跳速率**",
+              "**300 ÷ RR 間的大格數**，或 **1500 ÷ 小格數**",
+              "竇性心律 60–100；< 60 緩脈、> 100 心搏過速"
+            ],
+            [
+              "**PR 間期**",
+              "**120–200 ms**",
+              "心房到心室的時間，主要是**房室結的生理性延遲**；> 200 ms = 一度房室阻滯；**短 PR（< 120 ms）＋ delta 波 = 預激（WPW）**"
+            ],
+            [
+              "**QRS 寬度**",
+              "**≤ 100–110 ms**",
+              "心室去極化；**≥ 120 ms = 完全束支阻滯**（或心室起源、預激、高血鉀、鈉通道阻斷藥）"
+            ],
+            [
+              "**QTc**",
+              "上限：**女 460 ms、男 450 ms**",
+              "心室去極化＋再極化；QT 隨心跳變慢而變長 → 要校正（QTc）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**QTc 怎麼算**：經典的 **Bazett：QTc = QT / √RR**（秒）在心跳太慢或太快時有系統性誤差；Harrison 提供 **Framingham 公式：QTc = QT + 0.154 ×（1000 − RR）**（毫秒）。\n**快速目測（First Choice）**：**T 波結束點落在 RR 間距的中點右側 → QT 延長**（QT > ½ RR）。\n**動作電位與心電圖的對應**（Harrison）：\n- **Phase 0**（鈉流入，快速上升）↔ **QRS 開始** → **鈉進入變慢（高血鉀、flecainide）→ QRS 變寬**\n- **Phase 2**（鈣流入，高原期）↔ **ST 段**；**Phase 3**（鉀流出，再極化）↔ **T 波**\n- **Phase 2 或 3 拉長（amiodarone、低血鈣）→ QT 延長**；**再極化縮短（高血鈣、digoxin）→ QT 縮短**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "竇房結細胞 vs 心室細胞（Harrison Ch.250、First Choice）",
+            "竇房結、房室結",
+            "心房、心室肌"
+          ],
+          "rows": [
+            [
+              "**休息膜電位**",
+              "**較不負（約 −55 ~ −65 mV）**",
+              "約 **−85 ~ −90 mV**（由 **IK1** 鉀電流維持）"
+            ],
+            [
+              "**Phase 0 上升**",
+              "**慢**，由**鈣電流（ICa-L）**負責（沒有快鈉通道）",
+              "**快**，由**鈉電流（INa）**負責"
+            ],
+            [
+              "**Phase 4**",
+              "**自發性舒張期去極化**（**funny current, If** ＋ T、L 型鈣電流）→ 自動性",
+              "平穩，等待被興奮"
+            ],
+            [
+              "**藥物意義**",
+              "**鈣通道阻斷劑**作用在結；**ivabradine** 阻斷 If",
+              "**鈉通道阻斷劑**作用在心房、心室肌"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考題型**\n- **112 年**：竇房結細胞的特徵是 **Phase 4 舒張期去極化**（不是靜止膜電位較極化、不是 Phase 0 較快、不是 Phase 2 較明顯）。\n- **108 年**：PR 間期**最不可能**代表的是**心室去極化**（PR 包含心房去極化、房室結延遲）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1911-1912、1953-1955"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "117-118、125、130"
+        }
+      ]
+    },
+    {
+      "title": "導程與電軸",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**每個導程像一台從不同角度拍的攝影機**（Harrison）：**去極化朝向導程正極 → 向上波**；朝負極 → 向下波；與導程垂直 → **雙相波**。\n- **6 個肢導**看**額狀面**（上下左右）\n- **6 個胸導**看**水平面**（前後左右）\n- 特殊導程：**右胸導程 V3R–V6R** 找**右心室梗塞**；**V7–V9**（後腋線、肩胛線）找**後側壁梗塞**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-4.png",
+          "label": "Harrison's 22e Fig. 247-4",
+          "caption": "額狀面六軸系統（hexaxial）與電軸分區",
+          "explain": "**【怎麼看】**以 **lead I 正極 = 0°** 為基準，往下為正（**II = +60°、aVF = +90°、III = +120°**），往上為負（**aVL = −30°**）。黃色 = 正常電軸（**−30° 到 +90～+100°**）；綠色 = **左偏（< −30°）**；粉紅 = **右偏（> +90～+100°）**；藍色 = 極度偏移。\n**【考點】**快速判斷（First Choice）：**lead I 與 aVF 都向上 → 正常**；**I 向上、aVF 向下 → 左偏**；**I 向下、aVF 向上 → 右偏**。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-5.png",
+          "label": "Harrison's 22e Fig. 247-5",
+          "caption": "胸導程（水平面）的電極位置",
+          "explain": "**【怎麼看】****V1、V2** 在胸骨兩側第 4 肋間；**V4** 在左鎖骨中線第 5 肋間；V3 在 V2、V4 中間；**V5、V6** 與 V4 同高、在前腋線與腋中線。**V3R、V4R** 是對稱放在右胸的位置。\n**【考點】****下壁梗塞要加做右胸導程（V4R）**看有沒有右心室梗塞。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "電軸左偏（< −30°）",
+            "電軸右偏（> +90～+100°）"
+          ],
+          "rows": [
+            [
+              "**心電圖**",
+              "lead I 向上、aVF 向下",
+              "lead I 向下、aVF 向上"
+            ],
+            [
+              "**原因（Harrison）**",
+              "可為正常變異，但更常見於：**左心室肥厚**、**左前分支阻滯（LAFB）**（成人**明顯左偏最常見原因**）、**下壁心肌梗塞**",
+              "可為正常變異（**兒童、年輕人**）、**左右手電極接反**、**右心室負荷過重**（急性或慢性）、**側壁梗塞**、**右位心**、**左側氣胸**、**左後分支阻滯（LPFB）**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考題型（107 年）**：心軸**左偏**的原因何者錯誤 → **左右手電極接反**（這會造成**右偏**）。正常變異、LVH、下壁梗塞都可能左偏。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1912-1913"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "126、132"
+        }
+      ]
+    },
+    {
+      "title": "正常心電圖：QRS、T 波與 U 波怎麼形成",
+      "content": [
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-7.png",
+          "label": "Harrison's 22e Fig. 247-7",
+          "caption": "健康男性的正常 12 導程心電圖",
+          "explain": "**【怎麼看】**竇性心律、**心跳 75**；**PR 160 ms**、**QRS 80 ms**、**QT 360 ms**（Framingham QTc 約 390 ms）；**電軸約 +70°**。胸導程 **R 波由 V1 往 V6 逐漸變高、S 波逐漸變小**，**V3 是 R ≈ S 的移行區**。\n**【考點】**用這張當「正常的長相」：**II 導程 P 波向上、aVR 向下**（竇性 P 波）；V1 小 r 大 S、V6 小 q 大 R。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "波形",
+            "正常怎麼形成（Harrison）",
+            "異常時"
+          ],
+          "rows": [
+            [
+              "**P 波**",
+              "竇房結 → 右心房 → 左心房，向量**朝下朝左** → **II 向上、aVR 向下**；V1 可雙相（先正＝右房、後小負＝左房）",
+              "**逆行 P 波**（II 向下、aVR 向上）→ 低位心房或房室交界起源"
+            ],
+            [
+              "**QRS（兩階段）**",
+              "① **中隔由左往右**去極化 → **V1 小 r、V6 小 q（septal q）**；② 兩心室同時去極化、**左心室主導** → 向量朝左後 → **V1 大 S、V6 大 R**；**移行區通常 V3 或 V4**",
+              "**R 波進展不良**：前壁梗塞、COPD（橫膈下移）、急性右心擴張"
+            ],
+            [
+              "**T 波**",
+              "再極化方向與去極化相反（**心外膜 → 心內膜**）→ **T 波與 QRS 同方向**（額狀面相差約 45° 內）",
+              "T 與 QRS 反向：束支阻滯（次發性）或缺血、電解質、藥物（原發性）"
+            ],
+            [
+              "**U 波**",
+              "T 波後的小圓波（**≤ 1 mm**），通常與 T 同方向",
+              "**U 波變大：低血鉀**最常見；藥物（dofetilide、amiodarone、sotalol、quinidine）；**很明顯的 U 波 → Torsades 風險**"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1912-1913"
+        }
+      ]
+    },
+    {
+      "title": "心房擴大與心室肥厚",
+      "content": [
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-8.png",
+          "label": "Harrison's 22e Fig. 247-8",
+          "caption": "右心房負荷與左心房異常的 P 波",
+          "explain": "**【怎麼看】**表格兩列是 lead **II** 與 **V1**。**右房（Right）**：II 的 P 波**又高又尖**；V1 前半正向部分變高。**左房（Left）**：II 的 P 波**變寬、有雙峰（notched）**；V1 的 P 波**後半負向部分又寬又深**。\n**【考點】****右房負荷：P 波 ≥ 2.5 mm（舊稱 P-pulmonale）**；**左房異常：P 波 ≥ 120 ms、常有切跡，或 V1 雙相 P 波負向部分寬大（舊稱 P-mitrale）**——左房異常也可能只是心房間傳導延遲，所以改稱「異常」而非「擴大」。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-9.png",
+          "label": "Harrison's 22e Fig. 247-9",
+          "caption": "左、右心室肥厚的 QRS 變化",
+          "explain": "**【怎麼看】****LVH**：向左後的電力增加 → **V1 的 S 很深、V6 的 R 很高**；右邊心臟圖的左心室加厚、向量朝左。**RVH**：向量轉向右 → **V1 出現 R、RS 或 qR**（R 變大），V6 S 波變明顯。\n**【考點】****LVH 在 R 波大的導程常有 ST 下降＋T 倒置（舊稱 strain）**；RVH 在右胸導程 T 倒置。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "心電圖標準（Harrison；First Choice 補充）",
+            "重點"
+          ],
+          "rows": [
+            [
+              "**LVH**",
+              "**SV1 +（RV5 或 RV6）> 35 mm**；肢導：**RaVL + SV3 > 20 mm（女）、> 28 mm（男）**；First Choice 另列 RI + SIII > 35 mm、**RaVL > 11 mm**",
+              "**再極化異常（ST 下降、T 倒置）**；常進展成**左束支阻滯**；**年輕、運動員胸導電壓高常是正常變異**；中老年、肥胖、抽菸、RBBB 時**敏感度更低**；ECG 有 LVH 是**心血管死亡與猝死**的危險指標"
+            ],
+            [
+              "**RVH**（壓力負荷：肺動脈瓣狹窄、肺高壓）",
+              "**V1 的 R ≥ S**（First Choice：或 R > 7 mm），通常合併**電軸右偏**；或 V1 / V3R 呈 qR",
+              "右胸導 **ST 下降、T 倒置**；**ASD（容量負荷）**常見不完全或完全 **RBBB＋電軸右偏**"
+            ],
+            [
+              "**急性肺心症**（肺栓塞、ARDS）",
+              "可以完全正常；**最常見是竇性心搏過速**；電軸右偏、**S1Q3T3**（I 有 S、III 有 Q 與 T 倒置）；V1–V4 ST-T 變化可**模仿前壁梗塞**；右側傳導障礙",
+              "也可能心房顫動或撲動"
+            ],
+            [
+              "**慢性肺心症（COPD）**",
+              "通常**不**出現典型 RVH；反而是**右至中胸導 R 波變小（R 波進展不良）**、**低電壓**（肺過度充氣）",
+              "橫膈與心臟下移"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**心電圖診斷心房或心室擴大的價值有限**（偽陽性、偽陰性都多）→ 解剖與功能要靠**心臟超音波或心臟 MRI**（Harrison）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1913-1914"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "126-128"
+        }
+      ]
+    },
+    {
+      "title": "束支傳導阻滯與分支阻滯",
+      "content": [
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-10.png",
+          "label": "Harrison's 22e Fig. 247-10",
+          "caption": "右束支阻滯（RBBB）與左束支阻滯（LBBB）在 V1、V6 的 QRS-T 型態",
+          "explain": "**【怎麼看】**左欄 V1、右欄 V6。**RBBB**：V1 呈 **rSR′（兔耳朵）**、V6 呈 **qRS 加上寬 S 波**——右心室最後才被激動，終末向量朝**右前**。**LBBB**：V1 呈**寬而深的 QS（深 V）**、V6 呈**寬、單相、粗鈍的 R 波**——連中隔都改成由右往左激動。箭頭標示**次發性 T 波倒置**。\n**【考點】**束支阻滯的 **T 波與 QRS 最後一個波反向（次發性改變）**——這是正常的；但 **LBBB 在右胸導、RBBB 在左胸導出現 T 倒置**，可能代表缺血等其他病變。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "RBBB",
+            "LBBB"
+          ],
+          "rows": [
+            [
+              "**QRS 寬度**",
+              "**完全 ≥ 120 ms**；不完全 110–120 ms",
+              "同左"
+            ],
+            [
+              "**V1**",
+              "**rSR′**（兔耳朵；First Choice：R = Rabbit）",
+              "**寬深 QS**（深 V；First Choice：L = V）"
+            ],
+            [
+              "**V6、I**",
+              "**寬 S 波**",
+              "**寬、單相、粗鈍 R 波**（沒有 septal q）"
+            ],
+            [
+              "**臨床意義**",
+              "**無結構性心臟病的人較常見**；也見於先天（ASD）與後天心臟病；**右胸導 ST 上升＋類 RBBB → 想到 Brugada**",
+              "常是四種疾病的標記：**冠心病（常合併左心室功能差）、高血壓性心臟病、主動脈瓣疾病（含 TAVR 後）、心肌病變**；**心室節律器**也呈 LBBB 型態（前面有 spike）"
+            ],
+            [
+              "**對缺血判讀的影響**",
+              "Q 波與 ST 變化仍大致可判讀",
+              "**會掩蓋缺血與梗塞的變化**；V1、V2 的 ST 上升與高 T 波可以是 LBBB 本身造成；First Choice：**新出現的 LBBB 要懷疑 LAD 病灶**"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "分支阻滯與其他寬 QRS",
+            "重點（Harrison）"
+          ],
+          "rows": [
+            [
+              "**左前分支阻滯（LAFB）**",
+              "QRS 不太變寬，**電軸 < −45°** → 成人**明顯左偏最常見原因**"
+            ],
+            [
+              "**左後分支阻滯（LPFB）**",
+              "**電軸 > +110～120°**；**單獨出現極罕見**，要先排除其他右偏原因"
+            ],
+            [
+              "**非傳導系統本身的 QRS 變寬**",
+              "**高血鉀**、**第 I 類抗心律不整藥**、**三環抗憂鬱劑**、phenothiazine"
+            ],
+            [
+              "**預激（WPW）**",
+              "QRS 變寬但不是傳導延遲，而是副傳導路徑**提早激動**心室（見（三））"
+            ],
+            [
+              "**束支阻滯的時間性**",
+              "可以是慢性、間歇性，或**心率依賴型**（超過某個心跳才出現）"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1914-1915"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "124-125、69"
+        }
+      ]
+    },
+    {
+      "title": "缺血與梗塞：ST 變化、演變與定位",
+      "content": [
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-11.png",
+          "label": "Harrison's 22e Fig. 247-11",
+          "caption": "急性缺血造成的損傷電流",
+          "explain": "**【怎麼看】**缺血區與正常區之間有電位差 → **損傷電流**，ST 向量**指向受傷的那一層**。**A：心內膜下缺血** → ST 向量指向心室腔 → 上方導程（V5）**ST 下降**。**B：透壁或心外膜缺血** → ST 向量朝外 → 上方導程 **ST 上升**。\n**【考點】****ST 上升 = 透壁缺血（可定位）**；**ST 下降 = 心內膜下缺血（無法定位）**，常合併 **aVR ST 上升**。**最早期**可只見又高又尖的**超急性 T 波**。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-13.png",
+          "label": "Harrison's 22e Fig. 247-13",
+          "caption": "前壁（A）與下壁（B）ST 上升／Q 波梗塞的急性與演變期變化",
+          "explain": "**【怎麼看】**每組上排「Acute」、下排「Evolving」。**A 前壁**：急性期 **I、aVL、V2–V6 ST 上升**，II、III、aVF 出現**對應性 ST 下降**；演變期出現 **Q 波、T 波倒置**。**B 下壁**：急性期 **II、III、aVF ST 上升**，I、aVL 對應性下降；演變期 Q 波與 T 倒置。\n**【考點】**典型演變：**ST 上升（數分鐘）→ 數小時到數天內 T 倒置 → Q 波**。下壁或後側壁梗塞可在 **V1–V3 出現對應性 ST 下降**。**梗塞後數週 ST 仍持續上升 → 嚴重室壁運動異常（不一定是室壁瘤）**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "ST 上升的位置（First Choice）",
+            "導程",
+            "負責血管"
+          ],
+          "rows": [
+            [
+              "**中隔**",
+              "**V1、V2**",
+              "**LAD**"
+            ],
+            [
+              "**前壁**",
+              "**V3、V4**",
+              "**LAD**"
+            ],
+            [
+              "**側壁**",
+              "**V5、V6、I、aVL**",
+              "**LCX**（或 LAD 遠端）"
+            ],
+            [
+              "**下壁**",
+              "**II、III、aVF**",
+              "**RCA（較常見）**或 LCX；**III 的 ST 上升 > II → RCA**；**II > III 或側壁也上升 → LCX**"
+            ],
+            [
+              "**後壁**",
+              "**V1–V3 對應性變化**（**ST 下降、R 波變高**）；加做 **V7–V9**",
+              "RCA 或 LCX 的後降支；多合併下壁或側壁"
+            ],
+            [
+              "**右心室**",
+              "**V4R ST 上升**",
+              "**RCA 近端**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**下壁梗塞一律加做右胸導程（V4R）**：Harrison：**約 1/3 下壁梗塞**至少有輕度右心室壞死；**V4R ST 上升在前 24 小時常見**；臨床上頸靜脈怒張、Kussmaul sign、肝腫大 ± 低血壓。First Choice：**右心室梗塞避免 nitrate、morphine 等擴血管藥**（右心室需要前負荷）→ 適當**補液**。\n**後壁梗塞＝「ST 上升等同」**：V1–V3 對應性 ST 下降（Harrison：構成 ST 上升等同的急性冠心症）。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-12.png",
+          "label": "Harrison's 22e Fig. 247-12",
+          "caption": "嚴重前壁缺血的深 T 波倒置（Wellens 徵象）",
+          "explain": "**【怎麼看】****V1–V6 深而對稱的 T 波倒置**（也可在 I、aVL），QRS 沒有明顯 Q 波。\n**【考點】**有缺血性胸痛的病人出現這個型態（不論心肌酵素有沒有升高）→ 通常是 **LAD 高度狹窄**——要盡快處理。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "ST 上升的鑑別（Table 247-1）",
+            "線索"
+          ],
+          "rows": [
+            [
+              "**缺血與梗塞**",
+              "**Prinzmetal 血管痙攣**（暫時、不留 Q 波）、急性梗塞（動脈硬化，或 **takotsubo、冠狀動脈剝離**）、**梗塞後室壁運動異常或室壁瘤**"
+            ],
+            [
+              "**急性心包膜炎**",
+              "（Harrison 其他章：廣泛 ST 上升、PR 下降）"
+            ],
+            [
+              "**正常變異**",
+              "良性**早期再極化**"
+            ],
+            [
+              "**LVH、LBBB**",
+              "常局限在 **V1–V3**"
+            ],
+            [
+              "**其他**",
+              "急性肺栓塞、**Brugada**、**IC 類抗心律不整藥**、電擊後（暫時）、**高血鈣、高血鉀**、**低體溫（J 波 / Osborn 波）**、心肌炎、腫瘤侵犯、心室外傷"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**心電圖診斷缺血的限制（Harrison）**\n- **一張正常心電圖不能排除缺血甚至急性梗塞**；但整個梗塞過程心電圖都正常很少見 → **長時間胸痛但心電圖一直沒變 → 積極找非冠狀動脈原因**。\n- **LBBB、心室節律器、WPW 預激會掩蓋缺血變化**。\n- **偽梗塞型態（過度診斷）**：心包膜炎、心肌炎（含 COVID-19）、早期再極化；**高 T 波**也可見於正常變異、**高血鉀、腦血管病變**；**Q 波**也可見於姿勢變異、心室肥厚、肥厚性心肌病、傳導異常；**ST 下降**也可由心室肥厚、低血鉀、**digoxin** 造成；深 T 倒置也見於心肌病、心肌炎、**takotsubo、顱內出血**。\n- **Q 波 ≠ 透壁**：透壁梗塞可以沒有 Q 波、心內膜下梗塞也可以有 Q 波 → 改稱「**Q 波梗塞 vs 非 Q 波梗塞**」。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考題型（108 年）**：70 歲糖尿病女性半夜胸痛，**下壁導程 ST 上升** → 阻塞血管最可能是 **右冠狀動脈（RCA）**。\n**111 年**：**IC 類抗心律不整藥（flecainide、propafenone）**可能出現 **ST 上升**（強力鈉通道阻斷 → 右胸導 coved 型 ST 上升，類 Brugada）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1915-1917、2166"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "68-69、130、188"
+        }
+      ]
+    },
+    {
+      "title": "電解質、藥物與其他特殊型態",
+      "content": [
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-14.png",
+          "label": "Harrison's 22e Fig. 247-14",
+          "caption": "高血鉀的心電圖演變",
+          "explain": "**【怎麼看】**由左到右越來越嚴重。**輕中度**：V1、V2 的 **T 波變窄變尖（tenting）**。**中重度**：**QRS 變寬、P 波變小**。**非常嚴重**：P 波消失、QRS 與 T 融合成**正弦波（sine-wave）**。\n**【考點】**高血鉀最早的變化是 **T 波尖**；接著房室傳導障礙、P 波變小、QRS 變寬 → **正弦波 → 心搏停止**，必須**緊急治療**（見離子筆記與值班鉀離子筆記）。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-15.png",
+          "label": "Harrison's 22e Fig. 247-15",
+          "caption": "造成 QT 延長或明顯 U 波的各種情況",
+          "explain": "**【怎麼看】**上排：**低血鉀**（V3 明顯 **U 波**）、**低體溫**（V5 箭頭：J 點的**凸起駝峰 = Osborn 波**）、**amiodarone**（T 波寬、QT 長）。下排：**三環抗憂鬱劑過量**（**竇性心搏過速＋QRS 與 QT 都延長**）、**蜘蛛膜下出血**（**深而寬的 T 倒置＋QT 明顯延長**，CVA T 波）。\n**【考點】**明顯的再極化延長（尤其低血鉀、先天離子通道病、藥物）→ **Torsades de pointes** 風險增加。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-16.png",
+          "label": "Harrison's 22e Fig. 247-16",
+          "caption": "低血鈣與高血鈣對 QT 的影響",
+          "explain": "**【怎麼看】**中間正常：QT 360 ms。**低血鈣**：**ST 段拉長**（T 波本身不變）→ **QT 480 ms、QTc 500 ms**。**高血鈣**：**ST 段縮短**，T 波緊接著 QRS → **QT 260 ms**。\n**【考點】****低血鈣延長的是 ST 段**；**高血鈣縮短 QT**；**digoxin 也縮短 QT，並使 ST-T 呈「勺狀（scooping）」**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "情況",
+            "心電圖（Harrison）"
+          ],
+          "rows": [
+            [
+              "**高血鉀**",
+              "T 波尖 → 房室阻滯、P 波變小、QRS 變寬 → 正弦波 → 心搏停止"
+            ],
+            [
+              "**低血鉀**",
+              "再極化延長、**明顯 U 波**"
+            ],
+            [
+              "**低血鈣／高血鈣**",
+              "**QT（ST 段）延長**／**QT 縮短**"
+            ],
+            [
+              "**QT 延長的藥物**",
+              "**IA 類**（quinidine、procainamide）、**III 類**（amiodarone、dofetilide、sotalol、ibutilide）、**三環抗憂鬱劑、phenothiazine**"
+            ],
+            [
+              "**Digoxin**",
+              "QT 縮短、**ST-T 勺狀下降（digitalis effect）**"
+            ],
+            [
+              "**低體溫**",
+              "再極化延長、**J 點凸起（Osborn 波）**、緩脈"
+            ],
+            [
+              "**顱內出血（尤其 SAH）**",
+              "**QT 明顯延長**、深寬 T 倒置（**CVA T 波**）"
+            ],
+            [
+              "**非特異性 ST-T 變化**",
+              "T 波變平、輕微倒置、輕微 ST 下降：電解質、酸鹼、感染、中樞神經、內分泌、藥物、缺血、缺氧，甚至**姿勢、飯後**都會"
+            ],
+            [
+              "**低電壓**",
+              "肢導 QRS **≤ 5 mm** 及／或胸導 **≤ 10 mm**；嚴重原因：**心包膜或肋膜積液、COPD、心臟類澱粉沉積、全身水腫**"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/ecg-arrhythmias/h247-17.png",
+          "label": "Harrison's 22e Fig. 247-17",
+          "caption": "心包膜積液合併心包填塞的典型三聯",
+          "explain": "**【怎麼看】**① **竇性心搏過速**；② **低電壓**（QRS 很小）；③ **電交替（electrical alternans）**：QRS 振幅一大一小交替（V3、V4 箭頭最明顯）。\n**【考點】**這三聯**高度提示心包膜積液、通常有填塞生理**，但**敏感度有限**。**單純再極化（ST-T 或 U 波）交替**則是電不穩定的徵象，可能預告致命性心室心律不整。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考題型**\n- **109 年**：最**不可能**造成 QT 延長 → **甲狀腺亢進**（SAH、低血鈣、amiodarone 都會）。First Choice 補充：顱內壓升高（尤其 SAH）的經典心電圖 = **巨大 T 倒置（cerebral T waves）、QT 延長、緩脈**。\n- **108 年**：82 歲高血壓、慢性腎病，疲倦無力，心電圖 T 波高尖 → **高血鉀**。\n- First Choice：造成 QT 延長的因素——**IA、IC、III 類抗心律不整藥**、**phenothiazine、三環抗憂鬱劑**、**低血鈣、低血鉀、低血鎂**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1917-1919"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "126、131-132、179"
+        }
+      ]
+    },
+    {
+      "title": "臨床題練習",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**每張心電圖都照這個順序**：速率 → 節律（P 波在哪、和 QRS 的關係）→ PR、QRS、QT → 電軸 → P 波與 QRS 電壓（擴大、肥厚）→ R 波進展、Q 波 → ST → T → U；最後**和舊心電圖比較**、**結合臨床**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：65 歲男性胸痛 1 小時，II、III、aVF ST 上升，I、aVL ST 下降，III 的上升比 II 大，血壓 85/50、頸靜脈怒張、肺部乾淨。下一步？",
+          "text": "**答：下壁 STEMI，懷疑 RCA 近端阻塞合併右心室梗塞 → 立刻加做 V4R。**\n- **III > II** 的 ST 上升 → RCA（II > III 或側壁也上升 → LCX）\n- 低血壓＋**頸靜脈怒張＋肺部乾淨** → 右心室梗塞的典型表現\n- **V4R ST 上升**（前 24 小時常見）可佐證\n- 處理：**避免 nitrate、morphine**，**補液**維持右心室前負荷；緊急再灌流"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：72 歲 CKD 第 4 期，用 spironolactone 與 ACEI，全身無力。心電圖 T 波又高又尖、QRS 略寬、P 波變小。下一步？",
+          "text": "**答：嚴重高血鉀（已有 QRS 變寬、P 波變小）→ 立即處理，不要等血液報告。**\n- 演變：T 尖 → 房室阻滯、P 變小、QRS 變寬 → 正弦波 → 心搏停止\n- 先**鈣劑穩定心肌**、再把鉀推進細胞、再排出（詳見離子筆記與值班鉀離子筆記）\n- 停 spironolactone、ACEI"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：35 歲女性門診心電圖：V1 rSR′、QRS 130 ms、V6 寬 S 波，無症狀，心臟超音波右心室擴大、心房中隔有缺損。怎麼解釋？",
+          "text": "**答：完全右束支阻滯，與心房中隔缺損（ASD）的右心室容量負荷有關。**\n- RBBB：**V1 rSR′、V6/I 寬 S、QRS ≥ 120 ms**\n- Harrison：**ASD（secundum）常合併不完全或完全 RBBB＋電軸右偏**\n- 無結構性心臟病的人 RBBB 比 LBBB 常見；但這位有 ASD → 轉介處理缺損"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：58 歲男性反覆胸痛，現在不痛，心電圖 V1–V4 深而對稱的 T 波倒置，心肌酵素正常。怎麼辦？",
+          "text": "**答：Wellens 型態——懷疑 LAD 高度狹窄，需盡快冠狀動脈檢查。**\n- Harrison Fig. 247-12：缺血性胸痛＋前胸導深 T 倒置（不論酵素）→ 通常 **LAD 嚴重狹窄**\n- 不要因為現在不痛、酵素正常就讓病人回家"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：40 歲女性突然劇烈頭痛後昏迷，心電圖廣泛深而寬的 T 倒置、QTc 560 ms、心跳 52。最可能？",
+          "text": "**答：蜘蛛膜下出血（SAH）的「CVA T 波」。**\n- Harrison：顱內出血（尤其 SAH）→ **QT 明顯延長＋深寬 T 倒置**\n- First Choice：顱內壓上升經典變化 = **cerebral T waves、QT 延長、緩脈**\n- 別誤判成前壁缺血；QT 長 → 注意 Torsades 風險，避免再用延長 QT 的藥"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：病人心跳 120、低電壓、QRS 振幅一大一小交替，血壓偏低、頸靜脈怒張。診斷？",
+          "text": "**答：心包膜積液合併心包填塞。**\n- 三聯：**竇性心搏過速＋低電壓＋電交替**（Harrison Fig. 247-17）\n- 高度提示填塞，但敏感度有限 → **心臟超音波**確認、準備心包膜穿刺"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "必背"
+          ],
+          "rows": [
+            [
+              "正常值",
+              "PR 120–200｜QRS ≤ 100–110｜QTc 女 460、男 450｜小格 40 ms、大格 200 ms｜心跳 = 300 ÷ 大格"
+            ],
+            [
+              "電軸",
+              "正常 −30 ~ +100｜左偏：LAFB、LVH、下壁 MI｜右偏：RVH、肺栓塞、側壁 MI、LPFB、手接反"
+            ],
+            [
+              "肥厚",
+              "LVH：SV1 + RV5/6 > 35｜RVH：V1 R ≥ S｜右房 P ≥ 2.5 mm｜左房 P ≥ 120 ms 或 V1 負向大"
+            ],
+            [
+              "束支",
+              "RBBB：V1 rSR′、V6 寬 S｜LBBB：V1 QS、V6 寬 R｜≥ 120 ms 完全｜LAFB < −45°"
+            ],
+            [
+              "定位",
+              "V1–V2 中隔、V3–V4 前壁（LAD）｜V5–V6、I、aVL 側壁（LCX）｜II、III、aVF 下壁（RCA > LCX）｜V1–V3 ST 下降 = 後壁｜V4R = 右心室"
+            ],
+            [
+              "電解質",
+              "高鉀：T 尖 → QRS 寬 → 正弦波｜低鉀：U 波｜低鈣：ST 長、QT 長｜高鈣、digoxin：QT 短"
+            ],
+            [
+              "特殊",
+              "Osborn 波 = 低體溫｜CVA T 波 = SAH｜電交替＋低電壓＋心搏過速 = 填塞｜Wellens = LAD"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1911-1919"
+        }
+      ]
+    }
   ]
 }

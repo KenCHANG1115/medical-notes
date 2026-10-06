@@ -15,7 +15,7 @@
     {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
     {"id": "diabetes-mellitus", "name": "Diabetes (一)：診斷、分類與致病機轉"},
     {"id": "electrolyte-disorders", "name": "Electrolyte Disorders (離子平衡異常)"},
-    {"id": "ecg-arrhythmias", "name": "ECG & Arrhythmias (心電圖與心律不整)"}
+    {"id": "ecg-arrhythmias", "name": "ECG (一)：心電圖判讀基礎"}
   ],
   "sections": [
     {

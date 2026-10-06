@@ -9,7 +9,19 @@
         },
         {
           "id": "ecg-arrhythmias",
-          "name": "ECG & Arrhythmias (心電圖與心律不整)"
+          "name": "ECG (一)：心電圖判讀基礎"
+        },
+        {
+          "id": "ecg-bradyarrhythmias",
+          "name": "ECG (二)：緩脈與傳導阻滯"
+        },
+        {
+          "id": "ecg-svt-af",
+          "name": "ECG (三)：上心室性心搏過速與心房顫動"
+        },
+        {
+          "id": "ecg-ventricular",
+          "name": "ECG (四)：心室性心律不整與猝死"
         }
       ]
     },
