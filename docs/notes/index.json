@@ -3,52 +3,126 @@
     {
       "name": "心臟內科",
       "diseases": [
-        {"id": "hypertension", "name": "Hypertension (高血壓)"},
-        {"id": "ecg-arrhythmias", "name": "ECG & Arrhythmias (心電圖與心律不整)"}
+        {
+          "id": "hypertension",
+          "name": "Hypertension (高血壓)"
+        },
+        {
+          "id": "ecg-arrhythmias",
+          "name": "ECG & Arrhythmias (心電圖與心律不整)"
+        }
       ]
     },
     {
       "name": "新陳代謝科",
       "diseases": [
-        {"id": "diabetes-mellitus", "name": "Diabetes Mellitus (糖尿病)"},
-        {"id": "thyroid-function-thyrotoxicosis", "name": "Thyroid (一)：甲狀腺功能檢驗與甲狀腺毒症"},
-        {"id": "hypothyroidism", "name": "Thyroid (二)：甲狀腺低下"},
-        {"id": "thyroid-nodules-cancer", "name": "Thyroid (三)：甲狀腺結節與甲狀腺癌"}
+        {
+          "id": "diabetes-mellitus",
+          "name": "Diabetes Mellitus (糖尿病)"
+        },
+        {
+          "id": "thyroid-function-thyrotoxicosis",
+          "name": "Thyroid (一)：甲狀腺功能檢驗與甲狀腺毒症"
+        },
+        {
+          "id": "hypothyroidism",
+          "name": "Thyroid (二)：甲狀腺低下"
+        },
+        {
+          "id": "thyroid-nodules-cancer",
+          "name": "Thyroid (三)：甲狀腺結節與甲狀腺癌"
+        }
       ]
     },
     {
       "name": "腎臟內科",
       "diseases": [
-        {"id": "nephritic-syndrome", "name": "Nephritic Syndrome (腎炎症候群)"},
-        {"id": "nephrotic-syndrome", "name": "Nephrotic Syndrome (腎病症候群)"},
-        {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
-        {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
-        {"id": "acid-base-disorders", "name": "Acid-Base Disorders (酸鹼平衡異常)"},
-        {"id": "electrolyte-disorders", "name": "Electrolyte Disorders (離子平衡異常)"}
+        {
+          "id": "nephritic-syndrome",
+          "name": "Nephritic Syndrome (腎炎症候群)"
+        },
+        {
+          "id": "nephrotic-syndrome",
+          "name": "Nephrotic Syndrome (腎病症候群)"
+        },
+        {
+          "id": "acute-kidney-injury",
+          "name": "Acute Kidney Injury (急性腎損傷)"
+        },
+        {
+          "id": "chronic-kidney-disease",
+          "name": "Chronic Kidney Disease (慢性腎臟病)"
+        },
+        {
+          "id": "acid-base-disorders",
+          "name": "Acid-Base Disorders (酸鹼平衡異常)"
+        },
+        {
+          "id": "electrolyte-disorders",
+          "name": "Electrolyte Disorders (離子平衡異常)"
+        }
       ]
     },
     {
       "name": "感染科",
       "diseases": [
-        {"id": "urinary-tract-infection", "name": "Urinary Tract Infection (泌尿道感染)"},
-        {"id": "pneumonia", "name": "Pneumonia (肺炎)"},
-        {"id": "hiv-fundamentals-diagnosis", "name": "HIV/AIDS (一)：基礎與診斷"},
-        {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"},
-        {"id": "hiv-treatment-art", "name": "HIV/AIDS (三)：ART 治療與預防"}
+        {
+          "id": "urinary-tract-infection",
+          "name": "Urinary Tract Infection (泌尿道感染)"
+        },
+        {
+          "id": "pneumonia",
+          "name": "Pneumonia (肺炎)"
+        },
+        {
+          "id": "hiv-fundamentals-diagnosis",
+          "name": "HIV/AIDS (一)：基礎與診斷"
+        },
+        {
+          "id": "hiv-opportunistic-infections",
+          "name": "HIV/AIDS (二)：伺機性感染與併發症"
+        },
+        {
+          "id": "hiv-treatment-art",
+          "name": "HIV/AIDS (三)：ART 治療與預防"
+        }
       ]
     },
     {
       "name": "血液腫瘤科",
       "diseases": [
-        {"id": "anemia-overview", "name": "Anemia (一)：總論與診斷架構"},
-        {"id": "anemia-microcytic", "name": "Anemia (二)：小球性貧血與血紅素疾病"}
+        {
+          "id": "anemia-overview",
+          "name": "Anemia (一)：總論與診斷架構"
+        },
+        {
+          "id": "anemia-microcytic",
+          "name": "Anemia (二)：小球性貧血與血紅素疾病"
+        }
       ]
     },
     {
       "name": "值班守則",
       "diseases": [
-        {"id": "confusion-decreased-consciousness", "name": "Confusion / Decreased Level of Consciousness (意識不清)"},
-        {"id": "oncall-potassium-disorders", "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"}
+        {
+          "id": "confusion-decreased-consciousness",
+          "name": "Confusion / Decreased Level of Consciousness (意識不清)"
+        },
+        {
+          "id": "oncall-potassium-disorders",
+          "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+        }
+      ]
+    }
+  ],
+  "physicalExam": [
+    {
+      "name": "腹部",
+      "diseases": [
+        {
+          "id": "pe-abdomen",
+          "name": "Abdomen (腹部理學檢查)"
+        }
       ]
     }
   ]
