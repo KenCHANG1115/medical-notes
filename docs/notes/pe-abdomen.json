@@ -394,7 +394,7 @@
         {
           "type": "callout",
           "style": "logic",
-          "text": "**先看整個人**：臉色蒼白、意識混亂、**痛到扭來扭去** → 比安靜躺著的病人**更緊急**。\n**再看肚子**：從病床**右側**看表面、輪廓、動作；**蹲低從切線方向看**（Fig. 19-10），比較容易看出**膨隆或蠕動波**。"
+          "text": "**先看整個人（general appearance）**：神態（demeanor）、痛苦程度（distress）、膚色（color）、意識（mental status）。臉色蒼白（pale）、意識混亂（confused）、**痛到扭來扭去（writhing）** → 比安靜躺著的病人**更緊急**。\n**再看肚子**：從病床**右側**看**表面、輪廓、動作（surface, contours, and movements）**；**蹲低從切線方向看（observe tangentially）**（Fig. 19-10），比較容易看出**膨隆（bulges）或蠕動波（peristalsis）**。"
         },
         {
           "type": "table",
@@ -405,73 +405,78 @@
           ],
           "rows": [
             [
-              "**皮膚溫度與顏色**",
-              "溫暖",
-              "濕冷；瘀青、紅斑、**黃疸**"
+              "**皮膚溫度與顏色**（skin temperature, color）",
+              "溫暖（warm）",
+              "濕冷（cool and clammy）；瘀青（bruises）、紅斑（erythema）、**黃疸（jaundice）**"
             ],
             [
-              "**疤痕**",
+              "**疤痕**（scars）",
               "—",
-              "記錄位置（畫圖）→ 想到**手術史、沾黏、切口疝氣**"
+              "記錄位置（describe or diagram）→ 想到**手術史、沾黏、切口疝氣**"
             ],
             [
-              "**妊娠紋（striae）**",
-              "**銀白色的舊紋路**是正常的",
-              "**粉紅到紫色的紋路** → **Cushing 症候群**"
+              "**妊娠紋**（striae）",
+              "**銀白色的舊紋路（old silver striae）**是正常的",
+              "**粉紅到紫色的紋路（pink–purple striae）** → **Cushing 症候群**"
             ],
             [
-              "**靜脈**",
+              "**靜脈**（veins）",
               "可見少數細小靜脈",
-              "**靜脈擴張** → **肝硬化門脈高壓（caput medusae）**或**下腔靜脈阻塞**"
+              "**靜脈擴張（dilated veins）** → **肝硬化門脈高壓（caput medusae）**或**下腔靜脈阻塞（IVC obstruction）**"
             ],
             [
-              "**瘀斑**",
+              "**皮疹或瘀斑**（rashes or ecchymoses）",
               "—",
-              "**腹腔內或後腹腔出血**"
+              "**腹壁瘀斑** → **腹腔內或後腹腔出血**（intraperitoneal or retroperitoneal hemorrhage）"
             ],
             [
-              "**肚臍**",
+              "**肚臍**（umbilicus）",
               "—",
-              "看輪廓、位置、發炎、**膨出（疝氣）**"
+              "看輪廓（contour）、位置（location）、發炎（inflammation）、**膨出（bulges）→ 疝氣（hernia）**"
             ],
             [
-              "**輪廓**",
-              "平坦或圓",
-              "**膨隆**（見下表）、**舟狀（明顯凹陷）**；**兩側腰窩膨出** → **腹水**；**恥骨上膨出** → 膀胱漲大或懷孕；**不對稱** → 疝氣、器官腫大、腫塊"
+              "**輪廓**（contour）",
+              "平坦（flat）或圓（rounded）",
+              "**膨隆（protuberant）**（見下表）、**舟狀（scaphoid，明顯凹陷）**；**兩側腰窩膨出（bulging flanks）** → **腹水**；**恥骨上膨出（suprapubic bulge）** → 膀胱漲大或懷孕；**不對稱（asymmetry）** → 疝氣、器官腫大、腫塊；也要看**鼠蹊部與股部（inguinal and femoral areas）**的疝氣"
             ],
             [
-              "**搏動**",
-              "**瘦的人上腹可見主動脈搏動**",
-              "**搏動增強** → **腹主動脈瘤**或脈壓變寬"
+              "**看得到的器官或腫塊**（visible organs or masses）",
+              "—",
+              "變大的肝或脾可能**降到肋緣下**；下腹腫塊或疝氣"
+            ],
+            [
+              "**搏動**（pulsations）",
+              "**瘦的人上腹可見主動脈搏動（aortic pulsation）**",
+              "**搏動增強（increased pulsations）** → **腹主動脈瘤（AAA）**或**脈壓變寬（increased pulse pressure）**"
             ]
           ]
         },
         {
           "type": "table",
           "headers": [
-            "腹部膨隆的原因（Table 19-9）",
+            "腹部膨隆的原因（Table 19-9, Protuberant Abdomens）",
             "線索"
           ],
           "rows": [
             [
-              "**脂肪**（最常見）",
-              "肚臍可能**凹陷**；下垂的脂肪圍裙（pannus）要**掀起來看**皮膚皺褶的發炎或藏起來的疝氣"
+              "**脂肪**（fat，最常見）",
+              "肚臍可能**凹陷（sunken）**；下垂的**脂肪圍裙（pannus）**要**掀起來看**皮膚皺褶的發炎或藏起來的疝氣"
             ],
             [
-              "**氣體**",
-              "**叩診鼓音**；嚴重原因是**腸阻塞**與**麻痺性腸阻塞（ileus）**；**大腸阻塞比小腸阻塞更脹**"
+              "**氣體**（gas）",
+              "**叩診鼓音（tympanitic）**；嚴重原因是**腸阻塞（intestinal obstruction）**與**麻痺性腸阻塞（adynamic / paralytic ileus）**；**大腸阻塞比小腸阻塞更脹**"
             ],
             [
-              "**腫瘤**",
-              "大的實質腫瘤通常從骨盆長出 → **叩診濁音**，含氣腸子被推到周邊；卵巢腫瘤、子宮肌瘤；**漲大的膀胱有時被誤認成腫瘤**"
+              "**腫瘤**（tumor）",
+              "大的實質腫瘤通常從骨盆長出 → **叩診濁音（dull）**，含氣腸子被推到周邊；卵巢腫瘤、子宮肌瘤；**漲大的膀胱有時被誤認成腫瘤**"
             ],
             [
-              "**懷孕**",
+              "**懷孕**（pregnancy）",
               "常見的骨盆「腫塊」→ 聽胎心音"
             ],
             [
-              "**腹水**",
-              "液體往低處流 → **兩側腰窩膨出且叩診濁音**；肚臍可能突出；**側躺看濁音是否移動（移動性濁音）**"
+              "**腹水**（ascitic fluid）",
+              "液體往低處流 → **兩側腰窩膨出且叩診濁音**；肚臍可能**突出（protrude）**；**側躺看濁音是否移動（shifting dullness，移動性濁音）**"
             ]
           ]
         },
