@@ -755,22 +755,46 @@
     return n;
   }
 
+  // Context is compared without whitespace or markdown asterisks: older rows were saved
+  // without the '\n' of <br> (or with raw '**'), and one stray newline right next to the
+  // phrase used to zero the match and send the highlight to a later occurrence.
+  function normContext(s) {
+    return s.replace(/[\s*]/g, '');
+  }
+
+  // How many of b's character pairs also occur in a: a fuzzy match that still works when
+  // the note was edited near the highlight.
+  function bigramOverlap(a, b) {
+    const grams = new Set();
+    for (let i = 0; i < a.length - 1; i++) grams.add(a.slice(i, i + 2));
+    let n = 0;
+    for (let i = 0; i < b.length - 1; i++) if (grams.has(b.slice(i, i + 2))) n++;
+    return n;
+  }
+
   // Wrap the occurrence of key.text whose surrounding text best matches the saved
   // prefix/suffix. Returns true if the text exists in root (even if it was already
   // highlighted), so the caller doesn't go looking elsewhere in the note.
   function highlightTextInNode(root, key, color, user) {
     const { flat, pieces } = flattenText(root);
     const text = key.text;
+    const prefix = normContext(key.prefix), suffix = normContext(key.suffix);
     let found = false, bestIdx = -1, bestScore = -1;
     for (let i = flat.indexOf(text); i !== -1; i = flat.indexOf(text, i + 1)) {
       found = true;
-      if (occurrenceHighlighted(pieces, i, i + text.length)) continue;
-      const before = flat.slice(Math.max(0, i - 40), i).trim();
-      const after = flat.slice(i + text.length, i + text.length + 40).trim();
-      const score = commonSuffixLen(before, key.prefix) + commonPrefixLen(after, key.suffix);
+      const before = normContext(flat.slice(Math.max(0, i - 80), i));
+      const after = normContext(flat.slice(i + text.length, i + text.length + 80));
+      // Exact adjacent match dominates; pair overlap breaks ties and handles edited text.
+      const exact = commonSuffixLen(before, prefix) + commonPrefixLen(after, suffix);
+      const fuzzy = bigramOverlap(before.slice(-(prefix.length + 10)), prefix) +
+        bigramOverlap(after.slice(0, suffix.length + 10), suffix);
+      const score = exact * 2 + fuzzy;
       if (score > bestScore) { bestScore = score; bestIdx = i; }
     }
     if (bestIdx === -1) return found;
+    // The right spot is already covered (an old overlapping highlight): leave it rather
+    // than moving this one to another occurrence of the same words.
+    if (occurrenceHighlighted(pieces, bestIdx, bestIdx + text.length)) return true;
 
     const end = bestIdx + text.length;
     for (const p of pieces) {
