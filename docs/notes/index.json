@@ -18,7 +18,15 @@
       "diseases": [
         {
           "id": "diabetes-mellitus",
-          "name": "Diabetes Mellitus (糖尿病)"
+          "name": "Diabetes (一)：診斷、分類與致病機轉"
+        },
+        {
+          "id": "dm-treatment",
+          "name": "Diabetes (二)：治療——藥物、胰島素與住院血糖"
+        },
+        {
+          "id": "dm-complications",
+          "name": "Diabetes (三)：急慢性併發症與低血糖"
         },
         {
           "id": "thyroid-function-thyrotoxicosis",

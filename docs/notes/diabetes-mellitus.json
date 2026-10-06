@@ -1,202 +1,756 @@
 {
   "id": "diabetes-mellitus",
-  "title": "Diabetes Mellitus (糖尿病)",
-  "title_en": "Diabetes Mellitus",
-  "title_zh": "糖尿病",
+  "title": "Diabetes (一)：診斷、分類與致病機轉",
+  "title_en": "Diabetes Mellitus: Diagnosis, Classification, and Pathophysiology",
+  "title_zh": "糖尿病（一）：診斷、分類與致病機轉",
   "specialty": "新陳代謝科",
   "sources": [
-    "Harrison's 22e - Ch.415 DM: Diagnosis, Classification, Pathophysiology (p.3238-3247)",
-    "Harrison's 22e - Ch.416 DM: Management and Therapies (p.3248-3263)",
-    "Harrison's 22e - Ch.417 DM: Complications (p.3264-3272)"
+    "Harrison's 22e - Ch.415 Diabetes Mellitus: Diagnosis, Classification, and Pathophysiology (p.3238-3247)",
+    "First Choice 醫學(三) 第2冊 - 丁、糖尿病 A–E (p.277-281)；考題 (p.304-307)",
+    "中華民國糖尿病學會 2022 第2型糖尿病臨床照護指引（經 First Choice 轉引，標示處）"
   ],
-  "generated": "2026-09-10",
-  "sections": [
+  "generated": "2026-10-07",
+  "related": [
     {
-      "title": "Overview / Epidemiology",
-      "content": [
-        "Diabetes mellitus (DM) 是一群以 **hyperglycemia** 為共同表現的代謝疾病，因 insulin 分泌不足、作用缺陷或兩者兼有所致。",
-        {"type": "callout", "style": "guideline", "text": "DM 是美國 ESRD、非外傷性下肢截肢、成人失明的首要原因。心血管疾病是 DM 患者最主要的致死原因。"},
-        "全球約 5.37 億人患有糖尿病（2021 年），預計 2045 年將達 7.83 億人。Type 2 DM 佔 90-95%，Type 1 DM 佔 5-10%。",
-        {"type": "source", "book": "Harrison's 22e", "pages": "3238-3240"}
-      ]
+      "id": "dm-treatment",
+      "name": "Diabetes (二)：治療——藥物、胰島素與住院血糖"
     },
     {
-      "title": "Etiology / Risk Factors",
-      "content": [
-        {"type": "table", "headers": ["", "Type 1 DM", "Type 2 DM"], "rows": [
-          ["機制", "Autoimmune beta cell destruction → absolute insulin deficiency", "Insulin resistance + relative insulin deficiency + increased hepatic glucose production"],
-          ["好發年齡", "通常 < 30 歲 (peak 10-14 y/o)", "通常 > 40 歲 (但越來越年輕化)"],
-          ["體型", "Normal or thin", "通常 overweight/obese (80%)"],
-          ["遺傳", "HLA-DR3/DR4 相關", "Strong family history, polygenic"],
-          ["Autoantibodies", "Anti-GAD65, Anti-IA2, Anti-insulin, Anti-ZnT8", "Absent"],
-          ["Ketosis tendency", "High (DKA)", "Low (HHS more common)"],
-          ["C-peptide", "Low or absent", "Normal or elevated"]
-        ]},
-        {"type": "heading", "text": "Other Types of DM"},
-        {"type": "collapsible", "summary": "DM 分類 (ADA Classification)", "text": "**I. Type 1 DM**: Immune-mediated beta cell destruction\n**II. Type 2 DM**: Insulin resistance + secretory defect\n**III. Other specific types**:\n- MODY (Monogenic diabetes): AD inheritance, onset < 25 y/o\n  - MODY 1: HNF4α\n  - MODY 2: Glucokinase (mild fasting hyperglycemia)\n  - MODY 3: HNF1α (most common)\n- Diseases of exocrine pancreas: Pancreatitis, CF, hemochromatosis\n- Endocrinopathies: Acromegaly, Cushing's, Pheochromocytoma\n- Drug-induced: Glucocorticoids, Thiazides, Calcineurin inhibitors\n- Gestational DM (GDM)\n**IV. Gestational DM**"},
-        {"type": "callout", "style": "trap", "text": "Type 1 DM 的三個 stages:\n- Stage 1: Autoantibodies (+), normoglycemia\n- Stage 2: Autoantibodies (+), dysglycemia (IFG/IGT)\n- Stage 3: Clinical diabetes (symptomatic hyperglycemia)"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "3238-3242"}
-      ]
+      "id": "dm-complications",
+      "name": "Diabetes (三)：急慢性併發症與低血糖"
     },
     {
-      "title": "Pathophysiology",
-      "content": [
-        {"type": "heading", "text": "Type 1 DM"},
-        "遺傳易感性（HLA-DR3/DR4）+ 環境觸發 → T cell-mediated autoimmune destruction of pancreatic beta cells → absolute insulin deficiency。Beta cell mass 破壞 > 80-90% 時出現臨床症狀。",
-        {"type": "heading", "text": "Type 2 DM"},
-        {"type": "callout", "style": "logic", "text": "Type 2 DM 的 pathophysiology triad:\n1. **Insulin resistance** (muscle, liver, adipose tissue)\n2. **Impaired insulin secretion** (beta cell dysfunction → eventually beta cell failure)\n3. **Increased hepatic glucose production** (gluconeogenesis)"},
-        {"type": "list", "ordered": false, "items": [
-          "**Insulin resistance**: Obesity → increased FFA → lipotoxicity → 干擾 insulin signaling → 肌肉 glucose uptake 減少",
-          "**Beta cell dysfunction**: 初期代償性 hyperinsulinemia → 漸進性 beta cell failure → insulin 分泌不足",
-          "**Hepatic glucose production**: Insulin 無法抑制肝臟 gluconeogenesis → fasting hyperglycemia",
-          "**Incretin effect 減弱**: GLP-1 和 GIP 對 beta cell 的 insulin secretion 刺激效果下降",
-          "**Glucagon excess**: Alpha cell dysfunction → inappropriate glucagon secretion"
-        ]},
-        {"type": "callout", "style": "logic", "text": "Prediabetes 的進展：\nNormal → Impaired Fasting Glucose (IFG) / Impaired Glucose Tolerance (IGT) → Type 2 DM\n\nIFG: Fasting glucose 100-125 mg/dL\nIGT: 2h OGTT glucose 140-199 mg/dL\nHbA1c 5.7-6.4% 也可視為 prediabetes"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "3240-3247"}
-      ]
+      "id": "thyroid-function-thyrotoxicosis",
+      "name": "Thyroid (一)：甲狀腺功能檢驗與甲狀腺毒症"
     },
     {
-      "title": "Pathology",
-      "content": [
-        {"type": "heading", "text": "Pancreas"},
-        {"type": "list", "ordered": false, "items": [
-          "**Type 1**: Insulitis (lymphocytic infiltration of islets) → beta cell destruction → islet atrophy",
-          "**Type 2**: Amyloid deposition in islets (islet amyloid polypeptide/amylin) → beta cell loss (減少 20-65%)"
-        ]},
-        {"type": "heading", "text": "Vascular Pathology"},
-        {"type": "table", "headers": ["Microvascular", "Macrovascular"], "rows": [
-          ["Retinopathy: Non-proliferative → Proliferative", "Accelerated atherosclerosis"],
-          ["Nephropathy: GBM thickening → Kimmelstiel-Wilson nodules", "CAD (2-4x risk)"],
-          ["Neuropathy: Segmental demyelination → axonal degeneration", "Stroke (2-3x risk)"],
-          ["", "PAD → non-traumatic amputation"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "Kimmelstiel-Wilson nodules (nodular glomerulosclerosis) 是 DM nephropathy 的特徵性病理，但 diffuse mesangial expansion 更常見且出現更早"}
-      ]
-    },
-    {
-      "title": "Clinical Presentation",
-      "content": [
-        {"type": "heading", "text": "Classic Symptoms (3P + 1)"},
-        {"type": "list", "ordered": false, "items": [
-          "**Polyuria**: Osmotic diuresis from glucosuria",
-          "**Polydipsia**: Compensatory thirst",
-          "**Polyphagia**: Cellular starvation despite hyperglycemia",
-          "**Weight loss**: Especially Type 1 (catabolic state)"
-        ]},
-        {"type": "heading", "text": "Type 1 vs Type 2 Presentation"},
-        {"type": "table", "headers": ["", "Type 1", "Type 2"], "rows": [
-          ["Onset", "Acute (days to weeks)", "Insidious (months to years)"],
-          ["Symptoms", "Severe 3P, weight loss, fatigue", "Often asymptomatic or mild"],
-          ["Initial presentation", "DKA in 25-30%", "Incidental finding or complication"],
-          ["Acanthosis nigricans", "Absent", "Present (insulin resistance marker)"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "LADA (Latent Autoimmune Diabetes in Adults)：\n成人發病但有 autoantibodies → 初期像 Type 2 但漸進需要 insulin\n若成人 DM 對 oral agents 效果差且 BMI 正常，考慮檢測 Anti-GAD65"}
-      ]
-    },
-    {
-      "title": "Diagnosis",
-      "content": [
-        {"type": "callout", "style": "guideline", "text": "DM 診斷標準 (ADA, 符合任一即可，需重複確認)：\n1. **Fasting plasma glucose (FPG)** >= 126 mg/dL\n2. **2h OGTT** >= 200 mg/dL (75g glucose load)\n3. **HbA1c** >= 6.5%\n4. **Random glucose** >= 200 mg/dL + classic symptoms (不需重複)"},
-        {"type": "table", "headers": ["", "Normal", "Prediabetes", "Diabetes"], "rows": [
-          ["FPG (mg/dL)", "< 100", "100-125 (IFG)", ">= 126"],
-          ["2h OGTT (mg/dL)", "< 140", "140-199 (IGT)", ">= 200"],
-          ["HbA1c (%)", "< 5.7", "5.7-6.4", ">= 6.5"]
-        ]},
-        {"type": "heading", "text": "Autoantibody Testing (Type 1 DM)"},
-        {"type": "list", "ordered": false, "items": [
-          "**Anti-GAD65** (Glutamic acid decarboxylase): Most sensitive, persists longest",
-          "**Anti-IA2** (Insulinoma-associated antigen 2)",
-          "**Anti-insulin antibodies (IAA)**: Most useful in children",
-          "**Anti-ZnT8** (Zinc transporter 8)"
-        ]},
-        {"type": "callout", "style": "logic", "text": "HbA1c 反映過去 2-3 個月的平均血糖（紅血球壽命 120 天）\n\n注意 HbA1c 不準確的情況：\n- 溶血性貧血、血紅素病變 → 偏低\n- 鐵缺乏性貧血、脾切除 → 偏高\n- 懷孕、CKD → 可能不準確"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "3242-3245"}
-      ]
-    },
-    {
-      "title": "Treatment",
-      "content": [
-        {"type": "heading", "text": "Treatment Goals"},
-        {"type": "callout", "style": "guideline", "text": "ADA 治療目標：\n- HbA1c < 7% (一般成人)\n- HbA1c < 6.5% (年輕、無併發症、低低血糖風險)\n- HbA1c < 8% (老年、多重共病、預期壽命短)\n- Preprandial glucose: 80-130 mg/dL\n- Peak postprandial glucose: < 180 mg/dL"},
-        {"type": "heading", "text": "Type 1 DM Treatment"},
-        "**Insulin** is essential and lifelong. Basal-bolus regimen or insulin pump (CSII).",
-        {"type": "collapsible", "summary": "Insulin 分類", "text": "**Rapid-acting** (onset 15 min, peak 1-2h, duration 3-5h):\n- Lispro, Aspart, Glulisine\n\n**Short-acting** (onset 30 min, peak 2-4h, duration 6-8h):\n- Regular insulin\n\n**Intermediate** (onset 1-2h, peak 4-8h, duration 12-16h):\n- NPH\n\n**Long-acting** (onset 1-2h, no peak, duration 20-24h):\n- Glargine (Lantus), Detemir (Levemir)\n\n**Ultra-long-acting** (onset 1h, no peak, duration >42h):\n- Degludec (Tresiba)"},
-        {"type": "heading", "text": "Type 2 DM Treatment"},
-        {"type": "table", "headers": ["藥物", "機制", "優點", "注意事項"], "rows": [
-          ["Metformin", "Decrease hepatic glucose production, improve insulin sensitivity", "First-line, weight neutral, no hypoglycemia, CV benefit", "Lactic acidosis (rare), GI side effects, 禁用 eGFR < 30"],
-          ["SGLT2 inhibitors (-gliflozin)", "Block renal glucose reabsorption", "CV & renal benefit, weight loss, BP reduction", "UTI, Genital mycosis, euglycemic DKA, 截肢風險 (canagliflozin)"],
-          ["GLP-1 RA (-glutide/-natide)", "Incretin mimetic → insulin secretion, suppress glucagon", "CV benefit, weight loss, no hypoglycemia", "GI side effects (nausea), 禁用 MTC/MEN2 family hx, Pancreatitis risk"],
-          ["DPP-4 inhibitors (-gliptin)", "Prevent GLP-1 degradation", "Weight neutral, well tolerated", "Less potent, possible HF risk (saxagliptin)"],
-          ["Sulfonylureas (-glyburide/-glipizide)", "Stimulate insulin secretion (close K-ATP channel)", "Cheap, potent", "Hypoglycemia, weight gain"],
-          ["Thiazolidinediones (-glitazone)", "PPARγ agonist → improve insulin sensitivity", "Durable glucose lowering", "Weight gain, edema, HF, fractures, bladder cancer (pioglitazone)"],
-          ["Insulin", "Replace deficient insulin", "Most potent, no dose ceiling", "Hypoglycemia, weight gain"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "ADA/EASD 2022 Type 2 DM 治療流程：\n1. **Metformin** + lifestyle modification (first-line for all)\n2. 合併 ASCVD or high risk → add **GLP-1 RA** or **SGLT2i** (有 CV benefit)\n3. 合併 HF or CKD → add **SGLT2i** (preferred) or GLP-1 RA\n4. 需要額外降糖 → 依個別情況加 DPP-4i, TZD, SU, or insulin\n5. HbA1c > 10% or symptoms → consider insulin early"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "3248-3263"}
-      ]
-    },
-    {
-      "title": "Prognosis / Follow-up",
-      "content": [
-        {"type": "heading", "text": "Monitoring"},
-        {"type": "list", "ordered": false, "items": [
-          "**HbA1c**: 每 3 個月 (未達標) 或每 6 個月 (穩定控制)",
-          "**Self-monitoring blood glucose (SMBG)**: Type 1 至少 4 次/天; Type 2 依治療方案",
-          "**Eye exam**: 每年散瞳眼底檢查",
-          "**Foot exam**: 每次就診檢查 + 每年完整足部評估",
-          "**Renal function**: 每年 UACR + eGFR",
-          "**Lipid panel**: 每年",
-          "**BP**: 每次就診 (目標 < 130/80)"
-        ]},
-        {"type": "heading", "text": "Complications Screening"},
-        {"type": "table", "headers": ["Complication", "Screening", "When to Start"], "rows": [
-          ["Retinopathy", "Dilated eye exam", "Type 1: 5 yr after dx; Type 2: at diagnosis"],
-          ["Nephropathy", "UACR + eGFR", "Type 1: 5 yr after dx; Type 2: at diagnosis"],
-          ["Neuropathy", "10g monofilament + vibration", "Type 1: 5 yr after dx; Type 2: at diagnosis"],
-          ["CVD", "Lipids, BP, lifestyle assessment", "At diagnosis"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "DCCT/UKPDS legacy effect:\n早期嚴格血糖控制的好處可持續數十年（metabolic memory），即使後來控制放鬆。強調 early intensive control 的重要性。"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "3264-3272"}
-      ]
-    },
-    {
-      "title": "Special Populations",
-      "content": [
-        {"type": "heading", "text": "Gestational DM (GDM)"},
-        "妊娠 24-28 週篩檢（75g OGTT）。治療首選 lifestyle modification → insulin（Metformin 可考慮但非首選）。產後 4-12 週重新評估糖代謝。",
-        {"type": "heading", "text": "兒童/青少年 Type 2 DM"},
-        "Metformin 為 first-line oral agent (FDA approved for age >= 10)。近年與肥胖流行相關，發病率快速增加。",
-        {"type": "heading", "text": "老年人"},
-        "HbA1c 目標可放寬至 < 8%（避免 hypoglycemia）。Avoid SU 和 sliding-scale insulin。優先使用低低血糖風險藥物（Metformin, DPP-4i, SGLT2i）。",
-        {"type": "heading", "text": "CKD 合併 DM"},
-        "SGLT2i 在 eGFR >= 20 可使用（renoprotective benefit > glycemic benefit）。Metformin 禁用於 eGFR < 30。Insulin 劑量需減少（腎臟清除減少）。"
-      ]
-    },
-    {
-      "title": "High-Yield Exam Points",
-      "content": [
-        {"type": "callout", "style": "trap", "text": "DKA vs HHS 鑑別：\n- DKA: Type 1 (也可 Type 2), pH < 7.3, HCO3 < 18, Ketones (+), AG metabolic acidosis\n- HHS: Type 2, Glucose > 600, Osmolality > 320, 意識改變, 無顯著 acidosis\n\n共同：Dehydration + electrolyte imbalance + hyperglycemia\n治療共同原則：IV fluids (first!) → Insulin → K+ correction"},
-        {"type": "callout", "style": "trap", "text": "DKA 治療注意：\n- 先補液再給 insulin（否則加重低血壓）\n- K+ < 3.3 → 先補鉀再給 insulin（insulin 會讓 K+ 進入細胞更低）\n- 不要用 HCO3 除非 pH < 6.9\n- Glucose 降到 200-250 → 改 D5W + insulin drip（避免 cerebral edema）"},
-        {"type": "callout", "style": "guideline", "text": "必記藥物重點：\n- **Metformin**: First-line Type 2, 禁用 eGFR < 30, lactic acidosis\n- **SGLT2i**: CV + renal benefit, -gliflozin, euglycemic DKA, genital infection\n- **GLP-1 RA**: CV benefit, weight loss, 禁用 MTC/MEN2 hx\n- **Sulfonylureas**: Hypoglycemia risk, 尤其 glyburide (elderly 禁用)\n- **Insulin Glargine**: Long-acting, no peak (好用作 basal insulin)"},
-        {"type": "list", "ordered": false, "items": [
-          "Type 1 DM: Anti-GAD65 most sensitive autoantibody",
-          "Type 2 DM: Metformin first-line, 加 SGLT2i/GLP-1 RA if ASCVD/HF/CKD",
-          "HbA1c reflects 2-3 month average; goal < 7% (general)",
-          "DKA: 先補液 → 補鉀 (if K < 3.3) → Insulin → 到 glucose 200-250 加 D5W",
-          "MODY: AD inheritance, onset < 25, most common = MODY 3 (HNF1α)",
-          "Diabetic nephropathy: First sign = microalbuminuria (UACR 30-300 mg/g)",
-          "Kimmelstiel-Wilson nodules = pathognomonic for diabetic nephropathy",
-          "GDM screening: 24-28 weeks with 75g OGTT"
-        ]}
-      ]
+      "id": "hypertension",
+      "name": "Hypertension (高血壓)"
     }
   ],
-  "related": [
-    {"id": "diabetic-nephropathy", "name": "Diabetic Nephropathy (糖尿病腎病變)"},
-    {"id": "hypertension", "name": "Hypertension (高血壓)"},
-    {"id": "hyperlipidemia", "name": "Hyperlipidemia (高血脂)"},
-    {"id": "metabolic-syndrome", "name": "Metabolic Syndrome (代謝症候群)"},
-    {"id": "thyroid-disease", "name": "Thyroid Disease (甲狀腺疾病)"}
+  "sections": [
+    {
+      "title": "總覽：糖尿病是什麼、為什麼重要",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**糖尿病三部曲的讀法**\n- **（一）本篇**：怎麼**診斷**、怎麼**分類**（第一型、第二型、其他）、血糖怎麼調控、兩型各自**為什麼會發生**——是理解藥物機轉的基礎。\n- **（二）治療**：血糖目標、各類口服藥與 GLP-1RA、**胰島素怎麼開與調**、**住院血糖**——見習最實用。\n- **（三）併發症**：**DKA / HHS 處置**、**低血糖**、視網膜、腎、神經、足、心血管。\n本篇以 **Harrison 22e Ch.415** 為主；國考常考的台灣標準（篩檢、代謝症候群）取自 First Choice 轉引之**中華民國糖尿病學會 2022 指引**，都會標示。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**定義**：糖尿病是一群以**高血糖**為共同表現的代謝疾病，依病因可能是**胰島素分泌減少、葡萄糖利用減少、葡萄糖生成增加**。\n**為什麼重要**（美國資料）：糖尿病是**末期腎病、非外傷性下肢截肢、成人失明的首要原因**；**心血管疾病是糖尿病人最主要的罹病與死亡原因**。\n**流行病學**：全球 2021 年約 **5.37 億人**（盛行率 10.5%），預估 2045 年 **7.83 億**；美國約 **22.8%** 的糖尿病人未被診斷。亞洲族群的第二型糖尿病在**較低 BMI、較年輕**時發生，內臟脂肪較多、胰島素分泌能力較差。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "3238-3240"
+        }
+      ]
+    },
+    {
+      "title": "診斷標準與糖尿病前期",
+      "content": [
+        {
+          "type": "figure",
+          "src": "figures/diabetes-mellitus/h415-1.png",
+          "label": "Harrison's 22e Fig. 415-1",
+          "caption": "血糖恆定的光譜與糖尿病診斷標準",
+          "explain": "**【怎麼看】**由左到右是一條光譜：**正常 → 糖尿病前期（IFG / IGT）→ 糖尿病**；糖尿病又依需不需要胰島素分成「不需要 → 需要胰島素控制 → 需要胰島素才能存活」。表格三列是三種檢驗的切點，右上角是「**有症狀＋隨機血糖 ≥ 200**」。\n**【考點】**光譜是**雙向**的：第二型減重後可退回 IGT；妊娠糖尿病產後常回到正常。糖尿病的切點是依「**開始出現糖尿病特有併發症（視網膜病變）的血糖值**」訂的，不是依族群平均值。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "檢驗",
+            "正常",
+            "糖尿病前期",
+            "糖尿病"
+          ],
+          "rows": [
+            [
+              "**HbA1c**",
+              "< 5.7%",
+              "**5.7–6.4%**",
+              "**≥ 6.5%**"
+            ],
+            [
+              "**空腹血漿血糖（FPG）**（至少 8 小時沒有熱量攝取）",
+              "< 100 mg/dL",
+              "**100–125**（IFG，空腹血糖偏高）",
+              "**≥ 126 mg/dL**"
+            ],
+            [
+              "**OGTT 2 小時血糖**（75 g 葡萄糖）",
+              "< 140 mg/dL",
+              "**140–199**（IGT，葡萄糖耐受不良）",
+              "**≥ 200 mg/dL**"
+            ],
+            [
+              "**隨機血糖**",
+              "—",
+              "—",
+              "**≥ 200 mg/dL＋典型症狀**（多尿、多渴、體重減輕）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**一定要重複確認**：除非有**明確高血糖加急性代謝失調**（或血糖非常高），否則異常值要**另一天重測**才能確診——診斷對病人的醫療與經濟影響很大。\n**First Choice 補充（台灣常用規則）**：兩種不同檢驗**同時達標**即可確診（例如 FPG ≥ 126＋HbA1c ≥ 6.5%）；若只有一項達標，**重測達標的那一項**。**隨機血糖 ≥ 200 必須同時有症狀才算**。\n**WHO** 的 IFG 切點是 FPG > **110**（ADA 用 100）。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "診斷重點",
+            "Harrison 內容"
+          ],
+          "rows": [
+            [
+              "最常用的兩項",
+              "**HbA1c 與 FPG** 是無症狀者最可靠、方便的檢驗；**OGTT** 平常少用，主要用於**懷孕**（妊娠糖尿病篩檢）、**囊性纖維化**、**器官移植後**"
+            ],
+            [
+              "糖尿病前期的意義",
+              "HbA1c 5.7–6.4%、IFG、IGT 抓到的人不完全相同，但**都會增加第二型糖尿病與心血管疾病風險**；HbA1c **6.0–6.5%** 者 **5 年內 25.5%** 進展為糖尿病"
+            ],
+            [
+              "**HbA1c 不準的情況**（Ch.416）",
+              "**血紅素病變、貧血、網狀紅血球增加、輸血、尿毒症、洗腎、EPO 治療**、G6PD 變異、HIV 藥物；此時改用**果糖胺（fructosamine）或糖化白蛋白**（反映 2–4 週）"
+            ],
+            [
+              "診斷可以撤銷",
+              "葡萄糖耐受恢復正常時，診斷可以撤回"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考題型**\n- **108 年**：17 歲女生半年瘦 10 公斤、口渴、頻尿，**只能做一項檢查** → **指尖血糖**（有症狀＋隨機血糖 ≥ 200 即可診斷）。\n- **103 年**：「餐後兩小時血糖 ≥ **180** 可診斷」→ **錯**，OGTT 2 小時是 **≥ 200**。\n- **108 年**：「空腹 > 100 或 HbA1c > 6% 即達糖尿病」→ **錯**（那是前期的範圍）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "3239-3241、3251"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "277、279、307-308"
+        }
+      ]
+    },
+    {
+      "title": "篩檢：ADA（Harrison）vs 台灣",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要篩檢**（Harrison）：① 很多人**沒有症狀、不知道自己有病**；② 第二型糖尿病在診斷前可能已存在**長達 10 年**；③ 有些人**診斷時已經有併發症**；④ 治療能改變病程；⑤ 抓到糖尿病前期可以**預防**。篩檢用 **HbA1c 或 FPG**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "ADA（Harrison Table 415-2）",
+            "台灣 2022 指引（First Choice）"
+          ],
+          "rows": [
+            [
+              "**一般民眾**",
+              "**≥ 35 歲**開始，**每 3 年**",
+              "**≥ 40 歲每 3 年**；**≥ 65 歲每年**"
+            ],
+            [
+              "**提早篩檢**",
+              "**過重**（BMI ≥ 25；**亞裔 ≥ 23**）＋**任一**危險因子",
+              "符合**兩項以上**危險因子 → 篩檢；正常者至少每 3 年"
+            ],
+            [
+              "**危險因子**",
+              "一等親糖尿病、高風險族裔、**高血壓 ≥ 130/80**、**HDL < 35 或 TG > 250**、**PCOS 或黑色棘皮症**、心血管疾病、缺乏運動",
+              "**BMI ≥ 24 或腰圍 ≥ 90/80 cm**、一等親糖尿病、**高血壓 ≥ 140/90**（或服藥）、胰島素阻抗表現（重度肥胖、黑色棘皮症）、**HDL < 35 或 TG ≥ 250**、PCOS、曾有妊娠糖尿病、心血管疾病"
+            ],
+            [
+              "**糖尿病前期者**",
+              "（IFG、IGT、HbA1c 5.7–6.4%）**每年**",
+              "IGT、IFG、HbA1c 5.7–6.4% 者建議篩檢，正常者每年再測"
+            ],
+            [
+              "**曾有妊娠糖尿病**",
+              "**至少每 3 年**（終身）",
+              "列為危險因子"
+            ],
+            [
+              "**特殊族群**",
+              "HIV 用藥、**第二代抗精神病藥、類固醇**；**胰臟炎後 3–6 個月內**；**囊性纖維化（10 歲起，用 OGTT）**；**器官移植後（用 OGTT）**",
+              "台灣糖尿病風險評估公式（年齡、性別、腰圍、BMI、血壓藥、家族史）：低風險每年、中高風險至少每 3 年"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "3240-3241"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊（轉引中華民國糖尿病學會 2022 指引）",
+          "pages": "278"
+        }
+      ]
+    },
+    {
+      "title": "分類：第一型、第二型與其他類型",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**分類是依「造成高血糖的致病過程」**（Table 415-1）：\n- **第一型**：**自體免疫破壞 β 細胞** → 通常**絕對**胰島素缺乏\n- **第二型**：從「以**胰島素阻抗**為主、相對缺乏」到「以**分泌缺陷**為主、合併阻抗」的一群異質性疾病\n- **其他特定類型**：單基因、胰臟外分泌疾病、內分泌疾病、藥物、感染等\n- **妊娠糖尿病（GDM）**：懷孕**第 2、3 孕期**出現的葡萄糖耐受不良"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "第一型",
+            "第二型"
+          ],
+          "rows": [
+            [
+              "**機轉**",
+              "自體免疫破壞 β 細胞（**CD8 T 細胞**為主）→ 絕對缺乏",
+              "**胰島素阻抗＋β 細胞代償失敗**＋肝臟製糖增加"
+            ],
+            [
+              "**發病**",
+              "任何年齡；**最多 40% 在 30 歲後**發病（常被誤診成第二型）；兒童常**急性發作，25–50% 以 DKA 表現**",
+              "多為較年長者，但**年輕化**；常有很長的**無症狀期**"
+            ],
+            [
+              "**體型**",
+              "傳統上偏瘦，但**現在很多新發病者過重或肥胖**",
+              "**約 80% 肥胖**（尤其腹部、內臟）；**老人與南亞、東亞人可能偏瘦**"
+            ],
+            [
+              "**抗體**",
+              "胰島細胞抗體（**GAD、IA-2、ZnT8、insulin**）：新診斷者 **> 85%** 陽性",
+              "陰性（若陽性 → 想到成人自體免疫糖尿病）"
+            ],
+            [
+              "**C-peptide**",
+              "低（但很多人長期仍有少量分泌）",
+              "正常～偏高"
+            ],
+            [
+              "**遺傳**",
+              "**HLA**（DR3-DQ2、DR4-DQ8）佔約 50% 遺傳風險；同卵雙胞胎一致率 **30–70%**；**> 80% 病人沒有家族史**",
+              "**遺傳性更強**：同卵雙胞胎一致率 **70–90%**；**父母都有 → 風險近 70%**"
+            ],
+            [
+              "**合併其他自體免疫**",
+              "自體免疫甲狀腺病、Addison 病、惡性貧血、乳糜瀉、白斑",
+              "胰島素阻抗相關：高血壓、血脂異常、PCOS、心血管疾病"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "其他類型（Table 415-1 精選）",
+            "重點"
+          ],
+          "rows": [
+            [
+              "**單基因糖尿病（MODY）**",
+              "**體染色體顯性**、**< 25 歲**發病、**胰島素分泌缺陷**；**HNF-1α（MODY 3）對 SU 有效**（有人原本被當成第一型，改 SU 後停掉胰島素）；**HNF-1β**：需胰島素，合併**腎囊腫**；**Glucokinase**：輕度**穩定**高血糖，**通常不需治療**（設定點改變）"
+            ],
+            [
+              "**新生兒糖尿病**（< 6 個月）",
+              "K-ATP 通道活化突變（Kir6.2、ABCC8）→ **可用 SU 治療而停掉胰島素**；**< 6 個月發病一定要做基因檢測**"
+            ],
+            [
+              "**胰臟外分泌疾病（3c 型）**",
+              "胰臟炎、胰臟切除、腫瘤、**囊性纖維化（近 50%）**、血色素沉著症；**胰島素與升糖素都缺** → **首選胰島素**；**胰臟炎後要篩檢**；**新發第二型糖尿病與胰臟癌有關聯**"
+            ],
+            [
+              "**內分泌疾病**",
+              "**肢端肥大症、Cushing、升糖素瘤、嗜鉻細胞瘤、甲亢**、體抑素瘤、醛固酮瘤"
+            ],
+            [
+              "**藥物**",
+              "**類固醇**、calcineurin 與 mTOR 抑制劑（移植後）、**thiazide**、**statin**、**第二代抗精神病藥**、HIV 藥物、β 致效劑、PCSK9 抑制劑、pentamidine、niacin、α-interferon"
+            ],
+            [
+              "**免疫檢查點抑制劑相關**",
+              "anti-PD-1 / PD-L1（± anti-CTLA-4），**< 1%**；**快速發作、常以 DKA 表現**，**需要胰島素**"
+            ],
+            [
+              "**成人自體免疫糖尿病（LADA）**",
+              "外觀像第二型、一開始不需胰島素，但**有自體抗體（GAD 等）**；Harrison：佔第二型外觀者 **5–10%**，**5 年內**較可能需要胰島素"
+            ],
+            [
+              "**易酮酸型（ketosis-prone）**",
+              "以 **DKA** 發病但**沒有自體抗體**，治療後胰島素分泌恢復，**數週至數月後可停胰島素**；多為非裔、亞裔"
+            ],
+            [
+              "**妊娠糖尿病（GDM）**",
+              "**第一孕期**就診斷的糖尿病 → 歸為**孕前糖尿病**而非 GDM；產後多恢復，但 **10–20 年內 35–60%** 發生糖尿病 → **終身每 3 年篩檢**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**First Choice 補充：LADA 診斷三要素**（Immunology of Diabetes Society）：① **成人發病（通常 > 30 歲）**；② 至少一種第一型相關**自體抗體**（anti-GAD65、IA-2A、IAA、ICA512）；③ **診斷後 6 個月內未使用胰島素**。\n**國考題型（106 年）**：type A insulin resistance、leprechaunism、Rabson-Mendenhall 都是**胰島素作用缺陷（阻抗）**；**IPF-1 突變（MODY 4）是分泌不足**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "3238-3239、3242-3247"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "280-281、306"
+        }
+      ]
+    },
+    {
+      "title": "血糖恆定與胰島素分泌：藥物機轉的基礎",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**血糖 = 進來（飲食＋肝臟製糖）− 出去（周邊組織利用）**，**胰島素是最重要的調節者**。\n- **空腹時**：胰島素低、升糖素略升 → **肝臟糖質新生＋肝醣分解** → 維持血糖；肌肉、脂肪少用葡萄糖。\n- **飯後**：胰島素升、升糖素降 → **骨骼肌**吸收大部分飯後葡萄糖（胰島素依賴，**GLUT4**）；**大腦用葡萄糖不需胰島素**。\n- 糖尿病人的**升糖素在空腹與飯後都不當升高** → 肝臟過度製糖。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/diabetes-mellitus/h415-4.png",
+          "label": "Harrison's 22e Fig. 415-4",
+          "caption": "葡萄糖刺激胰島素分泌的機轉",
+          "explain": "**【怎麼看】**從左下往上：葡萄糖經 **GLUT** 進入 β 細胞 → **葡萄糖激酶（glucokinase，速率決定步驟）**磷酸化 → 糖解、粒線體產生 **ATP** → ATP/ADP 上升**關閉 ATP 敏感性鉀通道（K-ATP，由 SUR＋Kir6.2 組成）** → 細胞**去極化** → **電位型鈣通道打開、鈣流入** → 分泌顆粒釋出 **insulin、C-peptide、IAPP（amylin）**。右側：**腸泌素（GLP-1、GIP）**經 cAMP **放大**分泌。\n**【考點】**畫底線的步驟突變會造成**單基因糖尿病**。**SU 與 glinide 結合 SUR → 直接關 K-ATP**（所以**不管血糖高低都會刺激分泌 → 會低血糖**）；**腸泌素只在血糖高於空腹值時才有作用 → GLP-1RA、DPP-4i 本身不易低血糖**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "生理步驟",
+            "臨床意義"
+          ],
+          "rows": [
+            [
+              "**前胰島素原 → 胰島素原 → 胰島素＋C-peptide**",
+              "**C-peptide 無生理活性**、與胰島素**等量分泌**、**清除較慢** → 用來評估**內生性胰島素**、區分**內生 vs 外源性胰島素**（低血糖鑑別，見（三））"
+            ],
+            [
+              "**兩相分泌**",
+              "快速的**第一相**＋持續的第二相；**第一相分泌受損是兩型糖尿病最早的異常之一**"
+            ],
+            [
+              "**IAPP（amylin）**",
+              "與胰島素共同分泌；**第二型胰島的類澱粉沉積主成分**；其類似物 **pramlintide** 用於治療"
+            ],
+            [
+              "**經門脈先到肝臟**",
+              "**約 50%** 在第一次通過肝臟被清除 → 門脈：周邊濃度約 **2:1**；**打的胰島素直接進體循環** → 肝臟受到的胰島素偏低，需更高周邊濃度才能壓住肝臟製糖"
+            ],
+            [
+              "**胰島素訊息**",
+              "受體酪胺酸激酶 → IRS → **PI3-kinase** → **GLUT4 移到細胞膜**（肌肉、脂肪攝取葡萄糖）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考題型**\n- **110 年**：「胰島素經門脈後約 **90%** 被肝臟分解」→ **錯**（約 50%）；「胰島素最具活性的部分是 C-peptide」→ **錯**；「肝臟是葡萄糖**消耗**最主要器官」→ **錯**（飯後主要由骨骼肌利用）。\n- **113 年**：正常空腹血糖下限是 **70**，不是 50 mg/dL。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "3241-3242"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "304-305"
+        }
+      ]
+    },
+    {
+      "title": "第一型糖尿病的致病機轉",
+      "content": [
+        {
+          "type": "figure",
+          "src": "figures/diabetes-mellitus/h415-5.png",
+          "label": "Harrison's 22e Fig. 415-5",
+          "caption": "第一型糖尿病發展的時間模型與分期",
+          "explain": "**【怎麼看】**縱軸是 β 細胞量。有**遺傳易感性**的人遇到**免疫觸發** → 出現自體免疫異常 → β 細胞量逐漸下降 → 降到某個閾值以下（藍色虛線）才出現**臨床糖尿病**。\n**【考點】****第 1 期**：**≥ 2 種胰島自體抗體**、血糖仍正常；**第 2 期**：抗體＋**血糖異常（dysglycemia）**；**第 3 期**：達到糖尿病診斷標準。≥ 2 種抗體的高風險兒童，**10 年約 70%、15 年 > 80%** 發病。**蜜月期**：發病後 1–2 年胰島素需求減少，之後消失。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "項目",
+            "Harrison 重點"
+          ],
+          "rows": [
+            [
+              "**遺傳**",
+              "主要易感基因在**第 6 對染色體 HLA 區**（class II MHC）：**DR3-DQ2、DR4-DQ8**；另有 > 60 個位點（insulin 基因啟動子、**CTLA-4**、IL-2 受體、**PTPN22**）"
+            ],
+            [
+              "**病理**",
+              "胰島淋巴球浸潤（**insulitis**）；**α、δ、PP 細胞不受破壞**"
+            ],
+            [
+              "**真正的殺手**",
+              "**CD8⁺ T 細胞**直接毒殺；細胞激素（TNF-α、IFN-γ、IL-1）與活性氧；**自體抗體本身不殺 β 細胞**，只是**標記**"
+            ],
+            [
+              "**環境觸發**（未證實）",
+              "病毒（**克沙奇、德國麻疹、腸病毒**）、牛奶蛋白、維生素 D 缺乏等"
+            ],
+            [
+              "**α 細胞異常**",
+              "空腹與飯後**升糖素過高**，但**低血糖時升糖素反應不足**（低血糖風險，見（三））"
+            ],
+            [
+              "**延緩發病**",
+              "**teplizumab**（anti-CD3 單株抗體，14 天療程）讓**第 2 期**進展到第 3 期延後中位數 **32.5 個月**；FDA 核准用於 ≥ 8 歲的第 2 期"
+            ],
+            [
+              "**何時驗抗體**",
+              "成人有**類第一型特徵**（**年輕、DKA、很快需要胰島素**）時"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "3242-3244"
+        }
+      ]
+    },
+    {
+      "title": "第二型糖尿病的致病機轉",
+      "content": [
+        {
+          "type": "figure",
+          "src": "figures/diabetes-mellitus/h415-6.png",
+          "label": "Harrison's 22e Fig. 415-6",
+          "caption": "第二型糖尿病發展過程中的代謝變化",
+          "explain": "**【怎麼看】**橫軸是**胰島素敏感度**、縱軸是**胰島素分泌量**，綠色曲線是「剛好能維持正常血糖」的代償線。\n**A → B**：越來越**胰島素阻抗**，β 細胞**多分泌**來代償 → 血糖仍正常（NGT）。**B → C**：β 細胞**撐不住**、掉到曲線下方 → **IGT**（飯後血糖先升）。**C → D**：分泌持續衰退 → **第二型糖尿病**。\n**【考點】**糖尿病只在「**胰島素分泌不足以應付阻抗程度**」時才發生；**發病時 β 細胞功能已少約 50%**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "機轉",
+            "Harrison 重點",
+            "臨床表現"
+          ],
+          "rows": [
+            [
+              "**胰島素阻抗**",
+              "肌肉、肝臟、脂肪對胰島素反應下降（**受體後**缺陷）；肌肉葡萄糖利用少 **30–60%**",
+              "**飯後高血糖**（周邊利用減少）"
+            ],
+            [
+              "**肝臟製糖增加**",
+              "胰島素壓不住**糖質新生**＋升糖素過高",
+              "**空腹高血糖**的主因"
+            ],
+            [
+              "**β 細胞分泌缺陷**",
+              "先是**第一相分泌大減**；胰島素原處理異常；**類澱粉（amylin）沉積**；**糖毒性（glucose toxicity）、脂毒性（lipotoxicity）**",
+              "漸進惡化 → 終究需要多種藥或胰島素；**改善血糖可部分恢復 β 細胞功能**"
+            ],
+            [
+              "**脂肪與發炎**",
+              "內臟脂肪 → **游離脂肪酸↑**、adiponectin（增敏）↓、TNF-α、IL-6；脂肪組織巨噬細胞",
+              "CRP、IL-6 升高"
+            ],
+            [
+              "**肝臟脂質**",
+              "游離脂肪酸湧入肝 → **VLDL-TG ↑**",
+              "**TG↑、HDL↓、小而密 LDL↑**；**MASLD（脂肪肝）**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**First Choice 的「八大惡兆（ominous octet）」**：過去三核心——**肝臟製糖↑、肌肉阻抗、胰島素分泌↓**；再加五個——**腸泌素↓、升糖素↑、脂肪分解（游離脂肪酸↑）、腎臟糖分再吸收↑、腦部神經傳導異常**。\n記法：**每一個惡兆都對應一類藥**——肝（metformin）、肌肉與脂肪（TZD）、β 細胞（SU）、腸泌素（GLP-1RA、DPP-4i）、腎（SGLT2i）、腦（GLP-1RA 抑制食慾）。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "胰島素阻抗症候群",
+            "重點"
+          ],
+          "rows": [
+            [
+              "**代謝症候群**",
+              "胰島素阻抗＋高血壓＋血脂異常（HDL↓、TG↑）＋中心肥胖＋IGT/IFG 或糖尿病＋加速心血管疾病（見下一章）"
+            ],
+            [
+              "**Type A 阻抗**",
+              "**年輕女性**、嚴重高胰島素血症、肥胖、**高雄激素**（訊息傳遞缺陷）"
+            ],
+            [
+              "**Type B 阻抗**",
+              "**中年女性**、高雄激素、**自體免疫疾病**；**抗胰島素受體抗體**（阻斷或刺激 → 可間歇性低血糖）"
+            ],
+            [
+              "**PCOS**",
+              "相當比例有胰島素阻抗；**獨立於肥胖**增加第二型風險"
+            ],
+            [
+              "**脂肪失養症（lipodystrophy）**",
+              "選擇性失去脂肪組織 → 嚴重阻抗＋高三酸甘油脂"
+            ],
+            [
+              "**共同體徵**",
+              "**黑色棘皮症（acanthosis nigricans）**、高雄激素（多毛、痤瘡、月經稀少）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**預防（Harrison）**：糖尿病前期轉介**結構化減重與運動計畫**。**DPP 研究**：IGT 者**生活型態介入（飲食＋每週 5 次、每次 30 分鐘運動，減重 5–7%）降低 58%**；**metformin 降低 31%**；效果持續至少 15 年。其他可預防或延緩的藥：α-glucosidase inhibitor、TZD、GLP-1 相關藥、SGLT2i、orlistat；**GLP-1RA 與 tirzepatide** 因減重效果大正在改變預防策略。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考題型（113 年）**：「第二型病人用了胰島素就變成第一型」→ **錯**，兩者是不同的疾病機制。\n**111 年**：「投與雙胍類（metformin）會引起糖尿病」→ 錯（是治療藥）；**類固醇**可引起類固醇糖尿病。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "3244-3245"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "277、304-305"
+        }
+      ]
+    },
+    {
+      "title": "代謝症候群",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**台灣（國健署）代謝症候群判定：5 項中符合 ≥ 3 項**（First Choice；Harrison 詳見 Ch.420）\n口訣：「**腹部肥胖加三高，血脂有兩項**」"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "項目",
+            "標準"
+          ],
+          "rows": [
+            [
+              "**腹部肥胖**",
+              "腰圍 **男 ≥ 90 cm、女 ≥ 80 cm**"
+            ],
+            [
+              "**血壓偏高**",
+              "**≥ 130/85 mmHg** 或已服降壓藥"
+            ],
+            [
+              "**空腹血糖偏高**",
+              "**≥ 100 mg/dL** 或已服降血糖藥"
+            ],
+            [
+              "**三酸甘油脂偏高**",
+              "**≥ 150 mg/dL**"
+            ],
+            [
+              "**HDL 偏低**",
+              "**男 < 40、女 < 50 mg/dL**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**國考陷阱**\n- **LDL 不是**判定條件之一（112、109 年）。\n- 代謝症候群的 **adiponectin（脂聯素）降低**、**CRP、尿酸升高**（112 年）；**HDL 比一般人低**（111 年）。\n- **BMI 不是判定條件**；台灣 BMI **≥ 24 過重、≥ 27 肥胖**（111 年：BMI 25.6 是「過重」不是「肥胖」）。\n- 瘦素（leptin）由脂肪分泌，**肥胖者瘦素反而高**（瘦素阻抗）。\n- **治療**：減重、運動。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "277、298-301"
+        }
+      ]
+    },
+    {
+      "title": "初診病人怎麼評估",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "步驟",
+            "重點（Harrison Approach to the Patient）"
+          ],
+          "rows": [
+            [
+              "**病史：高血糖症狀**",
+              "**多尿、多渴、體重減輕**、疲倦無力、**視力模糊**（水晶體含水量改變，血糖控制後恢復）、**反覆表淺感染**（陰道炎、皮膚黴菌）、傷口不易癒合"
+            ],
+            [
+              "**病史：其他**",
+              "體重變化、**家族史**、睡眠、心血管危險因子、運動、**抽菸**、**胰臟疾病**、飲酒；已知糖尿病者問：過去用藥與副作用、HbA1c、**低血糖頻率（< 54 mg/dL）**、併發症、**懷孕計畫**（孕前 HbA1c 目標 **< 6.5%**）"
+            ],
+            [
+              "**理學檢查**",
+              "**體重與 BMI**、**視網膜檢查**、**姿勢性血壓**、**足部檢查**、周邊脈搏、**胰島素注射部位**、**牙齒與牙齦**（牙周病較多）"
+            ],
+            [
+              "**年度足部檢查**",
+              "① 血流：**足背脈搏**；② 感覺：**128 Hz 音叉震動覺（大拇趾根部）**、**10 g 單股纖維**、針刺覺、**踝反射**、指甲；③ 變形：**槌狀趾、爪狀趾、Charcot 足**；④ 可能潰瘍處 → 找出**保護性感覺喪失（LOPS）**"
+            ],
+            [
+              "**神經病變篩檢時機**",
+              "遠端對稱性多發神經病變：**第二型診斷時、第一型 5 年後**，每年；自律神經病變：**第二型診斷時、第一型 5 年後**"
+            ],
+            [
+              "**檢驗**",
+              "確認診斷 → 評估血糖控制（HbA1c）→ 篩檢相關疾病：**白蛋白尿、血脂、甲狀腺功能**"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "怎麼分型？",
+            "內容"
+          ],
+          "rows": [
+            [
+              "**提示第一型**",
+              "**< 35 歲**、非肥胖、**DKA**、診斷時血糖**非常高**、本人或家族**其他自體免疫病**（甲狀腺、腎上腺不全、惡性貧血、乳糜瀉、白斑）→ **驗胰島自體抗體**"
+            ],
+            [
+              "**提示第二型**",
+              "肥胖（但亞洲人、老人可瘦）、一開始不需胰島素、合併胰島素阻抗相關疾病；**腹部肥胖＋高三酸甘油脂**"
+            ],
+            [
+              "**提示單基因**",
+              "兒童或年輕成人發病、**< 6 個月發病**、**體染色體顯性家族史**、不像第一型也不像第二型、**穩定輕度空腹高血糖**"
+            ],
+            [
+              "**C-peptide**",
+              "**一定要和當下血糖一起解讀**；血糖高時 C-peptide 低 → 需要胰島素；但**無法完全區分**第一型與第二型（很多第一型仍有殘存分泌）"
+            ],
+            [
+              "**First Choice：升糖素刺激試驗**",
+              "符合任一 → 第一型：**空腹 C-peptide < 0.5 ng/mL**、**注射 glucagon 1 mg 6 分鐘後 C-peptide < 1.8 ng/mL**、**前後差 < 0.7 ng/mL**"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "3246-3247"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "279"
+        }
+      ]
+    },
+    {
+      "title": "臨床題練習",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**每題都照這個順序想**：① **符不符合診斷標準？需不需要重測？** ② **是哪一型？**（年齡、體型、DKA、抗體、C-peptide、家族史） ③ **有沒有次發原因？**（藥物、胰臟、內分泌） ④ **有沒有併發症或相關疾病？** ⑤ 治療見（二）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：45 歲男性健檢 FPG 132 mg/dL、HbA1c 6.1%，沒有症狀。可以診斷糖尿病嗎？",
+          "text": "**答：還不能，要重測 FPG。**\n- FPG 達標（≥ 126）、HbA1c 未達（6.1% 屬前期）→ **只有一項符合**\n- 依規則：**另日重測達標的那一項（FPG）**；若再 ≥ 126 → 確診\n- 不論結果，HbA1c 6.0–6.5% 者 5 年內 25.5% 進展 → 生活型態介入"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：28 歲女性 BMI 21，3 週來多尿、口渴、瘦 5 公斤，急診血糖 480、pH 7.18、血酮陽性。有甲狀腺低下病史。分型與下一步？",
+          "text": "**答：最可能第一型糖尿病，以 DKA 發病。**\n- 年輕、瘦、**DKA**、**合併自體免疫甲狀腺病** → 第一型特徵\n- 先處理 DKA（見（三））\n- 驗**胰島自體抗體（GAD、IA-2、ZnT8、insulin）**確認；C-peptide 要配合當下血糖解讀\n- 第一型病人**很多 > 30 歲才發病**，別因成人就當第二型"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：40 歲男性，診斷第二型糖尿病 2 年，口服藥控制越來越差，BMI 22，抗 GAD 抗體陽性。這是什麼？",
+          "text": "**答：成人自體免疫糖尿病（LADA）。**\n- 外觀像第二型、一開始不需胰島素，但**自體抗體陽性**\n- Harrison：第二型外觀者 5–10% 有抗體，**5 年內較可能需要胰島素**\n- First Choice 三要素：成人發病、≥ 1 種抗體、診斷後 6 個月內未用胰島素\n- 處理：不要拖延胰島素"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：22 歲女性輕度高血糖（FPG 115–125）多年不變，母親與外祖父也有「輕微糖尿病」，抗體陰性。最可能？處理？",
+          "text": "**答：Glucokinase 突變的單基因糖尿病（MODY 2）。**\n- **體染色體顯性**家族史＋**穩定輕度空腹高血糖**＋抗體陰性\n- 葡萄糖激酶是 β 細胞的**血糖感測器** → 突變使分泌**設定點變高**\n- **口服藥無效，通常不需要治療**（懷孕時可能例外）→ 做基因檢測\n- 對比：**HNF-1α（MODY 3）對 SU 很敏感**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：65 歲男性，以往血糖正常，6 個月內新診斷糖尿病，同時體重減輕 8 公斤、上腹悶痛。要想到什麼？",
+          "text": "**答：胰臟癌（胰臟疾病相關糖尿病）。**\n- Harrison：**新發第二型糖尿病與胰臟癌有關聯**；胰臟疾病造成的糖尿病（3c 型）**胰島素與升糖素都缺**\n- 老年、非肥胖、合併**體重減輕**與腹痛的新發糖尿病不典型 → 要把**胰臟癌**放進鑑別診斷\n- 3c 型首選**胰島素**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：38 歲女性，腰圍 85 cm、血壓 132/86、FPG 104、TG 180、HDL 52。是代謝症候群嗎？",
+          "text": "**答：是（符合 4 項）。**\n- 腰圍 85 ≥ 80（女）✔；血壓 ≥ 130/85 ✔；FPG ≥ 100 ✔；TG ≥ 150 ✔；HDL 52（女要 < 50）✘\n- **≥ 3 項即成立**\n- 同時 FPG 104 屬 **IFG（糖尿病前期）** → 減重 5–7%、運動，每年追蹤血糖"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "必背"
+          ],
+          "rows": [
+            [
+              "診斷",
+              "HbA1c ≥ 6.5%｜FPG ≥ 126｜OGTT 2h ≥ 200｜隨機 ≥ 200＋症狀；無症狀要**另日重測**"
+            ],
+            [
+              "前期",
+              "HbA1c 5.7–6.4%｜IFG 100–125｜IGT 140–199"
+            ],
+            [
+              "篩檢",
+              "ADA ≥ 35 歲每 3 年；亞裔 BMI ≥ 23＋危險因子｜台灣 ≥ 40 歲每 3 年、≥ 65 歲每年"
+            ],
+            [
+              "第一型",
+              "HLA DR3/DR4；抗體 GAD、IA-2、ZnT8、insulin；CD8 T 細胞；分期 1（≥ 2 抗體）→ 2（血糖異常）→ 3（糖尿病）"
+            ],
+            [
+              "第二型",
+              "阻抗＋β 細胞代償失敗；空腹高血糖＝肝臟製糖；飯後高血糖＝周邊利用↓；發病時 β 功能剩約 50%"
+            ],
+            [
+              "MODY",
+              "AD、< 25 歲；HNF-1α → SU 有效；GCK → 不用治療；HNF-1β → 腎囊腫"
+            ],
+            [
+              "代謝症候群",
+              "5 中 3：腰圍 90/80、BP 130/85、FPG 100、TG 150、HDL 40/50；**LDL 不是條件**"
+            ],
+            [
+              "預防",
+              "DPP：生活型態 −58%、metformin −31%"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "3238-3247"
+        }
+      ]
+    }
   ]
 }
