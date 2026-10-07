@@ -22,6 +22,10 @@
     {
       "id": "anemia-megaloblastic",
       "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"
+    },
+    {
+      "id": "anemia-marrow-failure",
+      "name": "Anemia (五)：急性失血與骨髓衰竭"
     }
   ],
   "sections": [

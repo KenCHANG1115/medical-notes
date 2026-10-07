@@ -126,6 +126,10 @@
         {
           "id": "anemia-hemolytic",
           "name": "Anemia (四)：溶血性貧血"
+        },
+        {
+          "id": "anemia-marrow-failure",
+          "name": "Anemia (五)：急性失血與骨髓衰竭"
         }
       ]
     },
