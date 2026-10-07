@@ -390,5 +390,5 @@
       ]
     }
   ],
-  "related": [{"id": "anemia-overview", "name": "Anemia (一)：總論與診斷架構"}]
+  "related": [{"id": "anemia-overview", "name": "Anemia (一)：總論與診斷架構"}, {"id": "anemia-megaloblastic", "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"}]
 }
