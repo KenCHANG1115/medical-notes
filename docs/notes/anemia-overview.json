@@ -298,5 +298,5 @@
       ]
     }
   ],
-  "related": [{"id": "anemia-microcytic", "name": "Anemia (二)：小球性貧血與血紅素疾病"}, {"id": "anemia-megaloblastic", "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"}]
+  "related": [{"id": "anemia-microcytic", "name": "Anemia (二)：小球性貧血與血紅素疾病"}, {"id": "anemia-megaloblastic", "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"}, {"id": "anemia-hemolytic", "name": "Anemia (四)：溶血性貧血"}]
 }

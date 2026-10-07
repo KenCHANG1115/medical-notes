@@ -26,6 +26,10 @@
     {
       "id": "dm-treatment",
       "name": "Diabetes (二)：治療——藥物、胰島素與住院血糖"
+    },
+    {
+      "id": "anemia-hemolytic",
+      "name": "Anemia (四)：溶血性貧血"
     }
   ],
   "sections": [

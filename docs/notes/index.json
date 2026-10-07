@@ -122,6 +122,10 @@
         {
           "id": "anemia-megaloblastic",
           "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"
+        },
+        {
+          "id": "anemia-hemolytic",
+          "name": "Anemia (四)：溶血性貧血"
         }
       ]
     },
