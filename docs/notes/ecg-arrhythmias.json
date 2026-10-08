@@ -29,6 +29,10 @@
     {
       "id": "oncall-potassium-disorders",
       "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+    },
+    {
+      "id": "ihd-stemi",
+      "name": "冠心症 (三)：ST 上升心肌梗塞與併發症"
     }
   ],
   "sections": [

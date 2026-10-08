@@ -22,6 +22,18 @@
         {
           "id": "ecg-ventricular",
           "name": "ECG (四)：心室性心律不整與猝死"
+        },
+        {
+          "id": "ihd-stable",
+          "name": "冠心症 (一)：冠狀動脈疾病與穩定型心絞痛"
+        },
+        {
+          "id": "ihd-acs-nste",
+          "name": "冠心症 (二)：急性冠心症的診斷與 NSTE-ACS"
+        },
+        {
+          "id": "ihd-stemi",
+          "name": "冠心症 (三)：ST 上升心肌梗塞與併發症"
         }
       ]
     },
