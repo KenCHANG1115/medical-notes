@@ -34,6 +34,10 @@
         {
           "id": "ihd-stemi",
           "name": "冠心症 (三)：ST 上升心肌梗塞與併發症"
+        },
+        {
+          "id": "hf-diagnosis",
+          "name": "Heart Failure (一)：定義、病生理與診斷"
         }
       ]
     },

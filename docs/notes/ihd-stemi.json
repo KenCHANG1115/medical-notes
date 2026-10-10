@@ -30,6 +30,10 @@
     {
       "id": "ecg-ventricular",
       "name": "ECG (四)：心室性心律不整與猝死"
+    },
+    {
+      "id": "hf-diagnosis",
+      "name": "Heart Failure (一)：定義、病生理與診斷"
     }
   ],
   "sections": [
