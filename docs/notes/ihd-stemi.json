@@ -34,6 +34,10 @@
     {
       "id": "hf-diagnosis",
       "name": "Heart Failure (一)：定義、病生理與診斷"
+    },
+    {
+      "id": "hf-hfpef-acute",
+      "name": "Heart Failure (三)：HFpEF、急性失代償與心因性休克"
     }
   ],
   "sections": [

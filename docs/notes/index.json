@@ -42,6 +42,10 @@
         {
           "id": "hf-hfref-treatment",
           "name": "Heart Failure (二)：HFrEF 的慢性治療"
+        },
+        {
+          "id": "hf-hfpef-acute",
+          "name": "Heart Failure (三)：HFpEF、急性失代償與心因性休克"
         }
       ]
     },
