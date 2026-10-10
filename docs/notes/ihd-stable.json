@@ -34,6 +34,10 @@
     {
       "id": "dm-complications",
       "name": "Diabetes (三)：急慢性併發症與低血糖"
+    },
+    {
+      "id": "dyslipidemia",
+      "name": "Dyslipidemia (高血脂)"
     }
   ],
   "sections": [
@@ -645,7 +649,7 @@
         {
           "type": "callout",
           "style": "guideline",
-          "text": "**高血脂（重點；詳細另寫一篇）**\n**Harrison**：statin 幾乎都需要——LDL ↓ **25–50%**、HDL ↑ 5–9%、TG ↓ 5–30%；**效果與治療前 LDL 高低無關**；最大耐受 statin 下 **LDL ≥ 70 mg/dL → 加 ezetimibe** → 極高風險仍未達標 → **PCSK9 抑制劑** → 都不夠或不耐受 → **bempedoic acid**；降 TG 的藥中**只有 icosapent ethyl**在 statin 時代證實降低心血管風險。\n**補充（2023 AHA/ACC CCD）**：\n- **高強度 statin，目標 LDL 降低 ≥ 50%**（1）；不耐受 → 中強度，降 30–49%（1）\n- 開始或調整後 **4–12 週驗空腹血脂**，之後每 3–12 個月（1）\n- **極高風險**＋最大耐受 statin 下 LDL ≥ 70 → **ezetimibe**（2a）→ 仍 LDL ≥ 70 或 non-HDL ≥ 100 → **PCSK9 單株抗體**（2a）\n- 極高風險 = **多次重大 ASCVD 事件**，或 **1 次重大事件＋≥ 2 個高風險狀況**（重大事件：12 個月內急性冠心症、心梗病史、缺血性中風、有症狀周邊動脈疾病；高風險狀況：≥ 65 歲、家族性高膽固醇血症、曾 CABG 或 PCI、糖尿病、高血壓、CKD eGFR 15–59、抽菸、statin＋ezetimibe 下 LDL 仍 ≥ 100、心衰竭）\n- **niacin、fenofibrate、魚油補充品加在 statin 上無益**（3）"
+          "text": "**高血脂（重點；詳見 Dyslipidemia 筆記）**\n**更新**：**2026 ACC/AHA 血脂指引**已取代 2018 年版，重新採用 LDL 目標值——**ASCVD 非極高風險 < 70、極高風險 < 55（non-HDL < 85）**；下方 2023 CCD 的加藥門檻仍可參考。\n**Harrison**：statin 幾乎都需要——LDL ↓ **25–50%**、HDL ↑ 5–9%、TG ↓ 5–30%；**效果與治療前 LDL 高低無關**；最大耐受 statin 下 **LDL ≥ 70 mg/dL → 加 ezetimibe** → 極高風險仍未達標 → **PCSK9 抑制劑** → 都不夠或不耐受 → **bempedoic acid**；降 TG 的藥中**只有 icosapent ethyl**在 statin 時代證實降低心血管風險。\n**補充（2023 AHA/ACC CCD）**：\n- **高強度 statin，目標 LDL 降低 ≥ 50%**（1）；不耐受 → 中強度，降 30–49%（1）\n- 開始或調整後 **4–12 週驗空腹血脂**，之後每 3–12 個月（1）\n- **極高風險**＋最大耐受 statin 下 LDL ≥ 70 → **ezetimibe**（2a）→ 仍 LDL ≥ 70 或 non-HDL ≥ 100 → **PCSK9 單株抗體**（2a）\n- 極高風險 = **多次重大 ASCVD 事件**，或 **1 次重大事件＋≥ 2 個高風險狀況**（重大事件：12 個月內急性冠心症、心梗病史、缺血性中風、有症狀周邊動脈疾病；高風險狀況：≥ 65 歲、家族性高膽固醇血症、曾 CABG 或 PCI、糖尿病、高血壓、CKD eGFR 15–59、抽菸、statin＋ezetimibe 下 LDL 仍 ≥ 100、心衰竭）\n- **niacin、fenofibrate、魚油補充品加在 statin 上無益**（3）"
         },
         {
           "type": "callout",

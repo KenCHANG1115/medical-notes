@@ -26,6 +26,10 @@
     {
       "id": "dm-complications",
       "name": "Diabetes (三)：急慢性併發症與低血糖"
+    },
+    {
+      "id": "dyslipidemia",
+      "name": "Dyslipidemia (高血脂)"
     }
   ],
   "sections": [
@@ -777,7 +781,7 @@
         {
           "type": "callout",
           "style": "trap",
-          "text": "**LDL 目標的差異**：Harrison（歐洲 ESC 架構）寫**目標 LDL < 55 mg/dL**；2025 ACC/AHA 的寫法是**門檻**——**≥ 70 一定加藥（1）、55–69 加藥合理（2a）**。兩者方向一致，考題寫法依出處而定。\n**FC 長期治療**（書中整理）：β 阻斷劑、aspirin 與 P2Y12 抑制劑、**statin（診斷時馬上給）**、**ACEI（一週內給）**可穩定斑塊、減少心臟重塑。"
+          "text": "**LDL 目標的差異**：Harrison（歐洲 ESC 架構）寫**目標 LDL < 55 mg/dL**；2025 ACC/AHA 的寫法是**門檻**——**≥ 70 一定加藥（1）、55–69 加藥合理（2a）**。兩者方向一致，考題寫法依出處而定。**2026 ACC/AHA 血脂指引**更進一步：**極高風險 ASCVD 目標 LDL < 55、non-HDL < 85（1）**（詳見 Dyslipidemia 筆記）。\n**FC 長期治療**（書中整理）：β 阻斷劑、aspirin 與 P2Y12 抑制劑、**statin（診斷時馬上給）**、**ACEI（一週內給）**可穩定斑塊、減少心臟重塑。"
         },
         {
           "type": "source",
