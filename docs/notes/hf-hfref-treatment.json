@@ -1,0 +1,987 @@
+{
+  "id": "hf-hfref-treatment",
+  "title": "Heart Failure (二)：HFrEF 的慢性治療",
+  "title_en": "Heart Failure Management: Chronic HFrEF",
+  "title_zh": "心衰竭（二）：HFrEF 的藥物、裝置、手術與長期照護",
+  "specialty": "心臟內科",
+  "sources": [
+    "Harrison's 22e - Ch.265 Heart Failure: Management — HFrEF 部分 (p.2035-2043)",
+    "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 I–L、N (p.256-262)；考題 (p.262-271)",
+    "補充：2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (Heidenreich PA et al. JACC 2022;79:e263-e421)——於 jacc.org 全文閱讀"
+  ],
+  "generated": "2026-10-11",
+  "related": [
+    {
+      "id": "hf-diagnosis",
+      "name": "Heart Failure (一)：定義、病生理與診斷"
+    },
+    {
+      "id": "ihd-stemi",
+      "name": "冠心症 (三)：ST 上升心肌梗塞與併發症"
+    },
+    {
+      "id": "ecg-svt-af",
+      "name": "ECG (三)：上心室性心搏過速與心房顫動"
+    },
+    {
+      "id": "ecg-ventricular",
+      "name": "ECG (四)：心室性心律不整與猝死"
+    },
+    {
+      "id": "dm-treatment",
+      "name": "Diabetes (二)：治療——藥物、胰島素與住院血糖"
+    }
+  ],
+  "sections": [
+    {
+      "title": "總覽：HFrEF 治療的邏輯",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**從「利尿與強心」到「阻斷神經荷爾蒙」**（Harrison）\n- 過去以腎臟為中心（**利尿劑**）與血行動力為中心（**毛地黃、強心劑**）——**改善症狀，但不延長壽命**\n- 現在的支柱是**疾病修飾治療**：**RAAS 抑制（含 ARNI）、β 阻斷劑、MRA、SGLT2 抑制劑**——穩定甚至**改善心臟結構與功能**，減少住院、**降低幫浦衰竭與心律不整造成的死亡**\n- 再加上**裝置**（ICD、CRT）、適當病人的**手術或介入**，以及**多專業的長期照護**\n- FC：**目標是 GDMT（guideline-directed medical therapy）調到最大耐受劑量**；**住院期間是調藥最好的時機**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hf-hfref-treatment/h265-3.png",
+          "label": "Harrison's 22e Fig. 265-3",
+          "caption": "HFrEF 治療讓死亡率逐步下降",
+          "explain": "**【怎麼看】**縱軸是死亡風險。左半邊曲線**一路往下**：安慰劑 → **ACEI／ARB** → **β 阻斷劑（carvedilol、metoprolol succinate、bisoprolol）** → **MRA** → **ARNI（取代 ACEI／ARB）** → **SGLT2 抑制劑** → vericiguat → omecamtiv mecarbil（後兩者主要減少住院）。右半邊**再往上**：**endothelin 拮抗劑、xamoterol、moxonidine、口服強心劑** → 疊加更多神經荷爾蒙阻斷**無效或有害**。上方方框：**無效的輔助治療**（貧血用 EPO、無高風險特徵時用 warfarin 或低劑量 rivaroxaban、SSRI、statin、**中樞型睡眠呼吸中止用 ASV（增加死亡）**）；**可能有效**（omega-3、補鐵）；**特殊族群**（hydralazine／isosorbide、ivabradine）。\n**【考點】****四大支柱都降低死亡**；**其他「看起來合理」的藥常常無效甚至有害**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "治療（補充：2022 AHA/ACC/HFSA Table 15）",
+            "全死因相對減少",
+            "NNT（標準化 36 個月）"
+          ],
+          "rows": [
+            [
+              "**ACEI 或 ARB**",
+              "17%",
+              "26"
+            ],
+            [
+              "**ARNI**（相較 ACEI 再多的部分）",
+              "16%",
+              "27"
+            ],
+            [
+              "**β 阻斷劑**",
+              "**34%**",
+              "9"
+            ],
+            [
+              "**MRA**",
+              "**30%**",
+              "**6**"
+            ],
+            [
+              "**SGLT2 抑制劑**",
+              "17%",
+              "22"
+            ],
+            [
+              "**Hydralazine＋nitrate**（非裔美國人）",
+              "43%",
+              "7"
+            ],
+            [
+              "**CRT**",
+              "36%",
+              "8"
+            ],
+            [
+              "**ICD**",
+              "23%",
+              "23"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**補充（2022 AHA/ACC/HFSA）：非藥物治療**\n- **多專業團隊照護**（1, A）、**自我照護衛教**（1）\n- **呼吸道疫苗**（流感等）降低死亡（2a）；篩檢**憂鬱、社會孤立、衰弱、健康識能**（2a）\n- **避免攝取過多鈉**以減少鬱血症狀（2a）——指引**沒有給明確的限鈉數字**\n- **規律運動或運動訓練**改善功能與生活品質（1, A）；**心臟復健**（2a）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2035-2036"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "262"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "7.1 Nonpharmacological Interventions；Table 15"
+        }
+      ]
+    },
+    {
+      "title": "利尿劑：緩解鬱血，但不延長壽命",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "重點（Harrison＋FC）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "**角色**",
+              "神經荷爾蒙活化 → **強烈水鈉滯留**；**有症狀的心衰竭通常需要利尿劑**緩解鬱血，再開始並調高神經荷爾蒙藥物；**沒有資料顯示改善存活**；而且**loop 利尿劑會增加神經荷爾蒙活化** → **劑量盡量用最低有效量**"
+            ],
+            [
+              "**首選**",
+              "**Loop 利尿劑**（排鈉最強）；口服吸收不穩定、腎功能波動 → 常需調整劑量"
+            ],
+            [
+              "**利尿阻抗**",
+              "高劑量 furosemide 無效 → 換 **torsemide 或 bumetanide**（口服生體可用率較高，但最近研究**沒有證實比 furosemide 好**）；**合併 thiazide（metolazone）**做**序列腎元阻斷**，但要小心**嚴重低血鉀**"
+            ],
+            [
+              "**副作用（FC）**",
+              "**低血鉀、低血鈣、高尿酸**；loop 利尿劑是 sulfa 衍生物，但對其他 sulfa 藥過敏者使用**很少**交叉過敏"
+            ],
+            [
+              "**靜脈 furosemide（FC）**",
+              "除了利尿，注射後**數分鐘內擴張靜脈 → 減少前負荷**，緩解急性肺水腫"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "口服利尿劑（補充：2022 Table 12）",
+            "起始每日劑量",
+            "每日最大劑量",
+            "作用時間"
+          ],
+          "rows": [
+            [
+              "**Furosemide**",
+              "20–40 mg 每天 1–2 次",
+              "600 mg",
+              "6–8 小時"
+            ],
+            [
+              "**Bumetanide**",
+              "0.5–1.0 mg 每天 1–2 次",
+              "10 mg",
+              "4–6 小時"
+            ],
+            [
+              "**Torsemide**",
+              "10–20 mg 每天 1 次",
+              "200 mg",
+              "12–16 小時"
+            ],
+            [
+              "**Metolazone**",
+              "2.5 mg 每天 1 次",
+              "20 mg",
+              "12–24 小時"
+            ],
+            [
+              "**Hydrochlorothiazide**",
+              "25 mg 每天 1–2 次",
+              "200 mg",
+              "6–12 小時"
+            ],
+            [
+              "**Chlorthalidone**",
+              "12.5–25 mg 每天 1 次",
+              "100 mg",
+              "24–72 小時"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**補充（2022 AHA/ACC/HFSA）**\n- **有水分滯留 → 利尿劑**緩解鬱血、改善症狀、預防惡化（1）\n- **加 thiazide（如 metolazone）只留給中高劑量 loop 利尿劑無效者**，以減少電解質異常（1）"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 111 年**：正確的是「**furosemide 可能導致低血鈣或高尿酸**」；錯誤：避免 carvedilol（**carvedilol 降低死亡**）、**ACEI 是孕婦心衰竭首選**（**懷孕禁用**）、CCB 降低心衰竭死亡（**沒有**）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2039"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "258、268"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "7.2 Diuretics (Table 12)"
+        }
+      ]
+    },
+    {
+      "title": "RAAS 抑制：ACEI、ARB、ARNI",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "藥物（Harrison＋FC）",
+            "重點"
+          ],
+          "rows": [
+            [
+              "**ACEI**",
+              "統合分析：**死亡 ↓ 23%**、死亡或住院 ↓ 35%；阻斷 angiotensin II 生成 → 血管擴張、**降低後負荷**；**所有 HFrEF 都要用，不論症狀多少**；**類別效應（class effect）**"
+            ],
+            [
+              "**ARB**",
+              "非劣性試驗顯示與 ACEI 相當；**ACEI 因咳嗽或血管性水腫不耐受時改用**；**不增加 bradykinin → 不像 ACEI 會咳嗽**（FC）"
+            ],
+            [
+              "**劑量與預後**",
+              "**高劑量優於低劑量**（ATLAS、HEAAL、MOCHA）→ **調到試驗目標劑量**；**無法耐受開始或加量（低血壓、心衰竭惡化、腎功能惡化）是預後差的指標**，可能代表進入晚期心衰竭"
+            ],
+            [
+              "**雙重阻斷**",
+              "ACEI 長期使用後 angiotensin II 可經非 ACE 途徑回升（「逃脫」）；但 **ACEI＋ARB（VALIANT）、ACEI＋aliskiren（ATMOSPHERE）增加高血鉀、低血壓、腎功能惡化，沒有額外好處** → **不要 ACEI＋ARB＋MRA 三合一**，用 **ACEI 或 ARB＋spironolactone**"
+            ],
+            [
+              "**ARNI（sacubitril-valsartan）**",
+              "sacubitril 是前驅藥，抑制 **neprilysin** → **natriuretic peptide 分解減少**（血管擴張、排鈉）；valsartan 阻斷 AT1；**PARADIGM-HF：比 enalapril 心血管死亡或心衰竭住院 ↓ 20%、全死因 ↓ 16%**；**高血鉀與腎功能惡化較少，但症狀性低血壓較多**"
+            ],
+            [
+              "**為什麼不是 ACEI＋neprilysin 抑制劑**",
+              "omapatrilat（ACEI＋neprilysin 抑制）**血管性水腫增加**（bradykinin 分解被雙重阻斷）；**ARB 保留 ACE 分解 bradykinin 的路徑 → 血管性水腫較少**"
+            ],
+            [
+              "**ARNI 的使用**",
+              "**能耐受 ACEI 或 ARB 的有症狀 HFrEF → 換成 ARNI**；血壓足夠的新診斷病人也可**一開始就用 ARNI**；**ACEI 停藥後要隔 36 小時才開始 ARNI**；**曾有血管性水腫 → 禁用**"
+            ],
+            [
+              "**注意事項（FC）**",
+              "多數經腎排除 → 腎功能差要減量；**雙側腎動脈狹窄 → 急性腎衰竭**；**高血鉀**；**懷孕禁用**；**主動脈瓣狹窄、肥厚型心肌病等心輸出固定的病人**降後負荷要小心"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**補充（2022 AHA/ACC/HFSA）：RAAS 抑制**\n- **HFrEF＋NYHA II–III → ARNI**（1, A）\n- **ARNI 不可行時 → ACEI**（1, A）；**ACEI 因咳嗽或血管性水腫不耐受、ARNI 也不可行 → ARB**（1, A）\n- **已能耐受 ACEI 或 ARB 的 NYHA II–III → 換成 ARNI**，進一步降低死亡與住院（1）\n- **ARNI 不可與 ACEI 併用、或 ACEI 最後一劑 36 小時內使用**（3：有害）\n- **任何血管性水腫病史 → 不用 ARNI、也不用 ACEI**（3：有害）\n- 懷孕或計畫懷孕的心衰竭病人：**ACEI、ARB、ARNI、MRA、SGLT2 抑制劑、ivabradine、vericiguat 都不可用**（3：有害）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2037-2038"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "256-258"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "7.3.1 RAS Inhibition；11.3 HF and Pregnancy"
+        }
+      ]
+    },
+    {
+      "title": "β 阻斷劑",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "重點（Harrison＋FC）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "**效果**",
+              "加在 ACEI 上**死亡再 ↓ 35%**；減少長期腎上腺素刺激、**降低致命心律不整**；改善 NYHA II–IV 的存活與症狀；**心室功能通常 2–3 個月後才明顯改善**（FC）"
+            ],
+            [
+              "**沒有類別效應**",
+              "**只有 carvedilol、bisoprolol、metoprolol succinate**（緩釋型）證實改善存活；有內在擬交感活性的（xamoterol）、bucindolol **沒有存活好處**"
+            ],
+            [
+              "**怎麼開始**",
+              "**低劑量開始、慢慢往上加**；注意**低血壓、心搏過緩**；部分人會**體液滯留或肺水腫加重** → 可短暫加利尿劑（FC）"
+            ],
+            [
+              "**先 ACEI 還是先 β 阻斷劑**",
+              "**CIBIS III：順序不影響預後** → 重要的是**兩者都及時調到最佳劑量**"
+            ],
+            [
+              "**COPD、糖尿病**",
+              "Harrison：ACEI 與 β 阻斷劑在**糖尿病與慢性阻塞性肺病**的 HFrEF 病人仍是基礎治療"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**補充（2022 AHA/ACC/HFSA）**：HFrEF（現在或過去有症狀）→ **三種證實降低死亡的 β 阻斷劑之一（bisoprolol、carvedilol、metoprolol succinate 緩釋型）**，降低死亡與住院（1, A）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 111 年**：**propranolol** 無法改善 HFrEF 預後（非選擇性、未證實）；carvedilol、bisoprolol、**metoprolol succinate** 才有。\n**FC 110 年**：慢性心衰竭（LVEF < 35%）的口服藥原則——**ACEI 或 ARB 優先**、**沒有水腫時 β 阻斷劑也應優先**、**aldactone 即使沒有水腫也屬優先**；**口服 nitrate＋hydralazine 不是一線**（是 ACEI 不能用或特定族群的選擇）。\n**FC 書中的急性期觀念**：心衰竭兩大死因是**猝死（心律不整）**與**幫浦衰竭**——β 阻斷劑預防猝死，ACEI／ARB 與 MRA 改善左心室功能。**急性失代償時不要「優先」開始 β 阻斷劑**（見 Heart Failure (三)）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2037"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "256-257、267-269"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "7.3.2 Beta Blockers"
+        }
+      ]
+    },
+    {
+      "title": "MRA 與 SGLT2 抑制劑",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "MRA（Harrison＋FC）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "**機轉**",
+              "aldosterone 促進**留鈉、電解質失衡、內皮失能、心肌纖維化**；ACEI 雖減少 aldosterone，**長期下來會回升**（FC）"
+            ],
+            [
+              "**證據**",
+              "加在 ACEI／ARB 與 β 阻斷劑上，**有症狀 HFrEF（NYHA II–IV）再減少死亡與住院**；**spironolactone：RALES（NYHA III–IV）**；**eplerenone：NYHA II、心梗後心衰竭或左心室功能不良**"
+            ],
+            [
+              "**副作用**",
+              "**高血鉀、腎功能惡化**（尤其 CKD）→ 密切追蹤鉀與腎功能；**spironolactone 抗雄性素作用 → 男性女乳症**（FC：約 10–20% 男性）、勃起障礙、性慾下降 → 可改 **eplerenone**"
+            ],
+            [
+              "**使用條件（FC）**",
+              "**肌酸酐 < 2.5（男）／< 2.0（女）、鉀 < 5.0**"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "SGLT2 抑制劑（Harrison＋FC）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "**證據**",
+              "**DAPA-HF**（dapagliflozin 10 mg）：**心衰竭惡化或心血管死亡 ↓ 26%**；**EMPEROR-Reduced**（empagliflozin 10 mg）：**↓ 25%**；**有無糖尿病效果一致**；EMPA-REG OUTCOME 中心衰竭住院 ↓ 35%"
+            ],
+            [
+              "**機轉**",
+              "近曲小管抑制葡萄糖與鈉回收 → 排糖、利尿；**效益與 HbA1c 下降無關**；也可能經心臟重塑、腎功能、代謝、發炎等"
+            ],
+            [
+              "**優點（FC）**",
+              "**減重、降血壓、降尿酸、心腎保護**；**dapagliflozin、empagliflozin** 有心衰竭證據（FC 寫 canagliflozin、ertugliflozin 在心衰竭沒有證據）"
+            ],
+            [
+              "**缺點（FC）**",
+              "**泌尿生殖道感染**、**DKA 風險**（詳見 Diabetes (二)）"
+            ],
+            [
+              "**地位**",
+              "**與 ARNI、β 阻斷劑、MRA 並列為基礎治療**；而且**不論 EF 都有效**（HFmrEF、HFpEF 見 Heart Failure (三)）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**補充（2022 AHA/ACC/HFSA）**\n- **MRA**：HFrEF、**NYHA II–IV**，且 **eGFR > 30、鉀 < 5.0** → spironolactone 或 eplerenone（1, A）；開始時與之後**密切追蹤鉀、腎功能與利尿劑劑量**；**鉀無法維持 < 5.5 → 停 MRA**（3：有害）\n- **SGLT2 抑制劑**：**有症狀的慢性 HFrEF，不論有無第 2 型糖尿病** → 減少心衰竭住院與心血管死亡（1, A）\n- 高血鉀（≥ 5.5）時用**鉀結合劑（patiromer、sodium zirconium cyclosilicate）**來維持 RAAS 抑制劑，對預後的效果**不確定**（2b）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2037、2039"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "258-260"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "7.3.3 MRA；7.3.4 SGLT2i；7.3.6"
+        }
+      ]
+    },
+    {
+      "title": "劑量、開始順序與加藥速度",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "藥物（Table 265-2＋2022 Table 14）",
+            "起始劑量",
+            "目標劑量"
+          ],
+          "rows": [
+            [
+              "**Enalapril**",
+              "2.5 mg 每天 2 次",
+              "10–20 mg 每天 2 次"
+            ],
+            [
+              "**Lisinopril**",
+              "2.5–5 mg 每天 1 次",
+              "20–40 mg 每天 1 次"
+            ],
+            [
+              "**Captopril**",
+              "6.25 mg 每天 3 次",
+              "50 mg 每天 3 次"
+            ],
+            [
+              "**Losartan**",
+              "25–50 mg 每天 1 次",
+              "50–150 mg 每天 1 次"
+            ],
+            [
+              "**Valsartan**",
+              "20–40 mg（2022）／40 mg 每天 2 次（Harrison）",
+              "160 mg 每天 2 次"
+            ],
+            [
+              "**Candesartan**",
+              "4–8 mg 每天 1 次",
+              "32 mg 每天 1 次"
+            ],
+            [
+              "**Sacubitril-valsartan**",
+              "**49/51 mg 每天 2 次**（可從 **24/26 mg** 開始）",
+              "**97/103 mg 每天 2 次**"
+            ],
+            [
+              "**Carvedilol**",
+              "3.125 mg 每天 2 次",
+              "25–50 mg 每天 2 次"
+            ],
+            [
+              "**Bisoprolol**",
+              "1.25 mg 每天 1 次",
+              "10 mg 每天 1 次"
+            ],
+            [
+              "**Metoprolol succinate（緩釋）**",
+              "12.5–25 mg 每天 1 次",
+              "200 mg 每天 1 次"
+            ],
+            [
+              "**Spironolactone**",
+              "12.5–25 mg 每天 1 次",
+              "25–50 mg 每天 1 次"
+            ],
+            [
+              "**Eplerenone**",
+              "25 mg 每天 1 次",
+              "50 mg 每天 1 次"
+            ],
+            [
+              "**Dapagliflozin／Empagliflozin**",
+              "10 mg 每天 1 次",
+              "10 mg 每天 1 次（不需調整）"
+            ],
+            [
+              "**Hydralazine＋isosorbide dinitrate（固定劑量）**",
+              "37.5／20 mg 每天 3 次",
+              "75／40 mg 每天 3 次"
+            ],
+            [
+              "**Ivabradine**",
+              "5 mg 每天 2 次",
+              "7.5 mg 每天 2 次"
+            ],
+            [
+              "**Vericiguat**",
+              "2.5 mg 每天 1 次",
+              "10 mg 每天 1 次"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**怎麼加藥**\n- **Harrison**：沒有低血壓症狀（疲倦、頭暈）的穩定門診病人，**約每 2 週加量一次**；美國與歐洲登錄資料顯示 **GDMT 普遍用得太少、劑量太低**\n- **FC**：**住院期間最適合調藥**；門診**每兩週調一次**，目標 **3–6 個月內調到適當劑量**\n- **補充（2022）**：**調到試驗證實有效的目標劑量**（1, A）；**依症狀、生命徵象、檢驗，最快每 1–2 週調整一次**（2a）\n- **順序**：Harrison——ACEI 與 β 阻斷劑先後不影響預後；重點是**每一類都盡快用上、再逐步加量**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2037-2038"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "256-262"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "7.3.8 GDMT Dosing (Table 14)"
+        }
+      ]
+    },
+    {
+      "title": "其他藥物與要避免的藥",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "藥物（Harrison＋FC）",
+            "重點"
+          ],
+          "rows": [
+            [
+              "**Hydralazine＋isosorbide dinitrate**",
+              "hydralazine 擴張動脈（降後負荷）、nitrate 產生 NO 擴張動靜脈（降前負荷）；**改善存活，但效果不如 ACEI**；**無法耐受 RAAS 抑制劑（腎功能不全、高血鉀）時的疾病修飾選擇**；**A-HeFT：非裔美國人在 ACEI＋β 阻斷劑上再加 → 改善存活與住院**；缺點是**每天 3 次**"
+            ],
+            [
+              "**Ivabradine**",
+              "抑制竇房結 **If（funny）電流** → **只降心跳**，不影響收縮力與血管；**SHIFT**：NYHA II–III、**竇性心律、心跳 > 70**、曾住院 → 心血管死亡或住院減少（但很多人 β 阻斷劑劑量不足）；**β 阻斷劑無法加量時的輔助或替代**"
+            ],
+            [
+              "**Digoxin**",
+              "輕度強心、抑制壓力感受器與交感；**DIG 試驗：減少心衰竭住院，但不降低死亡、不改善生活品質**；**女性死亡與住院反而增加**；**低劑量就夠**，高劑量超過安全範圍；現在是**最佳治療後仍嚴重症狀的後線藥物**"
+            ],
+            [
+              "**Vericiguat**",
+              "**可溶性 guanylyl cyclase 刺激劑**（加強 NO–cGMP）；**VICTORIA**：近期惡化的高風險 HFrEF，主要終點 **↓ 10%**（主要是**減少住院**）"
+            ],
+            [
+              "**Omecamtiv mecarbil**",
+              "**選擇性 myosin 活化劑**：延長收縮期、**不增加耗氧**；GALACTIC-HF 主要終點 ↓ 14%（主要是心衰竭事件）"
+            ],
+            [
+              "**Statin**",
+              "CORONA、GISSI-HF：**HFrEF 用低劑量 rosuvastatin 沒有改善**；有動脈硬化或明顯血脂異常才用；**非缺血性心衰竭不需常規使用**"
+            ],
+            [
+              "**抗凝血與抗血小板**",
+              "HFrEF 有高凝狀態，但**竇性心律、沒有栓塞史或左心室血栓 → 不建議常規 warfarin**（WARCEF：中風減少被大出血抵消）；低劑量 rivaroxaban 也無益；**缺血性心肌病可用 aspirin**"
+            ],
+            [
+              "**Omega-3（魚油）**",
+              "GISSI-HF：HFrEF 預後**輕度改善**"
+            ],
+            [
+              "**微量營養素**",
+              "嚴重 **thiamine、selenium 缺乏**可造成可逆心衰竭；利尿劑與營養不良易缺 thiamine；**不建議常規補充或檢測**"
+            ],
+            [
+              "**運動**",
+              "**HF-ACTION**：安全、改善生活感受、死亡有下降趨勢 → **建議作為輔助治療**"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "要避免的藥（Harrison＋FC＋補充）",
+            "原因"
+          ],
+          "rows": [
+            [
+              "**非 DHP 類 CCB（verapamil、diltiazem）**",
+              "**負收縮力**，可使原本無症狀的病人惡化 → **HFrEF 不用**（2022：3：有害；FC：EF < 40% 禁用）"
+            ],
+            [
+              "**DHP 類 CCB（amlodipine、felodipine）**",
+              "**安全降血壓，但不影響死亡、住院或生活品質**（2022：當作心衰竭治療無益）；**短效 DHP 更要避免**"
+            ],
+            [
+              "**NSAID**",
+              "水鈉滯留、惡化心衰竭 → 盡量停用（2022：3：有害）"
+            ],
+            [
+              "**Thiazolidinedione（pioglitazone）**",
+              "**增加心衰竭惡化與住院**（3：有害）"
+            ],
+            [
+              "**DPP-4 抑制劑 saxagliptin、alogliptin**",
+              "增加心衰竭住院（3：有害）"
+            ],
+            [
+              "**IC 類抗心律不整藥、dronedarone**",
+              "增加死亡（3：有害）；Harrison：**心衰竭的節律控制藥只用 amiodarone、dofetilide**"
+            ],
+            [
+              "**抗 TNF 藥（infliximab、etanercept）**",
+              "Harrison：**使心衰竭惡化**"
+            ],
+            [
+              "**endothelin 拮抗劑、moxonidine**",
+              "HFrEF 惡化或預後變差"
+            ],
+            [
+              "**維生素、保健食品、荷爾蒙**",
+              "除了矯正特定缺乏以外**無益**（2022：3：無益）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**補充（2022 AHA/ACC/HFSA）**\n- **非裔美國人、NYHA III–IV、已在最佳治療 → hydralazine＋isosorbide dinitrate**（1, A）；**不能用 ARNI、ACEI、ARB（不耐受或腎功能不全）→ 可考慮**（2b）\n- **Ivabradine**：NYHA II–III、穩定、**LVEF ≤ 35%**、**β 阻斷劑已達最大耐受劑量**、**竇性心律且休息心跳 ≥ 70**（2a）\n- **Digoxin**：GDMT 下仍有症狀（或無法耐受 GDMT）→ **減少住院**（2b）；目標血中濃度 **0.5–< 0.9 ng/mL**\n- **Vericiguat**：近期惡化的高風險 HFrEF（2b）\n- **Omega-3 PUFA** 可考慮（2b）\n- **沒有特定適應症（VTE、AF、栓塞史、心源性栓子）→ 不抗凝**（3：無益）"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 105、103 年**：**毛地黃不能延長壽命**（ACEI、β 阻斷劑、MRA、血管擴張劑組合可以）。\n**FC 毛地黃重點**：抑制 **Na⁺/K⁺-ATPase** 加強收縮；**減少住院但不降死亡**；用於合併 **AF 的心跳控制**或竇性心律仍有明顯症狀者；劑量 **0.125–0.25 mg/日**，腎功能差要減量；與 **erythromycin、tetracycline、quinidine、verapamil、flecainide、amiodarone** 併用會升高濃度；**低血鉀、甲狀腺低下、腎功能不佳、脫水**時更易中毒。**FC 寫治療濃度 0.8–2.0 ng/mL，2022 指引目標 0.5–< 0.9 ng/mL**（低濃度就夠，以指引為準）。\n**FC 111 年**：「**第二代 CCB**」**不能改善** HFrEF 症狀與預後（ACEI、MRA、ARNI 可以）。\n**FC 109 年**：收縮性心衰竭**不宜**用 **verapamil、diltiazem**。\n**FC 111 年**：**metformin 在腎功能正常的心衰竭病人是安全的**（不是一律禁用）；**TZD 增加心衰竭**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2037-2041"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "258-260、262、265-266、269、271"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "7.3.5–7.3.7；7.3.9 Ivabradine, Digoxin, sGC Stimulators"
+        }
+      ]
+    },
+    {
+      "title": "共病處理：缺鐵、心房顫動、睡眠呼吸中止",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "共病（Harrison）",
+            "處理"
+          ],
+          "rows": [
+            [
+              "**貧血與缺鐵**",
+              "常見於老人、晚期 HFrEF、腎功能不全、女性；原因：缺鐵、鐵代謝異常、隱性腸胃出血；**缺鐵定義（CONFIRM-HF）：ferritin < 100，或 100–300 且轉鐵蛋白飽和度 < 20%**；**靜脈鐵劑（iron sucrose、ferric carboxymaltose）改善功能與生活品質**；對死亡與住院的效果不一致（HEART-FID 陰性）；**口服鐵無效**；**darbepoetin（EPO 類）不改善預後、增加血栓**"
+            ],
+            [
+              "**心房顫動**",
+              "預後較差的徵兆；心跳控制不足或仍有症狀 → **節律控制合理**；**抗心律不整藥只用 amiodarone、dofetilide**（dronedarone 增加死亡）；**CASTLE-AF**：LVEF ≤ 35% 的 AF，**電燒比藥物死亡或住院少** → **電燒優於抗心律不整藥**"
+            ],
+            [
+              "**睡眠呼吸障礙**",
+              "**CPAP** 改善血氧、LVEF、6 分鐘走路，但**未證實降低死亡**；**中樞型為主的 HFrEF 用 adaptive servo-ventilation（ASV）→ 增加死亡，應避免**"
+            ],
+            [
+              "**憂鬱**",
+              "約 1/5；**sertraline 安全**，但不比護理多專業管理更改善憂鬱或心血管狀態"
+            ],
+            [
+              "**糖尿病**",
+              "**TZD 惡化心衰竭**；GLP-1 RA（liraglutide）不惡化但需更多研究；**SGLT2 抑制劑是重要的疾病修飾治療**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**補充（2022 AHA/ACC/HFSA）：共病**\n- **HFrEF＋缺鐵（不論有無貧血）→ 靜脈鐵劑**改善功能與生活品質（2a）；**貧血不要用 EPO 類藥物**（3：有害）\n- **HFrEF＋高血壓 → 把 GDMT 調到最大耐受劑量**（1）\n- 懷疑睡眠呼吸障礙 → 正式睡眠檢查（2a）；阻塞型 → CPAP 改善睡眠品質（2a）；**NYHA II–IV HFrEF＋中樞型 → ASV 有害**（3：有害）\n- **心衰竭＋第 2 型糖尿病 → SGLT2 抑制劑**（1, A）\n- **AF**：**CHA₂DS₂-VASc 男 ≥ 2、女 ≥ 3 → 長期抗凝**（1, A）；**DOAC 優於 warfarin**（1, A）；沒有其他危險因子也可抗凝（2a）；**AF 造成症狀 → 電燒**（2a）；LVEF ≤ 50%、節律控制失敗且心跳仍快 → **房室結電燒＋CRT**（2a）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2040-2041"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "10.1 Comorbidities；10.2 AF in HF"
+        }
+      ]
+    },
+    {
+      "title": "裝置：ICD 與 CRT",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "ICD（Harrison）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "**猝死**",
+              "**約一半心衰竭病人死於心室心律不整造成的猝死**，**早期 HFrEF 比例更高**；**猝死後存活者 → ICD（次級預防）**"
+            ],
+            [
+              "**初級預防的兩大指標**",
+              "**最佳藥物治療後（讓心臟重塑）殘存的 LVEF ≤ 35%**、**病因（心梗後或缺血性心肌病）**"
+            ],
+            [
+              "**適應症**",
+              "**NYHA II–III、LVEF < 35%，不論病因**；**心梗後最佳藥物下 LVEF ≤ 30%（即使沒症狀）**；**心梗後 40 天內放 ICD 沒有好處**（除非次級預防）"
+            ],
+            [
+              "**非缺血性**",
+              "丹麥試驗（DANISH）：**非缺血性有症狀 HFrEF，預防性 ICD 沒有顯著降低全死因**，**< 60 歲**者有好處"
+            ],
+            [
+              "**不適合**",
+              "**末期疾病、預期壽命 < 6 個月**，或**藥物難治的 NYHA IV 且不是移植候選人** → 要權衡多次電擊的負擔"
+            ],
+            [
+              "**原則（Table 265-3）**",
+              "晚期心衰竭的猝死多因進行性左心室病變而非局部心律不整基質，**越早期介入效益越大**；**ICD 放電不等於「救回一次猝死」**（部分 VT 會自行停止）；**適當放電代表近期預後較差**；符合 CRT 條件 → 常放 **CRT-D**"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "CRT（Harrison）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "**原理**",
+              "左心室或兩心室間**收縮不同步** → 收縮效率差、室壁張力上升、功能性二尖瓣逆流加重；**QRS 變寬（尤其 LBBB）是最重要的指標**；經**冠狀竇**放導線到左心室側壁，同步刺激"
+            ],
+            [
+              "**證據**",
+              "**CARE-HF**：NYHA III–IV，**第一個證明降低全死因**；**RAFT、MADIT-CRT**（合併 ICD）：**輕症**也有疾病修飾效果；**輕症者最大效益在 QRS > 149 ms 且 LBBB**"
+            ],
+            [
+              "**不確定或無效**",
+              "超音波測的不同步差異很大；**窄 QRS 的不同步不是好目標**；急性失代償、**RBBB 為主、AF、側壁有疤痕**效果不確定；His 束或左束支區起搏是發展中的替代"
+            ],
+            [
+              "**心臟收縮力調節（CCM）**",
+              "不興奮性的電刺激（心室中隔不反應期）→ 加強收縮；**EF 25–45%、窄 QRS（不適合 CRT）**者改善症狀與生活品質，**未證實減少住院或死亡**，指引尚未常規支持"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**補充（2022 AHA/ACC/HFSA）：ICD 與 CRT**\n- **ICD 初級預防**：**非缺血性擴張型心肌病，或缺血性心臟病心梗後 ≥ 40 天，LVEF ≤ 35%、NYHA II–III、在 GDMT 下、預期有意義存活 > 1 年**（1, A）；**心梗後 ≥ 40 天、LVEF ≤ 30%、NYHA I**（1）；**合併症或衰弱使存活 < 1 年 → 不放 ICD 或 CRT-D**（3：無益）\n- **CRT**（都需 **LVEF ≤ 35%、竇性心律、NYHA II–III 或可走動的 IV、在 GDMT 下**）：\n  - **LBBB 且 QRS ≥ 150 ms**（1）\n  - **非 LBBB 且 QRS ≥ 150 ms**（2a）\n  - **LBBB 且 QRS 120–149 ms**（2a）\n  - 非 LBBB、QRS 120–149 ms、NYHA III–可走動 IV（2b）\n  - **QRS < 120 ms → 不建議**（3：無益）；**NYHA I–II、非 LBBB、QRS < 150 → 不建議**（3）\n- **高度或完全房室阻斷＋LVEF 36–50% → CRT 合理**（2a）；預期**心室起搏 > 40%** 的 LVEF ≤ 35% 病人 → CRT（2a）；**AF＋LVEF ≤ 35%，房室結電燒或藥物能讓 CRT 起搏近 100%** → CRT（2a）"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 書中的 CRT 條件**：LVEF < 35%、NYHA II–IV，且 **竇性心律有 LBBB 且 QRS > 130 ms**、或**竇性心律無 LBBB 且 QRS > 150 ms**、或 **AF 且 QRS > 130 ms**——**與 2022 指引不同**（指引：**LBBB ≥ 150 才是 Class 1**，120–149 為 2a；AF 要能確保近 100% 起搏）。考題依出處作答。\n**FC 書中的 ICD 條件**：**內科治療 3 個月以上**、LVEF 仍 < 35%、預期壽命 > 1 年；**急性心梗或剛血管再通 → 40 天後再評估**。\n**FC 111 年**：心衰竭猝死預防**錯誤**的是「**NYHA I、LVEF > 33%** 是 ICD 的合適候選人」——初級預防是以 **LVEF ≤ 35%（NYHA II–III）或 ≤ 30%（心梗後 NYHA I）**篩選。正確：**約一半心衰竭猝死是心室心律不整**、**猝死存活者應放 ICD**、**心梗 3 個月後 LVEF ≤ 30% 且仍有 VT → ICD**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2041-2042"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "254、260-261、265"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "7.4.1 ICDs and CRTs"
+        }
+      ]
+    },
+    {
+      "title": "手術、晚期心衰竭與長期照護",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "手術與介入（Harrison）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "**CABG**",
+              "**缺血性心肌病＋多條血管病變**考慮；**有心絞痛＋左心室衰竭時證據最強**；**STICH（EF ≤ 35%）**：初期無差異，但 **10 年心血管死亡與全死因或住院較少**；**存活心肌（冬眠）檢測並不影響 CABG 效益**；**PCI 再通（REVIVED-BCIS2）沒有臨床好處**"
+            ],
+            [
+              "**心室重塑手術**",
+              "外科心室修復（SVR）加在 CABG 上**無疾病修飾效果**；但**頑固心衰竭、心室心律不整、或心室瘤血栓栓塞 → 仍可做心室瘤手術**"
+            ],
+            [
+              "**功能性二尖瓣逆流**",
+              "瓣環擴大、乳突肌幾何改變；**先最佳化 GDMT，符合者做 CRT**；外科修補風險高、爭議大；**經導管瓣緣對瓣緣修補（MitraClip）**：**COAPT 減少住院與死亡**，**MITRA-FR 無差異**（可能與 GDMT 背景、病人選擇——逆流程度是否與心室擴大「不成比例」有關）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**補充（2022 AHA/ACC/HFSA）：手術、瓣膜、晚期心衰竭**\n- **EF ≤ 35%、冠狀動脈解剖合適 → CABG＋GDMT** 改善症狀、心血管住院與長期全死因死亡（1）\n- 瓣膜病依瓣膜指引由多專業團隊處理（1）；**嚴重續發性二尖瓣逆流 → 介入前先最佳化 GDMT**（1）\n- **D 期（晚期）**：及時轉介心衰竭專科，評估 **LVAD、心臟移植、安寧、緩和性強心劑**（1）\n- **連續靜脈強心劑**：等待 MCS 或移植的**過渡**（2a）；不適合 MCS 或移植者的**緩和**（2b）；**其他目的長期使用 → 有害**（3：有害）\n- **依賴強心劑或暫時性 MCS 的 NYHA IV → 長期 LVAD** 改善功能、生活品質與存活（1, A）；GDMT 下 NYHA IV → 長期 MCS 有益（2a）；**休克 → 暫時性 MCS 作為「過渡到恢復或決策」**（2a）\n- **選擇性晚期心衰竭 → 心臟移植**改善存活與生活品質（1）\n- **晚期心衰竭合併低血鈉 → 限水的效益不確定**（2b）\n- **HFimpEF（EF 改善到 > 40%）→ 繼續 GDMT，即使沒有症狀**（1）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "長期照護（Harrison＋FC）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "**再住院**",
+              "出院後**半年內近一半再住院**，其中**只有一半是心衰竭或心血管原因**；**多數心衰竭再住院發生在出院後 2 週內** → 出院規劃、衛教、居家護理、**早期回診**"
+            ],
+            [
+              "**STRONG-HF**",
+              "出院後 **2 週內密集把藥調到目標劑量**、2 個月內頻繁追蹤 → **180 天死亡與再住院明顯減少**"
+            ],
+            [
+              "**監測**",
+              "密集監測體重與生命徵象的遠距監測**沒有減少住院**；胸內阻抗也無效；**植入式肺動脈壓監測（CardioMEMS）**：CHAMPION 住院 ↓ 39%，GUIDE-HF 主要分析陰性（受 COVID 影響）→ **選擇性高風險病人的輔助**"
+            ],
+            [
+              "**疫苗與緩和照護**",
+              "**流感、肺炎鏈球菌疫苗**；晚期定期討論病程與**臨終意願**、是否繼續 ICD（可能**延長死亡過程、降低生活品質**）；整合緩和照護改善生活品質、焦慮、憂鬱"
+            ],
+            [
+              "**D 期（FC）**",
+              "藥物與內科治療無法控制 → **LVAD**（延長生命、等待移植）、**心臟移植**；預期壽命不長或符合條件 → **安寧緩和**"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2042-2043"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "261"
+        },
+        {
+          "type": "source",
+          "book": "補充：2022 AHA/ACC/HFSA HF Guideline",
+          "pages": "7.4.3 Revascularization；7.5 VHD；7.6.2 HFimpEF；8 Stage D HF"
+        }
+      ]
+    },
+    {
+      "title": "臨床題練習",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "Q1：62 歲男性新診斷 HFrEF，LVEF 28%，NYHA II，血壓 128/76、心跳 88、鉀 4.3、eGFR 65，輕度下肢水腫。要開哪些藥？",
+          "text": "**答：利尿劑（緩解水腫）＋四大支柱：ARNI（或 ACEI／ARB）、實證 β 阻斷劑、MRA、SGLT2 抑制劑，再逐步加量。**\n- **ARNI**（1, A）：sacubitril-valsartan 49/51 mg bid 起，目標 97/103 mg bid\n- **β 阻斷劑**：carvedilol、bisoprolol 或 metoprolol succinate，低劑量開始\n- **MRA**：eGFR > 30、鉀 < 5.0 → spironolactone 12.5–25 mg\n- **SGLT2 抑制劑**：dapagliflozin 或 empagliflozin 10 mg（不論有無糖尿病）\n- 每 1–2 週依血壓、心跳、鉀與腎功能調整；**最佳藥物 3 個月後再評估 EF 決定 ICD 或 CRT**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：上題病人原本吃 enalapril 10 mg bid，想改成 sacubitril-valsartan。怎麼換？",
+          "text": "**答：停 enalapril 後隔 36 小時再開始 ARNI。**\n- **ACEI＋neprilysin 抑制 → bradykinin 雙重堆積 → 血管性水腫**（omapatrilat 的教訓）\n- 2022：**ARNI 不可與 ACEI 併用或 36 小時內使用**（3：有害）\n- **任何血管性水腫病史 → ARNI 與 ACEI 都禁用**\n- 從 ARB 換 ARNI 不需要間隔"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：HFrEF 病人吃 spironolactone 25 mg、sacubitril-valsartan，追蹤鉀 5.8 mEq/L，eGFR 從 55 降到 38。處理？",
+          "text": "**答：鉀無法維持 < 5.5 → 停 MRA（並找原因：脫水、NSAID、鉀補充、腎功能惡化）。**\n- 2022：**鉀無法維持 < 5.5 → 停 MRA**（3：有害）；開始 MRA 的條件是 **eGFR > 30、鉀 < 5.0**\n- 鉀結合劑（patiromer、SZC）能否幫助維持 RAAS 抑制劑**效果不確定**（2b）\n- **ACEI＋ARB＋MRA 三合一要避免**\n- 男性女乳症 → 可改 eplerenone（不是高血鉀的解法）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：58 歲 HFrEF，四大支柱都已調到目標劑量 3 個月，LVEF 30%，NYHA II，竇性心律，心電圖 LBBB、QRS 160 ms。下一步？",
+          "text": "**答：CRT（多半合併 ICD，即 CRT-D）。**\n- 2022：**LVEF ≤ 35%、竇性心律、LBBB 且 QRS ≥ 150、NYHA II–IV（可走動）→ CRT**（1）；同時符合 **ICD 初級預防**（LVEF ≤ 35%、NYHA II–III、預期存活 > 1 年）\n- Harrison：輕症者 **QRS > 149 ms 且 LBBB 效益最大**\n- 若 QRS < 120 ms → CRT 無益；EF 25–45%、窄 QRS 可考慮 CCM（未證實降死亡）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：HFrEF 病人在最大劑量 metoprolol succinate 下，竇性心律、心跳仍 78，NYHA II。可以加什麼？若他是心房顫動呢？",
+          "text": "**答：竇性心律 → 可加 ivabradine；心房顫動 → ivabradine 無效（它作用在竇房結）。**\n- 2022：**LVEF ≤ 35%、β 阻斷劑已達最大耐受、竇性心律、休息心跳 ≥ 70 → ivabradine**（2a）\n- 機轉：抑制竇房結 **If 電流**，只降心跳\n- AF：心跳控制（β 阻斷劑、digoxin）；**有症狀或心跳控制不佳 → 節律控制，電燒優於藥物**；藥物只用 **amiodarone、dofetilide**；CHA₂DS₂-VASc 男 ≥ 2、女 ≥ 3 → DOAC"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：HFrEF 合併糖尿病的病人，目前用 pioglitazone、saxagliptin、metformin，最近又因膝關節炎吃 naproxen。哪些要停？",
+          "text": "**答：停 pioglitazone（TZD）、saxagliptin、naproxen（NSAID）；metformin 在腎功能允許下可繼續；加 SGLT2 抑制劑。**\n- 2022：**TZD 增加心衰竭惡化與住院**（3：有害）；**saxagliptin、alogliptin 增加心衰竭住院**（3：有害）；**NSAID 惡化心衰竭**（3：有害）\n- **心衰竭＋第 2 型糖尿病 → SGLT2 抑制劑**（1, A）\n- FC 111 年：**metformin 對腎功能正常的心衰竭病人安全**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：35 歲女性周產期心肌病，LVEF 已由 25% 恢復到 55%，沒有症狀，想停藥並再懷孕。怎麼建議？",
+          "text": "**答：HFimpEF 應繼續 GDMT；但若計畫懷孕，ACEI、ARB、ARNI、MRA、SGLT2 抑制劑、ivabradine、vericiguat 都要停用，並做懷孕風險諮詢。**\n- 2022：**HFimpEF → 繼續 GDMT 以免復發**（1）；Harrison：無症狀者停藥後**半年內最多一半復發**\n- 2022：**懷孕或計畫懷孕 → 上述藥物有胎兒傷害，不可用**（3：有害）；**曾周產期心肌病 → 避孕與再懷孕風險諮詢**（1）\n- 周產期心肌病急性期 LVEF < 30% → 抗凝可考慮到產後 6–8 週（2b）"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "必背"
+          ],
+          "rows": [
+            [
+              "四大支柱",
+              "ARNI（或 ACEI／ARB）＋β 阻斷劑（carvedilol、bisoprolol、metoprolol succinate）＋MRA＋SGLT2i｜都降死亡｜利尿劑只緩解症狀｜digoxin 減住院不降死亡"
+            ],
+            [
+              "ARNI",
+              "PARADIGM-HF：CV 死亡或住院 ↓ 20%、全死因 ↓ 16%｜ACEI 停 36 小時｜血管性水腫史禁用｜BNP 會升、看 NT-proBNP｜低血壓較多、高鉀較少"
+            ],
+            [
+              "β 阻斷劑",
+              "沒有類別效應｜propranolol 不行｜低劑量慢慢加｜2–3 個月才見效｜急性失代償不要優先開始｜先 ACEI 或先 β 都可以（CIBIS III）"
+            ],
+            [
+              "MRA",
+              "NYHA II–IV｜eGFR > 30、K < 5.0 才開｜K 無法 < 5.5 就停｜女乳症換 eplerenone｜不要 ACEI＋ARB＋MRA"
+            ],
+            [
+              "SGLT2i",
+              "DAPA-HF ↓ 26%、EMPEROR-Reduced ↓ 25%｜不論糖尿病｜10 mg 不需調整｜不論 EF 都有效"
+            ],
+            [
+              "其他",
+              "H-ISDN：非裔、或不能用 RAAS 抑制劑｜ivabradine：竇性心律、HR ≥ 70、β 最大劑量、EF ≤ 35%｜vericiguat：近期惡化｜digoxin 濃度 0.5–< 0.9（2022）"
+            ],
+            [
+              "避免",
+              "非 DHP CCB（有害）｜DHP CCB（無益）｜NSAID｜TZD｜saxagliptin、alogliptin｜IC 類、dronedarone｜抗 TNF｜ASV（中樞型 OSA）｜EPO｜竇性心律常規抗凝"
+            ],
+            [
+              "共病",
+              "缺鐵：ferritin < 100 或 100–300＋TSAT < 20% → 靜脈鐵｜AF：DOAC、電燒優於藥物、amiodarone 或 dofetilide｜OSA：CPAP"
+            ],
+            [
+              "ICD",
+              "GDMT 後 LVEF ≤ 35%＋NYHA II–III（1）｜心梗後 ≥ 40 天 LVEF ≤ 30%＋NYHA I（1）｜預期存活 > 1 年｜非缺血性效益較小（DANISH，< 60 歲有益）"
+            ],
+            [
+              "CRT",
+              "LVEF ≤ 35%、竇性心律：LBBB ≥ 150（1）、LBBB 120–149（2a）、非 LBBB ≥ 150（2a）｜< 120 無益｜FC：LBBB > 130、非 LBBB > 150、AF > 130"
+            ],
+            [
+              "手術與晚期",
+              "EF ≤ 35%＋合適解剖 → CABG（STICH 10 年）｜PCI 再通無益｜續發 MR 先 GDMT → MitraClip（COAPT）｜D 期：LVAD、移植、緩和｜長期強心劑有害（除過渡或緩和）｜HFimpEF 繼續吃藥"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2035-2043"
+        }
+      ]
+    }
+  ]
+}

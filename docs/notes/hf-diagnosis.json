@@ -12,6 +12,10 @@
   "generated": "2026-10-11",
   "related": [
     {
+      "id": "hf-hfref-treatment",
+      "name": "Heart Failure (二)：HFrEF 的慢性治療"
+    },
+    {
       "id": "hypertension",
       "name": "Hypertension (高血壓)"
     },
