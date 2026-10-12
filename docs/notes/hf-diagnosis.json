@@ -38,6 +38,10 @@
     {
       "id": "cmp-hcm",
       "name": "Cardiomyopathy (一)：分類與肥厚型心肌症"
+    },
+    {
+      "id": "cmp-dcm-myocarditis",
+      "name": "Cardiomyopathy (二)：擴張型心肌症與心肌炎"
     }
   ],
   "sections": [

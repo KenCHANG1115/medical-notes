@@ -30,6 +30,10 @@
     {
       "id": "ecg-svt-af",
       "name": "ECG (三)：上心室性心搏過速與心房顫動"
+    },
+    {
+      "id": "cmp-dcm-myocarditis",
+      "name": "Cardiomyopathy (二)：擴張型心肌症與心肌炎"
     }
   ],
   "sections": [

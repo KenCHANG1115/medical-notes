@@ -34,6 +34,10 @@
     {
       "id": "dm-treatment",
       "name": "Diabetes (二)：治療——藥物、胰島素與住院血糖"
+    },
+    {
+      "id": "cmp-dcm-myocarditis",
+      "name": "Cardiomyopathy (二)：擴張型心肌症與心肌炎"
     }
   ],
   "sections": [
