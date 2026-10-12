@@ -38,6 +38,10 @@
     {
       "id": "ecg-svt-af",
       "name": "ECG (三)：上心室性心搏過速與心房顫動"
+    },
+    {
+      "id": "cmp-rcm-amyloid",
+      "name": "Cardiomyopathy (三)：限制型心肌症與類澱粉沉積"
     }
   ],
   "sections": [
