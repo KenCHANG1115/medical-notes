@@ -26,6 +26,10 @@
     {
       "id": "electrolyte-disorders",
       "name": "Electrolyte Disorders (離子平衡異常)"
+    },
+    {
+      "id": "cmp-hcm",
+      "name": "Cardiomyopathy (一)：分類與肥厚型心肌症"
     }
   ],
   "sections": [

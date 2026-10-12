@@ -26,6 +26,10 @@
     {
       "id": "hypertension",
       "name": "Hypertension (高血壓)"
+    },
+    {
+      "id": "cmp-hcm",
+      "name": "Cardiomyopathy (一)：分類與肥厚型心肌症"
     }
   ],
   "sections": [

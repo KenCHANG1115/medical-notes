@@ -46,6 +46,10 @@
         {
           "id": "hf-hfpef-acute",
           "name": "Heart Failure (三)：HFpEF、急性失代償與心因性休克"
+        },
+        {
+          "id": "cmp-hcm",
+          "name": "Cardiomyopathy (一)：分類與肥厚型心肌症"
         }
       ]
     },
