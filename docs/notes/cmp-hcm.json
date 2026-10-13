@@ -38,6 +38,10 @@
     {
       "id": "cmp-rcm-amyloid",
       "name": "Cardiomyopathy (三)：限制型心肌症與類澱粉沉積"
+    },
+    {
+      "id": "valve-exam-murmur",
+      "name": "Valvular Heart Disease (一)：理學檢查、心雜音與心導管判讀"
     }
   ],
   "sections": [
