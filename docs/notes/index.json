@@ -62,6 +62,10 @@
         {
           "id": "valve-exam-murmur",
           "name": "Valvular Heart Disease (一)：理學檢查、心雜音與心導管判讀"
+        },
+        {
+          "id": "valve-aortic",
+          "name": "Valvular Heart Disease (二)：主動脈瓣狹窄與主動脈瓣逆流"
         }
       ]
     },
