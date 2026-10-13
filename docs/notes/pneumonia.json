@@ -392,6 +392,7 @@
   "related": [
     {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"},
     {"id": "urinary-tract-infection", "name": "Urinary Tract Infection (泌尿道感染)"},
-    {"id": "confusion-decreased-consciousness", "name": "Confusion / Decreased Level of Consciousness (意識不清)"}
+    {"id": "confusion-decreased-consciousness", "name": "Confusion / Decreased Level of Consciousness (意識不清)"},
+    {"id": "infective-endocarditis", "name": "Infective Endocarditis (感染性心內膜炎)"}
   ]
 }

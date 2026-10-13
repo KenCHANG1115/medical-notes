@@ -42,6 +42,10 @@
     {
       "id": "valve-right-prosthetic",
       "name": "Valvular Heart Disease (四)：右側瓣膜、混合瓣膜病與人工瓣膜"
+    },
+    {
+      "id": "infective-endocarditis",
+      "name": "Infective Endocarditis (感染性心內膜炎)"
     }
   ],
   "sections": [

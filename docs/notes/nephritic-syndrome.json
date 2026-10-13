@@ -290,6 +290,7 @@
     {"id": "nephrotic-syndrome", "name": "Nephrotic Syndrome (腎病症候群)"},
     {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
     {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
-    {"id": "hypertension", "name": "Hypertension (高血壓)"}
+    {"id": "hypertension", "name": "Hypertension (高血壓)"},
+    {"id": "infective-endocarditis", "name": "Infective Endocarditis (感染性心內膜炎)"}
   ]
 }
