@@ -30,6 +30,10 @@
     {
       "id": "dyslipidemia",
       "name": "Dyslipidemia (高血脂)"
+    },
+    {
+      "id": "valve-mitral-rheumatic",
+      "name": "Valvular Heart Disease (三)：風濕熱與二尖瓣疾病"
     }
   ],
   "sections": [

@@ -34,6 +34,10 @@
     {
       "id": "valve-aortic",
       "name": "Valvular Heart Disease (二)：主動脈瓣狹窄與主動脈瓣逆流"
+    },
+    {
+      "id": "valve-mitral-rheumatic",
+      "name": "Valvular Heart Disease (三)：風濕熱與二尖瓣疾病"
     }
   ],
   "sections": [
