@@ -42,6 +42,10 @@
     {
       "id": "cmp-rcm-amyloid",
       "name": "Cardiomyopathy (三)：限制型心肌症與類澱粉沉積"
+    },
+    {
+      "id": "pericardial-disease",
+      "name": "Pericardial Disease (心包膜疾病)"
     }
   ],
   "sections": [

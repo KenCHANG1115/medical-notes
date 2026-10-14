@@ -42,6 +42,10 @@
     {
       "id": "valve-mitral-rheumatic",
       "name": "Valvular Heart Disease (三)：風濕熱與二尖瓣疾病"
+    },
+    {
+      "id": "pericardial-disease",
+      "name": "Pericardial Disease (心包膜疾病)"
     }
   ],
   "sections": [

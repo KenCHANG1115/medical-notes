@@ -38,6 +38,10 @@
     {
       "id": "valve-exam-murmur",
       "name": "Valvular Heart Disease (一)：理學檢查、心雜音與心導管判讀"
+    },
+    {
+      "id": "pericardial-disease",
+      "name": "Pericardial Disease (心包膜疾病)"
     }
   ],
   "sections": [

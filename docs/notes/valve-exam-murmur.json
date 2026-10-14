@@ -46,6 +46,10 @@
     {
       "id": "infective-endocarditis",
       "name": "Infective Endocarditis (感染性心內膜炎)"
+    },
+    {
+      "id": "pericardial-disease",
+      "name": "Pericardial Disease (心包膜疾病)"
     }
   ],
   "sections": [

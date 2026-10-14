@@ -33,6 +33,10 @@
     {
       "id": "ihd-stemi",
       "name": "冠心症 (三)：ST 上升心肌梗塞與併發症"
+    },
+    {
+      "id": "pericardial-disease",
+      "name": "Pericardial Disease (心包膜疾病)"
     }
   ],
   "sections": [
