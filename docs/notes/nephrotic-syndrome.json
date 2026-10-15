@@ -251,6 +251,7 @@
     {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"},
     {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
     {"id": "diabetes-mellitus", "name": "Diabetes (一)：診斷、分類與致病機轉"},
-    {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"}
+    {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"},
+    {"id": "hepatitis-acute-viral", "name": "Viral Hepatitis (一)：急性病毒性肝炎與血清學判讀"}
   ]
 }

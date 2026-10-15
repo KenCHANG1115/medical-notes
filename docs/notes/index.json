@@ -119,6 +119,15 @@
       ]
     },
     {
+      "name": "肝膽腸胃內科",
+      "diseases": [
+        {
+          "id": "hepatitis-acute-viral",
+          "name": "Viral Hepatitis (一)：急性病毒性肝炎與血清學判讀"
+        }
+      ]
+    },
+    {
       "name": "腎臟內科",
       "diseases": [
         {

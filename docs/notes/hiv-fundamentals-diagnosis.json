@@ -11,7 +11,8 @@
   "generated": "2026-10-03",
   "related": [
     {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"},
-    {"id": "hiv-treatment-art", "name": "HIV/AIDS (三)：ART 治療與預防"}
+    {"id": "hiv-treatment-art", "name": "HIV/AIDS (三)：ART 治療與預防"},
+    {"id": "hepatitis-acute-viral", "name": "Viral Hepatitis (一)：急性病毒性肝炎與血清學判讀"}
   ],
   "sections": [
     {
