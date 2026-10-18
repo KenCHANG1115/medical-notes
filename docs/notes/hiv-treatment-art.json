@@ -11,7 +11,8 @@
   "generated": "2026-10-03",
   "related": [
     {"id": "hiv-fundamentals-diagnosis", "name": "HIV/AIDS (一)：基礎與診斷"},
-    {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"}
+    {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"},
+    {"id": "hepatitis-chronic-b-d", "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"}
   ],
   "sections": [
     {

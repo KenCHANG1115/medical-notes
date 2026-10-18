@@ -124,6 +124,10 @@
         {
           "id": "hepatitis-acute-viral",
           "name": "Viral Hepatitis (一)：急性病毒性肝炎與血清學判讀"
+        },
+        {
+          "id": "hepatitis-chronic-b-d",
+          "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"
         }
       ]
     },

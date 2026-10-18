@@ -22,6 +22,10 @@
     {
       "id": "nephrotic-syndrome",
       "name": "Nephrotic Syndrome (腎病症候群)"
+    },
+    {
+      "id": "hepatitis-chronic-b-d",
+      "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"
     }
   ],
   "sections": [
