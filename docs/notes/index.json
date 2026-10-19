@@ -215,6 +215,18 @@
       ]
     },
     {
+      "name": "神經內科",
+      "diseases": [
+        {
+          "heading": "中風"
+        },
+        {
+          "id": "stroke-ischemic-acute",
+          "name": "Stroke (一)：缺血性中風急性處置與 TIA"
+        }
+      ]
+    },
+    {
       "name": "值班守則",
       "diseases": [
         {
