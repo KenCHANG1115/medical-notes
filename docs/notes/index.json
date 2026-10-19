@@ -223,6 +223,10 @@
         {
           "id": "stroke-ischemic-acute",
           "name": "Stroke (一)：缺血性中風急性處置與 TIA"
+        },
+        {
+          "id": "stroke-ischemic-etiology-prevention",
+          "name": "Stroke (二)：缺血性中風病因分類與二級預防"
         }
       ]
     },
