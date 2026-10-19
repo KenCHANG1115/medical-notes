@@ -218,6 +218,13 @@
       "name": "神經內科",
       "diseases": [
         {
+          "heading": "定位"
+        },
+        {
+          "id": "localization-spinal-peripheral",
+          "name": "Localization (一)：脊髓、神經根、神經叢與周邊神經"
+        },
+        {
           "heading": "中風"
         },
         {
