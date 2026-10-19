@@ -66,7 +66,12 @@
   const CATEGORIES = [
     { key: 'specialties', title: '疾病筆記', prefix: '' },
     { key: 'physicalExam', title: '理學檢查', prefix: 'pe-' },
+    { key: 'zhaoAnatomy', title: '老趙解剖學', prefix: 'za-' },
   ];
+
+  function countNotes(spec) {
+    return spec.diseases.filter(d => !d.heading).length;
+  }
 
   function buildSidebar() {
     const nav = document.getElementById('navContent');
@@ -82,11 +87,14 @@
         const specId = cat.prefix + slugify(spec.name);
         html += '<div class="nav-section">';
         html += `<div class="nav-specialty" data-spec="${specId}" onclick="toggleSpec(this)">`;
-        html += `<span class="arrow">&#9654;</span>${spec.name} (${spec.diseases.length})`;
+        html += `<span class="arrow">&#9654;</span>${spec.name} (${countNotes(spec)})`;
         html += '</div>';
         html += `<div class="nav-diseases" id="diseases-${specId}">`;
+        // Entries with a `heading` field are subgroup labels within a specialty, not notes.
         for (const d of spec.diseases)
-          html += `<a class="nav-disease" data-id="${d.id}" onclick="loadNote('${d.id}')">${d.name}</a>`;
+          html += d.heading
+            ? `<div class="nav-subgroup">${d.heading}</div>`
+            : `<a class="nav-disease" data-id="${d.id}" onclick="loadNote('${d.id}')">${d.name}</a>`;
         html += '</div></div>';
       }
     }
@@ -106,7 +114,7 @@
       html += '<div class="specialty-grid">';
       for (const spec of groups) {
         html += `<div class="specialty-card" onclick="expandSpecialty('${cat.prefix + slugify(spec.name)}')">`;
-        html += `<h3>${spec.name}</h3><span class="count">${spec.diseases.length} topics</span></div>`;
+        html += `<h3>${spec.name}</h3><span class="count">${countNotes(spec)} topics</span></div>`;
       }
       html += '</div>';
     }
@@ -185,6 +193,7 @@
     if (note.specialty) html += `<span>${esc(note.specialty)}</span>`;
     if (note.sources) html += `<span>Sources: ${esc(note.sources.join(', '))}</span>`;
     if (note.generated) html += `<span>${esc(note.generated)}</span>`;
+    if (note.video_id) html += `<span><a href="https://www.youtube.com/watch?v=${encodeURIComponent(note.video_id)}" target="_blank" rel="noopener">▶ YouTube 影片</a></span>`;
     html += '</div></div>';
 
     html += buildToc(note);
@@ -349,6 +358,14 @@
     s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
     s = s.replace(/\*(.+?)\*/g, '<em>$1</em>');
     s = s.replace(/`(.+?)`/g, '<code style="background:var(--bg-sidebar);padding:0.1rem 0.3rem;border-radius:3px;font-size:0.85em;">$1</code>');
+    // Video notes: 〔mm:ss〕/〔h:mm:ss〕 → link to that second of the YouTube video.
+    if (currentNote && currentNote.video_id) {
+      const vid = encodeURIComponent(currentNote.video_id);
+      s = s.replace(/〔((?:\d+:)?\d{1,2}:\d{2})〕/g, (m, ts) => {
+        const sec = ts.split(':').reduce((acc, p) => acc * 60 + Number(p), 0);
+        return `<a class="video-ts" href="https://www.youtube.com/watch?v=${vid}&t=${sec}s" target="_blank" rel="noopener">${m}</a>`;
+      });
+    }
     return s.replace(/\n/g, '<br>');
   }
 

@@ -144,6 +144,15 @@ body {
   transition: color 0.15s, background 0.15s;
 }
 
+.nav-subgroup {
+  padding: 0.6rem 1.25rem 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  opacity: 0.75;
+}
+
 .nav-disease:hover {
   color: var(--text-primary);
   background: rgba(0,0,0,0.03);
