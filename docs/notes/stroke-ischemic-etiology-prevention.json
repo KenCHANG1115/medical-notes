@@ -17,6 +17,10 @@
       "name": "Stroke (一)：缺血性中風急性處置與 TIA"
     },
     {
+      "id": "stroke-hemorrhagic-cvst-pres",
+      "name": "Stroke (三)：出血性中風、腦靜脈竇血栓與 PRES"
+    },
+    {
       "id": "ecg-svt-af",
       "name": "ECG (三)：上心室性心搏過速與心房顫動"
     },
