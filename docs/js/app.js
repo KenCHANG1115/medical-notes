@@ -375,7 +375,7 @@
   }
 
   function calloutIcon(style) {
-    return { guideline: '\u{1F4CC}', logic: '\u{1F4A1}', trap: '⚠️' }[style] || '\u{1F4A1}';
+    return { guideline: '\u{1F4CC}', logic: '\u{1F4A1}', trap: '⚠️', key: '\u{1F3AF}' }[style] || '\u{1F4A1}';
   }
 
   function esc(str) {

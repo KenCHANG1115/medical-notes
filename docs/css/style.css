@@ -5,6 +5,7 @@
   --bg-callout-guideline: #e8f0e8;
   --bg-callout-logic: #fff8e1;
   --bg-callout-trap: #fce8e8;
+  --bg-callout-key: #f0eaf8;
   --bg-highlight-yellow: rgba(255, 235, 59, 0.35);
   --bg-highlight-green: rgba(129, 199, 132, 0.35);
   --bg-highlight-blue: rgba(100, 181, 246, 0.35);
@@ -447,6 +448,11 @@ body {
 .callout-trap {
   background: var(--bg-callout-trap);
   border-left: 3px solid #f44336;
+}
+
+.callout-key {
+  background: var(--bg-callout-key);
+  border-left: 3px solid #7e57c2;
 }
 
 .callout .callout-icon {
