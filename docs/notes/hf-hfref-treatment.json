@@ -6,7 +6,7 @@
   "specialty": "心臟內科",
   "sources": [
     "Harrison's 22e - Ch.265 Heart Failure: Management — HFrEF 部分 (p.2035-2043)",
-    "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 K–L (p.256-262)；考題 (p.262-271，本篇收錄 11 題)",
+    "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 K–L (p.256-262)；考題 (p.262-271，本篇收錄 11 題)；戊、瓣膜性心臟病考題 (p.221，1 題)",
     "補充：2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (Heidenreich PA et al. JACC 2022;79:e263-e421)——於 jacc.org 全文閱讀"
   ],
   "generated": "2026-10-11",
@@ -160,12 +160,12 @@
       ]
     },
     {
-      "title": "β 阻斷劑　★ 1 題",
+      "title": "β 阻斷劑　★ 2 題",
       "content": [
         {
           "type": "callout",
           "style": "key",
-          "text": "**必背**\n- 加在 ACEI 上**死亡再降約 35%**；**降低猝死（致命心律不整）**\n- **沒有類別效應**：只有 **carvedilol、bisoprolol、metoprolol succinate（緩釋）**證實改善存活｜**propranolol 不行**（FC 111 年）\n- **低劑量開始、慢慢加**；注意低血壓、心搏過緩、短暫體液滯留（可暫加利尿劑）\n- 心室功能 **2–3 個月後**才明顯改善\n- **先 ACEI 或先 β 阻斷劑都可以**（CIBIS III）——重點是兩者都要盡快用上\n- **急性失代償時不要新開始或加量**，但原本在吃的盡量不要停"
+          "text": "**必背**\n- 加在 ACEI 上**死亡再降約 35%**；**降低猝死（致命心律不整）**\n- **沒有類別效應**：只有 **carvedilol、bisoprolol、metoprolol succinate（緩釋）**證實改善存活｜**propranolol 不行**（FC 111 年）\n- **低劑量開始、慢慢加**；注意低血壓、心搏過緩、短暫體液滯留（可暫加利尿劑）\n- 心室功能 **2–3 個月後**才明顯改善\n- **先 ACEI 或先 β 阻斷劑都可以**（CIBIS III）——重點是兩者都要盡快用上\n- **急性失代償時不要新開始或加量**（FC 103 年：要等肺水腫改善、心衰竭穩定後再開始），但原本在吃的盡量不要停"
         },
         {
           "type": "collapsible",
@@ -181,6 +181,11 @@
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
           "pages": "壬 K p.256-257；考題 p.267"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "戊 考題 p.221"
         },
         {
           "type": "source",
@@ -410,12 +415,17 @@
           "text": "**答：(C)。** 沒有類別效應"
         },
         {
+          "type": "collapsible",
+          "summary": "Q4：40 歲女性雙側下肢水腫、氣促、呼吸困難；雙側肺囉音、S₃ gallop，超音波 LVEF 23%、中度二尖瓣及三尖瓣逆流。何者錯誤？（A BNP 或 NT-proBNP 可評估嚴重度 B 衛教限鹽，一天小於 2–3 克 C β 阻斷劑對預後有幫助，應立即開始使用 D 合理藥物治療後仍有症狀、QRS > 120 ms 時應考慮 CRT）（FC 103 年，戊章）",
+          "text": "**答：(C)。** 要等肺水腫改善、心衰竭症狀較穩定時再開始 β 阻斷劑"
+        },
+        {
           "type": "heading",
           "text": "藥物動力學（§劑量、加藥速度與藥物動力學）"
         },
         {
           "type": "collapsible",
-          "summary": "Q4：有關藥物動力或藥效，何者最正確？（A 心衰竭時藥物在心臟或腦部的效用減低 B 心衰竭時腸胃道吸收增加 C 心衰竭時腎或肝的清除率增加 D 老年人即使沒有明顯腎病，腎清除率仍可能下降 35–50%）（FC 112 年）",
+          "summary": "Q5：有關藥物動力或藥效，何者最正確？（A 心衰竭時藥物在心臟或腦部的效用減低 B 心衰竭時腸胃道吸收增加 C 心衰竭時腎或肝的清除率增加 D 老年人即使沒有明顯腎病，腎清除率仍可能下降 35–50%）（FC 112 年）",
           "text": "**答：(D)。** 心衰竭時吸收**減少**、清除率**下降**"
         },
         {
@@ -424,27 +434,27 @@
         },
         {
           "type": "collapsible",
-          "summary": "Q5：下列藥物可改善 HFrEF 的症狀與預後，何者除外？（A ACEI B MRA C 第二代 CCB D ARNI）（FC 111 年）",
+          "summary": "Q6：下列藥物可改善 HFrEF 的症狀與預後，何者除外？（A ACEI B MRA C 第二代 CCB D ARNI）（FC 111 年）",
           "text": "**答：(C)。** amlodipine、felodipine 沒有改善收縮功能或降低死亡的證據"
         },
         {
           "type": "collapsible",
-          "summary": "Q6：收縮性心衰竭的治療，何者不宜？（A 利尿劑（含 aldosterone 拮抗劑） B CCB，特別是 verapamil 與 diltiazem C RAAS 抑制劑 D 降心跳藥，包括 β 阻斷劑與 ivabradine）（FC 109 年）",
+          "summary": "Q7：收縮性心衰竭的治療，何者不宜？（A 利尿劑（含 aldosterone 拮抗劑） B CCB，特別是 verapamil 與 diltiazem C RAAS 抑制劑 D 降心跳藥，包括 β 阻斷劑與 ivabradine）（FC 109 年）",
           "text": "**答：(B)。** EF < 40% 用非 DHP 類 CCB 是禁忌（負收縮力）"
         },
         {
           "type": "collapsible",
-          "summary": "Q7：糖尿病與心臟血管疾病，何者最不恰當？（A 糖尿病增加心梗與心衰竭 B 有心梗或心衰竭的病人都不可用 metformin C aspirin 與 statin 可預防糖尿病病人的心血管病 D TZD 可能增加心衰竭）（FC 111 年）",
+          "summary": "Q8：糖尿病與心臟血管疾病，何者最不恰當？（A 糖尿病增加心梗與心衰竭 B 有心梗或心衰竭的病人都不可用 metformin C aspirin 與 statin 可預防糖尿病病人的心血管病 D TZD 可能增加心衰竭）（FC 111 年）",
           "text": "**答：(B)。** 腎功能正常時 metformin 安全"
         },
         {
           "type": "collapsible",
-          "summary": "Q8：對於左心室收縮功能異常的心衰竭，何種治療無法延長壽命？（A ACEI B β 阻斷劑 C 毛地黃 D 血管擴張劑組合）（FC 105 年）",
+          "summary": "Q9：對於左心室收縮功能異常的心衰竭，何種治療無法延長壽命？（A ACEI B β 阻斷劑 C 毛地黃 D 血管擴張劑組合）（FC 105 年）",
           "text": "**答：(C)。**"
         },
         {
           "type": "collapsible",
-          "summary": "Q9：心衰竭治療中，何種藥物無法增加存活率？（A ACEI B digoxin C β 阻斷劑 D spironolactone）（FC 103 年）",
+          "summary": "Q10：心衰竭治療中，何種藥物無法增加存活率？（A ACEI B digoxin C β 阻斷劑 D spironolactone）（FC 103 年）",
           "text": "**答：(B)。** 減少住院、不降死亡"
         },
         {
@@ -453,7 +463,7 @@
         },
         {
           "type": "collapsible",
-          "summary": "Q10：76 歲女性，走路就喘，有高血壓和糖尿病，心電圖心房顫動，心室收縮功能正常、無瓣膜病，無中風或其他心血管病史。CHA₂DS₂-VASc 分數？（A 4 B 5 C 6 D 7）（FC 110 年）",
+          "summary": "Q11：76 歲女性，走路就喘，有高血壓和糖尿病，心電圖心房顫動，心室收縮功能正常、無瓣膜病，無中風或其他心血管病史。CHA₂DS₂-VASc 分數？（A 4 B 5 C 6 D 7）（FC 110 年）",
           "text": "**答：(B)、(C) 都給分。** 年齡 ≥ 75（2）＋女性（1）＋高血壓（1）＋糖尿病（1）＝5；把症狀算成心衰竭再＋1＝6"
         },
         {
@@ -462,7 +472,7 @@
         },
         {
           "type": "collapsible",
-          "summary": "Q11：心衰竭相關猝死的預防，何者錯誤？（A 約一半心衰竭患者的猝死由心室心律不整引起，HFrEF 尤其普遍 B 猝死後存活者應考慮 ICD C 不論病因，NYHA I 但 LVEF > 33% 是 ICD 預防性治療的合適候選人 D 心梗 3 個月後 LVEF ≤ 30% 且仍有 VT，即使最佳藥物治療也建議 ICD）（FC 111 年）",
+          "summary": "Q12：心衰竭相關猝死的預防，何者錯誤？（A 約一半心衰竭患者的猝死由心室心律不整引起，HFrEF 尤其普遍 B 猝死後存活者應考慮 ICD C 不論病因，NYHA I 但 LVEF > 33% 是 ICD 預防性治療的合適候選人 D 心梗 3 個月後 LVEF ≤ 30% 且仍有 VT，即使最佳藥物治療也建議 ICD）（FC 111 年）",
           "text": "**答：(C)。** 初級預防以 **LVEF ≤ 35%** 篩選"
         },
         {
