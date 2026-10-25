@@ -6,7 +6,7 @@
   "specialty": "心臟內科",
   "sources": [
     "Harrison's 22e - Ch.264 Heart Failure: Pathophysiology and Diagnosis (p.2018-2030)",
-    "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 A–H (p.252-256)；考題 (p.255-264，本篇收錄 9 題)",
+    "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 A–H (p.252-256)；考題 (p.262-271，本篇收錄 9 題)",
     "補充：2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (Heidenreich PA et al. JACC 2022;79:e263-e421；Circulation 2022;145:e895-e1032)——於 jacc.org 全文閱讀"
   ],
   "generated": "2026-10-11",
@@ -127,7 +127,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 A–C p.253；考題 p.255"
+          "pages": "壬 A–C p.253；考題 p.262-263"
         },
         {
           "type": "source",
@@ -236,7 +236,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 E p.255；考題 p.255、258-259、262-263"
+          "pages": "壬 E p.255；考題 p.263、266、269-270"
         }
       ]
     },
@@ -311,7 +311,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 F p.255；考題 p.263"
+          "pages": "壬 F p.255；考題 p.270"
         }
       ]
     },
@@ -348,7 +348,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 G–H p.255-256；考題 p.257、260-261"
+          "pages": "壬 G–H p.255-256；考題 p.264、267-268"
         },
         {
           "type": "source",

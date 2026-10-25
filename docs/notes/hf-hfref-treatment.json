@@ -6,7 +6,7 @@
   "specialty": "心臟內科",
   "sources": [
     "Harrison's 22e - Ch.265 Heart Failure: Management — HFrEF 部分 (p.2035-2043)",
-    "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 K–L (p.256-262)；考題 (p.255-264，本篇收錄 11 題)",
+    "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 K–L (p.256-262)；考題 (p.262-271，本篇收錄 11 題)",
     "補充：2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (Heidenreich PA et al. JACC 2022;79:e263-e421)——於 jacc.org 全文閱讀"
   ],
   "generated": "2026-10-11",
@@ -90,7 +90,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 K p.256-262；考題 p.261-262"
+          "pages": "壬 K p.256-262；考題 p.268-269"
         },
         {
           "type": "source",
@@ -120,7 +120,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 K p.258；考題 p.261"
+          "pages": "壬 K p.258；考題 p.268"
         },
         {
           "type": "source",
@@ -180,7 +180,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 K p.256-257；考題 p.260"
+          "pages": "壬 K p.256-257；考題 p.267"
         },
         {
           "type": "source",
@@ -240,7 +240,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 K p.256-262；考題 p.257"
+          "pages": "壬 K p.256-262；考題 p.264"
         },
         {
           "type": "source",
@@ -275,7 +275,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 K p.258-260；考題 p.257-261、264"
+          "pages": "壬 K p.258-260；考題 p.265-266、269、271"
         },
         {
           "type": "source",
@@ -305,7 +305,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "考題 p.262"
+          "pages": "考題 p.269"
         },
         {
           "type": "source",
@@ -340,7 +340,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "壬 K p.260-261；考題 p.258"
+          "pages": "壬 K p.260-261；考題 p.265"
         },
         {
           "type": "source",

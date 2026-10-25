@@ -6,7 +6,7 @@
   "specialty": "心臟內科",
   "sources": [
     "Harrison's 22e - Ch.265 Heart Failure: Management — HFpEF 與 ADHF 部分 (p.2030-2035)；Ch.316 Cardiogenic Shock and Pulmonary Edema (p.2367-2375)",
-    "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 M 急性心衰竭 (p.261-262)；考題 (p.263-264，本篇收錄 2 題)",
+    "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 M 急性心衰竭 (p.261-262)；考題 (p.270-271，本篇收錄 2 題)",
     "補充：2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (JACC 2022;79:e263-e421)；2026 ACC Expert Consensus Decision Pathway on Management of HFpEF (Kittleson MM et al. JACC 2026, doi:10.1016/j.jacc.2026.06.018)；2025 ACC/AHA ACS Guideline 心因性休克部分——皆於 jacc.org 全文閱讀"
   ],
   "generated": "2026-10-11",
@@ -124,7 +124,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "考題 p.263"
+          "pages": "考題 p.270"
         },
         {
           "type": "source",
@@ -241,7 +241,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第1冊",
-          "pages": "考題 p.264"
+          "pages": "考題 p.271"
         }
       ]
     },
