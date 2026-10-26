@@ -136,6 +136,14 @@
         {
           "id": "liver-tests-jaundice",
           "name": "Liver Function Tests & Jaundice (肝功能異常與黃疸)"
+        },
+        {
+          "id": "cirrhosis-portal-htn-varices",
+          "name": "Cirrhosis (一)：總論、門脈高壓與靜脈曲張"
+        },
+        {
+          "id": "cirrhosis-ascites-he-transplant",
+          "name": "Cirrhosis (二)：腹水、SBP、肝腎症候群、肝性腦病變與肝移植"
         }
       ]
     },

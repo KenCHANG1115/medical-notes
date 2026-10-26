@@ -30,6 +30,10 @@
     {
       "id": "anemia-megaloblastic",
       "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"
+    },
+    {
+      "id": "cirrhosis-portal-htn-varices",
+      "name": "Cirrhosis (一)：總論、門脈高壓與靜脈曲張"
     }
   ],
   "sections": [

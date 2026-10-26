@@ -28,6 +28,10 @@
     {
       "id": "hepatitis-c-alcohol-masld-aih",
       "name": "Viral Hepatitis (三)：C 型肝炎、藥物性、酒精性、脂肪肝與自體免疫性肝炎"
+    },
+    {
+      "id": "cirrhosis-portal-htn-varices",
+      "name": "Cirrhosis (一)：總論、門脈高壓與靜脈曲張"
     }
   ],
   "sections": [
