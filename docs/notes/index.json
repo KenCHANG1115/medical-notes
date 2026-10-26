@@ -132,6 +132,10 @@
         {
           "id": "hepatitis-c-alcohol-masld-aih",
           "name": "Viral Hepatitis (三)：C 型肝炎、藥物性、酒精性、脂肪肝與自體免疫性肝炎"
+        },
+        {
+          "id": "liver-tests-jaundice",
+          "name": "Liver Function Tests & Jaundice (肝功能異常與黃疸)"
         }
       ]
     },

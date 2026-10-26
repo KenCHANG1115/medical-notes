@@ -26,6 +26,10 @@
     {
       "id": "anemia-marrow-failure",
       "name": "Anemia (五)：急性失血與骨髓衰竭"
+    },
+    {
+      "id": "liver-tests-jaundice",
+      "name": "Liver Function Tests & Jaundice (肝功能異常與黃疸)"
     }
   ],
   "sections": [

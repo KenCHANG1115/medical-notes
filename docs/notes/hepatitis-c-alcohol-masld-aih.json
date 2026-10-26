@@ -30,6 +30,10 @@
     {
       "id": "dyslipidemia",
       "name": "Dyslipidemia (高血脂)"
+    },
+    {
+      "id": "liver-tests-jaundice",
+      "name": "Liver Function Tests & Jaundice (肝功能異常與黃疸)"
     }
   ],
   "sections": [
