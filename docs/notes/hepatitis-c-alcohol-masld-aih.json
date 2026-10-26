@@ -1,0 +1,479 @@
+{
+  "id": "hepatitis-c-alcohol-masld-aih",
+  "title": "Viral Hepatitis (三)：C 型肝炎、藥物性、酒精性、脂肪肝與自體免疫性肝炎",
+  "title_en": "Chronic Hepatitis C, Drug-Induced and Alcohol-Associated Liver Disease, MASLD, and Autoimmune Hepatitis",
+  "title_zh": "病毒性肝炎（三）：慢性 C 型肝炎（自然病程、肝外表現、DAA）、藥物性肝損傷與 acetaminophen、酒精性肝病與酒精性肝炎、MASLD、自體免疫性肝炎與 PBC 鑑別",
+  "specialty": "肝膽腸胃內科",
+  "sources": [
+    "Harrison's 22e - Ch.351 Toxic and Drug-Induced Hepatitis (p.2664-2672)；Ch.352 Chronic Hepatitis — Hepatitis C、Autoimmune Hepatitis (p.2684-2696)；Ch.353 Alcohol-Associated Liver Disease (p.2697-2700)；Ch.354 MASLD and MASH (p.2700-2708)",
+    "First Choice 醫學(三) 第2冊 - 丁、肝炎 A 病毒性肝炎（C 型）(p.114-116)、B 藥物性肝炎 (p.130-131)、C 酒精性肝炎、D 非酒精性脂肪肝 (p.132-133)、自體免疫性肝炎與原發性膽汁性肝硬化 (p.136-141)；考題 (p.118-140，本篇收錄 19 題)"
+  ],
+  "generated": "2026-10-27",
+  "updated": "2026-10-27",
+  "related": [
+    {
+      "id": "hepatitis-acute-viral",
+      "name": "Viral Hepatitis (一)：急性病毒性肝炎與血清學判讀"
+    },
+    {
+      "id": "hepatitis-chronic-b-d",
+      "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"
+    },
+    {
+      "id": "nephritic-syndrome",
+      "name": "Nephritic Syndrome (腎炎症候群)"
+    },
+    {
+      "id": "dm-treatment",
+      "name": "Diabetes (二)：治療——藥物、胰島素與住院血糖"
+    },
+    {
+      "id": "dyslipidemia",
+      "name": "Dyslipidemia (高血脂)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：怎麼讀這篇",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**這篇的範圍**：慢性 C 型肝炎、藥物性肝損傷（含 acetaminophen）、酒精性肝病、代謝功能障礙相關脂肪肝（MASLD）、自體免疫性肝炎與 PBC 鑑別｜**本篇只用 Harrison 22e 與 FC**，沒有另加外部指引｜急性肝炎與血清學 →〈病毒性肝炎（一）〉｜B、D 肝 →〈病毒性肝炎（二）〉｜肝硬化併發症 → 之後的〈肝硬化〉"
+        }
+      ]
+    },
+    {
+      "title": "慢性 C 型肝炎：自然病程與肝外表現　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **急性 C 肝 → 約 85% 變成慢性**（多數沒有症狀，常是健檢或捐血才發現）\n- 慢性 C 肝 **20 年後約 20–25% 肝硬化**；**肝硬化後每年 1–4% 肝癌**（FC 109 年）\n- **加速進展**：**男性、感染時 > 40 歲、喝酒**、HIV 或 B 肝合併感染、肥胖、糖尿病、脂肪肝（FC 109 年：「女性、30 歲以上感染」→ 錯）\n- 在 DAA 之前，**C 肝是西方換肝最主要的原因之一**\n- 最常見症狀是**疲倦**、黃疸少見；**ALT 起伏不定、約 1/3 正常**——**ALT 正常也要治療**\n- **肝外表現**：**混合型冷凝球蛋白血症 → 皮膚血管炎、MPGN（第一型膜增生性腎絲球腎炎）、補體下降**｜B 細胞淋巴瘤｜**遲發性皮膚紫質症**、**扁平苔癬**、Sjögren、**第 2 型糖尿病**（FC 106 年）\n- C 肝腎病以 **MPGN、冷凝球蛋白、膜性腎病**為主；**急性間質性腎炎少見**（FC 106 年）\n- **anti-LKM1** 也可見於部分慢性 C 肝（與第 2 型自體免疫性肝炎相同）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：自然病程細節（Harrison）",
+          "text": "急性 C 肝 50–70% 直接變慢性；ALT 恢復正常的人也常持續感染 → 合計約 85%\n自發清除與 **IL28B（IFNL3）基因型**有關（C/C 53%、T/T 23%）\n社區族群 20 年進展只有 4–7%，轉診中心 ≥ 20%（轉診偏差）｜**組織學是最好的預後指標**\n代償期肝硬化 10 年存活近 80%；每年死亡 2–6%、失代償 4–5%、肝癌 1–4%\n美國 C 肝死亡在 2013 年 DAA 上市後下降｜多數感染者為 1945–1965 年出生世代"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.352 p.2684-2686"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 A 病毒性肝炎（C 型）p.114-116"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 考題 p.122、127"
+        }
+      ]
+    },
+    {
+      "title": "慢性 C 型肝炎：診斷與 DAA 治療　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 診斷：**anti-HCV 陽性 → 驗 HCV RNA**（RNA 陽性才是現在感染）；**anti-HCV 不是保護性抗體**\n- **治療對象：HCV RNA 陽性就治療**，不論 ALT 或纖維化程度（只有預期壽命很短者例外）\n- **現在的標準治療＝口服直接作用抗病毒藥（DAA）**，**泛基因型、8–12 週、治癒率 > 95%**\n　- **sofosbuvir＋velpatasvir 12 週**｜**glecaprevir＋pibrentasvir 8 週**\n- **長效干擾素＋ribavirin 是舊標準**（FC 106 年答案；FC 112 年：「目前主要治療為干擾素＋ribavirin」→ 錯）\n- 治癒定義：**治療結束 12 週後仍測不到 HCV RNA（SVR12）**＝幾乎等於根治 → 減少肝硬化、肝癌、死亡\n- 治療前驗 **HBsAg、anti-HBc**（**DAA 可能讓 B 肝再活化**）、HIV、**纖維化程度**\n- **治療前已肝硬化 → 治癒後仍要每 6 個月肝癌篩檢**\n- **失代償肝硬化不可用蛋白酶抑制劑（-previr）**｜**sofosbuvir＋amiodarone → 嚴重心搏過緩**\n- 急性 C 肝：**不再等待自發清除**，直接給完整 DAA 療程"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hepatitis/h352-2.png",
+          "label": "Harrison's 22e Fig. 352-2",
+          "caption": "C 肝病毒基因體與 DAA 作用標的",
+          "explain": "**【怎麼看】**上方是 C 肝病毒的蛋白：藍色為結構蛋白（C、E1、E2），紅色為非結構蛋白。DAA 打三個目標：**NS3/4A 蛋白酶**（字尾 **-previr**：glecaprevir、voxilaprevir）、**NS5A**（字尾 **-asvir**：velpatasvir、ledipasvir、pibrentasvir）、**NS5B RNA 聚合酶**（字尾 **-buvir**：sofosbuvir）。\n**【考點】**看字尾就知道藥物打哪一個標的；常用組合是**一個 NS5A 抑制劑＋一個 NS5B 或 NS3/4A 抑制劑**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **FC 講義與考古題仍停在干擾素時代**：106 年題目的「標準療法＝干擾素＋ribavirin」是當年答案｜**Harrison 22e：DAA 已完全取代干擾素**，泛基因型、短療程、治癒率 > 95%"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：特殊族群（Harrison）",
+          "text": "**失代償肝硬化**：sofosbuvir＋NS5A（velpatasvir 或 ledipasvir）± ribavirin；**轉介換肝中心**\n**嚴重腎功能不全、洗腎**：glecaprevir＋pibrentasvir 等皆可，sofosbuvir 2019 年起也核准\n**HIV 合併感染**：與單一感染同樣有效；注意藥物交互作用\n**注射藥癮者**：**不再是治療禁忌**（治療可減少傳播）\n**懷孕**：資料有限，不常規治療；**ribavirin 懷孕禁忌（致畸）**；**所有孕婦篩檢 HCV**；可哺乳（乳頭破損或合併 HIV 除外）\n**DAA 治療失敗**：sofosbuvir＋velpatasvir＋voxilaprevir 12 週或 glecaprevir＋pibrentasvir 16 週\n**冷凝球蛋白血管炎**：sofosbuvir 為主的 12 週療程 SVR12 > 80%\n干擾素時代：SVR 約 40–55%；ribavirin 副作用溶血；干擾素禁用於失代償肝硬化"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.352 p.2686-2693（Fig. 352-2）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 A 病毒性肝炎（C 型）p.114-116"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 考題 p.118、128"
+        }
+      ]
+    },
+    {
+      "title": "藥物性肝損傷與 acetaminophen 中毒　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 兩類：**直接毒性（可預測、與劑量相關，如 acetaminophen）**｜**特異體質（難預測，如 isoniazid、amoxicillin-clavulanate）**\n- 型態看 **R 值（ALT 倍數 ÷ ALP 倍數）**：**> 5 肝細胞型**｜**< 2 膽汁鬱積型**｜2–5 混合型\n- **膽汁鬱積型**：**同化類固醇（methyltestosterone）**、口服避孕藥、amoxicillin-clavulanate、erythromycin、chlorpromazine（FC 112 年：ALP 795、ALT 只 56 → methyltestosterone）\n- **肝細胞型**：**isoniazid**、acetaminophen（壞死）｜**脂肪肝**：amiodarone、valproate、methotrexate、tetracycline｜**類自體免疫**：nitrofurantoin、minocycline\n- **acetaminophen**：**CYP2E1 → NAPQI**，平常靠 **glutathione** 解毒；過量耗盡 → **小葉中心壞死**\n　- **與劑量相關**，**血中濃度與肝損傷程度相關**（nomogram，服藥後 4 小時起）\n　- 病程：**4–12 小時噁心嘔吐 → 24–48 小時肝損傷出現 → 第 3–5 天最嚴重**（黃疸、深茶色尿；FC 107 年）｜**ALT 常 > 10,000、膽紅素相對低**\n　- **剛來時肝功能正常不代表不會受傷**（FC 104 年）\n　- **N-acetylcysteine**：**8 小時內**最有效，24–36 小時仍有部分效果\n　- **酗酒者（CYP2E1 被誘導、glutathione 少）、禁食**風險高；**可合併腎衰竭**\n　- **存活者不會演變成慢性肝病**（FC 105 年）\n- **猛爆性肝炎常見原因**：**藥物（acetaminophen）**、**A、B 肝**等病毒；**熬夜不是**（FC 106 年）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他藥物性肝損傷細節（Harrison）",
+          "text": "**amoxicillin-clavulanate 是最常見的抗生素 DILI**（混合或膽汁鬱積型）\n特異體質反應多為肝細胞型，像病毒性肝炎；可伴隨關節痛、發燒、皮疹、嗜酸性球\n**anti-LKM2** 見於藥物性肝炎；**nitrofurantoin、minocycline、hydralazine、α-methyldopa** 會像自體免疫性肝炎（ANA 陽性）\n**isoniazid**：10% 前幾週 ALT 輕度上升（多可自行適應）；酗酒者較易嚴重\n**Hy's law**：藥物試驗出現黃疸的個案，約每 10 例黃疸有 1 例急性肝衰竭\n處置：**ALT 達 5 倍上限或出現症狀 → 停藥**；DILI 約 10% 發展成急性肝衰竭\nacetaminophen：單次 10–15 g 可傷肝、≥ 25 g 常致命；4 小時濃度 > 300 μg/mL 嚴重、< 150 不太可能受傷｜慢性酗酒者 **2 g** 就可能中毒｜**FDA 建議每日上限降到 3 g**、複方每顆 ≤ 325 mg\nNAC 靜脈：140 mg/kg 負荷，之後 70 mg/kg 每 4 小時共 15–20 劑（Harrison）｜**乳酸 > 3.5 mmol/L → 可能需換肝**｜嚴重者近 75% 合併急性腎損傷（多可恢復）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.351 p.2664-2670（Table 351-1、351-2）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 B 藥物性肝炎 p.130-131"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 考題 p.133-135"
+        }
+      ]
+    },
+    {
+      "title": "酒精性肝病　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 光譜：**脂肪肝 → 脂肪肝炎 → 纖維化、肝硬化**；**酒精性肝炎**＝慢性病上的急性發作，死亡率高\n- 一杯標準酒約 **14 g 酒精**（Harrison）；**女性較低量就會發病**（FC 104 年）\n- 代謝：**ADH → 乙醛 → ALDH → 醋酸**；長期喝酒誘導 **CYP2E1**\n- **喝酒臉紅、心悸＝ALDH2 缺乏、乙醛堆積**（亞洲人常見），**不是代謝能力強**（FC 104 年）\n- 進展危險因子：**喝酒量與時間、女性、空腹或暴飲、抽菸、肥胖或 MASLD、病毒性肝炎、PNPLA3 基因**——**酒精性脂肪肝主因是酒精本身，不是肥胖與胰島素阻抗**（FC 112 年）\n- 檢驗：**AST／ALT > 1（常 > 1.5–2）**、**AST 很少 > 300**、**GGT 上升**、**MCV 大（巨球性）**｜**ALT > 2000 不支持酒精**（想病毒、藥物、缺血）（FC 106、103 年）\n- **女性超量飲酒增加乳癌風險**（FC 103 年）｜**CAGE 問卷可用來篩檢**\n- 治療核心：**戒酒**（脂肪肝、脂肪肝炎可逆）｜**合併 C 肝 → 驗 HCV RNA 並治療**\n- **嚴重酒精性肝炎（Maddrey ≥ 32 或 MELD > 20）→ prednisolone 40 mg 28 天**；**第 7 天 Lille ≥ 0.45 無效 → 停藥、考慮早期換肝**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hepatitis/h353-1.png",
+          "label": "Harrison's 22e Fig. 353-1",
+          "caption": "酒精性肝炎的治療流程",
+          "explain": "**【怎麼看】**臨床診斷酒精性肝炎後，有干擾因素（缺血、藥物、自體免疫）→ **經頸靜脈肝切片**。依嚴重度分兩路：**中度（MDF < 32 或 MELD ≤ 20）→ 戒酒、營養支持**｜**重度（MDF ≥ 32 或 MELD > 20）→ 口服 prednisolone 40 mg/天**（不能吃用靜脈 methylprednisolone 32 mg）。**7 天後看 Lille 分數**：< 0.45 繼續到 28 天；≥ 0.45 停藥。無效或有類固醇禁忌 → **早期換肝**或支持、緩和照護。\n**【考點】**Maddrey＝4.6 ×（PT 延長秒數）＋膽紅素；**≥ 32 才給類固醇**；**感染、腸胃出血、腎衰竭未控制時不給**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：酒精性肝病細節（Harrison）",
+          "text": "不健康飲酒：女性每天 ≥ 2 杯、男性 ≥ 3 杯；暴飲：女性一次 ≥ 4 杯、男性 ≥ 5 杯\n天天喝或大量喝 → 幾乎都脂肪肝，但只有 **10–20%** 進展到肝硬化｜全球肝硬化 48% 歸因於酒精\n**MetALD**：有代謝危險因子又喝中等量酒\n酒精性肝炎：大量喝酒 > 6 個月、停酒 < 60 天內發病；**快速黃疸（膽紅素 > 3）**、發燒、**觸痛的肝腫大**；AST、ALT 都 < 400、AST/ALT > 1.5｜約 80% 已有肝硬化｜12–26% 合併感染\n病理：**大泡性脂肪（第 3 區）**、肝細胞氣球樣變、**Mallory-Denk 小體**、嗜中性球浸潤、雞籠狀纖維化\n類固醇禁忌：未控制的感染或敗血症、急性腎損傷或肝腎症候群、上腸胃道出血、合併病毒性肝炎、HCC、胰臟炎、結核、HIV、多重器官衰竭｜類固醇只降低 28 天內死亡\n中度酒精性肝炎 1 年死亡約 20%｜重度 3 個月死亡約 30%｜營養 35–40 kcal/kg、補鋅、B1、K\n體徵：蜘蛛痣、手掌紅斑、男性女乳、睪丸萎縮、Dupuytren 攣縮、腮腺腫大、周邊神經病變、Wernicke-Korsakoff\n酒精性肝硬化是美國換肝最主要的適應症"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.353 p.2697-2700（Table 353-1、353-2、Fig. 353-1）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 C 酒精性肝炎 p.132"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 考題 p.133-136"
+        }
+      ]
+    },
+    {
+      "title": "代謝功能障礙相關脂肪肝（MASLD）　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **MASLD（舊稱 NAFLD）**＝**脂肪肝＋至少一項心血管代謝危險因子**（肥胖或腰圍、血糖異常或糖尿病、高血壓、高三酸甘油脂、低 HDL），且**少量喝酒或不喝**\n- **MASH（舊稱 NASH）**＝脂肪肝炎，可進展到纖維化、肝硬化、肝癌\n- 造成脂肪肝：**肥胖、糖尿病、高血脂**、酒精、藥物（amiodarone、類固醇、tamoxifen）、快速減重、全靜脈營養｜**胃食道逆流不會**（FC 107 年）\n- **最常見的慢性肝病**；**第 2 型糖尿病是最強的危險因子**（30–75% 合併 MASLD）\n- **預後最重要的是纖維化程度**；**主要死因是心血管疾病**\n- 篩檢纖維化：**FIB-4 < 1.3 → 基層追蹤**｜**≥ 1.3 → 肝臟彈性（< 8 低、> 12 kPa 高風險）**\n- 治療：**飲食與運動**——**減重 3–5% 改善脂肪肝、> 10% 改善脂肪肝炎與纖維化**｜控制糖尿病、血脂、血壓\n- 藥物：**pioglitazone、維生素 E**（PIVENS）、**GLP-1 促效劑（semaglutide）**改善脂肪肝炎；**resmetirom** 用於 F2–F3"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **病名改了**（Harrison 22e 已採用）：**NAFLD → MASLD、NASH → MASH**，強調代謝危險因子；新增 **MetALD**（有代謝危險因子又喝中等量酒：女 20–50 g／天、男 30–60 g／天）｜**resmetirom**（甲狀腺素受體 β 促效劑）獲 FDA 加速核准用於非肝硬化的 F2–F3 MASH——FC 講義仍用 NAFLD"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hepatitis/h354-1.png",
+          "label": "Harrison's 22e Fig. 354-1",
+          "caption": "MASLD 的組織病理光譜",
+          "explain": "**【怎麼看】****A** 正常肝｜**B** 單純脂肪肝：肝細胞內大脂肪泡（箭頭）｜**C** MASH：**氣球樣變的肝細胞**（箭頭）、中央靜脈旁**細胞周圍纖維化**（藍色，箭頭三角）｜**D** 肝硬化：藍色的**橋狀纖維化**包圍再生小結節。\n**【考點】**脂肪肝 → 脂肪肝炎（氣球樣變、發炎）→ 纖維化 → 肝硬化；**纖維化程度決定預後**。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/hepatitis/h354-2.png",
+          "label": "Harrison's 22e Fig. 354-2",
+          "caption": "MASLD 的風險分層流程",
+          "explain": "**【怎麼看】**基層先算 **FIB-4**：**< 1.3 → 定期重算**（有糖尿病或 ≥ 2 個代謝危險因子每 1–2 年，否則每 2–3 年）｜**≥ 1.3 → 第二層評估**：**肝臟彈性（VCTE）< 8 kPa 低風險、8–12 中間、> 12 高風險**（或 ELF）｜**FIB-4 > 2.67 或 ALT、AST 持續上升 → 轉介腸胃肝膽科**。切片：F0–1 每 2–3 年重評、**F2–3 考慮藥物**、F4 照肝硬化處理。所有病人都要降低心血管風險、治療代謝共病、評估喝酒量、生活型態與減重。\n**【考點】**基層的目標是**排除晚期纖維化**（FIB-4 陰性預測值高）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：MASLD 細節（Harrison）",
+          "text": "術語：**脂肪性肝病（SLD）**為總稱，底下有 MASLD、MetALD、酒精性肝病｜MASLD 定義的喝酒量：**女 ≤ 20 g／天、男 ≤ 30 g／天**｜**危險飲酒（女 ≥ 50、男 ≥ 60 g／天）→ 歸為酒精性肝病**\nNAFLD 與 MASLD 的族群重疊 ≥ 98%｜瘦的人（BMI < 25，亞洲 < 23）也可能得\nMASLD 是美國換肝的主要適應症之一；也增加肝外癌症風險\nPIVENS：pioglitazone 30 mg 18 個月脂肪肝炎緩解 47% vs 21%；維生素 E 也有改善\nsemaglutide 0.4 mg：72 週 MASH 緩解 59% vs 17%（纖維化未顯著改善）｜tirzepatide 體重可降約 20%\nMAESTRO-NASH：resmetirom 52 週 MASH 緩解 26–30% vs 10%、纖維化改善 24–26% vs 14%"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.354 p.2700-2708（Fig. 354-1、354-2）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 D 非酒精性脂肪肝 p.132-133"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 考題 p.134"
+        }
+      ]
+    },
+    {
+      "title": "自體免疫性肝炎與 PBC 鑑別　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **自體免疫性肝炎（AIH）**：**女性約 75%**、年齡雙峰；肝細胞壞死發炎、常合併纖維化 → 肝硬化\n- 機轉：對肝臟自體抗原**失去免疫耐受**——**調節性 T 細胞功能下降**（FC 113 年：「上升」→ 錯）；與 **HLA-DR3、DR4**、CTLA-4、TNFA*2 多形性有關\n- **第 1 型**：**ANA、抗平滑肌抗體（ASMA）**、高 γ 球蛋白（IgG）｜**第 2 型**：**anti-LKM1**（兒童、地中海）\n- 檢驗：**轉胺酶上升為主**、**IgG 上升**、ANA（同質型）、ASMA；**切片：界面肝炎、漿細胞浸潤、玫瑰花環**\n- 診斷前要先**排除病毒性肝炎、藥物、酒精、Wilson 病**；國際評分（IAIHG）包括**女性、自體抗體、IgG、組織學、HLA-DR3／DR4、對免疫抑制的反應**（FC 108 年：「HLA-A2」→ 錯）\n- 治療：**類固醇（prednisone）＋azathioprine** → 約 80% 有反應；**停藥後至少一半復發**，多數需長期維持\n- AIH 肝硬化**肝癌機會比病毒性肝炎低**（FC 110 年）\n- **PBC（原發性膽汁性膽管炎）**：**中年女性、搔癢、ALP 上升、抗粒線體抗體（AMA）**、**IgM 上升**、**黃色瘤**；切片：**慢性非化膿性破壞性膽管炎**｜**ursodeoxycholic acid 改善病程但不能治癒**（FC 110 年）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "鑑別",
+            "自體免疫性肝炎（AIH）",
+            "原發性膽汁性膽管炎（PBC）"
+          ],
+          "rows": [
+            [
+              "型態",
+              "**肝細胞型**（ALT、AST 上升為主）",
+              "**膽汁鬱積型**（ALP、GGT 上升為主）"
+            ],
+            [
+              "症狀",
+              "疲倦、關節痛，可無症狀或像急性肝炎",
+              "**搔癢**、疲倦、黃色瘤"
+            ],
+            [
+              "抗體",
+              "**ANA、ASMA**（第 1 型）｜**anti-LKM1**（第 2 型）",
+              "**抗粒線體抗體（AMA）**"
+            ],
+            [
+              "免疫球蛋白",
+              "**IgG 上升**",
+              "**IgM 上升**"
+            ],
+            [
+              "病理",
+              "**界面肝炎、漿細胞**",
+              "**慢性非化膿性破壞性膽管炎**"
+            ],
+            [
+              "治療",
+              "**類固醇＋azathioprine**",
+              "**ursodeoxycholic acid**（不能治癒）"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：AIH 細節（Harrison）",
+          "text": "10 年存活：治療 80–98%、未治療 67%｜嚴重型（ALT > 10 倍、高 γ 球蛋白、橋狀壞死）不治療 6 個月死亡可達 40%\n誘發：藥物（minocycline）、病毒、COVID-19 或疫苗後｜合併其他自體免疫病：甲狀腺炎、類風濕、溶血性貧血、潰瘍性結腸炎、第 1 型糖尿病、白斑、乳糜瀉、Sjögren\nASMA 63% 陽性，**與 ANA 同時陽性特異性高**｜低效價 ANA、ASMA 也見於 MASLD、病毒性肝炎\nanti-SLA：第 1 型的一個亞群，預後較差｜anti-LKM2 見於藥物性肝炎、anti-LKM3 見於 D 肝\n簡化評分：自體抗體、IgG 上升、典型組織學、沒有病毒性肝炎標記｜**不利診斷**：ALP 為主、AMA、病毒標記、藥物或酒精史、膽管損傷\n類固醇：美國常 60 mg 起逐步減量；輕症可用 budesonide｜反應＝4 週 ALT 降 > 50%｜azathioprine 前驗 TPMT｜無法耐受 → 6-MP 或 mycophenolate；難治 → tacrolimus、rituximab\n治療**至少到生化緩解後 24 個月**才考慮停藥；**治療 2 週膽紅素沒改善 → 考慮換肝**\n免疫檢查點抑制劑肝炎：像 AIH 但 ANA 少、沒有女性為主"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.352 p.2694-2696（自體免疫性肝炎）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 自體免疫性肝炎、原發性膽汁性肝硬化 p.136-141"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁 考題 p.139-140"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "C 肝自然病程與肝外表現（§慢性 C 型肝炎：自然病程與肝外表現）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：關於 C 型肝炎的自然病史，何者錯誤？（A 慢性 C 肝 20–30 年後約 20–25% 發展成肝硬化 B 肝硬化患者每年 1–4% 罹患肝細胞癌 C 慢性 C 肝是西方國家換肝最主要的適應症之一 D 女性、酗酒、30 歲以上感染是慢性 C 肝快速進展的因素）（FC 109 年）",
+          "text": "**答：(D)。** 加速進展的是**男性**、**感染時 > 40 歲**、喝酒、HIV、糖尿病、肥胖"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：45 歲男性有慢性 C 肝病史，尿中泡沫多、水腫、體重增加 5 公斤；24 小時尿蛋白 5 g，白蛋白 2.4 g/dL，補體下降。何者錯誤？（A 蛋白尿已達腎病症候群標準 B 血中常出現冷凝蛋白 C 較易出現腎動脈栓塞 D 腎臟穿刺最可能是 MPGN）（FC 106 年）",
+          "text": "**答：(C)。** C 肝 → 冷凝球蛋白血症 → **第一型 MPGN**、補體下降"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：C 型肝炎病人有高達 30% 伴隨腎臟病變，下列何種變化最少見？（A 冷凝球蛋白腎絲球腎炎 B 膜性腎病變 C 急性間質性腎炎 D 第一型膜增生性腎絲球腎炎）（FC 106 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "C 肝治療（§慢性 C 型肝炎：診斷與 DAA 治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：68 歲李女士 30 年前因輸血感染 C 肝；AST 100、ALT 126，HCV genotype 1，超音波無肝硬化，有肝癌家族史。何者錯誤？（A 應定期接受肝癌篩檢，包括腹部超音波與胎兒蛋白 B 應接受抗病毒藥物治療 C 目前 C 肝治療主要為長效干擾素合併 ribavirin D 若能清除 C 肝病毒，可減少肝硬化、肝癌風險）（FC 112 年）",
+          "text": "**答：(C)。** 現在是 **DAA**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：目前治療 C 型肝炎的標準療法為何？（A 干擾素單獨使用 B ribavirin 單獨使用 C 干擾素及 ribavirin 合併使用 D 干擾素與 lamivudine 合併使用）（FC 106 年）",
+          "text": "**答：(C)（當年答案）。** 📌 現在第一線是 **DAA**（FC 詳解也已註明）"
+        },
+        {
+          "type": "heading",
+          "text": "藥物性肝損傷（§藥物性肝損傷與 acetaminophen 中毒）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：懷疑藥物性肝損傷的病人，ALT 56、AST 72、ALP 795（正常 < 100）、總膽紅素 1.8。何種藥最可能？（A methotrexate B isoniazid C methyltestosterone D acetaminophen）（FC 112 年）",
+          "text": "**答：(C)。** 膽汁鬱積型（ALP 為主）｜methotrexate 造成纖維化、isoniazid 與 acetaminophen 是肝細胞型"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：普拿疼（acetaminophen）中毒的病人在第三天出現皮膚變黃、深茶色尿，最可能是何種毒性？（A 肝毒性 B 心毒性 C 神經毒性 D 腎毒性）（FC 107 年）",
+          "text": "**答：(A)。** 第 3–5 天肝損傷最嚴重"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：引起猛爆性肝炎常見的原因，不包括下列何者？（A 藥物 B A 型肝炎 C B 型肝炎 D 熬夜）（FC 106 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：張先生吞了一大把 acetaminophen 後噁心、嘔吐、倦怠；ALT 894、AST 720、總／直接膽紅素 2.2/1.8、ALP 42、GGT 50。關於此藥物引起的傷害，何者最不正確？（A 是與劑量有關的肝傷害 B 血中藥物濃度與肝傷害嚴重度相關 C 如未發生肝衰竭，日後還是會演變成慢性肝病 D 可能引起腎衰竭）（FC 105 年）",
+          "text": "**答：(C)。** 存活者幾乎不會有慢性肝病"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：22 歲女性 6 小時前吞食數量不明的 acetaminophen，嘔吐但生命徵象穩定、神智清楚，血中濃度 380 μg/mL。何者錯誤？（A 肝功能正常表示不會造成肝傷害 B 應考慮立即使用 N-acetylcysteine C 宜住院觀察 2–5 天 D 長期飲酒史是 acetaminophen 肝傷害的危險因子）（FC 104 年）",
+          "text": "**答：(A)。** 肝損傷 24–48 小時後才出現；依濃度給 NAC"
+        },
+        {
+          "type": "heading",
+          "text": "酒精性肝病（§酒精性肝病）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：45 歲男性 BMI 23，每週喝五次、每次兩罐啤酒（500 mL、5%）長達 15 年；AST/ALT 85/52、HBsAg 陰性、anti-HCV 陽性，超音波中度脂肪肝。何者較不適當？（A 可能已有酒精性脂肪肝 B 酒精性脂肪肝的發生與肥胖及胰島素阻抗密切相關 C 戒酒是改善肝功能最重要的方法之一，此階段高劑量類固醇沒有幫助 D 可能同時有 C 肝，須評估 HCV RNA 並治療）（FC 112 年）",
+          "text": "**答：(B)。** 主因是酒精代謝的肝細胞毒性"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：45 歲秦先生被家屬勸來就醫，家屬提供的數據都支持他有酒精性肝傷害，除了？（A ALT < AST B γ-GT 偏高 C 超音波脂肪肝 D ALT > 2,000）（FC 106 年）",
+          "text": "**答：(D)。** 酒精性 AST 很少 > 300"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：有關酒精性肝病，何者錯誤？（A 同量的酒，女性耐受力較差、易致肝傷害 B 飲酒後易臉紅、心悸者代表酒精代謝能力較強 C 易感性與酒精代謝及基因多型性有關 D 酒精性肝硬化比病毒性肝硬化易產生蜘蛛痣）（FC 104 年）",
+          "text": "**答：(B)。** 臉紅＝ALDH2 缺乏、乙醛堆積"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：有關酒精問題，何者正確？（A 酒精性肝病 ALT 通常高於 AST B 酗酒者 CBC 常顯示小球性紅血球 C CAGE 問卷篩檢酒精問題的實用價值不高 D 女性飲酒超過建議量會增加乳癌風險）（FC 103 年）",
+          "text": "**答：(D)。** AST > ALT｜巨球性｜CAGE 實用"
+        },
+        {
+          "type": "heading",
+          "text": "脂肪肝（§代謝功能障礙相關脂肪肝）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：下列何者不會引起脂肪肝？（A 肥胖 B 糖尿病 C 高血脂 D 胃食道逆流）（FC 107 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "自體免疫性肝炎與 PBC（§自體免疫性肝炎與 PBC 鑑別）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：有關自體免疫性肝炎的病理機轉，何者錯誤？（A 肝細胞壞死發炎、常合併纖維化，可導致肝硬化甚至肝衰竭 B 肝臟內調節性 T 細胞活性上升 C CTLA-4 與 TNFA*2 的基因多形性和發生有關 D 血清常出現 ANA、anti-LKM 等自體抗體）（FC 113 年）",
+          "text": "**答：(B)。** 調節性 T 細胞活性**下降** → 失去免疫耐受"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q17：30 歲女性疲倦、關節痛、肝指數異常，無搔癢、無藥物濫用；AST/ALT 380/410、HBsAg 陰性、anti-HCV 陰性、ANA 陽性。何者正確？（A anti-LKM 也可能陽性 B 併發肝細胞癌的機會比病毒性肝炎相關肝硬化高 C 抗平滑肌抗體應呈陰性 D 肝穿刺常見慢性非化膿性破壞性膽管炎）（FC 110 年）",
+          "text": "**答：(A)。** 自體免疫性肝炎；(D) 是 PBC 的病理"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q18：根據 International Autoimmune Hepatitis Group 評分，有關自體免疫性肝炎的診斷與治療，何者錯誤？（A 診斷前需先排除病毒性肝炎等常見肝病 B 對免疫抑制療法的反應是評分項目之一 C ANA 是最重要常見的免疫學指標 D 發生與 HLA-A2 和 DRO 有關）（FC 108 年）",
+          "text": "**答：(D)。** 與 **HLA-DR3、DR4** 有關"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q19：有關原發性膽汁性肝硬化（PBC），何者錯誤？（A 多數病人抗粒線體抗體陽性 B 可發生 xanthelasma 與 xanthomata C 以 ursodeoxycholic acid 治療可治癒此疾病 D 血清免疫球蛋白上升主要為 IgM）（FC 110 年）",
+          "text": "**答：(C)。** UDCA 改善病程與預後，但不能治癒"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "C 肝病程",
+              "**85% 變慢性**｜20 年 20–25% 肝硬化｜肝硬化每年 1–4% 肝癌｜加速：**男、> 40 歲感染、喝酒**、HIV、肥胖｜ALT 正常也治療"
+            ],
+            [
+              "C 肝肝外",
+              "**冷凝球蛋白 → MPGN、補體低**｜PCT、扁平苔癬、糖尿病、B 細胞淋巴瘤｜急性間質性腎炎少見"
+            ],
+            [
+              "C 肝治療",
+              "**DAA 泛基因型 8–12 週、> 95%**｜SVR12＝治癒｜先驗 B 肝（再活化）｜肝硬化治癒後仍篩肝癌｜📌 干擾素＋ribavirin 是舊答案"
+            ],
+            [
+              "藥物",
+              "R > 5 肝細胞、< 2 膽汁鬱積｜**膽汁鬱積：同化類固醇、避孕藥、amoxicillin-clavulanate**｜INH 肝細胞型"
+            ],
+            [
+              "acetaminophen",
+              "NAPQI、glutathione｜劑量相關、濃度預測｜**第 3–5 天最嚴重**｜早期肝功能正常不代表沒事｜**NAC 8 小時內**｜酗酒、禁食風險高｜不變慢性"
+            ],
+            [
+              "酒精",
+              "**AST > ALT、AST < 300、GGT ↑、MCV ↑**｜ALT > 2000 不像｜**臉紅＝ALDH2 缺乏**｜女性易感｜乳癌風險｜**戒酒**｜重度（MDF ≥ 32）→ prednisolone 28 天、Lille 7 天"
+            ],
+            [
+              "MASLD",
+              "脂肪肝＋代謝危險因子｜糖尿病最強｜**死因心血管**｜FIB-4 < 1.3 排除｜減重 3–5% 脂肪、> 10% 纖維化｜📌 NAFLD → MASLD"
+            ],
+            [
+              "AIH vs PBC",
+              "**AIH：女性、ANA／ASMA（1 型）、anti-LKM1（2 型）、IgG、界面肝炎、類固醇＋AZA**｜Treg 下降、DR3／DR4｜**PBC：AMA、IgM、ALP、搔癢、UDCA 不能治癒**"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

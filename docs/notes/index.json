@@ -128,6 +128,10 @@
         {
           "id": "hepatitis-chronic-b-d",
           "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"
+        },
+        {
+          "id": "hepatitis-c-alcohol-masld-aih",
+          "name": "Viral Hepatitis (三)：C 型肝炎、藥物性、酒精性、脂肪肝與自體免疫性肝炎"
         }
       ]
     },

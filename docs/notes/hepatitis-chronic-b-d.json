@@ -2,7 +2,7 @@
   "id": "hepatitis-chronic-b-d",
   "title": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎",
   "title_en": "Chronic Hepatitis B and D",
-  "title_zh": "病毒性肝炎（二）：慢性肝炎分級分期、慢性 B 肝自然病程與分期、抗病毒藥物與抗藥性、治療適應症（Harrison、AASLD 2025、台灣健保）、停藥與肝癌篩檢、懷孕與化療再活化等特殊族群、慢性 D 肝",
+  "title_zh": "病毒性肝炎（二）：慢性肝炎分級分期、慢性 B 肝自然病程、抗病毒藥物、治療時機（Harrison、AASLD 2025、健保）、停藥與肝癌篩檢、懷孕與免疫抑制、慢性 D 型肝炎",
   "specialty": "肝膽腸胃內科",
   "sources": [
     "Harrison's 22e - Ch.352 Chronic Hepatitis：總論、慢性 B 肝、慢性 D 肝 (p.2716-2727)",
@@ -11,6 +11,7 @@
     "補充：衛生福利部中央健康保險署 藥品給付規定 第10節 10.7.3（114 年 6 月 1 日生效）及 114-05-08 修訂對照表（健保審字第1140671088號）——於 nhi.gov.tw 原文閱讀；健保給付規定，非臨床指引"
   ],
   "generated": "2026-10-18",
+  "updated": "2026-10-27",
   "related": [
     {
       "id": "hepatitis-acute-viral",
@@ -23,25 +24,44 @@
     {
       "id": "nephrotic-syndrome",
       "name": "Nephrotic Syndrome (腎病症候群)"
+    },
+    {
+      "id": "hepatitis-c-alcohol-masld-aih",
+      "name": "Viral Hepatitis (三)：C 型肝炎、藥物性、酒精性、脂肪肝與自體免疫性肝炎"
     }
   ],
   "sections": [
     {
-      "title": "讀前說明：來源與證據等級",
+      "title": "讀前說明：怎麼讀這篇",
       "content": [
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**新版來源**：**AASLD/IDSA 2025 B 肝指引**（條件式建議）、**健保 10.7.3（114/6/1 生效）**｜Harrison 的治療架構依 AASLD 2018 → **考試照 Harrison 與 FC**，新版差異放在 📌｜急性肝炎、血清學 →〈病毒性肝炎（一）〉｜C 肝 →〈病毒性肝炎（三）〉"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：來源分層說明（原讀前說明）",
           "text": "**來源分三層**\n1. **Harrison Ch.352＋FC 第2冊**：考試主軸。Harrison 的治療架構（Table 352-4）是依 **AASLD 2018 版**\n2. **補充：AASLD/IDSA 2025 B 肝治療指引**（Ghany MG et al. Hepatology 2026;83:974-997）——**GRADE 方法的正式指引**；只處理 **6 個問題**（懷孕、預防傳染、免疫耐受期、HBeAg 陰性不確定期、停藥、肝癌篩檢），**其餘照 2018 版**\n   - 每條標「**強／條件式**」建議＋「**證據確定性：高／中／低／極低**」\n   - **條件式＝多數人會選、但相當多人不會選 → 要與病人共同決策**\n   - 原文自承：**多數建議的證據確定性為低或極低**\n3. **補充：健保署藥品給付規定 10.7.3（114 年 6 月 1 日生效）**——**健保給付條件，不是臨床指引**；FC 引用的是 110/3/1 版，以下已更新"
         }
       ]
     },
     {
-      "title": "慢性肝炎總論：分類、分級與分期",
+      "title": "慢性肝炎總論：分類、分級與分期　★ 0 題",
       "content": [
         {
           "type": "callout",
-          "style": "logic",
+          "style": "key",
+          "text": "**必背**\n- **慢性肝炎＝發炎壞死持續 ≥ 6 個月**；原因：B、B＋D、C、藥物、酒精、脂肪肝、自體免疫\n- **分級（grade）＝發炎活性**｜**分期（stage）＝纖維化程度**\n- 評分：**HAI（Ishak，美國）**、**METAVIR（歐洲，纖維化 F0–F4）**\n- **非侵入評估**：**FIB-4**、**肝臟彈性（Fibroscan）**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：慢性肝炎＝肝臟發炎與壞死持續至少 6 個月（Harris…",
           "text": "**慢性肝炎＝肝臟發炎與壞死持續至少 6 個月**（Harrison Ch.352）\n- 類別：**慢性病毒性（B、B＋D、C）**、藥物或毒素、**酒精**、**代謝性（脂肪肝）**、**自體免疫**；找不到原因的「特發性」多被認為是自體免疫｜常有**重疊**（例如病毒＋脂肪肝）\n- 也要想到 **Wilson 病**、**α1 抗胰蛋白酶缺乏**\n- **A、E 肝不會造成慢性肝炎**（E 肝在免疫低下者例外）\n- 舊分類（慢性持續性、慢性活動性）已淘汰 → 改用 **病因＋分級（grade，發炎程度）＋分期（stage，纖維化程度）**"
         },
         {
@@ -65,8 +85,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：重要名詞",
           "text": "**重要名詞**\n- **界面肝炎（interface hepatitis，碎片狀壞死）**：發炎細胞破壞門脈周圍肝細胞的**界板**\n- **橋狀壞死**：門脈–門脈，或更重要的**門脈–中央靜脈**之間的融合壞死\n- **非侵入性纖維化評估**：**FIB-4**＝年齡 × AST ÷（血小板 × √ALT）；ELF 分數（多用於脂肪肝）；**肝臟硬度（elastography）**——AASLD 2025：**elastography 表現優於 FIB-4**；**切片最準但少用**\n**FC 110 年**：「HAI 分 0–6 分、METAVIR 0–4 分」（指**纖維化分期**）→ 正確；也可用血中纖維化標記與肝臟彈性非侵入評估"
         },
         {
@@ -82,11 +102,16 @@
       ]
     },
     {
-      "title": "慢性 B 肝自然病程（考題重點）",
+      "title": "慢性 B 肝自然病程（考題重點）　★ 1 題",
       "content": [
         {
           "type": "callout",
-          "style": "logic",
+          "style": "key",
+          "text": "**必背**\n- **感染年齡決定結局**：出生時感染 → **約 90% 慢性**（台灣、東亞多為**垂直感染**）；成人感染 → 約 1% 慢性\n- 病程四期：\n　- **免疫耐受期**：**HBeAg 陽性、HBV DNA 很高、ALT 正常**、年輕\n　- **HBeAg 陽性活動期**：ALT 上升、肝炎活動\n　- **不活動帶原**：**HBeAg 陰性、anti-HBe 陽性、ALT 正常、HBV DNA 低**\n　- **HBeAg 陰性慢性肝炎**（precore 變異）：ALT 上升、HBV DNA ≥ 2,000\n- **HBeAg 陰性＋anti-HBe 陽性 ≠ 體內沒有病毒**；有肝癌家族史仍要**每 6 個月超音波＋AFP**（FC 112 年）\n- **HBeAg 血清轉換**每年約 5–10%"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：感染年齡決定結局（Harrison）",
           "text": "**感染年齡決定結局**（Harrison）\n- **出生時感染**：急性期沒有症狀，但 **90% 變慢性**；台灣、東亞以這種為主\n- **年輕成人感染**：多有明顯急性肝炎，但**慢性化只有約 1%**\n- 大部分成人慢性 B 肝**從來沒有明顯的急性肝炎病史**\n**決定進展最重要的因素是病毒複製量（HBV DNA）**——HBeAg 陽性或陰性都一樣；**HBV DNA 越高，肝硬化與肝癌風險越高**\n- 其他加速因子：**合併 HIV**（肝病死亡率約高 20 倍）、**合併脂肪性肝炎**\n- 組織學也有預後意義：輕度、中重度、合併肝硬化的 5 年存活分別約 97%、86%、55%（15 年 77%、66%、40%）；但輕度者也有超過 1/4 在追蹤中惡化"
         },
         {
@@ -137,13 +162,13 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：這張表怎麼用",
           "text": "**這張表怎麼用**\n- **年齡切點（20、35、60 歲）只是示意**：AASLD 2025——出生時感染者由免疫耐受期轉為活動期的**平均年齡約 30 歲**，可發生在兒童、青少年或成人任何時期\n- **「免疫耐受」名稱有爭議**：Harrison 與 AASLD 都指出這段期間並非真的沒有免疫反應，比較準確的說法是「**病毒複製很高、但肝臟發炎很少**」；**中年（尤其 ≥ 40 歲）以後**高病毒量與肝硬化、肝癌的關聯才明顯\n- **判定分期要看 6–12 個月內 ≥ 2 次** ALT 與 HBV DNA（AASLD 2025），單次結果不能定期\n- **不活動帶原 vs HBeAg 陰性慢性肝炎靜止期**：一次檢驗可能長得一樣，**要連續追蹤數個月才能區分**（Harrison）"
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：HBeAg 陽性",
           "text": "**HBeAg 陽性 → 陰性的轉換**（Harrison）\n- 過去估計每年約 10%；**2020 年系統性回顧：每 100 人年 6.46 例**；年紀較大、歐洲族群較多，**基因型 C 較少**\n- 轉換常伴隨**一次急性肝炎樣的 ALT 上升**（免疫清除受感染肝細胞）\n- 進入相對不複製期後：HBV DNA 約 **≤ 10³ IU/mL**、肝細胞內無 HBcAg、傳染力低、肝傷害少；**HBV DNA 整合進宿主基因體**\n- **約 5% 會再活化**、HBeAg 重新出現，可伴隨 IgM anti-HBc 再出現與肝炎發作\n**HBeAg 陰性慢性 B 肝**（Harrison）\n- **地中海、歐洲與亞洲比 HBeAg 陽性者更常見**；美國約占慢性 B 肝 30–40%\n- **HBV DNA 通常不超過 10⁵–10⁶ IU/mL**（比 HBeAg 陽性者低好幾個數量級），但**仍可進展到肝硬化與肝癌**，常**轉胺酶波動發作**\n- 多為感染晚期才出現的 **precore 或 core promoter 突變**\n- **HBV DNA 容易壓到測不到，但停藥後很難維持** → 通常需長期治療"
         },
         {
@@ -176,8 +201,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：FC 112 年",
           "text": "**FC 112 年**：44 歲女性 B 肝帶原，AST、ALT 正常，**HBeAg 陰性、anti-HBe 陽性**，**母親與哥哥也是帶原、阿姨得肝癌** → 正確敘述是「**感染途徑最可能是垂直感染**」\n- (A) 體內已無病毒 → **錯**：HBeAg 陰性仍可有 HBV DNA（低複製期或 HBeAg 陰性慢性肝炎）\n- (B) 處於免疫耐受期 → **錯**：免疫耐受期是 **HBeAg 陽性**、年輕、ALT 正常、病毒量高\n- (D) 不需每半年腹部超音波 → **錯**：**有肝癌家族史**，即使 ALT 正常仍要**每 6 個月超音波＋AFP**"
         },
         {
@@ -198,11 +223,16 @@
       ]
     },
     {
-      "title": "抗病毒藥物",
+      "title": "抗病毒藥物　★ 3 題",
       "content": [
         {
           "type": "callout",
-          "style": "logic",
+          "style": "key",
+          "text": "**必背**\n- **首選：entecavir、tenofovir（TDF、TAF）**——強效、**抗藥性低**\n- 效力：**entecavir、tenofovir 最強**，telbivudine 次之，**lamivudine、adefovir、干擾素較弱**\n- **Lamivudine、telbivudine 抗藥性高**（YMDD 變異）\n- **Tenofovir（TDF）要追蹤腎功能與骨質**｜TAF 對腎、骨較安全\n- **長效干擾素**：固定療程（48 週）、**沒有抗藥性**，但副作用多；**失代償肝硬化絕對禁忌**（FC 109 年）\n- **Ribavirin 不是 B 肝藥**（C 肝藥）（FC 103 年）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：治療目標（Harrison；AASLD 2025）",
           "text": "**治療目標**（Harrison；AASLD 2025）\n- **壓低病毒複製** → 降低**肝硬化、失代償、肝癌、換肝、死亡**；長期抑制可讓**肝硬化與食道靜脈曲張退化**\n- 替代指標：**HBV DNA 測不到**、**HBeAg 消失與血清轉換**、**HBsAg 消失**、ALT 正常、組織改善\n- **功能性治癒**：停藥後 **HBsAg 陰性且 HBV DNA 測不到 ≥ 6 個月**（± anti-HBs）——現有藥物**很少達到**（干擾素較核苷類似物高）\n- **完全（滅菌性）治癒**：連 **cccDNA** 都清除——目前做不到\n- 美國核准 8 種：干擾素 α、長效干擾素、lamivudine、adefovir、entecavir、telbivudine、TDF、TAF；**第一線：長效干擾素、entecavir、TDF、TAF**；一般**偏好口服藥**"
         },
         {
@@ -326,19 +356,19 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：干擾素的禁忌與副作用（Harrison）",
           "text": "**干擾素的禁忌與副作用**（Harrison）\n- **失代償肝硬化 → 絕對不可用**（可誘發失代償、敗血症）；**代償期肝硬化也不建議**（FC 109 年：「干擾素可用於失代償肝硬化」→ **錯**）\n- 免疫抑制者、新生兒感染且 ALT 正常或輕度上升者**效果差**\n- 副作用：**類流感症狀**、**骨髓抑制**、**情緒不穩（憂鬱、焦慮）**、**自體免疫（尤其甲狀腺炎，可能不可逆）**、掉髮、皮疹、腹瀉、四肢麻刺\n- **懷孕避免**（抗增生作用）\n**FC 的干擾素寫「打半年」**（p.113）；Harrison 的長效干擾素療程是 **48 週**"
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：抗藥與治療失敗（Harrison）",
           "text": "**抗藥與治療失敗**（Harrison）\n- **Lamivudine 抗藥（YMDD）**：表現為 **HBV DNA 從最低點反彈**、ALT 上升（virologic breakthrough）\n- 目前 AASLD、EASL：**換成不交叉抗藥的藥（例如 lamivudine 抗藥改 tenofovir 單藥）**優於加藥；多重抗藥 → **entecavir＋tenofovir 合併**\n- 口服藥合併使用一般不比單用強效藥更好\n- **Emtricitabine＋TDF**：未核准用於 B 肝，但同時需要 **HIV 暴露前預防**者可考慮；**停藥會 B 肝再活化**\n**FC**：lamivudine 抗藥建議加 adefovir 或改 entecavir（舊做法）；**precore 突變一開始就用 entecavir**，避免 lamivudine 抗藥"
         },
         {
-          "type": "callout",
-          "style": "guideline",
-          "text": "**AASLD 2025 的選藥原則（背景說明，無建議等級）**\n- **偏好 entecavir、TDF、TAF**：高效、低抗藥、耐受佳，**失代償肝硬化與免疫低下也可用**；長效干擾素**很少用**\n- 依可近性與費用、年齡選擇，並避開：\n  - **腎病或骨病 → 避免 TDF**\n  - **懷孕 → 避免 entecavir**\n  - **合併 HIV → 避免 entecavir**（除非 HIV 已用抗病毒藥壓制）\n  - **用過 lamivudine → 避免 entecavir**\n- **TAF 不建議用於肌酸酐清除率 < 15 mL/min 且尚未透析者**；entecavir、TDF 需依腎功能調劑量，TDF 腎功能變差時**偏好換藥**\n**Harrison：TDF vs TAF**——**肌酸酐清除率 < 50、骨密度低、腎傷害風險**（失代償肝硬化、CrCl < 60、控制差的高血壓或糖尿病、蛋白尿、腎絲球腎炎、腎毒性藥物、器官移植）→ **TAF**；EASL 另加 **> 60 歲**"
+          "type": "collapsible",
+          "summary": "延伸：AASLD 2025 的選藥原則（背景說明，無建議等級）",
+          "text": "**AASLD 2025 的選藥原則（背景說明，無建議等級）**\n- **偏好 entecavir、TDF、TAF**：高效、低抗藥、耐受佳，**失代償肝硬化與免疫低下也可用**；長效干擾素**很少用**\n- 依可近性與費用、年齡選擇，並避開：\n　- **腎病或骨病 → 避免 TDF**\n　- **懷孕 → 避免 entecavir**\n　- **合併 HIV → 避免 entecavir**（除非 HIV 已用抗病毒藥壓制）\n　- **用過 lamivudine → 避免 entecavir**\n- **TAF 不建議用於肌酸酐清除率 < 15 mL/min 且尚未透析者**；entecavir、TDF 需依腎功能調劑量，TDF 腎功能變差時**偏好換藥**\n**Harrison：TDF vs TAF**——**肌酸酐清除率 < 50、骨密度低、腎傷害風險**（失代償肝硬化、CrCl < 60、控制差的高血壓或糖尿病、蛋白尿、腎絲球腎炎、腎毒性藥物、器官移植）→ **TAF**；EASL 另加 **> 60 歲**"
         },
         {
           "type": "source",
@@ -358,11 +388,26 @@
       ]
     },
     {
-      "title": "什麼時候要治療",
+      "title": "什麼時候要治療　★ 2 題",
       "content": [
         {
           "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **不能只看病毒量決定**：要**合併 ALT、纖維化程度**（FC 110 年：高病毒量都該治療 → 錯）\n- 治療依據：**HBV DNA（不是 RNA）**、**ALT**、**纖維化**、**是否要化療或免疫抑制**（FC 111 年）\n- Harrison（AASLD 2018）：**HBeAg 陽性：HBV DNA > 20,000＋ALT > 2 倍**｜**HBeAg 陰性：HBV DNA > 2,000＋ALT > 2 倍** → 治療\n- **肝硬化：HBV DNA 測得到就治療**（失代償 → 不論病毒量）\n- **免疫耐受期、不活動帶原 → 追蹤不治療**（> 40 歲、家族肝癌、纖維化為灰色地帶）"
+        },
+        {
+          "type": "callout",
           "style": "guideline",
+          "text": "📌 **AASLD 2025 擴大治療**（條件式、證據極低）：**免疫耐受期 > 40 歲或有發炎、纖維化 → 建議治療**｜**HBeAg 陰性不確定期 → 共同決策開始治療**｜Harrison（AASLD 2018）與 FC 是追蹤不治療——**考試照 Harrison 與 FC**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **健保 10.7.3（114/6/1 生效）**：HBeAg 陰性 **ALT ≥ 2 倍＋HBV DNA ≥ 2,000** 即可給付；新增**纖維化 ≥ F2（陰性）／≥ F3（陽性）**的給付條件｜**肝硬化（F4、超音波＋靜脈曲張或脾大、彈性 ≥ 12 kPa）可長期使用**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Harrison 的原則（依 AASLD 2018 與 …",
           "text": "**Harrison 的原則**（依 AASLD 2018 與 EASL）\n- **不治療**：**不活動帶原**（HBeAg 陰性、ALT 正常、HBV DNA ≤ 10³ IU/mL，**連續追蹤證實**）；**HBeAg 陽性但 ALT 正常**（免疫耐受）——但**至少每 6 個月**驗 HBV DNA 與 ALT\n- **一定治療**：**代償期肝硬化且測得到 HBV DNA**；**失代償肝硬化**要謹慎評估（並轉介換肝）\n- 其餘依 **HBeAg、HBV DNA、ALT 或切片的發炎與纖維化**決定"
         },
         {
@@ -431,8 +476,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：灰色地帶要考慮治療的情況（Harrison）",
           "text": "**灰色地帶要考慮治療的情況**（Harrison）：**> 40 歲**、**肝外表現**、**肝硬化或肝癌家族史**、**切片或非侵入檢查中重度發炎或纖維化**、**曾治療過**——這些人**每 3–6 個月**追蹤 HBV DNA 與 ALT。"
         },
         {
@@ -465,13 +510,13 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：AASLD 2025 整合後的流程（Figure 4，2…",
           "text": "**AASLD 2025 整合後的流程（Figure 4，2018＋2025）**\n- 所有 HBsAg 陽性者：驗 **HBeAg、HBV DNA、ALT**＋**非侵入纖維化評估（FIB-4 或彈性）或切片**\n- **肝硬化 → 不論 HBV DNA 或 ALT 都治療**\n- **HBeAg 陽性、無肝硬化**：**ALT ≥ 2 倍上限且 HBV DNA ≥ 20,000 → 治療**｜免疫耐受 → > 40 歲或 ≥ A2／≥ F2 考慮治療｜不確定期 → 共同決策｜其餘每 3–6 個月追蹤\n- **HBeAg 陰性、無肝硬化**：**ALT ≥ 2 倍上限且 HBV DNA ≥ 2,000 → 治療**｜不確定期 → 共同決策｜**不活動（HBV DNA < 2,000、ALT 正常）→ 每 3–6 個月追蹤**\n- **ALT 正常上限：男 35、女 25 U/L**"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：Harrison（AASLD 2018）vs AASLD…",
           "text": "**Harrison（AASLD 2018）vs AASLD 2025**\n- **免疫耐受期**：Harrison 寫「目前不建議治療」，只把 > 40 歲列為灰色地帶的考慮因素｜**2025：> 40 歲或有發炎、纖維化 → 建議治療**（條件式）\n- **HBeAg 陰性不確定期**：2018 建議追蹤、進入活動期才治療｜**2025：建議以共同決策開始治療**\n- 兩者證據確定性都是**極低**——**考試照 Harrison 與 FC**，臨床上知道趨勢是**擴大治療**"
         },
         {
@@ -509,8 +554,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：健保的纖維化非侵入定義",
           "text": "**健保的纖維化非侵入定義**\n- **≥ F3**：**Fibroscan ≥ 9.5 kPa**、ARFI ≥ 1.81，或 **FIB-4 ≥ 3.25**\n- **≥ F2**：**Fibroscan ≥ 8 kPa**、ARFI ≥ 1.5，或 **FIB-4 ≥ 2.1**\n- **F4**：Fibroscan ≥ 12 kPa、ARFI ≥ 1.98\n**和 FC 版本（110/3/1）的差異**：112/10/1 起 **HBeAg 陰性者 ALT 只要 1 次 ≥ 2 倍**即可（原本半年 ≥ 2 次）、纖維化門檻由 **≥ F3 放寬為 ≥ F2**；114/6/1 起**孕婦門檻由 10⁶ 降到 2 × 10⁵ IU/mL、加入 TAF**（見特殊族群）\n**健保 vs AASLD 的最大差別**：健保 HBeAg 陰性**有給付年限（每次最多 36 個月、測不到 3 次就停）**；AASLD 2025 建議 HBeAg 陰性者**持續吃到 HBsAg 消失**"
         },
         {
@@ -536,8 +581,13 @@
       ]
     },
     {
-      "title": "停藥、追蹤與肝癌篩檢",
+      "title": "停藥、追蹤與肝癌篩檢　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **HBeAg 陽性**：血清轉換後**鞏固 12 個月可停**｜**HBeAg 陰性**：Harrison——**吃到 HBsAg 消失**\n- **停藥後要密切追蹤**（復發、急性發作）；**肝硬化不停藥**\n- **肝癌篩檢：每 6 個月超音波（± AFP）**：**肝硬化**、**亞洲男性 > 40 歲、女性 > 50 歲**、**肝癌家族史**、非洲出生者"
+        },
         {
           "type": "table",
           "headers": [
@@ -564,13 +614,13 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：AASLD 2025",
           "text": "**AASLD 2025：停藥後的追蹤與重新用藥**（Table 3）\n- 追蹤 **HBV DNA 與 ALT**：**前 6 個月每 1–3 個月**、接著 6–12 個月每 3 個月、之後每 3–6 個月\n- **立即重新用藥（符合任一）**：**HBV DNA ≥ 10,000 IU/mL**（不論 ALT）、**ALT > 5 倍上限**（不論 HBV DNA）、**總膽紅素 > 2.5 mg/dL**、**失代償**\n- 其他可重新用藥：本人意願、肝外併發症、再次符合治療條件（HBV DNA ≥ 2,000 且 ALT ≥ 2 倍上限）\n- 隨機試驗：停藥 2 年 **HBsAg 消失約 11%**，但 **ALT 發作約 27%**、5 年需再治療 42%；大型觀察研究甚至有失代償與死亡"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：停藥規則",
           "text": "**停藥規則：三個來源不同**\n- **Harrison**：HBeAg 陽性 → **轉換後鞏固 12 個月可停**；HBeAg 陰性 → **吃到 HBsAg 消失**\n- **AASLD 2025**：HBeAg 陰性 → **HBsAg 消失前不建議停**\n- **健保**：HBeAg 陽性 → 轉陰後**最多再給付 12 個月**；**HBeAg 陰性 → 至少 2 年、連續 3 次（每 6 個月）HBV DNA 測不到就停、每次最多 36 個月**——健保停藥後仍需密切追蹤，**復發可再申請**\n- **FC 說明**（p.113）：健保有給付年限，因為藥物不能根除病毒、年輕人終身服藥可能長達數十年"
         },
         {
@@ -603,8 +653,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：篩檢門檻",
           "text": "**篩檢門檻**：年肝癌發生率 **≥ 0.2%** 才符合成本效益（AASLD 2023 肝癌指引，AASLD 2025 引用）。HBsAg 消失後年發生率仍約 0.35–0.78%，**年紀較大（45–50 歲以上）消失、男性、家族史**風險較高。\n肝癌的診斷與治療詳見之後的肝癌筆記。"
         },
         {
@@ -630,8 +680,13 @@
       ]
     },
     {
-      "title": "特殊族群：懷孕、免疫抑制、HIV、移植",
+      "title": "特殊族群：懷孕、免疫抑制、HIV、移植　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **懷孕**：**HBV DNA > 200,000 IU/mL → 第 28–32 週起 tenofovir（TDF）**，預防母嬰傳染；新生兒 HBIG＋疫苗\n- **化療或免疫抑制前**：**驗 HBsAg、anti-HBc**\n　- **HBsAg 陽性 → 預防性抗病毒藥**（entecavir 或 tenofovir），持續到停藥後 6–12 個月\n　- **HBsAg 陰性、anti-HBc 陽性＋rituximab（抗 CD20）→ 預防性用藥**（Harrison）；其他 → 追蹤\n- **HIV 合併 B 肝**：選**含 tenofovir 的 HIV 治療**"
+        },
         {
           "type": "heading",
           "text": "懷孕"
@@ -658,8 +713,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：為什麼要在懷孕後期用藥",
           "text": "**為什麼要在懷孕後期用藥**：即使新生兒出生後接種 HBIG＋疫苗，**HBV DNA > 200,000 IU/mL 的母親仍有約 8–10% 的新生兒被感染**（AASLD 2025）——多在**生產時**感染，懷孕後期壓低病毒量可再降低。新生兒處置（HBIG＋疫苗、12 個月驗 HBsAg 與 anti-HBs）見病毒性肝炎（一）。"
         },
         {
@@ -667,8 +722,8 @@
           "text": "化療與免疫抑制：B 肝再活化"
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：機轉（Harrison）",
           "text": "**機轉**（Harrison）：化療、免疫抑制、抗細胞激素或抗 TNF 治療中 → **病毒複製增加**、肝細胞表面病毒抗原變多，但細胞免疫被壓制；**停藥後免疫恢復 → 毒殺 T 細胞大舉攻擊** → **嚴重、偶爾致命的再活化**。\n**預防性用藥比發作後才治療更有效**；現在用 **entecavir 或 tenofovir**（比 lamivudine 更有效、不易抗藥）。"
         },
         {
@@ -693,18 +748,18 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：Harrison 的建議",
           "text": "**Harrison 的建議**\n- **所有要接受化療或長期免疫抑制者 → 先驗 HBsAg 與 anti-HBc（± anti-HBs）**（CDC、AASLD、AGA、EASL）\n- **HBsAg 陽性 → 一律預防性抗病毒**（再活化約 25%、最高可達 68%）\n- **HBsAg 陰性、anti-HBc 陽性** → 再活化少見，一般**密切追蹤**；但**接受 B 細胞清除治療或幹細胞移植 → 預防性用藥**\n- **療程**：化療結束後 **6 個月**（**B 細胞清除藥 12 個月**）——適用於不活動帶原；**基礎 HBV DNA > 2 × 10³** 者要治療更久，直到達到一般治療終點"
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：補充",
           "text": "**補充：健保 10.7.3 第 2 項（HBsAg 陽性，或 HBsAg 陰性但 anti-HBc 陽性者）**\n- **癌症化療**：照會消化系專科醫師同意後，**化療前 1 週起到化療結束後 6 個月**預防性給付；化療中 B 肝發作 → 可長期使用\n- **免疫抑制劑**（第 2(9) 項）：**HBsAg 陽性**者使用 **rituximab**、**anthracycline 衍生物**、**中高劑量類固醇（prednisolone ≥ 20 mg/天或相當劑量，> 4 週）** → **用藥前 1 週起到停藥後 6 個月**預防性給付｜**HBsAg 陽性或 HBsAg 陰性／anti-HBc 陽性者，用免疫抑制劑後 B 肝發作 → 給付到停藥後 6 個月**\n- **非肝臟器官移植**：移植前 7 天內起可預防性使用；移植後發作可長期使用｜**肝臟移植**：可預防性使用\n- **異體造血幹細胞移植**：**捐贈者 HBsAg 陽性** → 確認為捐贈者後即可預防用藥；**受贈者或捐贈來源 HBsAg 陽性** → 移植前 1 週到免疫抑制劑停用後 6 個月\n- **肝癌接受根除性治療**（手術、換肝、射頻燒灼、酒精注射、微波、冷凍）且測得到 HBV DNA → **長期使用**，直到肝癌復發且無法再根除"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：HBsAg 陰性、anti-HBc 陽性＋rituxim…",
           "text": "**HBsAg 陰性、anti-HBc 陽性＋rituximab**：Harrison 建議**預防性用藥**；健保免疫抑制劑條款的**預防性給付只寫 HBsAg 陽性**，HBsAg 陰性／anti-HBc 陽性者是**發作後給付**（癌症化療條款則涵蓋兩者的預防性用藥）——考試答題以 Harrison 為準，臨床要留意給付規定。"
         },
         {
@@ -759,11 +814,16 @@
       ]
     },
     {
-      "title": "慢性 D 型肝炎",
+      "title": "慢性 D 型肝炎　★ 1 題",
       "content": [
         {
           "type": "callout",
-          "style": "logic",
+          "style": "key",
+          "text": "**必背**\n- **重複感染（B 帶原者再感染 D）→ 多變慢性、加速肝硬化**；**同時感染 → 慢性化不高於 B 肝本身**\n- 診斷：anti-HDV、**HDV RNA**\n- 治療：**長效干擾素是唯一核准**，但**效果不佳、常復發**（FC 108 年：根治率 > 80% → 錯）｜B 肝口服藥對 D 肝無效"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：臨床（Harrison）",
           "text": "**臨床**（Harrison）\n- **多數來自重複感染**（B 肝帶原者再感染 D 肝）→ **長期感染是常態**、肝病惡化｜**同時感染**後慢性化**不會高於** B 肝本身\n- 除了嚴重度外，臨床與檢驗和單純慢性 B 肝相似；**嚴重、進行性慢性肝炎（± 肝硬化）是常態**，輕度是例外；少數變得緩和\n- 慢性 D 肝**每年肝硬化約 4%**；合併肝硬化**每年肝癌約 3%**\n- **D 肝複製會抑制 B 肝** → 病人 HBV DNA 常較低\n**診斷**：**anti-HDV、HDV RNA**，加上 HBsAg、IgG anti-HBc（Table 352-1）"
         },
         {
@@ -800,9 +860,9 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
-          "text": "**FC 108 年**（病毒性肝炎（一）已收）：「干擾素是唯一證實有效、**根治率 > 80%** 且不易復發的 D 肝藥」→ **錯**——干擾素是唯一核准的治療，但**效果不佳、多數復發**。\n**AASLD 2025**：**B＋D 合併感染的成人，不論有無肝硬化都要做肝癌篩檢**（條件式／極低）；**曾感染 D 肝**（anti-HDV 陽性、HDV RNA 陰性）則篩檢同單純 B 肝。"
+          "type": "collapsible",
+          "summary": "延伸：考點細節：FC 108 年（見本篇考題）",
+          "text": "**FC 108 年**（見本篇考題）：「干擾素是唯一證實有效、**根治率 > 80%** 且不易復發的 D 肝藥」→ **錯**——干擾素是唯一核准的治療，但**效果不佳、多數復發**。\n**AASLD 2025**：**B＋D 合併感染的成人，不論有無肝硬化都要做肝癌篩檢**（條件式／極低）；**曾感染 D 肝**（anti-HDV 陽性、HDV RNA 陰性）則篩檢同單純 B 肝。"
         },
         {
           "type": "source",
@@ -820,59 +880,55 @@
       "title": "考題練習與速查表",
       "content": [
         {
+          "type": "heading",
+          "text": "自然病程（§慢性 B 肝自然病程）"
+        },
+        {
           "type": "collapsible",
           "summary": "Q1：44 歲女性 B 肝帶原，AST、ALT 正常，HBeAg 陰性、anti-HBe 陽性；母親與哥哥也是帶原，阿姨得肝癌。何者正確？（A 體內已無 B 肝病毒 B 處於免疫耐受期 C 感染途徑最可能是垂直感染 D 不需每半年腹部超音波）（FC 112 年）",
           "text": "**答：(C)。**\n- 家族群聚、台灣、母親帶原 → **垂直感染**\n- (A) HBeAg 陰性仍可能有病毒（不活動期或 HBeAg 陰性慢性肝炎）——要驗 **HBV DNA**\n- (B) 免疫耐受期是 **HBeAg 陽性、年輕、病毒量很高**\n- (D) **肝癌家族史 → 每 6 個月超音波＋AFP**（AASLD：流行地區出生女性 > 50 歲也要）"
         },
         {
-          "type": "collapsible",
-          "summary": "Q2：下列何者不是慢性 B 肝是否需要抗病毒治療的依據？（A B 肝病毒 RNA 濃度 B 肝纖維化嚴重度 C ALT 高低 D 是否因其他疾病需接受化療）（FC 111 年）",
-          "text": "**答：(A)。**\n- **B 肝是 DNA 病毒** → 評估的是 **HBV DNA**\n- 治療依據：**HBeAg、HBV DNA、ALT、纖維化或發炎程度（切片或非侵入）、有無肝硬化**；**化療或免疫抑制前要預防性用藥**"
+          "type": "heading",
+          "text": "抗病毒藥物（§抗病毒藥物）"
         },
         {
           "type": "collapsible",
-          "summary": "Q3：關於慢性 B 肝，何者錯誤？（A 病毒量與肝癌風險成正比，因此高病毒量者都應積極抗病毒治療 B 可有肝外表現，較常見的是關節痛與關節炎 C 纖維化 HAI 分 0–6、METAVIR 0–4 D 纖維化可用血中纖維化標記與肝臟彈性非侵入評估）（FC 110 年）",
-          "text": "**答：(A)。**\n- 病毒量確實與肝癌風險相關，但**目前藥物無法根除**、要長期服藥 → **要配合 ALT、纖維化、年齡等才決定**；例如**免疫耐受期**（HBeAg 陽性、病毒量極高、ALT 正常）Harrison 不建議治療\n- AASLD 2025 已放寬：免疫耐受期 **> 40 歲或有發炎、纖維化 → 建議治療**（條件式）——但「**所有**高病毒量都應治療」仍是錯的"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q4：關於慢性 B 肝治療，何者錯誤？（A 效力 entecavir > telbivudine > tenofovir > 長效干擾素 B 干擾素優點是固定療程、無抗藥性，失代償肝硬化也可用 C 使用 tenofovir disoproxil 要監控腎功能 D 肝硬化且 HBV DNA ≥ 2,000 IU/mL 應給抗病毒藥）（FC 109 年）",
+          "summary": "Q2：關於慢性 B 肝治療，何者錯誤？（A 效力 entecavir > telbivudine > tenofovir > 長效干擾素 B 干擾素優點是固定療程、無抗藥性，失代償肝硬化也可用 C 使用 tenofovir disoproxil 要監控腎功能 D 肝硬化且 HBV DNA ≥ 2,000 IU/mL 應給抗病毒藥）（FC 109 年）",
           "text": "**答：(B)。**\n- **失代償肝硬化是干擾素的絕對禁忌**（可誘發失代償、敗血症）；代償期肝硬化也不建議\n- (A) 符合 Harrison Fig. 352-1（−6.9、−6.4、−6.2、−4.5）\n- (C) TDF：腎小管傷害、低磷 → **每年至少驗腎功能**；有腎或骨病 → **TAF**\n- (D) 肝硬化測得到 HBV DNA 就要治療"
         },
         {
           "type": "collapsible",
-          "summary": "Q5：38 歲男性倦怠、茶色尿，ALT 836、AST 578、膽紅素 3.8/2.5，HBsAg 陰性、HBeAg 陽性、HBV DNA 3,850,000 copies/mL，未曾用藥。何者不宜使用？（A lamivudine B telbivudine C entecavir D 長效干擾素）（FC 103 年）",
+          "summary": "Q3：38 歲男性倦怠、茶色尿，ALT 836、AST 578、膽紅素 3.8/2.5，HBsAg 陰性、HBeAg 陽性、HBV DNA 3,850,000 copies/mL，未曾用藥。何者不宜使用？（A lamivudine B telbivudine C entecavir D 長效干擾素）（FC 103 年）",
           "text": "**答：(D) 長效干擾素。**\n- **黃疸、明顯肝炎發作** → 干擾素可能誘發**失代償**；干擾素也會先造成 ALT 上升\n- 題目寫「HBsAg 陰性」與 HBeAg、HBV DNA 陽性並不一致（原題如此），解題重點是**嚴重發作時不用干擾素**\n- 現在首選 **entecavir 或 tenofovir**（lamivudine、telbivudine 已不建議）"
         },
         {
           "type": "collapsible",
-          "summary": "Q6：目前治療 B 型肝炎的藥物不包括？（A 貝樂克 entecavir B 喜必福 telbivudine C 干安能 lamivudine D 雷巴威林 ribavirin）（FC 103 年）",
+          "summary": "Q4：目前治療 B 型肝炎的藥物不包括？（A 貝樂克 entecavir B 喜必福 telbivudine C 干安能 lamivudine D 雷巴威林 ribavirin）（FC 103 年）",
           "text": "**答：(D) ribavirin。**\n- ribavirin 是**過去 C 肝**（＋干擾素）與重症 E 肝的藥；**對 B 肝與 D 肝無效**\n- 商品名：**貝樂克＝entecavir**、**喜必福＝telbivudine（已撤市）**、**干安能（肝安能）＝lamivudine**、**惠立妥（Viread）＝TDF**；TAF 商品名 Vemlidy"
         },
         {
-          "type": "collapsible",
-          "summary": "Q7（自編）：28 歲 HBeAg 陽性，HBV DNA 2 × 10⁸ IU/mL，ALT 多次正常，彈性 5 kPa。處置？",
-          "text": "**答：免疫耐受期——一般先不治療，每 6 個月追蹤 HBV DNA 與 ALT。**\n- Harrison：HBeAg 陽性、ALT 正常 → **不建議治療**，但要密切追蹤\n- **AASLD 2025 建議 3**：**> 40 歲**或有**明顯發炎（≥ grade 2）或纖維化（≥ F2，彈性約 8 kPa）** → 建議治療；**< 40 歲**想提早治療 → 共同決策（家族肝癌史、配合度、預防傳染）（條件式／極低）\n- 健保：ALT 不符合條件 → 不給付"
+          "type": "heading",
+          "text": "治療時機（§什麼時候要治療）"
         },
         {
           "type": "collapsible",
-          "summary": "Q8（自編）：45 歲男性 HBeAg 陰性、anti-HBe 陽性，ALT 3 倍上限（兩次），HBV DNA 50,000 IU/mL，無肝硬化。怎麼治療？要吃多久？",
-          "text": "**答：HBeAg 陰性慢性肝炎 → entecavir 0.5 mg、TDF 或 TAF。**\n- 符合 Harrison、AASLD、健保的治療條件（**ALT ≥ 2 倍且 HBV DNA ≥ 2,000**）\n- **療程**：Harrison 與 AASLD 2025 → **吃到 HBsAg 消失**（停藥復發率高）｜健保 → **至少 2 年、連續 3 次（每 6 個月）HBV DNA 測不到就停、每次最多 36 個月**，停藥後密切追蹤\n- 停藥後：**HBV DNA ≥ 10,000 或 ALT > 5 倍上限 → 立即重新用藥**（AASLD 2025）\n- 男性 > 40 歲（流行地區出生）→ **每 6 個月肝癌篩檢**"
+          "summary": "Q5：下列何者不是慢性 B 肝是否需要抗病毒治療的依據？（A B 肝病毒 RNA 濃度 B 肝纖維化嚴重度 C ALT 高低 D 是否因其他疾病需接受化療）（FC 111 年）",
+          "text": "**答：(A)。**\n- **B 肝是 DNA 病毒** → 評估的是 **HBV DNA**\n- 治療依據：**HBeAg、HBV DNA、ALT、纖維化或發炎程度（切片或非侵入）、有無肝硬化**；**化療或免疫抑制前要預防性用藥**"
         },
         {
           "type": "collapsible",
-          "summary": "Q9（自編）：瀰漫性大 B 細胞淋巴瘤要用 R-CHOP，HBsAg 陰性、anti-HBc 陽性、anti-HBs 陽性。B 肝怎麼處理？",
-          "text": "**答（Harrison）：接受 B 細胞清除治療（rituximab）→ 預防性 entecavir 或 tenofovir，用到化療結束後 12 個月。**\n- 再活化風險最高：**rituximab、anthracycline、中高劑量類固醇 ≥ 4 週**——R-CHOP 三者都有\n- HBsAg 陽性者則**一律預防性用藥**\n- 健保：**癌症化療**條款涵蓋 HBsAg 陽性或 anti-HBc 陽性者，**化療前 1 週到結束後 6 個月**給付\n- 化療前**所有人都要驗 HBsAg 與 anti-HBc**"
+          "summary": "Q6：關於慢性 B 肝，何者錯誤？（A 病毒量與肝癌風險成正比，因此高病毒量者都應積極抗病毒治療 B 可有肝外表現，較常見的是關節痛與關節炎 C 纖維化 HAI 分 0–6、METAVIR 0–4 D 纖維化可用血中纖維化標記與肝臟彈性非侵入評估）（FC 110 年）",
+          "text": "**答：(A)。**\n- 病毒量確實與肝癌風險相關，但**目前藥物無法根除**、要長期服藥 → **要配合 ALT、纖維化、年齡等才決定**；例如**免疫耐受期**（HBeAg 陽性、病毒量極高、ALT 正常）Harrison 不建議治療\n- AASLD 2025 已放寬：免疫耐受期 **> 40 歲或有發炎、纖維化 → 建議治療**（條件式）——但「**所有**高病毒量都應治療」仍是錯的"
+        },
+        {
+          "type": "heading",
+          "text": "D 型肝炎（§慢性 D 型肝炎）"
         },
         {
           "type": "collapsible",
-          "summary": "Q10（自編）：孕婦 HBsAg 陽性、HBeAg 陰性，懷孕 20 週 HBV DNA 5 × 10⁵ IU/mL，ALT 正常。處置？",
-          "text": "**答：懷孕後期開始 tenofovir（TDF 或 TAF）預防垂直傳染。**\n- **AASLD 2025 建議 1（強／中）**：**HBV DNA > 200,000 → 第 28 週開始 TDF 或 TAF**（不論 HBeAg）\n- **健保（114/6/1）**：**≥ 2 × 10⁵ IU/mL → 懷孕滿 27 週起給付 telbivudine、TDF 或 TAF 到產後 4 週**\n- 只為預防傳染 → **產後可停藥**，**每 1–3 個月追蹤 6 個月**，ALT ≥ 5 倍上限重新用藥\n- 新生兒：**出生 24 小時內 HBIG＋疫苗**（台灣；美國 12 小時內）\n- **可哺乳**；**避免 entecavir 與干擾素**"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q11（自編）：服用 lamivudine 3 年的病人，HBV DNA 從測不到上升到 10⁵ IU/mL，ALT 上升。最可能原因與處置？",
-          "text": "**答：YMDD（M204V／I）抗藥突變造成病毒突破 → 先確認服藥順從性，再換成 tenofovir（TDF 或 TAF）。**\n- lamivudine 抗藥：**第 1 年 15–30%、第 5 年 70%**\n- 目前建議**換藥優於加藥**；**不要改 entecavir**（lamivudine 抗藥者 entecavir 抗藥率 4 年 43%）\n- 這是**治療造成的突變，不是自然演化**（FC 107 年）"
+          "summary": "Q7：關於 HDV，何者錯誤？（A 可與 HBV 同時感染，或重複感染 B 肝帶原者 B 重複感染使慢性 B 肝快速惡化 C 同時感染後演變成慢性 D 肝的比例低 D 干擾素是唯一證實有效、根治率 > 80% 且不易復發的藥）（FC 108 年）",
+          "text": "**答：(D)。**\n- D 肝治療主要是干擾素，但**療程需一年以上、效果不佳**；B 肝口服藥對 D 肝無效（詳見病毒性肝炎（二））\n- **同時感染**：慢性化同 B 肝（成人低）｜**重複感染**：幾乎必然慢性、加速肝硬化與肝癌、可猛爆"
         },
         {
           "type": "heading",
