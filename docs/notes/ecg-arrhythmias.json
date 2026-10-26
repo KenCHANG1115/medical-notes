@@ -2,13 +2,14 @@
   "id": "ecg-arrhythmias",
   "title": "ECG (一)：心電圖判讀基礎",
   "title_en": "Electrocardiography: Systematic Interpretation",
-  "title_zh": "心電圖（一）：判讀基礎",
+  "title_zh": "心電圖（一）：判讀順序、波形與間期、心肌動作電位、電軸、心房與心室肥厚、束支阻滯、缺血與梗塞定位、電解質與藥物、特殊型態",
   "specialty": "心臟內科",
   "sources": [
     "Harrison's 22e - Ch.247 Electrocardiography (p.1911-1919)；Ch.250 Principles of Clinical Cardiac Electrophysiology (p.1953-1954)；Ch.286 右心室梗塞 (p.2166)",
-    "First Choice 醫學(三) 第1冊 - 丁、心電圖判讀 A、B (p.117-128)；ACS 章缺血定位 (p.68-69)；考題 (p.118、128-132、179、188)"
+    "First Choice 醫學(三) 第1冊 - 丁、心電圖判讀 A、B (p.117-128)；ACS 章缺血定位 (p.68-69)；考題 (p.118、130-131、179，本篇收錄 6 題；BLS／ACLS 與休克題留給值班筆記)"
   ],
   "generated": "2026-10-07",
+  "updated": "2026-10-26",
   "related": [
     {
       "id": "ecg-bradyarrhythmias",
@@ -41,16 +42,36 @@
   ],
   "sections": [
     {
-      "title": "總覽：怎麼系統性地讀一張心電圖",
+      "title": "讀前說明：怎麼讀這篇",
       "content": [
         {
           "type": "callout",
           "style": "logic",
-          "text": "**心電圖四部曲的讀法**\n- **（一）本篇**：波形、間期、電軸、肥厚、束支阻滯、**缺血與梗塞定位**、**電解質與藥物**——每一張心電圖都會用到。\n- **（二）緩脈與傳導阻滯**：竇房結失能、**一度到三度房室阻滯**、節律器適應症。\n- **（三）上心室性心搏過速與心房顫動**：窄 QRS 心搏過速怎麼判斷、AVNRT、WPW、心房撲動、**心房顫動的抗凝與心率控制**。\n- **（四）心室性心律不整**：PVC、**寬 QRS 心搏過速是不是 VT**、Torsades、Brugada、ICD。\n本系列以 **Harrison 22e Ch.247、250–263** 為主，心電圖全部用 **Harrison 原圖**；First Choice 的口訣與考題穿插其中。"
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
+          "text": "**心電圖四篇**：（一）本篇判讀基礎｜（二）緩脈與傳導阻滯｜（三）SVT 與心房顫動｜（四）心室心律不整｜FC 丁章的 **BLS／ACLS 與休克**題目留給之後的〈BLS／ACLS 與休克〉值班筆記｜考題附的心電圖無法重現，以文字描述"
+        }
+      ]
+    },
+    {
+      "title": "總覽：怎麼系統性地讀一張心電圖　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **固定順序**才不會漏看：**速率 → 節律（P 波與 QRS 的關係）→ PR、QRS、QT → 電軸 → 心房與心室肥厚 → Q 波、R 波進展 → ST 與 T 波 → U 波**\n- 多數判讀錯誤是**漏看**，不是不會看"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：心電圖四部曲的讀法",
+          "text": "**心電圖四部曲的讀法**\n- **（一）本篇**：波形、間期、電軸、肥厚、束支阻滯、**缺血與梗塞定位**、**電解質與藥物**——每一張心電圖都會用到。\n- **（二）緩脈與傳導阻滯**：竇房結失能、**一度到三度房室阻滯**、節律器適應症。\n- **（三）上心室性心搏過速與心房顫動**：窄 QRS 心搏過速怎麼判斷、AVNRT、WPW、心房撲動、**心房顫動的抗凝與心率控制**。\n- **（四）心室性心律不整**：PVC、**寬 QRS 心搏過速是不是 VT**、Torsades、Brugada、ICD。\n本系列以 **Harrison 22e Ch.247、250–263** 為主，心電圖全部用 **Harrison 原圖**；First Choice 的口訣與考題穿插其中。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Harrison 建議每張心電圖都要看的 14 項（多數…",
           "text": "**Harrison 建議每張心電圖都要看的 14 項**（多數錯誤是**漏看**，所以要有固定順序）：\n① 校正與技術（導程位置、雜訊）② **節律** ③ **心跳速率** ④ **PR 間期／房室傳導** ⑤ **QRS 寬度** ⑥ **QT / QTc** ⑦ **QRS 電軸** ⑧ **P 波** ⑨ **QRS 電壓** ⑩ **胸導 R 波進展** ⑪ **異常 Q 波** ⑫ **ST 段** ⑬ **T 波** ⑭ **U 波**\n**一定要和舊心電圖比較**；電腦判讀**不能不經醫師確認就接受**。\n**First Choice 口訣「RRIAHI」**：**Ra**te → **Rh**ythm → **I**nterval → **A**xis → **H**ypertrophy → **I**nfarct。"
         },
         {
@@ -66,8 +87,13 @@
       ]
     },
     {
-      "title": "傳導系統、波形與間期",
+      "title": "傳導系統、波形與間期　★ 2 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **心跳速率＝300 ÷ 兩個 R 之間的大格數**（或 1500 ÷ 小格數）；小格 40 ms、大格 200 ms\n- **PR 120–200 ms**＝心房去極化＋**房室結延遲**（**不包含心室去極化**）（FC 108 年）\n- **QRS ≥ 120 ms**＝束支阻滯、心室起源、預激、高血鉀、鈉通道阻斷藥\n- **QTc 上限：男 450、女 460 ms**\n- **竇房結細胞的特徵＝Phase 4 舒張期自發去極化**（funny current）；Phase 0 靠**鈣離子**、上升慢；靜止膜電位**較不負**（−55 ~ −65 mV）（FC 112 年）\n- 心室肌：Phase 0 靠**快鈉通道**、有明顯 **Phase 2 平台期**、靜止膜電位約 −90 mV"
+        },
         {
           "type": "figure",
           "src": "figures/ecg-arrhythmias/h247-2.png",
@@ -111,8 +137,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：QTc 怎麼算",
           "text": "**QTc 怎麼算**：經典的 **Bazett：QTc = QT / √RR**（秒）在心跳太慢或太快時有系統性誤差；Harrison 提供 **Framingham 公式：QTc = QT + 0.154 ×（1000 − RR）**（毫秒）。\n**快速目測（First Choice）**：**T 波結束點落在 RR 間距的中點右側 → QT 延長**（QT > ½ RR）。\n**動作電位與心電圖的對應**（Harrison）：\n- **Phase 0**（鈉流入，快速上升）↔ **QRS 開始** → **鈉進入變慢（高血鉀、flecainide）→ QRS 變寬**\n- **Phase 2**（鈣流入，高原期）↔ **ST 段**；**Phase 3**（鉀流出，再極化）↔ **T 波**\n- **Phase 2 或 3 拉長（amiodarone、低血鈣）→ QT 延長**；**再極化縮短（高血鈣、digoxin）→ QT 縮短**"
         },
         {
@@ -146,9 +172,14 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：國考題型",
           "text": "**國考題型**\n- **112 年**：竇房結細胞的特徵是 **Phase 4 舒張期去極化**（不是靜止膜電位較極化、不是 Phase 0 較快、不是 Phase 2 較明顯）。\n- **108 年**：PR 間期**最不可能**代表的是**心室去極化**（PR 包含心房去極化、房室結延遲）。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "丁 考題 p.118、130"
         },
         {
           "type": "source",
@@ -163,11 +194,16 @@
       ]
     },
     {
-      "title": "導程與電軸",
+      "title": "導程與電軸　★ 1 題",
       "content": [
         {
           "type": "callout",
-          "style": "logic",
+          "style": "key",
+          "text": "**必背**\n- 正常電軸 **−30° ~ +90°（+100°）**\n- **電軸左偏**：**左前分支阻滯（LAFB）**、LVH、**下壁心梗**、正常變異\n- **電軸右偏**：**RVH、肺栓塞、慢性肺病**、側壁心梗、左後分支阻滯、**左右手電極接反**（FC 107 年：手接反是右偏，不是左偏）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：每個導程像一台從不同角度拍的攝影機（Harrison）",
           "text": "**每個導程像一台從不同角度拍的攝影機**（Harrison）：**去極化朝向導程正極 → 向上波**；朝負極 → 向下波；與導程垂直 → **雙相波**。\n- **6 個肢導**看**額狀面**（上下左右）\n- **6 個胸導**看**水平面**（前後左右）\n- 特殊導程：**右胸導程 V3R–V6R** 找**右心室梗塞**；**V7–V9**（後腋線、肩胛線）找**後側壁梗塞**"
         },
         {
@@ -205,8 +241,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：國考題型（107 年）",
           "text": "**國考題型（107 年）**：心軸**左偏**的原因何者錯誤 → **左右手電極接反**（這會造成**右偏**）。正常變異、LVH、下壁梗塞都可能左偏。"
         },
         {
@@ -222,8 +258,13 @@
       ]
     },
     {
-      "title": "正常心電圖：QRS、T 波與 U 波怎麼形成",
+      "title": "正常心電圖：QRS、T 波與 U 波怎麼形成　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **R 波由 V1 往 V6 逐漸變高**（R 波進展）；V1 多為 rS、V6 為 qR\n- **T 波方向通常和 QRS 主波一致**；aVR 的 P、QRS、T 都向下"
+        },
         {
           "type": "figure",
           "src": "figures/ecg-arrhythmias/h247-7.png",
@@ -269,8 +310,13 @@
       ]
     },
     {
-      "title": "心房擴大與心室肥厚",
+      "title": "心房擴大與心室肥厚　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **右心房擴大**：II 的 **P 波 ≥ 2.5 mm**（高尖）｜**左心房擴大**：P 波 ≥ 120 ms（雙峰）、**V1 P 波負向部分大**\n- **LVH**：**SV1＋RV5／RV6 > 35 mm**，常合併 ST-T 改變（strain）\n- **RVH**：**V1 的 R ≥ S（或 R > 7 mm）**、電軸右偏\n- **心電圖診斷肥厚的價值有限** → 要靠超音波"
+        },
         {
           "type": "figure",
           "src": "figures/ecg-arrhythmias/h247-8.png",
@@ -316,8 +362,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：心電圖診斷心房或心室擴大的價值有限（偽陽性、偽陰性都多）",
           "text": "**心電圖診斷心房或心室擴大的價值有限**（偽陽性、偽陰性都多）→ 解剖與功能要靠**心臟超音波或心臟 MRI**（Harrison）。"
         },
         {
@@ -333,8 +379,13 @@
       ]
     },
     {
-      "title": "束支傳導阻滯與分支阻滯",
+      "title": "束支傳導阻滯與分支阻滯　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **RBBB**：**V1 rSR′（兔耳朵）**、**V6 寬 S 波**、QRS ≥ 120 ms｜可見於正常人、ASD、肺栓塞\n- **LBBB**：**V1 深 QS**、**V6 寬而有切跡的 R**｜幾乎都代表**結構性心臟病**；**會掩蓋心梗的判讀**\n- **左前分支阻滯：電軸 < −45°**\n- **雙束支阻滯**（RBBB＋LAFB）→ 可能進展到完全房室阻斷"
+        },
         {
           "type": "figure",
           "src": "figures/ecg-arrhythmias/h247-10.png",
@@ -419,8 +470,13 @@
       ]
     },
     {
-      "title": "缺血與梗塞：ST 變化、演變與定位",
+      "title": "缺血與梗塞：ST 變化、演變與定位　★ 1 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 演變：**超急性 T 波 → ST 上升 → Q 波、T 倒置**\n- 定位：**V1–V2 中隔、V3–V4 前壁（LAD）**｜**V5–V6、I、aVL 側壁（LCX）**｜**II、III、aVF 下壁（多為 RCA）**｜**V1–V3 ST 下降＝後壁**｜**V4R＝右心室**\n- **胸前導程（V2–V5）ST 上升 → 左前降支（LAD）**（FC 108 年）\n- **下壁梗塞一律加做右胸導程（V4R）**\n- **Wellens 徵象**：V1–V4 深而對稱的 T 倒置（胸痛緩解後）→ **LAD 近端高度狹窄**\n- ST 上升的鑑別：心包膜炎（廣泛凹面＋PR 下降）、早期再極化、LVH、LBBB、Brugada、高血鉀"
+        },
         {
           "type": "figure",
           "src": "figures/ecg-arrhythmias/h247-11.png",
@@ -476,8 +532,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：下壁梗塞一律加做右胸導程（V4R）",
           "text": "**下壁梗塞一律加做右胸導程（V4R）**：Harrison：**約 1/3 下壁梗塞**至少有輕度右心室壞死；**V4R ST 上升在前 24 小時常見**；臨床上頸靜脈怒張、Kussmaul sign、肝腫大 ± 低血壓。First Choice：**右心室梗塞避免 nitrate、morphine 等擴血管藥**（右心室需要前負荷）→ 適當**補液**。\n**後壁梗塞＝「ST 上升等同」**：V1–V3 對應性 ST 下降（Harrison：構成 ST 上升等同的急性冠心症）。"
         },
         {
@@ -517,14 +573,19 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：心電圖診斷缺血的限制（Harrison）",
           "text": "**心電圖診斷缺血的限制（Harrison）**\n- **一張正常心電圖不能排除缺血甚至急性梗塞**；但整個梗塞過程心電圖都正常很少見 → **長時間胸痛但心電圖一直沒變 → 積極找非冠狀動脈原因**。\n- **LBBB、心室節律器、WPW 預激會掩蓋缺血變化**。\n- **偽梗塞型態（過度診斷）**：心包膜炎、心肌炎（含 COVID-19）、早期再極化；**高 T 波**也可見於正常變異、**高血鉀、腦血管病變**；**Q 波**也可見於姿勢變異、心室肥厚、肥厚性心肌病、傳導異常；**ST 下降**也可由心室肥厚、低血鉀、**digoxin** 造成；深 T 倒置也見於心肌病、心肌炎、**takotsubo、顱內出血**。\n- **Q 波 ≠ 透壁**：透壁梗塞可以沒有 Q 波、心內膜下梗塞也可以有 Q 波 → 改稱「**Q 波梗塞 vs 非 Q 波梗塞**」。"
         },
         {
-          "type": "callout",
-          "style": "trap",
-          "text": "**國考題型（108 年）**：70 歲糖尿病女性半夜胸痛，**下壁導程 ST 上升** → 阻塞血管最可能是 **右冠狀動脈（RCA）**。\n**111 年**：**IC 類抗心律不整藥（flecainide、propafenone）**可能出現 **ST 上升**（強力鈉通道阻斷 → 右胸導 coved 型 ST 上升，類 Brugada）。"
+          "type": "collapsible",
+          "summary": "延伸：考點細節：國考題型（108 年）",
+          "text": "**國考題型（108 年）**：70 歲糖尿病女性半夜胸痛，心電圖（原書附圖）**胸前導程 V2–V5 ST 上升** → 阻塞血管最可能是 **左前降支（LAD）**（FC 答案 B）。\n**111 年**：**IC 類抗心律不整藥（flecainide、propafenone）**可能出現 **ST 上升**（強力鈉通道阻斷 → 右胸導 coved 型 ST 上升，類 Brugada）。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "丁 考題 p.130"
         },
         {
           "type": "source",
@@ -539,8 +600,13 @@
       ]
     },
     {
-      "title": "電解質、藥物與其他特殊型態",
+      "title": "電解質、藥物與其他特殊型態　★ 2 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **高血鉀**：**T 波高尖 → PR 延長、P 波消失 → QRS 變寬 → 正弦波**（FC 108 年：82 歲 CKD 疲倦無力）\n- **低血鉀**：**U 波明顯**、ST 下降、T 波變平\n- **低血鈣 → QT 延長**（ST 段變長）｜**高血鈣 → QT 縮短**\n- **QT 延長的原因**：**低鉀、低鎂、低鈣**、**IA、IC、III 類抗心律不整藥（amiodarone、sotalol）**、抗精神病藥、三環抗憂鬱劑、macrolide、**SAH 等顱內壓上升**｜**甲狀腺亢進不會**（FC 109 年）\n- **SAH 等顱內病變**：巨大深倒 T 波（cerebral T waves）、QT 延長、緩脈\n- **digoxin**：ST「勺狀」下降、QT 縮短｜**低體溫：Osborn（J）波**\n- **心包填塞：竇性心搏過速＋低電壓＋電交替**"
+        },
         {
           "type": "figure",
           "src": "figures/ecg-arrhythmias/h247-14.png",
@@ -615,9 +681,14 @@
           "explain": "**【怎麼看】**① **竇性心搏過速**；② **低電壓**（QRS 很小）；③ **電交替（electrical alternans）**：QRS 振幅一大一小交替（V3、V4 箭頭最明顯）。\n**【考點】**這三聯**高度提示心包膜積液、通常有填塞生理**，但**敏感度有限**。**單純再極化（ST-T 或 U 波）交替**則是電不穩定的徵象，可能預告致命性心室心律不整。"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：國考題型",
           "text": "**國考題型**\n- **109 年**：最**不可能**造成 QT 延長 → **甲狀腺亢進**（SAH、低血鈣、amiodarone 都會）。First Choice 補充：顱內壓升高（尤其 SAH）的經典心電圖 = **巨大 T 倒置（cerebral T waves）、QT 延長、緩脈**。\n- **108 年**：82 歲高血壓、慢性腎病，疲倦無力，心電圖 T 波高尖 → **高血鉀**。\n- First Choice：造成 QT 延長的因素——**IA、IC、III 類抗心律不整藥**、**phenothiazine、三環抗憂鬱劑**、**低血鈣、低血鉀、低血鎂**。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "丁 考題 p.131、179"
         },
         {
           "type": "source",
@@ -632,42 +703,53 @@
       ]
     },
     {
-      "title": "臨床題練習",
+      "title": "考題練習與速查表",
       "content": [
         {
-          "type": "callout",
-          "style": "logic",
-          "text": "**每張心電圖都照這個順序**：速率 → 節律（P 波在哪、和 QRS 的關係）→ PR、QRS、QT → 電軸 → P 波與 QRS 電壓（擴大、肥厚）→ R 波進展、Q 波 → ST → T → U；最後**和舊心電圖比較**、**結合臨床**。"
+          "type": "heading",
+          "text": "傳導系統與波形（§傳導系統、波形與間期）"
         },
         {
           "type": "collapsible",
-          "summary": "Q1：65 歲男性胸痛 1 小時，II、III、aVF ST 上升，I、aVL ST 下降，III 的上升比 II 大，血壓 85/50、頸靜脈怒張、肺部乾淨。下一步？",
-          "text": "**答：下壁 STEMI，懷疑 RCA 近端阻塞合併右心室梗塞 → 立刻加做 V4R。**\n- **III > II** 的 ST 上升 → RCA（II > III 或側壁也上升 → LCX）\n- 低血壓＋**頸靜脈怒張＋肺部乾淨** → 右心室梗塞的典型表現\n- **V4R ST 上升**（前 24 小時常見）可佐證\n- 處理：**避免 nitrate、morphine**，**補液**維持右心室前負荷；緊急再灌流"
+          "summary": "Q1：比較竇房結細胞與心室細胞的動作電位，何者正確？（A 靜態膜電位竇房結細胞較極化 B Phase 0 上衝速度竇房結較快 C Phase 2 竇房結細胞較顯著 D Phase 4 舒張期去極化是竇房結細胞的特徵）（FC 112 年）",
+          "text": "**答：(D)。** 竇房結靜止膜電位約 −55 ~ −65 mV（較不極化）、Phase 0 靠鈣離子（較慢）、沒有明顯平台期"
         },
         {
           "type": "collapsible",
-          "summary": "Q2：72 歲 CKD 第 4 期，用 spironolactone 與 ACEI，全身無力。心電圖 T 波又高又尖、QRS 略寬、P 波變小。下一步？",
-          "text": "**答：嚴重高血鉀（已有 QRS 變寬、P 波變小）→ 立即處理，不要等血液報告。**\n- 演變：T 尖 → 房室阻滯、P 變小、QRS 變寬 → 正弦波 → 心搏停止\n- 先**鈣劑穩定心肌**、再把鉀推進細胞、再排出（詳見離子筆記與值班鉀離子筆記）\n- 停 spironolactone、ACEI"
+          "summary": "Q2：有關 PR 間期，最不可能代表心跳週期的哪一部分？（A 心房去極化 B 心房再極化 C 房室間細胞延遲 D 心室去極化）（FC 108 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "電軸（§導程與電軸）"
         },
         {
           "type": "collapsible",
-          "summary": "Q3：35 歲女性門診心電圖：V1 rSR′、QRS 130 ms、V6 寬 S 波，無症狀，心臟超音波右心室擴大、心房中隔有缺損。怎麼解釋？",
-          "text": "**答：完全右束支阻滯，與心房中隔缺損（ASD）的右心室容量負荷有關。**\n- RBBB：**V1 rSR′、V6/I 寬 S、QRS ≥ 120 ms**\n- Harrison：**ASD（secundum）常合併不完全或完全 RBBB＋電軸右偏**\n- 無結構性心臟病的人 RBBB 比 LBBB 常見；但這位有 ASD → 轉介處理缺損"
+          "summary": "Q3：心電圖電軸左偏的可能原因，何者錯誤？（A 左右手導程顛倒 B 正常變異 C 左心室肥厚 D 下壁心肌梗塞）（FC 107 年）",
+          "text": "**答：(A)。** 左右手接反造成電軸右偏"
+        },
+        {
+          "type": "heading",
+          "text": "缺血定位（§缺血與梗塞：ST 變化、演變與定位）"
         },
         {
           "type": "collapsible",
-          "summary": "Q4：58 歲男性反覆胸痛，現在不痛，心電圖 V1–V4 深而對稱的 T 波倒置，心肌酵素正常。怎麼辦？",
-          "text": "**答：Wellens 型態——懷疑 LAD 高度狹窄，需盡快冠狀動脈檢查。**\n- Harrison Fig. 247-12：缺血性胸痛＋前胸導深 T 倒置（不論酵素）→ 通常 **LAD 嚴重狹窄**\n- 不要因為現在不痛、酵素正常就讓病人回家"
+          "summary": "Q4：70 歲糖尿病女性半夜突然胸痛、冒汗、想吐；血壓 137/79、脈搏 73，心電圖（原書附圖：胸前導程 V2–V5 ST 上升）；緊急心導管發現心肌梗塞，最可能哪一條血管堵塞？（A 左主幹 B 左前降支 C 左迴旋支 D 右冠狀動脈）（FC 108 年）",
+          "text": "**答：(B)。** 胸前導程 ST 上升＝前壁"
+        },
+        {
+          "type": "heading",
+          "text": "電解質與 QT（§電解質、藥物與其他特殊型態）"
         },
         {
           "type": "collapsible",
-          "summary": "Q5：40 歲女性突然劇烈頭痛後昏迷，心電圖廣泛深而寬的 T 倒置、QTc 560 ms、心跳 52。最可能？",
-          "text": "**答：蜘蛛膜下出血（SAH）的「CVA T 波」。**\n- Harrison：顱內出血（尤其 SAH）→ **QT 明顯延長＋深寬 T 倒置**\n- First Choice：顱內壓上升經典變化 = **cerebral T waves、QT 延長、緩脈**\n- 別誤判成前壁缺血；QT 長 → 注意 Torsades 風險，避免再用延長 QT 的藥"
+          "summary": "Q5：82 歲男性高血壓、慢性腎臟病，最近疲倦無力；血壓 152/90、心跳 65，心電圖如原書附圖。最可能的電解質異常？（A 高血鈣 B 低血鈣 C 高血鉀 D 低血鉀）（FC 108 年）",
+          "text": "**答：(C)。** T 波高尖"
         },
         {
           "type": "collapsible",
-          "summary": "Q6：病人心跳 120、低電壓、QRS 振幅一大一小交替，血壓偏低、頸靜脈怒張。診斷？",
-          "text": "**答：心包膜積液合併心包填塞。**\n- 三聯：**竇性心搏過速＋低電壓＋電交替**（Harrison Fig. 247-17）\n- 高度提示填塞，但敏感度有限 → **心臟超音波**確認、準備心包膜穿刺"
+          "summary": "Q6：下列何種狀況或藥物最不可能出現 QT 延長？（A 蜘蛛網膜下出血 B 低血鈣 C 甲狀腺亢進 D amiodarone）（FC 109 年）",
+          "text": "**答：(C)。** SAH：巨大 T 倒置、QT 延長、緩脈"
         },
         {
           "type": "heading",
@@ -709,11 +791,6 @@
               "Osborn 波 = 低體溫｜CVA T 波 = SAH｜電交替＋低電壓＋心搏過速 = 填塞｜Wellens = LAD"
             ]
           ]
-        },
-        {
-          "type": "source",
-          "book": "Harrison's 22e",
-          "pages": "1911-1919"
         }
       ]
     }

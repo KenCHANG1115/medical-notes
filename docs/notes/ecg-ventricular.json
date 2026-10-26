@@ -2,14 +2,15 @@
   "id": "ecg-ventricular",
   "title": "ECG (四)：心室性心律不整與猝死",
   "title_en": "Ventricular Arrhythmias and Sudden Cardiac Death",
-  "title_zh": "心電圖（四）：PVC、VT、Torsades、遺傳性心律不整與 ICD",
+  "title_zh": "心電圖（四）：心室心律不整的定義與起源判讀、PVC／NSVT／AIVR、寬 QRS 心搏過速、結構性與特發性 VT、Torsades、Brugada、長 QT、CPVT、VF、ICD 與電風暴",
   "specialty": "心臟內科",
   "sources": [
     "Harrison's 22e - Ch.259 Approach to Ventricular Arrhythmias (p.1997-2003)；Ch.260 PVC, NSVT, AIVR (p.2003-2006)；Ch.261 Sustained VT (p.2006-2011)；Ch.262 Polymorphic VT and VF (p.2011-2015)；Ch.263 Electrical Storm (p.2015-2017)",
-    "First Choice 醫學(三) 第1冊 - 寬 QRS 心搏過速、VT、QT prolong (p.120-121、171-175)；考題 (p.128-129、177、188)",
+    "First Choice 醫學(三) 第1冊 - 寬 QRS 心搏過速、VT、QT prolong (p.120-121、171-175)；考題 (p.128、177、188，本篇收錄 3 題)",
     "補充：AHA 2025 成人 ACLS 心搏過速流程（寬 QRS 時 adenosine 的使用條件）"
   ],
   "generated": "2026-10-07",
+  "updated": "2026-10-27",
   "related": [
     {
       "id": "ecg-arrhythmias",
@@ -34,8 +35,28 @@
   ],
   "sections": [
     {
-      "title": "定義與型態：從 PVC 到 VF",
+      "title": "讀前說明：怎麼讀這篇",
       "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**新版來源**：AHA 2025 ACLS 心搏過速流程（寬 QRS 時 adenosine 的使用條件）｜心衰竭與心梗後的 ICD 適應症 →〈心衰竭（二）〉｜HCM、ARVC →〈心肌病變（一）〉｜VF 急救流程 → 之後的〈BLS／ACLS 與休克〉"
+        }
+      ]
+    },
+    {
+      "title": "定義與型態：從 PVC 到 VF　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **NSVT**：≥ 3 跳、< 30 秒自行停止｜**持續性 VT**：≥ 30 秒或需要介入｜**單形性 vs 多形性**｜VF：完全紊亂\n- **由 QRS 型態推起源**：**LBBB 型 VT → 右心室起源**｜RBBB 型 → 左心室起源｜下壁導程 R 波高 → 流出道\n- **法洛四重症術後的 LBBB 型 VT → 右心室**（手術疤痕折返）（FC 113 年）"
+        },
         {
           "type": "table",
           "headers": [
@@ -99,8 +120,8 @@
           "explain": "**【怎麼看】**兩個問題：① **V1 長什麼樣**：**類 LBBB（V1 負向、深 S）→ 右心室或中隔起源**；**類 RBBB（V1 正向）→ 左心室起源**。② **下壁導程（II、III、aVF）**：**正向（下方電軸）→ 起源在上方（例如流出道）**；**負向（上方電軸）→ 起源在下壁**。\n**【考點】****LBBB 型＋下方電軸 = 右心室流出道（RVOT）**——最常見的**良性特發性 VT**；**RBBB 型 PVC、多源性 PVC 較可能有結構性心臟病**。"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：國考題型（113 年）",
           "text": "**國考題型（113 年）**：30 歲**法洛四重症術後**，**LBBB 型單形性 VT** → 起源於**右心室**（右心室切開或流出道的手術疤痕形成折返迴路）。Harrison：TOF 修補後 VT 盛行率 3–14%；危險因子包括**修補時 > 5 歲、竇性 QRS > 180 ms**、可誘發 VT。"
         },
         {
@@ -116,8 +137,13 @@
       ]
     },
     {
-      "title": "PVC、NSVT 與 AIVR：什麼時候要擔心",
+      "title": "PVC、NSVT 與 AIVR：什麼時候要擔心　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **心臟正常的 PVC 多為良性** → 有症狀才治（β 阻斷劑、電燒）｜**PVC 負擔 > 10–20% 可造成心肌病**\n- **心梗後抑制 PVC 會增加死亡（CAST）** → 不用 IC 類壓 PVC\n- **加速性心室自主節律（AIVR）**：心跳 60–110 的寬 QRS，**常見於再灌流後**、良性、不需治療\n- 心梗後猝死預防靠 **ICD**（LVEF 門檻見〈心衰竭（二）〉），不是抗心律不整藥"
+        },
         {
           "type": "table",
           "headers": [
@@ -163,8 +189,8 @@
           "explain": "**【怎麼看】****A（ARVC）**：右胸導 **T 波倒置**，QRS 末端有小小的切跡——**epsilon 波（箭頭）**，代表右心室延遲激動。**B（Brugada）**：**V1、V2 呈穹頂型（coved）ST 上升**接著 **T 波倒置**。\n**【考點】**兩者都是**右胸導程異常＋猝死**；FC：**ARVD → epsilon 波**；Brugada 要和 RBBB、早期再極化、高血鉀等鑑別。"
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：心梗後 ICD 的初級預防（Harrison）",
           "text": "**心梗後 ICD 的初級預防（Harrison）**：\n- 心梗後 **> 40 天**，且 **LVEF < 30%**；或 **LVEF < 35% 合併 NYHA II–III 心衰竭症狀**\n- 心梗 > 5 天、LVEF 差、有 NSVT、**電生理檢查可誘發持續 VT/VF**\n- **不要太早放**：心梗後早期或剛做完血管再通後常規放 ICD **不降低總死亡**\n- 心衰竭 LVEF < 35% 合併 NYHA II–III：ICD 讓 5 年死亡率從 **36% 降到 29%**\n- 所有 ICD 的前提：**預期能存活 ≥ 1 年且功能狀態可接受**"
         },
         {
@@ -180,11 +206,16 @@
       ]
     },
     {
-      "title": "寬 QRS 心搏過速：先當作 VT",
+      "title": "寬 QRS 心搏過速：先當作 VT　★ 0 題",
       "content": [
         {
           "type": "callout",
-          "style": "logic",
+          "style": "key",
+          "text": "**必背**\n- **寬 QRS 心搏過速，有結構性心臟病（舊心梗）→ 先當 VT**（約 80%）\n- **支持 VT**：**房室分離、融合波、捕獲波**、QRS 非常寬、胸前導程同向性（concordance）\n- **不穩定 → 同步電擊**｜穩定 → **amiodarone、procainamide**、lidocaine\n- **不要給 verapamil 或 diltiazem**（VT 病人會嚴重低血壓）；adenosine 只在**規則、單形性**時可用來鑑別"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：寬 QRS 心搏過速的鑑別",
           "text": "**寬 QRS 心搏過速的鑑別**：① **VT** ② **SVT 合併束支阻滯（aberrancy）** ③ **經副路徑下傳的 SVT（預激）** ④ **心室節律器**（看有沒有 spike）\n**機率**：FC：**平均約 80% 是 VT**；**有冠心病的人約 95% 是 VT**。Harrison：**已知有心臟病 → 不論 QRS 長怎樣，VT 都是最可能的診斷**。\n**血行動力學穩不穩定，不能用來區分 VT 和 SVT**（VT 也可以很穩定）——**沒確定前一律當 VT 處理**。"
         },
         {
@@ -231,8 +262,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：別把 SVT 的藥給 VT",
           "text": "**別把 SVT 的藥給 VT**：verapamil、diltiazem 對 VT 病人可能造成**嚴重低血壓**（負收縮力＋擴血管）。唯一例外是**左心室分支型 VT**（verapamil 敏感，見下節）。\n**監視器雜訊、移動假影**也會偽裝成 VT（Harrison）——及早辨認可避免不必要的檢查與處置。"
         },
         {
@@ -248,8 +279,13 @@
       ]
     },
     {
-      "title": "持續性單形性 VT：結構性 vs 特發性",
+      "title": "持續性單形性 VT：結構性 vs 特發性　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **結構性**：**舊心梗疤痕（最常見）**、擴張型心肌病、ARVC、類肉瘤、法洛四重症術後 → **ICD**＋amiodarone 或電燒\n- **特發性（心臟正常）**：**右心室流出道 VT（LBBB 型、下壁導程 R 高，運動誘發）**、**左心室分支型 VT（RBBB＋電軸左偏，verapamil 敏感）** → 預後好、**電燒可根治、不需 ICD**\n- β 阻斷劑：唯一能增加心梗後存活的抗心律不整藥｜amiodarone 預防約 60% 復發但不降死亡"
+        },
         {
           "type": "table",
           "headers": [
@@ -323,8 +359,8 @@
           "explain": "**【怎麼看】**前段是**正常竇性心律、QRS 正常**；接著出現寬 QRS 心搏過速：**V1 呈 LBBB 型**、**II、III、aVF 高大正向（下方電軸）** → 流出道起源。\n**【考點】**特發性 VT 的三個條件：**竇性心電圖正常、心臟影像正常、沒有猝死家族史** → **猝死罕見、不需 ICD**；有症狀用 β 阻斷劑、CCB、flecainide，或**電燒（約 80%）**。"
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：FC 的 VT 藥物整理",
           "text": "**FC 的 VT 藥物整理**\n- **一線**：**amiodarone**（可預防約 60% 的 VT/VF 復發）；**β 阻斷劑**：急性期穩定後給，**唯一能增加心梗後存活的抗心律不整藥**\n- **二線**：**class I 不能降低死亡率**；**lidocaine（IV）、mexiletine（PO）**：QT 延長不適合 amiodarone 時用 lidocaine；mexiletine 可與口服 amiodarone 併用治難控 VT\n- **IC 類（flecainide、propafenone）會增加 VT/VF**（結構性心臟病）\n- **phenytoin**：舊用於**毛地黃造成的雙向性 VT**\n- 心梗後**不建議經驗性使用 amiodarone 預防**，真的發生 VT/VF 才用；頑固 VT/VF 或 amiodarone 造成 QT 延長 → lidocaine"
         },
         {
@@ -340,8 +376,13 @@
       ]
     },
     {
-      "title": "多形性 VT、Torsades 與遺傳性心律不整",
+      "title": "多形性 VT、Torsades 與遺傳性心律不整　★ 1 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **QT 延長的多形性 VT＝Torsades de pointes**：**靜脈鎂**、補鉀、停致 QT 延長藥；緩脈依賴 → 提高心跳（節律或 isoproterenol）\n- **QT 正常的多形性 VT → 想急性缺血** → 心導管\n- **Brugada 症候群**：**V1–V2 穹頂（coved）ST 上升＋T 倒置**、**發燒或鈉通道阻斷藥誘發**、夜間猝死、亞洲男性｜**IC 類（flecainide、propafenone）可誘發類 Brugada 的 ST 上升**（FC 111 年）｜有症狀 → ICD\n- **先天性長 QT**：LQT1 運動、游泳｜LQT2 聲音、情緒｜LQT3 睡眠 → **β 阻斷劑（nadolol、propranolol）**，高風險 ICD\n- **CPVT**：運動或情緒誘發的**雙向性 VT**（毛地黃中毒也會）"
+        },
         {
           "type": "table",
           "headers": [
@@ -495,8 +536,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：易混淆的「雙向性 VT」",
           "text": "**易混淆的「雙向性 VT」**：**毛地黃中毒（DAD）**與 **CPVT**（ryanodine 受體、鈣處理異常）——機轉都是**細胞內鈣過多**。\n**Brugada 的 ST 上升 vs 心梗**：Brugada 是 **V1–V2 穹頂型＋T 倒置**、心臟結構正常、會隨發燒變明顯；**IC 類藥可以誘發**（FC 111 年考 IC 類會造成 ST 上升）。\n**FC 113 年**：ICD 成功電擊終止 VT/VF，**不代表**往後死亡率與心衰竭風險「大幅減少」——Harrison：**被 ICD 終止的 VT/VF 反而預示死亡率與心衰竭風險增加**，要回頭找原因（心衰惡化、電解質、缺血）。"
         },
         {
@@ -512,8 +553,13 @@
       ]
     },
     {
-      "title": "VF、ICD 與電風暴",
+      "title": "VF、ICD 與電風暴　★ 1 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **猝死多為缺血性心臟病的 VF**；先穩定血行動力，記錄 12 導程心電圖找起源與潛在心臟病\n- **ICD 只預防猝死**：**ICD 放電代表心律不整風險高，不代表之後的死亡率與心衰竭風險下降**（FC 113 年）\n- 找不到暫時可逆原因的 VF 或 VT 存活者 → **ICD（次級預防）**\n- **電風暴**（24 小時 ≥ 3 次 VT／VF）：鎮靜、β 阻斷劑（propranolol）、amiodarone、處理缺血與電解質、電燒"
+        },
         {
           "type": "table",
           "headers": [
@@ -606,8 +652,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：VF 救回來之後",
           "text": "**VF 救回來之後**：依 ACLS 去顫（之後另寫值班守則 ACLS 筆記）→ 找原因：**急性心梗等暫時可逆原因**？是不是先有單形性或多形性 VT 再轉成 VF？→ **找不到暫時可逆原因 → 通常需要 ICD**。\n心跳停止救回後的心電圖要仔細看 **QT（長或短）、右胸導程（Brugada、ARVC）、J 點、預激**——這些遺傳性異常都可能是原因。"
         },
         {
@@ -618,37 +664,34 @@
       ]
     },
     {
-      "title": "臨床題練習",
+      "title": "考題練習與速查表",
       "content": [
         {
-          "type": "collapsible",
-          "summary": "Q1：70 歲男性 10 年前大面積前壁心梗，LVEF 25%，心悸頭暈，心電圖寬 QRS 規則心搏過速 170，血壓 105/70，可見數個較窄的 QRS 夾在其中。診斷與處置？",
-          "text": "**答：單形性 VT（舊心梗疤痕折返）——較窄的 QRS 是融合波，證明房室分離。**\n- 有冠心病的寬 QRS 心搏過速約 95% 是 VT（FC）\n- 穩定 → **IV amiodarone**；變不穩定 → 同步電擊\n- 不要給 verapamil 或 diltiazem\n- 之後：**ICD 次級預防**；反覆發作 → amiodarone 或電燒；血管再通無法預防疤痕 VT"
+          "type": "heading",
+          "text": "起源（§定義與型態）"
         },
         {
           "type": "collapsible",
-          "summary": "Q2：65 歲女性因肺炎使用 levofloxacin，又因譫妄給 haloperidol，K 3.0、Mg 1.4。監視器出現 PVC → 停頓 → 一陣振幅忽大忽小的寬 QRS 心搏過速，自行停止。下一步？",
-          "text": "**答：藥物＋低鉀低鎂造成的 Torsades de pointes。**\n- **IV MgSO₄ 1–2 g**；補鉀\n- **停 levofloxacin、haloperidol**\n- 若仍反覆 → **isoproterenol 或節律把心跳拉到 100–120**（停頓依賴型）\n- 持續或轉成 VF → 去顫\n- 這位病人往後要**避免所有延長 QT 的藥**\n- **不要給 amiodarone**（會再延長 QT）"
+          "summary": "Q1：30 歲男性有法洛四重症並開過刀，早上突然胸悶至急診，十二導程心電圖為 LBBB 型單形性 VT。VT 最可能起源於？（A 右心房 B 右心室 C 左心房 D 左心室）（FC 113 年）",
+          "text": "**答：(B)。** 右心室或右心室流出道的手術疤痕"
+        },
+        {
+          "type": "heading",
+          "text": "Brugada（§多形性 VT、Torsades 與遺傳性心律不整）"
         },
         {
           "type": "collapsible",
-          "summary": "Q3：35 歲男性發燒 39 度後夜間被發現抽搐樣發作、意識喪失，心電圖 V1–V2 穹頂型 ST 上升合併 T 倒置，心臟超音波正常。最可能診斷？處置？",
-          "text": "**答：Brugada 症候群（發燒誘發、睡眠中、男性）。**\n- 積極**退燒**；避免鈉通道阻斷藥（IC 類、某些抗癲癇藥、cocaine、大麻）\n- **曾心跳停止或不明原因暈厥 → ICD**\n- 反覆 VT/VF → **quinidine**、isoproterenol（電風暴時）、右心室流出道心外膜電燒\n- 篩檢一等親（體染色體顯性、外顯度不一）"
+          "summary": "Q2：使用何種抗心律不整藥物可能在心電圖上出現 ST 節段上升？（A class IC B class II C class III D class IV）（FC 111 年）",
+          "text": "**答：(A)。** 強力鈉通道阻斷 → 右胸導 coved 型 ST 上升（類 Brugada）"
+        },
+        {
+          "type": "heading",
+          "text": "ICD（§VF、ICD 與電風暴）"
         },
         {
           "type": "collapsible",
-          "summary": "Q4：25 歲女性運動時心悸，心電圖為 LBBB 型、下壁導程高大 R 波的單形性 VT，竇性心電圖正常、心臟 MRI 正常、無家族史。需要 ICD 嗎？",
-          "text": "**答：不需要。右心室流出道特發性 VT，猝死罕見。**\n- 有症狀：β 阻斷劑、verapamil、diltiazem、flecainide，或**電燒**（RVOT 成功率最好）\n- **必須先排除 ARVC**（V1–V3 T 倒置、epsilon 波、右心室擴大或 MRI 疤痕）"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q5：12 歲男孩游泳時暈倒，QTc 510 ms，父親年輕時猝死。最可能？處置？",
-          "text": "**答：先天性長 QT 症候群，LQT1（運動、游泳誘發）。**\n- **nadolol 或 propranolol**（非選擇性 β 阻斷劑）\n- **QTc > 500、曾暈厥 → 高風險**，β 阻斷劑下仍暈厥或高風險 → **ICD**\n- **避免所有延長 QT 的藥**（含基因陽性但 QT 正常的家人）、基因檢測與家族篩檢\n- 對照：LQT2 → 突然聲響、情緒；LQT3 → 睡眠中"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q6：急性下壁 STEMI 打通血管後，監視器出現心跳 80 的寬 QRS 規則節律，偶有融合波，血壓穩定。要給 amiodarone 嗎？",
-          "text": "**答：不需要。這是加速性心室自主節律（AIVR），再灌流後常見、通常無害。**\n- 速率 < 100 的心室節律\n- 失去房室同步造成低血壓時，可用 **atropine 提高竇性速率**\n- 不需抗心律不整藥；心梗急性期也**不常規用 lidocaine 或 amiodarone 壓 PVC**"
+          "summary": "Q3：有關心室性心律不整與心臟猝死，何者錯誤？（A 診斷靠心電圖記錄、植入裝置或電生理檢查 B 猝死病人應盡可能取得心律不整時的 12 導程心電圖，研究起源與潛在心臟病 C 猝死多見於心肌缺氧性 VF；ICD 迅速終止心室心律不整時，代表病患往後死亡率與心衰竭風險大幅減少 D 初始治療以穩定血行動力為目標）（FC 113 年）",
+          "text": "**答：(C)。** ICD 只預防猝死；放電代表風險高，潛在心臟病仍會進展"
         },
         {
           "type": "heading",
@@ -694,11 +737,6 @@
               "24 小時 ≥ 3 次｜β 阻斷、amiodarone、lidocaine、鎮靜、電燒、星狀神經節阻斷"
             ]
           ]
-        },
-        {
-          "type": "source",
-          "book": "Harrison's 22e",
-          "pages": "1997-2017"
         }
       ]
     }
