@@ -1,0 +1,490 @@
+{
+  "id": "liver-tumors-hcc",
+  "title": "Liver Tumors & HCC (肝腫瘤與肝癌)",
+  "title_en": "Benign Liver Tumors, Hepatocellular Carcinoma, and Metastatic Liver Cancer",
+  "title_zh": "肝腫瘤與肝癌：血管瘤、FNH、腺瘤與囊腫、肝細胞癌的危險因子、篩檢與影像診斷、BCLC 分期與治療（切除、換肝、電燒、TACE、免疫與標靶治療）、轉移性肝癌",
+  "specialty": "肝膽腸胃內科",
+  "sources": [
+    "Harrison's 22e - Ch.87 Tumors of the Liver and Biliary Tree：Hepatocellular Carcinoma (p.659-667)、Other Malignant and Benign Liver Tumors (p.670)",
+    "First Choice 醫學(三) 第2冊 - 庚、肝腫瘤、肝癌 (p.165-170；考題 p.171-177，18 題)"
+  ],
+  "generated": "2026-10-28",
+  "updated": "2026-10-28",
+  "related": [
+    {
+      "id": "cirrhosis-portal-htn-varices",
+      "name": "Cirrhosis (一)：總論、門脈高壓與靜脈曲張"
+    },
+    {
+      "id": "cirrhosis-ascites-he-transplant",
+      "name": "Cirrhosis (二)：腹水、SBP、肝腎症候群、肝性腦病變與肝移植"
+    },
+    {
+      "id": "hepatitis-chronic-b-d",
+      "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：怎麼讀這篇",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**這篇的範圍**：良性肝腫瘤（血管瘤、FNH、腺瘤、囊腫）、肝細胞癌（流行病學、篩檢、影像診斷、BCLC 分期與治療）、轉移性肝癌｜膽管癌、膽囊癌、肝膿瘍 →〈膽道、胰臟與肝膿瘍〉｜**本篇只用 Harrison 22e 與 FC**，沒有另加外部指引"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**：發現肝腫瘤 → **① 病人是不是高風險族群？**（肝硬化、慢性 B／C 肝）→ **② 動態 CT／MRI 長什麼樣？**（**動脈期亮、靜脈期洗掉＝HCC**｜**周邊結節狀往中心填＝血管瘤**｜中央疤痕＝FNH｜多顆＋CEA 高＝轉移）→ **③ HCC 依 BCLC（腫瘤＋肝功能＋體能）選治療**"
+        }
+      ]
+    },
+    {
+      "title": "良性肝腫瘤：血管瘤、FNH、腺瘤、囊腫　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **血管瘤（hemangioma）**：**最常見的良性肝腫瘤**（約 5% 人口）、女性較多\n　- **動態 CT：周邊結節狀顯影、逐漸向中心填滿（centripetal fill-in）**——**不是早期洗出**（FC 113、111 年）\n　- 一般人**超音波即可診斷**；肝硬化或癌症病人要做顯影影像｜**不會惡化、不需追蹤**；長大壓迫有症狀才切除\n- **局部結節性增生（FNH）**：< 2%、**40–50 歲女性**、動脈畸形造成的多株增生\n　- **MRI 最準：動脈期均勻增強＋中央疤痕**｜**不會惡化、不會出血 → 不需治療**\n- **肝腺瘤（hepatocellular adenoma）**：**年輕女性（35–40 歲）、口服避孕藥**、男性健美者的**同化類固醇**、肝醣儲積症（FC）\n　- 風險：**出血（尤其懷孕）、癌化**，**> 5 cm 時更高**\n　- 處置：**停避孕藥、減重**｜**> 5 cm、男性、β-catenin（CTNNB1）突變 → 切除**｜< 5 cm 追蹤｜**出血 → 先栓塞再切除**\n- **單純性囊腫**：超音波**邊界清楚、內部均勻全黑（無回音）**｜箭頭處若是**邊界不規則、內部有回音的低回音病灶 → 不像單純囊腫**，要想膿瘍、HCC、轉移（FC 108 年）"
+        },
+        {
+          "type": "figure",
+          "src": "figures/liver/fc-ct-hemangioma.png",
+          "label": "First Choice 醫學(三) 第2冊 p.173（111 年考題圖）",
+          "caption": "45 歲女性肝右葉 4 cm 腫瘤的動態 CT",
+          "explain": "**【怎麼看】**左上：**未顯影**，右葉後方一塊低密度腫瘤｜右上：**動脈期**，腫瘤**周邊出現一顆顆結節狀的亮點**｜下：**較晚期**，亮的部分**由周邊往中心擴大**。\n**【考點】**周邊結節狀顯影＋向心性填滿＝**海綿狀血管瘤**；HCC 是**整顆動脈期亮、靜脈期變暗**。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/liver/fc-us-liver.png",
+          "label": "First Choice 醫學(三) 第2冊 p.175（108 年考題圖）",
+          "caption": "肝臟超音波：箭頭指的病灶",
+          "explain": "**【怎麼看】**箭頭指的是一個**邊界不清、內部回音不均的低回音病灶**。\n**【考點】**單純囊腫應該是**邊界清楚、均勻、全黑**；所以**最不可能是單純囊腫**，膿瘍、HCC、轉移都有可能。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "血管瘤",
+            "FNH",
+            "腺瘤"
+          ],
+          "rows": [
+            [
+              "族群",
+              "最常見、女性較多",
+              "40–50 歲女性",
+              "**年輕女性、口服避孕藥**、同化類固醇"
+            ],
+            [
+              "影像",
+              "**周邊結節狀 → 向心填滿**",
+              "**動脈期均勻增強＋中央疤痕**（MRI）",
+              "MRI 可分子分型"
+            ],
+            [
+              "風險",
+              "不會惡化",
+              "不會惡化、不出血",
+              "**出血、癌化（> 5 cm）**"
+            ],
+            [
+              "處置",
+              "**觀察**",
+              "**不需治療**",
+              "**停避孕藥**；> 5 cm、男性、CTNNB1 → **切除**"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：良性腫瘤細節",
+          "text": "FC：血管瘤症狀可有上腹脹痛、噁心、早飽；**標記紅血球同位素掃描**可特異地顯示血管瘤\nFC：腺瘤屬癌前病變、以切除為原則（Harrison 依大小、性別、分子型決定）\nHarrison：腺瘤女：男約 10：1；分子分型——HNF1A 失活、發炎型（50–60%）、CTNNB1 突變（10–20%，癌化風險高，需切片確認）、Hedgehog｜多發腺瘤依最大顆決定\n**纖維板層型肝癌（fibrolamellar HCC）**：10–30 歲、**沒有肝病背景**、PRKACA-DNAJB1 融合基因｜預後比 HCC 好，以切除為主\n**肝母細胞瘤**：兒童最常見的原發肝腫瘤（< 3 歲）、CTNNB1 突變｜切除＋doxorubicin／cisplatin｜**AFP 低（< 100）反而預後差**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.87 p.670（Benign Liver Tumors、Other Malignant Liver Tumors）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 A 血管瘤、B 腺瘤 p.165"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 考題 p.171-175"
+        }
+      ]
+    },
+    {
+      "title": "肝細胞癌：流行病學、危險因子與表現　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 肝癌是全球第 6 常見癌症、**癌症死因第 3**、**肝硬化病人的主要死因**｜原發肝癌中 **HCC 約 85%**、肝內膽管癌約 10%\n- **男女比約 2.5：1**；高峰 65–70 歲，但**亞洲、非洲（B 肝垂直感染）平均 40–50 歲**\n- **最主要危險因子：任何原因的肝硬化**（約 1/3 一生會得 HCC）\n　- **B、C 肝肝硬化每年 3–8%**｜酒精、MASH、α1-antitrypsin、自體免疫、Wilson、膽汁鬱積性肝硬化每年 1–2%\n- **各地區主因**：\n　- **亞洲（含台灣）、非洲：B 肝**（全球約 50% HCC）｜**非洲：黃麴毒素 B1＋B 肝**（FC 108 年）\n　- **歐美：C 肝、酒精、MASH**\n- **B 肝**：DNA 病毒、**可插入宿主基因（插入性突變）**——所以**沒有肝硬化的 B 肝也要篩檢**｜預測因子：**家族史、HBeAg 陽性、病毒量高、基因型 C**\n- **C 肝**：幾乎只在**已有晚期纖維化或肝硬化**時才發生\n- **MASH**：西方 15–20%；**25–30% 沒有肝硬化**也會發生\n- 其他：**黃麴毒素 B1（TP53 R249S 突變）**、**血色素沉著症**、抽菸、馬兜鈴酸｜**肝鈣化點不是高危險群**（FC 111 年）\n- **表現**：**小型肝癌通常沒有症狀**（FC 105 年）｜有症狀時多已晚期（倦怠、體重減輕、食慾差、腹部不適、肝功能惡化），**中位存活 < 1 年**\n- **B 肝病人突然右上腹痛、冒冷汗、低血壓、血紅素下降 → 肝癌破裂出血**（FC 106 年）\n- **預防**：**B 肝疫苗**（新生兒全面接種 → HCC 下降）、**B 肝抗病毒（風險降 50–80%）**、**C 肝 DAA**｜已肝硬化者病毒清除後仍有風險、仍要篩檢｜**咖啡**被建議為預防策略"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：分子機轉（Harrison Table 87-1）",
+          "text": "多步驟：**低度異生結節 → 高度異生結節 → 早期 HCC**\n主要驅動突變：**TERT 啟動子（56%）、TP53（27%）、CTNNB1（26%）**——都**沒有標靶藥**；EGFR、HER2、BRAF、KRAS 很少（< 5%）→ **HCC 目前沒有精準標靶治療**\n擴增：11q13（CCND1、FGF19）、6p21（VEGFA）、MYC｜B 肝插入 TERT、MLL4、CCNE1｜酒精與 C 肝 → CTNNB1｜黃麴毒素 → TP53 R249S\n兩大分子亞群：增殖型（B 肝、AFP 高、預後差）vs 非增殖型（CTNNB1、預後較好）｜免疫「熱腫瘤」約 35%，對免疫治療反應較好\nFC：危險因子還列了 CCl₄、血型 B（FC 講義說法）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.87 p.659-661"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 C 肝細胞癌 p.165"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 考題 p.173、175-177"
+        }
+      ]
+    },
+    {
+      "title": "肝細胞癌的篩檢與診斷　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **篩檢對象**：**任何原因的肝硬化**、C 肝晚期纖維化、**慢性 B 肝**（**亞洲人 > 40 歲、非洲人 > 20 歲、HCC 家族史**、PAGE-B 風險分數高）｜**Child-Pugh C 不篩**（無法做根治治療），**等待換肝者例外**\n- **方法：每 6 個月腹部超音波 ± AFP**（敏感度約 65%、特異度 > 90%）｜**CT、MRI 不建議當篩檢工具**（輻射、成本）——**每 6 個月 CT → 錯**（FC 105 年）｜肥胖、脂肪肝超音波看不清 → 可用顯影 MRI\n- **AFP**：**小型肝癌 AFP 常正常（約 1/3 正常）**（FC 104 年）→ **不能單獨用 AFP 篩檢**｜**AFP ≥ 400 高度懷疑但不能診斷**｜PIVKA-II、AFP-L3 的早期偵測準確度未定\n- **超音波發現結節**：**< 1 cm → 3–6 個月再追超音波**｜**> 1 cm 或 AFP ≥ 20 或上升 → 四相 CT 或動態 MRI**\n- **不需切片的影像診斷**（只適用**肝硬化**病人）：**動脈期顯影增強（arterial hypervascularity）＋門靜脈期或延遲期洗出（washout）**——特異度 95–100%（LI-RADS 5）\n　- FC 113 年：**肝硬化、5 cm、動脈期增強＋靜脈期洗出 → 不必切片**｜脂肪肝背景（非肝硬化）不適用；動脈期沒增強或兩相都增強不符合\n- **需要切片**：**沒有肝硬化**、影像不典型、LI-RADS 4｜切片敏感度 1–2 cm 時 < 50%，**陰性不能排除**\n- **PET 對早期 HCC 表現差**——**不是最敏感的檢查**（FC 108 年）；最敏感的是**動態 CT／MRI**\n- 理學要找**慢性肝病徵象**（黃疸、腹水、蜘蛛痣、紅掌）；**超音波、三相 CT、gadolinium MRI 都可用來診斷**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/liver/h87-2.png",
+          "label": "Harrison's 22e Fig. 87-2",
+          "caption": "HCC 的診斷流程（EASL）",
+          "explain": "**【怎麼看】**超音波看到結節 → **< 1 cm：3–6 個月再追**（穩定 → 回到常規篩檢；長大或改變 → 做 CT／MRI）｜**> 1 cm、AFP ≥ 20 或上升 → 四相 CT 或多相 MRI** → **一種檢查出現 HCC 典型特徵（LI-RADS 5）→ 直接診斷 HCC**｜**LI-RADS 4 → 換另一種影像 → 仍不確定就切片**｜LI-RADS 3 → 回去追蹤。\n**【考點】**典型特徵＝**動脈期顯影、靜脈或延遲期洗出**；**只用在肝硬化病人**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "動態 CT",
+            "HCC",
+            "肝內膽管癌",
+            "轉移",
+            "血管瘤",
+            "FNH"
+          ],
+          "rows": [
+            [
+              "未顯影",
+              "低",
+              "低",
+              "低",
+              "低",
+              "與肝相近"
+            ],
+            [
+              "**動脈期**",
+              "**高（亮）**",
+              "低",
+              "低或高",
+              "**周邊結節狀高**",
+              "**均勻增強、中央疤痕**"
+            ],
+            [
+              "**門靜脈期**",
+              "**低（洗出）**",
+              "低",
+              "低",
+              "高（向中心填）",
+              "與肝相近"
+            ],
+            [
+              "延遲期",
+              "低",
+              "**高（延遲顯影）**",
+              "低",
+              "高",
+              "與肝相近"
+            ],
+            [
+              "其他",
+              "肝硬化背景",
+              "**肝內膽管擴張**",
+              "**多發**",
+              "",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：診斷細節",
+          "text": "上表依 FC 講義（p.166）整理；FNH 動脈期依 Harrison「均勻增強＋中央疤痕」\nLI-RADS：1 類 0% HCC｜**4 類 60–70%** → 3–6 個月重做影像或切片｜**5 類約 95%**｜M 類：有惡性特徵但只約 35% 是 HCC\n切片：腫瘤播種、出血風險約 2–3%｜GPC3、glutamine synthetase、HSP70、clathrin heavy chain 四項中兩項陽性高度特異\nFC：AFP > 200 暗示 HCC、> 1000 更支持｜確診：動脈期先顯影、門靜脈期比肝暗｜MRI、血管攝影用在 CT 無法確診、較小病灶\n有篩檢的族群 70–80% 在早期被發現；西方多早中期診斷，亞洲（日本除外）、非洲多晚期"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.87 p.661-662（Fig. 87-2）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 C 肝細胞癌 4. 診斷 p.166-167"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 考題 p.171、174、177"
+        }
+      ]
+    },
+    {
+      "title": "肝細胞癌的分期與治療（BCLC）　★ 6 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **治療要同時看三件事：腫瘤、症狀（ECOG）、肝功能（Child-Pugh）**——**> 80% 病人同時有 HCC 與肝硬化**（FC 112 年）｜**TNM 不用於 HCC**（沒有納入肝功能與體能）\n- **BCLC 分期**：\n　- **0 極早期**：單顆 ≤ 2 cm、Child A、ECOG 0 → **電燒或切除**\n　- **A 早期**：單顆或 ≤ 3 顆且都 ≤ 3 cm、Child A–B、ECOG 0 → **切除、換肝、電燒（根治性治療）**\n　- **B 中期**：多顆（超過 A 的條件）、Child A–B、ECOG 0 → **TACE**\n　- **C 晚期**：**門靜脈侵犯、淋巴結、遠端轉移**或 ECOG 1–2 → **全身治療**\n　- **D 末期**：**Child C 或 ECOG > 2** → **支持療法**（中位存活 3–6 個月）\n- **根治性治療（curative）＝切除、換肝、電燒（RFA、微波）**｜**sorafenib、TACE、化療都不是根治**（FC 110、107 年）\n　- **切除**：沒有肝硬化者首選｜肝硬化者要 **Child A、膽紅素正常、沒有門脈高壓**（沒有靜脈曲張、血小板 > 10 萬）｜**大血管侵犯、肝外轉移、Child B–C 是禁忌**｜**5 年復發 50–70%**\n　- **換肝**：**Milan 準則（單顆 ≤ 5 cm 或 ≤ 3 顆都 ≤ 3 cm、無血管侵犯與肝外轉移）**——同時治好腫瘤與肝硬化，**中位存活 10 年、5 年復發僅 10–15%**｜**門靜脈主幹侵犯不適合換肝**（FC 112 年）\n　- **電燒（RFA）**：**≤ 3 cm、≤ 3 顆**；**< 2 cm 完全反應 90–100%**，與切除相當｜**是根治性治療**（FC 112 年：「不是根除性」→ 錯）\n- **TACE（經動脈化學栓塞）**：**中期（多顆）、肝功能尚可（Child A–B）、不適合手術** → 中位存活 20–30 個月（未治療約 16 個月）｜**是姑息性，療效不等於開刀**（FC 112 年）｜**多發性 HCC 用栓塞可延長存活**，不是只增加死亡（FC 106 年）\n　- 台灣：B 肝、右葉 4＋3.5 cm、左葉 1.5 cm、門靜脈通暢、Child A → **多顆、分散、超過 Milan → TACE**（FC 106 年）\n　- 禁忌：門靜脈血流受阻、肝衰竭、腫瘤 > 10 cm｜約 50% 有**栓塞後症候群**（發燒、腹痛）\n- **晚期（BCLC C，含門靜脈主幹侵犯、肺轉移）→ 全身治療**（FC 108 年答案：sorafenib）\n　- **第一線：atezolizumab＋bevacizumab**（優於 sorafenib）或 **durvalumab＋tremelimumab**｜不能用免疫治療（**自體免疫病、曾換肝**）→ **sorafenib 或 lenvatinib**\n　- **第二線**：regorafenib、cabozantinib、**ramucirumab（AFP ≥ 400）**\n　- **傳統化療、放射治療不能延長存活**\n- **術後追蹤：腹部超音波＋AFP**（FC 106 年）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **晚期 HCC 第一線改成免疫治療**（Harrison 22e）：**atezolizumab（抗 PD-L1）＋bevacizumab（抗 VEGF）**存活優於 sorafenib（19.2 vs 13.4 個月），**durvalumab＋tremelimumab** 也優於 sorafenib｜**sorafenib、lenvatinib 退為不能用免疫治療者的選擇**——FC 108 年題目答案仍是 sorafenib（當年標準）｜另外：**高復發風險者切除或電燒後可輔助 atezolizumab＋bevacizumab 12 個月**；**TACE＋durvalumab＋bevacizumab** 可延長無惡化存活"
+        },
+        {
+          "type": "figure",
+          "src": "figures/liver/h87-3.png",
+          "label": "Harrison's 22e Fig. 87-3",
+          "caption": "BCLC 分期與治療策略",
+          "explain": "**【怎麼看】**上排五期：**0（單顆 ≤ 2 cm）｜A（單顆或 ≤ 3 顆 ≤ 3 cm）｜B（多顆）｜C（門靜脈侵犯、N1、M1、ECOG 1–2）｜D（Child C、ECOG > 2）**。中間分層：**0 → 電燒或切除**｜**A：單顆且適合手術 → 切除；不適合 → 看能否換肝 → 能 → 換肝，不能 → 電燒**；2–3 顆 ≤ 3 cm 也走換肝或電燒｜**B → 能 TACE 就 TACE（± 全身治療）**，不能 → 全身治療｜**C → 全身治療**｜**D → 支持療法**。最下排預期存活：換肝 10 年、切除或電燒 > 6 年｜TACE 26–30 個月｜全身治療第一線 16–19 個月｜D 期 3–6 個月。\n**【考點】**早期追求**根治（切除、換肝、電燒）**；**中期 TACE**；**晚期全身治療**；**Child C 只能支持療法（或換肝）**。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/liver/h87-4.png",
+          "label": "Harrison's 22e Fig. 87-4",
+          "caption": "晚期 HCC 的全身治療策略",
+          "explain": "**【怎麼看】**適用晚期（BCLC C）或中期 TACE 後惡化、Child A、ECOG 0–1。**能用免疫治療嗎？** 能 → 腸胃道或食道靜脈曲張**出血風險高嗎？** 不高 → **atezolizumab＋bevacizumab**｜高 → **tremelimumab＋durvalumab**（不含抗 VEGF）｜**不能用免疫治療（自體免疫病、曾換肝）→ sorafenib 或 lenvatinib**。惡化後第二、三線：**regorafenib、cabozantinib、ramucirumab**；或 nivolumab＋ipilimumab、pembrolizumab（加速核准）。\n**【考點】**bevacizumab 會增加出血 → **用之前要胃鏡篩檢靜脈曲張**（有就結紮或 carvedilol）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：各治療細節（Harrison、FC）",
+          "text": "**FC 切除條件**：腫瘤在單一肝節、沒有黃疸、腹水、肝性腦病變、**ICG-15 < 30%**\n**FC 電燒條件**：< 3 cm、1–3 顆、Child A–B（RFA、微波、酒精注射 PEIT）\n**FC TACE**：Lipiodol＋Gelfoam 栓塞（TAE），加 Adriamycin＝TACE｜多顆（≥ 4）、Child A–B、不適合開刀｜**SIRT（釔-90 放射栓塞）**\n**TARE（釔-90）**：栓塞作用小 → **門靜脈血栓時也可用**｜> 3 cm 不能切除也不能換肝 → TARE 或 SBRT\n**換肝**：等待 > 6 個月 → 先做局部治療（橋接）｜**UNOS 降期準則**：單顆 ≤ 6.5 cm 或 ≤ 3 顆最大 ≤ 4.5 cm、總和 ≤ 8 cm（與 FC 的 UCSF 準則相近）｜活體捐肝捐贈者死亡約 0.3%\n切除：肝硬化理想候選者 5 年存活 60–70%，不理想者 35–55%｜手術死亡 < 1%｜依解剖肝節切除\n**sorafenib**：多激酶抑制劑（RAF、VEGFR、PDGFR）｜7.9 → 10.7 個月｜副作用**手足皮膚反應**、腹瀉、疲倦、高血壓｜C 肝相關 HCC 效果較好｜活動性血管疾病是禁忌\n**lenvatinib**：不劣於 sorafenib｜高血壓、蛋白尿｜**regorafenib**：sorafenib 惡化後｜**cabozantinib**：VEGFR、AXL、cMET｜**ramucirumab**：抗 VEGFR-2 抗體，唯一依 AFP（≥ 400）選病人的藥\n**atezolizumab＋bevacizumab 副作用**：高血壓、蛋白尿、輕度腹瀉｜**STRIDE（durvalumab＋tremelimumab）**：有靜脈曲張也可用，但免疫副作用多（20% 需類固醇）\nFC 舊講義：緩解性化療 cisplatin＋5-FU、荷爾蒙 tamoxifen（Harrison：傳統化療無存活好處）\n亞洲常用香港分期、日本 JIS 分期（切除與 TACE 適應症較寬）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.87 p.662-667（Fig. 87-3、87-4、Table 87-2）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 C 肝細胞癌 5. 治療 p.167-170"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 考題 p.172、174-177"
+        }
+      ]
+    },
+    {
+      "title": "轉移性肝癌　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 線索：**多顆大小不一的結節**、**AFP 正常**、**CEA 或 CA 19-9 上升**、體重減輕、肝腫大，肝功能可以完全正常（FC 112 年：多顆低回音結節＋AFP 8＋CEA 521 → **轉移性肝癌**）\n- 影像（FC 表）：**多發**、動脈期低或高、門靜脈期低\n- **與 HCC 區分**：HCC 多在肝硬化或慢性 B／C 肝背景、AFP 可上升、典型「動脈期亮＋洗出」｜CEA 高要回頭找原發腫瘤"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：轉移與膽管癌的鑑別",
+          "text": "肝內膽管癌影像（FC 表）：**延遲期顯影**、**肝內膽管擴張**（詳見〈膽道、胰臟與肝膿瘍〉）\nHarrison：肝內膽管癌要和**轉移性肝癌**鑑別"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 動態 CT 鑑別表 p.166；考題詳解"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、肝腫瘤、肝癌 考題 p.172-173"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "良性肝腫瘤（§良性肝腫瘤）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：有關肝內血管瘤的影像發現，下列何者為最典型之影像特徵？（A 靜脈注射 CT 呈現早期顯影劑流失（early wash-out） B 靜脈注射 CT 呈現周邊結節狀顯影、中央顯影劑流入（peripheral nodular enhancement with central fill-in） C MRI T1 出現高訊號 D MRI T2 出現低訊號）（FC 113 年）",
+          "text": "**答：(B)。** 向心性增強｜早期洗出是 HCC"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：45 歲林女士健檢超音波意外發現肝右葉約 4 cm 腫瘤，動態 CT 如圖（周邊結節狀顯影、逐漸向中心填滿，見 §良性肝腫瘤 圖）。最可能的診斷？（A 肝細胞癌 B 海綿狀血管瘤 C 多房性包蟲囊腫 D 膽管癌）（FC 111 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：肝臟超音波圖箭號所指處（邊界不清、內部回音不均的低回音病灶，見 §良性肝腫瘤 圖）最不可能的病灶為？（A 肝膿瘍 B 原發性肝細胞癌 C 單純性囊腫 D 轉移癌）（FC 108 年）",
+          "text": "**答：(C)。** 單純囊腫應邊界清楚、均勻、全黑"
+        },
+        {
+          "type": "heading",
+          "text": "流行病學與表現（§肝細胞癌：流行病學、危險因子與表現）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：下列何種情況不是肝細胞癌的高危險群？（A B 型肝炎帶原者 B 慢性 C 型肝炎 C 肝鈣化點 D 酒精性肝硬化）（FC 111 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：有關「地區或國家：該地區最重要的 HCC 病因」組合，何者正確？（A 歐美：慢性 B 肝與 Wilson 病 B 中國：慢性 C 肝與 NASH C 非洲：黃麴毒素 B1 與慢性 B 肝 D 台灣：慢性酒精與原發性膽汁性肝硬化）（FC 108 年）",
+          "text": "**答：(C)。** 歐美以 C 肝、酒精、NASH 為主；亞洲（含台灣）為 B 肝"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：小型肝癌最常見的症狀為何？（A 通常沒有症狀 B 腹水 C 黃疸 D 吐血）（FC 105 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：中年 B 型肝炎病人突然右上腹疼痛、冒冷汗、血壓降低且血紅素降低，最可能的診斷？（A 肝癌破裂 B 胰臟發炎 C 胃食道逆流 D 胃潰瘍）（FC 106 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "heading",
+          "text": "篩檢與診斷（§肝細胞癌的篩檢與診斷）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：HCC 若影像有典型特徵可不必切片即符合診斷。下列何者即使沒有病理切片也符合 HCC 診斷條件？（A 脂肪肝背景，3 公分腫瘤，CT 動脈相增強、靜脈相洗出 B 肝硬化但無 B、C 肝，5 公分腫瘤，CT 動脈相增強、靜脈相洗出 C B 肝帶原無肝硬化，2 公分腫瘤，動脈相及靜脈相都增強 D 慢性 C 肝併肝硬化，4 公分腫瘤，動脈相無增強、靜脈相低密度）（FC 113 年）",
+          "text": "**答：(B)。** 影像診斷只適用**肝硬化**（或高風險）病人＋**> 1 cm**＋**動脈期增強、靜脈期洗出**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：有關 HCC 的臨床評估及診治，何者錯誤？（A 理學應注意 jaundice、ascites、spider angioma、palmar erythema 等慢性肝病徵象 B AFP 是常用腫瘤標記，但並非所有 HCC 患者都會升高 C 超音波、三相 CT、gadolinium MRI 皆可用來協助診斷 D 正子攝影（FDG-PET）已被證實是診斷 HCC 最敏感的影像檢查）（FC 108 年）",
+          "text": "**答：(D)。** 最敏感的是動態 CT／MRI；PET 對早期 HCC 表現差"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：35 歲男子常規檢查發現 B 型肝炎，肝功能正常、AFP 正常。對這病人的建議何者錯誤？（A 每 6 個月門診追蹤 B 每 6 個月抽血驗 AFP C 每 6 個月腹部電腦斷層 D 每 6 個月肝功能檢查）（FC 105 年）",
+          "text": "**答：(C)。** 篩檢用**超音波**，不用 CT"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：有關小型肝癌患者抽血檢驗，何者正確？（A AFP 一定大於 320 ng/mL B 約 1/3 患者 AFP 正常 C AST、ALT 一定正常 D AFP 一定正常）（FC 104 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "分期與治療（§肝細胞癌的分期與治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：有關肝細胞癌，下列敘述何者正確？（A 射頻消融術（RFA）並不是一種根除性治療 B 經動脈化學栓塞（TACE）的療效與開刀差不多 C 肝門靜脈主幹侵犯對開刀或 TACE 效果都不佳，因此建議做肝臟移植 D 治療除了腫瘤外，也要考慮肝臟本身的情況（如肝硬化、病毒性肝炎））（FC 112 年）",
+          "text": "**答：(D)。** RFA 是根治性｜TACE 是姑息｜門靜脈主幹侵犯不能換肝 → 全身治療"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：早期（TNM stage 1 或 BCLC 0 或 A）且沒有肝失代償的 HCC，哪一種治療較好？（A 標靶治療 B 化學治療 C 開刀或無線射頻燒灼術 D 經動脈栓塞化學治療（TACE））（FC 110 年）",
+          "text": "**答：(C)。** 早期以根治為目標"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：50 歲 B 肝男性，肝內一顆 8 公分 HCC 併肝門靜脈主幹腫瘤栓塞及多處肺轉移，沒有肝硬化、沒有失代償、沒有黃疸、沒有腹水。最適合的治療？（A 肝臟移植 B 手術切除 C 無線射頻燒灼術 D 標靶治療（sorafenib））（FC 108 年）",
+          "text": "**答：(D)（當年答案）。** BCLC C → 全身治療｜📌 Harrison 22e 第一線是 **atezolizumab＋bevacizumab** 或 durvalumab＋tremelimumab"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：TNM Stage I、3 cm 的早期 HCC，下列何者不是具治癒性可能（curative-intent）的治療？（A Surgical resection B Radiofrequency ablation C Sorafenib D Orthotopic liver transplantation）（FC 107 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：60 歲黃先生經腹部 CT、血管攝影及肝臟切片確診為肝癌，下列敘述何者錯誤？（A 手術切除對小於 5 公分的單發性肝癌是根除性治療 B 電燒對小於 3 公分的單發性肝癌成效良好 C 對於多發性肝癌，栓塞治療（TAE）只會增加病患死亡率，不宜考慮 D 術後追蹤應包括腹部超音波及 AFP）（FC 106 年）",
+          "text": "**答：(C)。** 多發性（中期）首選就是 TACE，可延長存活"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q17：61 歲慢性 B 肝男性，右葉兩顆 HCC（4 cm、3.5 cm），左葉一顆 1.5 cm，主門靜脈暢通，Child-Pugh A。在臺灣最適當的初步治療？（A 肝腫瘤切除術 B 標靶藥物治療 C 肝移植手術 D 經肝動脈栓塞治療術）（FC 106 年）",
+          "text": "**答：(D)。** 多顆、分散左右葉、最大 > 3 cm → 不符 Milan → BCLC B → TACE"
+        },
+        {
+          "type": "heading",
+          "text": "轉移性肝癌（§轉移性肝癌）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q18：60 歲病人體重明顯減輕、右上腹悶脹、食慾尚可；右鎖骨中線肝臟長度 18 公分、無腹水；超音波肝內多顆大小不一的低回音結節。albumin 3.6、總膽紅素 0.9、AST 35、ALT 32、AFP 8（< 20）、CEA 521（< 5）、CA 19-9 45（< 37）。最可能的診斷？（A 肝細胞癌 B 膽管細胞癌 C 轉移性肝癌 D 肝臟局部結節增生）（FC 112 年）",
+          "text": "**答：(C)。** 多顆＋AFP 正常＋CEA 很高"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "血管瘤",
+              "最常見良性｜**周邊結節狀 → 向心填滿**｜觀察、不追蹤"
+            ],
+            [
+              "FNH／腺瘤",
+              "**FNH：中央疤痕、不治療**｜**腺瘤：年輕女性、避孕藥、出血、癌化 → 停藥、> 5 cm 切除**"
+            ],
+            [
+              "囊腫",
+              "**邊界清楚、全黑**｜不規則有回音 → 膿瘍、HCC、轉移"
+            ],
+            [
+              "HCC 危險",
+              "**肝硬化（1/3 一生）**｜B、C 肝硬化每年 3–8%｜**台灣、亞洲 B 肝**；**非洲黃麴毒素＋B 肝**；**歐美 C 肝、酒精、MASH**｜鈣化點不是"
+            ],
+            [
+              "表現",
+              "**小型肝癌無症狀**｜有症狀多晚期｜**B 肝病人突發右上腹痛＋休克＝破裂**"
+            ],
+            [
+              "篩檢",
+              "**每 6 個月超音波 ± AFP**｜**不用 CT**｜B 肝亞洲 > 40 歲｜**約 1/3 AFP 正常**"
+            ],
+            [
+              "診斷",
+              "**< 1 cm 3–6 個月追**｜**> 1 cm → 四相 CT／MRI**｜**肝硬化＋動脈期亮＋洗出 → 不必切片**｜非肝硬化要切片｜**PET 不敏感**"
+            ],
+            [
+              "BCLC",
+              "**0／A：切除、換肝（Milan）、電燒＝根治**｜**B：TACE（姑息）**｜**C：全身治療**｜**D：支持**｜治療看腫瘤＋肝功能＋ECOG"
+            ],
+            [
+              "全身治療",
+              "📌 **第一線 atezolizumab＋bevacizumab**（或 durvalumab＋tremelimumab）｜不能免疫 → **sorafenib／lenvatinib**｜二線 regorafenib、cabozantinib、ramucirumab（AFP ≥ 400）｜**化療、放療無存活好處**"
+            ],
+            [
+              "轉移",
+              "**多顆＋AFP 正常＋CEA 高**"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

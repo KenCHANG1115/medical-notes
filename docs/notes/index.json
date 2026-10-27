@@ -144,6 +144,10 @@
         {
           "id": "cirrhosis-ascites-he-transplant",
           "name": "Cirrhosis (二)：腹水、SBP、肝腎症候群、肝性腦病變與肝移植"
+        },
+        {
+          "id": "liver-tumors-hcc",
+          "name": "Liver Tumors & HCC (肝腫瘤與肝癌)"
         }
       ]
     },

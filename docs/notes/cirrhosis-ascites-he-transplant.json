@@ -22,6 +22,10 @@
     {
       "id": "hepatitis-c-alcohol-masld-aih",
       "name": "Viral Hepatitis (三)：C 型肝炎、藥物性、酒精性、脂肪肝與自體免疫性肝炎"
+    },
+    {
+      "id": "liver-tumors-hcc",
+      "name": "Liver Tumors & HCC (肝腫瘤與肝癌)"
     }
   ],
   "sections": [

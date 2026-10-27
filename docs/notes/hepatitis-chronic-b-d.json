@@ -32,6 +32,10 @@
     {
       "id": "cirrhosis-portal-htn-varices",
       "name": "Cirrhosis (一)：總論、門脈高壓與靜脈曲張"
+    },
+    {
+      "id": "liver-tumors-hcc",
+      "name": "Liver Tumors & HCC (肝腫瘤與肝癌)"
     }
   ],
   "sections": [
