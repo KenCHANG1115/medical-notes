@@ -22,6 +22,10 @@
     {
       "id": "hepatitis-chronic-b-d",
       "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"
+    },
+    {
+      "id": "biliary-liver-abscess",
+      "name": "Biliary Disease & Liver Abscess (膽道疾病與肝膿瘍)"
     }
   ],
   "sections": [
