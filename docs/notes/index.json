@@ -152,6 +152,10 @@
         {
           "id": "biliary-liver-abscess",
           "name": "Biliary Disease & Liver Abscess (膽道疾病與肝膿瘍)"
+        },
+        {
+          "id": "pancreas-diseases",
+          "name": "Pancreatic Disease (胰臟疾病：急慢性胰臟炎與胰臟癌)"
         }
       ]
     },

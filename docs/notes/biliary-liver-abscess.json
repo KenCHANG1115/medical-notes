@@ -22,6 +22,10 @@
     {
       "id": "liver-tumors-hcc",
       "name": "Liver Tumors & HCC (肝腫瘤與肝癌)"
+    },
+    {
+      "id": "pancreas-diseases",
+      "name": "Pancreatic Disease (胰臟疾病：急慢性胰臟炎與胰臟癌)"
     }
   ],
   "sections": [
