@@ -164,6 +164,10 @@
         {
           "id": "hpylori-gastric-diseases",
           "name": "H. pylori & Gastric Diseases (H. pylori 與胃疾病)"
+        },
+        {
+          "id": "gi-bleeding",
+          "name": "GI Bleeding (腸胃道出血)"
         }
       ]
     },

@@ -22,6 +22,10 @@
     {
       "id": "anemia-megaloblastic",
       "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"
+    },
+    {
+      "id": "gi-bleeding",
+      "name": "GI Bleeding (腸胃道出血)"
     }
   ],
   "sections": [
