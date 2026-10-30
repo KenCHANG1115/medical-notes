@@ -156,6 +156,14 @@
         {
           "id": "pancreas-diseases",
           "name": "Pancreatic Disease (胰臟疾病：急慢性胰臟炎與胰臟癌)"
+        },
+        {
+          "id": "esophagus-peptic-ulcer",
+          "name": "Esophagus & Peptic Ulcer (食道疾病與消化性潰瘍)"
+        },
+        {
+          "id": "hpylori-gastric-diseases",
+          "name": "H. pylori & Gastric Diseases (H. pylori 與胃疾病)"
         }
       ]
     },

@@ -1,0 +1,472 @@
+{
+  "id": "esophagus-peptic-ulcer",
+  "title": "Esophagus & Peptic Ulcer (食道疾病與消化性潰瘍)",
+  "title_en": "Dysphagia, Esophageal Disorders, GERD, Gastric Acid Physiology, Peptic Ulcer Disease, and Zollinger-Ellison Syndrome",
+  "title_zh": "食道疾病與消化性潰瘍：吞嚥困難、achalasia、食道癌、胃食道逆流與 Barrett、胃酸生理、制酸藥物、消化性潰瘍與 NSAID、Zollinger-Ellison 症候群",
+  "specialty": "肝膽腸胃內科",
+  "sources": [
+    "Harrison's 22e - Ch.334 Diseases of the Esophagus (p.2503-2514)；Ch.335 Peptic Ulcer Disease and Related Disorders (p.2514-2536)；Ch.85 Upper GI Tract Cancers：Esophageal Cancer (p.641-644)",
+    "First Choice 醫學(三) 第2冊 - 甲、吞嚥困難 (p.11-14；考題 p.15，2 題)；戊、胃食道逆流 (p.45；考題 p.46，3 題)；己、胃疾病—胃潰瘍 (p.49-53；考題 p.54-60，7 題)；乙、腹痛 (考題 p.21，1 題)"
+  ],
+  "generated": "2026-10-31",
+  "updated": "2026-10-31",
+  "related": [
+    {
+      "id": "hpylori-gastric-diseases",
+      "name": "H. pylori & Gastric Diseases (H. pylori 與胃疾病)"
+    },
+    {
+      "id": "pancreas-diseases",
+      "name": "Pancreatic Disease (胰臟疾病：急慢性胰臟炎與胰臟癌)"
+    },
+    {
+      "id": "anemia-megaloblastic",
+      "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：怎麼讀這篇",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**這篇的範圍**：吞嚥困難與食道疾病、胃食道逆流與 Barrett、胃酸生理、制酸藥物、消化性潰瘍與 NSAID、Zollinger-Ellison｜H. pylori、胃炎、胃癌、胃切除後併發症 →〈H. pylori 與胃疾病〉｜潰瘍出血的處置 → 之後的〈腸胃道出血〉｜**本篇只用 Harrison 22e 與 FC**，沒有另加外部指引"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**兩條主線**：**① 吞嚥困難先問吃什麼卡**——只有固體 → 管腔狹窄（機械性）｜固體液體都卡 → 蠕動問題｜**② 酸相關疾病都回到壁細胞**——三個刺激（**ACh、gastrin、histamine**）匯集到一個幫浦（**H⁺/K⁺-ATPase**），藥物就是一個一個擋"
+        }
+      ]
+    },
+    {
+      "title": "吞嚥困難與食道疾病　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **只有固體卡 → 機械性阻塞**（狹窄、環、蹼、腫瘤）｜**固體液體都卡 → 蠕動異常**（achalasia 等）\n　- FC 105 年：**固體、時好時壞、一年、體重沒減輕 → 機械性（如 Schatzki 環），不是 achalasia；鋇劑攝影很有幫助**，治療不是手術優先\n- 問診：**間歇或持續、進行或穩定**｜**進行性固體吞嚥困難＋體重減輕 → 食道癌**\n　- 病人指的位置不準：約 30% 遠端阻塞感覺在頸部\n- **Schatzki 環（下食道環 < 13 mm）**：間歇性固體嗆食（「牛排館症候群」）→ 擴張\n- **Plummer-Vinson**：**上段食道蹼＋缺鐵性貧血**（中年女性）；鱗狀癌風險\n- **Zenker 憩室**：Killian 三角、環咽肌狹窄 → **口臭、食物逆流、吸入**\n- **Achalasia**：肌間神經叢節細胞退化 → **下食道括約肌（LES）不放鬆＋無蠕動**\n　- 表現：**固體液體都卡**、未消化食物逆流、胸痛、體重減輕、吸入性肺炎\n　- 診斷：**鋇劑：鳥嘴狀＋食道擴張＋氣液面**｜**食道壓力檢查最敏感**｜**一定要胃鏡排除腫瘤（偽 achalasia，約 5%：老年、< 1 年、體重減輕）**\n　- 治療：**氣球擴張、Heller 肌切開、POEM**（持久）｜肉毒桿菌、硝酸鹽、CCB 只是過渡\n　- 長期：**鱗狀細胞癌風險 17 倍**\n- **遠端食道痙攣**：間歇性吞嚥困難＋胸痛；**螺旋狀食道（corkscrew）**\n- **硬皮症型食道**：**LES 低壓＋無蠕動** → 嚴重逆流（和 achalasia 相反）\n- **嗜酸性球性食道炎（EoE）**：**年輕男性、過敏體質、食物卡住**｜胃鏡**多環、縱向溝、白色滲出**｜切片 **≥ 15 顆嗜酸性球／HPF**｜PPI、排除飲食、吞服局部類固醇\n- **食道癌**：**鱗狀細胞癌（上中段；菸酒、熱飲、檳榔、achalasia、Plummer-Vinson、腐蝕傷）**｜**腺癌（遠端；逆流、Barrett、肥胖）**\n- **鋇劑影像**（FC 112 年）：**主動脈弓、左主支氣管都在食道左側形成壓跡**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Achalasia",
+            "硬皮症型食道",
+            "遠端食道痙攣"
+          ],
+          "rows": [
+            [
+              "LES",
+              "**高張、不放鬆**",
+              "**低壓**",
+              "放鬆正常"
+            ],
+            [
+              "蠕動",
+              "**無**",
+              "**無**",
+              "提早收縮"
+            ],
+            [
+              "症狀",
+              "固體液體都卡、逆流",
+              "**嚴重逆流**、輕度吞嚥困難",
+              "間歇吞嚥困難、胸痛"
+            ],
+            [
+              "影像",
+              "**鳥嘴**、擴張、氣液面",
+              "擴張、逆流",
+              "**螺旋狀**"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h334-5.png",
+          "label": "Harrison's 22e Fig. 334-5",
+          "caption": "Achalasia 的鋇劑攝影",
+          "explain": "**【怎麼看】**食道擴張、鋇劑排空慢、胃食道交界處**逐漸變尖（鳥嘴）**，有**氣液面**；左圖是晚期的**乙狀結腸樣變形**。\n**【考點】**鳥嘴＋擴張＝achalasia，但一定要做胃鏡排除胃賁門癌。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：食道其他細節（Harrison）",
+          "text": "FC 整理：只有固體 → > 50 歲、體重減輕想食道癌；長期火燒心想消化性狹窄；腐蝕傷想狹窄｜兩者都卡 → 間歇想痙攣；呼吸道症狀想 achalasia；長期火燒心想硬皮症\n**吞嚥痛（odynophagia）**：藥物性或感染性食道炎 > 逆流｜球狀感（globus）：與吞嚥無關、吞嚥可緩解\n**胃鏡 vs 鋇劑**：黏膜病灶胃鏡敏感；**狹窄、下咽與環咽肌問題鋇劑較好**\n**裂孔疝**：第 1 型滑動型約 95%（易逆流）｜第 2–4 型食道旁型會**扭轉、絞扼** → 大的有症狀要手術\n**Schatzki 環**以外：頸部食道蹼約 10% 無症狀｜Epiphrenic 憩室常合併 achalasia\nAchalasia 機轉：可能與 HSV-1 潛伏感染引發的自體免疫有關｜Chagas 病、鴉片類藥物也會造成類似表現\n氣球擴張穿孔 0.5–5%｜POEM 與 Heller 療效相近，術後逆流常見\n食道癌：進行性固體吞嚥困難、體重減輕、**聲音沙啞（左喉返神經）**、**氣管食道瘻咳嗽**｜淋巴豐富，早期就轉移｜Tis／T1a < 2 cm 可內視鏡切除｜Barrett 轉癌：Ch.334 寫每年 0.1–0.3%，Ch.85 寫 0.4–0.5%\n藥物性食道炎：單一深潰瘍，多在主動脈弓、隆突附近｜念珠菌：白斑\nEoE 全身性類固醇一般不建議；過敏測試找不到食物，靠**經驗性排除再加回**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.334 p.2503-2509、2511-2512（Fig. 334-5）；Ch.85 p.641-644"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "甲、吞嚥困難 p.11-14"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "甲、吞嚥困難 考題 p.15"
+        }
+      ]
+    },
+    {
+      "title": "胃食道逆流與 Barrett 食道　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 機轉：**LES 暫時性放鬆過多**（FC）、裂孔疝、胃排空慢｜加重：**腹部肥胖、懷孕**\n- 典型症狀：**火燒心（胸骨後灼熱）、酸逆流**，**平躺加重**；可有咳嗽、喉炎、氣喘（FC 110 年）\n　- **胸痛一定先想到心臟**\n- 診斷：**典型症狀 → 直接試 PPI**｜**胃鏡只有約 1/3 看到糜爛**｜**警訊（吞嚥困難、體重減輕）或治療無效 → 胃鏡**｜**24 小時 pH 監測是定量酸逆流最佳方法**（pH < 4 占 > 6% 時間）\n- **會降低 LES 壓力的藥：CCB、theophylline**（FC 105 年）、硝酸鹽類、anticholinergic、β 促效劑、α 阻斷劑、diazepam、鴉片類、sildenafil、dopamine｜statin、抗組織胺不是\n- 會降低 LES 的食物：**油脂、巧克力、酒精、薄荷、咖啡因、菸**\n- 治療：**生活型態**：**減重（最有用）**、床頭墊高、睡前不吃、少油、少酒咖啡｜**藥效：P-CAB > PPI > H2 阻斷劑**｜**腹腔鏡胃底摺疊術**（與 PPI 相近，但可能吞嚥困難、脹氣）\n- FC 104 年：**健檢 LA grade A、完全沒症狀、BMI 33 → 先建議減重與飲食調整**，不用立刻 PPI、不用每年胃鏡\n- **Barrett 食道**：**遠端食道鱗狀上皮被腸化生取代**（鮭魚色黏膜）→ **腺癌**\n　- 最高風險：**肥胖白人男性、50 多歲**\n　- **有高度異生 → 內視鏡黏膜燒灼**（已取代食道切除）\n- 併發症：糜爛性食道炎、出血、**消化性狹窄**、Barrett、腺癌\n- **H. pylori 感染與 GERD 沒有致病關係**（見〈H. pylori 與胃疾病〉）"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h334-9.png",
+          "label": "Harrison's 22e Fig. 334-9",
+          "caption": "GERD 的內視鏡光譜",
+          "explain": "**【怎麼看】****A 糜爛性食道炎**：胃食道交界處的糜爛｜**B 消化性狹窄**｜**C Barrett 食道**：鮭魚色的柱狀上皮往上延伸｜**D 腺癌**：長在 Barrett 上的隆起腫瘤。\n**【考點】**逆流的光譜：**糜爛 → 狹窄 → Barrett → 腺癌**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **P-CAB 上市**（Harrison 22e）：**vonoprazan**（鉀離子競爭型酸阻斷劑）已獲 FDA 核准；癒合食道炎 **P-CAB > PPI > H2 阻斷劑**，差距在嚴重食道炎最明顯｜FC 講義的藥物仍只寫 antacid、H2 阻斷劑、PPI、促動力藥"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：GERD 細節（Harrison、FC）",
+          "text": "FC 表：**增加 LES 壓力**：gastrin、motilin、substance P｜膽鹼促效劑、α 促效劑、β 阻斷劑｜metoclopramide、domperidone、baclofen、bethanechol｜蛋白質\n**減少 LES 壓力**：secretin、CCK、serotonin、glucagon、VIP、somatostatin｜Demerol、morphine、barbiturate\nFC：國內要胃鏡確診才能開 PPI｜Bernstein 試驗（0.1% HCl）輔助｜健保 LA grade A 可用 PPI 4 個月，但無症狀者先改生活型態\n胃酸過多通常不是主因（ZES 例外，約 50% 嚴重食道炎）｜膽汁也會傷食道\n鑑別：感染或藥物性食道炎、EoE、消化性潰瘍、膽絞痛、**冠心病**\nBarrett 篩檢與追蹤的效益仍有爭議｜高劑量 PPI＋aspirin 試驗：主要是改善整體存活"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.334 p.2505、2509-2511（Fig. 334-9）；Ch.335 p.2526（P-CAB）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "戊、食道疾病—胃食道逆流 p.45"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "戊、食道疾病—胃食道逆流 考題 p.46"
+        }
+      ]
+    },
+    {
+      "title": "胃酸生理　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **壁細胞（parietal cell，胃體）**：分泌 **HCl、內在因子**｜**主細胞（chief cell）**：**胃蛋白酶原 → 酸活化成胃蛋白酶**｜**G 細胞（胃竇）**：**gastrin**｜**D 細胞**：**somatostatin**｜**ECL 細胞**：**histamine**\n- **刺激胃酸三路**：**ACh（迷走神經，M3）、gastrin（CCK2）、histamine（H2）**（FC 111 年）\n　- **gastrin 主要靠刺激 ECL 釋放 histamine**\n- **抑制：somatostatin**（FC 107 年）、前列腺素 PGE\n- **最後共同路徑：H⁺/K⁺-ATPase（質子幫浦）**，位在壁細胞尖端\n- **壁細胞分泌胃酸很耗能 → 粒線體非常多**（FC 111 年：「粒線體很少」→ 錯）；**休息與受刺激時尖端膜型態會改變**（管泡融合成分泌小管）\n- **黏膜防禦**：黏液、碳酸氫鹽、血流、**前列腺素**——NSAID 就是打掉這一層"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h335-5.png",
+          "label": "Harrison's 22e Fig. 335-5",
+          "caption": "胃酸分泌的細胞層次調控",
+          "explain": "**【怎麼看】**右半邊**胃底**：**壁細胞**接受 **ACh（+）、gastrin（+）、ECL 釋放的 histamine（H2，+）**｜**D 細胞的 somatostatin（SST）抑制壁細胞**。左半邊**胃竇**：**G 細胞**受迷走神經刺激分泌 gastrin，gastrin 經血液到胃底，粗箭頭是**刺激 ECL**｜**酸增加 → 活化 D 細胞 → SST 抑制 G 細胞**（負回饋）。\n**【考點】****慢性胃竇 H. pylori 抑制 D 細胞 → SST 少 → gastrin 多 → 胃酸多 → 十二指腸潰瘍**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：胃生理細節（Harrison、FC）",
+          "text": "FC：蛋白質、胃壁撐開、迷走神經刺激 G 細胞；高血鈣、腎上腺素、酒精也會｜內在因子與 B12 結合，在迴腸吸收 → 胃切除或自體免疫性胃炎 → 巨芽細胞貧血\nAtropine 擋 M3｜cimetidine 擋 H2｜omeprazole 擋幫浦｜misoprostol 是 PGE 類似物\n胃蛋白酶 pH < 2 最活躍；pH ≥ 4 明顯下降、pH ≥ 7 不可逆失活\n胃的腺體：胃底、胃體為泌酸腺；胃竇含 G 細胞"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.335 p.2514-2518（Fig. 335-5）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 A 胃生理 p.49-50"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 考題 p.55、58"
+        }
+      ]
+    },
+    {
+      "title": "制酸與保護黏膜的藥物　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Antacid**：直接中和胃酸（FC 113 年）｜現在主要緩解症狀；**不必和 H2 阻斷劑併用**（FC 106 年）\n　- **鋁 → 便秘、低磷**｜**鎂 → 腹瀉**（腎衰竭禁用）｜碳酸鈣 → **乳鹼症候群**\n　- **會妨礙 tetracycline 吸收**（FC 106 年）\n- **H2 阻斷劑**：擋**壁細胞**上的 H2 受體——**不是主細胞**（FC 113 年）｜會耐受\n　- **cimetidine：男性女乳、陽痿**（抗雄性素）、**抑制 CYP450**（warfarin、phenytoin、theophylline）｜famotidine 不抑制\n- **PPI**：**共價、不可逆**抑制 H⁺/K⁺-ATPase（FC 113 年）｜**飯前吃**（幫浦要活化）｜最強的制酸藥\n　- **停藥反彈性胃酸過多**（FC 113 年）→ 1–2 週慢慢減量，可改 H2 阻斷劑\n　- **早期 PPI（omeprazole、lansoprazole）抑制 CYP450 → warfarin、theophylline、phenytoin、diazepam 要小心**（FC 104 年）｜pantoprazole、rabeprazole、esomeprazole 影響小\n　- 和 **clopidogrel** 競爭 CYP2C19：臨床影響未定，**該用還是要用**，可間隔 12 小時\n- **長期 PPI 可能的風險**（多為觀察性）：**C. difficile、社區型肺炎、低血鎂、B12 與鐵缺乏、骨折**（FC 106 年）、顯微性大腸炎、腎臟病｜**老人要定期檢討需不需要繼續**\n- **Sucralfate**：蓋在潰瘍上；便秘；腎衰竭避免（鋁）\n- **Misoprostol**（PGE 類似物）：**腹瀉、子宮收縮 → 孕婦禁用**\n- **Bismuth**：**黑便、舌頭變黑**；用於 H. pylori"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：藥物細節（Harrison）",
+          "text": "PPI 半衰期約 18 小時；停藥 2–5 天胃酸恢復；連續給藥 1 週抑制 > 95%｜輕中度高胃泌素血症，人類未見胃類癌\n反彈機轉：gastrin 使 ECL 增生；H. pylori 陽性者較少出現，可持續 2 個月\n影響吸收：ketoconazole、ampicillin、鐵、digoxin\n**H2 阻斷劑**：潰瘍 4–6 週合併抗生素｜少見血球低下｜夜間 cimetidine 800 mg、famotidine 40 mg\nHarrison 寫最多 70% 長期 PPI 處方可能沒有必要｜長期使用者可驗血球、B12、鎂（非證據型建議）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.335 p.2523-2526（Table 335-3、Fig. 335-12）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 A 胃生理 3. 抑制藥物 p.50"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 考題 p.54、59-60"
+        }
+      ]
+    },
+    {
+      "title": "消化性潰瘍、NSAID 與 Zollinger-Ellison　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **兩大原因：H. pylori、NSAID**；抽菸、COPD、慢性腎病、年老也增加風險｜**約 2/3 沒有腹痛**，**老人、NSAID 使用者常以併發症表現**\n- **十二指腸潰瘍（DU）**：> 95% 在球部｜**飯後 90 分鐘–3 小時痛、吃東西或制酸劑緩解、半夜痛醒**｜**幾乎不會是惡性**\n- **胃潰瘍（GU）**：年紀較大（高峰 60 多歲）｜**吃東西可能加重**、噁心、體重減輕｜**可能是癌 → 要切片，8–12 週胃鏡確認癒合**\n- 癒合影像：DU 反覆結疤 → **十二指腸球部三葉草變形（cloverleaf）**（FC 111 年）\n- 併發症：**① 出血（最常見）② 穿孔（突然劇痛、板狀腹、free air）③ 胃出口阻塞（最少，1–2%）**｜穿透：**DU 往後穿胰臟（痛放射到背）**、GU 穿左肝葉\n- **胃出口阻塞**：早飽、**嘔吐未消化食物**、體重減輕、**振水音**｜X 光：**胃內大氣液面、小腸大腸氣少**（FC 103 年）\n- **NSAID 潰瘍**：抑制 COX-1 → 前列腺素減少、黏膜防禦下降；可無症狀直接出血\n　- 服藥後多發潰瘍＋黑便：**NSAID（含 celecoxib、meloxicam）、clopidogrel 都可能**；**acetaminophen 不傷胃黏膜 → 最不可能**（FC 103 年）\n　- 高危險：年老、潰瘍史、併用類固醇或抗凝血藥、高劑量\n　- 處理：**停藥＋PPI**；**不能停 → 只有 PPI 能在繼續用藥下癒合**｜**預防：PPI 或 misoprostol，或 COX-2 抑制劑**\n　- **Aspirin＋COX-2 抑制劑 → 腸胃保護消失，仍需 PPI**\n- **風險對照**（FC）：**腸胃：aspirin、ketorolac、indomethacin 高；ibuprofen 低**｜**心血管：coxib、diclofenac 高；naproxen 低**\n- **Zollinger-Ellison（胃泌素瘤）**：**多發、位置特殊（十二指腸第二段以後）、難治潰瘍＋腹瀉（PPI 會改善）＋嚴重食道炎**\n　- **約 25% 合併 MEN1**（副甲狀腺、胰臟、腦下垂體）→ 驗血鈣\n　- 多在**胃泌素瘤三角**，**十二指腸**最常見、> 60% 惡性\n　- 診斷：**空腹 gastrin 上升（> 10 倍高度懷疑）＋胃酸高（pH < 3）**；**PPI 要先停至少 7 天**，因為 PPI 本身會讓 gastrin 上升"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "十二指腸潰瘍",
+            "胃潰瘍"
+          ],
+          "rows": [
+            [
+              "原因",
+              "H. pylori（FC：約 90%）",
+              "H. pylori（FC：約 70%）或 NSAID"
+            ],
+            [
+              "胃酸（FC）",
+              "**增加**（胃竇炎）",
+              "**減少或正常**（胃體炎、黏膜保護差）"
+            ],
+            [
+              "疼痛",
+              "**飯後 90 分–3 小時、進食緩解、半夜痛醒**",
+              "**進食可能加重**"
+            ],
+            [
+              "惡性",
+              "**極罕見**",
+              "**要切片排除**"
+            ],
+            [
+              "追蹤胃鏡",
+              "症狀持續才做",
+              "**8–12 週確認癒合**"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/fc-cloverleaf.png",
+          "label": "First Choice 醫學(三) 第2冊 p.54（111 年詳解圖）",
+          "caption": "十二指腸球部三葉草變形",
+          "explain": "**【怎麼看】**鋇劑攝影：十二指腸球部（圖上方）因潰瘍反覆結疤，變成**三葉草狀的多腔結構**。\n**【考點】**cloverleaf deformity＝慢性十二指腸潰瘍。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/fc-nsaid-ulcer.png",
+          "label": "First Choice 醫學(三) 第2冊 p.60（103 年考題圖）",
+          "caption": "胃鏡：多發性潰瘍",
+          "explain": "**【怎麼看】**胃黏膜上多處白色潰瘍。\n**【考點】**剛吃某藥後黑便、多發潰瘍 → 想 **NSAID、抗血小板藥**；acetaminophen 最不可能。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/fc-goo-xray.png",
+          "label": "First Choice 醫學(三) 第2冊 p.21（103 年考題圖）",
+          "caption": "腹部 X 光：胃出口阻塞",
+          "explain": "**【怎麼看】**左上腹**胃內明顯氣液面**，小腸與大腸氣體很少。\n**【考點】**胃出口阻塞；腸道腫瘤或糞便阻塞多半會看到腸道擴張，穿孔要看到 free air。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：潰瘍與 ZES 細節（Harrison）",
+          "text": "潰瘍定義：黏膜破損 > 5 mm、深達黏膜下層｜SSRI、胃繞道也增加風險\n其他原因：CMV、HSV、bisphosphonate、clopidogrel、KCl、mycophenolate、化療、Crohn 病、缺血、放射線、肥大細胞症\n理學：上腹壓痛最常見｜心跳快、姿勢性低血壓 → 脫水或出血\n**出血**：30 天死亡 2.5–10%，多死於非出血原因｜> 50% 沒有前兆\n**穿孔**：6–7%；30 天死亡 > 20%｜老人與免疫低下者表現不典型\n阻塞：水腫可隨癒合改善；疤痕要氣球擴張或手術\n**難治潰瘍**：GU 12 週、DU 8 週不癒合 → 查遵從性、H. pylori、偷吃 NSAID、抽菸、癌、ZES、高胃酸；高劑量 PPI 8 週 > 90% 癒合\n功能性消化不良：最常見的上腹不適；< 60 歲無警訊 → **H. pylori 檢查治療**\n**NSAID 用藥指引（Table 335-7）**：無心血管、低腸胃風險 → 傳統 NSAID｜無心血管、高腸胃風險 → coxib 或 NSAID＋PPI／misoprostol｜有心血管風險 → 優先非 NSAID，要用則 naproxen＋胃保護\n長期 NSAID 前考慮驗 H. pylori｜COX-2 抑制劑＋warfarin 出血率與傳統 NSAID 相近\nZES：發生率 0.5–3／百萬｜可切除者最多 40% 治癒｜其他高 gastrin 原因：**萎縮性胃炎（低胃酸）、PPI**、H. pylori、胃出口阻塞、腎衰竭｜Table 335-8：多發潰瘍、合併腹瀉的 GERD、高血鈣等要驗 gastrin"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.335 p.2518-2523、2530-2531、2534-2535（Table 335-1、335-7、335-8）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 B 消化性潰瘍、C NSAID p.51-53"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 考題 p.54、60"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "乙、腹痛 考題 p.21"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "吞嚥困難（§吞嚥困難與食道疾病）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：有關上腸胃道鋇劑檢查，何者最不恰當？（A 主動脈弓會在食道右側形成壓跡 B 左主支氣管會在食道左側形成壓跡 C 胃食道交界可在食道穿過橫膈膜的位置辨認 D 吞嚥會引發食道蠕動波，推動食糜往下排空）（FC 112 年）",
+          "text": "**答：(A)。** 主動脈弓在左側"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：病人吞嚥困難已一年，常伴隨中段胸骨後有東西卡住的感覺；僅限固態食物，喝流質沒問題，但並非每餐都出現，時好時壞；體重未減輕，身體診察正常。何者正確？（A 很可能是 achalasia B 致病機轉可能在於食道蠕動異常 C 鋇劑攝影對診斷很有效益 D 此等病人雖非食道癌，治療仍以手術為主）（FC 105 年）",
+          "text": "**答：(C)。** 只有固體 → 優先想機械性狹窄；鋇劑可分辨狹窄或蠕動異常，也可做胃鏡"
+        },
+        {
+          "type": "heading",
+          "text": "胃食道逆流（§胃食道逆流與 Barrett 食道）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：40 歲女性胸口燒灼感，正中胸骨下微痛，平躺睡覺時不適加劇，甚至咳嗽。最可能的診斷？（A 下壁心肌梗塞 B 慢性支氣管炎 C 胃食道逆流疾病 D 鬱血性心衰竭）（FC 110 年）",
+          "text": "**答：(C)。** 燒灼感是特色"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：哪些藥物可能加重逆流性食道炎？① 降血脂藥（statin） ② 高血壓用藥（CCB） ③ 氣喘用藥（theophylline） ④ 抗組織胺（A ①②③ B 僅②③ C ③④ D ①②④）（FC 105 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：50 歲民眾健檢，BMI 33，胃鏡發現糜爛性食道炎 LA grade A；無火燒心、無胃酸逆流、吞嚥正常。何者最正確？（A 應立即服用 PPI 至少 4 個月 B 未來應每年胃鏡一次 C 應進一步檢查食道 pH 值 D 應建議減重，並少喝酒、咖啡及茶，少吃油脂及酸性食物）（FC 104 年）",
+          "text": "**答：(D)。** 無症狀 → 先改生活型態"
+        },
+        {
+          "type": "heading",
+          "text": "胃酸生理（§胃酸生理）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：關於胃酸的分泌，何者錯誤？（A 壁細胞膜上分泌胃酸的主要幫浦為 H⁺/K⁺-ATPase B 壁細胞靠離子濃度差異分泌，因此粒線體數目很少 C 壁細胞分泌受 gastrin、乙醯膽鹼、組織胺受體調控 D 壁細胞尖端膜型態在休息或受刺激時會改變）（FC 111 年）",
+          "text": "**答：(B)。** 高度耗能，粒線體很多"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：下列何種因子的分泌可減少胃酸產生？（A acetylcholine B somatostatin C gastrin D histamine）（FC 107 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "藥物（§制酸與保護黏膜的藥物）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：病人因胃潰瘍需要藥物治療，何者錯誤？（A 制酸劑透過酸鹼中和提高胃部酸鹼值 B H2 阻斷劑透過抑制 chief cell 上的 histamine receptor 阻斷胃酸 C PPI 以共價鍵不可逆結合 H⁺/K⁺-ATPase D 病人使用 PPI 停藥後可能產生反彈性胃酸過度分泌）（FC 113 年）",
+          "text": "**答：(B)。** 是 parietal cell"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：有關消化性潰瘍治療藥物，何者錯誤？（A 制酸劑宜與 H2 阻斷劑併用以增加療效 B 長期服用 H2 阻斷劑可能有陽痿、男性女乳 C 長期服用 PPI 可能增加骨質疏鬆與髖骨骨折 D 制酸劑會抑制 tetracycline 吸收）（FC 106 年）",
+          "text": "**答：(A)。** 沒有併用的需要"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：PPI 可能抑制肝臟 cytochrome P450，使下列何種藥物代謝受影響？（A cholestyramine B captopril C penicillin D warfarin）（FC 104 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "潰瘍（§消化性潰瘍、NSAID 與 Zollinger-Ellison）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：十二指腸潰瘍在癒合過程中會造成十二指腸球部變形，此變形符合？（A 幸運草（三葉草）變形 B 雙壁徵象 C 足球徵象 D 倒 V 徵象）（FC 111 年）",
+          "text": "**答：(A)。** 潰瘍疤痕造成球部多腔結構"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：70 歲女性有消化性潰瘍病史，最近剛服用某藥後解黑便三天，胃鏡如圖（多發潰瘍，見 §消化性潰瘍 圖）。最不可能服用下列何項藥物？（A acetaminophen B clopidogrel C celecoxib D meloxicam）（FC 103 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：75 歲男性食慾變差、腹脹、上腹痛，有反胃、嘔吐；腹部 X 光如圖（胃內大氣液面，見 §消化性潰瘍 圖）。最適當的診斷？（A 消化道穿孔 B 胃出口阻塞 C 大腸腫瘤 D 糞便阻塞）（FC 103 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "吞嚥困難",
+              "**固體 → 機械性**｜**固體液體 → 蠕動**｜進行性＋體重減輕 → 癌｜Schatzki 環間歇｜Plummer-Vinson：蹼＋缺鐵｜Zenker：口臭、逆流"
+            ],
+            [
+              "Achalasia",
+              "**LES 不放鬆＋無蠕動**｜**鳥嘴**｜壓力檢查最敏感｜**胃鏡排除腫瘤**｜氣球、Heller、POEM｜SCC 風險"
+            ],
+            [
+              "食道鑑別",
+              "硬皮症：LES 低壓、嚴重逆流｜痙攣：螺旋狀｜EoE：環、≥ 15 嗜酸性球"
+            ],
+            [
+              "食道癌",
+              "**SCC：上中段、菸酒、熱飲、檳榔**｜**腺癌：遠端、GERD、Barrett、肥胖**"
+            ],
+            [
+              "GERD",
+              "火燒心、平躺加重｜試 PPI｜**pH 監測最佳**｜**CCB、theophylline 加重**｜**減重**｜P-CAB > PPI > H2"
+            ],
+            [
+              "Barrett",
+              "**腸化生、鮭魚色**｜高度異生 → 內視鏡燒灼"
+            ],
+            [
+              "胃酸",
+              "**ACh、gastrin、histamine → 幫浦**｜**somatostatin 抑制**｜壁細胞粒線體多"
+            ],
+            [
+              "藥物",
+              "H2：**壁細胞**｜cimetidine：**女乳、CYP450**｜PPI：**不可逆、飯前、反彈、warfarin**｜長期：C. diff、肺炎、低鎂、B12、骨折｜misoprostol 孕婦禁用｜antacid 擋 tetracycline"
+            ],
+            [
+              "DU vs GU",
+              "**DU：進食緩解、半夜痛、cloverleaf、不惡性**｜**GU：進食加重、要切片、8–12 週追蹤**"
+            ],
+            [
+              "併發症",
+              "**出血 > 穿孔 > 阻塞**｜阻塞：振水音、大氣液面｜DU 穿胰臟"
+            ],
+            [
+              "NSAID",
+              "停藥＋PPI｜預防 PPI、misoprostol、coxib｜aspirin＋coxib 仍要 PPI｜心血管 naproxen 最低｜**acetaminophen 不傷胃**"
+            ],
+            [
+              "ZES",
+              "**多發、怪位置、難治潰瘍＋腹瀉**｜**MEN1 25%**｜空腹 gastrin（**PPI 停 7 天**）"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

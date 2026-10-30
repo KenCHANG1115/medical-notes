@@ -1,0 +1,594 @@
+{
+  "id": "hpylori-gastric-diseases",
+  "title": "H. pylori & Gastric Diseases (H. pylori 與胃疾病)",
+  "title_en": "Helicobacter pylori, Chronic Gastritis, Gastric Cancer and Lymphoma, Postgastrectomy Syndromes, Gastric Polyps, and GIST",
+  "title_zh": "H. pylori 與胃疾病：致病機轉、診斷與除菌治療、慢性胃炎、胃癌與胃淋巴瘤、胃切除後併發症（dumping、輸入環）、胃息肉、GIST 與營養不良",
+  "specialty": "肝膽腸胃內科",
+  "sources": [
+    "Harrison's 22e - Ch.168 Helicobacter pylori Infections (p.1298-1303)；Ch.335 Peptic Ulcer Disease and Related Disorders (p.2526-2534、2537-2539)；Ch.85 Upper GI Tract Cancers：Gastric Cancer、Lymphoma、GIST (p.645-651)",
+    "First Choice 醫學(三) 第2冊 - 己、胃疾病—胃潰瘍 (p.50-52；考題 p.53-60，13 題)；庚、胃疾病—其他 (p.63、65；考題 p.64-66，8 題)"
+  ],
+  "generated": "2026-10-31",
+  "updated": "2026-10-31",
+  "related": [
+    {
+      "id": "esophagus-peptic-ulcer",
+      "name": "Esophagus & Peptic Ulcer (食道疾病與消化性潰瘍)"
+    },
+    {
+      "id": "anemia-megaloblastic",
+      "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"
+    },
+    {
+      "id": "pancreas-diseases",
+      "name": "Pancreatic Disease (胰臟疾病：急慢性胰臟炎與胰臟癌)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：怎麼讀這篇",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**這篇的範圍**：H. pylori（機轉、診斷、治療）、慢性胃炎、胃癌與胃淋巴瘤、胃切除後併發症、胃息肉、GIST、營養不良｜胃酸生理、藥物、消化性潰瘍 →〈食道疾病與消化性潰瘍〉｜**本篇只用 Harrison 22e 與 FC**，沒有另加外部指引"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**：H. pylori 感染的**位置**決定結局——**胃竇為主 → 胃酸多 → 十二指腸潰瘍**｜**胃體或全胃 → 胃酸少、萎縮 → 腸化生 → 胃癌**｜**長期抗原刺激 → MALT 淋巴瘤**｜**GERD 不在其中**"
+        }
+      ]
+    },
+    {
+      "title": "H. pylori 的致病機轉與相關疾病　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **G(−) 螺旋桿菌**、微需氧、有鞭毛；住在**胃黏液層**，不侵入組織｜全球約 40% 感染，**多在童年得到**，人是主要宿主\n- **Urease**：尿素 → **氨**，中和胃酸（FC 107 年：「catalase 產生 NH₃」→ 錯）\n- 毒力因子：**cag 致病島編碼 CagA**（經第四型分泌系統打入上皮 → **較強發炎**，FC 107 年）｜**VacA**（空泡毒素）｜BabA（黏附）\n- **幾乎所有感染者都有組織學胃炎，但只有約 10–15% 發病**（FC 107 年：「10–15% 產生慢性胃炎」→ 錯）；結局取決於**菌株、宿主、環境**（抽菸、高鹽）\n- **胃炎分布決定疾病**（FC 107 年把兩者講反）：\n　- **胃竇為主 → 十二指腸潰瘍**：D 細胞減少 → somatostatin 少 → gastrin 多 → 胃酸多\n　- **胃體或全胃 → 胃潰瘍、胃腺癌**：胃酸少、萎縮\n- **會增加：消化性潰瘍、非賁門胃腺癌、胃 MALT 淋巴瘤**（風險比見下圖）\n- **不會造成胃食道逆流**（FC 110、105 年；106 年題目一律給分）——H. pylori 引起的低胃酸可能**保護** GERD、Barrett、食道腺癌\n- 比例：Harrison：**DU 約 70%、GU 約 50%**（NSAID 比例上升）｜FC：DU 約 90%、GU 約 70%｜**十二指腸潰瘍盛行率高於胃潰瘍**\n- 其他：**缺鐵、原發性血小板低下（ITP）**可改善；與 B12 缺乏的關聯尚未確定"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h168-1.png",
+          "label": "Harrison's 22e Fig. 168-1",
+          "caption": "H. pylori 與上消化道疾病的關係",
+          "explain": "**【怎麼看】**H. pylori → 組織發炎 → 依次發生不同變化：**胃酸過多 → 十二指腸潰瘍（OR 3–6）**｜**抗原刺激 → B 細胞淋巴瘤（6–50）**｜**萎縮性胃炎 → 非賁門胃腺癌（3–8）**｜**逆流性食道炎及後遺症：OR 0.2–0.6（< 1，負相關）**，叉號表示被抑制。\n**【考點】**只有 GERD 是 OR < 1；所以「H. pylori 會增加逆流」是錯的。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：機轉細節（Harrison）",
+          "text": "傳染：多由家人（主要照顧者）或其他孩童傳染；糞口或口口不明｜童年擁擠、社經條件差是危險因子｜成人自發感染或清除少見\n免疫反應強但清不掉，細菌會下調免疫\n宿主因子：IL-1 基因多形性使發炎強 → 胃癌風險高｜PSCA SNP\n**胃癌路徑（腸型）**：胃炎 → 萎縮 → 腸化生 → 異生 → 癌｜瀰漫型可直接由慢性胃炎產生\n**DU 機制**：胃酸增加 → 十二指腸胃上皮化生 → H. pylori 定殖 → 發炎潰瘍\nDU 病人胃癌風險不高（胃竇為主、胃體保留）\n男性發病率是女性 2 倍以上\n無潰瘍消化不良：除菌比安慰劑多 15% 緩解"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.168 p.1298-1300（Fig. 168-1）；Ch.335"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 B 消化性潰瘍 p.50-51"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 考題 p.56-59"
+        }
+      ]
+    },
+    {
+      "title": "H. pylori 的診斷　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **侵入性（要胃鏡）**：**快速尿素酶試驗**（簡單、敏感度特異度高）、**組織學**、**培養（可驗藥敏）**\n- **非侵入性**：**¹³C 尿素呼氣試驗**、**糞便抗原**、血清抗體\n- **確認除菌成功 → 尿素呼氣試驗最簡便正確**（FC 107 年），糞便抗原也可以\n- **血清抗體不能用來追蹤**：下降太慢（> 14 週）、分不出現在或過去感染\n- **時間點**：**除菌結束至少 4 週後**再驗（FC 109 年：「7 天內」→ 錯）\n　- **抗生素、bismuth 停 4 週**｜**PPI 停 2 週**（Ch.168；Ch.335 寫至少 7 天）→ 否則**偽陰性**\n- **胃潰瘍**：除菌後仍要胃鏡確認癒合、排除癌\n- **誰要驗**：**消化性潰瘍（活動或過去）、MALT 淋巴瘤**｜年輕、無警訊的消化不良 → **test-and-treat**（盛行率 > 20%）\n　- **老人或有警訊（體重減輕）→ 直接胃鏡**\n　- **無潰瘍消化不良有此菌 → 國際共識建議除菌**（FC 106 年）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "檢查",
+            "特點"
+          ],
+          "rows": [
+            [
+              "快速尿素酶",
+              "胃鏡當下；近期 PPI、抗生素、bismuth 會偽陰性"
+            ],
+            [
+              "組織學",
+              "同時看萎縮、腸化生、異生；要特殊染色"
+            ],
+            [
+              "培養",
+              "**可做藥敏**；難培養"
+            ],
+            [
+              "尿素呼氣",
+              "**追蹤首選**、要空腹"
+            ],
+            [
+              "糞便抗原",
+              "便宜方便、可追蹤、兒童適用"
+            ],
+            [
+              "血清抗體",
+              "便宜；**不受近期藥物影響**；**不能追蹤治療**"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h168-2.png",
+          "label": "Harrison's 22e Fig. 168-2",
+          "caption": "H. pylori 的處置流程",
+          "explain": "**【怎麼看】**有適應症 → 檢測｜陰性 → 不是 H. pylori 造成｜**陽性 → 第一線治療 → 等至少 1 個月（期間不用抗生素、bismuth、PPI）→ 尿素呼氣或糞便抗原**｜**陰性 → 成功**｜**陽性 → 第二線**，再驗｜**仍陽性 → 第三線：胃鏡培養，依藥敏治療**｜再失敗 → 轉介專科，重新評估要不要治療。\n**【考點】**除菌後**一定要確認**，而且要**等 4 週**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：診斷細節（Harrison、FC）",
+          "text": "Table 335-2 敏感度／特異度：尿素酶 80–95／95–100｜組織學 60–90／> 95｜培養 76–90／100｜血清 74／59｜呼氣、糞便都 > 95／> 95\nFC：停 PPI 至少 2 週、抗生素 4 週；健保規定治療完成停藥 1 個月才可做 C13 呼氣試驗\n**FC 106 年**：(B)、(D) 都給分｜胃潰瘍罹患率低於十二指腸潰瘍｜urease test 診斷率高、不需靠培養｜除菌後不是「一定」增加 GERD\n培養後確認：oxidase、catalase、urease 都陽性"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.168 p.1300-1301（Table 168-1、Fig. 168-2）；Ch.335 p.2524（Table 335-2）、p.2531"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 B 消化性潰瘍 3. 檢查 p.51"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 考題 p.58"
+        }
+      ]
+    },
+    {
+      "title": "H. pylori 的治療　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **適應症**：**十二指腸或胃潰瘍（不論活動或過去）**——除菌讓復發從約 60% 降到 < 10–20%（FC 109 年：「潰瘍癒合就不用治」→ 錯）｜**低惡性度 MALT 淋巴瘤**\n- **早期胃癌切除後也要除菌**：降低異時性胃癌（FC 109 年）｜一等親胃癌合理\n- **FC 三合一**：**PPI＋clarithromycin＋amoxicillin**（或 metronidazole）**14 天**（FC 103 年答案：①③④）\n- **第一線療程要 14 天，7 天已不推薦**（FC 113 年）\n- **Clarithromycin 抗藥高的地區 → bismuth 四合一**（**PPI＋bismuth＋tetracycline＋metronidazole**）或 concomitant（PPI＋amoxicillin＋clarithromycin＋硝基咪唑）\n- **第二線**：沒用過的組合；**levofloxacin 三合一**（PPI＋levofloxacin＋amoxicillin）｜**第三線**：胃鏡培養依藥敏\n- **PPI 一定要給**：提高胃內 pH，幫助除菌（FC 109 年：「不影響」→ 錯）；高劑量效果更好\n- **不用的抗生素：cefixime**（FC 103 年）；用的是 amoxicillin、clarithromycin、metronidazole、tetracycline、levofloxacin、bismuth\n- **抗藥性**：**clarithromycin、levofloxacin** 用過就避免｜**amoxicillin、tetracycline 很少抗藥**，可重複用｜metronidazole 是部分抗藥\n- **成功兩大關鍵：遵從性、沒有抗藥性**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **三合一不再是多數地區首選**（Harrison 22e Table 168-2）：clarithromycin 三合一只適用抗藥 < 20% 的地區（Harrison：主要是北歐）；**多數地區第一線是 bismuth 四合一 14 天或 concomitant 14 天**｜**vonoprazan**（P-CAB）搭配 amoxicillin、clarithromycin 除菌率高於 PPI｜FC 103 年題目問的是傳統三合一——**考試題目寫「三合一」就選 PPI＋clarithromycin＋amoxicillin**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：療程細節（Harrison、FC）",
+          "text": "Table 168-2：OCM、OCA 14 天｜OBTM 14 天｜Concomitant 14 天｜OAL 10 天｜Table 335-5 救援：bismuth 四合一 14 天、levofloxacin 三合一 14 天、concomitant 10–14 天、rifabutin 三合一 10 天、高劑量 PPI＋amoxicillin 14 天\n潰瘍：抗生素 14 天後繼續制酸藥到總共 4–6 週｜除菌確認在 4 週後\nFC 113 年詳解：7 日療程療效已低於國際標準｜FC 第一線：PCM 或 PCA 14 天，根除率 80–90%\nBismuth 副作用見〈食道疾病與消化性潰瘍〉｜除菌後少數人出現 GERD 症狀，但**不影響該治療時的決定**\n**無症狀族群不建議全面篩檢治療**：抗藥性、副作用、效益大小未定"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.168 p.1301-1303（Table 168-2）；Ch.335 p.2526-2530（Table 335-4、335-5）；Ch.85 p.645"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 B 消化性潰瘍 4. 根除治療 p.51-52"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 考題 p.53、56、60"
+        }
+      ]
+    },
+    {
+      "title": "慢性胃炎　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 胃炎是**組織學診斷**，和內視鏡發紅、消化不良症狀相關性差\n- **A 型（自體免疫，胃體為主）**：**抗壁細胞、抗內在因子抗體** → 無胃酸、**惡性貧血（B12 缺乏）**｜胃竇保留 → **gastrin 高** → ECL 增生、**胃類癌**｜合併甲狀腺病、白斑、Addison\n- **B 型（H. pylori，胃竇為主）**：較常見；隨時間變全胃炎；**多灶性萎縮 → 腸化生 → 胃腺癌**\n- FC 110 年：**胃體型＝自體免疫；胃竇型＝H. pylori**（題目 (B)(D) 把兩者講反；(C) 把多灶性萎縮路徑算到自體免疫 → 錯）\n- 演變：**淺層胃炎 → 萎縮性胃炎 → 胃萎縮**；**腸化生是胃癌的重要前驅**\n- 治療：針對後果——惡性貧血**注射 B12**、除菌｜**萎縮合併腸化生（無異生）每 3 年胃鏡**（專家意見）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "A 型",
+            "B 型"
+          ],
+          "rows": [
+            [
+              "原因",
+              "**自體免疫**",
+              "**H. pylori**"
+            ],
+            [
+              "位置",
+              "**胃體、胃底**",
+              "**胃竇** → 全胃"
+            ],
+            [
+              "抗體",
+              "**抗壁細胞、抗內在因子**（較專一）",
+              "—"
+            ],
+            [
+              "胃酸／gastrin",
+              "**無酸／很高（> 500）**",
+              "不一定"
+            ],
+            [
+              "後果",
+              "**惡性貧血、類癌**",
+              "**潰瘍、腸化生、胃癌、MALT**"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：其他胃炎（Harrison）",
+          "text": "FC 另有 C 型（化學性，如 NSAID、膽汁）｜Harrison 認為 A、B 區分是人為的，組織學分類最準\n抗壁細胞抗體針對 H⁺/K⁺-ATPase｜惡性貧血 > 90% 陽性；抗內在因子約 40%｜HLA-B8、DR3\n急性 H. pylori 胃炎：突發上腹痛、噁心；低胃酸可達 1 年\n蜂窩性胃炎：罕見、老人酒癮、鏈球菌等，可能要胃切除\n淋巴球性胃炎（與乳糜瀉有關、痘瘡狀）｜嗜酸性球性胃炎（類固醇）｜肉芽腫性（Crohn、類肉瘤、結核）\n免疫檢查點抑制劑胃炎：類固醇"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.335 p.2537-2539（Table 335-10）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 B 消化性潰瘍 1. p.50-51"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 考題 p.55"
+        }
+      ]
+    },
+    {
+      "title": "胃癌、胃淋巴瘤　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **胃腺癌**（約 85%）：全球癌症死因第 3（Harrison），**發生率下降中**（FC 105 年：「增加」→ 錯）；亞洲（中、日、韓）高｜**但胃食道交界癌、年輕人早發型上升**\n- 危險因子：**H. pylori**、**煙燻鹽漬（硝酸鹽）**、抽菸、**萎縮性胃炎、腸化生**、EBV、遺傳（**CDH1**、Lynch、FAP、Peutz-Jeghers）｜FC：血型 **A** 較高（**O 型不是**）\n- **腸化生是前驅病灶**（FC 105 年）｜**除菌不能治癒胃癌**\n- **Lauren 分類**：\n　- **腸型（較常見）**：H. pylori、萎縮性胃炎\n　- **瀰漫型（約 20%）**：**CDH1（E-cadherin）**、印戒細胞、年輕；可不形成腫塊，**胃壁增厚**\n- 症狀：**上腹不適、早飽、體重減輕、貧血、黑便**｜轉移：**Virchow 淋巴結、Sister Mary Joseph 結節、Blumer shelf、Krukenberg 腫瘤**、腹水\n- 診斷：**胃鏡切片**｜分期：CT → FDG-PET → EUS → 腹腔鏡（腹膜轉移）｜CEA、CA 19-9 不專一\n- 治療：**手術切除（R0＋淋巴結 ≥ 15 顆）是唯一根治**；≤ 2 cm 的黏膜內癌可內視鏡切除｜**局部晚期：圍手術期化療**（FLOT）｜**HER2 陽性（轉移性）→ trastuzumab**、MSI-H → 免疫治療\n- **胃淋巴瘤**：**幾乎都是 B 細胞**（DLBCL 約 55%、MALT 約 40%）——**一定要切片**，胃鏡看不出來（FC 107 年）\n　- **MALT 淋巴瘤**：與 H. pylori 有關 → **先除菌**，多數緩解（FC 107 年）｜可能要等 1 年以上｜**t(11;18) 較不易對除菌反應** → 放療或 rituximab\n　- **手術沒有角色**（除非穿孔、大出血）｜**DLBCL → R-CHOP**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **晚期胃癌加入免疫治療**（Harrison 22e）：HER2 陰性、PD-L1 CPS > 5 → **nivolumab＋化療**第一線（CheckMate 649）｜Claudin 18.2 標靶 zolbetuximab 為新選項｜HER2 陽性後線 trastuzumab-deruxtecan｜FC 講義未涵蓋"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/fc-gastric-ca.png",
+          "label": "First Choice 醫學(三) 第2冊 p.59（105 年考題圖）",
+          "caption": "胃鏡：胃癌",
+          "explain": "**【怎麼看】**胃腔內不規則、邊緣隆起的潰瘍性腫塊。\n**【考點】**70 歲、食慾差、體重減輕 → **胃癌**；**腸化生是前驅病灶**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：胃癌與淋巴瘤細節（Harrison Ch.85）",
+          "text": "手術單獨 5 年約 25%｜MAGIC：圍手術期化療 36% vs 23%｜遠端癌次全胃切除、近端全胃或近端胃切除｜D2（改良，保留脾）\n≤ 2 cm、分化好、無深層黏膜下侵犯、無血管淋巴侵犯 → EMR／ESD\n日本、韓國胃鏡篩檢降低死亡；美國不符成本效益｜Stage IV 存活 12–15 個月\n分子四型：EBV、MSI、基因穩定（瀰漫型）、染色體不穩定｜HER2 約 20%｜轉移要驗 HER2、PD-L1、MSI\nCDH1 帶因：可預防性全胃切除；也增加乳葉狀癌\n家族胃癌、早期胃癌病史的 H. pylori 除菌：可降低胃癌發生（隨機試驗）\n胃淋巴瘤：胃腸道是結外 NHL 最常見部位，胃又最多｜FC 題目寫約占胃惡性腫瘤 15%、Harrison 寫約 3%｜10–15% 有發燒盜汗｜H. pylori 陰性者除菌也可能有效｜MALT 用 Lugano 分期、不用 TNM\nFC：MALT 除菌 7 成以上緩解；Harrison 60–90%"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.85 p.645-650；Ch.335 p.2539"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 B 消化性潰瘍 1. p.50-51"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "己、胃疾病—胃潰瘍 考題 p.57、59"
+        }
+      ]
+    },
+    {
+      "title": "胃切除後併發症　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 手術：**Billroth I（胃－十二指腸）**｜**Billroth II（胃－空腸，留下輸入環）**｜Roux-en-Y 較好\n- **Dumping 症候群**：胃切除或迷走神經切斷＋引流後，**高滲食物快速進小腸**；**攝取過多碳水化合物是最主要誘因**（FC 110 年）\n　- **早期（餐後 15–30 分）**：體液移入腸腔 → **腹絞痛、腹瀉、噁心、心悸、頭暈、冒汗**\n　- **晚期（餐後 90 分–3 小時）**：**胰島素過度分泌 → 低血糖** → 頭暈、冒汗、心悸\n　- FC 113 年：胃部分切除、飯後腹痛腹瀉、2 小時後頭暈盜汗 → **dumping**\n　- 治療：**少量多餐、避免單糖、餐中不喝水**（**不是限制脂肪**，FC 106 年）｜acarbose（晚期）、octreotide（難治）\n- **輸入環症候群（afferent loop，Billroth II）**：\n　- **細菌過度增生型（較常見）**：餐後痛、脹、腹瀉、**脂肪與 B12 吸收不良**\n　- **部分阻塞型**：**餐後 20–60 分劇痛脹氣，吐出膽汁後緩解**\n　- FC 110 年：Billroth II、餐後腹痛腹脹嘔吐、**MCV 106（巨球性）、低白蛋白、BMI 19 → afferent loop syndrome**\n- **輸出環症候群（efferent loop）**：術後數月到數年間歇小腸阻塞、膽汁性嘔吐（FC）\n- **膽汁逆流性胃病變**：痛、早飽、吐膽汁；胃殘端紅｜cholestyramine、sucralfate、Roux-en-Y\n- **迷走神經切斷後腹瀉**：飯後 1–2 小時，約 10%｜loperamide、cholestyramine\n- **營養缺乏**：**B12**（低胃酸、細菌增生）、**鐵**（Billroth II）、葉酸、**鈣與維生素 D → 骨軟化、骨質疏鬆**（要長期補充）、銅（共濟失調、脊髓病）\n- **其他**：邊緣潰瘍（查 NSAID、H. pylori、殘留胃竇、ZES）、**殘胃癌（> 15 年）**、膽結石\n- **其他飲食調整**（FC 106 年）：**胃輕癱 → 流質**｜**IBS → 可考慮高纖**｜**短腸症 → 中鏈三酸甘油脂**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "早期 dumping",
+            "晚期 dumping"
+          ],
+          "rows": [
+            [
+              "時間",
+              "**餐後 15–30 分**",
+              "**餐後 90 分–3 小時**"
+            ],
+            [
+              "機轉",
+              "**高滲 → 體液移入腸腔**",
+              "**胰島素過多 → 低血糖**"
+            ],
+            [
+              "症狀",
+              "**腸胃＋血管運動**",
+              "**血管運動為主**"
+            ],
+            [
+              "治療",
+              "少量多餐、避單糖、餐中不喝水",
+              "同左＋acarbose"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h335-15.png",
+          "label": "Harrison's 22e Fig. 335-15",
+          "caption": "Billroth I 與 II",
+          "explain": "**【怎麼看】**上：切除胃竇（虛線）｜**左下 Billroth I**：殘胃直接接十二指腸｜**右下 Billroth II**：殘胃接空腸，十二指腸殘端關閉，形成**輸入環**（膽汁、胰液從這裡來）與輸出環。\n**【考點】**輸入環症候群、缺鐵、骨病變主要見於 **Billroth II**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：胃手術細節（Harrison）",
+          "text": "迷走神經切斷會胃無力 → 要引流｜高選擇性迷走神經切斷：併發症最少、復發最高（≥ 10%）｜迷走神經切斷＋胃竇切除：復發最低（1%）、併發症最高\n難治潰瘍手術減少 > 90%；現在手術多因併發症\n**疑穿孔**：鼻胃管抽吸、靜脈 PPI、抗生素、會診外科；上腹游離氣體只見於 2/3\nDumping 約 50% 手術後早期有，1% 嚴重｜octreotide 50 μg 每天 3 次皮下，長效每 28 天｜guar、pectin\n部分胃切除體重減輕最多 60%，常穩定在 10%｜骨軟化最多 25%｜B12 缺乏多不是內在因子問題（胃竇切除只少了極少壁細胞）\nFC 輸入環：外科急症，術後最初幾週內，嚴重腹痛、非膽汁性嘔吐 → 緊急手術｜Harrison 描述為慢性型（吐膽汁後緩解），兩者不同情境\n殘胃癌篩檢不確定，多數指引不建議"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.335 p.2532-2534（Fig. 335-15）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、胃疾病—其他 A 術後併發症 p.63"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、胃疾病—其他 考題 p.64-65"
+        }
+      ]
+    },
+    {
+      "title": "胃息肉、GIST 與營養不良　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **胃息肉**：**增生性息肉最常見**；**越大惡性機會越大**（FC 107 年：「越小」→ 錯），≥ 1 cm 算大型｜與 **Peutz-Jeghers、Gardner、FAP** 相關，FAP 惡性機率高\n- **Peutz-Jeghers**：**體染色體顯性**、**嘴唇、口腔、手指黑色素沉著＋錯構瘤息肉**（FC 104 年）→ 癌症風險上升（胰臟癌也是）\n- 鑑別：**Osler-Weber-Rendu（遺傳性出血性微血管擴張）**：微血管擴張、反覆出血｜**FAP**：APC 突變、大腸數百上千腺瘤｜**Turcot**：大腸息肉＋腦瘤\n- **GIST**：**來自 Cajal 間質細胞**，**不是平滑肌瘤**、與 H. pylori 無關｜**胃最常見（約 60%）**、小腸次之｜**c-KIT（多數）或 PDGFRA 突變**（FC 104 年）\n　- 表現：腸胃道出血、貧血、腹脹｜胃鏡：**黏膜完整的平滑隆起**，一般切片可能切不到\n　- **惡性 GIST 會轉移**（FC 104 年）\n　- 風險看**大小、有絲分裂數、位置**｜治療：**切除**；高風險術後 **imatinib 3 年**；轉移 → imatinib\n- **營養不良高危險群**（FC 112 年）：**敗血症、高燒**、**老人**、**長期酗酒**｜**愛喝汽水可樂本身不算**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：延伸：GIST 與息肉細節（Harrison、FC）",
+          "text": "KIT 表現約 95%｜紡錘細胞 70%、上皮樣 20%｜胃 GIST ≤ 2 cm、有絲分裂 ≤ 5 → 幾乎不惡化｜avapritinib（PDGFRA）、ripretinib（抗藥後）\nKIT exon 11 vs 9 影響療效\nHHT：FC 寫台灣屬低盛行率｜Peutz-Jeghers：STK11（LKB1）突變，胰臟癌風險高（見〈胰臟疾病〉）\nHarrison：Peutz-Jeghers、FAP、幼年息肉症也增加胃癌風險"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.85 p.650-651（GIST）、p.646"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、胃疾病—其他 B 胃其他疾病 p.65"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "庚、胃疾病—其他 考題 p.65-66"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "致病機轉與疾病（§H. pylori 的致病機轉與相關疾病）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：幽門螺旋桿菌感染不會造成下列何者？（A 消化性潰瘍 B 胃食道逆流性疾病 C 胃腺癌 D 胃黏膜相關淋巴組織淋巴癌）（FC 110 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：關於 H. pylori 的特性，何者正確？（A 造成 10–15% 感染者產生慢性胃炎，少數發生潰瘍或胃癌 B 分泌 catalase 產生 NH₃ 中和胃酸 C 不同 strain 帶有不同毒性因子，如 cag-PAI 編碼 CagA，造成較強黏膜發炎 D 造成 antrum-predominant 胃炎者胃萎縮及胃癌風險較大；corpus-predominant 者十二指腸潰瘍風險較大）（FC 107 年）",
+          "text": "**答：(C)。** (B) 是 urease｜(D) 講反"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：H. pylori 已知是部分消化道疾病的致病因子，何者除外？（A 胃食道逆流 B 萎縮性胃炎 C B 細胞胃淋巴癌 D 十二指腸潰瘍）（FC 106 年）",
+          "text": "**答：本題一律給分**（題意答案為 (A)）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：幽門螺旋桿菌感染不會增加下列何項疾病的風險？（A reflux esophagitis B non-cardiac gastric cancer C gastric MALT lymphoma D gastric ulcer）（FC 105 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "heading",
+          "text": "診斷（§H. pylori 的診斷）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：39 歲女性十二指腸潰瘍及 H. pylori 感染，第一線殺菌後評估是否成功，何種檢查最簡便正確？（A C¹³-urea breath test B 血清抗體 C 胃鏡切片組織學 D 尿液抗體）（FC 107 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：有關 H. pylori，何者正確？（A urease test 診斷率過低，需以培養確診 B 無潰瘍的消化不良患者若有此菌，國際共識認為需要殺菌 C 殺菌後一定會增加胃食道逆流 D 胃潰瘍患者罹患率低於十二指腸潰瘍患者）（FC 106 年）",
+          "text": "**答：(B)、(D) 都給分。**"
+        },
+        {
+          "type": "heading",
+          "text": "治療（§H. pylori 的治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：在 clarithromycin 抗藥比例小於 15% 之地區，下列除菌療法何者目前不推薦？（A 七日 clarithromycin 三合一 B 十四日 clarithromycin 三合一 C 十至十四日 concomitant D 十至十四日 bismuth 四合一）（FC 113 年）",
+          "text": "**答：(A)。** 7 日療效已低於國際標準"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：關於 H. pylori 的藥物治療，何者正確？（A 若潰瘍已經由 PPI 治療痊癒，就無需治療 H. pylori B 早期胃癌病灶切除後仍需治療 H. pylori，會降低異時性胃癌復發 C 除菌期間 PPI 是否給與並不影響效果 D 除菌後慣例要在 7 天內執行 urea breath test）（FC 109 年）",
+          "text": "**答：(B)。** 尿素呼氣試驗要等 4 週"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：有關 H. pylori 第一線三合一療法的組合，何者正確？① amoxicillin ② bismuth ③ clarithromycin ④ PPI ⑤ metronidazole（A ①②④ B ①③⑤ C ①③④ D ②③④）（FC 103 年）",
+          "text": "**答：(C)。** 📌 多數地區已改 bismuth 四合一"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：30 歲男性空腹上腹痛，胃鏡十二指腸球部 A2 潰瘍，rapid urease test 陽性。下列何項藥物不適合？（A bismuth subsalicylate B metronidazole C clarithromycin D cefixime）（FC 103 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "慢性胃炎（§慢性胃炎）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：關於慢性胃炎，何者正確？（A 可分為 type A：body-predominant 及 type B：antral-predominant B body-predominant 主要導因 H. pylori，antral-predominant 主要導因自體免疫 C autoimmune gastritis 依循 multifocal atrophic gastritis、gastric atrophy、metaplasia，最後導致胃腺癌 D antral-predominant 與 pernicious anemia 有關，血中有抗壁細胞及內在因子抗體）（FC 110 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "heading",
+          "text": "胃癌與淋巴瘤（§胃癌、胃淋巴瘤）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：70 歲女性食慾變差、上腹不適、體重減輕，胃鏡如圖（潰瘍性腫塊，見 §胃癌 圖）。何者正確？（A 此疾病發生率增加中 B 去除 H. pylori 可治癒 C O 型血罹病機會較高 D 腸化生為此病之前驅病灶）（FC 105 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：有關原發性胃淋巴瘤，何者正確？（A 胃鏡下與胃腺癌可清楚辨別，不需切片 B 絕大多數為 T 細胞淋巴瘤 C 若為 MALT 淋巴瘤，應考慮使用抗生素清除 H. pylori D 若為 high-grade、large-cell，均應進行胃腫瘤及次全胃切除再考慮化療）（FC 107 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "胃切除後（§胃切除後併發症）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：35 歲患者有胃部分切除病史，進食後腹痛、腹瀉，約 2 小時後頭暈、盜汗。最可能的診斷？（A afferent loop syndrome B adhesion ileus C dumping syndrome D postvagotomy diarrhea）（FC 113 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：有關 dumping syndrome，何者為最常見的原因？（A 細菌過度滋生 B 攝食過多碳水化合物 C 膽汁排出受阻 D 切斷迷走神經導致蠕動異常）（FC 110 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：48 歲男性 5 個月來餐後腹痛、腹脹及嘔吐；5 年前胃穿孔行 subtotal gastric resection＋Billroth II。BMI 19、albumin 3.1、Hb 9.6、MCV 106。最可能的診斷？（A IBS B bile reflux gastropathy C afferent loop syndrome D Zollinger-Ellison syndrome）（FC 110 年）",
+          "text": "**答：(C)。** 巨球性貧血＋吸收不良符合輸入環細菌增生（B12）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q17：有關胃腸疾病與飲食調整，何者錯誤？（A gastroparesis 最好用 liquid meals B dumping syndrome 須限制脂肪量 C IBS 可考慮高纖飲食 D short bowel syndrome 可進食 MCT）（FC 106 年）",
+          "text": "**答：(B)。** 要限制的是單糖"
+        },
+        {
+          "type": "heading",
+          "text": "息肉、GIST、營養（§胃息肉、GIST 與營養不良）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q18：下列何者不是營養不良高危險群之特徵？（A 敗血症、高燒不退 B 老年人 C 長期酗酒 D 好喝汽水可樂）（FC 112 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q19：關於胃息肉症，何者錯誤？（A 相關疾病包括 Peutz-Jeghers、Gardner、家族性大腸息肉症 B 息肉越大惡性機率越小 C 家族性大腸息肉症有很大的惡性機率 D 以增生性息肉最常見）（FC 107 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q20：22 歲男性因胃腸息肉接受檢查，嘴唇有許多黑色色素沉著。最可能的診斷？（A Osler-Weber-Rendu B Peutz-Jeghers C FAP D Turcot）（FC 104 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q21：有關 GIST，何者正確？① 所有消化道均可能出現，最常出現於胃部 ② 屬於平滑肌瘤的一種，與 H. pylori 無關 ③ 惡性 GIST 不會侵犯淋巴結及周邊組織 ④ 大多數與 c-kit mutation 有關，imatinib 是治療選擇（A ①③ B ②④ C ①④ D ②③）（FC 104 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "H. pylori",
+              "G(−)、**urease**、CagA、VacA｜**胃竇 → DU**｜**胃體 → GU、胃癌**｜MALT｜**不造成 GERD（OR < 1）**"
+            ],
+            [
+              "診斷",
+              "**呼氣、糞便追蹤**｜**血清不能追蹤**｜**除菌後 ≥ 4 週**、PPI 停 2 週、抗生素 bismuth 停 4 週"
+            ],
+            [
+              "治療",
+              "三合一 **PPI＋clarithromycin＋amoxicillin 14 天**｜**7 天不推薦**｜📌 多數地區 bismuth 四合一｜二線 levofloxacin｜三線培養｜cefixime 不用｜PPI 一定要"
+            ],
+            [
+              "適應症",
+              "**潰瘍（含過去）、MALT、早期胃癌切除後**、消化不良 test-and-treat"
+            ],
+            [
+              "胃炎",
+              "**A：自體免疫、胃體、抗壁細胞、惡性貧血、高 gastrin、類癌**｜**B：H. pylori、胃竇、腸化生、胃癌**"
+            ],
+            [
+              "胃癌",
+              "發生率下降｜**腸化生前驅**｜**腸型（H. pylori）vs 瀰漫型（CDH1、印戒）**｜Virchow、Krukenberg｜手術根治｜📌 nivolumab＋化療"
+            ],
+            [
+              "淋巴瘤",
+              "**B 細胞**、要切片｜**MALT 先除菌**｜t(11;18) 反應差｜DLBCL R-CHOP｜不開刀"
+            ],
+            [
+              "Dumping",
+              "**早：15–30 分、高滲**｜**晚：90 分–3 小時、低血糖**｜**少量多餐、避單糖、餐中不喝水**"
+            ],
+            [
+              "輸入環",
+              "Billroth II｜細菌增生（B12、脂肪吸收不良）｜吐膽汁後緩解"
+            ],
+            [
+              "胃切除後缺乏",
+              "B12、鐵、葉酸、鈣、維生素 D、銅｜殘胃癌 > 15 年"
+            ],
+            [
+              "息肉",
+              "增生性最多｜**越大越惡性**｜**Peutz-Jeghers：嘴唇黑斑、錯構瘤**"
+            ],
+            [
+              "GIST",
+              "**Cajal 細胞**｜胃最多｜**c-KIT、imatinib**｜會轉移"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
