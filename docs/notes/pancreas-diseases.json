@@ -18,6 +18,10 @@
     {
       "id": "dyslipidemia",
       "name": "Dyslipidemia (高血脂)"
+    },
+    {
+      "id": "diarrhea",
+      "name": "Diarrhea (腹瀉)"
     }
   ],
   "sections": [

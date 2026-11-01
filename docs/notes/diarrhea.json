@@ -1,0 +1,681 @@
+{
+  "id": "diarrhea",
+  "title": "Diarrhea (腹瀉)",
+  "title_en": "Diarrhea",
+  "title_zh": "腹瀉",
+  "specialty": "肝膽腸胃內科",
+  "sources": [
+    "Harrison's 22e Ch.49, 138, 139",
+    "First Choice 醫學(三) 第2冊 丙、腹瀉"
+  ],
+  "generated": "2026-11-02",
+  "updated": "2026-11-02",
+  "related": [
+    {
+      "id": "gi-bleeding",
+      "name": "GI Bleeding (腸胃道出血)"
+    },
+    {
+      "id": "pancreas-diseases",
+      "name": "Pancreatic Disease (胰臟疾病：急慢性胰臟炎與胰臟癌)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：怎麼讀這篇",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "FC 丙、腹瀉共 **12 題**（103–113 年）。出題集中在四件事：**滲透性 vs 分泌性**、**食物中毒的潛伏期**、**旅行者腹瀉與 Giardia**、**C. difficile**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**：先問病程（急性或慢性）→ 急性多半是感染，再看**水瀉或血便**；慢性多半不是感染，再用**禁食會不會好**分機轉。每一例的第一步都是補水，不是止瀉。"
+        }
+      ]
+    },
+    {
+      "title": "腸道吸收與腹瀉分類　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 病程（Harrison）：**急性 <2 週、持續性 2–4 週、慢性 >4 週**\n- 成人糞便 **>200 g/天**可視為腹瀉\n- **滲透性**：禁食或停用該物質後**會好**；糞便滲透壓差 **>50**\n- **分泌性**：禁食後**不會好**；大量水瀉、多半不痛，**沒有**滲透壓差\n- **脂肪瀉**：糞便脂肪 **>7 g/天**，油膩、惡臭、難沖掉\n- **發炎性**：腹痛、發燒、血便，糞便有白血球或 calprotectin\n- 乳糖不耐是**滲透性**腹瀉，糞便 pH 低\n- 吸收部位：鐵、鈣在**十二指腸與上端小腸**；膽酸在**迴腸**；A、D、E、K 是**脂溶性**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "機轉",
+            "禁食後",
+            "糞便特徵",
+            "常見原因"
+          ],
+          "rows": [
+            [
+              "滲透性",
+              "會好",
+              "滲透壓差 >50、碳水化合物吸收不良時 pH 低",
+              "乳糖酶缺乏、Mg 制酸劑或瀉劑、sorbitol、lactulose"
+            ],
+            [
+              "分泌性",
+              "不會好",
+              "大量水瀉、無滲透壓差、多半不痛",
+              "藥物、刺激性瀉劑、酒精、膽酸腹瀉；VIPoma、類癌、甲狀腺髓質癌、絨毛腺瘤、gastrinoma"
+            ],
+            [
+              "脂肪瀉",
+              "—",
+              "脂肪 >7 g/天，伴體重減輕與營養缺乏",
+              "慢性胰臟炎、細菌過度增生、celiac disease、Whipple's disease、Giardia"
+            ],
+            [
+              "發炎性",
+              "不會好",
+              "白血球、calprotectin、血便",
+              "Crohn's disease、潰瘍性結腸炎、顯微性結腸炎、放射線傷害、腫瘤"
+            ],
+            [
+              "蠕動異常",
+              "—",
+              "類似分泌性，脂肪可到 14 g/天",
+              "IBS、甲狀腺亢進、類癌症候群、糖尿病神經病變"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "物質",
+            "吸收部位"
+          ],
+          "rows": [
+            [
+              "鐵、鈣",
+              "十二指腸與上端小腸"
+            ],
+            [
+              "膽酸",
+              "迴腸"
+            ],
+            [
+              "水與電解質",
+              "全段腸道"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h49-4.png",
+          "label": "圖 49-4 慢性腹瀉的處理流程",
+          "caption": "血便走大腸鏡；脂肪瀉走小腸與胰臟；排便後腹痛緩解想 IBS；都不是再做篩檢。",
+          "explain": "先排除藥物與手術造成的腹瀉，再依血便、脂肪瀉、IBS 症狀分流。低血鉀時查糞便量、滲透壓、pH，並篩瀉劑與荷爾蒙。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：滲透壓差怎麼算",
+          "text": "- 糞便滲透壓差 = 血清滲透壓（通常取 290）− 2 ×（糞便 Na + K）\n- **>50 mosmol/L** 表示糞便裡有其他滲透性物質，例如 Mg 瀉劑\n- 不直接量糞便滲透壓，因為碳水化合物會被腸內細菌代謝，測值會升高\n- 糞便滲透壓**很低**想到摻水，**很高**想到摻尿（偽裝性腹瀉）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：會分泌荷爾蒙的腫瘤",
+          "text": "- **VIPoma**：水瀉、低血鉀、胃酸缺乏，又稱 pancreatic cholera；糞便 >3 L/天\n- **類癌**：陣發性潮紅、喘鳴、右側瓣膜病\n- **Gastrinoma**：難治性消化性潰瘍；腹瀉主因是低 pH 使胰酵素失活，造成脂肪消化不良\n- **甲狀腺髓質癌**：calcitonin 等物質引起水瀉，明顯腹瀉常代表已轉移\n- **大腸絨毛腺瘤**：分泌性腹瀉，可造成低血鉀"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：膽酸與脂肪瀉的細節",
+          "text": "- 迴腸病變或切除 **<100 cm**：膽酸進入大腸，刺激分泌，稱 cholerheic diarrhea，用 cholestyramine 等膽酸結合劑\n- 膽酸腹瀉約佔不明原因慢性腹瀉的 40%\n- 切除部分小腸或有瘻管時，吸收面積不足，這一型**吃東西反而更糟**，與其他分泌性腹瀉不同\n- 糞便脂肪：快速通過可到 14 g/天；小腸疾病平均 15–25 g/天；胰臟外分泌不足常 >32 g/天\n- 胰臟功能喪失 **>90%** 才會出現胰臟外分泌不足"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：和腹瀉容易混淆的情況",
+          "text": "- **假性腹瀉**：次數多但量少，常伴裡急後重，見於 IBS 或直腸炎\n- **大便失禁**：不自主排出，多為神經肌肉或肛門直腸結構問題\n- **滿溢性腹瀉**：常見於安養機構長者，因糞便嵌塞，肛門指診可查出\n- 中老年慢性發炎型腹瀉，尤其帶血時，要做大腸鏡排除大腸直腸腫瘤"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.49 p.305、p.307–311（定義、Table 49-3、Fig.49-4）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 講義 p.25–26"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 考題 p.29、31、32"
+        }
+      ]
+    },
+    {
+      "title": "急性感染性腹瀉：評估與處置　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 急性腹瀉 **>90% 是感染**；其餘最常見的是**藥物**\n- **補水是一切的中心**，死亡主因是脫水\n- 要做糞便檢查：大量腹瀉脫水、血便、**發燒 ≥38.5°C**、**>48 小時**未改善、近期用抗生素、群聚、>50 歲合併劇烈腹痛、≥70 歲或免疫低下\n- **loperamide**：只用於無發燒、無血便；**發燒痢疾不用**\n- **EHEC O157:H7 不給抗生素**，也不用止瀉藥（HUS）\n- 感染量：**Shigella、EHEC、Giardia、Entamoeba 10–100 隻**即可致病；**V. cholerae 需 10⁵–10⁸**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "類型",
+            "病灶",
+            "糞便",
+            "代表病原"
+          ],
+          "rows": [
+            [
+              "非發炎（毒素）",
+              "近端小腸",
+              "水瀉、無白血球",
+              "V. cholerae、ETEC、S. aureus、病毒"
+            ],
+            [
+              "發炎（侵襲、細胞毒素）",
+              "結腸或遠端小腸",
+              "血便、白血球多",
+              "Shigella、Salmonella、Campylobacter、E. histolytica、EHEC、C. difficile"
+            ],
+            [
+              "穿透",
+              "遠端小腸",
+              "單核白血球",
+              "S. Typhi、Yersinia"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h49-3.png",
+          "label": "圖 49-3 急性腹瀉的處理流程",
+          "caption": "三種嚴重度都先補水。中度腹瀉無發燒、血便者可用止瀉藥；嚴重或有警訊者送糞便檢查。",
+          "explain": "圖中 * 代表可先經驗性使用 metronidazole，† 代表可先經驗性使用 quinolone。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h138-1.png",
+          "label": "圖 138-1 社區感染性腹瀉或細菌性食物中毒的處理流程",
+          "caption": "用糞便白血球分流：沒有就症狀治療；有就培養 Shigella、Salmonella、C. jejuni，並考慮 C. difficile。",
+          "explain": "病程 >10 天時加驗寄生蟲。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "臨床情況",
+            "處理"
+          ],
+          "rows": [
+            [
+              "輕度",
+              "補水即可"
+            ],
+            [
+              "中度、無發燒、無血便",
+              "可加 loperamide"
+            ],
+            [
+              "嚴重脫水、嬰兒與老人",
+              "靜脈補水（Ringer's lactate）"
+            ],
+            [
+              "發燒腹瀉、中重度",
+              "經驗性 ciprofloxacin 500 mg bid 3–5 天，或 azithromycin"
+            ],
+            [
+              "免疫低下、機械瓣膜、近期血管移植物、老人",
+              "不論是否找到病原都給抗生素"
+            ],
+            [
+              "EHEC",
+              "不給抗生素"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：病原與併發症的關聯",
+          "text": "- **反應性關節炎**：Salmonella、Campylobacter、Shigella、Yersinia\n- **HUS**：EHEC O157:H7、Shigella；EHEC 用抗生素 HUS 風險增加約 20 倍\n- **Guillain-Barré syndrome**：Campylobacter\n- **感染後 IBS**：尤其 Campylobacter\n- **Yersinia**：侵犯末端迴腸與近端大腸，痛得像闌尾炎\n- 血色素沉著症患者特別容易得嚴重 Vibrio 與 Yersinia 感染"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：個別病原的抗生素",
+          "text": "- **霍亂**：TCBS 培養；tetracycline 或 ciprofloxacin\n- **Salmonella**：抗生素會延長帶菌，只給高風險者。Harrison 列嬰兒、人工裝置、>50 歲、免疫低下；FC 講義寫 >65 歲\n- **Campylobacter**：azithromycin\n- **Yersinia**：ciprofloxacin 或 TMP-SMX\n- **阿米巴、Giardia**：metronidazole"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：非感染性的急性腹瀉",
+          "text": "- 藥物：抗生素、抗心律不整藥、降血壓藥、NSAID、部分抗憂鬱藥、化療、制酸劑、瀉劑\n- **缺血性大腸炎**：多 >50 歲，先下腹痛，水瀉後血便，常在乙狀結腸或左側結腸，直腸不受影響\n- 毒素：有機磷、毒菇、砷、ciguatera、scombroid\n- 急性腹瀉不做血清學或內視鏡來篩潛在腸道疾病"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：高風險族群",
+          "text": "- 托兒所：Shigella、Giardia、Cryptosporidium、rotavirus\n- 住院與長照機構：最常見 C. difficile\n- AIDS：Mycobacterium、CMV、Cryptosporidium、Isospora、microsporidia\n- 宿主因素：胃酸是屏障，PPI 增加風險；opioid 會延長 Shigella 病程"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.49 p.305–307（Table 49-2、Fig.49-3）；Ch.138 p.1076–1082（Table 138-1、Table 138-2、Fig.138-1）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 講義 p.25–27"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 考題 p.30"
+        }
+      ]
+    },
+    {
+      "title": "食物中毒　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 看**潛伏期**決定答案\n- **1–6 小時**：**S. aureus**（火腿、馬鈴薯沙拉、奶油糕點）、**B. cereus**（炒飯，嘔吐型）\n- **8–16 小時**：**C. perfringens**、B. cereus 腹瀉型\n- **>16 小時**：V. cholerae、ETEC、EHEC、Salmonella、Campylobacter、Shigella、V. parahaemolyticus\n- 短潛伏期是**預先形成的毒素**：嘔吐明顯、幾乎不發燒"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "潛伏期",
+            "病原",
+            "線索"
+          ],
+          "rows": [
+            [
+              "<1 小時",
+              "河豚毒",
+              "FC 講義列出"
+            ],
+            [
+              "1–6 小時",
+              "S. aureus、B. cereus 嘔吐型",
+              "預先形成毒素、以嘔吐為主、不發燒"
+            ],
+            [
+              "8–16 小時",
+              "C. perfringens、B. cereus 腹瀉型",
+              "腹部絞痛、水瀉"
+            ],
+            [
+              ">16 小時",
+              "Vibrio、ETEC、EHEC、Salmonella、Campylobacter、Shigella",
+              "細菌在腸道內繁殖或侵襲"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.138 Table 138-4；Ch.49 Table 49-2"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 講義 p.26"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 考題 p.32"
+        }
+      ]
+    },
+    {
+      "title": "旅行者腹瀉與寄生蟲　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 旅行者腹瀉是**國際旅遊者最常見的疾病**，發生率 20–50%\n- 最常見病原是**細菌**：**ETEC**、EAEC；亞洲要想到 C. jejuni\n- 多半 **1–5 天自癒**，治療以**補水**為主\n- **不常規用抗生素預防**；只有免疫低下、IBD、血色素沉著症、胃酸缺乏等高風險者才考慮\n- 有發燒或痢疾時不用 loperamide；嚴重才給抗生素\n- **Giardia**：露營、背包客、持續數週水瀉、脹氣、上腹絞痛、體重減輕、**不發燒** → **metronidazole**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "情境",
+            "想到的病原"
+          ],
+          "rows": [
+            [
+              "一般旅行",
+              "ETEC、EAEC"
+            ],
+            [
+              "亞洲旅行",
+              "C. jejuni"
+            ],
+            [
+              "郵輪群聚",
+              "Norovirus"
+            ],
+            [
+              "露營、背包客、游泳",
+              "Giardia、Cyclospora"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "病原",
+            "臨床",
+            "治療"
+          ],
+          "rows": [
+            [
+              "Giardia",
+              "脹氣、水瀉或糊便，可吸收不良；持續性腹瀉常見原因",
+              "metronidazole 250 mg qid 7 天；抗藥時 nitazoxanide"
+            ],
+            [
+              "E. histolytica",
+              "嚴重發炎、血便",
+              "metronidazole"
+            ],
+            [
+              "Cryptosporidium",
+              "免疫低下時嚴重",
+              "nitazoxanide"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：旅行者腹瀉的細節",
+          "text": "- 抵達後 3 天至 2 週發病，多在前 3–5 天\n- 約 1% 變成慢性腹瀉，約 10% 之後出現 IBS\n- 治療：bismuth 或 loperamide；嚴重時單次 azithromycin 或 ciprofloxacin 3–5 天\n- bismuth 也能減少旅行者腹瀉，但免疫低下與腎功能不全者不用（bismuth 腦病變）\n- rifaximin 不適用於侵襲性疾病"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Giardia 怎麼診斷",
+          "text": "- 糞便 **Giardia 抗原**是最敏感的檢查\n- 高度懷疑時可直接試 metronidazole，例如登山後持續脹氣與腹瀉\n- 選擇性 IgA 缺乏或 common variable hypogammaglobulinemia 的患者容易反覆發生"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.138 p.1076–1082；Ch.49 p.305–307、p.309、p.311"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 講義 p.27"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 考題 p.30、32"
+        }
+      ]
+    },
+    {
+      "title": "C. difficile 與偽膜性大腸炎　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **住院 + 抗生素 + 腹瀉 = C. difficile**\n- 高風險抗生素：clindamycin、ampicillin、cephalosporin、fluoroquinolone\n- 診斷：**≥3 次不成形便／24 小時、持續 ≥2 天**，加上糞便毒素或 NAAT 陽性，或看到偽膜\n- 毒素 EIA **敏感度不足**：陰性不能排除；培養陽性也可能只是定殖\n- 不用 loperamide；**先停原本的抗生素**\n- 第一線：**fidaxomicin 或 oral vancomycin**；**IV vancomycin 無效**\n- 猛爆型：vancomycin 500 mg PO/NG + **IV metronidazole**，並找外科\n- 洗手要用**肥皂和水**；酒精乾洗手殺不了芽孢"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **第一線已不是 metronidazole**：Harrison 依 2021 IDSA/SHEA，初次輕中度用 fidaxomicin 200 mg bid 或 vancomycin 125 mg qid，各 10 天；metronidazole 只在**兩者都無法取得**時使用。FC 講義的台灣 2020 指引仍把 metronidazole 列為輕中度選項，FC 105 年也以它為答案。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "嚴重度",
+            "定義",
+            "治療"
+          ],
+          "rows": [
+            [
+              "初次輕中度",
+              "WBC <15000、Cr <1.5",
+              "fidaxomicin 200 mg bid 或 vancomycin 125 mg qid × 10 天"
+            ],
+            [
+              "初次嚴重",
+              "WBC ≥15000 或 Cr ≥1.5",
+              "同上"
+            ],
+            [
+              "猛爆型",
+              "低血壓、休克、ileus、巨結腸",
+              "vancomycin 500 mg PO/NG + IV metronidazole ± 直腸灌 vancomycin；外科（lactate <5 之前）"
+            ],
+            [
+              "復發",
+              "15–30%",
+              "fidaxomicin；多次復發 vancomycin taper-pulse、rifaximin、糞便菌叢移植"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h139-1.png",
+          "label": "圖 139-1 偽膜性大腸炎的大體標本",
+          "caption": "盲腸佈滿融合的黃白色偽膜，箭頭處末端迴腸沒有被侵犯。",
+          "explain": "偽膜由小斑塊融合而成，含白血球、纖維素、黏液與細胞碎屑。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "檢查",
+            "重點"
+          ],
+          "rows": [
+            [
+              "毒素 EIA",
+              "特異性高、敏感度不足"
+            ],
+            [
+              "GDH",
+              "篩檢用，要搭配毒素檢查"
+            ],
+            [
+              "NAAT",
+              "敏感，但可能測到定殖"
+            ],
+            [
+              "內視鏡",
+              "看到偽膜約只有 50%"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：病原與流行病學",
+          "text": "- 革蘭氏陽性、厭氧、會形成芽孢的桿菌；**toxin B** 是主要致病毒素\n- 住院 >2 週定殖率 ≥20%，社區 1–3%\n- 沒用過抗生素、社區感染也可能發生\n- 環境清潔用 bleach"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：臨床表現容易忽略的地方",
+          "text": "- 糞便幾乎不帶明顯血\n- 發燒約 28%、腹痛約 22%、白血球升高約 50%\n- **ileus 時可以沒有腹瀉**：不明原因 WBC ≥15000 要想到\n- 約 10% 直腸不受影響（rectal sparing）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：不用做的事與新治療",
+          "text": "- 不做 test of cure，也不驗無症狀者\n- 止瀉藥一般避免\n- 多次復發：FMT 產品（Rebyota、Vowst）；高風險者可用 bezlotoxumab"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：FC 講義的台灣 2020 指引",
+          "text": "- 重度條件：sCr >1.5、WBC >15000、Alb <2.5、Age >65、腹瀉 >10 次、ICU 或腫瘤患者\n- 輕中度：metronidazole 500 mg TID、vancomycin 125 mg QID、fidaxomicin\n- 重度：vancomycin、fidaxomicin、teicoplanin\n- 猛爆型：vancomycin + IV metronidazole + 外科"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.139 p.1082–1086（Table 139-2、Fig.139-1）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 講義 p.28–29"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 考題 p.31、32"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "腸道吸收與腹瀉分類（§腸道吸收與腹瀉分類）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：有關胃腸道吸收，何者正確？（A 鐵與鈣的吸收主要在上端小腸 B 膽酸的吸收主要在大腸 C 維生素 A、D、E、K 為水溶性維生素 D 分泌型腹瀉在禁食 24 小時後腹瀉會減輕）（FC 113 年）",
+          "text": "**答：(A)。** 膽酸在迴腸吸收；A、D、E、K 是脂溶性；分泌性腹瀉與進食無關，禁食不會減輕。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：有關腹瀉，何者錯誤？（A 滲透性腹瀉禁食後會改善 B 分泌性腹瀉禁食後不會改善 C 脂肪瀉指糞便脂肪超過正常量 1 天 7 克 D 超過 4 個月為慢性腹瀉）（FC 103 年）",
+          "text": "**答：(D)。** 慢性腹瀉的門檻是週，不是月。Harrison Ch.49 為 >4 週，Ch.138 圖註為 >2 週，FC 講義為 >3 週；三者都遠低於 4 個月。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：有關乳糖不耐症，何者錯誤？（A 臨床可出現腹脹、腹瀉、腹痛、脹氣、放屁 B 亞洲人 90% 左右有此困擾，白種人不到 25% C 腹瀉屬分泌性，停用乳糖製品可改善 D 補充乳糖酵素可改善，含活乳酸菌之優酪乳因可產生乳糖酵素，病人可接受）（FC 105 年）",
+          "text": "**答：(C)。** 乳糖不耐是滲透性腹瀉。"
+        },
+        {
+          "type": "heading",
+          "text": "急性感染性腹瀉（§急性感染性腹瀉）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：哪種微生物致病所需菌量最大？（A Shigella B Entamoeba histolytica C Giardia lamblia D Vibrio cholerae）（FC 106 年）",
+          "text": "**答：(D)。** V. cholerae 需 10⁵–10⁸ 隻；其餘三者 10–100 隻即可致病。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：腹瀉 3 天，水狀、每天至少 10 次，偶有腹痛，發燒 38.6°C，acetaminophen 後稍退又燒，無噁心嘔吐，怕腹瀉不敢進食喝水。何者錯誤？（A 可能是感染性腹瀉，應趕快檢查病因 B 大便應送檢，含 pus cells、parasites ova，甚至細菌及病毒培養 C 除補水外，應立即給強力止瀉藥以遏止腹瀉 D 若有 pus cells，病原未確定前試用抗生素（quinolone 或 metronidazole）合宜）（FC 107 年）",
+          "text": "**答：(C)。** 發燒的感染性腹瀉不給強力止瀉藥，FC 詳解指出會導致嚴重腹脹；Harrison 也說會延長發燒痢疾的病程。"
+        },
+        {
+          "type": "heading",
+          "text": "食物中毒（§食物中毒）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：小學生吃營養午餐後 1–6 小時出現噁心、嘔吐、腹瀉，除 Staphylococcus aureus 外，亦最可能是？（A Bacillus cereus B Campylobacter jejuni C Salmonella D Vibrio parahaemolyticus）（FC 104 年）",
+          "text": "**答：(A)。** 1–6 小時是預先形成的毒素：S. aureus 與 B. cereus。其餘選項潛伏期都 >16 小時。"
+        },
+        {
+          "type": "heading",
+          "text": "旅行者腹瀉與寄生蟲（§旅行者腹瀉與寄生蟲）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：30 歲健康男性出國，有關旅行者腹瀉，何者錯誤？（A 應該使用抗生素預防 B 細菌感染是最常見致病原因 C 治療以補充液體最重要 D 大部分會自己好）（FC 106 年）",
+          "text": "**答：(A)。** 抗生素預防只留給高風險旅客，健康成人不需要。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：國際旅遊者最常見的疾病是？（A 旅遊者腹瀉 B 性傳染病 C 寄生蟲 D 瘧疾）（FC 103 年）",
+          "text": "**答：(A)。** 旅行者腹瀉發生率 20–50%，是最常見的旅遊感染。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：杜先生 26 歲，俄羅斯遊學 1 個月返國後，持續 6 週上腹絞痛、打嗝、過度排氣及水瀉，無發燒，體重減輕 5 公斤。最可能的病原是？（A ETEC B Giardia lamblia C Salmonella enteritidis D Shigella sonnei）（FC 103 年）",
+          "text": "**答：(B)。** 持續數週、脹氣、不發燒、體重減輕，是 Giardia 的典型。ETEC 多 1–5 天自癒；Salmonella、Shigella 會發燒。"
+        },
+        {
+          "type": "heading",
+          "text": "C. difficile（§C. difficile 與偽膜性大腸炎）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：65 歲男性因嚴重肺炎合併呼吸衰竭入加護病房，廣效抗生素三天後退燒，第 5 天出現腹痛、腹脹及水便（每日至少五次）。何者最適當？（A 糞便 toxin 陰性可排除 C. difficile 相關腹瀉 B 糞便培養長出 C. difficile 可確診 C 症狀明顯可先用 loperamide D 可用口服 metronidazole）（FC 105 年）",
+          "text": "**答：(D)，當年答案。** 毒素檢驗敏感度不足，陰性不能排除；培養陽性可能只是定殖；止瀉藥要避免。📌 現在 Harrison 第一線是 fidaxomicin 或 vancomycin，metronidazole 只在兩者都無法取得時使用。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：偽膜性大腸炎的致病菌是？（A Clostridium difficile B Campylobacter jejuni C E. coli O157:H7 D Cryptosporidium）（FC 103 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：75 歲男性肺炎住院治療中出現發燒、腹瀉不止，糞便有白血球及紅血球，大腸鏡如圖。最可能的原因？（A Vibrio cholerae B Clostridium difficile C hemorrhagic E. coli D Salmonella）（FC 104 年）",
+          "text": "**答：(B)。** 住院、抗生素、腹瀉，加上內視鏡的黃白色偽膜斑塊。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/fc-pmc-colonoscopy.png",
+          "label": "FC 104 年考題大腸鏡圖",
+          "caption": "黏膜上散在融合的白黃色斑塊，就是偽膜。",
+          "explain": "題目附圖，對應 Q12。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "病程",
+              "急性 <2 週；持續性 2–4 週；慢性 >4 週"
+            ],
+            [
+              "滲透性 vs 分泌性",
+              "滲透性禁食會好、滲透壓差 >50；分泌性禁食不好"
+            ],
+            [
+              "脂肪瀉",
+              "糞便脂肪 >7 g/天"
+            ],
+            [
+              "吸收部位",
+              "鐵鈣上端小腸；膽酸迴腸；ADEK 脂溶性"
+            ],
+            [
+              "菌量",
+              "Vibrio 10⁵–10⁸；Shigella、Giardia、Entamoeba 10–100"
+            ],
+            [
+              "止瀉藥",
+              "發燒痢疾、EHEC、C. difficile 都避免"
+            ],
+            [
+              "EHEC",
+              "不給抗生素，HUS 風險"
+            ],
+            [
+              "食物中毒",
+              "1–6 h S. aureus、B. cereus；8–16 h C. perfringens"
+            ],
+            [
+              "旅行者腹瀉",
+              "ETEC 最多；1–5 天自癒；補水；不常規預防"
+            ],
+            [
+              "Giardia",
+              "露營、持續脹氣水瀉、不燒；metronidazole"
+            ],
+            [
+              "C. difficile",
+              "fidaxomicin 或 oral vancomycin；猛爆加 IV metronidazole"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -168,6 +168,10 @@
         {
           "id": "gi-bleeding",
           "name": "GI Bleeding (腸胃道出血)"
+        },
+        {
+          "id": "diarrhea",
+          "name": "Diarrhea (腹瀉)"
         }
       ]
     },
