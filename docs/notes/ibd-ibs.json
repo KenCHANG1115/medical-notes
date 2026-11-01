@@ -1,0 +1,674 @@
+{
+  "id": "ibd-ibs",
+  "title": "IBD & IBS (發炎性腸道疾病與腸躁症)",
+  "title_en": "Inflammatory Bowel Disease & Irritable Bowel Syndrome",
+  "title_zh": "發炎性腸道疾病與腸躁症",
+  "specialty": "肝膽腸胃內科",
+  "sources": [
+    "Harrison's 22e - Ch.337 Inflammatory Bowel Disease (p.2551-2571)；Ch.338 Irritable Bowel Syndrome (p.2571-2578)",
+    "First Choice 醫學(三) 第2冊 - 辛、腸道疾病 (p.69-79，14 題)"
+  ],
+  "generated": "2026-11-02",
+  "updated": "2026-11-02",
+  "related": [
+    {
+      "id": "diarrhea",
+      "name": "Diarrhea (腹瀉)"
+    },
+    {
+      "id": "hepatitis-chronic-b-d",
+      "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"
+    },
+    {
+      "id": "liver-tests-jaundice",
+      "name": "Liver Function Tests & Jaundice (肝功能異常與黃疸)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：怎麼讀這篇",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "FC 辛、腸道疾病的 IBD 與 IBS 共 **14 題**（103–113 年）。出題集中在 **UC 與 Crohn 的比較**、**抽菸與闌尾切除的相反效果**、**類固醇不能維持治療**、**IBS 沒有發炎證據**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**：先看有沒有發炎或器質性證據。血便、體重減輕、夜間症狀、貧血、calprotectin 升高 → 往 IBD 走，再分 UC 與 Crohn；都沒有，且腹痛與排便相關 → IBS。"
+        }
+      ]
+    },
+    {
+      "title": "UC 與 Crohn's disease 比較　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **UC**：從**直腸**開始往近端**連續**延伸，只侵犯**黏膜**；血便、裡急後重、黏液便\n- **Crohn**：口到肛門都可能，**末端迴腸**最常見；**跳躍式**、**全層**；常**不侵犯直腸**\n- Crohn 特徵：**cobblestone**、**非乾酪性肉芽腫**、**瘻管**、**狹窄**、肛門周圍病灶、右下腹腫塊\n- UC 特徵：**crypt abscess**、偽息肉、**中毒性巨結腸**（橫結腸或右側結腸 >6 cm）\n- UC 與 **PSC** 相關：約 5% UC 有 PSC；50–75% PSC 有 IBD\n- 腸外表現與腸道活性**平行**：周邊關節炎、結節性紅斑、鞏膜外層炎\n- 腸外表現與腸道活性**無關**：僵直性脊椎炎、薦腸關節炎、壞疽性膿皮症、葡萄膜炎"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "UC",
+            "Crohn's disease"
+          ],
+          "rows": [
+            [
+              "範圍",
+              "直腸往近端連續；僅大腸",
+              "全消化道，末端迴腸最常見"
+            ],
+            [
+              "直腸",
+              "幾乎都侵犯",
+              "常不侵犯"
+            ],
+            [
+              "深度",
+              "黏膜",
+              "全層"
+            ],
+            [
+              "分布",
+              "連續",
+              "跳躍式（skip lesion）"
+            ],
+            [
+              "內視鏡",
+              "紅斑、易脆、融合性潰瘍、偽息肉",
+              "aphthous 潰瘍、線狀潰瘍、cobblestone"
+            ],
+            [
+              "病理",
+              "crypt abscess、隱窩結構扭曲",
+              "非乾酪性肉芽腫"
+            ],
+            [
+              "主症狀",
+              "血便、裡急後重、黏液便",
+              "右下腹痛、腹瀉、體重減輕、阻塞"
+            ],
+            [
+              "併發症",
+              "中毒性巨結腸、大出血",
+              "瘻管、狹窄、膿瘍、肛門周圍病灶"
+            ],
+            [
+              "手術",
+              "全大腸切除＋IPAA",
+              "只切除必要的腸段"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h337-3.png",
+          "label": "圖 337-3 潰瘍性結腸炎",
+          "caption": "瀰漫性、不分節的黏膜病灶，大片潰瘍。",
+          "explain": "腸壁沒有增厚，也沒有 cobblestone。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h337-5.png",
+          "label": "圖 337-5 大腸 Crohn's disease",
+          "caption": "腸壁增厚、狹窄，線狀潰瘍與 cobblestone。",
+          "explain": "線狀與橫向潰瘍圍出一島一島的黏膜。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "腸外表現",
+            "與腸道活性",
+            "備註"
+          ],
+          "rows": [
+            [
+              "周邊關節炎",
+              "平行",
+              "不對稱、遊走、大關節；Crohn 較多"
+            ],
+            [
+              "結節性紅斑",
+              "平行",
+              "Crohn 約 15%、UC 約 10%"
+            ],
+            [
+              "鞏膜外層炎",
+              "平行",
+              "輕微灼熱感"
+            ],
+            [
+              "壞疽性膿皮症",
+              "無關",
+              "UC 1–12%；不做清創或為此切大腸"
+            ],
+            [
+              "葡萄膜炎",
+              "無關",
+              "眼痛、畏光、視力模糊；要儘快治療"
+            ],
+            [
+              "僵直性脊椎炎",
+              "無關",
+              "約三分之二 HLA-B27 陽性"
+            ],
+            [
+              "薦腸關節炎",
+              "無關",
+              "對稱；UC 與 Crohn 一樣多"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：病灶範圍與嚴重度",
+          "text": "- UC：40–50% 限於直腸與直乙結腸；約 20% 全大腸炎\n- 全大腸炎時 10–20% 有 backwash ileitis\n- Crohn：30–40% 只有小腸；40–55% 小腸加大腸；15–25% 只有大腸\n- UC 重度（Montreal S3）：血便 ≥6 次／天、脈搏 ≥90、體溫 ≥37.5°C、Hb <10.5、ESR ≥30"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Crohn 的併發症細節",
+          "text": "- 迴結腸炎可像急性闌尾炎：右下腹痛、腫塊、發燒、白血球升高\n- **string sign**：嚴重狹窄的腸段在影像上像細線\n- 瘻管：腸膀胱瘻反覆泌尿道感染、氣尿；腸皮膚瘻多經手術疤痕；腸陰道瘻\n- 高燒要想到腹內膿瘍，標準處置是 CT 導引引流\n- 鈣草酸結石：脂肪酸與鈣結合，游離草酸被大腸吸收\n- 膽結石：迴腸病變使膽酸流失\n- 廣泛小腸病灶可造成 B12、葉酸、A、E、K 缺乏"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：檢驗與鑑別",
+          "text": "- 糞便 **calprotectin**、**lactoferrin**：分辨活動性發炎與 IBS\n- 診斷前要排除感染：細菌、C. difficile 毒素、寄生蟲、病毒\n- ASCA 與 pANCA 的臨床用途不明確\n- 約 15% 的 IBD 一開始無法分辨 UC 與 Crohn（indeterminate colitis）\n- 缺血性腸炎：老人、突發左下腹痛、鮮血便，直腸正常，降結腸與脾彎曲處病變\n- 顯微性結腸炎：大腸鏡外觀正常，要靠切片\n- 免疫檢查點抑制劑也會造成結腸炎"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：癌症監測",
+          "text": "- 廣泛性結腸炎 >8–10 年，或直乙結腸炎 12–15 年：每 1–2 年大腸鏡加多點切片\n- 合併 PSC：每年大腸鏡\n- 危險因子：病程長、範圍廣、家族史、PSC、狹窄、發炎後偽息肉\n- 大腸鏡過不去的 UC 狹窄，未證實前都當惡性\n- 平坦型高度異生：大腸切除\n- FC 講義列 UC 癌變 10–30%；Harrison 引統合分析為 10 年 2%、20 年 8%、30 年 18%，並指出近年風險下降"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.337 p.2555–2563、p.2570–2571（Table 337-4、337-7）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "辛、腸道疾病 講義 p.69"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "辛、腸道疾病 考題 p.72、73、75"
+        }
+      ]
+    },
+    {
+      "title": "IBD 流行病學與危險因子　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 好發：**20–40 歲**為主，**60–80 歲**有第二小高峰\n- **抽菸**：**增加 Crohn**、**降低 UC**\n- **闌尾切除**：**保護 UC**，不保護 Crohn\n- **口服避孕藥**：增加 **Crohn**\n- 出生第一年感染或使用抗生素：風險增加\n- 亞洲新興工業化國家發生率**上升**，但仍低於歐美\n- 最強危險因子：**一等親**有 IBD；同卵雙胞胎一致率 Crohn 高於 UC"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "因子",
+            "UC",
+            "Crohn"
+          ],
+          "rows": [
+            [
+              "抽菸",
+              "降低（OR 0.58）",
+              "增加（OR 1.76）"
+            ],
+            [
+              "口服避孕藥",
+              "僅限有抽菸史的女性相關",
+              "增加（HR 2.82）"
+            ],
+            [
+              "闌尾切除",
+              "保護（風險降 13–26%）",
+              "不保護"
+            ],
+            [
+              "同卵雙胞胎一致率",
+              "6–18%",
+              "38–58%"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他流行病學",
+          "text": "- 男女比差異不大，IBD 不算有性別傾向\n- 感染性腸胃炎（Salmonella、Shigella、Campylobacter、C. difficile）使 IBD 風險增加 2–3 倍\n- 哺乳可能有保護作用；維生素 D 可能降低 Crohn 風險\n- 台灣發生率每年增加：Crohn +4.0%、UC +4.8%\n- 東亞 Crohn 以迴結腸型最多，肛門周圍病灶也比白人多\n- NOD2 與纖維狹窄型 Crohn 相關\n- 懷孕：MTX 致畸，受孕前至少停 3 個月；tofacitinib、upadacitinib 不用；sulfasalazine 要補葉酸"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.337 p.2551–2554、p.2569–2570（Table 337-1）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "辛、腸道疾病 講義 p.69"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "辛、腸道疾病 考題 p.72、74"
+        }
+      ]
+    },
+    {
+      "title": "IBD 治療　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **5-ASA**：UC 的誘導與**維持**；口服加灌腸比單用好\n- **類固醇**：只用於**誘導緩解**，**不能維持**\n- **azathioprine、6-MP**：常與生物製劑併用；注意白血球低下、胰臟炎、TPMT 缺乏、淋巴瘤\n- **生物製劑**：減少類固醇、促進**瘻管**癒合；用前驗 **TB** 與 **HBV**\n- anti-TNF 可造成 **HBV 再活化**；禁用於多發性硬化症、NYHA III/IV 心衰竭\n- **Crohn** 急性期 bowel rest + TPN 誘導緩解效果接近類固醇；**UC 無效**\n- 抗生素在 UC 沒有角色，**pouchitis** 例外\n- 傳統藥物無效，先考慮生物製劑，不是直接手術"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **生物製劑已常作為中重度 IBD 的初始治療**：Harrison 不再把它放到階梯最後，而是及早使用。可選藥物也擴大到 vedolizumab、ustekinumab、risankizumab、JAK 抑制劑與 ozanimod。FC 講義仍是 5-ASA → 類固醇 → thiopurine → 生物製劑的階梯。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h337-12.png",
+          "label": "圖 337-12 IBD 的藥物治療",
+          "caption": "金字塔由下往上逐步加強；類固醇都標明只用於誘導緩解。",
+          "explain": "Crohn 的瘻管型以膿瘍引流與抗生素為底，再用生物製劑。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物",
+            "機轉",
+            "重點"
+          ],
+          "rows": [
+            [
+              "Sulfasalazine",
+              "sulfapyridine + 5-ASA",
+              "5-ASA 是抗發炎成分；副作用來自 sulfapyridine；補葉酸"
+            ],
+            [
+              "Infliximab、adalimumab",
+              "anti-TNF",
+              "UC 與 Crohn；瘻管型 Crohn"
+            ],
+            [
+              "Vedolizumab",
+              "anti-α4β7 integrin",
+              "腸道選擇性，全身感染風險不增加"
+            ],
+            [
+              "Ustekinumab",
+              "anti-IL-12/23 p40",
+              "合併乾癬性關節炎時特別合適"
+            ],
+            [
+              "Risankizumab",
+              "anti-IL-23 p19",
+              "Crohn"
+            ],
+            [
+              "Tofacitinib、upadacitinib",
+              "JAK 抑制劑",
+              "anti-TNF 失敗後；心血管、血栓、帶狀皰疹風險"
+            ],
+            [
+              "Ozanimod",
+              "S1P 受體調節",
+              "UC"
+            ],
+            [
+              "Cyclosporine IV",
+              "calcineurin 抑制",
+              "類固醇無效的重度 UC"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "手術",
+            "UC",
+            "Crohn"
+          ],
+          "rows": [
+            [
+              "適應症",
+              "難治、猛爆、中毒性巨結腸、穿孔、大出血、異生或癌",
+              "阻塞、瘻管、膿瘍、大出血、難治"
+            ],
+            [
+              "術式",
+              "全大腸直腸切除＋IPAA",
+              "切除病變腸段、strictureplasty"
+            ],
+            [
+              "結果",
+              "可消除腸道病灶；pouchitis 30–50%",
+              "無法治癒，多數一生至少手術一次"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：藥物副作用",
+          "text": "- 5-ASA：頭痛、噁心、掉髮；腎功能受損，每年驗腎功能與尿液\n- 類固醇：骨質疏鬆、骨壞死、白內障、高血糖、肌病變\n- Azathioprine：胰臟炎 3–4%，多在開始後數週；約 1/300 缺 TPMT\n- MTX：白血球低下、肝纖維化、過敏性肺炎\n- Cyclosporine：腎毒性、高血壓、牙齦增生、癲癇\n- Anti-TNF：TB、黴菌感染、乾癬樣皮疹、黑色素瘤、脫髓鞘\n- Natalizumab：PML，已不用於 Crohn\n- 肝脾 T 細胞淋巴瘤：多為年輕男性，幾乎都用過 thiopurine"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：生物製劑的高風險對象",
+          "text": "- UC：中重度、類固醇依賴或無效、難治性 pouchitis\n- Crohn：<30 歲、範圍廣、肛門周圍或嚴重直腸病灶、大腸深潰瘍、狹窄或穿透型\n- Infliximab 合併 azathioprine 比單用好\n- IPAA 在 Crohn 一般禁用，因為 pouch 失敗率高\n- Vedolizumab 在 UC 第一線比 adalimumab 有效"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.337 p.2564–2569（Table 337-9、337-10、Fig.337-12）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "辛、腸道疾病 講義 p.69–71"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "辛、腸道疾病 考題 p.73–74"
+        }
+      ]
+    },
+    {
+      "title": "腸躁症（IBS）　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **功能性**疾病：**沒有**結構異常、**沒有**發炎或出血\n- Rome IV：過去 3 個月**平均每週至少 1 天腹痛**，合併 ≥2 項：與排便相關、排便頻率改變、糞便性狀改變\n- 症狀**至少 6 個月前**開始\n- 女性是男性 **2–3 倍**；重度 IBS 約 **80% 為女性**\n- 分型：便秘型、腹瀉型、混合型\n- **calprotectin 正常**；潛血與白血球陰性\n- 第一步：**同理與衛教**，找誘發食物，**低 FODMAP 飲食**\n- 反對 IBS 的警訊：老年才發病、血便、體重減輕、夜間腹瀉、貧血、禁食 48 小時仍腹瀉"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **Rome IV 只算腹痛**：Rome III 的「不適」已移除，頻率也提高到每週至少 1 天。FC 講義仍寫「腹痛或不適」。無痛的腹瀉或便秘不算 IBS。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主症狀",
+            "藥物"
+          ],
+          "rows": [
+            [
+              "腹瀉",
+              "loperamide、膽酸結合劑、eluxadoline、rifaximin"
+            ],
+            [
+              "便秘",
+              "psyllium、PEG、lubiprostone、linaclotide、plecanatide、tenapanor"
+            ],
+            [
+              "腹痛",
+              "抗痙攣藥、三環抗憂鬱劑、低 FODMAP"
+            ],
+            [
+              "脹氣",
+              "低 FODMAP、益生菌、rifaximin"
+            ],
+            [
+              "重度持續",
+              "神經調節藥物與心理治療"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "支持 IBS",
+            "反對 IBS"
+          ],
+          "rows": [
+            [
+              "反覆下腹痛合併排便習慣改變、未惡化",
+              "老年才第一次發病、持續進展"
+            ],
+            [
+              "壓力時發作",
+              "直腸出血、明顯體重減輕"
+            ],
+            [
+              "無發燒、無體重減輕",
+              "夜間腹瀉、脂肪便"
+            ],
+            [
+              "少量糞便、無血",
+              "貧血、ESR 升高、糞便有白血球或血"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：病生理",
+          "text": "- 多因子：蠕動異常、內臟過度敏感、腦腸互動異常、心理因素、黏膜發炎、菌叢失調、膽酸吸收不良\n- 感染性腸炎後 >10% 發生 IBS，風險約 4 倍；女性、年輕者較多\n- 精神異常特徵最高可達 80%，轉診中心尤多，但沒有單一診斷\n- 通常症狀在清醒時出現，很少影響睡眠或造成營養不良"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：檢查",
+          "text": "- 典型且無警訊：少做檢查；多數人驗 CBC\n- IBS-D：驗糞便 calprotectin 或 lactoferrin 或 CRP，排除 IBD；乳糜瀉血清學視盛行率\n- 有警訊、>40 歲才發病、一般治療無效：大腸鏡\n- 持續腹瀉：隨機切片排除顯微性結腸炎\n- 腹瀉與脹氣為主：排除乳糖酶缺乏"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：治療細節",
+          "text": "- 三環抗憂鬱劑對各型 IBS 都有效，作用比抗憂鬱更快、劑量更低；SSRI 結果不一致\n- 水溶性纖維（psyllium）有用，麥麩沒有\n- Rifaximin：FDA 核准用於 IBS-D，復發再治療仍有效\n- 低 FODMAP：50–80% 改善；限制 2–6 週、再逐項加回、最後個人化\n- Eluxadoline：曾切膽囊、大量飲酒或有胰臟炎史者不用\n- Tegaserod：只限 <65 歲、無缺血性心血管病的女性\n- 益生菌：證據不足，AGA 沒有建議\n- 嚴重度：輕度 70%、中度 25%、重度 5%"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.338 p.2571–2578（Table 338-1、338-3、338-4）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "辛、腸道疾病 講義 p.76–77"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "辛、腸道疾病 考題 p.77–79"
+        }
+      ]
+    },
+    {
+      "title": "小腸吸收　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **B12**：**迴腸末端**，切十二指腸不影響\n- **鐵、鈣**：十二指腸與上端小腸\n- **葉酸**：十二指腸與近端空腸\n- 切除或病變在哪一段，就缺該段吸收的物質；Crohn 迴腸病變常缺 B12、膽酸流失"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.336（葉酸吸收部位）；Ch.337 p.2558"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丙、腹瀉 考題 p.29 詳解（鐵、鈣）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "辛、腸道疾病 考題 p.73"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "UC 與 Crohn 比較（§UC 與 Crohn's disease 比較）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：陳小姐 40 歲，主訴右下腹部絞痛、腹瀉、噁心、體重減輕、發燒、大便帶黏液，反覆發作已 3 個月。右下腹摸到一腫塊，膝關節疼痛且有紅色結節，大腸鏡發現升結腸有鵝卵石（cobble stone）病變。何者錯誤？（A 病因可能與腸道菌叢及免疫力失調有關 B 可影響所有腸胃道，病灶常跳躍狀，嚴重時導致瘻管、膿瘍及狹窄 C 病理特徵是非乾酪性壞死肉芽腫 D 當使用 5-ASA、類固醇或免疫抑制劑治療無效時，下一步選擇為手術治療）（FC 113 年）",
+          "text": "**答：(D)。** 這是 Crohn's disease。傳統藥物無效應優先用生物製劑，不是直接手術。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：有關 UC 與 Crohn's disease 的描述，何者正確？（A UC 較容易有 skip lesion B Crohn 比較不容易有全身性症狀 C Crohn 比較容易併發腸道狹窄 D UC 比較不會有黏液血便）（FC 110 年）",
+          "text": "**答：(C)。** Crohn 較易有 skip lesion、全身症狀與狹窄；UC 侵犯直腸，較易有黏液血便。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：關於 UC 及 Crohn's disease 的比較，何者正確？（A 內視鏡下 UC 常有 rectal sparing，Crohn 較罕見 B 內視鏡下 UC 常有 cobblestoning，Crohn 較罕見 C 放射線檢查下 UC 不會呈現 segmental colitis，Crohn 常會 D 理學檢查 UC 常見 significant perineal disease，Crohn 罕有）（FC 107 年）",
+          "text": "**答：(C)。** A、B、D 都把兩者講反。FC 詳解補充：UC 病灶雖連續，但也可能只在某段大腸，兩者都可能呈現分段，所以 (C) 是相對最對的選項。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：36 歲男性，半年來斷續下腹痛、腹瀉、噁心、嘔吐、發燒及體重減輕。WBC 11,000、Hb 10.8、CRP 3.24。大腸鏡發現迴腸有狹窄及硬化。最可能的診斷？（A 克隆氏症 B 大腸癌 C 潰瘍性腸炎 D 阿米巴腸炎）（FC 103 年）",
+          "text": "**答：(A)。** 迴腸狹窄加上慢性發炎與體重減輕，是 Crohn。UC 只侵犯大腸。"
+        },
+        {
+          "type": "heading",
+          "text": "流行病學與危險因子（§IBD 流行病學與危險因子）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：有關 UC 及 Crohn's disease 之敘述，何者正確？（A 抽菸可增加 CD 的發生 B 口服避孕藥會增加 UC 的發生 C appendectomy 可預防 CD 的發生 D 不論 UC 或 CD，亞洲人的發生率高於美國人）（FC 112 年）",
+          "text": "**答：(A)。** 抽菸增加 Crohn、降低 UC；避孕藥增加的是 Crohn；闌尾切除保護 UC；亞洲發生率低於美國。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：關於 IBD 的敘述，何者正確？①發病高峰期在 20 至 40 歲 ②其發生率在亞洲已開發國家有上升趨勢 ③出生第一年有使用抗生素的嬰兒，未來發生 IBD 的風險比較高 ④有接受過闌尾切除手術，可以顯著降低發生 UC 與 Crohn's disease 的風險（A 僅①② B 僅①②③ C 僅②④ D ①②③④）（FC 108 年）",
+          "text": "**答：(B)。** 闌尾切除只保護 UC，不保護 Crohn。"
+        },
+        {
+          "type": "heading",
+          "text": "IBD 治療（§IBD 治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：關於 IBD 的治療，何者正確？①類固醇在 remission induction 與 maintenance therapy 都扮演很重要角色 ②生物製劑可以降低使用類固醇的機會 ③生物製劑可以增進瘻管（fistula）癒合，降低需手術或引流的機會 ④5-ASA 藥物為 UC 重要的維持治療藥物（A 僅①②③ B 僅②③④ C 僅②④ D ①②③④）（FC 109 年）",
+          "text": "**答：(B)。** 類固醇只用於誘導緩解。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：關於 IBD 的藥物治療，何者正確？（A sulfasalazine 可分解為 sulfapyridine（anti-inflammatory effect）及 5-ASA（antibacterial effect） B 急性症狀控制後，glucocorticoids 在 maintenance therapy 中為首選 C anti-TNF 可結合血液中 TNF-alpha，為中重度 UC 的重要治療；在慢性 B 型肝炎患者並沒有 reactivation 風險 D 急性發作時，bowel rest 加上 TPN 也具有 inducing remission of active Crohn's disease 的效果，其效果甚至與 glucocorticoids 相當）（FC 109 年）",
+          "text": "**答：(D)。** (A) 把作用講反，5-ASA 才是抗發炎成分。(B) 類固醇不用於維持。(C) anti-TNF 有 HBV 再活化風險。"
+        },
+        {
+          "type": "heading",
+          "text": "腸躁症（§腸躁症）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：關於腸躁症的敘述，何者錯誤？（A 糞便檢查常見糞便潛血反應，也可見到糞便中白血球過多 B 可依症狀分為便秘型、腹瀉型及混合型 C 治療第一步是同理及支持病人，建議飲食上避免會發酵的寡糖類及豆類食物 D 糞便體積增加劑、止瀉劑、瀉劑、抗腸痙攣藥物、血清素促進劑或拮抗劑、抗憂鬱劑、選擇性血清素回收抑制劑等藥物及益生菌可以用來治療）（FC 113 年）",
+          "text": "**答：(A)。** IBS 沒有發炎或出血。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：20 歲林小姐最近三個月早晨上班前間斷性下腹部絞痛，排便次數變多，糞便形態從正常轉成常便秘，有時又腹瀉，排便完腹部絞痛就減輕。何者錯誤？（A 各個年齡層都可能發作，女性較男性為多 B 糞便的 calprotectin 為其診斷性生物標記 C 常伴有脹氣、消化不良、噁心、嘔吐感等症狀 D 病理機轉仍不清楚，可能與腸道蠕動異常、腸道過度敏感、心理因素、腸道菌叢改變或腸道感染有關）（FC 111 年）",
+          "text": "**答：(B)。** calprotectin 用來鑑別 IBS 與 IBD，IBS 通常正常，不是它的診斷標記。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：關於大腸激躁症的敘述，何者正確？（A 主要為腸道壁的異常所致，與中樞神經較無關連性 B 急性感染性腸炎後發生的 IBS 以男生多於女生 C 患者以 45 歲以上者居多 D 嚴重 IBS 以女性居多，約占 80%）（FC 109 年）",
+          "text": "**答：(D)。** IBS 與腦腸互動密切；感染後 IBS 也是女性多；多數人 45 歲前就有症狀。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：關於大腸激躁症的敘述，何者正確？（A 嚴重 IBS 與腸道生理的相關性較強，與精神方面的異常關聯性較小 B 盛行率男性為女性的 2–3 倍 C 某些抗生素如 rifaximin 對於部分 IBS 病患會有效 D 抗憂鬱藥物對於 IBS 是無幫助的）（FC 108 年）",
+          "text": "**答：(C)。** 嚴重 IBS 與心理社會因素相關較強；女性較多；三環抗憂鬱劑有效。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：45 歲女性主管，過去一年經常肚子脹痛，平均每週 2 次，有時突然發作，趕快解大便後症狀緩解。大便有時 2–3 天才解一次，偶爾腹瀉，外觀與過去差不多，無血便，食慾尚可，體重未減輕，這一年工作壓力較大。何者錯誤？（A 可能罹患 IBS B 她的症狀很可能是因肛門直腸區域之結構異常所造成 C 病情可能與壓力有關 D 由於腹痛表現加上大便排泄與腹痛之關聯，表現較不似大腸癌）（FC 103 年）",
+          "text": "**答：(B)。** 這是典型 IBS，沒有結構異常。"
+        },
+        {
+          "type": "heading",
+          "text": "小腸吸收（§小腸吸收）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：若因腫瘤而切除十二指腸段，下列何者之吸收過程較不會受到影響？（A 鈣 B 維他命 B12 C 葉酸 D 鐵）（FC 111 年）",
+          "text": "**答：(B)。** B12 在迴腸末端吸收。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "UC",
+              "直腸開始、連續、黏膜、crypt abscess、血便、PSC"
+            ],
+            [
+              "Crohn",
+              "末端迴腸、跳躍、全層、肉芽腫、cobblestone、瘻管狹窄"
+            ],
+            [
+              "抽菸",
+              "增加 Crohn、降低 UC"
+            ],
+            [
+              "闌尾切除",
+              "保護 UC，不保護 Crohn"
+            ],
+            [
+              "口服避孕藥",
+              "增加 Crohn"
+            ],
+            [
+              "類固醇",
+              "只誘導，不維持"
+            ],
+            [
+              "5-ASA",
+              "UC 誘導與維持；抗發炎成分"
+            ],
+            [
+              "生物製劑前",
+              "驗 TB、HBV"
+            ],
+            [
+              "TPN",
+              "Crohn 有效，UC 無效"
+            ],
+            [
+              "中毒性巨結腸",
+              "橫結腸或右側結腸 >6 cm"
+            ],
+            [
+              "IBS 診斷",
+              "每週至少 1 天腹痛 3 個月，起病 ≥6 個月，3 項中 ≥2 項"
+            ],
+            [
+              "IBS 檢驗",
+              "calprotectin 正常、無潛血"
+            ],
+            [
+              "吸收",
+              "B12 迴腸末端；鐵鈣葉酸近端"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

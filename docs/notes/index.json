@@ -172,6 +172,10 @@
         {
           "id": "diarrhea",
           "name": "Diarrhea (腹瀉)"
+        },
+        {
+          "id": "ibd-ibs",
+          "name": "IBD & IBS (發炎性腸道疾病與腸躁症)"
         }
       ]
     },

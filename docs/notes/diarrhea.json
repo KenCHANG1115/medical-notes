@@ -18,6 +18,10 @@
     {
       "id": "pancreas-diseases",
       "name": "Pancreatic Disease (胰臟疾病：急慢性胰臟炎與胰臟癌)"
+    },
+    {
+      "id": "ibd-ibs",
+      "name": "IBD & IBS (發炎性腸道疾病與腸躁症)"
     }
   ],
   "sections": [
