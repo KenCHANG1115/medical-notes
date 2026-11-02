@@ -26,6 +26,10 @@
     {
       "id": "diarrhea",
       "name": "Diarrhea (腹瀉)"
+    },
+    {
+      "id": "bowel-obstruction-appendicitis",
+      "name": "Bowel Obstruction, Appendicitis & Anorectal Disease (腸阻塞、闌尾炎與肛門直腸疾病)"
     }
   ],
   "sections": [

@@ -22,6 +22,10 @@
     {
       "id": "liver-tests-jaundice",
       "name": "Liver Function Tests & Jaundice (肝功能異常與黃疸)"
+    },
+    {
+      "id": "bowel-obstruction-appendicitis",
+      "name": "Bowel Obstruction, Appendicitis & Anorectal Disease (腸阻塞、闌尾炎與肛門直腸疾病)"
     }
   ],
   "sections": [
