@@ -302,6 +302,13 @@
         {
           "id": "stroke-hemorrhagic-cvst-pres",
           "name": "Stroke (三)：出血性中風、腦靜脈竇血栓與 PRES"
+        },
+        {
+          "heading": "癲癇、頭痛、睡眠"
+        },
+        {
+          "id": "epilepsy-classification-syndromes",
+          "name": "Epilepsy (一)：分類、症候群與鑑別"
         }
       ]
     },
