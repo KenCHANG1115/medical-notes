@@ -18,6 +18,10 @@
     {
       "id": "ibd-ibs",
       "name": "IBD & IBS (發炎性腸道疾病與腸躁症)"
+    },
+    {
+      "id": "colorectal-cancer",
+      "name": "Colorectal Cancer (大腸直腸癌)"
     }
   ],
   "sections": [

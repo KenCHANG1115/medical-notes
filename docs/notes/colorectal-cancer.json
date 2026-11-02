@@ -1,0 +1,683 @@
+{
+  "id": "colorectal-cancer",
+  "title": "Colorectal Cancer (大腸直腸癌)",
+  "title_en": "Colorectal Cancer",
+  "title_zh": "大腸直腸癌",
+  "specialty": "肝膽腸胃內科",
+  "sources": [
+    "Harrison's 22e - Ch.86 Colorectal Cancer (p.653-659)",
+    "First Choice 醫學(三) 第4冊 - 丙、腫瘤各論 大腸直腸癌 (講義 p.316-320；考題 p.320-331，21 題)",
+    "補充：衛生福利部國民健康署新聞稿（官方政策，mohw.gov.tw）"
+  ],
+  "generated": "2026-11-02",
+  "updated": "2026-11-02",
+  "related": [
+    {
+      "id": "ibd-ibs",
+      "name": "IBD & IBS (發炎性腸道疾病與腸躁症)"
+    },
+    {
+      "id": "bowel-obstruction-appendicitis",
+      "name": "Bowel Obstruction, Appendicitis & Anorectal Disease (腸阻塞、闌尾炎與肛門直腸疾病)"
+    },
+    {
+      "id": "gi-bleeding",
+      "name": "GI Bleeding (腸胃道出血)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：怎麼讀這篇",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "FC 第 4 冊腫瘤各論的大腸直腸癌共 **21 題**（98–112 年）。出題集中在 **Lynch 與 FAP**、**FIT 陽性就做大腸鏡**、**左右側症狀差異**、**肝是最常見轉移**、**第三期輔助化療**、**KRAS 突變不用 cetuximab**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**：息肉 → 癌。先問風險（遺傳、IBD、生活型態）決定怎麼篩；診斷後用 TNM 分期決定治療，再用 MMR 與 RAS 決定用藥。"
+        }
+      ]
+    },
+    {
+      "title": "危險因子與息肉　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 大多數 CRC 來自**腺瘤性息肉**；只有 <5% 腺瘤會變癌\n- 癌變風險看**大小**與**組織型**：**絨毛狀**約為管狀的 3 倍\n- 危險因子：動物性脂肪、紅肉、肥胖、糖尿病、抽菸、喝酒、IBD、遺傳症候群\n- **S. bovis（S. gallolyticus）菌血症**要找大腸腫瘤；**Enterococcus** 不是\n- **aspirin** 與 NSAID 是最有效的化學預防，可減少腺瘤；是否規則使用要個別評估\n- 高纖飲食**未被證實**能預防 CRC\n- **sessile、serrated** 息肉比有蒂息肉更具風險；增生性息肉較不會惡變"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "分子路徑",
+            "特徵"
+          ],
+          "rows": [
+            [
+              "CIN（最常見）",
+              "早期 APC 失去 → KRAS、BRAF → p53"
+            ],
+            [
+              "MMR",
+              "MSI-high；Lynch 是生殖細胞突變；偶發型多為 MLH1 啟動子甲基化"
+            ],
+            [
+              "CIMP",
+              "常在右側，MLH1 甲基化"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：流行病學",
+          "text": "- 美國消化道最常見癌症，癌症死因第二\n- >50 歲發生率下降；**<50 歲持續上升**，以左側結腸與直腸為主\n- 約 25% 的 50 歲成人有腺瘤，70 歲可達 50%\n- 維生素 D 低與 CRC 相關，但補充未證實有效\n- 抗氧化維生素無效"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.86 p.653–655（Table 86-1）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 講義 p.316"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 考題 p.320–322、327–328"
+        }
+      ]
+    },
+    {
+      "title": "遺傳性大腸癌症候群　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Lynch（HNPCC）**：最常見遺傳性 CRC，約 3%；**MLH1、MSH2、MSH6、PMS2** 生殖細胞突變；DNA **mismatch repair** 缺陷\n- Lynch 特徵：**年輕**（40–45 歲）、**右側**、息肉不多；合併**子宮內膜癌**、卵巢癌、胃癌、泌尿道癌\n- **FAP**：**APC** 突變、體染色體顯性；數百至數千顆腺瘤；不治療幾乎 100% 變癌 → **預防性大腸切除**\n- **Gardner**：FAP 加骨瘤、纖維瘤、表皮囊腫、desmoid\n- **Turcot**：FAP 加腦瘤\n- **Peutz-Jeghers**：**錯構瘤**、皮膚黏膜色素沉著\n- 所有 CRC 都應做 MMR 或 MSI 檢測"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "症候群",
+            "基因",
+            "息肉",
+            "相關病變"
+          ],
+          "rows": [
+            [
+              "FAP",
+              "APC",
+              "腺瘤，數百至數千",
+              "—"
+            ],
+            [
+              "Gardner",
+              "APC",
+              "腺瘤",
+              "骨瘤、纖維瘤、脂肪瘤、表皮囊腫、壺腹癌"
+            ],
+            [
+              "Turcot",
+              "APC 變異",
+              "腺瘤",
+              "腦瘤"
+            ],
+            [
+              "MUTYH 相關",
+              "MUTYH（隱性）",
+              "腺瘤，數十顆",
+              "十二指腸癌、甲狀腺癌"
+            ],
+            [
+              "Lynch",
+              "MLH1、MSH2、MSH6、PMS2",
+              "腺瘤，常在近端",
+              "子宮內膜、卵巢、胃、泌尿、胰膽"
+            ],
+            [
+              "Peutz-Jeghers",
+              "—",
+              "錯構瘤，小腸大腸胃",
+              "色素沉著；卵巢、乳房、胰、子宮內膜"
+            ],
+            [
+              "幼年性息肉症",
+              "—",
+              "錯構瘤",
+              "先天異常"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：細節",
+          "text": "- 約 10% 的 CRC 有遺傳傾向，年輕患者約 15%\n- FAP 佔 CRC <1%；attenuated FAP 只有數十顆，較晚發病\n- Lynch 風險最多 17 倍；EPCAM 缺失會使 MSH2 失去表現\n- Amsterdam 與 Revised Bethesda 準則靠家族史\n- 腫瘤 MMR 異常者，建議做生殖細胞檢測並遺傳諮詢\n- FAP 可試 NSAID，能使息肉退縮，但預防癌症的效果未定\n- BRCA1 使 CRC 風險約 1.5 倍，但指引未建議加強篩檢"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.86 p.653–654（Table 86-2）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 講義 p.316、p.319–320"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 考題 p.323、325、328"
+        }
+      ]
+    },
+    {
+      "title": "篩檢　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **FIT 陽性 → 大腸鏡**，不重驗、不觀察\n- 不受飲食影響，也不受鼻血或上消化道出血影響\n- 上一次陰性也一樣，只看這次陽性\n- 潛血陽性**不等於**有癌\n- 肛門指診與下消化道攝影**不是**好的篩檢方法\n- **一般風險**：每 2 年 FIT\n- **一等親有 CRC**：**40 歲**起，每 5 年大腸鏡\n- **IBD**：症狀或診斷約 **8 年**開始，之後每 1–3 年\n- **腺瘤切除後**：間隔看數目、大小、組織，通常 3–5 年以上，不是每年"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **篩檢年齡下修到 45 歲**：Harrison 引 USPSTF 2021，一般風險從 45 歲開始。台灣國健署 114 年起也擴大為 **45–74 歲**及 **40–44 歲有家族史**（父母、子女或兄弟姊妹），每 2 年 1 次 FIT。FC 講義與 107 年詳解仍寫 50–74 歲。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "方法",
+            "重點"
+          ],
+          "rows": [
+            [
+              "FIT",
+              "FC 詳解：敏感度約 80%、特異度約 94%；專測人類血紅素"
+            ],
+            [
+              "傳統潛血",
+              "約 50% 的 CRC 潛血陰性；陽性者 <10% 有癌"
+            ],
+            [
+              "乙狀結腸鏡",
+              "檢查範圍有限；陰性者約 1.5% 近端有高風險病灶"
+            ],
+            [
+              "大腸鏡",
+              "看全大腸，可切息肉；併發症與準備負擔較大"
+            ],
+            [
+              "CT colonography",
+              ">10 mm 準確；有發現仍要大腸鏡"
+            ],
+            [
+              "糞便 DNA",
+              "CRC 敏感度與特異度 >90%；癌前病灶 <50%"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：FC 講義的追蹤表（NCCN）",
+          "text": "- 大腸鏡正常：10 年後\n- <1 公分 hyperplastic polyp：10 年後\n- <1 公分 adenoma，≤2 顆：5–10 年\n- <1 公分 sessile serrated polyp，≤2 顆：5 年\n- 高風險 invasive 或 villous polyp，或 >3 顆：3 年或更積極\n- IBD 低風險特徵每 2–3 年；高風險特徵每年"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.86 p.655–656（Table 86-3）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 講義 p.316–317"
+        },
+        {
+          "type": "source",
+          "book": "補充：衛生福利部國民健康署新聞稿（官方政策，mohw.gov.tw）",
+          "pages": "114 年擴大大腸癌篩檢對象"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 考題 p.320、324、326–327"
+        }
+      ]
+    },
+    {
+      "title": "症狀、分期與轉移　★ 6 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **右側**：糞便稀、管腔寬 → 少阻塞，**隱性出血、缺鐵性貧血**\n- **左側**：排便習慣改變、絞痛、**阻塞**；影像 **apple-core**\n- **直腸乙狀結腸**：血便、裡急後重、糞便變細\n- 成人不明原因**缺鐵性貧血**要檢查全大腸\n- 早期通常**無症狀**；貧血是**小球性**\n- **肝**是最常見的內臟轉移，其次肺、腹膜\n- 分期：**第一期** T1–2 N0；**第二期** T3–4 N0；**第三期** 淋巴結陽性；**第四期** 遠端轉移\n- 至少檢視 **12 顆**淋巴結\n- 多數復發在 **5 年內**；五年存活可視為接近治癒\n- **CEA** 用於術後追蹤，**不是**篩檢工具"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h86-3.png",
+          "label": "圖 86-3 大腸直腸癌的分期與預後",
+          "caption": "深度看 T，淋巴結看 N，遠端轉移看 M；第四期五年存活 <5%。",
+          "explain": "N1 為 1–3 顆，N2 為 ≥4 顆。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/h86-2.png",
+          "label": "圖 86-2 降結腸環狀腺癌",
+          "caption": "apple-core 病灶，高度提示惡性。",
+          "explain": "左側腫瘤環狀收縮造成狹窄。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Dukes",
+            "定義",
+            "對應"
+          ],
+          "rows": [
+            [
+              "A",
+              "局限於黏膜內或黏膜下",
+              "第一期"
+            ],
+            [
+              "B",
+              "穿透腸壁，無淋巴結侵犯",
+              "第二期"
+            ],
+            [
+              "C",
+              "區域淋巴結侵犯",
+              "第三期"
+            ],
+            [
+              "D",
+              "遠端轉移",
+              "第四期"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "預後較差",
+            "備註"
+          ],
+          "rows": [
+            [
+              "淋巴結轉移與顆數",
+              ""
+            ],
+            [
+              "穿透腸壁、穿孔、黏附鄰近器官",
+              ""
+            ],
+            [
+              "分化差、靜脈侵犯",
+              ""
+            ],
+            [
+              "術前 CEA >5 ng/mL",
+              ""
+            ],
+            [
+              "BRAF 突變",
+              ""
+            ],
+            [
+              "右側腫瘤",
+              "左側預後較好"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他",
+          "text": "- 腫瘤大小在校正淋巴結與分化後不影響預後\n- MSI-high 預後較好\n- 肝是三分之一復發者的第一個遠端部位，死亡時超過三分之二有肝轉移\n- 腦與骨轉移多在系統性轉移多年後\n- 老人排便逐漸不順、腹脹、KUB 降結腸後無氣：想到阻塞性大腸癌（FC 98 年題）\n- FC 詳解：乙狀結腸鏡約到降結腸遠端或脾彎曲；脾彎曲以下的 CRC 約 60–70%"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.86 p.656–657（Table 86-4、Fig.86-2、86-3）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 講義 p.317"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 考題 p.321、323–324、328–331"
+        }
+      ]
+    },
+    {
+      "title": "治療　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **第一期**：手術，視為治癒\n- **第二期高風險、第三期**：手術 + **輔助化療**\n- 第三期首選含 **oxaliplatin**：**FOLFOX**、CAPEOX，3–6 個月\n- **直腸癌第二、三期**：**術前 CCRT**；手術採 **TME**；分期要做骨盆 **MRI**\n- **KRAS 突變 → cetuximab、panitumumab 無效**；用 **bevacizumab**\n- 抗 EGFR 只用於 **RAS/RAF 野生型**，且主要在**左側**\n- **可切除的肝轉移**：切除原發與轉移灶，加化療，可治癒\n- 追蹤：理學檢查、CEA、CT、大腸鏡（術後 1 年，之後約每 3 年）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **MSI-high 改走免疫治療**：治療前要先知道 MMR 狀態。MSI-high 轉移性 CRC 以 **PD-1 抑制劑**為初始治療；MSI-high 直腸癌可不開刀、不放療、不化療而治癒。FC 年代的考題沒有這一項。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **直腸癌有兩個新做法**：放療後果無法接受者，術前化療（fluoropyrimidine + oxaliplatin）局部控制相近；全程術前治療達臨床完全反應者可不手術，60–70% 治癒，但要密集追蹤。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物",
+            "標的",
+            "重點"
+          ],
+          "rows": [
+            [
+              "5-FU、capecitabine",
+              "thymidylate synthase",
+              "DPD 缺乏毒性大（約 1%）"
+            ],
+            [
+              "Oxaliplatin",
+              "鉑類",
+              "周邊神經病變，可永久"
+            ],
+            [
+              "Irinotecan",
+              "topoisomerase I",
+              "UGT 突變毒性增加；骨髓抑制"
+            ],
+            [
+              "Bevacizumab",
+              "VEGF",
+              "高血壓、腎病症候群、傷口癒合差"
+            ],
+            [
+              "Cetuximab、panitumumab",
+              "EGFR",
+              "RAS/RAF 野生型；腹瀉、痤瘡樣皮疹"
+            ],
+            [
+              "Encorafenib + cetuximab",
+              "BRAF",
+              "BRAF V600E"
+            ],
+            [
+              "Tucatinib + trastuzumab",
+              "HER2",
+              "HER2 陽性且無 RAS 突變"
+            ],
+            [
+              "PD-1 抑制劑",
+              "PD-1",
+              "MSI-high"
+            ],
+            [
+              "Regorafenib、fruquintinib",
+              "VEGF TKI",
+              "其他已證實有效的藥物"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：轉移性 CRC",
+          "text": "- 孤立於單一部位的轉移（肝、肺、腹膜），完全切除可視為治癒；化療前先會診外科\n- 無法切除的轉移：切除原發灶不延長存活，除非有出血、阻塞症狀\n- 系統性化療平均存活 2–3 年，約 25% 活過 5 年\n- 所有轉移性患者都應做基因分型\n- 右側腫瘤因受體酪胺酸激酶上調，對抗 EGFR 抗藥"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：直腸癌與肛門癌",
+          "text": "- 直腸癌局部復發風險高，隨分期、距 mesorectal 邊緣近而增加\n- LAR 保留肛門；APR 要永久結腸造口\n- 放療副作用：放射性直腸炎、小腸阻塞、次發惡性、女性不孕\n- **肛門癌**：鱗狀細胞癌，與 **HPV** 相關；HIV 與免疫低下風險高\n- 肛門癌先轉移鼠蹊淋巴結；標準治療 5-FU + mitomycin + 放療\n- 與 CRC 危險因子不同；IBD 增加結腸與直腸癌，但不增加肛門癌（Harrison）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：術後追蹤",
+          "text": "- 吻合處復發並不常見，只要切緣足夠\n- 再發大腸癌 3–5%，腺瘤 >15%\n- CEA 可每 3 個月；CT 前 3 年每半年到一年\n- 術前盡量做全大腸鏡，找同時性腫瘤與息肉"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.86 p.657–659"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 講義 p.317–319"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、腫瘤各論 大腸直腸癌 考題 p.322–323、326、329–330"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "危險因子與息肉（§危險因子與息肉）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：下列與大腸直腸癌發生相關的危險因子中，何者最不恰當？（A 飲食中的動物性脂肪 B inflammatory bowel disease C Lynch's syndrome D enterococcus bacteremia）（FC 112 年）",
+          "text": "**答：(D)。** 與 CRC 相關的菌血症是 S. bovis（S. gallolyticus），不是 Enterococcus。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：關於大腸直腸癌，何者錯誤？（A 腺瘤樣息肉屬於癌前病變，而增生性息肉則較不會有惡性的變化 B 息肉有分扁平狀、鋸齒狀及突起狀，突起狀息肉較具侵襲性 C familial adenomatous polyposis 產生大腸癌的風險較 Peutz-Jeghers syndrome 的風險為高 D Lynch's syndrome 導致的大腸癌與遺傳有關，也會增加發生子宮內膜癌或是卵巢癌的風險）（FC 111 年）",
+          "text": "**答：(B)。** sessile 與 serrated 息肉比有蒂息肉更具惡變風險。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：有關大腸癌的敘述，何者正確？（A 糞便潛血反應檢查敏感度較大腸鏡差，故不適合做大腸癌篩檢 B 左側大腸癌較右側大腸癌容易有貧血的表現 C 常規服用 aspirin 可減少腺瘤和腺癌的發生 D 第三期的大腸癌患者手術後不必接受化學治療）（FC 104 年）",
+          "text": "**答：(C)。** FIT 仍是推薦的篩檢工具；貧血是右側表現；第三期要輔助化療。"
+        },
+        {
+          "type": "heading",
+          "text": "遺傳性症候群（§遺傳性大腸癌症候群）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：有關 HNPCC（Lynch's syndrome）常見的臨床病理及基因分子變異，何者錯誤？（A HNPCC 大腸直腸癌患者診斷的中位年齡，較其他一般民眾大腸直腸癌診斷的中位年齡來得較年長 B 患者的家屬也好發卵巢癌、子宮內膜癌或其他的腸胃道癌症 C 與 germline mutations of hMSH2 或 hMLH1 相關 D hMSH2 或 hMLH1 之基因變異將導致細胞內 DNA mismatch repair 機制的缺損）（FC 109 年）",
+          "text": "**答：(A)。** Lynch 較年輕，平均 40–45 歲；一般族群約 68 歲。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：40 歲女性大腸鏡發現升結腸腫瘤，無其他息肉或發炎性病變，病理為分化不好的腺癌。媽媽 48 歲死於子宮內膜癌，43 歲姊姊 2 年前診斷早期結腸癌。右半結腸切除為 T3N1M0。最有可能是哪一種家族性癌症症候群？（A BRCA2 突變 B HNPCC C FAP D Li-Fraumeni 症候群）（FC 106 年）",
+          "text": "**答：(B)。** 年輕、右側、沒有多發息肉、家族有子宮內膜癌。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：35 歲男性診斷結腸癌，母親 20 歲診斷子宮內膜癌、48 歲診斷結腸癌，外祖父 55 歲死於結腸癌，38 歲姊姊第一期直腸癌，沒有發現息肉。哪種突變最可能相關？（A germ-line 的 hMSH2 gene 突變或低表現 B ATM gene 的 loss of heterozygosity C p53 的單邊等位 germ-line 基因突變 D 體細胞的 nucleotide excision repair gene 突變）（FC 104 年）",
+          "text": "**答：(A)。** HNPCC，MMR 基因生殖細胞突變。"
+        },
+        {
+          "type": "heading",
+          "text": "篩檢（§篩檢）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：關於大腸直腸癌篩檢之敘述，何者正確？（A 糞便潛血檢查陽性代表已罹患大腸癌 B 肛門指診是大腸癌篩檢的好方法 C 糞便潛血檢查陽性者應該進一步接受大腸鏡進行確診 D 下消化道攝影與大腸鏡同為大腸癌篩檢的好方法）（FC 112 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：關於大腸直腸癌篩檢之敘述，何者正確？（A 一旦診斷發炎性腸道疾病，就要每 1 至 3 年施行一次大腸鏡 B 一般危險性族群，每 1 至 2 年以免疫法糞便潛血檢查篩檢是一個篩檢的好方式 C 一旦診斷有腺瘤性息肉並切除後，應每年追蹤大腸鏡 D 有一等親大腸癌家族史者，應從 50 歲開始每 5 年做一次大腸鏡）（FC 107 年）",
+          "text": "**答：(B)。** IBD 約 8 年後才開始；腺瘤追蹤間隔看風險；家族史從 40 歲開始。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：50 歲男性，近日無使用藥物，接受定量免疫法糞便潛血檢驗呈陽性。何者建議正確？①檢驗前三天內曾進食富含動物血色素食物可能造成偽陽性，建議重新檢驗 ②若無排便異常，可觀察並建議 2 年後再檢驗 ③檢驗前一天流鼻血可能因此而陽性，建議重新檢驗 ④若半年前曾自費做相同檢查為陰性，仍須接受大腸鏡或大腸攝影檢查（A ①②③④ B 僅①③④ C 僅①② D 僅④）（FC 105 年）",
+          "text": "**答：(D)。** FIT 專測人類血紅素，不受食物與上消化道血液影響；陽性就要做確診檢查。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：有關大腸癌各項篩檢方式的敘述，何者正確？（A 大便潛血反應的特異性約可達 80–90% B 少於 10% 的大腸直腸癌可藉由肛門指診摸到 C 乙狀結腸鏡檢查可發現超過 90% 的大腸直腸癌 D 大腸鏡檢查對發現小息肉的敏感度可達 95% 以上）（FC 105 年）",
+          "text": "**答：(B)，以 FC 公布答案為準。** FC 詳解寫 DRE 敏感度約 37%、「遠非 <10%」，和答案本身矛盾，Harrison 也沒有這個數字。(C) 乙狀結腸鏡約 60–70%；(D) 大腸鏡只對 >10 mm 息肉才約 95%。"
+        },
+        {
+          "type": "heading",
+          "text": "症狀、分期與轉移（§症狀、分期與轉移）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：關於大腸直腸癌的敘述，何者正確？（A 起源於右側結腸的腫瘤預後比左側結腸的好 B 肺部是大腸癌最容易轉移的內臟器官 C 血清 CEA 是用來篩檢大腸癌的指標 D 大多數大腸癌的切除後復發會於四年內發生，因此五年存活可當作治癒的指標）（FC 111 年）",
+          "text": "**答：(D)。** 左側預後較好；最常轉移到肝；CEA 用於追蹤。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：關於大腸直腸癌之描述何者正確？（A 治療後如有復發，多半集中在前四年，因此五年存活率極具參考價值 B T3N0M0 屬於第三期 C T1N1M0 屬於第二期 D 肺部是大腸直腸癌最容易轉移的內臟器官）（FC 108 年）",
+          "text": "**答：(A)。** T3N0M0 是第二期；T1N1M0 是第三期；最常轉移到肝。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：關於大腸癌的症狀，何者正確？（A 右側大腸癌以排便異常為主，左側大腸癌因容易出血故以貧血為主 B 大腸癌因為曝露在腸道，容易因糞便摩擦而出血，因此即便是第一期癌症也很容易有症狀 C 近年來大腸癌的發生，右側大腸癌個案顯著多於左側大腸與直腸癌個案 D 大腸癌所造成的貧血為小球性貧血）（FC 108 年）",
+          "text": "**答：(D)。** 慢性失血造成缺鐵。(A) 左右講反；早期常無症狀。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：有關大腸直腸癌的敘述，何者錯誤？（A 危險因子包括年紀 50 歲以上、一等親有 CRC 之家族史、曾患 IBD 十年以上、有進行性腺瘤、肥胖、糖尿病、飲食習慣多脂肪、多紅肉、少蔬果及少纖維質等 B 90% 的 CRC 出現在脾曲以下，可用乙狀結腸鏡檢查發現 C 右側大腸之 CRC，常出現貧血 D 左側大腸之 CRC，會出現排便習慣改變或血便）（FC 104 年）",
+          "text": "**答：(B)。** 脾曲以下約 60–70%，不是 90%。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：73 歲男性腹瀉 2 個月、體重減少 10 公斤，超音波多個肝腫瘤，大腸鏡發現上行結腸腺癌，B、C 型肝炎標記陰性，AFP 正常，CEA 1,160 ng/mL，腹部 CT 如圖。最適合之 Dukes 分期？（A B B C C D D E）（FC 99 年）",
+          "text": "**答：(C)，Dukes D。** 多處肝轉移。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/gi/fc-crc-liver-mets.png",
+          "label": "FC 99 年考題 CT 圖",
+          "caption": "肝臟多處低密度腫瘤。",
+          "explain": "題目附圖，對應 Q15。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：70 歲男性腹痛 3 天、解便困難，有噁心感，最近 3 個月解便較不順，無開刀史。整個腹部脹大，腸音加快，肛門檢查無異常，潛血 1+。KUB 小腸與大腸皆脹大，降結腸段後無腸氣。最有可能？（A 大腸癌 B 糞便阻塞 C 大腸炎 D 憩室炎）（FC 98 年）",
+          "text": "**答：(A)。** 排便習慣改變後進行性阻塞，加上潛血陽性；糞便阻塞在直腸可摸到。"
+        },
+        {
+          "type": "heading",
+          "text": "治療（§治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q17：第二或第三期直腸癌最主要的治療仍是手術切除。下列降低局部復發的方式，何者最不恰當？（A 手術採 total mesorectal excision B 術前或術後針對骨盆進行放射治療 C 5-FU 化學治療合併放射治療 D 對抗 EGFR 的 cetuximab 藥物治療合併放射治療）（FC 111 年）",
+          "text": "**答：(D)。** cetuximab 用於 KRAS/NRAS 野生型的轉移性 CRC。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q18：關於大腸直腸癌治療之敘述，何者正確？（A 第二期或第三期的直腸癌，可以在術前施行 CCRT 減少復發機會並促進治癒率 B 肛門癌的危險因子與大腸直腸癌相類似 C K-ras 基因突變者，對於標靶藥物 cetuximab 會有比較好的反應 D 儘管手術完整切除腫瘤，縫合處復發為術後最常見的復發部位，因此大腸鏡是最重要的追蹤檢查）（FC 109 年）",
+          "text": "**答：(A)。** 肛門癌與 HPV 相關；KRAS 突變無效；吻合處復發不常見。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q19：65 歲男性升結腸腺癌，多處肝轉移無法切除，T3N2M1，K-ras G12D 突變。術後除化學治療外，會建議加何種標靶治療以期待肝轉移變為可切除？（A EGFR 抑制劑 B 血管增生抑制劑 C EGFR 抑制劑＋血管增生抑制劑 D 兩者皆不使用，因二者都沒效）（FC 105 年）",
+          "text": "**答：(B)。** KRAS 突變使 EGFR 抑制劑無效；用 bevacizumab。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q20：60 歲男性升結腸腺癌，無遠端轉移，右半結腸切除發現穿透至結腸周圍脂肪，淋巴結 18 顆中有 5 顆侵犯，T3N2M0。術後建議？（A 觀察 B 含 oxaliplatin/fluorouracil/leucovorin 的輔助化療 C 含 irinotecan/fluorouracil/leucovorin 的輔助化療 D fluorouracil/leucovorin 輔助化療）（FC 103 年）",
+          "text": "**答：(B)。** 第三期用含 oxaliplatin 的方案。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q21：53 歲男性降結腸有 2×1 公分腺癌，單一肝轉移（3×3 公分，segment 7），無局部侵犯、腹膜及淋巴結轉移。何者最適當？（A 手術切除大腸病灶，再合併術後化療 B 同步化學與放射治療 C 手術切除大腸腫瘤與肝轉移病灶，再合併術後化療 D 手術切除大腸腫瘤，再合併經導管動脈化學栓塞肝腫瘤）（FC 99 年）",
+          "text": "**答：(C)。** 單一可切除的肝轉移，切除可能治癒。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "Lynch",
+              "MMR 基因；年輕、右側；子宮內膜癌"
+            ],
+            [
+              "FAP",
+              "APC；數百顆以上；預防性切除"
+            ],
+            [
+              "Gardner / Turcot",
+              "骨瘤軟組織瘤 / 腦瘤"
+            ],
+            [
+              "Peutz-Jeghers",
+              "錯構瘤、色素沉著"
+            ],
+            [
+              "菌血症",
+              "S. bovis 找大腸腫瘤"
+            ],
+            [
+              "FIT 陽性",
+              "一律大腸鏡"
+            ],
+            [
+              "家族史",
+              "40 歲起每 5 年大腸鏡"
+            ],
+            [
+              "IBD 監測",
+              "約 8 年開始"
+            ],
+            [
+              "右側 / 左側",
+              "貧血 / 阻塞、排便改變"
+            ],
+            [
+              "轉移",
+              "肝最常見"
+            ],
+            [
+              "CEA",
+              "追蹤，不篩檢"
+            ],
+            [
+              "第三期",
+              "手術 + FOLFOX 或 CAPEOX"
+            ],
+            [
+              "直腸癌 II、III",
+              "術前 CCRT、TME"
+            ],
+            [
+              "KRAS 突變",
+              "不用抗 EGFR；用 bevacizumab"
+            ],
+            [
+              "MSI-high",
+              "PD-1 抑制劑"
+            ],
+            [
+              "肛門癌",
+              "HPV；5-FU + mitomycin + 放療"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
