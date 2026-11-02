@@ -309,6 +309,10 @@
         {
           "id": "epilepsy-classification-syndromes",
           "name": "Epilepsy (一)：分類、症候群與鑑別"
+        },
+        {
+          "id": "epilepsy-treatment-status",
+          "name": "Epilepsy (二)：治療、重積狀態與手術"
         }
       ]
     },

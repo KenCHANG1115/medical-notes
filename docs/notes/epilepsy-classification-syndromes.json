@@ -19,6 +19,10 @@
     {
       "id": "stroke-hemorrhagic-cvst-pres",
       "name": "Stroke (三)：出血性中風、腦靜脈竇血栓與 PRES"
+    },
+    {
+      "id": "epilepsy-treatment-status",
+      "name": "Epilepsy (二)：治療、重積狀態與手術"
     }
   ],
   "sections": [

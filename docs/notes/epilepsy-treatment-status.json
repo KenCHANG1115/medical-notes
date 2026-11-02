@@ -1,0 +1,677 @@
+{
+  "id": "epilepsy-treatment-status",
+  "title": "Epilepsy (二)：治療、重積狀態與手術",
+  "title_en": "Epilepsy (II): Treatment, Status Epilepticus & Surgery",
+  "title_zh": "癲癇（二）：治療、重積狀態與手術",
+  "specialty": "神經內科",
+  "sources": [
+    "Harrison's 22e - Ch.436 Seizures and Epilepsy (p.3419-3428)",
+    "First Choice 醫學(四) 第4冊 - 戊、癲癇 (講義 p.131-134；考題 p.135-153，本篇 26 題)"
+  ],
+  "generated": "2026-11-02",
+  "updated": "2026-11-02",
+  "related": [
+    {
+      "id": "epilepsy-classification-syndromes",
+      "name": "Epilepsy (一)：分類、症候群與鑑別"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：怎麼讀這篇",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "這篇收 FC 癲癇的 **26 題**，分類與症候群在〈Epilepsy (一)〉。出題集中在**鈉離子通道阻斷劑會加重全面性癲癇**、**育齡婦女與肝硬化的選藥**、**HLA-B*1502**、**重積狀態的順序**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**：急性先顧呼吸循環、找原因；發作超過 5 分鐘走重積流程。長期治療則看發作型態，再用共病與副作用微調。"
+        }
+      ]
+    },
+    {
+      "title": "用藥原則　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **單一用藥**優先，從**低劑量慢慢加**；不是一開始就衝到高濃度\n- 調藥看**發作頻率與副作用**，不是只看血中濃度\n- **5 個半衰期**達穩定濃度，之後才再加量\n- 一藥無效：先加第二藥，有效後再慢慢減第一藥\n- **何時開始**：反覆發作、或單次發作但有明確腦部病灶\n- **單次發作的再發因子**：腦損傷史、腦波癲癇波、影像異常、夜間發作\n- 代謝異常或藥物引起的單次發作：矯正原因，通常不用抗癲癇藥\n- **何時停藥**：無發作約 2 年、單一發作型態、神經學與腦波正常、無家族史；**2–3 個月**慢慢減\n- 約一半第一個藥無效；約 30% 成為難治\n- **Lennox-Gastaut 與內側顳葉癲癇**對單一藥物反應差；JME、青少年失神反應好"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "發作型態",
+            "第一線",
+            "避免"
+          ],
+          "rows": [
+            [
+              "局部",
+              "carbamazepine、oxcarbazepine、lamotrigine、levetiracetam、phenytoin",
+              "—"
+            ],
+            [
+              "全面性強直陣攣",
+              "lamotrigine、valproate、levetiracetam",
+              "—"
+            ],
+            [
+              "典型失神",
+              "ethosuximide、valproate、lamotrigine",
+              "carbamazepine、phenytoin"
+            ],
+            [
+              "肌躍、失張力、非典型失神",
+              "valproate、lamotrigine、topiramate",
+              "carbamazepine、phenytoin"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：治療藥物濃度",
+          "text": "- 傳統檢驗測總濃度，與效果相關的是游離型\n- 低白蛋白的患者濃度偏低不一定要加藥，發作控制好就不用\n- 濃度監測最有用於：確認服藥順從、懷疑中毒、懷孕前建立基準"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：基因與飲食",
+          "text": "- SCN1A（Dravet）：避免 phenytoin、lamotrigine\n- GLUT-1 缺乏：生酮飲食\n- ALDH7A1：pyridoxine"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 p.3419–3424（Table 436-8）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 講義 p.131–132"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 考題 p.135、141–142、153"
+        }
+      ]
+    },
+    {
+      "title": "依發作型態選藥　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **失神**：**ethosuximide** 首選；選項沒有時選 **valproate**\n- 失神合併 GTCS：valproate 或 lamotrigine（ethosuximide 對 GTCS 無效）\n- **JME**：**valproate** 首選；肝病或育齡婦女用 **levetiracetam**\n- **carbamazepine、phenytoin 會加重失神與 JME**\n- 額葉癲癇：FC 傳統答案 carbamazepine\n- 機轉：鈉離子通道阻斷劑使視丘皮質環路不穩，加重全面性放電"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **育齡婦女的混合型全面性癲癇，levetiracetam 逐漸取代 valproate**：Harrison 指出 levetiracetam 越來越被視為首選，lamotrigine 也是替代，尤其失神。考題若沒提到性別與生育，失神與 JME 的選項仍常是 valproate。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物",
+            "機轉",
+            "適應症",
+            "重要副作用"
+          ],
+          "rows": [
+            [
+              "Carbamazepine",
+              "鈉通道",
+              "局部、三叉神經痛",
+              "低血鈉、白血球低下、再生不良性貧血、皮疹、酵素誘導"
+            ],
+            [
+              "Phenytoin",
+              "鈉通道",
+              "局部、GTCS",
+              "牙齦增生、多毛、骨軟化、巨球性貧血、非線性動力學"
+            ],
+            [
+              "Lamotrigine",
+              "鈉通道",
+              "局部、全面",
+              "皮疹與 SJS，要慢慢加；valproate 使濃度上升"
+            ],
+            [
+              "Levetiracetam",
+              "調節突觸小泡釋放",
+              "局部、全面",
+              "易怒、焦慮；幾乎無交互作用"
+            ],
+            [
+              "Valproate",
+              "GABA、T 型鈣通道",
+              "全面最廣",
+              "肝毒性、致畸、體重增加、掉髮、血小板低下"
+            ],
+            [
+              "Ethosuximide",
+              "T 型鈣通道",
+              "失神",
+              "骨髓抑制、腸胃不適"
+            ],
+            [
+              "Topiramate",
+              "多重",
+              "局部、全面",
+              "認知變慢、腎結石"
+            ],
+            [
+              "Clonazepam",
+              "GABA",
+              "肌躍",
+              "鎮靜"
+            ],
+            [
+              "Phenobarbital",
+              "GABA",
+              "二線",
+              "鎮靜、兒童過動"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：藥物細節",
+          "text": "- Valproate 肝衰竭：不可預測，<2 歲、併用多藥、代謝疾病風險最高\n- Phenytoin 非線性：小幅加量就中毒（頭暈、複視、運動失調）\n- Lamotrigine 與 valproate 併用要用更低起始劑量\n- Oxcarbazepine 交互作用比 carbamazepine 少，也會低血鈉\n- Carbamazepine 自體誘導 3–5 週才完成\n- 難治失神：valproate 加 ethosuximide\n- Cenobamate：難治局部癲癇"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 p.3420–3424（Table 436-8、436-9）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 講義 p.131–134"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 考題 p.135–136、138、151–152"
+        }
+      ]
+    },
+    {
+      "title": "特殊族群與副作用　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **育齡婦女**：避免 **valproate**；優先 **lamotrigine、levetiracetam**\n- 懷孕不停藥：單一藥物、最低有效劑量、補**葉酸**\n- **口服避孕藥**：carbamazepine、phenytoin、phenobarbital、topiramate 降低避孕效果\n- 含雌激素避孕藥會使 **lamotrigine 濃度下降 >50%**\n- **肝硬化與老人**：**levetiracetam**，幾乎不經肝代謝、無交互作用\n- 亞洲人用 carbamazepine、phenytoin、oxcarbazepine、lamotrigine 前驗 **HLA-B*1502**（SJS/TEN）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "情境",
+            "選",
+            "避免"
+          ],
+          "rows": [
+            [
+              "育齡婦女",
+              "lamotrigine、levetiracetam",
+              "valproate"
+            ],
+            [
+              "吃避孕藥",
+              "改用其他避孕法或調整避孕藥",
+              "carbamazepine、phenytoin 未告知風險"
+            ],
+            [
+              "肝硬化",
+              "levetiracetam",
+              "valproate、carbamazepine、phenytoin"
+            ],
+            [
+              "老人、多重用藥",
+              "levetiracetam",
+              "—"
+            ],
+            [
+              "腎結石風險",
+              "—",
+              "topiramate"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：懷孕細節",
+          "text": "- 孕期發作：50% 不變、30% 增加、20% 減少\n- 胎兒異常 5–6%，一般 2–3%；三種藥 10–20%\n- Valproate 不良結果 7–20%\n- Phenytoin 造成胎兒 hydantoin 症候群（FC）\n- 酵素誘導藥使新生兒維生素 K 依賴因子不足：母親產前 2 週口服 K，新生兒肌注 1 mg\n- 鼓勵哺乳\n- 月經期發作增加：catamenial epilepsy"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他議題",
+          "text": "- 憂鬱 20–30%，自殺率較高；SSRI 影響小，三環抗憂鬱劑可能降低發作閾值\n- SUDEP：年輕、抽搐型、多在夜間\n- 開車規定各地不同；避免高處、機械、獨自游泳"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 p.3420、p.3426–3428"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 講義 p.132–134"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 考題 p.135、137"
+        }
+      ]
+    },
+    {
+      "title": "急診：首次與單次發作　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 第一優先：**保護病人、呼吸道通暢**；不是立刻給藥或插管\n- **不要往嘴裡塞東西**；側臥、清分泌物\n- 先驗血糖，**不預設**打葡萄糖\n- 已停止、意識清楚的單次發作：不用立刻 loading，找原因\n- 抽血：CBC、電解質、鈣、鎂、血糖、肝腎功能、尿液、毒物\n- 懷疑中樞感染才做腰椎穿刺；**HIV 感染者一律做**\n- **成人首次發作要做腦部影像**，MRI 優於 CT；感染或腫塊疑慮且無 MRI 時急做 CT\n- 例外：兒童病史明確的良性全面性癲癇，如失神\n- 癲癇病人發作：先看藥物是否足量、濃度與誘因"
+        },
+        {
+          "type": "figure",
+          "src": "figures/epilepsy/h436-2.png",
+          "label": "圖 436-2 成人癲癇發作的評估",
+          "caption": "先排除暈厥、TIA 等。有癲癇史看藥物；無癲癇史做代謝篩檢，再做 MRI 與腦波。",
+          "explain": "有局部表現或神經學異常時，要找腫塊、中風、感染、外傷或退化性疾病。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：腦波與藥物濃度",
+          "text": "- 所有疑似癲癇都應盡快做腦波\n- 濃度不足：補回或加量\n- 濃度足夠仍發作：加到最大耐受量或換藥"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 p.3415–3418（Fig.436-2）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 考題 p.137、144、149–151"
+        }
+      ]
+    },
+    {
+      "title": "癲癇重積狀態　★ 6 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 定義：抽搐型發作 **>5 分鐘**，或兩次發作之間意識未恢復\n- 順序：**ABC、靜脈管路、抽血** → **靜脈 BZD**（lorazepam、midazolam）→ **靜脈抗癲癇藥**（phenytoin、valproate、levetiracetam）→ **麻醉藥**（midazolam、propofol、pentobarbital）\n- 藥物用**靜脈**，不用口服\n- **Phenytoin 靜注 <50 mg/min**，太快致心律不整、低血壓；要心電監測\n- 肌注 phenytoin、鼻胃管都不對\n- 持續昏迷或用了肌肉鬆弛劑：要做**腦波**排除非抽搐型重積\n- **Catecholamine** 升高可誘發致死性心律不整\n- 常見原因：**停藥或順從性差**、代謝異常、藥物毒性、感染、腫瘤、外傷"
+        },
+        {
+          "type": "figure",
+          "src": "figures/epilepsy/h436-5.png",
+          "label": "圖 436-5 成人全身性重積狀態的藥物治療",
+          "caption": "5–30 分鐘：靜脈 BZD，接靜脈抗癲癇藥。30 分鐘到 48 小時：麻醉藥。>48 小時：其他藥物與方法。",
+          "explain": "PHT 20 mg/kg、VPA 20–30 mg/kg、LEV 20–30 mg/kg。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "階段",
+            "時間",
+            "用藥"
+          ],
+          "rows": [
+            [
+              "早期",
+              "5–30 分鐘",
+              "lorazepam 0.1 mg/kg 或 midazolam 0.2 mg/kg"
+            ],
+            [
+              "早期第二步",
+              "接續",
+              "phenytoin 20 mg/kg、valproate 20–30 mg/kg 或 levetiracetam 20–30 mg/kg"
+            ],
+            [
+              "難治",
+              "30 分鐘–48 小時",
+              "midazolam 或 propofol 輸注"
+            ],
+            [
+              "晚期難治",
+              ">48 小時",
+              "pentobarbital；其他麻醉藥、免疫治療、手術"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：重積的其他細節",
+          "text": "- 傳統定義 15–30 分鐘；實務以需要用藥為準，全身抽搐約 5 分鐘\n- 抽 30–45 分鐘後徵象變細微：手指小抽動、眼球快速動\n- 非抽搐型：持續失神或局部發作合併混亂；也要儘快治療\n- FC 講義：>30 分鐘長期損傷風險上升\n- 死亡率：FC 題目一處寫成人 7–10%，另一處詳解寫成人 10–30%、兒童 <5%\n- 非抽搐型重積較常見於中老年，過去多無癲癇史（FC）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 p.3425–3426（Fig.436-5）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 講義 p.132"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 考題 p.139、141–142、147、151–153"
+        }
+      ]
+    },
+    {
+      "title": "酒精戒斷發作　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **90% 以上在戒斷後 48 小時內**\n- 通常是 **GTCS**，少數變成重積\n- 首選 **benzodiazepine**\n- **不需長期抗癲癇藥**"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 考題 p.137、152（本節以 FC 為準，未另查 Harrison 酒精章）"
+        }
+      ]
+    },
+    {
+      "title": "癲癇手術與神經刺激　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 初始用藥控制不好，就要儘早轉介手術評估\n- **內側顳葉硬化**：**前顳葉切除**或**杏仁體海馬迴切除**；約 **70%** 不再發作\n- **雙側海馬迴**不能都切：會造成永久**順向性失憶**\n- **Rasmussen、半腦病灶**：**半腦切除**\n- **失張力、強直跌倒（LGS）**：**胼胝體切開**\n- **兒童失神**藥物控制好，**不用手術**\n- 無法切除時的姑息治療：**VNS、RNS、DBS**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "方式",
+            "位置",
+            "特點"
+          ],
+          "rows": [
+            [
+              "VNS",
+              "左迷走神經",
+              "開迴路；聲音沙啞、喉痛；不需精確定位"
+            ],
+            [
+              "RNS",
+              "顱內病灶",
+              "閉迴路，偵測後放電；需定位；可長期記錄腦波"
+            ],
+            [
+              "DBS",
+              "雙側視丘前核",
+              "開迴路；不需精確定位"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：術前評估與細節",
+          "text": "- Video-EEG、高解析 MRI；PET、SPECT、MEG 輔助\n- Wada 測試與 fMRI 確認語言和記憶\n- 顯著併發症 <5%\n- 顳葉切除另有 15–25% 發作減少 ≥90%\n- 術後通常仍需用藥\n- 雷射消融是較少侵入的選項\n- 神經刺激只有少數完全不發作，RNS 約 15%\n- LGS 也可考慮生酮飲食（FC）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 p.3424–3425"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "戊、癲癇 考題 p.139–141"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**題目註記：** 本章只有 OCR，沒有 PDF。看不清的選項已在題內標明，並依 FC 詳解補足。"
+        },
+        {
+          "type": "heading",
+          "text": "用藥原則（§用藥原則）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：對於不是癲癇重積狀態的一般癲癇病人，下列抗癲癇藥物的使用，何者錯誤？（A 起始治療應根據癲癇種類，選取單一種最適宜的藥物 B 起始治療劑量應由低劑量開始，以減少急性副作用 C 起始治療即應達到血中高藥物濃度，以確保療效 D 後續藥物調整，應根據病人的反應與副作用）（FC 114 年）",
+          "text": "**答：(C)。** Start low, go slow。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：抗癲癇藥物在血液中達到穩定濃度的時間通常是此藥物半衰期的幾倍？（選項 OCR 不清，FC 答案為 (D)，即 5 倍）（FC 108 年）",
+          "text": "**答：(D)，5 倍。** 1 個半衰期 50%、2 個 75%、3 個 87.5%、4 個 94%、5 個 97%。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：關於癲癇症候群藥物治療的敘述，何者錯誤？（A JME 常對單一抗癲癇藥的反應良好 B 青少年失神癲癇常對單一抗癲癇藥的反應良好 C Lennox-Gastaut syndrome 常對單一抗癲癇藥的反應良好 D 內側顳葉癲癇常對單一抗癲癇藥的反應不佳）（FC 107 年）",
+          "text": "**答：(C)。** LGS 是藥物抗性癲癇。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：關於使用抗癲癇藥物的敘述，哪一個是正確的？（A 低劑量同時使用多種藥物，以降低每種藥物的副作用 B 為了避免長期副作用，癲癇獲得控制後即應停藥 C 只要維持藥物濃度在治療範圍內，所有的癲癇發作都可受到控制 D 為了維持體內藥物濃度的穩定，投藥間隔應小於半衰期的一半）（FC 92 年）",
+          "text": "**答：(D)。** 原則是單一用藥、低劑量、慢慢加，並注意交互作用。"
+        },
+        {
+          "type": "heading",
+          "text": "依發作型態選藥（§依發作型態選藥）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：8 歲男童經常出現短暫性的恍神，每次約 10 秒，智力正常，CT 與 MRI 無異常，腦波規律之全面性 3 Hz 棘慢波。最適合的藥物？（A valproic acid B levetiracetam C phenytoin D carbamazepine）（FC 112 年）",
+          "text": "**答：(A)。** 首選 ethosuximide，選項沒有時選 valproate；(C)(D) 會加重失神。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：6 歲男孩上課常發呆，檢查時突然兩眼直視、停止動作，約一分鐘恢復，腦波廣泛性每秒三週期 spike and wave。第一線用藥？（A carbamazepine B phenobarbital C ethosuximide D phenytoin）（FC 96 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：13 歲女學生半年來常熬夜讀書，早上起床常有短暫性全身抽動，上肢特別明顯，意識清楚，這次因全身抽搐就醫。智力正常，影像無異常，腦波不規律之全面性 4–6 Hz 多棘慢波，有 B 型肝炎病史。最適合的藥物？（A valproate B levetiracetam C phenytoin D carbamazepine）（FC 113 年）",
+          "text": "**答：原答案 (B)，更正後 (A) 或 (B) 或 (AB) 都給分。** JME 第一線是 valproate，但本例有肝炎病史，levetiracetam 不經肝代謝也可。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：青少年肌躍性癲癇需避免使用下列何種藥物？（A levetiracetam B phenytoin C valproate D topiramate）（FC 111 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "特殊族群（§特殊族群與副作用）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：針對生育年齡婦女的癲癇治療，在致畸胎特性上，應最優先考慮哪一種藥品？（A valproate B topiramate C lamotrigine D phenytoin）（FC 114 年）",
+          "text": "**答：(C)。** Valproate 神經管缺陷、認知受損；topiramate 唇顎裂；phenytoin 胎兒 hydantoin 症候群。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：68 歲男性肝硬化，同時有高血壓和糖尿病，因大腦動脈梗塞造成中風後癲癇，何種抗癲癇藥物最合適？（A phenytoin B valproic acid C levetiracetam D perampanel）（FC 113 年）",
+          "text": "**答：(C)。** 幾乎不經肝代謝，交互作用少。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：21 歲女性初次診斷為顳葉癲癇，準備開始用藥，何者考量最不適當？（A 開立 phenytoin 之前要抽血檢驗，確認不帶有 HLA-B*1500 基因 B 有懷孕可能，避免開立 valproic acid C 若正在服用避孕藥，開立 phenytoin 或 carbamazepine 應告知可能意外懷孕 D 藥物不能有效控制或影響生活品質，手術是可能的選擇）（FC 111 年）",
+          "text": "**答：(A)。** 應驗 HLA-B*1502，不是 1500。"
+        },
+        {
+          "type": "heading",
+          "text": "急診（§急診：首次與單次發作）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：一般癲癇發作時的處理原則，何者最優先？（A 立即靜脈注射抗癲癇藥物 B 發作期間給予正壓人工呼吸 C 【OCR 不清，詳解：保護病人安全、確保呼吸道暢通】 D 立即進行氣管內管插管）（FC 112 年）",
+          "text": "**答：(C)。** 優先保護安全與呼吸道，不是立即給藥或插管。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：關於急診室內急性癲癇發作的處置，何者最正確？（A 即使是單一短暫的發作過後，只要尚未清醒就須立即用藥 B 若有癲癇與用藥病史就只需測藥物濃度，不需血球、血糖、電解質 C 若至急診前有連續的發作，就必須立刻做腦部影像 D 首次癲癇並有局部發作的特徵，若血球、血糖、電解質全部正常時就需要腦部影像檢查）（FC 104 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：35 歲男性第一次癲癇發作約 5 分鐘，結束後仍意識混亂，送急診。哪一個處置正確？（A 立刻在其口中塞入壓舌板 B 剛發作完血糖會過低，要立刻給予葡萄糖液靜脈注射 C 安排腦部 CT 或 MRI D 立刻靜脈注射 phenytoin，每公斤 75 mg）（FC 101 年）",
+          "text": "**答：(C)。** 不塞東西；先驗血糖；loading 約 15–20 mg/kg，且已停止發作不必立刻給。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：10 歲女童因全身抽搐至急診，體溫 38.5°C，已停止抽搐，意識清楚，過去無抽搐病史。何者最不適當？（A 馬上給予 phenytoin B 建立靜脈注射輸液路徑 C 若懷疑腦膜炎應安排腰椎穿刺 D 保持呼吸道通暢，給予氧氣）（FC 100 年）",
+          "text": "**答：(A)。** 不是重積狀態，重點是找原因與觀察。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：符合哪一種狀況的癲癇病人，一定要接受腦部 MRI 或 CT？（A 失神型小發作每天超過 5 次者 B 癲癇在 25 歲之後才發病者 C 良性 Rolandic 癲癇者 D 小孩發燒痙攣者）（FC 98 年）",
+          "text": "**答：(B)。** 成年後才發生要找次發原因。"
+        },
+        {
+          "type": "heading",
+          "text": "重積狀態（§癲癇重積狀態）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q17：關於重積癲癇的敘述，何者錯誤？（A 在兒童抽搐性重積癲癇，死亡率為 50% 以上 B 血中 catecholamine 濃度升高可誘發致死性心律不整 C 抽搐性重積癲癇的發燒病人，若有腦膜炎跡象，也須做腰椎穿刺 D 抽搐性重積癲癇之成人及無發燒症狀之孩童，均須接受影像學檢查）（FC 110 年）",
+          "text": "**答：(A)。** 兒童死亡率通常 <5%，成人約 10–30%。(C)(D) 部分 OCR 不清，依上下文整理。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q18：50 歲男性，無特殊病史，突然癲癇大發作 5 分鐘，送急診時又發作約 3 分鐘，現已停止，意識不清楚。何者為不適當的處置？（A 維持呼吸道暢通 B 安排頭部 CT C 給予 phenytoin D 給予 benzodiazepine）（FC 108 年）",
+          "text": "**答：(D)，FC 答案，有爭議。** FC 詳解認為意識不清時避免會抑制呼吸的 BZD。但 Harrison 的重積流程第一線就是靜脈 BZD，FC 107 年題也說 lorazepam 為首選。可以這樣記：此刻已停止發作，所以不急著給 BZD；若仍在發作，BZD 仍是第一線。這是我的整理，不是 FC 的說法。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q19：關於重積癲癇治療，何者錯誤？（A 應立即給與 phenytoin，並避免給予 benzodiazepines 如 lorazepam B 應使用靜脈注射類而不是口服類 C 若仍持續發作進入 refractory status epilepticus，應再加上麻醉類藥物如 propofol D 腦波監控是必要檢查）（FC 107 年）",
+          "text": "**答：(A)。** lorazepam 為首選。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q20：關於癲癇重積狀態的敘述，何者錯誤？（A 定義為發作持續 60 分鐘以上，或任一次發作完神智 2 小時內未恢復 B 成人抽搐型死亡率高達 7–10% C 以發燒感染、中風、藥物改變或服藥遵從性不佳、飲酒或其他藥物及代謝異常為主要原因 D 非抽搐型較常發生於中老年人，且過去多無癲癇病史）（FC 103 年）",
+          "text": "**答：(A)。** 定義是超過 5 分鐘，或連續兩次發作之間沒有恢復意識。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q21：抽搐性癲癇重積狀態可造成血液中何種化學物質增加而導致心律不整？（A acetylcholine B catecholamine C serotonin D glutamate）（FC 97 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q22：以 phenytoin 治療痙攣型癲癇重積狀態首先應：（A 肌肉注射每公斤 15–18 mg B 靜脈注射每分鐘大於 200 mg C 靜脈注射每分鐘小於 50 mg D 從鼻胃管灌食每公斤 15–18 mg）（FC 93 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "酒精戒斷（§酒精戒斷發作）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q23：40 歲男性酒精性肝硬化，每天喝 200 mL 的 58% 高粱酒，已 30 小時未進食或喝酒，現在情緒不穩且躁動、頭痛、血壓高，偶而癲癇發作。何者最正確？（A 第一線選擇是 benzodiazepine B 持續性癲癇、過去沒有頭部病灶時，可使用 phenytoin C 同時出現幻覺時，視幻覺比聽幻覺更常見 D 若為 delirium tremens【其後 OCR 不清】）（FC 112 年）",
+          "text": "**答：(A)。** 首選 BZD。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q24：關於酒精戒斷引起的癲癇發作，何者正確？（A 90% 以上在戒斷後 48 小時內發生 B 通常為單純型部分發作 C 不會引起癲癇重積狀態 D 需要長期以藥物控制）（FC 95 年）",
+          "text": "**答：(A)。** 通常是 GTCS，少數併發重積，不必長期用藥。"
+        },
+        {
+          "type": "heading",
+          "text": "手術（§癲癇手術與神經刺激）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q25：28 歲男性頑固型癲癇，已用 3 種高劑量口服藥，每週仍有多次短暫發作，MRI 發現雙側海馬迴硬化。不建議採下列何種手術？（A 迷走神經刺激術 B 深腦刺激術 C 雙側顳葉切除 D 反應式神經刺激術）（FC 109 年）",
+          "text": "**答：(C)。** 切除雙側海馬迴會造成嚴重永久失憶。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q26：關於癲癇手術的敘述，何者錯誤？（A Rasmussen encephalitis 以半邊大腦切除術為主 B 失張發作以胼胝體切開術為主 C 兒童失神性癲癇以迷走神經刺激術為主 D 內側顳葉硬化症以顳葉切除術或杏仁體海馬迴切除術為主）（FC 108 年）",
+          "text": "**答：(C)。** 失神藥物控制好，不用手術。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "原則",
+              "單一、低劑量、慢慢加、5 個半衰期"
+            ],
+            [
+              "失神",
+              "ethosuximide，其次 valproate"
+            ],
+            [
+              "JME",
+              "valproate；肝病或育齡婦女 levetiracetam"
+            ],
+            [
+              "會加重",
+              "carbamazepine、phenytoin 加重失神與 JME"
+            ],
+            [
+              "育齡婦女",
+              "避 valproate；lamotrigine、levetiracetam"
+            ],
+            [
+              "避孕藥",
+              "CBZ、PHT 降低效果"
+            ],
+            [
+              "肝硬化",
+              "levetiracetam"
+            ],
+            [
+              "HLA-B*1502",
+              "carbamazepine 等 SJS"
+            ],
+            [
+              "Phenytoin",
+              "牙齦增生、非線性、靜注 <50 mg/min"
+            ],
+            [
+              "重積",
+              ">5 分鐘；BZD → 靜脈藥 → 麻醉藥"
+            ],
+            [
+              "持續昏迷",
+              "腦波排除非抽搐型"
+            ],
+            [
+              "酒精戒斷",
+              "48 小時內、GTCS、BZD、不長期用藥"
+            ],
+            [
+              "手術",
+              "內側顳葉切除；半腦切除；胼胝體切開"
+            ],
+            [
+              "雙側海馬迴",
+              "不可雙切"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
