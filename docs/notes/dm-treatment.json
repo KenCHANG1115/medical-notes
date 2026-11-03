@@ -6,11 +6,12 @@
   "specialty": "新陳代謝科",
   "sources": [
     "Harrison's 22e - Ch.416 Diabetes Mellitus: Management and Therapies (p.3248-3264)",
-    "First Choice 醫學(三) 第2冊 - 丁、糖尿病 F–H、K (p.282-291、297)；考題 (p.308-312)",
+    "First Choice 醫學(三) 第2冊 - 丁、糖尿病 F–H、K (p.282-291、297)；考題 (p.308-312，14 題)",
     "ADA Standards of Care in Diabetes—2026（Section 9 藥物、Section 16 住院）",
     "FDA 仿單（DailyMed）：Januvia、Tradjenta、Jardiance、Farxiga、metformin ER、glimepiride、repaglinide、Actos、Precose、Ozempic、Trulicity、Victoza"
   ],
   "generated": "2026-10-07",
+  "updated": "2026-11-04",
   "related": [
     {
       "id": "diabetes-mellitus",
@@ -31,12 +32,37 @@
   ],
   "sections": [
     {
-      "title": "治療目標與全面照護",
+      "title": "讀前說明：怎麼讀這篇",
       "content": [
         {
           "type": "callout",
           "style": "logic",
-          "text": "**這份筆記的讀法**\n見習時最常遇到：**門診調藥**（第 4–5 章）、**開胰島素與調劑量**（第 6 章）、**住院病人的血糖**（第 7 章）。先記住三個治療目的：\n① **消除高血糖症狀**（血糖 < 200 通常就沒症狀）\n② **減少或消除小血管與大血管併發症**\n③ **讓病人盡量過正常生活**\n所以大多數治療其實在追求 ②③——而且**第二型的照護重點不只血糖，還有血壓、血脂、心腎保護**。"
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "FC 丁、糖尿病治療共 **14 題**，一半以上在考**口服藥的副作用**：metformin 的**乳酸中毒**與 **B12 缺乏**、哪一類最容易**低血糖**、哪一類會**變胖**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**：先定個人化目標（一般 HbA1c < 7%，老人放寬）→ 第一線 metformin → 依心腎共病與低血糖、體重風險選第二線 → 不夠再加胰島素。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "這篇由 2026-10-07 的舊版改寫。原本的表格、圖與 ADA 2026、DailyMed 查證內容都保留，細節收進「延伸」；舊版自出的練習題改為 FC 原題。"
+        }
+      ]
+    },
+    {
+      "title": "治療目標與全面照護　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 一般 HbA1c 目標 **< 7%**\n- **80 歲以上**放寬（FC：7.5–8.5%），避免低血糖；**< 6.5% 是錯的**\n- 口服藥第一線是 **metformin**，不是 sulfonylurea\n- 照護：每 3 個月 HbA1c、每年眼底、足部檢查；血壓、血脂、戒菸\n- 用 ACE 抑制劑後 **creatinine 急升、血壓反而上升**、腎功能惡化 → **先停 ACE 抑制劑**"
         },
         {
           "type": "table",
@@ -104,8 +130,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：為什麼不是越低越好",
           "text": "**為什麼不是越低越好**：ACCORD、ADVANCE、VADT 發現，在**高心血管風險**的第二型病人**強力降血糖**對大血管幫助有限，**ACCORD 甚至因死亡率上升提前終止**——低血糖與心血管事件、死亡相關 → 這群人**不追求接近正常**。\n**國考題型（111 年）**：「80 歲以上病人 HbA1c 目標 < 6.5%」→ **錯**，應較寬鬆（First Choice 詳解：7.5–8.5%）。"
         },
         {
@@ -143,6 +169,11 @@
         },
         {
           "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁、糖尿病 考題 p.309、311–312"
+        },
+        {
+          "type": "source",
           "book": "Harrison's 22e",
           "pages": "3248、3251-3252、3264"
         },
@@ -154,8 +185,13 @@
       ]
     },
     {
-      "title": "生活型態：營養、運動與衛教",
+      "title": "生活型態：營養、運動與衛教　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 飲食、運動、減重是所有治療的基礎"
+        },
         {
           "type": "table",
           "headers": [
@@ -205,8 +241,13 @@
       ]
     },
     {
-      "title": "血糖監測：HbA1c、自我監測與 CGM",
+      "title": "血糖監測：HbA1c、自我監測與 CGM　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- HbA1c 反映約 2–3 個月的平均血糖"
+        },
         {
           "type": "table",
           "headers": [
@@ -241,8 +282,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：速算",
           "text": "**速算**：HbA1c 每升 1%，平均血糖約多 **28–30 mg/dL**（7% ≈ 154）。\n**HbA1c 反映過去 2–3 個月**（紅血球壽命約 120 天），但**最近一個月的血糖貢獻約 50%**。看不到**血糖波動**與**最近的急性變化**——這要靠 CGM 或指尖血糖。\n**HbA1c 不準的情況**：血紅素病變、貧血、**網狀紅血球增加**、輸血、**尿毒症、洗腎、EPO**、G6PD 變異 → 改用**果糖胺或糖化白蛋白**（2–4 週）。"
         },
         {
@@ -281,11 +322,16 @@
       ]
     },
     {
-      "title": "非胰島素藥物：機轉、優缺點與常用劑量",
+      "title": "非胰島素藥物：機轉、優缺點與常用劑量　★ 8 題",
       "content": [
         {
           "type": "callout",
-          "style": "logic",
+          "style": "key",
+          "text": "**必背**\n- **Metformin**：減少肝臟糖質新生；**單用不易低血糖**；最嚴重副作用**乳酸中毒**（腎功能差、顯影劑、缺氧）；長期 **B12 缺乏**；**不會變胖**\n- 用 metformin 的人出現**陰離子間隙代謝性酸中毒**、lactate 高、酮體陰性 → **乳酸中毒**\n- **Sulfonylurea、meglitinide**：刺激胰島素分泌 → **最容易低血糖**、會變胖\n- **DPP-4 抑制劑**：提高 GLP-1；**單用不易低血糖**\n- **SGLT2 抑制劑**（dapagliflozin、empagliflozin）：從尿排糖，**減重**最明顯；**不是**胰島素增敏劑\n- **TZD（pioglitazone）**：增敏劑，**心衰竭**風險、水腫、變胖\n- **Acarbose**：抑制腸道醣類分解，降**餐後**血糖\n- Saxagliptin 研究顯示可能增加心衰竭住院"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：用「藥物作用在哪裡」來記（對照（一）的八大惡兆）",
           "text": "**用「藥物作用在哪裡」來記**（對照（一）的八大惡兆）：\n- **肝臟製糖↓**：metformin\n- **β 細胞分泌↑**：SU、glinide（關 K-ATP，**不看血糖** → 會低血糖）；GLP-1RA、DPP-4i（**腸泌素，血糖高才作用** → 本身不低血糖）\n- **胰島素敏感度↑**：TZD（PPAR-γ）\n- **腎臟排糖↑**：SGLT2i（**不需胰島素**）\n- **腸道吸收↓**：α-glucosidase inhibitor\n**本身不會直接造成低血糖**：metformin、α-glucosidase inhibitor、GLP-1RA、DPP-4i、TZD、SGLT2i（但**合併 SU 或胰島素時會增加風險**）。"
         },
         {
@@ -418,14 +464,19 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：用藥安全（Harrison）",
           "text": "**用藥安全（Harrison）**\n- **Metformin**：住院、無法進食、**打碘顯影劑**時停（顯影後確認腎功能再恢復）；長期用要驗 **B12**。\n- **SGLT2i**：**正常血糖 DKA**——生病、禁食、手術時尿糖掩蓋了胰島素需求；**術前至少停 3 天**（仿單）；教病人認識 DKA 症狀與**驗酮體**。\n- **GLP-1RA＋胰島素或 SU**：可能要**減少胰島素或 SU** 以免低血糖。\n- **不建議併用的組合**（First Choice）：**SU＋glinide**、**DPP-4i＋GLP-1RA**（機轉重疊）；**TZD＋胰島素**注意水腫與心衰竭。"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：國考題型",
           "text": "**國考題型**\n- **112 年**：「metformin 是**最常引起低血糖**的口服藥」→ 錯（SU 才是）。**109 年**：最容易低血糖 → **meglitinide（glinide）**。\n- **113 年**：「DPP-4i 單獨使用易低血糖」→ 錯。\n- **110 年**：70 歲吃 glimepiride＋**metformin**＋acarbose＋pioglitazone，**血管攝影後 4 天**意識不清、pH 6.8、**lactate 26.6**、Cr 6.8、酮體陰性 → **metformin（乳酸中毒）**。\n- **109 年**：70 歲 metformin＋losartan，嘔吐腹痛、Cr 6.5、pH 7.0、HCO₃ 4 → **乳酸中毒**。\n- **109 年**：最可能引起 **B12 缺乏** → **biguanide**。\n- **107 年**：「dapagliflozin、empagliflozin 屬於**胰島素增敏劑**」→ 錯（腎臟排糖）。\n- **106 年**：「口服藥以 **SU 為第一線**」→ 錯（metformin）。\n- **113 年**：「SGLT2i 有明顯減重效果」✔；「pioglitazone 增加心衰竭風險」✔。\n- **103 年**：吃 acarbose 發生低血糖 → **直接吃葡萄糖**，不宜吃多醣食物。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁、糖尿病 考題 p.308–312"
         },
         {
           "type": "source",
@@ -445,8 +496,13 @@
       ]
     },
     {
-      "title": "第二型糖尿病的用藥流程：先看心腎共病",
+      "title": "第二型糖尿病的用藥流程：先看心腎共病　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 有動脈硬化心血管病、心衰竭、慢性腎病 → 優先有證據的 SGLT2 抑制劑或 GLP-1 受體促效劑"
+        },
         {
           "type": "figure",
           "src": "figures/dm-treatment/h416-3.png",
@@ -509,8 +565,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：合併治療的原則（Harrison）",
           "text": "**合併治療的原則（Harrison）**\n- 常見組合：**metformin＋SGLT2i**、**metformin＋GLP-1RA**、**metformin＋胰島素**、**長效胰島素＋GLP-1RA**（機轉不同 → 效果相加）。\n- **GRADE 研究**：metformin 加 **liraglutide 或 basal insulin** 比加 glimepiride 或 sitagliptin 控糖更好。\n- 兩種藥仍未達標（**每 3 個月評估 HbA1c**）→ 加第三種，包括 basal insulin。\n- First Choice（台灣）：**用 3 種以上口服藥仍控制不佳 → 考慮胰島素**；新診斷早期用胰島素可保護 β 細胞。"
         },
         {
@@ -531,8 +587,13 @@
       ]
     },
     {
-      "title": "胰島素：種類、怎麼開、怎麼調",
+      "title": "胰島素：種類、怎麼開、怎麼調　★ 2 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Basal-bolus**：每日一次**長效**（basal）＋**三餐前短效或速效**（bolus），最接近生理\n- 長效：**detemir、glargine**；**lispro 是速效**\n- **魚精蛋白（protamine）延緩**吸收，讓短效變中效\n- 第一型**必須**靠胰島素控制血糖、預防酮酸中毒\n- 第一型病人用 TPN 時，除了輸液中加胰島素，仍要給長效胰島素"
+        },
         {
           "type": "table",
           "headers": [
@@ -588,19 +649,24 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
-          "text": "**第一型：一定要基礎＋餐前（basal-bolus）**\n- **總量 0.4–1.0 單位/kg/天**，其中 **30–50% 當基礎**，其餘當餐前。\n- **基礎劑量**依**空腹血糖**調整。\n- **餐前劑量 = 餐食部分＋校正部分**：\n  - 餐食：**胰島素／碳水化合物比**，常見 **1 單位 : 10–15 g**\n  - 校正：每高於目標 **30–60 mg/dL 加 1 單位**；校正因子可用 **1500 ÷ 每日總量**估算\n- 所有第一型病人都應**有升糖素處方**。**自動胰島素輸注系統（AID）**是多數第一型的首選（費用許可時）。\n- **預混胰島素不適合第一型**；SGLT2i 增加 DKA 風險，一般不用於第一型。"
+          "type": "collapsible",
+          "summary": "延伸：第一型",
+          "text": "**第一型：一定要基礎＋餐前（basal-bolus）**\n- **總量 0.4–1.0 單位/kg/天**，其中 **30–50% 當基礎**，其餘當餐前。\n- **基礎劑量**依**空腹血糖**調整。\n- **餐前劑量 = 餐食部分＋校正部分**：\n　- 餐食：**胰島素／碳水化合物比**，常見 **1 單位 : 10–15 g**\n　- 校正：每高於目標 **30–60 mg/dL 加 1 單位**；校正因子可用 **1500 ÷ 每日總量**估算\n- 所有第一型病人都應**有升糖素處方**。**自動胰島素輸注系統（AID）**是多數第一型的首選（費用許可時）。\n- **預混胰島素不適合第一型**；SGLT2i 增加 DKA 風險，一般不用於第一型。"
         },
         {
-          "type": "callout",
-          "style": "guideline",
-          "text": "**第二型：從基礎胰島素開始**\n- **起始**：**睡前一劑長效**（glargine、degludec 或 NPH）——第二型空腹高血糖主要來自肝臟製糖，睡前打效果較好。\n  - 劑量（Harrison）：**10–15 單位**固定劑量，或 **0.1 單位/kg**（Harrison 範圍 0.1–0.4 單位/kg/天）\n  - ADA 2026：依體重 **0.1–0.2 單位/kg/天**＋高血糖程度估計\n- **調整**：依血糖每次 **10–20%** 增減（Harrison）。\n- **何時加餐前胰島素**：基礎胰島素調好但 HbA1c 仍未達標、或飯後血糖明顯偏高 → ADA：**最大那一餐先加 4 單位或基礎劑量的 10%**。\n- **基礎過量（overbasalization）的徵象**（ADA）：**睡前到早上血糖差 ≥ 50 mg/dL**、飯後到下一餐前血糖落差大、出現低血糖 → 不要再加基礎，改處理餐前血糖。\n- **ADA 2026**：在加餐前胰島素**之前先考慮 GLP-1RA 或 GIP/GLP-1 雙重致效劑**（降低低血糖與增重）。\n- 長期病程可能需要 **1–2 單位/kg/天**；**> 200 單位/天**可用濃縮胰島素（U-500）。\n- 主要副作用：**體重增加、低血糖**；所有打胰島素的人都應使用 **CGM**。"
+          "type": "collapsible",
+          "summary": "延伸：第二型",
+          "text": "**第二型：從基礎胰島素開始**\n- **起始**：**睡前一劑長效**（glargine、degludec 或 NPH）——第二型空腹高血糖主要來自肝臟製糖，睡前打效果較好。\n　- 劑量（Harrison）：**10–15 單位**固定劑量，或 **0.1 單位/kg**（Harrison 範圍 0.1–0.4 單位/kg/天）\n　- ADA 2026：依體重 **0.1–0.2 單位/kg/天**＋高血糖程度估計\n- **調整**：依血糖每次 **10–20%** 增減（Harrison）。\n- **何時加餐前胰島素**：基礎胰島素調好但 HbA1c 仍未達標、或飯後血糖明顯偏高 → ADA：**最大那一餐先加 4 單位或基礎劑量的 10%**。\n- **基礎過量（overbasalization）的徵象**（ADA）：**睡前到早上血糖差 ≥ 50 mg/dL**、飯後到下一餐前血糖落差大、出現低血糖 → 不要再加基礎，改處理餐前血糖。\n- **ADA 2026**：在加餐前胰島素**之前先考慮 GLP-1RA 或 GIP/GLP-1 雙重致效劑**（降低低血糖與增重）。\n- 長期病程可能需要 **1–2 單位/kg/天**；**> 200 單位/天**可用濃縮胰島素（U-500）。\n- 主要副作用：**體重增加、低血糖**；所有打胰島素的人都應使用 **CGM**。"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：國考題型",
           "text": "**國考題型**\n- **113 年**：basal-bolus 是「**三餐注射短效或速效＋每天一次長效**」，最接近生理分泌。\n- **109 年**：「**預混胰島素的 protamine 加速吸收**」→ 錯（是**延緩**吸收，把速效或短效變成中效）；「短效胰島素提供基礎需求」→ 錯；「**第一型需仰賴胰島素控糖並預防 DKA**」✔；「lispro 屬中長效」→ 錯。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第2冊",
+          "pages": "丁、糖尿病 考題 p.308、310"
         },
         {
           "type": "source",
@@ -620,11 +686,16 @@
       ]
     },
     {
-      "title": "住院病人的血糖管理",
+      "title": "住院病人的血糖管理　★ 0 題",
       "content": [
         {
           "type": "callout",
-          "style": "logic",
+          "style": "key",
+          "text": "**必背**\n- 用類固醇的糖尿病人，空腹血糖 > 200 控制不佳時常需胰島素"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：為什麼住院血糖難控制",
           "text": "**為什麼住院血糖難控制**：手術、麻醉、感染、急性病 → **反調節荷爾蒙（皮質醇、生長激素、兒茶酚胺、升糖素）與細胞激素↑** → 暫時性胰島素阻抗、**胰島素需求增加**；同時病人**吃不好、禁食** → 又容易**低血糖**。\n**入院就要做**：驗 **HbA1c**（評估平常控制、決定出院用藥）、電解質、腎功能、容積狀態；開始密集監測血糖，並**一開始就規劃出院方案**。"
         },
         {
@@ -657,8 +728,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：NICE-SUGAR 研究",
           "text": "**NICE-SUGAR 研究**：ICU 病人（多數插管）把血糖壓到 **81–108 mg/dL** → **死亡率較高、嚴重低血糖較多**（對照組 < 180）。→ **住院血糖不要壓太低**。"
         },
         {
@@ -732,8 +803,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：國考題型（111 年）",
           "text": "**國考題型（111 年）**：第一型病人用 **TPN** 時，除了輸液加胰島素，**還要同時給長效胰島素**✔；用類固醇的病人 **FPG > 200 → 給胰島素**✔。"
         },
         {
@@ -754,8 +825,13 @@
       ]
     },
     {
-      "title": "特殊族群：懷孕、老人",
+      "title": "特殊族群：懷孕、老人　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 老人目標放寬，避免低血糖；懷孕見（一）的妊娠糖尿病"
+        },
         {
           "type": "table",
           "headers": [
@@ -792,8 +868,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：老人（Harrison）",
           "text": "**老人（Harrison）**：約 **25%** 的 > 65 歲有糖尿病。目標依**生理年齡、共病、認知與功能、居住與支持**個別化（見第 1 章表）；**避免低血糖最重要**（會加重認知障礙與心血管疾病）。選藥考慮**心衰竭、腎功能、低血糖傾向**；高血壓要治療（實證明確），降血脂的好處較不明確。"
         },
         {
@@ -809,42 +885,89 @@
       ]
     },
     {
-      "title": "臨床題練習",
+      "title": "考題練習與速查表",
       "content": [
         {
-          "type": "callout",
-          "style": "logic",
-          "text": "**每題都照這個順序想**：① **目標是多少？**（年齡、共病、低血糖風險） ② **有沒有 ASCVD、心衰竭、CKD？** → 有就優先 SGLT2i 或 GLP-1RA ③ **腎功能多少？** → 決定能不能用、要不要減量 ④ **高血糖多嚴重、有沒有症狀？** → 是否直接上胰島素 ⑤ **住院中？** → 停口服藥、basal-bolus"
+          "type": "heading",
+          "text": "治療目標（§治療目標與全面照護）"
         },
         {
           "type": "collapsible",
-          "summary": "Q1：55 歲男性新診斷第二型，HbA1c 7.8%，BMI 29，eGFR 85，無心血管疾病。起始用藥？",
-          "text": "**答：生活型態＋metformin。**\n- 輕中度高血糖、無心腎共病 → metformin 第一線（便宜、不低血糖、體重中性）\n- **500 mg/d 隨餐開始，每 1–2 週加 500 mg，最大 2000 mg/d**（腸胃副作用從低劑量開始）\n- 減重 5–7%、每週 150 分鐘運動\n- 想減重可考慮加 GLP-1RA；**3 個月後**評估 HbA1c"
+          "summary": "Q1：下列敘述何者錯誤？（A 第一型糖尿病人以全靜脈營養治療時，除輸液中加胰島素外，應同時給與長效胰島素 B 使用類固醇之糖尿病人，若空腹血糖超過 200 以上控制不佳時，常需給與胰島素 C 脂質營養不良性之糖尿病人，可使用重組人類瘦素治療 D 80 歲以上之糖尿病病人，其血糖控制目標為 HbA1c < 6.5%）（FC 111 年）",
+          "text": "**答：(D)。** 老人放寬到 7.5–8.5%，避免低血糖。"
         },
         {
           "type": "collapsible",
-          "summary": "Q2：68 歲女性第二型，已用 metformin 1000 mg bid，HbA1c 8.1%，去年因心衰竭住院（EF 35%），eGFR 50。下一步加什麼？",
-          "text": "**答：加 SGLT2i（如 empagliflozin 10 mg qd 或 dapagliflozin 10 mg qd）。**\n- **心衰竭 → SGLT2i**（減少心衰竭住院，不論 HbA1c）\n- eGFR 50：metformin 可繼續（< 45 時評估利弊，< 30 停）\n- **避免 pioglitazone**（水腫、心衰竭惡化）；**saxagliptin、alogliptin** 也可能增加心衰竭住院\n- 衛教：生殖泌尿道感染、脫水、**生病禁食時停藥＋驗酮體（正常血糖 DKA）**"
+          "summary": "Q2：66 歲男性高血壓，30 年抽菸，年輕時有氣喘病史，最近發現有糖尿病，醫師建議加入「全民健康保險糖尿病共同照護網」。下列糖尿病照護的管理流程，哪一項錯誤？（A 每三個月檢查糖化血色素 B 每年檢查眼底視網膜病變 C 每年周邊動脈硬化檢查 D 需要時安排足底神經學檢查）（FC 107 年）",
+          "text": "**答：(C)。** FC 沒有附詳解。"
         },
         {
           "type": "collapsible",
-          "summary": "Q3：60 歲男性第二型，用 metformin＋glimepiride，HbA1c 9.5%，空腹血糖 210，體重 80 kg。要開始胰島素，怎麼開？",
-          "text": "**答：睡前一劑基礎胰島素。**\n- 起始：**10 單位**或 **0.1–0.2 單位/kg（8–16 單位）**的 glargine 或 degludec，睡前\n- 依空腹血糖調整（Harrison：每次 10–20%），目標空腹 80–130\n- 繼續 metformin；**SU 可能需要減量**（低血糖）\n- 基礎劑量很高、睡前到早上血糖差 ≥ 50 → 不要再加基礎（overbasalization），考慮加 **GLP-1RA** 或最大一餐加 **4 單位速效**\n- 也可先考慮 GLP-1RA（ADA 2026：餐前胰島素前先考慮）"
+          "summary": "Q3：下列關於第二型糖尿病治療之敘述，何者錯誤？（A 一般以 HbA1c 小於 7% 為目標 B 口服降血糖藥物以磺醯尿素類製劑為第一線用藥 C DPP-4 抑制劑之功能是提高餐後血中 GLP-1 之濃度 D α-glucosidase 抑制劑主要用於降低餐後血糖）（FC 106 年）",
+          "text": "**答：(B)。** 第一線是 metformin。"
         },
         {
           "type": "collapsible",
-          "summary": "Q4：72 歲第二型住院治療肺炎，平常吃 metformin、sitagliptin、empagliflozin，入院血糖 260，可以進食。怎麼處理血糖？",
-          "text": "**答：停口服藥，改 basal-bolus＋校正。**\n- **入院停口服藥**：metformin（感染、可能顯影、腎功能變化）、**empagliflozin（急性病 → 正常血糖 DKA、脫水）**\n- 開**長效（basal）＋三餐前速效＋校正**；**不要只用 sliding scale**\n- 目標：ADA 2026 非重症 **100–180**（Harrison／台灣 140–180），避免低血糖\n- 驗 **HbA1c** 規劃出院用藥；穩定後再恢復口服藥"
+          "summary": "Q4：62 歲女性糖尿病十年，最近一個月以 ACE 抑制劑控制高血壓於 130/80，兩週前血液肌酸酐 1.0，最近 2 週血壓升至 170/100，少尿、水腫、端坐呼吸、食慾不振、嘔吐，BUN 60、肌酸酐 3.5、尿蛋白 4+。何者最正確？（A 立即停用 ACE 抑制劑 B 立即做腎臟切片 C 立即做 renal arteriography D 立即以 pulse methylprednisolone 治療）（FC 104 年）",
+          "text": "**答：(A)。** 用 ACE 抑制劑後腎功能急速惡化，先停藥。"
+        },
+        {
+          "type": "heading",
+          "text": "非胰島素藥物（§非胰島素藥物）"
         },
         {
           "type": "collapsible",
-          "summary": "Q5：50 歲第二型 COPD 急性發作，開始 prednisolone 40 mg 每天早上，下午血糖 280–320，早上空腹 130。怎麼調？",
-          "text": "**答：早上打 NPH（及／或短效）。**\n- 類固醇高血糖**以飯後、下午為主**、作用與類固醇時間相關\n- **早上給類固醇 → 早上打 NPH**（作用高峰正好對上下午）\n- FPG > 200 時口服藥通常不夠 → 胰島素\n- **類固醇減量時要同步減胰島素**，否則低血糖"
+          "summary": "Q5：下列敘述何者錯誤？（A pioglitazone 會增加鬱血性心臟衰竭的風險 B DPP-4 抑制劑會提升胰島素分泌、減少升糖素分泌，單獨使用易引起低血糖 C SGLT2 抑制劑比起其它降血糖藥物，有較明顯減輕體重的功效 D metformin 可以減少肝臟糖質新生）（FC 111 年）",
+          "text": "**答：(B)。** DPP-4 抑制劑單用不易低血糖，磺醯尿素類才容易。"
         },
         {
           "type": "collapsible",
-          "summary": "Q6：第一型 25 歲 60 kg，要開 basal-bolus，大約怎麼分配？",
-          "text": "**答：總量約 0.5 單位/kg ≈ 30 單位/天，一半基礎、一半餐前。**\n- Harrison：**0.4–1.0 單位/kg/天**，**30–50% 基礎**\n- 例：glargine **12–15 單位**睡前；其餘分三餐前速效（各約 5 單位），再依**碳水比（1 單位 : 10–15 g）**與**校正因子（1500 ÷ 30 = 50 → 每高 50 mg/dL 加 1 單位）**調整\n- 開**升糖素**處方；建議 CGM"
+          "summary": "Q6：70 歲男性糖尿病，長期服用 glimepiride、metformin、acarbose、pioglitazone。接受血管攝影 4 天後意識不清。pH 6.8、PCO2 39.3、HCO3 6.2、BUN 86、creatinine 6.8、Na 135、K 6.0、Cl 90、glucose 131、lactic acid 26.6 mmol/L、ketone 陰性。所服用的藥物中，何者與此急性病變最相關？（A glimepiride B metformin C acarbose D pioglitazone）（FC 110 年）",
+          "text": "**答：(B)。** 顯影劑後腎衰竭加上 metformin → 乳酸中毒。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：下列口服降血糖藥，何種最可能引起維生素 B12 缺乏？（A biguanides B acarbose C thiazolidinediones D sulfonylureas）（FC 109 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：70 歲女性近 2 週嘔吐、腹痛漸增而至急診；糖尿病 10 多年，一個月前腎功能正常，用 metformin 1.5 g、losartan 50 mg、simvastatin 20 mg。Na 139、K 4.9、Cl 103、glucose 216、Ca 8、Cr 6.5、pH 7.0、HCO3 4.0、PCO2 14，尿液無異常。最可能的診斷？（A diabetic ketoacidosis B rhabdomyolysis C lactic acidosis D type 4 renal tubular acidosis）（FC 109 年）",
+          "text": "**答：(C)。** 用 metformin 又看到酸中毒，一定要想到乳酸中毒。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：下列何種降血糖藥物，最容易發生低血糖的副作用？（A DPP-4 抑制劑 B SGLT2 抑制劑 C meglitinide D GLP-1 受體促進劑）（FC 109 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：有關糖尿病口服藥物的敘述，何者錯誤？（A Metformin 單獨使用不太會引起低血糖，其最嚴重的副作用為乳酸血症 B Thiazolidinediones 及 DPP-4 inhibitors 可能會引起心臟衰竭 C Dapagliflozin 及 empagliflozin 屬於胰島素增敏劑 D Acarbose 的作用機轉為抑制腸道的碳水化合物消化與吸收）（FC 107 年）",
+          "text": "**答：(C)。** 是 SGLT2 抑制劑。(B) 指 saxagliptin 可能增加心衰竭住院。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：下列哪一種口服降血糖藥可能引起乳酸血症？（A metformin B sitagliptin C pioglitazone D acarbose）（FC 105 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：下列口服降血糖藥物中，不會引起體重增加的是哪一種？（A glyburide B metformin C pioglitazone D repaglinide）（FC 104 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "胰島素（§胰島素）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：有關 basal-bolus 胰島素注射法的敘述，何者最適當？（A 三餐注射短效或速效的胰島素，並每日給與一次長效型的胰島素注射 B 三餐給與預混型的胰島素，並於睡前給與一次長效型的胰島素注射 C 每天給與一次超長效的胰島素注射 D 每天給與四次速效型的胰島素注射）（FC 113 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：有關胰島素製劑與使用的敘述，何者正確？（A 中長效型胰島素製劑包含 detemir、glargine 及 lispro B 短效型胰島素注射提供基礎胰島素的需求 C 預混型胰島素含有魚精蛋白可加速胰島素的吸收與作用 D 第 1 型糖尿病病人需仰賴胰島素的注射來控制血糖並預防酮酸血症的發生）（FC 109 年）",
+          "text": "**答：(D)。** Lispro 是速效；魚精蛋白是延緩吸收。"
         },
         {
           "type": "heading",
@@ -890,11 +1013,6 @@
               "ICU 140–180；非 ICU 100–180（ADA 2026）／140–180；停口服藥；basal-bolus，不只用 sliding scale"
             ]
           ]
-        },
-        {
-          "type": "source",
-          "book": "Harrison's 22e",
-          "pages": "3248-3264"
         }
       ]
     }
