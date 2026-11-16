@@ -7,7 +7,7 @@
   "sources": [
     "Harrison's 22e - Ch.321 Acute Kidney Injury (p.2418-2422)",
     "First Choice 醫學(三) 第3冊 - 丙、急性腎損傷 AIN 考題 (p.83-87)",
-    "First Choice 醫學(三) 第3冊 - 丁、腎臟疾病各論 B. 腎小管疾病、C. 腎間質疾病 (講義 p.112-114、119；考題 p.115-121)，本篇共 18 題"
+    "First Choice 醫學(三) 第3冊 - 丁、腎臟疾病各論 B. 腎小管疾病、C. 腎間質疾病 (講義 p.112-114、119；考題 p.115-121)；E. 腎動脈疾病中膽固醇栓塞 2 題 (p.126-128)，本篇共 20 題"
   ],
   "generated": "2026-11-16",
   "updated": "2026-11-16",
@@ -41,7 +41,7 @@
         {
           "type": "callout",
           "style": "logic",
-          "text": "FC 丙、急性腎損傷的 AIN 題（4 題）、丁、腎臟疾病各論 B 腎小管疾病（顯影劑、色素性 AKI）與 C 間質疾病（馬兜鈴酸）共 **18 題**。出題集中在**顯影劑腎病變的預防與危險因子**、**橫紋肌溶解的輸液目標**、**AIN 的表現**、**馬兜鈴酸腎病變的特徵**。"
+          "text": "FC 丙、急性腎損傷的 AIN 題（4 題）、丁、腎臟疾病各論 B 腎小管疾病（顯影劑、色素性 AKI）與 C 間質疾病（馬兜鈴酸），加上 E 腎動脈疾病中的 2 題膽固醇栓塞，共 **20 題**。出題集中在**顯影劑腎病變的預防與危險因子**、**橫紋肌溶解的輸液目標**、**AIN 的表現**、**馬兜鈴酸腎病變的特徵**。"
         },
         {
           "type": "callout",
@@ -549,7 +549,7 @@
       ]
     },
     {
-      "title": "腎絲球與血管疾病（膽固醇栓塞、TMA）　★ 1 題",
+      "title": "腎絲球與血管疾病（膽固醇栓塞、TMA）　★ 3 題",
       "content": [
         {
           "type": "callout",
@@ -633,7 +633,7 @@
         {
           "type": "source",
           "book": "First Choice 醫學(三) 第3冊",
-          "pages": "丁、腎臟疾病各論 考題 p.97"
+          "pages": "丁、腎臟疾病各論 考題 p.97、126–128"
         },
         {
           "type": "source",
@@ -756,6 +756,16 @@
           "text": "**答：(A)。** 膽固醇栓塞、PAN、EGPA、急性間質性腎炎都可能出現嗜酸性球增多。"
         },
         {
+          "type": "collapsible",
+          "summary": "Q19：75 歲男性，抽菸 10 年以上，以 calcium channel blocker 治療高血壓 10 年。因胸痛接受顯影劑冠狀動脈攝影，檢查前肌酸酐 1.0 mg/dL，發現嚴重冠狀動脈硬化；3 天後肌酸酐 1.1，7 天後發生加速型高血壓及少尿而住院。高血壓視網膜病變、心臟擴大、下肢脈搏正常，但有皮膚網狀青斑（livedo reticularis），嗜伊紅性白血球增加、補體下降、肌酸酐 3.0 mg/dL，尿液紅血球 6–10/HPF、蛋白 1+。最可能的診斷？（A contrast nephropathy B atheroembolic renal disease C renal artery stenosis D renal vein thrombosis）（FC 104 年）",
+          "text": "**答：(B)。** 顯影劑腎病變和膽固醇栓塞都是心導管後 AKI 的可能原因；此病人導管後 3 天腎功能仍正常，時間上不符顯影劑腎病變。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q20：70 歲男性，有糖尿病、高血壓、高血脂及長年抽菸。4 週前經 femoral artery 接受 PTCA。目前尿量減少、全身倦怠、輕微發燒。血壓 180/100 mmHg，下肢有網狀青斑及水腫，creatinine 由 4 週前的 1.2 上升到 5.7 mg/dL。最可能的診斷？（A contrast nephropathy B systemic vasculitis C atheroembolic renal disease D acute interstitial nephritis）（FC 98 年）",
+          "text": "**答：(C)。** (A) 顯影劑腎病變在 24 小時內開始惡化、3–5 天高峰，4 週後才發生不像；(B) 血管炎的皮膚表現是 palpable purpura；(C) 網狀青斑提示全身性栓塞，也可合併藍趾與腸胃道表現；(D) FC 詳解指 AIN 應在 2 週以內發生。"
+        },
+        {
           "type": "heading",
           "text": "速查表"
         },
@@ -801,6 +811,10 @@
             [
               "嗜酸性球增多",
               "AIN、膽固醇栓塞、PAN、EGPA；MPA 最少"
+            ],
+            [
+              "心導管後 AKI",
+              "數天內、3–5 天高峰 → 顯影劑；數天到數週、livedo、嗜酸性球、低補體 → 膽固醇栓塞"
             ]
           ]
         }
