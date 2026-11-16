@@ -211,6 +211,10 @@
           "name": "Chronic Kidney Disease (慢性腎臟病)"
         },
         {
+          "id": "dialysis-transplantation",
+          "name": "Dialysis and Kidney Transplantation (透析與腎移植)"
+        },
+        {
           "id": "acid-base-disorders",
           "name": "Acid-Base Disorders (酸鹼平衡異常)"
         },
