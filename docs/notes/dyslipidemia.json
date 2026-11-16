@@ -6,10 +6,11 @@
   "specialty": "新陳代謝科",
   "sources": [
     "Harrison's 22e - Ch.419 Disorders of Lipoprotein Metabolism (p.3280-3295)",
-    "First Choice 醫學(三) 第1冊 - 乙、高血脂 (p.41-55，含考題)；第2冊 - 己、脂肪代謝異常 (p.338-341)",
+    "First Choice 醫學(三) 第1冊 - 乙、高血脂 (p.41-54，考題 16 題)；第2冊 - 己、脂肪代謝異常 (p.338-341)",
     "補充：2026 ACC/AHA/AACVPR/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Dyslipidemia (Blumenthal RS, Morris PB et al. JACC 2026;87:2624-2757；Circulation 2026)——於 jacc.org 全文閱讀"
   ],
   "generated": "2026-10-11",
+  "updated": "2026-11-16",
   "related": [
     {
       "id": "ihd-stable",
@@ -38,12 +39,37 @@
   ],
   "sections": [
     {
-      "title": "總覽：脂蛋白與 apolipoprotein",
+      "title": "讀前說明：怎麼讀這篇",
       "content": [
         {
           "type": "callout",
           "style": "logic",
-          "text": "**這份筆記的讀法**\n- 高血脂的題目幾乎都在問四件事：\n  1. **代謝路徑**：哪個脂蛋白運什麼、哪個酵素或 apo 做什麼（基礎題最多）\n  2. **原發 vs 續發**：看到血脂異常先找續發原因\n  3. **要不要治療、目標多少**：依 ASCVD 風險\n  4. **用什麼藥**：機轉與副作用\n- **治療的兩個目的**（Harrison）：**預防動脈粥狀硬化心血管疾病（ASCVD）**、**預防嚴重高三酸甘油酯血症造成的急性胰臟炎**\n- **出處標示**：以 Harrison 22e 為主；**2026 ACC/AHA 血脂指引**（取代 2018 年版）標「補充」；FC 收錄的**台灣指引與健保規定**另外標註"
+          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "FC 乙、高血脂共 **16 題**（第 2 冊 己 p.341 的 2 題與第 1 冊 110 年兩題相同，不重複收）。出題集中在**脂蛋白與 apolipoprotein 的生理**、**statin 與 fibrate 的角色與副作用**、**LDL 計算**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**：脂蛋白怎麼運送脂質 → 原發或續發 → 依心血管風險決定要不要治療、目標多少 → statin 為基礎，再加 ezetimibe 等；嚴重高 TG 防胰臟炎。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "這篇由 2026-10-11 的舊版改寫。原本的表格、圖與 2026 ACC/AHA 指引的查證內容都保留，細節收進「延伸」；舊版自出的練習題改為 FC 原題。"
+        }
+      ]
+    },
+    {
+      "title": "總覽：脂蛋白與 apolipoprotein　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 最大的脂蛋白是 **chylomicron**，在**腸道**形成，apolipoprotein 是 **apoB-48**\n- **LDL** 的主要 apolipoprotein 是 **apoB-100**\n- Apolipoprotein 功能：**穩定結構**、**與受體結合**、**輔助酵素**（如 apoC-II 活化 LPL）；**不是 LPL 的前身**\n- 胰島素阻抗使 HDL **下降**、TG 上升"
         },
         {
           "type": "figure",
@@ -112,9 +138,14 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：ApoB 是「致動脈硬化脂蛋白」的計數器",
           "text": "**ApoB 是「致動脈硬化脂蛋白」的計數器**：每顆乳糜微粒、VLDL、IDL、LDL **各帶 1 分子 apoB**（腸做 **B-48**、肝做 **B-100**，同一個基因經 mRNA 編輯）；**HDL 沒有 apoB**。\n**FC 105 年**：apolipoprotein 的功能**不包括**「**合成 LPL 的前驅物**」——它的功能是**穩定結構、活化或抑制酵素、作為受體配體**。\n**FC 108 年**：正確的是「apolipoprotein 是脂蛋白上的蛋白，與受體結合有關」；「乳糜微粒在肝臟形成」錯（在**腸**）；「胰島素阻抗使 HDL 上升」錯（**HDL 下降**）。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "乙、高血脂 考題 p.51、53–54"
         },
         {
           "type": "source",
@@ -134,8 +165,13 @@
       ]
     },
     {
-      "title": "脂蛋白代謝：外源、內源與 HDL 逆向運輸",
+      "title": "脂蛋白代謝：外源、內源與 HDL 逆向運輸　★ 3 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **外源**：腸道 → chylomicron → 乳糜管 → LPL 分解 TG → chylomicron remnant 回肝\n- **內源**：肝 → **VLDL** → **IDL** → **LDL**\n- 空腹時 TG 主要由 **VLDL** 運送\n- 分解血中 TG 的是 **lipoprotein lipase**，不是 hormone-sensitive lipase\n- **HDL** 負責**膽固醇逆向運輸**，可與其他脂蛋白交換脂質\n- Statin 抑制的是 **HMG-CoA reductase**（速率決定步驟），不是 oxidase"
+        },
         {
           "type": "figure",
           "src": "figures/dyslipidemia/h419-2.png",
@@ -184,9 +220,14 @@
           "explain": "**【怎麼看】**肝與小腸分泌 **apoA-I** → 從周邊細胞與**巨噬細胞**接收**游離膽固醇**（經 ABCA1）形成**新生（盤狀）HDL** → **LCAT** 把膽固醇酯化 → 變成球形的**成熟 HDL**。膽固醇回到肝臟有兩條路：① 經肝臟 **SR-BI 受體**「選擇性」攝取膽固醇酯；② 經 **CETP** 把膽固醇酯換給 **VLDL、乳糜微粒**（換回 TG），再隨 IDL、LDL 經 **LDL 受體**回肝。\n**【考點】****HDL 是逆向膽固醇運輸最重要的脂蛋白**；只有**肝細胞與腸細胞**能把膽固醇排出體外（膽汁、腸腔）。"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：FC 108 年",
           "text": "**FC 108 年**：分解血液中 TG 的酵素**是 LPL**，不是 **hormone-sensitive lipase**（那是脂肪細胞內分解儲存 TG 的酵素）。\n**FC 110 年**：statin 抑制的速率決定酵素是 **HMG-CoA reductase**，不是 oxidase；**空腹時 TG 主要由 VLDL 運輸**；**LDL 受體是細胞攝取血中膽固醇最重要的受體**。\n**FC 104 年代謝流程圖**：肝臟出來的**甲 = VLDL**，經 IDL 變成的**乙 = LDL（apoB-100）**，腸道出來的**丙 = 乳糜微粒**。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "乙、高血脂 考題 p.50–51、53"
         },
         {
           "type": "source",
@@ -201,8 +242,13 @@
       ]
     },
     {
-      "title": "篩檢與檢驗：LDL 怎麼算、non-HDL、apoB、Lp(a)",
+      "title": "篩檢與檢驗：LDL 怎麼算、non-HDL、apoB、Lp(a)　★ 1 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Friedewald**：LDL = TC − HDL − TG/5（mg/dL）；TG 高時不準\n- non-HDL = TC − HDL"
+        },
         {
           "type": "table",
           "headers": [
@@ -237,14 +283,19 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：補充（2026 ACC/AHA）",
           "text": "**補充（2026 ACC/AHA）：篩檢與檢驗**\n- **成人從 19 歲開始、至少每 5 年**驗一次血脂，危險因子多者更頻繁（1）；**9–11 歲兒童**篩檢一次找家族性高膽固醇血症（1）；一、二等親有早發 ASCVD、嚴重高膽固醇或 FH → **≥ 2 歲**起做**串聯篩檢**（2a）\n- **空腹或非空腹**血脂都可以（1）；**有血脂異常或早發 ASCVD 家族史、懷疑 TG 代謝異常、非空腹 TG ≥ 400** → 做**空腹**血脂（1）\n- **LDL-C 估算：Martin/Hopkins 或 Sampson/NIH 公式優於 Friedewald**（1），也優於直接量測（β-定量法除外）（1）\n- **報告要列 non-HDL-C**（1）；**常規做進階脂蛋白分析（顆粒大小等）無益**（3：無益）\n- **apoB**：已用降血脂藥、LDL-C 與 non-HDL-C 都達標的人（尤其 ASCVD、心腎代謝症候群、第 2 型糖尿病、TG 高）→ 驗 apoB 決定要不要再加強（2a）\n- **Lp(a)：所有成人至少驗一次**（1）；**≥ 125 nmol/L（≥ 50 mg/dL）為升高**，約 **1.4 倍**風險，**≥ 250 nmol/L（100 mg/dL）約 2 倍**；高 Lp(a)、FH、早發 ASCVD → **一等親串聯驗 Lp(a)**（1）\n- **追蹤：開始或調整藥物後 4–12 週驗血脂，之後每 6–12 個月**（1, A）"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：FC 104 年計算題",
           "text": "**FC 104 年計算題**：總膽固醇 287、TG 175、HDL 90 → **LDL = 287 − 90 − 175/5 = 162 mg/dL**。\n**FC 書中**：「一般抽血需禁食 12 小時」是傳統做法；**2026 指引已接受非空腹**，只有 TG 高、家族史等情況才要空腹。\n**追蹤間隔的差異**：2023 慢性冠心病指引寫 4–12 週後、之後每 3–12 個月；2025 急性冠心症指引寫 4–8 週；**2026 血脂指引統一為 4–12 週、之後每 6–12 個月**。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "乙、高血脂 考題 p.54"
         },
         {
           "type": "source",
@@ -264,8 +315,13 @@
       ]
     },
     {
-      "title": "原發性血脂異常與診斷流程",
+      "title": "原發性血脂異常與診斷流程　★ 3 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **LDL 受體**突變失去功能 → LDL ↑、動脈硬化加速（FH）\n- **PCSK9 失去功能** → LDL 受體不被分解 → **LDL ↓**、風險下降\n- **黃色瘤**：皮下、肌腱、伸側；**高 TG 也會**（發疹性黃色瘤），不只是 LDL\n- **LPL 缺乏**：嚴重高 TG、**發疹性黃色瘤**、**胰臟炎**；**不是動脈硬化**"
+        },
         {
           "type": "table",
           "headers": [
@@ -366,19 +422,24 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "logic",
+          "type": "collapsible",
+          "summary": "延伸：Harrison 的診斷流程",
           "text": "**Harrison 的診斷流程：先分類 → 排除續發 → 再想原發**\n- **TG > 150** → 驗空腹血糖或 HbA1c 排除糖尿病\n- **LDL-C > 160** → 驗 **TSH** 排除甲狀腺低下，並想到肝、腎疾病\n- **嚴重高 TG（空腹 > 500）** → 有胰臟炎風險；**持續 > 1000 且總膽固醇／TG 比 > 8 → 想 FCS**；合併中心性肥胖、胰島素阻抗、脂肪肝 → 想 FPLD；**但多數是多基因＋續發因子**\n- **嚴重高膽固醇（LDL-C > 190）** → 排除續發後**想 FH**（尤其有家族史）→ 可做基因檢測、**家族串聯篩檢**；**父母膽固醇正常** → 想隱性型（ARH、谷固醇血症、溶小體酸性脂酶缺乏）\n- **混合型（TG > 150 且 LDL > 130，HDL 常低）** → 多為代謝因素；**手掌或結節黃色瘤、膽固醇與 TG 差不多高、HDL 不低 → FDBL**；**apoB 很高 → FCHL**\n- **HDL 很低（< 20）但 TG 不高** → 想罕見基因病；但 **HDL 低多數是高 TG、肥胖、胰島素阻抗造成**"
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：補充（2026 ACC/AHA）",
           "text": "**補充（2026 ACC/AHA）：FH**\n- **可能、很可能或確定的 FH → 基因檢測**有助辨識最高風險者並促進串聯篩檢（1）；**LDL ≥ 190 且無續發原因 → 基因檢測**合理（2a）\n- **FH 病人不可用一般族群的風險計算工具算 10 或 30 年風險**（3：有害）\n- 兒童：**≥ 8 歲、LDL 持續 ≥ 160 且臨床像 FH，生活型態 3–6 個月不夠 → 開始 statin**（1）"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：FC 111 年",
           "text": "**FC 111 年**：「**PCSK9 基因功能喪失**會增加 LDL、加速動脈硬化」錯誤——**PCSK9 負責把 LDL 受體送去分解**，功能喪失 → 受體變多 → **LDL 降低、冠心病減少**；**功能增強**才造成 FH。\n**FC 109 年**：「黃色瘤**只有 LDL 高才會發生**，與 TG 無關」錯誤——**發疹性黃色瘤**正是**嚴重高 TG**的表現；黃色瘤常在**皮下、肌腱鞘、四肢伸側**。\n**FC LPL 缺乏題**：典型表現**不包括動脈硬化**（Harrison：早發 ASCVD 不是 FCS 的特徵）；典型是**發疹性黃色瘤、胰臟炎、TG 很高**。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "乙、高血脂 考題 p.49–50、52"
         },
         {
           "type": "source",
@@ -403,8 +464,13 @@
       ]
     },
     {
-      "title": "續發性血脂異常",
+      "title": "續發性血脂異常　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 先排除續發原因：糖尿病、甲狀腺低下、腎病症候群、藥物等"
+        },
         {
           "type": "table",
           "headers": [
@@ -476,8 +542,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：FC 口訣",
           "text": "**FC 口訣**：「60 歲女性，**糖尿病**多年進展到**腎衰竭**，還常**過度飲酒**導致**肝炎**，平常亂吃**雌激素、類固醇** → TG 超高」。\n**FC 表格**：**β 阻斷劑抑制 LPL → TG 上升、HDL 下降**；**thiazide 高劑量才使 LDL 上升**；**estrogen 同時使 TG 與 HDL 上升**（VLDL 與 HDL 通常反向，estrogen 是例外）。\n**FC 106 年**：**喝酒不是**動脈粥狀硬化的主要危險因子（高血壓、抽菸、HDL < 40 才是）。"
         },
         {
@@ -498,8 +564,18 @@
       ]
     },
     {
-      "title": "要不要治療、目標多少：風險分層",
+      "title": "要不要治療、目標多少：風險分層　★ 3 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 動脈硬化主要危險因子：**高血壓、抽菸、HDL < 40**、年齡、早發冠心病家族史；**喝酒不是**\n- FC 106 年：63 歲女性、無其他危險因子、LDL 150 → **只需生活型態**，不需 statin\n- 已有 ASCVD 或糖尿病 → 目標更嚴格\n- NNH = 1 ÷ 絕對風險增加"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **初級預防改用 PREVENT 算風險**：2026 ACC/AHA 指引以 PREVENT 方程式估 10 年風險，分低（< 3%）、邊緣、中、高，再決定 statin。FC 106 年的答案依舊分級；新指引下若 10 年風險 < 3% 且 LDL < 160，結論同樣是生活型態。"
+        },
         {
           "type": "table",
           "headers": [
@@ -530,8 +606,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：補充（2026 ACC/AHA）",
           "text": "**補充（2026 ACC/AHA）：初級預防的風險評估（30–79 歲、LDL 70–189、無 ASCVD）**\n- **改用 AHA PREVENT 方程式**（取代舊的 Pooled Cohort Equations）估 10 年 ASCVD 風險（1）\n- **分級**：**低 < 3%**、**邊緣 3–< 5%**、**中 5–< 10%**、**高 ≥ 10%**\n- 「**CPR**」流程：**C**alculate 算風險 → **P**ersonalize 加入風險增強因子 → **R**eclassify 必要時做鈣化分數再分類\n- **風險增強因子**（Table 13）：**早發 ASCVD 家族史（父母或兄弟姊妹：男 < 55、女 < 65 歲）**、高風險族裔（南亞、菲律賓）、**慢性發炎疾病**（紅斑性狼瘡、類風濕關節炎、嚴重乾癬）、**Lp(a) ≥ 125 nmol/L**、**hs-CRP ≥ 2 mg/L 兩次**、**TG 持續 ≥ 150（空腹）／≥ 175（非空腹）**、心腎代謝症候群、**LDL 持續 160–189**、**生殖相關風險**（**早發停經 < 45 歲、子癇前症、妊娠糖尿病、妊娠高血壓、早產**）\n- **鈣化分數（男 ≥ 40、女 ≥ 45 歲）**：中風險或部分邊緣風險、仍不確定 → **做 CAC**（1）；**CAC = 0** 且無高風險狀況、病人偏好不吃藥 → 可延後，**3–7 年後重驗**（2a）；**CAC > 0 → 開始治療**，尤其 **≥ 100 或 ≥ 第 75 百分位**（1）；**非心臟 CT 意外看到鈣化**也要納入考量（1）"
         },
         {
@@ -595,8 +671,8 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：補充（2026 ACC/AHA）",
           "text": "**補充（2026 ACC/AHA）：「極高風險」的定義**（多數 ASCVD 病人屬於這一類）\n- **≥ 2 次重大 ASCVD 事件**：**12 個月內急性冠心症**、**心梗病史**（上述以外）、**缺血性中風病史**、**有症狀的周邊動脈疾病**\n- 或 **1 次重大事件＋多個高風險狀況**：**> 65 歲**、**冠狀動脈再通史**、**抽菸**、**糖尿病**、**心衰竭病史**、**高血壓**、**statin＋ezetimibe 下 LDL 仍 > 100**\n- **基準 LDL < 70 且 non-HDL < 100、沒有其他危險因子 → 初級預防用藥無益**（3：無益）；**預期壽命 < 1 年 → 可停藥**（2b）"
         },
         {
@@ -617,9 +693,14 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：「目標值」回來了",
           "text": "**「目標值」回來了**：2013 與 2018 年美國指引只講 statin 強度與「降幾 %」，**2026 年版重新加入 LDL-C 與 non-HDL-C 目標**（同時保留降幅）——舊題目若問「美國指引不設目標值」要注意年份。\n**與冠心症筆記的關係**：冠心症 (一)(二) 引用的 2023 慢性冠心病與 2025 急性冠心症指引寫的是「LDL ≥ 70 必加藥、55–69 加藥合理」；**2026 血脂指引對極高風險直接定目標 < 55（1）**，方向一致、更積極。\n**FC 106 年**：63 歲女性、不抽菸、無疾病、LDL 150、血壓 126/72、BMI 30 → 當時的答案是「**繼續生活型態改善，不須 statin**」；依 2026 指引則要先用 **PREVENT** 算 10 年風險，若 < 3% 且 LDL < 160 → 生活型態（1）。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "乙、高血脂 考題 p.52–53"
         },
         {
           "type": "source",
@@ -639,8 +720,13 @@
       ]
     },
     {
-      "title": "生活型態",
+      "title": "生活型態　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 飲食、運動、減重、戒菸是所有治療的基礎"
+        },
         {
           "type": "table",
           "headers": [
@@ -663,9 +749,9 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
-          "text": "**補充（2026 ACC/AHA）：生活型態**\n- 降 LDL 的飲食：**蔬果、堅果、豆類、全穀、纖維**，以**單元與多元不飽和脂肪取代飽和與反式脂肪**（1）\n- 依 TG 分級：\n  - **150–499**：少添加糖、精緻碳水、飽和脂肪，**少喝酒**（1, A）\n  - **500–999**：同上，**完全不喝酒**，個別化限制總脂肪（1）\n  - **≥ 1000**：**極低脂、極低精緻碳水**，**戒酒、戒添加糖**（1）\n- TG 高者：**減重 5–10%**、**每週 ≥ 150 分鐘中高強度運動＋每週 2 天阻力訓練**（1）\n- **TG ≥ 1000 → 轉介營養師**（1）\n- **保健食品不建議用來降 LDL 或 TG**（3：無益）"
+          "type": "collapsible",
+          "summary": "延伸：補充（2026 ACC/AHA）",
+          "text": "**補充（2026 ACC/AHA）：生活型態**\n- 降 LDL 的飲食：**蔬果、堅果、豆類、全穀、纖維**，以**單元與多元不飽和脂肪取代飽和與反式脂肪**（1）\n- 依 TG 分級：\n　- **150–499**：少添加糖、精緻碳水、飽和脂肪，**少喝酒**（1, A）\n　- **500–999**：同上，**完全不喝酒**，個別化限制總脂肪（1）\n　- **≥ 1000**：**極低脂、極低精緻碳水**，**戒酒、戒添加糖**（1）\n- TG 高者：**減重 5–10%**、**每週 ≥ 150 分鐘中高強度運動＋每週 2 天阻力訓練**（1）\n- **TG ≥ 1000 → 轉介營養師**（1）\n- **保健食品不建議用來降 LDL 或 TG**（3：無益）"
         },
         {
           "type": "source",
@@ -680,8 +766,18 @@
       ]
     },
     {
-      "title": "降血脂藥物",
+      "title": "降血脂藥物　★ 3 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **降 LDL 首選 statin**；副作用肌痛、肝指數上升、新發糖尿病略增\n- **Fibrate**：降 TG；副作用肌病、**膽結石增加**、肌酸酐上升\n- Statin 加 fibrate 可能**橫紋肌溶解**，但**不是嚴禁**；fenofibrate 可監測下合用，**gemfibrozil 避免**\n- **Nicotinic acid** 可升 HDL；副作用潮紅、高血糖、高尿酸\n- **Omega-3** 增加 TG 分解\n- FC 答案：**降 TG 首選 fibrate**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **高 TG 的處理以 statin 為基礎**：2026 ACC/AHA 指引對 TG 150–499 先算心血管風險、加強降 LDL；**TG ≥ 500（尤其 ≥ 1000）才用 fibrate 或處方 omega-3** 預防胰臟炎。FC 107、111 年「降 TG 首選 fibrate」是指嚴重高 TG。"
+        },
         {
           "type": "table",
           "headers": [
@@ -777,14 +873,19 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：補充（2026 ACC/AHA）",
           "text": "**補充（2026 ACC/AHA）：安全性**\n- **不需常規驗 CK**（沒有嚴重肌肉症狀時）（3：無益）；**不需常規追肝功能**（沒有肝毒性症狀時）（3：無益）——FDA 2012 年已取消常規追蹤\n- **新發糖尿病或糖尿病風險高 → 繼續 statin**（1, A）\n- **慢性穩定肝病（含代謝性脂肪肝 MASLD）→ statin 可用**（2a）；禁忌是**急性肝衰竭、失代償肝硬化**\n- **哺乳時避免 statin**；**FDA 已移除「懷孕」這項禁忌**（見特殊族群）\n- **CoQ10 不建議用來治療或預防肌肉症狀**（3：無益）\n- **gemfibrozil 不應與 statin 合用**；fenofibrate 可在監測下合用\n- 開始 statin 前**檢查併用藥物的交互作用**（1）\n- **Statin 相關肌肉症狀（SAMS）**：先找續發原因（**甲狀腺低下**、藥物交互作用、高齡、低 BMI、腎肝病、酒精、劇烈運動、高劑量）；嚴重者驗肌力與 CK（1）；說明停藥會增加 ASCVD 風險（1）；**已有 ASCVD → 降低 statin 劑量＋加 bempedoic acid、ezetimibe 或 PCSK9 單株抗體**（1）"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：FC 107 年",
           "text": "**FC 107 年**：「fibrate 與 statin **嚴禁**合併使用」錯誤——**可能增加橫紋肌溶解，但 fenofibrate 可合用**；**gemfibrozil＋statin 的橫紋肌溶解風險比 fenofibrate＋statin 高 15 倍以上**（FC）。\n**FC 110 年**：「fibrate **可以減少膽結石**」錯誤——Harrison：fibrate **增加膽結石**。（FC 第2冊同題詳解寫「fibrate 不會增加膽結石、會增加的是 niacin」，**與 Harrison 及 FC 第1冊衝突，以 Harrison 為準**。）\n**FC 110 年**：nicotinic acid 的適應症包括 **HDL 過低**；副作用**潮紅、搔癢、肝毒性、高血糖、高尿酸**；**2026 指引：因耐受性差且沒有證實的心血管效益，已很少用**。\n**FC 111、107 年**：**降膽固醇首選 statin**、**降 TG 首選 fibrate**（嚴重高 TG 時）。\n**膽酸結合劑**會**升高 TG**、造成**脂溶性維生素缺乏**；**TG > 500 時 colesevelam 禁用**。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "乙、高血脂 考題 p.50–52"
         },
         {
           "type": "source",
@@ -809,8 +910,13 @@
       ]
     },
     {
-      "title": "高三酸甘油酯血症與胰臟炎",
+      "title": "高三酸甘油酯血症與胰臟炎　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- TG 偏高**與心臟病有關**（FC 107 年）\n- **> 500** 有胰臟炎風險；**> 1000** 風險最高"
+        },
         {
           "type": "table",
           "headers": [
@@ -837,13 +943,13 @@
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：補充（2026 ACC/AHA）",
           "text": "**補充（2026 ACC/AHA）：高三酸甘油酯血症**\n- **TG 持續 ≥ 150 → 先評估續發原因 → 生活型態為第一線**（1）（續發原因 Table 23：控制不良的糖尿病、CKD、腎病症候群、脂肪營養不良、未控制的甲狀腺低下、庫欣、急性肝炎、自體免疫病、多發性骨髓瘤、藥物等）\n- **有 ASCVD、TG 150–999、最大 statin 下 LDL ≥ 55 → 先加強降 LDL**（1）——**statin 仍是基礎**\n- **TG ≥ 150 時，用 non-HDL-C 或 apoB 比 LDL-C 更適合做決策**（2a）\n- **40–75 歲、無 ASCVD 或糖尿病、TG 150–499 → 用 PREVENT 算風險**，決定生活型態與 statin（1, A）\n- **≥ 50 歲有 ASCVD、或糖尿病＋≥ 1 個危險因子，TG 150–499、statin 下 LDL < 100 → 可加 icosapent ethyl**（2b）\n- **TG 500–999，尤其 ≥ 1000，飲食後仍高 → fibrate 或處方 omega-3**降 TG、預防胰臟炎（2a）\n- **FCS 且 TG ≥ 1000 → olezarsen（apoC-III 抑制劑）**輔助飲食（1）"
         },
         {
-          "type": "callout",
-          "style": "trap",
+          "type": "collapsible",
+          "summary": "延伸：考點細節：FC 107 年",
           "text": "**FC 107 年**：「**TG 偏高與心臟病無關**」錯誤——中度高 TG 與 ASCVD 風險增加有關。\n**FC 書中（2021 ACC 專家共識）**：**持續性高 TG = 生活型態介入 4–12 週後、穩定 statin 下仍 ≥ 175 mg/dL**；嚴重 > 500（尤其 > 1000）用 fenofibrate、omega-3，**> 1000 極低脂飲食**。\n**apoC-II 缺乏造成的急性胰臟炎**：可輸**新鮮冷凍血漿**補充 apoC-II（Harrison）。"
         },
         {
@@ -864,8 +970,13 @@
       ]
     },
     {
-      "title": "特殊族群",
+      "title": "特殊族群　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 兒童、懷孕：膽酸結合劑最安全"
+        },
         {
           "type": "table",
           "headers": [
@@ -924,42 +1035,118 @@
       ]
     },
     {
-      "title": "臨床題練習",
+      "title": "考題練習與速查表",
       "content": [
         {
-          "type": "collapsible",
-          "summary": "Q1：42 歲男性 LDL 236 mg/dL、TG 110，阿基里斯腱增厚，父親 48 歲心梗。TSH、肝腎功能、尿蛋白正常。診斷與處置？",
-          "text": "**答：異型合子家族性高膽固醇血症 → 高強度 statin，加藥到 LDL < 70；基因檢測與家族串聯篩檢。**\n- LDL > 190、TG 正常、**肌腱黃色瘤**、**早發冠心病家族史** → FH（多為 **LDLR** 突變，體染色體顯性，兄弟姊妹與子女各 50%）\n- **先排除續發**：甲狀腺低下、腎病症候群、膽汁滯留\n- 補充（2026）：**不可用 PREVENT 等一般風險工具**（3：有害）；合併 HeFH → **最大耐受 statin 後加 ezetimibe、PCSK9 單株抗體和／或 bempedoic acid，目標 < 70／non-HDL < 100**（1）\n- 子女 **≥ 2 歲**可篩檢；**≥ 8 歲**、LDL 持續 ≥ 160 → statin"
+          "type": "heading",
+          "text": "脂蛋白與 apolipoprotein（§總覽）"
         },
         {
           "type": "collapsible",
-          "summary": "Q2：48 歲男性糖尿病控制差、每天喝酒，因上腹痛住院診斷急性胰臟炎，TG 2400 mg/dL，背部有成群黃色小丘疹，眼底血管乳白色。如何處理血脂？",
-          "text": "**答：嚴重高三酸甘油酯血症 → 戒酒、極低脂飲食、控制血糖，TG 仍高則用 fibrate 或處方 omega-3。**\n- **發疹性黃色瘤＋視網膜脂血症＋胰臟炎** = 乳糜微粒血症的表現\n- 多數是**多基因＋續發因子**（酒精、糖尿病、肥胖、藥物）；持續 > 1000 且 TC／TG > 8 → 想 FCS\n- 補充（2026）：**TG ≥ 1000 → 極低脂與極低精緻碳水、戒酒戒糖**（1）、**轉介營養師**（1）；**飲食後仍 ≥ 500 → fibrate 或處方 omega-3**（2a）；FCS → **olezarsen**（1）\n- **不要用膽酸結合劑**（會升 TG）"
+          "summary": "Q1：有關血脂質的代謝，何者最正確？（A 最大的脂蛋白分子為 VLDL B Apolipoprotein 是脂蛋白分子上的蛋白質，與血脂代謝有關 C 乳糜微粒在肝臟內形成，其蛋白質成分為 apolipoprotein B-48 D 胰島素阻抗會使血脂質代謝異常，血中的高密度脂蛋白會上升）（FC 108 年）",
+          "text": "**答：(B)。** 最大的是 chylomicron，在腸道形成；胰島素阻抗使 HDL 下降。選項 (B) 後半依 OCR 上下文整理。"
         },
         {
           "type": "collapsible",
-          "summary": "Q3：67 歲男性 8 個月前心梗放支架，有糖尿病與高血壓，atorvastatin 80 mg 下 LDL 82 mg/dL。下一步？",
-          "text": "**答：屬於極高風險 → 加 ezetimibe 和／或 PCSK9 單株抗體，目標 LDL < 55、non-HDL < 85。**\n- 極高風險：**1 次重大事件（12 個月內 ACS）＋多個高風險狀況（> 65 歲、糖尿病、高血壓、冠狀動脈再通）**\n- 補充（2026）：極高風險在最大 statin 下 → **加 ezetimibe 和／或 PCSK9 單株抗體**（1）；bempedoic acid（2a）\n- 2025 ACS 指引也一致：statin 下 **LDL ≥ 70 → 加非 statin 藥**（1）\n- 若 Lp(a) 高且未達標 → **PCSK9 單株抗體**（1）"
+          "summary": "Q2：下列何者不是表面蛋白（apoproteins）的功能？（A 與脂蛋白接受器結合 B 輔助其他酵素 C 是合成脂蛋白分解酵素的前身 D 穩定脂蛋白之結構）（FC 105 年）",
+          "text": "**答：(C)。**"
         },
         {
           "type": "collapsible",
-          "summary": "Q4：58 歲女性開始 rosuvastatin 20 mg 一個月後兩側大腿痠痛，沒有無力，CK 正常。怎麼處理？",
-          "text": "**答：Statin 相關肌肉症狀 → 找續發原因、說明停藥風險，換低劑量或其他 statin，必要時加非 statin 藥。**\n- 先找原因（Table 24）：**甲狀腺低下**、本身的肌肉疾病（纖維肌痛、風濕性多肌痛、多發性肌炎）、**藥物交互作用**（Harrison：macrolide、抗黴菌藥、免疫抑制劑、gemfibrozil）、劇烈運動、酒精、高劑量\n- **多數肌痛 CK 正常**；有嚴重症狀或無力才驗 CK（1）；**不需常規驗 CK**（3）\n- **CoQ10 不建議**（3）\n- 已有 ASCVD → **降低 statin 劑量＋bempedoic acid、ezetimibe 或 PCSK9 單株抗體**（1）；bempedoic acid 在骨骼肌不活化 → 肌痛少\n- 補充（2025 ACS 指引）：判定 statin 不耐受需**試過至少 2 種 statin（含最低劑量）**"
+          "summary": "Q3：承 Q6 的血脂代謝流程圖，在乙之 apolipoprotein 為何？（A ApoB100 B ApoB48 C ApoE D ApoC）（FC 104 年）",
+          "text": "**答：(A)。** 乙是 LDL。"
+        },
+        {
+          "type": "heading",
+          "text": "代謝（§脂蛋白代謝）"
         },
         {
           "type": "collapsible",
-          "summary": "Q5：總膽固醇 287、TG 175、HDL 90 mg/dL，用 Friedewald 算 LDL？什麼時候不能用？",
-          "text": "**答：LDL = 287 − 90 − 175/5 = 162 mg/dL（FC 104 年）。**\n- **TG/5 = VLDL 膽固醇**（VLDL 膽固醇對 TG 約 1：5）\n- **TG > 400 不能用**；**FDBL 也不能用**（VLDL 富含膽固醇）\n- 補充（2026）：**Martin/Hopkins 或 Sampson/NIH 公式優於 Friedewald**（1），尤其 LDL 低或 TG 偏高時\n- TG ≥ 150 時決策以 **non-HDL-C（287 − 90 = 197）或 apoB** 為佳"
+          "summary": "Q4：關於血脂代謝之敘述，何者錯誤？（A statin 抑制膽固醇合成最重要之速率決定酶 HMG-CoA oxidase B HDL 是膽固醇逆向運輸最重要的脂蛋白 C 空腹時，血中三酸甘油脂主要由 VLDL 運輸 D LDL 受體是細胞接受血中膽固醇最重要的受體）（FC 110 年）",
+          "text": "**答：(A)。** 是 HMG-CoA reductase。"
         },
         {
           "type": "collapsible",
-          "summary": "Q6：32 歲女性因 LDL 175 吃 atorvastatin 做初級預防，打算半年內懷孕。怎麼調整？",
-          "text": "**答：準備懷孕前 1–2 個月停 statin（或一發現懷孕就停），需要時改用膽酸結合劑。**\n- 補充（2026）：非高風險者 → **懷孕前 1–2 個月停 statin**（1）\n- 懷孕或哺乳、只有高膽固醇沒有高 TG → **膽酸結合劑合理**（2a）；Harrison 也說它是**懷孕、哺乳、準備懷孕的首選**\n- 若是 **FH 或已有 ASCVD** → 個別討論可繼續，優先 **pravastatin**（2b）\n- **哺乳時避免 statin**；FDA 已移除懷孕禁忌，但不是鼓勵常規使用"
+          "summary": "Q5：有關脂質代謝之敘述，何者錯誤？（A 腸道所吸收的脂肪經腸細胞組成乳糜微粒後，進入乳糜小管 B 分解血液中之三酸甘油脂的酶是 hormone-sensitive lipase C LDL 是由血液中的 VLDL 轉化而成 D HDL 可以和其他血中的脂蛋白進行脂質交換）（FC 108 年）",
+          "text": "**答：(B)。** 是 lipoprotein lipase。"
         },
         {
           "type": "collapsible",
-          "summary": "Q7：55 歲男性總膽固醇 380、TG 410，HDL 48，手掌皺摺有橘黃色條紋、手肘有葡萄大小的黃色結節，最近腳走路會痛。最可能的診斷？",
-          "text": "**答：家族性異常 β 脂蛋白血症（第 III 型，apoE2/E2）。**\n- **膽固醇與 TG 差不多高、HDL 不低**、**手掌黃色瘤＋結節發疹性黃色瘤**（幾乎是特徵性）\n- 殘餘顆粒（乳糜微粒殘餘、IDL）堆積；**周邊血管病比 FH 多**\n- 確診：殘餘脂蛋白增加（β-定量、電泳寬 β 帶）或 **apoE2/E2 基因型**；**Friedewald 不適用**\n- 治療：處理誘因（糖尿病、甲狀腺低下、酒精、肥胖）、低脂飲食；**statin 第一線**，再加 ezetimibe、PCSK9 抑制劑或 fibrate"
+          "summary": "Q6：附圖為血脂代謝之流程，其中之甲、乙及丙各代表何種產物？（A 甲 LDL、乙 VLDL、丙 chylomicron B 甲 HDL、乙 LDL、丙 chylomicron C 甲 VLDL、乙 LDL、丙 chylomicron D 甲 LDL、乙 HDL、丙 chylomicron）（FC 104 年）",
+          "text": "**答：(C)。** 甲 VLDL、乙 LDL、丙 chylomicron。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/dyslipidemia/fc-lipid-pathway.png",
+          "label": "FC 104 年考題附圖",
+          "caption": "肝臟與腸道兩條路徑的血脂代謝流程。",
+          "explain": "題目附圖，對應 Q6 與 Q3。"
+        },
+        {
+          "type": "heading",
+          "text": "檢驗（§篩檢與檢驗）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：病人總膽固醇 287 mg/dL、三酸甘油酯 175 mg/dL、HDL-C 90 mg/dL，計算出來的 LDL-C 為多少？（A 22 B 85 C 130 D 162）（FC 104 年）",
+          "text": "**答：(D)。** 287 − 90 − 175/5 = 162。"
+        },
+        {
+          "type": "heading",
+          "text": "原發性（§原發性血脂異常）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：下列敘述何者錯誤？（A LDL 受體突變失去功能，會增加血中 LDL-C，加速動脈粥狀硬化 B PCSK9 基因突變失去功能，會增加血中 LDL-C，加速動脈粥狀硬化 C 降膽固醇首選藥物是 statin 類 D 降三酸甘油脂首選藥物是 fibrate 類）（FC 111 年）",
+          "text": "**答：(B)。** PCSK9 失去功能使 LDL 受體減少分解，LDL 下降。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：有關與血脂異常相關的黃色瘤之敘述，何者錯誤？（A 只有血液中 LDL 過高時才會發生，與 TG 濃度無關 B 常分布在皮下 C 常分布在肌腱鞘 D 常分布在四肢伸肌表面）（FC 109 年）",
+          "text": "**答：(A)。** 高 TG 會有發疹性黃色瘤。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：下列何者不是脂蛋白分解酵素缺乏症之典型臨床表現？（A 發疹性黃色瘤 B 胰臟炎 C 動脈硬化 D 三酸甘油酯過高）（FC 106 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "風險與治療決策（§要不要治療、目標多少）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：下列何者不是造成動脈粥狀硬化的主要危險因子？（A 高血壓 B 喝酒 C 抽菸 D HDL 過低（小於 40 mg/dL））（FC 106 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：63 歲張女士，3 個月前健檢總膽固醇 264、三酸甘油酯 145、HDL 59，其他正常。不抽菸、無其他疾病史，父親有糖尿病。複查 LDL 150、血壓 126/72、BMI 30.1。何者最適當？（A 屬於心血管疾病中度風險者 B LDL 高於目標值 C 此時只須繼續生活方式改善，不須給予 statin D 須依 Framingham 公式推估 5 年內罹患冠心症之風險值，才能決定膽固醇目標值）（FC 106 年）",
+          "text": "**答：(C)。** FC 依當時分級的答案。📌 2026 指引會先用 PREVENT 算 10 年風險；若 < 3% 且 LDL < 160，結論仍是生活型態。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：接受荷爾蒙替代療法的女性，冠狀動脈疾病年發生率為 37/10,000，對照組為 30/10,000。接受 HRT 發生冠狀動脈疾病的 NNH 為何？（A 292 B 1,428 C 975 D 2,104）（FC 106 年）",
+          "text": "**答：(B)。** 絕對風險增加 7/10,000，NNH = 10,000 ÷ 7 ≈ 1,428。"
+        },
+        {
+          "type": "heading",
+          "text": "藥物（§降血脂藥物）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：有關高脂血症治療用藥之敘述，何者錯誤？（A fibric acid derivatives 可以減少膽結石的生成 B statins 可能造成肌肉酸痛 C nicotinic acid 的適應症包括 HDL-C 過低 D omega-3 fatty acids 可以增加 TG 的分解代謝）（FC 110 年）",
+          "text": "**答：(A)。** Fibrate 會**增加**膽結石（Harrison）。FC 第 2 冊同題詳解寫「fibrate 不會增加膽結石」，與 Harrison 和 FC 第 1 冊衝突，以 Harrison 為準。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：有關高脂血症之敘述，何者最不適當？（A 血中三酸甘油酯濃度偏高，與心臟病無關 B 三酸甘油酯偏高，治療的首選藥物是纖維酸衍生物 C LDL-C 偏高與心臟病有關 D 治療高膽固醇血症，首選的藥物是 statin）（FC 107 年）",
+          "text": "**答：(A)。** 📌 新指引對中度高 TG 以 statin 為基礎，fibrate 用於嚴重高 TG。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：關於血脂治療之敘述，何者錯誤？（A fibric acid 衍生物是治療 TG 過高之第一線用藥 B statin 是治療膽固醇過高之第一線用藥 C fibric acid 衍生物與 statin 合併使用可能造成橫紋肌溶解症 D fibric acid 衍生物與 statin 嚴禁合併使用）（FC 107 年）",
+          "text": "**答：(D)。** 可能增加橫紋肌溶解，但不是嚴禁；fenofibrate 可監測下合用。"
         },
         {
           "type": "heading",
@@ -1009,11 +1196,6 @@
               "懷孕前 1–2 個月停 statin｜懷孕高 TG：第一孕期後 fibrate 或 omega-3｜HIV 40–75 歲用 statin｜HFrEF 無 ASCVD 不用｜> 75 歲看預期壽命"
             ]
           ]
-        },
-        {
-          "type": "source",
-          "book": "Harrison's 22e",
-          "pages": "3280-3295"
         }
       ]
     }
