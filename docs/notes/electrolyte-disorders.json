@@ -516,7 +516,7 @@
   "related": [
     {"id": "oncall-potassium-disorders", "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"},
     {"id": "acid-base-disorders", "name": "Acid-Base Disorders (酸鹼平衡異常)"},
-    {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
+    {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (一)：診斷、分類與處置"},
     {"id": "chronic-kidney-disease", "name": "Chronic Kidney Disease (慢性腎臟病)"}
   ]
 }

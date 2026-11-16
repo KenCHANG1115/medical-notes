@@ -357,7 +357,7 @@
     }
   ],
   "related": [
-    {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (急性腎損傷)"},
+    {"id": "acute-kidney-injury", "name": "Acute Kidney Injury (一)：診斷、分類與處置"},
     {"id": "electrolyte-disorders", "name": "Electrolyte Disorders (離子平衡異常)"},
     {"id": "acid-base-disorders", "name": "Acid-Base Disorders (酸鹼平衡異常)"},
     {"id": "anemia-overview", "name": "Anemia (一)：總論與診斷架構"},

@@ -200,7 +200,11 @@
         },
         {
           "id": "acute-kidney-injury",
-          "name": "Acute Kidney Injury (急性腎損傷)"
+          "name": "Acute Kidney Injury (一)：診斷、分類與處置"
+        },
+        {
+          "id": "aki-intrinsic",
+          "name": "Acute Kidney Injury (二)：腎因性 AKI 各論"
         },
         {
           "id": "chronic-kidney-disease",
