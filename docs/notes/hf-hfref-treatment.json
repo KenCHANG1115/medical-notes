@@ -380,6 +380,32 @@
       ]
     },
     {
+      "title": "臨床推理演練",
+      "content": [
+        "以下是**自編示範案例**（取自舊版筆記，內容依 Harrison 與筆記中已標明的指引），不是考題。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1：62 歲新診斷 HFrEF，LVEF 28%、NYHA II、輕度水腫",
+          "text": "**情境**：BP 128/76、HR 88、K 4.3、eGFR 65。\n1. **先緩解症狀**：有水腫 → **利尿劑**\n2. **改善預後的四大支柱**，低劑量同時開始、逐步加量：\n   ① **ARNI**（或 ACEI、ARB）② **β 阻斷劑**（carvedilol、bisoprolol、metoprolol succinate）③ **MRA**（eGFR > 30、K < 5.0）④ **SGLT2i**\n3. **每 1–2 週**依血壓、心跳、鉀、腎功能調整\n4. **最佳藥物 3 個月後**再評估 EF，決定 ICD 或 CRT\n5. **從 ACEI 換 ARNI**：停 ACEI 後**隔 36 小時**（血管性水腫）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2：HFrEF 用 spironolactone 與 ARNI，K 5.8、eGFR 55 → 38",
+          "text": "1. **高血鉀 + 腎功能下降** → 先找原因：脫水、NSAID、鉀補充\n2. **規則**：鉀無法維持 < 5.5 → **停 MRA**\n3. **避免** ACEI + ARB + MRA 三合一\n4. **鉀結合劑**能否幫助維持 RAAS 抑制劑，效果不確定"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3：四大支柱調到目標 3 個月，LVEF 30%、竇性心律、LBBB、QRS 160 ms",
+          "text": "1. **藥物已最佳化 3 個月** → 才評估裝置\n2. **LVEF ≤ 35%、竇性心律、LBBB、QRS ≥ 150、NYHA II** → **CRT**\n3. **同時符合 ICD 初級預防** → 多半裝 **CRT-D**\n4. **對比**：QRS < 120 → CRT 無益"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 4：HFrEF 合併糖尿病，用 pioglitazone、saxagliptin、metformin，又吃 naproxen",
+          "text": "1. **逐一檢查會惡化心衰竭的藥**\n2. **停**：pioglitazone（TZD）、saxagliptin、naproxen（NSAID）\n3. **可繼續**：metformin（腎功能允許）\n4. **加**：**SGLT2i**（心衰竭 + 糖尿病都有好處）"
+        }
+      ]
+    },
+    {
       "title": "考題練習與速查表",
       "content": [
         {

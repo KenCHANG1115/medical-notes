@@ -434,6 +434,32 @@
       ]
     },
     {
+      "title": "臨床推理演練",
+      "content": [
+        "以下是**自編示範案例**（取自舊版筆記，內容依 Harrison 與筆記中已標明的指引），不是考題。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1：58 歲女性胸悶，心電圖正常、HEART 2 分、hs-troponin 0 與 1 小時都正常",
+          "text": "1. **心電圖沒有 ST 上升** → 不是 STEMI\n2. **troponin** 0 與 1 小時都 < 99th → **快速排除急性心梗**\n3. **風險分層**：HEART 0–3 分 → 低風險\n4. **處置**：可早期出院；仍懷疑冠心病 → 門診安排壓力測試或 CCTA"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2：NSTEMI 等待心導管時胸痛不止，血壓 82/50、滿肺囉音",
+          "text": "1. **原本**：NSTEMI 依風險安排侵入性策略時機\n2. **轉折**：持續缺血 + 低血壓 + 急性心衰竭 → **極高風險**\n3. **處置**：**立即心導管（< 2 小時）**\n4. **調整藥物**：停 nitrate、β 阻斷劑（低血壓、心衰竭）；需要時支持性治療"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3：72 歲 NSTEMI 放了支架，有 AF（CHA₂DS₂-VASc 4），原本吃 apixaban",
+          "text": "1. **兩個適應症**：支架需要抗血小板、AF 需要抗凝 → 出血風險高\n2. **短期三合一**：aspirin + clopidogrel + apixaban，越短越好（約 1 週，最多 1 個月）\n3. **停 aspirin** → apixaban + **clopidogrel** 到 12 個月（prasugrel、ticagrelor 出血較多）\n4. **之後**只用 apixaban；全程加 PPI"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 4：25 歲男性吸古柯鹼後胸痛，血壓 180/110、心跳 128、ST 下降",
+          "text": "1. **年輕人胸痛 + 古柯鹼** → 冠狀動脈痙攣、心肌缺血\n2. **機轉**：同時刺激 **α（血管收縮）與 β**\n3. **避免單用非選擇性 β 阻斷劑**：只擋 β → α 收縮無抵銷 → 痙攣加重\n4. **可用**：benzodiazepine 降交感、nitrate、phentolamine\n5. **仍依 ACS 原則**評估 troponin 與心電圖"
+        }
+      ]
+    },
+    {
       "title": "考題練習與速查表",
       "content": [
         {

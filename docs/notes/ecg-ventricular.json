@@ -659,6 +659,32 @@
       ]
     },
     {
+      "title": "臨床推理演練",
+      "content": [
+        "以下是**自編示範案例**（取自舊版筆記，內容依 Harrison 與筆記中已標明的指引），不是考題。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1：70 歲舊前壁心梗、LVEF 25%，寬 QRS 規則心搏過速 170，夾有較窄的 QRS",
+          "text": "**情境**：血壓 105/70。\n1. **寬 QRS 心搏過速 → 先當作 VT**\n2. **有結構性心臟病**（舊心梗、EF 低）→ 寬 QRS 心搏過速約 95% 是 VT\n3. **較窄的 QRS 夾在中間** → 融合波 → 證明房室分離 → **VT**\n4. **穩定** → IV amiodarone；變不穩定 → 同步電擊；**不要給 verapamil 或 diltiazem**\n5. **之後**：**ICD 次級預防**；反覆發作 → amiodarone 或電燒"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2：65 歲女性用 levofloxacin 與 haloperidol，K 3.0、Mg 1.4，出現振幅忽大忽小的寬 QRS",
+          "text": "1. **PVC → 停頓 → 振幅忽大忽小的多形性 VT** → 看 QT\n2. **延長 QT 的藥**（levofloxacin、haloperidol）+ **低鉀低鎂** → **Torsades de pointes**\n3. **處置**：**IV MgSO₄**、補鉀、**停用延長 QT 的藥**\n4. **仍反覆** → isoproterenol 或節律拉高心跳（停頓依賴型）；轉成 VF → 去顫\n5. **不要給 amiodarone**（會再延長 QT）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3：35 歲男性發燒後夜間意識喪失，V1–V2 穹頂型 ST 上升、心臟超音波正常",
+          "text": "1. **年輕人不明原因意識喪失 + 心臟構造正常** → 想遺傳性心律不整\n2. **V1–V2 穹頂型 ST 上升 + T 倒置**，**發燒誘發、睡眠中、男性** → **Brugada 症候群**\n3. **處置**：積極退燒；避免鈉通道阻斷藥\n4. **曾心跳停止或不明原因暈厥** → **ICD**\n5. **家族**：篩檢一等親"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 4：25 歲女性運動時心悸，LBBB 型、下壁導程高大 R 波的單形性 VT，心臟正常",
+          "text": "1. **單形性 VT 先問有沒有結構性心臟病**：MRI 正常、竇性心電圖正常、無家族史\n2. **LBBB 型 + 下壁導程高大 R 波** → 起源在**右心室流出道** → **特發性 VT**\n3. **必須先排除 ARVC**（V1–V3 T 倒置、epsilon 波、右心室擴大或疤痕）\n4. **猝死罕見** → **不需要 ICD**\n5. **治療**：β 阻斷劑、verapamil 等，或**電燒**（成功率高）"
+        }
+      ]
+    },
+    {
       "title": "考題練習與速查表",
       "content": [
         {
