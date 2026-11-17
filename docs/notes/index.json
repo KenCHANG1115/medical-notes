@@ -220,7 +220,11 @@
         },
         {
           "id": "electrolyte-disorders",
-          "name": "Electrolyte Disorders (離子平衡異常)"
+          "name": "Electrolyte Disorders (一)：鈉與水"
+        },
+        {
+          "id": "electrolytes-k-ca",
+          "name": "Electrolyte Disorders (二)：鉀、鈣、鎂、磷"
         }
       ]
     },
