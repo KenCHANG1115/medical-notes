@@ -880,6 +880,32 @@
       ]
     },
     {
+      "title": "臨床推理演練",
+      "content": [
+        "以下是**自編示範案例**（取自舊版筆記，內容依 Harrison、台灣疾管署與筆記中已標明的指引），不是考題。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1：28 歲 HBeAg 陽性、HBV DNA 2 × 10⁸、ALT 多次正常、彈性 5 kPa",
+          "text": "1. **判斷自然病程**：HBeAg 陽性 + 病毒量極高 + **ALT 正常** + 沒有纖維化 → **免疫耐受期**\n2. **Harrison**：ALT 正常 → 一般**先不治療**，每 6 個月追蹤 HBV DNA 與 ALT\n3. **新指引（AASLD 2025）**：> 40 歲或有明顯發炎、纖維化才建議治療；年輕者共同決策\n4. **健保**：ALT 不符合條件不給付"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2：45 歲 HBeAg 陰性、ALT 3 倍上限兩次、HBV DNA 50,000、無肝硬化",
+          "text": "1. **自然病程**：HBeAg 陰性 + ALT 持續上升 + 病毒量高 → **HBeAg 陰性慢性肝炎**（不是不活動帶原）\n2. **治療條件**：ALT ≥ 2 倍且 HBV DNA ≥ 2,000 → 符合\n3. **選藥**：**entecavir、TDF 或 TAF**\n4. **療程**：Harrison 與 AASLD → 吃到 HBsAg 消失；健保 → 至少 2 年，連續 3 次測不到可停，停藥後密切追蹤\n5. **別忘了**：> 40 歲男性每 6 個月肝癌篩檢"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3：淋巴瘤要用 R-CHOP，HBsAg 陰性、anti-HBc 陽性",
+          "text": "1. **化療前所有人驗 HBsAg 與 anti-HBc**\n2. **HBsAg 陰性但 anti-HBc 陽性** → 曾感染，病毒仍潛伏在肝細胞\n3. **R-CHOP**：rituximab（B 細胞清除）+ anthracycline + 類固醇 → **再活化風險最高**\n4. **處置**：預防性 **entecavir 或 tenofovir**，用到化療結束後 12 個月（健保給付期間另有規定）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 4：服 lamivudine 3 年，HBV DNA 從測不到升到 10⁵、ALT 上升",
+          "text": "1. **治療中病毒量回升** → 先確認**服藥順從性**\n2. **lamivudine 抗藥率高**（5 年約 70%）→ **YMDD 抗藥突變**造成病毒突破\n3. **處置**：**換成 tenofovir**（換藥優於加藥）\n4. **不要改 entecavir**：lamivudine 抗藥者對 entecavir 也容易抗藥\n5. **觀念**：這是治療造成的突變，不是自然演化"
+        }
+      ]
+    },
+    {
       "title": "考題練習與速查表",
       "content": [
         {
