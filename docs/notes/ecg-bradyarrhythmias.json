@@ -35,17 +35,12 @@
   ],
   "sections": [
     {
-      "title": "讀前說明：怎麼讀這篇",
+      "title": "讀前說明：一條主線",
       "content": [
         {
           "type": "callout",
           "style": "logic",
-          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
-        },
-        {
-          "type": "callout",
-          "style": "logic",
-          "text": "**新版來源**：2018 ACC/AHA/HRS 緩脈與傳導阻滯指引（節律器建議，COR 放在「延伸」）、AHA 2025 成人 ACLS 緩脈流程｜判讀基礎 →〈心電圖（一）〉｜完整 ACLS 流程 → 之後的〈BLS／ACLS 與休克〉"
+          "text": "**一條主線**　FC 9 題｜最常考：看到緩脈的第一步、房室傳導阻滯的分級與位置\n1. 看到緩脈先問：**穩不穩定**（低血壓、意識、胸痛、心衰竭）→ 不穩定走 ACLS（atropine、節律器）\n2. 再問**可不可逆**：藥物（β 阻斷劑、CCB、digoxin）、高血鉀、甲狀腺低下、下壁梗塞\n3. 分**竇房結**問題還是**房室結**問題\n4. 房室阻滯分級並判斷**阻滯位置**（結內 vs 結下）\n5. 不可逆且有症狀或高度阻滯 → **永久節律器**\n\n**新版來源**：2018 ACC/AHA/HRS 緩脈與傳導阻滯指引、AHA 2025 成人 ACLS 緩脈流程"
         }
       ]
     },
@@ -58,8 +53,8 @@
           "text": "**必背**\n- 心搏過速三種機轉：**自動性增加**、**觸發活動**（早期後去極化 → Torsades；延遲後去極化 → 毛地黃中毒）、**折返（最常見）**\n- **Vaughan-Williams 分類**：**I 鈉通道**（IA quinidine、procainamide｜IB lidocaine｜IC flecainide、propafenone）｜**II β 阻斷劑**｜**III 鉀通道（amiodarone、sotalol）**｜**IV non-DHP CCB（verapamil、diltiazem）**\n- 心電圖：IA、IC → QRS 變寬｜IA、III → QT 延長｜II、IV → PR 延長"
         },
         {
-          "type": "collapsible",
-          "summary": "延伸：本篇主軸",
+          "type": "callout",
+          "style": "logic",
           "text": "**本篇主軸**：心跳慢 → 先問**病人穩不穩**，再問**問題在哪一層**。\n- **竇房結（SA node）**出問題 → 竇性緩脈、竇性停頓、竇房阻滯、**快慢症候群**\n- **房室結（AV node）**出問題 → **一度、二度 Mobitz I** → 通常良性\n- **希氏束以下（His-Purkinje）**出問題 → **二度 Mobitz II、高度、三度** → **逸搏節律不可靠、會猝死 → 沒症狀也要裝節律器**\n**層次越低 → 逸搏節律越慢、QRS 越寬、越不穩定**。"
         },
         {
@@ -566,8 +561,8 @@
           ]
         },
         {
-          "type": "collapsible",
-          "summary": "延伸：檢查流程（Fig. 252-3）",
+          "type": "callout",
+          "style": "logic",
           "text": "**檢查流程（Fig. 252-3）**：所有房室阻滯都要找**結構性心臟病**（理學檢查、**心臟超音波**）。\n**≤ 60 歲**出現房室阻滯 → 不像退化，要做**進階影像**（心臟 MRI、**FDG-PET 找類肉瘤**、PYP 掃描找 TTR 類澱粉）。\n**電生理檢查**：**AH < 130 ms**（房室結）、**HV ≤ 55 ms**（His-Purkinje）；**HV > 100 ms → 每年約 10% 進展成完全阻斷 → 需要節律器**。"
         },
         {

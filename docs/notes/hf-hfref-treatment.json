@@ -43,17 +43,12 @@
   ],
   "sections": [
     {
-      "title": "讀前說明：怎麼讀這篇",
+      "title": "讀前說明：一條主線",
       "content": [
         {
           "type": "callout",
           "style": "logic",
-          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
-        },
-        {
-          "type": "callout",
-          "style": "logic",
-          "text": "**新版來源**：2022 AHA/ACC/HFSA 心衰竭指引（標 COR）｜定義、BNP、NYHA →〈心衰竭（一）〉｜HFpEF、急性心衰竭 →〈心衰竭（三）〉｜糖尿病用藥 →〈Diabetes（二）〉"
+          "text": "**一條主線**　FC 12 題｜最常考：要避免的藥、β 阻斷劑、ICD 與 CRT\n1. 症狀用**利尿劑**\n2. 改善預後的**四大支柱**：ARNI（或 ACEI、ARB）、β 阻斷劑、MRA、SGLT2i\n3. 注意劑量、加藥速度與**要避免的藥**（NSAID、非 dihydropyridine CCB、TZD）\n4. 處理共病：缺鐵、心房顫動、睡眠呼吸中止\n5. EF 仍低 → **ICD、CRT**；晚期 → 心臟移植或心室輔助器\n\n**新版來源**：2022 AHA/ACC/HFSA 心衰竭指引（標 COR）"
         }
       ]
     },

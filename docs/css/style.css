@@ -407,6 +407,51 @@ body {
   margin-right: 1rem;
 }
 
+.legend {
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+}
+
+.legend summary {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  list-style: none;
+}
+
+.legend summary::-webkit-details-marker { display: none; }
+
+.legend[open] summary {
+  border-color: var(--accent);
+  background: var(--accent-light);
+  color: var(--text-primary);
+}
+
+.legend table {
+  margin-top: 0.5rem;
+  border-collapse: collapse;
+}
+
+.legend th, .legend td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.2rem 0.75rem 0.2rem 0;
+  font-weight: normal;
+}
+
+.legend th {
+  white-space: nowrap;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.legend td {
+  color: var(--text-secondary);
+}
+
 .note-section {
   margin-bottom: 2rem;
 }

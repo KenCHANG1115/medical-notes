@@ -30,22 +30,12 @@
   ],
   "sections": [
     {
-      "title": "讀前說明：怎麼讀這篇",
+      "title": "讀前說明：一條主線",
       "content": [
         {
           "type": "callout",
           "style": "logic",
-          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
-        },
-        {
-          "type": "callout",
-          "style": "logic",
-          "text": "**這篇的範圍**：吞嚥困難與食道疾病、胃食道逆流與 Barrett、胃酸生理、制酸藥物、消化性潰瘍與 NSAID、Zollinger-Ellison｜H. pylori、胃炎、胃癌、胃切除後併發症 →〈H. pylori 與胃疾病〉｜潰瘍出血的處置 → 之後的〈腸胃道出血〉｜**本篇只用 Harrison 22e 與 FC**，沒有另加外部指引"
-        },
-        {
-          "type": "callout",
-          "style": "logic",
-          "text": "**兩條主線**：**① 吞嚥困難先問吃什麼卡**——只有固體 → 管腔狹窄（機械性）｜固體液體都卡 → 蠕動問題｜**② 酸相關疾病都回到壁細胞**——三個刺激（**ACh、gastrin、histamine**）匯集到一個幫浦（**H⁺/K⁺-ATPase**），藥物就是一個一個擋"
+          "text": "**一條主線**　FC 13 題｜最常考：GERD 與 Barrett、制酸藥物、消化性潰瘍與 NSAID\n1. **吞嚥困難先問吃什麼卡**：只有固體 → 管腔狹窄（機械性）；固體液體都卡 → 蠕動問題\n2. **酸相關疾病都回到壁細胞**：三個刺激（ACh、gastrin、histamine）匯集到一個幫浦（H⁺/K⁺-ATPase）\n3. 藥物就是一個一個擋；潰瘍再問 **H. pylori、NSAID**，頑固多發想 Zollinger-Ellison"
         }
       ]
     },

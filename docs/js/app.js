@@ -194,7 +194,9 @@
     if (note.sources) html += `<span>Sources: ${esc(note.sources.join(', '))}</span>`;
     if (note.generated) html += `<span>${esc(note.generated)}</span>`;
     if (note.video_id) html += `<span><a href="https://www.youtube.com/watch?v=${encodeURIComponent(note.video_id)}" target="_blank" rel="noopener">▶ YouTube 影片</a></span>`;
-    html += '</div></div>';
+    html += '</div>';
+    if (note.sections && note.sections[0] && /^讀前說明/.test(note.sections[0].title)) html += legendHtml();
+    html += '</div>';
 
     html += buildToc(note);
 
@@ -372,6 +374,22 @@
   function renderMarkdown(text) {
     if (!text) return '';
     return `<p style="margin:0.4rem 0;">${renderInline(text)}</p>`;
+  }
+
+  // Shared reading legend for exam-format notes (replaces the per-note 符號說明 callout).
+  function legendHtml() {
+    const rows = [
+      ['作答依據', '<b>FC ＋ Harrison</b>。FC 詳解多依較舊版指引，國考答案以 FC 為準'],
+      ['\u{1F3AF} 必背', '每段先讀這個'],
+      ['\u{1F4A1} 推理', '為什麼、機轉、鑑別流程：理解用，不用背字句'],
+      ['⚠️ 陷阱', '常見錯誤選項'],
+      ['\u{1F4CC} 新版改了什麼', '只在新指引推翻或改寫舊觀念時出現，標 COR'],
+      ['延伸', '試驗數據、細部條件，預設摺起來'],
+      ['★ 數字', '這一段在 FC 收錄的國考題數'],
+      ['臨床推理演練', '一步一步示範推理順序；標「自編」的是示範案例，不是考題'],
+    ];
+    return '<details class="legend"><summary>符號說明</summary><table>' +
+      rows.map(r => `<tr><th>${r[0]}</th><td>${r[1]}</td></tr>`).join('') + '</table></details>';
   }
 
   function calloutIcon(style) {

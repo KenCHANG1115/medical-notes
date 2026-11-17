@@ -35,17 +35,12 @@
   ],
   "sections": [
     {
-      "title": "讀前說明：怎麼讀這篇",
+      "title": "讀前說明：一條主線",
       "content": [
         {
           "type": "callout",
           "style": "logic",
-          "text": "**作答依據**：**FC＋Harrison**（FC 詳解多依較舊版指引，國考答案以它為準）\n🎯 **必背**＝先讀這個｜⚠️ **陷阱**＝常見錯誤選項｜📌 **新版改了什麼**＝只在新指引推翻或改寫舊觀念時出現，標 COR｜**「延伸」**＝試驗數據、細部條件，預設摺起來\n**★ 數字**＝這一段在 FC 收錄的國考題共有幾題"
-        },
-        {
-          "type": "callout",
-          "style": "logic",
-          "text": "**新版來源**：AHA 2025 ACLS 心搏過速流程（寬 QRS 時 adenosine 的使用條件）｜心衰竭與心梗後的 ICD 適應症 →〈心衰竭（二）〉｜HCM、ARVC →〈心肌病變（一）〉｜VF 急救流程 → 之後的〈BLS／ACLS 與休克〉"
+          "text": "**一條主線**　FC 3 題｜這篇考題少，重點在寬 QRS 的處理與猝死預防\n1. 心室早期收縮到 VF 是一個光譜：先看**有沒有結構性心臟病**\n2. 寬 QRS 心搏過速 → **先當作 VT**\n3. 單形性 VT：結構性（疤痕）vs 特發性\n4. 多形性 VT：看 **QT** → 延長是 torsades（補鎂、停藥）；不延長想缺血\n5. VF 救回來或高風險 → **ICD**\n\n**新版來源**：AHA 2025 ACLS 心搏過速流程（寬 QRS 時 adenosine 的使用條件）"
         }
       ]
     },
@@ -214,8 +209,8 @@
           "text": "**必背**\n- **寬 QRS 心搏過速，有結構性心臟病（舊心梗）→ 先當 VT**（約 80%）\n- **支持 VT**：**房室分離、融合波、捕獲波**、QRS 非常寬、胸前導程同向性（concordance）\n- **不穩定 → 同步電擊**｜穩定 → **amiodarone、procainamide**、lidocaine\n- **不要給 verapamil 或 diltiazem**（VT 病人會嚴重低血壓）；adenosine 只在**規則、單形性**時可用來鑑別"
         },
         {
-          "type": "collapsible",
-          "summary": "延伸：寬 QRS 心搏過速的鑑別",
+          "type": "callout",
+          "style": "logic",
           "text": "**寬 QRS 心搏過速的鑑別**：① **VT** ② **SVT 合併束支阻滯（aberrancy）** ③ **經副路徑下傳的 SVT（預激）** ④ **心室節律器**（看有沒有 spike）\n**機率**：FC：**平均約 80% 是 VT**；**有冠心病的人約 95% 是 VT**。Harrison：**已知有心臟病 → 不論 QRS 長怎樣，VT 都是最可能的診斷**。\n**血行動力學穩不穩定，不能用來區分 VT 和 SVT**（VT 也可以很穩定）——**沒確定前一律當 VT 處理**。"
         },
         {
