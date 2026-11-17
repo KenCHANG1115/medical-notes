@@ -1,39 +1,84 @@
 {
   "id": "hiv-treatment-art",
-  "title": "HIV — Antiretroviral Therapy & Prevention (ART 治療與預防)",
+  "title": "HIV/AIDS (三)：ART 治療與預防",
   "title_en": "HIV — Antiretroviral Therapy & Prevention",
   "title_zh": "HIV ART 治療與預防",
   "specialty": "感染科",
   "sources": [
     "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders（ART p.1658-1667；醫護人員與 HIV p.1668；HIV 預防 p.1668-1669；藥物相關併發症 p.1643-1648）",
-    "First Choice 醫學(三) 第3冊 - 感染 AIDS：HAART、PrEP、nPEP、考題 (p.320-321、328)"
+    "First Choice 醫學(三) 第3冊 - 壬、愛滋病（講義 p.320-321；考題 p.328），本篇共 2 題",
+    "FDA NDA 220018 Yeztugo (lenacapavir) — 📌 2025-06-18 核准每 6 個月注射的 PrEP"
   ],
   "generated": "2026-10-03",
+  "updated": "2026-11-18",
   "related": [
-    {"id": "hiv-fundamentals-diagnosis", "name": "HIV/AIDS (一)：基礎與診斷"},
-    {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"},
-    {"id": "hepatitis-chronic-b-d", "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"}
+    {
+      "id": "hiv-fundamentals-diagnosis",
+      "name": "HIV/AIDS (一)：基礎與診斷"
+    },
+    {
+      "id": "hiv-opportunistic-infections",
+      "name": "HIV/AIDS (二)：伺機性感染與併發症"
+    },
+    {
+      "id": "hepatitis-chronic-b-d",
+      "name": "Viral Hepatitis (二)：慢性 B 型肝炎與 D 型肝炎"
+    }
   ],
   "sections": [
     {
-      "title": "總覽：ART 的原則與開始時機",
+      "title": "讀前說明：一條主線",
       "content": [
         {
           "type": "callout",
           "style": "logic",
-          "text": "**這份筆記的讀法**\nART 的題目幾乎都在問四件事：\n1. **什麼時候開始？**（本章）→ 確診就開始，例外是結核與隱球菌腦膜炎\n2. **藥物機轉與招牌副作用**（第 2–5 章）→ 用「作用在複製週期哪一步」來分類\n3. **第一線怎麼組合？治療失敗怎麼辦？**（第 6、7 章）\n4. **特殊情況與預防**（第 8、9 章）→ B 肝、結核、懷孕、PEP、PrEP、U = U\n\n**範圍**：依先前討論，這份筆記**不背劑量**，只整理機轉、招牌副作用與組合。\n**出處標示**：以 Harrison 22e 為主；First Choice 仍沿用的舊藥與舊組合標「**舊考點**」。"
+          "text": "**一條主線**　FC 2 題｜最常考：abacavir 過敏基因（HLA-B5701）、efavirenz 的精神副作用\n1. **確診就開始**，不論 CD4；例外是隱球菌腦膜炎（延 4–6 週）與部分結核（CD4 ≥ 50 時延 2–8 週）\n2. **處方骨架**：2 個 NRTI（tenofovir 或 abacavir + 3TC 或 FTC）+ 第三個藥（現在多是 INSTI）\n3. **開藥前查**：抗藥性基因、**HLA-B5701**、**B 肝**、腎功能、懷孕、精神病史、併用藥（PPI、rifampin、吸入類固醇）\n4. **追蹤**：1–2 個月病毒量降 1 log、6 個月 < 50；失敗 → 先查順從性 → 在原處方上驗抗藥性 → 換成至少 2 個有效新藥\n5. **預防**：PEP 72 小時內、三種藥、28 天；PrEP（口服或長效針劑）；U = U\n新版來源：Harrison 22e Ch.208；📌 FDA 2025 核准 lenacapavir 每 6 個月注射的 PrEP"
+        }
+      ]
+    },
+    {
+      "title": "原則與開始時機　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **確診就儘快開始 ART**，不論 CD4 或病毒量（「CD4 < 350 再治療」是舊考點）\n- 合併伺機性感染：**CD4 < 50 越快越好**；CD4 ≥ 50 可延 2–4 週；**結核** → 抗結核 2–8 週後；**隱球菌腦膜炎** → 4–6 週後\n- **絕不單一藥物**；目標病毒量 **< 50 copies/mL**\n- **開始後就不要中斷**（間歇治療反而增加心肌梗塞、中風等事件）\n- ART **不能根治**（潛伏儲存庫）"
         },
         {
           "type": "table",
-          "headers": ["原則（Table 208-23 精簡）", "意義"],
+          "headers": [
+            "原則（Table 208-23 精簡）",
+            "意義"
+          ],
           "rows": [
-            ["持續的病毒複製 → 免疫破壞、進展、**全身免疫活化**", "所以**每個感染者都要治療**"],
-            ["**病毒量**反映複製速度；**CD4** 反映目前免疫能力", "兩者都要追蹤"],
-            ["治療目標是**最大程度抑制病毒**；抑制越徹底，越不容易出現抗藥株", "目標：測不到（< 50 copies/mL）"],
-            ["同時開始**多種有效、彼此無交叉抗藥**的藥物", "**絕不單一藥物治療**"],
-            ["藥物種類有限，每個選擇都影響未來", "第一個處方通常是**最有效**的（病毒還沒有抗藥壓力）"],
-            ["**女性不論是否懷孕都應接受最佳 ART**", "—"],
-            ["**服藥順從性**最重要；處方越簡單越好", "單錠複方、每日一次、長效針劑"]
+            [
+              "持續的病毒複製 → 免疫破壞、進展、**全身免疫活化**",
+              "所以**每個感染者都要治療**"
+            ],
+            [
+              "**病毒量**反映複製速度；**CD4** 反映目前免疫能力",
+              "兩者都要追蹤"
+            ],
+            [
+              "治療目標是**最大程度抑制病毒**；抑制越徹底，越不容易出現抗藥株",
+              "目標：測不到（< 50 copies/mL）"
+            ],
+            [
+              "同時開始**多種有效、彼此無交叉抗藥**的藥物",
+              "**絕不單一藥物治療**"
+            ],
+            [
+              "藥物種類有限，每個選擇都影響未來",
+              "第一個處方通常是**最有效**的（病毒還沒有抗藥壓力）"
+            ],
+            [
+              "**女性不論是否懷孕都應接受最佳 ART**",
+              "—"
+            ],
+            [
+              "**服藥順從性**最重要；處方越簡單越好",
+              "單錠複方、每日一次、長效針劑"
+            ]
           ]
         },
         {
@@ -42,14 +87,35 @@
         },
         {
           "type": "table",
-          "headers": ["情況", "建議（Harrison）"],
+          "headers": [
+            "情況",
+            "建議（Harrison）"
+          ],
           "rows": [
-            ["**所有 HIV 感染者**", "**確診後儘快開始**，不論 CD4 或病毒量（減少進展、也減少傳染）"],
-            ["急性 HIV 感染", "同樣儘快開始"],
-            ["**合併伺機性感染，CD4 < 50**", "**越快越好**"],
-            ["合併伺機性感染，CD4 ≥ 50", "可延後 **2–4 週**，先治療伺機性感染（降低 IRIS）；**結核**：抗結核治療後 **2–8 週**"],
-            ["**隱球菌腦膜炎**", "先給 **4–6 週**抗黴菌治療"],
-            ["未治療、病毒量 < 50 的 elite controller", "是否需要治療**仍有爭議**（短期進展風險低，但有持續免疫活化）"]
+            [
+              "**所有 HIV 感染者**",
+              "**確診後儘快開始**，不論 CD4 或病毒量（減少進展、也減少傳染）"
+            ],
+            [
+              "急性 HIV 感染",
+              "同樣儘快開始"
+            ],
+            [
+              "**合併伺機性感染，CD4 < 50**",
+              "**越快越好**"
+            ],
+            [
+              "合併伺機性感染，CD4 ≥ 50",
+              "可延後 **2–4 週**，先治療伺機性感染（降低 IRIS）；**結核**：抗結核治療後 **2–8 週**"
+            ],
+            [
+              "**隱球菌腦膜炎**",
+              "先給 **4–6 週**抗黴菌治療"
+            ],
+            [
+              "未治療、病毒量 < 50 的 elite controller",
+              "是否需要治療**仍有爭議**（短期進展風險低，但有持續免疫活化）"
+            ]
           ]
         },
         {
@@ -57,13 +123,31 @@
           "style": "trap",
           "text": "**舊考點：「CD4 < 350 再開始治療」**\n早年的指引曾依 CD4（< 200、< 350、< 500）決定何時開始；現在**不論 CD4 都要儘快治療**（First Choice 113 年考題：「等 CD4 < 350 或出現 AIDS 再開始」是錯的）。\n**HAART = highly active antiretroviral therapy**：舊稱，現在多稱 combination ART。\n\n**不要中斷治療**：Harrison 指出所有「間歇治療」的嘗試反而**增加嚴重不良事件**（包括心肌梗塞、中風）→ 證明這些「非 AIDS」事件也和病毒複製有關；**除非毒性，開始後就不要停**。\n**ART 不能根治**：潛伏儲存庫仍在（例外：接受 CCR5 Δ32/Δ32 幹細胞移植的極少數個案）。"
         },
-        {"type": "source", "book": "Harrison's 22e", "pages": "1658、1664、1667"},
-        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "320、325"}
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 講義 p.320–321"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1658、1664、1667"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "320、325"
+        }
       ]
     },
     {
-      "title": "藥物分類：作用在複製週期的哪一步",
+      "title": "藥物分類：作用在複製週期的哪一步　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **NRTI**（-vudine、-citabine、tenofovir、abacavir）：假核苷酸 → DNA 鏈終止；類別副作用**粒線體毒性**（乳酸中毒、脂肪肝）\n- **NNRTI**（efavirenz、rilpivirine、doravirine）：直接結合反轉錄酶；**皮疹、肝炎**；**HIV-2 無效**\n- **PI**（-navir，加 ritonavir 或 cobicistat 增強）：**血脂、血糖、脂肪重新分布**；**CYP3A4 交互作用**\n- **INSTI**（-tegravir）：**最有效、最安全**；體重增加\n- 其他：maraviroc（CCR5，用前驗向性）、enfuvirtide（gp41）、lenacapavir（capsid）"
+        },
         {
           "type": "figure",
           "src": "figures/hiv-fundamentals-diagnosis/h208-3.png",
@@ -73,14 +157,49 @@
         },
         {
           "type": "table",
-          "headers": ["類別", "作用點", "代表藥", "類別的招牌副作用"],
+          "headers": [
+            "類別",
+            "作用點",
+            "代表藥",
+            "類別的招牌副作用"
+          ],
           "rows": [
-            ["**NRTI**（核苷 / 核苷酸反轉錄酶抑制劑）", "反轉錄：當作假的核苷酸 → **DNA 鏈終止**", "**TDF、TAF、FTC、3TC、ABC**（舊：AZT、d4T、ddI）", "會抑制**粒線體 DNA 聚合酶** → **乳酸中毒、脂肪肝**、周邊神經病變、胰臟炎"],
-            ["**NNRTI**（非核苷反轉錄酶抑制劑）", "直接結合反轉錄酶、改變其構形", "**EFV、RPV、DOR**、NVP、ETR", "**皮疹**、肝炎；EFV 中樞神經；**HIV-2 無效**"],
-            ["**PI**（蛋白酶抑制劑）", "阻止 gag-pol 前驅蛋白被切割 → 病毒無法成熟", "**DRV**、ATV（加 **ritonavir 或 cobicistat** 增強）", "**血脂、血糖異常、脂肪重新分布**、腸胃道；**CYP3A4 交互作用**"],
-            ["**INSTI**（嵌合酶抑制劑）", "阻止前病毒 DNA 嵌入宿主染色體", "**BIC、DTG**、RAL、EVG/c、**CAB（長效針劑）**", "**最有效、最安全**；體重增加較多"],
-            ["Entry inhibitor", "結合 / 融合", "Enfuvirtide（T-20）、**maraviroc**、ibalizumab、fostemsavir", "多用於**多重抗藥**；maraviroc 需**向性檢測**"],
-            ["Capsid 抑制劑", "p24 capsid 六聚體介面", "**Lenacapavir**（每 6 個月皮下注射）", "注射部位反應；目前用於多重抗藥、PrEP 試驗中"]
+            [
+              "**NRTI**（核苷 / 核苷酸反轉錄酶抑制劑）",
+              "反轉錄：當作假的核苷酸 → **DNA 鏈終止**",
+              "**TDF、TAF、FTC、3TC、ABC**（舊：AZT、d4T、ddI）",
+              "會抑制**粒線體 DNA 聚合酶** → **乳酸中毒、脂肪肝**、周邊神經病變、胰臟炎"
+            ],
+            [
+              "**NNRTI**（非核苷反轉錄酶抑制劑）",
+              "直接結合反轉錄酶、改變其構形",
+              "**EFV、RPV、DOR**、NVP、ETR",
+              "**皮疹**、肝炎；EFV 中樞神經；**HIV-2 無效**"
+            ],
+            [
+              "**PI**（蛋白酶抑制劑）",
+              "阻止 gag-pol 前驅蛋白被切割 → 病毒無法成熟",
+              "**DRV**、ATV（加 **ritonavir 或 cobicistat** 增強）",
+              "**血脂、血糖異常、脂肪重新分布**、腸胃道；**CYP3A4 交互作用**"
+            ],
+            [
+              "**INSTI**（嵌合酶抑制劑）",
+              "阻止前病毒 DNA 嵌入宿主染色體",
+              "**BIC、DTG**、RAL、EVG/c、**CAB（長效針劑）**",
+              "**最有效、最安全**；體重增加較多"
+            ],
+            [
+              "Entry inhibitor",
+              "結合 / 融合",
+              "Enfuvirtide（T-20）、**maraviroc**、ibalizumab、fostemsavir",
+              "多用於**多重抗藥**；maraviroc 需**向性檢測**"
+            ],
+            [
+              "Capsid 抑制劑",
+              "p24 capsid 六聚體介面",
+              "**Lenacapavir**（每 6 個月皮下注射）",
+              "注射部位反應；目前用於多重抗藥、PrEP 試驗中"
+            ]
           ]
         },
         {
@@ -88,13 +207,31 @@
           "style": "guideline",
           "text": "**典型處方**（Harrison）：**2 個 NRTI 當骨架**（tenofovir 類或 abacavir **+ 3TC 或 FTC**）**+ 第三個藥**：INSTI、NNRTI 或**加強型 PI**。\n另一種被支持的**兩藥處方**：**dolutegravir + lamivudine**（限 **B 肝陰性**、病毒量 **< 500,000 copies/mL**）。\n**HIV-2**：治療原則相同，但 **NNRTI、enfuvirtide、fostemsavir 無效**。"
         },
-        {"type": "source", "book": "Harrison's 22e", "pages": "1658-1659、1661-1664"},
-        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "320"}
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 講義 p.320–321"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1658-1659、1661-1664"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "320"
+        }
       ]
     },
     {
-      "title": "NRTI：骨架藥物",
+      "title": "NRTI：骨架藥物　★ 1 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Abacavir 過敏與 HLA-B5701 相關**：發燒、皮疹、腸胃症狀 → **再次給藥可致命**；用前**必驗**\n- **TDF**：**腎毒性**（近端腎小管）、**骨密度下降**；**TAF** 腎與骨毒性較少\n- **3TC、FTC、TDF、TAF 同時治療 B 肝** → HIV 病人不能單用來治 B 肝；**停藥可能 B 肝急性發作**\n- 舊藥：**AZT → 貧血（MCV 上升）**、肌病變；**d4T、ddI → 周邊神經病變、胰臟炎、乳酸中毒**"
+        },
         {
           "type": "callout",
           "style": "logic",
@@ -102,16 +239,52 @@
         },
         {
           "type": "table",
-          "headers": ["藥物", "地位", "招牌副作用 / 重點"],
+          "headers": [
+            "藥物",
+            "地位",
+            "招牌副作用 / 重點"
+          ],
           "rows": [
-            ["**Tenofovir disoproxil（TDF）**", "首選骨架之一", "**腎毒性**（近端腎小管）、**骨軟化 / 骨密度下降**；限 **CrCl > 70**；血脂比 TAF 低；**同時治療 B 肝**"],
-            ["**Tenofovir alafenamide（TAF）**", "首選骨架之一", "TDF 的前驅藥，**腎與骨毒性較少**；可用到 **CrCl > 30**；**同時治療 B 肝**"],
-            ["**Lamivudine（3TC）**", "首選", "副作用很少；**同時治療 B 肝 → 停藥可能 B 肝發作**"],
-            ["**Emtricitabine（FTC）**", "首選（與 3TC 可互換、不併用）", "皮膚色素沉著；**同時治療 B 肝 → 停藥可能 B 肝發作**"],
-            ["**Abacavir（ABC）**", "首選（需先驗 HLA）", "**過敏反應：與 HLA-B5701 強相關**——發燒、皮疹、噁心嘔吐、倦怠、食慾不振；**再次給藥可致命 → 絕對禁忌**；用前**必驗 HLA-B5701**"],
-            ["Zidovudine（AZT）", "**舊考點**（不再建議）", "**骨髓抑制：貧血（MCV 上升）**、嗜中性球低下；**肌病變（ragged red fibers）**；脂肪萎縮；指甲藍黑變色、睫毛變長"],
-            ["Stavudine（d4T）", "**舊考點**", "**周邊神經病變、胰臟炎、乳酸中毒**、脂肪萎縮最嚴重"],
-            ["Didanosine（ddI）", "**舊考點**", "**胰臟炎**、**周邊神經病變**、乳酸中毒"]
+            [
+              "**Tenofovir disoproxil（TDF）**",
+              "首選骨架之一",
+              "**腎毒性**（近端腎小管）、**骨軟化 / 骨密度下降**；限 **CrCl > 70**；血脂比 TAF 低；**同時治療 B 肝**"
+            ],
+            [
+              "**Tenofovir alafenamide（TAF）**",
+              "首選骨架之一",
+              "TDF 的前驅藥，**腎與骨毒性較少**；可用到 **CrCl > 30**；**同時治療 B 肝**"
+            ],
+            [
+              "**Lamivudine（3TC）**",
+              "首選",
+              "副作用很少；**同時治療 B 肝 → 停藥可能 B 肝發作**"
+            ],
+            [
+              "**Emtricitabine（FTC）**",
+              "首選（與 3TC 可互換、不併用）",
+              "皮膚色素沉著；**同時治療 B 肝 → 停藥可能 B 肝發作**"
+            ],
+            [
+              "**Abacavir（ABC）**",
+              "首選（需先驗 HLA）",
+              "**過敏反應：與 HLA-B5701 強相關**——發燒、皮疹、噁心嘔吐、倦怠、食慾不振；**再次給藥可致命 → 絕對禁忌**；用前**必驗 HLA-B5701**"
+            ],
+            [
+              "Zidovudine（AZT）",
+              "**舊考點**（不再建議）",
+              "**骨髓抑制：貧血（MCV 上升）**、嗜中性球低下；**肌病變（ragged red fibers）**；脂肪萎縮；指甲藍黑變色、睫毛變長"
+            ],
+            [
+              "Stavudine（d4T）",
+              "**舊考點**",
+              "**周邊神經病變、胰臟炎、乳酸中毒**、脂肪萎縮最嚴重"
+            ],
+            [
+              "Didanosine（ddI）",
+              "**舊考點**",
+              "**胰臟炎**、**周邊神經病變**、乳酸中毒"
+            ]
           ]
         },
         {
@@ -120,30 +293,71 @@
           "text": "**B 肝共同感染的三個陷阱**\n1. **3TC、FTC、TDF、TAF（以及 entecavir、adefovir）都有抗 HIV 活性** → 在 HIV 病人**絕不能單用來治 B 肝**，否則產生抗藥 HIV\n2. 換 ART 或停藥時要記得這個處方**也在治 B 肝** → **停用可能造成 B 肝急性發作**\n3. **DTG + 3TC 兩藥處方只能用在 B 肝陰性**（只有一個 B 肝活性藥會產生 B 肝抗藥）\n\n**HLA-B5701 的雙重身分**：與 **abacavir 過敏**相關，也與 **elite controller** 相關（基礎與診斷筆記）。First Choice 108 年考題：abacavir 致死性過敏與 **HLA-B5701** 相關（選項中的 HLA-B5801、B27、B46 都不是）。"
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：FC 的 NRTI 整理",
           "text": "**First Choice 的 NRTI 整理**（p.320–321）：AZT → 骨髓抑制；d4T、ddI → 神經病變、胰臟炎；ABC → 過敏（HLA-B5701）；類別副作用：腸胃不適、**脂肪萎縮、乳酸中毒**（d4T、ddI 最常見）；TDF → 腎功能受損、骨質疏鬆；TAF 副作用較 TDF 少；**3TC、FTC、TDF、TAF 可同時治療 HIV 與 HBV**。"
         },
-        {"type": "source", "book": "Harrison's 22e", "pages": "1643-1645、1647-1648、1658-1659"},
-        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "320-321、328"}
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 講義 p.320–321"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 考題 p.328"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1643-1645、1647-1648、1658-1659"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "320-321、328"
+        }
       ]
     },
     {
-      "title": "NNRTI 與 PI",
+      "title": "NNRTI 與 PI　★ 1 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Efavirenz：中樞神經與精神症狀**（頭暈、惡夢、**憂鬱**）→ **有憂鬱或自殺意圖者避免**；可能致畸胎\n- **Rilpivirine：禁止併用 PPI**；只用於病毒量 < 100,000\n- **Nevirapine：SJS、猛爆性肝炎**\n- PI：**atazanavir → 間接膽紅素上升**（轉胺酶正常）、PR 延長、腎結石；**indinavir → 腎結石**\n- **Ritonavir、cobicistat 抑制 CYP3A4** → 吸入類固醇造成**醫源性 Cushing**；cobicistat 讓肌酸酐**假性上升**"
+        },
         {
           "type": "heading",
           "text": "NNRTI"
         },
         {
           "type": "table",
-          "headers": ["藥物", "招牌副作用 / 限制"],
+          "headers": [
+            "藥物",
+            "招牌副作用 / 限制"
+          ],
           "rows": [
-            ["**Efavirenz（EFV）**", "**中樞神經 / 精神**：頭暈、嗜睡、**惡夢 / 怪夢**、**憂鬱**、情緒不穩（睡前吃）；皮疹、肝指數上升、血脂異常；**可能致畸胎**（考慮用前做**懷孕檢驗**）"],
-            ["**Rilpivirine（RPV）**", "只用於**未治療過**且病毒量 **< 100,000** 的病人（病毒量高時效果較差）；**禁止併用 PPI**；中樞神經與皮疹比 EFV 少；也有**長效針劑**（搭配 cabotegravir 每月注射）"],
-            ["**Doravirine（DOR）**", "首選 NNRTI 之一（Harrison 列為 preferred）"],
-            ["Nevirapine（NVP）", "**皮疹（含 SJS）**、**肝毒性**（猛爆性、膽汁滯留性肝炎，可致命）"],
-            ["Etravirine（ETR）", "給**對其他 NNRTI 抗藥**的病人；皮疹、過敏"]
+            [
+              "**Efavirenz（EFV）**",
+              "**中樞神經 / 精神**：頭暈、嗜睡、**惡夢 / 怪夢**、**憂鬱**、情緒不穩（睡前吃）；皮疹、肝指數上升、血脂異常；**可能致畸胎**（考慮用前做**懷孕檢驗**）"
+            ],
+            [
+              "**Rilpivirine（RPV）**",
+              "只用於**未治療過**且病毒量 **< 100,000** 的病人（病毒量高時效果較差）；**禁止併用 PPI**；中樞神經與皮疹比 EFV 少；也有**長效針劑**（搭配 cabotegravir 每月注射）"
+            ],
+            [
+              "**Doravirine（DOR）**",
+              "首選 NNRTI 之一（Harrison 列為 preferred）"
+            ],
+            [
+              "Nevirapine（NVP）",
+              "**皮疹（含 SJS）**、**肝毒性**（猛爆性、膽汁滯留性肝炎，可致命）"
+            ],
+            [
+              "Etravirine（ETR）",
+              "給**對其他 NNRTI 抗藥**的病人；皮疹、過敏"
+            ]
           ]
         },
         {
@@ -157,14 +371,35 @@
         },
         {
           "type": "table",
-          "headers": ["藥物", "招牌副作用 / 重點"],
+          "headers": [
+            "藥物",
+            "招牌副作用 / 重點"
+          ],
           "rows": [
-            ["**Ritonavir（r）**", "本身是 PI，但現在**低劑量當增強劑**：強力抑制 **CYP3A4**（及 2D6）→ 大幅提高併用藥物濃度 → **交互作用極多**；副作用：噁心腹痛、高血糖、脂肪重新分布、血脂異常、口周感覺異常、肝炎"],
-            ["**Cobicistat（c）**", "只有增強作用、沒有抗 HIV 活性；**抑制腎小管分泌肌酸酐 → creatinine 上升但 GFR 沒變**；CrCl < 70 不建議（與 EVG 併用時）"],
-            ["**Darunavir（DRV）**", "**首選 PI 策略：DRV/r + FTC + tenofovir**；腹瀉、噁心、頭痛、皮疹、肝毒性、血脂與血糖異常"],
-            ["**Atazanavir（ATV）**", "**間接膽紅素上升**（類似 Gilbert；轉胺酶正常，但病人會變黃）、**PR 延長**、**腎結石**、高血糖"],
-            ["Indinavir（IDV）", "**舊考點**：**腎結石**（多喝水）、膽紅素上升（10–15%）、葡萄糖不耐"],
-            ["其他舊 PI", "saquinavir、nelfinavir、lopinavir/r、fosamprenavir、tipranavir"]
+            [
+              "**Ritonavir（r）**",
+              "本身是 PI，但現在**低劑量當增強劑**：強力抑制 **CYP3A4**（及 2D6）→ 大幅提高併用藥物濃度 → **交互作用極多**；副作用：噁心腹痛、高血糖、脂肪重新分布、血脂異常、口周感覺異常、肝炎"
+            ],
+            [
+              "**Cobicistat（c）**",
+              "只有增強作用、沒有抗 HIV 活性；**抑制腎小管分泌肌酸酐 → creatinine 上升但 GFR 沒變**；CrCl < 70 不建議（與 EVG 併用時）"
+            ],
+            [
+              "**Darunavir（DRV）**",
+              "**首選 PI 策略：DRV/r + FTC + tenofovir**；腹瀉、噁心、頭痛、皮疹、肝毒性、血脂與血糖異常"
+            ],
+            [
+              "**Atazanavir（ATV）**",
+              "**間接膽紅素上升**（類似 Gilbert；轉胺酶正常，但病人會變黃）、**PR 延長**、**腎結石**、高血糖"
+            ],
+            [
+              "Indinavir（IDV）",
+              "**舊考點**：**腎結石**（多喝水）、膽紅素上升（10–15%）、葡萄糖不耐"
+            ],
+            [
+              "其他舊 PI",
+              "saquinavir、nelfinavir、lopinavir/r、fosamprenavir、tipranavir"
+            ]
           ]
         },
         {
@@ -173,26 +408,67 @@
           "text": "**PI 的類別副作用 = 代謝症候群三件套**：**高血脂（尤其高三酸甘油酯）**、**高血糖 / 胰島素阻抗**、**脂肪重新分布**（見第 8 章 lipodystrophy）。\n**增強劑（ritonavir、cobicistat）的經典交互作用**：\n- **吸入或局部注射類固醇**（fluticasone 等）→ **醫源性 Cushing、腎上腺抑制**\n- **降血脂藥**：因交互作用，HIV 病人最常用 **atorvastatin、gemfibrozil**\n- **結核藥**：需調整 **rifabutin** 劑量或改 ART（First Choice：用 rifabutin 取代 rifampin，減少與 PI 的交互作用）"
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：FC 的 NNRTI、PI 整理",
           "text": "**First Choice 的整理**（p.320–321）：NNRTI 類別副作用 → 皮疹、肝炎、CYP450；EFV → 中樞神經（頭暈）；NVP → SJS。PI 類別副作用 → 腸胃不適、CYP450 抑制、**第 2 型糖尿病、高血脂**；IDV → 腎結石；高三酸甘油酯以 ritonavir 常見、葡萄糖不耐以 indinavir、ritonavir 常見。"
         },
-        {"type": "source", "book": "Harrison's 22e", "pages": "1643-1646、1659-1661、1663"},
-        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "320-321、328"}
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 講義 p.320–321"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 考題 p.328"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1643-1646、1659-1661、1663"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "320-321、328"
+        }
       ]
     },
     {
-      "title": "INSTI、entry 抑制劑與 capsid 抑制劑",
+      "title": "INSTI、entry 抑制劑與 capsid 抑制劑　★ 0 題",
       "content": [
         {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- INSTI 是現在第一線的主角：**最有效、最安全**；代價是**體重增加**\n- **Dolutegravir**：併用 rifampin 或 efavirenz 時**一天兩次**；與 3TC 組成兩藥處方\n- **Raltegravir**：CPK 上升、橫紋肌溶解\n- **Cabotegravir + rilpivirine**：每月長效注射；CAB 長效針劑也用於 PrEP\n- **Maraviroc 只對 CCR5（R5）病毒有效 → 用前驗向性**；enfuvirtide 皮下注射部位反應"
+        },
+        {
           "type": "table",
-          "headers": ["INSTI", "招牌副作用 / 重點"],
+          "headers": [
+            "INSTI",
+            "招牌副作用 / 重點"
+          ],
           "rows": [
-            ["**Bictegravir（BIC）**", "**只有複方 Biktarvy**（BIC/TAF/FTC）；噁心、腹瀉、頭痛"],
-            ["**Dolutegravir（DTG）**", "失眠、頭痛、過敏、肝毒性；與 **EFV 或 rifampin** 併用時要**一天兩次**（被誘導代謝）；與 3TC 組成兩藥處方（Dovato）"],
-            ["Raltegravir（RAL）", "噁心、頭痛、腹瀉、**CPK 上升、肌無力、橫紋肌溶解**"],
-            ["Elvitegravir（EVG）", "**一定要搭配 cobicistat**（Stribild、Genvoya）→ creatinine 假性上升、CrCl < 70 不建議"],
-            ["**Cabotegravir（CAB）**", "與 **rilpivirine** 組成**每月肌肉注射**的長效處方（Cabenuva）；先口服導入確認耐受；注射部位反應。**CAB-LA 也用於 PrEP**"]
+            [
+              "**Bictegravir（BIC）**",
+              "**只有複方 Biktarvy**（BIC/TAF/FTC）；噁心、腹瀉、頭痛"
+            ],
+            [
+              "**Dolutegravir（DTG）**",
+              "失眠、頭痛、過敏、肝毒性；與 **EFV 或 rifampin** 併用時要**一天兩次**（被誘導代謝）；與 3TC 組成兩藥處方（Dovato）"
+            ],
+            [
+              "Raltegravir（RAL）",
+              "噁心、頭痛、腹瀉、**CPK 上升、肌無力、橫紋肌溶解**"
+            ],
+            [
+              "Elvitegravir（EVG）",
+              "**一定要搭配 cobicistat**（Stribild、Genvoya）→ creatinine 假性上升、CrCl < 70 不建議"
+            ],
+            [
+              "**Cabotegravir（CAB）**",
+              "與 **rilpivirine** 組成**每月肌肉注射**的長效處方（Cabenuva）；先口服導入確認耐受；注射部位反應。**CAB-LA 也用於 PrEP**"
+            ]
           ]
         },
         {
@@ -202,30 +478,87 @@
         },
         {
           "type": "table",
-          "headers": ["Entry / capsid 抑制劑", "機轉", "重點"],
+          "headers": [
+            "Entry / capsid 抑制劑",
+            "機轉",
+            "重點"
+          ],
           "rows": [
-            ["**Enfuvirtide（T-20）**", "融合抑制劑（阻止 **gp41** 完成融合）", "**每天兩次皮下注射**；**注射部位反應**、過敏、**細菌性肺炎增加**；HIV-2 無效"],
-            ["**Maraviroc**", "**CCR5 拮抗劑**", "**只對 R5 病毒有效 → 用前必做向性檢測（Trofile）**；肝毒性、鼻咽炎、發燒、皮疹"],
-            ["Ibalizumab", "**anti-CD4 單株抗體**", "多重抗藥 HIV；每 2 週靜脈注射；皮疹、腹瀉"],
-            ["Fostemsavir", "entry 抑制劑（小分子）", "多重抗藥 HIV；高劑量 QTc 延長、B / C 肝病人肝指數上升；HIV-2 無效"],
-            ["**Lenacapavir**", "**capsid 抑制劑**（結合 p24 六聚體介面，干擾核內運輸、組裝、capsid 形成）", "**每 6 個月皮下注射**（口服或口服 + 皮下導入後）；目前用於**多重抗藥且治療經驗豐富**的病人"]
+            [
+              "**Enfuvirtide（T-20）**",
+              "融合抑制劑（阻止 **gp41** 完成融合）",
+              "**每天兩次皮下注射**；**注射部位反應**、過敏、**細菌性肺炎增加**；HIV-2 無效"
+            ],
+            [
+              "**Maraviroc**",
+              "**CCR5 拮抗劑**",
+              "**只對 R5 病毒有效 → 用前必做向性檢測（Trofile）**；肝毒性、鼻咽炎、發燒、皮疹"
+            ],
+            [
+              "Ibalizumab",
+              "**anti-CD4 單株抗體**",
+              "多重抗藥 HIV；每 2 週靜脈注射；皮疹、腹瀉"
+            ],
+            [
+              "Fostemsavir",
+              "entry 抑制劑（小分子）",
+              "多重抗藥 HIV；高劑量 QTc 延長、B / C 肝病人肝指數上升；HIV-2 無效"
+            ],
+            [
+              "**Lenacapavir**",
+              "**capsid 抑制劑**（結合 p24 六聚體介面，干擾核內運輸、組裝、capsid 形成）",
+              "**每 6 個月皮下注射**（口服或口服 + 皮下導入後）；目前用於**多重抗藥且治療經驗豐富**的病人"
+            ]
           ]
         },
-        {"type": "source", "book": "Harrison's 22e", "pages": "1661、1664"},
-        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "320"}
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 講義 p.320–321"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1661、1664"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "320"
+        }
       ]
     },
     {
-      "title": "第一線處方與常見複方",
+      "title": "第一線處方與選藥前檢查　★ 0 題",
       "content": [
         {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 第一線：**BIC/TAF/FTC**、**DTG + tenofovir + FTC（或 3TC）**、**DTG/3TC**（病毒量 ≤ 500,000、**B 肝陰性**）\n- 曾用過 CAB 長效 PrEP → 可能有 INSTI 抗藥 → 先驗抗藥性，結果出來前用 darunavir 加強型處方\n- **B 肝陽性**：要有**兩個 B 肝活性藥**（tenofovir + 3TC 或 FTC）\n- **HLA-B5701 陽性**：避開含 abacavir 的處方（Triumeq）\n- 腎功能：TDF 限 CrCl > 70、TAF > 30"
+        },
+        {
           "type": "table",
-          "headers": ["初始處方（Table 208-24，未治療者，不論病毒量或 CD4）", "條件"],
+          "headers": [
+            "初始處方（Table 208-24，未治療者，不論病毒量或 CD4）",
+            "條件"
+          ],
           "rows": [
-            ["**Bictegravir + TAF + FTC**（Biktarvy）", "沒有使用過 **CAB-LA PrEP** 的人"],
-            ["**Dolutegravir + tenofovir（TAF 或 TDF）+ FTC（或 3TC）**", "同上"],
-            ["**Dolutegravir + lamivudine**（Dovato）", "同上，且**病毒量 ≤ 500,000 copies/mL**（Harrison 內文另強調：**B 肝陰性**）"],
-            ["**Darunavir/cobicistat 或 darunavir/ritonavir + tenofovir + FTC（或 3TC）**", "**曾用過 CAB-LA PrEP** 者：先做 **INSTI 抗藥基因檢測**，結果出來前用這個"]
+            [
+              "**Bictegravir + TAF + FTC**（Biktarvy）",
+              "沒有使用過 **CAB-LA PrEP** 的人"
+            ],
+            [
+              "**Dolutegravir + tenofovir（TAF 或 TDF）+ FTC（或 3TC）**",
+              "同上"
+            ],
+            [
+              "**Dolutegravir + lamivudine**（Dovato）",
+              "同上，且**病毒量 ≤ 500,000 copies/mL**（Harrison 內文另強調：**B 肝陰性**）"
+            ],
+            [
+              "**Darunavir/cobicistat 或 darunavir/ritonavir + tenofovir + FTC（或 3TC）**",
+              "**曾用過 CAB-LA PrEP** 者：先做 **INSTI 抗藥基因檢測**，結果出來前用這個"
+            ]
           ]
         },
         {
@@ -234,53 +567,86 @@
           "text": "**選藥前的檢查清單**：\n- **抗藥性基因檢測**（一開始就可能感染到抗藥株）\n- **HLA-B5701**（要用 abacavir 時）\n- **B 肝**（決定骨架要不要含 tenofovir + 3TC/FTC；DTG/3TC 只限 B 肝陰性）\n- **腎功能**（TDF 限 CrCl > 70、TAF > 30）\n- **懷孕**（考慮 EFV 時要驗）、**精神病史**（避免 EFV）\n- **併用藥**：PPI（避免 RPV）、rifampin、吸入類固醇、statin（避開增強劑或調整）\n- **曾用過 CAB-LA PrEP**（可能有 INSTI 抗藥）\n**TAF vs TDF**（Table 208-24 註）：TAF 的**骨與腎毒性較少**，TDF 的**血脂較低**。"
         },
         {
-          "type": "table",
-          "headers": ["常見複方（Table 208-22，節錄）", "組成"],
-          "rows": [
-            ["**Biktarvy**", "BIC / TAF / FTC（單錠完整處方）"],
-            ["**Triumeq**", "DTG / **ABC** / 3TC（→ 要先驗 HLA-B5701）"],
-            ["**Dovato**", "DTG / 3TC（兩藥）"],
-            ["Juluca", "DTG / RPV（兩藥）"],
-            ["**Symtuza**", "DRV / cobicistat / TAF / FTC"],
-            ["Genvoya、Stribild", "EVG / cobicistat / TAF 或 TDF / FTC"],
-            ["Odefsey、Complera", "RPV / TAF 或 TDF / FTC"],
-            ["Delstrigo", "DOR / TDF / 3TC"],
-            ["Symfi、EFV/TDF/FTC", "EFV / TDF / 3TC 或 FTC"],
-            ["Cabenuva", "CAB + RPV 長效注射"],
-            ["**Truvada、Descovy**", "TDF/FTC、TAF/FTC → 不是完整處方，是**骨架**；**Truvada 也是 PrEP 藥**"]
-          ]
+          "type": "collapsible",
+          "summary": "延伸：常見複方（Table 208-22 節錄）",
+          "text": "**Biktarvy**：BIC / TAF / FTC（單錠完整處方）\n**Triumeq**：DTG / **ABC** / 3TC（→ 要先驗 HLA-B5701）\n**Dovato**：DTG / 3TC（兩藥）\n**Juluca**：DTG / RPV（兩藥）\n**Symtuza**：DRV / cobicistat / TAF / FTC\n**Genvoya、Stribild**：EVG / cobicistat / TAF 或 TDF / FTC\n**Odefsey、Complera**：RPV / TAF 或 TDF / FTC\n**Delstrigo**：DOR / TDF / 3TC\n**Symfi、EFV/TDF/FTC**：EFV / TDF / 3TC 或 FTC\n**Cabenuva**：CAB + RPV 長效注射\n**Truvada、Descovy**：TDF/FTC、TAF/FTC → 不是完整處方，是**骨架**；**Truvada 也是 PrEP 藥**"
         },
-        {"type": "source", "book": "Harrison's 22e", "pages": "1658-1659、1663、1667"}
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1658-1659、1663、1667"
+        }
       ]
     },
     {
-      "title": "治療監測、失敗與抗藥性",
+      "title": "治療監測、失敗與抗藥性　★ 0 題",
       "content": [
         {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 預期：**1–2 個月病毒量至少降 1 log**、**6 個月 < 50**；CD4 第一年升 100–150\n- 失敗：最常見原因是**順從性**\n- 抗藥性檢測要在**仍吃著失敗處方時**做（停藥後抗藥株被野生株取代）；病毒量 > 500–1,000 才驗得準\n- 新處方要有**至少 2 個仍有效的新藥**；因副作用換藥則**換單一藥物**即可"
+        },
+        {
           "type": "table",
-          "headers": ["時間", "預期反應（Harrison）"],
+          "headers": [
+            "時間",
+            "預期反應（Harrison）"
+          ],
           "rows": [
-            ["**1–2 個月**", "病毒量**至少下降 1 log（10 倍）**"],
-            ["**6 個月**", "病毒量 **< 50 copies/mL**"],
-            ["第一年", "CD4 上升 **100–150**（第一個月特別快）"],
-            ["之後", "CD4 每年上升 **50–100**，直到接近正常"],
-            ["病毒量追蹤", "開始或換藥後 **2–4 週**、之後**每 4–8 週**直到 < 200、再來**每 3–6 個月**"]
+            [
+              "**1–2 個月**",
+              "病毒量**至少下降 1 log（10 倍）**"
+            ],
+            [
+              "**6 個月**",
+              "病毒量 **< 50 copies/mL**"
+            ],
+            [
+              "第一年",
+              "CD4 上升 **100–150**（第一個月特別快）"
+            ],
+            [
+              "之後",
+              "CD4 每年上升 **50–100**，直到接近正常"
+            ],
+            [
+              "病毒量追蹤",
+              "開始或換藥後 **2–4 週**、之後**每 4–8 週**直到 < 200、再來**每 3–6 個月**"
+            ]
           ]
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：FC 的寫法",
           "text": "**First Choice 的寫法**（p.321）：每 4 週病毒量應下降到 1/10，**24 週後應測不到**；治療失敗時做抗藥性檢測調整藥物。"
         },
         {
           "type": "table",
-          "headers": ["需要換藥的情況（Table 208-25）", "處理"],
+          "headers": [
+            "需要換藥的情況（Table 208-25）",
+            "處理"
+          ],
           "rows": [
-            ["開始治療 **4 週**後病毒量下降 **< 1 log**", "評估順從性、抗藥性"],
-            ["病毒量從最低點**可重複地上升 ≥ 3 倍**（排除感染、疫苗、檢驗誤差）；或持續 > 200 copies/mL", "**病毒學失敗**"],
-            ["CD4 持續下降", "—"],
-            ["臨床惡化", "—"],
-            ["**副作用**", "**換掉單一藥物即可**"]
+            [
+              "開始治療 **4 週**後病毒量下降 **< 1 log**",
+              "評估順從性、抗藥性"
+            ],
+            [
+              "病毒量從最低點**可重複地上升 ≥ 3 倍**（排除感染、疫苗、檢驗誤差）；或持續 > 200 copies/mL",
+              "**病毒學失敗**"
+            ],
+            [
+              "CD4 持續下降",
+              "—"
+            ],
+            [
+              "臨床惡化",
+              "—"
+            ],
+            [
+              "**副作用**",
+              "**換掉單一藥物即可**"
+            ]
           ]
         },
         {
@@ -288,13 +654,31 @@
           "style": "logic",
           "text": "**治療失敗的處理步驟**：\n1. **先確認順從性**（最常見的原因）、藥物交互作用、吸收問題\n2. **抗藥性檢測要在病人仍在吃失敗處方時做**——停藥後抗藥株很快被野生株取代，會測不出來；病毒量需 **> 500–1,000 copies/mL** 才測得準\n3. 新處方要包含**至少 2 個仍然有效的新藥**（因毒性而換藥時，換單一藥物即可）\n4. 分不清是毒性還是疾病進展時，可暫停全部藥物觀察（毒性通常 1–2 週內開始改善）\n5. 即使無法完全抑制，**繼續吃 ART 仍有好處**\n\n**抗藥性檢測方式**：基因型（cDNA 定序；能偵測佔 ≥ 10% 的準種，次世代定序可到 1%）、表現型；也可測藥物濃度（inhibitory quotient = 谷值 / IC50）。"
         },
-        {"type": "source", "book": "Harrison's 22e", "pages": "1634、1664-1667"},
-        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "321"}
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 講義 p.320–321"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1634、1664-1667"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "321"
+        }
       ]
     },
     {
-      "title": "長期副作用與特殊族群",
+      "title": "長期副作用與特殊族群　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Lipodystrophy**：中央脂肪堆積（腹部、水牛肩）+ 周邊萎縮（臉、四肢）；萎縮以 **d4T、AZT** 最嚴重，PI 造成血脂血糖異常\n- 40–75 歲感染者一般建議**中強度 statin**；常用 atorvastatin（考慮交互作用）\n- **懷孕：不論是否懷孕都給最佳 ART**，目標生產時病毒量測不到\n- **結核**：rifampin 時 DTG 一天兩次；PI 處方改用 rifabutin\n- 精神疾病避免 efavirenz；淋巴瘤化療中避開骨髓抑制的 AZT"
+        },
         {
           "type": "figure",
           "src": "figures/hiv-treatment-art/h208-39.jpg",
@@ -304,15 +688,39 @@
         },
         {
           "type": "table",
-          "headers": ["長期問題", "重點（Harrison）"],
+          "headers": [
+            "長期問題",
+            "重點（Harrison）"
+          ],
           "rows": [
-            ["**Lipodystrophy 症候群**", "使用胸腺嘧啶類似物或 PI 的病人 **33–75%**：三酸甘油酯、總膽固醇、apoB 上升，高胰島素血症與高血糖 + 脂肪重新分布；ART 後 6 週到數年出現；約 20% 符合代謝症候群；處理：**避免 AZT、d4T 與造成問題的 PI**"],
-            ["**降血脂**", "**40–75 歲 HIV 感染者都建議中強度 statin**（除非 10 年心血管風險 < 5%）；考慮交互作用，常用 **atorvastatin、gemfibrozil**"],
-            ["**乳酸中毒**", "主要是 **NRTI**（粒線體毒性），可致命；早期發現停藥可逆"],
-            ["體重增加", "**INSTI** 為主的處方較明顯"],
-            ["骨質", "ART 前 2 年骨密度下降 2–6%，**TDF** 最明顯；缺血性骨壞死"],
-            ["腎臟", "**TDF**（換 TAF）、ATV / IDV 結石；**cobicistat** creatinine 假性上升"],
-            ["心血管", "部分 PI 與 NRTI 增加血脂或 MI 風險——但要與 ART 帶來的存活大幅改善相權衡"]
+            [
+              "**Lipodystrophy 症候群**",
+              "使用胸腺嘧啶類似物或 PI 的病人 **33–75%**：三酸甘油酯、總膽固醇、apoB 上升，高胰島素血症與高血糖 + 脂肪重新分布；ART 後 6 週到數年出現；約 20% 符合代謝症候群；處理：**避免 AZT、d4T 與造成問題的 PI**"
+            ],
+            [
+              "**降血脂**",
+              "**40–75 歲 HIV 感染者都建議中強度 statin**（除非 10 年心血管風險 < 5%）；考慮交互作用，常用 **atorvastatin、gemfibrozil**"
+            ],
+            [
+              "**乳酸中毒**",
+              "主要是 **NRTI**（粒線體毒性），可致命；早期發現停藥可逆"
+            ],
+            [
+              "體重增加",
+              "**INSTI** 為主的處方較明顯"
+            ],
+            [
+              "骨質",
+              "ART 前 2 年骨密度下降 2–6%，**TDF** 最明顯；缺血性骨壞死"
+            ],
+            [
+              "腎臟",
+              "**TDF**（換 TAF）、ATV / IDV 結石；**cobicistat** creatinine 假性上升"
+            ],
+            [
+              "心血管",
+              "部分 PI 與 NRTI 增加血脂或 MI 風險——但要與 ART 帶來的存活大幅改善相權衡"
+            ]
           ]
         },
         {
@@ -321,24 +729,66 @@
         },
         {
           "type": "table",
-          "headers": ["族群", "重點"],
+          "headers": [
+            "族群",
+            "重點"
+          ],
           "rows": [
-            ["**B 肝共同感染**", "處方要含**兩個 B 肝活性藥**（tenofovir + 3TC 或 FTC）；**不可用 DTG/3TC**；換藥 / 停藥小心 B 肝發作"],
-            ["**結核**", "併用 rifampin 時 **DTG 要改一天兩次**；需調整 **rifabutin** 劑量或改 ART（First Choice：PI 處方用 rifabutin 取代 rifampin）；ART 時機見總覽"],
-            ["**懷孕**", "**不論是否懷孕都給最佳 ART**；目標是生產時病毒量測不到（母子垂直傳染 < 1%）"],
-            ["**HIV-2**", "**NNRTI、enfuvirtide、fostemsavir 無效**"],
-            ["**腎功能不全**", "TDF 限 CrCl > 70；TAF > 30；EVG/cobicistat 不建議 < 70"],
-            ["精神疾病", "**避免 efavirenz**"],
-            ["淋巴瘤化療中", "持續 ART，但**避開骨髓抑制的 ART**（如 AZT）"]
+            [
+              "**B 肝共同感染**",
+              "處方要含**兩個 B 肝活性藥**（tenofovir + 3TC 或 FTC）；**不可用 DTG/3TC**；換藥 / 停藥小心 B 肝發作"
+            ],
+            [
+              "**結核**",
+              "併用 rifampin 時 **DTG 要改一天兩次**；需調整 **rifabutin** 劑量或改 ART（First Choice：PI 處方用 rifabutin 取代 rifampin）；ART 時機見總覽"
+            ],
+            [
+              "**懷孕**",
+              "**不論是否懷孕都給最佳 ART**；目標是生產時病毒量測不到（母子垂直傳染 < 1%）"
+            ],
+            [
+              "**HIV-2**",
+              "**NNRTI、enfuvirtide、fostemsavir 無效**"
+            ],
+            [
+              "**腎功能不全**",
+              "TDF 限 CrCl > 70；TAF > 30；EVG/cobicistat 不建議 < 70"
+            ],
+            [
+              "精神疾病",
+              "**避免 efavirenz**"
+            ],
+            [
+              "淋巴瘤化療中",
+              "持續 ART，但**避開骨髓抑制的 ART**（如 AZT）"
+            ]
           ]
         },
-        {"type": "source", "book": "Harrison's 22e", "pages": "1643-1647、1656、1659-1664"},
-        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "321、328"}
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 講義 p.320–321"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1643-1647、1656、1659-1664"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "321、328"
+        }
       ]
     },
     {
-      "title": "預防：PEP、PrEP、U = U 與其他工具",
+      "title": "預防：PEP、PrEP、U = U　★ 0 題",
       "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **PEP**：職業暴露當急症 → 立刻清洗傷口；**72 小時內（越早越好）**開始 **三種藥、28 天**；追蹤 HIV 檢驗\n- **PrEP**：口服 **TDF/FTC 每天一顆或事件導向**（嚴格服藥約 99% 有效）、**cabotegravir 每 2 個月注射**、📌 **lenacapavir 每 6 個月注射**\n- **U = U**：感染者病毒量持續測不到 → 性行為不會傳染\n- 其他：保險套（乳膠、不用凡士林類潤滑劑）、男性割包皮、換針計畫；**目前沒有有效的 HIV 疫苗**"
+        },
         {
           "type": "figure",
           "src": "figures/hiv-treatment-art/h208-48.png",
@@ -352,14 +802,35 @@
         },
         {
           "type": "table",
-          "headers": ["項目", "內容"],
+          "headers": [
+            "項目",
+            "內容"
+          ],
           "rows": [
-            ["定位", "**職業暴露當作醫療急症處理**——越早越好，**延遲到 72 小時**可能就是有沒有預防成功的差別"],
-            ["傷口", "**不論是否用 PEP，立刻清洗傷口並消毒**"],
-            ["處方", "美國公衛署（CDC 2018）：**三種（或以上）抗反轉錄病毒藥**、**4 週**"],
-            ["追蹤", "諮商、**基準與追蹤 HIV 檢驗**、監測藥物毒性；**72 小時內**開始回診，可在暴露後 **4 個月**結束"],
-            ["高風險暴露", "**傷口深、看得到血、器械曾在動靜脈內、來源病人晚期**；另考慮：懷孕或哺乳、可能的抗藥病毒、PEP 藥物毒性"],
-            ["同時想到", "HBV（風險遠高於 HIV → 醫護都要有 B 肝疫苗）、HCV；結核（醫護每年 PPD）"]
+            [
+              "定位",
+              "**職業暴露當作醫療急症處理**——越早越好，**延遲到 72 小時**可能就是有沒有預防成功的差別"
+            ],
+            [
+              "傷口",
+              "**不論是否用 PEP，立刻清洗傷口並消毒**"
+            ],
+            [
+              "處方",
+              "美國公衛署（CDC 2018）：**三種（或以上）抗反轉錄病毒藥**、**4 週**"
+            ],
+            [
+              "追蹤",
+              "諮商、**基準與追蹤 HIV 檢驗**、監測藥物毒性；**72 小時內**開始回診，可在暴露後 **4 個月**結束"
+            ],
+            [
+              "高風險暴露",
+              "**傷口深、看得到血、器械曾在動靜脈內、來源病人晚期**；另考慮：懷孕或哺乳、可能的抗藥病毒、PEP 藥物毒性"
+            ],
+            [
+              "同時想到",
+              "HBV（風險遠高於 HIV → 醫護都要有 B 肝疫苗）、HCV；結核（醫護每年 PPD）"
+            ]
           ]
         },
         {
@@ -373,93 +844,116 @@
         },
         {
           "type": "table",
-          "headers": ["方式", "重點"],
+          "headers": [
+            "方式",
+            "重點"
+          ],
           "rows": [
-            ["**口服 TDF/FTC（Truvada）**", "**每天一顆**或**事件導向（性行為前後服用）**；**嚴格服藥時預防效果 99%**；適用男男、異性戀男女、注射藥癮者（資料較少）"],
-            ["**Cabotegravir 長效針劑**", "維持期**每 2 個月**注射；效果相同甚至更好（日後若感染，要注意 **INSTI 抗藥**）"],
-            ["**Lenacapavir**", "**每年兩次**注射的 capsid 抑制劑；南非與烏干達第 3 期試驗中對順性別女性效果更好（其他族群試驗中）"],
-            ["Dapivirine 陰道環", "每 28 天緩釋；WHO 建議作為女性的額外選擇"],
-            ["對象", "高風險行為者（CDC 估計美國約 120 萬人應諮詢 PrEP）"]
+            [
+              "**口服 TDF/FTC（Truvada）**",
+              "**每天一顆**或**事件導向（性行為前後服用）**；**嚴格服藥時預防效果 99%**；適用男男、異性戀男女、注射藥癮者（資料較少）"
+            ],
+            [
+              "**Cabotegravir 長效針劑**",
+              "維持期**每 2 個月**注射；效果相同甚至更好（日後若感染，要注意 **INSTI 抗藥**）"
+            ],
+            [
+              "**Lenacapavir**",
+              "**每年兩次**注射的 capsid 抑制劑；南非與烏干達第 3 期試驗中對順性別女性效果更好（其他族群試驗中）"
+            ],
+            [
+              "Dapivirine 陰道環",
+              "每 28 天緩釋；WHO 建議作為女性的額外選擇"
+            ],
+            [
+              "對象",
+              "高風險行為者（CDC 估計美國約 120 萬人應諮詢 PrEP）"
+            ]
           ]
         },
         {
-          "type": "heading",
-          "text": "其他預防措施"
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **2025 年新增：lenacapavir 長效 PrEP**\n- FDA **2025-06-18** 核准 **lenacapavir（Yeztugo）**作為 PrEP：**每 6 個月**皮下注射一次，用於體重 ≥ 35 kg 的成人與青少年，降低**經性行為**感染 HIV-1 的風險\n- 開始前與**每次注射前都要驗 HIV**；未被診斷出的感染者使用後曾出現抗藥病毒\n- Harrison 22e 寫的是「其他族群仍在試驗中」，這是之後的更新；FC 沒有考過"
         },
         {
-          "type": "table",
-          "headers": ["措施", "重點"],
-          "rows": [
-            ["**U = U（治療即預防）**", "HPTN 052：感染者立即 ART → 伴侶傳染減少 **96%**；病毒量受抑制時**沒有性傳染**"],
-            ["**篩檢**", "CDC：**13–64 歲至少一次**、常規、**opt-out**、不需書面同意；高風險者更頻繁"],
-            ["**保險套**", "不是 100%（避孕失敗率約 10%，多為破裂或使用不當）；用**乳膠**（天然皮製會漏病毒）；**不要用凡士林類潤滑劑**（易破）"],
-            ["**男性割包皮**", "降低男性感染 **50–65%**"],
-            ["注射藥癮者", "戒毒治療最有效；其次**不共用針具**、**換針計畫**（降低傳染且不增加藥癮）、用漂白水消毒；口服 PrEP 也有效"],
-            ["醫護人員", "**標準防護**（視所有血液體液為具傳染性）：手套護目鏡、接觸後立刻洗手、**小心處理銳器（不要回套針頭）**"],
-            ["**疫苗**", "**目前沒有有效的 HIV 疫苗**（病毒高度變異、自然免疫也無法清除病毒）"]
-          ]
+          "type": "collapsible",
+          "summary": "延伸：其他預防措施（U = U、篩檢、保險套、割包皮、注射藥癮者、醫護、疫苗）",
+          "text": "**U = U（治療即預防）**：HPTN 052：感染者立即 ART → 伴侶傳染減少 **96%**；病毒量受抑制時**沒有性傳染**\n**篩檢**：CDC：**13–64 歲至少一次**、常規、**opt-out**、不需書面同意；高風險者更頻繁\n**保險套**：不是 100%（避孕失敗率約 10%，多為破裂或使用不當）；用**乳膠**（天然皮製會漏病毒）；**不要用凡士林類潤滑劑**（易破）\n**男性割包皮**：降低男性感染 **50–65%**\n**注射藥癮者**：戒毒治療最有效；其次**不共用針具**、**換針計畫**（降低傳染且不增加藥癮）、用漂白水消毒；口服 PrEP 也有效\n**醫護人員**：**標準防護**（視所有血液體液為具傳染性）：手套護目鏡、接觸後立刻洗手、**小心處理銳器（不要回套針頭）**\n**疫苗**：**目前沒有有效的 HIV 疫苗**（病毒高度變異、自然免疫也無法清除病毒）"
         },
-        {"type": "source", "book": "Harrison's 22e", "pages": "1664、1668-1669"},
-        {"type": "source", "book": "First Choice 醫學(三) 第3冊", "pages": "321"}
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "壬、愛滋病 講義 p.320–321"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1664、1668-1669"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "321"
+        },
+        {
+          "type": "source",
+          "book": "FDA NDA 220018 Yeztugo（lenacapavir）審查文件；hiv.gov〈Long-Acting HIV Prevention Tools〉",
+          "pages": "2025-06-18 核准 PrEP"
+        }
       ]
     },
     {
-      "title": "臨床題練習",
+      "title": "臨床推理演練",
+      "content": [
+        "以下是**自編示範案例**（取自舊版筆記，內容依 Harrison），不是考題。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1：剛確診的病人 HLA-B5701 陽性、HBsAg 陽性、腎功能正常，該選哪個處方？",
+          "text": "1. **HLA-B5701 陽性** → **不能用 abacavir**（再次給藥可致命）→ 排除 Triumeq（DTG/ABC/3TC）\n2. **B 肝陽性** → 處方要有**兩個 B 肝活性藥**（tenofovir + 3TC 或 FTC）→ 排除 Dovato（DTG/3TC，只有一個）\n3. **腎功能正常** → TAF 或 TDF 都可以\n4. **選擇**：BIC/TAF/FTC，或 DTG + TAF/FTC\n5. **日後換藥**：不能拿掉 B 肝活性藥，否則 B 肝急性發作"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2：服用 RPV/TAF/FTC 的病人因胃食道逆流開始吃 omeprazole，3 個月後病毒量回升",
+          "text": "1. **病毒量回升** → 先找原因：順從性、交互作用、吸收\n2. **Rilpivirine 禁止併用 PPI**（胃酸降低 → 吸收變差 → 濃度不足）\n3. **後果**：病毒學失敗、可能產生 NNRTI 抗藥\n4. **下一步**：在目前處方上驗抗藥性 → 調整處方；胃食道逆流改其他處理"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3：開始 ART 4 週後病毒量只從 200,000 降到 60,000，6 個月後仍有 3,000 copies/mL",
+          "text": "1. **比對預期**：4 週應至少降 1 log（這裡只降約 0.5 log）、6 個月應 < 50 → **病毒學失敗**\n2. **先確認順從性**（最常見）、交互作用、吸收\n3. **在病人仍服用這個處方時**驗抗藥性基因（停藥後抗藥株會被野生株取代而測不到）；3,000 copies/mL 可以驗\n4. **依結果換成至少含 2 個有效新藥**的處方"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 4：護理師在急診被 HIV 病人用過的抽血針扎到，來源病人沒有吃藥、病毒量很高",
+          "text": "1. **立刻清洗傷口、消毒**\n2. **判斷風險**：空心針、曾在血管內、來源病毒量高 → **高風險暴露**\n3. **儘快（72 小時內，越早越好）開始 PEP**：三種藥、28 天\n4. **抽基準檢驗**：HIV、HBV、HCV；確認自己的 B 肝抗體\n5. **追蹤**：HIV 檢驗與藥物毒性，可在暴露後 4 個月結束"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 5：HIV 合併肺結核，正在用含 rifampin 的抗結核處方，要開始 ART",
+          "text": "1. **時機**：CD4 < 50 → 儘快開始；CD4 ≥ 50 → 抗結核治療 2–8 週後；注意 IRIS\n2. **選 DTG 為主的處方** → rifampin 會誘導代謝 → **DTG 改一天兩次**\n3. **若用加強型 PI** → 抗結核藥改 **rifabutin** 並調整劑量\n4. **追蹤**：病毒量、肝功能（抗結核藥與 ART 都可能傷肝）"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
       "content": [
         {
-          "type": "callout",
-          "style": "logic",
-          "text": "**每題都照這個順序想**：① 該不該現在開始？（伺機性感染 → 結核 / 隱球菌要延後）② 有沒有**禁忌**？（HLA-B5701、B 肝、腎功能、懷孕、精神病史、PPI、rifampin、吸入類固醇）③ 選哪個第一線？④ 追蹤反應是否達標？⑤ 失敗 → 順從性 → **在失敗處方上**做抗藥性檢測 → ≥ 2 個新有效藥"
+          "type": "heading",
+          "text": "NRTI（§NRTI）"
         },
         {
           "type": "collapsible",
-          "summary": "Q1：28 歲男性剛確診 HIV，CD4 650、病毒量 30,000，沒有症狀。他問：「CD4 還很高，可以先不吃藥嗎？」",
-          "text": "**答：不行，應儘快開始 ART。**\n現在的建議是**不論 CD4**，確診就治療——減少疾病進展（包括心血管等非 AIDS 事件）、也讓病毒量降到測不到而**不會傳染伴侶（U = U）**。「CD4 < 350 再治療」是**舊考點**。"
+          "summary": "Q1：Abacavir 是治療人類免疫不全病毒（HIV）的核苷反轉錄酶抑制劑，有些病人服用可能會引起致死性的超敏感性反應，其與下列何者基因相關？（A HLA-B5701 B HLA-B5801 C HLA-B27 D HLA-B46）（FC 108 年）",
+          "text": "**答：(A)。** 用 abacavir 前必驗 HLA-B5701；陽性者禁用。"
+        },
+        {
+          "type": "heading",
+          "text": "NNRTI（§NNRTI 與 PI）"
         },
         {
           "type": "collapsible",
-          "summary": "Q2：病人 HLA-B5701 陽性、B 肝 HBsAg 陽性、腎功能正常。Triumeq（DTG/ABC/3TC）和 Dovato（DTG/3TC）哪個適合？",
-          "text": "**答：兩個都不適合。**\n- **Triumeq 含 abacavir** → HLA-B5701 陽性禁用\n- **Dovato 只有一個 B 肝活性藥（3TC）** → B 肝陽性不能用\n較適合：**Biktarvy（BIC/TAF/FTC）**或 DTG + TAF/FTC——含 **tenofovir + FTC 兩個 B 肝活性藥**。日後換藥時也要記得不能拿掉 B 肝活性藥，否則 B 肝會發作。"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q3：HIV 病人有重度憂鬱與自殺意圖，下列哪個藥最不適合？(A) raltegravir (B) rilpivirine (C) dolutegravir (D) efavirenz",
-          "text": "**答：(D) Efavirenz。**（107 年國考）\nEFV 的招牌副作用是**中樞神經與精神症狀**：頭暈、惡夢、**憂鬱**、情緒不穩。"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q4：服用 RPV/TAF/FTC 的病人因胃食道逆流開始吃 omeprazole，3 個月後病毒量回升。為什麼？",
-          "text": "**答：Rilpivirine 禁止併用 PPI（會使 RPV 失效）→ 病毒學失敗、可能產生 NNRTI 抗藥。**\nRPV **禁止併用 PPI**，而且只適用於治療前病毒量 **< 100,000** 的病人。下一步：確認順從性、**在目前處方上**驗抗藥性、調整處方。"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q5：病人開始 ART 4 週後病毒量只從 200,000 降到 60,000；6 個月後仍有 3,000 copies/mL。怎麼處理？",
-          "text": "**答：病毒學失敗——先確認順從性，再在病人仍服用此處方時做抗藥性基因檢測，依結果換成至少含 2 個新有效藥的處方。**\n- 預期：1–2 個月至少降 **1 log**（這裡 4 週只降約 0.5 log）、**6 個月 < 50**\n- **不要先停藥再驗**（停藥後抗藥株會被野生株取代而測不到）\n- 病毒量 > 500–1,000 才驗得準（3,000 可以驗）"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q6：服用 atazanavir/ritonavir 的病人皮膚眼白變黃，ALT、AST、ALP 正常，間接膽紅素 4.5 mg/dL。怎麼解釋？",
-          "text": "**答：Atazanavir 造成的良性間接膽紅素上升（類似 Gilbert）。**\n肝細胞沒有受損（轉胺酶正常）；若外觀困擾病人可換藥。Indinavir 也有同樣現象。ATV 另外要注意 **PR 延長**與**腎結石**。"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q7：長期服用 AZT、d4T 的老病人出現臉頰凹陷、四肢變細、腹部變大、水牛肩，三酸甘油酯 600 mg/dL。診斷與處理？",
-          "text": "**答：HIV 相關 lipodystrophy 症候群。**\n- **胸腺嘧啶類似物（d4T、AZT）**→ 周邊**脂肪萎縮**最嚴重；PI → 中央堆積、血脂血糖異常\n- 處理：**換掉 AZT、d4T 與造成問題的 PI**；降血脂（考慮交互作用，常用 atorvastatin、gemfibrozil）；40–75 歲一般都建議中強度 statin"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q8：護理師在急診被 HIV 病人用過的抽血針扎到，來源病人沒有吃藥、病毒量很高。該怎麼做？",
-          "text": "**答：**\n1. **立刻清洗傷口、消毒**\n2. **儘快（72 小時內，越早越好）開始 PEP**：**三種藥、4 週（28 天）**\n3. 抽**基準**的 HIV、HBV、HCV 檢驗；確認自己的 B 肝抗體\n4. 追蹤 HIV 檢驗、藥物毒性，72 小時內回診，可在 **4 個月**結束\n這是高風險暴露：**空心針、曾在血管內、來源病毒量高**。"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q9：一位男男性行為者 HIV 陰性，伴侶是 HIV 感染者（已規則服藥、病毒量持續測不到）。他的感染風險？若他還有其他不固定性伴侶，可以提供什麼？",
-          "text": "**答：**\n- 伴侶病毒量持續抑制 → **U = U**，伴侶間性行為不會傳染\n- 有其他不固定性伴侶 → **PrEP**：**TDF/FTC 每天一顆或事件導向**（嚴格服藥 99% 有效），或 **cabotegravir 長效針劑每 2 個月**；搭配保險套、定期 HIV 與性病篩檢"
-        },
-        {
-          "type": "collapsible",
-          "summary": "Q10：HIV 合併肺結核，正在用含 rifampin 的抗結核處方，要開始 DTG 為主的 ART，要注意什麼？如果改用 darunavir/ritonavir 呢？",
-          "text": "**答：**\n- 併用 **rifampin** → **DTG 要改成一天兩次**\n- 用 **PI** 時 → 抗結核藥改用 **rifabutin** 並調整劑量（First Choice：減少與 PI 的交互作用）\n- 時機：CD4 < 50 儘快開始 ART；≥ 50 可在抗結核治療 2–8 週後開始；注意 **IRIS**"
+          "summary": "Q2：40 歲男性感染 HIV，有憂鬱症病史，曾經有自殺意圖，CD4 T 細胞數 50 cells/μL，HIV 病毒量 10,000 copies/mL，下列抗反轉錄病毒藥物，何者最不適合這位病人長期治療？（A raltegravir B rilpivirine C dolutegravir D efavirenz）（FC 107 年）",
+          "text": "**答：(D)。** Efavirenz 的招牌副作用是中樞神經與精神症狀（頭暈、惡夢、憂鬱、情緒不穩）。"
         },
         {
           "type": "heading",
@@ -467,27 +961,87 @@
         },
         {
           "type": "table",
-          "headers": ["藥物", "一句話"],
+          "headers": [
+            "藥物",
+            "一句話"
+          ],
           "rows": [
-            ["**Abacavir**", "**HLA-B5701** 過敏，再給藥可致命"],
-            ["**TDF**", "**腎（近端小管）+ 骨**；TAF 較少"],
-            ["**3TC / FTC / TDF / TAF**", "**同時治 B 肝** → 不可單用、停藥 B 肝發作"],
-            ["**AZT**", "**貧血（MCV↑）**、嗜中性球低下、肌病變（ragged red fibers）"],
-            ["**d4T / ddI**", "**神經病變、胰臟炎、乳酸中毒**、脂肪萎縮（舊藥）"],
-            ["**NRTI 類別**", "**粒線體毒性** → 乳酸中毒、脂肪肝"],
-            ["**Efavirenz**", "**中樞神經 / 精神**、致畸胎疑慮"],
-            ["**Nevirapine**", "**SJS、猛爆性肝炎**"],
-            ["**Rilpivirine**", "**禁 PPI**、病毒量 < 100,000 才用"],
-            ["**Ritonavir / cobicistat**", "**CYP3A4 抑制** → 吸入類固醇 Cushing、statin 肌病變；cobicistat **creatinine 假性上升**"],
-            ["**Atazanavir**", "**間接膽紅素↑**、PR 延長、腎結石"],
-            ["**Indinavir**", "**腎結石**（舊藥）"],
-            ["**PI 類別**", "**血脂、血糖、脂肪重新分布**"],
-            ["**Dolutegravir**", "失眠、頭痛；**rifampin / EFV 時一天兩次**"],
-            ["**Raltegravir**", "**CPK↑、橫紋肌溶解**"],
-            ["**INSTI 類別**", "最有效最安全；**體重增加**"],
-            ["**Enfuvirtide**", "**皮下注射部位反應**、細菌性肺炎"],
-            ["**Maraviroc**", "**只對 CCR5 病毒 → 先做向性檢測**"],
-            ["**Lenacapavir / CAB-LA**", "長效注射（每 6 個月 / 每 1–2 個月）；治療與 PrEP"]
+            [
+              "**Abacavir**",
+              "**HLA-B5701** 過敏，再給藥可致命"
+            ],
+            [
+              "**TDF**",
+              "**腎（近端小管）+ 骨**；TAF 較少"
+            ],
+            [
+              "**3TC / FTC / TDF / TAF**",
+              "**同時治 B 肝** → 不可單用、停藥 B 肝發作"
+            ],
+            [
+              "**AZT**",
+              "**貧血（MCV↑）**、嗜中性球低下、肌病變（ragged red fibers）"
+            ],
+            [
+              "**d4T / ddI**",
+              "**神經病變、胰臟炎、乳酸中毒**、脂肪萎縮（舊藥）"
+            ],
+            [
+              "**NRTI 類別**",
+              "**粒線體毒性** → 乳酸中毒、脂肪肝"
+            ],
+            [
+              "**Efavirenz**",
+              "**中樞神經 / 精神**、致畸胎疑慮"
+            ],
+            [
+              "**Nevirapine**",
+              "**SJS、猛爆性肝炎**"
+            ],
+            [
+              "**Rilpivirine**",
+              "**禁 PPI**、病毒量 < 100,000 才用"
+            ],
+            [
+              "**Ritonavir / cobicistat**",
+              "**CYP3A4 抑制** → 吸入類固醇 Cushing、statin 肌病變；cobicistat **creatinine 假性上升**"
+            ],
+            [
+              "**Atazanavir**",
+              "**間接膽紅素↑**、PR 延長、腎結石"
+            ],
+            [
+              "**Indinavir**",
+              "**腎結石**（舊藥）"
+            ],
+            [
+              "**PI 類別**",
+              "**血脂、血糖、脂肪重新分布**"
+            ],
+            [
+              "**Dolutegravir**",
+              "失眠、頭痛；**rifampin / EFV 時一天兩次**"
+            ],
+            [
+              "**Raltegravir**",
+              "**CPK↑、橫紋肌溶解**"
+            ],
+            [
+              "**INSTI 類別**",
+              "最有效最安全；**體重增加**"
+            ],
+            [
+              "**Enfuvirtide**",
+              "**皮下注射部位反應**、細菌性肺炎"
+            ],
+            [
+              "**Maraviroc**",
+              "**只對 CCR5 病毒 → 先做向性檢測**"
+            ],
+            [
+              "**Lenacapavir / CAB-LA**",
+              "長效注射（每 6 個月 / 每 1–2 個月）；治療與 PrEP"
+            ]
           ]
         }
       ]
