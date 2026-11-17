@@ -1,0 +1,829 @@
+{
+  "id": "fever-exposure-zoonoses",
+  "title": "Fever and Exposure History (發燒與暴露史：人畜共通、蟲媒與旅遊感染)",
+  "title_en": "Fever and Exposure History",
+  "title_zh": "發燒與暴露史：人畜共通、蟲媒與旅遊感染",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.171 Salmonellosis; Ch.189 Leptospirosis; Ch.192 Rickettsial Diseases (含 Q fever); Ch.214 Rabies; Ch.215 Arthropod-Borne and Rodent-Borne Virus Infections; Ch.216 Filovirids; Ch.231 Malaria; Ch.235 Toxoplasma; Ch.236 Protozoal Intestinal Infections",
+    "First Choice 醫學(三) 第3冊 - 己、依細菌分類的感染症（p.227–245）、辛、病毒學（p.286–314）、子、原蟲（p.343–352）、丁（p.203）、其他（p.379–380），本篇共 27 題"
+  ],
+  "generated": "2026-11-18",
+  "updated": "2026-11-18",
+  "related": [
+    {
+      "id": "hiv-opportunistic-infections",
+      "name": "HIV/AIDS (二)：伺機性感染與併發症"
+    },
+    {
+      "id": "diarrhea",
+      "name": "Diarrhea (腹瀉)"
+    },
+    {
+      "id": "infective-endocarditis",
+      "name": "Infective Endocarditis (感染性心內膜炎)"
+    },
+    {
+      "id": "aki-intrinsic",
+      "name": "Acute Kidney Injury (二)：腎因性 AKI 各論"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 27 題｜最常考：恙蟲病、登革熱、吃喝來的腸道感染（傷寒、梨形鞭毛蟲）\n1. **發燒先問 TOCC**：旅遊（Travel）、職業（Occupation）、接觸（Contact）、群聚（Cluster）\n2. **用暴露縮小清單**：淹水、泥土、老鼠 → 鉤端螺旋體、類鼻疽、漢他病毒；草叢、離島 → 恙蟲病；牛羊 → Q 熱；動物咬傷 → 狂犬病；蚊子 → 登革熱、瘧疾；飲食飲水 → 傷寒、梨形鞭毛蟲\n3. **找招牌線索**：焦痂 → 恙蟲病；黃疸 + 急性腎損傷 + 出血 → 鉤端螺旋體；血小板低 + 血比容上升 → 登革熱；發燒 + 貧血 + 脾腫大 → 瘧疾；相對心搏過緩 + 玫瑰疹 → 傷寒\n4. **選藥**：恙蟲病、Q 熱 → doxycycline；重症鉤端螺旋體 → penicillin G；類鼻疽 → ceftazidime 或 carbapenem，再長期口服；登革熱只有支持療法，**避免 aspirin、NSAID**\n5. **預防**：狂犬病暴露後清洗傷口 + 疫苗（± 免疫球蛋白）；出國前吃瘧疾預防藥\n新版來源：Harrison 22e（Ch.171、189、192、214–216、231、235–236）；台灣流行病學依 FC 講義\n註：狂犬病暴露後疫苗的劑數 FC（5 劑）和 Harrison（美國 4 劑）不同，作答照 FC"
+        }
+      ]
+    },
+    {
+      "title": "發燒病人怎麼問暴露史：TOCC 與不明熱　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 診斷傳染病最重要的是**病史與身體檢查**：**TOCC = 旅遊史、職業史、接觸史、群聚**（不含治療用藥史）\n- 不明熱（FUO）分四類：**典型、院內型、嗜中性球低下、HIV 相關**；沒有「社區型」\n- **暴露史決定鑑別清單**，也決定要不要隔離、通報"
+        },
+        {
+          "type": "heading",
+          "text": "暴露 → 病原 → 招牌線索 → 用藥（整篇的地圖）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "暴露",
+            "想到",
+            "招牌線索",
+            "首選藥"
+          ],
+          "rows": [
+            [
+              "草叢、離島（澎湖、蘭嶼）、野外活動",
+              "**恙蟲病**",
+              "**焦痂**、淋巴結腫大、轉胺酶上升",
+              "**doxycycline**"
+            ],
+            [
+              "颱風淹水、清水溝、看到死老鼠",
+              "**鉤端螺旋體病**",
+              "**黃疸 + 急性腎損傷 + 出血**、肌肉痛",
+              "重症 **IV penicillin G**"
+            ],
+            [
+              "颱風後赤腳下田、積水的土壤",
+              "**類鼻疽**",
+              "肺炎、敗血症、皮膚潰瘍",
+              "**ceftazidime 或 carbapenem** → 長期口服"
+            ],
+            [
+              "牛羊生產時的氣溶膠",
+              "**Q 熱**",
+              "類流感、肺炎、肝炎；慢性為心內膜炎",
+              "**doxycycline**"
+            ],
+            [
+              "狗、貓、野生動物咬傷",
+              "**狂犬病**（細菌另想 Pasteurella）",
+              "傷口疼痛、恐水、腦炎",
+              "清洗傷口 + **疫苗** ± 免疫球蛋白"
+            ],
+            [
+              "白天被斑蚊叮咬、東南亞旅遊",
+              "**登革熱**",
+              "後眼窩痛、皮疹、**血小板低、血比容上升**",
+              "支持療法，**不用 NSAID**"
+            ],
+            [
+              "熱帶地區旅遊",
+              "**瘧疾**",
+              "週期性發燒、**貧血、脾腫大**",
+              "依蟲種與抗藥性"
+            ],
+            [
+              "出國、飲食",
+              "**傷寒**、旅行者腹瀉",
+              "持續高燒、相對心搏過緩、白血球低",
+              "ceftriaxone、azithromycin"
+            ],
+            [
+              "露營喝山泉水、出國喝生水",
+              "**梨形鞭毛蟲**",
+              "脂肪便、腹脹、體重減輕、**不發燒**",
+              "**metronidazole**、tinidazole"
+            ],
+            [
+              "貓、未煮熟的肉",
+              "**弓漿蟲**",
+              "頸部淋巴結腫大；孕婦初次感染 → 胎兒",
+              "pyrimethamine + sulfadiazine"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "其他 題目 p.379–380"
+        }
+      ]
+    },
+    {
+      "title": "草叢與離島：恙蟲病與其他立克次體　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 病原 **Orientia tsutsugamushi**，由**恙蟎幼蟲（chigger）**叮咬傳染；**不是鳥、不是蚊子**\n- 台灣：**離島（澎湖、蘭嶼）**、草叢、野外活動\n- 潛伏期 **6–21 天**；發燒、頭痛、肌肉痛；**焦痂**、局部淋巴結腫大、斑丘疹；白血球不高或偏低、轉胺酶上升、血小板可下降\n- 診斷：血清學（IFA；Weil-Felix OX-K）、焦痂或血液 PCR\n- 治療：**doxycycline**（替代：azithromycin、chloramphenicol）；重症 doxycycline + azithromycin\n- 立克次體共同點：**絕對細胞內寄生**、一般血液培養長不出來、節肢動物傳播、感染血管內皮"
+        },
+        {
+          "type": "figure",
+          "src": "figures/fever-exposure-zoonoses/fc-eschar.png",
+          "label": "FC 醫學(三)第3冊 p.386 彩圖（106 年考題）",
+          "caption": "蘭嶼旅遊兩週後發燒：膕窩的焦痂",
+          "explain": "**【怎麼看】**膕窩皮膚上一個圓形病灶，中央是**黑色的結痂**、周圍有一圈紅暈（左下為放大圖）；病人說**不痛**。\n**【考點】**這就是恙蟎幼蟲叮咬處的**焦痂（eschar）**。發燒 + 離島或草叢暴露 + 焦痂 → **恙蟲病** → doxycycline。焦痂常藏在不容易看到的地方，FC 題目一個在膕窩、一個在腋窩，所以發燒病人要**全身檢查皮膚**。"
+        },
+        {
+          "type": "heading",
+          "text": "立克次體與 Q 熱的傳播（FC、Harrison Table 192-1）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "疾病",
+            "病原",
+            "傳播"
+          ],
+          "rows": [
+            [
+              "流行性斑疹傷寒",
+              "R. prowazekii",
+              "**蝨**"
+            ],
+            [
+              "地方性（鼠型）斑疹傷寒",
+              "R. typhi",
+              "**蚤**（糞便）"
+            ],
+            [
+              "洛磯山斑疹熱",
+              "R. rickettsii",
+              "**蜱**"
+            ],
+            [
+              "**恙蟲病**",
+              "**Orientia tsutsugamushi**",
+              "**恙蟎幼蟲（chigger）**"
+            ],
+            [
+              "Q 熱",
+              "Coxiella burnetii（已不歸立克次體）",
+              "**吸入**牛羊生產物的氣溶膠、喝生乳"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他蜱媒傳染：發熱伴血小板減少綜合症（SFTS）",
+          "text": "- 白蛉病毒科（Phenuiviridae）；主要由**蜱**傳播，也可經接觸病患血液、體液\n- 第一週發燒、**血小板與白血球減少**，可有腸胃症狀與出血傾向；第二週可能多重器官衰竭或 DIC；死亡率 5–15%（FC 講義）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己、依細菌分類的感染症 VII 立克次體 講義 p.242–243、題目 p.244–245"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1454–1460（Ch.192 Rickettsial Diseases：恙蟲病 p.1460）"
+        }
+      ]
+    },
+    {
+      "title": "水、土與老鼠：鉤端螺旋體病、類鼻疽、漢他病毒　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **鉤端螺旋體病**：老鼠尿液汙染水和土壤 → 皮膚黏膜傷口接觸；**颱風淹水後**、清水溝、農民\n- 重症 **Weil 症候群：黃疸 + 急性腎損傷 + 出血**；肺出血是重症表現\n- 治療：**重症 IV penicillin G**（替代 ceftriaxone）；輕症 doxycycline 或 amoxicillin；**對 vancomycin 無效**\n- **類鼻疽**：颱風後赤腳下田、傷口接觸積水；**不是人傳人**\n- 類鼻疽最常見表現是**急性社區型肺炎**；**血液或痰液培養**診斷\n- 類鼻疽治療：**ceftazidime 或 carbapenem** 2–4 週 → **長期口服維持**；療程短**容易復發**\n- 漢他病毒：囓齒類排泄物；亞洲、歐洲為**腎症候性出血熱**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "鉤端螺旋體病",
+            "類鼻疽",
+            "漢他病毒"
+          ],
+          "rows": [
+            [
+              "病原",
+              "Leptospira interrogans（螺旋體）",
+              "Burkholderia pseudomallei（革蘭氏陰性桿菌）",
+              "布尼亞病毒目，RNA 病毒"
+            ],
+            [
+              "來源",
+              "**老鼠慢性帶菌、尿液汙染水和土壤**",
+              "**積水的土壤和水**",
+              "**囓齒類排泄物**"
+            ],
+            [
+              "台灣情境",
+              "颱風淹水後、農民、清水溝",
+              "颱風後**赤腳下田**、傷口接觸汙水",
+              "有囓齒類暴露史"
+            ],
+            [
+              "表現",
+              "輕：類流感；重：**Weil 症候群（黃疸 + 急性腎損傷 + 出血）**、肺出血",
+              "無症狀到**肺炎（最常見）**、皮膚潰瘍、敗血症",
+              "亞洲、歐洲：**腎症候性出血熱**（發燒、血小板低、急性腎損傷）；美洲：肺症候群"
+            ],
+            [
+              "診斷",
+              "血清學、PCR",
+              "**血液、痰液培養**（培養出來要通報）",
+              "血清學"
+            ],
+            [
+              "治療",
+              "**重症 IV penicillin G**（或 ceftriaxone）；輕症 doxycycline、amoxicillin",
+              "**ceftazidime 或 carbapenem 2–4 週** → **口服維持約 20 週**",
+              "支持療法（ribavirin 證據不強）"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己、依細菌分類的感染症 講義 p.227、237–239；題目 p.232–233、240–241；辛、病毒學 講義 p.311"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1439–1444（Ch.189 Leptospirosis：Weil 症候群 p.1442、治療 p.1443–1444）"
+        }
+      ]
+    },
+    {
+      "title": "牛羊與動物咬傷：Q 熱、狂犬病　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Q 熱（Coxiella burnetii）**：吸入**牛羊生產時**汙染的**氣溶膠**（也可喝生乳）；**人傳人很少**\n- 急性 Q 熱：潛伏 3–30 天；類流感、**肺炎、肝炎**；**年長者比 15 歲以下容易有症狀**；紅疹少（4–18%）也不能拿來診斷\n- **慢性 Q 熱**（1–5%）：**心內膜炎**（培養陰性）、血管感染；高風險是**瓣膜疾病、人工瓣膜、動脈瘤**\n- Q 熱治療：急性 **doxycycline 14 天**；慢性 doxycycline + hydroxychloroquine ≥ 18 個月\n- **狂犬病**：被咬後**立刻用肥皂和水徹底清洗傷口**；沒打過疫苗 → **狂犬病免疫球蛋白**（打在傷口周圍）+ 疫苗\n- 疫苗劑程：FC 108 年 **第 0、3、7、14、28 天共 5 劑**；Harrison（美國）4 劑；曾完整接種者只補第 0、3 天 2 劑、不給免疫球蛋白\n- 健康的狗、貓可隔離**觀察 10 天**\n- 病毒沿周邊神經**慢慢**進入中樞 → **暴露後再打疫苗也來得及**；出現神經症狀後幾乎都死亡"
+        },
+        {
+          "type": "heading",
+          "text": "Q 熱：急性 vs 慢性（Harrison）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "急性 Q 熱",
+            "慢性 Q 熱"
+          ],
+          "rows": [
+            [
+              "表現",
+              "發燒、極度倦怠、頭痛（常在眼窩後）；**肺炎或肝炎**；白血球多正常、約 1/4 血小板低",
+              "**心內膜炎**（瓣膜上的結節、主動脈根部膿瘍）、感染的動脈瘤或人工血管；可不發燒"
+            ],
+            [
+              "誰會得",
+              "吸入氣溶膠的人；年長者較常有症狀",
+              "**瓣膜疾病、瓣膜手術、動脈瘤、人工血管**、免疫低下、腎功能不全"
+            ],
+            [
+              "診斷",
+              "**phase II IgG** 四倍上升；早期血液 PCR",
+              "**phase I IgG** 很高 + 臨床與影像；**培養陰性心內膜炎都要想到**"
+            ],
+            [
+              "治療",
+              "doxycycline 14 天（孕婦用 TMP-SMX）",
+              "doxycycline + hydroxychloroquine ≥ 18 個月（人工材質 24 個月）"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：貓狗咬傷與貓抓病（FC 講義）",
+          "text": "- **貓狗咬傷 → Pasteurella multocida**：傷口很快紅腫痛，也可造成骨頭關節感染與敗血症 → **amoxicillin/clavulanate**、cefuroxime 或 doxycycline\n- **貓抓病 → Bartonella henselae**：年輕人、被貓抓後傷口附近**淋巴結腫大**；大多自行痊癒，嚴重者 azithromycin 或 doxycycline\n- 免疫低下（AIDS）的 Bartonella → 桿菌性血管瘤病（見〈HIV（二）〉）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：狂犬病的臨床表現（FC 講義、Harrison Table 214-1）",
+          "text": "- 潛伏期多為 **20–90 天**\n- 前驅期：發燒、倦怠、噁心，**咬傷處感覺異常、疼痛或癢**\n- **腦炎型（狂躁型）**：喉部肌肉痙攣 → **恐水**、躁動，進展到呼吸衰竭\n- **麻痺型**：從被咬的肢體開始無力，往上延伸\n- 出現中樞神經症狀後沒有特效治療 → **預防重於治療**"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 VII 立克次體 講義 p.243、題目 p.243–244；辛、病毒學 講義 p.309–310、題目 p.313；己 IV 人畜共通 講義 p.237"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1462–1464（Ch.192 Q fever）；1654–1655（Ch.214 Rabies：暴露後預防）"
+        }
+      ]
+    },
+    {
+      "title": "蚊子：登革熱與其他蟲媒病毒　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 登革熱：**埃及斑蚊、白線斑蚊**，在住家附近、**白天叮咬**；4 種血清型，**感染一型不能保護其他型**，再感染不同型 → 重症\n- 症狀：高燒、頭痛、**後眼窩痛**、肌肉關節痛、皮疹；**白血球、血小板下降**、轉胺酶上升\n- **2009 WHO 分類**：沒有警示徵象 / **有警示徵象**（腹痛、持續嘔吐、體液蓄積、黏膜出血、嗜睡躁動、肝腫大、**血比容上升伴血小板快速下降**）/ **重症**（血漿滲漏致休克或呼吸衰竭、嚴重出血、器官衰竭）\n- 舊稱的登革出血熱：血漿滲漏 → **血比容上升**，不是下降\n- 病程：發燒期 → **危險期（第 3–7 天，血漿滲漏）** → 恢復期\n- 診斷：**NS1 抗原**、PCR、IgM 或 IgG\n- 治療：支持療法、acetaminophen 退燒，**避免 aspirin、NSAID**（出血）\n- **西尼羅病毒**：**家蚊**傳播，**鳥類是主要宿主**（不是媒介）；80% 無症狀；重症是腦炎、腦膜炎"
+        },
+        {
+          "type": "figure",
+          "src": "figures/fever-exposure-zoonoses/fc-dengue-rash.png",
+          "label": "FC 醫學(三)第3冊 p.386 彩圖（103 年考題）",
+          "caption": "印尼旅遊回來發燒五天：下肢皮疹",
+          "explain": "**【怎麼看】**兩側小腿**大片瀰漫性的紅疹**，紅色背景中散著幾塊**淡色、近正常膚色的小區塊**；沒有水泡、沒有焦痂。\n**【考點】**東南亞旅遊 + 發燒 + 後眼窩痛、肌肉痛 + 這種皮疹 + **白血球與血小板低、血比容偏高** → **登革熱**。"
+        },
+        {
+          "type": "heading",
+          "text": "斑蚊傳播的三種病毒（FC 整理）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "登革熱",
+            "茲卡",
+            "屈公病"
+          ],
+          "rows": [
+            [
+              "病毒",
+              "黃病毒（Flavivirus）",
+              "黃病毒",
+              "Alphavirus"
+            ],
+            [
+              "媒介",
+              "**埃及斑蚊、白線斑蚊**",
+              "同左",
+              "同左"
+            ],
+            [
+              "症狀",
+              "發燒、皮疹、關節痛；**出血傾向、重症**",
+              "發燒、皮疹，少有重症",
+              "發燒、**關節痛**，少有重症"
+            ],
+            [
+              "重點",
+              "**不同型別再感染 → 重症**",
+              "**孕婦 → 胎兒小頭症**；可經輸血、性行為傳染；GBS",
+              "**易留慢性關節炎**"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：登革熱的病程與診斷細節（FC 講義）",
+          "text": "- 發病前 1 天到發病後約 5 天血中有病毒 → 這時被蚊子叮，病毒在蚊子體內 8–12 天後才有傳染力\n- **發燒期**：高燒（馬鞍型熱）、白血球與血小板低、肝功能上升\n- **危險期**（第 3–7 天）：嚴重出血、嚴重血漿滲漏，通常持續 1–2 天\n- **恢復期**：退燒後 1–2 天起疹，持續 1–5 天\n- 確診：分離出病毒、核酸陽性、**NS1 抗原陽性**、IgM 或 IgG 陽性或成對血清 4 倍上升\n- 止血帶試驗：壓脈帶加壓到收縮壓與舒張壓中間 5 分鐘，看是否出現超過 20 個瘀點"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他蚊媒腦炎",
+          "text": "- **日本腦炎**、西尼羅病毒：**家蚊（Culex）**\n- 西尼羅病毒也可經輸血傳染；患者被叮後 2–14 天發燒"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "辛、病毒學 III 蟲媒病毒 講義 p.286–289、題目 p.289–290、314"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1655–1679（Ch.215 Arthropod-Borne and Rodent-Borne Virus Infections）"
+        }
+      ]
+    },
+    {
+      "title": "出國回來發燒：瘧疾與病毒性出血熱　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 瘧疾三大症狀：**發燒、貧血、脾腫大**；**詳細問旅遊史**是診斷關鍵，潛伏期約 2 週；**發燒時抹血片**鏡檢\n- 台灣 1965 年被 WHO 認證為瘧疾根除區 → 現在多為境外移入\n- **惡性瘧最嚴重**：腦性瘧、**黑水熱**（大量溶血、血紅素尿、急性腎衰竭）、低血糖；常有抗藥性\n- **間日瘧、卵形瘧有肝內隱眠體 → 會復發** → chloroquine 之後加 **primaquine**\n- 治療：chloroquine 敏感 → chloroquine；抗藥惡性瘧 → quinine + doxycycline、atovaquone-proguanil、mefloquine、artemisinin 類\n- **預防藥**：chloroquine（敏感地區）、mefloquine、**atovaquone-proguanil（Malarone）**、**doxycycline**；**quinine 是治療藥，不是預防藥**\n- 病毒性出血熱：**伊波拉死亡率最高**（FC 50–90%；Harrison：2013–2016 西非疫情 44.6%），在**非洲**；接觸病人**體液**傳染\n- 地理分布：西尼羅（北美洲）、日本腦炎與登革熱（東南亞）、伊波拉（**非洲**）"
+        },
+        {
+          "type": "heading",
+          "text": "四種瘧原蟲（FC 整理）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "惡性瘧（P. falciparum）",
+            "間日瘧（P. vivax）",
+            "卵形瘧（P. ovale）",
+            "三日瘧（P. malariae）"
+          ],
+          "rows": [
+            [
+              "發燒週期",
+              "36–48 小時（不規則）",
+              "48 小時",
+              "48 小時",
+              "72 小時"
+            ],
+            [
+              "喜歡的紅血球",
+              "各年齡",
+              "**年輕紅血球**（網狀紅血球）",
+              "年輕紅血球",
+              "老的紅血球"
+            ],
+            [
+              "復發",
+              "治癒後少再發",
+              "**會復發（肝內隱眠體）**",
+              "**會復發（隱眠體）**",
+              "少再發"
+            ],
+            [
+              "嚴重度",
+              "**最嚴重**：腦性瘧、黑水熱、低血糖、乳酸中毒、腎衰竭",
+              "較輕",
+              "較輕",
+              "較輕"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他出血熱（FC 講義）",
+          "text": "- **馬堡病毒**：果蝠；高燒、紅疹、嚴重腹瀉，之後出血；死亡率 24–88%\n- **拉薩熱**：接觸囓齒類排泄物；80% 無症狀；懷孕末期感染特別嚴重；25% 痊癒者耳聾\n- 伊波拉與馬堡：沒有特效治療，**接觸隔離**"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "子、原蟲 II 孢子蟲綱 講義 p.344–348、題目 p.352；辛、病毒學 講義 p.310–311、題目 p.314"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1681（Ch.216 Filovirids：致死率）；1760–1773（Ch.231 Malaria）"
+        }
+      ]
+    },
+    {
+      "title": "吃喝來的：傷寒、旅行者腹瀉與梨形鞭毛蟲　★ 6 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **傷寒**：持續高燒，**腹瀉血便不是主要表現**；**白血球下降、肝功能異常、脾腫大**；相對心搏過緩、玫瑰疹\n- 傷寒培養：第 1 週血液、骨髓；**用過抗生素後骨髓培養最敏感**（Harrison：約 80%，5 天內的抗生素不影響）\n- 傷寒**一定要治療**；**FQ 已有抗藥** → ceftriaxone、azithromycin\n- **非傷寒沙門氏菌腸胃炎：一般不給抗生素**\n- 出國腹瀉**合併敗血症** → 想 **Salmonella**\n- 食物中毒：**S. aureus、Bacillus cereus（嘔吐型）**毒素已在食物裡 → 潛伏期最短（1–6 小時）；**Shigella、阿米巴、梨形鞭毛蟲**感染劑量極低，**Shigella 也會人傳人**；**霍亂**腸毒素 → 米湯樣水瀉、糞便幾乎沒有白血球\n- **梨形鞭毛蟲**：露營、旅遊喝到被汙染的水 → **脂肪便、腹脹、體重減輕、不發燒**；FC 題目病人有**低丙種球蛋白血症**\n- 梨形鞭毛蟲的**囊體對氯消毒有抵抗力** → 水要**煮沸或過濾**；治療 **metronidazole、tinidazole**（替代 nitazoxanide）"
+        },
+        {
+          "type": "heading",
+          "text": "傷寒 vs 非傷寒沙門氏菌（FC 講義、Harrison）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "傷寒（S. Typhi）",
+            "非傷寒沙門氏菌"
+          ],
+          "rows": [
+            [
+              "表現",
+              "持續高燒、頭痛、腹部不適；**相對心搏過緩**、**玫瑰疹**（第 1 週，2–5 天消失）；白血球下降、肝功能異常、脾腫大；第 3–4 週可腸出血穿孔",
+              "**腸胃炎**（腹瀉），自限性"
+            ],
+            [
+              "檢驗",
+              "第 1 週**血液、骨髓培養**陽性率高；第 3 週糞便培養；**用過抗生素 → 骨髓培養最敏感**；Widal 不敏感",
+              "糞便培養"
+            ],
+            [
+              "治療",
+              "**一定要治療**；FQ 已有抗藥（南亞、東南亞）→ **ceftriaxone、azithromycin**",
+              "**一般不給抗生素**；嬰兒、老人、免疫低下者例外"
+            ],
+            [
+              "通報",
+              "**第二類法定傳染病**（24 小時內）",
+              "不須通報"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：細菌性腸胃炎、旅行者腹瀉的其他細節",
+          "text": "- 有發燒和血便的旅行者腹瀉、發燒且糞便很多白血球 → 需要抗生素\n- Campylobacter：吃未煮熟的肉；3–5 天自行痊癒；可併發 Guillain-Barré 症候群、反應性關節炎\n- 腸炎弧菌（V. parahaemolyticus）：生食海鮮 → 腹痛腹瀉\n- 霍亂弧菌：需要大量細菌才致病；毒素使 cAMP 上升 → 米湯樣腹瀉\n- 更多腹瀉的鑑別見〈腹瀉〉"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 IV 革蘭氏陰性桿菌 講義 p.227、230–231、題目 p.232–233；丁、泌尿道感染 題目 p.203；子、原蟲 III 鞭毛蟲綱 講義 p.349、題目 p.350、352"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1316–1320（Ch.171 Salmonellosis）；1804–1805（Ch.236 Giardiasis）"
+        }
+      ]
+    },
+    {
+      "title": "貓與生肉：弓漿蟲　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **貓是終宿主**；人吃到**貓糞中的卵囊**或**未煮熟的肉（豬、羊）中的囊體**而感染；也可經胎盤、輸血、器官移植\n- 免疫正常：**大多沒有症狀**；有症狀最常見**頸部淋巴結腫大**（像單核球增多症），也可有視網膜脈絡膜炎\n- **先天性感染：孕婦在懷孕中「初次」感染**才會傳給胎兒；第一孕期感染最嚴重（水腦等中樞神經異常）\n- 免疫低下（AIDS）：潛伏感染再活化 → **弓漿蟲腦炎**（見〈HIV（二）〉）\n- 治療：**pyrimethamine + sulfadiazine**（替代 clindamycin + pyrimethamine）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "子、原蟲 II 孢子蟲綱 講義 p.348–349、題目 p.352"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1797–1798（Ch.235 Toxoplasma Infections）"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        "以下用本篇的 **FC 原題**示範推理順序（題目在〈考題練習〉，這裡只拆解思考步驟）。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 106 年）：22 歲女性發燒頭痛一週、淡淡紅疹，兩週前去蘭嶼，膕窩有黑色結痂",
+          "text": "1. **發燒 + 皮疹 → 先問 TOCC**：兩週前**蘭嶼**旅遊（離島、野外）\n2. **時間吻合**：恙蟲病潛伏期 6–21 天\n3. **招牌線索**：膕窩**無痛的黑色焦痂** → **恙蟲病**\n4. **支持**：轉胺酶上升；胸部 X 光、腹部超音波、尿液都正常\n5. **鑑別**：藥物過敏、水痘、麻疹都沒有焦痂\n6. **治療**：doxycycline"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 105 年）：八八水災淹水十天後，50 歲男性高燒、肌肉痛、黃疸、肌酸酐 3.2",
+          "text": "1. **TOCC**：大淹水後 → 想**鉤端螺旋體**、類鼻疽\n2. **招牌線索**：**黃疸（膽紅素 4.1）+ 急性腎損傷（Cr 3.2）** + 肌肉痛、白血球上升、血小板偏低 → **Weil 症候群**\n3. **治療**：**IV penicillin G**（替代 ceftriaxone）；vancomycin 無效\n4. **對比類鼻疽**：多為肺炎、敗血症，用 ceftazidime 或 carbapenem，之後長期口服"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 103 年）：35 歲男性印尼回來 3 天後發燒五天、後眼窩痛、下肢紅疹，白血球 2,350、血小板 43,000",
+          "text": "1. **TOCC**：東南亞旅遊回來發燒 → 登革熱、瘧疾、傷寒、恙蟲病\n2. **招牌線索**：**後眼窩痛 + 肌肉痛 + 皮疹 + 白血球與血小板低 + 血比容偏高（49%）** → **登革熱**\n3. **嚴重度**：血比容上升伴血小板快速下降 → **警示徵象**（血漿滲漏）→ 密切監測、輸液\n4. **處置**：驗 NS1、PCR；退燒用 acetaminophen，**不用 aspirin、NSAID**\n5. **出國回來發燒都要想到瘧疾** → 必要時抹血片"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "TOCC 與不明熱（§暴露史）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：詳細的詢問病史及身體診查，是診斷傳染性疾病最重要的一環，下列何者不是常用口訣 TOCC 中的一項？（A 治療用藥史 B 職業史 C 接觸史 D 群聚現象）（FC 103 年）",
+          "text": "**答：(A)。** FC 詳解：TOCC = Travel、Occupation、Contact、Cluster。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：下列有關不明熱（fever of unknown origin）的分類，何者錯誤？（A 院內型的不明熱 B 社區型的不明熱 C 愛滋病毒相關的不明熱 D 嗜中性白血球低下的不明熱）（FC 106 年）",
+          "text": "**答：(B)。** 不明熱分為典型、院內型、嗜中性球低下、HIV 相關四類。"
+        },
+        {
+          "type": "heading",
+          "text": "恙蟲病（§草叢與離島）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：22 歲女性因發燒及頭痛一週就醫，最近兩天全身有淡淡紅疹，兩週前曾至蘭嶼旅遊三天。理學檢查在膕窩有一黑色結痂病灶、無觸痛（見〈恙蟲病〉段的 FC 彩圖）。白血球 9,800/mm³（Band 16%、Seg 35%、Mono 9%、Lymph 40%），血紅素 13.2 g/dL，血小板 195,000/mm³，GOT/GPT 154/180 IU/L；胸部 X 光、腹部超音波、尿液檢驗皆無異常。此病人最可能之診斷？（A scrub typhus B drug allergy C chickenpox D measles）（FC 106 年）",
+          "text": "**答：(A)。** 離島旅遊 + 潛伏期吻合 + 焦痂。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：下列有關恙蟲病（scrub typhus）之敘述，何者錯誤？（A 病原為 Orientia tsutsugamushi B 傳播媒介是鳥 C 潛伏期為 6~21 天 D 最佳治療藥物是 tetracycline 類藥物）（FC 105 年）",
+          "text": "**答：(B)。** 傳播媒介是恙蟎幼蟲（chigger）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：25 歲男性平日身體健康、喜歡野外旅遊，10 天前剛從澎湖旅遊回到臺中，2 天前開始發燒、倦怠及頭痛，診所開感冒藥未退燒。到醫院檢查白血球 3,600/μL、AST 120 IU/L、ALT 80 IU/L，右側腋窩附近有一焦痂（eschar）。最有可能的致病原為何？（A Orientia tsutsugamushi B Hantavirus C Burkholderia pseudomallei D Coxiella burnetii）（FC 104 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：承上題，此時下列何者為最適當之抗微生物製劑選擇？（A oxacillin B ampicillin C vancomycin D doxycycline）（FC 104 年）",
+          "text": "**答：(D)。** 立克次體是細胞內菌，要用 doxycycline 這類能進入細胞的抗生素。"
+        },
+        {
+          "type": "heading",
+          "text": "鉤端螺旋體病與類鼻疽（§水、土與老鼠）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：35 歲男性家住山上，在颱風之後清掃自家附近水溝，當時注意到有很多死老鼠，一週後因黃疸、茶色尿及發高燒被送到急診。最可能的致病菌是：（A 鉤端螺旋體 B 腸病毒 C 流感病毒 D 登革熱病毒）（FC 107 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：八八水災造成屏東低窪地區嚴重淹水，十天後該地區一位 50 歲男性發生急性高燒 38.5°C、頭痛、肌肉酸痛，白血球 17,000/μL、血小板 120,000/μL、GOT 150 U/L、GPT 162 U/L、總膽紅素 4.1 mg/dL、血清肌酸酐 3.2 mg/dL。下列何種抗生素為最適當之治療選擇？（A amikacin B ciprofloxacin C crystal penicillin G D vancomycin）（FC 105 年）",
+          "text": "**答：(C)。** 淹水後的鉤端螺旋體病合併黃疸與急性腎損傷（Weil 症候群）；重症用 IV penicillin G，鉤端螺旋體對 vancomycin 無效。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：關於類鼻疽（melioidosis），下列敘述何者正確？（A 通常是由人與人互相傳播而造成感染 B 病人在急性肺炎感染時，可以由血液或痰的培養來診斷疾病 C 首選抗生素是 cefazolin（第一代頭孢子素） D 使用有效的抗生素 2 週可治癒）（FC 108 年）",
+          "text": "**答：(B)。** 類鼻疽從土壤與水感染，不是人傳人；用 ceftazidime 或 carbapenem，急性期後還要長期口服維持。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：下列有關類鼻疽（melioidosis）之敘述，何者錯誤？（A 致病菌為 Burkholderia pseudomallei B 最常見臨床表現為急性社區型肺炎 C 最佳治療選擇為 ceftazidime 或 carbapenems 等後線抗生素 D 療程約 4 週內，復發率低）（FC 106 年）",
+          "text": "**答：(D)。** 急性期 2–4 週後還要口服維持約 20 週，療程不夠容易復發。"
+        },
+        {
+          "type": "heading",
+          "text": "Q 熱與狂犬病（§牛羊與動物咬傷）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：下列有關 Q 熱（Q fever）的敘述，何者正確？（A 相同的暴露風險下，小於 15 歲的年輕人相對於年長者有症狀的感染是較常見的 B 人傳人是常見的傳播途徑 C 急性感染常表現為心內膜炎 D 宿主可經由吸入霧化空氣（aerosol）中的 Q 熱細菌而感染）（FC 111 年）",
+          "text": "**答：(D)。** FC 詳解：(A) 年長者較容易出現症狀性感染，15 歲以下多為無症狀；(B) 主要經吸入受汙染的氣溶膠傳播；(C) 心內膜炎是**慢性** Q 熱的典型表現。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：下列有關 Q 熱感染（Q fever）的病因與表現的敘述，何者正確？（A 在臺灣的個案以境外移入為主 B 皮膚發現紅疹可以做為感染 Q 熱診斷依據 C 在原有瓣膜疾病問題的病患，可能導致心內膜炎 D 是急性感染症，不會造成慢性感染）（FC 108 年）",
+          "text": "**答：(C)。** 瓣膜疾病是慢性 Q 熱心內膜炎的危險因子；紅疹只有 4–18% 且不具特異性。FC 沒有附詳解。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：下列「狂犬病暴露後的疫苗注射」及建議時間，何者正確？（A 第 0、3、7、14、28 天，共 5 次 B 第 0、7、14、28 天，共 4 次 C 第 0、7、28 天，共 3 次 D 第 0、14、28 天，共 3 次）（FC 108 年）",
+          "text": "**答：(A)。** FC 講義：暴露後打 5 劑。Harrison 寫美國用 4 劑；作答照 FC。"
+        },
+        {
+          "type": "heading",
+          "text": "登革熱與蟲媒病毒（§蚊子）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：下列何者不是登革出血熱的臨床表現？（A 發燒 B 點狀出血、紫斑 C 血小板下降（thrombocytopenia） D 血比容下降 20% 以上）（FC 107 年）",
+          "text": "**答：(D)。** 血漿滲漏 → 血比容**上升**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：下列關於登革熱（dengue fever）的敘述，何者錯誤？（A 登革病毒的主要傳播媒介埃及斑蚊分布在住家附近，且在白天叮咬人類 B 登革病毒分四個血清型，感染其中一型可對四種血清型病毒終身免疫 C 若先前曾經感染某一血清型登革病毒，後來再感染另一種血清型，則可能發生出血性登革熱或登革休克症候群 D 登革熱的典型症狀包含發燒、頭痛、眼窩後痛、背痛、嚴重肌肉疼痛及皮疹）（FC 104 年）",
+          "text": "**答：(B)。** 感染一型的抗體不能對抗其他型，再感染不同型反而可能變重症。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：35 歲男性主訴發燒五天，發病前三天從印尼旅遊一週回來，其他症狀包括眼窩後酸痛、背部肌肉酸痛、食慾減退、軟便及下肢和腹部紅疹（見〈蚊子〉段的 FC 彩圖）。血壓 130/85 mmHg、額溫 38.9°C、脈搏 88/分、呼吸 18/分；白血球 2,350/mm³、血球容積比 49%、血小板 43,000/mm³、GOT/GPT 84/67 U/L。病人最可能是哪種感染症？（A 流行性感冒 B 梅毒 C 登革熱 D 肺炎黴漿菌感染）（FC 103 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q17：下列各項有關西尼羅病毒感染（West Nile virus infection）之敘述，何者最不適當？（A 鳥類是主要的傳染媒介（vector） B 大部分受感染者為無症狀的感染 C 其嚴重併發症為腦炎及腦膜炎之神經侵襲性疾病 D 偶會合併嚴重致死性肝炎）（FC 106 年）",
+          "text": "**答：(A)。** 媒介是家蚊；鳥類是主要宿主，人是意外宿主。"
+        },
+        {
+          "type": "heading",
+          "text": "瘧疾與出血熱（§出國回來發燒）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q18：下列何者不是瘧疾預防性藥物？（A chloroquine B doxycycline C Malarone（atovaquone/proguanil） D quinine）（FC 103 年）",
+          "text": "**答：(D)。** Quinine 用於治療抗 chloroquine 的惡性瘧，不用來預防。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q19：病毒性出血熱可能隨著國際旅遊而傳播，下列何者死亡率最高？（A Hantavirus B Ebola virus C Dengue virus D Yellow fever）（FC 105 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q20：下列關於病毒性傳染病的主要地理分布，何者錯誤？（A 北美洲的 West Nile encephalitis B 東南亞的 Japanese encephalitis C 東南亞的 dengue fever D 南美洲的 Ebola virus infection）（FC 103 年）",
+          "text": "**答：(D)。** 伊波拉在非洲。"
+        },
+        {
+          "type": "heading",
+          "text": "傷寒、腸道感染與梨形鞭毛蟲（§吃喝來的）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q21：下列有關傷寒（typhoid fever）的敘述，何者最正確？（A 常見有多天的發燒、腹瀉及血便為主要的表現 B 病人可能有白血球下降、肝功能異常及脾腫大 C 使用抗生素後，最容易培養出細菌的方法是糞便培養 D Salmonella typhi 菌株對於 fluoroquinolone 類抗生素沒有抗藥性的產生）（FC 112 年）",
+          "text": "**答：(B)。** FC 詳解：(A) 傷寒典型是持續高燒，腹瀉血便是非傷寒沙門氏菌的表現；(C) 用過抗生素後骨髓培養最敏感；(D) S. Typhi 已出現 FQ 抗藥，尤其南亞與東南亞。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q22：62 歲商人出差到國外，因水土不服腹瀉很厲害，到當地醫院就醫，醫師診斷他是感染性腹瀉而且有敗血症的現象，下列哪一種細菌最有可能造成此病況？（A Campylobacter species B Salmonella species C Yersinia enterocolitica D Aeromonas hydrophila）（FC 107 年）",
+          "text": "**答：(B)。** FC 沒有附詳解。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q23：26 歲男性發生腸道感染，下列何種情形不須使用抗微生物製劑治療？（A nontyphoidal salmonellosis B giardiasis C 有發燒和血便現象之 traveler's diarrhea D 病人有發燒及糞便中很多白血球）（FC 105 年）",
+          "text": "**答：(A)。** 非傷寒沙門氏菌腸胃炎是自限性，一般不給抗生素。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q24：關於細菌性食物中毒與旅行者腹瀉（traveler's diarrhea）的敘述，下列何者錯誤？（A 潛伏期最短的致病菌是 Staphylococcus aureus 和 Bacillus cereus B Shigella spp. 只能藉由汙染的飲水和食物傳播，不會由人對人直接傳染 C Shigella spp.、Entamoeba histolytica、Giardia lamblia 引起疾病所需感染劑量遠低於 Vibrio cholerae D Vibrio cholerae 所致的腹瀉係因產生 enterotoxin，糞便中鮮少或不會出現白血球）（FC 112 年）",
+          "text": "**答：(B)。** FC 詳解：Shigella 除了經汙染的食物和水，也能經人與人接觸傳染；S. aureus 和 B. cereus（嘔吐型）的毒素已先在食物中產生，潛伏期約 1–6 小時；Shigella 只需十幾到數百個菌、Giardia 約 10 個囊體，霍亂弧菌則需要大量細菌；霍亂糞便呈米湯樣、幾乎沒有白血球。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q25：20 歲男性自兒童時期被診斷有 hypogammaglobulinemia，需要定期輸注免疫球蛋白。近期與同學到山區露營，返家 5 天後出現日趨嚴重的腹瀉、腹脹、噁心、嘔吐和體重降低，止瀉藥和 ciprofloxacin 都沒有改善。整個病程沒有發燒，糞便潛血陰性，細菌培養沒有長出腸道致病菌，糞便鏡檢 400 倍下看到會移動的寄生原蟲。下列敘述何者正確？（A 最有可能的致病原是 Giardia lamblia B 針對此感染最好的治療是 azithromycin C 預防此感染原的最好方法是飲用經氯消毒處理的水 D 治癒後很常出現 Guillain-Barré syndrome 併發症）（FC 111 年）",
+          "text": "**答：(A)。** FC 詳解：(B) 首選 metronidazole 或 tinidazole；(C) 囊體對氯有一定抵抗力，最好煮沸或用能濾除囊體的濾水器；(D) 梨形鞭毛蟲感染後很少引發 Guillain-Barré 症候群。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q26：杜先生 26 歲，自俄羅斯遊學 1 個月返國後，持續 6 週腹部絞痛、打嗝、過度排氣及水瀉，這段期間沒有發燒，但體重減輕 5 公斤。最可能的致病原？（A enterotoxigenic E. coli B Giardia lamblia C Salmonella enteritidis D Shigella sonnei）（FC 103 年）",
+          "text": "**答：(B)。** 慢性、沒有發燒、吸收不良與體重減輕。"
+        },
+        {
+          "type": "heading",
+          "text": "弓漿蟲（§貓與生肉）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q27：下列各項有關弓形蟲感染症（Toxoplasma infection）之敘述，何者最不適當？（A 可經由食入、輸血或接受器官移植而感染 B 免疫功能正常的人感染弓漿蟲通常沒有症狀 C 免疫功能正常成人有症狀之急性弓形蟲感染，主要臨床表現為頸部淋巴病變 D 先天性弓形蟲感染大多是孕婦懷孕過程中再次感染所引發）（FC 103 年）",
+          "text": "**答：(D)。** FC 詳解：孕期**初次**感染弓漿蟲才會造成先天性感染。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "TOCC",
+              "旅遊、職業、接觸、群聚"
+            ],
+            [
+              "不明熱分類",
+              "典型、院內型、嗜中性球低下、HIV 相關（沒有社區型）"
+            ],
+            [
+              "恙蟲病",
+              "恙蟎幼蟲；離島草叢；6–21 天；焦痂；doxycycline"
+            ],
+            [
+              "鉤端螺旋體",
+              "鼠尿汙染水土；淹水；Weil = 黃疸 + 急性腎損傷 + 出血；penicillin G"
+            ],
+            [
+              "類鼻疽",
+              "積水土壤、赤腳下田；肺炎最常見；血液或痰液培養；ceftazidime → 長期口服；不是人傳人"
+            ],
+            [
+              "Q 熱",
+              "吸入牛羊生產氣溶膠；年長者較有症狀；慢性 = 心內膜炎（瓣膜病）；doxycycline"
+            ],
+            [
+              "狂犬病",
+              "清洗傷口 + 疫苗（FC：0、3、7、14、28）± 免疫球蛋白；狗貓觀察 10 天"
+            ],
+            [
+              "登革熱",
+              "斑蚊白天叮；再感染不同型 → 重症；血小板低、血比容上升；NS1；避免 NSAID"
+            ],
+            [
+              "西尼羅",
+              "家蚊；鳥是宿主；80% 無症狀；腦炎"
+            ],
+            [
+              "瘧疾",
+              "發燒、貧血、脾腫大；惡性瘧最重；間日、卵形 → primaquine；quinine 不是預防藥"
+            ],
+            [
+              "伊波拉",
+              "非洲；死亡率最高；體液傳染"
+            ],
+            [
+              "傷寒",
+              "持續高燒、白血球低、脾腫大；用過抗生素 → 骨髓培養；FQ 抗藥"
+            ],
+            [
+              "非傷寒沙門氏菌",
+              "腸胃炎不給抗生素"
+            ],
+            [
+              "食物中毒",
+              "S. aureus、B. cereus 最快；Shigella 人傳人、劑量低；霍亂沒有白血球"
+            ],
+            [
+              "梨形鞭毛蟲",
+              "露營生水、低丙種球蛋白血症；不發燒、脂肪便；囊體抗氯；metronidazole"
+            ],
+            [
+              "弓漿蟲",
+              "貓、生肉；頸部淋巴結；孕期初次感染才先天性"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
