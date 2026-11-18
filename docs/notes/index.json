@@ -266,6 +266,10 @@
         {
           "id": "pathogens-bacteria-fungi",
           "name": "Pathogens: Bacteria and Fungi (病原體各論：從臨床線索認菌)"
+        },
+        {
+          "id": "skin-soft-tissue-bone-joint",
+          "name": "Skin, Soft Tissue, Bone and Joint Infections (軟組織、骨與關節感染)"
         }
       ]
     },

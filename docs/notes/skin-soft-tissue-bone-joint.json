@@ -1,0 +1,566 @@
+{
+  "id": "skin-soft-tissue-bone-joint",
+  "title": "Skin, Soft Tissue, Bone and Joint Infections (軟組織、骨與關節感染)",
+  "title_en": "Skin, Soft Tissue, Bone and Joint Infections",
+  "title_zh": "軟組織、骨與關節感染",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.134 Infections of the Skin, Muscles, and Soft Tissues; Ch.135 Infectious Arthritis; Ch.136 Osteomyelitis; Ch.152 Staphylococcal Infections; Ch.159 Gas Gangrene; Ch.173 Cholera and Other Vibrioses",
+    "First Choice 醫學(三) 第3冊 - 乙、軟組織感染（講義 p.187–189；題目 p.189–192）、戊、感染性關節炎（p.209）、己（p.231），本篇共 11 題"
+  ],
+  "generated": "2026-11-18",
+  "updated": "2026-11-18",
+  "related": [
+    {
+      "id": "fever-exposure-zoonoses",
+      "name": "Fever and Exposure History (發燒與暴露史：人畜共通、蟲媒與旅遊感染)"
+    },
+    {
+      "id": "antibiotics-infection-control",
+      "name": "Antibiotics and Infection Control (抗生素與感染管制)"
+    },
+    {
+      "id": "pathogens-bacteria-fungi",
+      "name": "Pathogens: Bacteria and Fungi (病原體各論：從臨床線索認菌)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 11 題｜最常考：創傷弧菌、壞死性筋膜炎的警訊、蜂窩性組織炎的致病菌與用藥\n1. **先判斷多深**：毛囊（毛囊炎）→ 真皮淺層（丹毒）→ 真皮與皮下（蜂窩性組織炎）→ 筋膜（壞死性筋膜炎）→ 肌肉（氣性壞疽）\n2. **壞死性筋膜炎的警訊**：疼痛比外觀嚴重、紫紅或出血性水泡、皮膚麻木、快速擴散、休克 → **CT + 緊急外科清創 + 廣效抗生素**\n3. **暴露史猜菌**：肝硬化 + 海水或生蠔 → 創傷弧菌；淡水 → Aeromonas；貓狗咬 → Pasteurella（amoxicillin-clavulanate）；鐵釘刺穿鞋底 → 綠膿桿菌；溫泉 → 熱水池毛囊炎\n4. **毒素表現**：發燒 + 低血壓 + 全身紅疹 → 中毒性休克；Nikolsky 徵象 → 燙傷樣皮膚症候群\n5. **骨與關節**：糖尿病足探針碰到骨頭 → 骨髓炎，**骨頭切片培養**（傷口拭子不準）；脊椎骨髓炎多為金黃色葡萄球菌；化膿性關節炎關節液白血球很高，年輕性活躍者想淋病\n新版來源：Harrison 22e（Ch.134–136、146、152、159、173）；FC 講義引用 IDSA 2014 皮膚軟組織感染指引"
+        }
+      ]
+    },
+    {
+      "title": "分層與一般蜂窩性組織炎　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **蜂窩性組織炎**：多為**金黃色葡萄球菌、鏈球菌**；以臨床診斷為主\n- 切片或針吸培養**陽性率低**（FC 20–30%；Harrison 約 20%）→ 臨床不常做\n- 下肢循環不良（靜脈或淋巴回流差）→ 鏈球菌**反覆**蜂窩性組織炎\n- 第一線：oxacillin、penicillin、**第一代頭孢**；**vancomycin 保留給 MRSA**，不是第一線\n- 病原與表現：**熱水池毛囊炎 → 綠膿桿菌**；**淋巴管炎 → A 群鏈球菌**；**唇邊水泡 → HSV-1**；**露珠狀水泡 → 水痘或帶狀疱疹**（不是梅毒）\n- 咬傷 → **amoxicillin-clavulanate**；帶狀疱疹 → acyclovir"
+        },
+        {
+          "type": "heading",
+          "text": "皮膚軟組織感染的分層（Harrison Fig.134-1、FC 講義）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "層次",
+            "疾病",
+            "常見菌",
+            "線索"
+          ],
+          "rows": [
+            [
+              "毛囊",
+              "毛囊炎",
+              "金黃色葡萄球菌；**熱水池毛囊炎 → 綠膿桿菌**",
+              "溫泉、SPA"
+            ],
+            [
+              "表皮",
+              "膿痂疹",
+              "A 群鏈球菌、金黃色葡萄球菌",
+              "結痂"
+            ],
+            [
+              "真皮淺層與淋巴",
+              "**丹毒**",
+              "**A 群鏈球菌**",
+              "經淋巴管快速擴散、表皮水腫"
+            ],
+            [
+              "真皮與皮下脂肪",
+              "**蜂窩性組織炎**",
+              "**金黃色葡萄球菌、鏈球菌**",
+              "紅腫熱痛、邊界不清"
+            ],
+            [
+              "筋膜",
+              "**壞死性筋膜炎**",
+              "A 群鏈球菌、**混合嗜氧厭氧菌**、創傷弧菌、Clostridium",
+              "疼痛不成比例、紫黑水泡、麻木、休克"
+            ],
+            [
+              "肌肉",
+              "**氣性壞疽**",
+              "**Clostridium perfringens**",
+              "古銅色皮膚、水泡、**皮下氣體（捻髮音）**"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "暴露史 → 菌 → 用藥（FC 講義，引 Harrison Table 134-2）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "暴露",
+            "想到",
+            "治療（FC 講義）"
+          ],
+          "rows": [
+            [
+              "一般",
+              "**金黃色葡萄球菌、鏈球菌**",
+              "oxacillin、penicillin 或**第一代頭孢**；MRSA 才用 vancomycin"
+            ],
+            [
+              "貓咬",
+              "**Pasteurella multocida**",
+              "**amoxicillin-clavulanate**、ampicillin-sulbactam"
+            ],
+            [
+              "狗咬",
+              "Pasteurella、Capnocytophaga canimorsus、厭氧菌",
+              "同上"
+            ],
+            [
+              "人咬",
+              "**Eikenella corrodens**、鏈球菌、厭氧菌",
+              "同上"
+            ],
+            [
+              "鐵釘刺穿鞋底、刺入深處",
+              "**綠膿桿菌**",
+              "ceftazidime 或 ciprofloxacin"
+            ],
+            [
+              "**海水傷口、生食海鮮 + 肝硬化**",
+              "**創傷弧菌（Vibrio vulnificus）**",
+              "**第三代頭孢 + tetracycline 類**（ceftazidime 或 ceftriaxone + doxycycline）"
+            ],
+            [
+              "淡水（水溝、湖泊、溫泉）",
+              "**Aeromonas hydrophila**",
+              "FQ、TMP-SMX、第三代頭孢皆敏感"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "乙、軟組織感染 講義 p.187–188、題目 p.189–191"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1049–1052（Ch.134 Infections of the Skin, Muscles, and Soft Tissues）"
+        }
+      ]
+    },
+    {
+      "title": "水泡的鑑別與壞死性筋膜炎　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 皮膚感染出現**紫紅色水泡、瘀斑、皮膚麻木** → 血管受損 → 要往深部找**壞死性筋膜炎或肌壞死**\n- **疼痛比外觀嚴重**、沒有明顯發紅也不能排除\n- 處置：**CT**（筋膜模糊）、CK 上升；**緊急外科清創** + 廣效抗生素（同時涵蓋嗜氧與厭氧菌）\n- A 群鏈球菌壞死性筋膜炎 → **penicillin + clindamycin**（clindamycin 抑制毒素產生）\n- 水泡的鑑別：**手足口病（克沙奇病毒）**小孩手腳嘴巴小水泡；**燙傷樣皮膚症候群（SSSS）vs 毒性表皮壞死溶解症（TEN）**外觀難分 → **切片冷凍切片**看分離層次\n- **創傷弧菌的危險因子是海水**，不是淡水"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "壞死性筋膜炎的菌",
+            "危險因子",
+            "治療（FC，引 IDSA 2014）"
+          ],
+          "rows": [
+            [
+              "A 群鏈球菌",
+              "—",
+              "penicillin + clindamycin"
+            ],
+            [
+              "混合嗜氧厭氧菌",
+              "糖尿病、手術、外傷",
+              "ampicillin + clindamycin + ciprofloxacin 等"
+            ],
+            [
+              "**創傷弧菌**",
+              "**肝硬化 + 海水**",
+              "**doxycycline + ceftriaxone**"
+            ],
+            [
+              "Aeromonas",
+              "肝硬化 + **淡水**",
+              "doxycycline + ceftriaxone 或 ciprofloxacin"
+            ],
+            [
+              "Clostridium perfringens",
+              "外傷",
+              "penicillin + clindamycin"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 SSSS 和 TEN 要靠切片分？**兩者都是大片脫皮，外觀很像；但 SSSS 是葡萄球菌的毒素切開**角質層**下方（表皮淺層），TEN 是藥物造成整層表皮從**基底層**分離（Harrison）。冷凍切片看裂開的位置，就能立刻區分，而兩者的治療完全不同（抗生素 vs 停藥與支持治療）。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "乙、軟組織感染 講義 p.188–189、題目 p.190"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1049–1051（Ch.134：紫色水泡與麻木、SSSS vs TEN）"
+        }
+      ]
+    },
+    {
+      "title": "暴露史猜菌：創傷弧菌、Aeromonas、咬傷　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **創傷弧菌**：喜歡**鹹水**、**溫暖月份**；**肝病（肝硬化）**、血色素沉著症是高風險\n- 兩種感染途徑：**海水接觸傷口**（釣魚被魚刺、牡蠣殼割傷）→ 傷口感染；**生食海鮮（生蠔）** → 敗血症再到皮膚\n- 表現：傷口快速紅腫擴散、**紫紅色出血性水泡**、組織壞死、**休克**\n- 治療：**第三代頭孢（ceftazidime 或 ceftriaxone）+ tetracycline 類（doxycycline）**、**緊急清創**、CT 確定範圍、儘快採檢體\n- 沒有海水暴露**不能排除**壞死性筋膜炎（生食海鮮也會）；死亡與細菌**侵犯組織和毒素都有關**\n- **Aeromonas**：**淡水**傷口（湖泊、河流、水溝、溫泉）"
+        },
+        {
+          "type": "figure",
+          "src": "figures/skin-soft-tissue-bone-joint/fc-vibrio-bullae.png",
+          "label": "FC 醫學(三)第3冊 p.384 彩圖（103 年考題）",
+          "caption": "肝硬化老先生吃生蠔後：下肢的紫紅色大水泡",
+          "explain": "**【怎麼看】**下肢一個**很大、緊繃、紫紅色**的出血性水泡（箭頭），周圍皮膚紅腫。\n**【考點】**肝硬化 + 生蠔（或海水傷口）+ 發燒 + **出血性大水泡** + 低血壓 → **創傷弧菌**敗血症合併壞死性軟組織感染 → 第三代頭孢 + tetracycline 類、**緊急清創**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要加 tetracycline 類？**FC 112 年詳解：ceftazidime 對創傷弧菌等革蘭氏陰性菌有效，tetracycline 類是針對弧菌的一線藥，**特別能抑制毒素產生**；兩者合用是最佳組合。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "乙、軟組織感染 講義 p.188、題目 p.190、192；己 IV 講義 p.227"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1329–1330（Ch.173 Vibrio vulnificus）；1052（Ch.134 Aeromonas）"
+        }
+      ]
+    },
+    {
+      "title": "毒素症候群與氣性壞疽　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **中毒性休克症候群（TSS）**：金黃色葡萄球菌的超抗原毒素（TSST-1）→ **發燒 + 低血壓 + 全身紅斑（1–2 週後脫皮）** + 多器官受損\n- **鏈球菌中毒性休克（STSS）**：通常有**深部感染灶**（如壞死性筋膜炎）、有細菌學證據 → 抗生素 + 外科處理\n- **燙傷樣皮膚症候群（SSSS）**：金黃色葡萄球菌剝脫毒素；**Nikolsky 徵象陽性**；多見於小孩\n- **氣性壞疽**：Clostridium perfringens；**古銅色皮膚、水泡、捻髮音**；Gram 染色**大型鈍端革蘭氏陽性桿菌**；X 光皮下氣體 → **緊急清創、筋膜切開** + 高劑量 penicillin G + clindamycin"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "致病菌",
+            "表現",
+            "治療（FC 講義）"
+          ],
+          "rows": [
+            [
+              "SSSS",
+              "金黃色葡萄球菌",
+              "大片脫皮、**Nikolsky 徵象**（最嚴重型 Ritter 病）",
+              "oxacillin ± clindamycin"
+            ],
+            [
+              "TSS",
+              "金黃色葡萄球菌",
+              "發燒 + 低血壓 + 全身紅斑，1–2 週後脫皮",
+              "以毒素為主 → 支持治療 + 抗生素"
+            ],
+            [
+              "STSS",
+              "**A 群鏈球菌**（也可金黃色葡萄球菌）",
+              "低血壓 + 多器官衰竭（腎、凝血、ARDS）；常有深部感染灶",
+              "penicillin 或第一代頭孢 + **clindamycin** + 清創"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "乙、軟組織感染 講義 p.189"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1198–1199（Ch.152 TSS、SSSS）；1241（Ch.159 Gas gangrene）"
+        }
+      ]
+    },
+    {
+      "title": "骨髓炎：糖尿病足與脊椎骨髓炎　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **糖尿病足潰瘍**：**探針碰到骨頭（probe-to-bone）**→ 高度懷疑骨髓炎（高風險族群陽性預測值約 90%）\n- 影像：**MRI** 比 X 光敏感\n- **傷口拭子培養會被表面菌汙染、和深部致病菌不一致** → **骨頭切片培養是黃金標準**\n- 常潮濕、穿膠鞋 → 想**綠膿桿菌** → piperacillin-tazobactam 或 cefepime\n- **脊椎骨髓炎（椎間盤炎）**：成人**最常見的血行性骨髓炎**；**金黃色葡萄球菌最常見**；結核、布氏桿菌為亞急性\n- 病情穩定時先找到菌（血液培養、骨切片、膿液）再給抗生素；口服不一定比靜脈差"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼糖尿病足骨髓炎一定要骨切片培養？**潰瘍表面長滿皮膚與環境的菌，拭子培養出來的不一定是骨頭裡的致病菌；骨髓炎要治療好幾週，選錯菌就會失敗，所以 Harrison 與 FC 都以骨切片培養為準。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 IV 題目 p.231；戊、感染性關節炎 題目 p.209"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1061–1068（Ch.136 Osteomyelitis：脊椎骨髓炎 p.1061–1062、probe-to-bone 與切片 p.1067–1068）"
+        }
+      ]
+    },
+    {
+      "title": "化膿性關節炎　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **非淋病性**：免疫低下或關節本身有病（糖尿病、類風濕、骨關節炎、痛風、人工關節）；**單一關節**；關節液**白血球 > 10 萬、> 90% 嗜中性球**；**金黃色葡萄球菌最常見** → 引流 + 抗生素\n- **淋病性**：**性活躍的年輕人**（女性月經期與懷孕較易）；**遊走性多關節痛、肌腱滑膜炎、皮疹**；關節液培養陽性率低（< 40%）→ 從生殖道、咽、直腸採檢；**ceftriaxone**\n- 補體末端成分缺乏 → 反覆奈瑟氏菌菌血症\n- **萊姆病**：蜱咬 → 遊走性紅斑 → 數月後反覆單一關節炎 → doxycycline\n- 人工關節感染：多需**取出更換人工關節** + 靜脈抗生素 4–6 週"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "非淋病性",
+            "淋病性"
+          ],
+          "rows": [
+            [
+              "族群",
+              "老人、免疫低下、關節有病變、人工關節",
+              "**性活躍的年輕人**"
+            ],
+            [
+              "關節",
+              "**單一大關節**",
+              "**遊走性多關節痛**、肌腱滑膜炎、皮疹"
+            ],
+            [
+              "關節液",
+              "白血球 > 10 萬、> 90% 嗜中性球；培養常陽性",
+              "白血球 > 5 萬；Gram 染色與培養常陰性"
+            ],
+            [
+              "菌",
+              "**金黃色葡萄球菌**",
+              "N. gonorrhoeae"
+            ],
+            [
+              "治療",
+              "引流 + 抗生素",
+              "ceftriaxone"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "戊、感染性關節炎 講義 p.209"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1056–1060（Ch.135 Infectious Arthritis）"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        "以下用本篇的 **FC 原題**示範推理順序（題目在〈考題練習〉，這裡只拆解思考步驟）。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 112 年）：40 歲肝硬化男性夏天在旗津海邊釣魚被魚刺刺傷，隔天左腳紅腫、紫紅色水泡、休克",
+          "text": "1. **暴露史**：**海水傷口** + 夏天 + **肝硬化** → 創傷弧菌\n2. **嚴重度**：紫紅色水泡 + 休克 → 壞死性軟組織感染合併敗血症\n3. **處置**：CT 看範圍、**緊急清創**、儘快採檢體\n4. **抗生素**：**第三代頭孢 + tetracycline 類**（ceftazidime + tetracycline）\n5. **排除**：vancomycin + gentamicin（以革蘭氏陽性為主）、clindamycin + penicillin（A 群鏈球菌的組合）、cefazolin + amikacin"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 113 年）：56 歲糖尿病女性廚房清潔工、常穿膠鞋碰水，右腳底潰瘍有黃綠色膿，吃了一週第一代頭孢沒改善",
+          "text": "1. **糖尿病足潰瘍 + 治療無效** → 想**骨髓炎**\n2. **床邊測試**：金屬探針碰得到骨頭 → 高度懷疑\n3. **影像**：MRI 比 X 光敏感\n4. **找菌**：**骨頭切片培養**；傷口拭子會被表面菌汙染、和骨頭裡的菌不一致\n5. **潮濕、膠鞋、黃綠色膿** → 綠膿桿菌 → piperacillin-tazobactam 或 cefepime"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 103 年）：70 歲肝硬化老先生自己剝生蠔吃，發燒兩天，皮膚出現大水泡，血壓 90/50",
+          "text": "1. **暴露史**：**生食海鮮（生蠔）+ 肝硬化** → 創傷弧菌經腸道入血\n2. **招牌**：敗血症 + 皮膚**出血性大水泡**（見〈暴露史猜菌〉段的 FC 彩圖）\n3. **鑑別**：金黃色葡萄球菌、A 群鏈球菌較少和生蠔、肝硬化連在一起；克雷伯氏菌多為肝膿瘍\n4. **處置**：第三代頭孢 + doxycycline、清創、休克治療\n5. **觀念**：**沒有海水傷口也可能**得到創傷弧菌壞死性筋膜炎"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "蜂窩性組織炎（§分層）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：關於蜂窩性組織炎的致病菌描述，下列何者錯誤？（A 經由切片（punch biopsy）培養陽性結果的機會可高達 70% B 鏈球菌在下肢循環不良的病人常導致反覆感染 C 被貓狗咬傷易產生厭氧菌相關感染 D 綠膿桿菌可見於被鐵釘穿刺傷造成的傷口感染）（FC 113 年）",
+          "text": "**答：(A)。** FC 詳解：切片或針吸檢測致病菌陽性率偏低（約 20–30%），臨床不常使用。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：皮膚軟組織感染之經驗性抗微生物製劑選擇，若過去無藥物過敏紀錄且沒有其他慢性疾病，則下述各診斷建議的第一線治療何者最不恰當？（A 狗咬傷 — amoxicillin-clavulanate 或 ampicillin-sulbactam B 帶狀疱疹（免疫力正常，大於 50 歲）— acyclovir C 蜂窩性組織炎（staphylococcal or streptococcal）— vancomycin D 壞死性筋膜炎 — 能同時治療嗜氧菌及厭氧菌的抗生素組合）（FC 111 年）",
+          "text": "**答：(C)。** FC 詳解：vancomycin 主要保留給 MRSA 或其他抗藥性感染，不是第一線用藥。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：引起皮膚軟組織感染的病原菌可能有不同接觸史或表現形態，下列何者錯誤？（A Pseudomonas — hot-tub folliculitis B Streptococcus pyogenes — lymphangitis C Treponema pallidum — 露珠狀水泡（dewdrop vesicle）D herpes simplex virus-1 — 唇邊水泡）（FC 111 年）",
+          "text": "**答：(C)。** FC 詳解：梅毒的硬下疳是無痛性潰瘍，二期是廣泛性皮疹，不會出現「露珠狀水泡」；這是水痘、帶狀疱疹的典型描述。"
+        },
+        {
+          "type": "heading",
+          "text": "水泡與壞死性筋膜炎（§水泡的鑑別）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：當皮膚軟組織感染合併水泡（vesicles or bullae），下列敘述何者錯誤？（A coxsackievirus 常好發於小孩，小水泡多分布於手腳或嘴巴 B Vibrio vulnificus 的危險因子為接觸淡水 C staphylococcal scalded skin syndrome 與 toxic epidermal necrolysis 不容易於外觀分辨，切片可幫助鑑別診斷 D 當水泡為紅黑色、紅腫區域快速蔓延或合併感染處感覺異常（anesthesia），應把壞死性筋膜炎列入鑑別診斷）（FC 113 年）",
+          "text": "**答：(B)。** FC 詳解：創傷弧菌的危險因子是接觸海水。"
+        },
+        {
+          "type": "heading",
+          "text": "創傷弧菌（§暴露史猜菌）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：40 歲男性有肝硬化病史多年，夏天在高雄旗津海邊釣魚被魚刺刺傷左腳，隔天因左腳紅腫熱痛被送至急診，左腳有紫紅色水泡，且有休克現象。這位病人最可能的致病菌為何？（A Staphylococcus aureus B Streptococcus pyogenes C Pseudomonas aeruginosa D Vibrio vulnificus）（FC 112 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：承上題，下列何種抗生素治療對這位病人最為恰當？（A vancomycin + gentamicin B clindamycin + penicillin C ceftazidime + tetracycline D cefazolin + amikacin）（FC 112 年）",
+          "text": "**答：(C)。** FC 詳解：ceftazidime 對革蘭氏陰性菌（包括創傷弧菌）有效，tetracycline 是針對弧菌的一線藥，特別適合抑制毒素產生。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：一位肝硬化病人，8 小時前釣魚時右腳被牡蠣殼割傷，右下肢紅腫並迅速往小腿擴散，有水泡及組織壞死，伴隨發燒發冷。關於該病人疾病，下列敘述何者錯誤？（A 需詳細詢問病人接觸史，包含海水暴露史 B 若無海水暴露史，即可排除壞死性筋膜炎 C 食用未煮熟的海鮮也有可能引發壞死性筋膜炎 D 若病人皮膚未明顯發紅，但病人表示劇烈疼痛，仍不可排除壞死性筋膜炎）（FC 103 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：承上題，關於病人處置，下列敘述何者錯誤？（A 安排電腦斷層確定病灶範圍 B 儘快留取感染部位檢體，並且給予適當抗生素 C 聯絡外科清創處理 D 若該病人最後死亡，其原因主要與細菌侵犯組織有關，與毒素無關）（FC 103 年）",
+          "text": "**答：(D)。** 創傷弧菌的致病力也來自毒素（細胞溶解素等），所以治療才要加能抑制毒素的 tetracycline 類。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：70 歲有肝硬化病史的老先生，近幾週因生蠔盛產，自己剝生蠔來吃。到急診時發燒已兩天，今天皮膚出現水泡（見〈暴露史猜菌〉段的 FC 彩圖），血壓 90/50 mmHg。最可能感染的病原菌？（A Staphylococcus aureus B Vibrio vulnificus C group A streptococcus D Klebsiella pneumoniae）（FC 103 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "骨髓炎（§骨髓炎）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：56 歲女性右腳紅腫熱痛，已在診所吃了一週口服第一代 cephalosporin 沒有改善。有糖尿病十多年、不清楚血糖控制；在廚房擔任清潔工作，長時間穿膠鞋且常碰水。右足底有一潰瘍及黃綠色膿狀分泌物。下列何者錯誤？（A 如果懷疑骨髓炎，可以採取 probe-to-bone 測試，以金屬探針穿刺傷口處，若可觸及骨頭則高度懷疑骨髓炎 B 進一步可用磁振造影（MRI）診斷，其敏感度高於 X 光檢查 C 傷口檢體（wound swab）與骨頭切片培養的結果通常是一致的，故骨頭切片培養是不必要的處置 D 因有綠膿桿菌感染風險，可考慮使用 piperacillin-tazobactam 或 cefepime）（FC 113 年）",
+          "text": "**答：(C)。** FC 詳解：傷口拭子可能受表面汙染菌影響，和深部感染的致病菌不一致；骨頭切片培養是診斷骨髓炎的黃金標準。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：細菌性脊椎骨髓炎最常見致病菌種為：（A Staphylococcus aureus B Salmonella enteritidis C Escherichia coli D Viridans group Streptococcus）（FC 106 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "線索",
+            "想到",
+            "處置"
+          ],
+          "rows": [
+            [
+              "紅腫熱痛、邊界不清",
+              "蜂窩性組織炎（金黃色葡萄球菌、鏈球菌）",
+              "第一代頭孢、oxacillin；不常規培養"
+            ],
+            [
+              "經淋巴管快速擴散的淺層紅腫、淋巴管炎",
+              "丹毒、A 群鏈球菌",
+              "penicillin"
+            ],
+            [
+              "溫泉後毛囊炎",
+              "綠膿桿菌",
+              "多自限"
+            ],
+            [
+              "疼痛不成比例、紫黑水泡、麻木",
+              "壞死性筋膜炎",
+              "CT + 緊急清創 + 廣效抗生素"
+            ],
+            [
+              "肝硬化 + 海水或生蠔",
+              "創傷弧菌",
+              "第三代頭孢 + doxycycline + 清創"
+            ],
+            [
+              "淡水傷口",
+              "Aeromonas",
+              "FQ、第三代頭孢"
+            ],
+            [
+              "貓狗人咬",
+              "Pasteurella、Eikenella、厭氧菌",
+              "amoxicillin-clavulanate"
+            ],
+            [
+              "鐵釘刺穿鞋底",
+              "綠膿桿菌",
+              "ceftazidime、ciprofloxacin"
+            ],
+            [
+              "古銅色、捻髮音、皮下氣體",
+              "氣性壞疽（C. perfringens）",
+              "清創 + penicillin + clindamycin"
+            ],
+            [
+              "發燒 + 低血壓 + 紅斑脫皮",
+              "TSS／STSS",
+              "支持治療、清創、加 clindamycin"
+            ],
+            [
+              "Nikolsky 徵象",
+              "SSSS（切片和 TEN 鑑別）",
+              "oxacillin"
+            ],
+            [
+              "糖尿病足探針碰到骨",
+              "骨髓炎",
+              "MRI、骨切片培養"
+            ],
+            [
+              "脊椎骨髓炎",
+              "金黃色葡萄球菌",
+              "先找菌再治療"
+            ],
+            [
+              "單一關節、白血球 > 10 萬",
+              "非淋病性化膿性關節炎（金黃色葡萄球菌）",
+              "引流 + 抗生素"
+            ],
+            [
+              "年輕性活躍、遊走性關節痛、皮疹",
+              "淋病性關節炎",
+              "ceftriaxone"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
