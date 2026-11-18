@@ -1,0 +1,713 @@
+{
+  "id": "antibiotics-infection-control",
+  "title": "Antibiotics and Infection Control (抗生素與感染管制)",
+  "title_en": "Antibiotics and Infection Control",
+  "title_zh": "抗生素與感染管制",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.139 Clostridioides difficile Infection; Ch.147 Infections Acquired in Health Care Facilities; Ch.149 Treatment and Prophylaxis of Bacterial Infections; Ch.150 Bacterial Resistance to Antimicrobial Agents; Ch.164 Legionella Infections",
+    "First Choice 醫學(三) 第3冊 - 庚、細菌抗生素（講義 p.246-271；題目 p.272-276）、其他（p.378-380）、己（p.221）、丁（p.202），本篇共 22 題"
+  ],
+  "generated": "2026-11-18",
+  "updated": "2026-11-18",
+  "related": [
+    {
+      "id": "urinary-tract-infection",
+      "name": "Urinary Tract Infection (泌尿道感染)"
+    },
+    {
+      "id": "fever-exposure-zoonoses",
+      "name": "Fever and Exposure History (發燒與暴露史：人畜共通、蟲媒與旅遊感染)"
+    },
+    {
+      "id": "diarrhea",
+      "name": "Diarrhea (腹瀉)"
+    },
+    {
+      "id": "hiv-opportunistic-infections",
+      "name": "HIV/AIDS (二)：伺機性感染與併發症"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 22 題｜最常考：抗藥菌怎麼選藥（MRSA、ESBL、綠膿桿菌）、手部衛生\n1. **先猜菌**：感染部位 + 病人狀況（免疫、導管、住院多久）+ 社區或院內\n2. **選打得到的藥**：作用機轉、抗菌譜（頭孢世代、carbapenem 的差別）、能不能進到感染部位（中樞、前列腺、細胞內）\n3. **想抗藥性**：MRSA → vancomycin 類；ESBL → carbapenem；綠膿桿菌 → 有抗綠膿活性的藥（ertapenem 不行）\n4. **依宿主調整**：懷孕（避開 tetracycline、FQ）、腎肝功能、過敏 → 避開招牌副作用\n5. **用完之後**：依培養降階、控制療程、注意 **C. difficile**；預防院內感染靠**手部衛生**與**組合式照護（bundle）**\n新版來源：Harrison 22e Ch.139、147、149、150、164；各類藥的抗菌譜依 FC 講義整理"
+        }
+      ]
+    },
+    {
+      "title": "作用機轉與分類　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **細胞壁**：β-lactam、vancomycin\n- **蛋白質合成**：**macrolide**、tetracycline、aminoglycoside、clindamycin、linezolid\n- **DNA**：fluoroquinolone（DNA gyrase）\n- **葉酸**：sulfonamide、trimethoprim\n- 「macrolide 抑制 DNA 合成」是錯的（FC 113）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "作用位置",
+            "藥物",
+            "殺菌或抑菌"
+          ],
+          "rows": [
+            [
+              "**細胞壁**",
+              "**β-lactam**（penicillin、cephalosporin、carbapenem、monobactam）、**glycopeptide**（vancomycin、teicoplanin）",
+              "殺菌"
+            ],
+            [
+              "**細胞膜**",
+              "daptomycin、colistin",
+              "殺菌"
+            ],
+            [
+              "**蛋白質（30S）**",
+              "**aminoglycoside**（殺菌）、**tetracycline**（抑菌）",
+              "—"
+            ],
+            [
+              "**蛋白質（50S）**",
+              "**macrolide**、**clindamycin**、**linezolid**、chloramphenicol",
+              "多為抑菌"
+            ],
+            [
+              "**DNA**",
+              "**fluoroquinolone**（DNA gyrase）、metronidazole",
+              "殺菌"
+            ],
+            [
+              "**葉酸合成**",
+              "**TMP-SMX**（sulfonamide 擋 PABA 利用、trimethoprim 擋二氫葉酸還原酶）",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "庚、細菌抗生素 講義 p.246–271、題目 p.272"
+        }
+      ]
+    },
+    {
+      "title": "β-lactam 家族：頭孢世代與 carbapenem　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 第一代到第四代：**革蘭氏陰性越來越強、MSSA 越來越弱**（第四代又回來）；**第五代 ceftaroline 打 MRSA**\n- **第三代 ceftriaxone 能進中樞** → 細菌性腦膜炎、克雷伯氏菌腦膜炎\n- **所有頭孢都打不到 Listeria 與腸球菌**；第一代打不到沙門氏菌\n- 打綠膿桿菌的頭孢：**ceftazidime、cefepime**（ceftriaxone、cefazolin、cefuroxime 不行）\n- **Ertapenem 打不到綠膿桿菌與 Acinetobacter**；其他 carbapenem 可以\n- Aztreonam（monobactam）：只打革蘭氏陰性（含綠膿桿菌）；β-lactam 過敏者可替代（但與 ceftazidime 有交叉過敏）"
+        },
+        {
+          "type": "heading",
+          "text": "頭孢菌素的世代（FC 講義）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "世代",
+            "代表藥",
+            "重點"
+          ],
+          "rows": [
+            [
+              "第一代",
+              "**cefazolin**（IV）、cephalexin（口服）",
+              "**革蘭氏陽性（MSSA、鏈球菌）**最好；手術預防、蜂窩性組織炎"
+            ],
+            [
+              "第二代",
+              "cefuroxime；cephamycin（cefmetazole）",
+              "多了 H. influenzae 等；**cephamycin 可打厭氧菌**"
+            ],
+            [
+              "第三代",
+              "**ceftriaxone**、cefotaxime；**ceftazidime**",
+              "革蘭氏陰性變強、**能進中樞（腦膜炎）**；**ceftazidime 打綠膿桿菌**、但革蘭氏陽性弱"
+            ],
+            [
+              "第四代",
+              "**cefepime**",
+              "革蘭氏陰性與陽性都有、**打綠膿桿菌**；AmpC 菌"
+            ],
+            [
+              "第五代",
+              "**ceftaroline**",
+              "**唯一能打 MRSA 的頭孢**"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Carbapenem 的差別（FC 講義）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Carbapenem",
+            "綠膿桿菌、Acinetobacter",
+            "重點"
+          ],
+          "rows": [
+            [
+              "imipenem、meropenem、doripenem",
+              "**有效**",
+              "最廣效；ESBL、AmpC 的首選"
+            ],
+            [
+              "**ertapenem**",
+              "**無效**",
+              "可治 ESBL；**一天一次**；懷疑院內綠膿桿菌或 Acinetobacter 不用"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Penicillin 家族與 β-lactamase 抑制劑（FC 講義）",
+          "text": "- 金黃色葡萄球菌會產生 penicillinase → penicillin、ampicillin 對它效果差 → 用 **oxacillin 等抗 penicillinase 的藥**（MSSA）\n- β-lactamase 抑制劑：clavulanate、sulbactam、tazobactam；**高劑量 sulbactam 可以打 Acinetobacter**\n- **Piperacillin-tazobactam**：廣效，含綠膿桿菌與厭氧菌，常用於院內或混合感染\n- Ampicillin：**Listeria、腸球菌（E. faecalis）**的首選"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "庚、細菌抗生素 講義 p.247–258、題目 p.274–275"
+        }
+      ]
+    },
+    {
+      "title": "抗藥菌：MRSA、ESBL、綠膿桿菌　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **MRSA**：所有 β-lactam 都無效（**oxacillin 不行**），第五代頭孢例外 → **vancomycin、teicoplanin、linezolid**、daptomycin（**肺炎不用 daptomycin**）\n- **ESBL**：可分解 penicillin、**第一到第四代頭孢**（ceftriaxone、cefotaxime、ceftazidime、部分 cefepime）與 **aztreonam**；**carbapenem 不會被 ESBL 分解**\n- ESBL 菌血症 → **IV carbapenem**（如 ertapenem）；口服 cephalexin、IV cefotaxime 無效，肌肉注射 gentamicin 不適合當主力\n- **Carbapenemase**（如克雷伯氏菌的 KPC）會分解 carbapenem → CRE\n- **綠膿桿菌**：ceftazidime、cefepime、piperacillin-tazobactam、imipenem、meropenem、ciprofloxacin、aztreonam、aminoglycoside；**不用 ertapenem**\n- **嗜中性球低下發燒**：要先蓋綠膿桿菌 → ceftazidime、cefepime 等"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "抗藥菌",
+            "機轉",
+            "能用的藥"
+          ],
+          "rows": [
+            [
+              "**MRSA**",
+              "改變 PBP（PBP2a）",
+              "vancomycin、teicoplanin、linezolid、daptomycin、ceftaroline"
+            ],
+            [
+              "**ESBL**（大腸桿菌、克雷伯氏菌）",
+              "β-lactamase 分解第三、四代頭孢與 aztreonam",
+              "**carbapenem**"
+            ],
+            [
+              "AmpC",
+              "染色體 β-lactamase",
+              "第四代頭孢（cefepime）、carbapenem"
+            ],
+            [
+              "**Carbapenemase（CRE、KPC）**",
+              "分解 carbapenem 與多數 β-lactam",
+              "新型 β-lactamase 抑制劑合併藥、colistin、tigecycline（依藥敏）"
+            ],
+            [
+              "VRE",
+              "改變 vancomycin 結合點",
+              "linezolid、daptomycin"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 ESBL 要用 carbapenem？**ESBL 是能分解「廣效」β-lactam 的酵素，第三代頭孢與 aztreonam 都會被它切掉；carbapenem 的結構不會被 ESBL 分解（Harrison Ch.150），所以是 ESBL 嚴重感染的首選。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Vancomycin 的使用細節（FC 講義）",
+          "text": "- 幾乎所有革蘭氏陽性球菌都有效；**革蘭氏陰性無效**\n- 適應症：MRSA 等嚴重革蘭氏陽性感染、β-lactam 過敏、凝固酶陰性葡萄球菌的導管或人工瓣膜感染、**口服治療 C. difficile**（不吸收，到大腸濃度夠）\n- 監測：目標 AUC/MIC 400–600（舊用谷值 15–20）；MIC = 2 時菌血症、心內膜炎易失敗\n- 副作用：**紅人症候群**（輸注太快 → 組織胺釋放 → 上半身潮紅，放慢速度、預先給抗組織胺）、腎毒性、耳毒性、嗜中性球低下\n- Teicoplanin：類似，可肌肉注射；不易進中樞"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "庚、細菌抗生素 講義 p.250–259、266–267、題目 p.273–275"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1181–1183（Ch.150 Bacterial Resistance：ESBL 與 carbapenemase）"
+        }
+      ]
+    },
+    {
+      "title": "非 β-lactam：FQ、TMP-SMX、macrolide、aminoglycoside 等　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **FQ**：殺菌；**腎臟排除 → 腎衰竭要調劑量**；ciprofloxacin **打綠膿桿菌**；levofloxacin、moxifloxacin 加強肺炎鏈球菌（呼吸道 FQ）；**淋病抗藥增加 → 不當第一線**\n- FQ 副作用：**QTc 延長**、肌腱炎與斷裂、主動脈瘤；**孕婦、兒童避免**\n- **TMP-SMX**：穿透骨、前列腺、中樞好；PJP、UTI、**Nocardia**；**預防**（移植、HIV）可減少 PJP、Listeria、Nocardia、弓漿蟲、部分肺炎鏈球菌感染，**對腦膜炎雙球菌效果有限**\n- **Macrolide**：非典型肺炎（Mycoplasma、Chlamydia、**Legionella**）\n- **Legionella**：住院中肺炎 + 腹瀉 + **低血鈉**、痰液很多白血球卻看不到細菌 → **FQ 或 macrolide**\n- **Aminoglycoside**：**腎毒性**（多可逆）、**耳毒性**（可能不可逆）；不能進入厭氧環境 → 厭氧菌無效\n- **Linezolid**：MRSA、VRE；長期用 → **骨髓抑制（血小板低）**、神經病變；與 SSRI 併用小心血清素症候群\n- **Clindamycin**：MSSA、CA-MRSA、鏈球菌、厭氧菌；**腹瀉、C. difficile**\n- **Metronidazole**：厭氧菌、原蟲、C. difficile"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物",
+            "最常用在",
+            "招牌副作用"
+          ],
+          "rows": [
+            [
+              "Ciprofloxacin",
+              "革蘭氏陰性、**綠膿桿菌**、UTI",
+              "QTc、肌腱、主動脈瘤"
+            ],
+            [
+              "Levofloxacin、moxifloxacin",
+              "社區肺炎（含非典型）；moxifloxacin 可打厭氧",
+              "同上"
+            ],
+            [
+              "TMP-SMX",
+              "PJP、UTI、Nocardia、弓漿蟲",
+              "過敏皮疹、**高血鉀**、骨髓抑制"
+            ],
+            [
+              "Azithromycin 等 macrolide",
+              "非典型肺炎、Legionella",
+              "腸胃不適"
+            ],
+            [
+              "Doxycycline",
+              "立克次體、螺旋體、披衣菌",
+              "光敏感；兒童牙齒染色"
+            ],
+            [
+              "Aminoglycoside",
+              "革蘭氏陰性（合併使用）",
+              "**腎毒性、耳毒性**"
+            ],
+            [
+              "Linezolid",
+              "MRSA、VRE",
+              "**骨髓抑制（血小板低）**、神經病變"
+            ],
+            [
+              "Clindamycin",
+              "革蘭氏陽性、厭氧菌",
+              "**腹瀉、偽膜性結腸炎**"
+            ],
+            [
+              "Vancomycin",
+              "MRSA",
+              "**紅人症候群**、腎毒性"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "庚、細菌抗生素 講義 p.260–271、題目 p.272–274"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1171（Ch.149 Table：主要副作用）；1272（Ch.164 Legionella：低血鈉、macrolide 或 FQ）"
+        }
+      ]
+    },
+    {
+      "title": "經驗用藥：從感染部位與宿主選藥　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **細菌性腦膜炎**：3 個月以下、**55 歲以上**、細胞免疫缺損 → 要蓋 **Listeria** → 加 **ampicillin**（頭孢打不到）\n- **克雷伯氏菌**侵襲症候群（糖尿病、肝膿瘍、眼內炎、腦膜炎）→ **ceftriaxone**（能進中樞）；第一、二代頭孢不夠\n- **肝硬化病人的 Campylobacter 菌血症**、血壓低 → 病情嚴重、ampicillin 抗藥普遍 → **carbapenem**（FC 113）\n- **院內肺炎、呼吸器病人**：要想綠膿桿菌、MRSA，也要想 Legionella\n- **嗜中性球低下發燒** → 抗綠膿桿菌的 β-lactam\n- 感染源控制（引流、拔管）和抗生素一樣重要"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "情境",
+            "要蓋的菌",
+            "經驗用藥"
+          ],
+          "rows": [
+            [
+              "社區細菌性腦膜炎",
+              "肺炎鏈球菌、腦膜炎雙球菌",
+              "ceftriaxone + vancomycin"
+            ],
+            [
+              "＋ 年齡 < 3 個月或 > 55 歲、細胞免疫缺損",
+              "**Listeria**",
+              "**再加 ampicillin**"
+            ],
+            [
+              "克雷伯氏菌肝膿瘍合併眼內炎、腦膜炎",
+              "K. pneumoniae",
+              "**ceftriaxone**（+ 引流、會診眼科）"
+            ],
+            [
+              "嗜中性球低下發燒",
+              "**綠膿桿菌**等革蘭氏陰性",
+              "ceftazidime、cefepime、piperacillin-tazobactam、carbapenem"
+            ],
+            [
+              "ESBL 菌血症",
+              "ESBL 大腸桿菌、克雷伯氏菌",
+              "carbapenem"
+            ],
+            [
+              "MRSA 肺炎",
+              "MRSA",
+              "vancomycin、linezolid、teicoplanin"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "庚、細菌抗生素 題目 p.273、276；丁、泌尿道感染 題目 p.202"
+        }
+      ]
+    },
+    {
+      "title": "宿主因素與副作用：懷孕、腎肝調整、過敏　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **懷孕避免**：**tetracycline**（胎兒骨骼牙齒、孕婦肝毒性）、**fluoroquinolone**、chloramphenicol、erythromycin estolate\n- 懷孕相對安全：**penicillin、cephalosporin**、azithromycin、clindamycin\n- 懷孕本身增加 **Listeria** 感染風險\n- 要依腎功能調整：aminoglycoside、vancomycin、FQ、多數 β-lactam\n- 招牌副作用：vancomycin **紅人症候群**、aminoglycoside **腎與耳毒性**、clindamycin **腹瀉**、linezolid **骨髓抑制**、FQ **QTc 與肌腱**、TMP-SMX **過敏與高血鉀**"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**FC 106 年副作用題為什麼一律給分？**選項「linezolid — 皮疹」本來想當錯誤選項，但 linezolid 的招牌副作用是骨髓抑制（長期使用），皮疹也可能發生；四個選項都說得通，所以送分。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "庚、細菌抗生素 講義 p.270、題目 p.272、275"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1168–1171（Ch.149：宿主因素、懷孕、Table 主要副作用）"
+        }
+      ]
+    },
+    {
+      "title": "抗生素管理與 C. difficile　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 不當使用 → 抗藥性、醫療浪費、死亡率與副作用增加；**劑量不足也會促進抗藥** →「劑量與抗藥無關」是錯的\n- 選藥要考慮年齡、免疫、肝腎功能、病情；有培養結果就**降階**\n- **C. difficile**：醫療照護相關；**抗生素是主要誘因**（clindamycin、第二三代頭孢、FQ）；健康新生兒無症狀帶菌不少見\n- 治療：**口服 fidaxomicin 或口服 vancomycin**；**治療後復發約 15–30%**（不是 < 5%）\n- **芽孢不怕酒精** → 照顧 C. difficile 病人後要**用肥皂和水洗手**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：C. difficile 治療細節（Harrison）",
+          "text": "- IDSA/SHEA 2021 focused update：**fidaxomicin** 為第一線；因取得問題，**口服 vancomycin** 仍常用\n- fidaxomicin 和 vancomycin 治癒率相近（約 90%），**fidaxomicin 復發較少**；vancomycin 優於 metronidazole\n- 暴發時：限制 clindamycin、第二三代頭孢、FQ 的使用"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "庚、細菌抗生素 題目 p.274–275；己、依細菌分類的感染症 題目 p.221"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1083–1086（Ch.139 Clostridioides difficile）"
+        }
+      ]
+    },
+    {
+      "title": "感染管制：手部衛生與組合式照護　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **洗手 5 時機**：**接觸病人前、執行清潔或無菌操作前、暴露體液風險後、接觸病人後、接觸病人周遭環境後**\n- 只碰床欄、查房沒碰病人，**離開也要洗手**；戴手套不能取代洗手；搬運病人、準備藥物前都要\n- **不能只用酒精乾洗手**：**手部明顯髒汙**、照顧 **C. difficile**（芽孢）→ 用肥皂和水\n- 中心靜脈導管組合式照護：**最大無菌面防護**、**chlorhexidine 消毒**、手部衛生、每天評估盡早拔除；**不要常規每兩週更換**\n- 導管相關血流感染**最常見來源：置入處皮膚的細菌**沿導管外側進入"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "中心靜脈導管置入組合式照護（Harrison Table 147-1）",
+            "說明"
+          ],
+          "rows": [
+            [
+              "手部衛生",
+              "置入前"
+            ],
+            [
+              "**最大無菌面防護**",
+              "帽子、口罩、無菌衣、無菌手套、大無菌單"
+            ],
+            [
+              "**chlorhexidine-alcohol 消毒皮膚**",
+              "首選的皮膚消毒"
+            ],
+            [
+              "位置選擇",
+              "**鎖骨下靜脈最不易感染、股靜脈最易感染**；超音波導引"
+            ],
+            [
+              "每天評估",
+              "**不需要就盡早移除**；**不要常規定期更換**（反而增加感染）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼不要定期換中心靜脈導管？**每次重新置入都是一次新的皮膚穿刺與汙染機會；感染風險來自置入過程與置入處皮膚，定期更換不會降低反而增加感染（FC 112 年詳解）。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "其他 題目 p.378–380；己、依細菌分類的感染症 題目 p.221"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1146–1148（Ch.147：手部衛生、Table 147-1 組合式照護）"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        "以下用本篇的 **FC 原題**示範推理順序（題目在〈考題練習〉，這裡只拆解思考步驟）。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 106 年）：78 歲住養護機構、長期導尿管，高燒、意識不清，血液和尿液都長 ESBL 大腸桿菌",
+          "text": "1. **猜菌**：長期導尿管 + 機構住民 → 複雜型 UTI 合併菌血症；培養已確定 **ESBL 大腸桿菌**\n2. **ESBL 會分解什麼**：penicillin、第一到第四代頭孢、aztreonam → cephalexin、cefotaxime 都不行\n3. **選藥**：**carbapenem** 不被 ESBL 分解 → **IV ertapenem**（不是綠膿桿菌，ertapenem 夠用）\n4. **途徑**：菌血症、意識不清 → 靜脈給藥，不用口服或肌肉注射\n5. **別忘了**：更換或移除導尿管（見〈泌尿道感染〉）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 107 年）：慢性 B 肝急性惡化住院第 15 天突發高燒、腹瀉、低血鈉，插管，右下葉肺炎，痰液很多白血球但看不到細菌",
+          "text": "1. **院內肺炎 + 腹瀉 + 低血鈉** → 除了一般院內菌，要想 **Legionella**（Harrison：低血鈉常見）\n2. **痰液很多嗜中性球、卻看不到細菌、抗酸染色陰性** → 不像一般化膿菌、也不像結核\n3. **治療**：**FQ 或 macrolide** → 選項中 **ciprofloxacin**\n4. **對比**：fluconazole（黴菌）、vancomycin（MRSA）、imipenem 打不到細胞內的 Legionella"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 104 年）：62 歲乳癌病人化療後嗜中性球低下發燒，血液培養長綠膿桿菌",
+          "text": "1. **嗜中性球低下發燒** → 一開始就要蓋**綠膿桿菌**\n2. **哪些頭孢打得到綠膿桿菌**：**ceftazidime**、cefepime\n3. **排除**：cefazolin（第一代）、cefuroxime（第二代）、ceftriaxone（第三代但不打綠膿桿菌）\n4. **答案**：**ceftazidime**；其他可選 piperacillin-tazobactam、imipenem、meropenem（不是 ertapenem）"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "作用機轉（§作用機轉）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：下列有關抗生素的主要抑制機轉配對，何者最不適當？（A 盤尼西林 — 細胞壁合成 B 四環黴素 — 蛋白質合成 C 巨環素（macrolide）— DNA 合成 D 磺胺類 — 葉酸合成）（FC 113 年）",
+          "text": "**答：(C)。** FC 詳解：macrolide 的作用機轉是抑制蛋白質合成。"
+        },
+        {
+          "type": "heading",
+          "text": "β-lactam 家族（§β-lactam 家族）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：下列關於 cephalosporin 用於治療細菌感染之敘述，何者正確？（A 第一代 cephalosporin 可治療沙門氏桿菌感染 B 第二代 cephalosporin 可治療腸球菌感染 C 第三代 cephalosporin 可治療克雷伯氏桿菌腦膜炎 D 第三代 cephalosporin 可治療李斯特菌腦膜炎）（FC 105 年）",
+          "text": "**答：(C)。** 第三代能進中樞且打革蘭氏陰性桿菌；所有頭孢都打不到腸球菌與 Listeria。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：下列哪一種抗生素較不適合用來治療綠膿桿菌（Pseudomonas aeruginosa）的感染？（A ceftazidime B aztreonam C ertapenem D ciprofloxacin）（FC 107 年）",
+          "text": "**答：(C)。** FC 講義：ertapenem 對綠膿桿菌與 Acinetobacter 無效。"
+        },
+        {
+          "type": "heading",
+          "text": "抗藥菌（§抗藥菌）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：60 歲男性已接受血液透析 10 年，此次因發燒、喘及胸部 X 光診斷為肺炎，住院後痰液培養為 methicillin-resistant Staphylococcus aureus（MRSA），則可能的抗生素治療中，下列何者不宜？（A vancomycin B teicoplanin C linezolid D oxacillin）（FC 112 年）",
+          "text": "**答：(D)。** MRSA 對 oxacillin 等 β-lactam 抗藥。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：Extended-spectrum β-lactamase（ESBL）可以水解下列哪些 β-lactam 類抗生素，而使其失效？① cefotaxime（第三代頭孢）② aztreonam（monobactam）③ ertapenem（carbapenem）（A ①② B ②③ C ①③ D ①②③）（FC 111 年）",
+          "text": "**答：(A)。** ESBL 可分解第三代頭孢與 aztreonam；carbapenem 一般不被 ESBL 分解（Harrison）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：78 歲女性有高血壓、慢性腎功能不全、陳舊性中風，長期使用導尿管、住在慢性養護機構；因高燒兩天、消化不佳、解黑便及意識不清住院。血液和尿液培養皆長出 ESBL 大腸桿菌，下列抗生素藥物治療及投與途徑，何者最適合用於治療初期？（A oral cephalexin B intravenous cefotaxime C intravenous ertapenem D intramuscular gentamicin）（FC 106 年）",
+          "text": "**答：(C)。** ESBL 菌血症 → IV carbapenem。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：62 歲女性乳癌病人，因化學治療後嗜中性白血球低下發燒住院，後來血液培養長出綠膿桿菌，選用何者抗生素治療最適當？（A cefazolin（第一代）B cefuroxime（第二代）C ceftazidime（第三代）D ceftriaxone（第三代））（FC 104 年）",
+          "text": "**答：(C)。** 頭孢之中打綠膿桿菌的是 ceftazidime 與 cefepime。"
+        },
+        {
+          "type": "heading",
+          "text": "非 β-lactam（§非 β-lactam）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：下列關於氟喹諾酮類抗生素（quinolone，如 ciprofloxacin、levofloxacin）的敘述，何者正確？（A 是抑菌而不是殺菌型藥物 B 對淋病球菌（Neisseria gonorrhoeae）抗藥性增加，不建議做為第一線治療藥物 C 主要是由膽汁排泄清除，腎衰竭病人不需調整劑量 D 由於對綠膿桿菌的殺菌作用不佳，發燒和中性顆粒細胞減少症病人不適用）（FC 108 年）",
+          "text": "**答：(B)。** FQ 是殺菌型、主要經腎臟排除（腎衰竭要調劑量），ciprofloxacin 對綠膿桿菌有效。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：造血幹細胞移植後使用 trimethoprim-sulfamethoxazole（TMP-SMX）預防，可以減少的致病原感染，下列何者最不適當？（A Listeria monocytogenes B Nocardia spp. C Streptococcus pneumoniae D Neisseria meningitidis）（FC 112 年）",
+          "text": "**答：(D)。** FC 詳解：TMP-SMX 對 Neisseria meningitidis 的效果有限。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：60 歲男性長期抽菸，有 40 年慢性 B 型肝炎及慢性支氣管炎，因食慾不佳及黃疸住院，診斷為慢性 B 型肝炎急性惡化。入院 15 天後突發高燒 39°C、輕微腹瀉、呼吸困難，白血球 26,700/mm³、低血鈉（130），室內空氣下血氧飽和度下降，立即插管接呼吸器，胸部 X 光右下肺葉大葉性肺炎。氣管內管抽出黃白色痰液，Gram 染色見眾多多核白血球，但沒有鱗狀上皮細胞、細菌或其他微生物；抗酸染色陰性。下列何種抗生素為最適當之治療選擇？（A ciprofloxacin B fluconazole C imipenem/cilastatin D vancomycin）（FC 107 年）",
+          "text": "**答：(A)。** 院內肺炎合併腹瀉、低血鈉，痰液很多白血球卻看不到細菌 → 想 Legionella；Harrison：治療用 macrolide 或 FQ。FC 沒有附詳解。"
+        },
+        {
+          "type": "heading",
+          "text": "經驗用藥（§經驗用藥）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：對於年紀 3 個月以下嬰兒、55 歲以上民眾及細胞媒介免疫缺損病人感染細菌性腦膜炎時，要考慮針對革蘭氏陽性桿菌 Listeria monocytogenes 的治療，應以下列何種藥物為首選？（A ceftriaxone B ampicillin C vancomycin D ciprofloxacin）（FC 112 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：52 歲女性糖尿病病人，診斷為 Klebsiella pneumoniae 菌血症合併眼內炎（endophthalmitis）及腦膜炎，選用何者抗生素治療相對最適當？（A cefazolin（第一代）B cefuroxime（第二代）C ceftriaxone（第三代）D aminoglycosides）（FC 103 年）",
+          "text": "**答：(C)。** 第三代頭孢能進入中樞；aminoglycoside 不易進入中樞。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：80 歲病人有慢性 C 型肝炎相關的肝硬化，因為腹痛、腹瀉和發燒住院；住院後血壓低、有黃疸，糞便和血液培養均長出 Campylobacter jejuni。在藥物敏感試驗報告出來前，下列何者是最適當的抗生素治療？（A trimethoprim-sulfamethoxazole B metronidazole C ampicillin D carbapenem）（FC 113 年）",
+          "text": "**答：(D)。** FC 詳解：Campylobacter jejuni 是革蘭氏陰性菌，ampicillin 與 carbapenem 都可能有效，但 ampicillin 抗藥性普遍，病情嚴重時首選 carbapenem。"
+        },
+        {
+          "type": "heading",
+          "text": "宿主因素與副作用（§宿主因素）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：下列何種抗生素懷孕婦女應避免使用？（A azithromycin B clindamycin C erythromycin D tetracycline）（FC 113 年）",
+          "text": "**答：(D)。** FC 詳解：tetracycline 可穿過胎盤累積在胎兒骨骼和牙齒，造成牙齒永久性黃染、牙釉質發育不良與骨骼生長受抑制；妊娠晚期使用可能引起孕婦肝毒性。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：下列有關各項抗生素常見不良藥物反應之敘述，何項最不適當？（A clindamycin — 腹瀉 B gentamicin — 腎毒性 C linezolid — 皮疹 D vancomycin — 紅人症候群）（FC 106 年）",
+          "text": "**答：本題一律給分（FC）。** 原意是 (C)：linezolid 的招牌副作用是骨髓抑制。"
+        },
+        {
+          "type": "heading",
+          "text": "抗生素管理與 C. difficile（§抗生素管理）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：有關抗生素的使用，下列敘述何者錯誤？（A 不當的使用抗生素會增加細菌抗藥性的產生，以及巨大的醫療浪費 B 不當的使用抗生素會增加病患的死亡率及副作用 C 抗生素之選用必須依病人年齡、免疫情況、代謝情況、營養情況、水和電解質平衡、肝和腎功能、病情嚴重程度等而調整 D 抗生素藥物劑量濃度高低與細菌是否產生抗藥性無關）（FC 106 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q17：下列有關 Clostridium difficile 及其導致之腹瀉疾病之敘述，何者錯誤？（A 健康新生兒無症狀腸道帶菌並不罕見 B 通常為醫療照護相關之感染 C 抗微生物製劑的使用是誘發本疾病的主因 D 治療後的復發率常低於 5%）（FC 107 年）",
+          "text": "**答：(D)。** FC 詳解：復發率常見約 20–30%；Harrison：約 15–30%。"
+        },
+        {
+          "type": "heading",
+          "text": "感染管制（§感染管制）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q18：有關中心靜脈導管相關血流感染之預防措施組合（bundle），包括下列哪些項目：① 參與導管及置放照護人員需接受教育訓練 ② 中心導管置入時使用最大無菌面防護（maximal barrier precaution）③ 皮膚消毒使用含有 chlorhexidine 的抗菌液 ④ 常規每兩週更換中心靜脈導管（A ①②③④ B 僅①②③ C 僅③④ D 僅①②④）（FC 112 年）",
+          "text": "**答：(B)。** FC 詳解：常規頻繁更換中心靜脈導管反而可能增加感染風險。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q19：臨床上中央靜脈導管常使用於輸液注射與藥物給與，但必須預防併發導管相關的血流感染。此病原菌感染最常見的來源是：（A 經由皮膚置入導管部位的汙染 B 製備注射藥物的汙染 C 由其他部位菌血症引起的細菌植入 D 製造輸液過程中的汙染）（FC 108 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q20：關於醫療人員手部衛生（濕洗手或以酒精乾洗手）時機之敘述，下列何者錯誤？① 醫師查房時手未碰觸病人，僅碰觸病人床欄，離開病室不用洗手 ② 輸送人員到病房接病人至檢查室、協助病人從床上移至輪椅，不用洗手 ③ 加護病房護理人員倒第一床病人的尿壺時因有戴手套且未碰到病人床，再倒第二床之間都不洗手 ④ 護理人員在準備藥物或是協助病人清潔身體前不洗手 ⑤ 呼吸照護病房護理人員準備替病人導尿，將圍簾拉起，乾洗手後再幫病人導尿（A 僅①②③④ B 僅②③⑤ C 僅①④⑤ D ①②③④⑤）（FC 112 年）",
+          "text": "**答：(A)。** FC 詳解：五大時機是接觸病人前、執行無菌操作前、接觸體液後、接觸病人後、接觸病人周邊環境後；①–④ 都違反，⑤ 正確。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q21：醫療人員在照顧不同病人之間執行手部衛生，下列何種情境不適合單獨使用酒精性乾洗手液？① 手部有明顯髒汙（visibly soiled）② 照護困難梭狀桿菌（C. difficile）患者後 ③ 要置放導尿管之前 ④ 照護新型冠狀病毒患者（COVID-19）之前（A 僅①② B 僅②③ C 僅②④ D ①②③④）（FC 111 年）",
+          "text": "**答：(A)（FC：答 (A) 或 (B) 均給分）。**手部明顯髒汙（汙垢會降低酒精效果）與照護 C. difficile 患者後（芽孢對酒精有抵抗力）應使用肥皂和清水洗手。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q22：有關世界衛生組織（WHO）與臺灣衛生福利部疾病管制署推動之手部衛生運動中，所謂洗手 5 時機，包括下列哪些情形？① 幫病人做身體檢查前 ② 只接觸病人身體體表之一般檢查之後 ③ 預期接觸到病人血液或體液才須洗手 ④ 執行侵入性檢查戴無菌手套之前 ⑤ 進入病人房間，只觸碰到床欄桿就離開病人房間（A ①②③④⑤ B 僅①②④⑤ C 僅①③④ D 僅②③⑤）（FC 103 年）",
+          "text": "**答：(B)。** FC 詳解：洗手五時機 = 接觸病人前、執行清潔或無菌操作前、暴觸病人體液風險後、接觸病人後、接觸病人周遭環境後。③ 錯在「預期才洗」：只要有體液暴露風險後就要洗。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "機轉",
+              "細胞壁：β-lactam、vancomycin；蛋白質：macrolide、tetracycline、aminoglycoside、clindamycin、linezolid；DNA：FQ；葉酸：TMP-SMX"
+            ],
+            [
+              "頭孢",
+              "一代 MSSA；三代 ceftriaxone 進中樞；ceftazidime、cefepime 打綠膿；五代 ceftaroline 打 MRSA；都打不到 Listeria、腸球菌"
+            ],
+            [
+              "Carbapenem",
+              "ESBL 首選；ertapenem 不打綠膿、Acinetobacter"
+            ],
+            [
+              "MRSA",
+              "vancomycin、teicoplanin、linezolid；oxacillin 不行"
+            ],
+            [
+              "ESBL",
+              "分解一到四代頭孢與 aztreonam → carbapenem"
+            ],
+            [
+              "Listeria",
+              "ampicillin（< 3 個月、> 55 歲、細胞免疫缺損的腦膜炎要加）"
+            ],
+            [
+              "Legionella",
+              "院內肺炎 + 腹瀉 + 低血鈉 → FQ 或 macrolide"
+            ],
+            [
+              "FQ",
+              "殺菌、腎排除；淋病抗藥；QTc、肌腱；孕婦避免"
+            ],
+            [
+              "懷孕避免",
+              "tetracycline、FQ"
+            ],
+            [
+              "副作用",
+              "vancomycin 紅人；aminoglycoside 腎耳毒；clindamycin 腹瀉；linezolid 骨髓抑制"
+            ],
+            [
+              "C. difficile",
+              "抗生素誘發；復發 15–30%；fidaxomicin 或口服 vancomycin；肥皂洗手"
+            ],
+            [
+              "手部衛生",
+              "5 時機；髒汙、C. difficile → 肥皂和水"
+            ],
+            [
+              "中心導管",
+              "最大無菌面、chlorhexidine、盡早拔、不定期更換；感染來源多為置入處皮膚"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

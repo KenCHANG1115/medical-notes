@@ -258,6 +258,10 @@
         {
           "id": "fever-exposure-zoonoses",
           "name": "Fever and Exposure History (發燒與暴露史：人畜共通、蟲媒與旅遊感染)"
+        },
+        {
+          "id": "antibiotics-infection-control",
+          "name": "Antibiotics and Infection Control (抗生素與感染管制)"
         }
       ]
     },
