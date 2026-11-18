@@ -1,0 +1,491 @@
+{
+  "id": "viral-infections-antivirals",
+  "title": "Viral Infections and Antivirals (病毒感染與抗病毒藥)",
+  "title_en": "Viral Infections and Antivirals",
+  "title_zh": "病毒感染與抗病毒藥",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.196 Antiviral Chemotherapy; Ch.198 VZV; Ch.199 EBV; Ch.202 Parvovirus; Ch.205 SARS-CoV-2 and COVID-19; Ch.206 Influenza; Ch.211 Measles; Ch.212 Rubella",
+    "First Choice 醫學(三) 第3冊 - 辛、病毒學（講義 p.279–313；題目 p.301、306–308、313–314），本篇共 9 題",
+    "CDC — Flu Vaccines and People with Egg Allergies（📌 2023–24 季起蛋過敏者可接種）"
+  ],
+  "generated": "2026-11-19",
+  "updated": "2026-11-19",
+  "related": [
+    {
+      "id": "hiv-fundamentals-diagnosis",
+      "name": "HIV/AIDS (一)：基礎與診斷"
+    },
+    {
+      "id": "hiv-opportunistic-infections",
+      "name": "HIV/AIDS (二)：伺機性感染與併發症"
+    },
+    {
+      "id": "fever-exposure-zoonoses",
+      "name": "Fever and Exposure History (發燒與暴露史：人畜共通、蟲媒與旅遊感染)"
+    },
+    {
+      "id": "skin-soft-tissue-bone-joint",
+      "name": "Skin, Soft Tissue, Bone and Joint Infections (軟組織、骨與關節感染)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 9 題｜最常考：流感的診斷與疫苗、麻疹\n1. **呼吸道症狀**：流感快篩敏感度低（50–70%），**陰性不能排除** → 48 小時內給抗病毒藥；COVID-19 造成**第一型（低血氧）呼吸衰竭**、ARDS；SARS 要特殊隔離\n2. **發燒合併出疹**：麻疹前驅期**發燒、鼻炎、結膜炎、咳嗽** → **Koplik 斑先出現**、約 2 天後出疹、由頭往下；再鑑別德國麻疹、第五病、水痘、手足口病\n3. **像單核球增多症**（發燒、咽痛、淋巴結腫大、非典型淋巴球）→ 鑑別 **EBV、CMV、急性 HIV**\n4. **疱疹病毒家族**：HSV、VZV、EBV、CMV、HHV-8；感染後**潛伏、可再活化**\n5. **抗病毒藥**：acyclovir → HSV、VZV（腎結晶）；ganciclovir → CMV（**骨髓抑制**）；foscarnet（**腎毒性**）；抗流感藥是 neuraminidase 抑制劑，**acyclovir 不是**\n新版來源：Harrison 22e Ch.196–206、211–212；📌 CDC：蛋過敏者可以接種流感疫苗（2023–24 季起）"
+        }
+      ]
+    },
+    {
+      "title": "流感：診斷、治療與疫苗　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 流感病毒是 **RNA 病毒**；**飛沫與接觸傳染**；免疫缺損者與兒童排毒期較長\n- **快篩敏感度只有 50–70% → 陰性不能排除**；臨床高度懷疑 → PCR 或直接給抗病毒藥\n- 抗病毒藥：**neuraminidase 抑制劑**——**oseltamivir（口服）、zanamivir（吸入）、peramivir（靜脈）**；**症狀 48 小時內**給效果最好；**acyclovir 不是抗流感藥**\n- Zanamivir 是吸入劑 → **氣喘、COPD 相對禁忌**\n- 注射型疫苗：**肌肉注射**、**6 個月以下不打**；**孕婦、免疫不全者是建議施打的對象，不是禁忌**\n- 📌 蛋過敏：現行 CDC 建議**可以打**（FC 舊題仍當禁忌）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **和 FC 不同的現行建議：蛋過敏也可以打流感疫苗**\n- CDC：**2023–24 流感季起**，蛋過敏者**不論過去反應多嚴重**，都可以接種任何適合年齡與健康狀態的流感疫苗（雞蛋培養或非雞蛋培養皆可），**不需要額外的防護措施**\n- 所有疫苗本來就該在能即時處理過敏反應的地方施打\n- 真正的禁忌：**對疫苗其他成分或曾對流感疫苗嚴重過敏**\n- FC 103 年題目把「對蛋過敏者不予接種」當成正確敘述 → 作答照 FC，臨床照現行建議"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：流感疫苗建議優先施打的族群（Harrison）",
+          "text": "- 6 個月以上的所有人每年施打\n- 高風險：老人、慢性病、免疫抑制（含 HIV）、**流感季懷孕或準備懷孕的女性**、長期服用 aspirin 的兒童與青少年（Reye 症候群）\n- 住院的流感病人：不論症狀多久都應開始抗病毒藥"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "辛、病毒學 IV 呼吸道病毒 講義 p.302–305、題目 p.306、314"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1546–1550（Ch.206 Influenza）"
+        },
+        {
+          "type": "source",
+          "book": "CDC〈Flu Vaccines and People with Egg Allergies〉（cdc.gov，2024-09-17 版）",
+          "pages": "2023–24 季起蛋過敏者不需額外防護"
+        }
+      ]
+    },
+    {
+      "title": "COVID-19、SARS 與呼吸道病毒的隔離　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **COVID-19 呼吸衰竭是第一型（低血氧）**：二氧化碳正常或偏低；第二型（高碳酸）是 COPD、神經肌肉疾病\n- 重症：**ARDS**、肺泡充滿液體與發炎物質，常需呼吸器\n- 門診抗病毒藥：**nirmatrelvir-ritonavir**（症狀 5 天內；注意 ritonavir 的藥物交互作用）；替代 remdesivir（靜脈 3 天）\n- 住院需氧：**dexamethasone**；嚴重者可加 IL-6 抑制劑（tocilizumab）或 JAK 抑制劑（baricitinib），兩者擇一\n- **SARS：沒有有效的抗病毒藥，且要特殊隔離**（侵入性呼吸道處置會產生飛沫核）\n- 對比：炭疽不人傳人、漢生病傳染力低、**流感是飛沫傳染 → 一般隔離即可，不需負壓**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：COVID-19 藥物的版本提醒（FC 講義、Harrison）",
+          "text": "- 單株抗體（如 bamlanivimab + etesevimab）對後來的變異株效果不佳，FC 講義仍列出；**以最新指引為準**\n- Harrison 22e（2024 年底資料）：門診以 nirmatrelvir-ritonavir 為主；不常規給抗生素\n- 長新冠、MIS-C、血栓等併發症見 FC 講義"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "辛、病毒學 IV 講義 p.291–301、題目 p.301、306"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1542–1543（Ch.205 SARS-CoV-2 and COVID-19）"
+        }
+      ]
+    },
+    {
+      "title": "發燒出疹：麻疹與其他出疹性病毒　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **麻疹**：RNA 病毒；**飛沫傳染**（也可接觸）\n- 前驅期 **3C + 發燒**：咳嗽、鼻炎、結膜炎，症狀約 4 天越來越重\n- **Koplik 斑在出疹前約 2 天**出現於頰黏膜（對著下臼齒），是**麻疹特有**\n- 紅疹從**頭部往下**到軀幹四肢\n- 「Koplik 斑和紅疹在發病 2–4 天後一起出現」是錯的 → **Koplik 斑先出現**\n- 治療：支持療法 + **維生素 A**；**MMR 疫苗**預防麻疹、腮腺炎、德國麻疹"
+        },
+        {
+          "type": "heading",
+          "text": "常考的出疹性病毒"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "疾病",
+            "病毒",
+            "典型表現",
+            "重點"
+          ],
+          "rows": [
+            [
+              "**麻疹**",
+              "麻疹病毒（RNA，副黏液病毒）",
+              "前驅期**發燒、鼻炎、結膜炎、咳嗽** 3–4 天 → **Koplik 斑**（頰黏膜藍白小點，約出疹前 2 天）→ 紅疹**由頭往下**",
+              "飛沫、接觸；支持療法 + **維生素 A**；MMR 疫苗"
+            ],
+            [
+              "德國麻疹",
+              "Rubella（RNA）",
+              "輕微發燒、淋巴結腫大；紅疹由臉往下、約 3 天",
+              "**孕婦第一孕期感染 → 先天德國麻疹**（開放性動脈導管、白內障、耳聾、小頭）"
+            ],
+            [
+              "第五病（感染性紅斑）",
+              "**Parvovirus B19**（DNA）",
+              "**拍紅臉頰**；成人關節痛或關節炎",
+              "溶血性貧血者 → **暫時性再生不良危機**；胎兒水腫"
+            ],
+            [
+              "水痘",
+              "VZV",
+              "**露珠狀水泡**、不同時期病灶並存",
+              "傳染力極強（家人二次發病 70–90%）；出疹前約 2 天到全部結痂都會傳染"
+            ],
+            [
+              "手足口病",
+              "腸病毒（克沙奇）",
+              "小孩手、腳、口腔小水泡",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "辛、病毒學 II、IV 講義 p.281、286、308、題目 p.308"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1640–1641（Ch.211 Measles）；1643（Ch.212 Rubella）；1522–1523（Ch.202 Parvovirus）；1505（Ch.198 VZV）"
+        }
+      ]
+    },
+    {
+      "title": "單核球增多症樣表現：EBV、CMV、急性 HIV　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **感染性單核球增多症**：**發燒、咽痛、淋巴結腫大 + 非典型淋巴球增多**（EBV，heterophile 抗體陽性）\n- EBV 在年輕成人的**潛伏期約 4–6 週**（不是 5–10 天）\n- 類單核球增多症的病原：**EBV、CMV、急性 HIV**（還有弓漿蟲）→ 要驗 **EBV VCA IgM、CMV IgM、HIV**\n- 有高風險性行為史的類單核球症狀 → 一定要想**急性 HIV**（見〈HIV（一）〉）\n- 麻疹的前驅期是咳嗽、鼻炎、結膜炎，不是這個樣子 → measles IgM 最不需要"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "病原",
+            "線索",
+            "檢驗"
+          ],
+          "rows": [
+            [
+              "**EBV**",
+              "年輕人、發燒、咽痛、淋巴結腫大、脾腫大",
+              "heterophile 抗體、**VCA IgM**"
+            ],
+            [
+              "CMV",
+              "咽炎與淋巴結較不明顯",
+              "CMV IgM"
+            ],
+            [
+              "**急性 HIV**",
+              "高風險性行為後 3–6 週、皮疹、黏膜潰瘍",
+              "第四代篩檢 + **HIV RNA**"
+            ],
+            [
+              "弓漿蟲",
+              "貓、生肉；頸部淋巴結",
+              "IgM、IgG"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "辛、病毒學 題目 p.307"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1508–1509（Ch.199 EBV：定義、潛伏期）"
+        }
+      ]
+    },
+    {
+      "title": "疱疹病毒家族與抗病毒藥　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 疱疹病毒（HSV、VZV、EBV、CMV、HHV-8）都會**潛伏在宿主體內、可以再活化**\n- 水痘傳染力極強：易感者暴露後感染率至少 90%、家中二次發病 70–90%\n- 感染性單核球增多症**最常見症狀是發燒、咽痛、淋巴結腫大**\n- **Acyclovir**：HSV、VZV；**IV 給藥、脫水 → 腎小管結晶**\n- **Ganciclovir**：CMV 首選；**骨髓抑制**（使用約 1 週後嗜中性球、血小板低下）\n- **Foscarnet**：抗藥的 CMV、HSV、VZV；**腎毒性**"
+        },
+        {
+          "type": "heading",
+          "text": "疱疹病毒家族"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "病毒",
+            "初次感染",
+            "潛伏與再活化",
+            "治療"
+          ],
+          "rows": [
+            [
+              "HSV-1",
+              "齒齦口炎",
+              "三叉神經節 → **唇疱疹**；**HSV 腦炎**",
+              "acyclovir、valacyclovir"
+            ],
+            [
+              "HSV-2",
+              "生殖器疱疹",
+              "薦部神經節 → 反覆生殖器疱疹",
+              "acyclovir、valacyclovir"
+            ],
+            [
+              "VZV",
+              "**水痘**",
+              "背根神經節 → **帶狀疱疹**",
+              "acyclovir、valacyclovir；帶狀疱疹疫苗"
+            ],
+            [
+              "EBV",
+              "**感染性單核球增多症**",
+              "B 細胞；鼻咽癌、Burkitt 淋巴瘤、口腔毛狀白斑",
+              "支持療法"
+            ],
+            [
+              "CMV",
+              "類單核球增多症；先天感染",
+              "移植、AIDS → 視網膜炎、大腸炎、肺炎",
+              "**ganciclovir**（抗藥 → foscarnet）"
+            ],
+            [
+              "HHV-8",
+              "—",
+              "**Kaposi 肉瘤**、原發性積液淋巴瘤",
+              "ART、化療"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "抗病毒藥（Harrison Ch.196、FC 講義）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物",
+            "對象",
+            "機轉",
+            "招牌副作用"
+          ],
+          "rows": [
+            [
+              "**Acyclovir**、valacyclovir（前驅藥）",
+              "HSV、VZV",
+              "抑制病毒 DNA 聚合酶（需病毒胸苷激酶活化）",
+              "**IV 時在腎小管結晶 → 腎損傷**（脫水時）；中樞神經副作用"
+            ],
+            [
+              "**Ganciclovir**、valganciclovir",
+              "**CMV**",
+              "同上",
+              "**嗜中性球與血小板低下（骨髓抑制）**"
+            ],
+            [
+              "**Foscarnet**",
+              "抗藥的 CMV、HSV、VZV",
+              "直接抑制 DNA 聚合酶",
+              "**腎毒性**（約 1/3）、電解質異常 → 給藥前後補充生理食鹽水"
+            ],
+            [
+              "Oseltamivir、zanamivir、peramivir",
+              "流感 A、B",
+              "neuraminidase 抑制劑",
+              "腸胃不適；zanamivir 吸入 → 支氣管痙攣"
+            ],
+            [
+              "Nirmatrelvir-ritonavir",
+              "COVID-19",
+              "蛋白酶抑制劑",
+              "ritonavir 的 **CYP3A4 交互作用**"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "辛、病毒學 II、VI 講義 p.281–284、312–313、題目 p.313"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1485–1486（Ch.196 Antiviral Chemotherapy）；1505（Ch.198 VZV 傳染力）"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        "以下用本篇的 **FC 原題**示範推理順序（題目在〈考題練習〉，這裡只拆解思考步驟）。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 106 年）：1 歲女嬰發燒、咳嗽、流鼻水、結膜炎，發燒 3–4 天後口腔出現 Koplik 斑",
+          "text": "1. **前驅期組合**：發燒 + **咳嗽、鼻炎、結膜炎** → 想麻疹\n2. **招牌線索**：頰黏膜藍白小點 = **Koplik 斑** → 麻疹特有，出現在出疹前約 2 天\n3. **預期接下來**：紅疹由頭部往下擴散到軀幹四肢\n4. **鑑別**：嬰兒玫瑰疹（HHV-6，發燒之後才出疹）、猩紅熱、川崎氏症都沒有 Koplik 斑\n5. **處置**：支持療法 + 維生素 A；注意細菌感染、腦炎等併發症；隔離\n6. **預防**：MMR 疫苗"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 103 年）：20 歲大學生發燒 10 天、咽痛、頸部與腹股溝淋巴結腫大、軀幹斑丘疹，非典型淋巴球 5%",
+          "text": "1. **症狀組合**：發燒 + 咽痛 + 淋巴結腫大 + 非典型淋巴球 → **類單核球增多症**\n2. **鑑別病原**：**EBV、CMV、急性 HIV**（加上弓漿蟲）\n3. **要驗**：EBV VCA IgM、CMV IgM、HIV（急性期要驗 HIV RNA）\n4. **最不需要**：measles IgM——麻疹前驅期是咳嗽、鼻炎、結膜炎，不是淋巴結腫大與非典型淋巴球\n5. **別忘了問**：性行為史（急性 HIV）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 112 年）：流感季，病人發燒、肌肉痛、咳嗽，流感快篩陰性",
+          "text": "1. **快篩敏感度只有 50–70%** → 陰性**不能排除**流感\n2. **臨床高度懷疑**（典型症狀 + 流行季）→ PCR 確認，或直接開始抗病毒藥\n3. **時間**：症狀 **48 小時內**效果最好；住院或高風險者不論多久都給\n4. **選藥**：oseltamivir（口服）；氣喘、COPD 避免吸入型 zanamivir\n5. **隔離**：飛沫傳染 → 一般隔離即可，不需負壓"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "流感（§流感）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：下列有關流感之敘述，何者錯誤？（A 流行性感冒病毒屬於 RNA 病毒 B 主要傳播方式是透過飛沫傳染與接觸傳染 C 免疫缺損病人及兒童可傳染期較成人病例為長 D 流感快篩陰性，即可排除流感）（FC 112 年）",
+          "text": "**答：(D)。** FC 詳解：快篩敏感度相對較低（通常 50–70%），陰性不能完全排除；臨床高度懷疑時應做 PCR，或依臨床表現開始抗病毒治療。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：下列何者不是抗流感病毒藥物？（A acyclovir（Zovirax）B oseltamivir（Tamiflu）C peramivir（Rapiacta）D zanamivir（Relenza））（FC 105 年）",
+          "text": "**答：(A)。** Acyclovir 治療 HSV、VZV。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：下列有關注射型流感疫苗之敘述，何者錯誤？（A 採肌肉注射 B 年齡 6 個月以下者，不予接種 C 孕婦及免疫不全病人屬於禁忌，不應接種 D 已知對「蛋」之蛋白質過敏者，不予接種）（FC 103 年）",
+          "text": "**答：(C)。** 孕婦與免疫不全者是建議接種的對象。📌 (D) 是 FC 當年視為正確的敘述；CDC 自 2023–24 季起已改為蛋過敏者也可接種，不需額外防護。"
+        },
+        {
+          "type": "heading",
+          "text": "COVID-19 與 SARS（§COVID-19）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：下列何者不是 COVID-19 肺部感染的特徵？（A COVID-19 引起的呼吸衰竭主要是第二型呼吸衰竭（type II respiratory failure）B COVID-19 可以造成急性呼吸窘迫症候群 C COVID-19 引起的呼吸衰竭，通常需要呼吸器來幫忙維持足夠的血氧濃度 D 嚴重感染 COVID-19 時，肺泡充滿了液體，內含有許多的發炎物質）（FC 111 年）",
+          "text": "**答：(A)。** FC 詳解：COVID-19 通常造成第一型呼吸衰竭（低血氧、二氧化碳正常或偏低），是肺泡氣體交換受損；第二型（高碳酸）多見於 COPD 或神經肌肉疾病。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：下列哪一個致病菌目前沒有有效的抗微生物製劑治療，且必須進行特殊隔離，以免傳播給其他人？（A 嚴重急性呼吸道症候群（SARS）B 炭疽病（anthrax）C 漢生病（Hansen's disease）D 流行性感冒）（FC 107 年）",
+          "text": "**答：(A)。** FC 詳解：SARS 以飛沫傳染為主，但侵入性呼吸道處置可能產生飛沫核懸浮於空氣中；炭疽不會人傳人；漢生病傳染力低；流感是飛沫傳染、唾液乾後即無傳染力，一般自主隔離即可，不須負壓隔離。"
+        },
+        {
+          "type": "heading",
+          "text": "麻疹（§發燒出疹）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：1 歲大女嬰出現發燒、咳嗽、流鼻水及結膜炎，發燒後 3~4 天口腔出現柯氏斑點（Koplik's spots），最有可能診斷為何？（A 嬰兒玫瑰疹 B 猩紅熱 C 川崎氏症 D 麻疹）（FC 106 年）",
+          "text": "**答：(D)。** 前驅期咳嗽、鼻炎、結膜炎 + Koplik 斑是麻疹特有。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：下列有關麻疹的敘述，何者錯誤？（A 麻疹病毒是一種 RNA 病毒，主要藉由飛沫傳染，亦可經由接觸傳染 B 發病初期的症狀以發燒、鼻炎、結膜炎以及咳嗽為主 C 發病 2 至 4 天後，皮膚上會出現柯氏斑點（Koplik's spots）以及紅疹，由頭部向下移至軀幹 D 施打 MMR 疫苗可以用來預防麻疹、流行性腮腺炎以及德國麻疹）（FC 104 年）",
+          "text": "**答：(C)。** Koplik 斑在頰黏膜，約在出疹前 2 天出現，不是和紅疹一起出現在皮膚上（Harrison）。"
+        },
+        {
+          "type": "heading",
+          "text": "單核球增多症樣表現（§單核球增多症）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：20 歲男性大學生持續發燒 10 天，合併頭痛、肌肉疼痛及咽喉疼痛，家人同學沒有類似症狀。身體檢查有頸部和鼠蹊淋巴腺腫大及軀幹斑丘疹。白血球 4,200/μL（多核球 35%、淋巴球 45%、單核球 15%、非典型淋巴球 5%），GOT 56、GPT 60 U/L、總膽紅素 1.0 mg/dL。請問最不需要選擇下列何種檢驗？（A HIV test B CMV IgM C EB VCA IgM D measles IgM）（FC 103 年）",
+          "text": "**答：(D)。** FC 詳解：感染性單核球增多症常見病原為 EBV、CMV、HIV。"
+        },
+        {
+          "type": "heading",
+          "text": "疱疹病毒（§疱疹病毒家族）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：下列有關疱疹相關病毒的敘述，何者正確？（A 免疫正常的人發生過皮膚性帶狀疱疹，大於 10% 會反覆發作 B 未接種水痘疫苗且未曾感染過水痘者，在接觸水痘病人後有小於 40% 會被感染 C 感染性單核細胞增多症的最常見症狀是發燒、喉嚨痛、淋巴結腫大 D 在年輕人，感染性單核細胞增多症的潛伏期為 5~10 天）（FC 109 年）",
+          "text": "**答：(C)。** Harrison：易感者接觸水痘後感染率至少 90%（家中二次發病 70–90%）；年輕成人單核球增多症的潛伏期約 4–6 週。FC 沒有附詳解。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "流感快篩",
+              "敏感度 50–70%，陰性不能排除"
+            ],
+            [
+              "抗流感藥",
+              "oseltamivir（口服）、zanamivir（吸入，氣喘 COPD 避免）、peramivir（靜脈）；48 小時內；acyclovir 不是"
+            ],
+            [
+              "流感疫苗",
+              "肌肉注射；6 個月以下不打；孕婦、免疫不全要打；📌 蛋過敏可打（CDC 2023–24）"
+            ],
+            [
+              "COVID-19",
+              "第一型呼吸衰竭、ARDS；門診 nirmatrelvir-ritonavir；住院需氧 dexamethasone"
+            ],
+            [
+              "隔離",
+              "SARS 特殊隔離；流感一般隔離；炭疽不人傳人"
+            ],
+            [
+              "麻疹",
+              "發燒 + 咳嗽、鼻炎、結膜炎 → Koplik 斑（出疹前 2 天）→ 由頭往下的紅疹；維生素 A；MMR"
+            ],
+            [
+              "德國麻疹",
+              "孕婦第一孕期 → 先天德國麻疹"
+            ],
+            [
+              "Parvovirus B19",
+              "拍紅臉頰；溶血性貧血者再生不良危機；胎兒水腫"
+            ],
+            [
+              "水痘",
+              "易感者暴露後 ≥ 90% 感染"
+            ],
+            [
+              "類單核球增多症",
+              "EBV、CMV、急性 HIV、弓漿蟲；EBV 潛伏期 4–6 週"
+            ],
+            [
+              "Acyclovir",
+              "HSV、VZV；IV 腎結晶"
+            ],
+            [
+              "Ganciclovir",
+              "CMV；骨髓抑制"
+            ],
+            [
+              "Foscarnet",
+              "抗藥 CMV、HSV；腎毒性"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

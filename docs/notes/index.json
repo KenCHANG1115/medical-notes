@@ -270,6 +270,10 @@
         {
           "id": "skin-soft-tissue-bone-joint",
           "name": "Skin, Soft Tissue, Bone and Joint Infections (軟組織、骨與關節感染)"
+        },
+        {
+          "id": "viral-infections-antivirals",
+          "name": "Viral Infections and Antivirals (病毒感染與抗病毒藥)"
         }
       ]
     },
