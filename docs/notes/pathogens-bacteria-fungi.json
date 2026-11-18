@@ -1,0 +1,530 @@
+{
+  "id": "pathogens-bacteria-fungi",
+  "title": "Pathogens: Bacteria and Fungi (病原體各論：從臨床線索認菌)",
+  "title_en": "Pathogens: Bacteria and Fungi",
+  "title_zh": "病原體各論：從臨床線索認菌",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.157 Tetanus; Ch.158 Botulism; Ch.164 Legionella; Ch.166 Gram-Negative Enteric Bacilli; Ch.179 Nocardiosis; Ch.180 Actinomycosis; Ch.217 Fungal Infections; Ch.223 Aspergillosis; Ch.224 Mucormycosis; Ch.371 Acute Rheumatic Fever",
+    "First Choice 醫學(三) 第3冊 - 己、依細菌分類的感染症（講義 p.214–236；題目 p.220–236）、丙（p.198）、癸、黴菌學（p.330–341）、子（p.351），本篇共 8 題"
+  ],
+  "generated": "2026-11-18",
+  "updated": "2026-11-18",
+  "related": [
+    {
+      "id": "valve-mitral-rheumatic",
+      "name": "Valvular Heart Disease (三)：風濕熱與二尖瓣疾病"
+    },
+    {
+      "id": "biliary-liver-abscess",
+      "name": "Biliary Disease & Liver Abscess (膽道疾病與肝膿瘍)"
+    },
+    {
+      "id": "hiv-opportunistic-infections",
+      "name": "HIV/AIDS (二)：伺機性感染與併發症"
+    },
+    {
+      "id": "antibiotics-infection-control",
+      "name": "Antibiotics and Infection Control (抗生素與感染管制)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 8 題｜最常考：肉毒與炭疽、急性風濕熱、Nocardia 與 Actinomyces、糖尿病人的侵襲性感染\n1. **毒素造成的症狀**：意識清楚的對稱性下行麻痺 → 肉毒；牙關緊閉、全身僵直但意識清楚 → 破傷風；草食動物接觸、縱膈腔變寬 → 炭疽\n2. **感染之後才出現**：A 群鏈球菌咽炎約 3 週後 → 急性風濕熱\n3. **分支絲狀的革蘭氏陽性桿菌**：Nocardia（弱抗酸、好氧、TMP-SMX）vs Actinomyces（厭氧、硫磺顆粒、penicillin + 清創）\n4. **糖尿病人的侵襲性感染**：克雷伯氏菌肝膿瘍合併眼內炎；鼻腔黑色分泌物 → 麴菌或白黴菌（看菌絲）\n5. **非典型肺炎**：Legionella 痰液很多白血球卻幾乎看不到菌 → macrolide 或 FQ\n新版來源：Harrison 22e（Ch.157、158、164、166、179、180、217、223、224、371）；炭疽依 FC 講義"
+        }
+      ]
+    },
+    {
+      "title": "毒素疾病：肉毒、破傷風、炭疽　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **肉毒**：抑制 acetylcholine 釋放 → **雙側腦神經麻痺（複視、吞嚥困難）+ 對稱性下行性弛緩性麻痺** → 呼吸衰竭；**意識清楚、不發燒、沒有感覺異常**（「神智不清」最不可能）\n- 成人吃到**自製罐頭**的毒素；**嬰兒吃蜂蜜**；治療重點是**維持呼吸 + 儘早給抗毒素**\n- **破傷風**：抑制 GABA、glycine 釋放 → **牙關緊閉**、全身僵直痙攣、**意識清楚**；破傷風免疫球蛋白 + 清創 + metronidazole\n- **炭疽（Bacillus anthracis）**：接觸草食動物；**吸入型 → 縱膈腔變寬、肋膜積液**；潛伏期 1–7 天（可長達 60 天）；**不會人傳人**\n- 炭疽暴露後預防：ciprofloxacin 或 doxycycline **60 天**（不是 14 天）"
+        },
+        {
+          "type": "heading",
+          "text": "肉毒 vs 破傷風"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "肉毒桿菌（C. botulinum）",
+            "破傷風桿菌（C. tetani）"
+          ],
+          "rows": [
+            [
+              "毒素作用",
+              "**抑制周邊神經末梢釋放 acetylcholine**",
+              "抑制脊髓**抑制性神經傳導物質（GABA、glycine）**釋放"
+            ],
+            [
+              "感染途徑",
+              "成人：**自製罐頭**等食物中的毒素；嬰兒：**蜂蜜**中的孢子在腸道產毒；傷口（注射藥癮者）",
+              "傷口"
+            ],
+            [
+              "表現",
+              "**雙側腦神經麻痺**（複視、眼瞼下垂、吞嚥困難）→ **對稱性下行性弛緩性麻痺** → 呼吸衰竭；瞳孔放大、口乾、便秘；**不發燒、沒有感覺異常、意識清楚**",
+              "**牙關緊閉**、苦笑面容 → 頸部與全身肌肉僵直、痙攣；喉部痙攣可致呼吸衰竭；**痙攣時意識清楚**"
+            ],
+            [
+              "治療",
+              "維持呼吸、**抗毒素**（要靠臨床診斷儘早給，實驗室確認需 ≥ 24 小時）",
+              "**破傷風免疫球蛋白**、清創、**metronidazole**（penicillin 為替代）、diazepam 控制痙攣"
+            ],
+            [
+              "預防",
+              "罐頭食物要煮熟；**1 歲以下不吃蜂蜜**",
+              "疫苗"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "炭疽的三種型態（FC 講義）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "型態",
+            "感染方式",
+            "表現"
+          ],
+          "rows": [
+            [
+              "皮膚型（最常見）",
+              "接觸草食動物（牛、羊、馬）與其製品",
+              "無痛的黑色焦痂"
+            ],
+            [
+              "**吸入型**（羊毛工人病）",
+              "吸入孢子",
+              "肺炎、發燒、休克；**縱膈腔出血性淋巴結炎 → X 光縱膈腔變寬、肋膜積液**；死亡率最高"
+            ],
+            [
+              "腸胃型",
+              "吃到受汙染的肉",
+              "腸胃道症狀"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他產孢革蘭氏陽性桿菌（FC 講義）",
+          "text": "- **Bacillus cereus**：嘔吐型（炒飯，耐熱毒素，< 6 小時）、腹瀉型（肉與醬汁，> 6 小時）\n- **Clostridium perfringens**：氣性壞疽（見之後〈軟組織感染〉）\n- **C. difficile**：偽膜性結腸炎（見〈抗生素與感染管制〉）\n- 炭疽重症治療：抗生素（ciprofloxacin + meropenem + linezolid）+ 抗毒素（raxibacumab、obiltoxaximab）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己、依細菌分類的感染症 II 革蘭氏陽性桿菌 講義 p.217–220、題目 p.221"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1230–1231（Ch.157 Tetanus）；1233–1236（Ch.158 Botulism）"
+        }
+      ]
+    },
+    {
+      "title": "A 群鏈球菌與急性風濕熱　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 由 **A 群鏈球菌（S. pyogenes）咽炎**引起，不是 B 群\n- 潛伏期：感染後約 **3 週（1–5 週）**；舞蹈症與慢性心肌炎可延後到 6 個月\n- **環狀紅斑、皮下結節現在很少見（< 5%）**\n- 進展到**風濕性心臟病**：FC 30–60%；Harrison 最多 75%；**二尖瓣幾乎都受影響**\n- 診斷用 Jones 準則；詳細內容見〈瓣膜性心臟病（三）〉"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼是咽炎之後才發病？**急性風濕熱不是細菌直接感染關節或心臟，而是對 A 群鏈球菌的**免疫反應**交叉攻擊自己的組織；免疫反應需要時間產生，所以有約 3 週的潛伏期，發病時咽炎通常已經好了。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 I 革蘭氏陽性球菌 講義 p.214–216、題目 p.220"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "2854–2856（Ch.371 Acute Rheumatic Fever）"
+        }
+      ]
+    },
+    {
+      "title": "分支絲狀菌：Nocardia vs Actinomyces　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 兩者都是**分支絲狀的革蘭氏陽性桿菌**（不是球菌、不是黴菌）\n- **Actinomyces**：**厭氧**、口腔腸胃道正常菌、**硫磺顆粒**是典型病理、**口腔頸部最常見**；**penicillin 長療程 + 清創**（1–2 週不夠）\n- **Nocardia**：**好氧**、**弱抗酸陽性**、土壤植物；細胞免疫缺損 → 肺、**腦膿瘍**；**TMP-SMX** 首選"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Actinomyces",
+            "Nocardia"
+          ],
+          "rows": [
+            [
+              "共同點",
+              "**分支絲狀的革蘭氏陽性桿菌**，常被誤以為是黴菌",
+              "同左"
+            ],
+            [
+              "氧氣",
+              "**厭氧**",
+              "**好氧**"
+            ],
+            [
+              "抗酸染色",
+              "陰性",
+              "**弱抗酸陽性**（細胞壁含 mycolic acid，像結核）"
+            ],
+            [
+              "來源",
+              "**口腔、腸胃道、女性生殖道的正常菌**",
+              "**土壤、植物**（吸入或皮膚被刺傷）"
+            ],
+            [
+              "表現",
+              "口腔頸部（顏面）最常見；硬如木頭的腫塊、廔管；**硫磺顆粒**",
+              "肺部、**腦膿瘍**（細胞免疫缺損者散播）；健康人可有皮膚淋巴型"
+            ],
+            [
+              "治療",
+              "**penicillin（長療程）+ 外科清創**",
+              "**TMP-SMX**（磺胺類）"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 II 革蘭氏陽性桿菌 講義 p.222–223、題目 p.223"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1358–1359（Ch.179 Nocardiosis）；1363（Ch.180 Actinomycosis）"
+        }
+      ]
+    },
+    {
+      "title": "克雷伯氏菌侵襲症候群：糖尿病、肝膿瘍、眼內炎　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **高毒力克雷伯氏菌**：在台灣等東亞常見；可讓**健康的社區病人**得到嚴重感染\n- 典型：**糖尿病** + 社區型**肝膿瘍** + 菌血症 → 轉移到**眼睛（眼內炎）**、腦（腦膜炎）\n- **感染源控制非常重要**（膿瘍引流）\n- 克雷伯氏菌菌血症要**找肝膿瘍和眼內炎，及早會診眼科**——等到有症狀通常來不及（FC 講義）\n- 抗生素：**第三代頭孢 ceftriaxone**（進得了眼與中樞）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "丙、腸胃道感染 講義 p.198；己 IV 革蘭氏陰性桿菌 題目 p.232"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1281–1282（Ch.166：高毒力 K. pneumoniae）"
+        }
+      ]
+    },
+    {
+      "title": "Legionella：住院或社區的非典型肺炎　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 存在於**水中**：**空調冷卻水塔**、供水系統 → 吸入氣溶膠；**不會人傳人**\n- 危險族群：**> 55 歲、抽菸、酗酒、免疫抑制**\n- **兼性細胞內菌** → β-lactam 無效 → **macrolide 或 FQ**\n- 表現：高燒、乾咳、**腹瀉**、**低血鈉**、腎功能異常、肝指數上升\n- 痰液 Gram 染色：**很多白血球、上皮細胞少，但幾乎看不到細菌**（「容易看到細長的革蘭氏陰性桿菌」是錯的）\n- 培養用 **BCYE 培養基**；輕症型為**龐帝亞克熱**（年輕健康者、自限性）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 IV 革蘭氏陰性桿菌 講義 p.236、題目 p.236"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1269–1272（Ch.164 Legionella Infections）"
+        }
+      ]
+    },
+    {
+      "title": "黴菌：念珠菌、隱球菌、麴菌、白黴菌與抗黴菌藥　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **看菌絲認黴菌**：麴菌 = **有分隔、細、銳角（45°）分支**；白黴菌 = **寬、無分隔、緞帶狀**\n- 糖尿病人**鼻腔黑色分泌物、眼睛症狀** → 鼻腦黴菌感染（白黴菌、麴菌）→ **組織切片看菌絲** + **積極清創**\n- **白黴菌**：DKA 最危險（酸中毒讓鐵游離、利於黴菌生長）→ **amphotericin B + 清創**\n- **麴菌**：侵襲性 → **voriconazole**；麴菌球 → 手術；ABPA → 類固醇 + itraconazole\n- **念珠菌**：痰液、尿液培養到多半是移生，不一定治療；**無菌處（血液等）培養到要治療**；fluconazole 或 echinocandin\n- **隱球菌**：腦膜炎 → amphotericin B + flucytosine（見〈HIV（二）〉）；**echinocandin 無效**\n- **Fluconazole 對黴（mold）無效**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/pathogens-bacteria-fungi/fc-aspergillus.png",
+          "label": "FC 醫學(三)第3冊 p.386 彩圖（109 年考題）",
+          "caption": "糖尿病人鼻竇組織的銀染色（400 倍）",
+          "explain": "**【怎麼看】**銀染色把黴菌染成黑色。可以看到很多**細長、粗細一致、有分隔**的菌絲，分支多呈**銳角（約 45°）**。\n**【考點】**FC 詳解：有分隔菌絲 + 銳角分支 → **麴菌（Aspergillus）**。對照**白黴菌**：菌絲**寬、像緞帶、沒有分隔**；同樣好發於糖尿病（尤其 DKA）、表現為鼻腦感染、黑色壞死。兩者都要積極清創，用藥不同（麴菌 voriconazole；白黴菌 amphotericin B）。"
+        },
+        {
+          "type": "heading",
+          "text": "四種常考黴菌"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "念珠菌",
+            "隱球菌",
+            "麴菌",
+            "白黴菌（Mucorales）"
+          ],
+          "rows": [
+            [
+              "型態",
+              "酵母菌 + **偽菌絲**",
+              "**有莢膜的酵母菌**",
+              "**有分隔、細、銳角分支**的菌絲",
+              "**寬、無分隔、緞帶狀**"
+            ],
+            [
+              "誰會得",
+              "常在菌；導管、廣效抗生素、重症、嗜中性球低下",
+              "AIDS（CD4 < 100）、免疫低下",
+              "嗜中性球低下、類固醇、移植；肺結核空洞",
+              "**糖尿病（DKA）**、血液惡性腫瘤、鐵過多用 deferoxamine"
+            ],
+            [
+              "典型病",
+              "鵝口瘡、陰道炎、念珠菌血症",
+              "**腦膜炎**（開放壓高）",
+              "侵襲性麴菌病、**麴菌球**、ABPA",
+              "**鼻眶腦感染**（黑色壞死）"
+            ],
+            [
+              "治療",
+              "fluconazole；重症或抗藥 → **echinocandin**",
+              "amphotericin B + flucytosine → fluconazole",
+              "**voriconazole**（球：手術；ABPA：類固醇 + itraconazole）",
+              "**amphotericin B + 積極清創** + 矯正 DKA"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "抗黴菌藥（FC 講義、Harrison）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "類別",
+            "機轉",
+            "藥物",
+            "重點"
+          ],
+          "rows": [
+            [
+              "Polyene",
+              "結合 ergosterol、在細胞膜打洞",
+              "**amphotericin B**、nystatin（局部）",
+              "最廣效；**腎毒性**、低血鉀"
+            ],
+            [
+              "Azole",
+              "抑制 ergosterol 合成",
+              "fluconazole、itraconazole、**voriconazole**、posaconazole、isavuconazole",
+              "**fluconazole 對黴（mold）無效**；C. krusei 天生抗 fluconazole；藥物交互作用"
+            ],
+            [
+              "Echinocandin",
+              "抑制 β-1,3-glucan（細胞壁）",
+              "caspofungin、micafungin、anidulafungin",
+              "念珠菌血症首選；**對隱球菌無效**"
+            ],
+            [
+              "其他",
+              "抑制核酸合成",
+              "flucytosine",
+              "合併 amphotericin B 治療隱球菌"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "癸、黴菌學 講義 p.330–341；子、原蟲 題目 p.351"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1687–1691（Ch.217 抗黴菌藥）；1713–1716（Ch.223 Aspergillosis）；1718–1719（Ch.224 Mucormycosis）"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        "以下用本篇的 **FC 原題**示範推理順序（題目在〈考題練習〉，這裡只拆解思考步驟）。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 107 年）：肉毒桿菌毒素嚴重中毒，哪個表現最不可能？",
+          "text": "1. **毒素作用在哪裡**：周邊神經末梢，阻止 acetylcholine 釋放 → 肌肉無力\n2. **由上往下**：先腦神經（眼肌 → **複視**、眼瞼下垂；咽部 → **吞嚥困難**）→ 再往下 → 橫膈與呼吸肌（**呼吸困難**、呼吸衰竭）\n3. **毒素不作用在中樞** → 病人**意識清楚**；腦神經麻痺可能讓人誤以為意識不清\n4. **答案**：神智不清\n5. **處置**：維持呼吸、儘早給抗毒素（不要等實驗室確認）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 107 年）：50 歲糖尿病控制不良，右眼紅腫痛、發燒，眼內炎合併肝膿瘍",
+          "text": "1. **糖尿病 + 社區型肝膿瘍 + 轉移到眼睛** → **高毒力克雷伯氏菌侵襲症候群**\n2. **抗生素要進得了眼睛與中樞** → **第三代頭孢 ceftriaxone**\n3. **排除**：vancomycin（革蘭氏陽性）、cefazolin（第一代，進不了中樞）、cefmetazole\n4. **感染源控制**：肝膿瘍引流；**及早會診眼科**\n5. **反過來**：克雷伯氏菌菌血症的病人，就算沒有眼睛症狀也要找眼內炎"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 109 年）：60 歲糖尿病人右眼視力模糊、鼻腔黑色分泌物，手術病理銀染色見菌絲",
+          "text": "1. **糖尿病 + 鼻腔黑色分泌物 + 眼睛症狀** → 鼻眶腦黴菌感染，想**白黴菌或麴菌**\n2. **看病理的菌絲**：細、**有分隔**、**銳角分支** → **麴菌**（寬、無分隔、緞帶狀才是白黴菌）\n3. **排除**：念珠菌是酵母菌與偽菌絲；NTM、金黃色葡萄球菌不會長菌絲\n4. **處置**：積極清創 + 抗黴菌藥（麴菌 voriconazole；白黴菌 amphotericin B）；控制血糖"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "毒素疾病（§毒素疾病）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：下列各項有關肉毒桿菌毒素（botulism toxin）造成嚴重中毒臨床表現之敘述，何者最不可能？（A 複視 B 吞嚥困難 C 呼吸困難 D 神智不清）（FC 107 年）",
+          "text": "**答：(D)。** FC 詳解：眼肌麻痺造成複視、咽部肌肉麻痺造成吞嚥困難、橫膈與呼吸肌受累引發呼吸衰竭；毒素不直接影響中樞神經，病人通常神智清醒。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：下列各項有關炭疽病（anthrax）之敘述，何者最適當？（A 吸入型炭疽病潛伏期為 1 至 2 天 B 容易造成人與人之間的傳播 C 在吸入型炭疽病，其胸部 X 光特徵為縱膈腔變寬及肋膜積水 D 在暴露後，預防性抗生素使用建議使用 14 天的 ciprofloxacin 或 doxycycline）（FC 104 年）",
+          "text": "**答：(C)。** FC 講義：潛伏期 1–7 天（可長達 60 天）；暴露後預防要吃 60 天；炭疽不會人傳人。"
+        },
+        {
+          "type": "heading",
+          "text": "急性風濕熱（§A 群鏈球菌）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：有關急性風濕熱（acute rheumatic fever）的敘述，下列何者正確？（A 大多數都是由感染 group B Streptococci 所引起 B 從感染到出現關節炎，平均大概會間隔 3 個月左右 C erythema marginatum 屬於較罕見臨床表徵（約小於 5%） D 大概有 10% 病人會進展到風濕性心臟病）（FC 111 年）",
+          "text": "**答：(C)。** FC 詳解：(A) 由 A 群鏈球菌引起；(B) 潛伏期通常 2–4 週；(D) 約 30–60% 會進展為風濕性心臟病（Harrison：最多 75%）。"
+        },
+        {
+          "type": "heading",
+          "text": "分支絲狀菌（§Nocardia vs Actinomyces）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：下列關於 Nocardia species 的敘述，何者錯誤？（A 格蘭氏染色呈格蘭氏陽性球菌 B 在細胞免疫缺損的病人可能引起全身感染，包括腦膿瘍 C 在健康宿主可能因接觸土壤或植物而感染皮膚淋巴型的疾病 D 首選藥物是磺胺類，例如 trimethoprim-sulfamethoxazole）（FC 103 年）",
+          "text": "**答：(A)。** Nocardia 是分支絲狀的革蘭氏陽性**桿菌**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：下列關於 Actinomycosis 的敘述，何者正確？（A Actinomyces israelii 是屬於嗜氧的革蘭氏陽性菌 B 腹腔是最常見的感染部位 C Sulfur granules 是典型的組織病理變化 D 以 penicillin 治療 1~2 週即可治癒）（FC 98 年）",
+          "text": "**答：(C)。** Actinomyces 是厭氧菌；口腔頸部最常見；penicillin 要長療程並配合清創。"
+        },
+        {
+          "type": "heading",
+          "text": "克雷伯氏菌（§克雷伯氏菌侵襲症候群）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：50 歲男性患有糖尿病多年，未規則服用降血糖藥物，因右眼紅腫疼痛及發燒 2 天到急診，診斷有眼內炎（endophthalmitis），腹部超音波發現有肝臟膿瘍。在國內，這位病人最恰當的抗生素治療為何？（A ceftriaxone B vancomycin C cefazolin D cefmetazole）（FC 107 年）",
+          "text": "**答：(A)。** 糖尿病 + 肝膿瘍 + 眼內炎 → 克雷伯氏菌侵襲症候群；第三代頭孢能進入眼與中樞。"
+        },
+        {
+          "type": "heading",
+          "text": "Legionella（§Legionella）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：退伍軍人菌（Legionella）肺炎若有適當痰液可供革蘭氏染色，則最不易有下列何種發現？（A 每低倍鏡視野白血球多於 25 個 B 每低倍鏡視野上皮細胞少於 10 個 C 細菌極少 D 容易看到細長之革蘭氏陰性桿菌）（FC 105 年）",
+          "text": "**答：(D)。** 痰液合格（白血球多、上皮細胞少），但 Legionella 在一般 Gram 染色幾乎看不到。"
+        },
+        {
+          "type": "heading",
+          "text": "黴菌（§黴菌）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：60 歲糖尿病人因右眼視力模糊、鼻腔有黑色分泌物住院，經耳鼻喉科開刀，病理化驗結果如附圖（見〈黴菌〉段的 FC 彩圖），下列何者是最可能的致病菌？（A 麴菌（Aspergillus）B 念珠菌（Candida）C 非結核分枝桿菌（NTM）D 金黃色葡萄球菌（Staphylococcus aureus））（FC 109 年）",
+          "text": "**答：(A)。** FC 詳解：銀染色，有分隔的菌絲加上銳角分支 → 麴菌。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "線索",
+            "想到",
+            "治療"
+          ],
+          "rows": [
+            [
+              "意識清楚的對稱性下行麻痺、複視、吞嚥困難",
+              "肉毒（罐頭、嬰兒蜂蜜）",
+              "維持呼吸 + 抗毒素"
+            ],
+            [
+              "牙關緊閉、全身僵直、意識清楚",
+              "破傷風",
+              "免疫球蛋白 + 清創 + metronidazole"
+            ],
+            [
+              "草食動物接觸、縱膈腔變寬",
+              "吸入型炭疽（不人傳人）",
+              "暴露後預防 60 天"
+            ],
+            [
+              "咽炎約 3 週後關節炎、心臟炎",
+              "急性風濕熱（A 群鏈球菌）",
+              "見瓣膜（三）"
+            ],
+            [
+              "分支絲狀、弱抗酸、好氧、腦膿瘍",
+              "Nocardia",
+              "TMP-SMX"
+            ],
+            [
+              "分支絲狀、厭氧、硫磺顆粒、口腔頸部",
+              "Actinomyces",
+              "penicillin 長療程 + 清創"
+            ],
+            [
+              "糖尿病 + 肝膿瘍 + 眼內炎",
+              "高毒力克雷伯氏菌",
+              "ceftriaxone + 引流 + 會診眼科"
+            ],
+            [
+              "肺炎 + 腹瀉 + 低血鈉，痰看不到菌",
+              "Legionella（冷卻水塔）",
+              "macrolide 或 FQ"
+            ],
+            [
+              "有分隔、銳角分支的菌絲",
+              "麴菌",
+              "voriconazole"
+            ],
+            [
+              "寬、無分隔、緞帶狀菌絲；DKA",
+              "白黴菌",
+              "amphotericin B + 清創"
+            ],
+            [
+              "無菌處培養到念珠菌",
+              "侵襲性念珠菌",
+              "echinocandin 或 fluconazole"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

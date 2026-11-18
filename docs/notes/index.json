@@ -262,6 +262,10 @@
         {
           "id": "antibiotics-infection-control",
           "name": "Antibiotics and Infection Control (抗生素與感染管制)"
+        },
+        {
+          "id": "pathogens-bacteria-fungi",
+          "name": "Pathogens: Bacteria and Fungi (病原體各論：從臨床線索認菌)"
         }
       ]
     },
