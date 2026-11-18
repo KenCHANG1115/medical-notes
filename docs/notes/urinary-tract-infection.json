@@ -28,6 +28,10 @@
     {
       "id": "infective-endocarditis",
       "name": "Infective Endocarditis (感染性心內膜炎)"
+    },
+    {
+      "id": "sexually-transmitted-infections",
+      "name": "Sexually Transmitted Infections (性傳染病)"
     }
   ],
   "sections": [

@@ -274,6 +274,10 @@
         {
           "id": "viral-infections-antivirals",
           "name": "Viral Infections and Antivirals (病毒感染與抗病毒藥)"
+        },
+        {
+          "id": "sexually-transmitted-infections",
+          "name": "Sexually Transmitted Infections (性傳染病)"
         }
       ]
     },

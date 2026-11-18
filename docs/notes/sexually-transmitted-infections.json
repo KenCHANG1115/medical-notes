@@ -1,0 +1,599 @@
+{
+  "id": "sexually-transmitted-infections",
+  "title": "Sexually Transmitted Infections (性傳染病)",
+  "title_en": "Sexually Transmitted Infections",
+  "title_zh": "性傳染病",
+  "specialty": "感染科",
+  "sources": [
+    "Harrison's 22e - Ch.141 Sexually Transmitted Infections: Overview and Clinical Approach; Ch.161 Gonococcal Infections; Ch.187 Syphilis; Ch.194 Chlamydial Infections",
+    "First Choice 醫學(三) 第3冊 - 己、依細菌分類的感染症（講義 p.224、235–238；題目 p.225、239–241），本篇共 7 題（另 1 題在 HIV（二））",
+    "CDC STI Treatment Guidelines 2021（補充：淋病、披衣菌、一二期梅毒處方）"
+  ],
+  "generated": "2026-11-19",
+  "updated": "2026-11-19",
+  "related": [
+    {
+      "id": "urinary-tract-infection",
+      "name": "Urinary Tract Infection (泌尿道感染)"
+    },
+    {
+      "id": "hiv-opportunistic-infections",
+      "name": "HIV/AIDS (二)：伺機性感染與併發症"
+    },
+    {
+      "id": "hiv-treatment-art",
+      "name": "HIV/AIDS (三)：ART 治療與預防"
+    },
+    {
+      "id": "skin-soft-tissue-bone-joint",
+      "name": "Skin, Soft Tissue, Bone and Joint Infections (軟組織、骨與關節感染)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 8 題｜最常考：梅毒的血清學與治療、淋病的診斷與用藥\n1. **先分症候群**：尿道或子宮頸分泌物、生殖器潰瘍（痛或不痛）、陰道分泌物、下腹痛（骨盆腔炎）\n2. **尿道分泌物**：Gram 染色白血球內有**革蘭氏陰性雙球菌** → 淋病 → **ceftriaxone 肌肉注射**；沒有 → 非淋病性（披衣菌最多）→ NAAT\n3. **生殖器潰瘍**：**不痛、硬** → 梅毒；**痛** → HSV、軟性下疳（H. ducreyi）；LGV 是披衣菌、腹股溝肉芽腫是 Klebsiella granulomatis\n4. **梅毒**：分期 → **RPR/VDRL 篩檢、追蹤療效** → **TPPA/FTA-ABS 確認（通常終身陽性）** → benzathine penicillin；神經梅毒驗**腦脊髓液 VDRL**、用靜脈 penicillin\n5. **共同原則**：**性伴侶一起治療**、篩檢 **HIV 與梅毒**；新生兒淋病眼炎 → ceftriaxone\n新版來源：Harrison 22e Ch.141、161、187、194；補充 CDC 2021 性病治療指引（原文）\n註：梅毒先在〈生殖器潰瘍〉的鑑別表出現，第 4、5 段再專講"
+        }
+      ]
+    },
+    {
+      "title": "症候群總覽與共同原則　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 性病依**症候群**分：尿道或子宮頸炎、生殖器潰瘍、陰道分泌物、骨盆腔炎\n- 病原配對：**硬下疳 → 梅毒**；**軟性下疳 → H. ducreyi**；**LGV → C. trachomatis**；**腹股溝肉芽腫 → Klebsiella granulomatis**\n- 共同原則：**性伴侶一起治療**、治療期間避免性行為、**所有性病病人都篩檢 HIV 與梅毒**\n- 生殖器潰瘍與淋病等性病會**增加 HIV 傳染**（見〈HIV（二）〉）"
+        },
+        {
+          "type": "heading",
+          "text": "症候群 → 病原 → 第一步"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "症候群",
+            "常見病原",
+            "第一步"
+          ],
+          "rows": [
+            [
+              "**尿道炎**（男）",
+              "**淋病**、**披衣菌**、M. genitalium、滴蟲、HSV",
+              "分泌物 Gram 染色 + NAAT"
+            ],
+            [
+              "**子宮頸炎**（女）",
+              "淋病、披衣菌",
+              "NAAT（女性 Gram 染色不敏感）"
+            ],
+            [
+              "**生殖器潰瘍**",
+              "**梅毒**、**HSV**、軟性下疳、LGV、腹股溝肉芽腫",
+              "看痛不痛、驗梅毒血清與 HSV PCR"
+            ],
+            [
+              "**陰道分泌物**",
+              "念珠菌、**滴蟲**、細菌性陰道病",
+              "pH、KOH 魚腥味、鏡檢"
+            ],
+            [
+              "下腹痛、子宮頸舉痛",
+              "骨盆腔炎（淋病、披衣菌上行）",
+              "經驗性治療"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "潰瘍性性病的病原配對（FC 106）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "疾病",
+            "病原"
+          ],
+          "rows": [
+            [
+              "**硬下疳**（一期梅毒）",
+              "**Treponema pallidum**"
+            ],
+            [
+              "**軟性下疳**（chancroid）",
+              "**Haemophilus ducreyi**"
+            ],
+            [
+              "**性病性淋巴肉芽腫（LGV）**",
+              "**Chlamydia trachomatis**（L 血清型）"
+            ],
+            [
+              "**腹股溝肉芽腫（donovanosis）**",
+              "**Klebsiella granulomatis**（不是 Mycoplasma genitalium）"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己、依細菌分類的感染症 V、VI 講義 p.237–238、題目 p.240"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1096–1107（Ch.141 Sexually Transmitted Infections）"
+        }
+      ]
+    },
+    {
+      "title": "尿道炎與子宮頸炎：淋病 vs 非淋病性　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **淋病**：潛伏期短、**大量膿性**分泌物；男性尿道分泌物 Gram 染色 → **白血球內革蘭氏陰性雙球菌**\n- 女性 Gram 染色不敏感 → **NAAT 或培養**；**沒看到雙球菌也不能排除** → 送 NAAT\n- 淋病治療：**ceftriaxone 500 mg 肌肉注射單一劑**；沒排除披衣菌 → 加 **doxycycline 7 天**（CDC 2021）\n- **非淋病性**：**披衣菌最多**；分泌物較少、清澈；**doxycycline 7 天**首選（azithromycin 為替代）\n- 淋病其他表現：**新生兒眼炎**（出生 2–5 天，大量膿性分泌物、可角膜潰瘍）→ **ceftriaxone**；播散性淋病 → 皮疹、肌腱滑膜炎、關節炎（見〈軟組織、骨與關節〉）\n- 兩個尿道炎的推理演練在〈泌尿道感染〉"
+        },
+        {
+          "type": "figure",
+          "src": "figures/sexually-transmitted-infections/fc-gonorrhea-gram.png",
+          "label": "FC 醫學(三)第3冊 p.385 彩圖（104 年考題）",
+          "caption": "19 歲男性尿道膿樣分泌物的 Gram 染色",
+          "explain": "**【怎麼看】**粉紅色的是**嗜中性球**；畫面中央一顆嗜中性球裡面擠滿了成對的小粉紅色球菌。\n**【考點】****白血球內的革蘭氏陰性雙球菌** = **淋病**（男性尿道分泌物 Gram 染色的敏感度高）→ **ceftriaxone 肌肉注射單一劑**。女性子宮頸檢體 Gram 染色不敏感，要用 NAAT 或培養。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "淋病性",
+            "非淋病性"
+          ],
+          "rows": [
+            [
+              "病原",
+              "N. gonorrhoeae",
+              "**C. trachomatis**（最多）、M. genitalium、滴蟲、HSV"
+            ],
+            [
+              "分泌物",
+              "膿性、量多",
+              "清澈或黏液、量少"
+            ],
+            [
+              "Gram 染色",
+              "**白血球內革蘭氏陰性雙球菌**",
+              "有白血球、沒有雙球菌"
+            ],
+            [
+              "治療（CDC 2021）",
+              "**ceftriaxone 500 mg IM**；未排除披衣菌加 doxycycline",
+              "**doxycycline 100 mg BID × 7 天**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 CDC 2021 把披衣菌首選改成 doxycycline？**統合分析顯示男性尿道感染用 azithromycin 的微生物學治療失敗率比 doxycycline 高，直腸披衣菌也是 doxycycline 較有效（CDC 2021 原文）。azithromycin 單劑仍是替代方案。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 III 革蘭氏陰性球菌 講義 p.224、題目 p.225"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1253–1257（Ch.161 Gonococcal Infections）"
+        },
+        {
+          "type": "source",
+          "book": "CDC STI Treatment Guidelines 2021（cdc.gov：Gonococcal Infections、Chlamydial Infections、P&S Syphilis）",
+          "pages": "補充：現行治療處方"
+        }
+      ]
+    },
+    {
+      "title": "生殖器潰瘍：梅毒、HSV、軟性下疳、LGV　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **先問痛不痛**：**不痛、硬 → 梅毒**；**痛 → HSV、軟性下疳**\n- **HSV**：多個小水泡破成淺潰瘍；PCR 確診；acyclovir、valacyclovir\n- **軟性下疳**：多個痛性潰瘍、邊緣潛掘\n- **所有生殖器潰瘍都要驗梅毒血清**（梅毒專段見下兩段）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "**梅毒（一期）**",
+            "**HSV**",
+            "**軟性下疳**",
+            "LGV"
+          ],
+          "rows": [
+            [
+              "病原",
+              "T. pallidum",
+              "HSV-2（或 HSV-1）",
+              "H. ducreyi",
+              "C. trachomatis L 血清型"
+            ],
+            [
+              "潰瘍",
+              "**單一、無痛、硬（軟骨樣）**、邊緣乾淨",
+              "**多個小水泡 → 淺潰瘍、痛**",
+              "**多個、痛**、邊緣潛掘、像被挖出",
+              "—"
+            ],
+            [
+              "檢驗",
+              "RPR/VDRL + TPPA；暗視野",
+              "PCR",
+              "培養（難）",
+              "NAAT"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 V 螺旋菌、F 杜克氏嗜血桿菌 講義 p.235、237–238"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1107（Ch.141 Fig.141-5、141-6）；1430（Ch.187 硬下疳）"
+        }
+      ]
+    },
+    {
+      "title": "梅毒（一）：分期與表現　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **一期**：**單一、無痛、硬**的硬下疳，約感染後 3 週；會自己好 → 病人常忽略\n- **二期**：感染後約 6–12 週；**手掌腳掌紅疹**、**扁平濕疣**（傳染力很強）、黏膜斑、全身淋巴結腫大、發燒倦怠\n- 潛伏期：只有血清陽性；早期 < 1 年、晚期 > 1 年\n- 三期：梅毒腫、心血管梅毒；**神經梅毒**可發生在任何時期（Argyll Robertson 瞳孔、脊髓癆）\n- 有性病史 + 無痛無癢的掌部紅疹 → 二期梅毒"
+        },
+        {
+          "type": "figure",
+          "src": "figures/sexually-transmitted-infections/fc-secondary-syphilis.png",
+          "label": "FC 醫學(三)第3冊 p.385 彩圖（106 年考題）",
+          "caption": "30 歲男性多位性伴侶：雙手腕與手掌的紅疹",
+          "explain": "**【怎麼看】**上圖手腕、下圖手掌有**散在的淡紅色斑疹**，不痛也不癢；沒有水泡。\n**【考點】****手掌、腳掌的紅疹**是**二期梅毒**的典型表現（感染後約 6–12 週）。多位性伴侶 + 無痛無癢的掌部紅疹 → 驗 **RPR + TPPA** → benzathine penicillin。手掌紅疹的鑑別還有立克次體等，但性病史讓梅毒排第一。"
+        },
+        {
+          "type": "heading",
+          "text": "梅毒分期"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "分期",
+            "時間",
+            "表現",
+            "治療（FC 講義、CDC 2021）"
+          ],
+          "rows": [
+            [
+              "**一期**",
+              "感染後約 3 週（很少超過 6 週）",
+              "**單一無痛硬下疳**、局部淋巴結無痛腫大；自行癒合",
+              "**benzathine penicillin G 2.4 百萬單位 IM 單一劑**"
+            ],
+            [
+              "**二期**",
+              "感染後約 6–12 週",
+              "**手掌腳掌紅疹**、**扁平濕疣（condylomata lata）**、黏膜斑、全身淋巴結腫大",
+              "同上"
+            ],
+            [
+              "潛伏期",
+              "早期 < 1 年、晚期 > 1 年",
+              "沒有症狀，只有血清陽性",
+              "早期同上；**晚期 benzathine 每週 1 次 × 3 週**"
+            ],
+            [
+              "**三期**",
+              "感染後 10–40 年",
+              "**梅毒腫**、心血管梅毒（主動脈炎）",
+              "同晚期"
+            ],
+            [
+              "**神經梅毒**",
+              "任何時期",
+              "腦膜炎、**脊髓癆**（步態不穩、感覺異常）、**Argyll Robertson 瞳孔**",
+              "**靜脈 penicillin G 10–14 天**"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 V 革蘭氏陰性螺旋菌 講義 p.237–238、題目 p.240"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1429–1431（Ch.187 Syphilis：潛伏期、一期、二期）"
+        }
+      ]
+    },
+    {
+      "title": "梅毒（二）：血清學與治療　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **篩檢用 RPR/VDRL → 確認用 TPPA/FTA-ABS**（排除生物性偽陽性）\n- **療效追蹤看 RPR/VDRL 效價**：治療後 **6 與 12 個月**追蹤；效價**四倍上升**持續 > 2 週 → 再感染或治療失敗\n- **TPPA 等螺旋體試驗通常終身陽性 → 不能用來追蹤療效**\n- **神經梅毒**：腦脊髓液白血球 > 5、蛋白 > 45 mg/dL 或**腦脊髓液 VDRL 陽性**\n- 治療：一期、二期、早期潛伏 → **benzathine penicillin G 2.4 百萬單位 IM 單一劑**；penicillin 過敏 → **doxycycline 100 mg BID × 14 天**\n- **懷孕只能用 penicillin**（過敏要減敏）；治療後可能出現 **Jarisch-Herxheimer 反應**（發燒、不適）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "非螺旋體試驗（RPR、VDRL）",
+            "螺旋體試驗（TPPA、FTA-ABS、TPHA）"
+          ],
+          "rows": [
+            [
+              "測什麼",
+              "對類脂質抗原（cardiolipin）的抗體",
+              "直接對 T. pallidum 的抗體"
+            ],
+            [
+              "用途",
+              "**篩檢**、**追蹤療效（效價）**、**神經梅毒（腦脊髓液 VDRL）**",
+              "**確認**"
+            ],
+            [
+              "治療後",
+              "效價下降或轉陰",
+              "**通常終身陽性** → **不能用來追蹤療效**"
+            ],
+            [
+              "偽陽性",
+              "**自體免疫疾病（SLE）、注射藥癮**、懷孕、急性發燒疾病、慢性肝病；效價多 ≤ 1:8",
+              "少"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼追蹤療效要用 RPR 而不是 TPPA？**RPR/VDRL 測的是對組織損傷後類脂質的抗體，會隨疾病活動度起伏，治療成功後效價下降；TPPA 測的是對螺旋體本身的抗體，一旦產生通常終身陽性，治好了也不會轉陰，所以只能用來確認「曾經感染」。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：FC 113 年題目為什麼 (B)、(D) 都給分",
+          "text": "- 原答案 (D)：療效評估應追蹤 **RPR 效價**下降至少 4 倍，不是 TPPA\n- 更正後 (B) 也給分；FC 詳解沒有寫原因。題目的劑量寫成「2.4 mU」（毫單位），正確是 **2.4 百萬單位（MU）**，可能是給分的理由（推測）\n- CDC 2021 的早期梅毒處方與 2015 年相同"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "己 V 講義 p.238、題目 p.239–241"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1432–1435（Ch.187：血清學、偽陽性、神經梅毒、懷孕）"
+        },
+        {
+          "type": "source",
+          "book": "CDC STI Treatment Guidelines 2021（cdc.gov：Gonococcal Infections、Chlamydial Infections、P&S Syphilis）",
+          "pages": "補充：現行治療處方"
+        }
+      ]
+    },
+    {
+      "title": "陰道分泌物與骨盆腔炎　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 陰道分泌物三大原因：**念珠菌、滴蟲、細菌性陰道病**\n- 看 **pH**（念珠菌 ≤ 4.5；滴蟲與細菌性陰道病升高）、**KOH 魚腥味**（細菌性陰道病）、**鏡檢**（偽菌絲、會動的滴蟲、線索細胞）\n- **滴蟲是性傳染病** → metronidazole、**伴侶一起治療**\n- **骨盆腔炎**：淋病、披衣菌上行感染；也要處理性伴侶\n- 副睪炎（年輕男性）：淋病、披衣菌 → ceftriaxone 500 mg IM + doxycycline 10 天"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "念珠菌",
+            "**滴蟲**",
+            "細菌性陰道病"
+          ],
+          "rows": [
+            [
+              "症狀",
+              "外陰癢",
+              "大量分泌物、外陰癢",
+              "**魚腥味**、分泌物稍多"
+            ],
+            [
+              "分泌物",
+              "白色、結塊黏附",
+              "白或**黃綠色**、泡沫狀",
+              "白或灰、均勻稀薄"
+            ],
+            [
+              "pH",
+              "≤ 4.5",
+              "**≥ 5**",
+              "> 4.5"
+            ],
+            [
+              "KOH 魚腥味",
+              "無",
+              "可能有",
+              "**有**"
+            ],
+            [
+              "鏡檢",
+              "**菌絲或偽菌絲**",
+              "**會動的滴蟲**",
+              "**線索細胞（clue cells）**、乳酸菌少"
+            ],
+            [
+              "治療",
+              "azole 陰道塞劑或 fluconazole 150 mg 單劑",
+              "**metronidazole** 或 tinidazole（**伴侶一起治療**）",
+              "metronidazole"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第3冊",
+          "pages": "子、原蟲 III 鞭毛蟲綱 講義 p.349–350；癸、黴菌學 講義 p.334"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "1099（Ch.141 副睪炎）；1101（Table 141-5 陰道感染）"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        "以下用本篇的 **FC 原題**示範推理順序（題目在〈考題練習〉，這裡只拆解思考步驟）。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 104 年）：19 歲男大生兩天解尿痛與尿道口膿樣分泌物，一個月內和三位女性無套性行為",
+          "text": "1. **症候群**：年輕男性 + **尿道膿性分泌物** → 尿道炎（性病），不是膀胱炎\n2. **Gram 染色**：白血球內**革蘭氏陰性雙球菌**（見〈尿道炎〉段的 FC 彩圖）→ **淋病**\n3. **治療**：**ceftriaxone 肌肉注射單一劑**（CDC 2021：500 mg）；沒排除披衣菌 → 加 doxycycline 7 天\n4. **排除**：cefazolin、口服 ciprofloxacin（淋病抗藥）、erythromycin\n5. **別忘了**：三位性伴侶都要通知治療；篩檢 HIV 與梅毒"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 106 年）：30 歲男性多位男女性伴侶，五天來陸續出現紅疹與雙手無痛無癢病灶，沒有發燒",
+          "text": "1. **TOCC 與性病史**：沒吃藥、沒出國、沒養寵物；**多位性伴侶**\n2. **皮疹型態**：**手掌、手腕的淡紅色斑疹**、無痛無癢（見〈梅毒（一）〉段的 FC 彩圖）\n3. **想到**：**二期梅毒**（感染後約 6–12 週；硬下疳可能早已癒合或被忽略）\n4. **檢驗**：RPR/VDRL 篩檢 → TPPA 確認；同時驗 HIV\n5. **治療**：benzathine penicillin G 2.4 百萬單位 IM 單一劑；6、12 個月追蹤 RPR 效價"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 113、105 年）：一期與二期梅毒病人治療後，要怎麼確認治好了？",
+          "text": "1. **哪種檢驗會隨疾病活動度變化** → **RPR/VDRL 效價**\n2. **TPPA、FTA-ABS** 通常終身陽性 → 只能確認曾經感染，**不能追蹤療效**\n3. **追蹤時間**：治療後 **6 與 12 個月**做臨床與血清評估，和治療當時的效價比較\n4. **警訊**：症狀持續或復發、效價**四倍上升**持續 > 2 週 → 再感染或治療失敗\n5. **神經梅毒**：腦脊髓液驗 **VDRL**"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "病原配對（§症候群總覽）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：下列有關性病及病原菌配對，何者錯誤？（A chancre — Treponema pallidum B chancroid — Haemophilus ducreyi C lymphogranuloma venereum — Chlamydia trachomatis D granuloma inguinale（donovanosis）— Mycoplasma genitalium）（FC 106 年）",
+          "text": "**答：(D)。** 腹股溝肉芽腫的病原是 Klebsiella granulomatis（Harrison）。"
+        },
+        {
+          "type": "heading",
+          "text": "淋病（§尿道炎與子宮頸炎）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：19 歲男大學生主訴兩天的解尿疼痛與尿道口膿樣分泌物，過去一個月內曾與三位女性有性行為，皆未使用保險套。尿道分泌物革蘭氏染色鏡檢如圖（見〈尿道炎〉段的 FC 彩圖），這位病患最可能感染何種微生物？（A Escherichia coli B Acinetobacter baumannii C Neisseria gonorrhoeae D Haemophilus ducreyi）（FC 104 年）",
+          "text": "**答：(C)。** 白血球內的革蘭氏陰性雙球菌。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：承上題，此病患沒有藥物過敏病史，治療用藥最佳選擇為何？（A intravenous cefazolin B intramuscular ceftriaxone C oral ciprofloxacin D oral erythromycin）（FC 104 年）",
+          "text": "**答：(B)。** CDC 2021：ceftriaxone 500 mg IM 單一劑；未排除披衣菌時加 doxycycline。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：一個 3 天大新生兒雙眼有化膿性分泌物，革蘭氏染色為革蘭氏陰性雙球菌，應選用何種抗生素治療？（A ceftriaxone B erythromycin C oxacillin D tetracycline）（FC 104 年）",
+          "text": "**答：(A)。** 新生兒淋病眼炎（出生 2–5 天發作）→ ceftriaxone。"
+        },
+        {
+          "type": "heading",
+          "text": "梅毒的表現（§梅毒（一））"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：30 歲本國籍未婚男性，有多位男女性伴侶；最近沒有服藥、出國旅遊或飼養寵物。五天來陸續出現紅疹與無痛或癢感的雙手病灶（見〈梅毒（一）〉段的 FC 彩圖）；生殖器沒有特殊病灶，也沒有發燒。最可能的致病原？（A Streptococcus pyogenes B Treponema pallidum C Dengue virus D Measles virus）（FC 106 年）",
+          "text": "**答：(B)。** 二期梅毒的掌部紅疹。"
+        },
+        {
+          "type": "heading",
+          "text": "梅毒的血清學與治療（§梅毒（二））"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：25 歲男性因軀幹紅疹合併手掌與足底多處脫屑紅疹，以及陰莖底部無痛性潰瘍就醫，診斷為一期與二期梅毒，沒有感染 HIV。關於梅毒處置之敘述，下列何者錯誤？（A 梅毒篩檢與確診的血清檢查，分別使用 RPR 與 TPPA 檢測 B 美國 CDC 2015 年的性病治療指引對於早期梅毒治療，針對沒有 penicillin 過敏且沒有神經病徵者，建議使用一次單劑肌肉注射 benzathine penicillin G（2.4 mU）C 美國 CDC 2015 年的性病治療指引對於早期梅毒治療，針對 penicillin 過敏但沒有神經病徵者，建議使用 doxycycline 100 mg，每日兩次，服用 14 天 D 此病人梅毒治療後的療效評估，是在治療後 6 個月與 12 個月追蹤 TPPA 檢測，確認抗體效價下降至少 4 倍或以上）（FC 113 年）",
+          "text": "**答：原答案 (D)，更正後答 (B) 或 (D) 均給分（FC）。** FC 詳解：TPPA 或其他螺旋體特異性試驗的抗體通常終身陽性，不用於療效追蹤；應追蹤 RPR/VDRL 效價。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：梅毒血清檢驗包括 nontreponemal tests（如 VDRL 或 RPR）與 treponemal tests（如 FTA-ABS、TP-PA 或 TPHA），下列敘述何者錯誤？（A 大規模篩檢建議用 VDRL 或 RPR B 確定診斷建議用 FTA-ABS、TP-PA 或 TPHA C 評估治療反應建議用 FTA-ABS、TP-PA 或 TPHA D 診斷神經性梅毒，腦脊髓液建議用 VDRL 檢查）（FC 105 年）",
+          "text": "**答：(C)。** 評估治療反應要用 VDRL/RPR 效價。"
+        },
+        {
+          "type": "heading",
+          "text": "其他（見〈HIV（二）〉）"
+        },
+        "HIV 合併梅毒的 FC 107 年題目放在〈HIV（二）〉的考題練習（不重複計入本篇題數）。",
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "尿道膿性分泌物",
+              "白血球內革蘭氏陰性雙球菌 → 淋病 → ceftriaxone 500 mg IM（未排除披衣菌加 doxycycline 7 天）"
+            ],
+            [
+              "非淋病性尿道炎",
+              "披衣菌最多 → doxycycline 7 天（azithromycin 替代）"
+            ],
+            [
+              "新生兒眼炎",
+              "出生 2–5 天膿性分泌物 → 淋病 → ceftriaxone"
+            ],
+            [
+              "潰瘍不痛、硬",
+              "一期梅毒"
+            ],
+            [
+              "潰瘍痛",
+              "HSV（多個小水泡）、軟性下疳（H. ducreyi）"
+            ],
+            [
+              "LGV、腹股溝肉芽腫",
+              "C. trachomatis；Klebsiella granulomatis"
+            ],
+            [
+              "二期梅毒",
+              "手掌腳掌紅疹、扁平濕疣、黏膜斑"
+            ],
+            [
+              "梅毒血清",
+              "RPR/VDRL 篩檢與追蹤；TPPA/FTA-ABS 確認、終身陽性"
+            ],
+            [
+              "神經梅毒",
+              "腦脊髓液 VDRL；靜脈 penicillin 10–14 天"
+            ],
+            [
+              "梅毒治療",
+              "早期 benzathine 2.4 百萬單位 × 1；晚期每週 × 3；過敏 doxycycline 14 天；懷孕只用 penicillin"
+            ],
+            [
+              "陰道分泌物",
+              "念珠菌 pH ≤ 4.5、偽菌絲；滴蟲 pH ≥ 5、會動；細菌性陰道病 魚腥味、線索細胞"
+            ],
+            [
+              "共同原則",
+              "伴侶治療、篩檢 HIV 與梅毒"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
