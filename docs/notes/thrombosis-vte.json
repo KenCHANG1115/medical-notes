@@ -1,0 +1,873 @@
+{
+  "id": "thrombosis-vte",
+  "title": "Thrombosis (血栓：易栓症、靜脈血栓與抗凝治療)",
+  "title_en": "Thrombosis",
+  "title_zh": "血栓：易栓症、靜脈血栓與抗凝治療",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.69 Bleeding and Thrombosis; Ch.122 Arterial and Venous Thrombosis; Ch.123 Antiplatelet, Anticoagulant, and Fibrinolytic Drugs; Ch.290 Deep-Venous Thrombosis and Pulmonary Thromboembolism; Ch.294 Pulmonary Hypertension; Ch.369 Antiphospholipid Syndrome",
+    "First Choice 醫學(三) 第4冊 - 丙、血栓（講義 p.188–192；題目 p.188–191），乙、凝血異常（APS p.175–176、抗凝藥表 p.181–182），本篇共 5 題"
+  ],
+  "generated": "2026-11-19",
+  "updated": "2026-11-19",
+  "related": [
+    {
+      "id": "bleeding-disorders",
+      "name": "Bleeding Disorders (出血：凝血檢查與出血疾病)"
+    },
+    {
+      "id": "ecg-svt-af",
+      "name": "ECG (三)：上心室性心搏過速與心房顫動"
+    },
+    {
+      "id": "cirrhosis-portal-htn-varices",
+      "name": "Cirrhosis (一)：總論、門脈高壓與靜脈曲張"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 5 題｜最常考：台灣人的遺傳性易栓症、抗磷脂抗體症候群用什麼抗凝、DVT 的特性、抗凝要吃多久\n① **用 Virchow 三要素找原因**：血流滯留、高凝狀態、血管內皮受傷（加上發炎當觸發）\n② **有沒有明確誘因**（手術、創傷、臥床、懷孕、雌激素、癌症）→ 決定**要不要查易栓症**與**抗凝多久**\n③ **易栓症**：遺傳——**台灣以 protein S、protein C、antithrombin 缺乏為主**，Factor V Leiden 在西方常見、台灣罕見；後天——**抗磷脂抗體症候群**、癌症、骨髓增生性腫瘤\n④ **DVT、PE 診斷**：Wells 評估 → 低機率先驗 **D-dimer**（正常就排除）→ 高機率或 D-dimer 高 → **壓迫超音波**（DVT）或 **CT 肺動脈攝影**（PE）\n⑤ **治療**：選抗凝藥（heparin、LMWH、warfarin、DOAC）→ 有暫時誘因 **3 個月**、無誘因或持續風險 → 延長；**APS 終生 warfarin**；大塊 PE 合併低血壓 → 溶栓\n新版來源：Harrison 22e Ch.122、123、290、369（FC 第4冊 丙 5 題）\n分工：HIT 的**診斷**、warfarin 過量與各種抗凝劑的**反轉**在〈出血〉；本篇講**選藥與療程**"
+        }
+      ]
+    },
+    {
+      "title": "入口：Virchow 三要素與血栓的危險因子　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Virchow 三要素**：**血流滯留**、**高凝狀態**、**血管內皮受傷**——通常再加上**發炎**當觸發（Harrison）\n- **靜脈血栓 = 凝血因子為主（紅色血栓）→ 抗凝劑**；**動脈血栓 = 血小板為主（白色血栓）→ 抗血小板藥**\n- 天然抗凝物：**antithrombin**（抑制凝血酶、Xa）、**protein C + S**（分解 Va、VIIIa）→ **缺乏 = 高凝狀態**\n- 一次血栓事件通常**不只一個**危險因子 → 找誘因決定療程\n- 遺傳性易栓症主要增加**靜脈**血栓；對動脈事件（急性冠心症）影響不明顯（Harrison）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "天然抗凝物（FC）",
+            "作用"
+          ],
+          "rows": [
+            [
+              "**Antithrombin**（AT III）",
+              "抑制凝血酶與 **Xa**（heparin 靠它發揮作用）"
+            ],
+            [
+              "**Protein C ＋ 輔因子 protein S**",
+              "分解活化的 **Va、VIIIa**"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "類別",
+            "例子（Harrison Ch.122、290）"
+          ],
+          "rows": [
+            [
+              "**血流滯留**",
+              "臥床、長途飛行（> 4 小時風險加倍）、肢體癱瘓、久坐"
+            ],
+            [
+              "**手術與創傷**",
+              "**骨科大手術**、腹部大手術、神經外科、骨折"
+            ],
+            [
+              "**荷爾蒙**",
+              "**懷孕與產後 6–12 週**、口服避孕藥、停經後荷爾蒙治療"
+            ],
+            [
+              "**癌症**",
+              "風險約 **4 倍**；化療期間更高"
+            ],
+            [
+              "**發炎相關疾病**",
+              "**IBD**、類風濕關節炎、肺炎、敗血症、急性冠心症、中風、輸血、紅血球生成素"
+            ],
+            [
+              "**後天易栓**",
+              "**抗磷脂抗體症候群**、**骨髓增生性腫瘤**（真性紅血球增多症）、肥胖、抽菸"
+            ],
+            [
+              "**遺傳易栓**",
+              "Factor V Leiden、prothrombin G20210A、**antithrombin、protein C、protein S 缺乏**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼靜脈血栓用抗凝劑、動脈血栓用抗血小板藥？**\n靜脈血流慢 → 組織因子啟動凝血瀑布 → 以**纖維蛋白與紅血球**為主的紅色血栓；動脈血流快、剪力大 → 斑塊破裂後**血小板黏附聚集**為主的白色血栓（Harrison Ch.122）。所以 DVT、PE 用 heparin、DOAC；心肌梗塞、缺血性中風的二級預防以 aspirin、clopidogrel 為主。\n例外：**抗磷脂抗體症候群**動靜脈都會塞，治療仍以 **warfarin** 為主。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**VTE 與動脈硬化互相加成**（Harrison Ch.290）：發生過 VTE 的人，日後心肌梗塞或中風的機率**加倍以上**；反之亦然——三者共享發炎、高凝與內皮受傷的機轉。\n**Paradoxical embolism**：DVT 的血塊可經**卵圓孔未閉、心房中膈缺損**跑到動脈端 → 年輕人不明原因中風要想到。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.122 p.938–941"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.290 p.2156–2158"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、血栓 講義 p.188"
+        }
+      ]
+    },
+    {
+      "title": "易栓症：遺傳 vs 後天、何時篩檢　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 遺傳：**Factor V Leiden**（抵抗活化 protein C）、**prothrombin G20210A**——西方最常見、**台灣罕見**；**antithrombin、protein C、protein S 缺乏**——**台灣較常見**（**S > C > AT**，FC）\n- 後天：**抗磷脂抗體症候群**（最重要，動靜脈都會塞）、癌症、骨髓增生性腫瘤、懷孕、雌激素\n- **年輕、家族史、反覆、少見部位**（腦靜脈竇、腸繫膜、上肢無導管）→ 才考慮查易栓症\n- Harrison：成人**遺傳性易栓症篩檢只在結果會改變處置時做——這種情況很少**\n- **驗的時機**：急性血栓與 **heparin 會讓 antithrombin 下降**；**warfarin 會讓 protein C、S 下降**；急性病時抗磷脂抗體常**短暫陽性** → 急性期、抗凝中驗的結果不可靠"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "機轉",
+            "重點"
+          ],
+          "rows": [
+            [
+              "**Factor V Leiden**",
+              "V 突變 → **抵抗活化 protein C**（不是缺乏）",
+              "**西方最常見**（西方 DVT 約一半，FC）；**台灣罕見**；同型合子風險高"
+            ],
+            [
+              "**Prothrombin G20210A**",
+              "凝血酶原濃度上升",
+              "體染色體顯性；西方第二常見"
+            ],
+            [
+              "**Protein S 缺乏**",
+              "protein C 的輔因子不足",
+              "**台灣最常見**（FC：S > C > AT）"
+            ],
+            [
+              "**Protein C 缺乏**",
+              "無法分解 Va、VIIIa",
+              "同型合子 → 新生兒**猛爆性紫斑**；開始 warfarin 時易**皮膚壞死**"
+            ],
+            [
+              "**Antithrombin 缺乏**",
+              "無法抑制凝血酶、Xa",
+              "**異型合子就明顯增加風險**；heparin 效果差（heparin 靠 AT）"
+            ],
+            [
+              "高同半胱胺酸血症、MTHFR",
+              "—",
+              "Harrison：早期研究的關聯在大型研究中**受到質疑**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年**：30 歲**台灣人**左手 DVT、哥哥 35 歲死於肺栓塞 → **最不可能**的原因是 **Factor V Leiden**（西方常見、台灣罕見）；protein C、protein S、antithrombin 缺乏都可能。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼急性血栓時不要驗 protein C、S 與 antithrombin？**\n血栓正在形成時天然抗凝物被**消耗**、開始 heparin 後 **antithrombin 又被拉低**、換 warfarin 後 **protein C、S 跟著下降**（它們也是維他命 K 依賴）→ 這時驗到「低」可能是假象，會誤診成遺傳缺乏（Harrison Ch.69）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**Warfarin 引起的皮膚壞死**：開始 warfarin **第 2–5 天**，大腿、臀部、乳房出現界線清楚的紅斑、中央壞死——**protein C 或 S 缺乏**的人，protein C 半衰期短、比 X 與凝血酶原先掉 → 短暫**高凝**（Harrison Ch.123）。\n→ 已知 protein C、S 缺乏：warfarin **從低劑量開始**，並與注射型抗凝劑**重疊**到 INR 連續 2–3 天達標。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.69 p.473–475"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.122 p.939–941"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.123 p.952"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、血栓 講義 p.188–189"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、血栓 題目 p.189"
+        }
+      ]
+    },
+    {
+      "title": "抗磷脂抗體症候群（APS）　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **自體抗體造成的後天易栓**：**動、靜脈血栓**＋**反覆流產**等產科併發症；年輕女性；**原發**或合併 **SLE**（SLE 約 1/3 帶抗體、10–15% 發展成 APS）\n- 三種抗體：**lupus anticoagulant**、**anticardiolipin**、**anti-β2GPI**；要**相隔 12 週兩次陽性**\n- **矛盾現象**：lupus anticoagulant 讓試管內 **aPTT 延長、混合試驗不矯正**，病人卻是**血栓**\n- 何時想到：**< 55 歲中風**、不明原因血栓、懷孕併發症，合併**網狀青斑**或**血小板低下**\n- 治療：第一次血栓後 **終生 warfarin（INR 2–3）**；**不用 DOAC**；懷孕改 **LMWH + 低劑量 aspirin**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "FC（Sydney 舊準則）",
+            "Harrison 22e（2023 ACR/EULAR 分類準則）"
+          ],
+          "rows": [
+            [
+              "架構",
+              "**1 個臨床條件 + 1 個實驗室條件**",
+              "臨床面向 **≥ 3 分** + 實驗室面向 **≥ 3 分**（計分制）"
+            ],
+            [
+              "臨床",
+              "**血栓**：至少一次動脈、靜脈或小血管血栓（淺層靜脈不算）\n**懷孕**：≥ 1 次**懷孕 10 週後**胎死；≥ 3 次連續**< 10 週**流產；子癇前症或胎盤功能不全造成 **< 34 週**早產",
+              "靜脈血栓、動脈血栓、微血管事件、產科併發症、**心臟瓣膜病**、**血液學表現**（血小板低下）"
+            ],
+            [
+              "實驗室",
+              "**lupus anticoagulant**、**anticardiolipin**（中高效價 > 40）、**anti-β2GPI** 至少一項，**相隔 12 週兩次陽性**",
+              "同三種抗體；中效價 40–79、高效價 ≥ 80；**持續**陽性（相隔 12 週）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 APS 在試管裡「抗凝」，在體內卻「血栓」？**\n凝血試驗要靠磷脂當反應平台；抗磷脂抗體把試劑裡的磷脂佔住 → 試管內凝血變慢 → **aPTT 延長**（PT 試劑磷脂多、較不受影響，FC）。在體內，抗體卻造成**高凝**（FC：抗體破壞天然抗凝物 **protein C**）。所以叫 lupus **anti**coagulant，卻是**易栓**疾病。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "情況",
+            "治療（Harrison Ch.369）"
+          ],
+          "rows": [
+            [
+              "**第一次血栓**（靜脈）",
+              "**終生 VKA（warfarin），INR 2.0–3.0**"
+            ],
+            [
+              "動脈血栓",
+              "INR 3.0–4.0，或 2.0–3.0 ± 低劑量 aspirin（依血栓與出血風險）"
+            ],
+            [
+              "**DOAC？**",
+              "**不建議**——增加**動脈**事件，尤其**三種抗體都陽性**或曾有動脈血栓"
+            ],
+            [
+              "懷孕：產科 APS",
+              "**低劑量 aspirin + 預防劑量 LMWH**"
+            ],
+            [
+              "懷孕：血栓型 APS",
+              "低劑量 aspirin + **治療劑量 LMWH**（warfarin 懷孕禁用）"
+            ],
+            [
+              "無症狀高風險抗體、SLE 帶高風險抗體",
+              "**低劑量 aspirin** 預防"
+            ],
+            [
+              "**災難性 APS**",
+              "類固醇 + heparin + **血漿置換或 IVIG**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 108 年**：40 歲 SLE 女性，抗心脂抗體一直很高（正常上限 3 倍）但從未栓塞，這次**左腿 DVT** → **本題一律給分**。FC 詳解：SLE + 抗磷脂抗體 + 血栓 = **次發性 APS** → 指引首選 **VKA（warfarin），靜脈血栓目標 INR 2–3**；高風險（多種抗體陽性、反覆栓塞）可提高 INR 或加低劑量 aspirin；**DOAC 在三重陽性者再栓塞率較高 → 不建議取代 VKA**。選項「warfarin、INR 2.0–2.5」目標寫得不精確，aspirin、類固醇、NOAC 都不對 → 送分。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**災難性 APS（CAPS）**：**≥ 3 個器官**、**一週內**相繼栓塞、切片證實小血管血栓、抗體陽性 → 常見 MAHA 與嚴重血小板低下 → 要和 **TTP、HUS、DIC、HIT** 鑑別（見〈出血〉）。\n**監測 heparin 時**：APS 病人的 aPTT 本來就長 → 改用 **anti-Xa**（Harrison Ch.290）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.369 p.2837–2839"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.123 p.952"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 講義 p.175–176"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、血栓 題目 p.190–191"
+        }
+      ]
+    },
+    {
+      "title": "DVT 與肺栓塞的診斷、慢性血栓栓塞性肺高壓　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 下肢 DVT 多從**小腿**開始往上延伸；**下肢約為上肢的 10 倍**；上肢 DVT 多因**中心靜脈導管、PICC、心律調節器**\n- 診斷流程：**Wells** → 低機率先驗 **D-dimer**（**正常可排除**）→ 高機率或 D-dimer 高 → **壓迫超音波**（靜脈壓不扁 = DVT）或 **CT 肺動脈攝影**\n- **D-dimer 敏感但不特異**；住院、術後、癌症、懷孕、感染都會升高\n- PE：最常見是**不明原因呼吸喘**；心電圖 **S1Q3T3**（特異不敏感）、**V1–V4 T 波倒置**；胸部 X 光常正常；**心臟超音波不能用來診斷**\n- 依血壓與右心室功能分大塊、次大塊、低風險；**大塊 PE + 低血壓 → 溶栓**\n- **慢性血栓栓塞性肺高壓（CTEPH）**：急性 PE 後約 **2%**；→ **肺動脈內膜血栓切除術**可治癒"
+        },
+        {
+          "type": "figure",
+          "src": "figures/thrombosis-vte/h290-10.png",
+          "label": "Harrison's 22e Fig.290-10（p.2159）",
+          "caption": "懷疑 DVT 或 PE 時，什麼情況需要影像檢查",
+          "explain": "**【怎麼看】**先用 Wells 評估臨床機率：**DVT 低機率**或 **PE 非高機率** → 先驗 **D-dimer**：**正常 → 排除**（No DVT、No PE）；升高 → 做影像。**DVT 非低機率**或 **PE 高機率** → **跳過 D-dimer，直接影像**。\n**【考點】**D-dimer 是**排除**用的（敏感度 > 95%、特異度差）；住院病人、術後、癌症、懷孕常偏高 → 幫助有限。> 50 歲懷疑 PE 用**年齡校正**切點（年齡 × 10 ng/mL）；**DVT 不適用**年齡校正。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Wells：DVT（各 1 分）",
+            "Wells：PE"
+          ],
+          "rows": [
+            [
+              "活動性癌症；癱瘓或近期打石膏；臥床 > 3 天或 12 週內大手術；沿深靜脈壓痛；整條腿腫；小腿腫 > 3 cm（比對側）；凹陷性水腫；側枝淺靜脈；**其他診斷至少一樣可能 −2**",
+              "**DVT 症狀與徵象 3**；**其他診斷較不可能 3**；心跳 > 100 **1.5**；固定不動 > 3 天或 4 週內手術 **1.5**；曾有 DVT 或 PE **1.5**；咳血 **1**；癌症 **1**"
+            ],
+            [
+              "**≤ 0 低**、1–2 中、**≥ 3 高**",
+              "**> 4 = 高機率**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 103 年**：DVT 敘述**錯誤**的是「**一般較常發生在上肢靜脈**」——**下肢約為上肢的 10 倍**。正確：懷疑 DVT 應儘快確診、儘早抗凝；DVT 病人 **D-dimer 多為陽性**；**壓迫超音波合併 Doppler** 可作為診斷依據。\nFC 補充：血栓**高於膝蓋**（近端）才容易變成肺栓塞；膝下（遠端）可考慮觀察、追蹤是否往上長。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 D-dimer 只能「排除」不能「確診」？**\nD-dimer 是纖維蛋白被溶解的碎片——只要體內有血栓就會上升（**敏感度 > 95%**），但手術、感染、癌症、懷孕、心肌梗塞也都會產生纖維蛋白 → **特異度差**。所以只對**臨床機率低**的人有用：正常 → 幾乎可排除；機率高的人不論 D-dimer 結果都要做影像，所以**直接跳過**（Harrison）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**不是所有腿痛都是 DVT**：突然劇烈小腿痛 → **Baker 囊腫破裂**；發燒畏寒 → **蜂窩性組織炎**；**兩腳都腫**通常不是 DVT（除了最嚴重的**股青腫 phlegmasia cerulea dolens**）。\n年輕女性**反覆左大腿水腫** → **May-Thurner 症候群**（右髂動脈壓迫左髂靜脈）。\n**淺層靜脈血栓**：紅、痛、摸得到條索；可能往深靜脈延伸。"
+        },
+        {
+          "type": "heading",
+          "text": "肺栓塞的檢查"
+        },
+        {
+          "type": "figure",
+          "src": "figures/thrombosis-vte/h290-11.png",
+          "label": "Harrison's 22e Fig.290-11（p.2160）",
+          "caption": "大範圍肺栓塞病人的心電圖",
+          "explain": "**【怎麼看】**竇性心搏過速；**Lead I 有深 S 波、Lead III 有 Q 波與倒 T 波（S1Q3T3）**；**V1–V4 T 波倒置**（右心室負荷與缺血）。\n**【考點】**S1Q3T3 **較特異但不敏感**；PE 最常見的心電圖異常（除了心搏過速）其實是 **V1–V4 T 波倒置**。心電圖正常不能排除 PE。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "檢查",
+            "PE 的表現（Harrison Ch.290）"
+          ],
+          "rows": [
+            [
+              "症狀",
+              "**不明原因呼吸喘**最常見；肺梗塞（小的周邊 PE）→ **胸膜痛**；大塊 → 暈厥、低血壓、發紺"
+            ],
+            [
+              "動脈血氧",
+              "低血氧、**A-a gradient 增加**、過度換氣"
+            ],
+            [
+              "心電圖",
+              "竇性心搏過速；**S1Q3T3**（特異不敏感）；**V1–V4 T 波倒置**（最常見）"
+            ],
+            [
+              "胸部 X 光",
+              "常**正常或接近正常**；**Westermark**（局部血流稀少）、**Hampton hump**（胸膜邊三角形陰影 = 肺梗塞）、**Palla**（右下肺動脈變粗）"
+            ],
+            [
+              "**CT 肺動脈攝影**",
+              "**主要診斷工具**；右心室/左心室直徑比 > 1 → 30 天死亡率較高"
+            ],
+            [
+              "V/Q 掃描",
+              "第二線，給**不能打顯影劑**的人；高機率 = ≥ 2 個區段灌流缺損而通氣正常"
+            ],
+            [
+              "心臟超音波",
+              "**不能用來診斷**（多數 PE 正常）；用來排除心肌梗塞、心包填塞、主動脈剝離；**McConnell 徵象**（右心室游離壁不動、心尖正常）"
+            ],
+            [
+              "Troponin、BNP",
+              "右心室微梗塞與拉扯 → 預後不良"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "分類",
+            "比例",
+            "定義",
+            "治療"
+          ],
+          "rows": [
+            [
+              "**大塊（高風險）**",
+              "5–10%",
+              "**低血壓**、至少一半肺血管阻塞",
+              "抗凝 + **溶栓**（tPA 100 mg 2 小時）或導管、手術取栓；IVC 過濾器"
+            ],
+            [
+              "**次大塊（中風險）**",
+              "20–25%",
+              "血壓正常但**右心室功能異常**（± troponin 上升）",
+              "抗凝；惡化、持續右心負荷、血塊在心臟內 → 考慮溶栓或取栓"
+            ],
+            [
+              "低風險",
+              "65–75%",
+              "血壓與右心室都正常",
+              "**單純抗凝**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年**：45 歲女性半年來逐漸運動喘、倦怠、胸悶、**暈厥**；**頸靜脈壓上升、摸得到右心室搏動、右側 S4**、胸部 X 光**肺動脈膨大** → 慢性血栓栓塞造成的**肺高壓** → 最適當的是「**應檢測 protein C、protein S、antithrombin 是否異常**」（找易栓原因）。其他錯誤選項：心電圖應是**右心**負荷（電軸右偏、右心室肥大），不是左偏與左心室肥大；超音波是用**三尖瓣逆流**流速估計肺動脈壓，不是二尖瓣；肺血管病變是內皮增生、發炎與**血管收縮**，不是擴張。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：大塊 PE 合併休克時**只給 500 mL 輸液**（太多會加重右心室壁張力、把中膈推向左心室）；升壓用 **norepinephrine**、強心用 **dobutamine**；需要時 **VA-ECMO**。**全身溶栓**（tPA 100 mg 2 小時）越早越好、發生後 14 天內仍有效，但大出血約 10%、顱內出血 2–3%；**導管介入**（低劑量 tPA 或機械取栓）出血較少。\n**下腔靜脈過濾器**只有兩個主要適應症：**活動性出血不能抗凝**、**足量抗凝下仍反覆血栓**；盡量用可取出式。\n**CTEPH**：PE 初期有肺高壓者，**6 週與 6 個月**追蹤心臟超音波；能開刀 → 肺動脈內膜血栓切除術；不能開 → 肺血管擴張劑、氣球擴張術。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.290 p.2158–2164"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.294 p.2188–2189"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、血栓 講義 p.188–189"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、血栓 題目 p.188–189、191"
+        }
+      ]
+    },
+    {
+      "title": "抗凝血藥：heparin、LMWH、warfarin、DOAC 與 HIT 的治療　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 三種起手方式：**注射型（UFH、LMWH、fondaparinux）重疊到 warfarin**；**注射型 5 天後換 dabigatran 或 edoxaban**；**rivaroxaban 或 apixaban 單獨從頭吃**（有加強劑量期）\n- **Warfarin**：效果要 5–7 天、**初期 protein C 先掉 → 短暫高凝** → 必須與注射型**重疊 ≥ 5 天**且 INR 達標；目標 **INR 2–3**\n- **DOAC**：固定劑量、不必監測、少交互作用；**懷孕與哺乳、APS 不用**；末期腎病、肝硬化資料不足\n- **HIT 的治療**：**停所有 heparin（含 LMWH，會交叉反應）** → **argatroban**、bivalirudin、fondaparinux 或 DOAC；**不可單用 warfarin**（等血小板回升、重疊使用）\n- 反轉（protamine、vitamin K、4F-PCC、idarucizumab、andexanet）→ 見〈出血〉"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物",
+            "機轉",
+            "監測",
+            "重點（Harrison＋FC）"
+          ],
+          "rows": [
+            [
+              "**UFH**",
+              "結合並加速 **antithrombin** → 抑制凝血酶、Xa",
+              "**aPTT**（目標 60–80 秒）或 anti-Xa",
+              "靜脈 bolus 80 U/kg + 18 U/kg/h；半衰期短、可逐時調整；**HIT 較多**"
+            ],
+            [
+              "**LMWH**（enoxaparin）",
+              "以抑制 **Xa** 為主",
+              "通常不需；**肥胖、腎病、懷孕**才驗 anti-Xa",
+              "皮下、劑量可預測；**HIT 約為 UFH 的 1/5**"
+            ],
+            [
+              "**Fondaparinux**",
+              "經 antithrombin 抑制 **Xa**（五醣）",
+              "不需",
+              "每天一次皮下；**不會引起 HIT**；腎功能差要減量"
+            ],
+            [
+              "**Argatroban／bivalirudin**",
+              "**直接凝血酶抑制劑**（靜脈）",
+              "aPTT",
+              "**HIT 用**；argatroban **肝代謝**、bivalirudin **腎代謝**"
+            ],
+            [
+              "**Warfarin**",
+              "抑制 VKOR → II、VII、IX、X 與 protein C、S 減少",
+              "**INR 2.0–3.0**",
+              "完整效果要 5–7 天 → **與注射型重疊至少 5 天、INR 連續兩次（隔 ≥ 1 天）達標**；**懷孕禁用**、可哺乳"
+            ],
+            [
+              "**Dabigatran**",
+              "直接**凝血酶**抑制",
+              "不需（aPTT 粗估）",
+              "先注射型 **5 天**再換；主要經腎排除"
+            ],
+            [
+              "**Rivaroxaban、apixaban、edoxaban**",
+              "直接 **Xa** 抑制",
+              "不需（anti-Xa）",
+              "**rivaroxaban、apixaban 可單獨從頭用**；edoxaban 要先注射 5 天"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 warfarin 一開始反而會讓血栓變多？**\nwarfarin 讓所有維他命 K 依賴蛋白一起減少，但**消失速度依半衰期**：**protein C 和 VII 最快掉**，II、X 要好幾天。前幾天抗凝物（protein C）已經沒了、真正讓血液不凝的 II、X 還在 → **短暫高凝**。所以要有 heparin 類「蓋住」這段空窗（FC：橋接 5 天），INR 早期上升只代表 VII 下降，**還不代表抗凝到位**（Harrison）。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "DOAC 治療 VTE（Harrison Table 290-4）",
+            "起始",
+            "維持"
+          ],
+          "rows": [
+            [
+              "**Rivaroxaban**",
+              "**15 mg BID × 3 週**",
+              "20 mg QD（隨晚餐）"
+            ],
+            [
+              "**Apixaban**",
+              "**10 mg BID × 1 週**",
+              "5 mg BID"
+            ],
+            [
+              "Dabigatran",
+              "UFH、LMWH 或 fondaparinux **5 天**",
+              "150 mg BID（CrCl 15–30：75 mg BID）"
+            ],
+            [
+              "Edoxaban",
+              "注射型 **5 天**",
+              "60 mg QD（CrCl 15–50 或低體重：30 mg）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**HIT 的抗凝細節**（Harrison Ch.120）：\n- 確診 HIT 即使**沒有血栓也要抗凝**（血栓率很高），並做**下肢超音波**找無症狀 DVT\n- 急性重症先用**靜脈直接凝血酶抑制劑**，穩定後換 fondaparinux 或 DOAC（rivaroxaban 經驗最多）\n- **單用 warfarin 會誘發靜脈壞疽**（protein C 急降）→ 等**血小板恢復**後才開始，且要和非 heparin 抗凝劑重疊\n- 療程：有血栓 **3–6 個月**；沒血栓至少到**血小板恢復**\nFC 舊觀念：VTE 用 warfarin 時 INR 控制在 2.5–3；Harrison 與現行指引為 **2.0–3.0**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：VTE 的第一線越來越多用 **DOAC**——「注射型橋接 warfarin」被形容為「已確立但逐漸式微」的策略。FC 整理：**效果** DOAC = LMWH + warfarin > heparin + warfarin；**安全性** DOAC > 其他兩者；PE 時 DOAC 優於 warfarin。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.123 p.947–953"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.290 p.2162–2163"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.120 p.923–924"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、血栓 講義 p.189–190"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 講義 p.181–182"
+        }
+      ]
+    },
+    {
+      "title": "抗凝療程：有誘因 vs 無誘因、癌症與特殊族群　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **有暫時、可逆的誘因**（手術、臥床、創傷）→ **至少 3 個月**\n- **無誘因**或**持續危險因子** → 3 個月後評估，出血風險不高就**延長（不設停藥日）**\n- **癌症**：**LMWH 單獨**或 **DOAC**（腸胃道癌避免 DOAC）→ 持續到**沒有癌症**\n- **APS**：**終生 warfarin**\n- **懷孕**：**LMWH**（warfarin 會致畸、DOAC 禁用）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "情境（FC 詳解）",
+            "最短療程",
+            "之後"
+          ],
+          "rows": [
+            [
+              "近端 DVT 或 PE，**有暫時性誘因**（手術、住院臥床、感染）",
+              "**3 個月**",
+              "誘因已除、出血風險低 → 停藥"
+            ],
+            [
+              "近端 DVT 或 PE，**無明顯誘因**",
+              "≥ 3 個月後評估",
+              "出血風險低或中 → **延長或終生**；出血風險高 → 停在 3 個月"
+            ],
+            [
+              "**遠端（小腿）DVT**",
+              "症狀輕 → 追蹤 6 週；症狀重或可能延伸 → 3 個月",
+              "往近端延伸 → 依近端原則"
+            ],
+            [
+              "**癌症相關 VTE**",
+              "**≥ 6 個月**",
+              "持續到**癌症緩解**或無活動病灶"
+            ],
+            [
+              "**APS + 血栓**",
+              "**終生 warfarin**（INR 2–3）",
+              "不建議 DOAC"
+            ],
+            [
+              "第二次無誘因 VTE、嚴重遺傳易栓",
+              "**終生**",
+              "出血風險高 → 減量 DOAC 或密集追蹤"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 102 年**：52 歲急性肺炎住院、**臥床 7 天後**右下肢**近端 DVT**，heparin 併 warfarin 治療 → 出院後 warfarin **至少 3 個月**（暫時性誘因）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼「誘因」決定吃多久？**\n停藥後會不會再發，取決於造成血栓的原因還在不在：**大手術**這種強烈、已經結束的誘因 → 停藥後再發率低；**找不到原因**代表病人本身就容易栓 → 停藥後再發率高。所以療程是在「再發風險」和「出血風險」之間權衡（Harrison、FC）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e、ESC 2019 PE 指引）**：指引**不再用「誘發 vs 無誘因」**來決定療程——許多「誘發」的 VTE 停藥後再發率和無誘因的一樣高；改看**再發風險分級**。第一次 PE 且**找不到危險因子**、**有持續危險因子**、或只有**輕微暫時因子** → 考慮**不設停藥日的延長抗凝**。作答時仍依 FC 的「暫時誘因 3 個月」。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "停藥後的再發風險（ESC 2019，Harrison Table 290-6）",
+            "例子"
+          ],
+          "rows": [
+            [
+              "**低**（< 3%／年）",
+              "**大手術、重大創傷**"
+            ],
+            [
+              "**中**（3–8%／年）",
+              "小手術、內科急病住院、懷孕或雌激素、長途飛行、IBD、自體免疫病、**找不到危險因子**（舊稱無誘因）"
+            ],
+            [
+              "**高**（> 8%／年）",
+              "**活動性癌症**、**抗磷脂抗體症候群**"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：懷孕與抗凝（Harrison Ch.123）",
+          "text": "- **Warfarin 會通過胎盤**：第一孕期致畸（**鼻骨發育不良、點狀骨骺**）、任何時期都可能中樞神經異常、胎兒出血（生產時顱內出血）→ **懷孕禁用**（尤其第一、第三孕期）\n- 懷孕改用 **heparin、LMWH 或 fondaparinux**；LMWH 劑量在第三孕期可能要 anti-Xa 監測\n- **Warfarin 不進乳汁 → 哺乳可用**；**DOAC 懷孕與哺乳都不要用**（Harrison Ch.290）\n- 懷孕與產後的 VTE 相對風險約 **4.3 倍**；產後 **6–12 週**仍屬高風險期"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：住院病人與癌症病人的預防（Harrison Table 290-7、FC）",
+          "text": "- 高風險非骨科手術、內科住院（尤其臥床、曾有 VTE、中心靜脈導管、癌症）：**UFH 5000 U 皮下 BID–TID**、**enoxaparin 40 mg QD**、dalteparin 或 fondaparinux\n- 排除：活動性胃十二指腸潰瘍、3 個月內大出血、**血小板 < 5 萬**\n- **骨科大手術**：aspirin、rivaroxaban、apixaban、dabigatran、warfarin（INR 2.0）、LMWH 或 fondaparinux 都可\n- 不能抗凝 → **間歇性氣動壓迫、彈性襪**\n- 門診癌症病人開始新化療且高風險：**apixaban 或 rivaroxaban** 最多 6 個月（FC：**Khorana 分數 ≥ 2** 可考慮；AVERT、CASSINI 試驗）\n- 移植後**肝靜脈阻塞病**（VOD）：造血幹細胞移植後體重上升、肝腫大、腹水、黃疸、**難治性血小板低下** → **defibrotide**（FC）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.290 p.2163–2164"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.123 p.952"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、血栓 講義 p.189–190、192"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丙、血栓 題目 p.191"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 107 年）：30 歲台灣男性，左手 DVT（沒有導管、沒有外傷），哥哥 35 歲死於肺栓塞。",
+          "text": "1. **Virchow**：沒有滯留、沒有內皮受傷（無導管）→ 想**高凝狀態**\n2. **少見部位 + 年輕 + 一等親早發 PE** → 值得查**遺傳性易栓症**\n3. **台灣**：**protein S > protein C > antithrombin** 缺乏；**Factor V Leiden 罕見**（西方才常見）\n4. **何時驗**：避開急性期與抗凝中（heparin 讓 AT 下降、warfarin 讓 protein C、S 下降）；也要驗**抗磷脂抗體**\n5. **治療**：抗凝至少 3 個月；確診嚴重遺傳缺乏或反覆 → 考慮延長或終生；protein C、S 缺乏用 warfarin 要**低劑量起始 + 重疊**（防皮膚壞死）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 108 年）：40 歲 SLE 女性，抗心脂抗體一直是正常上限 3 倍，這次左腿急性腫痛，超音波證實 DVT。",
+          "text": "1. **血栓 + 抗磷脂抗體 + SLE** → **次發性 APS**（確診還需相隔 12 週再驗一次抗體）\n2. **急性期**：先用 heparin 或 LMWH（APS 的 aPTT 本來就長 → 用 **anti-Xa** 監測）\n3. **長期**：**warfarin 終生，INR 2–3**\n4. **不用 DOAC**：三重陽性或高效價者再栓塞（尤其動脈）較多\n5. **類固醇、單用 aspirin 都不是治療血栓的答案**；若懷孕 → 改 **LMWH 治療劑量 + 低劑量 aspirin**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 107 年）：45 歲女性半年來逐漸運動喘、胸悶、暈厥；頸靜脈壓高、摸得到右心室搏動、右側 S4，胸部 X 光肺動脈膨大。",
+          "text": "1. **右心衰竭 + 肺動脈膨大** → **肺高壓**\n2. **心臟超音波**：用**三尖瓣逆流**流速估計肺動脈收縮壓；心電圖應是**右**心負荷\n3. **慢性、逐漸惡化** → 想**慢性血栓栓塞性肺高壓（CTEPH）**——V/Q 掃描看區段缺損、CT 肺動脈攝影\n4. **找易栓原因**：protein C、S、antithrombin、抗磷脂抗體\n5. **治療**：終生抗凝；能開刀 → **肺動脈內膜血栓切除術**（可能治癒）；不能 → 肺血管擴張劑、氣球擴張術"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "易栓症（§易栓症）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：一位 30 歲臺灣人左手發生深層靜脈血栓（deep vein thrombosis, DVT），詢問其家族史，他的哥哥在 35 歲時死於肺栓塞。下列何者最不可能是這位病人 DVT 發生的原因？（A protein C deficiency B protein S deficiency C antithrombin III deficiency D factor V Leiden mutation）（FC 107 年）",
+          "text": "**答：(D)。** Factor V Leiden 在西方常見（西方 DVT 約 50%），台灣罕見；台灣抗凝因子缺乏的發生率 protein S > protein C > antithrombin（FC）。"
+        },
+        {
+          "type": "heading",
+          "text": "抗磷脂抗體症候群（§APS）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：40 歲李女士約 3 年前診斷為全身性紅斑狼瘡，除發病時曾有關節腫痛與皮膚紅斑外，近 2 年病情尚稱穩定。過去驗血就知道血中的抗心脂抗體（anticardiolipin antibodies）很高，為正常上限值的 3 倍，但過去並不曾發生血管栓塞。本次因左腿急性腫痛至急診室求診，影像學檢查見左腿有深部靜脈栓塞。下列處置何者最為適當？（A 加上 aspirin，每日 100 毫克 B 加上口服 warfarin，希望目標 INR 2.0–2.5 C 應立即用高劑量類固醇治療 D 加上新型抗凝血藥物（NOAC））（FC 108 年）",
+          "text": "**答：本題一律給分。** FC 詳解：SLE + 抗磷脂抗體 + 血栓 = 次級 APS；指引（EULAR 2019、ACR 2023）首選 VKA，靜脈血栓目標 INR 2–3；高危型可考慮 ≥ 3 或合併低劑量 aspirin；DOAC 在三重陽性或高效價者再栓塞率較高，不建議取代 VKA。"
+        },
+        {
+          "type": "heading",
+          "text": "DVT 與肺高壓（§DVT 與 PE 的診斷）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：一位 45 歲女教師，主訴半年內逐漸發生運動時氣促、倦怠、胸悶以及昏厥的症狀。身體診察發現頸靜脈壓力上升，可摸到右心室搏動，且在右側聽到 S4 的心音，胸部 X 光發現肺動脈膨大，下列敘述何者最適當？（A 應檢測 protein C、protein S、antithrombin III 等是否異常 B 心電圖通常可以發現心軸向左偏轉及左心室肥大 C 可以用心臟超音波測量二尖瓣逆流的流速來估計肺動脈的壓力 D 病患肺血管主要的表徵為血管內皮增生、發炎反應增加，以及血管擴張）（FC 107 年）",
+          "text": "**答：(A)。** FC 詳解：肺栓塞使肺動脈阻力上升導致肺高壓，症狀包括呼吸喘、胸痛、心搏過速、暈厥；檢查常見右心室肥大、肺動脈膨大 → 要找易栓原因。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：下列有關 deep vein thrombosis（DVT）的敘述，何者錯誤？（A 懷疑有 DVT，應該儘快確定診斷，儘早開始使用抗凝血劑治療 B DVT 的病人 D-dimer 檢查多為陽性 C compression ultrasound with Doppler 的檢查可作為診斷依據 D 一般較常發生在上肢靜脈）（FC 103 年）",
+          "text": "**答：(D)。** 下肢 DVT 約為上肢的 10 倍（Harrison）。"
+        },
+        {
+          "type": "heading",
+          "text": "療程（§抗凝療程）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：一位 52 歲急性肺炎患者住院治療，臥床 7 天後發生右下肢 proximal deep vein thrombosis，給予 heparin 併 warfarin 治療後略有改善。該患者出院後口服抗凝血劑 warfarin 至少應給多長？（A 4 週 B 3 個月 C 6 個月 D 12 個月）（FC 102 年）",
+          "text": "**答：(B)。** 近端 DVT 伴暫時性危險因子（住院臥床、感染）→ 3 個月，危險因子移除、出血風險低即可停藥（FC）。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "Virchow",
+              "滯留、高凝、內皮受傷（+ 發炎觸發）"
+            ],
+            [
+              "靜脈 vs 動脈",
+              "靜脈紅色血栓 → 抗凝；動脈白色血栓 → 抗血小板"
+            ],
+            [
+              "台灣易栓症",
+              "protein S > C > antithrombin；Factor V Leiden 罕見"
+            ],
+            [
+              "易栓症何時驗",
+              "結果會改變處置才驗；避開急性期與抗凝中"
+            ],
+            [
+              "APS",
+              "LA、aCL、anti-β2GPI 相隔 12 週兩次；動靜脈血栓 + 流產；終生 warfarin INR 2–3；不用 DOAC"
+            ],
+            [
+              "DVT",
+              "下肢 ≫ 上肢（10 倍）；上肢多因導管；近端才易變 PE"
+            ],
+            [
+              "D-dimer",
+              "敏感不特異 → 低機率才用來排除；> 50 歲 PE 年齡 × 10"
+            ],
+            [
+              "PE 檢查",
+              "CTPA 為主；V/Q 給不能打顯影劑；心電圖 S1Q3T3、V1–V4 T 倒；超音波不能診斷"
+            ],
+            [
+              "PE 分級",
+              "低血壓 = 大塊 → 溶栓；右心室異常 = 次大塊；其他低風險"
+            ],
+            [
+              "CTEPH",
+              "PE 後約 2% → 肺動脈內膜血栓切除術"
+            ],
+            [
+              "Warfarin 起始",
+              "重疊注射型 ≥ 5 天 + INR 連兩次達標；INR 2–3；懷孕禁用"
+            ],
+            [
+              "DOAC 起始",
+              "rivaroxaban 15 BID × 3 週、apixaban 10 BID × 1 週可單用；dabigatran、edoxaban 先注射 5 天"
+            ],
+            [
+              "HIT 治療",
+              "停所有 heparin → argatroban、bivalirudin、fondaparinux、DOAC；不可單用 warfarin"
+            ],
+            [
+              "療程",
+              "暫時誘因 3 個月；無誘因或持續風險延長；癌症到緩解；APS 終生"
+            ],
+            [
+              "IVC 過濾器",
+              "活動性出血不能抗凝、足量抗凝仍復發"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,6 +12,10 @@
   "updated": "2026-11-19",
   "related": [
     {
+      "id": "thrombosis-vte",
+      "name": "Thrombosis (血栓：易栓症、靜脈血栓與抗凝治療)"
+    },
+    {
       "id": "anemia-hemolytic",
       "name": "Anemia (三)：正球性貧血——溶血與骨髓衰竭"
     },

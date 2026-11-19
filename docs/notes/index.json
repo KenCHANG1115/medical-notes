@@ -305,6 +305,10 @@
         {
           "id": "bleeding-disorders",
           "name": "Bleeding Disorders (出血：凝血檢查與出血疾病)"
+        },
+        {
+          "id": "thrombosis-vte",
+          "name": "Thrombosis (血栓：易栓症、靜脈血栓與抗凝治療)"
         }
       ]
     },
