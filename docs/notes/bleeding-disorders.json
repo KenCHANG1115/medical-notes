@@ -1,0 +1,1259 @@
+{
+  "id": "bleeding-disorders",
+  "title": "Bleeding Disorders (出血：凝血檢查與出血疾病)",
+  "title_en": "Bleeding Disorders",
+  "title_zh": "出血：凝血檢查與出血疾病",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.69 Bleeding and Thrombosis; Ch.120 Disorders of Platelets and Vessel Wall; Ch.121 Coagulation Disorders; Ch.123 Antiplatelet, Anticoagulant, and Fibrinolytic Drugs",
+    "First Choice 醫學(三) 第4冊 - 乙、凝血異常（講義 p.172–182；題目 p.183–186），甲、貧血 TMA（講義 p.150–152；題目 p.159），本篇共 11 題"
+  ],
+  "generated": "2026-11-19",
+  "updated": "2026-11-19",
+  "related": [
+    {
+      "id": "anemia-hemolytic",
+      "name": "Anemia (三)：正球性貧血——溶血與骨髓衰竭"
+    },
+    {
+      "id": "anemia-overview",
+      "name": "Anemia (一)：總論與小球性貧血"
+    },
+    {
+      "id": "cirrhosis-portal-htn-varices",
+      "name": "Cirrhosis (一)：總論、門脈高壓與靜脈曲張"
+    },
+    {
+      "id": "aki-intrinsic",
+      "name": "Acute Kidney Injury (二)：腎因性 AKI 各論"
+    },
+    {
+      "id": "valve-aortic",
+      "name": "Valvular Heart Disease (二)：主動脈瓣狹窄與主動脈瓣逆流"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 11 題｜最常考：ITP、血小板低下的鑑別（假性、TTP/HUS/aHUS）、後天性血友病、單獨 aPTT 延長要驗什麼\n① **先看出血型態**：皮膚黏膜（點狀出血、流鼻血、月經過多）→ 血小板或 vWF（初級止血）；關節、深部肌肉血腫、延遲出血 → 凝血因子（次級止血）\n② **四格判讀**：血小板數、PT、aPTT、周邊抹片 → 定位缺陷在哪一段\n③ **血小板低下**：先排除**假性**（EDTA 管凝集）→ 抹片有**破碎紅血球** → TTP、HUS、DIC；沒有 → 藥物、感染、ITP；兩系以上異常 → 骨髓\n④ **PT 或 aPTT 延長 → 混合試驗**：矯正 = 因子缺乏 → 測因子活性；不矯正 = 抑制物（後天性血友病、lupus anticoagulant）或抗凝劑\n⑤ **依病因治療**：ITP 類固醇或 IVIG；TTP 血漿置換；aHUS eculizumab；vWD 第 1 型 DDAVP；血友病補因子；warfarin 過量依 INR 與有無出血選 vitamin K 或 4F-PCC\n新版來源：Harrison 22e Ch.69、120、121、123（FC 第4冊 乙 10 題＋甲 TMA 1 題）\n分工：HIT 的**診斷**在本篇、**換用哪種抗凝劑**在〈血栓〉；DIC 在本篇，急性前骨髓細胞白血病的 DIC 在〈急性白血病〉"
+        }
+      ]
+    },
+    {
+      "title": "止血生理與出血型態　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 止血四步：**血管收縮** → **初級止血**（血小板栓）→ **次級止血**（凝血因子產生纖維蛋白）→ 抗凝與纖維蛋白溶解（tPA、thrombomodulin、protein C/S 踩煞車）\n- 血小板：正常 **15–45 萬/µL**、壽命 **7–10 天**、約 **1/3 在脾臟**；**無細胞核 → 合成新蛋白的能力有限**（不是完全不能）；**TPO 由肝臟**製造\n- **黏附**：血小板 **GP Ib-IX-V ↔ vWF**（GP Ia ↔ 膠原）→ **活化**：放出 TXA2、ADP → **聚集**：**GP IIb/IIIa ↔ fibrinogen**\n- 出血型態：**皮膚黏膜、點狀出血、立即** → 初級止血；**關節血腫、深部肌肉血腫、延遲** → 凝血因子\n- X 的活化：**VIIa + 組織因子**、**IXa + VIIIa**；**Va 不參與**（Va 是 Xa 的輔因子）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "初級止血（primary）",
+            "次級止血（secondary）"
+          ],
+          "rows": [
+            [
+              "缺陷",
+              "**血小板**（數量或功能）、**vWF**、血管",
+              "**凝血因子**"
+            ],
+            [
+              "出血部位",
+              "**皮膚、黏膜**",
+              "**關節、肌肉**等深部軟組織"
+            ],
+            [
+              "病灶",
+              "**點狀出血（petechiae）**、瘀斑",
+              "**關節血腫（hemarthrosis）**、深部血腫"
+            ],
+            [
+              "時機",
+              "小傷口**立即**出血、量較少",
+              "大手術後**延遲**出血、較嚴重"
+            ],
+            [
+              "例子",
+              "流鼻血、刷牙流血、月經過多",
+              "膝關節腫痛、爬山後肌肉內血腫"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼點狀出血代表血小板不夠，不代表凝血因子缺乏？**\n微血管每天都有小破洞，靠血小板即時補上；血小板要約 **5,000–10,000/µL** 才維持得住微血管完整。數量太少時，靜脈壓最高的**腳踝、足部**先冒出針尖大小、壓不白的點（Harrison）。凝血因子缺乏時血小板栓仍能先形成，但不穩、會再裂開 → 表現是**延遲、深部**出血。\n口訣（常用）：**P**lay **T**ennis **o**utside → **PT 外在**；**P**lay **T**able **T**ennis **i**nside → **aPTT 內在**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/bleeding-disorders/h121-1.png",
+          "label": "Harrison's 22e Fig.121-1（p.929）",
+          "caption": "凝血瀑布與 PT、aPTT、TT 各自測到哪一段",
+          "explain": "**【怎麼看】**左邊淡綠框 = **aPTT（內在路徑）**：XII、XI、IX、VIII；右上深綠框 = **PT（外在路徑）**：VII + 組織因子；中下藍灰框 = **共同路徑**（X、V、凝血酶原），**PT 與 aPTT 都會延長**；最下粉紅框 = **TT（凝血酶時間）**：只測 fibrinogen → fibrin。\n**【考點】**X 被活化有兩條路：**VIIa + 組織因子**（外在）、**IXa + VIIIa + Ca²⁺ + 磷脂**（內在）。**Va 是 Xa 的輔因子**（一起把凝血酶原變凝血酶），**不參與 X 的活化**（FC 105 年）。XIIIa 把纖維蛋白交聯 → **XIII 缺乏時 PT、aPTT 都正常**（FC 104 年）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 112 年**：血小板敘述**錯誤**的是「血小板無核，**也無 RNA，因此沒有合成蛋白質的能力**」——血小板沒有核，但 Harrison 的說法是「**合成新蛋白的能力有限**」，不是完全沒有。正確敘述：直徑約 1–5 µm、壽命 7–10 天；**GP Ib-IX-V** 對黏附與活化很重要；急性冠心症時血小板彼此、與白血球的交互作用都增強。\n**FC 105 年**：X 活化為 Xa 的反應中**沒有參與**的是 **Va**（VIIa、VIIIa、IXa 都有參與）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**濕性紫斑（wet purpura）**：口腔黏膜出現血泡 → 代表有**致命性出血**的風險（Harrison）；ITP 病人另一個警訊是**視網膜出血**。\n**出血時間（bleeding time）無法預測出血風險，不建議用**；沒有出血病史的人，**術前常規驗 aPTT 沒有證據支持**（Harrison Ch.69）。最好的篩檢工具是**出血病史問卷**（ISTH-BAT）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：抗血小板藥的作用點（FC）",
+          "text": "- **Aspirin**：抑制 TXA2 製造（不可逆抑制 COX-1）\n- **Clopidogrel**：阻斷 ADP 受體（P2Y12）\n- **Abciximab**：阻斷 GP IIb/IIIa（單株抗體）\n- **Dipyridamole**：抑制 PDE → cAMP 上升\n（藥物細節見〈血栓〉）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.69 p.472–475"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.120 p.921"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.121 p.928–929"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 講義 p.172–173"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 題目 p.183、186"
+        }
+      ]
+    },
+    {
+      "title": "四格判讀與混合試驗　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 單獨 **PT 延長** → **VII**（半衰期最短 4–6 小時）：warfarin、**早期**維他命 K 缺乏或肝病、先天 VII 缺乏\n- 單獨 **aPTT 延長** → **VIII、IX、XI**、**vWD**、heparin、lupus anticoagulant；XII 缺乏也會延長但**不出血**\n- **PT + aPTT 都延長** → 共同路徑（X、V、II、fibrinogen）或多個因子一起缺：**DIC、嚴重肝病、維他命 K 缺乏或 warfarin 過量**\n- **PT、aPTT 都正常卻出血** → 血小板功能、vWD、**XIII 缺乏**、血管問題\n- **混合試驗**：病人血漿與正常血漿 **1:1** → **立即**測與 **37°C 孵育後**再測；**矯正 = 因子缺乏** → 測個別因子活性；**不矯正 = 抑制物** → Bethesda 試驗（定出抗哪個因子、效價）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "血小板",
+            "PT",
+            "aPTT",
+            "想到"
+          ],
+          "rows": [
+            [
+              "**低**",
+              "正常",
+              "正常",
+              "**ITP**、藥物、感染、TTP/HUS（看抹片）、**假性**（EDTA 凝集）"
+            ],
+            [
+              "**低**",
+              "**長**",
+              "**長**",
+              "**DIC**、嚴重肝病（合併脾亢）"
+            ],
+            [
+              "正常",
+              "**長**",
+              "正常",
+              "**VII 缺乏**、**warfarin**、維他命 K 缺乏或肝病**早期**"
+            ],
+            [
+              "正常",
+              "正常",
+              "**長**",
+              "**血友病 A/B**、**XI 缺乏**、**vWD**（VIII 跟著低）、heparin、lupus anticoagulant、後天抑制物；XII、PK、HMWK 缺乏（**不出血**）"
+            ],
+            [
+              "正常",
+              "**長**",
+              "**長**",
+              "**X、V、II、fibrinogen** 缺乏；warfarin 過量、維他命 K 缺乏晚期"
+            ],
+            [
+              "正常",
+              "正常",
+              "正常",
+              "**血小板功能異常**、輕型 vWD、**XIII 缺乏**、血管性紫斑（老年性、壞血病、IgA 血管炎、HHT）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼混合試驗能分出「缺」還是「被抑制」？**\n因子只要有正常的約 **50%** 就能讓 PT、aPTT 回到正常 → 加入一半正常血漿就**補回來了**（= 缺乏）。如果病人血漿裡有**抗體**，它會連加進去的正常因子一起中和 → **補不回來**（= 抑制物）。\nFC 補充：抗 VIII 抗體是**時間依賴性**——剛混合時可能矯正，**孵育 1–2 小時後又延長**，所以要做孵育後的測定。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**混合試驗不矯正 ≠ 一定是後天性血友病**：抗凝劑（heparin、直接凝血酶抑制劑）也會讓混合試驗不矯正 → 先看用藥。\n**後天性抑制物 vs lupus anticoagulant**：兩者都讓 aPTT 延長且不矯正；**lupus anticoagulant** 的 **dRVVT 陽性**、會干擾**多個**因子（VIII、IX、XI、XII），臨床上是**血栓**而不是出血；後天性抑制物**只針對單一因子**、表現是**出血**（Harrison Ch.121）。"
+        },
+        {
+          "type": "heading",
+          "text": "延伸：先天凝血因子缺乏一覽（Harrison Table 121-1）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "因子缺乏",
+            "遺傳",
+            "aPTT",
+            "PT",
+            "治療（Harrison Table 121-1）"
+          ],
+          "rows": [
+            [
+              "VIII（血友病 A）",
+              "**X 連鎖**",
+              "+",
+              "−",
+              "VIII 濃縮製劑"
+            ],
+            [
+              "IX（血友病 B）",
+              "**X 連鎖**",
+              "+",
+              "−",
+              "IX 濃縮製劑"
+            ],
+            [
+              "XI",
+              "體染色體隱性",
+              "+",
+              "−",
+              "FFP"
+            ],
+            [
+              "VII",
+              "體染色體隱性",
+              "−",
+              "+",
+              "FFP、PCC"
+            ],
+            [
+              "X、V、II",
+              "體染色體隱性",
+              "+/−",
+              "+/−",
+              "FFP、PCC（V 缺乏可輸血小板，因血小板含 V）"
+            ],
+            [
+              "Fibrinogen",
+              "體染色體隱性",
+              "+",
+              "+",
+              "冷凍沉澱品（TT 也延長）"
+            ],
+            [
+              "XII、PK、HMWK",
+              "體染色體隱性",
+              "+",
+              "−",
+              "**不會出血，不需治療**"
+            ],
+            [
+              "XIII",
+              "體染色體隱性",
+              "−",
+              "−",
+              "冷凍沉澱品、XIII 濃縮製劑"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：FC 特殊整理：PT 與 aPTT 的典型組合",
+          "text": "- **DIC**：PT、aPTT 都延長（全部凝血成分都被消耗）\n- **肝病**：PT 先延長——VII 在肝臟製造；**VIII 在肝外製造** → aPTT 較不受影響\n- **抗磷脂抗體症候群**：只有 aPTT 延長——PT 試劑含較多磷脂，較不受抗磷脂抗體影響（APS 詳見〈血栓〉）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.69 p.474–475"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.121 p.928、936"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 講義 p.180"
+        }
+      ]
+    },
+    {
+      "title": "血小板低下：ITP、TTP/HUS/aHUS、DIC、HIT　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 三大機轉：**製造減少**、**脾臟滯留**（脾大很少讓血小板 < 4 萬）、**破壞增加**；**藥物是最常見原因**\n- **第一步看抹片、排除假性血小板低下**（EDTA 紫頭管內凝集）→ 改用 **citrate 藍頭管或 heparin 綠頭管**重抽；**假性不會出血**\n- **Hb、白血球也異常 → 骨髓**；**> 60 歲單獨血小板低**或治療無效 → 也做骨髓（排除 MDS）\n- **ITP** = 排除性診斷：抹片只見**大血小板**；**抗血小板抗體檢查沒有幫助**；要驗 **HIV、HCV**（視情況 SLE、H. pylori、免疫球蛋白），有貧血加驗 **Coombs**（Evans 症候群）\n- ITP：**> 3 萬、沒出血 → 觀察**；要治療 → **類固醇**（± IVIG）；大出血 → 住院、類固醇 + **IVIG**；慢性 → **TPO 受體促效劑**、rituximab、脾切除\n- **TMA = 微血管病性溶血（破碎紅血球）+ 血小板低 + 器官缺血**；**TTP/HUS 的 PT、aPTT 正常**，DIC 才延長\n- **TTP**：ADAMTS13 **< 10%** → **血漿置換**；**HUS**：腹瀉後、腎為主 → 支持療法；**aHUS**：ADAMTS13 正常、補體 → **eculizumab**\n- **HIT**：heparin **第 5–14 天**、**血栓而非出血** → 停所有 heparin"
+        },
+        {
+          "type": "heading",
+          "text": "入口：先排除假性，再看抹片"
+        },
+        {
+          "type": "figure",
+          "src": "figures/bleeding-disorders/h120-1.png",
+          "label": "Harrison's 22e Fig.120-1（p.922）",
+          "caption": "四張周邊血液抹片：A 正常、B 假性血小板低下、C 大血小板、D 破碎紅血球",
+          "explain": "**【怎麼看】****A** 正常：紅血球之間散著小小的紫色血小板。**B** 假性血小板低下：血小板**擠成一團一團**（右上、左下的紫色顆粒團）→ 機器把一團算成一顆，數值假性偏低。**C** 體染色體顯性巨大血小板症：血小板**和紅血球差不多大**。**D** 微血管病性溶血：**破碎紅血球（schistocytes）**——三角形、頭盔形的碎片，血小板也很少。\n**【考點】**血小板低下第一步就是**看抹片**：B → 用 **citrate（藍頭）或 heparin（綠頭）**管重抽；D → 想 **TTP、HUS、DIC**；ITP 的抹片只會看到**偏大的血小板**，其他正常。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/bleeding-disorders/h120-2.png",
+          "label": "Harrison's 22e Fig.120-2（p.922）",
+          "caption": "血小板低下的評估流程",
+          "explain": "**【怎麼看】**血小板 < 15 萬 → 先看 **Hb 與白血球**：異常 → **骨髓檢查**；正常 → **周邊抹片**分三路：血小板凝集 → 換 citrate 或 heparin 管重抽；**破碎紅血球** → 微血管病性溶血（DIC、TTP）；紅血球正常、血小板正常或偏大 → 想**藥物、感染、ITP、先天性**。\n**【考點】**FC 109 年 79 歲女性：Hb 11.1、MCV 68.9（**紅血球也不正常**）＋年紀 > 60 歲 → **骨髓檢查**是對的。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "骨髓正常",
+            "骨髓異常"
+          ],
+          "rows": [
+            [
+              "**脾臟腫大**",
+              "**滯留**：肝硬化（脾亢）",
+              "白血病、淋巴瘤"
+            ],
+            [
+              "**脾臟不大**",
+              "**破壞**：免疫（ITP）、非免疫（DIC、TTP）",
+              "**製造不足**：再生不良性貧血、PNH"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 109 年**：79 歲女性突然全身多處瘀青、口腔血泡，**血小板 5,000**、Hb 11.1、MCV 68.9。敘述**錯誤**的是「可能是**假性**血小板低下，用含 heparin 的採血管重抽」——**假性血小板低下不會出血**，這位病人有真的出血（還有口腔血泡 = 濕性紫斑）。正確：**要做骨髓檢查**（年紀 > 60 歲、紅血球也異常）、**避免劇烈活動**；FC 詳解：血小板 < 2 萬合併自發性出血 → **建議輸血小板**。\n註：換 citrate 或 heparin 管重抽**本身**是確認假性的正確方法（Harrison）；錯在這個病人不可能是假性。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 EDTA 管會讓血小板「看起來」很少？**\nEDTA 會把鈣抓走 → 少數人的血小板表面抗原構形改變，被天然抗體（多為 IgG）黏成團 → 血球計數機把一整團算成一顆或當成白血球 → 數值假性偏低。病人體內血小板其實正常，所以**不會出血**（Harrison）。"
+        },
+        {
+          "type": "heading",
+          "text": "ITP（免疫性血小板低下）"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 108 年**：30 歲女性，5 年來血小板約 4 萬、**沒有出血**、其他血球正常。敘述**錯誤**的是「雖然沒出血，仍需給類固醇把血小板提升到 10 萬以上」——**> 3 萬且沒有出血 → 觀察**，不用治療（Harrison：> 3 萬沒有增加死亡率）。正確：**不需要立即做骨髓**、**TPO 受體促效劑**（romiplostim 皮下、eltrombopag 口服）有效、抹片正常但偶有較大的血小板。\n**FC 106 年**：體檢發現血小板 65,000、其他正常，**幫助最小**的檢查是**抗血小板抗體**（敏感度與特異度都低）；**HCV、HIV、ANA** 都是找次發性原因要驗的。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "情況",
+            "治療（Harrison 22e＋FC）"
+          ],
+          "rows": [
+            [
+              "**> 3 萬、無出血**",
+              "**觀察**"
+            ],
+            [
+              "需要治療、無嚴重出血（門診）",
+              "**prednisone 1 mg/kg** 或 **dexamethasone 40 mg/天 × 4 天**；或 anti-D（只限 **Rh 陽性**）；FC：類固醇連減量**不超過 6 週**"
+            ],
+            [
+              "**嚴重出血**或 < 5,000、濕性紫斑、視網膜出血",
+              "**住院**：高劑量類固醇 + **IVIG**（1–2 g/kg）或 anti-D；大出血可輸血小板（FC）"
+            ],
+            [
+              "慢性、難治",
+              "**TPO 受體促效劑**（romiplostim、eltrombopag、avatrombopag；停藥常復發）、**rituximab**（長期緩解約 30%）、**脾切除**（術前打莢膜菌疫苗）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：慢性 ITP 現在**優先用 TPO 受體促效劑**，廣泛免疫抑制與**脾切除用得較少**（副作用與生活品質考量）；部分 TPO-RA 完全反應者停藥後仍能維持。FC 表格仍把脾切除與 rituximab、TPO-RA 並列為二線 → 作答依 FC，臨床知道趨勢即可。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼兒童和成人的 ITP 不一樣？**\n兒童多在**病毒感染後**急性發作、大多**自行緩解**；成人多為**慢性**，常要找次發原因（SLE、HIV、HCV）。所以成人新診斷 ITP 一定要驗 HIV、HCV（Harrison）。"
+        },
+        {
+          "type": "heading",
+          "text": "TMA：TTP、HUS、aHUS"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "TTP",
+            "STEC-HUS",
+            "aHUS",
+            "DIC"
+          ],
+          "rows": [
+            [
+              "機轉",
+              "**ADAMTS13 缺乏或被抗體抑制** → 超大 vWF 多聚體 → 血小板栓",
+              "志賀毒素（**E. coli O157:H7**）傷內皮",
+              "**補體調控異常**（基因或抗 factor H 抗體）→ 補體持續活化",
+              "凝血酶失控產生 → 消耗血小板與因子"
+            ],
+            [
+              "ADAMTS13",
+              "**< 10%**",
+              "正常",
+              "**正常**",
+              "—"
+            ],
+            [
+              "PT/aPTT、fibrinogen",
+              "**正常**",
+              "正常",
+              "正常",
+              "**PT/aPTT 延長、fibrinogen 低**、D-dimer 高"
+            ],
+            [
+              "主要器官",
+              "**神經 > 腎**",
+              "**腎**（兒童、血便後）",
+              "**腎 > 神經**",
+              "多重器官、出血"
+            ],
+            [
+              "治療",
+              "**血漿置換**＋類固醇；rituximab、caplacizumab",
+              "**支持性**（約 40% 兒童需短期透析）",
+              "**抗補體 C5：eculizumab**",
+              "**治療根本病因**、輸血支持"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 TTP 的 PT、aPTT 正常，DIC 卻延長？**\nTTP 是**血小板 + vWF** 在微血管裡黏成血栓，凝血因子沒有被大量消耗；DIC 是**凝血酶失控**，把凝血因子與 fibrinogen 一起燒光 → PT、aPTT 延長、fibrinogen 下降（Harrison Ch.120）。\n口訣（常用）：TTP 五聯症 **FAT RN** = **F**ever、**A**nemia（MAHA）、**T**hrombocytopenia、**R**enal、**N**euro——完整五項現在少見，**MAHA + 血小板低**就要想到並處理。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 112 年**：35 歲女性**上呼吸道感染**後全身無力、**沒有腹瀉**，Cr 0.8 → **6.2**、Hb 12 → 8.6、血小板 8 萬、抹片 MAHA、**ADAMTS13 > 15%** → 最適當治療是 **eculizumab**——ADAMTS13 不低排除 TTP、沒有腹瀉排除 STEC-HUS、沒懷孕或藥物 → **aHUS**（腎臟受傷比 TTP 重）。bortezomib、rituximab、IVIG 都不是答案。\n**FC 107 年**：產後婦女當天出血、**高血壓、少尿、水腫**，血小板 7 萬、破碎紅血球、haptoglobin 下降、Cr 3.6 → **溶血性尿毒症候群（妊娠相關 HUS）**（不是急性腎小管壞死、Goodpasture、冷凝球蛋白血症）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**TTP 不要隨便輸血小板**（FC：沒有嚴重出血時避免，可能加重栓塞）；如果無法馬上做血漿置換，可先輸 **FFP** 補 ADAMTS13（FC）。\n**ADAMTS13 切點**：Harrison **< 10%** 可診斷 TTP；FC 講義有一處寫「< 5%」。\n**TTP 復發**很常見：30 天內 25–45%；用藥相關 TMA：抗體型（ticlopidine、可能 clopidogrel）、直接傷內皮型（cyclosporine、tacrolimus、gemcitabine、mitomycin C）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：TTP 以**血漿置換**為主，持續到血小板正常、溶血停止至少 2 天；**加 rituximab 降低復發**；**caplacizumab（抗 vWF 奈米抗體）降低死亡率**——ISTH 建議兩者用在 **ADAMTS13 確定很低**的病人。aHUS 可先做血漿置換等 ADAMTS13 結果，確診後用**抗補體治療**。"
+        },
+        {
+          "type": "heading",
+          "text": "DIC（瀰漫性血管內凝血）"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 最常見原因：**敗血症**（革蘭氏陰性菌）、**創傷**、**產科**（胎盤早期剝離、羊水栓塞、死胎）、**癌症**（產黏液的腺癌、**急性前骨髓細胞白血病**）\n- 實驗室：**血小板 ↓、PT/aPTT ↑、fibrinogen ↓、D-dimer ↑**、抹片破碎紅血球；ISTH 分數 ≥ 5 = 顯性 DIC\n- 治療：**治療根本病因**；只有出血或要做侵入性處置才輸：血小板 < 1–2 萬、**fibrinogen 維持 > 150 mg/dL**（冷凍沉澱品）、FFP；給 vitamin K\n- **Heparin** 只用在**低度 DIC**（實體腫瘤、急性前骨髓細胞白血病）、有血栓、**猛爆性紫斑**；急性出血型 DIC 用 heparin 會更出血"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "項目",
+            "數值",
+            "分數"
+          ],
+          "rows": [
+            [
+              "血小板",
+              "> 10 萬 / 5–10 萬 / < 5 萬",
+              "0 / 1 / 2"
+            ],
+            [
+              "D-dimer",
+              "正常 / 中度上升 / 重度上升",
+              "0 / 2 / 3"
+            ],
+            [
+              "PT 延長",
+              "< 3 秒 / 3–6 秒 / > 6 秒",
+              "0 / 1 / 2"
+            ],
+            [
+              "Fibrinogen",
+              "> 1 g/L / < 1 g/L",
+              "0 / 1"
+            ],
+            [
+              "總分",
+              "**≥ 5 = 顯性 DIC**（每天重算）；< 5 = 低度 DIC（1–2 天後重算）",
+              "孕婦不適用"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**DIC vs 嚴重肝病**：兩者都血小板低、PT 延長、D-dimer 可上升；**肝病的數值不會快速變化**，DIC 會 → 要**連續追蹤**（Harrison）。**VIII**：肝病正常或升高（肝外製造），**VIII 下降 → 合併 DIC**。\n**慢性（代償性）DIC**：巨大血管瘤（Kasabach-Merritt）、轉移癌、死胎 → D-dimer 高，但 PT、aPTT、fibrinogen 可正常。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：DIC 的常見病因（Harrison Table 121-2）",
+          "text": "- **敗血症**：細菌（葡萄球菌、鏈球菌、肺炎鏈球菌、腦膜炎雙球菌、革蘭氏陰性桿菌）、病毒、黴菌、立克次體\n- **創傷與組織損傷**：腦傷、大面積燒傷、脂肪栓塞、橫紋肌溶解\n- **產科**：胎盤早期剝離、羊水栓塞、死胎症候群、敗血性流產、妊娠急性脂肪肝\n- **癌症**：腺癌（攝護腺、胰臟）、**急性前骨髓細胞白血病**\n- **免疫**：急性溶血性輸血反應、移植排斥、GVHD\n- **血管**：巨大血管瘤（Kasabach-Merritt）、大動脈瘤\n- 其他：蛇毒、休克、ARDS、大量輸血、肝衰竭"
+        },
+        {
+          "type": "heading",
+          "text": "HIT（heparin 引起的血小板低下）"
+        },
+        {
+          "type": "figure",
+          "src": "figures/bleeding-disorders/h120-3.png",
+          "label": "Harrison's 22e Fig.120-3（p.923）",
+          "caption": "HIT 發生時間與 heparin 使用天數",
+          "explain": "**【怎麼看】**灰色區 = **第 5–14 天**最常發生；**第 0–5 天**就發生，只見於**過去約 100 天內用過 heparin**（體內已有抗體）；14 天後才發生（延遲型）很少見。\n**【考點】**普通型、UFH 或 LMWH 都會發生（UFH 較多）；用 heparin **第 1 天**血小板就掉、又沒有近期 heparin 史 → 不像 HIT。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "Type I（FC）",
+            "Type II = 真正的 HIT"
+          ],
+          "rows": [
+            [
+              "機轉",
+              "heparin 直接使血小板聚集",
+              "**抗 PF4/heparin 複合物的抗體** → 經 FcγRIIa 活化血小板"
+            ],
+            [
+              "發生時間",
+              "用藥早期（數天內）",
+              "**第 5–14 天**（近 100 天內用過 → 更早）"
+            ],
+            [
+              "血小板",
+              "輕微下降、> 10 萬",
+              "中度下降，**最低點很少 < 2 萬**"
+            ],
+            [
+              "臨床",
+              "無症狀，可繼續用 heparin",
+              "**少出血、反而血栓**（動靜脈都可能；HITT 可達 50%）"
+            ],
+            [
+              "處置",
+              "觀察",
+              "**停所有 heparin（含 LMWH）**→ 改非 heparin 抗凝劑（見〈血栓〉）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 HIT 的血小板低卻是血栓？**\n抗體抓住的 PF4/heparin 複合物在血小板表面 → 透過 FcγRIIa **把血小板活化**，同時活化單核球與內皮細胞 → 血小板在被清除前放出促凝物質 → **高凝狀態**（Harrison、FC）。所以 HIT 的處置是**換抗凝劑**，不是輸血小板。\n**4T 評分**（Harrison）：**T**hrombocytopenia（下降程度）、**T**iming（時間）、**T**hrombosis（血栓或注射處皮膚反應）、o**T**her causes（沒有其他原因）——**分數低時很適合排除 HIT**；抗體 ELISA 敏感但特異度低，**serotonin release assay** 特異度較高；HIT 仍是**臨床診斷**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：VITT（腺病毒載體 COVID-19 疫苗後的血栓合併血小板低下）",
+          "text": "- 類似「自發性 HIT」：抗 PF4 抗體，打完疫苗 **4–28 天**；**腦靜脈竇**、腹內靜脈等罕見部位血栓；**D-dimer 很高**；致死率約 20%（Harrison）\n- 治療：**IVIG**（阻斷 Fc 受體）＋**非 heparin 抗凝劑**；避免輸血小板、heparin、warfarin（FC）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他藥物引起的血小板低下（Harrison Table 120-1 節錄）",
+          "text": "- 常見：**heparin**、**quinine**、**sulfonamide**（TMP-SMX）、vancomycin、penicillin、piperacillin、ceftriaxone、carbamazepine、phenytoin、acetaminophen、ibuprofen、amiodarone\n- 典型藥物依賴型抗體：用藥**約 3 週**後（中位數 21 天）或再次使用時發生，**停藥 7–10 天**恢復\n- **GP IIb/IIIa 抑制劑**（abciximab 等）：第一次用 **24 小時內**就可能發生（天然抗體）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.120 p.921–925"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.121 p.933–934"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "甲、貧血 E. 正球性貧血 講義 p.150–152（TMA）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 講義 p.173–177"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 題目 p.184–186"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "甲、貧血 題目 p.159"
+        }
+      ]
+    },
+    {
+      "title": "血小板功能異常與血管性紫斑　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 血小板數正常、PT/aPTT 正常但**黏膜出血** → **血小板功能異常**或 **vWD**\n- **後天最常見：藥物**（aspirin 等抗血小板藥、高劑量 penicillin）\n- **尿毒症**：黏附與活化缺陷 → **透析最有效**；也可 **Hct 提高到 27–32%**、**DDAVP 0.3 µg/kg**、結合型雌激素（FC 另列冷凍沉澱品）\n- 先天：**Glanzmann 血小板無力症（缺 GP IIb/IIIa → 不能聚集）**、**Bernard-Soulier 症候群（缺 GP Ib-IX-V → 不能黏附 vWF）**，兩者都是**體染色體隱性**、兒童期出血；儲存池缺陷為體染色體顯性\n- 血小板 **> 150 萬**（骨髓增生性腫瘤）→ **後天性 vWD** → 反而**出血**\n- 治療：嚴重 → **輸血小板**（HLA 配對減少同種免疫）、rFVIIa（Glanzmann、Bernard-Soulier 核准）；輕 → **DDAVP**、**tranexamic acid**"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 103 年**：對血小板**功能**影響最小的是 **heparin**——heparin 經 antithrombin 抑制凝血酶與 Xa，作用在**凝血因子**；**aspirin**（抑制 TXA2）、**尿毒症**（黏附與活化缺陷）、**vWD**（缺黏附分子）都直接影響血小板功能。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼點狀出血通常是「數量不夠」而不是「功能不好」？**\nHarrison：點狀出血**通常代表血小板數量低**，不是功能異常；**瘀青**則數量與功能異常都會出現。所以血小板數正常的黏膜出血，要往 vWD、藥物、尿毒症找。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "血管性紫斑",
+            "重點（Harrison Ch.120）"
+          ],
+          "rows": [
+            [
+              "**老年性紫斑**",
+              "日曬過的皮膚、輕微碰撞就皮下出血；凝血檢查正常，**不需治療**（FC）"
+            ],
+            [
+              "**壞血病**（維他命 C 缺乏）",
+              "**毛囊周圍出血**、疼痛；膠原合成需要維他命 C"
+            ],
+            [
+              "Cushing 或長期類固醇",
+              "結締組織萎縮 → 易瘀青"
+            ],
+            [
+              "**IgA 血管炎**（Henoch-Schönlein）",
+              "兒童與年輕人、上呼吸道感染後；**四肢伸側紫斑**＋關節痛＋腹痛＋血尿；**凝血檢查全正常**"
+            ],
+            [
+              "**遺傳性出血性微血管擴張症（HHT）**",
+              "反覆流鼻血（12 歲左右開始）、腸胃道出血（> 50 歲）；肺、腦、肝動靜脈畸形"
+            ],
+            [
+              "單株或冷凝球蛋白",
+              "Waldenström、多發性骨髓瘤、冷凝球蛋白血症 → 血管性紫斑"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.120 p.926–927"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 講義 p.173、175"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 題目 p.186"
+        }
+      ]
+    },
+    {
+      "title": "vWD 與血友病（含後天性血友病）　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **vWD = 最常見的遺傳性出血疾病**（體染色體）；vWF 兩個功能：**把血小板黏到內皮**、**攜帶並穩定 VIII** → 以**黏膜出血**為主，嚴重時 VIII 低到像血友病\n- **第 1 型 ≥ 80%**（量少）、第 2 型功能差、第 3 型幾乎沒有；**第 1 型治療 = DDAVP**（釋放內皮儲存的 vWF 與 VIII）\n- **血友病 A（VIII，80%）、B（IX）**：**X 連鎖隱性**；嚴重度 **< 1% 嚴重、1–5% 中度、6–30% 輕度**；**關節血腫**；**單獨 aPTT 延長、混合試驗矯正**\n- 單獨 aPTT 延長 + 出血 → 驗 **VIII、IX、vWF**（XI 也可）；**XIII 不影響 PT、aPTT**，不在這條路上\n- 血友病治療：補 **VIII**（半衰期 8–12 小時，一天兩次）或 **IX**（約 24 小時）；**避免抗血小板藥**；最大併發症 = **抑制物**（嚴重 A 約 30%）\n- **後天性血友病 A**：老人或**產後**、**關節出血少見**、aPTT 延長**不矯正** → **繞道製劑**（aPCC、rFVIIa）止血＋**類固醇 ± cyclophosphamide**（約 70% 有效）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "vWD",
+            "血友病 A／B",
+            "後天性血友病 A"
+          ],
+          "rows": [
+            [
+              "遺傳",
+              "**體染色體**",
+              "**X 連鎖隱性**（男）；約 30% 無家族史",
+              "**非遺傳**：自體抗體"
+            ],
+            [
+              "族群",
+              "任何人；女性月經過多",
+              "男孩學爬、學走時明顯",
+              "**老人（中位 60 歲）**、**產後**"
+            ],
+            [
+              "出血",
+              "**黏膜**（流鼻血、月經過多、拔牙後）",
+              "**關節血腫**、深部肌肉血腫",
+              "**皮下、軟組織、腸胃、泌尿道**；**關節出血少見**"
+            ],
+            [
+              "aPTT",
+              "正常或延長",
+              "延長",
+              "**明顯延長**"
+            ],
+            [
+              "混合試驗",
+              "矯正",
+              "矯正",
+              "**不矯正**（Bethesda 定效價）"
+            ],
+            [
+              "治療",
+              "**DDAVP**（第 1 型）、vWF 濃縮製劑、tranexamic acid",
+              "**VIII 或 IX 濃縮製劑**；輕中度 A 可 DDAVP",
+              "**繞道製劑（aPCC、rFVIIa）**、豬 VIII ＋ **免疫抑制**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 104 年**：35 歲女性**月經量過多**，血小板、PT 正常、**aPTT 56 秒** → **不需要**驗 **factor XIII**（XIII 與 PT、aPTT 都無關）；要驗 **VIII、IX、vWF 活性**——年輕女性月經過多首先想 **vWD**。\n**FC 109 年**：30 歲女性**產後 3 個月**大片瘀青、皮下血腫，aPTT 98 秒**混合試驗不矯正**、VIII < 1%、抗 VIII 抗體 28.41 BU → **後天性血友病 A**。敘述**錯誤**的是「此類病人**常有關節血腫**」——後天性**關節出血少見**，多為皮膚、軟組織出血。正確：除產後外也和**惡性腫瘤、自體免疫**有關，但約**一半找不到原因**；危及生命出血可用 **PCC 或 rFVIIa**；治療有效者停藥後**約 20% 半年內復發**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 vWD 會讓 aPTT 延長？**\nvWF 是 VIII 的保鑣：VIII 單獨在血中半衰期只有 **25–30 分鐘**，跟 vWF 結合後延長到約 **12 小時**。vWF 少 → VIII 跟著被清掉 → **aPTT 延長**（FC 106 年詳解也這樣說）。所以**沒有血友病史、aPTT 延長、VIII 低**的病人，要先排除 vWD（Harrison）。\n**為什麼 DDAVP 對血友病 B 沒用？** DDAVP 只會釋放內皮裡**儲存的 vWF 與 VIII**，**IX 沒有儲存池**；嚴重血友病 A 也沒有可釋放的儲存 → 無效。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**DDAVP 的副作用 = 低血鈉**（自由水排除減少）→ 用藥後 24 小時限水；重複給藥會**快速耐受**（儲存用完）。\n**抗纖溶劑**（tranexamic acid、ε-aminocaproic acid）適合口腔、月經、拔牙等**黏膜出血**；**上泌尿道出血（血尿）禁用**——血塊可能塞住輸尿管（Harrison）。\n**血型 O** 的人 vWF 只有 AB 型的一半 → 數值輕度偏低要配合出血病史才能診斷 vWD。"
+        },
+        {
+          "type": "heading",
+          "text": "延伸：vWD 分型（Harrison Table 120-2）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "型",
+            "缺陷",
+            "vWF 抗原",
+            "vWF 活性",
+            "VIII",
+            "治療"
+          ],
+          "rows": [
+            [
+              "**1**（≥ 80%）",
+              "**量少**、功能正常",
+              "↓",
+              "↓",
+              "↓",
+              "**DDAVP**"
+            ],
+            [
+              "2A",
+              "大、中型多聚體不見",
+              "↓",
+              "↓↓",
+              "↓",
+              "部分可用 DDAVP；vWF 濃縮製劑"
+            ],
+            [
+              "2B",
+              "**功能增強**、過度黏血小板 → 被清除（**血小板常偏低**）",
+              "↓",
+              "↓↓",
+              "↓",
+              "vWF 濃縮製劑"
+            ],
+            [
+              "2M",
+              "功能差、多聚體正常",
+              "↓",
+              "↓↓",
+              "↓",
+              "vWF 濃縮製劑"
+            ],
+            [
+              "2N",
+              "**抓不住 VIII**（「體染色體型血友病」）",
+              "正常或↓",
+              "正常或↓",
+              "**↓↓**",
+              "vWF 濃縮製劑"
+            ],
+            [
+              "**3**",
+              "**幾乎沒有 vWF**",
+              "↓↓",
+              "↓↓",
+              "↓↓（< 10%）",
+              "vWF 濃縮製劑"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：後天性 vWD 與 Heyde 症候群",
+          "text": "- 後天性 vWD：**MGUS**（最常見）、多發性骨髓瘤、Waldenström；**老人新出現的嚴重黏膜出血**要想到\n- **Heyde 症候群**：**主動脈瓣狹窄 + 腸胃道血管擴張出血**——狹窄瓣膜的剪力把 vWF 拉開、被切掉大多聚體（後天第 2 型），**換瓣膜後恢復**（見〈Valvular Heart Disease (二)〉）\n- 骨髓增生性腫瘤血小板 > 150 萬 → vWF 被血小板吸附清除"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：血友病治療細節與新藥",
+          "text": "- **劑量**：VIII 每 1 U/kg 提升 2% → 劑量 =（目標 − 基礎）× 體重 × 0.5；IX 回收率只有一半 → ×1\n- 輕微關節出血目標 30–50%；中樞神經、咽喉、後腹腔出血 50–100% 維持 7–10 天；手術 100%\n- **冷凍沉澱品**含 VIII 與 vWF，只在沒有濃縮製劑時用\n- **抑制物**：Bethesda **< 5 BU** 低反應者 → 高劑量 VIII；**> 5 BU** 高反應者 → **繞道製劑（aPCC、rFVIIa）**；根除 → 免疫耐受誘導（每天輸，> 1 年，成功率約 60%）\n- **Emicizumab**：雙特異性抗體，一端抓 IXa、一端抓 X，**取代 VIIIa 的功能**；有無抑制物的嚴重 A 都有效；皮下每週 → 每月；用藥時**一般 aPTT、VIII 活性測不準**\n- **基因治療**：A、B 都已有核准產品（Harrison）\n- 血友病 C（FC）：**XI 缺乏**（Rosenthal 症候群），aPTT 延長"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.120 p.926–927"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.121 p.928–931、935–936"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 講義 p.175、179–180"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 題目 p.183–184、186"
+        }
+      ]
+    },
+    {
+      "title": "維他命 K 缺乏、肝病、warfarin 過量與抗凝劑反轉　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 維他命 K 依賴：**II、VII、IX、X ＋ protein C、S**（常用口訣「**1972**」：10、9、7、2）；warfarin 抑制 **vitamin K epoxide reductase（VKOR）**\n- 維他命 K 缺乏：**廣效抗生素**、吸收不良或**膽汁鬱積**、肝病、新生兒（出生常規給 vitamin K）→ **PT 最先延長**（VII 半衰期最短）\n- 靜脈 **vitamin K 10 mg** → 8–10 小時內恢復；要更快 → FFP 或 PCC\n- **肝病**：**V 低**（只在肝製造、非維他命 K 依賴）、**VIII 正常或高**；**V 正常 + VII 低 → 維他命 K 缺乏**；穩定肝病是「**再平衡**」，**沒出血不要只為了矯正數值而輸血品**\n- **Warfarin 過量**：INR 3.5–10 無出血 → **停藥**；> 10 → **口服 vitamin K**；**嚴重出血 → 靜脈 vitamin K + 4F-PCC**\n- 反轉：heparin → **protamine**；dabigatran → **idarucizumab**；Xa 抑制劑 → **andexanet alfa**（或 4F-PCC）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "維他命 K 缺乏／warfarin",
+            "肝病",
+            "DIC"
+          ],
+          "rows": [
+            [
+              "PT",
+              "**最先延長**",
+              "延長",
+              "延長"
+            ],
+            [
+              "aPTT",
+              "較晚才延長",
+              "延長（程度依肝損傷）",
+              "延長"
+            ],
+            [
+              "血小板",
+              "正常",
+              "**低**（TPO 少、脾亢）",
+              "**低**"
+            ],
+            [
+              "Fibrinogen",
+              "正常",
+              "正常（只在猛爆性或末期才低）",
+              "**低**"
+            ],
+            [
+              "D-dimer",
+              "正常",
+              "正常或輕度上升",
+              "**明顯上升**"
+            ],
+            [
+              "**V**",
+              "**正常**（非維他命 K 依賴）",
+              "**低**（只在肝細胞製造）",
+              "低"
+            ],
+            [
+              "**VIII**",
+              "正常",
+              "**正常或升高**",
+              "**低**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 106 年**：62 歲**心臟病治療中**的病人有出血傾向，血球正常、**PT INR 3.5**、**aPTT 26 秒正常** → 最可能是 **coumadin（warfarin）**——**單獨 PT 延長**。heparin 會讓 aPTT 延長；肝病通常還有其他異常；vWD 是 aPTT 延長或正常、PT 正常。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼維他命 K 缺乏、warfarin 初期都是 PT 先延長？**\n四個維他命 K 依賴因子裡 **VII 的半衰期最短（4–6 小時）**，新的因子做不出來時 VII 最先降 → PT（外在路徑）最先延長；IX、X、II 慢慢降下來後 aPTT 才跟著延長（Harrison、FC）。所以 **INR 用來調 warfarin 劑量**。\n**為什麼 V 能分辨肝病與維他命 K 缺乏？** V **只在肝細胞製造、不需要維他命 K** → 肝衰竭時 V 下降，單純維他命 K 缺乏時 V 正常（Harrison）。"
+        },
+        {
+          "type": "heading",
+          "text": "Warfarin 過量的處置"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "情況",
+            "處置（Harrison Ch.123）"
+          ],
+          "rows": [
+            [
+              "INR **3.5–10**、無出血",
+              "**暫停 warfarin**，等 INR 回到治療範圍"
+            ],
+            [
+              "INR **> 10**、無出血",
+              "**口服 vitamin K 2.5–5 mg**（高劑量 5–10 mg 降得快，但重新用藥時會暫時抗 warfarin）"
+            ],
+            [
+              "**嚴重出血**（不論 INR）",
+              "**vitamin K 5–10 mg 緩慢靜脈注射** + **4F-PCC**"
+            ],
+            [
+              "危及生命出血或緊急手術",
+              "**4F-PCC 是標準**（Harrison Ch.121）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：warfarin 危及生命出血用 **4F-PCC 取代 FFP**（量小、快）；肝病病人出血也**偏好 4F-PCC**（容積小、不增加門脈壓、較少循環過負荷）；肝病只在出血或侵入性處置前才輸：血小板 < 1–2 萬（出血）或 < 5 萬（處置前）、fibrinogen < 100–150 mg/dL 給冷凍沉澱品。"
+        },
+        {
+          "type": "heading",
+          "text": "各種抗凝劑的監測與反轉（FC 表＋Harrison）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "抗凝劑",
+            "監測",
+            "反轉劑"
+          ],
+          "rows": [
+            [
+              "**UFH**",
+              "aPTT、anti-Xa",
+              "**Protamine**（1 mg 中和 100 U）"
+            ],
+            [
+              "LMWH",
+              "給藥後 4 小時 anti-Xa",
+              "Protamine **只能部分中和**"
+            ],
+            [
+              "Fondaparinux",
+              "anti-Xa",
+              "**沒有**（半衰期 17–21 小時）"
+            ],
+            [
+              "Argatroban、bivalirudin",
+              "aPTT",
+              "沒有（半衰期短，停藥即可）"
+            ],
+            [
+              "**Warfarin**",
+              "**PT（INR）**",
+              "**vitamin K**、**4F-PCC**（FFP 為替代）"
+            ],
+            [
+              "**Dabigatran**",
+              "稀釋凝血酶時間",
+              "**Idarucizumab**（5 g 靜脈）"
+            ],
+            [
+              "**Rivaroxaban、apixaban、edoxaban**",
+              "anti-Xa",
+              "**Andexanet alfa**（專一）、**4F-PCC**（非專一，Harrison：無 andexanet 時有效）"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "影響 warfarin 的藥物交互作用"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "影響 warfarin 代謝的藥物（FC 表）",
+            "藥物",
+            "FC 口訣"
+          ],
+          "rows": [
+            [
+              "**誘導**代謝酵素 → INR **下降**",
+              "**Barbiturate、phenobarbital**（抗癲癇）、**rifampin**",
+              "癲癇病人開車很猛，快到「綠」燈（**Ri**fampin）就開始加速（促進代謝）"
+            ],
+            [
+              "**抑制**代謝酵素 → INR **上升**",
+              "**Cimetidine**、**statin**、**erythromycin**（還有 ketoconazole）",
+              "高血脂病人（statin）動作慢，到西門町（**Cime**tidine）玩，快要「紅」燈（紅黴素）時停下來（抑制代謝），悠閒地用牙籤（**Keto**）剔牙"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "Harrison：warfarin 是消旋混合物，活性較強的 **S-warfarin 主要由 CYP2C9 代謝**；**CYP2C9、VKORC1 基因型**影響劑量（亞洲人多數需要較低劑量）。FC 表格以 CYP3A4 歸類，口訣用來記「哪些藥讓 INR 上升、哪些下降」即可。\n**Warfarin 皮膚壞死**、**HIT 時不能單用 warfarin**（protein C 急降 → 靜脈壞疽）→ 見〈血栓〉。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：肝病的止血「再平衡」（Harrison Fig.121-5 重點）",
+          "text": "- **偏出血**：血小板低（TPO 少、脾亢）、II/V/VII/IX/X/XI 合成少、維他命 K 缺乏、異常纖維蛋白原、纖溶增加\n- **偏血栓**：**vWF 升高**、ADAMTS13 下降、**VIII 升高**、**protein C、S、antithrombin 下降**\n- 結果：穩定的肝硬化**不會自發出血**，反而**門脈血栓**常見、VTE 風險約 1.5–2 倍 → 代償性肝硬化可用 LMWH 或 DOAC（門診避免 warfarin）\n- 延長 TT + 正常 fibrinogen 與 D-dimer → 想**異常纖維蛋白原血症**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.121 p.932–935"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.123 p.948–954"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 講義 p.180–183"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "乙、凝血異常 題目 p.186"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 109 年）：79 歲女性，沒吃藥，某天起床發現四肢多處瘀青、隔天口腔有血泡。血小板 5,000、Hb 11.1、MCV 68.9、白血球正常。",
+          "text": "1. **出血型態**：皮膚瘀青 + 口腔血泡（**濕性紫斑**）→ 初級止血、**血小板數量**問題，而且有致命出血風險\n2. **假性？** 不可能——**假性不會出血**\n3. **四格**：只有血小板極低（PT、aPTT 未提）→ 看抹片排除破碎紅血球\n4. **骨髓要不要做？** **> 60 歲**單獨血小板低、紅血球也偏小 → **要做**（排除 MDS 等）\n5. **處置**：避免劇烈活動；血小板 < 2 萬合併自發出血 → FC 建議**輸血小板**；若是 ITP → 住院、類固醇 + IVIG"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 109 年）：30 歲女性產後 3 個月，沒碰撞也常大片瘀青、皮下血腫。血小板正常、PT 正常、aPTT 98 秒。",
+          "text": "1. **出血型態**：皮下、軟組織大片出血，**沒有關節出血**\n2. **四格**：**單獨 aPTT 延長** → 內在路徑（VIII、IX、XI）、vWD、heparin、抑制物\n3. **混合試驗**：**不矯正** → **抑制物**（排除 heparin 等抗凝劑）\n4. **確認**：VIII < 1%、**Bethesda** 抗 VIII 抗體 28.41 BU → **後天性血友病 A**（產後、自體免疫、癌症；約一半找不到原因）\n5. **治療**：止血用**繞道製劑**（aPCC、rFVIIa）或豬 VIII；同時**免疫抑制**（類固醇 ± cyclophosphamide、rituximab）；停藥後半年內約 20% 復發 → 追蹤"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 112 年）：35 歲女性上呼吸道感染後全身無力，沒有腹瀉；Cr 0.8 → 6.2、Hb 12 → 8.6、血小板 8 萬、抹片微血管病性溶血、ADAMTS13 > 15%。",
+          "text": "1. **型態**：**破碎紅血球 + 血小板低 + 器官（腎）受傷** → **TMA**\n2. **先排除 DIC**：TMA 的 PT、aPTT、fibrinogen 正常；DIC 才延長\n3. **ADAMTS13**：> 15%（不是 < 10%）→ **不是 TTP**\n4. **次發性原因**：沒有腹瀉（STEC-HUS）、沒懷孕、沒用相關藥物、沒有惡性高血壓 → **aHUS**（補體失控，腎臟受傷最重）\n5. **治療**：**eculizumab**（抗 C5）；等 ADAMTS13 結果期間可先做血漿置換"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "止血生理（§止血生理與出血型態）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：下列有關血小板（platelet）的敘述，何者錯誤？（A 血小板無核，也無 RNA，因此沒有合成蛋白質的能力 B 正常的血小板之直徑約 1–5 µm，平均在血液中的存活期約 7–10 天 C 血小板的 GPIb-IX-V 複合體，對血小板之黏附（adhesion）與血小板之活化非常重要 D 在急性冠狀動脈症候群的病人血液中，其血小板彼此之間，以及血小板與白血球之間的交互作用均增強）（FC 112 年）",
+          "text": "**答：(A)。** 血小板無核，但合成新蛋白的能力是「有限」而非沒有（Harrison）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：凝血因子 X（coagulation factor X）活化為 Xa 的反應中，下列何因子沒有參與？（A factor Va B factor VIIa C factor VIIIa D factor IXa）（FC 105 年）",
+          "text": "**答：(A)。** X 由 VIIa + 組織因子或 IXa + VIIIa 活化；Va 是 Xa 把凝血酶原變凝血酶時的輔因子。"
+        },
+        {
+          "type": "heading",
+          "text": "血小板低下（§血小板低下）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：79 歲女性，自訴以往健康良好，沒有服用任何藥物或營養品，某天早上起床時發現全身四肢多處瘀青，隔日就診，身體檢查發現口腔裡有多處潰瘍和血塊。RBC 5.02 M/µL、Hb 11.1 g/dL、Hct 34.6%、MCV 68.9 fL、PLT 5 K/µL、WBC 10.14 K/µL，分類 Seg 58.1%、Eos 1.0%、Baso 0.4%、Mono 4.1%、Lym 36.4%。以下何項敘述錯誤？（A 病人應考慮接受骨髓檢查協助診斷 B 病人有可能是假性的血小板低下症，需要用含肝素（heparin）的採血管採集病人的血液之後，再做一次檢查 C 病人應該立即輸注血小板濃縮液 D 病人應避免劇烈活動）（FC 109 年）",
+          "text": "**答：(B)。** 假性血小板低下不會出血。FC 詳解：突發性血小板低下需做骨髓檢查；血小板 < 2 萬合併自發性出血，建議輸血小板並避免劇烈活動。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：30 歲女性，過去健康良好，近 5 年體檢多次發現血小板低下，數目多維持在 40,000/µL 左右，其他血球數目與白血球分類未見異常。最近一次白血球 9,600/µL、Hb 12.7 g/dL、血小板 41,000/µL，分類無異常。否認服藥或毒物暴露，也無主觀上的不適。以下關於最可能疾病之診斷與治療，何者錯誤？（A 雖然病人沒有明顯的出血狀況，但是為了預防出血，仍需給與類固醇以提升血小板數量至 100,000/µL 以上 B 此病人不需要立即安排骨髓切片檢查 C 皮下注射 romiplostim 或口服 eltrombopag 常可有效的提升此類病人之血小板數量 D 此種病人之周邊血液之血球型態與分化，一般而言是正常的，但是偶而有較大的 platelets）（FC 108 年）",
+          "text": "**答：(A)。** ITP 沒有出血可觀察，指引建議維持在 3 萬以上即可；通常因出血或需要接受侵入性處置才把血小板拉高（FC）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：一位病人在體檢時發現血小板數為 65,000/µL，紅血球及白血球正常，下列何項檢查對於釐清血小板低下的原因幫忙最小？（A platelet antibody B antibody to hepatitis C virus C antibody to human immunodeficiency virus D antinuclear antibody）（FC 106 年）",
+          "text": "**答：(A)。** 抗血小板抗體敏感度與特異度都低（Harrison）；HCV、HIV、ANA 用來找次發性 ITP。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：30 歲婦女，產前 7 天血壓正常、血液肌酸酐 0.6 mg/dL。產後當天有出血、高血壓、少尿、水腫。理學檢查皮膚沒有紅斑或紫斑，Hb 8.0 g/dL、血小板 70,000/mm³，血液抹片有 fragmented RBCs、haptoglobin 下降，BUN 100 mg/dL、肌酸酐 3.6 mg/dL，尿液 osmolality 400 mOsmol/kg H₂O、尿 Na⁺ 10 mmol/L、尿液紅血球 20–30/HPF、尿液蛋白質 trace。最可能的診斷是：（A 急性腎小管壞死 B 溶血性尿毒症候群 C Goodpasture 氏症候群 D 冷凝球蛋白血症）（FC 107 年）",
+          "text": "**答：(B)。** FC 詳解：pregnancy-associated HUS 以突發急性腎衰竭、急性溶血性貧血及血小板低下為特徵，可能為感染（STEC、肺炎鏈球菌）、藥物、補體調節異常所致。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：35 歲女性病人，上呼吸道感染後全身乏力、無腹瀉，肌酸酐由 0.8 mg/dL 上升至 6.2 mg/dL，血色素由 12.0 g/dL 下降至 8.6 g/dL，血小板 80×10³/µL，血液抹片呈微小血管溶血性貧血，ADAMTS13 > 15%，下列何種治療最為適當？（A bortezomib B rituximab C eculizumab D immunoglobulin）（FC 112 年，收錄於甲、貧血）",
+          "text": "**答：(C)。** ADAMTS13 不低排除 TTP、無腹瀉無懷孕無藥物排除次發性 → aHUS → 抗 C5。"
+        },
+        {
+          "type": "heading",
+          "text": "血小板功能（§血小板功能異常）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：下列何者對血小板功能的影響最小？（A heparin B aspirin C uremia D von Willebrand disease）（FC 103 年）",
+          "text": "**答：(A)。** heparin 作用在凝血因子（經 antithrombin）；其他三者都直接影響血小板黏附或活化。"
+        },
+        {
+          "type": "heading",
+          "text": "vWD 與血友病（§vWD 與血友病）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：35 歲女性因月經流量太大應診，Hb 11.2 g/dL、白血球 7,550/µL、血小板 196,500/µL、PT INR 1.0、aPTT 56 秒（control 28–35 秒），下列何種檢查對此病人的診斷不是必要的？（A factor VIII activity B factor IX activity C factor XIII activity D von Willebrand factor activity）（FC 104 年）",
+          "text": "**答：(C)。** FC 詳解：factor XIII 與 PT、aPTT 都無關。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：30 歲女性，過去健康良好，3 個月前剖腹產下一健康男嬰，懷孕及生產過程順利。產後卻發現即使沒有碰撞也常有皮膚大片瘀青，有時甚至有皮下血腫。否認服用藥物或毒物暴露。白血球 9,600/µL、Hb 10.7 g/dL、血小板 210,000/µL，白血球分類無異常。PT 10.3 秒（INR 0.95）、aPTT 98 秒，以 normal plasma 做 mixing test 無法完全矯正延長的 aPTT；factor VIIIc 活性小於 1%，factor VIII antibody 為 28.41 BU/mL（參考值 < 0.6）。以下關於最可能疾病之診斷與治療，何者錯誤？（A 此類病人常常有 hemarthrosis B 除了懷孕生產之外，此病亦可能與惡性腫瘤與自體免疫疾病有關連性，但是約有一半的病人找不到明顯的原因 C 嚴重出血危及生命時，可以輸注 PCC 或是 recombinant factor VIIa 來止血 D 治療有反應者，在停藥之後，還是可能有高達約 20% 的病人在半年內復發）（FC 109 年）",
+          "text": "**答：(A)。** FC 詳解：後天性血友病 A 和傳統血友病不一樣，較少關節內出血，多表現為皮下出血。"
+        },
+        {
+          "type": "heading",
+          "text": "Warfarin（§維他命 K、肝病、warfarin）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：一位 62 歲病人，過去有心臟病史，正在接受治療，最近因出血傾向接受檢查，周邊血中血紅素、白血球及血小板數正常，PT INR 3.5、aPTT 26 秒（正常對照 27 秒）。下列何者是引起這位病人容易出血的最可能原因？（A coumadin treatment B heparin treatment C liver disease D von Willebrand disease）（FC 106 年）",
+          "text": "**答：(A)。** 單獨 PT 延長 → warfarin。FC 詳解補充：vWD 因 vWF 缺乏使 VIII 下降，可能以單純 aPTT 延長表現。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "出血型態",
+              "皮膚黏膜、點狀出血、立即 → 血小板、vWF；關節、深部、延遲 → 凝血因子"
+            ],
+            [
+              "單獨 PT 延長",
+              "VII、warfarin、早期維他命 K 缺乏或肝病"
+            ],
+            [
+              "單獨 aPTT 延長",
+              "VIII、IX、XI、vWD、heparin、lupus anticoagulant（XII 缺乏不出血）"
+            ],
+            [
+              "PT、aPTT 都正常卻出血",
+              "血小板功能、vWD、XIII 缺乏、血管性紫斑"
+            ],
+            [
+              "混合試驗",
+              "矯正 = 缺乏；不矯正 = 抑制物或抗凝劑"
+            ],
+            [
+              "假性血小板低下",
+              "EDTA 凝集、不出血 → citrate 或 heparin 管重抽"
+            ],
+            [
+              "血小板低下要做骨髓",
+              "其他血球也異常、> 60 歲、治療無效"
+            ],
+            [
+              "ITP",
+              "排除性診斷；驗 HIV、HCV；抗血小板抗體沒用；> 3 萬無出血觀察；類固醇、IVIG、TPO-RA"
+            ],
+            [
+              "TTP",
+              "ADAMTS13 < 10%、PT/aPTT 正常、神經 > 腎 → 血漿置換（避免輸血小板）"
+            ],
+            [
+              "HUS／aHUS",
+              "腹瀉後兒童、腎 → 支持；ADAMTS13 正常、補體 → eculizumab"
+            ],
+            [
+              "DIC",
+              "血小板低、PT/aPTT 長、fibrinogen 低、D-dimer 高 → 治病因"
+            ],
+            [
+              "HIT",
+              "heparin 第 5–14 天、血栓不出血、4T → 停所有 heparin"
+            ],
+            [
+              "尿毒症出血",
+              "透析、Hct 27–32%、DDAVP、雌激素"
+            ],
+            [
+              "vWD",
+              "最常見遺傳性出血；黏膜出血；第 1 型 DDAVP（副作用低血鈉）"
+            ],
+            [
+              "血友病 A/B",
+              "X 連鎖、關節血腫、aPTT 長且可矯正；VIII 一天兩次、IX 一天一次"
+            ],
+            [
+              "後天性血友病 A",
+              "老人或產後、少關節出血、混合不矯正 → 繞道製劑 + 免疫抑制"
+            ],
+            [
+              "維他命 K 依賴",
+              "II、VII、IX、X、protein C、S（1972）"
+            ],
+            [
+              "肝病 vs 維他命 K 缺乏",
+              "V 低 → 肝病；V 正常、VII 低 → 維他命 K 缺乏；VIII 低 → DIC"
+            ],
+            [
+              "Warfarin 過量",
+              "INR 3.5–10 停藥；> 10 口服 vitamin K；嚴重出血 靜脈 vitamin K + 4F-PCC"
+            ],
+            [
+              "反轉劑",
+              "heparin → protamine；dabigatran → idarucizumab；Xa 抑制劑 → andexanet 或 4F-PCC"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
