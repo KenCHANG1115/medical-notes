@@ -1,0 +1,671 @@
+{
+  "id": "acute-leukemia",
+  "title": "Acute Leukemia (急性白血病與造血幹細胞移植)",
+  "title_en": "Acute Leukemia",
+  "title_zh": "急性白血病與造血幹細胞移植",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.101 Hematopoietic Stem Cells; Ch.109 Acute Myeloid Leukemia; Ch.111 Acute Lymphoid Leukemia; Ch.119 Hematopoietic Cell Transplantation",
+    "First Choice 醫學(三) 第4冊 - 丁、急性白血病（講義 p.194–202；題目 p.202–207），本篇共 14 題"
+  ],
+  "generated": "2026-11-19",
+  "updated": "2026-11-19",
+  "related": [
+    {
+      "id": "bleeding-disorders",
+      "name": "Bleeding Disorders (出血：凝血檢查與出血疾病)"
+    },
+    {
+      "id": "anemia-hemolytic",
+      "name": "Anemia (三)：正球性貧血——溶血與骨髓衰竭"
+    },
+    {
+      "id": "antibiotics-infection-control",
+      "name": "Antibiotics and Infection Control (抗生素與感染管制)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 14 題｜最常考：造血幹細胞移植（6 題）、APL、AML 的染色體與預後\n① **周邊血出現芽細胞或血球減少** → 骨髓（或血液）芽細胞 **≥ 20%** 就診斷急性白血病（WHO；FAB 舊制 30%）；帶特定基因異常者不看芽細胞比例\n② **分 AML 或 ALL**：**Auer 小體**、MPO 陽性、CD13/33/117 → AML；TdT、CD19/CD10（B）、CD7/CD3（T）→ ALL\n③ **依染色體分預後**：**t(15;17)、t(8;21)、inv(16)、NPM1 突變** → 好；**複雜核型、−5、−7、TP53、FLT3-ITD** → 差\n④ **APL 合併 DIC 是急症** → 懷疑就**立即給 ATRA**，同時輸血品矯正凝血\n⑤ **依風險決定緩解後治療**：預後好 → 化療鞏固；中、差 → **第一次緩解就做異體造血幹細胞移植**\n新版來源：Harrison 22e Ch.101、109、111、119（WHO 2022、ELN 2022）\n分工：DIC 的機轉與處理在〈出血〉；腫瘤溶解、高血鈣等一般腫瘤急症留給日後〈腫瘤科〉；CML 在〈骨髓增生性腫瘤〉"
+        }
+      ]
+    },
+    {
+      "title": "入口：芽細胞、血球減少與急性白血病的診斷　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 診斷：骨髓或周邊血**芽細胞 ≥ 20%**（WHO；FAB 舊制 ≥ 30%）\n- **WHO 2022**：帶 **t(15;17)、t(8;21)、inv(16)/t(16;16)、KMT2A 重組、NPM1 突變**等特定基因異常 → **芽細胞 < 20% 也診斷 AML**\n- 表現來自**骨髓被佔滿**：貧血（倦怠）、**嗜中性球低 → 發燒感染**、**血小板低 → 出血**；骨頭痛\n- **急性 = 大部分是不成熟芽細胞**；**慢性 = 各成熟階段都看得到**（FC）\n- **完全緩解（CR）**：骨髓芽細胞 **< 5%**、周邊血沒有芽細胞、嗜中性球 ≥ 1000、血小板 ≥ 10 萬、沒有髓外病灶（Harrison）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "AML",
+            "ALL"
+          ],
+          "rows": [
+            [
+              "年齡",
+              "**成人**為主（診斷中位數約 69 歲）",
+              "**兒童最常見的癌症**（高峰 3–4 歲）；成人少、老年再上升"
+            ],
+            [
+              "形態",
+              "細胞質有顆粒、**Auer 小體**（看到就確定是 AML）",
+              "核質比高、細胞質**沒有顆粒**"
+            ],
+            [
+              "化學染色（舊）",
+              "**MPO 陽性**；NSE → 單核球型（M4、M5）",
+              "**PAS** 陽性"
+            ],
+            [
+              "表面標記",
+              "**CD13、CD33、CD117**；CD14 → 單核球；CD41/61 → 巨核球（M7）；glycophorin A → 紅血球（M6）",
+              "**B：TdT、CD19、CD10、CD22**；**T：CD7、cyCD3、TdT**；成熟 B（Burkitt）：**TdT 陰性、表面 Ig 陽性**"
+            ],
+            [
+              "特殊表現",
+              "**牙齦肥厚**（單核球型、KMT2A）；**骨髓肉瘤**（t(8;21)）；**DIC**（APL）",
+              "**縱膈腔腫塊**（T-ALL 約 60%）；**中樞神經侵犯**；淋巴結、肝脾腫大"
+            ],
+            [
+              "好預後染色體",
+              "t(15;17)、t(8;21)、inv(16)",
+              "**超二倍體**（> 50 條）"
+            ],
+            [
+              "差預後染色體",
+              "−5/del(5q)、−7、複雜核型、TP53",
+              "**t(9;22)**、t(4;11)（KMT2A）、t(1;19)"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼白血病病人「白血球很高」卻一直感染？**\n數到的白血球大多是**不會成熟的芽細胞**，沒有殺菌功能；真正的嗜中性球反而被擠掉 → 功能性嗜中性球低下。同理，Hb 和血小板也被擠掉 → 貧血、出血。所以白血球數可以高、正常或低（Harrison：診斷時中位數約 1.5 萬，25–40% < 5000，20% > 10 萬）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 103 年**：WHO 診斷急性白血病，骨髓芽細胞至少要佔有核細胞 **20%**（FAB 舊制是 30%）。\n**白血球 > 10 萬（高白血球）**：早期**中樞神經出血**與**肺部白血球淤滯**是主要死因（Harrison）→ 見〈支持治療〉段。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.109 p.826–828"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.111 p.844–845"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 講義 p.194–197"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 題目 p.206"
+        }
+      ]
+    },
+    {
+      "title": "AML：危險因子、分類、預後與治療　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 危險因子：**化療**（烷化劑 4–6 年後、−5/−7；**topoisomerase II 抑制劑如 etoposide 1–3 年後、11q23**）、**放射線**、**苯**、**唐氏症**（< 4 歲的巨核芽細胞型）、Fanconi 貧血、先前 **MDS 或 MPN**\n- 預後最重要：**染色體與分子**；臨床上 **年齡**最重要，其次體能狀態、先前血液病、治療相關 AML、高白血球\n- **好**：**t(15;17)**（約 85% 治癒）、**t(8;21)、inv(16)**（約 55%）、NPM1 突變（沒有 FLT3-ITD）；**差**：**FLT3-ITD**、複雜核型、−5、−7、TP53\n- 融合基因配對：**t(15;17) → PML::RARA**、**t(8;21) → RUNX1::RUNX1T1（AML1/ETO）**、**inv(16) → CBFB::MYH11**、**t(9;11) → MLLT3::KMT2A**、**t(6;9) → DEK::NUP214**\n- 治療：**誘導「7+3」**（cytarabine 7 天 + daunorubicin 或 idarubicin 3 天）→ CR 後**鞏固**：預後好 → 中劑量 cytarabine 2–4 次；中、差 → **CR1 異體移植**\n- 老人或不能耐受 → **hypomethylating agent（azacitidine、decitabine）或低劑量 cytarabine + venetoclax**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/acute-leukemia/h109-1.png",
+          "label": "Harrison's 22e Fig.109-1（p.829）",
+          "caption": "AML 細胞形態：A 骨髓芽細胞、B Auer 小體、C 前骨髓細胞白血病、D 過氧化酶染色",
+          "explain": "**【怎麼看】****A** 一群大小一致的**骨髓芽細胞**：染色質細緻、有核仁、細胞質有少量顆粒。**B** 中間那顆芽細胞的細胞質裡有一根**粉紅色細長的 Auer 小體**（旁邊是正常分葉嗜中性球）。**C** **APL**：細胞質塞滿**粗大的紫紅色顆粒**。**D** **過氧化酶（MPO）染色**陽性：顆粒染成深藍黑色。\n**【考點】**看到 **Auer 小體 → 一定是 AML**（不是 ALL）；**MPO 陽性 → 骨髓系**。APL 的顆粒在化療時釋出 → 引發 **DIC**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "ELN 2022 風險",
+            "遺傳異常（Harrison Table 109-3）"
+          ],
+          "rows": [
+            [
+              "**好**",
+              "**t(8;21)／RUNX1::RUNX1T1**；**inv(16) 或 t(16;16)／CBFB::MYH11**；**NPM1 突變但沒有 FLT3-ITD**；CEBPA（bZIP）突變"
+            ],
+            [
+              "中",
+              "NPM1 突變**合併** FLT3-ITD；NPM1 野生型合併 FLT3-ITD；**t(9;11)／MLLT3::KMT2A**；其他未分類"
+            ],
+            [
+              "**差**",
+              "**t(6;9)／DEK::NUP214**；其他 **KMT2A 重組**；**t(9;22)／BCR::ABL1**；inv(3)；**−5／del(5q)、−7**、17p 異常；**複雜核型**、單體核型；**TP53**、ASXL1、RUNX1 等突變"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年**：染色體與融合基因配對**錯誤**的是「**t(9;11) 與 DEK-NUP214**」——t(9;11) 是 **MLLT3::KMT2A**（MLL-AF9）；DEK::NUP214 是 **t(6;9)**。\n**FC 103 年**：AML 帶 **FLT3-ITD** 預後**不好**；NPM1 突變、CEBPA 突變、inv(16) 都是好預後。\n**FC 106 年**：**類風濕性關節炎**不會增加 AML 風險；唐氏症（與 M7 有關）、長期接觸**苯**、用過 **etoposide（VP-16）**都會。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 FLT3-ITD 預後差，NPM1 突變卻預後好？**\nFLT3 是酪胺酸激酶受體；ITD 讓它**持續活化** → 芽細胞增生快、抗凋亡、白血球常很高、容易復發。NPM1 突變的 AML 對化療很敏感 → 單獨存在時屬好預後；但**兩者同時存在**，FLT3-ITD 的負面影響會抵銷 → 降為中風險（Harrison）。\nFLT3-ITD 也是**標靶**：midostaurin、quizartinib 加在第一線化療；gilteritinib 用在復發。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：WHO 2022 以**基因**分類，取代 FAB 的 M0–M7（FC 仍用 M 分型，作答兩者都要認得）；標靶藥：**FLT3**（midostaurin、quizartinib、gilteritinib）、**IDH1**（ivosidenib）、**IDH2**（enasidenib）、**CD33**（gemtuzumab ozogamicin，尤其 CBF AML）、**BCL2**（venetoclax）。\n緩解後鞏固：**中劑量 cytarabine（1–1.5 g/m²）**已取代傳統高劑量（3 g/m²），存活沒有更差；不能移植的非好預後老人 → 口服 azacitidine 維持。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：FAB 分型對照（FC）",
+          "text": "- **M0** 未分化、**M1** 少分化、**M2** 有分化（t(8;21)、Auer 小體多）\n- **M3** 前骨髓細胞白血病（**t(15;17)**、DIC）\n- **M4** 骨髓單核球型（**inv(16)**、嗜酸性球增加 = M4Eo）、**M5** 單核球型（11q23；**牙齦肥厚**、NSE 陽性）\n- **M6** 紅血球白血病（glycophorin A）、**M7** 巨核芽細胞白血病（CD41、CD61；**唐氏症**）\n- ALL：L1 兒童型、L2 成人型、**L3 = Burkitt**（t(8;14)、TdT 陰性、表面 Ig 陽性）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.109 p.825–833"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 講義 p.194–200"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 題目 p.202、204、206"
+        }
+      ]
+    },
+    {
+      "title": "APL（急性前骨髓細胞白血病）：DIC、ATRA 與分化症候群　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **t(15;17) → PML::RARA**：RARA（維甲酸受體）被破壞 → 細胞卡在**前骨髓細胞**階段；多見於**年輕人**\n- 表現：**DIC 出血**（牙齦、靜脈穿刺處滲血；也可能腸胃、肺、顱內出血）；矛盾地也會**血栓**\n- 治療核心：**ATRA（tretinoin）讓前骨髓細胞繼續分化**；現行低風險（白血球 ≤ 1 萬）→ **ATRA + arsenic trioxide**（CR 近 100%）；**高風險（白血球 > 1 萬）→ 加化療減積**\n- FC（舊）：誘導 **ATRA + anthracycline**；維持 **ATRA + 6-MP + MTX**（APL、ALL 需要維持治療）\n- **懷疑 APL 就立即給 ATRA**，同時**輸血小板、FFP 或冷凍沉澱品**矯正 DIC（見〈出血〉）\n- 併發症：**分化症候群** → 類固醇；預後**最好**的 AML（約 85% 長期存活）"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年**：APL 敘述**錯誤**的是「帶有染色體異常 **t(5;7)**」——APL 是 **t(15;17)(q24;q21)**、PML-RARα 融合。正確：容易發生 **DIC**、tretinoin 治療可達完全緩解。\n**FC 104 年**：APL 敘述**錯誤**的是「大多數病人有異常融合基因 **AML1/ETO**」——AML1/ETO（RUNX1::RUNX1T1）是 **t(8;21)**。正確：t(15;17)、常有 DIC、誘導用 **tretinoin + anthracycline**。\n**FC 106 年**：27 歲男性**牙齦出血不止**，白血球 1250、前骨髓細胞 18%、血小板 2.1 萬，骨穿證實 APL → **輸血小板、化療、ATRA 三者都必須**（FC 答 D）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼以前的 APL 一化療就死於 DIC，ATRA 卻能減少 DIC？**\nAPL 細胞的顆粒富含促凝與纖溶物質；**化療殺死細胞 → 顆粒一次釋放 → DIC 惡化**（Harrison）。ATRA 不殺細胞，而是讓卡住的前骨髓細胞**分化成熟** → 顆粒不會爆量釋出 → DIC 減少。代價是大量細胞同時分化、黏在肺血管 → **分化症候群**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "分化症候群（APL syndrome）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "時間",
+              "開始 **ATRA（或 arsenic）後 3 週內**"
+            ],
+            [
+              "表現",
+              "**發燒**、**體重增加**（水分滯留）、**呼吸窘迫**、肺浸潤、**肋膜或心包膜積液**、低血壓、**腎衰竭**（FC：≥ 3 項）"
+            ],
+            [
+              "機轉",
+              "分化中的白血病細胞黏附在**肺血管內皮**"
+            ],
+            [
+              "處理",
+              "**及早高劑量類固醇**（dexamethasone）；白血球高 → 化療減積或 **hydroxyurea**（FC）；**嚴重**（腎衰竭、需加護病房）→ **暫停 ATRA**"
+            ],
+            [
+              "死亡率",
+              "未察覺時約 **10%**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：**低風險 APL 標準治療 = ATRA + arsenic trioxide（ATO）**，優於 ATRA + idarubicin，CR 接近 100%；**高風險（白血球 > 1 萬）**要立即化療減積。治療結束後用 **PCR 追蹤 PML-RARA**——訊號消失代表長期無病；持續或再出現 → 必定復發。FC 106 年題目（白血球 1250 屬低風險）以 FC 答案「化療 + ATRA + 輸血小板」作答；現行則常用 ATRA + ATO、不一定需要化療。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.109 p.828–829、833–834"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 講義 p.201–202"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 題目 p.204、206"
+        }
+      ]
+    },
+    {
+      "title": "ALL：兒童與成人、費城染色體、中樞神經預防與維持治療　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **兒童最常見的惡性腫瘤**（高峰 3–4 歲）；**成人 Ph+（t(9;22)、BCR::ABL1）隨年齡增加**——老年 B-ALL 約一半是 Ph+\n- **B-ALL（成人約 76%）**：TdT、CD19、CD10；**T-ALL（約 25%）**：CD7、cyCD3，年輕、**縱膈腔腫塊**、白血球高、中樞神經侵犯\n- 預後：**治療後微量殘存病灶（MRD）是最重要的獨立因子**；FC：好 = **2–10 歲**、**超二倍體**；差 = 年紀大、白血球高、**t(9;22)**、t(4;11)、t(1;19)\n- 治療分期：**誘導**（類固醇、vincristine、anthracycline、asparaginase ± cyclophosphamide）→ **鞏固**（高劑量 MTX、cytarabine）→ **中樞神經預防**（脊髓腔內 MTX、cytarabine、類固醇 ± 頭部放療）→ **維持治療 6-MP + MTX 約 2 年**（Burkitt 除外）\n- **Ph+ ALL → 加 TKI**；**imatinib、nilotinib 進不太去中樞神經**，**dasatinib**（可能還有 ponatinib）可以\n- 高風險、MRD 陽性 → **CR1 異體移植**；CD19 CAR-T 可治療中樞神經復發"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年**：ALL 治療**最不適當**的是「Ph+ ALL 的中樞神經預防與治療，**imatinib 是理想選項**」——**imatinib 無法有效穿過血腦障壁**，不能單獨用於中樞神經預防或治療。正確：現代化療 CR 率可 **> 80%**；維持治療含 **6-MP 與 MTX、長達 2–2.5 年**；Ph+ ALL 維持治療**建議加 TKI**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 ALL 特別需要中樞神經預防，AML 一般不用？**\nALL 細胞容易躲進**腦脊髓液**，而大多數全身化療藥（與單株抗體）**進不了血腦障壁** → 腦膜成為「庇護所」，日後從這裡復發。所以 ALL 每個療程都搭配**脊髓腔內注射**（Harrison：成人診斷時中樞神經侵犯 5–10%，成熟 B 與 T-ALL 更高）。腰椎穿刺發現腦脊髓液 **≥ 5 個細胞/µL 或芽細胞** → 中樞神經白血病。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**誰需要維持治療？** FC：**ALL、APL** 需要；一般 AML 不需要（現行例外：不能移植的非好預後老人可用口服 azacitidine 維持）。\n**Burkitt 白血病**（成熟 B、t(8;14)、TdT 陰性）：短期高強度化療 + rituximab、**不需維持、不做移植**（Harrison Ch.111 成人 ALL 治療表）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.111 p.844–847"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 講義 p.194、201"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 題目 p.203"
+        }
+      ]
+    },
+    {
+      "title": "支持治療：高白血球、輸血、嗜中性球低下發燒　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **高白血球（> 10 萬）**：腦出血、**肺部白血球淤滯** → 盡快減積（化療；FC：**hydroxyurea**）\n- **尿酸**：診斷時就開始**水分 + allopurinol**；嚴重高尿酸或腎損傷 → **rasburicase**（**G6PD 缺乏禁用**，見〈Anemia (三)〉）\n- **輸血**：血小板維持 **≥ 1 萬**（發燒、出血、DIC 時要更高）；紅血球維持 **Hb 7–8**；用**去白血球**、**照射過**的血品（防輸血相關 GVHD）\n- **嗜中性球低下發燒**：先做檢查與培養，**立即**給抗綠膿桿菌的 β-lactam（**cefepime、piperacillin/tazobactam、meropenem**）；導管感染、革蘭氏陽性菌血症、休克、MRSA → 加 **vancomycin**；燒 4–7 天不退 → 加**抗黴菌藥**\n- 預防：**quinolone**、**posaconazole**、HSV/VZV 陽性 → **acyclovir**"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 AML 的出血不能只看血小板數？**\n白血病的血小板常**形態怪、功能差**，再加上感染或 DIC → 即使血小板只是中度下降也可能大出血。所以 Harrison 建議**一有出血就輸血小板**，不必等數值很低。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "腫瘤溶解症候群的完整處理、化療藥物副作用總表、上腔靜脈症候群等，留到日後〈腫瘤科〉筆記；此處只放白血病特有的重點。\n**單核球型 AML** 可因大量 **lysozyme** 造成腎小管功能異常（Harrison）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.109 p.828–833"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 講義 p.194、200"
+        }
+      ]
+    },
+    {
+      "title": "造血幹細胞移植：自體 vs 異體、GVHD、怎麼確認移植成功　★ 6 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 造血幹細胞的兩大特徵：**自我更新（self-renewal）**與**分化（differentiation）**；住在骨髓的**微環境（niche）**\n- **自體**：沒有 GVHD、沒有 GVL、可能帶腫瘤細胞、**移植相關死亡最低**；**異體**：有 GVHD 也有 **GVL**\n- 有 n 個同父母手足，至少一個 **HLA 全合的機率 = 1 − (0.75)ⁿ**（每個手足 1/4）\n- 幹細胞來源：**G-CSF 動員後的周邊血**最常用（植入快、但慢性 GVHD 多）；動員不足 → 加 **plerixafor（CXCR4 拮抗劑）**\n- **ABO 不合也可以移植**：處理移植物（去除紅血球或凝集素）即可，**不需加重免疫抑制或切脾**\n- 確認移植成功（植入）：**DNA 短串聯重複序列（STR）分析**看嵌合狀態（FC）\n- **CML 慢性期首選 TKI，不是移植**；AML 第二次緩解、ALL 高風險 CR1、嚴重再生不良性貧血 → 移植"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "自體（autologous）",
+            "異體（allogeneic）"
+          ],
+          "rows": [
+            [
+              "幹細胞來源",
+              "**病人自己**（緩解期收集、冷凍）",
+              "HLA 相合的手足、非親屬、半相合家屬、臍帶血"
+            ],
+            [
+              "GVHD",
+              "**沒有**",
+              "**有**（急性、慢性）"
+            ],
+            [
+              "移植物抗白血病（GVL）效應",
+              "**沒有** → 復發率較高",
+              "**有** → 最強的防復發手段"
+            ],
+            [
+              "移植物排斥",
+              "Harrison：沒有（但可能**移植物衰竭**）",
+              "有（HLA 相合手足約 1–3%）"
+            ],
+            [
+              "腫瘤細胞污染",
+              "**可能**",
+              "不會"
+            ],
+            [
+              "移植相關死亡",
+              "**最低**（約 5%）",
+              "較高（GVHD、感染、器官毒性）"
+            ],
+            [
+              "典型適應症",
+              "**多發性骨髓瘤**、復發的**淋巴瘤**",
+              "**AML CR1（中、差風險）**、高風險 ALL、**嚴重再生不良性貧血（年輕）**、MDS、地中海貧血"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 112 年**：HSCT 敘述**最不恰當**——**(B)(C) 都給分**：(B)「ABO 不合要**增加免疫抑制劑或切脾**」錯——做紅血球去除、血漿置換即可；(C)「自體移植**沒有 GVHD 也沒有移植物排斥**的風險」——FC 認為仍可能**移植物衰竭或排斥**（Harrison 則寫自體「沒有 GVHD 或排斥風險」）。正確：n 個手足找到 HLA 全合的機率 **1 − (0.75)ⁿ**；G-CSF 動員收集不足 → **plerixafor**。\n**FC 105 年**：造血幹細胞最重要的特徵 → **自我更新**（FC：(A)(C) 都給分，分化也算）。\n**FC 104 年**：骨髓微環境哪個不在其列（內皮細胞、間質幹細胞、纖維母細胞、脂肪細胞）→ **一律給分**。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 104 年**：成人異體移植**最不符合**優先適應症的是**新診斷的費城染色體陽性 CML 慢性期**——第一線是 **TKI（imatinib 等）**；嚴重再生不良性貧血、AML 第二次緩解、ALL 第一次緩解都是適應症。\n**FC 103 年**：36 歲 AML 化療後完全緩解、接受異體移植 → 最能可靠且即時證實**移植成功**的是 **DNA／STR 分析**（親子鑑定用的技術，可測捐贈者細胞比例）；ABO、Rh 血型、染色體檢查都不夠好。\n**FC 103 年**：移植後 100 天內死亡率**最低**的是**自體**移植（HLA 相合手足、非親屬、臍帶血都較高）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 AML 要在「第一次緩解」就移植，而不是等復發？**\n復發的 AML 通常**抗藥**，很難再緩解；異體移植的威力來自捐贈者免疫細胞的 **GVL 效應**，能清掉**少量**殘存白血病細胞，卻清不掉大量腫瘤——Harrison 的比喻：移植能「**撈出乾草堆裡的一根針，但對付不了一整堆針**」。所以中、差風險者在 **CR1、腫瘤量最少時**就移植；好風險者化療治癒率高，不值得冒移植的死亡風險。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "急性 GVHD",
+            "慢性 GVHD"
+          ],
+          "rows": [
+            [
+              "時間",
+              "移植後 **3 個月內**（高峰約 4 週）",
+              "**3 個月–2 年**；20–50%"
+            ],
+            [
+              "表現",
+              "**斑丘疹**、**腹瀉**或持續厭食、**肝臟**（膽紅素、轉胺酶上升）",
+              "像**自體免疫病**：顴部紅疹、**乾燥症**、關節炎、**阻塞性細支氣管炎**、膽管退化與膽汁鬱積"
+            ],
+            [
+              "治療",
+              "**prednisone 1–2 mg/kg**；無效 → **ruxolitinib**",
+              "prednisone；類固醇無效 → ibrutinib、ruxolitinib、belumosudil；預防性 **TMP-SMX**"
+            ],
+            [
+              "預防",
+              "**calcineurin 抑制劑（cyclosporine、tacrolimus）+ MTX**；移植後高劑量 cyclophosphamide",
+              "周邊血幹細胞、非親屬或不相合、先前急性 GVHD → 風險較高"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**肝竇阻塞症候群（SOS，舊稱靜脈阻塞病 VOD）**：移植前處置傷害肝竇內皮 → **疼痛性肝腫大、腹水、黃疸、水分滯留**（體重上升）；3–10%，嚴重者死亡率約 30% → **defibrotide**（Harrison）。\n**移植相關 TMA**：與 calcineurin、mTOR 抑制劑有關 → 調整免疫抑制劑（Harrison）。\n**輸血相關 GVHD**：免疫低下病人輸血要用**照射過**的血品。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：**移植後高劑量 cyclophosphamide** 等 T 細胞清除法讓**半相合家屬**移植可行——幾乎每個有健康父母或子女的病人都找得到捐贈者；**非親屬全合**的存活和**手足全合**差不多。嚴重再生不良性貧血 **< 40 歲**用手足全合移植，治癒率 **> 95%**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.101 p.758–759"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.119 p.914–919"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.109 p.831–832"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 講義 p.194"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "丁、急性白血病 題目 p.203–207"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 106 年）：27 歲男性牙齦出血不止。Hb 8.2、白血球 1250（前骨髓細胞 18%）、血小板 2.1 萬。",
+          "text": "1. **型態**：年輕人 + **黏膜出血** + 血球低下 + 周邊血出現**前骨髓細胞** → 想 **APL**\n2. **立刻查 DIC**：PT、aPTT、fibrinogen、D-dimer（見〈出血〉）\n3. **懷疑就給 ATRA**，不必等 t(15;17)／PML-RARA 確認\n4. **同時支持**：輸血小板、FFP 或冷凍沉澱品（fibrinogen 維持 > 150）\n5. **分險**：白血球 ≤ 1 萬 = 低風險 → 現行 ATRA + arsenic；FC 答案：**輸血小板 + 化療 + ATRA**；之後留意**分化症候群**（發燒、體重增加、喘、積液 → 類固醇）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 103 年）：36 歲 AML（正常核型、FLT3-ITD 陽性），7+3 誘導後完全緩解。",
+          "text": "1. **風險分層**：FLT3-ITD → 中至差風險\n2. **緩解後**：不是好風險 → **CR1 就做異體移植**（GVL 在腫瘤量最少時最有效）\n3. **找捐贈者**：手足 HLA 全合機率 1 − (0.75)ⁿ；沒有 → 非親屬、半相合、臍帶血\n4. **移植後確認植入**：**STR 分析**看捐贈者細胞比例（嵌合）\n5. **追蹤併發症**：100 天內急性 GVHD（皮疹、腹瀉、膽紅素上升）、肝竇阻塞症候群、感染；FLT3 抑制劑可加在誘導與維持"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 113 年）：成人 B-ALL，費城染色體陽性。",
+          "text": "1. **型態**：TdT、CD19、CD10 陽性 → B-ALL；**t(9;22)** → 預後差（老年 B-ALL 約一半）\n2. **誘導**：化療（或類固醇）**+ TKI**\n3. **中樞神經預防**：**脊髓腔內 MTX、cytarabine、類固醇**——**imatinib 進不了中樞神經**，dasatinib 可以\n4. **追蹤 MRD**：MRD 陰性是最重要的好預後因子；陽性 → 標靶或免疫治療減量後**異體移植**\n5. **維持**：6-MP + MTX 約 2 年，Ph+ 加 TKI"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "診斷（§入口）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：依據國際衛生組織（WHO）的分類，如欲診斷急性白血病，骨髓中芽球（blast form）至少需占有核細胞的百分比為何？（A 50% B 40% C 30% D 20%）（FC 103 年）",
+          "text": "**答：(D)。** FAB 舊制為 30%。"
+        },
+        {
+          "type": "heading",
+          "text": "AML（§AML）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：下列發生於 acute myeloid leukemia 的染色體變化與相對應的基因融合（fusion），何者錯誤？（A t(8;21) 與 RUNX1-RUNX1T1 B t(15;17) 與 PML-RARA C inv(16) 與 CBFB-MYH11 D t(9;11) 與 DEK-NUP214）（FC 113 年）",
+          "text": "**答：(D)。** t(9;11) 產生 MLLT3-KMT2A（MLL-AF9）；DEK-NUP214 是 t(6;9)。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：下列何種病人得到急性骨髓性白血病的機率不會較一般人高？（A 唐氏症 B 類風濕性關節炎 C 長期接觸苯（benzene）D 過去用過 etoposide（VP-16））（FC 106 年）",
+          "text": "**答：(B)。** FC 詳解：Down syndrome 與 AML 的 M7 有關。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：急性骨髓性白血病人，帶有下列何種染色體或基因異常者，預後不好？（A NPM1 mutation B FLT3-ITD C CEBPA mutation D inv(16)）（FC 103 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "APL（§APL）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：下列有關急性前骨髓細胞白血病（acute promyelocytic leukemia）的敘述，何者錯誤？（A 容易發生瀰漫性血管內凝血（DIC）B 帶有染色體異常 t(5;7) C 有異常之 PML/RARα 融合基因 D 以反轉式維甲酸 tretinoin 治療，可以達到完全緩解）（FC 107 年）",
+          "text": "**答：(B)。** APL 的典型轉位是 t(15;17)(q24;q21)，造成 PML-RARα 融合；t(5;7) 與 APL 無關。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：下列有關急性前骨髓細胞白血病的敘述，何者錯誤？（A 大多數病人的白血病細胞內有染色體異常 t(15;17) B 大多數病人的白血病細胞內有異常的融合基因 AML1/ETO C 病人常出現瀰漫性血管內凝血（DIC）D 最適當的誘導性治療為 tretinoin（all-trans retinoic acid）加 anthracycline 化學治療）（FC 104 年）",
+          "text": "**答：(B)。** AML1/ETO 屬於 t(8;21)。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：一位 27 歲男性因為牙齦出血不止來到醫院，血液檢查發現血紅素為 8.2 gm/dL，白血球 1,250/µL，其中 promyelocyte 18%、segmented neutrophil 2%、monocytes 8%、lymphocytes 72%，血小板 21,000/µL。骨髓穿刺檢查證明為 acute promyelocytic leukemia。下列各選項，何者是治療此病人所必須的？①platelet transfusion ②chemotherapy ③all-trans retinoic acid（A ①② B ②③ C ①③ D ①②③）（FC 106 年）",
+          "text": "**答：(D)。**（現行低風險 APL 多用 ATRA + arsenic，見 APL 段的現行治療說明）"
+        },
+        {
+          "type": "heading",
+          "text": "ALL（§ALL）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：下列有關 acute lymphoblastic leukemia 之治療的敘述，何者最不適當？（A 以現代的化學治療處方，初次治療之完全緩解率可以高達 80% 以上 B 維持治療通常包含 6-mercaptopurine 與 methotrexate，並且長達 2 年至 2 年半 C 對於帶有 Philadelphia chromosome 之 ALL 的維持治療，建議加上 tyrosine kinase inhibitor D 對於帶有 Philadelphia chromosome 之 ALL 之中樞神經的預防與治療，imatinib 是理想選項）（FC 113 年）",
+          "text": "**答：(D)。** FC 詳解：imatinib 無法有效穿透血腦屏障，不能單獨用於中樞神經的預防或治療。"
+        },
+        {
+          "type": "heading",
+          "text": "造血幹細胞移植（§造血幹細胞移植）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：下列有關造血幹細胞移植的敘述，何者最不恰當？（A 一位病人若有 n 個同父同母的兄弟姊妹，則可以找到至少一位 HLA 全合的兄弟姊妹的機率是 1-(0.75)ⁿ B 進行異體造血幹細胞移植，若是 ABO 血型不相合，通常在移植前的免疫抑制劑的劑量必須增加或是進行 recipient 之脾臟切除 C 自體造血幹細胞移植並無 graft-versus-host disease（GVHD）或 graft rejection 的風險 D 周邊血液中，在施打 G-CSF 數天之後，也可能收集到足夠的造血幹細胞進行移植。若是收集的數量不足，施打 plerixafor（一種 CXCR4 的拮抗劑），可以幫助收集到更多的造血幹細胞）（FC 112 年）",
+          "text": "**答：(B)(C) 皆給分。** FC 詳解：ABO 不相合做紅血球減少處理、血漿置換、單核球去除即可，不需增加免疫抑制劑或切脾；自體移植不會 GVHD，但仍可能 graft failure 或 graft rejection。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：以下何者被視為造血幹細胞（hematopoietic stem cell）最重要的特徵？（A 自我更新（self-renewal）B 增殖（proliferation）C 分化（differentiation）D 計畫凋亡（programmed death））（FC 105 年）",
+          "text": "**答：(A)、(C) 給分。** Harrison：所有幹細胞的兩大功能是自我更新與分化。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：正常的骨髓微環境（microenvironment）對造血幹細胞移植術之成敗至關重要，下列何者不在此列？（A endothelial cell B mesenchymal stem cell C fibroblast D adipose cell）（FC 104 年）",
+          "text": "**答：本題一律給分。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：排除病患年齡因素，現今一般共識認為成人異體造血幹細胞移植最不符合優先治療適應症者為何？（A 嚴重型再生不良性貧血 B 急性骨髓性白血病第二次緩解期 C 急性淋巴性白血病第一次緩解期 D 新診斷之費城染色體陽性慢性骨髓性白血病慢性期）（FC 104 年）",
+          "text": "**答：(D)。** 慢性期 CML 第一線是 TKI。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：林先生 36 歲，罹患急性骨髓性白血病，在化學治療後成功達到完全緩解狀態，在醫師建議下接受異體造血幹細胞移植。以下何種檢驗其可靠性及時效最能證實移植成功？（A RBCs ABO grouping B DNA/STR（short tandem repeat）analysis C chromosomal study D Rh system）（FC 103 年）",
+          "text": "**答：(B)。** FC 詳解：STR 平常用於親子鑑定，也可以做 donor engraftment test。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：下列何種造血幹細胞移植的移植後 100 天內死亡併發率（100-day mortality rate）最低？（A 自體造血幹細胞移植 B 人類白血球抗原吻合之手足造血幹細胞移植 C 人類白血球抗原吻合之非血親造血幹細胞移植 D 人類白血球抗原吻合之臍帶血移植）（FC 103 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "診斷",
+              "芽細胞 ≥ 20%（WHO）；特定基因異常不看比例"
+            ],
+            [
+              "AML vs ALL",
+              "Auer 小體、MPO、CD13/33/117 → AML；TdT、CD19/10 或 CD7/cyCD3 → ALL"
+            ],
+            [
+              "CR",
+              "骨髓芽細胞 < 5%、周邊無芽細胞、ANC ≥ 1000、血小板 ≥ 10 萬"
+            ],
+            [
+              "AML 好預後",
+              "t(15;17)、t(8;21)、inv(16)、NPM1（無 FLT3-ITD）"
+            ],
+            [
+              "AML 差預後",
+              "FLT3-ITD、複雜核型、−5、−7、TP53、t(6;9)、KMT2A、t(9;22)"
+            ],
+            [
+              "融合基因",
+              "t(15;17) PML::RARA；t(8;21) RUNX1::RUNX1T1（AML1/ETO）；inv(16) CBFB::MYH11；t(9;11) MLLT3::KMT2A；t(6;9) DEK::NUP214"
+            ],
+            [
+              "AML 危險因子",
+              "烷化劑（−5/−7）、etoposide（11q23）、放射線、苯、唐氏症（M7）、MDS"
+            ],
+            [
+              "AML 治療",
+              "7+3 → 好風險 cytarabine 鞏固；中差 CR1 異體移植；老人 HMA 或低劑量 cytarabine + venetoclax"
+            ],
+            [
+              "APL",
+              "t(15;17)、DIC、懷疑就給 ATRA；低風險 ATRA + arsenic；分化症候群 → 類固醇"
+            ],
+            [
+              "ALL",
+              "兒童最常見；Ph+ 隨年齡增加；CNS 預防（imatinib 進不去）；維持 6-MP + MTX 約 2 年"
+            ],
+            [
+              "需要維持治療",
+              "ALL、APL"
+            ],
+            [
+              "支持治療",
+              "血小板 ≥ 1 萬；去白血球照射血品；發燒 → 抗綠膿 β-lactam；rasburicase 先驗 G6PD"
+            ],
+            [
+              "幹細胞",
+              "自我更新 + 分化；niche"
+            ],
+            [
+              "自體 vs 異體",
+              "自體：無 GVHD、無 GVL、死亡率最低；異體：GVHD + GVL"
+            ],
+            [
+              "手足 HLA 全合",
+              "1 − (0.75)ⁿ"
+            ],
+            [
+              "確認植入",
+              "STR 分析（嵌合）"
+            ],
+            [
+              "GVHD",
+              "急性 < 3 個月：皮疹、腹瀉、肝；慢性：類自體免疫、乾燥、阻塞性細支氣管炎"
+            ],
+            [
+              "移植適應症",
+              "AML CR1（中差）／CR2、高風險 ALL、年輕嚴重再生不良性貧血；CML 慢性期先 TKI"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

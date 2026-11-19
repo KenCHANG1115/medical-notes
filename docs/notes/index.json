@@ -309,6 +309,13 @@
         {
           "id": "thrombosis-vte",
           "name": "Thrombosis (血栓：易栓症、靜脈血栓與抗凝治療)"
+        },
+        {
+          "heading": "血液腫瘤"
+        },
+        {
+          "id": "acute-leukemia",
+          "name": "Acute Leukemia (急性白血病與造血幹細胞移植)"
         }
       ]
     },
