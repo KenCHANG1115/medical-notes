@@ -60,6 +60,11 @@
           "text": "**必背**\n- **固定順序**才不會漏看：**速率 → 節律（P 波與 QRS 的關係）→ PR、QRS、QT → 電軸 → 心房與心室肥厚 → Q 波、R 波進展 → ST 與 T 波 → U 波**\n- 多數判讀錯誤是**漏看**，不是不會看"
         },
         {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**ECG 判讀六步口訣**（First Choice）：**RAte → RHythm → Interval → Axis → Hypertrophy → Infarct**\nRate 評估速率、Rhythm 評估節律來源、Interval 與 Axis 評估傳導阻滯、Hypertrophy 評估心肌肥厚、Infarct 評估心肌缺血"
+        },
+        {
           "type": "collapsible",
           "summary": "延伸：心電圖四部曲的讀法",
           "text": "**心電圖四部曲的讀法**\n- **（一）本篇**：波形、間期、電軸、肥厚、束支阻滯、**缺血與梗塞定位**、**電解質與藥物**——每一張心電圖都會用到。\n- **（二）緩脈與傳導阻滯**：竇房結失能、**一度到三度房室阻滯**、節律器適應症。\n- **（三）上心室性心搏過速與心房顫動**：窄 QRS 心搏過速怎麼判斷、AVNRT、WPW、心房撲動、**心房顫動的抗凝與心率控制**。\n- **（四）心室性心律不整**：PVC、**寬 QRS 心搏過速是不是 VT**、Torsades、Brugada、ICD。\n本系列以 **Harrison 22e Ch.247、250–263** 為主，心電圖全部用 **Harrison 原圖**；First Choice 的口訣與考題穿插其中。"

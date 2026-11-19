@@ -164,6 +164,11 @@
           "text": "重塑的細胞層面：胎兒基因再表現、β 受體去敏感化、細胞死亡、間質纖維化｜心室變圓 → 乳突肌移位 → 續發性 MR\n**HFpEF 機轉**：舒張失能之外，還有血管僵硬、腎功能不良、留鈉、脂肪相關發炎、NO 訊號受損、胰島素阻抗\nendothelin 拮抗劑對左心衰竭無益（但對肺動脈高壓有益）；抗發炎、抗氧化治療未證實有效\n**SGLT2**：近曲小管回收最多 90% 葡萄糖並留鈉 → SGLT2 抑制劑不論有無糖尿病都降低住院與死亡\n**最多 1/3 QRS 變寬**，LBBB 造成不同步 → CRT｜心腎症候群：重在**靜脈鬱血與腹內壓**，解除鬱血常改善腎功能｜腸道鬱血 → 內毒素 → 惡病質"
         },
         {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 口訣 MY HEART FAILS**（心衰竭的病因與誘發因子）：**MY**ocardial infarction、**H**ypertension、**E**lectrolyte、**A**rrhythmia、**R**enal、**T**oxin／Thyroid、**F**luid overload、**A**nemia、**I**nfection、**L**oss of medication／Labor（周產期心肌病）、**S**tress（Takotsubo）"
+        },
+        {
           "type": "source",
           "book": "Harrison's 22e",
           "pages": "Ch.264 p.2020-2025（Fig. 264-6、264-7）"
@@ -479,7 +484,7 @@
             ],
             [
               "病因",
-              "冠心病最多（FC 50%）、高血壓｜高輸出：甲亢、AV 廔管、貧血、肝硬化、腳氣病｜壓力 → 向心、容積 → 離心｜交感、RAAS、ADH（低血鈉）"
+              "冠心病最多（FC 50%）、高血壓｜高輸出：甲亢、AV 廔管、貧血、肝硬化、腳氣病｜壓力 → 向心、容積 → 離心｜交感、RAAS、ADH（低血鈉）｜口訣 MY HEART FAILS"
             ],
             [
               "症狀",

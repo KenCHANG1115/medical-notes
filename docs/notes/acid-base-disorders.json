@@ -622,6 +622,11 @@
           "text": "**必背**\n- 四大類：**乳酸、酮酸**（DKA、酒精性、飢餓）、**有毒醇類**（甲醇、乙二醇）、**水楊酸**；加上**晚期腎衰竭**\n- **腹瀉不是高 AG**（是正常 AG）\n- 可代謝的酸根（酮酸、乳酸）矯正原因後會還原成 HCO₃⁻ → 一般不需補鹼；乳酸中毒只有 **pH < 7.0** 才考慮\n- DKA：insulin 輸注直到 **AG 恢復正常**；過度輸生理食鹽水 → 高氯性酸中毒\n- 甲醇、乙二醇：高 AG + 高 osmolal gap → **fomepizole**、透析\n- 水楊酸：成人典型是**呼吸性鹼中毒 + 高 AG 代謝性酸中毒**"
         },
         {
+          "type": "callout",
+          "style": "trap",
+          "text": "**口訣（常用，非 Harrison 內容）**\n- 傳統 **MUDPILES**：Methanol、Uremia、DKA、Propylene glycol/Paraldehyde、Isoniazid/Iron、Lactic acidosis、Ethylene glycol、Salicylates\n- 較新的 **GOLDMARK**：Glycols（乙二醇、丙二醇）、Oxoproline（pyroglutamic acid）、L-lactate、D-lactate、Methanol、Aspirin、Renal failure、Ketoacidosis"
+        },
+        {
           "type": "table",
           "headers": [
             "四大類（Table 58-4）",
@@ -1072,6 +1077,11 @@
               "**糖尿病腎病變**、尿路阻塞、慢性間質腎病\n**ACEi/ARB、NSAIDs、TMP**"
             ]
           ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**RTA 記憶口訣**（First Choice）：「一遠二近、一石二軟、一尿不酸、四鉀朝天」\n- 一遠二近：Type 1 = distal，Type 2 = proximal\n- 一石二軟：Type 1 → 腎結石，Type 2 → 骨軟化（佝僂病）\n- 一尿不酸：Type 1 尿 pH > 5.5\n- 四鉀朝天：Type 4 = 高血鉀"
         },
         {
           "type": "heading",
@@ -1801,6 +1811,14 @@
             [
               "孕婦 ABG",
               "Progesterone → 慢性呼吸性鹼中毒（PaCO₂ 降 5–10）"
+            ],
+            [
+              "RTA 口訣（FC）",
+              "一遠二近、一石二軟、一尿不酸、四鉀朝天"
+            ],
+            [
+              "高 AG 口訣",
+              "MUDPILES；GOLDMARK"
             ]
           ]
         }

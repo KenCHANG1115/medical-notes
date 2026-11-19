@@ -814,6 +814,11 @@
           ]
         },
         {
+          "type": "callout",
+          "style": "trap",
+          "text": "**口訣 VITAMINS TRAP**（Harrison 22e 版本，高血鈣的原因）：**V**itamin D/A 中毒；**I**mmobilization；**T**hyrotoxicosis、**T**hiazides、24-hydroxylase 缺乏；**A**ddison's、**A**cromegaly；**M**ilk-alkali；**I**nflammation（慢性）；**N**eoplasia（含 myeloma）；**S**arcoidosis；**T**B 等肉芽腫；**R**habdomyolysis 恢復期、denosumab 停藥反彈；**A**IDS；**P**TH、**P**aget's、**P**arenteral、**P**heochromocytoma、**P**regnancy PTHrP、**P**seudohypercalcemia"
+        },
+        {
           "type": "source",
           "book": "First Choice 醫學(三) 第3冊",
           "pages": "乙、離子平衡 E. 鈣的平衡 講義 p.61–65"
