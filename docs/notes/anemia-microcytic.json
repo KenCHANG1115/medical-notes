@@ -390,5 +390,5 @@
       ]
     }
   ],
-  "related": [{"id": "anemia-overview", "name": "Anemia (一)：總論與小球性貧血"}, {"id": "anemia-megaloblastic", "name": "Anemia (三)：大球性貧血與巨芽細胞貧血"}, {"id": "anemia-hemolytic", "name": "Anemia (四)：溶血性貧血"}, {"id": "anemia-marrow-failure", "name": "Anemia (五)：急性失血與骨髓衰竭"}]
+  "related": [{"id": "anemia-overview", "name": "Anemia (一)：總論與小球性貧血"}, {"id": "anemia-megaloblastic", "name": "Anemia (二)：大球性貧血與巨芽細胞貧血"}, {"id": "anemia-hemolytic", "name": "Anemia (四)：溶血性貧血"}, {"id": "anemia-marrow-failure", "name": "Anemia (五)：急性失血與骨髓衰竭"}]
 }
