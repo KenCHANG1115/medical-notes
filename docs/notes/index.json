@@ -285,8 +285,11 @@
       "name": "血液腫瘤科",
       "diseases": [
         {
+          "heading": "貧血"
+        },
+        {
           "id": "anemia-overview",
-          "name": "Anemia (一)：總論與診斷架構"
+          "name": "Anemia (一)：總論與小球性貧血"
         },
         {
           "id": "anemia-microcytic",
