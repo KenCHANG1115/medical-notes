@@ -113,6 +113,13 @@
         {
           "id": "chest-copd-bronchiectasis",
           "name": "Chest (五)：COPD 與支氣管擴張——慢性咳痰與固定的氣流受阻"
+        },
+        {
+          "heading": "肺實質與肋膜"
+        },
+        {
+          "id": "chest-ild-occupational",
+          "name": "Chest (六)：間質性肺病與職業肺病——IPF、過敏性肺炎、塵肺症、石綿與類肉瘤"
         }
       ]
     },
