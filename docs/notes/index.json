@@ -154,6 +154,13 @@
         {
           "id": "chest-lung-cancer-tx",
           "name": "Chest (十二)：胸腔腫瘤（二）——肺癌分期與治療：手術、標靶、免疫與小細胞癌"
+        },
+        {
+          "heading": "重症"
+        },
+        {
+          "id": "critical-shock-sepsis-ards",
+          "name": "Critical Care (一)：休克、敗血症與 ARDS——血行動力學分類、敗血症處置、肺保護通氣與脫離呼吸器"
         }
       ]
     },
@@ -496,6 +503,10 @@
         {
           "id": "oncall-potassium-disorders",
           "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+        },
+        {
+          "id": "critical-shock-sepsis-ards",
+          "name": "Critical Care (一)：休克、敗血症與 ARDS——血行動力學分類、敗血症處置、肺保護通氣與脫離呼吸器"
         }
       ]
     }
