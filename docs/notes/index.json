@@ -124,6 +124,10 @@
         {
           "id": "chest-pleural",
           "name": "Chest (七)：肋膜疾病——肋膜積水（Light's criteria）、膿胸、結核性積水與氣胸"
+        },
+        {
+          "id": "thrombosis-vte",
+          "name": "Thrombosis (血栓：易栓症、靜脈血栓與抗凝治療)"
         }
       ]
     },
