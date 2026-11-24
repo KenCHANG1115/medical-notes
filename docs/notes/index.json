@@ -346,6 +346,10 @@
         {
           "id": "onc-cancer-treatment",
           "name": "Oncology (二)：治療癌症——治療目的、化學治療、標靶與免疫治療"
+        },
+        {
+          "id": "onc-supportive-emergencies",
+          "name": "Oncology (三)：照顧癌症病人——嗜中性球低下發燒、腫瘤急症與症狀控制"
         }
       ]
     },
