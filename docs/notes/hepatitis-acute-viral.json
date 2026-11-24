@@ -1026,9 +1026,9 @@
           ]
         },
         {
-          "type": "collapsible",
-          "summary": "延伸：為什麼母親 HBeAg 很重要（Harrison）",
-          "text": "**為什麼母親 HBeAg 很重要**（Harrison）：**HBeAg 陽性母親 > 90% 傳給新生兒**，**anti-HBe 陽性母親只有 10–15%**。約 10% 在子宮內感染，**多數在生產時**；**和哺乳無關 → B 肝母親可以哺乳**。新生兒感染多無症狀，但**很可能變成慢性**。"
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼母親 HBeAg 很重要（Harrison）？**\n**為什麼母親 HBeAg 很重要**（Harrison）：**HBeAg 陽性母親 > 90% 傳給新生兒**，**anti-HBe 陽性母親只有 10–15%**。約 10% 在子宮內感染，**多數在生產時**；**和哺乳無關 → B 肝母親可以哺乳**。新生兒感染多無症狀，但**很可能變成慢性**。"
         },
         {
           "type": "collapsible",

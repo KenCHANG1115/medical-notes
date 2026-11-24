@@ -726,9 +726,9 @@
           ]
         },
         {
-          "type": "collapsible",
-          "summary": "延伸：考點細節：為什麼要給類固醇（Harrison）",
-          "text": "**為什麼要給類固醇**（Harrison）：嚴重甲狀腺低下時**腎上腺儲備不足** → 一律給**靜脈 hydrocortisone**。\n**First Choice 110 年考題**：體溫偏低的危險因子包括**甲狀腺低下**、休克、營養不良；「30–50 歲成人」**不是**危險因子。"
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要給類固醇（Harrison）？**\n**為什麼要給類固醇**（Harrison）：嚴重甲狀腺低下時**腎上腺儲備不足** → 一律給**靜脈 hydrocortisone**。\n**First Choice 110 年考題**：體溫偏低的危險因子包括**甲狀腺低下**、休克、營養不良；「30–50 歲成人」**不是**危險因子。"
         },
         {
           "type": "source",
