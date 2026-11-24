@@ -102,6 +102,13 @@
         {
           "id": "chest-hypoxemia-respiratory-failure",
           "name": "Chest (三)：低血氧與呼吸衰竭——A-a gradient、氧氣治療、NIV、睡眠呼吸中止與高山症"
+        },
+        {
+          "heading": "呼吸道疾病"
+        },
+        {
+          "id": "chest-asthma",
+          "name": "Chest (四)：氣喘——可變的氣流受阻、控制評估與 GINA 階梯治療"
         }
       ]
     },
