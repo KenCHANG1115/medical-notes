@@ -4,201 +4,620 @@
   "title_en": "On Call: Potassium Disorders",
   "title_zh": "值班鉀離子異常處置",
   "specialty": "值班守則",
-  "sources": [
-    "Harrison's 22e - Ch.56 Fluid and Electrolyte Disturbances (p.387-404)",
-    "On Call Principles and Protocols Survival Guide Ver2 - Chap 34",
-    "First Choice 醫學(三) - 離子平衡"
-  ],
   "generated": "2026-09-16",
-  "sections": [
+  "updated": "2026-11-25",
+  "sources": [
+    "Harrison's 22e - Ch.56 Fluid and Electrolyte Disturbances（鉀：p.353–361；劑量依 Treatment 段落）",
+    "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）- Chap 34 Hyperkalemia／Hypokalemia（p.6–9；台灣常用品項與配法）",
+    "劑型換算為依藥品濃度計算；各院品項、預混規格與給藥規範以院內 formulary／protocol 為準"
+  ],
+  "related": [
     {
-      "title": "Overview / 鉀離子基礎",
-      "content": [
-        {"type": "table", "headers": ["項目", "數值"], "rows": [
-          ["正常血清 K⁺", "3.5 - 5.0 mEq/L"],
-          ["體內分布", "98% 在細胞內 (ICF)、僅 2% 在細胞外 (ECF)"],
-          ["每日攝取", "約 40-120 mEq/day"],
-          ["排泄", "腎臟 90%、腸道 10%"],
-          ["調控", "Na⁺-K⁺ ATPase 維持細胞內外梯度；Aldosterone 調控腎排泄"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**值班危險值 — 立刻處理！**\n- **Hyperkalemia：K⁺ > 6.0 mEq/L** 或任何 K⁺ > 5.5 + EKG 變化\n- **Hypokalemia：K⁺ < 3.0 mEq/L** 或任何 K⁺ < 3.5 + EKG 變化/症狀\n- 不論數值高低，有 **EKG 變化** 或 **症狀** 就要立刻處理"},
-        {"type": "callout", "style": "logic", "text": "**為什麼鉀離子這麼重要？**\n- K⁺ 決定細胞膜的 resting membrane potential\n- 太高 → 膜去極化 → 心肌過度興奮 → **VT/VF → cardiac arrest**\n- 太低 → 膜過度極化 → 心肌傳導延遲 → **Torsades de Pointes → cardiac arrest**\n- 兩端都會死人！"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "393-398"}
-      ]
+      "id": "electrolytes-k-ca",
+      "name": "Electrolyte Disorders (二)：鉀、鈣、鎂、磷"
     },
     {
-      "title": "值班接到 K⁺ 異常的 SOP",
-      "content": [
-        {"type": "callout", "style": "guideline", "text": "**不論高鉀或低鉀，第一步都一樣**：\n1. **Run EKG !!!** — 就算病人看起來沒事也要做\n2. **Check vital signs**\n3. **確認是否真的異常** — 排除 pseudohyperkalemia（溶血檢體）\n4. **Review 用藥清單** — 停用可能的原因藥物\n5. **Check recent labs** — BUN/Cr、glucose、Mg²⁺、ABG"},
-        {"type": "heading", "text": "高血鉀值班決策流程"},
-        {"type": "list", "ordered": true, "items": [
-          "K⁺ > 5.5 → **立刻 run EKG**",
-          "EKG 有變化（peaked T, wide QRS, sine wave）→ **立刻 Calcium gluconate**",
-          "同時開始 **Shift therapy**（Insulin + D50W, NaHCO₃）",
-          "安排 **Excretion therapy**（Kayexalate, Lasix, 或 dialysis）",
-          "找並矯正根本原因",
-          "如果 K⁺ 6.5-8 但 EKG 只有 peaked T 或無變化 → 可先矯正原因 + shift therapy + 持續 EKG monitor"
-        ]},
-        {"type": "heading", "text": "低血鉀值班決策流程"},
-        {"type": "list", "ordered": true, "items": [
-          "K⁺ < 3.5 → **Run EKG**",
-          "EKG 有變化（U wave, ST depression, prolonged QT）或有症狀 → **IV KCl 補鉀**",
-          "無症狀且 K⁺ > 3.0 → 可口服補鉀",
-          "同時 **check Mg²⁺** — 低鎂會造成 refractory hypokalemia",
-          "抽 **尿鉀 (UK)** 判斷流失途徑（腎 vs 腸道）",
-          "找並矯正根本原因（利尿劑？腹瀉？）"
-        ]},
-        {"type": "source", "book": "On Call Survival Guide", "pages": "6-9"}
-      ]
+      "id": "electrolyte-disorders",
+      "name": "Electrolyte Disorders (一)：鈉與水"
     },
     {
-      "title": "Hyperkalemia 病因",
-      "content": [
-        {"type": "heading", "text": "MACHINE 口訣"},
-        {"type": "table", "headers": ["字母", "病因", "臨床說明"], "rows": [
-          ["M", "**Medications**", "ACE inhibitors、ARBs、NSAIDS、Spironolactone、Trimethoprim、Heparin、Tacrolimus"],
-          ["A", "**Acidosis**", "Metabolic acidosis (non-AG 型最明顯)：H⁺ 入細胞、K⁺ 出細胞\npH 每降 0.1 → K⁺ 上升約 0.2-0.7 mEq/L"],
-          ["C", "**Cellular destruction**", "Burns、crush injury、rhabdomyolysis、tumor lysis syndrome、massive hemolysis"],
-          ["H", "**Hypoaldosteronism / Hemolysis**", "Addison's disease、Type 4 RTA (hyporeninemic hypoaldosteronism in DM)\nHemolysis：也包括 pseudohyperkalemia（抽血溶血）"],
-          ["I", "**Intake excessive**", "KCl supplement 過量、大量輸血（stored blood K⁺ 會升高）、含鉀食物大量攝取"],
-          ["N", "**Nephrons / Renal failure**", "CKD Stage 4-5、ESRD — 腎臟無法排除鉀\nAKI — oliguric phase"],
-          ["E", "**Excretion impaired**", "上述腎因以外：obstructive uropathy、腎移植排斥"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**Pseudohyperkalemia — 先排除假性高血鉀！**\n- 檢體溶血（最常見）\n- 抽血時握拳太用力 + tourniquet 綁太久\n- 血小板 > 500K 或 WBC > 70K\n- **處理**：重新抽血，避免溶血，必要時抽 plasma K⁺（不用 serum）"},
-        {"type": "heading", "text": "Transcellular Shift（K⁺ 從細胞內移到細胞外）"},
-        {"type": "table", "headers": ["原因", "機轉"], "rows": [
-          ["Metabolic acidosis (non-AG)", "H⁺-K⁺ exchange — 最經典的 shift"],
-          ["β-blockers", "抑制 Na⁺-K⁺ ATPase → K⁺ 無法回到細胞內"],
-          ["Digoxin toxicity", "抑制 Na⁺-K⁺ ATPase"],
-          ["Succinylcholine", "去極化 → K⁺ leak；burns/denervation 患者風險更高"],
-          ["Hyperosmolality", "Solvent drag — 水帶 K⁺ 一起出來"],
-          ["Insulin deficiency", "缺乏 insulin 驅動的 K⁺ uptake"]
-        ]},
-        {"type": "source", "book": "On Call Survival Guide + Harrison's 22e", "pages": "6, 393-395"}
-      ]
+      "id": "acid-base-disorders",
+      "name": "Acid-Base Disorders (酸鹼平衡異常)"
     },
     {
-      "title": "Hyperkalemia EKG 變化",
-      "content": [
-        "EKG 變化的嚴重度與 K⁺ 濃度大致相關，但**不一定按順序出現**，個體差異大。",
-        {"type": "table", "headers": ["K⁺ 濃度", "EKG 變化", "臨床意義"], "rows": [
-          ["5.5 - 6.5", "**Peaked (tall, narrow) T waves** — 最早出現", "注意！可能是唯一的早期 sign"],
-          ["6.5 - 7.5", "**PR interval prolongation**\n**P wave flattening/loss**", "心房傳導開始受影響"],
-          ["7.0 - 8.0", "**QRS widening**", "心室傳導受影響 → 危險！"],
-          ["8.0 - 9.0", "**Sine wave pattern** (QRS 融合 T wave)", "Pre-arrest rhythm → 極度危險"],
-          ["> 9.0", "**VF → Asystole**", "Cardiac arrest"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**EKG 的陷阱**：\n- Peaked T wave 不一定 = hyperkalemia（也見於 acute MI、hyperacute T）\n- K⁺ 5.8 也可能已經出現 wide QRS — **不要只看數值，要看 EKG！**\n- 慢性高血鉀的病人可能 K⁺ 7.0 但 EKG 相對正常（adaptation）\n- **就算 EKG 正常，K⁺ > 6.0 仍需處理**"},
-        {"type": "callout", "style": "guideline", "text": "**值班 EKG 快速判讀口訣**：\n- T wave peaked → 準備 shift\n- P wave gone → 準備 Calcium\n- QRS wide → **立刻 Calcium + 全套處理**\n- Sine wave → **Code 即將來 → Calcium + 準備 ACLS**"},
-        {"type": "source", "book": "On Call Survival Guide + Harrison's 22e", "pages": "6, 395-396"}
-      ]
+      "id": "confusion-decreased-consciousness",
+      "name": "Confusion / Decreased Level of Consciousness (意識不清)"
     },
     {
-      "title": "Hyperkalemia 處置",
-      "content": [
-        {"type": "callout", "style": "guideline", "text": "**處置三步驟** — 按順序執行：\n1. **Stabilize** — Calcium 穩定心肌細胞膜\n2. **Shift** — 把 K⁺ 推回細胞內（暫時性）\n3. **Eliminate** — 真正把 K⁺ 排出體外"},
-        {"type": "heading", "text": "Step 1：穩定細胞膜 (Membrane Stabilization)"},
-        {"type": "table", "headers": ["藥物", "劑量", "Onset", "Duration", "注意事項"], "rows": [
-          ["**Calcium gluconate 10%**", "10 mL (= 1 amp) IV over 2-3 min", "1-3 min", "30-60 min", "首選！EKG 有變化時第一個給\n可重複 1-2 次 if EKG 未改善"],
-          ["Calcium chloride 10%", "5-10 mL IV over 2-3 min", "1-3 min", "30-60 min", "效力比 gluconate 強 3 倍\n但刺激血管 → 需 central line"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**Calcium 不會降低 K⁺ 數值！**\n它只是穩定心肌細胞膜電位，防止 arrhythmia。效果短暫（30-60 min），所以必須同時啟動 shift 和 elimination。\n\n**Digoxin 病人慎用 Calcium** — 可能加重 digitalis toxicity（但如果有 life-threatening arrhythmia 還是要給）"},
-        {"type": "heading", "text": "Step 2：Shift（暫時性降鉀）"},
-        {"type": "table", "headers": ["藥物", "劑量", "Onset", "Duration", "注意事項"], "rows": [
-          ["**Regular Insulin + D50W**", "Insulin 10 units IV\n+ D50W 50 mL (= 25g glucose) IV", "15-30 min", "4-6 hr", "最有效的 shift therapy\n**一定要給 D50W 避免低血糖！**\n1-2 小時後 recheck glucose"],
-          ["**NaHCO₃**", "50 mEq (= 1 amp) IV over 5 min", "15-30 min", "1-2 hr", "有 metabolic acidosis 時效果最好\n單獨使用效果有限"],
-          ["**Albuterol (nebulizer)**", "10-20 mg nebulized over 10 min", "15-30 min", "2-4 hr", "劑量是氣喘的 4-8 倍！\n可與 Insulin 合用（加成效果）\n心臟病人注意 tachycardia"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**給完 Insulin 一定要補 D50W！**\nInsulin 把 K⁺ 推入細胞的同時也把 glucose 推入 → **低血糖風險**\n→ 1-2 小時後 recheck glucose\n→ 有些醫院會 order D10W 持續滴注 4-6 小時"},
-        {"type": "heading", "text": "Step 3：排除 (Elimination)"},
-        {"type": "table", "headers": ["方法", "劑量 / 方式", "Onset", "注意事項"], "rows": [
-          ["**Kayexalate (SPS)**\n(Sodium polystyrene sulfonate)", "15-30g PO in sorbitol\n或 30-50g rectal enema", "1-2 hr (PO)\n30-60 min (PR)", "如果病人不好餵食可用 enema\n效果慢但可真正排出 K⁺\n注意腸壞死風險（rare but serious）"],
-          ["**Furosemide (Lasix)**", "40-80 mg IV", "15-30 min", "需有足夠腎功能才有效\n同時排 K⁺ + 增加尿量"],
-          ["**Hemodialysis**", "緊急透析", "Immediate", "最有效且最確定的排除方式\n適用於：refractory hyperkalemia、ESRD、severe K⁺ > 7 + EKG changes"],
-          ["**Patiromer / SZC**\n(新型 K⁺ binder)", "Patiromer 8.4g PO daily\nSZC 10g PO TID", "1-6 hr", "較新的 K⁺ binder，腸壞死風險低\n適合慢性 hyperkalemia 管理"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "**值班處方速記 (K⁺ > 6.0 + EKG changes)**：\n1. **Calcium gluconate 10% 1 amp IV push** (over 2-3 min)\n2. **RI 10U IV + D50W 50 mL IV push**\n3. **NaHCO₃ 1 amp IV** (if acidotic)\n4. **Albuterol 10-20 mg nebulizer** (optional, 加成效果)\n5. **Kayexalate 30g PO** 或 **Lasix 40 mg IV**\n6. 嚴重或腎衰 → **call nephrology for dialysis**\n7. **Continuous EKG monitor + recheck K⁺ in 1-2 hr**"},
-        {"type": "source", "book": "On Call Survival Guide + Harrison's 22e", "pages": "6-7, 395-398"}
-      ]
+      "id": "dm-complications",
+      "name": "Diabetes (三)：急慢性併發症與低血糖"
     },
     {
-      "title": "Hypokalemia 病因",
-      "content": [
-        {"type": "heading", "text": "三大機轉分類"},
-        {"type": "table", "headers": ["機轉", "常見原因", "診斷線索"], "rows": [
-          ["**Transcellular Shift**\n(K⁺ 移入細胞內)", "Alkalosis (H-K exchange)\nInsulin\nβ₂-agonists (albuterol)\nHypokalemic periodic paralysis\nRefeeding syndrome", "暫時性低鉀\nTotal body K⁺ 正常\n小心 rebound hyperkalemia"],
-          ["**腸道流失**", "Diarrhea (全球最常見原因)\nVomiting (嘔吐導致 alkalosis → 腎排鉀)\nLaxative abuse\nGastric outlet obstruction", "**Urine K⁺ < 15 mmol/day**\nTTKG < 3\n(腎臟在保鉀)"],
-          ["**腎臟流失**", "利尿劑 (thiazide, loop)\nMineralocorticoid excess\nBartter's / Gitelman's syndrome\nRTA type 1 & 2\nMagnesium depletion\nAmphotericin B", "**Urine K⁺ > 15 mmol/day**\nTTKG > 7\n(腎臟在排鉀)"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "**腎臟流失 + 高血壓的鑑別**：\n- Primary hyperaldosteronism (Conn's syndrome)：Aldosterone ↑、Renin ↓\n- Renovascular HTN：Renin ↑、Aldosterone ↑\n- Cushing's syndrome：Cortisol excess → mineralocorticoid effect\n- Liddle's syndrome：ENaC gain-of-function → aldosterone 正常\n\n**腎臟流失 + 正常血壓 + metabolic alkalosis**：\n- 利尿劑、嘔吐、Bartter's、Gitelman's"},
-        {"type": "heading", "text": "Oncall Guide 的藥物清單"},
-        {"type": "list", "ordered": false, "items": [
-          "**Thiazide and loop diuretics** — 最常見的藥物原因",
-          "Aminoglycosides",
-          "β₂-agonists (albuterol)",
-          "Adrenal steroids",
-          "Chronic laxative abuse",
-          "Amphotericin B"
-        ]},
-        {"type": "callout", "style": "trap", "text": "**嘔吐導致低血鉀的真正機轉**：\n不是因為 K⁺ 從嘔吐物流失（胃液 K⁺ 含量低）！\n真正原因：嘔吐 → volume depletion + metabolic alkalosis → secondary hyperaldosteronism → **腎臟排鉀增加**\n所以嘔吐的病人 urine K⁺ 會 > 15"},
-        {"type": "source", "book": "On Call Survival Guide + Harrison's 22e", "pages": "8-9, 393-395"}
-      ]
+      "id": "onc-supportive-emergencies",
+      "name": "Oncology (三)：照顧癌症病人——嗜中性球低下發燒、腫瘤急症與症狀控制"
     },
     {
-      "title": "Hypokalemia EKG 變化",
-      "content": [
-        {"type": "table", "headers": ["K⁺ 濃度", "EKG 變化", "臨床意義"], "rows": [
-          ["3.0 - 3.5", "**T wave flattening** — 最早出現", "可能還沒有症狀但要注意"],
-          ["2.5 - 3.0", "**U wave** 出現（T wave 後的小波）\n**ST segment depression**", "U wave 是 hypokalemia 的特徵性表現"],
-          ["< 2.5", "**QT/QU prolongation**\n**T-U fusion**", "高風險 Torsades de Pointes！"],
-          ["Severe", "**Torsades de Pointes → VF**\nPremature atrial/ventricular contractions", "Cardiac arrest risk"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**Digoxin + Hypokalemia = 致命組合！**\n- 低血鉀會**增加 digoxin 與 Na⁺-K⁺ ATPase 的結合**\n- 即使 digoxin level 在正常範圍，低鉀時也可能出現 **digoxin toxicity**\n- 表現：new arrhythmia（bidirectional VT、PAT with block）\n- 處置：停 digoxin、補鉀、嚴重時 Digibind (anti-dig Fab)"},
-        {"type": "callout", "style": "logic", "text": "**EKG 比較記憶法**：\n- **Hyper**kalemia → T wave **peaked** (太興奮)\n- **Hypo**kalemia → T wave **flat** + U wave 出現 (太疲倦)\n- 兩者都可以導致致命性心律不整"},
-        {"type": "source", "book": "On Call Survival Guide + Harrison's 22e", "pages": "8, 393-394"}
-      ]
-    },
-    {
-      "title": "Hypokalemia 處置",
-      "content": [
-        {"type": "heading", "text": "補鉀原則"},
-        {"type": "callout", "style": "guideline", "text": "**經驗法則**：\nK⁺ 每下降 1 mEq/L → 代表體內缺乏 **200-400 mEq** 的鉀\n\n**補鉀速度**：\n- Peripheral IV：**10 mEq/hr** (max)，速度太快會痛且刺激血管\n- Central line：**20 mEq/hr** (max)，需 EKG monitor\n- 每給 **20 mEq** 就 recheck serum K⁺"},
-        {"type": "heading", "text": "IV 補鉀方案"},
-        {"type": "table", "headers": ["情境", "配方", "速度", "監測"], "rows": [
-          ["一般補鉀", "KCl 10 mEq in 100 mL NS", "IV over 1 hr", "可重複 1-2 次\nRecheck K⁺ after 20 mEq"],
-          ["常規維持", "KCl 40 mEq in 1000 mL NS", "依點滴流速", "約 6 小時 follow 一次"],
-          ["緊急補鉀\n(K⁺ < 2.5 + EKG changes)", "KCl 20 mEq in 100 mL NS", "IV over 1 hr (central line preferred)", "Continuous EKG monitor\nRecheck K⁺ q1-2h"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**KCl 只能 IVD（滴注），絕對不能 IVP（推注）！**\nIV push KCl 會導致瞬間心臟停止 → 這是經典的 medication error\n\n**1 支 KCl = 配 500 mL 以上的點滴**\n太濃會造成血管疼痛和 phlebitis"},
-        {"type": "heading", "text": "口服補鉀"},
-        {"type": "table", "headers": ["藥物", "劑量", "備註"], "rows": [
-          ["KCl (slow-K, 鉀片)", "20-40 mEq PO BID-TID", "最常用；GI upset 是主要副作用"],
-          ["Potassium citrate", "20-40 mEq PO BID", "同時矯正 metabolic acidosis (RTA)"],
-          ["飲食補充", "香蕉、柳橙汁、馬鈴薯", "輕度低鉀且可進食時"]
-        ]},
-        {"type": "heading", "text": "補鎂的重要性"},
-        {"type": "callout", "style": "trap", "text": "**Hypokalemia + Hypomagnesemia 經常並存！**\n- 低鎂會導致 **ROMK channel 活化 → 腎臟持續排鉀**\n- 如果不補鎂，K⁺ 怎麼補都補不上去 (**refractory hypokalemia**)\n- **處置**：MgO 400-800 mg PO daily 或 MgSO₄ 1-2g IV\n- **一定要同時 check Mg²⁺！**"},
-        {"type": "source", "book": "On Call Survival Guide + Harrison's 22e", "pages": "9, 393-395"}
-      ]
-    },
-    {
-      "title": "Special Situations",
-      "content": [
-        {"type": "collapsible", "summary": "DKA 與鉀離子管理", "text": "**DKA 的鉀離子陷阱**：\n- DKA 入院時 K⁺ 可能正常甚至偏高（acidosis + insulin deficiency → K⁺ shift 到細胞外）\n- 但 **total body K⁺ 嚴重缺乏**（osmotic diuresis 排掉大量 K⁺）\n- 一旦開始 **insulin** 治療 → K⁺ 急速 shift 回細胞內 → **嚴重低血鉀**\n\n**DKA 補鉀原則**：\n- K⁺ > 5.0：暫不補鉀，開始 insulin\n- K⁺ 3.5-5.0：每公升點滴加 20-40 mEq KCl，同時給 insulin\n- **K⁺ < 3.5：先補鉀再給 insulin！** insulin 會讓 K⁺ 更低 → 致命\n\n記住：DKA 病人 **看起來 K⁺ 正常不代表真的正常**"},
-        {"type": "collapsible", "summary": "透析病人的 Hyperkalemia", "text": "**ESRD 病人高血鉀的特殊考量**：\n- 慢性適應 → 可能 K⁺ 6.5 都沒有 EKG 變化\n- 但不代表安全 → 仍需處理\n- 不能靠利尿劑（無尿）\n- Shift therapy 只是暫時的\n\n**處置**：\n- 如果有 EKG changes → **Calcium gluconate + Insulin/D50W** → 爭取時間\n- **最終治療 = emergent hemodialysis**\n- 聯絡腎臟科 on call → 安排緊急透析\n- 長期管理：低鉀飲食、Kayexalate PRN、調整透析處方"},
-        {"type": "collapsible", "summary": "Digoxin Toxicity 與鉀離子", "text": "**Digoxin 與 K⁺ 的交互作用**：\n- Digoxin 抑制 Na⁺-K⁺ ATPase → 可能造成 hyperkalemia\n- 但 hypokalemia 也增加 digoxin binding → 即使 level 正常也可能中毒\n\n**Digoxin toxicity 的表現**：\n- GI：nausea、vomiting、anorexia\n- CNS：visual changes (yellow-green halos)、confusion\n- Cardiac：bidirectional VT、PAT with block、accelerated junctional rhythm\n\n**處置**：\n- 停 digoxin\n- 矯正 K⁺（目標 4.0-5.0）\n- Severe toxicity → **Digibind (Digoxin-specific Fab)** 5-10 vials IV\n- **注意**：Digoxin toxicity + hyperkalemia → Calcium 有爭議（可能加重 calcium-digoxin synergy），但 life-threatening arrhythmia 仍需給"},
-        {"type": "collapsible", "summary": "Tumor Lysis Syndrome (TLS)", "text": "**TLS = Hyperkalemia + Hyperphosphatemia + Hyperuricemia + Hypocalcemia**\n\n**高風險**：high tumor burden（ALL、Burkitt lymphoma）開始 chemotherapy 後\n\n**K⁺ 管理**：\n- 密切監測 K⁺（q4-6h）\n- 積極 IV hydration (200-250 mL/hr)\n- Rasburicase（降 uric acid）\n- 如果 K⁺ 上升 → standard hyperkalemia protocol\n- 可能需要 emergent dialysis\n\n**預防 > 治療**：高風險病人 chemo 前先開始 hydration + allopurinol/rasburicase"}
-      ]
-    },
-    {
-      "title": "Clinical Practice / 值班案例",
-      "content": [
-        {"type": "collapsible", "summary": "Case 1：75 歲男性，CKD stage 4，routine lab K⁺ = 6.8，無症狀", "text": "**Step 1：先確認！**\n- 排除 pseudohyperkalemia → 確認檢體沒有溶血\n- 如果確認 → 立刻 **run EKG**\n\n**Step 2：EKG 判讀**\n- 如果 peaked T waves → 開始處理\n- 如果 wide QRS → **立刻 Calcium gluconate**\n\n**Step 3：Review 用藥**\n- CKD 病人常用 ACEI/ARB → 考慮暫停\n- 有沒有吃 NSAID？Spironolactone？TMP-SMX？\n\n**處置**：\n1. Calcium gluconate 10% 1 amp IV (if EKG changes)\n2. RI 10U IV + D50W 50 mL IV\n3. NaHCO₃ 1 amp IV (CKD 常有 metabolic acidosis)\n4. Kayexalate 30g PO\n5. Consider nephrology consult for dialysis\n6. Recheck K⁺ in 1-2 hr + continuous EKG monitor"},
-        {"type": "collapsible", "summary": "Case 2：62 歲女性，使用 thiazide，routine K⁺ = 2.9，感覺腳軟無力", "text": "**分析**：\n- Thiazide + K⁺ 2.9 + weakness → **Hypokalemia from thiazide diuretic**\n- K⁺ < 3.0 + 有症狀 → 需要 IV 補鉀\n\n**Step 1：Run EKG**\n- 預期可能看到：T wave flattening、U wave、ST depression\n- 注意有沒有 QT prolongation\n\n**Step 2：Check Mg²⁺**\n- Thiazide 也會排 Mg²⁺ → 可能有 concurrent hypomagnesemia\n\n**處置**：\n1. KCl 10 mEq in 100 mL NS IV over 1 hr × 2-3 doses\n2. Recheck K⁺ after each 20 mEq\n3. 如果 Mg²⁺ 低 → MgSO₄ 1-2g IV\n4. 改為 KCl 20 mEq PO BID 維持\n5. 與主治討論：是否需要減量 thiazide 或加上 K⁺-sparing diuretic\n6. 如果有 digoxin on board → 特別注意 toxicity risk"},
-        {"type": "collapsible", "summary": "Case 3：45 歲男性 DKA，入院 K⁺ = 5.2，開始 insulin drip 2 小時後 K⁺ = 3.1", "text": "**分析**：\n- 典型的 **DKA K⁺ paradox**\n- 入院看似正常（因為 acidosis + insulin deficiency → K⁺ shift out）\n- Insulin 治療後 K⁺ 急速 shift 回細胞內 → severe hypokalemia\n\n**這就是為什麼 DKA protocol 要密切追蹤 K⁺！**\n\n**處置**：\n1. **立刻加速補鉀**：KCl 20-40 mEq/hr via central line (with EKG monitor)\n2. 如果 K⁺ < 3.5 且 insulin drip 仍在 → **考慮暫時降低 insulin rate**\n3. Recheck K⁺ q1h 直到穩定\n4. 同時補 Mg²⁺（DKA 常缺鎂）\n5. 不要因為入院 K⁺ 正常就忽略 → **total body K⁺ deficit 可達 300-600 mEq**"},
-        {"type": "collapsible", "summary": "Case 4：80 歲女性，Afib on digoxin，K⁺ = 3.0，new onset nausea + visual changes", "text": "**分析**：\n- Digoxin + hypokalemia + nausea + visual changes → 高度懷疑 **Digoxin toxicity**\n- 低血鉀增加 digoxin 與 Na⁺-K⁺ ATPase 結合 → 即使 dig level 正常也可能中毒\n\n**處置**：\n1. **停 digoxin** — 立刻\n2. **Run EKG** — 找 digoxin toxicity 的心律不整（bidirectional VT、PAT with block）\n3. **Check digoxin level、K⁺、Mg²⁺、BUN/Cr**\n4. **補鉀**：KCl 10 mEq in 100 mL NS IV over 1 hr（目標 K⁺ 4.0-5.0）\n5. **補鎂** if low\n6. Severe arrhythmia → **Digibind** (Digoxin-specific Fab fragments)\n7. **不要給 Calcium** unless life-threatening（Ca-digoxin synergy 爭議）\n8. Continuous EKG monitor、cardiology consult"}
-      ]
+      "id": "acute-kidney-injury",
+      "name": "Acute Kidney Injury (一)：診斷、分類與處置"
     }
   ],
-  "related": ["electrolyte-disorders", "acid-base-disorders", "confusion-decreased-consciousness"]
+  "sections": [
+    {
+      "title": "第一分鐘卡：接到「鉀不正常」的電話",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**不論高鉀或低鉀，先做這五件事**\n1. **STAT 12 導程心電圖**——就算病人看起來沒事也要做\n2. **生命徵象**、意識、肌力（無力或麻痺？）\n3. **確認是真的**：高鉀先想**溶血或抽血問題**（假性高血鉀）→ 不溶血重抽；但**心電圖已有變化就先治療、不要等重抽**\n4. **看用藥**：補鉀、ACEI／ARB、spironolactone、NSAID、TMP-SMX、heparin；低鉀看利尿劑、β2 致效劑、insulin\n5. **看最近的 lab**：BUN／Cr、血糖、Mg、HCO₃⁻／血氣、尿量"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**立刻到床邊 + 通知學長姐的紅旗**\n- 高鉀：**心電圖有變化**（QRS 變寬、P 波消失、sine wave、心搏過緩）、**K ≥ 6.5**、無力或麻痺、透析病人、正在惡化\n- 低鉀：**K < 2.5**、心律不整（PVC 增加、**QT 延長**、torsades）、**麻痺**或呼吸肌無力、正在用 **digoxin**、心臟病\n- **QRS 變寬或 sine wave = 即將心跳停止** → 準備急救車、考慮呼叫 RRT"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "基本值",
+            ""
+          ],
+          "rows": [
+            [
+              "正常血清 K⁺",
+              "3.5 - 5.0 mEq/L"
+            ],
+            [
+              "體內分布",
+              "98% 在細胞內 (ICF)、僅 2% 在細胞外 (ECF)"
+            ],
+            [
+              "所以",
+              "血中 K 只反映 2%：**移動（shift）**一點就會大幅改變血中濃度；真正缺多少看總量"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Fluid and Electrolyte Disturbances p.356–361"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Chap 34 p.6–9"
+        }
+      ]
+    },
+    {
+      "title": "電話中：要問什麼、可以先開什麼",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "問護理師",
+            "為什麼"
+          ],
+          "rows": [
+            [
+              "生命徵象、意識、有沒有胸悶心悸、無力",
+              "決定要不要立刻過去"
+            ],
+            [
+              "檢體有沒有**溶血**？怎麼抽的（握拳、止血帶太久、從點滴那隻手抽）",
+              "假性高血鉀／偽低鉀"
+            ],
+            [
+              "上一次 K 是多少、什麼時候",
+              "變化速度比數值更重要"
+            ],
+            [
+              "現在在打什麼點滴、有沒有補鉀、正在用哪些藥",
+              "立刻能停的原因"
+            ],
+            [
+              "尿量、是否洗腎、什麼時候洗",
+              "排鉀能力、能否靠透析"
+            ],
+            [
+              "有沒有 DKA 正在打 insulin、有沒有在用 digoxin",
+              "高風險情境"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**電話中可以先下的 order**\n- **STAT 12-lead EKG**；高鉀 ≥ 6.0 或低鉀 < 3.0 → **心電圖監視器（EKG monitor）**\n- **重抽 K（避免溶血）**＋ BUN／Cr、Na、Glucose、**Mg**、Ca、**VBG 或 ABG**（看酸鹼）\n- 高鉀：**先停**所有含鉀點滴、口服鉀、ACEI／ARB、MRA、NSAID（之後再和主治討論是否恢復）\n- 低鉀：停 insulin 點滴前先問清楚（DKA 不可隨便停，見特殊情境）；加驗 **spot urine K、Cr**\n- 告訴護理師：**心電圖一出來就傳給我**；有 QRS 變寬、心搏過緩、病人變差 → 立刻再打電話"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Chap 34 p.6–9"
+        }
+      ]
+    },
+    {
+      "title": "高血鉀：先看心電圖再決定急不急",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "情況",
+            "怎麼處理（Harrison）"
+          ],
+          "rows": [
+            [
+              "**心電圖有變化**（任何程度）",
+              "**醫療急症**：心電圖監視器、**鈣劑** + **insulin／葡萄糖**（± albuterol）+ 開始排鉀；準備透析"
+            ],
+            [
+              "**K ≥ 6.5**，心電圖正常",
+              "仍要**積極處理**（心電圖對心毒性預測不敏感，尤其 CKD／ESRD）：監視器、insulin／葡萄糖、排鉀、找原因"
+            ],
+            [
+              "K 5.5–6.4，心電圖正常、無症狀",
+              "停原因藥物、矯正原因（脫水、酸中毒）、**排鉀**（K binder、利尿劑），數小時內追蹤"
+            ],
+            [
+              "透析病人",
+              "最終治療是**透析**——穩住（鈣、insulin）後**立刻聯絡腎臟科**"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "K⁺（mM）",
+            "典型心電圖（Harrison；**不敏感、不一定照順序**）"
+          ],
+          "rows": [
+            [
+              "5.5–6.5",
+              "**T 波高尖**"
+            ],
+            [
+              "6.5–7.5",
+              "**P 波消失**"
+            ],
+            [
+              "7.0–8.0",
+              "**QRS 變寬**"
+            ],
+            [
+              "> 8.0",
+              "**sine wave** → VF／asystole"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**三步驟：穩住 → 推進去 → 排出去**\n1. **穩住心肌（鈣）**：不會降 K，只是把心肌細胞的閾值電位拉開、防止致命心律不整；1–3 分鐘起效、只撐 **30–60 分鐘**\n2. **推進細胞（insulin + 葡萄糖、albuterol）**：K 會降但**總量沒變**，4–6 小時後會回來\n3. **排出體外（K binder、利尿劑、透析）**：真正降低總量\n→ 所以鈣和 insulin 是「爭取時間」，**一定要同時安排第 3 步**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Fluid and Electrolyte Disturbances p.359–361"
+        }
+      ]
+    },
+    {
+      "title": "高血鉀 Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型欄為台灣常見品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**① 穩住**｜**Calcium gluconate 10% 10 mL IV over 2–3 min**；心電圖沒改善或再出現 → **重複**\n- 劑型：10% 10 mL／支 → **1 支**\n- 起效／持續：1–3 分鐘／30–60 分鐘\n- 注意：CaCl 只需 3–4 mL（刺激血管，宜中心靜脈）；**用 digoxin**：10 mL 加入 D5W 100 mL、**20–30 分鐘**滴注"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**② 推進**｜**Regular insulin 10 U IV** + 立刻 **D50W 50 mL（25 g）IV**；之後 **D10W 50–75 mL/h**\n- 劑型：D50W 依院內包裝換算支數\n- 起效／持續：10–20 分鐘、30–60 分鐘高峰／4–6 小時\n- 注意：**絕不可只給 D50W**（高張反而升 K）；**血糖 ≥ 200–250 → 只給 insulin 不給糖**；**每小時驗血糖**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**② 推進（加成）**｜**Albuterol 10–20 mg** 加 NS 4 mL **霧化 10 分鐘**\n- 劑型：依院內霧化液濃度換算\n- 起效／持續：30 分鐘、90 分鐘高峰／2–6 小時\n- 注意：劑量是氣喘的數倍；約 20% ESRD 無效 → **不可單用、要配 insulin**；心臟病人小心心搏過速"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**③ 排出**｜**Sodium zirconium cyclosilicate（SZC）** 或 **patiromer**（Harrison：優於 SPS）\n- 劑型：Lokelma（SZC）；依院內是否有品項\n- 起效／持續：數小時\n- 注意：patiromer 副作用**低血鎂**；劑量依仿單"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**③ 排出**｜**Polystyrene sulfonate 15–30 g PO**（可每 4–6 小時重複）；不能吃 → 灌腸\n- 劑型：Kalimate（**calcium** polystyrene sulfonate）、Kayexalate（**sodium** PS）（On Call 手冊）\n- 起效／持續：慢：完整效果可達 24 小時\n- 注意：**腸壞死**（術後、用鴉片、腸蠕動差者風險高）→ 有替代方案時避免"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**③ 排出**｜**Furosemide** IV（需有腎功能；必要時合併輸液維持等容）\n- 注意：無尿、ESRD 無效"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**③ 排出**｜**緊急血液透析**\n- 劑型：聯絡腎臟科\n- 起效／持續：最有效、最確定\n- 注意：AKI 需放臨時透析管路"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**碳酸氫鈉**｜**急性處置沒有角色**（Harrison）；**代謝性酸中毒**者可用**等張**滴注（如 150 mEq 加入 D5W 1 L）數小時\n- 起效／持續：4–6 小時後才慢慢降 K\n- 注意：**不要反覆推注高張原液安瓿**（高血鈉、高滲透壓）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**整組範例：K 7.0、QRS 變寬（可照抄後依院內修改）**\n1. EKG monitor、急救車推到床邊；通知學長姐\n2. **Calcium gluconate 10% 10 mL IV push over 3 min**（5 分鐘後心電圖沒改善 → 再一支）\n3. **RI 10 U IV ＋ D50W 50 mL IV**（血糖 ≥ 250 則不給糖）→ **D10W 50 mL/h** ；**one-touch q1h × 4–6 h**\n4. **Albuterol 10 mg 霧化**（非 ESRD、無嚴重心臟病）\n5. **排鉀**：SZC 或 polystyrene sulfonate；有尿 → furosemide IV\n6. 停所有含鉀輸液與升鉀藥；**腎臟科會診評估緊急透析**\n7. **1–2 小時後重驗 K**；之後每 2–4 小時直到穩定"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**為什麼「舊筆記」的碳酸氫鈉 1 支推注被拿掉？** Harrison 22e：IV bicarbonate 對急性高血鉀**沒有角色**，高張安瓿推注只會帶來高血鈉與高滲透壓；只有**代謝性酸中毒**時以等張溶液慢慢滴注、數小時後才有幫助。On Call 手冊仍列 NaHCO₃——兩者不同時以 Harrison 為準。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Fluid and Electrolyte Disturbances p.361"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Chap 34 p.6–7"
+        }
+      ]
+    },
+    {
+      "title": "高血鉀：床邊找原因",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "先想",
+            "線索",
+            "要做什麼"
+          ],
+          "rows": [
+            [
+              "**假性高血鉀**",
+              "溶血、握拳、止血帶太久；**血小板、白血球、紅血球極高**",
+              "不溶血重抽；細胞極多 → 驗 **plasma K**（肝素管）"
+            ],
+            [
+              "**藥物**",
+              "ACEI／ARB、MRA、NSAID、TMP-SMX、heparin、calcineurin inhibitor、非選擇性 β 阻斷劑、**digoxin**、補鉀",
+              "停藥"
+            ],
+            [
+              "**腎臟排不掉**",
+              "AKI、CKD 4–5、**少尿**、透析病人錯過透析",
+              "BUN／Cr、尿量、膀胱超音波（阻塞）"
+            ],
+            [
+              "**移出細胞**",
+              "**酸中毒**、**DKA／高血糖**（高滲透壓）、甘露醇、顯影劑",
+              "血氣、血糖、滲透壓"
+            ],
+            [
+              "**細胞破壞**",
+              "**橫紋肌溶解**（CK）、**腫瘤溶解**（尿酸、磷高、鈣低）、大量溶血、大量輸血、燒傷、擠壓傷",
+              "CK、尿酸、磷、Ca、LDH"
+            ],
+            [
+              "低醛固酮",
+              "糖尿病（第 4 型 RTA）、腎上腺功能不足",
+              "非急迫，白天再追"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：MACHINE 口訣與移出細胞的機轉（舊筆記）",
+          "text": "- **M Medications**：ACE inhibitors、ARBs、NSAIDS、Spironolactone、Trimethoprim、Heparin、Tacrolimus\n- **A Acidosis**：Metabolic acidosis (non-AG 型最明顯)：H⁺ 入細胞、K⁺ 出細胞；pH 每降 0.1 → K⁺ 上升約 0.2-0.7 mEq/L\n- **C Cellular destruction**：Burns、crush injury、rhabdomyolysis、tumor lysis syndrome、massive hemolysis\n- **H Hypoaldosteronism / Hemolysis**：Addison's disease、Type 4 RTA (hyporeninemic hypoaldosteronism in DM)；Hemolysis：也包括 pseudohyperkalemia（抽血溶血）\n- **I Intake excessive**：KCl supplement 過量、大量輸血（stored blood K⁺ 會升高）、含鉀食物大量攝取\n- **N Nephrons / Renal failure**：CKD Stage 4-5、ESRD — 腎臟無法排除鉀；AKI — oliguric phase\n- **E Excretion impaired**：上述腎因以外：obstructive uropathy、腎移植排斥"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Fluid and Electrolyte Disturbances p.358–359"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Chap 34 p.6"
+        }
+      ]
+    },
+    {
+      "title": "低血鉀：口服還是點滴、補多快",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "情況",
+            "怎麼補（Harrison）"
+          ],
+          "rows": [
+            [
+              "可進食、無症狀、無心律不整",
+              "**口服 KCl 為主**；24–48 小時內逐步補足"
+            ],
+            [
+              "不能進食，或有**麻痺、心律不整**等嚴重併發症",
+              "**IV KCl**；**用生理食鹽水配、不要用葡萄糖水**（葡萄糖刺激 insulin → 更低）"
+            ],
+            [
+              "周邊靜脈",
+              "濃度 **20–40 mEq/L**（太濃 → 靜脈炎、疼痛、硬化）"
+            ],
+            [
+              "**K < 2.5** 或嚴重症狀",
+              "**中心靜脈 + 心電圖監視**（加護環境），**10–20 mEq/h**；更快只用於立即危及生命時；一次限量（如 **20 mEq／100 mL NS**）避免誤輸大量"
+            ],
+            [
+              "QT 延長或心律不整風險、用 digoxin",
+              "**連續心電圖監視**"
+            ],
+            [
+              "**低鎂**",
+              "**一定同時補鎂**——不補鎂，鉀補不上去"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**估計缺多少**（Harrison）：沒有重新分布問題時，**每缺 100 mEq，血 K 約降 0.27**；總缺 400–800 mEq → 血 K 約降 2.0。\n→ K 3.0 的人大約缺 **200 mEq**，不是一兩包就補得完，要**分 24–48 小時**補，並且頻繁追蹤（避免短暫補過頭）。\n**重新分布造成的低鉀**（insulin、β2 致效劑、甲狀腺毒性週期性麻痺）總量並不缺 → 補太猛會在原因解除後**反彈高血鉀**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Fluid and Electrolyte Disturbances p.356–357"
+        }
+      ]
+    },
+    {
+      "title": "低血鉀 Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算欄為台灣常見品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**輕度、可進食（K 3.0–3.4、無症狀）**｜**KCl 20–40 mEq PO**，一天 2–3 次（依缺量）\n- 劑型與換算：KCl 600 mg 錠 = **8 mEq**（600 ÷ 74.6）→ 20 mEq 約 2.5 錠\n- 監測：隔天或依情況追蹤 K"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**IV 一般補充（On Call 手冊）**｜**KCl 10 mEq in NS 100 mL IV over 1 h**，視需要重複 1–2 次\n- 劑型與換算：依院內預混小袋或自行配製；**周邊濃度上限依院規**\n- 監測：**每給 20 mEq 驗一次 K**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**IV 維持**｜**KCl 40 mEq 加入 NS 1,000 mL**，依流速\n- 劑型與換算：KCl 注射液 1 支（**15% 10 mL = 1.5 g ≈ 20 mEq**）**至少配 500 mL**（On Call 手冊）\n- 監測：例：80 mL/h → 約 6 小時追蹤一次"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**K < 2.5 或麻痺、心律不整**｜**中心靜脈 KCl 10–20 mEq/h**（如 20 mEq／100 mL NS）+ 心電圖監視\n- 監測：**每 1–2 小時**驗 K"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**低鎂**｜**Magnesium sulfate 1–2 g IV**；或 MgO 口服\n- 劑型與換算：依院內品項\n- 監測：驗 Mg"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**合併代謝性酸中毒（RTA、腹瀉）**｜**Potassium citrate 或 bicarbonate**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**合併低磷**｜**Potassium phosphate** 口服或 IV\n- 監測：驗 P"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**KCl 只能 IVD（滴注），絕對不可 IVP（推注）**——推注會造成心跳停止，是經典的致命給藥錯誤。\n**不要用葡萄糖水配 KCl**（Harrison）；**不要在 K 還很低時開始或加快 insulin**（DKA 見特殊情境）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Fluid and Electrolyte Disturbances p.357"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Chap 34 p.9"
+        }
+      ]
+    },
+    {
+      "title": "低血鉀：床邊找原因",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "先想",
+            "線索",
+            "要做什麼"
+          ],
+          "rows": [
+            [
+              "**藥物**",
+              "**thiazide、loop 利尿劑**（最常見）、β2 致效劑、insulin、類固醇、aminoglycoside、amphotericin、瀉劑",
+              "停藥或減量"
+            ],
+            [
+              "**腸胃道流失**",
+              "腹瀉、嘔吐、鼻胃管引流",
+              "**嘔吐低鉀主要是腎臟排鉀**（鹼中毒 + 醛固酮），不是胃液含鉀多"
+            ],
+            [
+              "**移入細胞**",
+              "insulin（DKA 治療中）、鹼中毒、β2 致效劑、甲狀腺毒性週期性麻痺、refeeding",
+              "總量可能不缺 → 小心反彈"
+            ],
+            [
+              "**腎臟流失**",
+              "低鎂、RTA、醛固酮過多（**高血壓 + 低鉀**）",
+              "**spot urine K／Cr**：腎外流失 < 15 mmol/g Cr；腎臟流失 > 15 → 看血壓與酸鹼"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Fluid and Electrolyte Disturbances p.353–357"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Chap 34 p.8"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級與交班",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "什麼時候",
+            "做什麼"
+          ],
+          "rows": [
+            [
+              "鈣劑後 5 分鐘",
+              "看心電圖；沒改善 → 再給一支"
+            ],
+            [
+              "insulin 後",
+              "**每小時驗血糖 × 4–6 小時**（低血糖常見）；**1–2 小時重驗 K**"
+            ],
+            [
+              "IV 補鉀中",
+              "**每 20 mEq 驗一次 K**；K < 2.5 → 每 1–2 小時"
+            ],
+            [
+              "4–6 小時後",
+              "高鉀：shift 效果退了 → K 可能回升 → **再驗**；確認排鉀措施已開始"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**要升級的時候**\n- **腎臟科**：ESRD、AKI 少尿、K ≥ 6.5 且治療反應差、心電圖反覆變化 → **緊急透析**\n- **轉加護病房**：需要連續心電圖監視 + 中心靜脈補鉀、反覆心律不整、麻痺影響呼吸\n- **找學長姐**：任何心電圖變化、你不確定的時候"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**交班／on-call note 範本（SBAR）**\n- **S**：床號、姓名，K **6.9**（00:30），溶血（－）\n- **B**：CKD 4，用 losartan、spironolactone；今日尿量 300 mL\n- **A**：EKG 見 T 波高尖、QRS 正常；生命徵象穩定；原因疑為藥物 + 腎功能\n- **R**：已給 Ca gluconate 1 支、RI 10 U + D50W、SZC；停 losartan／spironolactone；**03:00 重驗 K、血糖 q1h**；K 仍 ≥ 6.5 或心電圖變化 → 通知腎臟科"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Fluid and Electrolyte Disturbances p.361"
+        }
+      ]
+    },
+    {
+      "title": "常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 看到 K 高卻**沒做心電圖**，或等重抽結果才處理已經有心電圖變化的病人\n- 以為**鈣劑會降 K**——它只是保護心臟，30–60 分鐘就退\n- **只給 D50W 沒給 insulin**（反而升 K），或給了 insulin **沒追血糖**\n- 把 **insulin／albuterol 當成治療終點**——4–6 小時後 K 會回來，沒安排排鉀或透析\n- 用 digoxin 的病人**快速推注鈣**\n- **KCl 推注**、用**葡萄糖水**配 KCl、周邊靜脈配太濃\n- 低鉀補不上去卻**沒驗鎂**\n- DKA **K 還很低就開始 insulin**\n- 高鉀時**忘記停**含鉀點滴、ACEI／ARB、spironolactone、NSAID"
+        }
+      ]
+    },
+    {
+      "title": "特殊情境",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "DKA 打 insulin 中的鉀",
+          "text": "- 入院時 K 可能正常甚至偏高（酸中毒、缺 insulin → K 移出細胞），但**總量嚴重缺乏**\n- 開始 insulin → K 迅速移入細胞 → **嚴重低鉀**\n- **先看鉀再給 insulin**：K 偏低 → **先補鉀、暫緩 insulin**（門檻依版本：ADA 舊版 < 3.3、FC 寫 < 3.5）；K 在正常範圍 → 點滴中加 KCl 同時給 insulin；K 偏高 → 先不補、密切追蹤。**實際門檻依院內 DKA protocol**（細節見〈DM (三) 併發症〉）\n- K 每 1–2 小時追蹤；同時注意鎂、磷"
+        },
+        {
+          "type": "collapsible",
+          "summary": "透析病人高血鉀",
+          "text": "- 慢性適應 → K 6.5 也可能沒有心電圖變化，**但不代表安全**\n- 無尿 → 利尿劑無效；**albuterol 約 20% 無效**\n- 有心電圖變化 → 鈣 + insulin／葡萄糖**爭取時間**，**同時聯絡腎臟科安排緊急透析**\n- 問清楚：上次透析是什麼時候、有沒有漏洗、飲食"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Digoxin 與鉀",
+          "text": "- **低鉀會加重 digoxin 毒性**（即使血中濃度正常）→ 補到 K 4.0 以上\n- **Digoxin 中毒可造成高鉀**；需要鈣時**稀釋後 20–30 分鐘慢滴**（Harrison）\n- 嚴重中毒、致命心律不整 → **digoxin 特異性抗體（Fab）**\n- 表現：噁心嘔吐、視覺異常（黃綠色光暈）、雙向性 VT、陣發性心房心搏過速合併傳導阻滯"
+        },
+        {
+          "type": "collapsible",
+          "summary": "腫瘤溶解症候群",
+          "text": "- **高鉀、高磷、高尿酸、低鈣**；高腫瘤負荷（Burkitt、ALL）化療後\n- K、P、尿酸、Ca、Cr 每 4–6 小時追蹤；積極水分、rasburicase\n- 高鉀照上面的流程；常需透析（細節見〈Oncology (三)〉）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "甲狀腺毒性週期性麻痺",
+          "text": "- 年輕男性、**突然四肢無力**、K 很低、甲狀腺亢進\n- 是**移入細胞**、總量不缺 → 補鉀要**少量謹慎**，否則反彈高鉀\n- Harrison：交感過度活化主導時可考慮 **propranolol**（非選擇性 β 阻斷劑）矯正、且無反彈風險"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 3 點：「75 歲 CKD 4 的阿伯，例行 K 6.8，他在睡覺。」",
+          "text": "1. 電話中：**STAT EKG、重抽 K（不溶血）**、停含鉀點滴與 ACEI／ARB；問尿量、最近 Cr\n2. EKG **只有 T 波高尖**：K ≥ 6.5 → 仍要積極處理：監視器、**RI 10 U + D50W**（血糖高則不給糖）、**SZC 或 polystyrene sulfonate**、有尿就 furosemide\n3. EKG 有 **QRS 變寬** → 先 **calcium gluconate**，同上，並**找學長姐、腎臟科**\n4. 1–2 小時重驗 K、血糖每小時；交班寫清楚下一次驗血時間"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 11 點：「62 歲阿姨吃 thiazide，K 2.9，說腳軟。」",
+          "text": "1. **EKG**（T 波變平、U 波、QT 延長？）、驗 **Mg**、spot urine K\n2. 有症狀但能吃 → **KCl 口服** + 可加 **KCl 10 mEq／NS 100 mL IV over 1 h**，每 20 mEq 追蹤\n3. 低鎂 → **MgSO₄ 1–2 g IV**\n4. 白天和主治討論 thiazide 劑量或加保鉀藥；用 digoxin 要特別小心"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 1 點：「DKA 的病人 insulin 打了 2 小時，K 從 5.2 掉到 3.1。」",
+          "text": "1. K 3.1 已低於 DKA 補鉀門檻（< 3.3 或 < 3.5）→ **先補鉀、暫停或調低 insulin**（依院內 DKA protocol），找學長姐\n2. **中心靜脈 KCl 10–20 mEq/h** + 心電圖監視\n3. **每小時驗 K**、同時看鎂、磷、血糖、陰離子間隙\n4. K 回到門檻以上再恢復 insulin"
+        }
+      ]
+    },
+    {
+      "title": "延伸：機轉與心電圖細節",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "延伸：為什麼高鉀、低鉀都會致命",
+          "text": "**為什麼鉀離子這麼重要？**\n- K⁺ 決定細胞膜的 resting membrane potential\n- 太高 → 膜去極化 → 心肌過度興奮 → **VT/VF → cardiac arrest**\n- 太低 → 膜過度極化 → 心肌傳導延遲 → **Torsades de Pointes → cardiac arrest**\n- 兩端都會死人！"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：心電圖變化對照（舊筆記，數值範圍為典型而非絕對）",
+          "text": "**高血鉀**\n- 5.5 - 6.5：Peaked (tall, narrow) T waves — 最早出現\n- 6.5 - 7.5：PR interval prolongation、P wave flattening/loss\n- 7.0 - 8.0：QRS widening\n- 8.0 - 9.0：Sine wave pattern (QRS 融合 T wave)\n- > 9.0：VF → Asystole\n\n**低血鉀**\n- 3.0 - 3.5：T wave flattening — 最早出現\n- 2.5 - 3.0：U wave 出現（T wave 後的小波）、ST segment depression\n- < 2.5：QT/QU prolongation、T-U fusion\n- Severe：Torsades de Pointes → VF、Premature atrial/ventricular contractions"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：低血鉀的三大機轉分類（舊筆記）",
+          "text": "- **Transcellular Shift (K⁺ 移入細胞內)**：Alkalosis (H-K exchange)、Insulin、β₂-agonists (albuterol)、Hypokalemic periodic paralysis、Refeeding syndrome（暫時性低鉀、Total body K⁺ 正常、小心 rebound hyperkalemia）\n- **腸道流失**：Diarrhea (全球最常見原因)、Vomiting (嘔吐導致 alkalosis → 腎排鉀)、Laxative abuse、Gastric outlet obstruction（**Urine K⁺ < 15 mmol/day**、TTKG < 3、(腎臟在保鉀)）\n- **腎臟流失**：利尿劑 (thiazide, loop)、Mineralocorticoid excess、Bartter's / Gitelman's syndrome、RTA type 1 & 2、Magnesium depletion、Amphotericin B（**Urine K⁺ > 15 mmol/day**、TTKG > 7、(腎臟在排鉀)）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**考試版請看**〈Electrolyte Disorders (二)：鉀、鈣、鎂、磷〉——那篇有完整的機轉、鑑別與 FC 考題；本篇只放值班當下要做的事。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Fluid and Electrolyte Disturbances p.353–361"
+        }
+      ]
+    }
+  ]
 }
