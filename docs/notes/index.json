@@ -361,6 +361,10 @@
         {
           "id": "genitourinary-cancers",
           "name": "Genitourinary Cancers (泌尿生殖腫瘤)：無痛血尿、腎臟腫塊、PSA 與睪丸腫塊"
+        },
+        {
+          "id": "gyn-hn-melanoma-sarcoma",
+          "name": "Gyn, Head & Neck, Melanoma, Sarcoma (婦癌、頭頸癌、黑色素瘤與肉瘤)"
         }
       ]
     },
