@@ -6,10 +6,11 @@
   "specialty": "肝膽腸胃內科",
   "sources": [
     "Harrison's 22e - Ch.334 Diseases of the Esophagus (p.2503-2514)；Ch.335 Peptic Ulcer Disease and Related Disorders (p.2514-2536)；Ch.85 Upper GI Tract Cancers：Esophageal Cancer (p.641-644)",
-    "First Choice 醫學(三) 第2冊 - 甲、吞嚥困難 (p.11-14；考題 p.15，2 題)；戊、胃食道逆流 (p.45；考題 p.46，3 題)；己、胃疾病—胃潰瘍 (p.49-53；考題 p.54-60，7 題)；乙、腹痛 (考題 p.21，1 題)"
+    "First Choice 醫學(三) 第2冊 - 甲、吞嚥困難 (p.11-14；考題 p.15，2 題)；戊、胃食道逆流 (p.45；考題 p.46，3 題)；己、胃疾病—胃潰瘍 (p.49-53；考題 p.54-60，7 題)；乙、腹痛 (考題 p.21，1 題)",
+    "First Choice 醫學(三) 第4冊 - 腫瘤科 丙、各論 II. 腸胃道癌症 C. 食道癌（講義與題目 p.323–325，2 題）"
   ],
   "generated": "2026-10-31",
-  "updated": "2026-10-31",
+  "updated": "2026-11-24",
   "related": [
     {
       "id": "hpylori-gastric-diseases",
@@ -35,7 +36,7 @@
         {
           "type": "callout",
           "style": "logic",
-          "text": "**一條主線**　FC 13 題｜最常考：GERD 與 Barrett、制酸藥物、消化性潰瘍與 NSAID\n1. **吞嚥困難先問吃什麼卡**：只有固體 → 管腔狹窄（機械性）；固體液體都卡 → 蠕動問題\n2. **酸相關疾病都回到壁細胞**：三個刺激（ACh、gastrin、histamine）匯集到一個幫浦（H⁺/K⁺-ATPase）\n3. 藥物就是一個一個擋；潰瘍再問 **H. pylori、NSAID**，頑固多發想 Zollinger-Ellison"
+          "text": "**一條主線**　FC 15 題｜最常考：GERD 與 Barrett、制酸藥物、消化性潰瘍與 NSAID\n1. **吞嚥困難先問吃什麼卡**：只有固體 → 管腔狹窄（機械性）；固體液體都卡 → 蠕動問題\n2. **酸相關疾病都回到壁細胞**：三個刺激（ACh、gastrin、histamine）匯集到一個幫浦（H⁺/K⁺-ATPase）\n3. 藥物就是一個一個擋；潰瘍再問 **H. pylori、NSAID**，頑固多發想 Zollinger-Ellison\n4. **吞嚥困難 + 體重減輕 → 食道癌**：中上段鱗狀細胞癌（菸酒）、下段腺癌（GERD、Barrett、肥胖）"
         }
       ]
     },
@@ -150,6 +151,86 @@
           "type": "source",
           "book": "First Choice 醫學(三) 第2冊",
           "pages": "戊、食道疾病—胃食道逆流 考題 p.46"
+        }
+      ]
+    },
+    {
+      "title": "食道癌：上段鱗狀、下段腺癌　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **鱗狀細胞癌**：全球最多、亞洲為主；**中上段**；**菸 + 酒**、熱飲、煙燻 → 同時是**口咽、頭頸癌高危險群**（FC 112 年）\n- **腺癌**：西方增加；**下段、胃食道交界**；**慢性 GERD → Barrett**、**肥胖**、吸菸\n- **H. pylori 與食道腺癌相關性最低**（FC 111 年）——FC 詳解：H. pylori 甚至可能減少 GERD 與 Barrett\n- 表現：**進行性吞嚥困難**（先固體、後液體；見 §吞嚥困難）、體重減輕\n- 鱗狀細胞癌可分泌 **PTHrP** → **沒有骨轉移也會高血鈣**（FC 112 年；見〈Oncology (一)〉腫瘤旁症候群）\n- 局部進展：鱗狀 → **前導同步化放療**再手術；腺癌 → **前導 FLOT** 再手術"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "食道癌（FC＋Harrison Ch.85）",
+            "鱗狀細胞癌",
+            "腺癌"
+          ],
+          "rows": [
+            [
+              "盛行",
+              "亞洲、非洲高發；全球約 90%",
+              "西方增加中（Harrison：美國與西歐 > 75%）"
+            ],
+            [
+              "**危險因子**",
+              "**吸菸、重度飲酒**、熱飲、煙燻食物、HPV",
+              "**慢性 GERD → Barrett 食道**、**肥胖**、吸菸"
+            ],
+            [
+              "位置",
+              "**中上段**",
+              "**下段與胃食道交界**"
+            ],
+            [
+              "免疫染色",
+              "p40、CK5/6",
+              "CK7、MUC5AC；HER2+ 可用 trastuzumab"
+            ],
+            [
+              "早期",
+              "EMR（≤ 2 cm 表淺）、ESD（可到 5 cm 以上）",
+              "同左"
+            ],
+            [
+              "局部進展",
+              "**前導同步化放療**（5-FU + cisplatin + RT）→ 手術",
+              "**前導化療 FLOT**（5-FU、leucovorin、oxaliplatin、docetaxel）→ 手術"
+            ],
+            [
+              "轉移第一線",
+              "cisplatin + 5-FU ± PD-1 抑制劑",
+              "FOLFOX／CAPEOX ± trastuzumab（HER2+）± PD-1 抑制劑"
+            ],
+            [
+              "5 年存活",
+              "約 15–25%",
+              "約 20–30%"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 112 年**：78 歲菸酒病人，食道鱗狀細胞癌，敘述錯誤的是「高鈣血症**不會**出現在沒有骨轉移的病人」——鱗狀細胞癌可分泌 **PTHrP**，沒有骨轉移也會高血鈣。菸酒是危險因子、病人也是口咽癌高危險群、問清楚吞嚥困難的種類與時序有助鑑別，都正確。\n**FC 111 年**：與食道**腺癌**相關性最低的是 **H. pylori**（肥胖、慢性胃食道逆流、吸菸都相關）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼鱗狀細胞癌在上中段、腺癌在下段？**\n食道本來全長都是**鱗狀上皮**——菸、酒、熱飲這些致癌物從口腔一路接觸整段黏膜，所以鱗狀細胞癌多在中上段，而且常和口咽、喉的癌症一起出現。腺癌則需要先有「**腺體**」：長期胃酸逆流讓下段食道的鱗狀上皮被**胃型腺體黏膜取代**（Barrett 食道，Harrison），腺癌再從這裡長出來——所以位置在下段與胃食道交界，危險因子是 **GERD、肥胖**，而會減少逆流的 H. pylori 反而不是危險因子。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 丙、各論 II. 腸胃道癌症 C. 食道癌 p.323–325"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.85 p.641–642"
         }
       ]
     },
@@ -422,6 +503,20 @@
         },
         {
           "type": "heading",
+          "text": "食道癌（§食道癌）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：一位 78 歲男性，平時抽菸每日兩包已有五十年、每日睡前喜歡喝烈酒才能入睡。最近因吞嚥困難來到診間求診，胃鏡檢查及切片診斷為食道鱗狀上皮細胞癌。下列敘述何者錯誤？（A 喝酒與抽菸為食道鱗狀上皮細胞癌發生之危險因子 B 病人同時也是口咽癌的高危險群 C 釐清病人吞嚥困難的種類（固體、液體）和先後發展時序有助於吞嚥困難的鑑別診斷 D 食道鱗狀上皮細胞癌產生之高鈣血症不會出現在沒有骨骼轉移的病人）（FC 112 年）",
+          "text": "**答：(D)。** FC 詳解：食道 SCC 可因 paraneoplastic syndrome 分泌 PTHrP 導致高鈣血症，因此即使沒有骨轉移，病人仍可能出現高鈣血症。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：全球的食道癌常見的組織學型態是 squamous cell carcinoma；但在北美地區，adenocarcinoma 已逐漸成為主要的食道癌類型。下列有關與食道 adenocarcinoma 相關的危險或致病因子中，何者的相關性最低？（A obesity B chronic gastroesophageal reflux C cigarette smoking D Helicobacter pylori）（FC 111 年）",
+          "text": "**答：(D)。** FC 詳解：H. pylori 與胃癌和 MALT 淋巴瘤有密切關係，但目前認為 H. pylori 反而可能減少 GERD 和 Barrett's esophagus 發生，間接降低食道腺癌風險。"
+        },
+        {
+          "type": "heading",
           "text": "速查表"
         },
         {
@@ -478,6 +573,10 @@
             [
               "ZES",
               "**多發、怪位置、難治潰瘍＋腹瀉**｜**MEN1 25%**｜空腹 gastrin（**PPI 停 7 天**）"
+            ],
+            [
+              "食道癌",
+              "SCC 中上段、菸酒、PTHrP 高血鈣（無骨轉移也會）；腺癌下段、GERD／Barrett／肥胖；H. pylori 無關"
             ]
           ]
         }

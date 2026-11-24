@@ -6,10 +6,11 @@
   "specialty": "肝膽腸胃內科",
   "sources": [
     "Harrison's 22e Ch.49, 138, 139",
-    "First Choice 醫學(三) 第2冊 丙、腹瀉"
+    "First Choice 醫學(三) 第2冊 丙、腹瀉",
+    "First Choice 醫學(三) 第4冊 - 腫瘤科 丙、各論 II. 腸胃道癌症 F. Carcinoid tumor（講義與題目 p.329–331，2 題）；Harrison's 22e Ch.89 p.682"
   ],
   "generated": "2026-11-02",
-  "updated": "2026-11-02",
+  "updated": "2026-11-24",
   "related": [
     {
       "id": "gi-bleeding",
@@ -31,12 +32,12 @@
         {
           "type": "callout",
           "style": "logic",
-          "text": "**一條主線**　FC 12 題｜最常考：滲透性 vs 分泌性、食物中毒的潛伏期、旅行者腹瀉與 Giardia、C. difficile\n1. 先問病程：急性或慢性\n2. 急性多半是感染，再看**水瀉或血便**\n3. 慢性多半不是感染，再用**禁食會不會好**分機轉\n4. 每一例的第一步都是**補水**，不是止瀉"
+          "text": "**一條主線**　FC 14 題｜最常考：滲透性 vs 分泌性、食物中毒的潛伏期、旅行者腹瀉與 Giardia、C. difficile\n1. 先問病程：急性或慢性\n2. 急性多半是感染，再看**水瀉或血便**\n3. 慢性多半不是感染，再用**禁食會不會好**分機轉\n4. 每一例的第一步都是**補水**，不是止瀉"
         }
       ]
     },
     {
-      "title": "腸道吸收與腹瀉分類　★ 3 題",
+      "title": "腸道吸收與腹瀉分類　★ 5 題",
       "content": [
         {
           "type": "callout",
@@ -131,6 +132,26 @@
           "type": "collapsible",
           "summary": "延伸：和腹瀉容易混淆的情況",
           "text": "- **假性腹瀉**：次數多但量少，常伴裡急後重，見於 IBS 或直腸炎\n- **大便失禁**：不自主排出，多為神經肌肉或肛門直腸結構問題\n- **滿溢性腹瀉**：常見於安養機構長者，因糞便嵌塞，肛門指診可查出\n- 中老年慢性發炎型腹瀉，尤其帶血時，要做大腸鏡排除大腸直腸腫瘤"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**類癌症候群（FC 第4冊）**\n**FC 104 年**：56 歲女性多年潮紅、間歇水瀉，被當成腸躁症與更年期；CT 迴盲部 3 cm 腫瘤 + 多處肝轉移，CEA 正常、**24 小時尿 5-HIAA 升高** → 類癌症候群 → 緩解腹瀉用**長效 octreotide**（不是 FOLFOX、loperamide，也不是只切迴盲部腫瘤）。\n**FC 102 年**：與類癌症候群**無關**的是**便秘**——典型是**水瀉**、**潮紅**、**氣喘樣喘鳴**，長期可出現**糙皮病（pellagra）**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼類癌症候群會水瀉、還會得糙皮病？**\n類癌（神經內分泌腫瘤，一半起源於小腸、尤其迴盲部，易轉移到肝）大量製造**血清素**。Harrison Ch.89：血清素由**色胺酸**合成，腫瘤可以吃掉高達 **50% 的飲食色胺酸** → 剩下的不夠轉成**菸鹼酸（niacin）** → **糙皮病**；血清素又會**刺激腸道分泌、加快蠕動** → 分泌性加蠕動性的水瀉（每天可 > 10 次）。血清素代謝成 **5-HIAA** 從尿排出 → **24 小時尿 5-HIAA** 是診斷工具。治療先用**長效 somatostatin 類似物**（octreotide、lanreotide）壓住荷爾蒙分泌；仍腹瀉可加 **telotristat**（抑制色胺酸羥化酶）。長期 somatostatin 類似物會讓膽囊收縮變差 → **膽結石**。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 丙、各論 II. 腸胃道癌症 F. Carcinoid tumor p.329–331"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.89 p.682"
         },
         {
           "type": "source",
@@ -630,6 +651,20 @@
         },
         {
           "type": "heading",
+          "text": "類癌症候群：FC 第4冊（§腸道吸收與腹瀉分類）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：一位 56 歲女性有隱隱的腹部不適、間歇性拉肚子和潮熱（flush）約 5 年，被診斷為腸躁症和停經過渡期症候群，症狀逐漸變嚴重，水瀉一天三次。腹部電腦斷層發現多處肝轉移及腸繫膜淋巴結腫大，和一個 3 cm 的腫瘤在迴盲腸，血清 CEA 正常，24 小時尿的 5-hydroxyindoleacetic acid（5-HIAA）增加。下列何種治療可以緩解她腹瀉的症狀？（A 用含 5-fluorouracil、leucovorin、oxaliplatin（FOLFOX）的化學治療 B 用 loperamide C 切除迴盲腸的腫瘤 D 用長效型 octreotide）（FC 104 年）",
+          "text": "**答：(D)。** FC 詳解：典型表現高度懷疑為類癌（carcinoid tumor），長效型 octreotide（somatostatin analogue）是控制 carcinoid syndrome 的第一線藥物。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：與消化道類癌（carcinoid tumor）引起之類癌症候群（carcinoid syndrome）無關之症狀為下列何者？（A 顏面潮紅 B 糙皮病（pellagra）C 氣喘樣症狀 D 便秘）（FC 102 年）",
+          "text": "**答：(D)。** FC 詳解：carcinoid syndrome 典型表現為水瀉、氣喘樣症狀（wheezing）、潮紅，長期高血清素代謝可導致糙皮病。"
+        },
+        {
+          "type": "heading",
           "text": "速查表"
         },
         {
@@ -682,6 +717,10 @@
             [
               "C. difficile",
               "fidaxomicin 或 oral vancomycin；猛爆加 IV metronidazole"
+            ],
+            [
+              "類癌症候群",
+              "潮紅、水瀉、喘鳴、糙皮病（不是便秘）；24h 尿 5-HIAA；長效 octreotide 第一線"
             ]
           ]
         }
