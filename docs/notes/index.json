@@ -335,6 +335,13 @@
         {
           "id": "transfusion-medicine",
           "name": "Transfusion Medicine (輸血醫學：血品適應症、相容性與輸血反應)"
+        },
+        {
+          "heading": "腫瘤總論"
+        },
+        {
+          "id": "onc-cancer-detection",
+          "name": "Oncology (一)：找出癌症——篩檢、遺傳、腫瘤標記、原發不明癌與腫瘤旁症候群"
         }
       ]
     },
