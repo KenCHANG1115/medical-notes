@@ -12,6 +12,10 @@
   "updated": "2026-11-25",
   "related": [
     {
+      "id": "chest-lung-cancer-tx",
+      "name": "Chest (十二)：胸腔腫瘤（二）——肺癌分期與治療：手術、標靶、免疫與小細胞癌"
+    },
+    {
       "id": "chest-imaging-pft",
       "name": "Chest (二)：影像與肺功能——肺功能判讀、胸部 X 光與影像題"
     },
