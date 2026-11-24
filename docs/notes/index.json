@@ -5,7 +5,11 @@
       "diseases": [
         {
           "id": "hypertension",
-          "name": "Hypertension (高血壓)"
+          "name": "Hypertension (一)：定義、量測、評估與次發性高血壓"
+        },
+        {
+          "id": "hypertension-treatment-aorta",
+          "name": "Hypertension (二)：治療、特殊族群、高血壓危象與主動脈疾病"
         },
         {
           "id": "ecg-arrhythmias",
