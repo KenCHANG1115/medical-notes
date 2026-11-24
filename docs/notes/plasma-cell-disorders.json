@@ -1,0 +1,648 @@
+{
+  "id": "plasma-cell-disorders",
+  "title": "Plasma Cell Disorders (漿細胞疾病：MGUS、多發性骨髓瘤與類澱粉沉積症)",
+  "title_en": "Plasma Cell Disorders",
+  "title_zh": "漿細胞疾病：MGUS、多發性骨髓瘤與類澱粉沉積症",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.113 (lymphoplasmacytic lymphoma); Ch.116 Plasma Cell Disorders; Ch.117 Amyloidosis",
+    "First Choice 醫學(三) 第4冊 - 辛、漿細胞疾病（講義 p.236–240；題目 p.240–246），本篇共 11 題"
+  ],
+  "generated": "2026-11-24",
+  "updated": "2026-11-24",
+  "related": [
+    {
+      "id": "acute-leukemia",
+      "name": "Acute Leukemia (急性白血病與造血幹細胞移植)"
+    },
+    {
+      "id": "lymphoma-cll",
+      "name": "Lymphoma & CLL (淋巴瘤與慢性淋巴球性白血病)"
+    },
+    {
+      "id": "electrolytes-k-ca",
+      "name": "Electrolyte Disorders (二)：鉀、鈣、鎂、磷"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 11 題｜最常考：多發性骨髓瘤的表現（CRAB、打洞樣骨病灶）、輕鏈型骨髓瘤、ISS 分期、骨骼影像、高血鈣用藥\n① **線索**：**球蛋白高（白蛋白／球蛋白比例反轉）**或 M 蛋白、**CRAB**（高血鈣、腎衰竭、貧血、骨病變）、老人背痛或病理性骨折、反覆感染\n② **驗 M 蛋白**：**血清蛋白電泳（SPEP）定量 → 免疫固定電泳（IFE）定性**＋**24 小時尿液電泳**＋**血清游離輕鏈**；輕鏈型（約 20%）**SPEP 可能看不到、尿液試紙也驗不出來**\n③ **骨髓漿細胞比例 + 有無骨髓瘤定義事件（SLiM-CRAB）** → **MGUS**（< 10%、無傷害）、**悶燃型**（10–60%、無傷害）、**多發性骨髓瘤**\n④ **分期**：**ISS = β2-microglobulin + 白蛋白**（R-ISS 加 LDH、高風險染色體）；骨骼用 **X 光、低劑量全身 CT 或 PET-CT**，**骨掃描看不到**\n⑤ **治療**：適合移植 → 含 bortezomib、lenalidomide、dexamethasone（± daratumumab）誘導 → **自體移植** → 維持；不適合 → 同類藥物不移植；**所有人 bisphosphonate**；高血鈣：水分 + bisphosphonate + 類固醇 ± calcitonin\n新版來源：Harrison 22e Ch.116、117（FC 第4冊 辛 11 題）\n分工：自體移植見〈急性白血病〉移植段；Waldenström 也屬淋巴漿細胞淋巴瘤（見〈淋巴瘤與 CLL〉）；高血鈣的一般處理見〈電解質〉"
+        }
+      ]
+    },
+    {
+      "title": "入口：M 蛋白與 CRAB → MGUS、悶燃型、多發性骨髓瘤　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **漿細胞疾病** = 晚期 B 細胞來源的**單株**增生：MGUS、多發性骨髓瘤、Waldenström 巨球蛋白血症、AL 類澱粉沉積症、重鏈病\n- 線索：**A/G 反轉**、**M spike**、**CRAB**、老人背痛或病理性骨折、反覆感染、不明原因腎衰竭或貧血\n- **MGUS 很常見**：> 50 歲約 1%、> 75 歲可達 10%；每年約 **1%** 進展成骨髓瘤，**所有骨髓瘤都由 MGUS 演變而來**\n- MGUS 進展的危險因子：**非 IgG 型**、**游離輕鏈比異常**、**M 蛋白 > 1.5 g/dL**\n- 骨髓瘤 = 骨髓漿細胞 ≥ 10% + **至少一項骨髓瘤定義事件（SLiM-CRAB）**；悶燃型 = 漿細胞 10–60% 或 M 蛋白 ≥ 30 g/L，但**沒有**器官傷害"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "白蛋白 < 球蛋白（A/G 反轉，FC）",
+            "想到"
+          ],
+          "rows": [
+            [
+              "白蛋白製造不足",
+              "**肝硬化**"
+            ],
+            [
+              "**多株**球蛋白增加（SPEP 寬廣隆起）",
+              "慢性肝炎、結締組織病、慢性感染"
+            ],
+            [
+              "**單株**球蛋白增加（SPEP 窄而尖的 **M spike**）",
+              "**MGUS、多發性骨髓瘤**等漿細胞疾病；也見於 CLL、淋巴瘤、類澱粉"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "MGUS",
+            "悶燃型骨髓瘤（SMM）",
+            "多發性骨髓瘤（MM）"
+          ],
+          "rows": [
+            [
+              "骨髓漿細胞",
+              "**< 10%**",
+              "**10–60%**",
+              "**≥ 10%**（或切片證實漿細胞瘤）"
+            ],
+            [
+              "血清 M 蛋白",
+              "**< 30 g/L**",
+              "**≥ 30 g/L**（或尿 ≥ 500 mg/天）",
+              "—"
+            ],
+            [
+              "器官傷害（SLiM-CRAB）",
+              "**沒有**",
+              "**沒有**",
+              "**≥ 1 項**"
+            ],
+            [
+              "處置",
+              "**追蹤**；每年約 **1%** 進展成 MM",
+              "追蹤（高風險者考慮治療）",
+              "**治療**"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "骨髓瘤定義事件（SLiM-CRAB）",
+            "定義（Harrison Table 116-1、FC）"
+          ],
+          "rows": [
+            [
+              "**S**（sixty）",
+              "骨髓單株漿細胞 **≥ 60%**"
+            ],
+            [
+              "**Li**（light chain）",
+              "受累／未受累血清游離輕鏈比 **≥ 100**"
+            ],
+            [
+              "**M**（MRI）",
+              "MRI **> 1 處**局部病灶"
+            ],
+            [
+              "**C**（calcium）",
+              "血鈣比上限高 **> 1 mg/dL** 或 **> 11 mg/dL**"
+            ],
+            [
+              "**R**（renal）",
+              "CrCl **< 40** 或 Cr **> 2 mg/dL**"
+            ],
+            [
+              "**A**（anemia）",
+              "Hb 比下限低 > 2 或 **< 10 g/dL**"
+            ],
+            [
+              "**B**（bone）",
+              "X 光、CT 或 PET-CT 有 **≥ 1 處溶骨病灶**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 104 年**：65 歲男性跌倒骨折，X 光兩側下肢長骨與鎖骨**多處溶骨**，PSA、CEA、SCC、AFP 正常 → 診斷與分期**必要**的是 **①血液常規 ②血液球蛋白免疫電泳 ③腎功能 ④骨髓檢查全部**（D）——CRAB 中的貧血、腎功能要驗；M 蛋白靠電泳；骨髓漿細胞比例才能確診。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要分 MGUS、悶燃型、骨髓瘤？**\n三者是同一條路的不同階段：單株漿細胞都在，差別在**腫瘤量**和**是否已經傷害器官**。MGUS 每年只有約 1% 進展，治療的副作用遠大於好處 → 追蹤；一旦出現 CRAB 或 SLiM 這些「即將或已經傷害器官」的指標，就是需要治療的骨髓瘤（Harrison）。SLiM 三項是後來加進的「生物標記」：符合任一項，兩年內出現器官傷害的機率很高，所以不必等到骨折或腎衰竭才治療。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.116 p.883、887–888"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "辛、漿細胞疾病 講義 p.236–238"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "辛、漿細胞疾病 題目 p.245"
+        }
+      ]
+    },
+    {
+      "title": "多發性骨髓瘤的表現：骨、腎、血、感染　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **骨痛最常見（約 70%）**：腫瘤活化**蝕骨細胞**、抑制造骨細胞 → **溶骨（打洞樣）**、病理性骨折、**脊椎塌陷**（壓迫脊髓）→ **高血鈣**\n- **腎衰竭（約 25%）**：**高血鈣是最常見原因**；**輕鏈管柱腎病變（cast nephropathy）**、近端腎小管傷害（**成人 Fanconi 症候群**、第 2 型 RTA）、類澱粉、NSAID、顯影劑\n- **貧血（約 80%）**：正球性；骨髓被佔據 + 腫瘤抑制造血；抹片可見**紅血球錢串（rouleaux）**\n- **感染**：正常抗體減少 → **肺炎鏈球菌**、金黃色葡萄球菌、克雷伯氏菌肺炎；大腸桿菌泌尿道感染；約 25% 以反覆感染為首發\n- 其他：**陰離子間隙降低**、**假性低血鈉**、高黏滯（IgA、IgG3）、神經病變；**很少有脾臟、淋巴結腫大**\n- **骨髓瘤是貧血，不是紅血球增多**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/plasma-cell-disorders/fc-myeloma-112.png",
+          "label": "FC 醫學(三)第4冊 p.500 彩圖（112 年考題）",
+          "caption": "62 歲男性跌倒：骨髓抹片、頭顱與肱骨 X 光",
+          "explain": "**【怎麼看】**上：骨髓抹片滿是**漿細胞**——細胞質豐富偏藍、**核偏一側**、核旁有淡染區（高基氏體），有的是雙核。左下：頭顱側面 X 光有許多大小相近、邊緣清楚的**圓形透亮洞（punched-out lesions）**。右下：肱骨也有溶骨病灶。\n**【考點】**骨髓漿細胞 > 10% + **打洞樣溶骨病灶** + 貧血 → **多發性骨髓瘤**（不是腺癌骨轉移、骨癌或維他命 D 缺乏）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年**：最**不可能**是骨髓瘤表現的是**多血症（polycythemia）**——骨髓瘤是**貧血**。骨病變、腎功能異常、高血鈣都是典型 CRAB。\n**FC 113 年**：骨髓瘤敘述**最不適當**的是「偵測骨骼病灶，**骨掃描比 X 光更精確**」——骨掃描偵測的是**造骨活性**，骨髓瘤是**純溶骨**、造骨被抑制 → 骨掃描常**看不到**。正確：常感染（**肺炎鏈球菌**）、常骨痛、常高血鈣。\n**FC 112 年**：62 歲男性跌倒，Hb 7.6、MCV 85、血小板 12 萬，骨髓抹片與 X 光如圖 → **多發性骨髓瘤**（大量漿細胞 + 打洞樣病灶）。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/plasma-cell-disorders/fc-myeloma-marrow-109.png",
+          "label": "FC 醫學(三)第4冊 p.498 彩圖（109 年考題）",
+          "caption": "75 歲女性下背痛、Cr 3.4、脊椎塌陷的骨髓抹片",
+          "explain": "**【怎麼看】**中間一群細胞：**細胞質深藍、核偏在一側**、核周圍有淡染的光暈——典型的漿細胞成群出現。\n**【考點】**老人 + 貧血 + 腎衰竭 + 脊椎壓迫性骨折 + 骨髓漿細胞增多 → **多發性骨髓瘤**。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 109 年**：75 歲女性倦怠、下背痛、Hb 7.8、**Cr 3.4**、腰椎嚴重塌陷、骨髓如圖 → 骨髓瘤。敘述**錯誤**的是「診斷後立即給**高劑量靜脈化療**是標準治療」——老人不適合高強度化療、不做移植，用**lenalidomide、類固醇、bortezomib** 等有效處方。正確：**好發於老人**；**血中測不到 M 蛋白也不能排除**（輕鏈型、非分泌型）。\n**FC 106 年**：68 歲女性蛋白尿、Hb 8.7、白蛋白 3.3、**球蛋白 1.8**、Cr 1.7、**尿 Bence-Jones 蛋白陽性**、頭顱 X 光如圖 → **多發性骨髓瘤**（輕鏈型）。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/plasma-cell-disorders/fc-myeloma-skull-106.png",
+          "label": "FC 醫學(三)第4冊 p.500 彩圖（106 年考題）",
+          "caption": "68 歲女性蛋白尿、Bence-Jones 蛋白陽性的頭顱 X 光（正面與側面）",
+          "explain": "**【怎麼看】**頭顱骨可見散佈的小圓形透亮區（溶骨），沒有周圍硬化邊；正面與側面都有。\n**【考點】**頭顱多發小溶骨 + **Bence-Jones 蛋白陽性** + 貧血 + 腎功能變差 + **球蛋白反而偏低（1.8）** → **輕鏈型多發性骨髓瘤**（不是骨轉移、慢性腎病貧血或 Paget 病）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼骨髓瘤的骨頭只「溶」不「補」？**\n骨髓瘤細胞和骨髓微環境互相刺激：活化**蝕骨細胞**、又分泌 **DKK-1** 抑制**造骨細胞** → 骨頭被挖洞卻沒有修補 → 邊緣乾淨、沒有硬化的「打洞樣」病灶、**鹼性磷酸酶不升高**、骨掃描（偵測造骨）陰性（Harrison）。對照：攝護腺癌骨轉移是**造骨性**，骨掃描很亮。\n**為什麼骨髓瘤病人總球蛋白高、卻容易感染？** 升高的是**單一株沒用的 M 蛋白**；正常多株抗體反而被抑制（免疫麻痺）→ 對莢膜細菌特別脆弱。輕鏈型甚至**總球蛋白偏低**（FC 106、107 年題目）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.116 p.883–887"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "辛、漿細胞疾病 講義 p.238"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "辛、漿細胞疾病 題目 p.240–242、245"
+        }
+      ]
+    },
+    {
+      "title": "診斷、分期與骨骼影像　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **SPEP 定量、IFE 定性**；約 **20% 只產生輕鏈**（輕鏈型）→ 血清 M spike 可能很小或看不到 → 要驗**尿液電泳**與**血清游離輕鏈**\n- **尿液試紙只驗白蛋白**，對游離輕鏈不敏感 → 輕鏈型骨髓瘤的試紙常**陰性**，要用尿液電泳或磺基水楊酸\n- 輕鏈型的總蛋白、球蛋白可能**偏低**，**紅血球錢串可能不明顯**；**周邊血漿細胞通常很少**（> 20% 才叫漿細胞白血病）\n- **ISS**：**β2M < 3.5 + 白蛋白 ≥ 3.5 → I**；**β2M > 5.5 → III**；其餘 II\n- 骨骼評估：**X 光、低劑量全身 CT、PET-CT**；**骨掃描與鹼性磷酸酶不可靠**\n- 高風險染色體：**del(17p)／TP53、t(4;14)、t(14;16)**、1q 增加；標準風險：t(11;14)、超二倍體"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "檢查",
+            "看什麼（FC＋Harrison Table 116-2）"
+          ],
+          "rows": [
+            [
+              "**血清蛋白電泳（SPEP）**",
+              "**定量**：γ 區的 **M spike**；量 = 腫瘤負荷，用來追蹤療效"
+            ],
+            [
+              "**免疫固定電泳（IFE）**",
+              "**定性**：確認單株——**一種重鏈**（IgG、IgA、IgM）＋**一種輕鏈**（κ 或 λ）"
+            ],
+            [
+              "**24 小時尿液電泳與 IFE**",
+              "找**游離輕鏈（Bence-Jones 蛋白）**"
+            ],
+            [
+              "**血清游離輕鏈與 κ／λ 比**",
+              "輕鏈型最敏感；比值 ≥ 100 屬 SLiM"
+            ],
+            [
+              "定量 IgG、IgA、IgM",
+              "未受累的免疫球蛋白常**降低**（免疫麻痺）"
+            ],
+            [
+              "骨髓抽吸與切片",
+              "漿細胞比例（**CD138 陽性**、單株 κ 或 λ）；FISH 分風險"
+            ],
+            [
+              "CBC、Cr、Ca、白蛋白、β2-microglobulin、LDH",
+              "CRAB 與分期"
+            ],
+            [
+              "骨骼",
+              "**X 光骨骼檢查**或 **PET-CT**（現行多用低劑量全身 CT）；悶燃型或單發漿細胞瘤加 **MRI**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年**：50 歲男性 L2–L4 壓迫性骨折，**總蛋白 4.2、白蛋白 3.0**、Ca 10.4、Cr 2.5、**IgG、IgA、IgM 都低**，骨髓漿細胞 15% → 輕鏈型骨髓瘤。敘述**錯誤**的是「**尿液 dipstick 可偵測到蛋白尿**」——試紙主要測白蛋白，對 Bence-Jones 蛋白不敏感。正確：**可能沒有 rouleaux**（總蛋白低）、**周邊血漿細胞很少見**、**尿液電泳／IFE 可測出單株輕鏈**。\n**FC 105 年**：白蛋白 2.5、**β2-microglobulin 5.7** → ISS **第 III 期**（β2M > 5.5）。\n**FC 103 年**：同一位病人，要了解其他部位骨骼是否被破壞，**最方便有效**的是**X 光（plain films）**——骨掃描、鹼性磷酸酶都無法反映純溶骨病變。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "ISS 分期（Harrison Table 116-3）",
+            "條件",
+            "中位存活"
+          ],
+          "rows": [
+            [
+              "**I**",
+              "**β2M < 3.5 mg/L 且白蛋白 ≥ 3.5 g/dL**",
+              "62 個月"
+            ],
+            [
+              "**II**",
+              "不屬於 I 也不屬於 III",
+              "44 個月"
+            ],
+            [
+              "**III**",
+              "**β2M > 5.5 mg/L**",
+              "29 個月"
+            ],
+            [
+              "R-ISS",
+              "ISS + **LDH** + 高風險 FISH（**del(17p)、t(4;14)、t(14;16)**）",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 β2-microglobulin 和白蛋白能預測存活？**\nβ2M 會隨細胞更新釋放，**反映腫瘤負荷**，又經腎排除——腎功能差時也上升，兩者都代表病情重；白蛋白低則反映病人整體狀況差。兩個便宜的血液檢查就能分出存活差一倍以上的三組（Harrison）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行影像（Harrison 22e）**：IMWG 標準的「骨病變」可由 **X 光、CT 或 PET-CT** 證實，現行實務多用**低劑量全身 CT** 或 PET-CT 取代傳統骨骼 X 光；FC 103 年題目以 X 光作答。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.116 p.886–889"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "辛、漿細胞疾病 講義 p.236–238"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "辛、漿細胞疾病 題目 p.242–243、245–246"
+        }
+      ]
+    },
+    {
+      "title": "治療與併發症：誘導、自體移植、高血鈣與腎衰竭　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **適合移植**（較年輕、體能好）：**誘導**（bortezomib ± lenalidomide + dexamethasone；現行加 **daratumumab** 成四合一）→ **高劑量 melphalan + 自體移植**（延長 PFS、OS）→ **lenalidomide 維持**\n- **不適合移植**（老人、共病）：daratumumab + lenalidomide + dexamethasone、VRd-lite、VMP 等，**不做高劑量化療**\n- **移植前避免 melphalan**（會傷害幹細胞收集）；舊式 **MP（melphalan + prednisolone）不再是一線**\n- **所有需治療的病人都給 bisphosphonate**（pamidronate、zoledronate）或 denosumab，即使血鈣正常 → 減少骨骼事件；副作用**下顎骨壞死**、腎毒性\n- **高血鈣**：**大量水分** + **bisphosphonate** + **類固醇** ± **calcitonin**（快速）；**fluoride 無效**\n- 腎衰竭：水分、停 NSAID 與顯影劑、治療高血鈣與高尿酸、盡快治療骨髓瘤；感染 → 疫苗與及早抗生素"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物類別（FC）",
+            "藥物",
+            "注意事項"
+          ],
+          "rows": [
+            [
+              "**蛋白酶體抑制劑**",
+              "**bortezomib**、carfilzomib、ixazomib",
+              "**周邊神經病變**（bortezomib）、血栓（carfilzomib，FC）、**HSV／VZV 再活化**（要預防）"
+            ],
+            [
+              "**免疫調節劑（IMiD）**",
+              "**lenalidomide**、thalidomide、pomalidomide",
+              "**深部靜脈血栓** → 合併 aspirin 或抗凝；thalidomide 神經病變"
+            ],
+            [
+              "**抗 CD38 單株抗體**",
+              "**daratumumab**、isatuximab",
+              "**干擾輸血交叉試驗**；HSV／VZV 預防"
+            ],
+            [
+              "類固醇",
+              "**dexamethasone**、prednisolone",
+              "高血糖、感染"
+            ],
+            [
+              "烷化劑",
+              "**melphalan**、cyclophosphamide",
+              "**移植前誘導避免 melphalan**（傷幹細胞、影響收集）；高劑量 melphalan 用在自體移植前處置"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年**：輕鏈型骨髓瘤的治療敘述**錯誤**的是「**melphalan + prednisolone（MP）可當作主要一線化療**」——對年輕、可移植者，MP 效果遠低於含新藥的三合一（VRd、VTD），且 melphalan 會傷害幹細胞動員。正確：**即使沒高血鈣，bisphosphonate 也是有效的輔助治療**；**bortezomib 等新藥**合併化療提高完全緩解率；**自體移植可延長存活**。\n**FC 106 年**：骨髓瘤高血鈣時**不能**達到治療目的的是 **fluoride**；bisphosphonate、類固醇、calcitonin 都可以。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼類固醇能降骨髓瘤的血鈣？**\n類固醇（dexamethasone）本身就是骨髓瘤治療的骨架、能**殺死骨髓瘤細胞** → 從源頭減少溶骨；bisphosphonate 直接**抑制蝕骨細胞**、起效較慢；calcitonin **起效快但短暫**（見〈電解質（二）〉）→ 嚴重高血鈣時合併使用，再加上**大量生理食鹽水**改善脫水與腎灌流（Harrison：高血鈣是骨髓瘤腎衰竭最常見原因）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：新診斷、可移植者以**四合一（daratumumab + lenalidomide + bortezomib 或 carfilzomib + dexamethasone）**誘導；不可移植者 Dara-Rd 等。復發後還有 CAR-T、雙特異性抗體（BCMA 等標靶）。這些新藥會清除正常漿細胞 → 低丙型球蛋白、感染，要預防。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.116 p.886–892"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "辛、漿細胞疾病 講義 p.239–240"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "辛、漿細胞疾病 題目 p.243–244"
+        }
+      ]
+    },
+    {
+      "title": "類澱粉沉積症與 Waldenström 巨球蛋白血症（精簡）　★ 0 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **類澱粉**：錯誤摺疊的蛋白形成 **β 摺板纖維**沉積；**Congo red 染色 + 偏光 → 蘋果綠雙折射**\n- 先做**腹部脂肪抽吸**（不必開刀）；陰性再切受影響器官（腎、心、肝、舌、腸胃）\n- 懷疑時機：不明原因**腎病症候群**、**心肌病**（限制型）、神經病變、腸病變、關節病變、**巨舌**\n- **AL** = 輕鏈 → 找單株蛋白與骨髓漿細胞；**AA** = 慢性發炎；**ATTR** = 家族性或老年、以心臟與神經為主\n- **Waldenström**：分泌 **IgM** 的淋巴漿細胞淋巴瘤；有**淋巴結與肝脾腫大**（骨髓瘤少見）、**高黏滯症候群**（頭痛、視力模糊、出血）；**MYD88 突變 > 90%**；急性高黏滯 → **血漿置換**（IgM 85% 在血管內）；治療 rituximab 化療、BTK 抑制劑"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "類型",
+            "前驅蛋白",
+            "重點（Harrison Ch.117）"
+          ],
+          "rows": [
+            [
+              "**AL**（舊稱原發性）",
+              "**免疫球蛋白輕鏈**",
+              "單株漿細胞或 B 細胞疾病，可合併骨髓瘤；**腎（腎病症候群）、心（限制型心肌病）**、神經、腸胃、**巨舌**、肝；可有**第 X 因子缺乏**"
+            ],
+            [
+              "**AA**（舊稱續發性）",
+              "血清類澱粉 A（急性期蛋白）",
+              "**慢性發炎或感染**：類風濕關節炎、IBD、慢性感染、**家族性地中海熱**；腎、肝"
+            ],
+            [
+              "**ATTR**",
+              "transthyretin（野生型或突變）",
+              "**家族性**最常見；老年野生型；**心臟**、周邊與自律神經、腕隧道、脊椎"
+            ],
+            [
+              "Aβ2M",
+              "β2-microglobulin",
+              "**長期血液透析**；滑膜、骨（腕隧道）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 Waldenström 特別容易高黏滯，血漿置換又特別有效？**\nIgM 是**五聚體**，分子大、會互相黏結 → 少量就讓血液變稠（腦、視網膜血管淤滯、黏膜出血）；也因為分子大，**約 85% 留在血管內** → 血漿置換能一次移除大部分，症狀很快改善（Harrison）。注意：單用 rituximab 開始時可能讓 IgM 暫時**升高**（flare），反而惡化高黏滯。\n**對照骨髓瘤**：骨髓瘤多是 IgG／IgA，以溶骨與腎為主、很少淋巴結脾腫大；Waldenström 很少溶骨。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.117 p.894–896"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.116 p.893"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.113 p.865"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "辛、漿細胞疾病 講義 p.236"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 107、103 年）：50 歲男性下背痛，L2–L4 壓迫性骨折；總蛋白 4.2、白蛋白 3.0、Ca 10.4、Cr 2.5，IgG、IgA、IgM 都低，骨髓漿細胞 15%。",
+          "text": "1. **線索**：骨折 + 腎衰竭 + 骨髓漿細胞 ≥ 10% → **多發性骨髓瘤**（CRAB：R、B）\n2. **奇怪的地方**：總蛋白、球蛋白反而**低**、三種免疫球蛋白都低 → **輕鏈型**（不分泌完整免疫球蛋白，正常抗體也被抑制）\n3. **驗什麼**：**24 小時尿液電泳與 IFE**、**血清游離輕鏈**；**尿液試紙會漏掉**\n4. **骨骼評估**：X 光骨骼檢查或低劑量全身 CT（骨掃描、鹼性磷酸酶不可靠）\n5. **治療**：誘導（含 bortezomib）→ 可移植者自體移植；**bisphosphonate**；腎：水分、避免 NSAID 與顯影劑"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 109 年）：75 歲女性倦怠、下背痛，Hb 7.8、Cr 3.4、腰椎嚴重塌陷，骨髓可見大量漿細胞。",
+          "text": "1. **CRAB**：貧血（A）、腎衰竭（R）、骨病變（B）→ 骨髓瘤\n2. **M 蛋白測不到？** 不能排除——輕鏈型、非分泌型\n3. **分期**：β2M、白蛋白（ISS）＋ LDH、FISH（R-ISS）\n4. **治療**：**老人不適合移植與高劑量化療** → lenalidomide、bortezomib、dexamethasone（± daratumumab）\n5. **支持**：bisphosphonate（依腎功能調整）、止痛、脊椎穩定、預防感染"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 106 年）：骨髓瘤病人意識變差、多尿、便秘，血鈣 14 mg/dL。",
+          "text": "1. **高血鈣危象**：蝕骨細胞大量溶骨\n2. **第一步**：**大量生理食鹽水**（病人多半脫水）\n3. **降鈣**：**bisphosphonate**（2–4 天見效）、**類固醇**（也殺腫瘤）、**calcitonin**（數小時見效但快速耐受）\n4. **無效的選項**：**fluoride**\n5. **同時**：處理腎功能、停 NSAID、治療骨髓瘤本身"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "入口（§入口）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：一位 65 歲老先生跌倒，造成右下肢骨折送醫，X 光檢查發現兩側下肢長骨及鎖骨另有多處蝕骨（osteolytic）現象。腫瘤標記包括 PSA、CEA、SCC、AFP 皆在正常範圍。以下檢查何者為診斷及分期所必要？①血液常規 ②血液球蛋白免疫電泳分析 ③腎功能 ④骨髓檢查（A 僅①③ B 僅②③④ C 僅①②④ D ①②③④）（FC 104 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "骨髓瘤的表現（§表現）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：下列何者最不可能是多發性骨髓瘤（multiple myeloma）常見的臨床表現特徵？（A 骨骼病變 B 腎功能異常 C 高血鈣症（hypercalcemia）D 多血症（polycythemia））（FC 113 年）",
+          "text": "**答：(D)。** FC 詳解：Multiple myeloma 通常導致貧血，而非紅血球過多。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：有關多發性骨髓瘤（multiple myeloma）的敘述，下列何者最不適當？（A 病人因免疫力低，常常容易受感染，最常見的感染病原菌之一是 Streptococcus pneumoniae B 病人常有骨骼疼痛的表現 C 病人常有高血鈣症 D 偵測病人骨骼的病灶，用同位素骨掃描（bone scan）比用 X 光（bone radiograph）更精確）（FC 113 年）",
+          "text": "**答：(D)。** FC 詳解：bone scan 主要偵測造骨活性，多發性骨髓瘤為 osteolytic lesions，所以骨掃描通常無法偵測。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：一位 62 歲男性因跌倒就醫，實驗室檢查顯示 Hb 7.6 g/dL、MCV 85 fL、platelet 120,000/µL。下圖分別為其骨髓抹片及 X 光（見表現段的 FC 彩圖），其診斷最可能為下列何者？（A 腺癌併多處骨轉移 B vitamin D 嚴重缺乏症 C 多發性骨髓瘤 D 骨癌併多處轉移）（FC 112 年）",
+          "text": "**答：(C)。** FC 詳解：骨髓抹片顯示大量漿細胞（> 10%），X 光可見 punched-out lesions。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：一位 75 歲女性，平常健康狀況良好，但是近三個月感到食慾不振、疲乏無力、下背疼痛。臉色與結膜蒼白，無肝脾腫大。白血球 5,310/µL，分類無異常，血紅素 7.8 g/dL，血小板 171,000/µL，肝功能正常，serum creatinine 3.4 mg/dL。腰部脊椎影像呈現嚴重塌陷，骨髓抹片如圖（見表現段的 FC 彩圖）。以下關於最可能疾病之診斷與治療，何者錯誤？（A 此疾病好發於老人 B 診斷之後，立即給與高劑量的靜脈輸注化學治療是目前標準的治療方法 C 即使血液中測量不到 monoclonal protein，也不能排除此病 D lenalidomide、steroid 與 bortezomib 是治療此病的有效處方）（FC 109 年）",
+          "text": "**答：(B)。** FC 詳解：年紀過大不適合高強度化療。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：一位 68 歲女性被發現有蛋白尿，抽血檢查顯示血紅素 8.7 gm/dL，白血球及血小板正常，白蛋白 3.3 gm/dL，球蛋白 1.8 gm/dL，Cr 1.7 mg/dL，尿中 Bence-Jones protein 陽性，頭部 X 光如圖所示（見表現段的 FC 彩圖）。此病人最可能的診斷為？（A multiple myeloma B carcinoma with bone metastasis C anemia secondary to chronic kidney disease D Paget's disease）（FC 106 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "heading",
+          "text": "診斷與分期（§診斷、分期與骨骼影像）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：一位 50 歲男性主訴下背痛，X 光顯示 L2–L4 壓迫性骨折。albumin 3.0 g/dL（3.7–5.3）、total protein 4.2 g/dL（6.4–8.4）、calcium 10.4 mg/dL（8.4–10.6）、creatinine 2.5 mg/dL（0.7–1.5）、IgG 498 mg/dL（751–1,560）、IgA 55 mg/dL（82–453）、IgM 27 mg/dL（46–304）。骨髓穿刺：normocellularity with fair maturation of erythroid and myeloid series，但有 15% plasma cells。下列敘述何者錯誤？（A 末梢血液抹片可能沒有 rouleaux formation B 末梢血液抹片 plasma cells 很少見 C 尿液 dipstick test 可偵測到蛋白尿 D 小便檢驗應可測出 monoclonal light chain）（FC 107 年）",
+          "text": "**答：(C)。** FC 詳解：一般尿試紙主要偵測白蛋白，對游離單株輕鏈（Bence Jones protein）不敏感，結果常陰性或僅微量陽性。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：一位病人被診斷為多發性骨髓瘤，抽血檢查發現其白蛋白為 2.5 gm/dL，β2-microglobulin 為 5.7 mg/L。依照國際分類系統（international staging system），此病人是屬於第幾期？（A 0 B I C II D III）（FC 105 年）",
+          "text": "**答：(D)。** β2M > 5.5 mg/L。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：一位 50 歲男性因背痛到門診，X 光發現 L2–L4 壓迫性骨折；albumin 3.0、total protein 4.2、calcium 10.4、creatinine 2.5、IgG 498、IgA 55、IgM 27；骨髓檢查 normocellularity with fair maturation of erythroid and myeloid series，but 15% plasma cells。以下何種檢查對身體其他部位的骨骼系統是否被破壞，最為方便有效？（A whole body bone scan B serum alkaline phosphatase level C whole body bone scan + serum alkaline phosphatase level D plain films（X-ray））（FC 103 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "治療（§治療與併發症）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：承 Q7，有關於上述病患之治療下列何者錯誤？（A 即使在沒有高血鈣的情況下，bisphosphonate 也是一個有效的附加治療 B melphalan + prednisolone（MP）可當作主要的一線化學治療 C bortezomib 之類的所謂新型製劑合併化學治療可提高這類新診斷病患誘導治療的完全緩解率 D 日後的自體造血幹細胞移植可以提高長期存活率）（FC 107 年）",
+          "text": "**答：(B)。** FC 詳解：對年輕、具自體移植潛力的病人，MP 效果遠低於含新型藥物的三合一（如 VRd、VTD），且 melphalan 會損害造血幹細胞動員；bortezomib-MP 的完全緩解率 30% 明顯優於單純 MP 的 4%。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：多發性骨髓瘤病患出現高鈣血症時，下列何種藥物治療不能達到治療目的？（A bisphosphonate B fluoride C corticosteroid D calcitonin）（FC 106 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "A/G 反轉",
+              "肝硬化（白蛋白少）、多株（慢性發炎）、單株（M spike）"
+            ],
+            [
+              "MGUS／SMM／MM",
+              "< 10% 無傷害／10–60% 無傷害／≥ 10% + SLiM-CRAB"
+            ],
+            [
+              "SLiM-CRAB",
+              "≥ 60% 漿細胞、輕鏈比 ≥ 100、MRI > 1 病灶；Ca > 11、Cr > 2、Hb < 10、溶骨"
+            ],
+            [
+              "MGUS",
+              "> 50 歲 1%；每年 1% 進展；非 IgG、輕鏈比異常、M > 1.5 g/dL 風險高"
+            ],
+            [
+              "骨髓瘤表現",
+              "骨痛 70%、貧血、腎衰竭 25%（高血鈣最常見原因）、感染（肺炎鏈球菌）"
+            ],
+            [
+              "打洞樣病灶",
+              "純溶骨 → 骨掃描、ALP 不可靠 → X 光、低劑量 CT、PET-CT"
+            ],
+            [
+              "輕鏈型（20%）",
+              "SPEP 可能看不到、試紙陰性、球蛋白可偏低 → 尿液電泳、游離輕鏈"
+            ],
+            [
+              "實驗室特徵",
+              "rouleaux、陰離子間隙低、假性低血鈉、周邊漿細胞很少"
+            ],
+            [
+              "ISS",
+              "I：β2M < 3.5 + 白蛋白 ≥ 3.5；III：β2M > 5.5"
+            ],
+            [
+              "高風險染色體",
+              "del(17p)、t(4;14)、t(14;16)、1q 增加"
+            ],
+            [
+              "治療",
+              "可移植：VRd（± dara）→ 自體移植 → lenalidomide 維持；移植前避免 melphalan；老人不做高劑量"
+            ],
+            [
+              "藥物副作用",
+              "bortezomib 神經病變、帶狀疱疹；lenalidomide 血栓；daratumumab 干擾交叉試驗"
+            ],
+            [
+              "高血鈣",
+              "水分 + bisphosphonate + 類固醇 ± calcitonin；fluoride 無效"
+            ],
+            [
+              "類澱粉",
+              "Congo red 蘋果綠；脂肪抽吸；AL 腎病症候群、心肌病、巨舌；AA 慢性發炎"
+            ],
+            [
+              "Waldenström",
+              "IgM、淋巴結肝脾大、高黏滯 → 血漿置換；MYD88"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
