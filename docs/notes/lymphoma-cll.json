@@ -1,0 +1,857 @@
+{
+  "id": "lymphoma-cll",
+  "title": "Lymphoma & CLL (淋巴瘤與慢性淋巴球性白血病)",
+  "title_en": "Lymphoma & CLL",
+  "title_zh": "淋巴瘤與慢性淋巴球性白血病",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.70 Enlargement of Lymph Nodes and Spleen; cancer-treatment toxicity chapters (p.564–753); Ch.112 Chronic Lymphocytic Leukemia; Ch.113 Non-Hodgkin's Lymphoma; Ch.114 Hodgkin's Lymphoma",
+    "First Choice 醫學(三) 第4冊 - 己、淋巴瘤（講義 p.220–223；題目 p.224–227）、庚、慢性淋巴細胞白血病（講義 p.230–231；題目 p.232–233）、戊 t(2;8) 1 題（p.214–215），本篇共 14 題"
+  ],
+  "generated": "2026-11-24",
+  "updated": "2026-11-24",
+  "related": [
+    {
+      "id": "acute-leukemia",
+      "name": "Acute Leukemia (急性白血病與造血幹細胞移植)"
+    },
+    {
+      "id": "myeloproliferative-neoplasms",
+      "name": "Myeloproliferative Neoplasms (骨髓增生性腫瘤與血球增減的鑑別)"
+    },
+    {
+      "id": "anemia-hemolytic",
+      "name": "Anemia (三)：正球性貧血——溶血與骨髓衰竭"
+    },
+    {
+      "id": "hiv-opportunistic-infections",
+      "name": "HIV/AIDS (二)：伺機性感染與併發症"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 14 題｜最常考：何杰金（EBV、分期、微小變化腎病）、DLBCL 與 rituximab、CLL 的診斷與預後\n① **淋巴結腫大**：持續、> 2 cm、鎖骨上、> 40 歲、硬或橡皮狀、不痛 → **切除整顆淋巴結切片**（細針抽吸不當第一步）\n② **分何杰金 vs 非何杰金**：**Reed-Sternberg 細胞（CD15、CD30）** → 何杰金；沒有 → 非何杰金，再分**惰性 vs 侵襲性**\n③ **分期**：Ann Arbor（**橫膈兩側 = III 期**、肝或骨髓 = IV 期）＋ **B 症狀**；PET-CT\n④ **治療**：何杰金 **ABVD**；**DLBCL → R-CHOP**（可治癒）；濾泡型無症狀 → 觀察；**胃 MALT → 除 H. pylori**；**Burkitt → 立即高強度化療 + 中樞神經預防**\n⑤ **成熟小淋巴球增多 + CD5、CD23 陽性 + smudge cell → CLL**：del(13q) 好、del(17p) 差；多數先觀察，需治療用 **BTK 抑制劑或 venetoclax**\n新版來源：Harrison 22e Ch.70、112、113、114（FC 第4冊 己 9 題、庚 4 題＋戊 1 題）\n分工：T 淋巴芽細胞淋巴瘤和 T-ALL 是同一病（見〈急性白血病〉）；Waldenström 見〈漿細胞疾病〉"
+        }
+      ]
+    },
+    {
+      "title": "入口：淋巴結腫大的評估與淋巴瘤總論　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 大多數淋巴結腫大是**非特異性、反應性**；兒童與年輕人多為良性（感染）\n- 要積極處理的特徵：**> 2 cm**（或 > 1.5 × 1.5 cm）、**鎖骨上**（**一定異常**；左側 Virchow 淋巴結 → 腸胃道癌）、**> 40 歲**、**硬**、**不痛**、持續數週不退\n- 質地：**淋巴瘤 = 大、分散、對稱、橡皮狀、可動、不痛**；**轉移癌 = 硬、固定**；**會痛 = 發炎**（快速腫大）\n- 抽菸者頸部單顆硬淋巴結 → **先做耳鼻喉檢查**找頭頸部原發癌；沒找到 → **切除最大的一顆淋巴結切片**\n- **細針抽吸不應當第一步**：組織太少、延誤診斷（只用於甲狀腺結節、已知診斷的復發確認）\n- 新診斷 NHL 要驗 **HBV、HCV、HIV**（治療可能使 B 肝再活化）"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 105 年**：20 歲男性頸部淋巴結腫大 6 週、**耳鼻喉內視鏡黏膜正常**、沒有感染跡象、**3 cm、硬實、不痛、橡皮狀** → 此階段最適當的是**切除性生檢（excisional biopsy）**；超音波、細針穿刺、PET 都不是。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼淋巴瘤要「整顆切下來」，細針抽吸不夠？**\n淋巴瘤的分類靠**組織架構**（濾泡狀還是瀰漫）、細胞組成與免疫染色、基因檢查——何杰金的 RS 細胞甚至只佔腫瘤 < 1%，被大量發炎細胞包圍。細針只吸到零散細胞，看不出架構，常「看起來像反應性」而延誤診斷（Harrison Ch.70）。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "何杰金（HL）",
+            "非何杰金（NHL）"
+          ],
+          "rows": [
+            [
+              "病理",
+              "**Reed-Sternberg 細胞**（< 1% 腫瘤，周圍是大量發炎細胞）",
+              "單一株淋巴球瀰漫或濾泡狀增生"
+            ],
+            [
+              "淋巴結",
+              "無痛、**頸部、鎖骨上、腋下**；**縱膈腔**常見",
+              "無痛、廣泛；**淋巴結外**常見（骨髓、肝、腸胃、中樞神經）"
+            ],
+            [
+              "擴散",
+              "**沿相鄰淋巴結**依序擴散",
+              "**跳躍式**、不相鄰"
+            ],
+            [
+              "B 症狀",
+              "較常見（約 1/3）",
+              "較少（侵襲性 DLBCL 約 40%）"
+            ],
+            [
+              "治療",
+              "**ABVD**",
+              "**R-CHOP**（B 細胞型）"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "病原",
+            "相關淋巴瘤（FC＋Harrison）"
+          ],
+          "rows": [
+            [
+              "**EBV**",
+              "**地方性 Burkitt**、**何杰金**（HIV 相關者幾乎全陽性）、**鼻型 NK/T 細胞淋巴瘤**、原發中樞神經 DLBCL、移植後淋巴增生"
+            ],
+            [
+              "**HTLV-1**",
+              "**成人 T 細胞白血病／淋巴瘤（ATLL）**（日本南部、加勒比海；母乳感染）"
+            ],
+            [
+              "**HIV**",
+              "Burkitt、DLBCL、原發中樞神經淋巴瘤、何杰金"
+            ],
+            [
+              "**HHV-8**",
+              "原發性體腔積液淋巴瘤、多中心 Castleman 病"
+            ],
+            [
+              "**HCV**",
+              "**脾邊緣區淋巴瘤**（治 HCV 可退）、淋巴漿細胞淋巴瘤"
+            ],
+            [
+              "**H. pylori**",
+              "**胃 MALT 淋巴瘤**（除菌可退）"
+            ],
+            [
+              "其他慢性刺激",
+              "Sjögren、橋本氏甲狀腺炎 → MALT；Borrelia（皮膚）、C. psittaci（眼附屬器）、C. jejuni（小腸）"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Ann Arbor 分期（Harrison Table 114-2）",
+            "定義"
+          ],
+          "rows": [
+            [
+              "**I**",
+              "單一淋巴結區或淋巴構造（脾、胸腺、Waldeyer 環）"
+            ],
+            [
+              "**II**",
+              "**橫膈同側** ≥ 2 個淋巴結區（縱膈算一區）"
+            ],
+            [
+              "**III**",
+              "**橫膈兩側**都有（脾臟屬淋巴構造）"
+            ],
+            [
+              "**IV**",
+              "淋巴結外廣泛侵犯；**任何肝或骨髓侵犯**"
+            ],
+            [
+              "**B 症狀**",
+              "6 個月內不明原因體重減輕 **> 10%**；**> 38°C 不明發燒**；反覆**盜汗**（沒有 = A）"
+            ],
+            [
+              "E",
+              "單一、局部的淋巴結外侵犯（不含肝、骨髓）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "口訣（FC）：**IPI = APLES**（蘋果 apples 少一個 p）——**A**ge > 60、**P**erformance status ≥ 2、**L**DH 上升、**E**xtranodal > 1 處、**S**tage III–IV；用於預測 DLBCL 等 NHL 的預後。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.70 p.476–478"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.113 p.857–861"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.114 p.869"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "己、淋巴瘤 講義 p.220–222"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "己、淋巴瘤 題目 p.226"
+        }
+      ]
+    },
+    {
+      "title": "何杰金淋巴瘤：EBV、分期、旁腫瘤與治療　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **成熟 B 細胞來源**；年齡**雙峰**（20 多歲、80 多歲）；男略多；**HIV 是危險因子**\n- **RS 細胞**：大、雙葉核、核仁明顯；**CD30（100%）、CD15（85%）**陽性，B 細胞標記（CD20）弱或無；PD-L1 過度表現\n- **EBV**：**HIV 相關何杰金幾乎全部陽性**；非 HIV 者約 1/3\n- 表現：無痛頸部、鎖骨上、腋下淋巴結；**縱膈腔 > 50%**；**B 症狀 1/3**；Pel-Ebstein 熱；**搔癢**；**喝酒後淋巴結痛**；旁腫瘤：**微小變化腎病（腎病症候群）**、免疫溶血、高血鈣\n- 分期：**橫膈兩側 → III 期**；PET-CT 取代骨髓切片評估骨髓\n- 治療：**ABVD**（doxorubicin、bleomycin、vinblastine、dacarbazine）；早期 ± 放療；晚期化療；**治癒率 > 85%**；復發 → 救援化療 + **自體移植**"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年**：何杰金病源敘述**正確**的是「**最可能源自 B 細胞**」。FC 詳解：HIV 相關何杰金幾乎全部 **EBV 陽性（80–100%）**；免疫正常者的典型何杰金 EBV 只約 30–50%（Harrison：約 1/3）。所以「HIV 相關者幾乎看不到 EBV」、「非 HIV 者幾乎都看得到 EBV」都錯。\n**FC 104 年**：顯示**第三期**的是「**頸部淋巴結 + 腹股溝淋巴結**」（橫膈兩側）。頸部 + 體重減輕 = I B；骨髓侵犯 = IV 期。\n**FC 104 年**：何杰金合併**大量蛋白尿 5.8 g/天、膽固醇 328、白蛋白 1.5** → 腎臟病理最可能是**微小變化腎病**。FC 詳解：與腫瘤相關的 T 細胞活化、釋放通透因子（如 IL-13）傷足細胞；**膜性腎病變**常見於**實體癌**（肺、胃、乳癌）；FSGS 與 HIV、肥胖相關。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼何杰金「循序擴散」對治療很重要？**\n何杰金沿**相鄰淋巴結**一站一站往下走，不像 NHL 跳躍、早期就跑到淋巴結外。所以解剖學分期（Ann Arbor）能準確反映疾病範圍，早期病人可以只照射或縮短化療，減少長期毒性。現在連早期病人也盡量少用放療——治癒率已經很高，**長期副作用（第二癌症、心血管病）**反而成為主要死因（Harrison）。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "何杰金亞型",
+            "特點（FC＋Harrison）"
+          ],
+          "rows": [
+            [
+              "**結節硬化型**",
+              "**最常見**（約 70%）、**年輕人**（FC：女性多）、縱膈腔"
+            ],
+            [
+              "**混合細胞型**",
+              "約 20%；**老人、HIV、開發中國家**；B 症狀多；常與 EBV 相關"
+            ],
+            [
+              "淋巴球豐富型",
+              "少見、預後好"
+            ],
+            [
+              "淋巴球缺乏型",
+              "< 1%；老人、HIV；預後差"
+            ],
+            [
+              "**結節性淋巴球為主型（NLPHL）**",
+              "< 5%；「爆米花細胞」**CD20 陽性、CD15 與 CD30 陰性**；男性；病程像惰性 B 細胞 NHL，可轉化成 DLBCL"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**存活者的晚期副作用**（Harrison Ch.114）：\n- **第二癌症**：急性白血病（含烷化劑的 MOPP、BEACOPP 較多，**ABVD 較少**）；胸部放療後 ≥ 10 年的**乳癌**（年輕女性放療後 5–10 年開始乳房攝影或 MRI 篩檢）、肺癌（勸戒菸）\n- **心血管**：縱膈放療加速冠心病；頸部放療 → 頸動脈硬化、中風\n- **甲狀腺低下**（胸頸放療後很常見，定期驗 TSH）；**Lhermitte 徵象**（低頭時電擊感傳到下肢）\n- **不孕**：含烷化劑幾乎所有男性永久不孕；**ABVD 很少**\n- 藥物：**bleomycin → 肺毒性**（年紀 > 40、腎衰竭、抽菸、累積劑量）；**doxorubicin → 心毒性**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：晚期何杰金可用 **brentuximab vedotin（抗 CD30 抗體藥物複合體）+ AVD** 取代 ABVD（ECHELON-1：無惡化與整體存活都較好）；nivolumab-AVD 也顯示更好的無惡化存活。復發者用**免疫檢查點抑制劑（PD-1）**合併救援化療再做自體移植。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.114 p.868–871"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "己、淋巴瘤 講義 p.221–223"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "己、淋巴瘤 題目 p.224、226–227"
+        }
+      ]
+    },
+    {
+      "title": "非何杰金淋巴瘤：惰性 vs 侵襲性、Burkitt、T 細胞與治療副作用　★ 6 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 最常見：**DLBCL（約 1/3）**，其次**濾泡型**；兒童以 **Burkitt、淋巴芽細胞**等高惡性度為主\n- **惰性**（濾泡、邊緣區／MALT、SLL、淋巴漿細胞）：病程長、**難以根治**；**無症狀可觀察**；局部期放療可能治癒\n- **侵襲性**（DLBCL、被套細胞、周邊 T 細胞）：不治療很快惡化，但 **DLBCL 用 R-CHOP 約 65–70% 可治癒**\n- **高度侵襲**（Burkitt、淋巴芽細胞、ATLL）：倍增時間 < 24 小時 → **立即治療**、**中樞神經預防**、防腫瘤溶解\n- **Rituximab + 化療**顯著延長 **B 細胞淋巴瘤（DLBCL）**存活；對 T 細胞淋巴瘤、骨髓瘤、ALL 不是標準\n- 治療副作用：**vincristine → 神經病變**；doxorubicin → 心臟；bleomycin → 肺；**rituximab → B 肝再活化、PML**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "NHL 的染色體（Harrison Table 113-4）",
+            "基因",
+            "淋巴瘤"
+          ],
+          "rows": [
+            [
+              "**t(14;18)**",
+              "**BCL2**／IgH（抗凋亡）",
+              "**濾泡型**（> 85%）、部分 DLBCL"
+            ],
+            [
+              "**t(11;14)**",
+              "**cyclin D1（BCL1）**／IgH",
+              "**被套細胞**（> 90%）；也見於多發性骨髓瘤"
+            ],
+            [
+              "**t(8;14)**、t(2;8)、t(8;22)",
+              "**MYC**／IgH、Igκ、Igλ",
+              "**Burkitt**（> 95%）"
+            ],
+            [
+              "**t(11;18)**",
+              "API2::MALT1",
+              "**MALT**（最常見，可達 50%）"
+            ],
+            [
+              "t(3;14)",
+              "BCL6／IgH",
+              "DLBCL"
+            ],
+            [
+              "t(2;5)",
+              "ALK",
+              "未分化大細胞淋巴瘤"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "免疫表型（Harrison Table 112-2）",
+            "CD5",
+            "CD10",
+            "CD23",
+            "cyclin D1",
+            "其他"
+          ],
+          "rows": [
+            [
+              "**CLL／SLL**",
+              "**+**",
+              "−",
+              "**+**",
+              "−",
+              "CD20、表面 Ig **弱**"
+            ],
+            [
+              "**被套細胞**",
+              "**+**",
+              "−",
+              "**−**",
+              "**+**",
+              "CD20 中強"
+            ],
+            [
+              "**濾泡型**",
+              "−",
+              "**+**",
+              "+／−",
+              "−",
+              "BCL2 陽性"
+            ],
+            [
+              "邊緣區（MALT）",
+              "−",
+              "−",
+              "−／+",
+              "−",
+              "淋巴上皮病灶"
+            ],
+            [
+              "**Burkitt**",
+              "−",
+              "**+**",
+              "",
+              "",
+              "**BCL2 陰性**、Ki-67 約 100%"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "惰性淋巴瘤"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "重點（Harrison Ch.113）"
+          ],
+          "rows": [
+            [
+              "**濾泡型（FL）**",
+              "**t(14;18)、BCL2**；CD10 陽性、CD5 陰性；多處無痛淋巴結、少 B 症狀；**無症狀 → 觀察**（提早治療不改善存活）；局部期放療可治癒；需治療 → **bendamustine + rituximab（BR）**；每年約 **3% 轉化成 DLBCL**（淋巴結突然長大、出現 B 症狀）"
+            ],
+            [
+              "**MALT（黏膜相關）**",
+              "最常見在**胃**；與 **H. pylori**、Sjögren、橋本氏甲狀腺炎相關；**淋巴上皮病灶**；多為 I–II 期 → **除菌**或放療可治癒"
+            ],
+            [
+              "脾邊緣區",
+              "老人、**HCV** 相關；脾腫大 + 淋巴球增多、絨毛狀淋巴球；治 HCV、rituximab 或脾切除"
+            ],
+            [
+              "**淋巴漿細胞（Waldenström）**",
+              "**IgM** 單株蛋白 → **高黏滯**；MYD88 突變 > 90%；見〈漿細胞疾病〉"
+            ],
+            [
+              "SLL",
+              "= CLL 的組織型（見 CLL 段）"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "侵襲性與高度侵襲性淋巴瘤"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "重點（Harrison Ch.113）"
+          ],
+          "rows": [
+            [
+              "**DLBCL**",
+              "最常見；中位 64 歲；多數晚期、約 40% B 症狀、50% LDH 高、40% 有淋巴結外侵犯；**R-CHOP 可治癒**；局部期 R-CHOP 4–6 次或 3–4 次 + 放療；復發 → **CAR-T** 或救援化療 + **自體移植**；MYC + BCL2 重組（**雙打擊**）預後很差"
+            ],
+            [
+              "**被套細胞**",
+              "**t(11;14)、cyclin D1**；**CD5 陽性、CD23 陰性**；老年男性、多為 IV 期（骨髓、血液）、**腸胃道多發息肉**；**傳統治療無法治癒**；BTK 抑制劑用於復發"
+            ],
+            [
+              "**Burkitt**",
+              "**MYC**；兒童 NHL 約 30%；**地方性（非洲）= 下顎骨、EBV 陽性**；非地方性 = **腹部**大腫塊；**星空**；高強度化療 + **中樞神經預防必須**；及時治療 **80–90% 治癒**"
+            ],
+            [
+              "**T 淋巴芽細胞**",
+              "青少年男性、**前縱膈腔腫塊**（與 T-ALL 同一病）"
+            ],
+            [
+              "**ATLL**",
+              "**HTLV-1**、**花瓣狀核**、高血鈣；日本南部、加勒比海"
+            ],
+            [
+              "**鼻型 NK/T 細胞**",
+              "**EBV**、亞洲多、鼻腔破壞性腫塊；化療 + 放療"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年**：rituximab 合併化療已證明**明顯延長存活**的是 **DLBCL**（不是周邊 T 細胞淋巴瘤、多發性骨髓瘤、ALL）——rituximab 打的是 **CD20（B 細胞）**。\n**FC 105 年**：35 歲 DLBCL **IIA 期**，正確的是「積極化療約可達 **70%** 緩解」。FC 詳解：R-CHOP 讓多數局限期 DLBCL 長期無病，5 年存活約 60–70%；**不需移植就能治癒**（自體移植只用於復發或難治）；屬侵襲性但**對免疫化療很敏感**；II 期是全身治療 ± 局部放療，**單純放療不夠**。\n**FC 106 年**：18 歲男性頸部淋巴結腫大、Hb 12.5、白血球 3550（芽細胞 2%）、血小板 13.5 萬、胸部 X 光（見圖）→ **前驅 T 淋巴芽細胞淋巴瘤／白血病**（B 淋巴芽細胞多以骨髓、血液為主；Burkitt 周邊少見芽細胞；ATLL 年紀大、HTLV-1 流行區）。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/lymphoma-cll/fc-t-lbl-cxr.png",
+          "label": "FC 醫學(三)第4冊 p.499 彩圖（106 年考題）",
+          "caption": "18 歲男性頸部淋巴結腫大的胸部 X 光",
+          "explain": "**【怎麼看】**上縱膈腔**明顯變寬**，兩側縱膈輪廓往外凸出（前縱膈腔腫塊），肺野本身沒有大片浸潤。\n**【考點】**青少年男性 + 頸部淋巴結 + **前縱膈腔腫塊** + 周邊血少量芽細胞 → **T 淋巴芽細胞淋巴瘤／白血病**（與 T-ALL 同一病）。前縱膈腔腫塊的鑑別：何杰金（結節硬化型）、原發縱膈大 B 細胞淋巴瘤、胸腺瘤、生殖細胞瘤。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 108 年**（收錄於戊章）：46 歲男性喘、腹脹、**脾腫大、腹水**，白血球 8450（芽細胞 2.9%）、Hb 9.7、血小板 5.5 萬、**尿酸 12.1、LDH 2342**，骨髓如圖、**t(2;8)(p12;q24)** → **Burkitt**。敘述**錯誤**的是「**治療效果不佳、長期存活率 < 3 成**」——含 rituximab 與高劑量 MTX／cytarabine 的短程強化化療，成人 5 年存活約 **60–80%**（Harrison：80–90% 治癒）。正確：機轉是 **MYC 失調**（t(2;8) 把 MYC 接到 **Igκ**）；進展極快、**必須儘早治療**；治療必須含**腦脊髓液檢查與脊髓腔內化療**。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/lymphoma-cll/fc-burkitt-marrow.png",
+          "label": "FC 醫學(三)第4冊 p.497 彩圖（108 年考題）",
+          "caption": "46 歲男性 t(2;8) 的骨髓抹片",
+          "explain": "**【怎麼看】**一群大小一致的中型芽細胞：核圓、染色質細，**細胞質深藍（嗜鹼性）、沒有顆粒**，部分可見**空泡**；背景大量破碎細胞。\n**【考點】**沒有顆粒的芽細胞 + 細胞質空泡 + **t(2;8)／t(8;14)（MYC）** + **LDH 極高（2342）、尿酸高** → **Burkitt 淋巴瘤／白血病**。組織切片的經典描述是「**星空（starry sky）**」：吞噬碎片的巨噬細胞散佈在腫瘤細胞中。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼「惰性」淋巴瘤反而難治癒，「侵襲性」的 DLBCL 卻能治好？**\n化療殺的是**正在分裂**的細胞。DLBCL、Burkitt 長得快、大部分細胞在分裂 → 化療一打就大量死亡，徹底清除就治癒。濾泡型長得慢、多數細胞在休息（又有 BCL2 抗凋亡）→ 化療能縮小但殺不乾淨，幾乎都會復發。所以惰性的策略是**有症狀才治療、與病共存**（平均可活 15–20 年），侵襲性的策略是**一開始就以治癒為目標全力治療**。"
+        },
+        {
+          "type": "heading",
+          "text": "治療副作用（FC 考點）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物",
+            "特徵副作用（Harrison＋FC）"
+          ],
+          "rows": [
+            [
+              "**Vincristine**（CHOP 的 O）",
+              "**周邊神經病變**（指端麻木）"
+            ],
+            [
+              "**Doxorubicin**（CHOP 的 H）",
+              "**心臟毒性**（FC：老人或心功能差改 R-COP）"
+            ],
+            [
+              "**Bleomycin**（ABVD 的 B）",
+              "**肺毒性**（年紀 > 40、腎衰竭、抽菸、累積劑量）"
+            ],
+            [
+              "**Cyclophosphamide**",
+              "**出血性膀胱炎**"
+            ],
+            [
+              "**Rituximab**（抗 CD20）",
+              "**B 肝再活化**（治療前驗 HBV）、**進行性多灶性白質腦病（PML，JC 病毒）**、肺囊蟲肺炎；輸注反應"
+            ],
+            [
+              "類固醇（prednisone）",
+              "高血糖、感染等"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 105 年**：CHOP（cyclophosphamide、adriamycin、vincristine、prednisolone）後出現**指端麻木** → **vincristine**。\n**FC 113 年**：淋巴瘤病人接受 **rituximab** 時最可能增加的是**進行性多灶性白質腦病（PML）**——B 細胞清除讓 **JC 病毒**再活化（Harrison：rituximab 等 B 細胞清除藥與 PML、肺囊蟲肺炎相關）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：DLBCL IPI ≥ 2 可用 **polatuzumab（抗 CD79b 抗體藥物複合體）+ R-CHP**（POLARIX）；原發難治或 12 個月內復發 → **CD19 CAR-T**（axi-cel、liso-cel）優於救援化療 + 自體移植；雙特異性抗體（epcoritamab、glofitamab）用於後線。濾泡型第一線可用 BR、obinutuzumab + 化療或 rituximab + lenalidomide。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.113 p.857–866"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "癌症治療副作用相關章節 p.564、579、597、706、753"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "己、淋巴瘤 講義 p.220–223"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "己、淋巴瘤 題目 p.224–226"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "戊、慢性骨髓增生性疾病 題目 p.214–215"
+        }
+      ]
+    },
+    {
+      "title": "慢性淋巴球性白血病（CLL）　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **西方成人最常見的白血病**（25–30%），亞洲較少；中位年齡 65–70 歲，< 40 歲罕見；**多數健檢偶然發現**\n- 診斷：周邊血**單株成熟 B 淋巴球 ≥ 5 × 10⁹/L（5000/µL）**持續 ≥ 3 個月；< 5000 且無淋巴結、無血球低下 = **單株 B 淋巴球增多（MBL）**；以淋巴結為主 = **SLL**（同一病）\n- 免疫表型：**CD19、CD20（弱）、CD23 陽性 + T 細胞標記 CD5 陽性**、表面 Ig 弱；**CD10、CD34 陰性**（與被套細胞區分：被套 **CD23 陰性、cyclin D1 陽性**）\n- 抹片：**smudge／basket cell**\n- 併發症：**低丙型球蛋白**（反覆感染，感染是 30–50% 的死因）、**自體免疫溶血（最常見）**、ITP、**Richter 轉化**成 DLBCL、皮膚癌\n- 預後：**del(13q) 最好**、**del(17p)／TP53 最差**；分期 Rai、Binet\n- 治療：**無症狀早期 → 觀察**；有治療指徵 → **BTK 抑制劑**（ibrutinib、acalabrutinib、zanubrutinib ± obinutuzumab）或 **venetoclax + obinutuzumab（固定療程）**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/lymphoma-cll/fc-cll-smear.png",
+          "label": "FC 醫學(三)第4冊 p.498 彩圖（108 年考題）",
+          "caption": "65 歲男性白血球 16 萬、CD5／CD23 陽性的周邊血抹片",
+          "explain": "**【怎麼看】**大量**小而成熟的淋巴球**：核圓、染色質粗塊狀（像龜殼）、細胞質很少；中間偏左有幾顆被推片壓破、形狀模糊的細胞（**smudge／basket cell**）。\n**【考點】**成熟小淋巴球 + smudge cell + **CD19、CD5、CD23 陽性、CD20 與表面 Ig 弱、CD10 與 CD34 陰性** → **CLL**。注意這些是**成熟**淋巴球，不是芽細胞。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 112 年**：CLL 預後**較佳**的染色體變異是 **del(13)(q14.3)**；del(11)(q22.3)、trisomy 12、del(17)(p13.1) 都較差。\n**FC 111 年**：CLL 特徵**錯誤**的是「**初診有貧血的病人預後較佳**」——有貧血代表骨髓侵犯、進展快、**預後差**。正確：clonal B cell ≥ 5000/µL、**smudge cell**、**丙型球蛋白降低**。\n**FC 108 年**：65 歲男性 WBC 16 萬（淋巴球 80.3%）、CD19、CD5、dim CD20、CD23、dim κ、CD10 與 CD34 陰性 → CLL。敘述**錯誤**的是「**大多數病人需要高劑量化療與異體移植**」——多數先觀察。正確：常見 **basket／smudge cell**、會合併**自體免疫血小板低下或溶血**、一開始通常**無症狀、偶然抽血發現**。\n**FC 105 年**：CLL 敘述**錯誤**的是「**周邊血淋巴芽細胞**超過 5 × 10⁹/L」——應是**成熟** B 淋巴球；CD5、CD23 陽性、西方成人最常見、老年人多都正確。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 CLL 常常「先觀察不治療」？**\n早期 CLL 進展慢，許多病人一輩子不需要治療；過去研究顯示**提早用化療不會延長存活**，反而增加感染與第二癌症。所以等到出現**治療指徵**才開始：B 症狀、**進行性骨髓衰竭**（貧血、血小板低）、巨大或進行性淋巴結與脾腫大、淋巴球快速倍增、類固醇控制不住的自體免疫血球低下（FC、iwCLL）。\n**為什麼 CLL 容易感染又容易自體免疫？** 惡性 B 細胞擠掉正常 B 細胞 → 抗體不足（低丙型球蛋白）；同時免疫調節失衡 → 產生攻擊自己紅血球、血小板的抗體。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Rai 分期（FC＋Harrison）",
+            "定義",
+            "風險"
+          ],
+          "rows": [
+            [
+              "0",
+              "只有淋巴球增多",
+              "低"
+            ],
+            [
+              "I",
+              "+ 淋巴結腫大",
+              "中"
+            ],
+            [
+              "II",
+              "+ 脾或肝腫大",
+              "中"
+            ],
+            [
+              "III",
+              "+ **貧血**（Hb < 11）",
+              "高"
+            ],
+            [
+              "IV",
+              "+ **血小板低**（< 10 萬）",
+              "高"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "預後因子",
+            "意義（FC＋Harrison）"
+          ],
+          "rows": [
+            [
+              "**del(13q14.3)** 單獨",
+              "**最常見、預後最好**"
+            ],
+            [
+              "trisomy 12",
+              "中等"
+            ],
+            [
+              "del(11q22.3)（ATM）",
+              "不良：大淋巴結、進展快"
+            ],
+            [
+              "**del(17p13.1)／TP53 突變**",
+              "**最差**、對化療無效 → 首選 **BTK 或 BCL2 抑制劑**"
+            ],
+            [
+              "**IGHV 未突變**",
+              "不良（約 40%）；突變者（約 60%）較惰性"
+            ],
+            [
+              "診斷時**貧血、血小板低**",
+              "不良（骨髓侵犯 = Rai III–IV）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e、FC）**：第一線改用**標靶治療**取代化學免疫治療——**BTK 抑制劑持續服用**（ibrutinib 對比 chlorambucil 降低 84% 惡化或死亡）或 **venetoclax + obinutuzumab 一年固定療程**；**del(17p)／TP53 不用化療**。高劑量化療與異體移植只留給少數年輕、高風險、對新藥無效者。每次換治療前重驗 FISH（看是否新出現 del(17p)）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.112 p.849–856"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "庚、慢性淋巴細胞白血病 講義 p.230–231"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "庚、慢性淋巴細胞白血病 題目 p.232–233"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 105 年）：20 歲男性頸部淋巴結腫大 6 週，3 cm、硬實、不痛、橡皮狀；耳鼻喉內視鏡正常、沒有感染跡象。",
+          "text": "1. **要不要追？** 持續 > 4–6 週、> 2 cm、不痛、橡皮狀 → **淋巴瘤**的典型質地，不能再觀察\n2. **先排除頭頸部原發**：耳鼻喉檢查已正常\n3. **下一步**：**切除最大的一顆淋巴結**送病理、免疫染色、流式、基因\n4. **不要**先做細針抽吸（組織不夠、延誤）；PET 是確診**之後**分期用\n5. **確診後**：分 HL／NHL → Ann Arbor 分期 + B 症狀 → 驗 HBV、HCV、HIV → 決定治療"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 104 年）：何杰金淋巴瘤男性出現大量蛋白尿 5.8 g/天、膽固醇 328、白蛋白 1.5。",
+          "text": "1. **型態**：腎病症候群（蛋白尿 > 3.5 g、低白蛋白、高血脂）\n2. **腫瘤相關腎絲球病變的對照**：何杰金 → **微小變化腎病**；實體癌（肺、胃、乳）→ **膜性腎病變**\n3. **機轉**：腫瘤相關 T 細胞活化、通透因子傷足細胞（FC）\n4. **線索**：腎病變常隨何杰金治療而改善\n5. **其他何杰金旁腫瘤**：搔癢、喝酒後淋巴結痛、Pel-Ebstein 熱、免疫溶血、小腦退化"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 108、112 年）：65 歲男性健檢 WBC 16 萬（淋巴球 80%），Hb 12.7、血小板 16.5 萬，無症狀。",
+          "text": "1. **成熟小淋巴球增多** → 流式：CD19、**CD5、CD23 陽性**、CD20 與 κ 弱、CD10 陰性 → **CLL**（不是被套細胞：CD23 陰性、cyclin D1 陽性）\n2. **抹片**：smudge cell\n3. **分期**：沒有淋巴結、肝脾、貧血、血小板低 → **Rai 0**\n4. **預後**：FISH——del(13q) 好、del(17p) 差；IGHV 突變狀態\n5. **處置**：**觀察**；出現治療指徵 → BTK 抑制劑或 venetoclax + obinutuzumab；注意感染（低丙型球蛋白）、自體免疫溶血、Richter 轉化"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "淋巴結腫大（§入口）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：20 歲男子頸部淋巴結腫大有 6 星期之久，到教學醫院之耳鼻喉科求診，經 fiberoscopy 檢查顯示頭頸部區域黏膜正常，排除頭頸部惡性腫瘤的診斷。這名患者沒有感染的跡象，理學檢查顯示 firm、non-tender 及 rubber-like，徑長 3 公分大之淋巴結。下列何者為在這個階段最適當的處置？（A 淋巴結超音波 B 切除性生檢（excisional biopsy）C 細針穿刺（fine needle aspiration）D 正子掃描（PET scan））（FC 105 年）",
+          "text": "**答：(B)。** Harrison：未見黏膜病灶時，切除最大的淋巴結；細針抽吸不應作為第一個診斷步驟。"
+        },
+        {
+          "type": "heading",
+          "text": "何杰金（§何杰金）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：有關何杰金氏淋巴癌病源的敘述何者正確？（A 目前認為其淋巴癌細胞最可能是源自於 B 細胞 B 目前認為其淋巴癌細胞最可能是源自於 T 細胞淋巴球 C HIV 感染相關之何杰金氏淋巴癌細胞裡幾乎都看不到 EBV 感染的證據 D 非 HIV 感染相關之何杰金氏淋巴癌細胞裡幾乎都看得到 EBV 感染的證據）（FC 113 年）",
+          "text": "**答：(A)。** FC 詳解：HIV 相關 HL 幾乎全部 EBV 陽性（80–100%）；免疫正常人之典型 HL，EBV 僅約 30–50% 陽性。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：有關何杰金氏淋巴瘤（Hodgkin's lymphoma），下列何者顯示疾病分期為第三期？（A 頸部淋巴結侵犯與體重減輕 B 頸部淋巴結與腹股溝淋巴結侵犯 C 脾臟腫大 D 骨髓侵犯）（FC 104 年）",
+          "text": "**答：(B)。** 橫膈兩側。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：一位何杰金氏淋巴瘤男性病人，發現有大量蛋白尿（5.8 gm/day/1.73 m² body surface），血中膽固醇 328 mg/dL，血中白蛋白 1.5 gm/dL，準備接受腎臟切片檢查，他最有可能之腎臟病理變化為：（A 膜性腎絲球腎炎 B 局部腎絲球硬化症 C 微小變化腎病 D IgA 腎病）（FC 104 年）",
+          "text": "**答：(C)。** FC 詳解：機轉與腫瘤相關的 T 細胞活化及釋放 permeability factors（如 IL-13）造成足細胞損傷有關；膜性腎病變常見於實體癌。"
+        },
+        {
+          "type": "heading",
+          "text": "非何杰金（§非何杰金）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：Rituximab 合併化學治療已被證明可明顯延長下列何種病人的存活期？（A diffuse large B cell lymphoma B peripheral T cell lymphoma C multiple myeloma D acute lymphoblastic leukemia）（FC 107 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：一位 18 歲男性因頸部淋巴結腫大應診，抽血檢查發現血紅素為 12.5 gm/dL，白血球 3,550/µL，其中 blast 2%，血小板 135,000/µL。胸部 X 光如圖所示（見非何杰金段的 FC 彩圖）。此病人最可能的診斷為何？（A precursor B cell lymphoblastic lymphoma/leukemia B precursor T cell lymphoblastic lymphoma/leukemia C Burkitt's lymphoma D adult T cell lymphoma/leukemia）（FC 106 年）",
+          "text": "**答：(B)。** FC 詳解：T-LBL 好發於青少年男性；頸部與縱膈（胸片常見前縱膈腫塊）淋巴結腫大是典型表徵；周邊血常僅少量 blasts（< 25%）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：一個 35 歲男性患者診斷為 malignant lymphoma，diffuse large B-cell type，stage IIA，下列有關敘述何者為正確？（A 一般而言，積極化學治療約可達到 70% 的緩解率（remission rate）B 除非進行造血幹細胞移植，否則無治癒可能 C 屬於 aggressive malignancy，腫瘤生長速度快，化學藥物治療效果不佳 D 應該儘可能只給予 radiation therapy 就好，避免給予 systemic chemotherapy，以免以後發生 secondary leukemia）（FC 105 年）",
+          "text": "**答：(A)。** FC 詳解：第一線 R-CHOP 可使大多數局限期 DLBCL 患者長期無病生存；自體移植僅用於復發或難治；對免疫化療十分敏感；II 期標準為全身免疫化療 ± 區域放療。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：一位 46 歲男性，過去無特殊病史，因呼吸急促、腹部腫脹而被送到急診。理學檢查呈現結膜蒼白，脾臟腫大並且有腹水。白血球 8,450/µL，分類 blast 2.9%、myelocyte 1%、metamyelocyte 3.8%、band 6.7%、segmented neutrophil 37.1%、lymphocyte 31.4%；血紅素 9.7 g/dL，血小板 55,000/µL，尿酸 12.1 mg/dL，LDH 2,342 U/L。骨髓細胞如圖（見非何杰金段的 FC 彩圖），染色體有 t(2;8)(p12;q24) 之變化。以下關於最可能疾病之診斷與治療，何者錯誤？（A 此病之機轉包含了 c-myc 之 deregulation B 此病之病程相當快速，必須儘早治療 C 此病之治療過程必須包含腦脊髓液之檢查與 intrathecal chemotherapy D 一般而言，此病之治療效果不佳，以目前之治療，長期存活率小於 3 成）（FC 108 年，收錄於戊章）",
+          "text": "**答：(D)。** FC 詳解：Burkitt lymphoma；含 rituximab + 高劑量 MTX／ara-C 的短程強化化療，成人 5 年整體存活率約 60–80%。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：一位淋巴瘤病人接受化學治療 CHOP（cyclophosphamide、adriamycin、vincristine 及 prednisolone）後出現指端麻木感，這個症狀最可能是哪種藥的副作用？（A cyclophosphamide B adriamycin C vincristine D prednisolone）（FC 105 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：惡性淋巴瘤病患接受 rituximab 治療時，下列何種疾病發生的機會最可能增加？（A 潰瘍性大腸炎 B 類風濕性關節炎 C 腎病症候群 D 進行性多發性白質腦病變（progressive multifocal leukoencephalopathy））（FC 113 年）",
+          "text": "**答：(D)。** FC 詳解：rituximab 的免疫抑制作用可能導致 JC 病毒再活化，引起 PML。"
+        },
+        {
+          "type": "heading",
+          "text": "CLL（§CLL）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：慢性淋巴性白血病（CLL）的病人，具有下列何種的染色體變異，有較佳的預後？（A del(13)(q14.3) B del(11)(q22.3) C trisomy 12 D del(17)(p13.1)）（FC 112 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：慢性淋巴性白血病（CLL）的特徵，何者錯誤？（A 病人周邊血中 clonal B cells 5,000/µL 以上，是診斷 CLL 的重要依據 B 初步診斷時有貧血的病人，比沒有貧血的病人預後較佳 C 其周邊血液抹片常可看到泥細胞（smudge cell）D 丙型球蛋白（gamma globulin）的降低是常見表現之一）（FC 111 年）",
+          "text": "**答：(B)。** FC 詳解：CLL 病人若已有貧血，通常代表疾病進展較快，預後較差。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：一位 65 歲男性，白血球高達 160,000/µL、血紅素 12.7 g/dL、血小板 165,000/µL，分類 segmented neutrophil 14%、lymphocyte 80.3%，細胞如圖（見 CLL 段的 FC 彩圖）。這些淋巴球表達 CD19、CD5、dim CD20、CD23、dim kappa light chain restriction，而 CD10 與 CD34 均陰性。以下何者錯誤？（A 典型的周邊血液抹片常出現 basket cells 或 smudge cells B 大多數的病人需要接受高劑量化學治療與異體造血幹細胞移植，以得到長期的存活 C 有些病人會合併有 autoimmune thrombocytopenia 或 autoimmune hemolytic anemia D 此類病人一開始通常無明顯與此病相關的症狀，而是偶然抽血檢驗血球數據時才發現此病）（FC 108 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：下列有關慢性淋巴性白血病（CLL）的敘述，何者錯誤？（A 周邊血淋巴芽細胞數量超過 5 × 10⁹/L B 免疫細胞染色展現白血病細胞上 T 細胞抗原 CD5 和 B 細胞抗原 CD23 均為陽性 C 西方國家成人最常見白血病 D 常見於老年人）（FC 105 年）",
+          "text": "**答：(A)。** FC 詳解：核心診斷條件是外周血單株**成熟** B 淋巴球 ≥ 5 × 10⁹/L，並持續至少 3 個月。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "淋巴結要切片",
+              "> 2 cm、鎖骨上、> 40 歲、硬或橡皮、不痛、持續；切除最大一顆，不先細針"
+            ],
+            [
+              "淋巴瘤 vs 轉移 vs 發炎",
+              "橡皮、可動、不痛 vs 硬、固定 vs 會痛"
+            ],
+            [
+              "HL vs NHL",
+              "RS 細胞（CD15、CD30）、相鄰擴散、縱膈、ABVD vs 跳躍、淋巴結外、R-CHOP"
+            ],
+            [
+              "Ann Arbor",
+              "I 單區；II 橫膈同側；III 橫膈兩側；IV 肝、骨髓；B 症狀 = 體重減輕 > 10%、發燒、盜汗"
+            ],
+            [
+              "IPI（APLES）",
+              "Age > 60、PS ≥ 2、LDH 高、Extranodal > 1、Stage III–IV"
+            ],
+            [
+              "何杰金",
+              "B 細胞來源；HIV 相關幾乎 EBV 陽性；結節硬化型最常見；微小變化腎病；治癒 > 85%"
+            ],
+            [
+              "何杰金晚期副作用",
+              "第二癌症（乳癌、白血病）、冠心病、甲狀腺低下、不孕（ABVD 少）"
+            ],
+            [
+              "染色體",
+              "t(14;18) 濾泡；t(11;14) 被套；t(8;14)、t(2;8) Burkitt；t(11;18) MALT"
+            ],
+            [
+              "CD5 陽性 B 細胞",
+              "CLL（CD23+）vs 被套（CD23−、cyclin D1+）"
+            ],
+            [
+              "濾泡型",
+              "惰性、無症狀觀察、BR；每年 3% 轉化 DLBCL"
+            ],
+            [
+              "DLBCL",
+              "最常見、R-CHOP 約 65–70% 治癒；復發 CAR-T 或自體移植"
+            ],
+            [
+              "Burkitt",
+              "MYC、星空、倍增 < 24 h、立即治療 + CNS 預防、80–90% 治癒"
+            ],
+            [
+              "MALT",
+              "胃、H. pylori 除菌；Sjögren、橋本"
+            ],
+            [
+              "病毒相關",
+              "EBV（Burkitt、HL、NK/T）、HTLV-1（ATLL）、HHV-8、HCV（脾邊緣區）"
+            ],
+            [
+              "副作用",
+              "vincristine 神經；doxorubicin 心；bleomycin 肺；cyclophosphamide 出血性膀胱炎；rituximab B 肝、PML"
+            ],
+            [
+              "CLL 診斷",
+              "成熟 B 淋巴球 ≥ 5000 × 3 個月；CD5、CD23 陽性；smudge cell"
+            ],
+            [
+              "CLL 預後",
+              "del(13q) 好；del(17p)／TP53、IGHV 未突變、貧血、血小板低差"
+            ],
+            [
+              "CLL 治療",
+              "無症狀觀察；BTK 抑制劑或 venetoclax + obinutuzumab"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
