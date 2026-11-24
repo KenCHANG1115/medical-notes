@@ -4,261 +4,612 @@
   "title_en": "Confusion / Decreased Level of Consciousness",
   "title_zh": "意識不清",
   "specialty": "值班守則",
-  "sources": [
-    "Harrison's 22e - Ch.27 Confusion and Delirium, Ch.300-301 Coma",
-    "On Call Principles and Protocols Survival Guide Ver2 - Chap 08",
-    "First Choice 醫學(三) - 意識障礙"
-  ],
   "generated": "2026-09-15",
-  "sections": [
+  "updated": "2026-11-25",
+  "sources": [
+    "Harrison's 22e - Ch.27 Confusion and Delirium (p.182–186)、Ch.30 Coma (p.186–192)、Ch.318 Nervous System Disorders in Critical Care (Table 318-2 ICP, p.2345)、Ch.143 Meningitis (p.1121–1123)、Ch.56 低鈉 (p.350–351)、Ch.467 Opioid (Table 467-2, p.3690–3691)、Wernicke (p.2349)、酒精戒斷 (p.3679–3680)、Ch.355 肝性腦病變 (p.2717)、Ch.13 Table 13-7 (p.86)",
+    "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）- Confusion／Decreased Level of Consciousness (p.98–101)",
+    "劑型依院內品項；約束依院內作業規範"
+  ],
+  "related": [
     {
-      "title": "Overview / 初步分類",
-      "content": [
-        "值班接到 confusion/意識改變的 call 時，第一步是分清楚病人屬於哪種意識障礙：",
-        {"type": "table", "headers": ["分類", "定義", "臨床特徵"], "rows": [
-          ["Delirium (譫妄)", "急性、波動性的注意力與認知障礙", "Acute onset、注意力不集中、fluctuating course、常有 underlying cause"],
-          ["Dementia (失智)", "慢性、進行性的認知功能退化", "Gradual onset、記憶力下降、alert but impaired cognition"],
-          ["Drowsiness (嗜睡)", "可被喚醒但傾向入睡", "Arousable with verbal stimuli"],
-          ["Stupor (昏迷前期)", "僅對強烈刺激有反應", "Arousable only with vigorous/painful stimuli"],
-          ["Coma (昏迷)", "無法被喚醒、無意識", "Unarousable、no purposeful response"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**Delirium vs Dementia 最重要的鑑別**：\n- Delirium：**急性** onset、**注意力** 障礙為主、**波動性** 病程、通常 **可逆**\n- Dementia：**慢性** onset、**記憶力** 障礙為主、**持續性** 退化、通常 **不可逆**\n- 但 delirium 可以疊加在 dementia 之上 (delirium superimposed on dementia)"},
-        {"type": "heading", "text": "Glasgow Coma Scale (GCS)"},
-        {"type": "table", "headers": ["項目", "反應", "分數"], "rows": [
-          ["Eye Opening (E)", "Spontaneous / To voice / To pain / None", "4 / 3 / 2 / 1"],
-          ["Verbal Response (V)", "Oriented / Confused / Inappropriate words / Incomprehensible / None", "5 / 4 / 3 / 2 / 1"],
-          ["Motor Response (M)", "Obeys commands / Localizes pain / Withdrawal / Abnormal flexion / Extension / None", "6 / 5 / 4 / 3 / 2 / 1"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "**GCS 臨床判讀**：\n- GCS 15：完全清醒\n- GCS 13-14：輕度意識障礙\n- GCS 9-12：中度意識障礙\n- GCS ≤ 8：**嚴重 → 考慮 intubation 保護呼吸道**\n- GCS 3：最低分（deep coma）"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "Ch.300-301"}
-      ]
+      "id": "oncall-potassium-disorders",
+      "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
     },
     {
-      "title": "值班第一時間處置",
-      "content": [
-        {"type": "callout", "style": "trap", "text": "**接到 confusion call 第一步永遠是**：\n1. **Check vital signs**（BP, HR, RR, SpO2, Temperature）\n2. **One touch check sugar**（排除低血糖！）\n3. **調整 O2** 維持 SpO2 ≥ 94%\n4. **確認 airway** — GCS ≤ 8 要考慮 intubation"},
-        {"type": "heading", "text": "More Information（快速釐清背景）"},
-        {"type": "list", "ordered": true, "items": [
-          "分清楚是 delirium、dementia、還是 decreased consciousness",
-          "過去是否有類似情形",
-          "Check underlying disease：DM (hypoglycemia)、Cardiovascular disease (syncope)",
-          "目前用藥清單 — 特別注意 sedatives、opioids、psychotropics",
-          "Sudden or gradual onset — **sudden** decrease 通常是 drug ingestion 或 acute intracranial catastrophe (hemorrhage, trauma)"
-        ]},
-        {"type": "heading", "text": "經驗性給藥 (Coma Cocktail)"},
-        {"type": "table", "headers": ["藥物", "劑量", "適應症", "注意事項"], "rows": [
-          ["Glucose (50% Dextrose)", "50 mL IV push", "低血糖", "One touch 確認；DM 患者低血糖最常見且最危險"],
-          ["Thiamine (Vitamin B1)", "100 mg IV (slowly over 5 min)", "Wernicke encephalopathy", "**必須在 glucose 之前或同時給**，避免誘發 Wernicke"],
-          ["Naloxone (Narcan)", "0.2-2 mg IV every 5 min (max 10 mg)", "Opioid overdose", "注意 opioid withdrawal 症狀；短效，需觀察 re-sedation"],
-          ["Flumazenil (Romazicon)", "0.2 mg IV over 15 sec", "BZD overdose", "有 seizure 風險 — **不建議常規使用**，僅確定 BZD 才給"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**Thiamine 必須在 Glucose 之前給！**\n缺乏 thiamine 的病人（酗酒、營養不良）如果先給 glucose，會消耗剩餘的 thiamine → 誘發或加重 **Wernicke encephalopathy**（confusion + ophthalmoplegia + ataxia）"},
-        {"type": "source", "book": "On Call Survival Guide", "pages": "98-101"}
-      ]
+      "id": "electrolyte-disorders",
+      "name": "Electrolyte Disorders (一)：鈉與水"
     },
     {
-      "title": "鑑別診斷：AEIOU-TIPS",
-      "content": [
-        "AEIOU-TIPS 是值班快速想 confusion 原因的經典口訣，搭配 Harrison's 的分類框架一起使用：",
-        {"type": "table", "headers": ["字母", "病因", "臨床線索 / 備註"], "rows": [
-          ["A", "**Alcohol** / Acidosis / Arrhythmia", "Alcohol：intoxication、early withdrawal、delirium tremens 三階段\nAcidosis：DKA、lactic acidosis、uremic acidosis\nArrhythmia：低灌流 → 腦部缺氧"],
-          ["E", "**Encephalopathy** / Electrolytes / Endocrine / Environmental", "Hepatic encephalopathy (asterixis)、hypertensive encephalopathy\nNa⁺、Ca²⁺ 異常\nThyroid storm / myxedema coma\nHeat stroke / hypothermia"],
-          ["I", "**Insulin** (Hypoglycemia / DKA / HHS)", "低血糖是最常見且最容易處理的原因 → one touch 第一優先\nDKA：Kussmaul breathing、fruity breath\nHHS：extreme hyperglycemia > 600 + dehydration"],
-          ["O", "**Opiates** / Oxygen deprivation", "Opioid：pinpoint pupils + respiratory depression → naloxone\nHypoxia：SpO2 下降、cyanosis、COPD with CO₂ retention"],
-          ["U", "**Uremia**", "Uremic encephalopathy：asterixis、myoclonus\nCheck BUN/Cr → 可能需要緊急透析"],
-          ["T", "**Trauma** / Toxins / Temperature", "Subdural / epidural hematoma（特別是老人跌倒後）\nCO poisoning、cyanide\nHypothermia < 32°C / heat stroke > 40°C"],
-          ["I", "**Infection** / Increased ICP", "Meningitis (fever + neck stiffness + AMS)\nEncephalitis (HSV → temporal lobe)\nBrain abscess\nICP 上升：Cushing triad (HTN + bradycardia + irregular breathing)"],
-          ["P", "**Psychosis** / Poisoning / Porphyria", "Psychiatric 是 diagnosis of exclusion — 必須先排除 organic cause\nAcute intermittent porphyria：abdominal pain + AMS + dark urine"],
-          ["S", "**Stroke** / Shock / Seizure", "Stroke：focal neurological deficits → CT stat\nShock：hypotension + poor perfusion\nPostictal state：seizure 後的暫時性意識不清"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "**AEIOU-TIPS 的使用方式**：\n- 接到 call 時用口訣快速 **scan 所有可能原因**，確保不遺漏\n- 再用 Harrison's 的框架 **Structural vs Metabolic** 分類來 **縮小範圍**：\n  → Focal signs (+) → Structural（CT/MRI 優先）\n  → Focal signs (-) + bilateral symmetric → Metabolic/Toxic（Lab 優先）"},
-        {"type": "source", "book": "On Call Survival Guide", "pages": "98-99"}
-      ]
+      "id": "acid-base-disorders",
+      "name": "Acid-Base Disorders (酸鹼平衡異常)"
     },
     {
-      "title": "Structural vs Metabolic 鑑別框架",
-      "content": [
-        "Harrison's 強調的系統性 approach：用神經學檢查來區分 structural 和 metabolic 原因。",
-        {"type": "table", "headers": ["特徵", "Structural (結構性)", "Metabolic / Toxic (代謝性)"], "rows": [
-          ["Onset", "常 sudden（stroke、hemorrhage）", "常 gradual（例外：hypoglycemia 可 sudden）"],
-          ["Focal signs", "**通常有**：hemiparesis、aphasia、visual field defect", "**通常無**：bilateral symmetric findings"],
-          ["Pupils", "**不對稱**：anisocoria、fixed dilated (herniation)", "**對稱**：bilateral reactive（例外：opioid pinpoint、atropine dilated）"],
-          ["Eye movements", "可能有 gaze deviation、CN III/VI palsy", "通常 roving conjugate movements"],
-          ["Motor", "Lateralizing signs：單側 weakness", "Symmetric：bilateral tremor、asterixis、myoclonus"],
-          ["優先檢查", "**CT/MRI stat**", "**Lab panel stat**"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "**瞳孔反射是最重要的鑑別線索之一**：\n- Metabolic coma → 瞳孔反射通常 **preserved**（即使深度昏迷）\n- Structural coma → 瞳孔反射常 **abnormal**\n- 例外：Opioid → bilateral pinpoint but reactive；Atropine/anticholinergic → bilateral fixed dilated"},
-        {"type": "heading", "text": "瞳孔與腦幹定位"},
-        {"type": "table", "headers": ["瞳孔表現", "定位", "可能原因"], "rows": [
-          ["Unilateral dilated, fixed", "Ipsilateral CN III compression", "Uncal herniation、PCA aneurysm"],
-          ["Bilateral mid-position, fixed", "Midbrain lesion", "Central herniation、basilar artery occlusion"],
-          ["Bilateral pinpoint, reactive", "Pontine lesion", "Pontine hemorrhage（也見於 opioid OD）"],
-          ["Bilateral dilated, fixed", "Bilateral CN III / diffuse", "Severe anoxia、anticholinergic toxicity、brain death"]
-        ]},
-        {"type": "heading", "text": "呼吸型態與定位"},
-        {"type": "table", "headers": ["呼吸型態", "定位", "說明"], "rows": [
-          ["Cheyne-Stokes", "Bilateral hemispheric / early diencephalic", "漸強漸弱的週期性呼吸"],
-          ["Central neurogenic hyperventilation", "Midbrain / upper pons", "持續深快呼吸（需排除 metabolic acidosis）"],
-          ["Apneustic breathing", "Lower pons", "吸氣末暫停"],
-          ["Ataxic (Biot) breathing", "Medulla", "不規則呼吸 → 即將呼吸停止"],
-          ["Kussmaul breathing", "Metabolic (非結構性)", "深大呼吸 → DKA、metabolic acidosis"]
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "Ch.300-301"}
-      ]
+      "id": "epilepsy-treatment-status",
+      "name": "Epilepsy (二)：治療、重積狀態與手術"
     },
     {
-      "title": "Bedside 系統性評估",
-      "content": [
-        {"type": "callout", "style": "guideline", "text": "**On call PE 重點** — 不需要做 full PE，做 selective PE 找線索："},
-        {"type": "table", "headers": ["系統", "檢查重點", "臨床意義"], "rows": [
-          ["Vitals", "HTN + bradycardia", "Rising ICP (Cushing reflex)"],
-          ["Vitals", "Hypothermia", "Myxedema coma、alcohol/barbiturate/phenothiazine intoxication"],
-          ["Vitals", "高燒", "Meningitis、encephalitis、sepsis、heat stroke"],
-          ["HEENT", "Subhyaloid hemorrhage (眼底)", "SAH"],
-          ["HEENT", "Conjunctival/fundal petechiae", "Fat embolism syndrome"],
-          ["HEENT", "Lacerated tongue or cheek", "Postictal state (seizure 後咬傷)"],
-          ["HEENT", "Goiter", "Thyroid storm / myxedema coma"],
-          ["HEENT", "Neck stiffness", "Meningitis、SAH → Kernig/Brudzinski sign"],
-          ["Respiratory", "Cyanosis", "Hypoxia"],
-          ["Respiratory", "Barrel chest", "COPD with hypoxia or hypercapnia"],
-          ["Respiratory", "Bibasilar crackles", "CHF with pulmonary edema → hypoxia"],
-          ["CVS", "Elevated JVP + S3 + pitting edema", "CHF → hypoxia → confusion"],
-          ["Abdomen", "Liver tenderness、ascites、caput medusae", "Liver failure → hepatic encephalopathy"],
-          ["Abdomen", "CVA tenderness", "Pyelonephritis → sepsis"],
-          ["Neuro", "Argyll Robertson pupils", "Neurosyphilis (accommodate but don't react)"],
-          ["Neuro", "Asterixis (flapping tremor)", "Hepatic / uremic encephalopathy"],
-          ["Neuro", "Cranial nerve palsies", "Lyme disease、brainstem lesion"],
-          ["Skin", "Petechiae (axilla, neck, chest)", "Fat embolism syndrome"],
-          ["Skin", "Cherry-red skin", "CO poisoning"]
-        ]},
-        {"type": "heading", "text": "Lab 檢查清單"},
-        {"type": "table", "headers": ["檢查", "目的", "異常提示"], "rows": [
-          ["Blood glucose", "低血糖 / 高血糖", "最優先！Hypoglycemia 是最可逆的原因"],
-          ["BUN / Creatinine", "腎功能", "Uremic encephalopathy"],
-          ["LFT (AST/ALT/Bilirubin/NH3)", "肝功能", "Hepatic encephalopathy (↑ ammonia)"],
-          ["Na⁺", "電解質", "Hyponatremia < 120 或 hypernatremia > 160 → AMS"],
-          ["Ca²⁺", "電解質", "Hypercalcemia → stones, bones, groans, moans"],
-          ["CBC + differential", "感染 / 貧血", "WBC ↑ → infection；severe anemia → hypoxia"],
-          ["ABG", "氧合 / 酸鹼", "Hypoxia、CO₂ retention、metabolic acidosis"],
-          ["TSH / free T4", "甲狀腺功能", "Myxedema coma / thyroid storm"],
-          ["Drug levels", "藥物中毒", "Lithium、aspirin、antiepileptics、digoxin"],
-          ["Urine toxicology", "毒物篩檢", "Opioids、BZD、amphetamines、cocaine"],
-          ["Cortisol", "腎上腺功能", "Adrenal crisis → hypotension + AMS"],
-          ["Blood culture", "Sepsis", "若有 fever + AMS"],
-          ["LP (lumbar puncture)", "Meningitis / encephalitis / SAH", "Fever + neck stiffness + AMS → 需先排除 ICP 上升"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**LP 之前必須先做 CT！**\n如果懷疑 ICP 上升（papilledema、focal signs、recent trauma），直接做 LP 可能導致 **腦疝 (herniation)**。\n例外：高度懷疑 bacterial meningitis 且 CT 會延遲 → 先給經驗性抗生素 (Ceftriaxone + Vancomycin)，再做 CT → 再做 LP"},
-        {"type": "source", "book": "On Call Survival Guide", "pages": "99-101"}
-      ]
+      "id": "stroke-ischemic-acute",
+      "name": "Stroke (一)：缺血性中風急性處置與 TIA"
     },
     {
-      "title": "常見病因的處置",
-      "content": [
-        {"type": "heading", "text": "Delirium Tremens (酒精戒斷譫妄)"},
-        {"type": "callout", "style": "guideline", "text": "**Alcohol withdrawal timeline**：\n- 6-12h：tremor、anxiety、GI upset、tachycardia\n- 12-24h：visual/auditory hallucinations\n- 24-48h：**withdrawal seizures**\n- 48-96h：**Delirium tremens** (mortality 5-15% if untreated)\n\n**處置**：\n- **Diazepam (Valium) 5-10 mg IV** over ≥ 1 min, every 5-15 min PRN\n- 或 Lorazepam 2-4 mg IV (肝功能差時首選)\n- **Thiamine 100 mg IV** daily × 3 days（預防 Wernicke）\n- Supportive：IV fluid、electrolyte correction、monitoring"},
-        {"type": "heading", "text": "Drug Overdose / Intoxication"},
-        {"type": "table", "headers": ["毒物", "解毒劑", "劑量", "注意事項"], "rows": [
-          ["Opioid", "Naloxone (Narcan)", "0.2-2 mg IV/IM q5min (max 10mg)", "短效 → 需觀察 re-sedation；可能誘發 withdrawal"],
-          ["BZD", "Flumazenil (Romazicon)", "0.2 mg IV over 15 sec", "有 seizure 風險 → 不建議常規使用"],
-          ["Acetaminophen", "N-acetylcysteine (NAC)", "依 Rumack-Matthew nomogram", "超過 4 小時才驗 level"],
-          ["Organophosphate", "Atropine + Pralidoxime", "Atropine 2 mg IV q5min", "SLUDGE (Salivation, Lacrimation, Urination, Defecation, GI, Emesis)"],
-          ["CO poisoning", "100% O₂ → consider HBO", "Non-rebreather mask", "Cherry-red skin、headache → check COHb level"]
-        ]},
-        {"type": "heading", "text": "Meningitis（高度懷疑時）"},
-        {"type": "callout", "style": "guideline", "text": "**經驗性抗生素不要等！**\n- Fever + neck stiffness + AMS → 高度懷疑 bacterial meningitis\n- **Ceftriaxone 2g IV q12h + Vancomycin 15-20 mg/kg IV q8-12h**\n- 年齡 > 50 歲或免疫低下 → **加 Ampicillin** (cover Listeria)\n- **Dexamethasone 0.15 mg/kg IV q6h × 4 days**（在抗生素前 or 同時給 → 減少 hearing loss）"},
-        {"type": "heading", "text": "Seizure / Postictal State"},
-        {"type": "list", "ordered": false, "items": [
-          "Postictal confusion 通常 **30 分鐘至數小時** 自行恢復",
-          "如果 postictal 超過 30 min 仍未改善 → 考慮 **non-convulsive status epilepticus** → 需 EEG",
-          "Active seizure → **Lorazepam 4 mg IV**，可重複一次",
-          "Check glucose、electrolytes、AED levels"
-        ]},
-        {"type": "heading", "text": "其他常見處置"},
-        {"type": "table", "headers": ["情境", "處置重點"], "rows": [
-          ["Hypoglycemia", "D50W 50 mL IV push → recheck glucose in 15 min → 找原因 (insulin dose? meal skipped?)"],
-          ["Hepatic encephalopathy", "Lactulose 30 mL PO/NG q2h until bowel movement → then TID；Rifaximin 550 mg BID"],
-          ["Hyponatremia (severe)", "3% NaCl 100 mL IV over 10 min (可重複 ×2)；correction rate < 8 mEq/24h"],
-          ["Uremic encephalopathy", "Nephrology consult → emergent dialysis"],
-          ["Stroke", "CT stat → if ischemic within 4.5h → tPA (Alteplase 0.9 mg/kg)；見 Stroke 章節"],
-          ["Increased ICP", "HOB elevation 30°、Mannitol 1 g/kg IV、Hyperventilation (short-term) → Neurosurgery consult"],
-          ["Mania / Psychosis", "Haloperidol 0.25-10 mg PO/IM q4-6h；排除 organic cause 後才能歸因於 psychiatric"]
-        ]},
-        {"type": "source", "book": "On Call Survival Guide + Harrison's 22e", "pages": "101, Ch.27"}
-      ]
+      "id": "cirrhosis-ascites-he-transplant",
+      "name": "Cirrhosis (二)：腹水、SBP、肝腎症候群、肝性腦病變與肝移植"
     },
     {
-      "title": "Herniation Syndromes",
-      "content": [
-        "Structural lesion 導致 ICP 上升的最危急併發症。辨識 herniation 的早期徵兆是值班的關鍵能力。",
-        {"type": "table", "headers": ["類型", "機轉", "臨床表現"], "rows": [
-          ["Uncal (Transtentorial)", "Temporal lobe 向下壓迫 CN III + midbrain", "**Ipsilateral pupil dilation (blown pupil)** → contralateral hemiparesis → progressive coma"],
-          ["Central (Diencephalic)", "Bilateral downward herniation through tentorium", "Bilateral small reactive pupils → mid-position fixed → bilateral posturing"],
-          ["Subfalcine", "Cingulate gyrus under falx cerebri", "Contralateral leg weakness (ACA compression)；relatively preserved consciousness early"],
-          ["Tonsillar", "Cerebellar tonsils through foramen magnum", "**Sudden respiratory arrest** + hemodynamic instability；最致命"],
-          ["Upward (Reverse)", "Posterior fossa mass pushes cerebellum upward", "Bilateral pinpoint pupils → rapid deterioration"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**Uncal herniation 的經典進程 (考試 + 臨床都重要)**：\n1. Ipsilateral CN III palsy → **pupil dilation** (最早期 sign)\n2. Ipsilateral CN III complete → ptosis + \"down and out\" eye\n3. Contralateral cerebral peduncle compression → **ipsilateral** hemiparesis (Kernohan notch — **false localizing sign**)\n4. Midbrain compression → bilateral fixed dilated pupils → coma → death"},
-        {"type": "callout", "style": "guideline", "text": "**Herniation 的緊急處置**：\n- **Mannitol 1-1.5 g/kg IV bolus** (20% solution)\n- **Hyperventilation**：target PaCO₂ 30-35 mmHg (短期措施)\n- **HOB elevation 30°**\n- **Neurosurgery STAT consult**\n- Avoid hypotension、hyperthermia、seizures"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "Ch.300-301"}
-      ]
-    },
-    {
-      "title": "Delirium 深入探討",
-      "content": [
-        {"type": "heading", "text": "Delirium 的危險因子"},
-        {"type": "table", "headers": ["Predisposing (易感因子)", "Precipitating (誘發因子)"], "rows": [
-          ["Age ≥ 65", "感染 (UTI, pneumonia 最常見)"],
-          ["Pre-existing dementia", "藥物 (opioids, BZD, anticholinergics)"],
-          ["多重共病", "手術 / 麻醉後"],
-          ["視力或聽力障礙", "疼痛控制不佳"],
-          ["Baseline functional impairment", "Sleep deprivation / ICU environment"],
-          ["Polypharmacy", "Urinary retention / constipation"],
-          ["Alcoholism", "Electrolyte abnormalities / dehydration"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "**Delirium 的核心概念**：\n- 通常是 **多因素** 造成：vulnerable patient + precipitating event\n- 住院老人 delirium 發生率 **14-56%**\n- Delirium 增加 **死亡率**、延長住院天數、加速認知退化\n- **Hypoactive delirium**（安靜型）比 hyperactive 更常見但更容易被忽略"},
-        {"type": "heading", "text": "CAM (Confusion Assessment Method)"},
-        {"type": "callout", "style": "guideline", "text": "**CAM 診斷 Delirium 需要同時滿足 (1)+(2) 加上 (3) 或 (4)**：\n1. **Acute onset + fluctuating course**\n2. **Inattention** (e.g., 無法從 100 往回減 7)\n3. **Disorganized thinking** (語無倫次)\n4. **Altered level of consciousness** (非 alert)\n\nCAM 的 sensitivity 94-100%、specificity 90-95%"},
-        {"type": "heading", "text": "Delirium 的非藥物處置 (最重要！)"},
-        {"type": "list", "ordered": false, "items": [
-          "**辨識並治療根本原因** — 最重要的一步",
-          "**重新定向**：時鐘、日曆、家屬照片、反覆告知時間地點",
-          "**Sleep hygiene**：減少夜間干擾、白天保持光線",
-          "**Early mobilization**：避免不必要的約束與臥床",
-          "**感官輔助**：確保眼鏡和助聽器在身邊",
-          "**避免 delirium-inducing drugs**：停用不必要的 BZD、anticholinergics、opioids",
-          "**Hydration & nutrition**：確保進食飲水"
-        ]},
-        {"type": "heading", "text": "藥物處置 (僅用於嚴重 agitation 威脅安全時)"},
-        {"type": "table", "headers": ["藥物", "劑量", "備註"], "rows": [
-          ["Haloperidol", "0.25-0.5 mg PO/IM q4-6h", "First-line for hyperactive delirium；注意 QTc prolongation"],
-          ["Quetiapine", "12.5-25 mg PO BID", "Parkinsonism 患者的替代選擇"],
-          ["Dexmedetomidine", "0.2-0.7 mcg/kg/hr IV", "ICU 用；不抑制呼吸"],
-          ["Avoid BZD", "—", "BZD 會加重 delirium（例外：alcohol withdrawal）"]
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "Ch.27"}
-      ]
-    },
-    {
-      "title": "Special Situations",
-      "content": [
-        {"type": "collapsible", "summary": "Wernicke Encephalopathy (Thiamine Deficiency)", "text": "**Classic Triad** (完整出現僅 16%)：\n1. **Confusion / AMS**\n2. **Ophthalmoplegia** (CN VI palsy 最常見 → lateral gaze palsy)\n3. **Ataxia** (cerebellar dysfunction)\n\n**高風險族群**：酗酒、長期營養不良、bariatric surgery 後、hyperemesis gravidarum、prolonged IV fluid without thiamine\n\n**處置**：\n- **Thiamine 500 mg IV TID × 2-3 天** → 然後 250 mg IV daily × 3-5 天\n- **必須在 glucose 之前給**\n- 如果未治療 → 進展為 **Korsakoff syndrome** (不可逆的 anterograde amnesia + confabulation)"},
-        {"type": "collapsible", "summary": "Hepatic Encephalopathy 分級與處置", "text": "**West Haven 分級**：\n- **Grade 0**：Minimal — 僅神經心理測試異常\n- **Grade 1**：Mild — 注意力差、sleep disturbance、asterixis 可能有\n- **Grade 2**：Moderate — Lethargy、obvious asterixis、disorientation\n- **Grade 3**：Severe — Somnolence、marked confusion、responsive to pain\n- **Grade 4**：Coma — unresponsive\n\n**誘發因子 (值班重點！找出 trigger)**：\n- GI bleeding (最常見)、infection/SBP、constipation\n- Hypokalemia、alkalosis、dehydration\n- Excess protein intake、sedatives (BZD)\n\n**處置**：\n- **Lactulose 30 mL PO/NG q1-2h** until bowel movement → then 15-30 mL TID (goal 2-3 soft stools/day)\n- **Rifaximin 550 mg BID** (add-on to lactulose for recurrent episodes)\n- 找出並治療 precipitant\n- 限蛋白質 (controversial — 目前不建議嚴格限制)"},
-        {"type": "collapsible", "summary": "Non-Convulsive Status Epilepticus (NCSE)", "text": "**何時懷疑**：\n- 意識改變找不到明確原因\n- Postictal state 超過 30 分鐘仍未改善\n- 不明原因的 subtle eye twitching、lip smacking\n- Refractory confusion in ICU patients\n\n**診斷**：\n- **EEG** 是唯一確診方式\n- 可能表現為 continuous seizure activity without overt convulsion\n\n**處置**：\n- **Lorazepam 4 mg IV** → 如果 EEG 改善即確診\n- 後續 AED loading：Levetiracetam 或 Valproate\n- Neurology consult"},
-        {"type": "collapsible", "summary": "ICU Delirium", "text": "**流行病學**：ICU 患者 delirium 發生率 **60-80%**\n\n**危險因子**：\n- Mechanical ventilation、sedation (especially BZD)\n- Sleep deprivation、immobilization\n- Sepsis、multi-organ failure\n\n**ABCDEF Bundle (ICU delirium prevention)**：\n- **A**ssess, prevent, and manage pain\n- **B**oth spontaneous awakening and breathing trials\n- **C**hoice of sedation (avoid BZD → prefer Propofol or Dexmedetomidine)\n- **D**elirium monitoring (CAM-ICU)\n- **E**arly mobility and exercise\n- **F**amily engagement and empowerment"}
-      ]
-    },
-    {
-      "title": "Clinical Practice / 值班實戰",
-      "content": [
-        {"type": "heading", "text": "值班 Confusion Call 的 SOP"},
-        {"type": "callout", "style": "guideline", "text": "**Step-by-step approach**：\n1. **到場**：Check airway、vital signs、one touch glucose\n2. **分類**：是 delirium？drowsiness？coma？\n3. **Scan AEIOU-TIPS**：快速想有沒有漏掉的 life-threatening cause\n4. **Neuro exam**：瞳孔、focal signs → Structural vs Metabolic\n5. **Selective PE**：HEENT、lung、abdomen、skin 找線索\n6. **Lab**：glucose, BMP, LFT, CBC, ABG, UA, drug levels\n7. **經驗性給藥**：Thiamine → D50W → Naloxone (if indicated)\n8. **Image**：有 focal signs → CT stat；fever + neck stiffness → CT before LP\n9. **Call for help**：GCS ≤ 8 → 通知 senior / ICU；focal signs → Neurology / Neurosurgery\n10. **Document**：記錄 GCS、pupil size/reactivity、motor response、interventions"},
-        {"type": "heading", "text": "臨床案例練習"},
-        {"type": "collapsible", "summary": "Case 1：72 歲男性，住院第 3 天夜間突然躁動、拔管線、語無倫次", "text": "**分析**：\n- 住院病人 + acute onset + 夜間加重 + inattention → **Delirium**\n- 誘發因子 checklist：\n  → 感染？(check UA, CXR, fever)\n  → 藥物？(新加的 opioid? BZD? anticholinergic?)\n  → 電解質？(Na⁺, K⁺, Ca²⁺)\n  → 尿滯留/便秘？(check bladder scan, last BM)\n  → Sleep deprivation?\n\n**處置**：\n- 先確保安全（不要約束為第一選擇）\n- 找並治療 precipitant\n- 非藥物措施優先\n- 如果嚴重 agitation 威脅安全 → Haloperidol 0.5 mg IM"},
-        {"type": "collapsible", "summary": "Case 2：55 歲男性，有 liver cirrhosis 病史，家屬說今天開始講話怪怪的、反應變慢", "text": "**分析**：\n- Liver cirrhosis + gradual confusion → 首先考慮 **Hepatic encephalopathy**\n- Check for precipitants：\n  → GI bleeding？(check stool OB, Hb)\n  → Infection/SBP？(fever? abdominal pain? → diagnostic paracentesis)\n  → Constipation？(last BM)\n  → Hypokalemia? Alkalosis? Dehydration?\n  → 有沒有給 BZD or sedatives?\n- 查 asterixis (flapping tremor)\n- Lab：ammonia, BMP, CBC, LFT\n\n**處置**：\n- **Lactulose 30 mL q1-2h** until bowel movement → then TID\n- 找出並治療 precipitant\n- 如果懷疑 SBP → diagnostic paracentesis → empiric Ceftriaxone"},
-        {"type": "collapsible", "summary": "Case 3：28 歲男性，酗酒史，住院第 2 天出現 tremor、大量出汗、看到蟲在牆壁上爬", "text": "**分析**：\n- 酗酒 + 住院 48h + tremor + diaphoresis + **visual hallucinations** → **Alcohol withdrawal** (progressing toward Delirium Tremens)\n- Timeline：目前在 12-48h 階段（hallucinations + autonomic hyperactivity）\n- 如果不處理 → 48-96h 可能進展為 Delirium Tremens (mortality 5-15%)\n\n**處置**：\n- **Diazepam 5-10 mg IV** q5-15min PRN (symptom-triggered)\n- 或 Lorazepam 2-4 mg IV (if liver concern)\n- **Thiamine 100 mg IV** daily × 3 days\n- Monitor with CIWA-Ar scale\n- IV fluids + electrolyte repletion (Mg²⁺, K⁺)\n- 注意 seizure precaution"},
-        {"type": "collapsible", "summary": "Case 4：60 歲女性，突然右側無力 + 意識混亂、左側瞳孔放大", "text": "**分析**：\n- Sudden onset + **focal signs** (right hemiparesis) + **unilateral pupil dilation** → **Structural cause**\n- Left pupil dilation → ipsilateral CN III compression → **uncal herniation**\n- 最可能：left-sided intracranial hemorrhage with uncal herniation\n\n**處置**：\n- **ABC + stabilize**\n- **CT head STAT** (不要做 LP！)\n- **Mannitol 1 g/kg IV bolus**\n- HOB elevation 30°\n- **Neurosurgery STAT consult**\n- 如果需要 intubation → avoid agents that raise ICP (ketamine controversial, use propofol/etomidate)"}
-      ]
+      "id": "localization-brainstem-cranial-nerves",
+      "name": "Localization (二)：腦幹與腦神經"
     }
   ],
-  "related": ["electrolyte-disorders", "acid-base-disorders"]
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人怪怪的／叫不醒」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**不管哪一種，先做這五件事（電話中就交代護理師）**\n1. **生命徵象**：BP、HR、RR、SpO₂、體溫\n2. **One-touch 血糖**——最常見、最好處理、最不能漏\n3. **給氧**維持 SpO₂ ≥ 94%（COPD、CO₂ 滯留者目標較低）；呼吸道不穩 → 側躺、抽痰\n4. **GCS 與瞳孔**（大小、對稱、光反射）\n5. **還沒看到病人前，不要先給鎮靜劑**"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**立刻到床邊 + 找學長姐／RRT 的紅旗**\n- **GCS ≤ 8** 或持續下降、呼吸變慢變淺、SpO₂ 掉\n- **瞳孔不等大**、新的單側無力或失語、頸部僵硬 + 發燒\n- **抽搐**、或抽搐後一直沒醒\n- **低血壓、心律不整**\n- **跌倒後**意識變差，尤其正在用**抗凝血劑**\n- 低血糖：先給糖；**酗酒、營養不良者 thiamine 必須在 glucose 之前或同時給**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.30 p.186–192"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Confusion p.98–101"
+        }
+      ]
+    },
+    {
+      "title": "電話中：要問什麼、可以先開什麼",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "問護理師",
+            "為什麼"
+          ],
+          "rows": [
+            [
+              "**平常**的意識與認知狀態？（失智？平常會講話嗎）",
+              "和 baseline 比才知道是不是新的變化"
+            ],
+            [
+              "**突然**還是**逐漸**？什麼時候開始？",
+              "突然 → 結構性（出血、中風）、低血糖、藥物、抽搐；逐漸 → 代謝、感染、譫妄"
+            ],
+            [
+              "是**叫不醒**，還是**躁動、混亂**？",
+              "決定走哪一條路（見下一節）"
+            ],
+            [
+              "生命徵象、血糖、SpO₂",
+              "缺氧、低血壓、低血糖先處理"
+            ],
+            [
+              "最近**新加或加量**的藥：鴉片類、BZD、安眠藥、抗膽鹼藥、抗組織胺、類固醇",
+              "藥物是住院病人最常見、最可逆的原因之一"
+            ],
+            [
+              "有沒有**跌倒**、撞到頭？用不用抗凝血劑？",
+              "硬腦膜下出血"
+            ],
+            [
+              "**發燒**、尿量、最後一次解便、有沒有尿管",
+              "感染、**尿滯留**、便秘都會誘發譫妄"
+            ],
+            [
+              "病人的主要疾病：糖尿病、肝硬化、CKD、酗酒、癌症、癲癇",
+              "直接指向高血糖或低血糖、肝性腦病變、尿毒、戒斷、高血鈣、發作後"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**電話中可以先下的 order**\n- **One-touch** 血糖；**SpO₂ 監測、給氧**\n- **生命徵象**、**GCS／瞳孔**每 15–30 分鐘（直到你到床邊）\n- 先**暫停**下一劑鎮靜劑、鴉片類、安眠藥\n- **防跌**：床欄、床放低、移走危險物；請家屬或看護陪伴\n- 低血糖 → 照院內低血糖流程先給糖（酗酒、營養不良者 **thiamine 先或同時**）\n- 告訴護理師：**GCS 再降、瞳孔變化、抽搐、血壓掉 → 立刻再打給我**"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Confusion p.98–101"
+        }
+      ]
+    },
+    {
+      "title": "走廊上想：先分兩條路，再排除致命原因",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "① 意識變差、叫不醒",
+            "② 躁動、混亂、譫妄"
+          ],
+          "rows": [
+            [
+              "樣子",
+              "嗜睡 → 混沌（stupor，只對痛有反應）→ 昏迷",
+              "**急性、起伏**的注意力與認知障礙；可以是**躁動型**，也可以是**安靜型**（更常見、更常被漏掉）"
+            ],
+            [
+              "先想",
+              "低血糖、缺氧／CO₂ 滯留、**藥物（鴉片、BZD）**、**顱內出血或中風**、抽搐後或非抽搐性癲癇重積、腦膜炎、嚴重代謝異常",
+              "**感染**（泌尿道、肺炎）、**藥物**、電解質、疼痛、**尿滯留、便秘**、缺氧、戒斷（酒精、BZD）、睡眠剝奪"
+            ],
+            [
+              "床邊重點",
+              "**瞳孔、局部徵象** → 結構性 vs 代謝性",
+              "**CAM** 確認譫妄 → 找誘因"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**不能漏的致命原因（先排除）**\n- **低血糖**：低血糖是最常見且最容易處理的原因 → one-touch 第一優先\n- **缺氧、高碳酸血症**（COPD、鴉片類）\n- **休克、低灌流、心律不整**\n- **顱內出血、中風、腦疝**（局部徵象、瞳孔不等大）\n- **腦膜炎、腦炎、敗血症**（發燒 + 頸部僵硬）\n- **抽搐後或非抽搐性癲癇重積**\n- **鴉片類過量**（針尖瞳孔 + 呼吸抑制）\n- **Wernicke 腦病變**（酗酒、營養不良）\n- **嚴重低鈉或高鈉、高血鈣**"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**快速掃描口訣 AEIOU-TIPS**（完整表在最後的延伸區）：Alcohol／Acidosis、Encephalopathy／Electrolytes／Endocrine、Insulin（血糖）、Opiates／Oxygen、Uremia、Trauma／Toxins／Temperature、Infection／ICP、Psychosis／Poisoning、Stroke／Shock／Seizure——**精神科永遠是排除診斷**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.27 p.182–186"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.30 p.186–188"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Confusion p.98–101"
+        }
+      ]
+    },
+    {
+      "title": "床邊評估：GCS、瞳孔、局部徵象、CAM",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**床邊順序（5 分鐘內）**\n1. **ABC**：呼吸道、呼吸型態、SpO₂、血壓、心律\n2. **GCS**（E4 V5 M6）；**≤ 8 → 考慮插管保護呼吸道**\n3. **瞳孔**：大小、對稱、光反射；**眼球位置**（偏向一側？）\n4. **局部徵象**：單側無力、臉歪、失語、Babinski\n5. **頸部僵硬**、發燒、皮疹\n6. **撲翼樣震顫**（肝、腎、CO₂）、肌躍症\n7. 有沒有咬舌、尿失禁（抽搐）、頭部外傷\n8. **譫妄**：用 **CAM**——①急性起病、起伏 + ②注意力不集中，再加 ③思考紊亂 或 ④意識程度改變\n9. **翻病歷**：給藥紀錄（MAR）中最近 24 小時的鎮靜／鴉片類、lab 趨勢、尿量、排便、入院原因"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "瞳孔（Harrison）",
+            "想到"
+          ],
+          "rows": [
+            [
+              "**單側放大、無反應**",
+              "同側動眼神經受壓 → **鉤迴腦疝**（急！）"
+            ],
+            [
+              "**兩側針尖、有反應**",
+              "**鴉片類**（對 naloxone 有反應）或**橋腦出血**"
+            ],
+            [
+              "兩側中等大小、固定",
+              "中腦病灶"
+            ],
+            [
+              "兩側放大、固定",
+              "嚴重缺氧、抗膽鹼藥、腦死"
+            ],
+            [
+              "**兩側對稱、反射正常**",
+              "**代謝或中毒**（即使深昏迷，瞳孔反射常保留）"
+            ]
+          ]
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：重點理學檢查：看到什麼想到什麼（On Call 手冊）",
+          "text": "- **Vitals**｜HTN + bradycardia → Rising ICP (Cushing reflex)\n- **Vitals**｜Hypothermia → Myxedema coma、alcohol/barbiturate/phenothiazine intoxication\n- **Vitals**｜高燒 → Meningitis、encephalitis、sepsis、heat stroke\n- **HEENT**｜Subhyaloid hemorrhage (眼底) → SAH\n- **HEENT**｜Conjunctival/fundal petechiae → Fat embolism syndrome\n- **HEENT**｜Lacerated tongue or cheek → Postictal state (seizure 後咬傷)\n- **HEENT**｜Goiter → Thyroid storm / myxedema coma\n- **HEENT**｜Neck stiffness → Meningitis、SAH → Kernig/Brudzinski sign\n- **Respiratory**｜Cyanosis → Hypoxia\n- **Respiratory**｜Barrel chest → COPD with hypoxia or hypercapnia\n- **Respiratory**｜Bibasilar crackles → CHF with pulmonary edema → hypoxia\n- **CVS**｜Elevated JVP + S3 + pitting edema → CHF → hypoxia → confusion\n- **Abdomen**｜Liver tenderness、ascites、caput medusae → Liver failure → hepatic encephalopathy\n- **Abdomen**｜CVA tenderness → Pyelonephritis → sepsis\n- **Neuro**｜Argyll Robertson pupils → Neurosyphilis (accommodate but don't react)\n- **Neuro**｜Asterixis (flapping tremor) → Hepatic / uremic encephalopathy\n- **Neuro**｜Cranial nerve palsies → Lyme disease、brainstem lesion\n- **Skin**｜Petechiae (axilla, neck, chest) → Fat embolism syndrome\n- **Skin**｜Cherry-red skin → CO poisoning"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.30 p.189–191"
+        },
+        {
+          "type": "source",
+          "book": "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+          "pages": "Confusion p.98–101"
+        }
+      ]
+    },
+    {
+      "title": "分流處置：結構性、代謝中毒性、譫妄",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "路線",
+            "判斷",
+            "馬上做"
+          ],
+          "rows": [
+            [
+              "**結構性**",
+              "**局部徵象**、**瞳孔不對稱**、眼球偏向、突然發生、頭部外傷",
+              "**STAT 頭部 CT**；穩定呼吸道；有腦疝徵象 → 降顱壓（見 order）、**神經外科**；符合時窗的缺血性中風 → 啟動中風流程"
+            ],
+            [
+              "**代謝／中毒性**",
+              "兩側對稱、瞳孔反射正常、撲翼樣震顫、肌躍症",
+              "**抽血**（見 order）、血氣；經驗性：**glucose（+ thiamine）**、疑鴉片類 → **naloxone**"
+            ],
+            [
+              "**感染（中樞）**",
+              "**發燒 + 頸部僵硬 + 意識改變**",
+              "**血液培養後立刻給經驗性抗生素 + dexamethasone**；可能顱壓高（局部徵象、乳突水腫、免疫低下、抽搐）→ **先 CT 再 LP**，但**不可因 CT 延遲抗生素**"
+            ],
+            [
+              "**抽搐**",
+              "正在抽、或抽完一直沒醒",
+              "BZD（lorazepam）；發作後超過 30 分鐘仍沒恢復 → 想**非抽搐性癲癇重積** → EEG、神經科"
+            ],
+            [
+              "**譫妄**",
+              "CAM 陽性、可以被喚醒",
+              "**找誘因**（感染、藥物、電解質、尿滯留、便秘、疼痛、缺氧、戒斷）→ **非藥物處置優先**；有傷害風險才用藥（見下一節）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼瞳孔是最重要的分流線索？**\n瞳孔的光反射由**中腦**控制，路徑對代謝毒性相當耐受——所以**代謝或藥物造成的昏迷，即使很深，瞳孔反射常常還在**、而且兩側對稱。相反地，**動眼神經或中腦被壓迫**（腦疝、出血）會讓瞳孔**不對稱、放大、失去反應**。所以「昏迷 + 瞳孔不對稱」幾乎等於結構性病灶，要馬上 CT；「昏迷 + 瞳孔對稱有反應」先抽血找代謝或中毒。例外：鴉片類（兩側針尖）、抗膽鹼藥（兩側放大）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.30 p.189–192"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.143 p.1121–1123"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "heading",
+          "text": "抽血與檢查（意識變差的基本組）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "- **Glucose**（one-touch + 血清）、**Na、K、Ca、Mg**、BUN／Cr、**肝功能 + NH₃**（肝病）、**CBC／DC**\n- **血氣（ABG 或 VBG）**：缺氧、CO₂ 滯留、酸鹼\n- **尿液常規**、需要時**尿液毒物篩檢**、**藥物濃度**（lithium、antiepileptics、digoxin、aspirin）\n- 發燒 → **血液培養 × 2**、尿液培養、胸部 X 光\n- 心電圖（心律不整、QT）\n- 依情況：TSH／free T4、cortisol、乙醇濃度\n- **局部徵象、瞳孔不對稱、頭部外傷、抗凝血劑 → STAT 頭部 CT（non-contrast）**"
+        },
+        {
+          "type": "heading",
+          "text": "藥物"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**低血糖**｜**D50W 50 mL IV**（25 g glucose），15 分鐘後重驗血糖\n- 劑型：依院內 50% 葡萄糖包裝換算\n- 注意：找原因（insulin、磺醯脲類、沒進食）；磺醯脲類可能反覆低血糖 → 持續點滴與追蹤"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**酗酒、營養不良（給糖時）**｜**Thiamine** 與 glucose **同時或之前**給（Harrison：避免誘發 Wernicke）\n- 劑型：依院內品項\n- 注意：常用 100 mg IV；疑似 Wernicke 改用下一列的高劑量"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**疑似 Wernicke 腦病變**｜**Thiamine 500 mg IV TID × 2–3 天** → 250 mg IV／IM 每天 × 5 天 → 口服 100 mg/d\n- 注意：醫療急症；**要在 IV 葡萄糖之前開始**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**疑似鴉片類過量**｜**Naloxone 0.4–2.0 mg IV／IM**（或經氣管內管），1–2 分鐘起效；無效可重複；必要時以有效劑量的 **1/2–2/3 每小時持續滴注**\n- 劑型：依院內品項\n- 注意：作用比多數鴉片類**短** → 觀察**再次鎮靜**；長期用鴉片者可能誘發戒斷；已插管者不必給"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**BZD 過量**｜**不常規給 flumazenil**；以支持性治療為主\n- 注意：BZD 依賴者可能誘發**戒斷性抽搐**；作用比多數 BZD 短"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**疑似細菌性腦膜炎**｜**Ceftriaxone 2 g IV q12h** + **vancomycin**（45–60 mg/kg/d，分 q6–12h，依血中濃度調整）；> 50 歲或有共病 → 加 **ampicillin 2 g IV q4h**\n- 劑型：依院內品項\n- 注意：**dexamethasone 10 mg IV q6h × 4 天**，在第一劑抗生素**之前或同時**；抽完血液培養就給，**不要等 CT 或 LP**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**腦疝、顱壓高**｜**床頭抬高、頭保持正中**；**mannitol 25–100 g IV q4h PRN**（血清滲透壓維持 < 320）或 **23.4% NaCl 30 mL** bolus；短期過度換氣 PaCO₂ 30–35\n- 劑型：20% mannitol：25–100 g = **125–500 mL**\n- 注意：**STAT 神經外科**；dexamethasone 只用於腫瘤或膿瘍的血管性水腫（外傷、中風不用）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**正在抽搐**｜**Lorazepam 0.1 mg/kg IV**（或 midazolam）→ 仍持續 → 靜脈抗癲癇藥\n- 劑型：依院內品項\n- 注意：同時驗血糖、電解質、抗癲癇藥濃度；細節見〈Epilepsy (二)〉"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**嚴重有症狀低鈉（抽搐、昏迷）**｜**3% NaCl 100 mL IV bolus**（比點滴有效），目標先升 **4–6 mEq/L**\n- 注意：慢性低鈉：第一個 24 小時**不超過 8–10**、48 小時不超過 18（滲透性去髓鞘）；**頻繁追蹤 Na**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**肝性腦病變**｜**Lactulose** 口服或鼻胃管，**滴定到每天 2–3 次軟便**\n- 劑型：依院內品項\n- 注意：找誘因：**腸胃道出血、感染（SBP）、便秘**、低鉀、鎮靜劑；可加 rifaximin（輔助）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**酒精戒斷**｜**Diazepam 10 mg PO q4–6h** 或 **chlordiazepoxide 25–50 mg PO q4–6h**（第一天），之後 5 天內逐步減量；病人在睡或姿勢性低血壓時暫停\n- 劑型：依院內品項\n- 注意：**肝病**改 **lorazepam**；先排除低血糖、缺氧；補 thiamine、鎂、鉀"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.30 p.192"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.318 p.2345"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 p.350–351"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.143 p.1121–1123"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.467 p.3690–3691"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.355 p.2717"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Wernicke 治療 p.2349；酒精戒斷 p.3679–3680"
+        }
+      ]
+    },
+    {
+      "title": "躁動與譫妄：非藥物優先、藥物與約束",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**第一步：找誘因並處理**（比鎮靜更重要）\n- 感染、藥物（BZD、抗膽鹼、鴉片類、類固醇）、電解質、缺氧、**疼痛**、**尿滯留**（膀胱超音波）、**便秘**、戒斷、睡眠剝奪\n**非藥物處置**\n- **重新定向**：時鐘、日曆、家屬照片、反覆告知時間地點\n- **眼鏡、助聽器**戴上；白天亮、夜間安靜少打擾\n- **家屬或看護陪伴**、床邊警報（Harrison：比約束有效、也比較不會讓病人更混亂）\n- 移除不必要的管路（尿管、點滴）、早期下床活動、補充水分與營養"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**藥物：只有在嚴重躁動、可能傷害自己或他人時**（Harrison）\n- **很低劑量的抗精神病藥 PRN**：如 **haloperidol 0.5–5 mg PO／IV／SC／IM，q2–12h**（Harrison 表）；**老人從最低劑量開始**\n- 臨床試驗一致顯示抗精神病藥**無法預防或治療譫妄**，且老人使用與**死亡率上升**有關 → 最後手段、短期使用\n- 注意 **QTc 延長**；**帕金森病人避免 haloperidol**（改低劑量非典型抗精神病藥，依藥師建議）\n- **避免 BZD**——會讓譫妄更糟；**例外：酒精或 BZD 戒斷**"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**約束：開立與注意事項**\n- Harrison：身體約束是住院譫妄的**危險因子**之一，只有在病人的**暴力威脅到自己或他人**時才勉強使用，且要**經常重新評估**是否仍需要\n- **先試其他方法**：陪伴、床邊警報、移除會被拔的管路或改用較不刺激的方式、處理疼痛與尿滯留\n- 醫囑要寫清楚：**原因**（如「拉扯氣管內管、自拔中心靜脈導管」）、**約束方式與部位**、**時限**、評估頻率——**依院內約束作業規範**\n- 約束期間：定時檢查**循環、皮膚、神經血管**、給水與如廁、**能解除就解除**；並**通知家屬、記錄**\n- 化學約束同樣要謹慎：鎮靜過深 → 吸入性肺炎、跌倒、呼吸抑制"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.27 p.185–186"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.13 Table 13-7 Medications for the Management of Delirium p.86"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級、家屬溝通與白天追蹤",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "什麼時候",
+            "做什麼"
+          ],
+          "rows": [
+            [
+              "處置後 15–30 分鐘",
+              "重測血糖、GCS、瞳孔、生命徵象；給 naloxone 者觀察是否再次嗜睡"
+            ],
+            [
+              "之後",
+              "**神經學檢查（GCS、瞳孔）每 1 小時**，直到穩定；譫妄每班用 CAM 評估"
+            ],
+            [
+              "抽完血、影像回來",
+              "親自看結果；異常（Na、Ca、NH₃、CO₂、CT）立刻處理"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**升級**\n- **GCS ≤ 8**、呼吸道保護不了、呼吸衰竭 → **插管**、轉加護病房\n- **局部徵象、瞳孔不對稱、CT 見出血或腦疝** → **神經外科、神經科 STAT**\n- 疑似中風在時窗內 → **中風小組**\n- 疑似腦膜炎、非抽搐性癲癇重積 → 神經科（EEG）\n- 你不確定、病人持續惡化 → **找學長姐**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**家屬溝通重點**\n- **先確認 DNR／急救意願**與主要聯絡人（半夜狀況變差前就要知道）\n- 說明：病人現在的狀況（意識變差或混亂）、**可能的原因**、你已經做的檢查與處置、接下來的計畫與可能的風險\n- 譫妄：告訴家屬這通常是**身體疾病引起、多半可逆**，請家屬**陪伴、帶熟悉的物品、幫忙重新定向**\n- 需要約束時：說明原因與預計時間，**取得理解並記錄**\n- 用病歷記下：通知時間、對象、說明內容、家屬的決定"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**交給白天團隊的待辦**\n- 追蹤夜間抽的血、培養、影像結果；**還沒找到原因 → 進一步檢查**（MRI、EEG、LP）\n- **用藥檢討**：停掉或減量 BZD、抗膽鹼藥、安眠藥、鴉片類；檢視是否需要 thiamine\n- 譫妄：持續非藥物處置、評估**移除管路與約束**、安排下床活動、睡眠衛教\n- 有給抗精神病藥 → 評估是否還需要、追蹤 **QTc**\n- 會診（神經科、精神科、營養）是否需要\n- 與家屬的後續溝通（主治團隊）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.27 p.185–186"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.30 p.192"
+        }
+      ]
+    },
+    {
+      "title": "交班與紀錄範本（SBAR）",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "- **S**：床號、姓名；**02:10 意識變差**（叫得醒但混亂／只對痛有反應），**GCS E2V3M5**\n- **B**：入院原因、主要疾病（如肝硬化、CKD）、**平常意識狀態**、最近 24 小時新加的藥（如 morphine 2 mg q4h）\n- **A**：生命徵象、**血糖**、SpO₂；**瞳孔**大小與反射、**有無局部徵象**；初步判斷（如「疑藥物 + 肝性腦病變，無局部徵象」）\n- **R**：已做（如 one-touch 110、停 morphine、抽血含 NH₃、lactulose）；**待追**（04:00 看結果、神經學檢查 q1h）；**何時升級**（GCS 再降 2 分、瞳孔不對稱 → STAT CT、通知學長姐）\n- 紀錄一定要有：**GCS、瞳孔、血糖、給了什麼藥與時間、通知了誰**"
+        }
+      ]
+    },
+    {
+      "title": "常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- **沒驗血糖**就開始找其他原因\n- 還沒評估就**先給鎮靜劑**（把缺氧、低血糖、腦出血「鎮靜」掉）\n- 第一步就**約束**，沒找誘因（尿滯留、疼痛、便秘、缺氧）\n- 直接把混亂**歸因於失智或精神科**——精神科是排除診斷\n- 漏掉**安靜型譫妄**（病人很「乖」、一直睡）\n- 酗酒病人**先給糖沒給 thiamine**\n- 懷疑腦膜炎卻**等 CT 或 LP 才給抗生素**；或顱壓可能高時**先做 LP**\n- **常規給 flumazenil**（誘發抽搐）；給了 naloxone 就以為沒事（作用短、會再睡回去）\n- 抽搐後一直沒醒卻沒想到**非抽搐性癲癇重積**\n- 用 **BZD** 處理一般譫妄（只有戒斷才用）\n- 慢性低鈉**矯正太快**"
+        }
+      ]
+    },
+    {
+      "title": "特殊情境",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "Wernicke 腦病變",
+          "text": "- 三聯徵（意識混亂、**眼肌麻痺**〔外展神經麻痺最常見〕、**運動失調**）**完整出現的不多**——高風險族群有意識改變就要想\n- 高風險：酗酒、長期營養不良、減重手術後、妊娠劇吐、長期點滴沒補維生素\n- **Thiamine 500 mg IV TID × 2–3 天** → 250 mg/d × 5 天 → 口服 100 mg/d（Harrison）；**在葡萄糖之前開始**\n- 未治療 → Korsakoff 症候群（不可逆的順向失憶、虛談）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "肝性腦病變",
+          "text": "- **West Haven 分級**：1 注意力差、睡眠顛倒；2 嗜睡、明顯撲翼樣震顫、定向感差；3 混沌、對痛有反應；4 昏迷\n- **找誘因**（值班重點）：**腸胃道出血**、**感染／SBP**、**便秘**、低鉀、鹼中毒、脫水、**鎮靜劑**\n- **Lactulose 滴定到每天 2–3 次軟便**（Harrison）；可加 rifaximin\n- 疑 SBP → 診斷性腹水穿刺 + 經驗性抗生素；疑出血 → 驗 Hb、大便潛血、會診腸胃科"
+        },
+        {
+          "type": "collapsible",
+          "summary": "酒精戒斷與震顫性譫妄",
+          "text": "- 停酒後 **5–10 小時**開始（手抖、焦躁、心跳快、出汗、失眠），**第 2–3 天最嚴重**、第 4–5 天改善（Harrison）\n- 約 **2%** 發生戒斷性抽搐、約 **1%** 震顫性譫妄（嚴重躁動 + 自律神經亢進）\n- BZD：diazepam 或 chlordiazepoxide（肝病 → lorazepam）；先排除低血糖、缺氧\n- 補 **thiamine**、鎂、鉀；監測生命徵象；防跌、抽搐預防措施"
+        },
+        {
+          "type": "collapsible",
+          "summary": "非抽搐性癲癇重積（NCSE）",
+          "text": "- 何時懷疑：意識改變**找不到原因**、**抽搐後超過 30 分鐘仍沒恢復**、細微的眼皮抽動或咂嘴、ICU 病人原因不明的意識差\n- **EEG 才能確診** → 聯絡神經科\n- BZD 後意識或 EEG 改善支持診斷；之後靜脈抗癲癇藥（levetiracetam、valproate 等）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "ICU 譫妄",
+          "text": "- ICU 病人常見；危險因子：呼吸器、**BZD 鎮靜**、睡眠剝奪、不能活動、敗血症\n- **ABCDEF bundle**：Assess pain、Both spontaneous awakening & breathing trials、Choice of sedation（避免 BZD）、Delirium monitoring（CAM-ICU）、Early mobility、Family engagement\n- Harrison 參考文獻：dexmedetomidine 可能減少 ICU 譫妄與躁動"
+        },
+        {
+          "type": "collapsible",
+          "summary": "常見中毒與解毒劑（舊筆記，劑量未逐項核對）",
+          "text": "**naloxone、flumazenil 以本篇 Order 區為準；其他解毒劑請依院內或中毒諮詢中心建議。**\n- **Opioid**：Naloxone (Narcan)（0.2-2 mg IV/IM q5min (max 10mg)）；短效 → 需觀察 re-sedation；可能誘發 withdrawal\n- **BZD**：Flumazenil (Romazicon)（0.2 mg IV over 15 sec）；有 seizure 風險 → 不建議常規使用\n- **Acetaminophen**：N-acetylcysteine (NAC)（依 Rumack-Matthew nomogram）；超過 4 小時才驗 level\n- **Organophosphate**：Atropine + Pralidoxime（Atropine 2 mg IV q5min）；SLUDGE (Salivation, Lacrimation, Urination, Defecation, GI, Emesis)\n- **CO poisoning**：100% O₂ → consider HBO（Non-rebreather mask）；Cherry-red skin、headache → check COHb level"
+        },
+        {
+          "type": "collapsible",
+          "summary": "腦疝症候群",
+          "text": "- **Uncal (Transtentorial)**：Temporal lobe 向下壓迫 CN III + midbrain → **Ipsilateral pupil dilation (blown pupil)** → contralateral hemiparesis → progressive coma\n- **Central (Diencephalic)**：Bilateral downward herniation through tentorium → Bilateral small reactive pupils → mid-position fixed → bilateral posturing\n- **Subfalcine**：Cingulate gyrus under falx cerebri → Contralateral leg weakness (ACA compression)；relatively preserved consciousness early\n- **Tonsillar**：Cerebellar tonsils through foramen magnum → **Sudden respiratory arrest** + hemodynamic instability；最致命\n- **Upward (Reverse)**：Posterior fossa mass pushes cerebellum upward → Bilateral pinpoint pupils → rapid deterioration\n\n**Uncal herniation 的經典進程 (考試 + 臨床都重要)**：\n1. Ipsilateral CN III palsy → **pupil dilation** (最早期 sign)\n2. Ipsilateral CN III complete → ptosis + \"down and out\" eye\n3. Contralateral cerebral peduncle compression → **ipsilateral** hemiparesis (Kernohan notch — **false localizing sign**)\n4. Midbrain compression → bilateral fixed dilated pupils → coma → death"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 2 點：「72 歲阿伯住院第 3 天，突然躁動、拔點滴、講話亂七八糟。」",
+          "text": "1. 電話中：生命徵象、**one-touch**、SpO₂；問平常意識、新加的藥、尿量與排便、有無發燒；**先不要給鎮靜劑**\n2. 床邊：GCS、瞳孔、局部徵象（沒有）、**CAM 陽性** → **譫妄**\n3. 找誘因：**膀胱超音波（尿滯留？）**、發燒 → 尿液與胸部 X 光、血液培養；電解質、血糖、血氣；看 MAR（新加 BZD、抗膽鹼藥？）；疼痛控制\n4. 非藥物：家屬陪伴、重新定向、移除不必要的管路\n5. 仍嚴重躁動、有傷害風險 → **haloperidol 0.5 mg**（低劑量）；約束只在必要時、寫清楚原因與時限、通知家屬"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 11 點：「55 歲肝硬化大哥，家屬說今天講話怪怪的、反應變慢。」",
+          "text": "1. 生命徵象、血糖；看**撲翼樣震顫**\n2. **找誘因**：Hb、大便潛血（出血？）、發燒或腹痛 → 腹水穿刺（SBP？）、最後一次解便、K、Na、Cr、**有沒有用鎮靜劑**\n3. **Lactulose** 滴定到每天 2–3 次軟便\n4. 停鎮靜劑；疑 SBP 給經驗性抗生素；疑出血 → 腸胃科\n5. GCS 下降、保護不了呼吸道 → 升級"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 4 點：「28 歲酗酒的病人住院第 2 天，手抖、一直流汗、說看到蟲在牆上爬。」",
+          "text": "1. 停酒後第 2 天 + 自律神經亢進 + **幻覺** → **酒精戒斷**，往震顫性譫妄進展中\n2. 先排除**低血糖、缺氧**；生命徵象\n3. **BZD**：diazepam 或 chlordiazepoxide（肝功能差 → lorazepam），依症狀給\n4. **Thiamine**（在葡萄糖點滴之前）、補鎂與鉀、水分\n5. 防跌、抽搐預防；持續惡化或需要大量 BZD → 找學長姐、考慮轉加護"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 1 點：「60 歲阿姨突然叫不醒，右手右腳不會動，護理師說左邊瞳孔比較大。」",
+          "text": "1. **紅旗**：突然 + **局部徵象** + **瞳孔不等大** → **結構性病灶、可能鉤迴腦疝**\n2. **ABC**：GCS ≤ 8 → 準備插管；給氧；血糖\n3. **STAT 頭部 CT**（不要 LP）；看是否在用抗凝血劑\n4. 腦疝徵象 → **床頭抬高、mannitol**（或高張食鹽水）、短期過度換氣\n5. **神經外科 STAT**、找學長姐；若是缺血性中風且在時窗內 → 啟動中風流程"
+        }
+      ]
+    },
+    {
+      "title": "延伸：評分表與定位",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "延伸：Glasgow Coma Scale",
+          "text": "- **Eye Opening (E)**：Spontaneous / To voice / To pain / None（4 / 3 / 2 / 1）\n- **Verbal Response (V)**：Oriented / Confused / Inappropriate words / Incomprehensible / None（5 / 4 / 3 / 2 / 1）\n- **Motor Response (M)**：Obeys commands / Localizes pain / Withdrawal / Abnormal flexion / Extension / None（6 / 5 / 4 / 3 / 2 / 1）\n- GCS ≤ 8 → 考慮插管保護呼吸道"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：意識障礙的分類",
+          "text": "- **Delirium (譫妄)**：急性、波動性的注意力與認知障礙；Acute onset、注意力不集中、fluctuating course、常有 underlying cause\n- **Dementia (失智)**：慢性、進行性的認知功能退化；Gradual onset、記憶力下降、alert but impaired cognition\n- **Drowsiness (嗜睡)**：可被喚醒但傾向入睡；Arousable with verbal stimuli\n- **Stupor (昏迷前期)**：僅對強烈刺激有反應；Arousable only with vigorous/painful stimuli\n- **Coma (昏迷)**：無法被喚醒、無意識；Unarousable、no purposeful response"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：結構性 vs 代謝性（Harrison）",
+          "text": "- **Onset**｜結構性：常 sudden（stroke、hemorrhage）｜代謝：常 gradual（例外：hypoglycemia 可 sudden）\n- **Focal signs**｜結構性：通常有：hemiparesis、aphasia、visual field defect｜代謝：通常無：bilateral symmetric findings\n- **Pupils**｜結構性：不對稱：anisocoria、fixed dilated (herniation)｜代謝：對稱：bilateral reactive（例外：opioid pinpoint、atropine dilated）\n- **Eye movements**｜結構性：可能有 gaze deviation、CN III/VI palsy｜代謝：通常 roving conjugate movements\n- **Motor**｜結構性：Lateralizing signs：單側 weakness｜代謝：Symmetric：bilateral tremor、asterixis、myoclonus\n- **優先檢查**｜結構性：CT/MRI stat｜代謝：Lab panel stat"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：呼吸型態與定位",
+          "text": "- **Cheyne-Stokes**：Bilateral hemispheric / early diencephalic；漸強漸弱的週期性呼吸\n- **Central neurogenic hyperventilation**：Midbrain / upper pons；持續深快呼吸（需排除 metabolic acidosis）\n- **Apneustic breathing**：Lower pons；吸氣末暫停\n- **Ataxic (Biot) breathing**：Medulla；不規則呼吸 → 即將呼吸停止\n- **Kussmaul breathing**：Metabolic (非結構性)；深大呼吸 → DKA、metabolic acidosis"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：AEIOU-TIPS 完整表（On Call 手冊）",
+          "text": "- **A**｜Alcohol / Acidosis / Arrhythmia：Alcohol：intoxication、early withdrawal、delirium tremens 三階段；Acidosis：DKA、lactic acidosis、uremic acidosis；Arrhythmia：低灌流 → 腦部缺氧\n- **E**｜Encephalopathy / Electrolytes / Endocrine / Environmental：Hepatic encephalopathy (asterixis)、hypertensive encephalopathy；Na⁺、Ca²⁺ 異常；Thyroid storm / myxedema coma；Heat stroke / hypothermia\n- **I**｜Insulin (Hypoglycemia / DKA / HHS)：低血糖是最常見且最容易處理的原因 → one touch 第一優先；DKA：Kussmaul breathing、fruity breath；HHS：extreme hyperglycemia > 600 + dehydration\n- **O**｜Opiates / Oxygen deprivation：Opioid：pinpoint pupils + respiratory depression → naloxone；Hypoxia：SpO2 下降、cyanosis、COPD with CO₂ retention\n- **U**｜Uremia：Uremic encephalopathy：asterixis、myoclonus；Check BUN/Cr → 可能需要緊急透析\n- **T**｜Trauma / Toxins / Temperature：Subdural / epidural hematoma（特別是老人跌倒後）；CO poisoning、cyanide；Hypothermia < 32°C / heat stroke > 40°C\n- **I**｜Infection / Increased ICP：Meningitis (fever + neck stiffness + AMS)；Encephalitis (HSV → temporal lobe)；Brain abscess；ICP 上升：Cushing triad (HTN + bradycardia + irregular breathing)\n- **P**｜Psychosis / Poisoning / Porphyria：Psychiatric 是 diagnosis of exclusion — 必須先排除 organic cause；Acute intermittent porphyria：abdominal pain + AMS + dark urine\n- **S**｜Stroke / Shock / Seizure：Stroke：focal neurological deficits → CT stat；Shock：hypotension + poor perfusion；Postictal state：seizure 後的暫時性意識不清"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：譫妄的危險因子",
+          "text": "- 易感：Age ≥ 65｜誘發：感染 (UTI, pneumonia 最常見)\n- 易感：Pre-existing dementia｜誘發：藥物 (opioids, BZD, anticholinergics)\n- 易感：多重共病｜誘發：手術 / 麻醉後\n- 易感：視力或聽力障礙｜誘發：疼痛控制不佳\n- 易感：Baseline functional impairment｜誘發：Sleep deprivation / ICU environment\n- 易感：Polypharmacy｜誘發：Urinary retention / constipation\n- 易感：Alcoholism｜誘發：Electrolyte abnormalities / dehydration"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：神經定位見〈Localization〉系列；中風見〈Stroke〉系列；癲癇重積見〈Epilepsy (二)〉；低鈉見〈Electrolyte Disorders (一)〉；肝性腦病變見〈Cirrhosis (二)〉。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.30 p.186–192"
+        }
+      ]
+    }
+  ]
 }
