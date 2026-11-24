@@ -342,6 +342,10 @@
         {
           "id": "onc-cancer-detection",
           "name": "Oncology (一)：找出癌症——篩檢、遺傳、腫瘤標記、原發不明癌與腫瘤旁症候群"
+        },
+        {
+          "id": "onc-cancer-treatment",
+          "name": "Oncology (二)：治療癌症——治療目的、化學治療、標靶與免疫治療"
         }
       ]
     },

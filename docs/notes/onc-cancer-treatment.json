@@ -1,0 +1,852 @@
+{
+  "id": "onc-cancer-treatment",
+  "title": "Oncology (二)：治療癌症——治療目的、化學治療、標靶與免疫治療",
+  "title_en": "Oncology (2): Cancer Treatment",
+  "title_zh": "腫瘤總論（二）：治療癌症",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.73 Approach to the Patient with Cancer (Table 73-4, 73-5); Ch.78 Principles of Cancer Treatment (Table 78-1, 78-3, 78-5); 免疫相關副作用 Ch.63、74、79、80、81、100",
+    "First Choice 醫學(三) 第4冊 - 腫瘤科 乙、治療原則 A–C（講義 p.266–288；題目 p.282–289）＋ D 1 題（p.290），本篇共 13 題"
+  ],
+  "generated": "2026-11-24",
+  "updated": "2026-11-24",
+  "related": [
+    {
+      "id": "onc-cancer-detection",
+      "name": "Oncology (一)：找出癌症——篩檢、遺傳、腫瘤標記、原發不明癌與腫瘤旁症候群"
+    },
+    {
+      "id": "acute-leukemia",
+      "name": "Acute Leukemia (急性白血病與造血幹細胞移植)"
+    },
+    {
+      "id": "lymphoma-cll",
+      "name": "Lymphoma & CLL (淋巴瘤與慢性淋巴球性白血病)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 13 題｜最常考：化療藥的特徵副作用、哪些癌症化療可治癒、標靶藥配對、KPS\n① **先定治療目的**：根治（局部 ± 全身）、**輔助**（術後清微轉移）、**前導**（術前縮腫瘤）、**緩和**；再看**體能狀態**（KPS < 70 或 ECOG ≥ 3 → 預後差、多半不適合強力化療）\n② **化療依細胞週期分類**：烷化劑、鉑金、anthracycline 不分週期；抗代謝藥作用在 S 期；拓樸異構酶抑制劑 G2；長春花與紫杉醇 M 期\n③ **每類記一個「招牌副作用」**：cisplatin 腎、耳、低鎂；doxorubicin **心**；bleomycin **肺**；vincristine **神經、便秘**；cyclophosphamide **出血性膀胱炎**；mitomycin **HUS**；5-FU 手足症候群\n④ **標靶藥看靶點**：-mab 單株抗體、-nib 激酶抑制劑；**EGFR → 皮疹、腹瀉**；**HER2 → 可逆心臟功能下降**；**VEGF → 出血、傷口癒合差、血栓**\n⑤ **免疫檢查點抑制劑**（PD-1、PD-L1、CTLA-4）→ **免疫相關副作用**（皮膚、腸炎、甲狀腺、腦下垂體、肝、肺、心肌炎）→ **類固醇**\n新版來源：Harrison 22e Ch.73、78（輔以 Ch.63、74、80 的免疫相關副作用）；FC 第4冊 乙\n分工：嗜中性球低下發燒、止痛與緩和照護、腫瘤急症見〈Oncology (三)〉；各癌別的標靶細節見各論；血液腫瘤用藥見血液科各篇"
+        }
+      ]
+    },
+    {
+      "title": "治療目的與體能評估：該不該治、要治到哪裡　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 四種目的：**根治**、**輔助**（術後清微轉移）、**前導**（術前縮腫瘤）、**緩和**\n- 化療**單獨就可能治癒**的晚期癌：**白血病、何杰金、部分淋巴瘤、生殖細胞瘤（含精母細胞瘤）、妊娠滋養層腫瘤、兒童腫瘤、小細胞肺癌、卵巢癌**\n- **對化療反應差**（FC）：肝膽胰、**腎細胞癌**、甲狀腺、**黑色素瘤**、攝護腺 → 靠手術、標靶、免疫、荷爾蒙\n- 體能狀態：**KPS < 70** 或 **ECOG ≥ 3** → 預後差（除非是腫瘤造成、可逆）（Harrison）\n- **KPS 70 = 能自理但無法工作**；ECOG 2 = 能自理、不能工作、醒著一半以上時間可下床"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "治療目的（Harrison Table 78-1）",
+            "意義",
+            "例子"
+          ],
+          "rows": [
+            [
+              "**根治**（局部 ± 全身）",
+              "消滅所有腫瘤",
+              "手術、放療；多模式治療"
+            ],
+            [
+              "**輔助（adjuvant）**",
+              "局部病灶已清除後，**清除看不見的微轉移**",
+              "乳癌、大腸癌、骨肉瘤、軟組織肉瘤術後化療"
+            ],
+            [
+              "**前導（neoadjuvant）**",
+              "**局部治療前**先化放療縮小腫瘤，提升局部與全身效果",
+              "乳癌、直腸癌、食道癌"
+            ],
+            [
+              "**緩和（palliative）**",
+              "改善症狀、生活品質、延長無惡化存活",
+              "多數轉移性實體腫瘤"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "化療可能治癒的晚期癌症（Harrison Table 78-3 A＋FC）",
+            ""
+          ],
+          "rows": [
+            [
+              "**血液腫瘤**",
+              "急性白血病（兒童與成人）、**何杰金**、部分淋巴瘤"
+            ],
+            [
+              "**生殖細胞瘤**",
+              "胚胎癌、畸胎癌、**精母細胞瘤／無性細胞瘤**、絨毛膜癌"
+            ],
+            [
+              "**妊娠滋養層腫瘤**",
+              "絨毛膜癌等"
+            ],
+            [
+              "兒童腫瘤",
+              "Wilms、胚胎型橫紋肌肉瘤、**Ewing 肉瘤**、神經母細胞瘤"
+            ],
+            [
+              "其他",
+              "**小細胞肺癌**、卵巢癌"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年**：最可能以化療**治癒**的是**精母細胞瘤（seminoma）**——非小細胞肺癌、大腸癌晚期化療以緩和為主；CML 靠 TKI 控制（不是傳統化療治癒）。\n**FC 112 年**：**KPS 70 分** = **能照顧自己，但已不能工作或做正常的活動**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "KPS（Karnofsky）",
+            "意義（FC＋Harrison Table 73-4）",
+            "對應 ECOG（Table 73-5）"
+          ],
+          "rows": [
+            [
+              "100",
+              "完全正常",
+              "0：完全活動"
+            ],
+            [
+              "90–80",
+              "輕微症狀，仍能正常工作與生活",
+              "1：不能做粗重活，可做輕工作"
+            ],
+            [
+              "**70**",
+              "**能照顧自己，但無法工作或正常活動**",
+              "2：能自理、不能工作，醒著 > 50% 時間下床"
+            ],
+            [
+              "60–50",
+              "需要偶爾或相當多的協助與醫療照顧",
+              "3：只能有限自理，> 50% 時間在床或椅"
+            ],
+            [
+              "40–30",
+              "大多時間或完全臥床",
+              "4：完全失能、臥床"
+            ],
+            [
+              "20–10",
+              "極度虛弱、瀕死",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼同一種化療，有的癌能治癒、有的只能延長幾個月？**\n化療殺的是**快速分裂**的細胞；生殖細胞瘤、白血病、淋巴瘤、小細胞肺癌、兒童腫瘤長得快、對 DNA 傷害特別敏感（生殖細胞瘤對 cisplatin 尤其敏感）→ 有機會全部清除。腎細胞癌、黑色素瘤、攝護腺癌等長得慢或天生抗藥 → 化療反應差，要靠其他武器。輔助化療有效則是因為**術後殘留的微轉移腫瘤量最小**，最容易被清乾淨（Harrison Ch.78）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：FC：術後輔助化療已證實改善存活的情況",
+          "text": "- **乳癌**合併腋下淋巴結轉移\n- **大腸癌**侵犯肌肉層或淋巴結轉移（Duke B2、C）\n- **骨肉瘤**\n- 卵巢癌合併腹內轉移\n- 生殖細胞瘤合併後腹腔轉移\n- 胃癌、肺癌術後化療"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.73 p.501–503"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.78 p.551–556"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 乙、治療原則 講義 p.276；題目 p.285、290"
+        }
+      ]
+    },
+    {
+      "title": "化學治療：細胞週期、招牌副作用與晚期副作用　★ 7 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 嗜中性球最低點一般在給藥後 **6–14 天**；**延遲性**骨髓抑制（約 6 週）：**nitrosoureas（BCNU）、mitomycin、DTIC、temozolomide**\n- 各藥招牌：**cisplatin → 腎、低鎂、耳、嘔吐**；**doxorubicin → 心**；**bleomycin → 肺（不抑制骨髓）**；**vincristine → 神經、便秘、腸阻塞**；**cyclophosphamide／ifosfamide → 出血性膀胱炎（mesna）**；**mitomycin → HUS**；**5-FU／capecitabine → 手足症候群**；**irinotecan → 腹瀉**\n- **Leucovorin**：搭 **MTX = 救援**正常細胞；搭 **5-FU = 加強**療效\n- 發泡劑外滲：**anthracycline → 冰敷 + dexrazoxane**；**vinca → 熱敷 + hyaluronidase**\n- 高致吐：**cisplatin**、高劑量 cyclophosphamide、DTIC、anthracycline + cyclophosphamide → **5-HT3 拮抗劑 + NK1 拮抗劑 + 類固醇**\n- 續發癌：烷化劑、拓樸異構酶 II 抑制劑 → **AML**；tamoxifen → **子宮內膜癌**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "分類（FC）",
+            "作用",
+            "代表藥"
+          ],
+          "rows": [
+            [
+              "**不分週期**：烷化劑",
+              "DNA 交聯",
+              "cyclophosphamide、ifosfamide、melphalan、nitrosoureas（BCNU）、**cisplatin、carboplatin、oxaliplatin**"
+            ],
+            [
+              "不分週期：抗腫瘤抗生素",
+              "嵌入 DNA、抑制拓樸異構酶 II、自由基",
+              "**doxorubicin** 等 anthracycline、bleomycin、mitomycin C"
+            ],
+            [
+              "**S 期**：抗代謝藥",
+              "干擾核苷酸合成",
+              "**methotrexate**（抑制 DHFR）、**5-FU**、capecitabine（抑制胸腺嘧啶合成酶）、cytarabine、gemcitabine、6-MP、hydroxyurea"
+            ],
+            [
+              "**G2 期**：拓樸異構酶抑制劑",
+              "I：切一股；II：切兩股",
+              "**irinotecan**（I）、**etoposide**（II）"
+            ],
+            [
+              "**M 期**：紡錘絲抑制劑",
+              "長春花鹼使微小管**無法聚合**；紫杉醇使微小管**無法解聚**",
+              "**vincristine**、vinblastine、vinorelbine；**paclitaxel**、docetaxel"
+            ],
+            [
+              "G1 期",
+              "分解天門冬醯胺",
+              "asparaginase（ALL）"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物",
+            "招牌副作用（Harrison Table 78-5＋FC）",
+            "預防、解毒"
+          ],
+          "rows": [
+            [
+              "**Cisplatin**",
+              "**腎毒性**、**低鎂**（低鉀、低鈣、低鈉）、**耳毒性**（高頻聽力）、**周邊神經病變**、**強烈嘔吐**",
+              "**水化 + 利尿**；5-HT3 + NK1 + 類固醇止吐"
+            ],
+            [
+              "Carboplatin",
+              "**骨髓抑制**（腎、神經、耳毒性較少）",
+              "依腎功能計算劑量（Calvert：AUC ×（GFR + 25））"
+            ],
+            [
+              "Oxaliplatin",
+              "**神經毒性**、可逆性喉咽痙攣",
+              "—"
+            ],
+            [
+              "**Cyclophosphamide、ifosfamide**",
+              "**出血性膀胱炎**（代謝物 acrolein）；ifosfamide 中樞神經毒性；高劑量 cyclophosphamide 心臟毒性",
+              "水化 + **mesna**（ifosfamide 必須併用）"
+            ],
+            [
+              "**Doxorubicin**（anthracycline）",
+              "**心臟毒性**：急性心律不整；**累積劑量 > 550 mg/m² 約 10% 心肌病變**；骨髓抑制、黏膜炎、禿頭、**強烈發泡劑**、續發性白血病",
+              "限制累積劑量；**dexrazoxane**（心臟保護、外滲）；肝功能差要減量"
+            ],
+            [
+              "**Bleomycin**",
+              "**肺纖維化**（高濃度氧會加重）、皮膚變化、雷諾氏；**幾乎不抑制骨髓**",
+              "治療前後追 **DLCO**；腎衰竭減量"
+            ],
+            [
+              "**Mitomycin C**",
+              "**溶血性尿毒症候群（HUS）**、延遲性骨髓抑制",
+              "—"
+            ],
+            [
+              "**Methotrexate**",
+              "黏膜炎、骨髓抑制、腎毒（結晶）、肝毒、間質性肺炎",
+              "高劑量後給 **leucovorin 救援**；鹼化尿液；NSAID 會加重腎毒"
+            ],
+            [
+              "**5-FU、capecitabine**",
+              "**手足症候群**、腹瀉、黏膜炎；DPD 缺乏毒性大增；加強 warfarin",
+              "leucovorin 是**加強** 5-FU 療效（不是解毒）"
+            ],
+            [
+              "Cytarabine（高劑量）",
+              "**化學性結膜炎**、**小腦失調**",
+              "類固醇眼藥水；觀察步態"
+            ],
+            [
+              "Gemcitabine",
+              "**類流感症狀**、骨髓抑制；罕見 HUS",
+              "—"
+            ],
+            [
+              "**Irinotecan**",
+              "**早發性腹瀉**（膽鹼性：腹絞痛、流汗、流涎、縮瞳）；**遲發性腹瀉**",
+              "早發 → **atropine**；遲發 → **loperamide**"
+            ],
+            [
+              "Etoposide",
+              "骨髓抑制、快速輸注低血壓；**續發性 AML（11q23）**",
+              "—"
+            ],
+            [
+              "**Vincristine**",
+              "**周邊神經病變**（手套襪套麻木）、**便秘、麻痺性腸阻塞**、SIADH；發泡劑；**骨髓抑制少**",
+              "預防性軟便劑；外滲**熱敷**"
+            ],
+            [
+              "Vinblastine",
+              "**骨髓抑制**較強",
+              "—"
+            ],
+            [
+              "**Paclitaxel**",
+              "**過敏**（cremophor 載體）、周邊神經病變、心搏過緩、嗜中性球低下",
+              "類固醇 + H1 + H2 預防"
+            ],
+            [
+              "Docetaxel",
+              "過敏、**水分滯留**、神經病變",
+              "類固醇預防"
+            ],
+            [
+              "Asparaginase",
+              "過敏、**胰臟炎**、高血糖、凝血異常與**血栓**",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年**：藥物與晚期副作用配對**最不恰當**的是「**anthracycline — neuropathy**」——anthracycline 的招牌晚期副作用是**心臟毒性**（劑量相關、常不可逆）。正確：bleomycin → 肺纖維化；trastuzumab → 心臟功能異常；類固醇 → 缺血性骨壞死。\n**FC 112 年**：治療與續發癌配對**最不恰當**的是「拓樸異構酶抑制劑 → **ALL** 合併 5、7 號染色體缺失」——拓樸異構酶 II 抑制劑相關的是 **AML**（11q23）；−5、−7 是**烷化劑**相關 AML 的特徵。正確：tamoxifen → 子宮內膜癌；異體移植 T 細胞清除 → EBV 淋巴增生；化療 → MDS。\n**FC 108 年**：CHOP 治療 2 週後**上腹脹、排便困難、手指尖麻木**（腸阻塞 + 神經病變）→ **vincristine**。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 105 年**：cisplatin 的副作用是**低血鎂**與**低血鈉**（(B)(C) 都給分）——腎小管傷害造成鎂流失（經典）；低鈉可因腎傷或 SIADH。\n**FC 104 年**：**mitomycin C** 與**溶血性尿毒症候群**有關。\n**FC 103 年**：**不是** doxorubicin 副作用的是**腎毒性**（骨髓抑制、心臟毒性、噁心都是）。\n**FC 106 年**：**最不會**造成白血球減少的是 **gefitinib**（EGFR 抑制劑，作用在腫瘤表面受體，對骨髓影響小，第 3–4 級嗜中性球減少 < 1%）；paclitaxel 約 66%、gemcitabine 34%、sunitinib 12.8%（FC）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 MTX 和 5-FU 都配 leucovorin，目的卻相反？**\nMTX 抑制**二氫葉酸還原酶**，讓四氫葉酸做不出來 → DNA 合成停擺。**leucovorin（folinic acid）是現成的還原型葉酸**，繞過被擋的酵素 → 讓**正常細胞**恢復合成 = **救援**。5-FU 的代謝物要和胸腺嘧啶合成酶、還原型葉酸形成**三元複合體**才能卡死酵素 → 多給 leucovorin 讓複合體更穩定 = **加強**（FC、Harrison）。\n**為什麼長春花鹼用熱敷、anthracycline 用冰敷？** 熱敷促進血流，把外滲的 vinca 分散稀釋；anthracycline 則以冰敷收縮血管、減少擴散與組織傷害（FC）。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "晚期副作用（FC 113、112 年＋Harrison）",
+            "相關治療"
+          ],
+          "rows": [
+            [
+              "**心肌病變**",
+              "**anthracycline**（不可逆、劑量相關）；**trastuzumab**（多可逆）"
+            ],
+            [
+              "**肺纖維化**",
+              "**bleomycin**、BCNU"
+            ],
+            [
+              "**缺血性骨壞死**",
+              "**類固醇**"
+            ],
+            [
+              "**續發性 AML、MDS**",
+              "**烷化劑**（4–6 年後，−5、−7）；**拓樸異構酶 II 抑制劑**（etoposide、doxorubicin，1–3 年後，11q23）"
+            ],
+            [
+              "**子宮內膜癌**",
+              "**tamoxifen**"
+            ],
+            [
+              "EBV 相關淋巴增生",
+              "異體移植使用 T 細胞清除"
+            ],
+            [
+              "乳癌、甲狀腺、冠心病",
+              "**胸部、頸部放療**（何杰金存活者）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "FC 口訣：**止吐藥物 123 → NK1、D2、HT3**——**NK1 拮抗劑**（aprepitant）、**D2 拮抗劑**（metoclopramide）、**5-HT3 拮抗劑**（ondansetron）。高風險化療預防用 **5-HT3 + NK1 + 類固醇**（± lorazepam）；突破性嘔吐用 metoclopramide、olanzapine 等。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：FC：常見化療處方（參考）",
+          "text": "- 淋巴瘤 **CHOP**（cyclophosphamide、doxorubicin、vincristine、prednisolone）；何杰金 **ABVD**\n- 大腸癌 **FOLFOX**（5-FU + leucovorin + oxaliplatin）、**FOLFIRI**（+ irinotecan）\n- 非小細胞肺癌 cisplatin + pemetrexed／gemcitabine／vinorelbine／paclitaxel；**小細胞肺癌 cisplatin + etoposide**\n- 胰臟癌 gemcitabine；乳癌 CEF、TAC；骨肉瘤 MAP（高劑量 MTX + doxorubicin + cisplatin）\n- AML 7+3；APL ATRA；CML imatinib；CLL FCR；骨髓瘤見〈漿細胞疾病〉"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.78 p.560–567、575"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 乙、治療原則 講義 p.266–276；題目 p.282–287"
+        }
+      ]
+    },
+    {
+      "title": "標靶治療：靶點 → 癌別 → 副作用　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 命名：**-mab = 單株抗體**（作用在細胞外）、**-nib = 激酶抑制劑**（細胞內，口服）、-mib 蛋白酶體抑制劑、-limus mTOR 抑制劑\n- **EGFR**：抗體（cetuximab）用在**大腸癌、頭頸癌**（**KRAS 突變無效**）；TKI（gefitinib、erlotinib、osimertinib）用在**非小細胞肺癌**（exon 19 缺失、L858R）\n- **HER2**：trastuzumab → **HER2 陽性乳癌、胃癌**；副作用**可逆心臟功能下降**\n- **Imatinib** → **BCR-ABL**（CML、Ph+ ALL）與 **c-KIT**（GIST）\n- **VEGF**：bevacizumab → 大腸、肺、腎、**復發 glioblastoma**；副作用**高血壓、出血、傷口癒合差、血栓**\n- **BRAF V600E** → vemurafenib、dabrafenib（黑色素瘤）\n- 肉瘤（如腸道平滑肌肉瘤）**不用** EGFR／HER2 標靶"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "靶點",
+            "藥物",
+            "主要癌症（FC＋Harrison）"
+          ],
+          "rows": [
+            [
+              "**EGFR**（抗體）",
+              "**cetuximab**、panitumumab",
+              "**大腸癌**（**KRAS 突變無效**）、頭頸癌"
+            ],
+            [
+              "**EGFR**（TKI）",
+              "**gefitinib、erlotinib**、afatinib；**osimertinib**（T790M 也有效）",
+              "**非小細胞肺癌**（**exon 19 缺失、L858R** 有效）"
+            ],
+            [
+              "**HER2**",
+              "**trastuzumab**、pertuzumab、T-DM1（抗體藥物複合體）；lapatinib（EGFR + HER2 TKI）",
+              "**HER2 陽性乳癌**、胃癌"
+            ],
+            [
+              "**BCR-ABL**、c-KIT",
+              "**imatinib**；dasatinib、nilotinib、ponatinib",
+              "**CML**、Ph+ ALL；**GIST**（c-KIT）"
+            ],
+            [
+              "ALK（EML4-ALK）",
+              "crizotinib 等",
+              "非小細胞肺癌"
+            ],
+            [
+              "**BRAF V600E**（+ MEK）",
+              "**vemurafenib、dabrafenib** + trametinib",
+              "**黑色素瘤**"
+            ],
+            [
+              "**VEGF**",
+              "**bevacizumab**",
+              "大腸癌、非小細胞肺癌、腎細胞癌、**復發 glioblastoma**"
+            ],
+            [
+              "**VEGFR 等多重激酶**",
+              "**sunitinib**、**sorafenib**",
+              "**腎細胞癌**、GIST（二線）；sorafenib 肝癌"
+            ],
+            [
+              "mTOR",
+              "temsirolimus、everolimus",
+              "腎細胞癌、乳癌、胰臟神經內分泌瘤"
+            ],
+            [
+              "CD20 / CD38",
+              "rituximab / daratumumab",
+              "B 細胞淋巴瘤 / 骨髓瘤"
+            ],
+            [
+              "蛋白酶體",
+              "bortezomib",
+              "骨髓瘤、被套細胞淋巴瘤"
+            ],
+            [
+              "PML-RARA",
+              "tretinoin（ATRA）、arsenic",
+              "APL"
+            ],
+            [
+              "Hedgehog",
+              "vismodegib",
+              "轉移性基底細胞癌"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/onc-cancer-treatment/h78-3.png",
+          "label": "Harrison's 22e Fig.78-3 左半（p.557）",
+          "caption": "腫瘤細胞的生長訊號路徑與標靶藥作用點",
+          "explain": "**【怎麼看】**細胞膜上的**受體酪胺酸激酶**（生長因子受體，如 EGFR、HER2）接到訊號後自我磷酸化 → 往下分兩條：左邊 **PI3K → AKT → mTOR**（蛋白合成、代謝）；右邊 **RAS → RAF → MEK → MAP 激酶**（進核促進分裂）。虛線標示各類藥物擋住的位置：**受體酪胺酸激酶抑制劑**（膜上）、**RAF／MEK 抑制劑**、**多重激酶抑制劑**、mTOR（代謝調節）、**CDK 抑制劑**、**荷爾蒙拮抗劑**（核內荷爾蒙受體 HR）；右下是腫瘤間質的**血管**（抗 VEGF 的作用點）。\n**【考點】**擋在越上游，下游一旦**自己突變活化**就擋不住——**KRAS 突變的大腸癌對抗 EGFR 抗體無效**；BRAF V600E 黑色素瘤要直接用 BRAF（+ MEK）抑制劑。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 110 年**：EGFR 家族標靶（EGFR 小分子、抗 EGFR 抗體、抗 HER2 抗體）**不被應用**在**腸道平滑肌惡性肉瘤**；大腸癌（cetuximab）、肺癌（gefitinib）、乳癌（trastuzumab）都有用。\n**FC 110 年**：**imatinib** 是 **Bcr-Abl** 的抑制劑（不是 PML-RARα、NF-κB、EGFRα）。\n**FC 108 年**：glioblastoma 敘述**錯誤**的是「**MGMT 有表現**的腫瘤對 temozolomide **較有效**」——MGMT 會**修復** temozolomide 造成的 DNA 烷化傷害 → 腫瘤細胞不死；**MGMT 啟動子甲基化（不表現）**者才對 temozolomide 較有效。正確：預後差、平均存活 < 2 年；先手術，再 temozolomide 併放療；bevacizumab 用於復發，可減少水腫、延長無惡化存活。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "標靶類別",
+            "招牌副作用（FC＋Harrison）"
+          ],
+          "rows": [
+            [
+              "**EGFR**（cetuximab、gefitinib、erlotinib）",
+              "**痤瘡樣皮疹**（臉、上軀幹；外用類固醇 + clindamycin）、**腹瀉**、光敏感"
+            ],
+            [
+              "**HER2**（trastuzumab）",
+              "**心臟收縮功能下降**（多半**可逆**，與 anthracycline 不同）"
+            ],
+            [
+              "**VEGF**（bevacizumab、sunitinib、sorafenib）",
+              "**高血壓**、**血栓**、**蛋白尿**、**出血**、**腸胃道穿孔**（Harrison）；**傷口癒合差**（FC）；TKI 的**手足皮膚反應**"
+            ],
+            [
+              "Imatinib",
+              "水腫、水分滯留、骨髓抑制、肝功能異常"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 KRAS 突變的大腸癌用 cetuximab 沒用？**\ncetuximab 擋的是細胞膜上的 **EGFR**；訊號往下要經 **RAS → RAF → MEK → ERK** 才傳進細胞核。如果 **KRAS 本身突變、一直開著**，上游擋住也沒用——訊號從下游自己發。同理，EGFR TKI 對 **T790M** 抗藥突變無效（第一代藥結合不上），要換 **osimertinib**（FC）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.78 p.558–559、566–572"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 乙、治療原則 講義 p.277–281；題目 p.283–285"
+        }
+      ]
+    },
+    {
+      "title": "免疫治療：檢查點抑制劑與免疫相關副作用　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 腫瘤**逃避免疫**：表現 **PD-L1** 結合 T 細胞 **PD-1**、經 **B7–CTLA-4** 抑制 T 細胞、**MHC I 喪失**、吸引**調節性 T 細胞**\n- 檢查點抑制劑**解除煞車**：**anti-PD-1**（nivolumab、pembrolizumab）、**anti-PD-L1**（atezolizumab 等）、**anti-CTLA-4**（ipilimumab）\n- 跨癌別適應症：**MSI-H／dMMR**、高腫瘤突變量的實體腫瘤\n- **免疫相關副作用**可侵犯任何器官：**皮膚最常見**、腸炎、肝炎、**甲狀腺低下**、**腦下垂體炎（CTLA-4 多、常永久）**、肺炎、**心肌炎（致命）** → **類固醇**\n- **CAR-T** 的急性毒性：**細胞激素釋放症候群**；**rituximab** 輸注時發燒、寒顫、支氣管痙攣 = **輸注反應**"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 111 年**：腫瘤免疫逃避機轉敘述**錯誤**的是 **(A) 或 (D)**（都給分）：(A)「腫瘤分泌 **interferon-γ** 等**抑制**免疫的細胞激素」——IFN-γ 是**活化**免疫的細胞激素（Th1、NK 細胞分泌）；(D)「腫瘤細胞產生 **CTLA-4**」——CTLA-4 是**T 細胞本身**的抑制受體，腫瘤是表現 **B7 配體**去刺激它。正確：**MHC I 喪失**、影響**調節性 T 細胞**。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "免疫檢查點抑制劑（FC＋Harrison）",
+            "靶點",
+            "代表適應症"
+          ],
+          "rows": [
+            [
+              "**Ipilimumab**",
+              "**CTLA-4**（T 細胞上）",
+              "轉移性黑色素瘤"
+            ],
+            [
+              "**Nivolumab、pembrolizumab**",
+              "**PD-1**（T 細胞上）",
+              "黑色素瘤、**非小細胞肺癌**、腎細胞癌、何杰金、頭頸癌、**MSI-H／dMMR 實體腫瘤**等"
+            ],
+            [
+              "**Atezolizumab、durvalumab、avelumab**",
+              "**PD-L1**（腫瘤細胞上）",
+              "肺癌、泌尿上皮癌、肝癌；avelumab → Merkel 細胞癌"
+            ],
+            [
+              "Relatlimab + nivolumab",
+              "LAG-3 + PD-1",
+              "黑色素瘤"
+            ],
+            [
+              "CD19 CAR-T（tisagenlecleucel）",
+              "CD19",
+              "復發 B-ALL、DLBCL；急性毒性 = **細胞激素釋放症候群**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼解除免疫煞車會「打到自己」？**\nPD-1、CTLA-4 是**周邊免疫耐受**的煞車——正常時防止 T 細胞攻擊自己的組織。藥物把煞車拿掉，T 細胞除了攻擊腫瘤，也可能攻擊**皮膚、腸道、內分泌腺、肺、心臟** → 自體免疫樣的副作用。Harrison：**腦下垂體炎**多見於 **anti-CTLA-4**，PD-1／PD-L1 約 1%，且**多為永久**；腎上腺炎則 PD-1／PD-L1 較多。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "免疫相關副作用（irAE，Harrison）",
+            "重點"
+          ],
+          "rows": [
+            [
+              "**皮膚**",
+              "**最常見**（30–60%），用藥後幾週就出現"
+            ],
+            [
+              "**腸胃**",
+              "**腹瀉、腸炎**（可能致命）、肝炎"
+            ],
+            [
+              "**內分泌**",
+              "**甲狀腺低下**（5–22%）、**腦下垂體炎**（**anti-CTLA-4 較多**；PD-1 約 1%；**多為永久**，需長期補充）、腎上腺炎（PD-1／PD-L1 較多）、第 1 型糖尿病"
+            ],
+            [
+              "**肺**",
+              "**肺炎（pneumonitis）**"
+            ],
+            [
+              "**心臟**",
+              "**心肌炎**、心包膜疾病 → 可能猛爆致死，**立即高劑量類固醇**"
+            ],
+            [
+              "其他",
+              "腎炎、神經炎、關節炎"
+            ],
+            [
+              "**治療**",
+              "**類固醇**為主；不足時加 **TNF-α 阻斷劑**等；內分泌缺損補充荷爾蒙"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.78 p.558–559"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "免疫相關副作用：Ch.63 p.421、Ch.74 p.506、Ch.79 p.578、Ch.80 p.593、Ch.81 p.605、Ch.100 p.753–754"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 乙、治療原則 講義 p.288；題目 p.288–289"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 108 年）：66 歲男性 T 細胞淋巴瘤，接受 CHOP 2 週後上腹脹、排便困難、手指尖麻木。",
+          "text": "1. **拆解 CHOP**：cyclophosphamide（膀胱炎）、doxorubicin（心）、**vincristine（神經、便秘、腸阻塞）**、prednisolone（血糖、感染）\n2. **症狀對應**：便秘 + 腸阻塞 + 周邊神經病變 → **vincristine**（自主與周邊神經毒性）\n3. **處理**：排除機械性阻塞、腸胃道減壓、調整 vincristine 劑量\n4. **預防**：使用 vincristine 時**預防性軟便劑**\n5. **對照**：若是發燒 → 先想嗜中性球低下發燒（約第 7–14 天）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2：60 歲乳癌病人接受 doxorubicin 後再用 trastuzumab，追蹤心臟超音波射出分率下降。",
+          "text": "1. **兩種心毒性**：anthracycline → 劑量相關、**常不可逆**的心肌病變（累積 > 550 mg/m² 約 10%）；trastuzumab → **多可逆**的收縮功能下降\n2. **治療前**：基礎心臟超音波\n3. **預防**：限制 anthracycline 累積劑量、dexrazoxane\n4. **處理**：暫停 trastuzumab、心衰竭藥物；功能恢復後可再考慮\n5. **晚期追蹤**：anthracycline 心肌病可在多年後出現"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3：65 歲肺癌病人使用 nivolumab 3 個月後倦怠、低血壓、低血鈉。",
+          "text": "1. **免疫檢查點抑制劑 + 新症狀** → 先想**免疫相關副作用**\n2. **內分泌**：低血壓 + 低鈉 + 倦怠 → **腎上腺功能不足**（PD-1 相關腎上腺炎，或腦下垂體炎造成 ACTH 不足）；也要驗甲狀腺（甲狀腺低下 5–22%）\n3. **檢查**：cortisol、ACTH、TSH、free T4\n4. **處理**：**補充類固醇**（腎上腺危象先給 hydrocortisone）；內分泌缺損常**永久**，需長期補充\n5. **其他器官**：腹瀉 → 腸炎；喘 → 肺炎；胸痛、心衰 → 心肌炎（立即高劑量類固醇）"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "治療目的與體能（§治療目的）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：下列何種惡性病最可能以化學治療藥物（chemotherapy）治癒？（A non-small cell lung carcinoma B colorectal carcinoma C seminoma D chronic myeloid leukemia）（FC 107 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：評估癌症病人的活動能力（performance status），如採用 Karnofsky performance status scale，70 分表示：（A 活動及工作皆不受限制 B 整日臥床，完全無法照顧自己 C 能照顧自己，但已不能工作或做正常的活動 D 日常生活需要他人相當多的協助及醫療照顧）（FC 112 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "化學治療（§化學治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：癌症治療學的進展一方面大大提升癌症病患的存活機會，但也可能合併許多 late treatment consequences。下列癌症治療藥物和 late treatment consequence 的組合，何者最不恰當？（A anthracycline — neuropathy B bleomycin — pulmonary fibrosis C trastuzumab — cardiac dysfunction D glucocorticoids — avascular necrosis of bones）（FC 113 年）",
+          "text": "**答：(A)。** FC 詳解：anthracycline 顯著的 late effect 是 cardiotoxicity，會造成 dose-dependent 心臟衰竭，且常為不可逆。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：某些癌症的治療可能與某些 second malignancies 的發生相關。下列有關癌症治療與 second malignancy 的組合，何者最不恰當？（A topoisomerase inhibitors；acute lymphoblastic leukemia associated with deletions in chromosome 5 or 7 B tamoxifen；endometrial cancer C 異體骨髓移植使用 T-cell depletion；EBV-associated lymphoproliferative disorder D 化學治療；myelodysplastic syndrome）（FC 112 年）",
+          "text": "**答：(A)。** FC 詳解：Topoisomerase II inhibitors（如 etoposide、doxorubicin）多與 AML 相關。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：66 歲男性，2 個月前發現兩側頸部、腋下與腹股溝淋巴結腫大，經左側淋巴結切片診斷為 angioimmunoblastic T cell lymphoma（AITL），接受標準劑量 CHOP（cyclophosphamide、adriamycin、vincristine 和 prednisolone）。化療 2 週後返回門診，主訴上腹脹、排便困難及手指指尖麻木，醫師懷疑可能發生 ileus。此副作用最可能由下列何種藥物引起？（A cyclophosphamide B adriamycin C prednisolone D vincristine）（FC 108 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：下列何種抗癌藥物最不會造成白血球減少（neutropenia）？（A sunitinib B paclitaxel C gefitinib D gemcitabine）（FC 106 年）",
+          "text": "**答：(C)。** FC 詳解：第 3–4 度嗜中性白血球減少發生率 paclitaxel 66%、gemcitabine 34%、sunitinib 12.8%、gefitinib < 1%。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：下列何者為抗癌化學藥物 cisplatin 之副作用？（A 血鈣過高症 B 血鎂過低症 C 血鈉過低症 D 血氯過高症）（FC 105 年）",
+          "text": "**答：(B)、(C) 給分。** FC 詳解：cisplatin 傷害腎小管導致鎂流失（經典）；低血鈉可因腎損傷導致水分滯留或 SIADH。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：Mitomycin C 和下列何種症候群有關？（A hand-foot syndrome B hemolytic uremic syndrome C hyperviscosity syndrome D capillary leak syndrome）（FC 104 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：下列何者不是 doxorubicin 的副作用？（A 骨髓抑制 B 心臟毒性 C 噁心 D 腎毒性）（FC 103 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "標靶治療（§標靶治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：上皮生長激素受體（EGFR）的標靶治療（包括 EGFR small-molecule inhibitor、anti-EGFR antibody、anti-HER2 antibody）不被應用在下列何種癌症上？（A 結腸癌 B 肺癌 C 腸平滑肌惡性肉瘤（intestinal leiomyosarcoma）D 乳癌）（FC 110 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：標靶治療藥物 imatinib 是何種蛋白的抑制劑？（A Bcr-Abl B PML-RARα C NF-κB D EGFRα）（FC 110 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：關於 grade IV astrocytoma（glioblastoma）的敘述，何者錯誤？（A 此疾病預後不佳，平均存活期小於 2 年 B 首次治療以手術，接續併用化學治療（temozolomide）及放射治療為主要治療方式 C O6-methylguanine-DNA methyltransferase（MGMT）有表現的腫瘤，對於 temozolomide 的治療較有療效 D bevacizumab 可用於復發後的病人，此藥物可以減少腫瘤周邊的水腫，也可延長 progression-free survival）（FC 108 年）",
+          "text": "**答：(C)。** FC 詳解：MGMT 表現量上升時，temozolomide 所造成的 DNA 損傷會被逆轉，腫瘤細胞不會走向死亡。"
+        },
+        {
+          "type": "heading",
+          "text": "免疫治療（§免疫治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：腫瘤細胞常藉著分泌生物激素與其他免疫相關分子來抑制免疫反應，減少免疫相關分子來毒殺腫瘤細胞，下列有關免疫反應相對應機轉之敘述何者錯誤？（A 腫瘤細胞分泌 interferon-γ 等抑制免疫之細胞激素，可以抑制免疫反應 B 腫瘤細胞 class I major histocompatibility complex（MHC）喪失，影響免疫細胞活化 C 腫瘤細胞影響調節 T 細胞（regulatory T cells）可以抑制免疫細胞功能 D 腫瘤細胞產生 CTLA-4 可讓毒殺 T 細胞（cytotoxic T cells）不活化）（FC 111 年）",
+          "text": "**答：(A) 或 (D) 或 (AD) 均給分。**"
+        },
+        {
+          "type": "heading",
+          "text": "其他（見其他篇）"
+        },
+        "乙章另有：嗜中性球低下發燒 2 題（111、106 年）與緩和照護 8 題（113、112、111、108、107×2、104、101 年）→〈Oncology (三)〉；去勢抗性攝護腺癌（108 年）→〈Oncology (五)〉；妊娠滋養層疾病（111 年）→〈Oncology (六)〉。",
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "治療目的",
+              "根治、輔助（術後清微轉移）、前導（術前縮小）、緩和"
+            ],
+            [
+              "化療可治癒",
+              "白血病、何杰金、部分淋巴瘤、生殖細胞瘤、GTD、兒童腫瘤、小細胞肺癌、卵巢癌"
+            ],
+            [
+              "化療反應差",
+              "肝膽胰、腎、甲狀腺、黑色素瘤、攝護腺"
+            ],
+            [
+              "KPS／ECOG",
+              "KPS 70 = 自理但不能工作；KPS < 70 或 ECOG ≥ 3 預後差"
+            ],
+            [
+              "白血球最低點",
+              "6–14 天；延遲 6 週：BCNU、mitomycin、DTIC、temozolomide"
+            ],
+            [
+              "Cisplatin",
+              "腎、低鎂、耳、神經、強烈嘔吐 → 水化"
+            ],
+            [
+              "Doxorubicin",
+              "心（> 550 mg/m²）、發泡劑（冰敷、dexrazoxane）、續發 AML"
+            ],
+            [
+              "Bleomycin",
+              "肺纖維化、不抑制骨髓"
+            ],
+            [
+              "Vincristine",
+              "神經、便秘、腸阻塞、SIADH；熱敷"
+            ],
+            [
+              "Cyclophosphamide／ifosfamide",
+              "出血性膀胱炎 → mesna"
+            ],
+            [
+              "Mitomycin",
+              "HUS、延遲骨髓抑制"
+            ],
+            [
+              "Leucovorin",
+              "MTX 救援；5-FU 加強"
+            ],
+            [
+              "Irinotecan",
+              "早發腹瀉 atropine、遲發 loperamide"
+            ],
+            [
+              "續發癌",
+              "烷化劑 AML −5/−7；拓樸 II AML 11q23；tamoxifen 子宮內膜"
+            ],
+            [
+              "止吐",
+              "123 → NK1、D2、HT3；高風險 5-HT3 + NK1 + 類固醇"
+            ],
+            [
+              "EGFR",
+              "cetuximab 大腸（KRAS 突變無效）；TKI 肺（exon 19、L858R；T790M → osimertinib）；皮疹、腹瀉"
+            ],
+            [
+              "HER2",
+              "trastuzumab 乳、胃；可逆心毒性"
+            ],
+            [
+              "VEGF",
+              "bevacizumab；高血壓、出血、傷口癒合差、血栓"
+            ],
+            [
+              "Imatinib",
+              "BCR-ABL（CML）、c-KIT（GIST）"
+            ],
+            [
+              "Temozolomide",
+              "MGMT 甲基化（不表現）才有效"
+            ],
+            [
+              "檢查點抑制劑",
+              "PD-1、PD-L1、CTLA-4；irAE 皮膚最常見、甲狀腺、腦下垂體（CTLA-4）、腸炎、肺炎、心肌炎 → 類固醇"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
