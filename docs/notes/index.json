@@ -94,6 +94,10 @@
         {
           "id": "chest-symptoms-exam",
           "name": "Chest (一)：症狀與理學檢查——呼吸困難、咳嗽、咳血、胸痛與發紺"
+        },
+        {
+          "id": "chest-imaging-pft",
+          "name": "Chest (二)：影像與肺功能——肺功能判讀、胸部 X 光與影像題"
         }
       ]
     },
