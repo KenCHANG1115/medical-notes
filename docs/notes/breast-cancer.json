@@ -1,0 +1,806 @@
+{
+  "id": "breast-cancer",
+  "title": "Breast Cancer (乳癌)：從乳房腫塊到依分子分型治療",
+  "title_en": "Breast Cancer",
+  "title_zh": "乳癌",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.84 Breast Cancer (p.632–641, Fig.84-2); Ch.97 Cancer of Unknown Primary Site (p.735，腋下淋巴結腺癌)",
+    "First Choice 醫學(三) 第4冊 - 腫瘤科 丙、各論 I. 乳癌（講義 p.296–300；題目 p.300–306），本篇共 16 題",
+    "ACR BI-RADS® v2025 Mammography Lexicon Summary Form（American College of Radiology 官方表單）— BI-RADS 分級與處置"
+  ],
+  "generated": "2026-11-24",
+  "updated": "2026-11-24",
+  "related": [
+    {
+      "id": "onc-cancer-detection",
+      "name": "Oncology (一)：找出癌症——篩檢、遺傳、腫瘤標記、原發不明癌與腫瘤旁症候群"
+    },
+    {
+      "id": "onc-cancer-treatment",
+      "name": "Oncology (二)：治療癌症——治療目的、化學治療、標靶與免疫治療"
+    },
+    {
+      "id": "onc-supportive-emergencies",
+      "name": "Oncology (三)：照顧癌症病人——嗜中性球低下發燒、腫瘤急症與症狀控制"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 16 題｜最常考：依 ER／PR／HER2 選輔助治療、停經前 tamoxifen vs 停經後 AI、BI-RADS 0、腋下淋巴結腺癌找不到原發、BRCA 與三陰性\n① **入口**：乳房腫塊、篩檢異常、腋下腫塊 → **診斷性影像**（年輕緻密乳房用超音波，年長用乳房攝影）→ **切片**（Harrison：影像導引粗針切片）\n② **切片一定要驗三個標記**：**ER、PR、HER2**（+ Ki67）→ 分成 **Luminal A、Luminal B、HER2、三陰性** 四型\n③ **局部治療**：乳房保留手術 + 放療 = 全乳切除（存活相同）；腋下用**前哨淋巴結**決定要不要清除\n④ **全身治療依分型**：**荷爾蒙受體陽性 → 荷爾蒙治療**（停經前 tamoxifen、停經後 **AI**）；**HER2 陽性 → 化療 + trastuzumab 一年**；**三陰性 → 化療**（± pembrolizumab）；淋巴結陽性或腫瘤 > 2 cm → 化療\n⑤ **轉移性**：目標是緩和；ER+ 且非內臟危象 → **荷爾蒙治療優先**（± CDK4/6 抑制劑）；骨轉移加 **bisphosphonate 或 denosumab**；化療多用**單一藥物**依序使用\n新版來源：Harrison 22e Ch.84（輔以 Ch.97 原發不明癌）；FC 第4冊 丙 I；BI-RADS 依 ACR 官方表單\n分工：遺傳性癌症症候群總表、國健署篩檢見〈Oncology (一)〉；化療與標靶藥副作用見〈Oncology (二)〉；骨轉移、脊髓壓迫、高血鈣見〈Oncology (三)〉"
+        }
+      ]
+    },
+    {
+      "title": "危險因子、遺傳與預防：誰的風險高　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 乳癌主要是「**雌激素暴露太久**」的病：初經早、停經晚、晚生或不生、HRT、停經後肥胖、喝酒\n- **BRCA1/2**：體染色體顯性，**父系或母系都會遺傳**；乳癌 50–80%、卵巢癌約 30%\n- **BRCA1 → 三陰性**（FC 103 年）；BRCA2 → 多為 ER 陽性\n- 家族史強但 BRCA1/2 陰性 → **多基因面板**檢測（TP53、PALB2、CHEK2、PTEN、ATM、CDH1）（FC 110 年）\n- 預防：高風險者 **tamoxifen**、raloxifene（停經後）或 **AI**；**預防性乳房切除**降風險約 90%；預防性卵巢切除也降乳癌約 50%（停經前）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "危險因子（Harrison Ch.84＋FC）",
+            "重點"
+          ],
+          "rows": [
+            [
+              "**女性、年齡**",
+              "最主要；美國診斷中位數 63 歲"
+            ],
+            [
+              "**雌激素暴露久**",
+              "**初經早、停經晚、第一胎晚（或未生育）**；停經後荷爾蒙補充療法（HRT）、正在用口服避孕藥；**停經後肥胖**（停經前肥胖不算）；**喝酒**"
+            ],
+            [
+              "**輻射**",
+              "**青春期**接受游離輻射是證據最強的外在因子"
+            ],
+            [
+              "**良性病理**",
+              "**非典型增生**（ductal／lobular）風險 4–5 倍；**LCIS 7–12 倍**；乳房緻密度高"
+            ],
+            [
+              "**家族史**",
+              "一等親罹病 → 風險加倍；但只有約 20% 病人有家族史"
+            ],
+            [
+              "**遺傳基因**（5–10%）",
+              "**BRCA1**（17q21）、**BRCA2**（13q12）：體染色體顯性，到 80 歲乳癌 50–80%、卵巢癌約 30%；另有 **TP53**（Li-Fraumeni）、**PALB2**、**ATM**、**STK11**（Peutz-Jeghers）、**PTEN**（Cowden）、CHEK2、CDH1"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "BRCA1",
+            "BRCA2"
+          ],
+          "rows": [
+            [
+              "染色體",
+              "17q21",
+              "13q12"
+            ],
+            [
+              "乳癌型態（FC）",
+              "**三陰性**（ER−、PR−、HER2−）為主",
+              "多為 **ER 陽性**"
+            ],
+            [
+              "其他",
+              "卵巢癌",
+              "男性乳癌、攝護腺癌、胰臟癌（見〈Oncology (一)〉）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 110 年**：兩位姑媽 60 歲左右乳癌、爸爸淋巴癌、堂兄大腸癌，姑媽 BRCA1/2 **陰性** → **應考慮 BRCA1/2 以外的基因檢測**（多基因面板）。\n- 遺傳**可以來自父系**；**不用 PET 篩檢**（高風險者是乳房攝影加 MRI）；預防性 AI／tamoxifen 只用在**非典型增生、LCIS** 等有病理證據者，一般中度風險不常規使用（FC 詳解）。\n**FC 103 年**：BRCA 突變的乳癌最可能是 **ER−、PR−、HER2−（三陰性）**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼雌激素暴露越久，乳癌風險越高？**\n乳腺上皮在雌激素刺激下會一直分裂，分裂越多次，DNA 出錯、累積突變的機會越大。所以凡是**拉長「有月經的年數」**（初經早、停經晚）、或**外加雌激素**（HRT、停經後脂肪組織把雄性素轉成雌激素）的因素都會增加風險；反過來，**切除卵巢**、**tamoxifen**、**AI** 都能降低風險——這也正是荷爾蒙治療能治乳癌的原因。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：基因檢測的對象（Harrison Ch.84，ASCO／SSO）",
+          "text": "- **不建議一般民眾**做\n- 有乳癌病史且**診斷時 ≤ 65 歲**的病人可考慮檢測\n- 年紀較大者若有：Ashkenazi 猶太血統、多發乳癌、**三陰性乳癌**、小葉癌合併瀰漫性胃癌病史或家族史、近親有早發或**男性乳癌**、卵巢癌、胰臟癌、轉移性攝護腺癌\n- 未罹癌者：家族中有人帶突變、或依風險模型（Tyrer-Cuzick、BRCAPro、CanRisk）屬高風險\n- 預防性 tamoxifen 副作用：更年期症狀、**子宮內膜癌、血栓**（尤其 > 50 歲）；raloxifene 效果較弱但子宮癌較少"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 丙、各論 I. 乳癌 p.296、303、306"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.84 p.632–634"
+        }
+      ]
+    },
+    {
+      "title": "篩檢與評估：乳房腫塊、BI-RADS、腋下腫塊　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 一般風險女性篩檢：**乳房攝影**（FC 107 年：**50 歲起每 2 年**）；Harrison：多數指引 50–70 歲每 1–3 年，許多也建議 40–50 歲開始\n- 台灣：**國健署 40–74 歲每 2 年**乳房攝影（📌 114 年起擴大，詳見〈Oncology (一)〉）\n- **不用 PET、超音波、MRI** 做一般風險篩檢；不再強調乳房自我檢查\n- **BI-RADS 0 = 未完成 → 再做其他影像**（超音波、加照）（FC 105 年）；4、5 → 切片\n- 可疑腫塊（硬、不規則、固定）→ **診斷性影像 → 切片**；年輕緻密乳房用**超音波**\n- **女性腋下淋巴結腺癌、乳房找不到腫瘤** → 視為乳癌：驗 **ER、PR、HER2、GATA3**，乳房 MRI；**不必做乳房切除**，可做腋下清除 + 全乳放療 + 全身治療（FC 113 年）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "影像（FC）",
+            "適合誰",
+            "為什麼"
+          ],
+          "rows": [
+            [
+              "**乳房攝影**",
+              "**年長**、乳房脂肪多（FC：> 50 歲）",
+              "對**微小鈣化**非常敏感——早期乳癌常以沿乳管分布的微鈣化表現"
+            ],
+            [
+              "**超音波**",
+              "**年輕**、乳腺**緻密**（FC：< 40 歲；月經前、用荷爾蒙者）",
+              "緻密乳腺會遮蔽 X 光，超音波較能分辨腫瘤"
+            ],
+            [
+              "**MRI**",
+              "高風險篩檢（終生風險 ≥ 20%，含 BRCA）；乳房攝影與超音波都陰性的腋下轉移",
+              "敏感但特異性低（Harrison）"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "BI-RADS（ACR v2025 乳房攝影）",
+            "處置",
+            "惡性機率"
+          ],
+          "rows": [
+            [
+              "**0：未完成（Incomplete）**",
+              "**需要再做其他影像**（召回加照、超音波）或與舊片比較",
+              "—"
+            ],
+            [
+              "1：陰性",
+              "例行篩檢",
+              "幾乎 0%"
+            ],
+            [
+              "2：良性",
+              "例行篩檢",
+              "幾乎 0%"
+            ],
+            [
+              "3：可能良性",
+              "**短期（6 個月）追蹤**",
+              "> 0% 至 ≤ 2%"
+            ],
+            [
+              "4：可疑（4A／4B／4C）",
+              "**組織診斷（切片）**",
+              "> 2% 至 < 95%（4A ≤ 10%；4B ≤ 50%；4C < 95%）"
+            ],
+            [
+              "5：高度懷疑惡性",
+              "**組織診斷**",
+              "≥ 95%"
+            ],
+            [
+              "6：已切片證實惡性",
+              "轉外科、腫瘤科做確定治療",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 105 年**：BI-RADS **0** 不是「沒有腫瘤」，也不是要馬上轉外科——是**評估未完成**，要安排**乳房超音波**等其他影像。\n**FC 107 年**：無家族史女性的篩檢 → **50 歲起每 2 年乳房攝影**（不是 MRI、超音波、PET）。\n**FC 106 年**：40 歲、單一堅實、無觸痛、邊界不規則、**固定於皮膚**的腫塊 → **乳房攝影後切除性生檢**（不是只做乳房攝影，也不是 PET）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行做法（Harrison 22e Ch.84）：切片方式**\n- 依 FC 作答：乳房攝影後**切除性生檢**（106 年）。\n- Harrison 新版：最後診斷靠病理，**通常用影像導引的粗針切片（core biopsy）**，同時驗 ER、PR、HER2；可疑的腋下淋巴結也用影像導引切片。兩側乳房都要照影像（約 3% 新診斷者對側也有病灶）。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/breast-cancer/h84-2.png",
+          "label": "Harrison's 22e Fig.84-2（p.635）",
+          "caption": "乳房異常的評估流程",
+          "explain": "**【怎麼看】**兩個入口：左邊是**理學檢查摸到可疑病灶**，上方是**篩檢影像**。有可疑發現 → **診斷性影像**（乳房攝影、超音波，必要時 MRI）→ 可見**可疑微鈣化**（白圈）或**可疑腫塊**（箭頭）→ **切片**。切片可能是**乳管原位癌（DCIS，合併微鈣化）**或**侵襲性乳管癌**，並做 **ER、PR、HER2** 染色（右下：ER 陽性、PR 陽性、HER2 陰性）。影像陰性但臨床仍懷疑 → 不能就此放心，要追蹤或轉給有經驗的乳房專家。\n**【考點】**「摸到硬塊但乳房攝影正常」**不能排除**乳癌；最後診斷一定靠**病理**，而且要驗三個標記。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年**：38 歲，腋下腫瘤切片為**腺癌**，乳房超音波、攝影、MRI 都沒看到腫塊（隱藏性乳癌）→「最不合適」是**同側乳房切除**（侵入性最大、不作首選）；驗 ER、GATA3、HER2，局部放療，全身化療或荷爾蒙治療都合理。\n**FC 103 年**：25 歲，腋下 5 × 6 cm 硬塊，切片為 **poorly differentiated carcinoma** → 先**和病理科討論、加做免疫染色**找來源（不是抽一堆腫瘤標記、不是直接開乳房、不是直接化療）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼女性「單獨腋下淋巴結腺癌」要當乳癌處理？**\n腋下淋巴結主要引流**同側乳房**，女性腋下出現腺癌，最常見的來源就是乳房——只是原發腫瘤小到影像看不到。Harrison（Ch.97 原發不明癌）的流程：乳房攝影與超音波陰性 → **乳房 MRI**；MRI 陽性 → 乳房手術或放療 + 化療或荷爾蒙治療；**MRI 陰性 → 不開刀、考慮放療 + 依乳癌化療**。病理上用 **ER、PR、HER2、GATA3** 支持乳房來源。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 丙、各論 I. 乳癌 p.296、300–306"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.84 p.634–635"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.97 p.735"
+        },
+        {
+          "type": "source",
+          "book": "ACR BI-RADS® v2025 Mammography Lexicon Summary Form",
+          "pages": "Assessment categories（acr.org 官方表單）"
+        }
+      ]
+    },
+    {
+      "title": "病理、分子分型與局部治療：手術、腋下、放療　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 每個乳癌都要驗 **ER、PR、HER2**（ER ≥ 1% 染色即陽性）→ 決定全身治療\n- **Luminal A** 預後最好、荷爾蒙治療為主；**三陰性**預後最差、化療為主\n- 小葉癌（10–15%）：**E-cadherin 缺失**，多 ER+、HER2−，會轉移到**漿膜面**（腹膜、肋膜、腦膜）、卵巢、腸胃道\n- **乳房保留手術 + 放療 = 改良式根除性乳房切除**（6 個隨機試驗存活相同）\n- 保乳禁忌：病人意願、外觀不佳、**多發病灶**、**曾接受胸部放療**、**懷孕無法及時放療**；FC 另列**侵犯乳頭乳暈**、**膠原血管疾病**\n- **腋下淋巴結轉移不是保乳禁忌**（FC 112 年）→ 保乳 + 腋下清除 + 輔助治療\n- 臨床腋下陰性 → **前哨淋巴結切片**；腋下清除只用在摸得到淋巴結或前哨淋巴結大量侵犯"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "分子分型（FC＋Harrison）",
+            "比例",
+            "ER／PR／HER2",
+            "特性",
+            "全身治療主軸"
+          ],
+          "rows": [
+            [
+              "**Luminal A**",
+              "40%",
+              "ER+、PR+、HER2−，Ki67 低",
+              "低惡性度、**預後最好**",
+              "**荷爾蒙治療**（反應好）"
+            ],
+            [
+              "**Luminal B**",
+              "30%",
+              "ER+（PR 低或 Ki67 高），HER2 ±",
+              "較差",
+              "荷爾蒙 **± 化療**"
+            ],
+            [
+              "**HER2 型**",
+              "15%",
+              "ER−、PR−、**HER2+**",
+              "侵襲性；易腦轉移",
+              "**化療 + 抗 HER2**"
+            ],
+            [
+              "**三陰性（basal）**",
+              "15%",
+              "全部陰性；CK5/6+",
+              "侵襲性、**預後最差**；BRCA1",
+              "**化療**（± pembrolizumab）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 112 年**：「**腋下淋巴結轉移**」**不是**乳房保留手術的禁忌症；同側多發病灶、腫瘤侵犯乳頭乳暈、膠原血管疾病才是。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼膠原血管疾病（如硬皮症、紅斑性狼瘡）、懷孕、曾接受胸部放療會影響保乳？**\n乳房保留手術的前提是**術後要做全乳放療**，兩者合起來才等於全乳切除。不能放療的人就不適合保乳：曾經照過胸部（劑量已到上限）、懷孕（胎兒）、膠原血管疾病（FC 列為禁忌）。**多發病灶**則是無法用一個局部切除拿乾淨。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "原位癌",
+            "Harrison Ch.84",
+            "FC"
+          ],
+          "rows": [
+            [
+              "**DCIS**（乳管原位癌）",
+              "未治療 30% 會在同側變侵襲癌；**切除到邊緣乾淨** ± 全乳放療；ER+ 可加荷爾蒙治療；**通常不評估腋下**；範圍大 → 全乳切除",
+              "乳房保留手術 + 放療"
+            ],
+            [
+              "**LCIS**（乳小葉原位癌）",
+              "是**風險標記**（25–30% 之後在**任一側**發生侵襲癌）；主要是**持續篩檢 + tamoxifen 或 AI 預防**；雙側預防性切除只限有其他風險者",
+              "常多發 → 可考慮預防性乳房切除"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行做法（Harrison 22e Ch.84）：LCIS**\n- FC：LCIS 常多發，可考慮預防性乳房切除。\n- Harrison 新版：LCIS 是**風險標記**，主要處置是**持續篩檢 + tamoxifen 或 AI 化學預防**；雙側預防性乳房切除只限有其他風險因子或顧慮者。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：放療與特殊族群（Harrison Ch.84）",
+          "text": "- 全乳放療 4–6 週，或低分次 5 天到 3 週；> 65 歲、低風險 ER+ 且會吃荷爾蒙藥者可省略放療\n- 全乳切除後**胸壁放療**：腫瘤大、腋下淋巴結陽性（尤其 **≥ 4 顆**）；1–3 顆也考慮\n- **炎性乳癌**：快速紅、腫、熱、痛，易被當成**乳腺炎**——抗生素無效就要切片；皮膚切片見**真皮淋巴管腫瘤栓塞**；約 1/3 診斷時已轉移；先前導全身治療 → **全乳切除 + 腋下清除**（不保乳）→ 放療\n- **懷孕**：第二、三孕期可手術；doxorubicin、cyclophosphamide 可在第二、三孕期使用，**MTX、5-FU 避免**；**放療、荷爾蒙、標靶藥延到產後**\n- **男性乳癌**：約 90% ER+；**tamoxifen** 為首選；BRCA 突變可達 14% → 都要做基因檢測"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 丙、各論 I. 乳癌 p.297"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.84 p.636–637"
+        }
+      ]
+    },
+    {
+      "title": "早期乳癌的全身輔助治療：依分型選武器　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **ER／PR 陽性 → 荷爾蒙治療**：停經前 **tamoxifen 5–10 年**（FC：10 年）；停經後 **AI**（anastrozole、letrozole、exemestane）\n- **Tamoxifen 不是 AI**（FC 112 年）——它是 SERM\n- **HER2 陽性 → 化療 + trastuzumab 共 1 年**（改善存活；**可逆**心毒性）（FC 109、112 年）\n- **化療適應症**（FC）：**淋巴結陽性**；腫瘤 **> 2 cm**；> 1 cm 且 ER／PR 陰性；> 0.5 cm 且 HER2 陽性\n- 化療演進：CMF → CEF（加 anthracycline）→ **AC-T** 或 TC（加 taxane）\n- 順序：**先化療，再荷爾蒙治療**（不同時）；抗 HER2 可和荷爾蒙同時（FC 107 年）\n- 化療長期副作用：**提早停經**（FC 105 年）、anthracycline 心肌病、taxane 神經病變、續發白血病\n- ER+ 淋巴結 0–3 顆 → **多基因檢測（Oncotype DX 21 基因等）**決定要不要化療"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "荷爾蒙治療",
+            "機轉",
+            "誰用",
+            "副作用（FC＋Harrison）"
+          ],
+          "rows": [
+            [
+              "**Tamoxifen**（SERM）",
+              "競爭雌激素受體；不同組織拮抗或促效",
+              "**停經前首選**（任何停經狀態都可用）；男性乳癌",
+              "**子宮內膜癌**、**靜脈血栓**、中風、熱潮紅；優點：停經後**保護骨質**、降膽固醇"
+            ],
+            [
+              "**AI**：anastrozole、letrozole、**exemestane**",
+              "抑制周邊 aromatase",
+              "**停經後首選**（略優於 tamoxifen）",
+              "**關節痛**、**骨質疏鬆、骨折**、更年期症狀"
+            ],
+            [
+              "**卵巢抑制**：goserelin、leuprolide、卵巢切除",
+              "把停經前的雌二醇降到停經後濃度",
+              "**高風險停經前** + tamoxifen 或 AI",
+              "更年期症狀、骨質流失"
+            ],
+            [
+              "**Fulvestrant**",
+              "純抗雌激素（SERD，降解受體）",
+              "轉移性、AI 或 tamoxifen 失效",
+              "每月肌肉注射"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/breast-cancer/fc-ai-tamoxifen.png",
+          "label": "FC 第4冊 丙 I 附圖（p.298）",
+          "caption": "Aromatase 抑制劑與 tamoxifen 的作用位置",
+          "explain": "**【怎麼看】**停經後卵巢不再製造雌激素，雌激素主要來自**周邊組織**（皮下脂肪、肝、肌肉、腦）的 **aromatase**：把 androstenedione 轉成 estrone、testosterone 轉成 estradiol。**AI** 擋住這一步，讓雌激素「做不出來」；**tamoxifen** 則在乳癌細胞上**佔住雌激素受體**，讓雌激素「接不上」。\n**【考點】**停經前雌激素主要來自**卵巢**，單用 AI 擋不住 → **AI 只能單獨用在停經後**；停經前要用 tamoxifen，或先做**卵巢抑制**（LHRH 促效劑、卵巢切除）再用 AI。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 112 年（一）**：何者**不是** aromatase inhibitor → **tamoxifen**（SERM）。\n**FC 107 年**：55 歲**停經後**，T2（3 cm）N1，ER+ PR+ HER2− → **先化療，再接 AI**（不是 tamoxifen、不是同時給）。\n**FC 105 年**：40 歲接受 6 次 CMF（5-FU、MTX、cyclophosphamide）→ 長期最可能是**提早停經**（CMF 沒有 anthracycline，所以不是心毒性）。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "抗 HER2（FC＋Harrison）",
+            "種類",
+            "注意"
+          ],
+          "rows": [
+            [
+              "**Trastuzumab**、pertuzumab",
+              "單株抗體",
+              "**心臟射出分率下降（可逆）** → 治療前、治療中心臟超音波；pertuzumab 腹瀉"
+            ],
+            [
+              "Lapatinib、neratinib、tucatinib",
+              "酪胺酸激酶抑制劑（lapatinib 擋 HER2 + EGFR）",
+              "腹瀉、黏膜炎、皮疹；小分子**可進中樞**"
+            ],
+            [
+              "T-DM1（ado-trastuzumab emtansine）、trastuzumab deruxtecan",
+              "抗體藥物複合體",
+              "T-DM1：神經病變、血小板低；術前治療後仍有殘餘腫瘤 → 改 T-DM1 補滿一年"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 112 年（二）**：35 歲，ER+、PR+、**HER2 3+**，3 cm、腋下 2 顆轉移，已做保乳 + 前哨 → **化療合併 trastuzumab + 抗荷爾蒙 + 放療**（三個標記都陽性，三種武器都要用；保乳後要放療）。\n**FC 109 年**：根治手術後用標靶藥做**輔助治療**能提升整體存活的是 **HER2 過度表現乳癌 + trastuzumab**——EGFR 肺癌的 gefitinib、KRAS 野生型大腸癌的 cetuximab、肝癌的 sorafenib 都**不是**用在輔助治療。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼停經後用 AI、停經前用 tamoxifen？**\n看雌激素「從哪裡來」。停經前主要來自**卵巢**，單用 AI 擋不住（Harrison：AI 單一治療**只限停經後**）；所以停經前用直接**擋受體**的 tamoxifen，或先用 LHRH 促效劑**把卵巢關掉**再用 AI。停經後卵巢停工，雌激素幾乎全靠周邊 aromatase 製造，這時 AI 最有效，而且臨床試驗略優於 tamoxifen。代價是 AI 讓雌激素幾乎歸零 → **骨鬆、關節痛**；tamoxifen 在子宮是**促效** → **子宮內膜癌**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e Ch.84）：依分型的術前（前導）與術後治療**\n- **HER2+**：腫瘤 **≥ 3 cm 或淋巴結陽性** → **前導**化療 + trastuzumab ± pertuzumab；達病理完全反應 → 抗 HER2 補滿一年；**仍有殘餘** → 改 **T-DM1** 補滿一年。病理淋巴結陰性且 < 3 cm → **單用每週 paclitaxel 12 週 + trastuzumab 一年**。\n- **三陰性**：> 2 cm 或 > 1 cm 且淋巴結陽性 → **前導化療 + pembrolizumab**（術後繼續滿一年）；沒有完全反應可加 **capecitabine**。\n- **ER+ HER2− 高風險**：化療後荷爾蒙治療 + **CDK4/6 抑制劑**（abemaciclib 2 年或 ribociclib 3 年）；**生殖細胞 BRCA 突變** → **olaparib 一年**。\n- **荷爾蒙治療**：停經前低風險 tamoxifen 5–10 年；停經前高風險 **LHRH 促效劑 + tamoxifen 或 AI**；停經後 AI 5 年，高風險可到 10 年。\n- AI 或卵巢抑制者可用 **bisphosphonate**（zoledronate 每 6 個月共 3 年）保護骨質，並可能減少骨轉移復發。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：追蹤與存活者照顧（Harrison Ch.84）",
+          "text": "- 前 3 年每 3–6 個月問診與理學檢查；**每年乳房影像**是唯一需要的例行檢查——無症狀時**不需要**常規做其他影像或抽血（含腫瘤標記）\n- trastuzumab 結束且無心臟異常 → 不必再追蹤心臟超音波\n- 熱潮紅：venlafaxine、gabapentin；避免 HRT\n- AI 關節痛：換另一種 AI（間隔 4–6 週）、運動、NSAID、duloxetine\n- 化療造成提早停經：< 40 歲 < 50%，> 40 歲常見 → 有生育計畫者要先討論**生育保存**；化療期間合併 LHRH 促效劑可能保護卵巢功能"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 丙、各論 I. 乳癌 p.298–299、302–305"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.84 p.637–639"
+        }
+      ]
+    },
+    {
+      "title": "轉移性乳癌：緩和為目標，荷爾蒙優先　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 轉移性乳癌**很少能治癒**，治療以全身治療為主、目標是**緩和**\n- **ER+、HER2−、只有骨轉移** → 第一線 **AI**（停經後）± CDK4/6 抑制劑，**不是化療**（FC 109 年）\n- 骨轉移 → **加 bisphosphonate（或 denosumab）**（FC 105 年：AI + 雙磷酸鹽）\n- **內臟危象**才用化療；轉移性化療用**單一藥物**依序換\n- 配對：**everolimus = mTOR**（FC 113 年考「EGFR」是錯的）、ribociclib = CDK4/6、pertuzumab = HER2、denosumab = RANKL、olaparib = PARP\n- HER2+ → taxane + trastuzumab + pertuzumab；BRCA → PARP 抑制劑"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "轉移性乳癌（Harrison Ch.84＋FC）",
+            "做法"
+          ],
+          "rows": [
+            [
+              "目標",
+              "**緩和**（很少能治癒），中位存活 < 3 年；ER+、非內臟、無病期長、體能好者可活很多年"
+            ],
+            [
+              "先切片",
+              "復發病灶盡量切片，**重驗 ER、PR、HER2**（可能改變）；另驗 PIK3CA、ESR1、PD-L1"
+            ],
+            [
+              "**ER+ HER2−**",
+              "非危及生命 → **荷爾蒙治療優先**、依序使用；新診斷：停經後 **AI + CDK4/6 抑制劑**，停經前再加 LHRH 促效劑；之後 fulvestrant、everolimus（mTOR）、alpelisib（PIK3CA）等"
+            ],
+            [
+              "何時改化療",
+              "**內臟危象**（淋巴管肺轉移、快要肝衰竭）或荷爾蒙治療無效；荷爾蒙與化療**不同時**用"
+            ],
+            [
+              "化療方式",
+              "**單一藥物依序使用**（合併化療只用於內臟危象，不延長存活）；capecitabine（先驗 **DPYD**）、taxane 等"
+            ],
+            [
+              "**HER2+**",
+              "第一線 **taxane + trastuzumab + pertuzumab**，之後維持抗 HER2；第二線 trastuzumab deruxtecan；易**腦轉移**"
+            ],
+            [
+              "**三陰性**",
+              "化療（platinum 有效）；PD-L1 陽性加 pembrolizumab；sacituzumab govitecan"
+            ],
+            [
+              "**BRCA 突變**",
+              "**PARP 抑制劑**（olaparib、talazoparib）"
+            ],
+            [
+              "**骨轉移**",
+              "**bisphosphonate 或 denosumab** 減少骨折、疼痛、放療需求；荷爾蒙治療對骨轉移有角色（FC）；局部痛可放療"
+            ],
+            [
+              "手術",
+              "新診斷轉移者**切除原發腫瘤不改善存活**；只用在孤立局部復發、單一腦轉移、穩定骨轉移"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 109 年**：60 歲停經後，ER+ PR+ HER2−，**多處肋骨轉移、沒有內臟轉移** → 第一線 **aromatase inhibitor**（不是 bevacizumab、trastuzumab、化療）。\n**FC 105 年**：65 歲，10 年前第一期乳癌只開刀，現在**溶骨性骨轉移**、ER+ HER2−、無其他臟器轉移 → **AI + 雙磷酸鹽**（不是多藥化療、capecitabine、strontium-89）。\n**FC 113 年（一）**：標靶配對錯誤的是 **everolimus — EGFR 抑制劑**；everolimus 是 **mTOR** 抑制劑。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "乳癌標靶藥（FC 表＋Harrison）",
+            "標靶",
+            "副作用"
+          ],
+          "rows": [
+            [
+              "Trastuzumab、**pertuzumab**",
+              "HER2（單株抗體）",
+              "心功能下降、腹瀉"
+            ],
+            [
+              "**Everolimus**",
+              "**mTOR**（不是 EGFR）",
+              "口腔黏膜炎、腹瀉、皮疹"
+            ],
+            [
+              "Palbociclib、**ribociclib**、abemaciclib",
+              "**CDK4/6**",
+              "嗜中性球低下"
+            ],
+            [
+              "Olaparib、talazoparib",
+              "**PARP**（BRCA 突變）",
+              "貧血、嗜中性球低下"
+            ],
+            [
+              "**Denosumab**",
+              "**RANK ligand**",
+              "—（骨轉移減少骨骼事件）"
+            ],
+            [
+              "Alpelisib／capivasertib",
+              "PI3Kα（PIK3CA 突變）／AKT",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 ER+ 的骨轉移先給荷爾蒙治療，而不是化療？**\nER+ 腫瘤長得慢、對荷爾蒙治療反應好，而荷爾蒙藥副作用遠小於化療——在「緩和、維持生活品質」的目標下，能用荷爾蒙控制就先用，一線接一線換（每換一線效果約減半）。只有在**內臟危象**（腫瘤快速侵犯肺、肝，等不及荷爾蒙慢慢起效）或對荷爾蒙已無反應時，才改化療。骨轉移另加 **bisphosphonate／denosumab** 是為了減少**骨折、疼痛和放療需求**。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "腫瘤科 丙、各論 I. 乳癌 p.300–301、304–305"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.84 p.639–641"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1：45 歲女性摸到右乳 2 cm 硬塊，邊界不規則；乳房攝影 BI-RADS 4。",
+          "text": "1. **BI-RADS 4 = 可疑** → 需要**組織診斷**（不是 6 個月追蹤）\n2. **切片**：影像導引粗針切片（FC 題目選項是切除性生檢）\n3. **病理必驗**：組織型（乳管、小葉）、分級、**ER、PR、HER2**、Ki67\n4. **分期**：無症狀早期乳癌只需乳房影像 + 手術前檢查；腫瘤大、皮膚變化、多處淋巴結或有症狀 → CT、骨掃描找轉移\n5. **基因檢測**：≤ 65 歲診斷、三陰性、家族史 → 考慮"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2：42 歲停經前，2.5 cm 侵襲性乳管癌，ER+ PR+ HER2−，前哨淋巴結 1 顆陽性。",
+          "text": "1. **局部**：保乳 + 全乳放療（腋下陽性不是保乳禁忌）；少量前哨轉移且會放療者可免腋下清除\n2. **要不要化療**：淋巴結陽性 → 考慮；ER+ 0–3 顆淋巴結可用**多基因檢測**決定\n3. **荷爾蒙**：停經前 → **tamoxifen**；高風險 → **LHRH 促效劑 + tamoxifen 或 AI**\n4. **順序**：先化療、後荷爾蒙\n5. **副作用與生育**：tamoxifen → 子宮內膜癌、血栓；化療 → 提早停經 → 先談生育保存"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3：58 歲停經後，4 cm 腫瘤，ER−、PR−、HER2 3+，腋下淋巴結腫大。",
+          "text": "1. **分型**：**HER2 型**（侵襲性、易腦轉移）\n2. **前導治療**（≥ 3 cm 或淋巴結陽性）：化療 + **trastuzumab** ± pertuzumab\n3. **心臟**：治療前、治療中**心臟超音波**；trastuzumab 心毒性**多可逆**\n4. **手術後**：完全反應 → 抗 HER2 補滿一年；**殘餘腫瘤 → 改 T-DM1**\n5. **不需要**荷爾蒙治療（ER／PR 陰性）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 4：68 歲，8 年前 ER+ 乳癌，吃 AI 5 年，現在背痛，骨掃描多處骨轉移。",
+          "text": "1. **切片**骨病灶：確認是乳癌復發，**重驗 ER、PR、HER2**\n2. **先排除急症**：脊髓壓迫（神經學檢查、MRI）、高血鈣\n3. **全身治療**：仍 ER+、無內臟危象 → **荷爾蒙治療優先**（曾用 AI → fulvestrant ± CDK4/6 抑制劑；ESR1、PIK3CA 突變有對應藥）\n4. **骨骼**：**bisphosphonate 或 denosumab**；疼痛處放療\n5. **目標**：緩和、生活品質；不要同時給化療和荷爾蒙"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "危險因子與遺傳（§危險因子、遺傳與預防）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：一位 40 歲女性，有癌症家族史，來諮詢她發生乳癌的風險。她有兩個姑媽在 60 歲左右時診斷乳癌，爸爸有淋巴癌，堂兄有結腸癌，她的姑媽 BRCA-1 和 BRCA-2 基因檢測的結果為陰性。下列敘述何者正確？（A 相關的基因遺傳非來自父系 B 她是發生癌症的高危險群，應該每年接受正子攝影（PET）檢查 C 應考慮 BRCA-1 及 BRCA-2 以外的基因檢測 D 她應開始服用芳香環轉化酶抑制劑（aromatase inhibitor）以降低風險）（FC 110 年）",
+          "text": "**答：(C)。** FC 詳解：BRCA1/2 及其他高風險致癌基因可自父系或母系遺傳；NCCN／USPSTF 不建議以 PET-CT 作為常規篩檢，高風險者可在乳房 X 光外增做 MRI 或超音波；姑媽 BRCA1/2 陰性且家族多系統腫瘤，符合多基因面板檢測，宜評估 TP53、PALB2、CHEK2、PTEN、ATM、CDH1；預防性內分泌治療限於有 atypical hyperplasia 或 LCIS 病理證據者。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：一位 45 歲女性病人，已知帶有 BRCA 突變基因，乳房攝影亦呈現異常，經穿針生檢（core needle biopsy）證實為侵犯型乳癌，依據目前的醫學知識，由 BRCA 突變導致的乳癌，最可能有下列何種病理特徵？（A ER(+)、PR(+)、HER2/neu negative B ER(+)、PR(−)、HER2/neu positive C ER(+)、PR(−)、HER2/neu negative D ER(−)、PR(−)、HER2/neu negative）（FC 103 年）",
+          "text": "**答：(D)。** 三陰性（BRCA1 為主）。"
+        },
+        {
+          "type": "heading",
+          "text": "篩檢與評估（§篩檢與評估）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：對一個無乳癌家族或個人史的女性，下列何種乳癌篩選，比較符合美國、加拿大及歐洲的相關建議？（A 自 50 歲起每 2 年做一次核磁共振檢查（MRI）B 自 40 歲起每 2 年做一次乳房超音波 C 自 50 歲起每 2 年做一次乳房攝影（mammography）D 自 35 歲起每 2 年做正子攝影檢查（PET））（FC 107 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：55 歲有糖尿病的徐女士於 2 週前接受乳房攝影檢查，今天回診要看報告，報告上寫著 BIRADS category 0（0 級），接下來給她何種建議？（A 建議她趕快去看乳房外科並幫忙預約乳房外科門診 B 告訴她第 4 級及以上才是比較有惡性病變的可能，暫時觀察等明年再檢查 C 告訴她 0 級表示沒有腫瘤，可兩年再檢查一次即可 D 告訴她 0 級表示不能排除有異狀，將為她安排乳房超音波檢查來協助進一步診斷）（FC 105 年）",
+          "text": "**答：(D)。** FC 詳解：BI-RADS 0 = incomplete, need additional imaging evaluation."
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：一 40 歲女士因左乳房腫塊求診。體檢發現單一腫塊，堅實，無觸痛感，邊界不規則及模糊，固定不動於皮膚。在這個階段最適當的檢查為何？（A 乳房 X 光攝影 B 切除性生檢（excisional biopsy）C 乳房 X 光攝影後切除性生檢 D PET 掃描）（FC 106 年）",
+          "text": "**答：(C)。** Harrison 新版多以影像導引粗針切片取得病理（見 §篩檢與評估）。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：一位 38 歲女性，一開始以左側腋下腫瘤表現至醫院就診，腋下腫瘤切片證實為腺癌（adenocarcinoma），但乳房影像檢查（包括超音波、攝影及核磁共振）並無顯現乳房腫塊，關於此病人後續檢查或治療，下列何者最不合適？（A 檢測 estrogen receptor、GATA3、HER-2 基因表現 B 同側乳房切除手術治療 C 局部放射治療 D 全身性化學治療或抗賀爾蒙治療）（FC 113 年）",
+          "text": "**答：(B)。** FC 詳解：隱藏性乳癌最常見來源仍是乳房；依 NCCN 四種處置都有其適應場景，但同側乳房切除侵入性最大、對生活品質影響較大，在找不到原發且可選擇腋下清除 + 全乳放療時通常不作首選。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：一位 25 歲女性，無特殊過去病史，因右腋下有一硬塊以及一個月內體重減輕 5 公斤而至醫院求診，理學檢查除了右側腋下有一 5×6 cm、固定、無痛性硬塊以外其餘皆正常，亦無可觸性的乳房腫塊。切片報告（incisional biopsy）為 poorly differentiated carcinoma，下一步該如何處理最適當？（A 抽血檢驗 CEA、CA-125、AFP 及 PSA B 針對病理切片和病理科醫師討論，並安排進一步相關免疫染色基因檢測之檢查 C 儘快安排右側乳房切除術及腋下淋巴結切除術 D 立即給予 cyclophosphamide、adriamycin 及 5-fluorouracil）（FC 103 年）",
+          "text": "**答：(B)。** FC 詳解：原發不明癌可以靠病理上的免疫染色判別來源（另見〈Oncology (一)〉的 CK7／CK20）。"
+        },
+        {
+          "type": "heading",
+          "text": "局部治療（§病理、分子分型與局部治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：下列何者不是乳癌患者接受乳房保留手術（breast-conserving surgery）的相對或絕對禁忌症？（A 腋下淋巴轉移 B 同側乳房多發性病灶 C 腫瘤侵犯 nipple-areola D collagen-vascular disease 患者）（FC 112 年）",
+          "text": "**答：(A)。** FC 詳解：單純的腋下淋巴結轉移並不構成 BCS 禁忌，腋下轉移病人仍可考慮 BCS + axillary dissection + adjuvant therapy。"
+        },
+        {
+          "type": "heading",
+          "text": "輔助治療（§早期乳癌的全身輔助治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：一位 35 歲婦女，因右側乳房有一腫塊，切除切片證實為 ER 陽性、PR 陽性、HER2 陽性（組織免疫染色 3+）之侵襲性乳癌，病人接受右側乳房保留手術和前哨淋巴結切片手術，最後病理證實腫瘤直徑 3 公分，腋下淋巴結 2 顆轉移，下列何者術後輔助治療對降低局部及遠處轉移之效果最好？（A anthracycline 為主化學治療，加上抗賀爾蒙治療以及放射線治療 B 紫杉醇為主化學治療，加上抗賀爾蒙治療和放射線治療 C 合併化學治療以及卵巢去功能手術 D 化學治療合併 trastuzumab，以及抗賀爾蒙治療和放射線治療）（FC 112 年）",
+          "text": "**答：(D)。** FC 詳解：ER+、PR+ 需抗賀爾蒙治療；HER2+（IHC 3+）需抗 HER2 標靶治療；腋下淋巴轉移且腫瘤 3 公分（stage II，T2N1）需含 anthracycline + taxane 的化療，加上前述兩個輔助治療。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：下列何者不是芳香酶抑制劑（aromatase inhibitor）？（A anastrazole B exemestane C letrozole D tamoxifen）（FC 112 年）",
+          "text": "**答：(D)。** FC 詳解：tamoxifen 是 SERM，與雌激素受體結合，在不同組織表現拮抗或促效作用，不屬於芳香酶抑制劑。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：在早期癌症病患接受根治性手術後，何種癌症可以用所列出之標靶治療為輔助性療法（adjuvant therapy），以有效提升整體存活率？（A EGFR 基因突變之肺癌：gefitinib B K-RAS 無突變之大腸癌：cetuximab C HER2 基因過度表現之乳癌：trastuzumab D HBV 相關的肝癌：sorafenib）（FC 109 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：一位 55 歲停經後女性乳癌病人，第 3 期（T2 [3 cm] N1 [1/10] M0），ER+、PR+、HER2-negative，grade 2，其他方面健康良好，下列何者為較好的術後輔助治療？（A 先行化學治療，再接續使用雌激素拮抗劑（如 tamoxifen）5 年，不用芳香環轉化酶抑制劑 B 同時使用化學治療和雌激素拮抗劑 C 先行化學治療，再接續使用芳香環轉化酶抑制劑（如 anastrozole）D 同時使用化學治療和芳香環轉化酶抑制劑）（FC 107 年）",
+          "text": "**答：(C)。** FC 詳解：腫瘤大於 2 公分需術後化療；HER2−、ER+、PR+ → 化療後持續荷爾蒙治療，停經婦女選擇芳香環轉化酶抑制劑。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：一位 40 歲女性乳癌病人，手術後經過 6 次化學治療包括 5-fluorouracil、methotrexate 和 cyclophosphamide，此位病人長期最可能發生的副作用為何？（A 心臟毒性 B 白血病 C 提早停經 D 神經毒性）（FC 105 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "轉移性乳癌（§轉移性乳癌）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：60 歲已停經女性，經乳房腫瘤切片證實罹患乳癌，ER 及 PR 皆為陽性，HER2 為陰性，骨骼掃描發現多處肋骨轉移，斷層掃描並未發現胸腹有任何轉移，下列何種藥物最適合當作第一線治療？（A bevacizumab B trastuzumab C chemotherapy D aromatase inhibitor）（FC 109 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：一位 65 歲女性 10 年前停經後得到第一期乳癌，只以外科治療。最近發現蝕骨性骨骼病灶，證實為乳癌轉移 ER+、HER2-negative，此外無其他臟器轉移，下列何者為最適當的治療？（A 芳香環轉化酶抑制劑 + 雙磷酸鹽 B 多種藥劑化學治療 + 雙磷酸鹽 C capecitabine + 雙磷酸鹽 D 單一藥劑化學治療 + strontium-89）（FC 105 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：乳癌標靶治療發展日新月異，目前有很多標靶藥物上市，下列標靶治療藥物與相對應的主要分子標靶配對何者錯誤？（A pertuzumab — 抗 HER2 抗體 B denosumab — 抗 RANK ligand 抗體 C ribociclib — CDK4/6 抑制劑 D everolimus — EGFR 抑制劑）（FC 113 年）",
+          "text": "**答：(D)。** FC 詳解：everolimus 並非 EGFR 抑制劑，而是 mTOR 抑制劑。"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "危險因子",
+              "雌激素暴露久（初經早、停經晚、晚生、HRT、停經後肥胖、酒）、青春期輻射、非典型增生、LCIS"
+            ],
+            [
+              "BRCA",
+              "BRCA1 → 三陰性；BRCA2 → ER+；父母系都會遺傳；陰性但家族史強 → 多基因面板"
+            ],
+            [
+              "篩檢",
+              "FC：50 歲起每 2 年乳房攝影；台灣 40–74 每 2 年；不用 PET"
+            ],
+            [
+              "影像",
+              "年輕緻密 → 超音波；年長 → 乳房攝影（微鈣化）；高風險加 MRI"
+            ],
+            [
+              "BI-RADS",
+              "0 未完成 → 再做影像；3 → 6 個月追蹤；4、5 → 切片；6 已證實"
+            ],
+            [
+              "腋下腺癌、乳房無腫瘤",
+              "當乳癌：ER、PR、HER2、GATA3，乳房 MRI；不必乳房切除"
+            ],
+            [
+              "分子分型",
+              "Luminal A（最好）、Luminal B、HER2、三陰性（最差）"
+            ],
+            [
+              "保乳",
+              "保乳 + 放療 = 全切；禁忌：多發、曾胸部放療、懷孕、侵犯乳頭、膠原血管病；腋下轉移不是禁忌"
+            ],
+            [
+              "DCIS／LCIS",
+              "DCIS 切乾淨 ± 放療；LCIS 是風險標記 → 篩檢 + tamoxifen／AI"
+            ],
+            [
+              "荷爾蒙",
+              "停經前 tamoxifen（子宮內膜癌、血栓）；停經後 AI（骨鬆、關節痛）；tamoxifen 不是 AI"
+            ],
+            [
+              "化療適應症",
+              "淋巴結陽性、> 2 cm、> 1 cm ER−、> 0.5 cm HER2+；先化療後荷爾蒙"
+            ],
+            [
+              "HER2+",
+              "化療 + trastuzumab 一年；可逆心毒性；殘餘 → T-DM1"
+            ],
+            [
+              "三陰性",
+              "化療 ± pembrolizumab；殘餘 → capecitabine；BRCA → olaparib"
+            ],
+            [
+              "CMF 長期",
+              "提早停經"
+            ],
+            [
+              "轉移 ER+",
+              "AI ± CDK4/6；內臟危象才化療；單一藥物化療"
+            ],
+            [
+              "骨轉移",
+              "bisphosphonate 或 denosumab"
+            ],
+            [
+              "標靶配對",
+              "everolimus mTOR、ribociclib CDK4/6、pertuzumab HER2、denosumab RANKL、olaparib PARP"
+            ],
+            [
+              "炎性乳癌",
+              "紅腫熱痛像乳腺炎；真皮淋巴管侵犯；前導 → 全切 + 腋下清除 → 放療"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

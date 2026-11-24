@@ -350,6 +350,13 @@
         {
           "id": "onc-supportive-emergencies",
           "name": "Oncology (三)：照顧癌症病人——嗜中性球低下發燒、腫瘤急症與症狀控制"
+        },
+        {
+          "heading": "實體腫瘤"
+        },
+        {
+          "id": "breast-cancer",
+          "name": "Breast Cancer (乳癌)：從乳房腫塊到依分子分型治療"
         }
       ]
     },
