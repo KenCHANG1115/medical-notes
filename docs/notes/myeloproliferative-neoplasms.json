@@ -1,0 +1,651 @@
+{
+  "id": "myeloproliferative-neoplasms",
+  "title": "Myeloproliferative Neoplasms (骨髓增生性腫瘤與血球增減的鑑別)",
+  "title_en": "Myeloproliferative Neoplasms",
+  "title_zh": "骨髓增生性腫瘤與血球增減的鑑別",
+  "specialty": "血液腫瘤科",
+  "sources": [
+    "Harrison's 22e - Ch.67 Disorders of Granulocytes and Monocytes; Ch.70 Enlargement of Lymph Nodes and Spleen; Ch.107 (myelophthisis); Ch.108 Polycythemia Vera and Other Myeloproliferative Neoplasms; Ch.110 Chronic Myeloid Leukemia",
+    "First Choice 醫學(三) 第4冊 - 戊、慢性骨髓增生性疾病（講義 p.210–212；題目 p.213–218），本篇共 10 題（t(2;8) 1 題移至〈淋巴瘤與 CLL〉）"
+  ],
+  "generated": "2026-11-24",
+  "updated": "2026-11-24",
+  "related": [
+    {
+      "id": "acute-leukemia",
+      "name": "Acute Leukemia (急性白血病與造血幹細胞移植)"
+    },
+    {
+      "id": "bleeding-disorders",
+      "name": "Bleeding Disorders (出血：凝血檢查與出血疾病)"
+    },
+    {
+      "id": "anemia-hemolytic",
+      "name": "Anemia (三)：正球性貧血——溶血與骨髓衰竭"
+    },
+    {
+      "id": "thrombosis-vte",
+      "name": "Thrombosis (血栓：易栓症、靜脈血栓與抗凝治療)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 10 題｜最常考：CML 的診斷與第一線 TKI、PV 的 EPO 與放血、MPN 的突變基因、嗜中性球低下發燒\n① **血球太多，先分反應性還是腫瘤**：感染、發炎、出血、缺鐵、脾切除後，還是骨髓增生性腫瘤（MPN）\n② **白血球多 + 左移 + 嗜鹼性球增加 + 脾腫大** → 驗 **BCR::ABL1／t(9;22)** → **CML** → **TKI**\n③ **紅血球多** → 看 **EPO**：**低 → PV**（JAK2 V617F）→ **放血**；高或正常 → 續發性（缺氧、腫瘤、腎）\n④ **血小板多** → 先排除缺鐵、發炎、癌症、脾切除後 → **ET**（JAK2、CALR、MPL）\n⑤ **淚滴紅血球 + 幼稚白血球紅血球症 + 巨脾 + 抽不出骨髓** → **骨髓纖維化**；另一端：**嗜中性球 < 500 + 發燒 = 急症**\n新版來源：Harrison 22e Ch.67、70、108、110（FC 第4冊 戊 10 題）\n分工：CML 失敗後的移植見〈急性白血病〉移植段；血小板 > 100 萬造成的後天性 vWD 見〈出血〉；淋巴球增多見〈淋巴瘤與 CLL〉"
+        }
+      ]
+    },
+    {
+      "title": "入口：血球太多、太少與巨脾　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **嗜中性球增多**：感染、發炎、組織壞死、類固醇、腎上腺素、運動、壓力 → 多是**反應性**；**≥ 3–5 萬**持續 = **類白血病反應**（成熟細胞為主）\n- **CML 線索**：白血球極高 + 各階段骨髓細胞 + **嗜鹼性球增加** + **脾腫大** + **LAP 低** → 驗 **t(9;22)／BCR::ABL1**（不需要流式細胞免疫分型）\n- **嗜中性球 < 500 = 嚴重**；**藥物**是最常見可逆原因（抗甲狀腺藥、clozapine、sulfa、β-lactam……）→ 停藥 5–7 天恢復、**不要再挑戰**\n- **嗜中性球低下 + 發燒 = 急症**：白血球總數正常也可能 ANC 很低 → **抽血培養後 1 小時內給抗綠膿桿菌廣效抗生素**\n- **紅血球多**：先排除**相對性**（脫水）→ **EPO 低 → PV**；EPO 高 → 缺氧或腫瘤\n- **血小板多**：**數值高低不能分辨**反應性或 MPN；先排除**缺鐵**、發炎、癌症、脾切除後；**脾腫大**提示 PV、PMF、CML 而非 ET\n- **巨脾**（肋下 > 8 cm 或 > 1000 g）：**CML**、**骨髓纖維化**、**PV**、淋巴瘤、**CLL**、**毛細胞白血病**、Gaucher 病、類肉瘤、自體免疫溶血"
+        },
+        {
+          "type": "heading",
+          "text": "白血球太多"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "類白血病反應（反應性）",
+            "CML"
+          ],
+          "rows": [
+            [
+              "原因",
+              "嚴重感染、發炎、組織壞死、出血、類固醇",
+              "**BCR::ABL1**（t(9;22)）"
+            ],
+            [
+              "白血球",
+              "通常 3–5 萬；以**成熟**嗜中性球為主",
+              "常 > 10 萬；**各成熟階段都有**（芽細胞、骨髓細胞……）"
+            ],
+            [
+              "嗜鹼性、嗜酸性球",
+              "不增加",
+              "**增加**（嗜鹼性球是重要線索）"
+            ],
+            [
+              "脾臟",
+              "通常不大",
+              "**脾腫大**最常見的身體表現"
+            ],
+            [
+              "血小板",
+              "可正常或增加",
+              "**常增加**"
+            ],
+            [
+              "**LAP 分數**",
+              "**高**（正常成熟嗜中性球有這個酵素）",
+              "**低**"
+            ],
+            [
+              "確診",
+              "找到並治療原因後會恢復",
+              "**染色體 t(9;22) 或 BCR::ABL1 PCR／FISH**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 109 年**：24 歲女性健檢 **WBC 17.1 萬**，分類有芽細胞、前骨髓細胞、骨髓細胞、後骨髓細胞、帶狀……（**左移、各階段都有**）、嗜鹼性球 3.5%，**血小板 60.6 萬** → 想 CML；確診**較不需要**的是**周邊血球免疫分型**——要做的是**骨髓染色體分析、BCR/ABL1 檢測**，FC 也列 **LAP 分數**（CML 低）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 LAP 能分辨類白血病反應和 CML？**\nLAP（白血球鹼性磷酸酶）是**正常、成熟、被活化**的嗜中性球才有的酵素——感染發炎時嗜中性球被動員且功能正常 → **LAP 高**；CML 的嗜中性球雖然看起來成熟，卻是腫瘤細胞、缺這個酵素 → **LAP 低**（FC）。現在確診直接驗 BCR::ABL1，LAP 只是傳統考點。"
+        },
+        {
+          "type": "heading",
+          "text": "白血球太少：嗜中性球低下"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "白血球太少（嗜中性球低下）的原因（Harrison Table 67-1）",
+            "例子"
+          ],
+          "rows": [
+            [
+              "**藥物**（最重要）",
+              "化療（烷化劑、抗代謝藥）；**抗甲狀腺藥**、**clozapine**、phenothiazine、carbamazepine、sulfonamide、penicillin、chloramphenicol、利尿劑、NSAID"
+            ],
+            [
+              "血液疾病",
+              "再生不良性貧血、週期性嗜中性球低下、骨髓浸潤或纖維化"
+            ],
+            [
+              "營養",
+              "**B12、葉酸缺乏**（尤其酒精）"
+            ],
+            [
+              "感染",
+              "結核、傷寒、病毒（肝炎、HIV）等"
+            ],
+            [
+              "破壞或滯留",
+              "自體免疫（SLE、**Felty 症候群**）、脾亢"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 108 年**：58 歲男性發燒 **38.8°C、血壓 90/50**，WBC **9,740 看似正常**，但分類**淋巴球 83%、分節嗜中性球只有 5%** → **ANC ≈ 490（< 500）= 嚴重嗜中性球低下合併發燒（可能已敗血性休克）**。敘述**錯誤**的是「因為白血球總數正常，**只需要症狀治療**」——要**詳細身體檢查找感染源**、**抽血培養**、**儘早靜脈廣效抗生素**（FC：1 小時內、抗綠膿桿菌）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼一定要算 ANC，不能只看白血球總數？**\nANC = 白血球總數 × （分節 + 帶狀嗜中性球比例）。淋巴瘤、CLL、病毒感染或骨髓被佔據時，白血球總數可以「正常」，真正能殺菌的嗜中性球卻很少。嗜中性球低下的病人**發炎反應弱**——發燒可能是唯一線索、膿和浸潤都不明顯 → 等到確定感染才給藥就太晚（經驗性抗生素原則見〈急性白血病〉支持治療段）。\n**藥物免疫性嗜中性球低下**（Harrison）：首次用藥約 7 天內發生（有過敏史者可數小時內）；常見 sulfa、penicillin、cephalosporin；停藥 5–7 天開始恢復、10 天內完全；**不要再給同一藥物**。"
+        },
+        {
+          "type": "heading",
+          "text": "紅血球太多、血小板太多"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "紅血球增多",
+            "例子（Harrison Table 108-2）"
+          ],
+          "rows": [
+            [
+              "**相對性**（血漿少）",
+              "脫水、利尿劑、酒精、抽菸（**Gaisböck 症候群**）"
+            ],
+            [
+              "**缺氧 → EPO 高**",
+              "高海拔、**慢性肺病**、**右向左分流**、**睡眠呼吸中止**、**CO 中毒**、高氧親和力血紅素"
+            ],
+            [
+              "**腫瘤分泌 EPO**",
+              "**腎細胞癌**、肝癌、**小腦血管母細胞瘤**、子宮肌瘤、嗜鉻細胞瘤、腦膜瘤"
+            ],
+            [
+              "腎臟與藥物",
+              "腎動脈狹窄、腎囊腫、**腎移植後**；**雄性素**、**EPO 注射**、**SGLT2 抑制劑**"
+            ],
+            [
+              "**EPO 低 → PV**",
+              "JAK2 V617F（> 95%）或 exon 12"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "血小板增多（Harrison Table 108-6）",
+            "例子"
+          ],
+          "rows": [
+            [
+              "**反應性（遠比 MPN 常見）**",
+              "**缺鐵**、發炎（膠原血管病、IBD）、**感染**、**出血**、**癌症**、手術、溶血、**脾切除後**或脾功能低下、B12／葉酸補充後與戒酒後反彈"
+            ],
+            [
+              "**骨髓增生性腫瘤**",
+              "**ET**、PV、原發性骨髓纖維化、**CML**"
+            ],
+            [
+              "骨髓化生不良",
+              "**5q– 症候群**、伴環形鐵芽球的頑固性貧血"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 104 年**：56 歲健康男性健檢**血小板 87.5 萬**、Hb、白血球大致正常、身體檢查無異常 → 能確定是 **ET 而非續發性**的是 **JAK2 突變**。（MPN 的 **TPO 反而上升**；LAP 高、出現不成熟骨髓細胞都不是 ET 的證據。）\n**FC 103 年**：最**不會**出現血小板增多的是 **C 型肝炎**（肝病、脾亢 → 血小板**低**）；**缺鐵性貧血**、**PV**、**脾切除後**都會增多。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 Hb 要 ≥ 20（Hct ≥ 60%）才能確定是「真的」紅血球增多？**\nHct 是比例：脫水時血漿少，紅血球總量沒變，Hct 也會升高（相對性）。更麻煩的是 **PV 會同時擴張血漿容量**，把升高的紅血球量「稀釋」掉，尤其女性與**巨脾**病人——Hct 看似正常，紅血球總量其實很高（Harrison）。所以 Hb、Hct 只是中度上升時，要靠 **JAK2 突變與 EPO** 來判斷。"
+        },
+        {
+          "type": "heading",
+          "text": "巨脾"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "巨脾（肋下 > 8 cm 或 ≥ 1000 g，Harrison Table 70-3）",
+            ""
+          ],
+          "rows": [
+            [
+              "**骨髓增生**",
+              "**CML**、**骨髓纖維化**、**PV**"
+            ],
+            [
+              "**淋巴增生**",
+              "**淋巴瘤**、**CLL**、**毛細胞白血病**"
+            ],
+            [
+              "其他",
+              "**Gaucher 病**、類肉瘤、自體免疫溶血性貧血、瀰漫性脾血管瘤"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.67 p.457–458"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.70 p.479–481"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.108 p.819–823"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.110 p.837"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "戊、慢性骨髓增生性疾病 講義 p.210–212"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "戊、慢性骨髓增生性疾病 題目 p.213、215–216、218"
+        }
+      ]
+    },
+    {
+      "title": "CML：BCR::ABL1、分期、TKI 與追蹤　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **t(9;22)（Philadelphia 染色體）→ BCR::ABL1 融合**：酪胺酸激酶**持續活化** → 細胞過度增生；CML 最常見 **p210**（p190 多見於 Ph+ ALL）\n- 診斷中位年齡 55–65 歲；男略多；**游離輻射**（原爆、核災）可增加風險，但**多數找不到原因**\n- 表現：約 90% 在**慢性期**、常無症狀（健檢發現）；倦怠、腹脹、**脾腫大**（最常見身體表現）\n- 分期：**慢性期 → 加速期 → 急變期**（芽細胞 ≥ 20%；2/3 AML、1/3 ALL）\n- **第一線 = TKI，一確診就開始**：imatinib；第二代 dasatinib、nilotinib、bosutinib（更強更快）；**T315I 突變 → ponatinib、asciminib**\n- 追蹤：**每 3 個月定量 BCR::ABL1 PCR**；**異體移植只在 TKI 失敗或加速、急變期**"
+        },
+        {
+          "type": "figure",
+          "src": "figures/myeloproliferative-neoplasms/fc-cml-smear.png",
+          "label": "FC 醫學(三)第4冊 p.497 彩圖（107 年考題）",
+          "caption": "45 歲女性 WBC 26 萬、t(9;22) 的周邊血抹片",
+          "explain": "**【怎麼看】**同一視野裡有**不同成熟階段**的骨髓系細胞：右邊大顆、核仁不明顯的是不成熟細胞，中間有骨髓細胞、後骨髓細胞，下方是分葉的成熟嗜中性球；左下一團紫色顆粒是**血小板團**（血小板增多）。\n**【考點】**「**各階段都有** + 嗜鹼性、嗜酸性球增加 + 血小板多」是**慢性期 CML** 的典型抹片；急性白血病則是單一一群芽細胞。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "分期（FC）",
+            "骨髓芽細胞",
+            "其他"
+          ],
+          "rows": [
+            [
+              "**慢性期**（約 90% 診斷時在此期）",
+              "< 10%",
+              "白血球高、左移、嗜鹼性球增加、血小板多、脾腫大、LAP 低"
+            ],
+            [
+              "**加速期**",
+              "10–19%",
+              "周邊**嗜鹼性球 > 20%**、**血小板 < 10 萬**（與治療無關）、新增染色體異常"
+            ],
+            [
+              "**急變期**",
+              "**≥ 20%**",
+              "**2/3 變 AML、1/3 變 ALL**；預後差"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年**：45 歲女性 **WBC 26 萬**、Hb 7.7、血小板 65 萬、左移、**嗜鹼性球 7%**、肝脾腫大、**t(9;22)**、骨髓芽細胞 2%（慢性期）→ 敘述**錯誤**的是「慢性期若無症狀，**可先觀察不需立即用藥**」——**所有慢性期 CML 確診就應立即開始 TKI**（放任會累積突變、增加進入急變期的機會）。正確：第一線 TKI（imatinib、dasatinib、nilotinib）；**LAP 常降低**；**少有一診斷即是急變期**。\n**FC 106 年**：32 歲男性 WBC 12 萬、脾腫大、t(9;22) 在 19/20 分裂中期 → 第一線是 **tyrosine kinase inhibitor**（不是 hydroxyurea、interferon、異體移植）。\n**FC 111 年**：BCR-ABL1 敘述**錯誤**的是「**輻射傷害常常會導致這種轉位**」——FC 詳解：輻射主要與急性白血病、MDS、甲狀腺癌相關。Harrison 雖記載原爆、核災後 CML 風險上升，但多數 CML **找不到原因**，所以「常常」不對。正確：**p210 最常見**、**酪胺酸激酶活性增加**、**定量 BCR-ABL1 可監測療效**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 TKI 讓 CML 從「必死」變成「接近正常壽命」？**\nCML 幾乎完全靠**單一個**驅動異常——BCR::ABL1 激酶。TKI 佔住它的 ATP 結合位 → 訊號斷掉 → 腫瘤細胞凋亡、正常造血回來。imatinib 問世前中位存活 3–7 年；現在 10 年存活 **> 85%**、接近同齡一般人（Harrison）。抗藥最常見的機制是 **ABL1 激酶區突變**，其中 **T315I**（守門員突變）只有第三代 ponatinib、asciminib 有效。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "治療反應（Harrison）",
+            "定義"
+          ],
+          "rows": [
+            [
+              "完全細胞遺傳學反應",
+              "Ph 陽性細胞 0% ≈ BCR::ABL1（IS）**≤ 1%**——與**存活改善**相關的主要指標"
+            ],
+            [
+              "**主要分子反應（MMR）**",
+              "BCR::ABL1（IS）**≤ 0.1%**（降 3 個 log）"
+            ],
+            [
+              "深度分子反應（MR4、MR4.5）",
+              "≤ 0.01%、≤ 0.0032%；**持續 ≥ 2 年**可考慮**停藥（TFR）**：維持約 50%；≥ 5 年約 80%"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：異體移植改為 **TKI 失敗後**的後線治療（FC：加速期、急變期優先考慮）；**hydroxyurea、interferon 只有歷史意義**，hydroxyurea 現在只用於確診前暫時降白血球。達到持續深度分子反應的病人可在密切 PCR 監測下**嘗試停藥（TFR）**，也讓想懷孕的女性可暫停 TKI。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.110 p.834–838"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "戊、慢性骨髓增生性疾病 講義 p.210–211"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "戊、慢性骨髓增生性疾病 題目 p.213、216–218"
+        }
+      ]
+    },
+    {
+      "title": "真性紅血球增多症（PV）　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **JAK2 V617F > 95%**（其餘多為 exon 12）→ 對 EPO 過度敏感、不需 EPO 也能增生 → **血清 EPO 低**\n- 三系都可能增加：紅血球多 + 白血球、血小板多 + **脾腫大**；**最常見的 MPN**\n- 表現：**臉紅潤**、**洗澡後皮膚癢（aquagenic pruritus）**、**紅斑肢痛症**、高黏滯（頭暈、耳鳴、頭痛、視力模糊、TIA）、**血栓**（年輕女性的 **Budd-Chiari** 要想到 PV）、痛風\n- FC 診斷：**Hb > 16.5（男）／> 16.0（女）或 Hct > 49%／> 48%** + 骨髓三系增生 + **JAK2**；次要條件 **EPO 低於正常**\n- 治療：**放血**——**Hct < 45%**（Harrison：女性 < 42%）；FC：+ **低劑量 aspirin**；**> 60 歲或曾血栓 → hydroxyurea**（不耐受 → interferon、ruxolitinib）\n- **避免 ³²P、烷化劑**（致白血病）"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年**：68 歲女性臉紅潤、脾腫大、Hb 20.3、Hct 61.5%、白血球 1.2 萬、血小板 44.6 萬、骨髓三系增生、**JAK2 V617F** → 敘述**錯誤**的是「血清 **EPO 通常升高**」——PV 的 EPO 被負回饋抑制、**多為低值**；EPO 高要找缺氧、腎腫瘤等續發性原因。正確：**interferon** 可縮脾、降血球、降低 JAK2 突變負荷；高黏滯第一線是**放血**；PV 的**血漿容量也增加** → 有些病人 Hct 不會明顯升高。\n**FC 105 年**：54 歲男性臉紅、脾腫大、**Hb 19.5、Hct 60%**、**EPO 3（低）**、JAK2 突變 → 最適當治療是**放血（phlebotomy）**（不是 hydroxyurea、anagrelide、³²P）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼放血是 PV 的核心治療，而且會刻意讓病人缺鐵？**\nPV 最嚴重的併發症是**血栓**，而血栓和**紅血球量（黏滯度）**強烈相關，和血小板、白血球數**不相關**（Harrison）。放血直接降低紅血球量；反覆放血造成**缺鐵** → 紅血球「原料」不足、不會很快又長回來 → 之後約每 3 個月放一次就夠。所以 PV 病人的缺鐵**不要補鐵**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：Harrison 作者的立場比 FC 保守——**aspirin 在紅血球量沒控制好或 > 60 歲時可能弊大於利**（出血）；**hydroxyurea 會致白血病、不能預防血栓或纖維化**，只宜短期使用；**化療永遠不用來控制紅血球量**；需要藥物時優先 **ruxolitinib（JAK1/2 抑制劑）或長效型 interferon-α**（作用在突變的幹細胞、不致突變；interferon 約 20% 達血液學與分子完全緩解）。作答仍依 FC：放血 + aspirin，高風險加 hydroxyurea。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.108 p.818–821"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "戊、慢性骨髓增生性疾病 講義 p.211–212"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "戊、慢性骨髓增生性疾病 題目 p.216、218"
+        }
+      ]
+    },
+    {
+      "title": "原發性血小板增多症（ET）與原發性骨髓纖維化（PMF）　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **ET**：女性較多、多為**偶然發現**；**JAK2（50%）、CALR（30%）、MPL（8%）**；診斷靠**排除反應性**與其他 MPN（FC：血小板持續 > 45 萬 + 突變 + 骨髓巨核細胞增生 + 排除缺鐵、CML、PV、PMF）\n- ET 一般**沒有脾腫大**（有 → 想 PV、PMF、CML）；存活與一般人無異\n- 血小板 **> 100 萬** → **後天性 vWD** → 反而**出血**（此時 aspirin 可能加重出血）；**假性高血鉀**（凝血時血小板釋鉀）\n- FC 治療：無症狀不治療；**> 60 歲、曾血栓、血小板 > 150 萬** → **hydroxyurea 或 anagrelide** + aspirin\n- **PMF**：**淚滴紅血球**、幼稚白血球紅血球症、**巨脾**、**dry tap**、骨硬化；JAK2 55%、CALR 36%、MPL 4%；**ruxolitinib** 縮脾、改善症狀；**異體移植是唯一治癒**\n- MPN 的驅動突變是 **JAK2、CALR、MPL**；**FLT3 屬於 AML**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "驅動突變",
+            "PV",
+            "ET",
+            "PMF"
+          ],
+          "rows": [
+            [
+              "**JAK2 V617F**",
+              "**> 95%**",
+              "約 50%",
+              "約 55%"
+            ],
+            [
+              "**CALR**",
+              "罕見",
+              "約 30%",
+              "約 36%"
+            ],
+            [
+              "**MPL**",
+              "—",
+              "約 8%",
+              "約 4%"
+            ],
+            [
+              "三者皆無",
+              "—",
+              "預後通常良性",
+              "**預後最差**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年**：最**不可能**是 MPN 常見突變的是 **FLT3**（AML 的突變）；**JAK2、MPL、CALR** 都是 MPN 驅動突變。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/myeloproliferative-neoplasms/h108-1.png",
+          "label": "Harrison's 22e Fig.108-1（p.821）",
+          "caption": "骨髓纖維化（髓外造血）的周邊血抹片",
+          "explain": "**【怎麼看】**背景多顆紅血球一端拉尖成**淚滴狀（teardrop／dacrocyte）**；右下有一顆**有核紅血球**；中間有不成熟的骨髓系細胞與分葉白血球——**有核紅血球 + 不成熟白血球 = 幼稚白血球紅血球症（leukoerythroblastosis）**。\n**【考點】**淚滴細胞是紅血球擠過纖維化骨髓或脾臟時被拉變形 → **骨髓纖維化**（原發或續發，如癌轉移、結核）的線索；常伴**巨脾**與「**抽不出骨髓（dry tap）**」。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼骨髓纖維化會巨脾，血球卻可能減少？**\n纖維組織佔據骨髓 → 造血幹細胞跑到**脾臟、肝臟**去造血（**髓外造血**）→ 脾越來越大；但脾臟造血效率差、又會滯留血球 → 貧血、血小板低。細胞從脾、纖維化骨髓擠出時被拉成淚滴，未成熟細胞也漏到周邊血（Harrison）。\n**續發性骨髓纖維化（myelophthisis）**：癌症骨轉移（乳、肺、攝護腺）、結核、黴菌、HIV、類肉瘤 → 診斷 PMF 前要先排除。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**現行治療（Harrison 22e）**：ET 的處置「**看病人，不看血小板數**」——無症狀、無心血管危險因子不抽菸者**不需治療**；抽菸是 ET 血栓最重要的危險因子；把血小板降到正常**不能預防**動靜脈血栓。需要降血小板時可用長效型 interferon、anagrelide 或 hydroxyurea。PMF 另有 fedratinib、pacritinib（血小板低時）、momelotinib（改善貧血）等 JAK 抑制劑。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.108 p.821–825"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.107 p.818"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "戊、慢性骨髓增生性疾病 講義 p.212"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第4冊",
+          "pages": "戊、慢性骨髓增生性疾病 題目 p.213"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 109 年）：24 歲女性健檢，WBC 17.1 萬，分類從芽細胞 0.5%、前骨髓細胞、骨髓細胞到分節球都有，嗜鹼性球 3.5%，血小板 60.6 萬，Hb 正常。",
+          "text": "1. **反應性還是腫瘤**：無感染症狀、白血球 > 10 萬、**各成熟階段都有** + **嗜鹼性球** + 血小板多 → 傾向 **CML**\n2. **與類白血病反應比較**：LAP 低（CML）vs 高（反應性）\n3. **確診**：**骨髓染色體 t(9;22)**、**BCR::ABL1 PCR 或 FISH**；骨髓芽細胞比例決定分期\n4. **不需要**：流式細胞免疫分型（那是急性白血病、淋巴增生的檢查）\n5. **治療**：慢性期**立即 TKI**；每 3 個月定量 BCR::ABL1"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 107、105 年）：68 歲女性臉色紅潤、脾腫大，Hb 20.3、Hct 61.5%，白血球、血小板也偏高。",
+          "text": "1. **真的紅血球增多？** Hb ≥ 20、Hct ≥ 60 → 可確定是**絕對性**\n2. **三系都高 + 脾腫大** → 強烈懷疑 **PV**\n3. **EPO**：**低 → PV**；高 → 找缺氧（肺病、睡眠呼吸中止、分流）、腫瘤（腎癌、肝癌）\n4. **JAK2 V617F**（> 95%）確認\n5. **治療**：**放血到 Hct < 45%** + 低劑量 aspirin；> 60 歲或血栓 → hydroxyurea（現行偏好 ruxolitinib、interferon）；放血造成的缺鐵**不補**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 108 年）：58 歲男性多處淋巴結腫大，發燒 38.8°C、血壓 90/50，WBC 9,740（淋巴球 83%、分節球 5%）。",
+          "text": "1. **白血球「正常」？** 算 ANC：9,740 × 5% ≈ **490 → 嚴重嗜中性球低下**\n2. **發燒 + 低血壓** → **嗜中性球低下發燒合併疑似敗血性休克 = 急症**\n3. **處置**：詳細身體檢查（含導管、肛周）、**血液培養** → **1 小時內**靜脈抗綠膿桿菌廣效抗生素 + 輸液\n4. **之後**：淋巴球 83% + 全身淋巴結腫大 → 找淋巴增生疾病（CLL、淋巴瘤，見〈淋巴瘤與 CLL〉）\n5. **陷阱**：「白血球正常只需症狀治療」是錯的"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "入口（§血球太多、太少）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：24 歲女性，於員工健檢的血球檢查數據如下（括弧內是正常參考數值）：RBC 4.08 M/µL、Hb 12.0 g/dL、Hct 37.2%、MCV 91.2 fL、MCH 29.4 pg、MCHC 32.3 g/dL、PLT 606 k/µL（150–361）、WBC 171.25 k/µL（3.54–9.06），血球分類：Blast 0.5%、Promyel. 5.8%、Myelo. 14.8%、Meta 17.0%、Band 12.0%、Seg 37.9%、Eos. 1.0%、Baso. 3.5%、Mono. 4.0%、Lym. 3.5%。為了確立診斷，下列哪一項檢查較不需要？（A 骨髓細胞染色體分析 B 周邊血 BCR/ABL1 基因定性檢定 C 白血球 LAP score D 周邊血球免疫分型檢查（immunophenotyping））（FC 109 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：58 歲男性，近半年感到腹部不適，某日就診時發現有兩側頸部、腋下與腹股溝淋巴結腫大。病人體溫 38.8°C，血壓 90/50 mmHg，並有畏寒與疲累的症狀。RBC 4.12 M/µL、Hb 12.4 g/dL、Retic. 1.48%、PLT 261 k/µL、WBC 9.74 k/µL，Blast 0%、Seg 5.0%、Eos. 3.0%、Baso. 1.0%、Mono. 8.0%、Lym. 83.0%、Aty.Lym. 0.0%、Plasma cell 0.0%。以下哪個敘述錯誤？（A 因為白血球總數正常，只需要症狀治療 B 應該要做詳細的身體檢查，以找出可能的感染來源 C 應該要接受血液細菌培養 D 應該要儘早投與靜脈注射的廣效性抗生素）（FC 108 年）",
+          "text": "**答：(A)。** FC 詳解：ANC ≈ 0.49 × 10³/µL（< 500），屬嚴重嗜中性球低下；發燒或敗血時為血液科急症（neutropenic fever），必須立即抽血培養並於 1 小時內給予靜脈廣效（抗綠膿桿菌）抗生素。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：一位 56 歲無特殊病史男性，亦無任何不適，在一次健康檢查時發現血紅素為 13.5 gm/dL，白血球 11,500/µL，血小板 875,000/µL；理學檢查無特殊異常。下列何項抽血檢驗的結果可確定診斷此病人為原發性血小板增多症（essential thrombocythemia）而非次發性？（A low thrombopoietin level B increased LAP score C JAK2 mutation D immature myeloid cells）（FC 104 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：下列何種情況出現血小板數目增多（thrombocytosis）的機會最小？（A iron deficiency anemia B polycythemia vera C splenectomy D hepatitis C virus infection）（FC 103 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "CML（§CML）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：慢性骨髓性白血病，其病因是在第 9 號染色體（ABL locus）和第 22 號染色體（BCR 區）的長臂有相互平衡的轉位，導致有 BCR-ABL1 癌蛋白產生。下列敘述何者錯誤？（A 因染色體斷裂點不同，可以導致有不同分子量之 BCR-ABL1 癌蛋白，其中以 p210 最為常見 B BCR-ABL1 癌蛋白會使 tyrosine kinase 的活性增加而使細胞過度生長 C 臨床上可以利用定量此一變異來檢測疾病控制的效果 D 輻射傷害常常會導致這種轉位）（FC 111 年）",
+          "text": "**答：(D)。** FC 詳解：輻射最常與急性白血病、MDS 和甲狀腺癌相關，與 CML 的關聯並不明確。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：45 歲女性，近三個月感到腹脹、食慾不振、疲乏無力。臉色與結膜蒼白，可摸到明顯脾臟與肝臟腫大。白血球 260,000/µL、Hb 7.7 g/dL、血小板 650,000/µL，分類 blast 10%、promyelocyte 19%、myelocyte 9.8%、metamyelocyte 9.5%、band 12.3%、segmented neutrophil 24%、basophil 7%、eosinophil 6.3%、lymphocyte 1.3%。骨髓染色體 t(9;22)(q34;q11)，骨髓 blasts 2%，血液抹片如圖（見 CML 段的 FC 彩圖）。以下何者錯誤？（A 現在治療此病的第一線藥物是 tyrosine kinase inhibitors，例如 imatinib、dasatinib 或 nilotinib B 在慢性期，如果病人沒有明顯之臨床症狀，可以先觀察追蹤，不需立即用藥治療 C 這類病人之 LAP score 常常是降低的 D 對這個疾病而言，少有一開始診斷即是急性期）（FC 107 年）",
+          "text": "**答：(B)。** FC 詳解：自 TKI 問世後，所有確診的慢性期 CML 都應立即啟動 TKI；每 3 個月定量 PCR，未達分子里程碑或耐受不良換第二代 TKI，T315I 等可考慮 asciminib 或異體移植。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：32 歲男性主訴兩三個月來易倦、腹脹，結膜蒼白，脾臟在左肋下可觸診；WBC 120,000/µL，blast/promyelocyte/myelocyte/metamyelocyte/neutrophil/monocyte/eosinophil/basophil/lymphocyte = 1/3/6/10/54/3/15/5/3%，骨髓染色體 46XY, t(9;22) in 19/20 metaphases。目前學界共識第一線治療為何？（A hydroxyurea B interferon-alpha C tyrosine kinase inhibitor D allogeneic hematopoietic stem cell transplantation）（FC 106 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "PV（§PV）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：68 歲女性因倦怠無力就醫，臉色特別紅潤、脾臟腫大。白血球 12,200/µL（seg 79.7%、lymph 12.7%，無不成熟細胞），Hb 20.3 g/dL、Hct 61.5%、MCV 89.2 fL、MCHC 33.8 g/dL，血小板 446,000/µL，尿酸 7.6 mg/dL。骨髓 hypercellularity，紅血球系、白血球系與巨核細胞均明顯增生，JAK2 V617F 突變。以下何者錯誤？（A Interferon 可以縮小脾臟、降低各種血球數目，也可以減少突變基因 JAK2 V617F 之 allelic burden B 對於紅血球過多所引起之 hyperviscosity，第一線的解決方法是 phlebotomy C 這種病人的 plasma volume 也是增加的，因此有些病人其 hematocrit 反而不會明顯增加 D 這種病人的 serum erythropoietin levels 通常是升高的）（FC 107 年）",
+          "text": "**答：(D)。** FC 詳解：PV 為自律性紅血球增生，腎臟 EPO 受負回饋抑制，大多呈低值；若 EPO 升高，應考慮缺氧、腎腫瘤或其他次發性原因。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：54 歲男性，無全身性疾病，家人注意到他臉總是紅紅的；血壓 130/86 mmHg，脾臟在左肋緣下 1 指幅可觸摸到。Hb 19.5 gm/dL、Hct 60%、白血球 12,500/µL、血小板 546,000/µL，血清 erythropoietin 3 mIU/mL（正常 3.7–31.5），JAK2 基因突變。對此病人最適當的治療為何？（A hydroxyurea B anagrelide C radioactive phosphorus ³²P D phlebotomy）（FC 105 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "ET 與 PMF（§ET 與 PMF）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：下列何者最不可能是骨髓增生性腫瘤（myeloproliferative neoplasm, MPN）常見產生突變的基因？（A JAK2 B MPL C CALR D FLT-3）（FC 113 年）",
+          "text": "**答：(D)。** FC 詳解：FLT3 突變主要與 AML 相關，並非 MPN 典型突變。"
+        },
+        {
+          "type": "heading",
+          "text": "其他（見〈淋巴瘤與 CLL〉）"
+        },
+        "戊章 108 年 t(2;8) 那題（Burkitt）放在〈淋巴瘤與 CLL〉的考題練習（不計入本篇題數）。",
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "類白血病反應 vs CML",
+              "成熟為主、LAP 高 vs 各階段都有、嗜鹼性球多、脾大、LAP 低、t(9;22)"
+            ],
+            [
+              "嗜中性球低下",
+              "ANC < 500 嚴重；藥物（抗甲狀腺藥、clozapine、sulfa）停藥 5–7 天恢復"
+            ],
+            [
+              "嗜中性球低下發燒",
+              "白血球總數可正常 → 算 ANC；培養後 1 小時內抗綠膿桿菌抗生素"
+            ],
+            [
+              "紅血球多",
+              "先排除脫水；EPO 低 → PV；高 → 缺氧、腎癌、肝癌、小腦血管母細胞瘤、SGLT2 抑制劑"
+            ],
+            [
+              "血小板多",
+              "反應性最常見（缺鐵、發炎、癌、脾切除後）；C 肝 → 血小板低"
+            ],
+            [
+              "巨脾",
+              "CML、骨髓纖維化、PV、淋巴瘤、CLL、毛細胞白血病、Gaucher"
+            ],
+            [
+              "CML",
+              "BCR::ABL1（p210）；確診立即 TKI；每 3 個月 PCR；T315I → ponatinib、asciminib"
+            ],
+            [
+              "CML 分期",
+              "芽細胞 < 10% 慢性、10–19% 加速、≥ 20% 急變（2/3 AML）"
+            ],
+            [
+              "PV",
+              "JAK2 > 95%、EPO 低、皮膚癢、Budd-Chiari；放血 Hct < 45% + aspirin；不補鐵"
+            ],
+            [
+              "ET",
+              "JAK2、CALR、MPL；無脾大；> 100 萬 → 後天 vWD 出血；假性高血鉀"
+            ],
+            [
+              "PMF",
+              "淚滴細胞、幼稚白血球紅血球症、巨脾、dry tap；異體移植唯一治癒"
+            ],
+            [
+              "MPN 突變",
+              "JAK2、CALR、MPL（FLT3 是 AML）"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
