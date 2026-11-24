@@ -128,6 +128,13 @@
         {
           "id": "thrombosis-vte",
           "name": "Thrombosis (血栓：易栓症、靜脈血栓與抗凝治療)"
+        },
+        {
+          "heading": "肺部感染"
+        },
+        {
+          "id": "pneumonia",
+          "name": "Pneumonia (肺炎)"
         }
       ]
     },

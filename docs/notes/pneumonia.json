@@ -5,394 +5,708 @@
   "title_zh": "肺炎",
   "specialty": "感染科",
   "sources": [
-    "Harrison's 22e - Ch.131 Pneumonia (p.1066-1076)",
-    "Harrison's 22e - Ch.132 Lung Abscess (p.1077-1078)",
-    "Harrison's 22e - Ch.151 Pneumococcal Infections、Ch.152 Staphylococcal Infections、Ch.164 Legionella、Ch.166 Gram-Negative Enteric Bacilli、Ch.193 Mycoplasmas、Ch.206 Influenza",
-    "Harrison's 22e - Ch.305 Disorders of the Pleura (p.2310-2313)",
-    "First Choice 醫學(三) 第1冊 - 戊、肺部感染 A. 肺炎、I. 肺膿瘍 (p.364-385)（2018 台灣肺炎診治指引摘要）"
+    "Harrison's 22e - Ch.131 Pneumonia (p.1023–1033, Table 131-1/131-2, Fig.131-1); Ch.132 Lung Abscess (p.1034–1035); Fig.151-5、152-1",
+    "First Choice 醫學(三) 第1冊 - 胸腔內科 戊、感染 A–G 肺炎（講義 p.358–365，依 2018 台灣肺炎診治指引；題目 p.365–373，20 題）＋ I. 肺膿瘍（p.376–378，2 題），本篇共 22 題"
   ],
   "generated": "2026-10-03",
-  "sections": [
+  "updated": "2026-11-25",
+  "related": [
     {
-      "title": "總覽：定義、分類與病生理",
-      "content": [
-        {"type": "callout", "style": "logic", "text": "**這份筆記的讀法**\n肺炎的題目幾乎都圍繞三個問題：\n1. **是不是肺炎？病原可能是誰？**（第 1–3 章）\n2. **要不要住院、住加護病房？**（第 4 章）\n3. **用什麼抗生素？**（第 5 章 CAP、第 7 章 HAP/VAP）\n再加上 **治療第 3 天沒改善怎麼辦**（第 6 章：抗藥菌、膿胸、肺膿瘍、偽裝成肺炎的疾病）。\n\n**出處標示**：內容以 Harrison 為主；**2018 台灣肺炎診治指引**（First Choice 摘要）與 Harrison 不同的地方，會標註「台灣指引」。\n**範圍**：Harrison Ch131 不討論免疫低下病人 → **PJP 等伺機性感染請看 HIV（二）筆記**。"},
-        {"type": "heading", "text": "依發生情境分類"},
-        {"type": "table", "headers": ["分類", "定義", "重點"], "rows": [
-          ["**CAP**（社區型）", "在社區發生", "病原以肺炎鏈球菌、非典型菌、呼吸道病毒為主"],
-          ["**HAP**（院內型）", "住院 ≥ 48 小時後發生（台灣指引另含：出院後 14 天內）", "約 70% 發生在加護病房外；多重抗藥菌比例低於 VAP"],
-          ["**VAP**（呼吸器相關）", "插管使用呼吸器 **≥ 48 小時**後發生", "多重抗藥菌風險最高"],
-          ["HCAP（醫療照護相關，已停用）", "Harrison：**應停用此分類**——無法可靠預測抗藥菌，反而造成廣效抗生素濫用", "改為**逐一評估抗藥菌危險因子**（共病、近期住院、近期抗生素）"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**台灣指引的差異**（First Choice p.365、368）\n- 國際指引已不用 HCAP，但 **2018 台灣肺炎診治指引考量長照特性，仍保留 HCAP（養護機構相關肺炎）**，治療重點是依病人原本身體狀況與共病選藥\n- 另列 **血液透析相關肺炎（HDAP）**：抗藥菌以 **MRSA、綠膿桿菌**為主\n\n**吸入性肺炎**：Harrison 把它看成 CAP 與 HAP 光譜上的一點（佔 CAP 5–15%），不是獨立一類；病原通常就是 CAP 或 HAP 的病原，**厭氧菌只在牙齒狀況差、肺膿瘍、壞死性肺炎、膿胸時才重要**。"},
-        {"type": "heading", "text": "病生理：從「無菌肺」到「肺部菌叢失衡」"},
-        {"type": "list", "ordered": false, "items": [
-          "舊觀念：肺是無菌的，病原經**微量吸入**進入下呼吸道才致病",
-          "新觀念：肺本來就有**肺部菌叢（microbiota）**；發炎事件（常是**病毒感染 + 微量吸入**）釋出細胞激素與兒茶酚胺 → 促進特定細菌（如肺炎鏈球菌、綠膿桿菌）生長 → **正回饋迴路** → 某菌成為優勢 → 肺炎",
-          "IL-6、TNF → **發燒**；IL-8、G-CSF → 嗜中性球增加；肺泡微血管滲漏 → **低血氧、X 光浸潤**；部分細菌干擾低氧性血管收縮 → 嚴重低血氧",
-          "順應性下降、分泌物增加、呼吸驅動增加 → 喘；嚴重時肺容積下降、肺內分流 → **呼吸衰竭**"
-        ]},
-        {"type": "table", "headers": ["病理分期（典型大葉性肺炎鏈球菌肺炎）", "變化"], "rows": [
-          ["① 水腫期", "肺泡內蛋白質滲出液，常可見細菌"],
-          ["② **紅色肝樣變（red hepatization）**", "滲出液中有**紅血球**"],
-          ["③ **灰色肝樣變（gray hepatization）**", "紅血球分解；**嗜中性球為主**、大量纖維素、細菌消失 → 感染被控制、換氣改善"],
-          ["④ 消散期", "**巨噬細胞**重新成為主角，清除碎片與發炎"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "**大葉性 vs 支氣管肺炎**：細菌性 CAP 較常呈**大葉性**；院內肺炎較常呈**支氣管肺炎（bronchopneumonia）**型態。\n**陷阱**：病毒性肺炎與 PJP 在 X 光上看起來像間質性，但病理上其實是**肺泡**的病變。"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1066-1067"},
-        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "365, 368"}
-      ]
+      "id": "hiv-opportunistic-infections",
+      "name": "HIV/AIDS (二)：伺機性感染與併發症"
     },
     {
-      "title": "CAP 的病原菌：依場所與暴露史推測",
-      "content": [
-        {"type": "table", "headers": ["門診病人", "住院（非加護病房）", "加護病房"], "rows": [
-          ["**肺炎鏈球菌**", "**肺炎鏈球菌**", "**肺炎鏈球菌**"],
-          ["**Mycoplasma pneumoniae**", "M. pneumoniae", "**Staphylococcus aureus**"],
-          ["Haemophilus influenzae", "Chlamydia pneumoniae", "**Legionella**"],
-          ["Chlamydia pneumoniae", "H. influenzae", "**革蘭氏陰性桿菌**"],
-          ["呼吸道病毒", "**Legionella**", "H. influenzae"],
-          ["", "呼吸道病毒", "呼吸道病毒"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "**典型 vs 非典型病原**（Harrison：分類有幫助，但兩者臨床表現可以很像）\n- **典型**：肺炎鏈球菌、H. influenzae；特定病人另有 S. aureus、Klebsiella、綠膿桿菌\n- **非典型**：**Mycoplasma、Chlamydia pneumoniae、Legionella**、呼吸道病毒（流感、腺病毒、metapneumovirus、RSV、冠狀病毒）\n- 非典型菌**無法用一般培養基培養、革蘭氏染色看不到**，而且**對所有 β-lactam 天生抗藥** → 需要 **macrolide、fluoroquinolone 或 tetracycline**\n- 10–15% 的 CAP 是**多重感染**，通常是典型 + 非典型\n- 超過一半的 CAP **找不到病原**"},
-        {"type": "list", "ordered": false, "items": [
-          "疫苗普及 → 肺炎鏈球菌肺炎減少，但仍是最常見病原",
-          "Mycoplasma 多見於**門診**病例；Legionella 多見於**較嚴重**病例，也會群聚爆發",
-          "C. pneumoniae 現在 **< 1%** 的 CAP",
-          "呼吸道病毒在 20–30% 健康人與肺炎病人的呼吸道都測得到 → 是不是真正病原不一定能判斷",
-          "**流感後的 S. aureus 肺炎**；**CA-MRSA** 可感染沒有醫療接觸的健康人，造成**壞死性肺炎**"
-        ]},
-        {"type": "callout", "style": "trap", "text": "**台灣資料**（台灣 2018 指引，First Choice p.365–366）\n- 台灣 CAP 前五名：**肺炎鏈球菌（23%）、Mycoplasma（14%）、C. pneumoniae（8%）、Klebsiella pneumoniae（7%）、H. influenzae（5%）**\n- 中壯年的重度肺炎要把 **Klebsiella** 列入考慮\n- 地域性：**類鼻疽（melioidosis）**——颱風、豪雨後的南台灣，約 70% 有肺炎、預後較差；**Q 熱**（接觸牛羊）；**恙蟲病**（部分以肺炎表現）"},
-        {"type": "heading", "text": "暴露史與危險因子 → 病原（Table 131-2，必考）"},
-        {"type": "table", "headers": ["因子", "可能病原"], "rows": [
-          ["**酗酒**", "肺炎鏈球菌、口腔厭氧菌、**Klebsiella pneumoniae**、Acinetobacter、結核菌"],
-          ["**COPD / 吸菸**", "**H. influenzae**、綠膿桿菌、Legionella、肺炎鏈球菌、**Moraxella catarrhalis**、C. pneumoniae"],
-          ["**結構性肺病（支氣管擴張）**", "**綠膿桿菌**、Burkholderia cepacia、S. aureus"],
-          ["失智、中風、意識變差", "口腔厭氧菌、腸道革蘭氏陰性菌（吸入）"],
-          ["**肺膿瘍**", "CA-MRSA、口腔厭氧菌、地方性黴菌、結核菌、非結核分枝桿菌"],
-          ["到美國 Ohio / St. Lawrence 河谷", "Histoplasma capsulatum"],
-          ["到美國西南部", "Hantavirus、Coccidioides"],
-          ["到東南亞", "**Burkholderia pseudomallei（類鼻疽）**、禽流感"],
-          ["**兩週內住過旅館或郵輪**", "**Legionella**"],
-          ["當地流感流行", "流感病毒、肺炎鏈球菌、**S. aureus**"],
-          ["**接觸鳥類**", "H. capsulatum、**Chlamydia psittaci（鸚鵡熱）**"],
-          ["接觸兔子", "Francisella tularensis（兔熱病）"],
-          ["**接觸綿羊、山羊、生產中的貓**", "**Coxiella burnetii（Q 熱）**"]
-        ]},
-        {"type": "table", "headers": ["病原", "危險因子（Harrison）"], "rows": [
-          ["肺炎鏈球菌", "失智、癲癇、心衰竭、腦血管疾病、酗酒、吸菸、COPD、HIV"],
-          ["CA-MRSA", "其他部位有 CA-MRSA 移生或感染、**病毒感染後**"],
-          ["腸道桿菌（Enterobacteriaceae）", "近期住院、用過抗生素、酗酒、心衰竭、腎衰竭"],
-          ["綠膿桿菌", "**嚴重結構性肺病**（支氣管擴張、囊性纖維化、嚴重 COPD）"],
-          ["Legionella", "糖尿病、血液惡性腫瘤、癌症、嚴重腎病、HIV、吸菸、男性、**近期住旅館或郵輪**"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**台灣指引：多重抗藥菌 CAP 的危險因子**（First Choice p.366）\n- 最近 **90 天內用過抗生素**\n- 使用**胃酸抑制劑**（PPI、H2 blocker）\n- **管灌飲食**\n- **長期臥床**\n→ 病原：綠膿桿菌、鮑氏不動桿菌、MRSA、ESBL 腸道菌、Stenotrophomonas 等"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1067-1068"},
-        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "365-366"}
-      ]
+      "id": "urinary-tract-infection",
+      "name": "Urinary Tract Infection (泌尿道感染)"
     },
     {
-      "title": "重要病原菌比較",
-      "content": [
-        {"type": "callout", "style": "logic", "text": "Harrison 強調：**臨床表現與 X 光無法可靠區分病原**。下面這些特徵是「提高懷疑」的線索，不是診斷依據；考題常用它們出題。"},
-        {"type": "table", "headers": ["病原", "族群 / 情境", "臨床與影像線索", "診斷", "治療重點"], "rows": [
-          ["**肺炎鏈球菌**（Ch151）", "最常見；嬰幼兒、老人；常在病毒性上呼吸道感染後", "**突發**咳嗽、喘、發燒、**寒顫**、肌痛；痰由非膿性轉為**膿性、帶血絲**；**刺痛性肋膜痛**；老人可只有意識混亂；上腹痛（橫膈肋膜受侵犯）；X 光**大葉或節段實質化**（約 30% 多葉）", "痰革蘭氏染色（成對的革蘭氏陽性球菌）+ 培養；血液培養陽性 < 30%；**尿液抗原**", "β-lactam（ceftriaxone、ampicillin 等）；**macrolide 抗藥性高**（美國約 40%）"],
-          ["**S. aureus / CA-MRSA**（Ch152）", "**流感後**；靜脈藥癮；插管病人（院內）", "發燒、**血痰**；**肺氣囊（pneumatocele）**、多發斑塊浸潤；**壞死性肺炎**、膿胸；明顯咳血提示壞死性肺炎", "痰染色：**成簇的革蘭氏陽性球菌**；血液培養多為陰性", "MRSA：**linezolid**（Harrison 偏好，抑制外毒素、肺穿透佳）或 vancomycin"],
-          ["**Klebsiella pneumoniae**（Ch166）", "**酗酒**、糖尿病、長照機構與住院病人；台灣中壯年重症；亞洲的**高毒力株（hvKp）**可感染健康年輕人", "典型描述：**大葉浸潤、葉間裂膨出（bulging fissure）、紅醋栗凍狀痰（currant-jelly sputum）**——Harrison 指出現在**較少見**，多以較早期、較小範圍表現；hvKp 常由**肝膿瘍**轉移 → 雙側下肺結節", "培養", "天生對 ampicillin 抗藥；ESBL 盛行 → carbapenem"],
-          ["**H. influenzae**", "**COPD、吸菸**", "—", "痰染色：小型多形性革蘭氏陰性球桿菌", "β-lactam（考慮 β-lactamase）"],
-          ["**Legionella**（Ch164）", "**旅館、郵輪、水塔**；院內供水污染；> 40 歲、男性、吸菸、免疫低下", "非典型肺炎；**腸胃症狀（腹瀉、噁心嘔吐）**、**意識混亂**；檢驗：**低血鈉**、腎功能異常、肝指數上升、血小板低；X 光下葉浸潤（無特異性）；潛伏期 2–10 天", "**尿液抗原**（只測 **L. pneumophila serogroup 1**，敏感度約 70%、特異度極高，可持續陽性數月）；PCR；培養需 **BCYE** 培養基", "**fluoroquinolone 或 macrolide（azithromycin）**；β-lactam 無效；死亡率約 10%"],
-          ["**Mycoplasma pneumoniae**（Ch193）", "年輕人；軍營、宿舍等群聚；潛伏期 **2–4 週**", "**漸進**發作；**乾咳**為主；頭痛、倦怠；聽診 wheeze 或 rales（約 80%）；X 光**支氣管周圍浸潤**；**用 penicillin / cephalosporin 無效**時要想到；肺外：**Stevens-Johnson、溶血性貧血（冷凝集素）**、腦炎、Guillain-Barré", "**PCR + 成對血清學**；革蘭氏染色看不到（無細胞壁）", "macrolide、doxycycline、呼吸道 FQ（**ciprofloxacin 不建議**）；**亞洲 macrolide 抗藥率 34–76%** → 改 doxycycline 或 FQ"],
-          ["**流感**（Ch206）", "流行季節；老人、COPD、孕婦", "**原發性病毒性肺炎**（持續發燒、進行性喘、發紺）或**繼發性細菌性肺炎**（病程**雙峰**：先好轉再發燒加劇，病原為**肺炎鏈球菌、S. aureus**）", "鼻咽 PCR", "oseltamivir + 適當抗細菌治療；警覺 **MRSA 重複感染**"],
-          ["**口腔厭氧菌**（吸入）", "意識障礙、吞嚥困難、**牙齒狀況差**", "**惡臭痰** → 幾乎可診斷厭氧菌感染；重力依賴區浸潤；肺膿瘍、膿胸", "—", "只在牙齒差、肺膿瘍、壞死性肺炎時才需涵蓋厭氧菌"]
-        ]},
-        {"type": "figure", "src": "figures/pneumonia/h151-5.jpg", "label": "Harrison's 22e Fig. 151-5", "caption": "典型的大葉性肺炎鏈球菌肺炎（右下葉）",
-          "explain": "**【怎麼看】**老年病人的胸部正面 X 光：**右下肺野**一大片均勻的白色實質化，邊界大致依肺葉分布；左肺清楚。\n**【考點】**肺炎鏈球菌的經典表現是**大葉或節段實質化**，但也可以只是斑塊狀；約 30% 侵犯多個肺葉，可合併少量肋膜積液或膿胸。兒童的「**圓形肺炎（round pneumonia）**」也和肺炎鏈球菌有關（成人少見，要排除癌症）。"},
-        {"type": "figure", "src": "figures/pneumonia/h152-1.jpg", "label": "Harrison's 22e Fig. 152-1", "caption": "痰液革蘭氏染色：成簇的革蘭氏陽性球菌（S. aureus）",
-          "explain": "**【怎麼看】**粉紅色背景是黏液與細胞，深紫色的小圓點是**革蘭氏陽性球菌**，呈**一簇一簇（clusters）**排列。\n**【考點】**對照：**肺炎鏈球菌 = 成對、矛頭狀的革蘭氏陽性雙球菌**；**S. aureus = 成簇的革蘭氏陽性球菌**。痰液看到成簇陽性球菌是 **MRSA 的危險因子之一**（Harrison Ch131），應涵蓋 MRSA。"},
-        {"type": "figure", "src": "figures/pneumonia/h164-3.jpg", "label": "Harrison's 22e Fig. 164-3", "caption": "Legionella 肺炎：右下葉實質化",
-          "explain": "**【怎麼看】**64 歲女性，國外旅行回來 7 天後發燒、乾咳、喘；X 光**右下肺野實質化**（身上有心電圖導線）。尿液抗原 L. pneumophila serotype 1 陽性。\n**【考點】**Legionella 的 X 光**和其他肺炎無法區分**——要靠**旅行史、腸胃與神經症狀、低血鈉**提高懷疑，再用**尿液抗原或 PCR** 確認。尿液抗原只測 serogroup 1，**陰性不能排除**。"},
-        {"type": "callout", "style": "trap", "text": "**常見的過時考點**\n- **Bullous myringitis**：Harrison Ch193 指出「**很少證據**」支持 Mycoplasma 是中耳炎（含水泡性鼓膜炎）的重要原因\n- **冷凝集素（cold agglutinin）**：可作為 Mycoplasma 的血液學併發症（溶血），但 Harrison 說**不再建議用冷凝集素效價來診斷**（不具特異性）→ 診斷用 **PCR + 血清學**\n- **Currant-jelly sputum**：Klebsiella 的經典描述，但現在較少見\n- **鐵鏽色痰（rusty sputum）**：肺炎鏈球菌的傳統描述（First Choice 第3冊 p.216）；Harrison 寫的是「膿性、有時帶血絲」"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1067-1068, 1234-1236, 1240-1241, 1315-1318, 1332-1334, 1508-1509, 1590-1591"}
-      ]
+      "id": "confusion-decreased-consciousness",
+      "name": "Confusion / Decreased Level of Consciousness (意識不清)"
     },
     {
-      "title": "診斷工具箱：是不是肺炎？病原是誰？",
-      "content": [
-        {"type": "heading", "text": "① 臨床表現"},
-        {"type": "list", "ordered": false, "items": [
-          "常有**發燒、心搏過速**，可有寒顫、盜汗",
-          "**咳嗽**：乾咳或有痰（黏液、膿性、帶血）；**明顯咳血 → 壞死性肺炎**（如 CA-MRSA）",
-          "**喘**；侵犯肋膜 → **胸痛**",
-          "最多 **20%** 有**腸胃症狀**（噁心、嘔吐、腹瀉）；也可有倦怠、頭痛、肌痛、關節痛",
-          "理學檢查：**呼吸變快**、使用呼吸輔助肌；觸診觸覺震顫**增加（實質化）或減少（積液）**；叩診**濁音（實質化）到實音（積液）**；**crackles、支氣管呼吸音**、肋膜摩擦音",
-          "**老人**：可能只有**新發生或惡化的意識混亂**、或慢性病惡化，其他表現很少",
-          "**吸入性肺炎**：X 光病灶在**重力依賴區**"
-        ]},
-        {"type": "callout", "style": "trap", "text": "**理學檢查的敏感度與特異度只有 58% 與 67%** → 不能只靠聽診診斷或排除肺炎。\n**診斷 CAP = 相符的病史（咳嗽、痰、發燒、喘）+ 胸部 X 光新的浸潤**\n\n**鑑別診斷**：急性支氣管炎、慢性支氣管炎急性惡化、**心衰竭**、**肺栓塞**"},
-        {"type": "heading", "text": "② 影像"},
-        {"type": "list", "ordered": false, "items": [
-          "胸部 X 光常無法區分 CAP 與其他疾病，但可提示**嚴重度**（**空洞、多葉侵犯**）",
-          "偶爾提示病原：**肺氣囊 → S. aureus**；**上葉空洞 → 結核**",
-          "**脫水**時可能看不到浸潤，補水後才出現",
-          "**CT**：懷疑**包覆性積液、空洞**、或**阻塞後肺炎**（腫瘤、異物）時有用",
-          "門診病人：臨床 + X 光評估通常就夠了，大部分檢驗結果來不及影響初始治療"
-        ]},
-        {"type": "heading", "text": "③ 病原學檢查"},
-        {"type": "table", "headers": ["檢查", "重點", "誰需要做"], "rows": [
-          ["**痰液革蘭氏染色與培養**", "主要目的是**確認檢體合格**：每低倍視野 **> 25 個嗜中性球、< 10 個鱗狀上皮細胞**；可辨認肺炎鏈球菌、S. aureus、革蘭氏陰性菌；菌血症型肺炎鏈球菌肺炎的痰培養陽性率也 **≤ 50%**", "**住院病人**，尤其重症或有 MRSA / 綠膿桿菌風險者"],
-          ["**血液培養**", "住院 CAP 陽性率僅 **5–14%**；最常見肺炎鏈球菌，其次 S. aureus、綠膿桿菌；對預後影響小", "**高風險者**：肺炎造成的嗜中性球低下、**無脾**、補體缺乏、慢性肝病、**重症 CAP**、有 MRSA / 綠膿桿菌風險"],
-          ["**尿液抗原**", "**Legionella**（只測 serogroup 1；敏感度 70%、特異度 99%）；**肺炎鏈球菌**（敏感度 70%、特異度 > 90%，兒童因移生可偽陽性）；**開始抗生素後仍可測到**", "肺炎鏈球菌：重症；Legionella：重症或有相關暴露史"],
-          ["**PCR**", "鼻咽拭子 PCR 是**呼吸道病毒**（流感、冠狀病毒）的標準診斷；也可測 Legionella、Mycoplasma、C. pneumoniae、分枝桿菌", "—"],
-          ["**血清學**", "急性期與恢復期 IgM 上升 **4 倍**才有診斷意義；結果太慢，**已少用**", "—"],
-          ["**Procalcitonin、CRP**", "細菌感染時上升，但 **PCT 不足以診斷細菌性 CAP**，**不能據此不給初始抗生素**；CRP 敏感度更差 → 輔助抗生素管理", "—"]
-        ]},
-        {"type": "callout", "style": "logic", "text": "**為什麼還要找病原？**（多數 CAP 經驗性治療就好）\n- 縮小抗生素範圍 → 減少抗藥性\n- 找出有**公共衛生意義**的病原：**結核**、流感、SARS-CoV-2\n- 沒有藥敏資料就無法追蹤抗藥趨勢\n\n台灣指引（First Choice p.370）：痰液中若看到**嗜中性球吞噬細菌**，該菌是致病菌的可能性更高。"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1068-1069"},
-        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "370"}
-      ]
+      "id": "infective-endocarditis",
+      "name": "Infective Endocarditis (感染性心內膜炎)"
     },
     {
-      "title": "嚴重度評估：門診、住院、還是加護病房？",
-      "content": [
-        {"type": "callout", "style": "logic", "text": "住院費用是門診的 **20 倍**，但**延遲轉入加護病房會增加死亡率** → 用評分工具輔助判斷，再加上臨床判斷。"},
-        {"type": "table", "headers": ["工具", "內容", "使用"], "rows": [
-          ["**PSI**（Pneumonia Severity Index）", "20 個變項（年齡、共病、理學與檢驗異常）→ 分 5 級；死亡率：class 1 **0.1%**、class 2 **0.6%**、class 3 **2.8%**、class 4 **8.2%**、class 5 **29.2%**", "class 1–2 可門診；class 3 理想上住觀察病房；**驗證最完整但計算麻煩**"],
-          ["**CURB-65**", "**C**onfusion、**U**rea > 7 mmol/L（BUN > 20 mg/dL）、**R**R ≥ 30、**B**P（SBP ≤ 90 或 DBP ≤ 60）、年齡 **≥ 65**", "見下方"]
-        ]},
-        {"type": "table", "headers": ["CURB-65 分數", "Harrison", "台灣指引（First Choice p.367）"], "rows": [
-          ["0", "**門診**（30 天死亡率 1.5%）", "0–1：門診（門診無法抽血時用 **CRB-65**）"],
-          ["1–2", "**住院**，除非分數完全或部分來自「年齡 ≥ 65」", "2–3：住院、一般病房"],
-          ["≥ 3", "整體死亡率 **22%**，可能需加護病房", "4–5：加護病房"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "**一定要住院的情況**（不論分數）\n- **無法經口進食**\n- 依精神狀況或居住條件，**服藥遵從性有疑慮**（認知障礙、無家可歸）\n- 室內空氣下 **SpO₂ < 92%**\n\n**PSI 與 CURB-65 都不能準確判斷是否需要加護病房** → 改用 **IDSA/ATS 重症準則**"},
-        {"type": "table", "headers": ["重症 CAP 準則（Table 131-3）", "項目"], "rows": [
-          ["**主要準則**（任一 → 直接進加護病房）", "① 需要**插管機械通氣**的呼吸衰竭\n② 需要**升壓劑**的敗血性休克"],
-          ["**次要準則**（≥ 3 項 → 加護病房或高度監測單位）", "RR ≥ 30；PaO₂/FiO₂ ≤ 250；**多葉浸潤**；意識混亂；**BUN ≥ 20 mg/dL**；**WBC < 4000**；**血小板 < 100,000**；**體溫 < 36°C**；需積極輸液的低血壓"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**容易錯的地方**\n- CURB-65 的 BUN 用 **> 7 mmol/L（約 20 mg/dL）**\n- 次要準則裡的**白血球「低」**（< 4000）和**體溫「低」**（< 36°C）是**壞**徵兆——不是越高越嚴重\n- 先住一般病房、之後惡化才轉加護病房的病人，死亡率比一開始就在加護病房監測的同等病人**更高**"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1069"},
-        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "367"}
-      ]
+      "id": "chest-pleural",
+      "name": "Chest (七)：肋膜疾病——肋膜積水（Light's criteria）、膿胸、結核性積水與氣胸"
     },
     {
-      "title": "CAP 的經驗性抗生素治療",
-      "content": [
-        {"type": "callout", "style": "logic", "text": "**選藥的四個變數**：可能病原 × **抗藥性風險** × **嚴重度** × **場所**，再加上 **MRSA 或綠膿桿菌**的特定風險。\n**原則**：盡快開始；**過去 3 個月用過某類抗生素 → 換另一類**（最重要的抗藥性肺炎鏈球菌危險因子）。"},
-        {"type": "heading", "text": "門診（Table 131-4）"},
-        {"type": "table", "headers": ["病人狀況", "建議方案"], "rows": [
-          ["**沒有共病、沒有抗藥性危險因子**", "**amoxicillin 1 g tid + macrolide 或 doxycycline**\n或 **doxycycline** 單一治療\n或 **macrolide** 單一治療（**只在當地肺炎鏈球菌 macrolide 抗藥率 < 25%** 時）"],
-          ["**有共病**（慢性心、肺、肝、腎病、糖尿病、酗酒、惡性腫瘤、無脾）± 抗藥性危險因子", "**amoxicillin-clavulanate 或 cephalosporin（cefpodoxime、cefuroxime）+ macrolide 或 doxycycline**\n或**呼吸道 fluoroquinolone** 單一治療（levofloxacin 750 mg、moxifloxacin 400 mg、gemifloxacin 320 mg）"]
-        ]},
-        {"type": "list", "ordered": false, "items": [
-          "抗藥性危險因子：**3 個月內用過抗生素**或**接觸醫療體系**",
-          "Harrison 作者習慣**同時涵蓋肺炎鏈球菌與非典型菌**；**門診一般不需考慮 MRSA 或綠膿桿菌**",
-          "指引允許**沒有共病者單用 amoxicillin**（2019 IDSA/ATS 的改變）",
-          "新藥：lefamulin、omadacycline——不能用 β-lactam 或想避開 FQ 時的選擇"
-        ]},
-        {"type": "callout", "style": "trap", "text": "**台灣指引的門診策略**（First Choice p.367）\n- **沒有共病、3 個月內沒用抗生素**：考慮典型菌 → 單方 **β-lactam**；考慮非典型菌（Mycoplasma、Chlamydia）→ 單方 **macrolide 或 tetracycline**\n- 台灣肺炎鏈球菌對 **macrolide 抗藥性高**，單用 azithromycin 治療肺炎鏈球菌不可靠\n- **有共病或 3 個月內用過抗生素**：依病徵用單方，或 **β-lactam + macrolide**\n- **Fluoroquinolone 可能延遲結核診斷、增加結核抗藥性** → 臨床懷疑結核時要審慎（台灣是結核盛行地區）"},
-        {"type": "heading", "text": "住院（Table 131-5 + Fig. 131-1）"},
-        {"type": "table", "headers": ["嚴重度", "危險因子", "方案"], "rows": [
-          ["**非重症**", "**無** MRSA / 綠膿桿菌危險因子", "**β-lactam + macrolide**，或**呼吸道 FQ** 單一治療（兩者都不能用時：β-lactam + doxycycline）"],
-          ["非重症", "**曾在呼吸道分離出** MRSA / 綠膿桿菌", "**加上** MRSA 或綠膿桿菌涵蓋"],
-          ["非重症", "只有**近期住院 + 抗生素** ± 當地資料", "**先做培養**，**培養陽性才加**"],
-          ["**重症**", "無危險因子", "**β-lactam + macrolide**，或 **β-lactam + 呼吸道 FQ**（觀察性研究顯示前者可能較好）"],
-          ["重症", "曾分離出，或近期住院 + 抗生素", "**加上** MRSA 或綠膿桿菌涵蓋"]
-        ]},
-        {"type": "figure", "src": "figures/pneumonia/h131-1.png", "label": "Harrison's 22e Fig. 131-1", "caption": "住院 CAP 病人的 MRSA / 綠膿桿菌風險評估流程",
-          "explain": "**【怎麼看】**先分**非重症（左）**與**重症（右）**，再看有沒有危險因子：\n- **沒有風險** → 標準方案\n- **曾在呼吸道分離出 MRSA / 綠膿桿菌** → 不論輕重，**直接加上涵蓋**\n- **只有「近期住院 + 用過抗生素（口服或靜脈）」± 當地資料** → **非重症：先培養（可用 MRSA 鼻腔 PCR）、陽性才加**；**重症：直接加**\n**【考點】**危險因子有**階層**：「**曾分離出該菌**（尤其一年內的呼吸道檢體）」比「近期住院、用過抗生素」強得多。**單純住院本身已不算顯著危險因子**。綠膿桿菌另有**嚴重結構性肺病**（支氣管擴張、極重度 COPD）這個風險。"},
-        {"type": "table", "headers": ["藥物類別", "Harrison 列出的藥物"], "rows": [
-          ["β-lactam", "ampicillin-sulbactam 1.5–3 g q6h、**ceftriaxone 1–2 g/d**、cefotaxime、ceftaroline、ertapenem"],
-          ["macrolide", "azithromycin 500 mg/d、clarithromycin 500 mg bid"],
-          ["呼吸道 FQ", "levofloxacin 750 mg/d、moxifloxacin 400 mg/d、gemifloxacin 320 mg/d"],
-          ["**MRSA**", "vancomycin 15 mg/kg q12h（依濃度調整）或 **linezolid 600 mg q12h**（Harrison 偏好：抑制外毒素、肺穿透佳）"],
-          ["**綠膿桿菌**", "piperacillin-tazobactam、cefepime、ceftazidime、imipenem、meropenem、aztreonam；Harrison 作者開始治療綠膿桿菌時用**雙重涵蓋**（兩種**不同類別**）"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "**療程與其他**\n- **無併發症 CAP：5 天通常足夠**；臨床不穩定、**菌血症、轉移性感染**、或毒性較強的病原（**綠膿桿菌、MRSA**）需要較長；部分臨床穩定的病人 3 天即可停藥\n- **靜脈轉口服**：能進食吸收、血行動力學穩定、臨床改善時；FQ 吸收好，部分病人可一開始就口服\n- MRSA 培養與鼻腔 PCR 陰性、48 小時改善 → **降階**到標準方案\n- **確診流感 → 加 oseltamivir**；找到病毒且沒有明顯細菌證據 → 可停抗細菌藥（重症仍要考慮合併感染）\n- **類固醇**：**重症 CAP**（需侵襲性或非侵襲性呼吸器、或休克）可能有益，尤其 **CRP > 15 mg/dL**；通常 8–14 天\n- 支持療法：補水、氧氣、升壓劑、呼吸器\n\n**台灣指引**（First Choice p.367）：\n- 一般病房：**β-lactam + macrolide 優於 β-lactam 單一**；FQ 為另選\n- 加護病房：**β-lactam + macrolide 或 + FQ 並列**（台灣 macrolide 都是口服劑型，重症吸收不穩）\n- 療程：輕到中度 **5–7 天**，重度 **7 天**；臨床穩定後，針劑 **2–4 天**即可轉口服"},
-        {"type": "callout", "style": "trap", "text": "**抗藥性重點**\n- 肺炎鏈球菌對 **penicillin 的抗藥性在非腦膜炎感染可用一般劑量克服**；美國只有 0.6% 對 ceftriaxone 抗藥\n- **macrolide 抗藥性上升**（美國約 40%，ermB 高度抗藥、mef 低度）→ **不要單用 macrolide 經驗治療**（除非當地 < 25%）\n- FQ 抗藥性通常 < 2%\n- **CA-MRSA**：SCCmec type IV，常對 TMP-SMX、clindamycin、tetracycline 有效；帶 **Panton-Valentine leukocidin**（破壞嗜中性球）\n- **Mycoplasma 的 macrolide 抗藥性**：中國 95%、日本 30%、美國與法國 5–13%"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1069-1072"},
-        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "367"}
-      ]
-    },
-    {
-      "title": "治療失敗、併發症與追蹤（含肋膜積液、膿胸、肺膿瘍）",
-      "content": [
-        {"type": "heading", "text": "治療第 3 天沒改善：要想什麼？"},
-        {"type": "table", "headers": ["方向", "例子"], "rows": [
-          ["**根本不是肺炎**（偽裝者）", "**肺水腫、肺栓塞、肺癌**、放射線或過敏性肺炎、結締組織病的肺侵犯"],
-          ["**病原抗藥**", "藥物沒涵蓋到"],
-          ["**有隔離的病灶**", "**肺膿瘍、膿胸**——抗生素進不去"],
-          ["**藥物或劑量錯誤**", "對的藥用錯劑量或頻率"],
-          ["**意料外的病原**", "**CA-MRSA、結核、黴菌**"],
-          ["**院內重複感染**", "肺內或肺外"]
-        ]},
-        {"type": "callout", "style": "guideline", "text": "反應慢的病人**約第 3 天重新評估**（惡化則更早）；必要時做 **CT 或支氣管鏡**。\n\n**重症 CAP 的併發症**：呼吸衰竭、休克與多重器官衰竭、共病惡化；三個特別要注意的：**轉移性感染**（腦膿瘍、心內膜炎）、**肺膿瘍**、**複雜性肋膜積液**\n\n**心血管事件**：尤其老人，常與肺炎鏈球菌和流感有關——**心衰竭、心律不整、心肌梗塞、中風**，可發生在急性期到至少 1 年後"},
-        {"type": "heading", "text": "肋膜積液與膿胸"},
-        {"type": "figure", "src": "figures/pneumonia/h305-1.png", "label": "Harrison's 22e Fig. 305-1", "caption": "肋膜積液的診斷流程",
-          "explain": "**【怎麼看】**由上往下：\n1. **診斷性肋膜穿刺**，測肋膜液與血清的**蛋白、LDH**\n2. 符合 **Light's criteria 任一項 → 滲出液**：肋膜液/血清蛋白 > 0.5、肋膜液/血清 LDH > 0.6、肋膜液 LDH > 血清正常上限 2/3；都不符合 → **漏出液**（治療心衰竭、肝硬化、腎病症候群）\n3. 滲出液 → 驗**葡萄糖、細胞學、細胞分類、培養染色、結核標記**；**葡萄糖 < 60 mg/dL** → 想**惡性腫瘤、細菌感染、類風濕性肋膜炎**\n4. 仍無診斷 → 考慮肺栓塞 → 結核 → 症狀改善則觀察，否則胸腔鏡或影像導引切片\n**【考點】**Light's criteria 會把約 25% 的漏出液誤判為滲出液（例如用過利尿劑的心衰竭）。**肺炎旁積液是美國最常見的滲出性肋膜積液**，最多 50% 的 CAP 有積液。"},
-        {"type": "table", "headers": ["", "內容"], "rows": [
-          ["**單純肺炎旁積液**", "通常是**反應性**（培養無菌）；發燒、肋膜痛、白血球增加"],
-          ["**複雜性肺炎旁積液 / 膿胸**", "約 **10%** 的積液會變成肋膜腔感染：**纖維膿性**（complicated PPE）或**肉眼膿液**（empyema）"],
-          ["**需要積極引流的指標**（Ch305，依重要性遞增）", "① **包覆性（loculated）**積液 ② **pH < 7.20** ③ **葡萄糖 < 60 mg/dL** ④ **革蘭氏染色或培養陽性** ⑤ **肉眼可見膿液**；另外 **LDH > 900 IU/L** 也提示需要引流"],
-          ["Ch131 的引流標準", "**pH < 7.2、葡萄糖 < 2.2 mmol/L（約 40 mg/dL）、LDH > 1000 U/L**，或看到 / 培養出細菌"],
-          ["**處理**", "**胸管引流** ± 肋膜腔內注入 **tPA 10 mg + DNase 5 mg**；仍引流不完全 → **胸腔鏡**清除沾黏；無效 → **手術剝除（decortication）**"],
-          ["厭氧菌膿胸", "亞急性病程：體重減輕、輕度貧血、有吸入危險因子；**肺實質浸潤很少但積液很大**"]
-        ]},
-        {"type": "figure", "src": "figures/pneumonia/h305-3.png", "label": "Harrison's 22e Fig. 305-3", "caption": "膿胸的 CT",
-          "explain": "**【怎麼看】**胸部 CT（R 是病人右側）：右側肋膜腔有大片包覆的積液，**紅色箭頭**指出增厚的**肋膜殼（pleural rind）**包住積液。\n**【考點】**積液會從**滲出期 → 纖維膿性期 → 機化期（形成肋膜皮層）**演變。厚皮層、引流後出現氣胸（pneumothorax ex vacuo）、積液很快復發 → 提示**肺無法再擴張（trapped lung）**，需要手術剝除。"},
-        {"type": "callout", "style": "trap", "text": "肺炎鏈球菌肺炎（Ch151）：膿胸是**最常見的局部併發症**（< 5%）。**適當抗生素 4–5 天後仍發燒、白血球高，又有肋膜積液** → 要想到膿胸；肋膜液有**肉眼膿、看到細菌、或 pH ≤ 7.1** = 膿胸 → 積極、完整引流（胸管）。\n\n**數字不一致怎麼辦？** Harrison 不同章節的 pH 門檻有 < 7.2 與 ≤ 7.1 之別，考試最常用 **pH < 7.2、glucose < 60 mg/dL、LDH > 1000、革蘭氏染色或培養陽性、膿液 → 引流**。"},
-        {"type": "heading", "text": "肺膿瘍（Ch132）"},
-        {"type": "figure", "src": "figures/pneumonia/h132-1.jpg", "label": "Harrison's 22e Fig. 132-1", "caption": "肺膿瘍的形成：綠膿桿菌肺炎兩週後出現空洞",
-          "explain": "**【怎麼看】**淋巴瘤造成免疫低下的病人，嚴重綠膿桿菌肺炎：\n- **A**：左肺浸潤，**中央疑似壞死**（黑色箭頭）\n- **B**：兩週後，同一區域出現**空洞與氣液面（air-fluid level）**（白色箭頭）= 肺膿瘍\n**【考點】**肺膿瘍 = 感染後肺組織**壞死與空洞**，通常單一主要空洞 **> 2 cm**。吸入後約 **7–14 天**形成壞死與空洞。這是**續發性**肺膿瘍（免疫低下），病原以綠膿桿菌等革蘭氏陰性菌為主。"},
-        {"type": "table", "headers": ["", "原發性（約 80%）", "續發性"], "rows": [
-          ["**背景**", "**吸入**；沒有潛在肺病或全身性疾病；危險因子：意識改變、**酗酒**、藥物過量、癲癇、延腦功能障礙、中風、神經肌肉疾病、食道疾病、**牙周病**", "**阻塞後**（支氣管異物、腫瘤）或**全身性**（HIV、免疫低下）"],
-          ["**病原**", "**厭氧菌**（Peptostreptococcus、Prevotella、Bacteroides）、**milleri group 鏈球菌**、微需氧鏈球菌；常為多菌", "**綠膿桿菌等革蘭氏陰性菌最常見**、S. aureus、Nocardia、Aspergillus、Mucorales、Cryptococcus、Legionella、Rhodococcus equi、PJP"],
-          ["**位置**", "**重力依賴區**：**上葉後段、下葉上段**；**右肺多於左肺**（右主支氣管較直）", "依原因而定"]
-        ]},
-        {"type": "list", "ordered": false, "items": [
-          "**栓塞性**：**三尖瓣心內膜炎**（S. aureus，多發敗血性栓塞）、**Lemierre's syndrome**（咽部感染 → 頸靜脈敗血性血栓靜脈炎，**Fusobacterium necrophorum**）",
-          "**表現**：初期像肺炎；**厭氧菌**常呈**慢性、隱伏**病程——盜汗、倦怠、貧血；**惡臭痰（putrid）幾乎可診斷厭氧菌**；S. aureus 等則急性猛爆；可有杵狀指、牙齦病、沒有嘔吐反射",
-          "**診斷**：X 光見**厚壁空洞 + 氣液面**；**CT** 更早看到空洞，並可區分**周邊肺膿瘍 vs 膿胸**（膿胸需要緊急引流）",
-          "**治療（原發性）**：**clindamycin**（600 mg IV tid → 300 mg PO qid；因口腔厭氧菌會產生 β-lactamase，優於 penicillin）或 **β-lactam/β-lactamase 抑制劑 IV → 口服 amoxicillin-clavulanate**；治療到**影像消失或只剩小疤痕**：**3–4 週到 14 週**，部分文獻認為**至少 6 週**預後較好",
-          "續發性或治療失敗 → 痰與血液培養、伺機性病原檢查、支氣管鏡或 CT 導引穿刺"
-        ]},
-        {"type": "table", "headers": ["肺膿瘍 vs 膿胸（First Choice p.384）", "肺膿瘍", "膿胸"], "rows": [
-          ["**本質**", "肺組織侷限性發炎", "肋膜腔感染"],
-          ["**形狀**", "**球形**", "**透鏡形（lenticular）**"],
-          ["**與胸壁夾角**", "**銳角**", "**鈍角**"],
-          ["**壁**", "厚而不規則", "平滑（由肋膜構成）"],
-          ["**周圍肺組織**", "—", "肺紋被推移"],
-          ["**治療**", "**抗生素**", "**引流** + 抗生素"]
-        ]},
-        {"type": "heading", "text": "追蹤與預後"},
-        {"type": "list", "ordered": false, "items": [
-          "**發燒、白血球** 通常 **2–4 天**改善；理學發現持續較久；**X 光最慢**（**4–12 週**）",
-          "住院病人：一般建議 **4–6 週後追蹤 X 光**；**同一肺段反覆或復發** → 考慮**腫瘤**、局部支氣管擴張",
-          "門診病人：不抽菸、其他都好、症狀 5–7 天內緩解 → **不需常規追蹤 X 光**",
-          "預後：年輕無共病者約 **2 週**完全恢復；**門診死亡率 < 5%**、**住院 12–40%**；老人的 **1 年死亡率高於 30 天死亡率**；住院 CAP **18%** 在一個月內再住院"
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1072-1073, 1077-1078, 1235, 2310-2312"},
-        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "383-385"}
-      ]
-    },
-    {
-      "title": "HAP 與 VAP",
-      "content": [
-        {"type": "heading", "text": "致病機轉：三個關鍵"},
-        {"type": "list", "ordered": true, "items": [
-          "**口咽被致病菌移生**：最重要的危險因子是**抗生素選擇壓力**（綠膿桿菌幾乎不會感染沒用過抗生素的人）、交叉感染、重症、營養不良",
-          "**吸入**：**氣管內管是最重要的危險因子**——繞過正常防禦；氣囊上方**分泌物積聚 → 微量吸入**；管壁形成**生物膜（biofilm）**保護細菌",
-          "**宿主防禦受損**：敗血症與外傷病人入加護病房數天後進入**免疫麻痺**狀態（高血糖、頻繁輸血加重）"
-        ]},
-        {"type": "callout", "style": "trap", "text": "**氣管內管可以防止「大量」吸入，但會加重「微量」吸入**（分泌物積在氣囊上方）\n\n幾乎所有插管病人都有微量吸入、至少短暫移生，但只有約 **1/3** 移生者會發生 VAP。\n\nVAP 的風險在插管**前 5 天最高**，約 2 週後每天增加 1%；插管 30 天的累積發生率可達 **70%**。"},
-        {"type": "heading", "text": "病原（Table 131-6）"},
-        {"type": "table", "headers": ["非多重抗藥菌（核心病原）", "多重抗藥菌（MDR）"], "rows": [
-          ["肺炎鏈球菌、其他鏈球菌", "**綠膿桿菌**"],
-          ["H. influenzae", "**MRSA**"],
-          ["MSSA", "**Acinetobacter**"],
-          ["對抗生素敏感的腸道菌（E. coli、Klebsiella、Proteus、Enterobacter、Serratia）", "抗藥腸道菌：**ESBL、carbapenem 抗藥株**"],
-          ["", "Legionella、Burkholderia cepacia、Aspergillus"]
-        ]},
-        {"type": "list", "ordered": false, "items": [
-          "**住院前 5–7 天**發生的 VAP：核心病原為主（和重症 CAP 相似）；但只要有其他危險因子（尤其**之前用過抗生素**），即使早期也要考慮 MDR",
-          "多數醫院的問題菌是**綠膿桿菌與 MRSA**，其他 MDR 菌各院不同",
-          "**HAP（未插管）**：非 MDR 菌比例較高、宿主免疫較好 → **較多病人可單一用藥**；**厭氧菌**可能較常見（大量吸入），但多數建議藥物已涵蓋",
-          "血液培養在 HAP 陽性率 **< 15%**"
-        ]},
-        {"type": "callout", "style": "trap", "text": "**台灣資料**（First Choice p.368）\n- **台灣院內肺炎前三名：綠膿桿菌、Klebsiella、鮑氏不動桿菌**——和歐美以 S. aureus 為主不同；對 carbapenem 的抗藥性逐年上升\n- 多重抗藥菌危險因子：過去 90 天用過廣效靜脈抗生素、反覆住院、住院天數長、臨床嚴重度高、腫瘤病人"},
-        {"type": "heading", "text": "診斷"},
-        {"type": "list", "ordered": false, "items": [
-          "表現不具特異性：發燒、白血球增加、分泌物增加、實質化，加上**新的或變化中的浸潤**；**氧合的連續變化**可能比其他發現更早",
-          "沿用 CAP 的臨床標準 → **過度診斷**（氣管移生、浸潤的其他原因、重症病人發燒的其他來源）",
-          "鑑別：非典型肺水腫、肺挫傷、肺泡出血、ARDS、肺梗塞；發燒來源：抗生素相關腹瀉、**中心導管感染**、鼻竇炎、UTI、胰臟炎、藥物熱",
-          "**定量培養法**：越遠端的檢體越特異，門檻越低——**氣管內抽吸 10⁶ cfu/mL**、**保護性毛刷 10³ cfu/mL**；24–48 小時內換過有效抗生素會**偽陰性**",
-          "**臨床法**：氣管抽吸**革蘭氏染色沒有細菌 → 肺炎不太可能**；培養**沒有 MDR 菌 → 可降階**",
-          "2016 IDSA/ATS：弱建議採**半定量培養的臨床法**，依各院資源調整"
-        ]},
-        {"type": "heading", "text": "經驗性治療（Table 131-8）"},
-        {"type": "table", "headers": ["", "藥物"], "rows": [
-          ["**沒有抗藥革蘭氏陰性菌危險因子**（單一藥物）", "**piperacillin-tazobactam 4.5 g q6h**、**cefepime 2 g q8h**、或 **levofloxacin 750 mg q24h**"],
-          ["**有危險因子**：兩欄**各選一種**（不同類別）", "**β-lactam 欄**：piperacillin-tazobactam、cefepime、ceftazidime、imipenem、meropenem、新藥\n**第二欄**：**aminoglycoside**（amikacin 15–20 mg/kg、gentamicin / tobramycin 5–7 mg/kg）、ciprofloxacin、levofloxacin、colistin、polymyxin B"],
-          ["**MRSA 危險因子**（加上）", "**linezolid 600 mg q12h** 或調整劑量的 **vancomycin**（谷底 15–20）"]
-        ]},
-        {"type": "list", "ordered": false, "items": [
-          "抗藥革蘭氏陰性菌危險因子：**之前用過抗生素、之前住院、當地抗生素譜**",
-          "MRSA 危險因子：之前用過抗生素、之前住院、**已知 MRSA 移生**、**慢性血液透析**、**當地 MRSA 肺炎比例 > 10%**（或未知）",
-          "**有 MDR 危險因子且死亡風險高 → 三種藥**：兩種針對綠膿桿菌與抗藥陰性菌 + 一種針對 MRSA；沒有休克且有單一藥物能涵蓋該加護病房 ≥ 90% 陰性菌時，可單一用藥",
-          "低死亡風險、沒有 MDR 危險因子：**單一藥物的死亡率反而較低**",
-          "新藥：ceftazidime-avibactam、ceftolozane-tazobactam、imipenem-relebactam（抗藥綠膿桿菌）；meropenem-vaborbactam（CRE）；**cefiderocol**（metallo-β-lactamase、Stenotrophomonas、Acinetobacter）；sulbactam-durlobactam（Acinetobacter）"
-        ]},
-        {"type": "callout", "style": "trap", "text": "**台灣指引的 HAP 經驗治療**（First Choice p.369）\n- MDR 風險低 → **單一抗綠膿桿菌藥**：piperacillin/tazobactam、ceftazidime、cefepime、imipenem、meropenem、levofloxacin、ciprofloxacin、**cefoperazone/sulbactam**\n- 血行動力學不穩、短期死亡風險高、或 MDR 風險高 → **兩種不同類的抗綠膿桿菌藥**：β-lactam 類擇一 + levofloxacin、ciprofloxacin、amikacin、gentamicin、colistin 擇一"},
-        {"type": "callout", "style": "guideline", "text": "**降階與療程**\n- 找到病原 → **降階**成針對性治療；多數有 MDR 危險因子的病人可減為**單一藥物**\n- **換藥前**採的氣管抽吸培養陰性或低於門檻 → 強烈提示應**停抗生素**或找其他診斷\n- **7–8 天療程和 2 週一樣有效**，且較少產生抗藥菌；例外：初始治療不適當、或 carbapenemase Acinetobacter 等抗藥菌 → 可用 procalcitonin 指引\n- 綠膿桿菌：藥敏出來後**不建議繼續合併治療**\n- 臨床改善通常在 **48–72 小時**內出現（氧合改善）；**X 光初期常惡化**，比臨床指標不可靠\n\n**治療失敗**：MRSA VAP 用標準劑量 vancomycin 約 **40% 失敗**（linezolid 約好 15%，腎功能差或高 MIC 時優先）；綠膿桿菌 VAP 不論用什麼方案 **40–50% 失敗**；治療中出現 β-lactam 抗藥（綠膿桿菌、Enterobacter）\n\n**預後**：粗死亡率 **50–70%**，但可歸因死亡率較低（5–25%）；MDR 菌可歸因死亡率較高；外傷病人的 VAP 沒有可歸因死亡率"},
-        {"type": "heading", "text": "VAP 的預防（Table 131-7）"},
-        {"type": "table", "headers": ["策略", "證據"], "rows": [
-          ["**避免插管或縮短時間**：**非侵襲性呼吸器**、**每日暫停鎮靜**、**脫離呼吸器流程**", "**有效**（RCT）"],
-          ["**床頭抬高**（至少 30°，最好 45°）", "**有效**"],
-          ["**聲門下分泌物持續抽吸**的特殊氣管內管", "**有效**"],
-          ["早期經皮氣切；避免再插管；減少鎮靜與轉送；預防性 PEEP 5–8", "部分有效"],
-          ["昏迷插管病人**短期預防性抗生素**；短期吸入型 aminoglycoside", "有效（但長期抗生素會增加 MDR VAP）"],
-          ["**手部衛生**（酒精乾洗手）、感染控制教育、隔離、可重複使用器材的清潔", "有效"],
-          ["呼吸器管路**只在髒污或換病人時更換**；熱濕交換器 5–7 天換", "—"],
-          ["**口腔 chlorhexidine**、幽門後灌食、避免升高胃 pH 的藥、選擇性腸道去污、嚴格血糖控制", "**RCT 結果陰性或互相矛盾**"]
-        ]},
-        {"type": "callout", "style": "trap", "text": "**Harrison 與台灣指引的差異**：台灣指引（First Choice p.369）把 **chlorhexidine 口腔護理**列為**強力建議**；Harrison Table 131-7 則標示為**陰性或矛盾的試驗結果**。\n\n**考試常考**：床頭抬高 **30–45°**（考選項常出 15–20° 或 60° 當錯誤答案）；使用 PPI、H2 blocker → 院內肺炎增加；sucralfate 不會增加。"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1073-1076"},
-        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "368-370, 373, 376"}
-      ]
-    },
-    {
-      "title": "預防：疫苗",
-      "content": [
-        {"type": "callout", "style": "logic", "text": "Harrison Ch131：**最主要的預防措施是疫苗接種**，依各國預防接種諮詢委員會建議執行（美國為 ACIP，詳見 Ch129）。以下台灣接種建議整理自 First Choice 2025 版；**疫苗建議常改版，請以衛福部疾管署最新公告為準**。"},
-        {"type": "heading", "text": "肺炎鏈球菌"},
-        {"type": "list", "ordered": false, "items": [
-          "莢膜多醣與致病力有關，**至少 90 種血清型**（First Choice p.371）",
-          "侵襲性肺炎鏈球菌疾病（IPD）：肺炎、菌血症、腦膜炎；也是幼兒**中耳炎、鼻竇炎**最常見的病原",
-          "高罹病族群：**5 歲以下幼兒與 65 歲以上長者**",
-          "不論年齡的高危險群：**脾臟缺損**、先天或後天免疫不全（如 HIV）、**人工耳植入**、慢性腎病 / 心臟病 / 肺病、糖尿病、慢性肝病與肝硬化、**酒癮、菸癮**、**腦脊髓液滲漏**、接受免疫抑制劑或放射治療的惡性腫瘤或器官移植者",
-          "Harrison Ch151：結合型疫苗（PCV7、PCV10、PCV13）引入後，疫苗血清型的侵襲性疾病大幅下降，雖有**血清型取代**現象，但幅度相對較小"
-        ]},
-        {"type": "table", "headers": ["疫苗", "特點"], "rows": [
-          ["**PPV23**（23 價多醣體）", "涵蓋較廣但**效力較差**；適用成人與 **2 歲以上**兒童（**2 歲以下無效**）——多醣體不引發 T 細胞依賴性反應"],
-          ["**PCV13**（13 價結合型）", "血清型較少，但**結合蛋白質**；出生滿 **6 週**以上即可接種"]
-        ]},
-        {"type": "table", "headers": ["未曾接種者（台灣 CDC 建議，First Choice p.372）", "接種方式"], "rows": [
-          ["青少年高危險群", "1 劑 PCV13 → 8 週 → 1 劑 PPV23"],
-          ["18–65 歲高危險群", "1 劑 PCV13 → 8 週 → 1 劑 PPV23 → 5 年 → 第 2 劑 PPV23"],
-          ["65 歲以上", "1 劑 PPV23 或 PCV13，或 1 劑 PCV13 → 1 年 → 1 劑 PPV23"]
-        ]},
-        {"type": "heading", "text": "流感"},
-        {"type": "list", "ordered": false, "items": [
-          "流感最常見的併發症就是**肺炎**（原發病毒性或繼發細菌性），繼發細菌感染風險在**老人與 COPD** 最高",
-          "併發症高風險族群：**≥ 65 歲、幼兒、心肺疾病、免疫低下、懷孕第二三孕期**（Harrison Ch206）",
-          "流感季節：每年接種流感疫苗；CAP 病人確診流感要給 **oseltamivir**"
-        ]},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1073, 1232, 1590"},
-        {"type": "source", "book": "First Choice 醫學(三) 第1冊", "pages": "371-372"}
-      ]
-    },
-    {
-      "title": "臨床題練習",
-      "content": [
-        {"type": "callout", "style": "logic", "text": "**每題都照這個順序想**：\n① 是不是肺炎？（病史 + X 光新浸潤）② **場所與嚴重度**（CURB-65、PSI、重症準則）③ **暴露史 → 可能病原** ④ **抗藥菌風險**（3 個月內抗生素、曾分離出 MRSA / 綠膿桿菌、結構性肺病）⑤ 選藥與療程 ⑥ 第 3 天沒改善 → 偽裝者、膿胸、肺膿瘍、意外病原"},
-        {"type": "collapsible", "summary": "Q1：35 歲健康男性，咳嗽、黃痰、發燒 3 天。意識清楚，RR 22、BP 124/78、SpO₂ 97%。X 光右下葉浸潤。過去 3 個月沒用過抗生素", "text": "**CURB-65 = 0**（未驗 BUN 時 CRB-65 = 0）→ **門診治療**\n\n**用藥**（Harrison Table 131-4，沒有共病、沒有抗藥性風險）：\n- **amoxicillin 1 g tid + macrolide 或 doxycycline**\n- 或 **doxycycline** 單一治療\n- macrolide 單一治療只在當地抗藥率 < 25% 時（台灣肺炎鏈球菌 macrolide 抗藥性高 → 不建議單用）\n\n**療程**：5 天；門診病人症狀 5–7 天緩解、不抽菸 → 不需追蹤 X 光"},
-        {"type": "collapsible", "summary": "Q2：72 歲糖尿病、慢性腎病婦人，發燒、意識混亂。RR 32、BP 88/50、BUN 32 mg/dL。X 光兩葉浸潤。1 個月前因 UTI 住院並使用 ceftriaxone", "text": "**CURB-65** = C(1) + U(1) + R(1) + B(1) + 65(1) = **5**\n**重症準則**：次要準則 RR ≥ 30、多葉浸潤、意識混亂、BUN ≥ 20、低血壓（需積極輸液）→ ≥ 3 項 → **加護病房**\n\n**用藥**（重症）：**β-lactam + macrolide**（或 + 呼吸道 FQ）\n**MRSA / 綠膿桿菌**：她有「**近期住院 + 近期抗生素**」→ **重症就直接加上涵蓋**（Fig. 131-1），例如 piperacillin-tazobactam（取代 ceftriaxone）+ macrolide ± vancomycin / linezolid；先送培養與 MRSA 鼻腔 PCR，48 小時後依結果**降階**\n\n**其他**：血液培養、痰培養、肺炎鏈球菌與 Legionella 尿液抗原；重症 CAP 考慮**類固醇**"},
-        {"type": "collapsible", "summary": "Q3：58 歲男性，兩週前搭郵輪回來。高燒、乾咳、腹瀉、意識混亂。Na 128、肝指數上升。X 光左下葉浸潤。用 ceftriaxone 兩天沒有改善", "text": "**最可能**：**Legionella 肺炎**\n- **郵輪 / 旅館**、腸胃症狀、意識混亂、**低血鈉**、肝指數異常\n- β-lactam（ceftriaxone）**無效**——Legionella 是細胞內菌\n\n**診斷**：**Legionella 尿液抗原**（只測 serogroup 1，陰性不能排除）、下呼吸道 **PCR**、BCYE 培養\n**治療**：**levofloxacin 或 azithromycin**（中重度用靜脈）；免疫低下者一律當中重度\n**預後**：死亡率約 10%，延遲治療死亡率約高 3 倍"},
-        {"type": "collapsible", "summary": "Q4：20 歲大學生，咳嗽一週、乾咳為主、頭痛、倦怠，室友有類似症狀。X 光雙側支氣管周圍浸潤，聽診有 wheeze。門診先給 amoxicillin 沒改善", "text": "**最可能**：**Mycoplasma pneumoniae**\n- 年輕人、**宿舍群聚**、**漸進**發作、**乾咳**、頭痛\n- **penicillin / cephalosporin 無效**（沒有細胞壁）\n\n**診斷**：**PCR + 成對血清學**；**冷凝集素已不建議用於診斷**\n**治療**：azithromycin（500 mg → 250 mg × 4 天）、doxycycline 或呼吸道 FQ（**不要用 ciprofloxacin**）；**亞洲 macrolide 抗藥率高**（34–76%）→ macrolide 無效時改 **doxycycline 或 FQ**\n\n**肺外表現要留意**：Stevens-Johnson、溶血性貧血（冷凝集素）、腦炎、Guillain-Barré"},
-        {"type": "collapsible", "summary": "Q5：42 歲健康男性，A 型流感發病第 5 天本來退燒，第 7 天再度高燒、咳血、呼吸急促。X 光多處斑塊浸潤合併薄壁空洞", "text": "**判斷**：**流感後繼發細菌性肺炎**——病程**雙峰**（先好轉再惡化）\n- 病原：**S. aureus（含 CA-MRSA）**、肺炎鏈球菌\n- **咳血 + 薄壁空洞（肺氣囊）+ 多處浸潤** → **S. aureus / CA-MRSA 壞死性肺炎**\n\n**處置**：\n- 加護病房評估；**涵蓋 MRSA**——**linezolid**（抑制外毒素，如 Panton-Valentine leukocidin）或 vancomycin，加上標準 CAP 方案\n- 持續 **oseltamivir**\n- 痰革蘭氏染色預期**成簇革蘭氏陽性球菌**；血液培養常為陰性"},
-        {"type": "collapsible", "summary": "Q6：55 歲酗酒男性，3 週來倦怠、盜汗、體重下降，痰很臭。牙齒狀況很差。X 光右下葉上段厚壁空洞合併氣液面", "text": "**診斷**：**原發性肺膿瘍**（吸入、**厭氧菌**）\n- 酗酒（吸入風險）+ **牙周病** + **惡臭痰**（幾乎可診斷厭氧菌）\n- 位置：**重力依賴區**（下葉上段、上葉後段），右肺較多\n- 隱伏病程：盜汗、倦怠、體重下降\n\n**治療**：**clindamycin**（優於 penicillin，因厭氧菌會產生 β-lactamase）或 **β-lactam/β-lactamase 抑制劑 → 口服 amoxicillin-clavulanate**；治療到影像消失或只剩小疤痕（**數週到 14 週**，可能至少 6 週較好）\n\n**要排除**：**結核**（上葉空洞、台灣盛行）、**肺癌**（阻塞後膿瘍）——治療反應差時做支氣管鏡"},
-        {"type": "collapsible", "summary": "Q7：65 歲男性，肺炎鏈球菌肺炎住院，用 ceftriaxone + azithromycin 5 天仍發燒、WBC 16,000，右側肋膜積液增加。穿刺：pH 7.05、glucose 35 mg/dL、LDH 1500 U/L、革蘭氏染色見陽性雙球菌", "text": "**診斷**：**膿胸 / 複雜性肺炎旁積液**\n- 適當抗生素 4–5 天後仍發燒 + 積液\n- **pH < 7.2（甚至 ≤ 7.1）、glucose < 60、LDH > 1000、革蘭氏染色陽性** → 全部符合引流指標\n\n**處置**：**胸管引流**；引流不完全 → 肋膜腔內 **tPA + DNase**；仍不行 → **胸腔鏡**清除沾黏 → 最後手術剝除\n\n**Light's criteria**：此積液顯然是滲出液（LDH 很高）"},
-        {"type": "collapsible", "summary": "Q8：68 歲 COPD 病人，因呼吸衰竭插管，第 8 天發燒、膿痰增加、FiO₂ 需求上升、X 光新浸潤。住院期間曾用過 piperacillin-tazobactam。這家加護病房的 MRSA 肺炎比例 15%", "text": "**診斷**：**晚發性 VAP**（插管 ≥ 48 小時、住院 > 5–7 天、之前用過抗生素）→ **MDR 風險高**\n\n**先採檢體**：氣管內抽吸（定量門檻 10⁶ cfu/mL）或支氣管鏡檢體（保護性毛刷 10³ cfu/mL），**在換抗生素之前**\n\n**經驗治療**（Table 131-8）：\n- **兩種不同類別的抗綠膿桿菌藥**：例如 meropenem（或 cefepime）+ amikacin（或 ciprofloxacin）\n- **加上 MRSA 涵蓋**（當地 MRSA 比例 > 10%）：linezolid 或 vancomycin\n\n**之後**：依培養**降階**；療程 **7–8 天**；綠膿桿菌藥敏出來後不需繼續合併治療\n**台灣**：院內肺炎前三名是綠膿桿菌、Klebsiella、鮑氏不動桿菌"},
-        {"type": "collapsible", "summary": "Q9：80 歲安養院住民，吞嚥困難、反覆嗆咳。發燒、咳嗽、右下葉浸潤。牙齒尚可，沒有空洞或膿胸", "text": "**判斷**：**吸入性肺炎**（Harrison 視為 CAP / HAP 光譜的一點）\n- 社區或機構發生 → 病原通常就是 **CAP 的病原**\n- **不需常規涵蓋厭氧菌**（除非牙齒差、肺膿瘍、壞死性肺炎、膿胸）\n\n**用藥**：依 CAP 原則與嚴重度，評估抗藥菌危險因子（近期住院、抗生素）\n**台灣**：仍保留「**養護機構相關肺炎（HCAP）**」概念，用藥考量病人原本的身體狀況與共病；台灣 MDR CAP 危險因子包含**管灌飲食、長期臥床、胃酸抑制劑**\n\n**預防**：吞嚥評估、床頭抬高、口腔照護"},
-        {"type": "collapsible", "summary": "Q10：60 歲男性，抽菸 40 年。右上葉肺炎用 levofloxacin 治療，臨床改善。8 週後追蹤 X 光右上葉仍有浸潤；這是他兩年內同一肺段第 2 次肺炎", "text": "**要想到**：**潛在腫瘤**（阻塞後肺炎）或局部支氣管擴張\n- X 光恢復本來就慢（4–12 週），但**同一肺段反覆肺炎**是警訊\n- 抽菸、年長 → **CT ± 支氣管鏡**\n\n**另一個陷阱**：**右上葉 + 台灣** → 也要排除**結核**；而且 **fluoroquinolone 可能讓結核症狀暫時改善、延遲診斷並增加抗藥性**（台灣指引提醒）→ 用 FQ 前若懷疑結核，先送痰抗酸菌塗片與培養"},
-        {"type": "callout", "style": "trap", "text": "**考前速查**\n1. 分類：CAP、HAP（≥ 48 h）、VAP（插管 ≥ 48 h）；**HCAP 國際已廢除**，台灣指引保留\n2. CAP 最常見：**肺炎鏈球菌**；非典型菌：**Mycoplasma、C. pneumoniae、Legionella**——**β-lactam 無效**\n3. 暴露：**郵輪 / 旅館 → Legionella**；**鳥 → 鸚鵡熱**；**羊 → Q 熱**；**流感後 → S. aureus**；**酗酒 → Klebsiella、厭氧菌**；**結構性肺病 → 綠膿桿菌**；**東南亞 / 南台灣颱風後 → 類鼻疽**\n4. Legionella：**腸胃症狀 + 意識混亂 + 低血鈉**；尿液抗原只測 serogroup 1；FQ 或 macrolide\n5. Mycoplasma：漸進乾咳、年輕群聚；**冷凝集素不再用於診斷**；**不用 ciprofloxacin**\n6. 合格痰：**> 25 嗜中性球、< 10 鱗狀上皮 / LPF**\n7. CURB-65：**C、BUN > 20、RR ≥ 30、SBP ≤ 90 / DBP ≤ 60、≥ 65**\n8. 重症主要準則：**插管、升壓劑**；次要 ≥ 3 項 → 加護病房（注意**WBC < 4000、體溫 < 36°C**）\n9. 門診無共病：**amoxicillin ± macrolide / doxycycline**；有共病：**amox-clav / cephalosporin + macrolide / doxycycline** 或 **呼吸道 FQ**\n10. 住院：**β-lactam + macrolide** 或 **呼吸道 FQ**；重症：**β-lactam + macrolide / FQ**\n11. MRSA / 綠膿桿菌：**曾分離出 → 一律加**；只有近期住院 + 抗生素 → **重症才加**，非重症先培養\n12. CAP 療程 **5 天**；HAP/VAP **7–8 天**\n13. 引流：**pH < 7.2、glucose < 60、LDH > 1000、染色或培養陽性、膿液、包覆**\n14. 肺膿瘍：**吸入、厭氧菌、惡臭痰**、上葉後段 / 下葉上段；**clindamycin**、治療數週\n15. VAP 預防：**床頭 30–45°**、每日暫停鎮靜、聲門下抽吸、NIV；PPI / H2 blocker 增加風險\n16. 追蹤 X 光 **4–6 週**；同一肺段反覆 → **找腫瘤**"},
-        {"type": "source", "book": "Harrison's 22e", "pages": "1066-1078"}
-      ]
+      "id": "chest-copd-bronchiectasis",
+      "name": "Chest (五)：COPD 與支氣管擴張——慢性咳痰與固定的氣流受阻"
     }
   ],
-  "related": [
-    {"id": "hiv-opportunistic-infections", "name": "HIV/AIDS (二)：伺機性感染與併發症"},
-    {"id": "urinary-tract-infection", "name": "Urinary Tract Infection (泌尿道感染)"},
-    {"id": "confusion-decreased-consciousness", "name": "Confusion / Decreased Level of Consciousness (意識不清)"},
-    {"id": "infective-endocarditis", "name": "Infective Endocarditis (感染性心內膜炎)"}
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 22 題｜最常考：依暴露史猜菌、CURB-65 決定去處、CAP 經驗性抗生素、VAP 預防（床頭 30–45 度）、HAP 的抗藥菌、吸入性肺炎、肺膿瘍\n① **先分場所**：**CAP**（社區）、**HAP**（住院 ≥ 48 小時）、**VAP**（插管 ≥ 48 小時）；台灣指引保留「安養機構相關肺炎」\n② **猜菌看人與暴露**：一般成人 → 肺炎鏈球菌、黴漿菌、披衣菌；流感後 → **肺炎鏈球菌、金黃色葡萄球菌**；旅館郵輪、水塔 → **Legionella**；鳥 → psittacosis；羊 → Q 熱；颱風後南台灣 → 類鼻疽；酗酒 → 克雷伯氏、厭氧菌；中風或意識差 → **吸入**（口腔厭氧菌、腸內 GNB）；住院後 → **綠膿桿菌、克雷伯氏、鮑氏不動桿菌**\n③ **診斷**：X 光證實浸潤；**好的痰**（鱗狀上皮 < 10、白血球 > 25／低倍視野）才看 Gram 染色；尿液抗原（肺炎鏈球菌、Legionella 血清型 1）；血液培養陽性率只有 5–14%\n④ **CURB-65 決定去處**：0–1 門診、2–3 一般病房、4–5 加護病房；**門診**：單方 β-lactam 或 macrolide／tetracycline；**住院**：**β-lactam + macrolide**（或 FQ）；療程 **5–7 天**\n⑤ **HAP／VAP**：依抗藥風險選抗綠膿藥（危急或高風險 → 兩類合併）；**預防 VAP**：床頭 **30–45 度**、每日鎮靜中斷、及早拔管、能用 NIV 就不插管；**肺膿瘍**：吸入最常見，好發**上葉後段、下葉上段**，抗生素常需 **≥ 3 週**\n新版來源：Harrison 22e Ch.131（肺炎）、Ch.132（肺膿瘍）；FC 第1冊 胸腔 戊 A–G、I（依 2018 台灣肺炎診治指引）\n分工：肋膜積水與膿胸見〈Chest (七)〉；支氣管擴張見〈Chest (五)〉；結核見結核篇；HIV 病人的肺部感染（PCP）見〈HIV/AIDS (二)〉；黴菌（ABPA）見〈Chest (四)〉"
+        }
+      ]
+    },
+    {
+      "title": "分類與致病菌：依場所與暴露史猜菌　★ 6 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **CAP**：社區發生；**HAP**：住院 **≥ 48 小時**後或出院 14 天內；**VAP**：插管 **≥ 48 小時**後\n- 微生物進入下呼吸道最常見的途徑是**吸入**（微量吸入口咽菌）（FC 103 年）\n- 健康 46 歲門診 CAP，**最不可能是鮑氏不動桿菌**（那是院內菌）（FC 108 年）\n- 18 歲、雙下肺浸潤、白血球正常 → **黴漿菌**（FC 113 年）\n- **A 型流感後細菌性肺炎** → **肺炎鏈球菌或金黃色葡萄球菌**（FC 107 年）\n- 肺炎鏈球菌**菌血症在嬰兒與老人較常見**（FC 107 年）；5 歲以下與 65 歲以上是兩大高風險族群\n- **非典型菌**（黴漿菌、披衣菌、Legionella）對所有 β-lactam 天生抗藥 → macrolide、FQ 或 tetracycline（Harrison）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "線索（FC＋Harrison Table 131-2）",
+            "想到"
+          ],
+          "rows": [
+            [
+              "一般成人 CAP（台灣）",
+              "**肺炎鏈球菌**（23%）> **黴漿菌**（14%）> 肺炎披衣菌 > 克雷伯氏 > 流感嗜血桿菌"
+            ],
+            [
+              "年輕、雙側間質浸潤、白血球不高",
+              "**黴漿菌**等非典型菌"
+            ],
+            [
+              "**流感後**細菌性肺炎",
+              "**肺炎鏈球菌、金黃色葡萄球菌**"
+            ],
+            [
+              "**酗酒**",
+              "肺炎鏈球菌、**克雷伯氏**、口腔厭氧菌、結核"
+            ],
+            [
+              "**COPD、吸菸**",
+              "流感嗜血桿菌、綠膿桿菌、Legionella、Moraxella"
+            ],
+            [
+              "**結構性肺病（支擴）**",
+              "**綠膿桿菌**、金黃色葡萄球菌"
+            ],
+            [
+              "**中風、失智、意識差**",
+              "**吸入**：口腔厭氧菌、腸內 GNB"
+            ],
+            [
+              "**兩週內住旅館或郵輪**、清洗水塔",
+              "**Legionella**（不是 Acinetobacter）"
+            ],
+            [
+              "鳥類",
+              "**Chlamydia psittaci**"
+            ],
+            [
+              "羊、牛（分娩）",
+              "**Coxiella burnetii（Q 熱）**"
+            ],
+            [
+              "颱風豪雨後南台灣",
+              "**類鼻疽**（Burkholderia pseudomallei）"
+            ],
+            [
+              "恙蟲病",
+              "台灣每年約 400 例，36% 以肺炎表現"
+            ],
+            [
+              "肺膿瘍",
+              "CA-MRSA、口腔厭氧菌、黴菌、結核、NTM"
+            ],
+            [
+              "**多重抗藥 CAP 危險因子**",
+              "90 天內用過抗生素、制酸劑（PPI、H2 阻斷劑）、管灌、長期臥床 → 綠膿、鮑氏、MRSA、ESBL"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年（65 題）**：暴露配對錯誤的是「發病前兩週**住過旅館或郵輪 — Acinetobacter**」——應為 **Legionella**；支擴 — 綠膿、鳥 — psittacosis、羊 — Q 熱都對。\n**FC 113 年（47 題）**：18 歲健康男性，雙下肺炎、白血球 7.9 千 → **黴漿菌**；金黃色葡萄球菌多見流感後、壞死性肺炎；克雷伯氏多見糖尿病、酗酒、大葉性；綠膿多是院內。\n**FC 108 年**：健康 46 歲門診肺炎**最不可能**的致病菌 → **鮑氏不動桿菌**。\n**FC 107 年（48 題）**：A 型流感後併發細菌性肺炎 → **肺炎鏈球菌或金黃色葡萄球菌**。\n**FC 107 年（57 題）**：正確的是「肺炎鏈球菌菌血症在**嬰兒和老人**較一般成人常見」；肺炎鏈球菌腦膜炎的先行事件常是病毒性咽喉炎破壞屏障。\n**FC 103 年**：致病菌侵入下呼吸道最常見途徑 → **吸入**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼「場所」能決定猜哪些菌？**\n肺炎多半是**口咽的菌被微量吸入**造成的（Harrison）。所以「口咽住了什麼菌」決定了肺炎是什麼菌：在社區，口咽是肺炎鏈球菌、流感嗜血桿菌這些常見菌；住院幾天後，口咽被醫院的**抗藥性革蘭氏陰性菌**（綠膿、克雷伯氏、鮑氏）和 MRSA 取代——抗生素、制酸劑、管灌、臥床都會加速這個「換菌」。這也是為什麼 HAP 要分**早發（住院 ≤ 4 天，像 CAP）**與**晚發（≥ 5 天，多重抗藥菌）**。"
+        },
+        {
+          "type": "figure",
+          "src": "figures/pneumonia/h151-5.jpg",
+          "label": "Harrison's 22e Fig.151-5",
+          "caption": "典型的肺炎鏈球菌大葉性肺炎（右下葉）",
+          "explain": "**【怎麼看】**右下肺野一整葉均勻實變，邊界受葉間裂限制，可見空氣支氣管像。\n**【考點】**大葉性肺炎的典型菌是**肺炎鏈球菌**（也見於克雷伯氏、Legionella）；病原菌經 Kohn 孔在肺泡間擴散、填滿整葉（FC）。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 戊、感染 A. 肺炎 p.358–360；題目 p.365–371"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.131 p.1023–1024"
+        }
+      ]
+    },
+    {
+      "title": "診斷：X 光、痰液染色、尿液抗原、血液培養　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 懷疑肺炎 → **胸部 X 光**證實浸潤（FC 106 年：不是「自己會好不用檢查」，也不必先做 CT）\n- **合格的痰**：**鱗狀上皮 < 10／低倍視野**（不是口水）、**白血球 > 25**；看到白血球吞噬細菌更可信（FC 111 年）\n- **尿液抗原**：肺炎鏈球菌、**Legionella（只測血清型 1）**（Harrison：敏感度約 70%）\n- **血液培養**：住院 CAP 陽性率只有 **5–14%**，最常見肺炎鏈球菌（Harrison）\n- 肝硬化病人 + 大葉性肺炎 + 痰中**革蘭氏陽性雙球菌** + 迅速休克死亡 → **肺炎鏈球菌**（FC 110 年）\n- Procalcitonin 不足以單獨診斷細菌性 CAP（Harrison）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "痰液 Gram 染色（FC）",
+            "型態",
+            "菌"
+          ],
+          "rows": [
+            [
+              "革蘭氏陽性球菌",
+              "**成對、柳葉刀狀雙球菌**、有莢膜",
+              "**肺炎鏈球菌**"
+            ],
+            [
+              "革蘭氏陽性球菌",
+              "**成簇**",
+              "**金黃色葡萄球菌**"
+            ],
+            [
+              "革蘭氏陰性桿菌",
+              "**粗大、有莢膜**",
+              "**克雷伯氏肺炎桿菌**"
+            ],
+            [
+              "革蘭氏陰性桿菌",
+              "細長",
+              "綠膿桿菌"
+            ],
+            [
+              "革蘭氏陰性球桿菌",
+              "小、多形性／常成對",
+              "流感嗜血桿菌／鮑氏不動桿菌"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/pneumonia/h152-1.jpg",
+          "label": "Harrison's 22e Fig.152-1",
+          "caption": "痰液革蘭氏染色：成簇的革蘭氏陽性球菌",
+          "explain": "**【怎麼看】**大量白血球之間有**成簇（像葡萄串）**的紫色球菌。\n**【考點】**→ **金黃色葡萄球菌**；肺炎鏈球菌則是**成對的柳葉刀狀**雙球菌（FC 110 年的彩圖即為此型）。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 111 年**：CAP 診斷工具錯誤的是「品質好的抹片標準是每個低倍視野 > 10 個嗜中性球及 **> 10 個上皮細胞**」——上皮細胞要 **< 10**（太多代表是口水）。血液培養陽性率約 5–14%、尿液可驗 Legionella 血清型 1 與肺炎鏈球菌都正確。\n**FC 110 年**：50 歲慢性 C 肝，咳濃痰、發燒寒顫、右下葉浸潤，痰液染色（FC 彩圖 p.489）為革蘭氏陽性雙球菌，用 ceftriaxone 仍休克死亡 → **肺炎鏈球菌**。\n**FC 106 年**：21 歲大學生乾咳轉少量白痰、全身倦怠、頭痛肌肉痛，室友類似症狀，下肺 crackles → **安排胸部 X 光**（像非典型肺炎，但仍要確認肺炎）。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 戊、感染 F. 痰液 p.363–364；題目 p.367–368、371"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.131 p.1025"
+        }
+      ]
+    },
+    {
+      "title": "嚴重度與 CAP 經驗性治療：CURB-65、β-lactam + macrolide　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **CURB-65**：意識混亂、BUN > 7 mmol/L、呼吸 ≥ 30、低血壓、≥ 65 歲；**0–1 門診、2–3 住院、4–5 ICU**（FC）；Harrison 另介紹 PSI\n- 21 歲、呼吸 24、血壓 96/62、意識清楚 → CURB-65 = 0 → **門診**（FC 108 年）\n- 70 歲、呼吸 33、血壓 150/80 → 至少 2 分 → **住院**（沒有 BUN 資料，FC 105 年 B、C 皆給分）\n- 門診年輕 CAP → **azithromycin** 可優先使用（FC 104 年；不必等培養才給藥）\n- 大葉性肺炎 + 同側**肋膜積液** + 痰中革蘭氏陽性雙球菌 → 涵蓋**肺炎鏈球菌**、**住院並檢驗肋膜積液**（FC 113 年）\n- 療程 **5–7 天**；臨床穩定 2–4 天後可改口服"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "CURB-65（台灣 2018 指引，FC）",
+            "各 1 分"
+          ],
+          "rows": [
+            [
+              "C",
+              "**意識混亂**（Confusion）"
+            ],
+            [
+              "U",
+              "**BUN > 7 mmol/L**（約 20 mg/dL）"
+            ],
+            [
+              "R",
+              "**呼吸 ≥ 30**"
+            ],
+            [
+              "B",
+              "**收縮壓 < 90 或舒張壓 < 60**"
+            ],
+            [
+              "65",
+              "**≥ 65 歲**"
+            ],
+            [
+              "**0–1**",
+              "**門診**（無法抽血用 CRB-65）"
+            ],
+            [
+              "**2–3**",
+              "**住院一般病房**"
+            ],
+            [
+              "**4–5**",
+              "**加護病房**"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "CAP 經驗性治療（台灣 2018 指引，FC）",
+            "建議"
+          ],
+          "rows": [
+            [
+              "門診、無共病、3 個月內沒用抗生素",
+              "典型菌 → **單方 β-lactam**；非典型菌 → **單方 macrolide 或 tetracycline**（台灣肺炎鏈球菌對 azithromycin 抗藥高，單用要小心）"
+            ],
+            [
+              "門診、有共病或 3 個月內用過抗生素",
+              "單方或 **β-lactam + macrolide**"
+            ],
+            [
+              "**住院一般病房**",
+              "**β-lactam + macrolide 優於單用 β-lactam**；FQ 為替代"
+            ],
+            [
+              "**加護病房**",
+              "**β-lactam + macrolide** 或 **β-lactam + FQ**"
+            ],
+            [
+              "**療程**",
+              "輕中度 **5–7 天**；重度 7 天；穩定後針劑 **2–4 天**可改口服"
+            ],
+            [
+              "注意",
+              "FQ 經驗性使用會**延遲結核診斷**、增加抗藥 → 懷疑結核要審慎"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/pneumonia/h131-1.png",
+          "label": "Harrison's 22e Fig.131-1",
+          "caption": "住院 CAP 病人的 MRSA／綠膿桿菌風險評估",
+          "explain": "**【怎麼看】**依「過去一年曾培養出 MRSA 或綠膿桿菌」、「90 天內住院並用過針劑抗生素」等風險，與病情嚴重度，決定經驗性治療是否要**加上抗 MRSA 或抗綠膿**的藥，並先做培養以便之後降階。\n**【考點】**住院 CAP 的基本處方仍是 **β-lactam + macrolide**；只有在有風險因子時才擴大涵蓋，避免不必要的廣效抗生素。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年（49 題）**：68 歲吸菸、高血壓、曾兩次中風**無後遺症**，劇咳黃痰、喘、發燒，右上葉大葉性浸潤 + 同側肋膜積液，痰中大量白血球與**革蘭氏陽性雙球菌** → 正確 **②選可涵蓋肺炎鏈球菌的抗生素 ③應考慮住院並檢驗肋膜積液**（答案 C）；不是吸入性肺炎（中風無後遺症、上葉）、不需涵蓋綠膿。\n**FC 108 年**：21 歲肺炎，意識清楚、呼吸 24、血壓 96/62、39.2°C → CURB-65 = 0 → **門診治療**。\n**FC 105 年**：70 歲，呼吸 33、年齡 ≥ 65 → 至少 2 分 → 住院（**B、C 皆給分**，因 BUN 未知）。\n**FC 104 年**：21 歲女性門診肺炎（呼吸 24、血壓 100/70）→ **可優先選 azithromycin**；不必先做血液培養、痰培養不是必要、不優先用 moxifloxacin（FQ 會延誤結核診斷）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼住院 CAP 要「β-lactam + macrolide」？**\nβ-lactam 打的是**典型菌**（肺炎鏈球菌、流感嗜血桿菌、克雷伯氏），但**非典型菌**（黴漿菌、披衣菌、Legionella）沒有細胞壁或住在細胞內，**對所有 β-lactam 天生抗藥**（Harrison）。住院的病人病情較重，又無法從臨床表現可靠分辨典型或非典型，所以合併 macrolide 一起涵蓋；FC 也提到單用 β-lactam 會延遲非典型菌（尤其 Legionella）感染病人的臨床穩定。FQ（levofloxacin、moxifloxacin）兩者都涵蓋，但會**部分治療結核**、掩蓋診斷，台灣結核盛行，所以不是首選。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：肺炎鏈球菌疫苗（FC 講義）",
+          "text": "- 肺炎鏈球菌莢膜多醣與致病力有關，至少 90 種血清型；5 歲以下與 65 歲以上是高罹病族群\n- 高危險群：脾臟缺損、免疫不全（含 HIV）、人工耳蝸、慢性心肺腎肝病、糖尿病、酒癮、菸癮、腦脊髓液滲漏、免疫抑制或移植\n- FC 講義依 PCV13、PPV23 寫接種順序（PCV 在前、間隔後再接 PPV23）；**疫苗種類與公費對象近年持續更新，臨床以疾管署最新公告為準**"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 戊、感染 A. 3. 檢傷分類與治療 p.360；G. 疫苗 p.364–365；題目 p.365、370–373"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.131 p.1026–1028"
+        }
+      ]
+    },
+    {
+      "title": "HAP／VAP 與吸入性肺炎：抗藥菌、預防、誰會嗆　★ 7 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 氣管內管**無法避免微量吸入**；**床頭抬高 30–45 度**（不是 15–20 度，也不是 ≥ 60 度）（FC 113、109 年）\n- **心因性肺水腫**的呼吸衰竭用 **NIV** 比插管更能減少 VAP（FC 111 年）；長期預防性抗生素**不能**避免 VAP\n- **制酸劑**（H2 阻斷劑、PPI、制酸劑）提高胃 pH → **增加** HAP／VAP；**sucralfate 最不會**（FC 109 年）；平躺、全天麻醉藥、延長插管都增加風險\n- 住院 20 天的肺癌化療病人發燒、低血壓、大葉性肺炎 → **院內肺炎**，**不可用第一代 cephalosporin**；要痰液與兩套血液培養（FC 108 年）\n- VAP 綠膿桿菌：**aminoglycoside 不是單一治療的首選**（FC 105 年）；BAL 或保護性刷取定量培養可協助診斷\n- **吸入性肺炎**危險因子：吞嚥或食道蠕動差——**全身性硬化症、巴金森氏症**（FC 110 年）、中風、意識障礙、酗酒"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "HAP／VAP（FC＋Harrison）",
+            "內容"
+          ],
+          "rows": [
+            [
+              "台灣常見菌",
+              "**綠膿桿菌、克雷伯氏、鮑氏不動桿菌**（歐美以金黃色葡萄球菌較多）；對 carbapenem 抗藥逐年上升"
+            ],
+            [
+              "早發 vs 晚發",
+              "住院 ≤ 4 天：類似 CAP（肺炎鏈球菌、流感嗜血桿菌）；較晚發生：多重抗藥菌（綠膿、鮑氏、MRSA）（FC 113、109 年題幹）"
+            ],
+            [
+              "多重抗藥危險因子",
+              "90 天內用過廣效靜脈抗生素、反覆或長期住院、病情嚴重、腫瘤"
+            ],
+            [
+              "經驗性治療",
+              "抗藥風險低 → **單一抗綠膿藥**（pip-tazo、ceftazidime、cefepime、carbapenem、levofloxacin 等）；**休克、高死亡風險或抗藥風險高** → **兩類不同的抗綠膿藥合併**（β-lactam 類 + FQ／aminoglycoside／colistin）"
+            ],
+            [
+              "療程",
+              "培養無抗藥菌時**短療程（約 8 天）**即可，且減少後續抗藥菌移生（FC 113 年）"
+            ],
+            [
+              "**VAP 預防（強力建議）**",
+              "**床頭抬高 30–45 度**、**每日鎮靜中斷**、口腔護理、**及早拔管**、**聲門下分泌物引流氣管內管**、不必要時不換管路、**能用 NIV 就不插管**"
+            ],
+            [
+              "VAP 預防（中等）",
+              "**謹慎使用制酸劑**（PPI、H2 阻斷劑提高胃 pH → 增加 HAP／VAP）；抗生素管理；密閉式抽痰"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年（59 題）**：最不適當的是「床頭抬高 **15–20 度**可減少醫療照護相關肺炎」——應 **30–45 度**；早發性（住院 4 天內）以社區菌為主、口咽抗藥菌移生是危險因子、無抗藥菌時短療程可減少抗藥菌移生都正確。\n**FC 111 年**：VAP 最適當的是「心因性肺水腫的呼吸衰竭用 **NIV** 較插管可減少 VAP」；氣囊打飽**不能完全避免**吸入、床頭不是 15 度、長期預防性抗生素無效。\n**FC 110 年**：易導致吸入性肺炎 → **①全身性硬化症 ②巴金森氏症**（吞嚥或食道蠕動退化）；肺纖維化、無脾症不是。\n**FC 109 年（49 題）**：最不適當的是「床頭至少抬高 **60 度**」（指引 30–45 度）；早發多為社區菌、晚發多為抗藥菌、插管無法避免微量吸入都正確。\n**FC 109 年（57 題）**：**最不會**增加風險的是 **sucralfate**；讓病人平躺、全天麻醉止痛、延長插管都增加風險。\n**FC 108 年**：80 歲肺癌化療住院第 20 天，發燒、低血壓、右下葉肺炎 → 最不恰當的是**第一代 cephalosporin**（院內菌要抗綠膿藥）。\n**FC 105 年**：COPD 插管一週後 VAP、痰培養綠膿 → 錯誤的是「單一治療時 **aminoglycoside** 是首選」。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼床頭抬高、少用制酸劑能預防 VAP？**\nVAP 的來源主要是**口咽與胃**：插管病人口咽很快被院內菌占據，分泌物積在氣管內管氣囊上方，沿著氣囊邊緣**微量吸入**；胃內容物逆流也會被吸入。**平躺**讓逆流與吸入更容易 → 床頭抬高 30–45 度、聲門下分泌物引流都是在減少「往下流」的量。**胃酸**本來能殺菌，用 PPI 或 H2 阻斷劑提高胃 pH 後，胃裡長滿細菌，一逆流就是一口帶菌的液體——所以壓力性潰瘍預防要謹慎用藥。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 戊、感染 B–E p.361–363；題目 p.366–372"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.131 p.1029–1033"
+        }
+      ]
+    },
+    {
+      "title": "肺膿瘍：吸入、厭氧菌、長療程　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **原發性肺膿瘍最常見原因是吸入** → 致病菌常為**多種菌（含口腔厭氧菌）**\n- 好發位置：**上葉後段、下葉上段**（平躺時吸入的重力依賴區）——**不是右中葉與舌葉**（FC 109 年）\n- **敗血性栓子**（如三尖瓣心內膜炎）造成的膿瘍 → **金黃色葡萄球菌**常見\n- 也可由**壞死性肺炎**演變而來（Harrison 圖例：綠膿桿菌肺炎兩週後形成空洞）；鑑別：結核、黴菌、肺癌空洞、GPA\n- 膿瘍破入支氣管 → **空洞 + 氣液面**；多個空腔 = 壞死性肺炎\n- **抗生素療程通常 ≥ 3 週**（不是 7–10 天，FC 113 年），必要時手術"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "肺膿瘍 vs 膿胸（FC）",
+            "肺膿瘍",
+            "膿胸"
+          ],
+          "rows": [
+            [
+              "定義",
+              "肺組織局部化膿、液化 → **抗生素**",
+              "肋膜腔感染 → **引流** + 抗生素"
+            ],
+            [
+              "形狀",
+              "球形；與胸壁成**銳角**",
+              "透鏡形；與胸壁成**鈍角**"
+            ],
+            [
+              "壁",
+              "厚、不規則，可有氣液面",
+              "平滑（肋膜構成）"
+            ],
+            [
+              "周圍肺",
+              "肺紋被破壞",
+              "肺紋被推移"
+            ],
+            [
+              "肋膜積水",
+              "少",
+              "常合併"
+            ],
+            [
+              "治療時間",
+              "**通常 ≥ 3 週**，必要時手術",
+              "胸管引流 + 抗生素"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/pneumonia/h132-1.jpg",
+          "label": "Harrison's 22e Fig.132-1",
+          "caption": "肺膿瘍的形成：綠膿桿菌肺炎兩週後出現空洞",
+          "explain": "**【怎麼看】**原本的實變區在治療兩週後中央液化，形成**厚壁空洞**，內可見氣液面。\n**【考點】**壞死性肺炎（綠膿、金黃色葡萄球菌、克雷伯氏）可演變成膿瘍；吸入造成的原發性膿瘍則以口腔厭氧菌為主。"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 113 年**：錯誤的是「抗生素治療時間通常為 **7–10 天**」——通常 **≥ 3 週**；好發上葉後段與下葉上段、敗血性栓子多為金黃色葡萄球菌、原發性膿瘍常為厭氧菌都正確。\n**FC 109 年**：最不適當的是「最常見位置為**右中葉及左舌葉**」；吸入最常見、療程 ≥ 3 週、多種菌都正確。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼吸入性肺膿瘍偏好「上葉後段、下葉上段」？**\n吸入多發生在**意識變差、平躺**的時候。平躺時最低（重力依賴）的支氣管是**上葉後段**與**下葉上段**——吸入物順著重力流到這裡。右主支氣管較直、較粗，所以右側又比左側常見。站立時吸入則較常落到下葉基底段。右中葉、舌葉在平躺時位置偏前上方，不是重力依賴區。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 戊、感染 I. 肺膿瘍 p.376–377；題目 p.378"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.132 p.1034–1035"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1：72 歲男性，發燒、咳黃痰 3 天，意識混亂，呼吸 32，血壓 88/50，BUN 35 mg/dL，右下葉實變。",
+          "text": "1. **CURB-65**：意識混亂 1 + BUN 高 1 + 呼吸 ≥ 30 1 + 低血壓 1 + ≥ 65 歲 1 = **5 分** → **加護病房**\n2. **檢查**：血液培養、痰液染色培養、尿液肺炎鏈球菌與 Legionella 抗原；乳酸、血氣\n3. **抗生素**：**β-lactam + macrolide** 或 **β-lactam + FQ**；有 MRSA／綠膿風險再擴大涵蓋\n4. **休克**：依敗血性休克處置（見重症篇）\n5. **追蹤**：48–72 小時沒改善 → 想**肋膜積水／膿胸、肺膿瘍**、抗藥菌、結核或非感染原因"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2：60 歲男性，中風後吞嚥困難，鼻胃管灌食，發燒、右下葉浸潤，痰有惡臭。",
+          "text": "1. **吸入性肺炎**：中風、吞嚥差、管灌\n2. **菌**：口腔厭氧菌、腸內 GNB；惡臭痰 → 厭氧菌\n3. **影像**：注意右下葉、上葉後段或下葉上段的**空洞** → 肺膿瘍\n4. **治療**：涵蓋厭氧菌（如 β-lactam／β-lactamase inhibitor）；肺膿瘍療程 **≥ 3 週**\n5. **預防**：吞嚥評估、床頭抬高、口腔照護"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3：插管第 7 天的病人，新發燒、膿痰增加、新浸潤，痰培養綠膿桿菌，血壓需升壓劑。",
+          "text": "1. **晚發 VAP**（插管 ≥ 48 小時、住院 ≥ 5 天）→ 多重抗藥菌\n2. **休克** → **兩類不同的抗綠膿藥合併**（β-lactam 類 + FQ／aminoglycoside）；有 MRSA 風險加 vancomycin 或 linezolid\n3. **不要**單用 aminoglycoside\n4. **依培養降階**；無抗藥菌時療程約 8 天\n5. **預防其他病人**：床頭 30–45 度、每日鎮靜中斷、及早拔管、口腔護理、謹慎用制酸劑"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "致病菌（§分類與致病菌）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：引起社區型肺炎的菌種常與特殊的旅遊史或接觸史有關，下列配對何者錯誤？（A structural lung disease — Pseudomonas aeruginosa B 在發病前二週內住過旅館或郵輪 — Acinetobacter spp. C 近期接觸過鳥 — Chlamydia psittaci D 近期接觸過羊 — Coxiella burnetii）（FC 113 年）",
+          "text": "**答：(B)。** FC 詳解：過去兩週曾到旅館或郵輪應為 Legionella。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：18 歲男性，過去健康，因發燒及咳嗽數天到門診，胸部 X 光雙下肺野肺炎，白血球 7.91 × 10³/μL。最可能的致病菌？（A 金黃色葡萄球菌 B 黴漿菌 C 肺炎克雷伯氏菌 D 綠膿桿菌）（FC 113 年）",
+          "text": "**答：(B)。** FC 詳解：(A) 常見於免疫低下、流感後繼發或靜脈毒品者，可能單側壞死性肺炎、膿胸；(B) 非典型肺炎，雙側浸潤；(C) 糖尿病、酗酒，典型為大葉性；(D) 院內感染。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：過去身體都十分健康的 46 歲男性，因發燒及咳嗽 3 天到門診，胸部 X 光疑似肺炎。下列何者最不可能為致病菌？（A 肺炎鏈球菌 B 黴漿菌 C 鮑氏不動桿菌 D 嗜血桿菌）（FC 108 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：42 歲男性過去十分健康，此次 A 型流感後併發細菌性肺炎，最可能的致病菌為何？（A 肺炎鏈球菌或金黃色葡萄球菌 B 綠膿桿菌或克雷伯氏菌 C 黴漿菌 D 厭氧性細菌）（FC 107 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：下列關於肺炎鏈球菌感染的敘述，何者正確？（A 肺炎鏈球菌菌血症在嬰兒和老人較一般成人常見 B 免疫不全的病人（如脾切除）施打肺炎鏈球菌疫苗無效 C 肺炎鏈球菌咽喉炎是肺炎鏈球菌腦膜炎最常見的先行事件 D 血液白血球明顯增高相對於宿主因素，是預測肺炎鏈球菌感染預後不佳的主要因素）（FC 107 年）",
+          "text": "**答：(A)。** FC 詳解：(C) 病毒性咽喉炎破壞局部屏障後，肺炎鏈球菌入侵血液造成腦膜炎。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：微生物致病菌侵入下呼吸道引發肺炎，最常見的侵入途徑是經由？（A 吸入 B 血行轉移 C 淋巴轉移 D 肋膜延伸）（FC 103 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "heading",
+          "text": "診斷（§診斷）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：下列社區型肺炎診斷工具的說明，何者錯誤？（A 痰液抹片有利於致病菌的診斷，品質好的抹片標準是每個低倍視野下有 > 10 個嗜中性白血球及 > 10 個上皮細胞 B 需住院的社區型肺炎，一般血液培養陽性率約 5–14% C 可用尿液檢測 Legionella pneumophila（serogroup 1）D 可用尿液檢測 pneumococcal 感染）（FC 111 年）",
+          "text": "**答：(A)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：50 歲男性慢性 C 型肝炎，近 2 日咳嗽有濃痰，凌晨發燒寒顫，上午就醫時意識清醒但呼吸急促，體溫 39.0°C、呼吸 30、血壓 116/86，胸部 X 光右下肺葉浸潤增加。痰液 Gram 染色如圖（FC 彩圖 p.489）。經呼吸器和 ceftriaxone，隔日凌晨仍呼吸衰竭併休克死亡。最可能的致病菌？（A Staphylococcus aureus B Streptococcus pneumoniae C Listeria monocytogenes D Streptococcus pyogenes）（FC 110 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：21 歲男大學生發燒咳嗽五天，不抽菸。一開始乾咳，逐漸出現稀疏白痰，全身倦怠、頭痛及肌肉酸痛，無喉嚨痛流鼻水。室友五天前有類似症狀。體溫 39°C，下肺野有些 crackles。下列那一處置最適當？（A 可能是病毒感染，自己會好轉，不必作任何檢查 B 給予 ampicillin，不必作任何檢查 C 安排胸部電腦斷層，以免誤診 D 依臨床發現，安排胸部 X 光檢查）（FC 106 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "heading",
+          "text": "CAP 嚴重度與治療（§嚴重度與 CAP 經驗性治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：68 歲男性長期吸菸、高血壓，近 5 年因腦血管栓塞住院 2 次但無後遺症。一週劇烈咳嗽、黃痰、喘、發燒。胸部 X 光右上肺葉大葉性浸潤、同側肋膜積液。痰檢有許多白血球及革蘭氏陽性雙球菌。下列何者正確？①最可能為吸入性肺炎 ②應選擇可涵蓋 Streptococcus pneumoniae 之抗生素 ③應考慮住院及檢驗肋膜積液 ④應選擇可涵蓋 Pseudomonas aeruginosa 之抗生素（A ①② B ①②③ C ②③ D ②③④）（FC 113 年）",
+          "text": "**答：(C)。** FC 詳解：肺炎鏈球菌引起的社區型肺炎合併肋膜積液；吸入性肺炎多見於吞嚥功能不良、意識障礙，X 光常在右下；綠膿較常見於 HAP 或免疫低下、長期類固醇、慢性氣道疾病、反覆住院或插管者。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：21 歲陳先生無過去病史，3 天前開始發燒、咳嗽且呼吸較急促、呼吸時胸痛，意識清楚。血壓 96/62、脈搏 102、呼吸 24、耳溫 39.2°C，右下肺葉叩診濁音，X 光右下肺葉浸潤。依據 CURB-65 是否需要住院？（A 不需住院，可門診治療 B 需住院，一般病房 C 需住院，加護病房 D 未抽血檢查，無法判定）（FC 108 年）",
+          "text": "**答：(A)。** FC 詳解：Confusion 0 + Urea（未知）+ RR > 30 0 + SBP < 90 或 DBP < 60 0 + ≥ 65 歲 0 = 0–1 → 可門診治療。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：70 歲男性意識清楚，咳嗽、黃痰、發燒，胸部 X 光右上葉肺炎，BP 150/80、HR 110、RR 33、BT 38°C。依據指引此病患最適宜的治療方式？（A 門診治療 B 一般病房住院治療 C 加護病房住院治療 D 不需治療）（FC 105 年）",
+          "text": "**答：(B)、(C) 皆給分。** FC 詳解：RR > 30 1 分 + ≥ 65 歲 1 分 = 2 分 → 建議住院；BUN 未知，故 B、C 皆對。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：21 歲女性無過去病史，3 天前開始發燒、咳嗽，門診時仍有胸痛，意識清楚，血壓 100/70、脈搏 100、呼吸 24、耳溫 38.9°C，左下肺葉叩診濁音，X 光左下肺葉浸潤，診斷為肺炎。在社區門診應給予何種處置？（A 應先進行血液培養才可給予抗生素 B 痰液培養務必執行 C 可優先選用 azithromycin 治療 D 可優先選用 moxifloxacin 治療）（FC 104 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "HAP／VAP 與吸入（§HAP／VAP 與吸入性肺炎）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：有關醫療照護相關感染肺炎致病原之敘述，下列何者最不適當？（A 口咽移生之抗藥性菌嗆咳，是發生醫療照護相關感染肺炎的危險因子 B 住院 4 天內發生早發性醫療照護相關感染肺炎，致病原主要為社區性病原，如肺炎鏈球菌或流感嗜血桿菌 C 若培養未發現特定的抗藥性致病原，使用抗生素短期治療（8 天）能減少病人後續抗藥性菌移生 D 床頭抬高 15–20 度可以減少發生醫療照護相關感染肺炎）（FC 113 年）",
+          "text": "**答：(D)。** FC 詳解：預防 HAP／VAP 標準建議床頭抬高 30–45 度。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：關於呼吸器相關肺炎（VAP），下列敘述何者最適當？（A 氣管內管插管並將氣囊充氣打飽後，可完全避免吸入性肺炎 B 應將病人頭部抬高至 15 度 C 給與長期預防性抗生素，可避免產生呼吸器相關肺炎 D 心因性肺水腫導致的呼吸衰竭，採用非侵襲性正壓通氣較插管使用呼吸器可減少呼吸器相關肺炎的發生）（FC 111 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：下列何種因素易導致吸入性肺炎？①全身性硬化症 ②巴金森氏症 ③肺部纖維化 ④無脾症（A ①②③ B ①② C ②③④ D ①④）（FC 110 年）",
+          "text": "**答：(B)。** FC 詳解：全身性硬化症與巴金森氏症病人吞嚥功能或食道蠕動功能會退化，食物較容易嗆入肺部。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q17：關於呼吸器相關肺炎，下列敘述何者最不適當？（A 住院後 5 到 7 天內發生的呼吸器相關肺炎，致病菌可能不是多重抗藥菌，而是如肺炎鏈球菌或流感嗜血桿菌等 B 住院 7 天後發生的呼吸器相關肺炎，致病菌較可能為多重抗藥菌，如綠膿桿菌或鮑氏不動桿菌 C 氣管內管插管雖可避免大量分泌物吸入，但無法避免微量吸入 D 為避免呼吸器相關肺炎，必須將病人頭部抬高至少 60 度）（FC 109 年）",
+          "text": "**答：(D)。** FC 詳解：《台灣肺炎診治指引》建議床頭抬高 30–45 度。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q18：下列那一項處置最不會增加住院病人醫療照護相關感染肺炎的風險？（A 儘量讓病人平躺以維持住院的舒適度 B 給與麻醉藥物全天止痛 C 為方便抽痰延長使用氣管內插管 D 使用口服 sucralfate 藥物治療胃潰瘍）（FC 109 年）",
+          "text": "**答：(D)。** FC 詳解：使用 H2 阻斷劑、制酸劑或 PPI 時胃酸 pH 增加，HAP 及 VAP 發生率增加。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q19：80 歲女性因肺癌住院接受化學治療。住院第 20 天發燒、低血壓（80/60 mmHg），X 光顯示右下肺炎（lobar pneumonia），應進行的處置何者最不恰當？（A 痰液鏡檢及培養 B 血液培養兩套 C 驗白血球計數及分類 D 給與第一代 cephalosporin 治療）（FC 108 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q20：68 歲男性抽菸 50 年，10 年前開始咳嗽黃痰，5 年前運動性呼吸困難，近 3 年 6 次嚴重急性惡化住院（4 次為細菌性肺炎）。本次急診 PaO₂ 45、PaCO₂ 70、RR 30，插管使用呼吸器。住院一星期後發燒、黃痰增多，X 光右下葉新浸潤，痰培養 Pseudomonas aeruginosa。下列敘述何者錯誤？（A 診斷可為 ventilator-associated pneumonia B 應再輔以 BAL 或 protected brush 取得遠端氣道檢體做定量培養來證明 C 使用 monotherapy 時 aminoglycoside 是首選有效的藥物 D tobramycin 吸入可提供氣管黏膜有效藥物濃度，是吸入治療的推薦藥物）（FC 105 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "肺膿瘍（§肺膿瘍）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q21：關於肺膿瘍的敘述，下列何者錯誤？（A 原發性肺膿瘍最常見的位置是上肺葉的後節及下肺葉的上節 B 金黃色葡萄球菌是敗血性血栓所致肺膿瘍之常見致病菌 C 厭氧性細菌常發生於原發性肺膿瘍 D 抗生素治療時間通常為 7–10 天；必要時需進行手術）（FC 113 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q22：關於肺膿瘍，下列敘述何者最不適當？（A 最常見的原發性肺膿瘍產生原因是吸入性 B 最常見的原發性肺膿瘍病灶位置為右中葉及左舌葉 C 治療時間通常 3 星期以上，必要時需進行手術 D 致病菌常為多種微生物）（FC 109 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "分類",
+              "CAP；HAP ≥ 48 h 住院；VAP ≥ 48 h 插管；台灣保留安養機構相關"
+            ],
+            [
+              "CAP 菌（台灣）",
+              "肺炎鏈球菌 > 黴漿菌 > 披衣菌 > 克雷伯氏 > 流感嗜血"
+            ],
+            [
+              "暴露",
+              "旅館郵輪水塔 Legionella；鳥 psittacosis；羊 Q 熱；颱風南台灣類鼻疽；流感後 肺炎鏈球菌／金葡"
+            ],
+            [
+              "吸入",
+              "中風、失智、巴金森、全身性硬化症；口腔厭氧菌、腸內 GNB"
+            ],
+            [
+              "好的痰",
+              "鱗狀上皮 < 10、白血球 > 25／LPF"
+            ],
+            [
+              "Gram 染色",
+              "柳葉刀雙球菌 肺炎鏈球菌；成簇 金葡；粗大有莢膜 GNB 克雷伯氏"
+            ],
+            [
+              "尿液抗原",
+              "肺炎鏈球菌、Legionella 血清型 1"
+            ],
+            [
+              "血液培養",
+              "住院 CAP 陽性 5–14%"
+            ],
+            [
+              "CURB-65",
+              "0–1 門診；2–3 住院；4–5 ICU"
+            ],
+            [
+              "CAP 治療",
+              "門診 β-lactam 或 macrolide／doxy；住院 β-lactam + macrolide；ICU BL + M 或 BL + FQ；5–7 天"
+            ],
+            [
+              "FQ",
+              "會延誤結核診斷"
+            ],
+            [
+              "HAP 菌（台灣）",
+              "綠膿、克雷伯氏、鮑氏；早發（≤ 4 天）類 CAP"
+            ],
+            [
+              "HAP 治療",
+              "低風險單一抗綠膿；休克或高風險兩類合併；不可第一代 cephalosporin；不單用 aminoglycoside"
+            ],
+            [
+              "VAP 預防",
+              "床頭 30–45 度、鎮靜中斷、及早拔管、聲門下引流、NIV；少用 PPI／H2（sucralfate 最不增加）"
+            ],
+            [
+              "肺膿瘍",
+              "吸入、厭氧、多菌；上葉後段、下葉上段；≥ 3 週；敗血性栓子 → 金葡"
+            ],
+            [
+              "膿瘍 vs 膿胸",
+              "球形銳角 vs 透鏡鈍角；抗生素 vs 引流"
+            ]
+          ]
+        }
+      ]
+    }
   ]
 }
