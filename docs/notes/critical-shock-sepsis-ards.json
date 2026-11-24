@@ -12,6 +12,10 @@
   "updated": "2026-11-25",
   "related": [
     {
+      "id": "critical-bls-acls",
+      "name": "Critical Care (二)：BLS 與 ACLS——高品質 CPR、心臟停止流程、心搏過緩與過速、復甦後照護"
+    },
+    {
       "id": "chest-hypoxemia-respiratory-failure",
       "name": "Chest (三)：低血氧與呼吸衰竭——A-a gradient、氧氣治療、NIV、睡眠呼吸中止與高山症"
     },
@@ -31,7 +35,7 @@
         {
           "type": "callout",
           "style": "logic",
-          "text": "**一條主線**　FC 18 題｜最常考：看血行動力學分休克、心因性休克的數字、休克用什麼升壓劑、敗血症的處置目標（不是先補碳酸氫鈉）、ARDS 與心因性肺水腫的差別、低潮氣容積（6 mL/kg、Pplat < 30）、RSBI < 105\n① **休克 = 組織灌流不足**：四型——**低血容**（CVP、PAOP 低，SVR 高）、**心因性**（CI 低、PAOP 高、SVR 高）、**分布性**（SVR 低，早期 CI 高；敗血症最常見）、**阻塞性**（氣胸、心包填塞、肺栓塞）\n② **升壓劑**：敗血性與心因性休克**首選 norepinephrine**；dopamine 心律不整多、已不建議；**過敏性休克 → epinephrine**；心因性要強心 → dobutamine\n③ **敗血症（Sepsis-3）**：感染 + **器官功能障礙（SOFA ↑ ≥ 2）**；qSOFA（意識、呼吸 ≥ 22、收縮壓 ≤ 100）篩檢；**敗血性休克** = 補液後仍需升壓劑維持 **MAP ≥ 65** 且 **lactate > 2**\n④ **敗血症處置**：先培養、**1 小時內抗生素**、**30 mL/kg 晶體液**（平衡溶液優於生理食鹽水）、MAP 65、norepinephrine；**碳酸氫鈉不是首要目標**\n⑤ **ARDS**：1 週內、兩側浸潤、不是心衰竭、**P/F ≤ 300**（輕 200–300、中 100–200、重 ≤ 100）；**低潮氣容積 6 mL/kg（理想體重）+ Pplat ≤ 30** 是唯一證實降死亡的通氣策略；P/F < 150 → **俯臥**；**脫離呼吸器：RSBI < 105**\n新版來源：Harrison 22e Ch.312（ARDS）、Ch.313（呼吸器）、Ch.314（休克）、Ch.315（敗血症）；FC 第1冊 心臟 丁D 休克、胸腔 庚（呼吸器）、辛（敗血症、ARDS）\n分工：氧氣治療、呼吸衰竭分型與 NIV 見〈Chest (三)〉；肺炎與 VAP 見〈Pneumonia〉；心衰竭見〈Heart Failure〉系列；BLS／ACLS 見〈Critical Care (二)〉（待寫）"
+          "text": "**一條主線**　FC 18 題｜最常考：看血行動力學分休克、心因性休克的數字、休克用什麼升壓劑、敗血症的處置目標（不是先補碳酸氫鈉）、ARDS 與心因性肺水腫的差別、低潮氣容積（6 mL/kg、Pplat < 30）、RSBI < 105\n① **休克 = 組織灌流不足**：四型——**低血容**（CVP、PAOP 低，SVR 高）、**心因性**（CI 低、PAOP 高、SVR 高）、**分布性**（SVR 低，早期 CI 高；敗血症最常見）、**阻塞性**（氣胸、心包填塞、肺栓塞）\n② **升壓劑**：敗血性與心因性休克**首選 norepinephrine**；dopamine 心律不整多、已不建議；**過敏性休克 → epinephrine**；心因性要強心 → dobutamine\n③ **敗血症（Sepsis-3）**：感染 + **器官功能障礙（SOFA ↑ ≥ 2）**；qSOFA（意識、呼吸 ≥ 22、收縮壓 ≤ 100）篩檢；**敗血性休克** = 補液後仍需升壓劑維持 **MAP ≥ 65** 且 **lactate > 2**\n④ **敗血症處置**：先培養、**1 小時內抗生素**、**30 mL/kg 晶體液**（平衡溶液優於生理食鹽水）、MAP 65、norepinephrine；**碳酸氫鈉不是首要目標**\n⑤ **ARDS**：1 週內、兩側浸潤、不是心衰竭、**P/F ≤ 300**（輕 200–300、中 100–200、重 ≤ 100）；**低潮氣容積 6 mL/kg（理想體重）+ Pplat ≤ 30** 是唯一證實降死亡的通氣策略；P/F < 150 → **俯臥**；**脫離呼吸器：RSBI < 105**\n新版來源：Harrison 22e Ch.312（ARDS）、Ch.313（呼吸器）、Ch.314（休克）、Ch.315（敗血症）；FC 第1冊 心臟 丁D 休克、胸腔 庚（呼吸器）、辛（敗血症、ARDS）\n分工：氧氣治療、呼吸衰竭分型與 NIV 見〈Chest (三)〉；肺炎與 VAP 見〈Pneumonia〉；心衰竭見〈Heart Failure〉系列；BLS／ACLS 見〈Critical Care (二)〉"
         }
       ]
     },
