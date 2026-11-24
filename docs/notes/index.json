@@ -357,6 +357,10 @@
         {
           "id": "breast-cancer",
           "name": "Breast Cancer (乳癌)：從乳房腫塊到依分子分型治療"
+        },
+        {
+          "id": "genitourinary-cancers",
+          "name": "Genitourinary Cancers (泌尿生殖腫瘤)：無痛血尿、腎臟腫塊、PSA 與睪丸腫塊"
         }
       ]
     },
