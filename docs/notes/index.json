@@ -143,6 +143,13 @@
         {
           "id": "chest-tb-treatment",
           "name": "Chest (十)：結核（二）——治療、藥物副作用、抗藥結核與 NTM"
+        },
+        {
+          "heading": "胸腔腫瘤"
+        },
+        {
+          "id": "chest-lung-cancer-dx",
+          "name": "Chest (十一)：胸腔腫瘤（一）——肺結節、組織型、腫瘤旁症候群、診斷分期與縱膈腔腫瘤"
         }
       ]
     },
