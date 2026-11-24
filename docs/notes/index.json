@@ -109,6 +109,10 @@
         {
           "id": "chest-asthma",
           "name": "Chest (四)：氣喘——可變的氣流受阻、控制評估與 GINA 階梯治療"
+        },
+        {
+          "id": "chest-copd-bronchiectasis",
+          "name": "Chest (五)：COPD 與支氣管擴張——慢性咳痰與固定的氣流受阻"
         }
       ]
     },
