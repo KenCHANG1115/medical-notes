@@ -328,6 +328,13 @@
         {
           "id": "plasma-cell-disorders",
           "name": "Plasma Cell Disorders (漿細胞疾病：MGUS、多發性骨髓瘤與類澱粉沉積症)"
+        },
+        {
+          "heading": "輸血"
+        },
+        {
+          "id": "transfusion-medicine",
+          "name": "Transfusion Medicine (輸血醫學：血品適應症、相容性與輸血反應)"
         }
       ]
     },
