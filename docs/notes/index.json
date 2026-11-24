@@ -120,6 +120,10 @@
         {
           "id": "chest-ild-occupational",
           "name": "Chest (六)：間質性肺病與職業肺病——IPF、過敏性肺炎、塵肺症、石綿與類肉瘤"
+        },
+        {
+          "id": "chest-pleural",
+          "name": "Chest (七)：肋膜疾病——肋膜積水（Light's criteria）、膿胸、結核性積水與氣胸"
         }
       ]
     },
