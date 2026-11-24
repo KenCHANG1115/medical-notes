@@ -1,0 +1,574 @@
+{
+  "id": "chest-tb-treatment",
+  "title": "Chest (十)：結核（二）——治療、藥物副作用、抗藥結核與 NTM",
+  "title_en": "Chest (10): Tuberculosis II — Treatment, Toxicity, Drug Resistance, NTM",
+  "title_zh": "胸腔（十）：結核（二）",
+  "specialty": "胸腔內科",
+  "sources": [
+    "Harrison's 22e - Ch.183 Tuberculosis (p.1382–1403; Table 183-4/183-5); Ch.185 Nontuberculous Mycobacterial Infections (p.1415–1418)",
+    "First Choice 醫學(三) 第1冊 - 胸腔內科 己、結核 A–B、E–H（講義 p.386–395）；題目 p.397–409 中 15 題（傳染、診斷與 LTBI 的 16 題見〈Chest (九)〉）"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "chest-tb-diagnosis",
+      "name": "Chest (九)：結核（一）——傳染、診斷、潛伏結核與感染管制"
+    },
+    {
+      "id": "chest-copd-bronchiectasis",
+      "name": "Chest (五)：COPD 與支氣管擴張——慢性咳痰與固定的氣流受阻"
+    },
+    {
+      "id": "hiv-treatment-art",
+      "name": "HIV/AIDS (三)：ART 治療與預防"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 15 題｜最常考：四藥的副作用（口訣）、肝功能異常何時停藥、rpoB = rifampin 抗藥、MDR 定義、孕婦不能用 streptomycin、NTM 不是一定要治療、M. marinum\n① **標準處方**：新病人 **2HRZE + 4HR**（台灣：前 2 個月四合一，確認一線藥都有效後停 EMB）；**每日服藥**、**都治（DOT）**；治癒率 > 90%\n② **監測**：治療前驗 **B、C 肝、HIV**、肝腎功能、尿酸、CBC、視力；**第 2、4、8 週**抽血；痰在約 **2 個月、5 個月、完治**時追蹤；開洞 + 2 個月仍陽性 → 延長到 **≥ 9 個月**\n③ **副作用口訣**（FC）：**I**soniazid — **N**europathy（＋肝炎、藥物性狼瘡）；**R**ifampin — **R**ed-orange（＋酵素誘導、溶血、血小板低）；**E**thambutol — **E**ye（視神經炎、紅綠色盲）；**PZA** — **UA**（尿酸、痛風）；肝毒性：INH、RIF、PZA（EMB 不傷肝）\n④ **抗藥**：rpoB → **rifampin**；katG／inhA → INH；**MDR = INH + RIF**；現行（Harrison 22e）：**pre-XDR = MDR + FQ**、**XDR = 再加 bedaquiline 或 linezolid**；新處方 **BPaLM 6 個月**\n⑤ **NTM**：**不一定要治療**（看症狀、影像、多次培養）；MAC = macrolide + EMB + rifamycin，培養陰轉後再 12 個月；**M. kansasii** 像結核、用 INH + RIF + EMB；**M. marinum** 魚缸、皮膚肉芽腫、30°C 生長\n新版來源：Harrison 22e Ch.183（結核）、Ch.185（NTM）；FC 第1冊 胸腔 己 E–I（依台灣結核病診治指引）\n分工：傳染、診斷、LTBI 與感染管制見〈Chest (九)〉；HIV 的 ART 細節見〈HIV/AIDS (三)〉"
+        }
+      ]
+    },
+    {
+      "title": "標準治療與監測：2HRZE/4HR、特殊族群　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 新病人（從未治療或 < 4 週）：**INH + RIF + PZA + EMB 2 個月 → INH + RIF 4 個月**（2HRZE/4HR；台灣 FC 寫 2HERZ + 4HER，**確認一線藥都有效後可停 EMB**）\n- **每日服藥**：一週 2–3 次的間歇療法會增加失敗、復發與抗藥（Harrison）→ 不能縮短療程（FC 104 年）\n- **曾經治療、服藥不規則** → **抗藥機率高**（FC 104 年）→ 驗痰、傳統藥敏 + **快速分子檢測**（katG、inhA、rpoB）\n- **監測**：治療前驗 **B、C 型肝炎、HIV**；第 2、4、8 週驗 CBC、AST、ALT、bilirubin、尿酸、BUN、Cr；**CK 不需常規監測**（FC 110 年）\n- 痰：約 **2 個月、5 個月、完治**各兩套；**開洞 + 2 個月培養仍陽性** → 總療程延長到 **≥ 9 個月**\n- **孕婦**：**不可用 streptomycin**（胎兒第八對腦神經毒性）（FC 104 年）；Harrison：孕婦首選 INH + RIF + EMB 9 個月，WHO 認為含 PZA 的 6 個月處方也可能安全\n- **腎功能不全**（CCr < 30 到透析）：INH、RIF **不調整**（INH 加 B6）；**EMB、PZA 正常劑量、每週 3 次**\n- **HIV 合併結核**：先開始抗結核藥，ART 在 **2 週內**（CD4 < 50 尤其要快）；**結核性腦膜炎**延後到 **8 週**（避免嚴重 IRIS）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "HIV 合併結核：何時開始 ART",
+            "FC（題目當年）",
+            "Harrison 22e（現行）"
+          ],
+          "rows": [
+            [
+              "CD4 < 50",
+              "抗結核治療 **2 週內**",
+              "**2 週內**（強烈建議）"
+            ],
+            [
+              "CD4 ≥ 50",
+              "抗結核治療 **2–4 週後**（FC 109 年答案）",
+              "盡快、原則上 **2 週內**"
+            ],
+            [
+              "結核性腦膜炎",
+              "延後到 **8 週**後",
+              "不論 CD4，前 **8 週**先不開始"
+            ],
+            [
+              "為什麼不同時開始",
+              "免疫重建發炎症候群（**IRIS**）：ART 後 1–3 個月，發燒、淋巴結腫、肺浸潤或積水惡化",
+              "ART 越早、CD4 越低，IRIS 風險越高"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 104 年（一-54）**：結核治療正確的是「曾接受過抗結核藥、且**服藥不規律**者，**抗藥性機率高**」；一週 2–3 次高劑量**不能**縮短療程、MDR **不能**用標準藥 6 個月治完、台灣 XDR **沒有**佔新個案 1%。\n**FC 104 年（二-56）**：不適合用於孕婦的是 **streptomycin**。\n**FC 110 年（二-17）**：治療後不需定期監測的是 **CK**（ALT、bilirubin、CBC 都要）。\n**FC 109 年（二-61）**：HIV（CD4 70、從未 ART）合併肺結核 → **抗結核治療 2–4 週後**開始 ART。**現行治療（Harrison 22e）**： 建議原則上在抗結核治療 **2 週內**開始 ART（CD4 < 50 尤其要快）；考題請依 FC 年度答案。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要「四合一 2 個月，再兩種 4 個月」？**\n一個開洞病灶裡有上億隻結核菌，其中**一定有少數天生對某一種藥抗藥的突變株**——單用一種藥，抗藥株就會被「選出來」。同時用四種藥，同一隻菌要剛好對四種都抗藥的機率極低。四種藥各打不同族群：**INH** 殺快速分裂的菌（前期快速降低菌量、減少傳染）、**RIF** 殺偶爾才活化的菌（防復發的關鍵）、**PZA** 殺躲在巨噬細胞**酸性環境**裡的菌（讓療程從 9 個月縮短成 6 個月）、**EMB** 在藥敏出來前保護其他藥、防止抗藥。前 2 個月把菌量壓低後，剩下的「半睡半醒」的菌靠 INH + RIF 再清 4 個月。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他治療細節（FC、Harrison）",
+          "text": "- **都治**（DOT）：WHO、ATS、CDC、IDSA 都主張理想上所有病人都要有直接監督服藥（Harrison）\n- **Pyridoxine（B6）**：高風險者才加——糖尿病、腎功能不全、營養不良、慢性肝病、酗酒、HIV、周邊神經病變、懷孕、哺乳（FC、Harrison 10–25 mg/d）\n- **Rifabutin**：酵素誘導較弱，用於併用 HIV 蛋白酶抑制劑者、RIF 副作用而 rifabutin 可避免者；白血球低下較常見、與 RIF 交叉抗藥高（FC：87%）\n- **4 個月新處方**（Harrison）：**2HPZM/2HPM**（INH、rifapentine 1200 mg、PZA 前 2 個月、moxifloxacin 400 mg），≥ 12 歲；不適用 < 40 kg、嚴重肺外結核、CD4 < 100 的 HIV、孕婦或哺乳、QT 延長\n- **嚴重肝病**：可用 EMB、streptomycin，再加一種（如 FQ）；避免 PZA（Harrison）\n- **矽肺合併結核**：療程至少延長 2 個月（Harrison）\n- 培養（或塗片）在**治療 3 個月後**仍陽性 → 懷疑治療失敗，立即重做藥敏（Harrison）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 己、結核 E–F 治療與監測 p.391–392、394；題目 p.403–404、409"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.183 p.1394–1400"
+        }
+      ]
+    },
+    {
+      "title": "藥物副作用：口訣、肝功能異常何時停藥　★ 5 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 口訣（FC）：**I**soniazid — **N**europathy；**R**ifampin — **R**ed-orange urine；**E**thambutol — **E**ye neuritis；**PZA** — **UA**\n- **肝毒性**：INH、RIF、PZA（三者合用時 PZA 增加肝毒性）；**EMB 不傷肝**（FC 104 年）\n- **停藥標準**（FC 詳解）：**AST／ALT ≥ 5 倍上限（無症狀）**或 **≥ 3 倍上限 + 症狀**（黃疸、噁心嘔吐、食慾差、上腹痛）或明顯黃疸；**< 3 倍、無症狀 → 繼續治療、密切追蹤**（FC 111 年）\n- 治療 3 週後**痛風** → **PZA**（FC 108 年）\n- 發燒、小關節炎、**ANA 陽性、anti-histone 陽性、anti-dsDNA 陰性** → **INH 引起的藥物性狼瘡** → **停 INH**（FC 109 年）\n- 只有**間接膽紅素**上升 → **rifampin 引起溶血** → 尿中 **urobilinogen 陽性、bilirubin 陰性**；HbA1c 假性偏低（FC 107 年）\n- Harrison：EMB 視神經炎、RIF 自體免疫性血小板低下 → **永久停用**該藥；搔癢、腸胃不適通常不必停藥"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物（FC＋Harrison）",
+            "機轉",
+            "主要副作用",
+            "要記的點"
+          ],
+          "rows": [
+            [
+              "**Isoniazid（H）**\n5 mg/kg，最多 300 mg",
+              "抑制細胞壁 **mycolic acid** 合成；殺菌",
+              "**周邊神經病變**（B6 缺乏）、**肝炎**、**藥物性紅斑狼瘡**",
+              "高風險者加 B6；anti-histone 抗體陽性的狼瘡 → **停 INH**"
+            ],
+            [
+              "**Rifampin（R）**\n10 mg/kg，最多 600 mg",
+              "抑制 **RNA polymerase**；殺菌",
+              "**尿、淚、痰變橘紅色**、肝毒性、類流感、**溶血性貧血**、**血小板低下**",
+              "**強效酵素誘導**：口服避孕藥、warfarin、口服降血糖藥、類固醇、毛地黃、HIV 蛋白酶抑制劑都會失效"
+            ],
+            [
+              "**Ethambutol（E）**\n15 mg/kg",
+              "抑制 arabinosyl transferase；**唯一抑菌性**",
+              "**球後視神經炎**：視力模糊、**中央盲點**、**紅綠色盲**",
+              "**腎臟排除**；早停可恢復；**不傷肝**"
+            ],
+            [
+              "**Pyrazinamide（Z）**\n25 mg/kg，最多 2,000 mg",
+              "在巨噬細胞**酸性**（pH 5.5）環境殺菌",
+              "**高尿酸**、**痛風**、關節痛、肝毒性",
+              "尿酸 < 13 通常不治療；關節痛用水楊酸；**不用 allopurinol**（會增加 pyrazinoic acid）；痛風發作 → 停 PZA"
+            ],
+            [
+              "Streptomycin（S）",
+              "Aminoglycoside（30S）",
+              "**耳毒性（不可逆）**、腎毒性",
+              "**孕婦禁用**；現在很少用"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 111 年（二-49）**：治療 1 個月，精神食慾都好，AST 48、ALT 71（上限 39、52，**未達 3 倍**）→ **繼續原處方、密切追蹤肝功能**；不必全停、不必換二線藥、不必先停 PZA。\n**FC 109 年（一-33）**：服四合一 2 個月後發燒、手部小關節腫痛、ANA 1:1,280、**anti-histone 陽性**、anti-dsDNA 陰性 → **停 isoniazid**（藥物性狼瘡）；losartan、HCTZ 不是原因。\n**FC 108 年（一-48）**：治療 3 週發生嚴重痛風 → **pyrazinamide**。\n**FC 107 年（二-8）**：糖尿病人治療結核，total bilirubin 3、direct 0.3（**間接為主**）→ 最不適當的是「驗尿 **bilirubin 陽性**」——溶血時尿中是 **urobilinogen** 增加；HbA1c 因紅血球壽命縮短而假性偏低。\n**FC 104 年（二-12）**：四藥治療 1 個月，bilirubin 15/8、AST 68、ALT 70 → **最不可能**是 **ethambutol**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼溶血時尿中有 urobilinogen、卻沒有 bilirubin？**\n溶血產生大量**間接（未結合）膽紅素**——它和白蛋白結合、**不溶於水，腎臟濾不出來** → 尿 bilirubin 陰性。肝臟把它結合後排進膽汁、到腸道被細菌轉成 **urobilinogen**，部分再吸收從尿排出 → 尿 urobilinogen **上升**。反過來，膽汁淤積時是**直接（結合）膽紅素**逆流入血，水溶性 → 尿 bilirubin 陽性，而進到腸道的少了 → urobilinogen 反而低。詳見〈肝功能異常與黃疸〉。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 己、結核 G. 個別藥物 p.392–394；題目 p.400、404–408"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.183 p.1396–1397"
+        }
+      ]
+    },
+    {
+      "title": "抗藥結核：抗藥基因、MDR、pre-XDR、XDR　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 抗藥基因：**INH — katG、inhA**；**RIF — rpoB**；EMB — embB；PZA — pncA（FC 111 年：rpoB 突變 → **rifampin** 抗藥）\n- **多種抗藥（poly）**：≥ 2 種，但**不是**同時 INH + RIF\n- **MDR**：**至少 INH + RIF** 都抗藥（其他藥敏不敏感都不影響定義）（FC 109 年）\n- **RR-TB**：rifampin 抗藥（GeneXpert 可在數小時內偵測）→ 處理同 MDR\n- **現行定義**（Harrison 22e，WHO 2021 起）：**pre-XDR = MDR／RR + 任一 FQ 抗藥**；**XDR = pre-XDR + 至少一種 A 組藥（bedaquiline 或 linezolid）抗藥**\n- FC 講義仍是舊定義：XDR = MDR + 任一 FQ + 任一二線針劑（kanamycin、amikacin、capreomycin）抗藥\n- MDR／RR 治療（Harrison）：**BPaLM**（bedaquiline、pretomanid、linezolid、moxifloxacin）**6 個月**，≥ 14 歲；A 組藥 = **FQ、bedaquiline、linezolid**；kanamycin、capreomycin **不再使用**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "WHO 二線藥分組（Harrison Table）",
+            "藥物",
+            "用法"
+          ],
+          "rows": [
+            [
+              "A 組",
+              "levofloxacin 或 moxifloxacin、**bedaquiline**、**linezolid**",
+              "三種都要用"
+            ],
+            [
+              "B 組",
+              "clofazimine、cycloserine（或 terizidone）",
+              "至少用一種"
+            ],
+            [
+              "C 組",
+              "EMB、delamanid、PZA、imipenem 或 meropenem、amikacin（或 streptomycin）、ethionamide、PAS",
+              "A、B 組不夠時補足"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 111 年（一-49）**：痰中結核菌 **rpoB** 基因突變 → 對 **rifampin** 抗藥。\n**FC 109 年（一-48）**：符合 MDR 的是 **INH 及 rifampin 抗藥**，但 ethambutol、streptomycin 敏感；只有 INH + 其他藥、或只有 RIF + 其他藥都不算 MDR。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼抗藥的關鍵是 rifampin？**\nRifampin 是讓結核**短程（6 個月）治癒、防止復發**的核心藥——它能殺偶爾才活化、代謝緩慢的菌。只要 RIF 失效，標準處方就撐不住，必須改用二線藥。而且 **RIF 抗藥常合併 INH 抗藥** → 所以 GeneXpert 只要驗出 **rpoB 突變**，就先當成 MDR 處理（RR-TB）。新定義把 FQ、bedaquiline、linezolid 放進來，是因為現在 MDR 的治療主力已經從注射藥換成這幾個口服藥——對它們也抗藥，才是真正「沒藥可用」。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 己、結核 B. 藥物敏感試驗 p.388–389；E. 2 p.392；題目 p.401、404"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.183 p.1382、1394–1399"
+        }
+      ]
+    },
+    {
+      "title": "肺外結核的療程與類固醇　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 一般肺外結核：與肺結核相同，**6–9 個月**\n- **結核性腦膜炎（中樞神經）**：**12 個月**（FC 107 年：不是 6 個月）＋ **類固醇**（強烈建議）\n- **骨結核**：FC 表列 **9 個月**；**脊椎結核（Pott's disease）**：好發成人下胸椎、上腰椎，常侵犯相鄰兩節椎體 → 後凸（gibbus）\n- **結核性心包膜炎**：FC 表列 6–9 個月 + 類固醇（台灣指引）；未治療多致命，可併發**縮窄性心包膜炎**\n- 結核性肋膜炎：類固醇可加速吸收、緩解症狀，但**不能減少肋膜增厚**、不常規建議\n- **淋巴結結核**最常見（頸後、鎖骨上無痛腫大，可形成瘻管）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "肺外結核（FC 表，台灣指引）",
+            "療程（月）",
+            "類固醇"
+          ],
+          "rows": [
+            [
+              "粟粒性、淋巴結、肋膜、泌尿生殖、腹部",
+              "6–9",
+              "—"
+            ],
+            [
+              "骨",
+              "9",
+              "—"
+            ],
+            [
+              "**中樞神經系統**",
+              "**12**",
+              "**強烈建議**"
+            ],
+            [
+              "**心包膜**",
+              "6–9",
+              "**強烈建議**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 107 年（一-49）**：肺外結核治療錯誤的是「結核性腦膜炎治療為標準抗結核治療 **6 個月**」——應 **12 個月**。淋巴結核最常見、Pott's disease 的脊髓病變多可隨藥物治療恢復都算正確。選項 C「心包膜炎類固醇未被確認可改善病情」本題未被選為答案，但 FC 詳解指出台灣指引認為 6 個月藥物 + 類固醇（prednisolone 60 mg 起、3 個月內減完）療效很好——考題以 D 為唯一答案。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼腦膜炎要 12 個月、還要加類固醇？**\n部分抗結核藥（如 EMB）進入腦脊髓液的程度差，腦裡的菌比較難清乾淨、復發代價又極高，所以療程拉長。而腦膜炎造成傷害的主因常是**發炎本身**：基底部厚厚的滲出物會**壓迫腦神經、阻塞腦脊髓液（水腦）、造成血管炎與中風**；類固醇抑制這些發炎反應（WHO 建議中樞神經結核加 dexamethasone 或 prednisolone，6–8 週減量，Harrison）。心包膜炎同理，類固醇是為了減少發炎造成的**縮窄**。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 己、結核 H. 肺外結核 p.394–395；題目 p.408"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.183 p.1387–1390"
+        }
+      ]
+    },
+    {
+      "title": "非結核分枝桿菌（NTM）：要不要治、怎麼治　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- NTM 來自環境、**不人傳人、不需通報**；肺病好發於**結構性肺病**（支擴、COPD、塵肺、囊狀纖維化）與免疫正常的中老年女性，**不是只發生在 HIV**（FC 112 年）\n- 診斷（ATS，Harrison）：症狀 + 影像 + **3 套痰中 2 套培養出 NTM**（不論塗片）或 **1 套 BAL 陽性**，或切片見肉芽腫且培養陽性\n- **不是培養到 NTM 就一定要治療**：可觀察，等疾病進展再介入（FC 108 年）；但一旦治療就要**多種藥合併**、療程長\n- **MAC**：macrolide + EMB + rifamycin，**培養陰轉後 12 個月**、總共常 **≥ 18 個月**\n- **M. kansasii**：像結核 → **INH + RIF + EMB**\n- **M. abscessus**：快速生長但**最難治**，療程數月到一年以上\n- **M. marinum**：魚刺傷手 → 肉芽腫、**30°C 培養**（FC 105 年）；**M. gordonae** 多是汙染菌"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "NTM（FC＋Harrison Ch.185）",
+            "特徵",
+            "治療"
+          ],
+          "rows": [
+            [
+              "**MAC**（M. avium、intracellulare）\n慢速",
+              "最常見的 NTM 肺病：**60 歲左右、不抽菸、瘦高女性**，右中葉、舌葉**結節性支氣管擴張**（Lady Windermere）；或**男性吸菸者的上葉空洞**；晚期 HIV → 散播性",
+              "**macrolide（clarithromycin 或 azithromycin）+ EMB + rifamycin**；**培養陰轉後再 12 個月**，通常總共 **≥ 18 個月**（FC 112 年）"
+            ],
+            [
+              "**M. kansasii**\n慢速",
+              "**很像肺結核**：咳血、胸痛、空洞",
+              "**INH + RIF + EMB**（FC 108 年）"
+            ],
+            [
+              "**M. abscessus**\n快速",
+              "多重抗藥；與**食道蠕動異常（如 achalasia）**有關；也會感染導管、手術傷口",
+              "多種藥合併、**數月到一年以上**，常需手術（**不是**像一般肺炎 2 週）"
+            ],
+            [
+              "**M. marinum**\n慢速",
+              "**魚缸、海邊、魚鱗刺傷** → 手部丘疹、潰瘍、**肉芽腫**（fish-tank granuloma），可沿淋巴**孢子絲菌病樣**往上擴散；**30°C 才長**",
+              "—（FC 105 年）"
+            ],
+            [
+              "M. ulcerans",
+              "**Buruli ulcer**（皮膚潰瘍）",
+              "—"
+            ],
+            [
+              "**M. gordonae**",
+              "常從痰培養出來、但**幾乎從不致病**（汙染菌）",
+              "不需治療"
+            ],
+            [
+              "M. fortuitum、chelonae\n快速",
+              "皮膚軟組織、導管、手術相關感染",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**FC 112 年（二-50）**：NTM 最適當的是「**MAC 是慢速生長菌，肺部感染治療常需達 18 個月**」；NTM 肺病**不是**幾乎都發生在 HIV、**M. gordonae** 幾乎不致病、**M. abscessus** 治療遠長於 2 週。\n**FC 108 年（二-46）**：NTM 治療最不適當的是「**一旦確認 NTM 感染就必須立刻治療**」——不是所有 NTM 病人都要治療；治療都要多種藥、MAC 用 macrolide + EMB + rifamycin、M. kansasii 用 INH + RIF + EMB 都正確。\n**FC 105 年（二-61）**：海邊釣魚被魚刺刺傷右手掌，數週後形成中央潰瘍的肉芽腫，切片有 Langhans 巨細胞與大量抗酸桿菌，**只在 30°C 長** → **M. marinum**。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 M. marinum 只在 30°C 長、而且只侵犯手部皮膚？**\nM. marinum 原本住在魚與水中，適應的是**低於人體核心體溫**的環境（約 30°C），37°C 時長得很差。所以它只能在**較冷的肢體末端**（手、手指）皮膚生存，很少深入或散播；實驗室若照一般分枝桿菌用 37°C 培養，就會培養不出來——題目「只在 30°C 長出菌」就是在提示它。M. ulcerans（Buruli ulcer）也是同樣喜歡低溫的皮膚菌。"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "胸腔內科 己、結核 A. 2. NTM p.386；題目 p.398、406、408"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.185 p.1415–1418"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "演練 1：45 歲男性，新診斷塗片陽性肺結核，有糖尿病、B 型肝炎帶原，服用 warfarin（心房顫動）。",
+          "text": "1. 處方：**2HRZE + 4HR**、每日服藥、都治\n2. 糖尿病 → 加 **B6**（INH 神經病變）；**RIF 降低口服降血糖藥效果** → 血糖要追蹤\n3. **warfarin**：RIF 強效誘導 → INR 下降 → 密切監測 INR、調高劑量（或與心臟科討論）\n4. B 肝帶原 → 肝炎風險高：治療前驗肝功能，第 2、4、8 週追蹤；必要時與肝膽科討論抗病毒藥\n5. 痰在約 2、5 個月與完治時追蹤；開洞且 2 個月仍陽性 → 延長到 ≥ 9 個月"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2：治療第 4 週，病人食慾變差、噁心、眼白變黃，ALT 180（上限 40），total bilirubin 4.2。",
+          "text": "1. ALT > 3 倍上限 **+ 症狀與黃疸** → **停用所有可能傷肝的藥**（INH、RIF、PZA）\n2. 排除病毒性肝炎（B、C、A、E）、酒精、其他藥物\n3. 若病人仍具傳染性或病情重 → 可暫時用**不傷肝**的藥（EMB、FQ、aminoglycoside）撐住\n4. 肝功能恢復後**一次加回一種藥**、每次都追蹤肝功能，找出元兇\n5. 若無法再用 PZA → 總療程要延長到 **9 個月**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3：65 歲女性，慢性咳嗽 2 年、體重輕，CT 右中葉與舌葉支擴加小結節，三套痰中兩套培養出 M. avium complex。",
+          "text": "1. 符合 **MAC 肺病**診斷（症狀 + 影像 + 2 套痰培養陽性）\n2. **不需隔離、不需通報**\n3. 是否治療：症狀、影像進展、病人意願——**不一定立即治療**\n4. 若治療：**macrolide + EMB + rifamycin**，培養陰轉後再 **12 個月**\n5. 追蹤：視力（EMB）、聽力與 QT（macrolide）"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "heading",
+          "text": "標準治療與監測（§標準治療與監測）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：下列關於結核病治療之敘述，何者正確？（A 採用一週二到三次的高劑量療法，可以縮短療程，減少抗藥性 B 曾接受過抗結核藥物治療，且服藥不規律者，發生抗藥性的機率高 C 一旦罹患多重抗藥性，仍可使用標準藥物合併治療，於六個月內完治 D 臺灣因為過去抗生素濫用，產生許多超級抗藥結核病（XDR-TB），每年約占新結核病個案的 1%，成為嚴重的公衛問題）（FC 104 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：下列那一種抗結核菌用藥不適合使用於孕婦？（A isoniazid B streptomycin C rifampin D ethambutol）（FC 104 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：為了避免藥物不良反應，結核病人在開始抗結核藥物治療後，宜定期做下列之血液檢查，除了：（A ALT（GPT） B bilirubin C creatine kinase（CK） D 紅白血球計數）（FC 110 年）",
+          "text": "**答：(C)。** FC 詳解：INH、RIF、PZA 可能引起藥物性肝炎 → 監測肝功能；RIF 可能導致溶血性貧血、血小板減少、白血球低下 → 監測 CBC；抗結核藥通常不會導致 CK 上升。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：40 歲男性 HIV 感染 8 年，從未接受抗反轉錄病毒治療，CD4 70 cells/μL，病毒量 53,000 copies/mL，因感染肺結核開始接受抗結核藥物治療。後續想接受 HIV 治療，何時開始 ART 最合適？（A 立即同步治療 B 抗結核藥物治療 2–4 週後 C 抗結核藥物治療 3–4 月後 D 抗結核藥物治療結束後）（FC 109 年）",
+          "text": "**答：(B)。** FC 詳解：CD4 > 50 建議抗結核治療 2–4 週後開始 ART；CD4 < 50 需在 2 週內開始；結核性腦膜炎延後到 8 週後，以避免嚴重 IRIS。現行（Harrison 22e）：建議原則上 2 週內開始。"
+        },
+        {
+          "type": "heading",
+          "text": "藥物副作用（§藥物副作用）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：罹患開放性肺結核的 35 歲女性，接受 INH、RIF、EMB、PZA 治療；治療前無 B、C 型肝炎，AST 20（正常 13–39）、ALT 14（正常 7–52）。治療 1 個月時精神明顯改善、食慾良好，但 AST 48、ALT 71。下列何者最適當？（A 繼續維持目前治療處方，並密切追蹤肝功能 B 停止所有抗結核藥物，等待肝功能恢復後重新治療 C 停止 INH、RIF、PZA，並加入 streptomycin 及 moxifloxacin D 先停止最容易傷害肝臟的藥物 pyrazinamide，並密切追蹤肝功能）（FC 111 年）",
+          "text": "**答：(A)。** FC 詳解：無症狀且 < 3 倍上限通常不需停藥；停藥標準為無症狀 ≥ 5 倍上限、或 ≥ 3 倍上限合併症狀、或明顯黃疸。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：60 歲何女士有高血壓 10 年，服用 losartan 與 hydrochlorothiazide。2 個月前因肺結核開始服四合一抗結核藥物，一週前開始發燒及手部多發性小關節腫痛，ANA 1:1,280 陽性，anti-histone antibody 陽性，anti-dsDNA 陰性。下列處置何者最適當？（A 停掉 losartan B 停掉 isoniazid C 停掉 hydrochlorothiazide D 原有用藥都不停，加上 prednisolone 0.5 mg/kg/day）（FC 109 年）",
+          "text": "**答：(B)。** FC 詳解：典型的藥物誘發性紅斑狼瘡，最可能的原因是 isoniazid。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：28 歲的開放性肺結核女性，接受 INH、RIF、EMB、PZA 治療，3 個星期後發生嚴重痛風。最有可能導致痛風的藥物？（A isoniazid B rifampin C ethambutol D pyrazinamide）（FC 108 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：65 歲男性糖尿病患，最近剛在門診治療肺結核，追蹤抽血 total bilirubin 3 mg/dL（正常 0.2–1.2）、direct bilirubin 0.3 mg/dL（正常 0–0.4）。下列敘述何者最不適當？（A 可能與肺結核藥物引發溶血有關 B 病患此時驗尿將發現 urine bilirubin 呈陽性反應 C 病患此時驗尿將發現 urine urobilinogen 呈陽性反應 D 病患此時驗血中的 HbA1c 會有假性偏低的可能）（FC 107 年）",
+          "text": "**答：(B)。** FC 詳解：direct 為主 → 膽汁淤積 → 尿 bilirubin 陽性；indirect 為主 → 溶血 → 尿 urobilinogen 陽性。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：50 歲女性肺結核病患，已服第一線 4 種抗結核藥物一個月，食慾較差、稍微倦怠，小便更深黃，bilirubin T/D 15/8 mg/dL，AST 68、ALT 70 U/L。最不可能是那一種藥物引起？（A isoniazid B rifampin C ethambutol D pyrazinamide）（FC 104 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "抗藥結核（§抗藥結核）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：70 歲男性因咳嗽數個月被診斷為肺結核，分子檢測發現痰液結核菌中的 rpoB 基因有突變。此病人應該合理的被認為對下列何種藥物具有抗藥性？（A isoniazid B rifampin C ethambutol D pyrazinamide）（FC 111 年）",
+          "text": "**答：(B)。** FC 詳解：INH — katG、inhA；RIF — rpoB；EMB — embB；PZA — pncA。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：下列何種菌株的藥物敏感性試驗結果，符合多重抗藥性結核病的定義？（A isoniazid 及 streptomycin 抗藥，但 rifampin 及 ethambutol 敏感 B isoniazid、ethambutol、streptomycin 抗藥，但 rifampin 敏感 C isoniazid 及 rifampin 抗藥，但 ethambutol 及 streptomycin 敏感 D rifampin、ethambutol 及 streptomycin 抗藥，但 isoniazid 敏感）（FC 109 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "肺外結核（§肺外結核的療程）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：下列關於肺外結核治療的敘述，何者錯誤？（A 淋巴腺結核是最常見的肺外結核 B 脊椎結核（Pott's disease）所併發的脊髓病變多數能隨著藥物治療而逐漸恢復 C 結核性心包膜炎的治療除了抗結核標準治療外，類固醇治療未被確認可改善病情 D 結核性腦膜炎治療為標準抗結核治療 6 個月）（FC 107 年）",
+          "text": "**答：(D)。** FC 詳解：(D) 12 個月；(C) 台灣結核指引認為 6 個月短程化療輔以類固醇（prednisolone 60 mg/d，第二個月 30 mg/d，第三個月繼續減量，共 3 個月）療效很好。"
+        },
+        {
+          "type": "heading",
+          "text": "NTM（§非結核分枝桿菌）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：關於非結核分枝桿菌，下列敘述何者最適當？（A 非結核分枝桿菌的肺部感染，幾乎都發生於人類免疫缺陷病毒感染的病人 B 非結核分枝桿菌中的 M. gordonae 表現與結核菌相似，容易造成肺部的感染 C M. avium complex 是慢速生長菌；此菌引起的肺部感染，治療時間通常需要達 18 個月 D M. abscessus 是快速生長菌；此菌引起的肺部感染，藥物治療時間與一般肺炎相同，約需 2 個星期）（FC 112 年）",
+          "text": "**答：(C)。** FC 詳解：NTM 也常見於結構性肺病的免疫正常者；M. gordonae 是低致病性環境菌、多為汙染菌；M. abscessus 對多數抗生素耐藥，療程數月至一年以上，可能需手術。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：關於非結核分枝桿菌的治療，下列敘述何者最不適當？（A 一旦確認為非結核分枝桿菌的感染，就必須立刻治療，避免疾病惡化 B 通常治療非結核分枝桿菌肺部感染，都必須同時多種藥物治療 C Mycobacterium avium complex 通常治療藥物包括 macrolide（如 clarithromycin）、ethambutol 及 rifamycin D Mycobacterium kansasii 通常以 isoniazid、rifampin 及 ethambutol 治療）（FC 108 年）",
+          "text": "**答：(A)。** FC 詳解：並非所有 NTM 病患皆需治療，可等待感染進展時再介入。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：53 歲男性，在海邊漁釣場釣魚時被魚刺刺及右手掌，之後數週傷口逐漸惡化形成 2 公分中央有慢性潰瘍之圓形肉芽腫，帶有分泌物。切片有肉芽腫、Langhans' giant cells 且有多量嗜酸性桿菌，檢體在分枝桿菌培養只在 30°C 長出菌。最可能致病菌？（A M. abscessus B M. kansasii C M. marinum D M. ulcerans）（FC 105 年）",
+          "text": "**答：(C)。**"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "標準處方",
+              "2HRZE + 4HR；每日、都治；藥敏全敏感可停 E"
+            ],
+            [
+              "延長",
+              "開洞 + 2 月仍陽性 → ≥ 9 個月；無 PZA → 9 個月；矽肺 +2 月"
+            ],
+            [
+              "監測",
+              "治療前 B、C 肝、HIV；第 2、4、8 週 CBC、肝、尿酸、腎；痰 2、5 月、完治；不驗 CK"
+            ],
+            [
+              "口訣",
+              "INH Neuropathy；RIF Red-orange；EMB Eye；PZA UA"
+            ],
+            [
+              "INH",
+              "神經病變（B6）、肝炎、藥物性狼瘡（anti-histone）"
+            ],
+            [
+              "RIF",
+              "橘紅分泌物、酵素誘導（避孕藥、warfarin、降血糖藥、類固醇、毛地黃、PI）、溶血、血小板低"
+            ],
+            [
+              "EMB",
+              "視神經炎、紅綠色盲；抑菌；腎排；不傷肝"
+            ],
+            [
+              "PZA",
+              "尿酸、痛風（停 PZA）；酸性環境；不用 allopurinol"
+            ],
+            [
+              "停藥",
+              "≥ 5 倍無症狀、≥ 3 倍有症狀、黃疸；< 3 倍無症狀繼續"
+            ],
+            [
+              "孕婦",
+              "不用 streptomycin"
+            ],
+            [
+              "腎衰竭",
+              "H、R 不調；E、Z 每週 3 次"
+            ],
+            [
+              "HIV",
+              "先抗結核；ART 2 週內（FC：CD4 ≥ 50 2–4 週）；腦膜炎 8 週"
+            ],
+            [
+              "抗藥基因",
+              "katG／inhA INH；rpoB RIF；embB；pncA"
+            ],
+            [
+              "定義",
+              "MDR = H + R；pre-XDR = + FQ；XDR = + bedaquiline 或 linezolid（Harrison 22e）"
+            ],
+            [
+              "MDR 治療",
+              "BPaLM 6 個月；A 組 FQ、bedaquiline、linezolid"
+            ],
+            [
+              "肺外療程",
+              "CNS 12 月 + 類固醇；骨 9；心包膜 6–9 + 類固醇；其他 6–9"
+            ],
+            [
+              "NTM",
+              "不一定要治；ATS：2／3 痰培養或 1 BAL"
+            ],
+            [
+              "MAC",
+              "瘦高女性中葉舌葉支擴；macrolide + EMB + rifamycin，陰轉後 12 月（≥ 18 月）"
+            ],
+            [
+              "其他 NTM",
+              "kansasii 像結核 HRE；abscessus 難治；marinum 魚刺 30°C；gordonae 汙染"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

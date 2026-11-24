@@ -12,6 +12,10 @@
   "updated": "2026-11-25",
   "related": [
     {
+      "id": "chest-tb-treatment",
+      "name": "Chest (十)：結核（二）——治療、藥物副作用、抗藥結核與 NTM"
+    },
+    {
       "id": "pneumonia",
       "name": "Pneumonia (肺炎)"
     },
