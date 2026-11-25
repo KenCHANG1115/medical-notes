@@ -543,6 +543,10 @@
         {
           "id": "oncall-arrhythmia",
           "name": "On Call: 心跳太快或太慢（有脈搏的心律不整）"
+        },
+        {
+          "id": "oncall-high-bp",
+          "name": "On Call: 血壓很高（嚴重高血壓 vs 高血壓急症）"
         }
       ]
     }

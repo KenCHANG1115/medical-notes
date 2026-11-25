@@ -1,0 +1,263 @@
+{
+  "id": "oncall-high-bp",
+  "title": "On Call: 血壓很高（嚴重高血壓 vs 高血壓急症）",
+  "title_en": "On Call: Severe Hypertension and Hypertensive Emergency",
+  "title_zh": "值班：血壓很高",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.288 Hypertension（危象與靜脈藥物；〈Hypertension (二)〉）",
+    "ACC/AHA 2017 危象降壓目標、AHA 缺血性中風血壓建議、2022 AHA/ASA 腦出血指引、2022 ACC/AHA 主動脈疾病指引（舊版高血壓筆記已查證）；2025 AHA/ACC 改稱 severe hypertension",
+    "靜脈降壓藥劑量與泡法依院內 protocol；子癲症 magnesium sulfate 依產科 protocol"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "hypertension-treatment-aorta",
+      "name": "Hypertension (二)：治療、特殊族群、高血壓危象與主動脈疾病"
+    },
+    {
+      "id": "hypertension",
+      "name": "Hypertension (一)：定義、量測、評估與次發性高血壓"
+    },
+    {
+      "id": "stroke-ischemic-acute",
+      "name": "Stroke (一)：缺血性中風急性處置與 TIA"
+    },
+    {
+      "id": "stroke-hemorrhagic-cvst-pres",
+      "name": "Stroke (三)：出血性中風、腦靜脈竇血栓與 PRES"
+    },
+    {
+      "id": "oncall-chest-pain",
+      "name": "On Call: 胸痛（先抓會致命的五個）"
+    },
+    {
+      "id": "oncall-seizure",
+      "name": "On Call: 抽搐（正在抽、抽完了、癲癇重積）"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「血壓 210/120」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**關鍵不是數字，是有沒有「急性器官損傷」**\n1. **重量**：袖帶大小、手臂與心臟同高、休息 5 分鐘後再量；兩手都量\n2. 問**症狀**：頭痛、視力模糊、意識改變、抽搐、胸痛、喘、單側無力\n3. 看**為什麼高**：**疼痛、尿滯留、焦慮、漏吃降壓藥**、停 clonidine 或 β 阻斷劑、戒斷、類固醇\n4. **不要給舌下短效 nifedipine**"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**高血壓急症（emergency）= 血壓很高 + 正在進行的器官損傷 → 立刻到床邊、找學長姐**\n- **高血壓腦病變**（頭痛、視力、意識、抽搐）、**中風**（缺血或出血）\n- **急性冠心症**、**急性肺水腫**\n- **主動脈剝離**（撕裂痛到背、兩手血壓差）\n- **急性腎損傷**、**子癲前症／子癲症**、嗜鉻細胞瘤危象\n**沒有器官損傷 = 嚴重高血壓（以前叫 urgency）** → **不急著降**，休息、處理誘因、口服藥慢慢降"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.288 Hypertension（〈Hypertension (二)〉）"
+        }
+      ]
+    },
+    {
+      "title": "電話中與床邊：急症還是只是很高",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "問／看",
+            "為什麼"
+          ],
+          "rows": [
+            [
+              "量了幾次、怎麼量、**平常血壓**",
+              "排除量測問題；平常就 170 的人意義不同"
+            ],
+            [
+              "**疼痛**、**尿滯留**（膀胱脹）、焦慮、失眠",
+              "住院病人最常見的「血壓高」原因"
+            ],
+            [
+              "今天的降壓藥**有沒有吃**、禁食沒給藥",
+              "漏藥"
+            ],
+            [
+              "**頭痛、視力、意識、抽搐、單側無力**",
+              "腦病變、中風"
+            ],
+            [
+              "胸痛、喘、背痛",
+              "ACS、肺水腫、剝離"
+            ],
+            [
+              "尿量、Cr",
+              "急性腎損傷"
+            ],
+            [
+              "**懷孕或產後**",
+              "子癲前症"
+            ],
+            [
+              "酒精、BZD、clonidine 停用；古柯鹼、安非他命",
+              "戒斷、交感亢進"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**床邊快速檢查**\n- 重量血壓（兩手）、心跳、SpO₂、意識、**神經學檢查**（局部缺損）\n- 眼底（乳突水腫、出血）——能做就做\n- 心肺：囉音、新雜音；膀胱超音波（尿滯留）\n- 依症狀：**心電圖、troponin、胸部 X 光、BUN／Cr、尿液、頭部 CT**"
+        }
+      ]
+    },
+    {
+      "title": "處置：急症 vs 嚴重高血壓",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "高血壓急症",
+            "嚴重高血壓（無器官損傷）"
+          ],
+          "rows": [
+            [
+              "地點",
+              "加護或中度照護病房",
+              "原病房"
+            ],
+            [
+              "藥物",
+              "**靜脈**（可調整的持續輸注）",
+              "**口服**（加回或加強原本的藥）"
+            ],
+            [
+              "目標",
+              "**第 1 小時降不超過 25%** → 2–6 小時內到 **160/100–110** → 24–48 小時逐步正常（ACC/AHA 2017）",
+              "**1–2 天內**慢慢降（FC：< 160/100）"
+            ],
+            [
+              "例外",
+              "**主動脈剝離**：第 1 小時**收縮壓 < 120**、心跳 60–80（先 β 阻斷劑）；**缺血性中風**：不打血栓溶解劑時 **≥ 220/120 才降**（24 小時降約 15%），要打 → < 185/110；**腦出血**：收縮壓 150–220 → 目標約 140（130–150）",
+              "—"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼不能一下子降到正常？**\n長期高血壓的病人，腦、心、腎的**自動調節曲線往右移**——它們已經習慣在高壓下維持血流。幾分鐘內把血壓壓到正常，等於讓這些器官**低灌流** → 缺血性中風、心肌梗塞、腎衰竭。所以急症是**有控制地降**；沒有器官損傷的嚴重高血壓更沒有理由冒險快速降壓——這也是舌下短效 nifedipine 被淘汰的原因（血壓驟降，老人尤其危險）。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.288 Hypertension（〈Hypertension (二)〉：ACC/AHA 2017 危象目標、AHA 中風與 2022 AHA/ASA 腦出血指引）"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。靜脈降壓藥的起始劑量與泡法**依院內 protocol**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**嚴重高血壓（無器官損傷）**｜**先處理誘因**：止痛、導尿（尿滯留）、補回漏吃的口服降壓藥；**加回或加強口服藥**\n- 劑型：依院內品項\n- 注意：**不給舌下短效 nifedipine**；不需靜脈藥"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Nicardipine IV（DHP CCB）**｜持續輸注、依血壓調整\n- 劑型：依院內泡法\n- 注意：Harrison：目前最常用；**不增加腦壓 → 中風可用**；嚴重主動脈瓣狹窄小心"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Labetalol IV（α + β）**｜推注或輸注\n- 劑型：依院內品項\n- 注意：**不增加腦壓 → 中風可用**；主動脈剝離優先之一；**氣喘、COPD、心搏過緩、二三度房室阻斷**避免"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Esmolol IV（短效 β1）**｜輸注\n- 劑型：依院內泡法\n- 注意：**主動脈剝離首選之一**（先降心跳與收縮力）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Nitroglycerin IV**｜輸注\n- 劑型：依院內泡法\n- 注意：**急性冠心症、肺水腫**；增加腦壓 → 中風避免；右心室梗塞禁用"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Nitroprusside IV**｜輸注（加護病房、動脈導管）\n- 劑型：依院內泡法\n- 注意：強效；**增加腦壓**；**肝腎功能差 → cyanide、thiocyanate 累積**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**子癲前症／子癲症**｜labetalol、nifedipine、hydralazine 降壓 + **magnesium sulfate**\n- 劑型：依產科 protocol\n- 注意：**ACEI、ARB 禁用**；立刻找產科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**檢查**｜心電圖、troponin、胸部 X 光、BUN／Cr、電解質、尿液（蛋白、血）、CBC（溶血、血小板）；神經症狀 → **頭部 CT**\n- 注意：依症狀選擇"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.288 Hypertension（〈Hypertension (二)〉靜脈藥物表）"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級、交班與常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**升級**：任何**急性器官損傷** → 找學長姐、加護或中度照護病房；中風 → 中風小組；剝離 → 心臟外科；子癲前症 → 產科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**交給白天團隊**：調整長期降壓藥、查漏藥與誘因、需要時評估**次發性高血壓**（尤其急症後：腎血管疾病）。\n**SBAR 範例**：「01:10 血壓 196/104（平常 140/80），無頭痛、胸痛、神經症狀；膀胱超音波 650 mL → 導尿後 168/92；今晚 amlodipine 因禁食未給 → 已補給。04:00 再量；出現症狀 → 通知我。」"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 只看數字就給**靜脈降壓藥**或**舌下 nifedipine**\n- **沒找誘因**（疼痛、尿滯留、漏藥）\n- 急症**降太快**（第 1 小時超過 25%）\n- 主動脈剝離只給血管擴張劑、沒先給 β 阻斷劑\n- 缺血性中風**積極降壓**（不打血栓溶解劑時 ≥ 220/120 才降）\n- 腦壓高或中風病人用 **nitroprusside、nitroglycerin**\n- 孕婦高血壓給 **ACEI／ARB**"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 3 點：「術後阿伯血壓 200/110，說傷口很痛，尿袋好像沒什麼尿。」",
+          "text": "1. 沒有器官損傷症狀 → **嚴重高血壓**，先找誘因\n2. **止痛**；**膀胱超音波**——尿滯留或尿管阻塞 → 處理\n3. 30–60 分鐘後再量；仍高 → 補回或加強口服降壓藥\n4. **不需靜脈藥、不給舌下 nifedipine**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 11 點：「血壓 230/130，病人說頭很痛、看不清楚、有點混亂。」",
+          "text": "1. **高血壓腦病變**（急症）→ 找學長姐、加護\n2. **頭部 CT** 排除中風、出血\n3. **靜脈 nicardipine 或 labetalol**，**第 1 小時降不超過 25%**\n4. 之後 2–6 小時降到 160/100–110"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 1 點：「產後第 2 天的媽媽血壓 170/112，頭痛。」",
+          "text": "1. **產後子癲前症** → 找產科\n2. **magnesium sulfate**（預防子癲）、降壓（labetalol、nifedipine、hydralazine）\n3. 驗血小板、肝腎功能、尿蛋白（HELLP）"
+        }
+      ]
+    },
+    {
+      "title": "延伸與相關筆記",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：高血壓危象與靜脈藥物、主動脈剝離見〈Hypertension (二)〉；中風的血壓目標見〈Stroke〉系列；胸痛見〈On Call: 胸痛〉；抽搐與子癲症見〈On Call: 抽搐〉。"
+        }
+      ]
+    }
+  ]
+}
