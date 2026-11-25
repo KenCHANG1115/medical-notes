@@ -55,7 +55,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "**定義**：尿液有菌，但**沒有**局部泌尿症狀，也沒有無法解釋的全身症狀 → **ASB 不是 UTI**\n\n通常是做篩檢性培養時意外發現。\n**最重要的介入是「diagnostic stewardship」**：沒有 UTI 症狀的病人**不要送尿液培養**（懷孕與泌尿手術前篩檢除外）。"
         },
         {
@@ -949,7 +949,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "**CAUTI 治療**\n- 治療：先更換/移除導尿管 → 再開始抗生素\n- 更換的目的：移除**導管上的 biofilm**（再感染的溫床）\n- 最好**換管之後再送尿液培養** → 培養結果才代表膀胱內的菌，而不是導管壁上的菌\n- 細菌種類多元 → **依培養結果**選藥；經驗性治療可用 ceftriaxone 或 FQ（補充），ESBL 風險高時用 Carbapenem\n- 療程 **7–14 天**（依臨床反應）；3 天比 14 天復發更多"
         },
         {
@@ -1021,7 +1021,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "**懷孕期 UTI 的原則**\n1. **篩檢 ASB → 一定要用尿液培養**（dipstick 敏感度不足）\n2. 未治療的 ASB → **腎盂腎炎、早產、低出生體重**\n3. 懷孕時輸尿管蠕動與張力下降 → 逆流 → 腎盂腎炎風險上升\n4. ASB 或膀胱炎治療 **5–7 天**（沒有證據支持更短療程）\n5. **腎盂腎炎** → **靜脈 β-lactam ± aminoglycoside**"
         },
         {
@@ -1115,7 +1115,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "Harrison 22e：**尿道疼痛、搔癢、分泌物**應評估 **STI**。Urethritis 偶爾由 E. coli 等泌尿道病原造成，但主要是 **N. gonorrhoeae、C. trachomatis、M. genitalium**（詳見 Ch.141；之後會另做 STI 筆記）。"
         },
         {

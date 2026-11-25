@@ -87,7 +87,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "**First Choice 的口訣**：「**200 / 100 / 50 → P / T / M**」= CD4 < 200 預防 **P**JP、< 100 預防 **T**oxoplasma、< 50 預防 **M**AC。\n**First Choice 的病原分類對照**：CD4 < 350 病毒（HSV、VZV）；< 200 黴菌（PJP、隱球菌、食道念珠菌）；< 100 寄生蟲（弓漿蟲）；< 50 非典型分枝桿菌（MAC）與 CMV。"
         },
         {

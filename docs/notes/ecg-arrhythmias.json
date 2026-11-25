@@ -61,7 +61,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "**ECG 判讀六步口訣**（First Choice）：**RAte → RHythm → Interval → Axis → Hypertrophy → Infarct**\nRate 評估速率、Rhythm 評估節律來源、Interval 與 Axis 評估傳導阻滯、Hypertrophy 評估心肌肥厚、Infarct 評估心肌缺血"
         },
         {

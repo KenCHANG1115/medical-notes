@@ -439,7 +439,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "**骨髓檢查的適應症**\n1. 周邊血出現不成熟細胞（如 **blasts**）\n2. 嚴重 **pancytopenia**\n3. Reticulocyte 極低（**< 0.1%**）\n4. 周邊血出現 **nucleated RBCs**\n5. 骨髓浸潤的證據（**teardrop cells**、nucleated RBCs）\n6. 某些惡性腫瘤分期（如 lymphoma）\n7. 原因不明的嚴重貧血"
         },
         {
@@ -1062,7 +1062,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "舊稱 **anemia of chronic disease（ACD）**。因為急性狀況（敗血症、重大創傷、大手術後）也有相同機轉，現在偏好稱為 **anemia of inflammation**。\n範圍從超急性（macrophage activation syndrome）到亞臨床（CHF、糖尿病、肥胖）。\n**本質是「鐵分布異常」，不是缺鐵。**"
         },
         {
@@ -1252,7 +1252,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "**血紅素疾病的診斷工具**\n- 幾乎都是**體染色體隱性或共顯性**遺傳 → 家族史常有貧血\n- 常見徵象：蒼白、黃疸、**脾腫大**\n- 第一步：CBC + reticulocyte + **周邊血抹片**\n- **Hb 分析：HPLC 或 capillary electrophoresis**（最好連同家人一起驗）→ 確認表現型\n- **DNA 定序** → 確診，也是遺傳諮詢與產前診斷的前提"
         },
         {
@@ -1409,7 +1409,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "- **亞洲人**最常見（華南、東南亞），台灣也屬於高盛行區\n- 與 β-thal 相反：多數由**基因缺失**造成，而非點突變\n- 每條第 16 號染色體有 **2 個 α 基因** → 正常共 **4 個**\n- 嚴重度取決於**剩下幾個有功能的 α 基因**"
         },
         {

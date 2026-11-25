@@ -204,7 +204,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "logic",
           "text": "**典型處方**（Harrison）：**2 個 NRTI 當骨架**（tenofovir 類或 abacavir **+ 3TC 或 FTC**）**+ 第三個藥**：INSTI、NNRTI 或**加強型 PI**。\n另一種被支持的**兩藥處方**：**dolutegravir + lamivudine**（限 **B 肝陰性**、病毒量 **< 500,000 copies/mL**）。\n**HIV-2**：治療原則相同，但 **NNRTI、enfuvirtide、fostemsavir 無效**。"
         },
         {
@@ -835,7 +835,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "trap",
           "text": "**First Choice 的寫法**（p.321）：**非職業暴露後預防（nPEP）**——如醫護高風險針扎事件，應在暴露後 **72 小時內**開始服用**三合一**抗病毒藥物，總共 **28 天**。\n**注意**：Harrison 的「治療原則」段落另寫「暴露後立刻給 6 週療程」，但職業暴露段落引用的 USPHS 2018 指引是 **4 週**——考題以 **72 小時內、三種藥、28 天**為準。"
         },
         {

@@ -357,7 +357,7 @@
         },
         {
           "type": "callout",
-          "style": "guideline",
+          "style": "trap",
           "text": "**FC 與 Harrison 的氧氣流量寫法不同**\n- FC 講義：HAPE 給氧 2–4 L/min、HACE 4–6 L/min。\n- Harrison 22e Table 475-1：**HACE 2–4 L/min；HAPE 4–6 L/min，目標 SpO₂ > 90%**。考題目前沒有考流量，依原文記 Harrison 的版本。"
         },
         {
