@@ -531,6 +531,10 @@
         {
           "id": "oncall-glucose",
           "name": "On Call: 血糖異常（低血糖、住院高血糖、DKA／HHS）"
+        },
+        {
+          "id": "oncall-seizure",
+          "name": "On Call: 抽搐（正在抽、抽完了、癲癇重積）"
         }
       ]
     }

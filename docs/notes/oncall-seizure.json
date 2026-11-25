@@ -1,0 +1,296 @@
+{
+  "id": "oncall-seizure",
+  "title": "On Call: 抽搐（正在抽、抽完了、癲癇重積）",
+  "title_en": "On Call: Seizure and Status Epilepticus",
+  "title_zh": "值班：抽搐",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.436 Seizures and Epilepsy (p.3419–3428；Fig.436-5 重積狀態：lorazepam 0.1 mg/kg、midazolam 0.2 mg/kg、phenytoin 20 mg/kg、valproate／levetiracetam 20–30 mg/kg；phenytoin < 50 mg/min)；Ch.56 3% saline (p.351)",
+    "子癲症 magnesium sulfate 劑量依產科 protocol；On Call Principles and Protocols Survival Guide Ver2（院內流傳版）- Seizures",
+    "劑型依院內品項"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "epilepsy-treatment-status",
+      "name": "Epilepsy (二)：治療、重積狀態與手術"
+    },
+    {
+      "id": "epilepsy-classification-syndromes",
+      "name": "Epilepsy (一)：分類、症候群與鑑別"
+    },
+    {
+      "id": "confusion-decreased-consciousness",
+      "name": "Confusion / Decreased Level of Consciousness (意識不清)"
+    },
+    {
+      "id": "oncall-glucose",
+      "name": "On Call: 血糖異常（低血糖、住院高血糖、DKA／HHS）"
+    },
+    {
+      "id": "hypertension-treatment-aorta",
+      "name": "Hypertension (二)：治療、特殊族群、高血壓危象與主動脈疾病"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人在抽搐！」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**正在抽——電話中就交代**\n1. **看時間**（從幾點幾分開始）\n2. **側躺**、移開危險物、**不要塞東西進嘴巴**、不要壓制四肢\n3. **給氧**、抽吸口腔分泌物\n4. **One-touch 血糖**（低血糖立刻給糖；酗酒者 thiamine 先或同時）\n5. 準備 **BZD**（lorazepam 或 midazolam）、確認**靜脈通路**\n6. 你馬上到"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**癲癇重積狀態 = 抽搐 > 5 分鐘，或兩次發作之間意識沒恢復**（Harrison）\n→ **5 分鐘就要給 BZD**，不要等它自己停\n**紅旗**：抽 > 5 分鐘、反覆發作、抽完一直沒醒、**第一次發作**、頭部外傷、發燒加頸部僵硬、孕婦、低血氧"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 Status Epilepticus（Fig.436-5） p.3427–3428"
+        }
+      ]
+    },
+    {
+      "title": "時間軸處置：0 → 5 → 20 → 40 分鐘",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "時間",
+            "做什麼（Harrison Fig.436-5）"
+          ],
+          "rows": [
+            [
+              "**0–5 分鐘**",
+              "ABC、側躺、給氧、**血糖**、靜脈通路、**抽血**（電解質、Ca、Mg、血糖、抗癲癇藥濃度、CBC、腎功能、需要時毒物）、心電圖監視器"
+            ],
+            [
+              "**5 分鐘（重積）**",
+              "**靜脈 BZD**：**lorazepam 0.1 mg/kg** 或 **midazolam 0.2 mg/kg**；沒停可重複一次"
+            ],
+            [
+              "**BZD 後仍在抽**（約 20 分鐘）",
+              "**靜脈抗癲癇藥**：**phenytoin 20 mg/kg**（< 50 mg/min、心電圖監測）或 **valproate 20–30 mg/kg** 或 **levetiracetam 20–30 mg/kg**"
+            ],
+            [
+              "**仍持續**（30 分鐘以上，難治性）",
+              "**插管**、加護病房、**麻醉藥持續輸注**（midazolam、propofol）+ **連續腦波**"
+            ],
+            [
+              "> 48 小時",
+              "pentobarbital、其他麻醉藥、免疫治療等（神經科、加護）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 5 分鐘就要給藥、不能等？**\n多數發作會在數分鐘內自己停；**超過 5 分鐘還在抽，自己停下來的機會就大幅下降**，而且發作持續越久，**BZD 的效果通常越差**——越晚給越難停。持續抽搐也會造成腦傷、高熱、橫紋肌溶解、乳酸中毒、吸入性肺炎與心律不整（兒茶酚胺上升）。所以重積狀態的原則是**時間就是腦**：早給、給足量、照順序升級。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 Status Epilepticus（Fig.436-5） p.3427–3428"
+        }
+      ]
+    },
+    {
+      "title": "電話中與床邊：抽完之後要問、要看什麼",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "問／看",
+            "為什麼"
+          ],
+          "rows": [
+            [
+              "**真的是癲癇嗎**：昏厥（短暫、很快醒）、心律不整、假性發作、顫抖、肌躍",
+              "昏厥也可能有幾下抽動；心律不整造成的意識喪失很危險"
+            ],
+            [
+              "抽多久、怎麼抽（局部開始？）、眼睛偏向哪邊",
+              "局部起始 → 結構性病灶"
+            ],
+            [
+              "**本來有癲癇嗎**？藥有沒有吃、最近有沒有改、**禁食中藥沒給**",
+              "**漏藥**是最常見誘因"
+            ],
+            [
+              "**第一次**發作？",
+              "要找原因：影像、代謝、感染、藥物"
+            ],
+            [
+              "血糖、Na、Ca、Mg、腎肝功能",
+              "代謝性原因"
+            ],
+            [
+              "新藥：**抗生素（carbapenem、cefepime、quinolone）**、tramadol、bupropion、抗精神病藥；停 BZD 或酒精",
+              "降低癲癇閾值、戒斷"
+            ],
+            [
+              "頭部外傷、抗凝血劑、發燒、頸部僵硬",
+              "出血、腦膜炎"
+            ],
+            [
+              "**懷孕**（> 20 週或產後）",
+              "**子癲症**"
+            ],
+            [
+              "咬舌（側邊）、尿失禁、抽後意識混亂",
+              "支持癲癇發作"
+            ],
+            [
+              "**抽完一直沒醒**（> 30 分鐘）",
+              "**非抽搐性重積**、藥物、結構性病灶"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**抽完後的床邊檢查**\n- 生命徵象、SpO₂、**意識恢復的程度與速度**、**局部神經缺損**（Todd's paralysis 會在數小時內恢復）\n- 外傷：舌頭、頭部、肩關節脫臼\n- 吸入：肺音、SpO₂"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 p.3419–3428"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。抗癲癇藥負荷劑量依體重計算，**腎肝功能、年齡**需調整。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**第一線：BZD（抽 > 5 分鐘）**｜**Lorazepam 0.1 mg/kg IV** 或 **midazolam 0.2 mg/kg**（Harrison Fig.436-5）；未停可重複一次\n- 劑型：依院內品項\n- 注意：監測**呼吸抑制**、血壓；準備呼吸道設備"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**第二線：靜脈抗癲癇藥**｜**Phenytoin 20 mg/kg IV**（**< 50 mg/min**）或 **valproate 20–30 mg/kg IV** 或 **levetiracetam 20–30 mg/kg IV**\n- 劑型：依院內品項\n- 注意：**phenytoin 太快 → 心律不整、低血壓 → 心電圖監測**；不可肌注；valproate 避免於肝病、懷孕；levetiracetam 依腎功能調整"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**難治性**｜**插管** → **midazolam 或 propofol 持續輸注** + 連續腦波\n- 劑型：依院內泡法\n- 注意：加護病房、神經科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**低血糖**｜**IV 葡萄糖 25 g**（D50W 50 mL）；酗酒、營養不良 → **thiamine 先或同時**\n- 注意：見〈On Call: 血糖異常〉"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**嚴重低鈉（抽搐）**｜**3% NaCl 100 mL IV bolus**，目標先升 4–6 mEq/L（Harrison）\n- 注意：慢性低鈉第一天不超過 8–10（見〈On Call: 意識改變〉）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**抽血**｜血糖、**Na、Ca、Mg**、BUN／Cr、肝功能、CBC、**抗癲癇藥濃度**、CK、乳酸；依情況毒物、酒精、懷孕試驗\n- 注意：發作後乳酸、CK 常暫時上升"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**影像**｜**第一次發作、局部徵象、頭部外傷、抗凝、意識不恢復 → STAT 頭部 CT**；之後 MRI\n- 注意：發燒 + 頸部僵硬 → 腦膜炎流程（見〈On Call: 意識改變〉）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**腦波**｜**抽完 30 分鐘以上沒醒**、用過肌肉鬆弛劑、ICU 原因不明的意識差 → 排除**非抽搐性重積**\n- 注意：聯絡神經科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**已知癲癇、漏藥**｜**恢復原本的抗癲癇藥**（禁食者改靜脈劑型）；抽血驗濃度\n- 劑型：依院內品項\n- 注意：白天團隊調整劑量"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**特殊情境**\n- **孕婦（> 20 週或產後）抽搐 → 子癲症**：**magnesium sulfate**（產科常規首選）、控制血壓、**立刻找產科**（劑量依產科 protocol）\n- **酒精戒斷發作**：BZD；補 thiamine、鎂（見〈On Call: 意識改變〉）\n- **藥物誘發**（carbapenem、tramadol 等）：停藥、BZD"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.436 Fig.436-5 p.3427–3428"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 3% saline p.351"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級、家屬溝通與白天追蹤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**升級**\n- **BZD 後仍在抽**、需要第二線藥物 → 找學長姐、神經科\n- 難治性重積、需要插管、呼吸抑制 → **加護病房**\n- 第一次發作、CT 有病灶 → 神經科／神經外科\n- 子癲症 → 產科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**抽完後的監測**：生命徵象、意識、SpO₂ **q15–30min** 直到恢復；**防跌、癲癇預防措施**（床欄護墊、側躺）；記錄發作時間、型態、持續多久、給了什麼藥。\n**家屬溝通**：說明發作與處置、可能原因、接下來的檢查；第一次發作者提醒**暫時不要開車**（依法規與醫師評估）。\n**交給白天團隊**：影像、腦波、抗癲癇藥濃度與劑量；是否開始長期抗癲癇藥（第一次發作要評估再發風險）；誘因（漏藥、藥物、代謝）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**SBAR**\n- **S**：床號、姓名，**02:13–02:20 全身強直陣攣 7 分鐘**，給 lorazepam 4 mg 後停止\n- **B**：已知癲癇，用 levetiracetam；**今天禁食、晚上那劑沒給**\n- **A**：**漏藥誘發的重積狀態**；血糖 132、Na 138；目前嗜睡、無局部缺損\n- **R**：已給 **levetiracetam IV 負荷劑量**、恢復靜脈維持劑量；**每 30 分鐘評估意識**；04:00 仍沒恢復 → 腦波、通知神經科；再發作 → 依重積流程"
+        }
+      ]
+    },
+    {
+      "title": "常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- **等它自己停**——超過 5 分鐘就要給 BZD\n- BZD **劑量太小**、分很多小劑量\n- 往嘴巴**塞東西**、壓制四肢\n- 忘了驗**血糖**\n- **phenytoin 推太快**（心律不整、低血壓）、或肌注\n- 抽完一直沒醒就以為是「發作後」——想**非抽搐性重積**\n- 禁食病人的**抗癲癇藥沒給**（漏藥最常見）\n- 孕婦抽搐沒想到**子癲症**\n- 把**昏厥或心律不整**當成癲癇"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 2 點：「腦瘤術後的病人全身抽，已經 6 分鐘了。」",
+          "text": "1. **重積狀態** → 立即 **lorazepam 0.1 mg/kg IV**（或 midazolam 0.2 mg/kg）\n2. 側躺、給氧、血糖、抽血\n3. 仍抽 → **levetiracetam 或 valproate 或 phenytoin 負荷**\n4. 還在抽 → 插管、加護、麻醉藥、腦波\n5. 停下來後 **STAT CT**（出血、水腫）、神經外科"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 11 點：「肺炎用 imipenem 的阿嬤剛剛抽了 1 分鐘，現在停了，叫得醒但混亂，Cr 3.2。」",
+          "text": "1. 已停、短暫 → 不必立刻 BZD；監測、防跌\n2. 想**藥物誘發**：carbapenem + 腎功能差 → 藥物累積；與團隊討論**換抗生素或調整劑量**\n3. 驗血糖、Na、Ca、Mg、腎功能\n4. 第一次發作 → CT；意識遲遲不恢復 → 腦波"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 4 點：「懷孕 34 週的孕婦抽搐，血壓 168/110。」",
+          "text": "1. **子癲症** → **magnesium sulfate**（依產科 protocol）、控制血壓\n2. 側躺、給氧、保護呼吸道\n3. **立刻找產科**（終止妊娠的評估）\n4. 驗血小板、肝腎功能（HELLP）"
+        }
+      ]
+    },
+    {
+      "title": "延伸與相關筆記",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：重積狀態與抗癲癇藥選擇見〈Epilepsy (二)〉；發作分類見〈Epilepsy (一)〉；意識改變、非抽搐性重積、酒精戒斷見〈On Call: 意識改變〉；低血糖見〈On Call: 血糖異常〉；子癲前症見〈Hypertension (二)〉。"
+        }
+      ]
+    }
+  ]
+}
