@@ -7,7 +7,8 @@
   "sources": [
     "Harrison's 22e - Ch.288 Hypertension（危象與靜脈藥物；〈Hypertension (二)〉）",
     "ACC/AHA 2017 危象降壓目標、AHA 缺血性中風血壓建議、2022 AHA/ASA 腦出血指引、2022 ACC/AHA 主動脈疾病指引（舊版高血壓筆記已查證）；2025 AHA/ACC 改稱 severe hypertension",
-    "靜脈降壓藥劑量與泡法依院內 protocol；子癲症 magnesium sulfate 依產科 protocol"
+    "On Call Principles and Protocols Survival Guide Ver2（院內流傳版） - High Blood Pressure（Chap 16）p.72：labetalol 20 mg → 40–80 mg q10min（最多 300 mg）、nitroprusside 0.1–0.5 → 最多 10 μg/kg/min、nicardipine 5 → 15 mg/h、子癲前症 magnesium sulfate 6 g → 2 g/h；Tachycardia p.75：esmolol 0.5 mg/kg → 0.05–0.2 mg/kg/min。Harrison 未列這些起始劑量；泡法依院內 protocol，子癲症依產科 protocol",
+    "Harrison's 22e - p.2100（esmolol 50–300 μg/kg/min）；p.2331（nitroglycerin IV 5–10 μg/min）；Ch.421 p.3267（高血鎂）"
   ],
   "generated": "2026-11-25",
   "updated": "2026-11-25",
@@ -160,7 +161,7 @@
         {
           "type": "callout",
           "style": "trap",
-          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。靜脈降壓藥的起始劑量與泡法**依院內 protocol**。"
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。下列靜脈降壓藥劑量來自院內流傳版 On Call 手冊（Harrison 未列起始劑量），**泡法與最終劑量依院內 protocol**。"
         },
         {
           "type": "callout",
@@ -170,32 +171,32 @@
         {
           "type": "callout",
           "style": "guideline",
-          "text": "**Nicardipine IV（DHP CCB）**｜持續輸注、依血壓調整\n- 劑型：依院內泡法\n- 注意：Harrison：目前最常用；**不增加腦壓 → 中風可用**；嚴重主動脈瓣狹窄小心"
+          "text": "**Nicardipine IV（DHP CCB）**｜**5 mg/h** 起始，每 15 分鐘加 **2.5 mg/h**，最多 **15 mg/h**（院內流傳版；Harrison 未列）\n- 劑型：依院內泡法\n- 注意：Harrison：目前最常用；**不增加腦壓 → 中風可用**；嚴重主動脈瓣狹窄小心"
         },
         {
           "type": "callout",
           "style": "guideline",
-          "text": "**Labetalol IV（α + β）**｜推注或輸注\n- 劑型：依院內品項\n- 注意：**不增加腦壓 → 中風可用**；主動脈剝離優先之一；**氣喘、COPD、心搏過緩、二三度房室阻斷**避免"
+          "text": "**Labetalol IV（α + β）**｜**20 mg IV 推 2 分鐘**；可每 10 分鐘重複或加到 **40 或 80 mg**，累積最多 **300 mg**（院內流傳版；Harrison 未列）\n- 劑型：依院內品項\n- 注意：**不增加腦壓 → 中風可用**；主動脈剝離優先之一；**氣喘、COPD、心搏過緩、二三度房室阻斷**避免"
         },
         {
           "type": "callout",
           "style": "guideline",
-          "text": "**Esmolol IV（短效 β1）**｜輸注\n- 劑型：依院內泡法\n- 注意：**主動脈剝離首選之一**（先降心跳與收縮力）"
+          "text": "**Esmolol IV（短效 β1）**｜**0.5 mg/kg IV 1 分鐘**，之後 **0.05–0.2 mg/kg/min** 輸注（院內流傳版；Harrison 未列）；Harrison 列維持劑量 50–300 μg/kg/min（p.2100）\n- 劑型：依院內泡法\n- 注意：**主動脈剝離首選之一**（先降心跳與收縮力）"
         },
         {
           "type": "callout",
           "style": "guideline",
-          "text": "**Nitroglycerin IV**｜輸注\n- 劑型：依院內泡法\n- 注意：**急性冠心症、肺水腫**；增加腦壓 → 中風避免；右心室梗塞禁用"
+          "text": "**Nitroglycerin IV**｜起始 **5–10 μg/min**，依反應調整（Harrison p.2331；見〈On Call: 胸痛〉）\n- 劑型：依院內泡法\n- 注意：**急性冠心症、肺水腫**；增加腦壓 → 中風避免；右心室梗塞禁用"
         },
         {
           "type": "callout",
           "style": "guideline",
-          "text": "**Nitroprusside IV**｜輸注（加護病房、動脈導管）\n- 劑型：依院內泡法\n- 注意：強效；**增加腦壓**；**肝腎功能差 → cyanide、thiocyanate 累積**"
+          "text": "**Nitroprusside IV**｜起始 **0.1–0.5 μg/kg/min**，依反應調整，最多 **10 μg/kg/min**（院內流傳版；Harrison 未列）（加護病房、動脈導管）\n- 劑型：依院內泡法\n- 注意：強效；**增加腦壓**；**肝腎功能差 → cyanide、thiocyanate 累積**"
         },
         {
           "type": "callout",
           "style": "guideline",
-          "text": "**子癲前症／子癲症**｜labetalol、nifedipine、hydralazine 降壓 + **magnesium sulfate**\n- 劑型：依產科 protocol\n- 注意：**ACEI、ARB 禁用**；立刻找產科"
+          "text": "**子癲前症／子癲症**｜labetalol、nifedipine、hydralazine 降壓 + **magnesium sulfate**\n- 劑量：**Magnesium sulfate**：負荷 **6 g IV 20 分鐘**，之後 **2 g/h** 持續輸注；每 4 小時驗血鎂，目標 2.0–3.5 mmol/L（院內流傳版；Harrison 未列）；監測深部肌腱反射、呼吸速率、尿量，腎功能差要調整（臨床常規）；Harrison：血鎂過高會造成低血壓、神經肌肉阻斷、呼吸衰竭（p.3267）。**仍以產科 protocol 為準**\n- 注意：**ACEI、ARB 禁用**；立刻找產科"
         },
         {
           "type": "callout",

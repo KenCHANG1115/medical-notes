@@ -6,7 +6,7 @@
   "specialty": "值班守則",
   "sources": [
     "Harrison's 22e - Ch.436 Seizures and Epilepsy (p.3419–3428；Fig.436-5 重積狀態：lorazepam 0.1 mg/kg、midazolam 0.2 mg/kg、phenytoin 20 mg/kg、valproate／levetiracetam 20–30 mg/kg；phenytoin < 50 mg/min)；Ch.56 3% saline (p.351)",
-    "子癲症 magnesium sulfate 劑量依產科 protocol；On Call Principles and Protocols Survival Guide Ver2（院內流傳版）- Seizures",
+    "子癲症 magnesium sulfate 6 g → 2 g/h 依院內流傳版 On Call 手冊 p.72（以產科 protocol 為準）；Harrison p.2350（子癲症用 magnesium sulfate）、p.3267（高血鎂）；On Call Principles and Protocols Survival Guide Ver2（院內流傳版）- Seizures",
     "劑型依院內品項"
   ],
   "generated": "2026-11-25",
@@ -218,7 +218,7 @@
         {
           "type": "callout",
           "style": "key",
-          "text": "**特殊情境**\n- **孕婦（> 20 週或產後）抽搐 → 子癲症**：**magnesium sulfate**（產科常規首選）、控制血壓、**立刻找產科**（劑量依產科 protocol）\n- **酒精戒斷發作**：BZD；補 thiamine、鎂（見〈On Call: 意識改變〉）\n- **藥物誘發**（carbapenem、tramadol 等）：停藥、BZD"
+          "text": "**特殊情境**\n- **孕婦（> 20 週或產後）抽搐 → 子癲症**：**magnesium sulfate**（產科常規首選；Harrison p.2350：有證據支持用於子癲症的抽搐）、控制血壓、**立刻找產科**\n  - **Magnesium sulfate**：負荷 **6 g IV 20 分鐘**，之後 **2 g/h** 持續輸注；每 4 小時驗血鎂，目標 2.0–3.5 mmol/L（院內流傳版；Harrison 未列）；監測深部肌腱反射、呼吸速率、尿量，腎功能差要調整（臨床常規）；Harrison：血鎂過高會造成低血壓、神經肌肉阻斷、呼吸衰竭（p.3267）。**仍以產科 protocol 為準**\n- **酒精戒斷發作**：BZD；補 thiamine、鎂（見〈On Call: 意識改變〉）\n- **藥物誘發**（carbapenem、tramadol 等）：停藥、BZD"
         },
         {
           "type": "source",
@@ -278,7 +278,7 @@
         {
           "type": "collapsible",
           "summary": "凌晨 4 點：「懷孕 34 週的孕婦抽搐，血壓 168/110。」",
-          "text": "1. **子癲症** → **magnesium sulfate**（依產科 protocol）、控制血壓\n2. 側躺、給氧、保護呼吸道\n3. **立刻找產科**（終止妊娠的評估）\n4. 驗血小板、肝腎功能（HELLP）"
+          "text": "1. **子癲症** → **magnesium sulfate 6 g IV 20 分鐘 → 2 g/h**（院內流傳版；以產科 protocol 為準）、控制血壓\n2. 側躺、給氧、保護呼吸道\n3. **立刻找產科**（終止妊娠的評估）\n4. 驗血小板、肝腎功能（HELLP）"
         }
       ]
     },
