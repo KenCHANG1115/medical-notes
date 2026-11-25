@@ -527,6 +527,10 @@
         {
           "id": "oncall-chest-pain",
           "name": "On Call: 胸痛（先抓會致命的五個）"
+        },
+        {
+          "id": "oncall-glucose",
+          "name": "On Call: 血糖異常（低血糖、住院高血糖、DKA／HHS）"
         }
       ]
     }

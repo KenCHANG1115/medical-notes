@@ -1,0 +1,327 @@
+{
+  "id": "oncall-glucose",
+  "title": "On Call: 血糖異常（低血糖、住院高血糖、DKA／HHS）",
+  "title_en": "On Call: Hypoglycemia, Inpatient Hyperglycemia, DKA/HHS",
+  "title_zh": "值班：血糖異常",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.418 Hypoglycemia (p.3236：口服 15–20 g、IV 葡萄糖 25 g、glucagon 1 mg)；Ch.416 DKA／HHS (p.3217–3219，Table 416-9：輸液、insulin 0.1 U/kg、K < 3.3 先不給 insulin、補鉀規則)",
+    "ADA Standards of Care 2026 Section 16 住院血糖目標（〈DM (二)〉）",
+    "「15 分鐘後重測」為臨床常規；劑型依院內品項"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "dm-complications",
+      "name": "Diabetes (三)：急慢性併發症與低血糖"
+    },
+    {
+      "id": "dm-treatment",
+      "name": "Diabetes (二)：治療——藥物、胰島素與住院血糖"
+    },
+    {
+      "id": "oncall-potassium-disorders",
+      "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+    },
+    {
+      "id": "confusion-decreased-consciousness",
+      "name": "Confusion / Decreased Level of Consciousness (意識不清)"
+    },
+    {
+      "id": "acid-base-disorders",
+      "name": "Acid-Base Disorders (酸鹼平衡異常)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「血糖 45」或「血糖 HIGH」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**低血糖（< 70 mg/dL，或有症狀）——馬上處理，不用等你到**\n1. **能吃、清醒** → 口服 **15–20 g 葡萄糖**（果汁、糖片）\n2. **不能吃、意識差** → **IV 葡萄糖 25 g**（D50W 50 mL）→ 接葡萄糖點滴；沒有 IV → **glucagon 1 mg SC／IM**\n3. **15 分鐘後重測**，直到穩定\n4. 酗酒、營養不良 → **thiamine 與葡萄糖同時或之前**\n5. **暫停**下一劑 insulin 或降血糖藥，等你評估"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**高血糖的紅旗——立刻到床邊**\n- 血糖 > 250 + **噁心嘔吐、腹痛、喘（Kussmaul）、意識改變** → **DKA**\n- 血糖 > 600、嚴重脫水、意識改變（老人） → **HHS**\n- 用 **SGLT2 抑制劑**的病人噁心嘔吐、酸中毒但**血糖不高** → **正常血糖 DKA**\n- 低血糖**反覆發生**、用 **sulfonylurea** 或長效 insulin → 會再掉，需要持續點滴與監測"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.418 Hypoglycemia p.3236"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.416 DKA／HHS（Table 416-9） p.3217–3219"
+        }
+      ]
+    },
+    {
+      "title": "電話中：要問什麼、可以先開什麼",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "問護理師",
+            "為什麼"
+          ],
+          "rows": [
+            [
+              "血糖多少、**怎麼驗**（指尖 vs 抽血）、有沒有症狀",
+              "指尖在休克、水腫時不準；HIGH 要抽血確認"
+            ],
+            [
+              "**意識**、能不能吃",
+              "決定口服還是 IV"
+            ],
+            [
+              "今天打了什麼 **insulin**、幾點、多少；吃了什麼口服藥",
+              "藥物是最常見原因"
+            ],
+            [
+              "**有沒有吃飯**、禁食中、管灌或 TPN 停了",
+              "insulin 打了沒吃 → 低血糖"
+            ],
+            [
+              "腎功能、肝病、感染、類固醇",
+              "腎差 → insulin 與 sulfonylurea 作用延長；類固醇 → 高血糖"
+            ],
+            [
+              "高血糖：噁心嘔吐、腹痛、喘、意識",
+              "DKA／HHS"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**電話中可以先下的 order**\n- 低血糖：依上面第一分鐘卡處理，**15 分鐘後重測**\n- 高血糖 HIGH 或 > 400：**抽血驗血糖**、**電解質（Na、K、Cl、HCO₃⁻）、BUN／Cr**、**血酮（β-hydroxybutyrate）或尿酮**、**血氣**、陰離子間隙\n- 疑 DKA／HHS：**建立靜脈通路**、開始**生理食鹽水或 LR**、心電圖（看 K）、找誘因（感染：培養、X 光、尿液）\n- 一般住院高血糖（無症狀、無酮體）：**不必半夜急著降**；依現有 insulin 處方、白天調整"
+        }
+      ]
+    },
+    {
+      "title": "低血糖：處理與找原因",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**清醒、能吞**｜**口服 15–20 g 葡萄糖**（Harrison）\n- 劑型：依院內品項（如糖片、果汁）\n- 注意：15 分鐘後重測；穩定後吃一餐或點心"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**意識差、不能吃**｜**IV 葡萄糖 25 g**（D50W 50 mL）→ **接葡萄糖點滴**，依連續血糖調整（Harrison）\n- 劑型：依院內 50% 葡萄糖包裝換算\n- 注意：**thiamine** 先或同時（酗酒、營養不良）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**沒有 IV**｜**Glucagon 1 mg SC／IM**（Harrison）\n- 劑型：依院內品項\n- 注意：**酗酒、肝病、長期飢餓**（肝醣耗盡）效果差"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Sulfonylurea 或長效 insulin 造成**｜持續葡萄糖點滴 + 頻繁監測\n- 注意：可能**持續好幾小時、反覆**（腎功能差更久）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "找原因",
+            "線索"
+          ],
+          "rows": [
+            [
+              "**藥物（最常見）**",
+              "insulin 劑量、時間錯（打了沒吃）、**sulfonylurea**、腎功能惡化讓藥物累積"
+            ],
+            [
+              "進食減少",
+              "禁食檢查、嘔吐、管灌或 TPN 突然中斷"
+            ],
+            [
+              "重大疾病",
+              "**敗血症**、肝衰竭、腎衰竭、**腎上腺功能不足**、酒精"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要「15 分鐘後重測」、而且常要接點滴？**\n口服或 IV 的葡萄糖在幾分鐘內就把血糖拉上來，但**造成低血糖的原因還在**：insulin 與 sulfonylurea 作用好幾個小時（腎功能差時更久）。一次的糖用完後血糖會再掉，所以要重測、餵食或接葡萄糖點滴，並**調整之後的降血糖藥**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.418 Hypoglycemia p.3236"
+        }
+      ]
+    },
+    {
+      "title": "住院高血糖（沒有 DKA／HHS）",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "- 住院目標：**140–180 mg/dL**（重症與多數非重症；ADA 2026 非重症 100–180）（見〈DM (二)〉）\n- 半夜單次高血糖、**沒有症狀、沒有酮體** → 依原本處方的**矯正劑量**即可，**不要大幅追加**造成凌晨低血糖\n- 找原因：**類固醇**、感染、TPN／管灌、漏打 insulin、壓力\n- 只靠「sliding scale」矯正不是好方法 → 白天團隊應建立**基礎 + 餐前（+ 矯正）**的處方"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**半夜看到 320 就一口氣打一大劑**是常見錯誤：睡覺沒進食、腎功能差的病人，清晨會低血糖。"
+        },
+        {
+          "type": "source",
+          "book": "ADA Standards of Care 2026 Section 16（〈DM (二)〉）",
+          "pages": "住院血糖目標"
+        }
+      ]
+    },
+    {
+      "title": "DKA 與 HHS：Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。DKA／HHS 依院內 protocol，通常需要加護或中度照護病房。"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "DKA",
+            "HHS"
+          ],
+          "rows": [
+            [
+              "誰",
+              "多為第一型（也見於第二型壓力下）",
+              "多為**老人**、第二型"
+            ],
+            [
+              "血糖",
+              "通常 > 250",
+              "**> 600**"
+            ],
+            [
+              "酸鹼",
+              "**pH < 7.3**、陰離子間隙增大、酮體高",
+              "pH > 7.3、HCO₃⁻ > 15"
+            ],
+            [
+              "滲透壓",
+              "可升高",
+              "有效滲透壓 **> 320**"
+            ],
+            [
+              "重點",
+              "酸中毒、Kussmaul 呼吸、腹痛",
+              "**嚴重脫水**、意識改變"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**① 輸液**｜**0.9% 生理食鹽水或 LR 2–3 L，前 1–3 小時（10–20 mL/kg/h）** → 之後 **0.45% 食鹽水 250–500 mL/h**；**血糖降到 250 → 改含 5–10% 葡萄糖**的點滴 150–250 mL/h（Harrison Table 416-9）\n- 注意：總缺水常 3–5 L；HHS 脫水更嚴重；心衰竭、末期腎病者小心"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**② Insulin**｜**Regular insulin 0.1 U/kg IV** → **0.1 U/kg/h 持續輸注**；2–4 小時沒反應 → 增加 2–3 倍（Harrison）\n- 劑型：依院內泡法\n- 注意：**起始 K < 3.3 → 先補鉀、不給 insulin**（Harrison）；輕中度 DKA 可用皮下速效 insulin（密切監測）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**③ 鉀**｜**K < 3.5 → 10–20 mmol/h** 直到 > 3.5；**K 3.5–5 → 每公升點滴加 10–20 mmol**（維持 4–5）；**K > 5 → 先不補**、每 2 小時重驗（Harrison）\n- 劑型：KCl 1 支 = 20 mEq（15% 10 mL；依院內品項）\n- 注意：補鉀前確認**心電圖、尿量、肌酸酐**正常"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**④ 監測**｜血糖 **q1–2h**；電解質（K、HCO₃⁻、磷）與陰離子間隙 **q4h**（前 24 小時）；生命徵象、意識、進出量 q1–4h\n- 注意：嘔吐或意識差 → 鼻胃管防吸入"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**⑤ 找誘因**｜**漏打 insulin、感染**（培養、X 光、尿液）、**梗塞**（心電圖、troponin）、胰臟炎、藥物、懷孕\n- 注意：誘因治療和 DKA 治療一樣重要"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**正常血糖 DKA（SGLT2 抑制劑）**｜**一開始就給 5–10% 葡萄糖**點滴 + insulin + 食鹽水（Harrison）\n- 注意：停 SGLT2 抑制劑"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**轉換與收尾**\n- 酸中毒緩解、開始進食 → **皮下長效 insulin + 速效 insulin**，**和點滴重疊一段時間後**才停 insulin 點滴（避免反彈）\n- insulin 點滴輸注率在酸中毒改善後可降到 0.02–0.1 U/kg/h（Harrison）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.416 Table 416-9 p.3217–3219"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級、家屬溝通與白天追蹤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**升級**\n- **DKA（中重度）、HHS** → 加護或中度照護病房、找學長姐\n- 低血糖**反覆、意識沒恢復** → 想其他原因（中風、癲癇、腎上腺）\n- pH < 7.0、意識差、休克 → 加護病房"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**家屬溝通**：低血糖通常與藥物、進食有關，說明已處理與預防；DKA／HHS 說明嚴重度、需要密集監測與可能轉加護。\n**交給白天團隊**：**調整 insulin 或口服藥**（低血糖後要減量）、找 DKA 誘因、腎功能變化、衛教（生病日規則、低血糖辨識）、是否停 SGLT2 抑制劑或 sulfonylurea。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**SBAR**\n- **S**：床號、姓名，**04:10 指尖血糖 42**，冒冷汗、嗜睡\n- **B**：第二型糖尿病、CKD 4，用 glimepiride；今天食慾差、只吃半碗\n- **A**：**sulfonylurea 相關低血糖**（腎功能差 → 作用延長）\n- **R**：已給 D50W 50 mL IV → 血糖 138；**接 D10W 點滴**、**每小時驗血糖**；停 glimepiride；早上請團隊調整降血糖藥"
+        }
+      ]
+    },
+    {
+      "title": "常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 低血糖**給一次糖就結束**，沒有 15 分鐘後重測、沒有接點滴\n- **沒停**下一劑 insulin 或 sulfonylurea\n- 酗酒病人**先給糖沒給 thiamine**\n- 半夜高血糖**大劑量追加** insulin → 清晨低血糖\n- DKA **K < 3.3 還開始 insulin**\n- DKA 血糖降到 250 **沒有改含葡萄糖點滴**（insulin 要繼續打到酸中毒好）\n- 太早停 insulin 點滴、沒和皮下 insulin 重疊\n- 用 SGLT2 抑制劑的病人血糖不高就排除 DKA\n- 用碳酸氫鈉矯正 DKA（多數不需要）\n- 忘了找 DKA 的**誘因**（感染、梗塞）"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 5 點：「阿嬤血糖 52，叫得醒但講話慢，昨晚打了長效 insulin，今天禁食準備檢查。」",
+          "text": "1. 意識稍差 → **IV 葡萄糖 25 g**（D50W 50 mL）→ **接葡萄糖點滴**\n2. 15 分鐘後重測、之後每小時\n3. 禁食期間的 insulin：**長效減量**、白天團隊調整\n4. 交班：檢查前禁食的血糖監測頻率"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 10 點：「22 歲第一型糖尿病，嘔吐腹痛一天，血糖 420，喘、呼吸很深。」",
+          "text": "1. 嘔吐 + 腹痛 + Kussmaul → **DKA**：抽血（電解質、血酮、血氣、陰離子間隙）\n2. **LR 或生理食鹽水 1–3 小時給 2–3 L**\n3. **先看 K**：< 3.3 → 先補鉀再給 insulin；≥ 3.3 → **insulin 0.1 U/kg IV + 0.1 U/kg/h**\n4. 血糖 q1h、電解質 q4h；血糖 250 → 改含糖點滴\n5. 找誘因（漏打 insulin、感染）；轉加護或中度照護"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 2 點：「85 歲阿公血糖 780，Na 152，叫不太醒，很乾。」",
+          "text": "1. 老人 + 極高血糖 + 意識改變 + 脫水 → **HHS**\n2. **積極補液**（脫水比 DKA 更嚴重），注意心臟\n3. insulin 點滴（依 protocol），血糖與滲透壓**不要降太快**\n4. 找誘因（感染、中風、心肌梗塞）；加護病房"
+        }
+      ]
+    },
+    {
+      "title": "延伸與相關筆記",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：DKA／HHS 的考試重點與比較見〈DM (三) 併發症〉；降血糖藥與住院血糖目標見〈DM (二) 治療〉；鉀離子處理見〈On Call: 鉀離子〉；意識改變見〈On Call: 意識改變〉。"
+        }
+      ]
+    }
+  ]
+}
