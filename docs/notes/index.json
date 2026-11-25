@@ -535,6 +535,10 @@
         {
           "id": "oncall-seizure",
           "name": "On Call: 抽搐（正在抽、抽完了、癲癇重積）"
+        },
+        {
+          "id": "oncall-gi-bleeding",
+          "name": "On Call: 腸胃道出血（吐血、黑便、血便）"
         }
       ]
     }

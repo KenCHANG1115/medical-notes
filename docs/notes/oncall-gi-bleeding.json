@@ -1,0 +1,282 @@
+{
+  "id": "oncall-gi-bleeding",
+  "title": "On Call: 腸胃道出血（吐血、黑便、血便）",
+  "title_en": "On Call: Gastrointestinal Bleeding",
+  "title_zh": "值班：腸胃道出血",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.51 Gastrointestinal Bleeding (p.316–320；Fig.51-1：PPI 80 mg + 8 mg/h、octreotide 50 μg + 50 μg/h；erythromycin 250 mg IV；Glasgow-Blatchford；Hb < 7)；Ch.355 Cirrhosis 靜脈曲張出血",
+    "First Choice 醫學(三) 第2冊（〈Cirrhosis (一)〉）：預防性抗生素 ceftriaxone 或 ciprofloxacin 7 天",
+    "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+    "劑型依院內品項"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "gi-bleeding",
+      "name": "GI Bleeding (腸胃道出血)"
+    },
+    {
+      "id": "cirrhosis-portal-htn-varices",
+      "name": "Cirrhosis (一)：總論、門脈高壓與靜脈曲張"
+    },
+    {
+      "id": "esophagus-peptic-ulcer",
+      "name": "Esophagus & Peptic Ulcer (食道疾病與消化性潰瘍)"
+    },
+    {
+      "id": "hpylori-gastric-diseases",
+      "name": "H. pylori & Gastric Diseases (H. pylori 與胃疾病)"
+    },
+    {
+      "id": "transfusion-medicine",
+      "name": "Transfusion Medicine (輸血醫學：血品適應症、相容性與輸血反應)"
+    },
+    {
+      "id": "bleeding-disorders",
+      "name": "Bleeding Disorders (出血：凝血檢查與出血疾病)"
+    },
+    {
+      "id": "oncall-hypotension",
+      "name": "On Call: 低血壓與休克（血壓掉了）"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人吐血／解黑便」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先看血行動力，不是先看血色素**\n1. **生命徵象**（心跳、血壓、姿勢性變化）、意識、尿量\n2. **兩條大口徑靜脈通路**、開始**晶體液**\n3. **STAT**：CBC、**血型與交叉配合（備血）**、凝血功能（PT／INR）、BUN／Cr、肝功能\n4. **大量吐血 + 意識差** → 側躺、抽吸、**考慮插管保護呼吸道**\n5. **暫停**抗凝血劑、抗血小板藥、NSAID 的下一劑（與團隊討論是否反轉）"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**立刻到床邊 + 找學長姐的紅旗**\n- **心跳 > 100、收縮壓 < 100、姿勢性低血壓**、意識改變、少尿\n- **肝硬化**（靜脈曲張出血）\n- 大量鮮血便 + 血壓不穩（**可能是上消化道大量出血**）\n- 正在用**抗凝血劑**、凝血功能異常\n- 有冠心病、老人（耐受度差）\n- **急性出血時 Hb 可能還正常**——不能用 Hb 排除嚴重出血"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.51 GI Bleeding p.316–320"
+        }
+      ]
+    },
+    {
+      "title": "電話中與床邊：上還是下、有多急",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "問／看",
+            "意義"
+          ],
+          "rows": [
+            [
+              "**吐血**（鮮紅或咖啡渣）",
+              "上消化道（Treitz 韌帶以上）"
+            ],
+            [
+              "**黑便**",
+              "多為上消化道（血在腸道停留夠久）"
+            ],
+            [
+              "**血便**（鮮紅、暗紅）",
+              "多為下消化道；但**合併血行動力不穩、Hb 下降 → 先排除上消化道**"
+            ],
+            [
+              "**BUN 上升**、腸音亢進",
+              "支持上消化道"
+            ],
+            [
+              "**肝硬化**、酗酒、B 肝帶原",
+              "**靜脈曲張出血**"
+            ],
+            [
+              "NSAID、aspirin、抗凝血劑、類固醇、H. pylori",
+              "消化性潰瘍"
+            ],
+            [
+              "劇烈嘔吐後吐血",
+              "Mallory-Weiss"
+            ],
+            [
+              "老人、無痛大量血便",
+              "憩室出血、血管發育異常"
+            ],
+            [
+              "腹痛 + 血便、心房顫動或休克後",
+              "缺血性腸炎"
+            ],
+            [
+              "最近做過息肉切除、切片",
+              "處置後出血"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**風險評估**：**Glasgow-Blatchford 分數**（BUN、Hb、收縮壓、心跳、黑便、昏厥、肝病、心衰竭）——**0–1 分可門診**；分數越高越需要介入（Harrison）\n**床邊**：意識、末梢灌流、**肛門指診**（黑便、鮮血）、腹部壓痛、肝硬化徵象（腹水、蜘蛛痣、黃疸）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.51 GI Bleeding p.316–320"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**輸液與輸血**｜晶體液復甦；**限制性輸血：Hb < 7 才輸**（Harrison）；**肝硬化靜脈曲張：目標 Hb 7–9**（輸太多增加門脈壓）；冠心病、大量出血依臨床\n- 劑型：依院內血庫\n- 注意：大量出血 → 啟動大量輸血流程（紅血球：血漿：血小板 ≈ 1：1：0.25，見〈輸血〉）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**PPI（疑上消化道潰瘍出血）**｜內視鏡前可考慮；高風險潰瘍內視鏡處理後：**IV bolus 80 mg → 8 mg/h 持續輸注**，或 **40 mg IV／PO 每天 2–4 次**，共 **3 天**（Harrison Fig.51-1）\n- 劑型：依院內品項\n- 注意：內視鏡前用 PPI 減少高風險徵象，**但不改善再出血或死亡**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Erythromycin（內視鏡前）**｜**250 mg IV，內視鏡前約 30–90 分鐘**（Harrison）\n- 劑型：依院內品項\n- 注意：促進胃排空、改善視野；注意 QT"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**肝硬化：血管活性藥**｜**Octreotide IV 50 μg bolus → 50 μg/h 持續 2–5 天**（Harrison Fig.51-1）；或 terlipressin、somatostatin（依院內）\n- 劑型：依院內品項\n- 注意：**疑靜脈曲張出血就開始，不要等胃鏡**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**肝硬化：預防性抗生素**｜**Ceftriaxone**（FC：ceftriaxone 或 ciprofloxacin，7 天）\n- 劑型：依院內品項\n- 注意：減少感染、再出血與死亡"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**抗凝血劑相關**｜停藥；**反轉依藥物與出血嚴重度**（見〈出血〉：warfarin → 4F-PCC + vitamin K 等）\n- 劑型：依院內品項\n- 注意：與團隊、心臟科討論再開始的時機"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**呼吸道**｜大量吐血、意識差 → **插管**保護呼吸道（尤其胃鏡前）\n- 注意：找學長姐、麻醉科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**禁食、鼻胃管**｜準備胃鏡前禁食；鼻胃管**不用來排除**上消化道出血（Harrison：約 15% 嚴重 UGIB 抽吸物無血）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**會診**｜**腸胃科：24 小時內胃鏡**（不穩定者更早、依院內）；下消化道大量出血 → 大腸鏡、**CT 血管攝影**、介入放射科；止不住 → 外科\n- 注意：高風險病人 6–12 小時內做胃鏡**沒有比 24 小時內更好**（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼急性出血時 Hb 可能正常？**\n出血時流失的是**全血**——紅血球和血漿等比例減少，所以剛開始抽血 Hb 濃度沒變。要等組織間液慢慢移進血管、或輸了晶體液稀釋後，Hb 才會下降（Harrison：最多約 72 小時）。所以**判斷出血多嚴重要看心跳、血壓、姿勢性變化**，不能看第一個 Hb；同理，連續追蹤 Hb 的下降比單一數值有意義。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.51 GI Bleeding（Fig.51-1） p.316–320"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.355 Cirrhosis（〈Cirrhosis (一)〉）"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級、家屬溝通與白天追蹤",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "什麼時候",
+            "做什麼"
+          ],
+          "rows": [
+            [
+              "每 15–30 分鐘",
+              "生命徵象、意識、新的吐血或血便量"
+            ],
+            [
+              "每 4–6 小時",
+              "**Hb**（出血活躍時更頻繁）、輸血後 Hb"
+            ],
+            [
+              "持續",
+              "尿量、輸入輸出"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**升級**\n- 血行動力不穩、需要大量輸血、持續出血 → **加護病房**、找學長姐\n- **腸胃科**：胃鏡時機；靜脈曲張出血止不住 → 氣球填塞（過渡）、**TIPS**\n- 下消化道大量出血 → CT 血管攝影、介入放射科、外科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**家屬溝通**：確認 **DNR、輸血意願**（宗教因素）、說明出血來源的可能、胃鏡或其他止血處置的必要與風險。\n**交給白天團隊**：胃鏡結果與處置、**H. pylori 檢測與除菌**、停 NSAID、PPI 療程、抗凝或抗血小板何時恢復、肝硬化者的 β 阻斷劑（**穩定後**）與結紮計畫。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**SBAR**\n- **S**：床號、姓名，**23:30 吐鮮血約 300 mL**、黑便，心跳 118、血壓 94/58\n- **B**：B 肝肝硬化（Child B）\n- **A**：**疑靜脈曲張出血**；Hb 7.8（前日 10.2）、INR 1.6、血小板 6 萬\n- **R**：兩條大口徑通路、晶體液、**備血 4 單位**、輸紅血球目標 Hb 7–9；**octreotide 50 μg bolus + 50 μg/h**、**ceftriaxone**；**已聯絡腸胃科**（胃鏡時間：_____）；意識變差或再大量吐血 → 插管、加護"
+        }
+      ]
+    },
+    {
+      "title": "常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 用**第一個 Hb 正常**就認為出血不嚴重\n- **輸血輸太多**（靜脈曲張出血目標 Hb 7–9）\n- 肝硬化吐血**等胃鏡才給 octreotide 與抗生素**\n- 急性期給 **β 阻斷劑**（血壓會更低——那是穩定後的預防）\n- 大量吐血、意識差**沒保護呼吸道**就做胃鏡\n- 大量鮮血便**沒想到上消化道**\n- 用鼻胃管抽不到血就**排除上消化道出血**\n- 忘了**停抗凝血劑、NSAID**"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 3 點：「75 歲阿公吃 aspirin 和 clopidogrel，解了兩次黑便，心跳 108，血壓 110/70。」",
+          "text": "1. 上消化道出血（潰瘍可能性高）；**心跳快 → 已有血行動力影響**\n2. 兩條通路、晶體液、CBC、備血、凝血、BUN\n3. **PPI IV**；暫停抗血小板藥（**放支架多久**？和心臟科討論）\n4. **腸胃科：24 小時內胃鏡**；Hb < 7 輸血（冠心病門檻可較高）\n5. 生命徵象 q30min、Hb 每 4–6 小時"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 1 點：「肝硬化大哥吐了一盆血，叫不太醒，血壓 82/48。」",
+          "text": "1. **靜脈曲張出血 + 休克 + 意識差** → 找學長姐、**插管保護呼吸道**\n2. 兩條大口徑通路、輸液、**輸血（目標 Hb 7–9）**\n3. **octreotide 50 μg bolus + 50 μg/h**、**ceftriaxone**\n4. **緊急胃鏡結紮**；止不住 → 氣球填塞過渡、TIPS\n5. 不給 β 阻斷劑；確認 DNR 意願"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 10 點：「85 歲阿嬤大量鮮紅血便，無腹痛，心跳 120、血壓 88/50。」",
+          "text": "1. 大量血便 + 休克 → **先排除上消化道**（BUN、胃鏡）\n2. 復甦、輸血、找學長姐\n3. 上消化道沒問題 → 下消化道：**CT 血管攝影**（活動性出血定位）→ 介入放射科栓塞，或大腸鏡\n4. 常見原因：憩室出血、血管發育異常"
+        }
+      ]
+    },
+    {
+      "title": "延伸與相關筆記",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：腸胃道出血的考試重點見〈GI Bleeding〉；靜脈曲張與肝硬化見〈Cirrhosis (一)〉；消化性潰瘍與 H. pylori 見〈Esophagus／Peptic Ulcer〉〈H. pylori〉；輸血與大量輸血見〈輸血〉；抗凝血劑反轉見〈出血〉；低血壓見〈On Call: 低血壓與休克〉。"
+        }
+      ]
+    }
+  ]
+}
