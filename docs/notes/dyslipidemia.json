@@ -5,7 +5,7 @@
   "title_zh": "高血脂：脂蛋白代謝、原發與續發性血脂異常、風險分層與治療",
   "specialty": "新陳代謝科",
   "sources": [
-    "Harrison's 22e - Ch.419 Disorders of Lipoprotein Metabolism (p.3280-3295)",
+    "Harrison's 22e - Ch.419 Disorders of Lipoprotein Metabolism (p.3237-3252)",
     "First Choice 醫學(三) 第1冊 - 乙、高血脂 (p.41-54，考題 16 題)；第2冊 - 己、脂肪代謝異常 (p.338-341)",
     "補充：2026 ACC/AHA/AACVPR/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Dyslipidemia (Blumenthal RS, Morris PB et al. JACC 2026;87:2624-2757；Circulation 2026)——於 jacc.org 全文閱讀"
   ],
@@ -135,7 +135,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3280-3281"
+          "pages": "3237-3238"
         },
         {
           "type": "source",
@@ -217,7 +217,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3281-3282"
+          "pages": "3238-3239"
         },
         {
           "type": "source",
@@ -285,7 +285,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3282、3288"
+          "pages": "3239、3245"
         },
         {
           "type": "source",
@@ -429,7 +429,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3283-3292"
+          "pages": "3240-3249"
         },
         {
           "type": "source",
@@ -534,7 +534,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3285、3289-3290"
+          "pages": "3242、3246-3247"
         },
         {
           "type": "source",
@@ -690,7 +690,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3293-3294"
+          "pages": "3250-3251"
         },
         {
           "type": "source",
@@ -741,7 +741,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3283、3293"
+          "pages": "3240、3250"
         },
         {
           "type": "source",
@@ -875,7 +875,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3287、3293-3295"
+          "pages": "3244、3250-3252"
         },
         {
           "type": "source",
@@ -940,7 +940,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3283-3285、3292-3293"
+          "pages": "3240-3242、3249-3250"
         },
         {
           "type": "source",
@@ -1010,7 +1010,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3283、3286、3289、3294-3295"
+          "pages": "3240、3243、3246、3251-3252"
         },
         {
           "type": "source",

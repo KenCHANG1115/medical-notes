@@ -5,7 +5,7 @@
   "title_zh": "慢性腎臟病",
   "specialty": "腎臟內科",
   "sources": [
-    "Harrison's 22e - Ch.322 Chronic Kidney Disease (p.2428-2440)",
+    "Harrison's 22e - Ch.322 Chronic Kidney Disease (p.2385-2397)",
     "First Choice 醫學(三) 第3冊 - 戊、慢性腎臟病 (講義 p.131-135；考題 p.136-141)",
     "First Choice 醫學(三) 第3冊 - 丁、腎臟疾病各論 E. 腎動脈狹窄 (p.125-128) 與 A 腎絲球疾病 102 年題 (p.111-112)，本篇共 19 題"
   ],
@@ -232,7 +232,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2428-2431"
+          "pages": "2385-2388"
         }
       ]
     },
@@ -464,7 +464,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2428-2432, 2437-2439"
+          "pages": "2385-2389, 2394-2396"
         }
       ]
     },
@@ -627,7 +627,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2434-2435, 2438-2439"
+          "pages": "2391-2392, 2395-2396"
         }
       ]
     },
@@ -711,7 +711,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2432-2433"
+          "pages": "2389-2390"
         }
       ]
     },
@@ -886,7 +886,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2433-2434"
+          "pages": "2390-2391"
         }
       ]
     },
@@ -1098,7 +1098,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2434-2437, 2440"
+          "pages": "2391-2394, 2397"
         }
       ]
     },
@@ -1134,7 +1134,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2440-2444, 2448-2453"
+          "pages": "2397-2401, 2405-2410"
         }
       ]
     },

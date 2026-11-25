@@ -5,7 +5,7 @@
   "title_zh": "心包膜疾病：構造與分類、病因（含尿毒症）、急性心包膜炎表現、心電圖與診斷、治療與復發、心包積液與填塞、縮窄性心包膜炎、填塞／縮窄／限制型心肌症鑑別與心導管",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.281 Pericardial Disease (p.2121-2127)；Ch.249 Table 249-3 心導管鑑別",
+    "Harrison's 22e - Ch.281 Pericardial Disease (p.2078-2084)；Ch.249 Table 249-3 心導管鑑別",
     "First Choice 醫學(三) 第1冊 - 辛、心包疾病 (p.244-251，考題 11 題全收)；第3冊 - 緊急透析 AEIOU (p.88)、尿毒症心包膜炎考題 (p.150)",
     "補充：Wang TKM et al. 2025 Concise Clinical Guidance: An ACC Expert Consensus Statement on the Diagnosis and Management of Pericarditis. J Am Coll Cardiol 2025;86:2691-2719 (doi:10.1016/j.jacc.2025.05.023)——於 jacc.org 全文閱讀；專家共識，非 ACC/AHA 正式指引；建議只分建議／合理／不建議，藥物表另標 LOE A–C；作者與 IL-1 拮抗劑藥廠的利益關係見附錄 1",
     "補充：rilonacept（Arcalyst）、anakinra（Kineret）FDA 適應症——DailyMed 仿單查證"
@@ -69,7 +69,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.281 p.2121-2122、2125（Table 281-1）"
+          "pages": "Ch.281 p.2078-2079、2082（Table 281-1）"
         },
         {
           "type": "source",
@@ -125,7 +125,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.281 p.2121-2123（Fig. 281-1、281-2、281-3）"
+          "pages": "Ch.281 p.2078-2080（Fig. 281-1、281-2、281-3）"
         },
         {
           "type": "source",
@@ -160,7 +160,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.281 p.2122-2123"
+          "pages": "Ch.281 p.2079-2080"
         },
         {
           "type": "source",
@@ -190,7 +190,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.281 p.2124-2126"
+          "pages": "Ch.281 p.2081-2083"
         },
         {
           "type": "source",
@@ -232,7 +232,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.281 p.2126-2127（Fig. 281-4）"
+          "pages": "Ch.281 p.2083-2084（Fig. 281-4）"
         },
         {
           "type": "source",
@@ -425,7 +425,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.281 p.2124（Table 281-2）；Ch.249 Table 249-3"
+          "pages": "Ch.281 p.2081（Table 281-2）；Ch.249 Table 249-3"
         },
         {
           "type": "source",

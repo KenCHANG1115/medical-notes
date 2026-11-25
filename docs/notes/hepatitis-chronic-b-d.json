@@ -5,7 +5,7 @@
   "title_zh": "病毒性肝炎（二）：慢性肝炎分級分期、慢性 B 肝自然病程、抗病毒藥物、治療時機（Harrison、AASLD 2025、健保）、停藥與肝癌篩檢、懷孕與免疫抑制、慢性 D 型肝炎",
   "specialty": "肝膽腸胃內科",
   "sources": [
-    "Harrison's 22e - Ch.352 Chronic Hepatitis：總論、慢性 B 肝、慢性 D 肝 (p.2716-2727)",
+    "Harrison's 22e - Ch.352 Chronic Hepatitis：總論、慢性 B 肝、慢性 D 肝 (p.2673-2684)",
     "First Choice 醫學(三) 第2冊 - 丁、肝炎 B 型肝炎自然病程、健保給付、藥物 (p.110-114)；考題 (p.118-122、129)",
     "補充：Ghany MG et al. AASLD IDSA Practice Guideline on treatment of chronic hepatitis B. Hepatology 2026;83:974-997 (doi:10.1097/HEP.0000000000001549)——於 journals.lww.com 全文閱讀；GRADE 方法，6 個 PICO 問題，其餘沿用 AASLD 2018",
     "補充：衛生福利部中央健康保險署 藥品給付規定 第10節 10.7.3（114 年 6 月 1 日生效）及 114-05-08 修訂對照表（健保審字第1140671088號）——於 nhi.gov.tw 原文閱讀；健保給付規定，非臨床指引"
@@ -90,7 +90,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.352 p.2716-2717（Table 352-1、352-2）"
+          "pages": "Ch.352 p.2673-2674（Table 352-1、352-2）"
         },
         {
           "type": "source",
@@ -206,7 +206,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.352 p.2716-2718"
+          "pages": "Ch.352 p.2673-2675"
         },
         {
           "type": "source",
@@ -371,7 +371,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.352 p.2718-2724、2726（Table 352-3、352-5、Fig. 352-1）"
+          "pages": "Ch.352 p.2675-2681、2683（Table 352-3、352-5、Fig. 352-1）"
         },
         {
           "type": "source",
@@ -564,7 +564,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.352 p.2724-2725（Table 352-4）"
+          "pages": "Ch.352 p.2681-2682（Table 352-4）"
         },
         {
           "type": "source",
@@ -663,7 +663,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.352 p.2725"
+          "pages": "Ch.352 p.2682"
         },
         {
           "type": "source",
@@ -797,7 +797,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.352 p.2726-2727"
+          "pages": "Ch.352 p.2683-2684"
         },
         {
           "type": "source",
@@ -870,7 +870,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.352 p.2727"
+          "pages": "Ch.352 p.2684"
         },
         {
           "type": "source",

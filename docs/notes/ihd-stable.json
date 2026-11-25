@@ -5,7 +5,7 @@
   "title_zh": "冠心症（一）：缺血病生理與動脈粥狀硬化、典型心絞痛與 CCS 分級、檢查選擇、運動心電圖、核醫與 PET 判讀、心導管、抗心絞痛藥物、抗血小板與危險因子控制、PCI vs CABG",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.284 Ischemic Heart Disease (p.2133-2149)",
+    "Harrison's 22e - Ch.284 Ischemic Heart Disease (p.2090-2106)",
     "First Choice 醫學(三) 第1冊 - 丙、缺血性心臟病 A–C (p.57-64)；考題 (p.79-113，本篇收錄 31 題)",
     "補充：2023 AHA/ACC/ACCP/ASPC/NLA/PCNA Guideline for the Management of Patients With Chronic Coronary Disease (Virani SS et al. JACC 2023;82:833-955)——於 jacc.org 全文閱讀；2026 ACC/AHA 血脂指引（LDL 目標）"
   ],
@@ -75,7 +75,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.284 p.2133-2135（Fig. 284-1、284-2）"
+          "pages": "Ch.284 p.2090-2092（Fig. 284-1、284-2）"
         },
         {
           "type": "source",
@@ -125,7 +125,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.284 p.2135-2137（Table 284-1）"
+          "pages": "Ch.284 p.2092-2094（Table 284-1）"
         },
         {
           "type": "source",
@@ -157,7 +157,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.284 p.2137-2140（Fig. 284-3）"
+          "pages": "Ch.284 p.2094-2097（Fig. 284-3）"
         },
         {
           "type": "source",
@@ -199,7 +199,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.284 p.2137、2141"
+          "pages": "Ch.284 p.2094、2098"
         },
         {
           "type": "source",
@@ -253,7 +253,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.284 p.2137-2141、2147-2148（Fig. 284-3）"
+          "pages": "Ch.284 p.2094-2098、2104-2105（Fig. 284-3）"
         },
         {
           "type": "source",
@@ -295,7 +295,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.284 p.2141-2143（Fig. 284-4）"
+          "pages": "Ch.284 p.2098-2100（Fig. 284-4）"
         },
         {
           "type": "source",
@@ -354,7 +354,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.284 p.2143-2146（Table 284-4～284-6）"
+          "pages": "Ch.284 p.2100-2103（Table 284-4～284-6）"
         },
         {
           "type": "source",
@@ -389,7 +389,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.284 p.2145-2146"
+          "pages": "Ch.284 p.2102-2103"
         },
         {
           "type": "source",
@@ -456,7 +456,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.284 p.2146-2149（Fig. 284-5）"
+          "pages": "Ch.284 p.2103-2106（Fig. 284-5）"
         },
         {
           "type": "source",

@@ -5,8 +5,8 @@
   "title_zh": "貧血（三）：正球性貧血——溶血與骨髓衰竭",
   "specialty": "血液腫瘤科",
   "sources": [
-    "Harrison's 22e - Ch.105 Hemolytic Anemias (p.834-849)",
-    "Harrison's 22e - Ch.106 Anemia Due to Acute Blood Loss (p.850-851)；Ch.107 Bone Marrow Failure Syndromes Including Aplastic Anemia and Myelodysplasia (p.851-861)",
+    "Harrison's 22e - Ch.105 Hemolytic Anemias (p.791-806)",
+    "Harrison's 22e - Ch.106 Anemia Due to Acute Blood Loss (p.807-808)；Ch.107 Bone Marrow Failure Syndromes Including Aplastic Anemia and Myelodysplasia (p.808-818)",
     "First Choice 醫學(三) 第4冊 - 甲、貧血 E. 正球性貧血（講義 p.159–167；題目 p.168–178），本篇共 11 題",
     "補充：FDA 仿單 Soliris (eculizumab)（DailyMed）——腦膜炎雙球菌感染框警語與疫苗接種"
   ],
@@ -147,7 +147,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "850-851"
+          "pages": "807-808"
         },
         {
           "type": "source",
@@ -280,12 +280,12 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "834-835、844"
+          "pages": "791-792、801"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "834-835"
+          "pages": "791-792"
         },
         {
           "type": "source",
@@ -479,12 +479,12 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "835-838"
+          "pages": "792-795"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "838-843"
+          "pages": "795-800"
         },
         {
           "type": "source",
@@ -590,7 +590,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "847-849"
+          "pages": "804-806"
         },
         {
           "type": "source",
@@ -711,7 +711,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "844-847"
+          "pages": "801-804"
         },
         {
           "type": "source",
@@ -771,7 +771,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "851"
+          "pages": "808"
         },
         {
           "type": "source",
@@ -1080,17 +1080,17 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "851-854"
+          "pages": "808-811"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "854-856"
+          "pages": "811-813"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "856-858"
+          "pages": "813-815"
         },
         {
           "type": "source",
@@ -1292,7 +1292,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "858-861"
+          "pages": "815-818"
         },
         {
           "type": "source",
@@ -1302,7 +1302,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "861"
+          "pages": "818"
         },
         {
           "type": "source",

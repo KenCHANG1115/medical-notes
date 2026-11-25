@@ -5,8 +5,8 @@
   "title_zh": "貧血（一）：總論與小球性貧血",
   "specialty": "血液腫瘤科",
   "sources": [
-    "Harrison's 22e - Ch.65 Interpreting Peripheral Blood Smears (p.480-486); Ch.66 Anemia and Polycythemia (p.486-495); Ch.101 Hematopoietic Stem Cells (p.801-804)",
-    "Harrison's 22e - Ch.102 Iron Deficiency and Other Acquired Anemias (p.805-812); Ch.103 Disorders of Hemoglobin (p.812-822)",
+    "Harrison's 22e - Ch.65 Interpreting Peripheral Blood Smears (p.437-443); Ch.66 Anemia and Polycythemia (p.443-452); Ch.101 Hematopoietic Stem Cells (p.758-761)",
+    "Harrison's 22e - Ch.102 Iron Deficiency and Other Acquired Anemias (p.762-769); Ch.103 Disorders of Hemoglobin (p.769-779)",
     "First Choice 醫學(三) 第4冊 - 甲、貧血 A–C（講義 p.150–157；題目 p.171–177），本篇共 9 題"
   ],
   "generated": "2026-10-01",
@@ -186,17 +186,17 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "486-488, 491-493"
+          "pages": "443-445, 448-450"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "487"
+          "pages": "444"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "486-487, 801-803"
+          "pages": "443-444, 758-760"
         }
       ]
     },
@@ -455,17 +455,17 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "480, 487-490, 492"
+          "pages": "437, 444-447, 449"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "480-486, 488-490"
+          "pages": "437-443, 445-447"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "490-491"
+          "pages": "447-448"
         }
       ]
     },
@@ -589,17 +589,17 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "491-494"
+          "pages": "448-451"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "493"
+          "pages": "450"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "493-495"
+          "pages": "450-452"
         }
       ]
     },
@@ -1043,12 +1043,12 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "805-808"
+          "pages": "762-765"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "806-810"
+          "pages": "763-767"
         }
       ]
     },
@@ -1152,7 +1152,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "807-812"
+          "pages": "764-769"
         }
       ]
     },
@@ -1534,22 +1534,22 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "812-814"
+          "pages": "769-771"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "819-821"
+          "pages": "776-778"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "821-822"
+          "pages": "778-779"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "815-819, 822"
+          "pages": "772-776, 779"
         }
       ]
     },
@@ -1684,7 +1684,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "810, 820, 822"
+          "pages": "767, 777, 779"
         }
       ]
     },

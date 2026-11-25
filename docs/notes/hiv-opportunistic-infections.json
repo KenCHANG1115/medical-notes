@@ -5,7 +5,7 @@
   "title_zh": "HIV 伺機性感染與併發症",
   "specialty": "感染科",
   "sources": [
-    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders（CD4 與伺機性疾病、預防 Table 208-11、各器官系統疾病、IRIS、腫瘤 p.1633-1657）；Ch.221 Cryptococcosis (p.1706)",
+    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders（CD4 與伺機性疾病、預防 Table 208-11、各器官系統疾病、IRIS、腫瘤 p.1590-1614）；Ch.221 Cryptococcosis (p.1706)",
     "First Choice 醫學(三) 第3冊 - 壬、愛滋病（講義 p.319-324；考題 p.327-328）、子、原蟲 題目 p.351-352（隱球菌 2 題），本篇共 4 題"
   ],
   "generated": "2026-10-03",
@@ -189,7 +189,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1633-1634、1638-1639"
+          "pages": "1590-1591、1595-1596"
         },
         {
           "type": "source",
@@ -199,7 +199,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1636-1638"
+          "pages": "1593-1595"
         },
         {
           "type": "source",
@@ -380,7 +380,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1638-1641、1646"
+          "pages": "1595-1598、1603"
         },
         {
           "type": "source",
@@ -550,7 +550,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1649-1653"
+          "pages": "1606-1610"
         },
         {
           "type": "source",
@@ -688,7 +688,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1640、1653-1654"
+          "pages": "1597、1610-1611"
         },
         {
           "type": "source",
@@ -834,7 +834,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1641-1644"
+          "pages": "1598-1601"
         },
         {
           "type": "source",
@@ -978,7 +978,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1654-1657"
+          "pages": "1611-1614"
         },
         {
           "type": "source",
@@ -1094,7 +1094,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1641、1644-1649"
+          "pages": "1598、1601-1606"
         }
       ]
     },
@@ -1180,7 +1180,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1640-1641、1647、1650、1658、1664"
+          "pages": "1597-1598、1604、1607、1615、1621"
         }
       ]
     },

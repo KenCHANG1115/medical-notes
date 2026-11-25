@@ -5,7 +5,7 @@
   "title_zh": "泌尿道感染",
   "specialty": "感染科",
   "sources": [
-    "Harrison's 22e - Ch.140 Urinary Tract Infections: Cystitis, Prostatitis, and Pyelonephritis (p.1129-1138)",
+    "Harrison's 22e - Ch.140 Urinary Tract Infections: Cystitis, Prostatitis, and Pyelonephritis (p.1086-1095)",
     "First Choice 醫學(三) 第3冊 - 丁、泌尿道感染 (講義 p.201-202；考題 p.202-206)，本篇共 8 題",
     "IDSA 2025 Guideline on Complicated Urinary Tract Infections (Trautner et al., 2025-07-17) — 📌 分類、療程、經驗性選藥",
     "IDSA 2019 Asymptomatic Bacteriuria Guideline（FC 講義引用）"
@@ -113,7 +113,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1129, 1132, 1135"
+          "pages": "1086, 1089, 1092"
         }
       ]
     },
@@ -338,12 +338,12 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1129-1130, 1134"
+          "pages": "1086-1087, 1091"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1130-1131"
+          "pages": "1087-1088"
         },
         {
           "type": "source",
@@ -523,7 +523,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1133-1135, 1138"
+          "pages": "1090-1092, 1095"
         }
       ]
     },
@@ -663,7 +663,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1132, 1135-1137"
+          "pages": "1089, 1092-1094"
         }
       ]
     },
@@ -817,7 +817,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1132-1133, 1137-1138"
+          "pages": "1089-1090, 1094-1095"
         },
         {
           "type": "source",
@@ -906,7 +906,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1130, 1132, 1137"
+          "pages": "1087, 1089, 1094"
         }
       ]
     },
@@ -1003,7 +1003,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1133, 1137-1138"
+          "pages": "1090, 1094-1095"
         }
       ]
     },
@@ -1096,12 +1096,12 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1129, 1131, 1135, 1137-1138"
+          "pages": "1086, 1088, 1092, 1094-1095"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1130, 1138"
+          "pages": "1087, 1095"
         }
       ]
     },
@@ -1201,7 +1201,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1130, 1133-1134"
+          "pages": "1087, 1090-1091"
         }
       ]
     },

@@ -5,7 +5,7 @@
   "title_zh": "冠心症（三）：STEMI 表現、心電圖與定位、初步處置、primary PCI 與血栓溶解（禁忌、TIMI）、住院藥物、Killip 與心因性休克（IABP）、右心室梗塞、心律不整、機械性併發症與 Dressler、出院與 PCI",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.286 ST-Segment Elevation Myocardial Infarction (p.2156-2169)；Ch.287 Percutaneous Coronary Interventions (p.2169-2175，重點)",
+    "Harrison's 22e - Ch.286 ST-Segment Elevation Myocardial Infarction (p.2113-2126)；Ch.287 Percutaneous Coronary Interventions (p.2126-2132，重點)",
     "First Choice 醫學(三) 第1冊 - 丙、缺血性心臟病 F STEMI 治療與併發症 (p.74-79)；考題 (p.79-113，本篇收錄 20 題)",
     "補充：2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes (Rao SV et al. JACC 2025;85:2135-2237)——於 jacc.org 全文閱讀"
   ],
@@ -76,7 +76,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2156-2158、2160"
+          "pages": "Ch.286 p.2113-2115、2117"
         },
         {
           "type": "source",
@@ -126,7 +126,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2158-2162（Table 286-2）"
+          "pages": "Ch.286 p.2115-2119（Table 286-2）"
         },
         {
           "type": "source",
@@ -156,7 +156,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2160-2162"
+          "pages": "Ch.286 p.2117-2119"
         },
         {
           "type": "source",
@@ -244,7 +244,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2162-2163（Fig. 286-5）；Ch.287 p.2173"
+          "pages": "Ch.286 p.2119-2120（Fig. 286-5）；Ch.287 p.2130"
         },
         {
           "type": "source",
@@ -274,7 +274,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2163-2165"
+          "pages": "Ch.286 p.2120-2122"
         },
         {
           "type": "source",
@@ -304,7 +304,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2165-2166；Ch.287 p.2175"
+          "pages": "Ch.286 p.2122-2123；Ch.287 p.2132"
         },
         {
           "type": "source",
@@ -334,7 +334,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2166、2168"
+          "pages": "Ch.286 p.2123、2125"
         },
         {
           "type": "source",
@@ -366,7 +366,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2166-2168（Fig. 286-6）"
+          "pages": "Ch.286 p.2123-2125（Fig. 286-6）"
         },
         {
           "type": "source",
@@ -396,7 +396,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2165、2168（Table 286-3）"
+          "pages": "Ch.286 p.2122、2125（Table 286-3）"
         },
         {
           "type": "source",
@@ -428,7 +428,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.286 p.2168-2169；Ch.287 p.2169-2172（Fig. 287-1）"
+          "pages": "Ch.286 p.2125-2126；Ch.287 p.2126-2129（Fig. 287-1）"
         },
         {
           "type": "source",

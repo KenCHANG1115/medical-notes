@@ -5,7 +5,7 @@
   "title_zh": "心衰竭（二）：HFrEF 四大支柱（ARNI／ACEI／ARB、β 阻斷劑、MRA、SGLT2 抑制劑）、利尿劑、劑量與藥物動力學、其他藥物與要避免的藥、共病（缺鐵、AF）、ICD 與 CRT、手術與晚期心衰竭",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.265 Heart Failure: Management — HFrEF 部分 (p.2035-2043)",
+    "Harrison's 22e - Ch.265 Heart Failure: Management — HFrEF 部分 (p.1992-2000)",
     "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 K–L (p.256-262)；考題 (p.262-271，本篇收錄 11 題)；戊、瓣膜性心臟病考題 (p.221，1 題)",
     "補充：2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (Heidenreich PA et al. JACC 2022;79:e263-e421)——於 jacc.org 全文閱讀"
   ],
@@ -80,7 +80,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2035-2037（Fig. 265-3）"
+          "pages": "Ch.265 p.1992-1994（Fig. 265-3）"
         },
         {
           "type": "source",
@@ -110,7 +110,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2039"
+          "pages": "Ch.265 p.1996"
         },
         {
           "type": "source",
@@ -140,7 +140,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2037-2038"
+          "pages": "Ch.265 p.1994-1995"
         },
         {
           "type": "source",
@@ -170,7 +170,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2037"
+          "pages": "Ch.265 p.1994"
         },
         {
           "type": "source",
@@ -205,7 +205,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2037、2039"
+          "pages": "Ch.265 p.1994、1996"
         },
         {
           "type": "source",
@@ -235,7 +235,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2037-2038（Table 265-2）"
+          "pages": "Ch.265 p.1994-1995（Table 265-2）"
         },
         {
           "type": "source",
@@ -270,7 +270,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2037-2041"
+          "pages": "Ch.265 p.1994-1998"
         },
         {
           "type": "source",
@@ -300,7 +300,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2040-2041"
+          "pages": "Ch.265 p.1997-1998"
         },
         {
           "type": "source",
@@ -335,7 +335,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2041-2042（Table 265-3）"
+          "pages": "Ch.265 p.1998-1999（Table 265-3）"
         },
         {
           "type": "source",
@@ -365,7 +365,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2042-2043"
+          "pages": "Ch.265 p.1999-2000"
         },
         {
           "type": "source",

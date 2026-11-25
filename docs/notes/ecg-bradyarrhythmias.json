@@ -5,7 +5,7 @@
   "title_zh": "心電圖（二）：心律不整機轉與抗心律不整藥分類、緩脈的急性處理與可逆原因、竇房結失能、房室傳導阻滯（分級、位置、原因）、永久節律器",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.250 Principles of Clinical Cardiac Electrophysiology (p.1953-1960)；Ch.251 Disorders of the Sinoatrial Node (p.1960-1967)；Ch.252 Disorders of the Atrioventricular Node (p.1967-1975)",
+    "Harrison's 22e - Ch.250 Principles of Clinical Cardiac Electrophysiology (p.1910-1917)；Ch.251 Disorders of the Sinoatrial Node (p.1917-1924)；Ch.252 Disorders of the Atrioventricular Node (p.1924-1932)",
     "First Choice 醫學(三) 第1冊 - 丁、E. 心搏過緩 (p.158-162)；J. 心律不整藥物 (p.184-188)；考題 (p.128-132、160-161，本篇收錄 9 題)",
     "補充：AHA 2025 成人進階心臟救命術指引——心搏過緩流程（atropine、dopamine、epinephrine 輸注、經皮節律）"
   ],
@@ -155,7 +155,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1953-1959"
+          "pages": "1910-1916"
         },
         {
           "type": "source",
@@ -248,7 +248,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1963、1972"
+          "pages": "1920、1929"
         },
         {
           "type": "source",
@@ -420,7 +420,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1960-1967"
+          "pages": "1917-1924"
         },
         {
           "type": "source",
@@ -573,7 +573,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1967-1972"
+          "pages": "1924-1929"
         },
         {
           "type": "source",
@@ -660,7 +660,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1966-1967、1972-1974"
+          "pages": "1923-1924、1929-1931"
         },
         {
           "type": "source",

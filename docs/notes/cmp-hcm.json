@@ -5,7 +5,7 @@
   "title_zh": "心肌病變（一）：心肌症分類與遺傳、HCM 定義與病生理（LVOTO、SAM）、動態聽診、診斷與模仿者、治療（β 阻斷劑、CCB、mavacamten、SRT、要避免的藥）、猝死與 ICD、運動、遺傳性 DCM、ARVC 與儲積病",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.266 Classification of Cardiomyopathy (p.2044-2046)；Ch.267 Genetic Cardiomyopathies (p.2046-2053)；Ch.44 動態聽診 (p.332)；Ch.260 ARVC 心電圖 (p.2004)、HCM 猝死危險因子 (p.2014)",
+    "Harrison's 22e - Ch.266 Classification of Cardiomyopathy (p.2001-2003)；Ch.267 Genetic Cardiomyopathies (p.2003-2010)；Ch.44 動態聽診 (p.289)；Ch.260 ARVC 心電圖 (p.1961)、HCM 猝死危險因子 (p.1971)",
     "First Choice 醫學(三) 第1冊 - 庚、心肌症 B 肥厚性心肌病 (p.236-237)；考題 (p.238-242，本篇收錄 6 題)",
     "補充：2024 AHA/ACC/AMSSM/HRS/PACES/SCMR Guideline for the Management of Hypertrophic Cardiomyopathy (Ommen SR et al. JACC 2024;83(23):2324-2405, doi:10.1016/j.jacc.2024.02.014)——於 jacc.org 全文閱讀"
   ],
@@ -93,7 +93,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.266 p.2044-2046；Ch.267 p.2046-2048（Fig. 267-1）"
+          "pages": "Ch.266 p.2001-2003；Ch.267 p.2003-2005（Fig. 267-1）"
         }
       ]
     },
@@ -160,7 +160,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.267 p.2048-2049（Fig. 267-2、267-3、267-4）"
+          "pages": "Ch.267 p.2005-2006（Fig. 267-2、267-3、267-4）"
         },
         {
           "type": "source",
@@ -276,7 +276,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.267 p.2049-2050；Ch.44 p.332（動態聽診）"
+          "pages": "Ch.267 p.2006-2007；Ch.44 p.289（動態聽診）"
         },
         {
           "type": "source",
@@ -357,7 +357,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.267 p.2050-2051（Fig. 267-5）"
+          "pages": "Ch.267 p.2007-2008（Fig. 267-5）"
         },
         {
           "type": "source",
@@ -451,7 +451,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.267 p.2051（Table 267-2）"
+          "pages": "Ch.267 p.2008（Table 267-2）"
         },
         {
           "type": "source",
@@ -498,7 +498,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.267 p.2051-2053（Fig. 267-9）；Ch.260 p.2004"
+          "pages": "Ch.267 p.2008-2010（Fig. 267-9）；Ch.260 p.1961"
         }
       ]
     },

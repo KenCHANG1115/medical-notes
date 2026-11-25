@@ -5,7 +5,7 @@
   "title_zh": "瓣膜性心臟病（二）：主動脈瓣狹窄（病生理、症狀與存活、檢查、分期、TAVI vs SAVR）、雙葉主動脈瓣、主動脈瓣逆流（急性 vs 慢性、周邊徵象、手術時機）",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.272 Aortic Stenosis (p.2076-2085)；Ch.273 Aortic Regurgitation (p.2086-2090)",
+    "Harrison's 22e - Ch.272 Aortic Stenosis (p.2033-2042)；Ch.273 Aortic Regurgitation (p.2043-2047)",
     "First Choice 醫學(三) 第1冊 - 戊、瓣膜性心臟病 H 主動脈瓣狹窄、I 主動脈瓣逆流 (p.195、200-203)；考題 (p.204-220，本篇收錄 9 題)",
     "補充：2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Otto CM et al. JACC 2021;77:e25-e197, doi:10.1016/j.jacc.2020.11.018) 第 3–5 章——於 jacc.org 全文閱讀，仍為現行版"
   ],
@@ -102,7 +102,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2076-2079、2086"
+          "pages": "2033-2036、2043"
         },
         {
           "type": "source",
@@ -147,7 +147,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2078-2080"
+          "pages": "2035-2037"
         },
         {
           "type": "source",
@@ -255,7 +255,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2080-2081"
+          "pages": "2037-2038"
         },
         {
           "type": "source",
@@ -342,7 +342,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2081-2083"
+          "pages": "2038-2040"
         },
         {
           "type": "source",
@@ -478,7 +478,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2081-2085"
+          "pages": "2038-2042"
         },
         {
           "type": "source",
@@ -513,7 +513,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2078-2079"
+          "pages": "2035-2036"
         },
         {
           "type": "source",
@@ -578,7 +578,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2086"
+          "pages": "2043"
         },
         {
           "type": "source",
@@ -719,7 +719,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2086-2088"
+          "pages": "2043-2045"
         },
         {
           "type": "source",
@@ -776,7 +776,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2088-2090"
+          "pages": "2045-2047"
         },
         {
           "type": "source",

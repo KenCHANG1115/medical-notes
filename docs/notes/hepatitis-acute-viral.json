@@ -5,7 +5,7 @@
   "title_zh": "病毒性肝炎（一）：五種肝炎病毒、各病毒特性（B 肝構造、變異、基因型）、肝外表現、臨床與檢驗、血清學判讀、猛爆性肝炎與慢性化、急性肝炎治療、A 與 B 肝預防",
   "specialty": "肝膽腸胃內科",
   "sources": [
-    "Harrison's 22e - Ch.350 Acute Viral Hepatitis (p.2686-2707)",
+    "Harrison's 22e - Ch.350 Acute Viral Hepatitis (p.2643-2664)",
     "First Choice 醫學(三) 第2冊 - 丁、肝炎 A. 病毒性肝炎 (p.109-117)；考題 (p.117-129)",
     "補充：台灣疾病管制署官網（官方政策，非臨床指引）——「B型肝炎疫苗」頁；「A型肝炎疫苗」頁（2025-01-02 更新）；2019-06-25 新聞稿「預防B肝母嬰垂直感染再升級，公費B型肝炎免疫球蛋白(HBIG)實施對象擴及母親為B型肝炎表面抗原陽性的新生兒」——皆於 cdc.gov.tw 原文閱讀"
   ],
@@ -243,7 +243,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.350 p.2686-2688、2695（Table 350-1、350-2）"
+          "pages": "Ch.350 p.2643-2645、2652（Table 350-1、350-2）"
         },
         {
           "type": "source",
@@ -373,7 +373,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.350 p.2686-2692、2694-2698"
+          "pages": "Ch.350 p.2643-2649、2651-2655"
         },
         {
           "type": "source",
@@ -432,7 +432,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.350 p.2692-2694、2702-2703"
+          "pages": "Ch.350 p.2649-2651、2659-2660"
         },
         {
           "type": "source",
@@ -544,7 +544,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.350 p.2698-2699、2703"
+          "pages": "Ch.350 p.2655-2656、2660"
         },
         {
           "type": "source",
@@ -825,7 +825,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.350 p.2688-2691、2699-2702（Table 350-5、350-6）"
+          "pages": "Ch.350 p.2645-2648、2656-2659（Table 350-5、350-6）"
         },
         {
           "type": "source",
@@ -917,7 +917,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.350 p.2702-2703"
+          "pages": "Ch.350 p.2659-2660"
         },
         {
           "type": "source",
@@ -1068,7 +1068,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.350 p.2694-2698、2704-2707（Table 350-3、350-4、350-7、350-8）"
+          "pages": "Ch.350 p.2651-2655、2661-2664（Table 350-3、350-4、350-7、350-8）"
         },
         {
           "type": "source",

@@ -5,7 +5,7 @@
   "title_zh": "瓣膜性心臟病（三）：急性風濕熱與 Jones 準則、二尖瓣狹窄（病因、聽診、AF、PMBC、懷孕）、二尖瓣逆流（急性 vs 慢性、手術時機、TEER）、二尖瓣脫垂",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.371 Acute Rheumatic Fever (p.2897-2901)；Ch.274 Mitral Stenosis (p.2091-2095)；Ch.275 Mitral Regurgitation (p.2095-2100)；Ch.276 Mitral Valve Prolapse (p.2100-2102)；Ch.44 (p.330)",
+    "Harrison's 22e - Ch.371 Acute Rheumatic Fever (p.2854-2858)；Ch.274 Mitral Stenosis (p.2048-2052)；Ch.275 Mitral Regurgitation (p.2052-2057)；Ch.276 Mitral Valve Prolapse (p.2057-2059)；Ch.44 (p.287)",
     "First Choice 醫學(三) 第1冊 - 戊、瓣膜性心臟病 F 僧帽瓣狹窄、G 僧帽瓣逆流與脫垂 (p.195-200)；考題 (p.210-217，本篇收錄 11 題)",
     "補充：2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Otto CM et al. JACC 2021;77:e25-e197, doi:10.1016/j.jacc.2020.11.018) 第 2.4、6、7 章——於 jacc.org 全文閱讀，仍為現行版；Jones 準則依 Harrison 引用之 AHA 2015 修訂版"
   ],
@@ -209,7 +209,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.371 p.2897-2901"
+          "pages": "Ch.371 p.2854-2858"
         },
         {
           "type": "source",
@@ -409,7 +409,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2091-2093"
+          "pages": "2048-2050"
         },
         {
           "type": "source",
@@ -514,7 +514,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2093-2095"
+          "pages": "2050-2052"
         },
         {
           "type": "source",
@@ -609,7 +609,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2095-2097"
+          "pages": "2052-2054"
         },
         {
           "type": "source",
@@ -714,7 +714,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2096-2097"
+          "pages": "2053-2054"
         },
         {
           "type": "source",
@@ -813,7 +813,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2097-2100"
+          "pages": "2054-2057"
         },
         {
           "type": "source",
@@ -893,7 +893,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2100-2102"
+          "pages": "2057-2059"
         },
         {
           "type": "source",

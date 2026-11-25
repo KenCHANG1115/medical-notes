@@ -5,8 +5,8 @@
   "title_zh": "甲狀腺結節與甲狀腺癌",
   "specialty": "新陳代謝科",
   "sources": [
-    "Harrison's 22e - Ch.397 Thyroid Nodular Disease and Thyroid Cancer (p.3083-3093)",
-    "Harrison's 22e - Ch.400 Multiple Endocrine Neoplasia：Table 400-1、400-4 與髓質癌段落 (p.3123-3130)",
+    "Harrison's 22e - Ch.397 Thyroid Nodular Disease and Thyroid Cancer (p.3040-3050)",
+    "Harrison's 22e - Ch.400 Multiple Endocrine Neoplasia：Table 400-1、400-4 與髓質癌段落 (p.3080-3087)",
     "First Choice 醫學(三) 第2冊 - 乙、甲狀腺疾病：D. 甲狀腺結節、E. 甲狀腺癌 (p.246-254；考題 14 題)"
   ],
   "generated": "2026-10-04",
@@ -85,7 +85,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3083、3088、3091"
+          "pages": "3040、3045、3048"
         }
       ]
     },
@@ -286,7 +286,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3070、3085-3088、3091-3092"
+          "pages": "3027、3042-3045、3048-3049"
         },
         {
           "type": "source",
@@ -382,7 +382,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3087、3091-3093"
+          "pages": "3044、3048-3050"
         },
         {
           "type": "source",
@@ -497,7 +497,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3083-3085、3087"
+          "pages": "3040-3042、3044"
         },
         {
           "type": "source",
@@ -740,7 +740,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3069、3088-3091"
+          "pages": "3026、3045-3048"
         },
         {
           "type": "source",
@@ -908,7 +908,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3063、3089、3091、3123-3130"
+          "pages": "3020、3046、3048、3080-3087"
         },
         {
           "type": "source",
@@ -1026,7 +1026,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3089、3091"
+          "pages": "3046、3048"
         },
         {
           "type": "source",

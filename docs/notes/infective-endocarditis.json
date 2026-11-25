@@ -5,7 +5,7 @@
   "title_zh": "感染性心內膜炎：急性與亞急性、致病菌（人工瓣、PWID、入侵途徑、Q 熱）、臨床表現、血液培養與 Duke 準則、TTE／TEE、依菌種抗生素、手術適應症與時機、併發症與預後、預防",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.133 Infective Endocarditis (p.1079-1091)",
+    "Harrison's 22e - Ch.133 Infective Endocarditis (p.1036-1048)",
     "First Choice 醫學(三) 第1冊 - 己、細菌性心內膜炎 (p.222-233，考題 8 題全收)；第3冊 - 腎絲球腎炎與補體 (p.99-100、104)、Q 熱 (p.243-244，考題 1 題)",
     "補充：2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Otto CM et al. JACC 2021;77:e25-e197, doi:10.1016/j.jacc.2020.11.018) 第 2.4.2、12 章——於 jacc.org 全文閱讀，仍為現行版",
     "補充：DeSimone DC et al. Infective Endocarditis: Diagnosis, Antibiotic Therapy, and Management: A Scientific Statement From the American Heart Association. Circulation 2026;154:e593-e619 (doi:10.1161/CIR.0000000000001466；含勘誤 e620, doi:10.1161/CIR.0000000000001485)——於 ahajournals.org 全文閱讀；科學聲明，無正式建議等級"
@@ -84,7 +84,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.133 p.1079-1081（Table 133-1）"
+          "pages": "Ch.133 p.1036-1038（Table 133-1）"
         },
         {
           "type": "source",
@@ -138,7 +138,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.133 p.1081-1082（Table 133-2、Fig. 133-1、133-2）"
+          "pages": "Ch.133 p.1038-1039（Table 133-2、Fig. 133-1、133-2）"
         },
         {
           "type": "source",
@@ -190,7 +190,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.133 p.1082-1084（Table 133-3、133-4、Fig. 133-3）"
+          "pages": "Ch.133 p.1039-1041（Table 133-3、133-4、Fig. 133-3）"
         },
         {
           "type": "source",
@@ -235,7 +235,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.133 p.1084-1089（Table 133-5）"
+          "pages": "Ch.133 p.1041-1046（Table 133-5）"
         },
         {
           "type": "source",
@@ -275,7 +275,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.133 p.1089-1090（Table 133-6、133-7）"
+          "pages": "Ch.133 p.1046-1047（Table 133-6、133-7）"
         },
         {
           "type": "source",
@@ -310,7 +310,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.133 p.1090-1091"
+          "pages": "Ch.133 p.1047-1048"
         }
       ]
     },
@@ -335,7 +335,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.133 p.1091（Table 133-8、133-9）"
+          "pages": "Ch.133 p.1048（Table 133-8、133-9）"
         },
         {
           "type": "source",

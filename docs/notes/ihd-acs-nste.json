@@ -5,7 +5,7 @@
   "title_zh": "冠心症（二）：ACS 光譜與病生理、心肌梗塞定義與五型、NSTE-ACS 表現與心電圖、troponin 與 CK-MB、TIMI／GRACE／HEART、抗缺血與抗血栓治療、心導管時機、長期治療、血管痙攣性心絞痛與古柯鹼",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.285 Non-ST-Segment Elevation Acute Coronary Syndrome (p.2149-2155)；Ch.286 診斷部分 (p.2156-2161)",
+    "Harrison's 22e - Ch.285 Non-ST-Segment Elevation Acute Coronary Syndrome (p.2106-2112)；Ch.286 診斷部分 (p.2113-2118)",
     "First Choice 醫學(三) 第1冊 - 丙、缺血性心臟病 D–E 急性冠心症 (p.64-73)；考題 (p.79-113，本篇收錄 19 題)",
     "補充：2025 ACC/AHA/ACEP/NAEMSP/SCAI Guideline for the Management of Patients With Acute Coronary Syndromes (Rao SV et al. JACC 2025;85:2135-2237)——於 jacc.org 全文閱讀"
   ],
@@ -108,7 +108,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2149-2150；Ch.286 p.2156-2157（Fig. 286-1）"
+          "pages": "Ch.285 p.2106-2107；Ch.286 p.2113-2114（Fig. 286-1）"
         },
         {
           "type": "source",
@@ -133,7 +133,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2151-2152；Ch.286 p.2161（Table 286-1）"
+          "pages": "Ch.285 p.2108-2109；Ch.286 p.2118（Table 286-1）"
         },
         {
           "type": "source",
@@ -163,7 +163,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2149-2151"
+          "pages": "Ch.285 p.2106-2108"
         },
         {
           "type": "source",
@@ -200,7 +200,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2151；Ch.286 p.2158-2160（Fig. 286-4）"
+          "pages": "Ch.285 p.2108；Ch.286 p.2115-2117（Fig. 286-4）"
         },
         {
           "type": "source",
@@ -232,7 +232,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2150-2152（Table 285-1、Fig. 285-3）"
+          "pages": "Ch.285 p.2107-2109（Table 285-1、Fig. 285-3）"
         },
         {
           "type": "source",
@@ -257,7 +257,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2152-2153（Table 285-3）"
+          "pages": "Ch.285 p.2109-2110（Table 285-3）"
         },
         {
           "type": "source",
@@ -317,7 +317,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2153-2154（Table 285-4）"
+          "pages": "Ch.285 p.2110-2111（Table 285-4）"
         },
         {
           "type": "source",
@@ -359,7 +359,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2154-2155（Fig. 285-4）"
+          "pages": "Ch.285 p.2111-2112（Fig. 285-4）"
         },
         {
           "type": "source",
@@ -394,7 +394,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2153-2155"
+          "pages": "Ch.285 p.2110-2112"
         },
         {
           "type": "source",
@@ -424,7 +424,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.285 p.2155"
+          "pages": "Ch.285 p.2112"
         },
         {
           "type": "source",

@@ -5,7 +5,7 @@
   "title_zh": "糖尿病（二）：治療",
   "specialty": "新陳代謝科",
   "sources": [
-    "Harrison's 22e - Ch.416 Diabetes Mellitus: Management and Therapies (p.3248-3264)",
+    "Harrison's 22e - Ch.416 Diabetes Mellitus: Management and Therapies (p.3205-3221)",
     "First Choice 醫學(三) 第2冊 - 丁、糖尿病 F–H、K (p.282-291、297)；考題 (p.308-312，14 題)",
     "ADA Standards of Care in Diabetes—2026（Section 9 藥物、Section 16 住院）",
     "FDA 仿單（DailyMed）：Januvia、Tradjenta、Jardiance、Farxiga、metformin ER、glimepiride、repaglinide、Actos、Precose、Ozempic、Trulicity、Victoza"
@@ -160,7 +160,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3248、3251-3252、3264"
+          "pages": "3205、3208-3209、3221"
         },
         {
           "type": "source",
@@ -221,7 +221,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3248-3250、3259"
+          "pages": "3205-3207、3216"
         }
       ]
     },
@@ -302,7 +302,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3250-3251"
+          "pages": "3207-3208"
         }
       ]
     },
@@ -466,7 +466,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3254-3257、3259"
+          "pages": "3211-3214、3216"
         },
         {
           "type": "source",
@@ -557,7 +557,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3257-3258"
+          "pages": "3214-3215"
         },
         {
           "type": "source",
@@ -656,7 +656,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3252-3255、3257-3259"
+          "pages": "3209-3212、3214-3216"
         },
         {
           "type": "source",
@@ -795,7 +795,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3262-3263"
+          "pages": "3219-3220"
         },
         {
           "type": "source",
@@ -860,7 +860,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3263-3264"
+          "pages": "3220-3221"
         },
         {
           "type": "source",

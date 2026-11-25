@@ -5,7 +5,7 @@
   "title_zh": "急性腎損傷（二）：腎因性 AKI 各論",
   "specialty": "腎臟內科",
   "sources": [
-    "Harrison's 22e - Ch.321 Acute Kidney Injury (p.2418-2422)",
+    "Harrison's 22e - Ch.321 Acute Kidney Injury (p.2375-2379)",
     "First Choice 醫學(三) 第3冊 - 丙、急性腎損傷 AIN 考題 (p.83-87)",
     "First Choice 醫學(三) 第3冊 - 丁、腎臟疾病各論 B. 腎小管疾病、C. 腎間質疾病 (講義 p.112-114、119；考題 p.115-121)；E. 腎動脈疾病中膽固醇栓塞 2 題 (p.126-128)，本篇共 20 題"
   ],
@@ -105,7 +105,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2418-2422"
+          "pages": "2375-2379"
         }
       ]
     },
@@ -242,7 +242,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2418-2420, 2422, 2427"
+          "pages": "2375-2377, 2379, 2384"
         }
       ]
     },
@@ -310,7 +310,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2419-2420, 2422"
+          "pages": "2376-2377, 2379"
         }
       ]
     },
@@ -438,7 +438,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2418-2420, 2422, 2427"
+          "pages": "2375-2377, 2379, 2384"
         }
       ]
     },
@@ -497,7 +497,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2420-2422, 2424, 2427"
+          "pages": "2377-2379, 2381, 2384"
         }
       ]
     },
@@ -623,7 +623,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2420-2422, 2424, 2427"
+          "pages": "2377-2379, 2381, 2384"
         }
       ]
     },

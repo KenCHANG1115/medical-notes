@@ -5,7 +5,7 @@
   "title_zh": "心衰竭（三）：HFpEF 診斷與模仿者、HFpEF 與 HFmrEF 治療、急性失代償心衰竭分型與治療、急性心因性肺水腫、心因性休克（SCAI、再灌流、升壓劑與機械支持）",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.265 Heart Failure: Management — HFpEF 與 ADHF 部分 (p.2030-2035)；Ch.316 Cardiogenic Shock and Pulmonary Edema (p.2367-2375)",
+    "Harrison's 22e - Ch.265 Heart Failure: Management — HFpEF 與 ADHF 部分 (p.1987-1992)；Ch.316 Cardiogenic Shock and Pulmonary Edema (p.2324-2332)",
     "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 M 急性心衰竭 (p.261-262)；考題 (p.270-271，本篇收錄 2 題)",
     "補充：2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (JACC 2022;79:e263-e421)；2026 ACC Expert Consensus Decision Pathway on Management of HFpEF (Kittleson MM et al. JACC 2026, doi:10.1016/j.jacc.2026.06.018)；2025 ACC/AHA ACS Guideline 心因性休克部分——皆於 jacc.org 全文閱讀"
   ],
@@ -72,7 +72,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2032"
+          "pages": "Ch.265 p.1989"
         },
         {
           "type": "source",
@@ -114,7 +114,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2030-2032（Fig. 265-1）"
+          "pages": "Ch.265 p.1987-1989（Fig. 265-1）"
         },
         {
           "type": "source",
@@ -176,7 +176,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2032-2033（Fig. 265-2）"
+          "pages": "Ch.265 p.1989-1990（Fig. 265-2）"
         },
         {
           "type": "source",
@@ -206,7 +206,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.265 p.2033-2036（Table 265-1）"
+          "pages": "Ch.265 p.1990-1993（Table 265-1）"
         },
         {
           "type": "source",
@@ -231,7 +231,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.316 p.2373-2374"
+          "pages": "Ch.316 p.2330-2331"
         },
         {
           "type": "source",
@@ -350,7 +350,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.316 p.2367-2373（Fig. 316-1、316-2、Table 316-3）"
+          "pages": "Ch.316 p.2324-2330（Fig. 316-1、316-2、Table 316-3）"
         },
         {
           "type": "source",

@@ -5,7 +5,7 @@
   "title_zh": "瓣膜性心臟病（一）：瓣膜病分期、脈搏與血壓、頸靜脈波形、心音與 S2 分裂、心雜音（收縮期、舒張期、連續性）、動態聽診、超音波時機、成人先天性心臟病線索、心導管判讀",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.246 Physical Examination of the Cardiovascular System (p.1902-1910)；Ch.44 Approach to the Patient with a Heart Murmur (p.326-333)；Ch.249 Diagnostic Cardiac Catheterization 血行動力部分 (p.1947-1950)",
+    "Harrison's 22e - Ch.246 Physical Examination of the Cardiovascular System (p.1859-1867)；Ch.44 Approach to the Patient with a Heart Murmur (p.283-290)；Ch.249 Diagnostic Cardiac Catheterization 血行動力部分 (p.1904-1907)",
     "First Choice 醫學(三) 第1冊 - 戊、瓣膜性心臟病 (p.190-221)；考題 (p.204-221，本篇收錄 22 題)",
     "補充：2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Otto CM et al. JACC 2021;77:e25-e197, doi:10.1016/j.jacc.2020.11.018)——於 jacc.org 全文閱讀，仍為現行版（下一版預計 2027 年第一季）；Bates' Guide to Physical Examination 13e Ch.16"
   ],
@@ -184,7 +184,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1902-1903"
+          "pages": "1859-1860"
         },
         {
           "type": "source",
@@ -302,7 +302,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1905-1906"
+          "pages": "1862-1863"
         },
         {
           "type": "source",
@@ -390,7 +390,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1903-1904"
+          "pages": "1860-1861"
         },
         {
           "type": "source",
@@ -544,7 +544,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1907-1908；Ch.44 p.331-332"
+          "pages": "1864-1865；Ch.44 p.288-289"
         },
         {
           "type": "source",
@@ -718,7 +718,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1908-1909；Ch.44 p.326-330"
+          "pages": "1865-1866；Ch.44 p.283-287"
         },
         {
           "type": "source",
@@ -823,7 +823,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1909；Ch.44 p.330-332"
+          "pages": "1866；Ch.44 p.287-289"
         },
         {
           "type": "source",
@@ -923,7 +923,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1909-1910 Table 246-1；Ch.44 p.332-333"
+          "pages": "1866-1867 Table 246-1；Ch.44 p.289-290"
         },
         {
           "type": "source",
@@ -995,7 +995,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.44 p.333"
+          "pages": "Ch.44 p.290"
         },
         {
           "type": "source",
@@ -1066,7 +1066,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.44 p.328-329；Ch.246 p.1907"
+          "pages": "Ch.44 p.285-286；Ch.246 p.1864"
         },
         {
           "type": "source",
@@ -1247,7 +1247,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1947-1950"
+          "pages": "1861-1864"
         },
         {
           "type": "source",

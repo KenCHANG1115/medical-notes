@@ -5,7 +5,7 @@
   "title_zh": "心肌病變（二）：擴張型心肌症（病因與治療）、毒性心肌症（酒精、化療）、周產期與可逆病因、Takotsubo、心肌炎（診斷、2024 ACC 分期、治療）、特殊心肌炎與感染性心肌病",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.267 Genetic DCM (p.2051-2053)；Ch.268 Acute and Chronic Myocarditis (p.2054-2058)；Ch.269 Dilated Cardiomyopathies (p.2058-2062)；Ch.258-260 心搏過速相關心肌病 (p.1980、1984、1992、2004)",
+    "Harrison's 22e - Ch.267 Genetic DCM (p.2008-2010)；Ch.268 Acute and Chronic Myocarditis (p.2011-2015)；Ch.269 Dilated Cardiomyopathies (p.2015-2019)；Ch.258-260 心搏過速相關心肌病 (p.1937、1941、1949、1961)",
     "First Choice 醫學(三) 第1冊 - 庚、心肌症 A 擴張性心肌病 (p.235-236)；考題 (p.241，本篇收錄 1 題)",
     "補充：2024 ACC Expert Consensus Decision Pathway on Strategies and Criteria for the Diagnosis and Management of Myocarditis (Drazner MH et al. JACC 2025;85(4), doi:10.1016/j.jacc.2024.10.080)；2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure（ICD／CRT、Cardio-Oncology、Pregnancy 部分）——皆於 jacc.org 全文閱讀"
   ],
@@ -105,7 +105,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.267 p.2052-2053（Fig. 267-6、267-7）；Ch.269 p.2058-2059"
+          "pages": "Ch.267 p.2009-2010（Fig. 267-6、267-7）；Ch.269 p.2015-2016"
         },
         {
           "type": "source",
@@ -190,7 +190,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.269 p.2058-2060"
+          "pages": "Ch.269 p.2015-2017"
         },
         {
           "type": "source",
@@ -230,7 +230,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.269 p.2060-2061"
+          "pages": "Ch.269 p.2017-2018"
         },
         {
           "type": "source",
@@ -262,7 +262,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.269 p.2062（Fig. 269-2）"
+          "pages": "Ch.269 p.2019（Fig. 269-2）"
         },
         {
           "type": "source",
@@ -316,7 +316,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.268 p.2054-2055（Fig. 268-1、268-2）"
+          "pages": "Ch.268 p.2011-2012（Fig. 268-1、268-2）"
         },
         {
           "type": "source",
@@ -386,7 +386,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.268 p.2054-2055"
+          "pages": "Ch.268 p.2011-2012"
         },
         {
           "type": "source",
@@ -423,7 +423,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.268 p.2055-2058（Fig. 268-3）"
+          "pages": "Ch.268 p.2012-2015（Fig. 268-3）"
         },
         {
           "type": "source",

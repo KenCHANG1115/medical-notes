@@ -5,7 +5,7 @@
   "title_zh": "糖尿病（三）：急慢性併發症與低血糖",
   "specialty": "新陳代謝科",
   "sources": [
-    "Harrison's 22e - Ch.416 Acute Disorders Related to Severe Hyperglycemia (p.3259-3262)；Ch.417 Diabetes Mellitus: Complications (p.3264-3273)；Ch.418 Hypoglycemia (p.3273-3279)",
+    "Harrison's 22e - Ch.416 Acute Disorders Related to Severe Hyperglycemia (p.3216-3219)；Ch.417 Diabetes Mellitus: Complications (p.3221-3230)；Ch.418 Hypoglycemia (p.3230-3236)",
     "First Choice 醫學(三) 第2冊 - 丁、糖尿病 I、J、L (p.291-298)；考題 (p.312-320，21 題)",
     "Umpierrez GE et al. Hyperglycaemic crises in adults with diabetes: a consensus report (ADA/EASD/JBDS/AACE/DTS). Diabetologia 2024;67:1455"
   ],
@@ -84,7 +84,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3259、3264-3265"
+          "pages": "3216、3221-3222"
         }
       ]
     },
@@ -306,7 +306,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3259-3260"
+          "pages": "3216-3217"
         },
         {
           "type": "source",
@@ -411,7 +411,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3260-3262"
+          "pages": "3217-3219"
         },
         {
           "type": "source",
@@ -476,7 +476,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3261-3262"
+          "pages": "3218-3219"
         },
         {
           "type": "source",
@@ -682,7 +682,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3273-3279"
+          "pages": "3230-3236"
         },
         {
           "type": "source",
@@ -769,7 +769,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3264-3266"
+          "pages": "3221-3223"
         }
       ]
     },
@@ -854,7 +854,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3266-3267"
+          "pages": "3223-3224"
         },
         {
           "type": "source",
@@ -965,7 +965,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3267-3269"
+          "pages": "3224-3226"
         },
         {
           "type": "source",
@@ -1107,7 +1107,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3269-3273"
+          "pages": "3226-3230"
         },
         {
           "type": "source",
@@ -1232,7 +1232,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3268-3271"
+          "pages": "3225-3228"
         },
         {
           "type": "source",
@@ -1307,7 +1307,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3248、3267-3269"
+          "pages": "3205、3224-3226"
         },
         {
           "type": "source",

@@ -5,7 +5,7 @@
   "title_zh": "心衰竭（一）：定義與 EF 分類、病因與病生理、症狀與 NYHA 分級、ACC/AHA 分期、理學檢查、BNP 與檢查、鑑別診斷",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.264 Heart Failure: Pathophysiology and Diagnosis (p.2018-2030)",
+    "Harrison's 22e - Ch.264 Heart Failure: Pathophysiology and Diagnosis (p.1975-1987)",
     "First Choice 醫學(三) 第1冊 - 壬、心臟衰竭 A–H (p.252-256)；考題 (p.262-271，本篇收錄 9 題)",
     "補充：2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (Heidenreich PA et al. JACC 2022;79:e263-e421；Circulation 2022;145:e895-e1032)——於 jacc.org 全文閱讀"
   ],
@@ -117,7 +117,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.264 p.2018-2021（Fig. 264-1、Table 264-1）"
+          "pages": "Ch.264 p.1975-1978（Fig. 264-1、Table 264-1）"
         },
         {
           "type": "source",
@@ -171,7 +171,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.264 p.2020-2025（Fig. 264-6、264-7）"
+          "pages": "Ch.264 p.1977-1982（Fig. 264-6、264-7）"
         },
         {
           "type": "source",
@@ -231,7 +231,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.264 p.2025-2026（Table 264-4、264-5）"
+          "pages": "Ch.264 p.1982-1983（Table 264-4、264-5）"
         },
         {
           "type": "source",
@@ -306,7 +306,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.264 p.2026-2027"
+          "pages": "Ch.264 p.1983-1984"
         },
         {
           "type": "source",
@@ -343,7 +343,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.264 p.2027-2028（Fig. 264-8）"
+          "pages": "Ch.264 p.1984-1985（Fig. 264-8）"
         },
         {
           "type": "source",
@@ -373,7 +373,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.264 p.2028-2029（Table 264-8）"
+          "pages": "Ch.264 p.1985-1986（Table 264-8）"
         }
       ]
     },

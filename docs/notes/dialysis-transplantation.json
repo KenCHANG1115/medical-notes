@@ -5,8 +5,8 @@
   "title_zh": "透析與腎移植",
   "specialty": "腎臟內科",
   "sources": [
-    "Harrison's 22e - Ch.323 Dialysis in the Treatment of Kidney Failure (p.2441-2444)",
-    "Harrison's 22e - Ch.325 Kidney Transplantation (p.2448-2453)",
+    "Harrison's 22e - Ch.323 Dialysis in the Treatment of Kidney Failure (p.2398-2401)",
+    "Harrison's 22e - Ch.325 Kidney Transplantation (p.2405-2410)",
     "First Choice 醫學(三) 第3冊 - 己、透析治療 (講義 p.143-148；考題 p.148-153)",
     "First Choice 醫學(三) 第3冊 - 庚、腎臟移植 (講義 p.155-157；考題 p.157-160)，本篇共 20 題"
   ],
@@ -140,7 +140,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2440-2444（Ch.323 透析）"
+          "pages": "2397-2401（Ch.323 透析）"
         }
       ]
     },
@@ -309,7 +309,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2440-2444（Ch.323 透析）"
+          "pages": "2397-2401（Ch.323 透析）"
         }
       ]
     },
@@ -377,7 +377,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2440-2444（Ch.323 透析）"
+          "pages": "2397-2401（Ch.323 透析）"
         }
       ]
     },
@@ -531,7 +531,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2448-2453（Ch.325 腎臟移植）"
+          "pages": "2405-2410（Ch.325 腎臟移植）"
         }
       ]
     },

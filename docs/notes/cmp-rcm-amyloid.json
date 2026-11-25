@@ -5,7 +5,7 @@
   "title_zh": "心肌病變（三）：限制型心肌症（病因、治療、與縮窄性心包膜炎鑑別）、心臟類澱粉（AL、ATTR 的表現、紅旗、診斷流程、治療）、血色素沉著症與其他限制型",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.270 Amyloidosis and Other Restrictive Cardiomyopathies (p.2063-2071)；Ch.269 血色素沉著症 (p.2061-2062)；Ch.281 縮窄性心包膜炎 Table 281-2 (p.2124、2126-2127)",
+    "Harrison's 22e - Ch.270 Amyloidosis and Other Restrictive Cardiomyopathies (p.2020-2028)；Ch.269 血色素沉著症 (p.2018-2019)；Ch.281 縮窄性心包膜炎 Table 281-2 (p.2081、2083-2084)",
     "First Choice 醫學(三) 第1冊 - 庚、心肌症 C 侷限性心肌病 (p.237-238)；本章無限制型考題",
     "補充：2023 ACC Expert Consensus Decision Pathway on Comprehensive Multidisciplinary Care for the Patient With Cardiac Amyloidosis (Kittleson MM et al. JACC 2023;81:1076-1126, doi:10.1016/j.jacc.2022.11.022)；2022 AHA/ACC/HFSA HF Guideline 7.8 Cardiac Amyloidosis——皆於 jacc.org 全文閱讀；FDA 仿單（DailyMed）：acoramidis、vutrisiran、eplontersen、tafamidis 適應症"
   ],
@@ -77,7 +77,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.270 p.2063-2064"
+          "pages": "Ch.270 p.2020-2021"
         },
         {
           "type": "source",
@@ -183,7 +183,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.281 p.2124、2126-2127（Table 281-2）"
+          "pages": "Ch.281 p.2081、2083-2084（Table 281-2）"
         },
         {
           "type": "source",
@@ -273,7 +273,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.270 p.2063-2065（Fig. 270-1、270-2）"
+          "pages": "Ch.270 p.2020-2022（Fig. 270-1、270-2）"
         },
         {
           "type": "source",
@@ -343,7 +343,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.270 p.2065-2069（Fig. 270-3、270-4、270-5、270-7、270-8）"
+          "pages": "Ch.270 p.2022-2026（Fig. 270-3、270-4、270-5、270-7、270-8）"
         },
         {
           "type": "source",
@@ -398,7 +398,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.270 p.2069-2070"
+          "pages": "Ch.270 p.2026-2027"
         },
         {
           "type": "source",
@@ -445,7 +445,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.269 p.2061-2062；Ch.270 p.2063-2064（Fig. 269-1）"
+          "pages": "Ch.269 p.2018-2019；Ch.270 p.2020-2021（Fig. 269-1）"
         },
         {
           "type": "source",

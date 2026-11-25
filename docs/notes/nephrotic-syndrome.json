@@ -5,8 +5,8 @@
   "title_zh": "腎病症候群",
   "specialty": "腎臟內科",
   "sources": [
-    "Harrison's 22e - Ch.326 Glomerular Diseases (p.2454-2472)",
-    "Harrison's 22e - Ch.319 Approach to the Patient with Renal Disease (p.2400-2401)",
+    "Harrison's 22e - Ch.326 Glomerular Diseases (p.2411-2429)",
+    "Harrison's 22e - Ch.319 Approach to the Patient with Renal Disease (p.2357-2358)",
     "First Choice 醫學(三) 第3冊 - 丁、腎臟疾病各論 A. 腎絲球疾病 (講義 p.102-106；考題 p.107-112，本篇 9 題)"
   ],
   "generated": "2026-10-03",
@@ -172,7 +172,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2400, 2457, 2464"
+          "pages": "2357, 2414, 2421"
         }
       ]
     },
@@ -375,7 +375,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2400-2401, 2464-2466"
+          "pages": "2357-2358, 2421-2423"
         }
       ]
     },
@@ -483,7 +483,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2400, 2464"
+          "pages": "2357, 2421"
         }
       ]
     },
@@ -603,7 +603,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2400, 2454-2455, 2464-2466"
+          "pages": "2357, 2411-2412, 2421-2423"
         }
       ]
     },
@@ -681,7 +681,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2401, 2466"
+          "pages": "2358, 2423"
         }
       ]
     },
@@ -833,7 +833,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2466-2468"
+          "pages": "2423-2425"
         }
       ]
     },
@@ -908,7 +908,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2471-2472"
+          "pages": "2428-2429"
         }
       ]
     },

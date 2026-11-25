@@ -5,7 +5,7 @@
   "title_zh": "離子平衡異常（一）：鈉與水",
   "specialty": "腎臟內科",
   "sources": [
-    "Harrison's 22e - Ch.56 Fluid and Electrolyte Disturbances (p.387-404，鈉與水部分)",
+    "Harrison's 22e - Ch.56 Fluid and Electrolyte Disturbances (p.344-361，鈉與水部分)",
     "First Choice 醫學(三) 第3冊 - 乙、離子平衡 A–B (講義 p.31-35、40-42；考題 p.35-39、43-45)，本篇共 18 題"
   ],
   "generated": "2026-10-03",
@@ -226,7 +226,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "387-390, 396"
+          "pages": "344-347, 353"
         }
       ]
     },
@@ -350,7 +350,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "390-395"
+          "pages": "347-352"
         }
       ]
     },
@@ -413,7 +413,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "390-395"
+          "pages": "347-352"
         }
       ]
     },
@@ -523,7 +523,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "390-395"
+          "pages": "347-352"
         }
       ]
     },
@@ -633,7 +633,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "387, 394-396"
+          "pages": "344, 351-353"
         }
       ]
     },
@@ -754,7 +754,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "387, 394-396"
+          "pages": "344, 351-353"
         }
       ]
     },

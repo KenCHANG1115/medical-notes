@@ -5,7 +5,7 @@
   "title_zh": "HIV 基礎與診斷",
   "specialty": "感染科",
   "sources": [
-    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders（定義、病毒學、傳播、致病機轉、診斷與監測、自然病程 p.1599-1635；初始評估 p.1658）",
+    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders（定義、病毒學、傳播、致病機轉、診斷與監測、自然病程 p.1556-1592；初始評估 p.1615）",
     "First Choice 醫學(三) 第3冊 - 壬、愛滋病（講義 p.317-324；考題 p.325-329），本篇共 8 題；疾管署通報定義 (p.369)"
   ],
   "generated": "2026-10-03",
@@ -173,12 +173,12 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1600-1604、1615"
+          "pages": "1557-1561、1572"
         },
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1612-1631"
+          "pages": "1569-1588"
         }
       ]
     },
@@ -334,7 +334,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1604-1608、1668-1669"
+          "pages": "1561-1565、1625-1626"
         },
         {
           "type": "source",
@@ -456,7 +456,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1613、1616、1634-1635"
+          "pages": "1570、1573、1591-1592"
         },
         {
           "type": "source",
@@ -553,7 +553,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1631-1633、1668-1669"
+          "pages": "1588-1590、1625-1626"
         },
         {
           "type": "source",
@@ -756,7 +756,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1599-1600"
+          "pages": "1556-1557"
         },
         {
           "type": "source",
@@ -766,7 +766,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1633-1634、1658"
+          "pages": "1590-1591、1615"
         },
         {
           "type": "source",

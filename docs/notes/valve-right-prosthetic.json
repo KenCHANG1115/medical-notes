@@ -5,7 +5,7 @@
   "title_zh": "瓣膜性心臟病（四）：三尖瓣狹窄與逆流、肺高壓、肺動脈瓣疾病、多重瓣膜病、人工瓣膜選擇與手術風險、抗血栓與 warfarin（INR、橋接、過度抗凝）、懷孕、心內膜炎預防與非心臟手術",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.277 Tricuspid Valve Disease (p.2102-2105)；Ch.278 Pulmonic Valve Disease (p.2106-2107)；Ch.279 Multiple and Mixed Valvular Heart Disease (p.2108-2110)；Ch.246 人工瓣膜聽診 (p.1910)；Ch.272 瓣膜選擇 (p.2083)",
+    "Harrison's 22e - Ch.277 Tricuspid Valve Disease (p.2059-2062)；Ch.278 Pulmonic Valve Disease (p.2063-2064)；Ch.279 Multiple and Mixed Valvular Heart Disease (p.2065-2067)；Ch.246 人工瓣膜聽診 (p.1867)；Ch.272 瓣膜選擇 (p.2040)",
     "First Choice 醫學(三) 第1冊 - 戊、瓣膜性心臟病 頸靜脈波形、warfarin 與 INR (p.194、197、208-209)；考題 (p.204-214，本篇收錄 4 題)",
     "補充：2020 ACC/AHA Guideline for the Management of Patients With Valvular Heart Disease (Otto CM et al. JACC 2021;77:e25-e197, doi:10.1016/j.jacc.2020.11.018) 第 2.4、8、10、11、13、15 章——於 jacc.org 全文閱讀，仍為現行版"
   ],
@@ -98,7 +98,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.277 p.2102-2103"
+          "pages": "Ch.277 p.2059-2060"
         }
       ]
     },
@@ -206,7 +206,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.277 p.2103-2105"
+          "pages": "Ch.277 p.2060-2062"
         },
         {
           "type": "source",
@@ -281,7 +281,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.278 p.2106-2107"
+          "pages": "Ch.278 p.2063-2064"
         },
         {
           "type": "source",
@@ -316,7 +316,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.279 p.2108-2110"
+          "pages": "Ch.279 p.2065-2067"
         },
         {
           "type": "source",
@@ -376,7 +376,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "Ch.246 p.1910；Ch.272 p.2083"
+          "pages": "Ch.246 p.1867；Ch.272 p.2040"
         },
         {
           "type": "source",

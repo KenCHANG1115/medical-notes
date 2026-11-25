@@ -5,7 +5,7 @@
   "title_zh": "HIV ART 治療與預防",
   "specialty": "感染科",
   "sources": [
-    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders（ART p.1658-1667；醫護人員與 HIV p.1668；HIV 預防 p.1668-1669；藥物相關併發症 p.1643-1648）",
+    "Harrison's 22e - Ch.208 Human Immunodeficiency Virus Disease: AIDS and Related Disorders（ART p.1615-1624；醫護人員與 HIV p.1625；HIV 預防 p.1625-1626；藥物相關併發症 p.1600-1605）",
     "First Choice 醫學(三) 第3冊 - 壬、愛滋病（講義 p.320-321；考題 p.328），本篇共 2 題",
     "FDA NDA 220018 Yeztugo (lenacapavir) — 📌 2025-06-18 核准每 6 個月注射的 PrEP"
   ],
@@ -131,7 +131,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1658、1664、1667"
+          "pages": "1615、1621、1624"
         },
         {
           "type": "source",
@@ -215,7 +215,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1658-1659、1661-1664"
+          "pages": "1615-1616、1618-1621"
         },
         {
           "type": "source",
@@ -310,7 +310,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1643-1645、1647-1648、1658-1659"
+          "pages": "1600-1602、1604-1605、1615-1616"
         },
         {
           "type": "source",
@@ -425,7 +425,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1643-1646、1659-1661、1663"
+          "pages": "1600-1603、1616-1618、1620"
         },
         {
           "type": "source",
@@ -519,7 +519,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1661、1664"
+          "pages": "1618、1621"
         },
         {
           "type": "source",
@@ -574,7 +574,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1658-1659、1663、1667"
+          "pages": "1615-1616、1620、1624"
         }
       ]
     },
@@ -662,7 +662,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1634、1664-1667"
+          "pages": "1591、1621-1624"
         },
         {
           "type": "source",
@@ -772,7 +772,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1643-1647、1656、1659-1664"
+          "pages": "1600-1604、1613、1616-1621"
         },
         {
           "type": "source",
@@ -889,7 +889,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1664、1668-1669"
+          "pages": "1621、1625-1626"
         },
         {
           "type": "source",

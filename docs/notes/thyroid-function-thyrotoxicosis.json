@@ -5,8 +5,8 @@
   "title_zh": "甲狀腺功能檢驗與甲狀腺毒症",
   "specialty": "新陳代謝科",
   "sources": [
-    "Harrison's 22e - Ch.394 Thyroid Gland Physiology and Testing (p.3063-3070)",
-    "Harrison's 22e - Ch.396 Hyperthyroidism and Other Causes of Thyrotoxicosis (p.3075-3083)；Ch.397 毒性多結節甲狀腺腫與毒性腺瘤 (p.3085-3087)",
+    "Harrison's 22e - Ch.394 Thyroid Gland Physiology and Testing (p.3020-3027)",
+    "Harrison's 22e - Ch.396 Hyperthyroidism and Other Causes of Thyrotoxicosis (p.3032-3040)；Ch.397 毒性多結節甲狀腺腫與毒性腺瘤 (p.3042-3044)",
     "First Choice 醫學(三) 第2冊 - 乙、甲狀腺疾病：背景知識、甲狀腺毒症 (p.231-246；考題 18 題)",
     "補充（已查證並於內文標註）：2016 ATA Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis (Ross DS et al. Thyroid 2016;26:1343)"
   ],
@@ -186,7 +186,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3063-3068"
+          "pages": "3020-3025"
         },
         {
           "type": "source",
@@ -419,7 +419,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3066-3070、3082"
+          "pages": "3023-3027、3039"
         },
         {
           "type": "source",
@@ -550,7 +550,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3069、3075-3078、3080"
+          "pages": "3026、3032-3035、3037"
         },
         {
           "type": "source",
@@ -854,7 +854,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3075-3078"
+          "pages": "3032-3035"
         },
         {
           "type": "source",
@@ -1110,7 +1110,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3078-3080"
+          "pages": "3035-3037"
         },
         {
           "type": "source",
@@ -1333,7 +1333,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3080-3083、3085-3087"
+          "pages": "3037-3040、3042-3044"
         },
         {
           "type": "source",
@@ -1421,7 +1421,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3066、3079-3080、3084"
+          "pages": "3023、3036-3037、3041"
         },
         {
           "type": "source",
@@ -1491,7 +1491,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3079-3080"
+          "pages": "3036-3037"
         },
         {
           "type": "source",

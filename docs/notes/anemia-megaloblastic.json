@@ -5,7 +5,7 @@
   "title_zh": "貧血（三）：維生素 B12 與葉酸缺乏",
   "specialty": "血液腫瘤科",
   "sources": [
-    "Harrison's 22e - Ch.104 Megaloblastic Anemias (p.823-833)",
+    "Harrison's 22e - Ch.104 Megaloblastic Anemias (p.780-790)",
     "First Choice 醫學(三) 第4冊 - 甲、貧血 D. 大球性貧血（講義 p.158–159；題目 p.167、172、175），本篇共 4 題",
     "補充：FDA 仿單 Cyanocobalamin Injection USP（DailyMed）——起始治療的低血鉀警語、血鉀與網狀紅血球監測"
   ],
@@ -91,7 +91,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "823-824、831、833"
+          "pages": "780-781、788、790"
         },
         {
           "type": "source",
@@ -156,7 +156,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "823-825、828"
+          "pages": "780-782、785"
         },
         {
           "type": "source",
@@ -213,7 +213,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "825-826"
+          "pages": "782-783"
         },
         {
           "type": "source",
@@ -305,7 +305,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "825-827"
+          "pages": "782-784"
         }
       ]
     },
@@ -374,7 +374,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "827-828"
+          "pages": "784-785"
         },
         {
           "type": "source",
@@ -499,7 +499,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "828-830"
+          "pages": "785-787"
         },
         {
           "type": "source",
@@ -561,7 +561,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "830-831"
+          "pages": "787-788"
         }
       ]
     },
@@ -672,7 +672,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "831-832"
+          "pages": "788-789"
         }
       ]
     },
@@ -768,7 +768,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "832-833"
+          "pages": "789-790"
         },
         {
           "type": "source",

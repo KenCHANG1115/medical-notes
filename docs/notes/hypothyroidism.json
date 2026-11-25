@@ -5,7 +5,7 @@
   "title_zh": "甲狀腺低下",
   "specialty": "新陳代謝科",
   "sources": [
-    "Harrison's 22e - Ch.395 Hypothyroidism (p.3070-3075)；Ch.394 檢驗與懷孕時的甲狀腺功能 (p.3066-3070)；Ch.396 甲狀腺炎與 amiodarone (p.3080-3083)",
+    "Harrison's 22e - Ch.395 Hypothyroidism (p.3027-3032)；Ch.394 檢驗與懷孕時的甲狀腺功能 (p.3023-3027)；Ch.396 甲狀腺炎與 amiodarone (p.3037-3040)",
     "First Choice 醫學(三) 第2冊 - 乙、甲狀腺疾病：背景知識、甲狀腺機能低下 (p.231-239；考題 6 題)"
   ],
   "generated": "2026-10-04",
@@ -133,7 +133,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3070-3073"
+          "pages": "3027-3030"
         },
         {
           "type": "source",
@@ -310,7 +310,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3063、3071-3073"
+          "pages": "3020、3028-3030"
         },
         {
           "type": "source",
@@ -376,7 +376,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3069、3073-3074"
+          "pages": "3026、3030-3031"
         },
         {
           "type": "source",
@@ -508,7 +508,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3074-3075、3083"
+          "pages": "3031-3032、3040"
         }
       ]
     },
@@ -562,7 +562,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3071、3073、3075"
+          "pages": "3028、3030、3032"
         },
         {
           "type": "source",
@@ -662,7 +662,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3066、3070-3071、3075-3076"
+          "pages": "3023、3027-3028、3032-3033"
         },
         {
           "type": "source",
@@ -738,7 +738,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "3075"
+          "pages": "3032"
         },
         {
           "type": "source",

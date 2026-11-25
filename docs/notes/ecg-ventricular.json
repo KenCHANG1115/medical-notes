@@ -5,7 +5,7 @@
   "title_zh": "心電圖（四）：心室心律不整的定義與起源判讀、PVC／NSVT／AIVR、寬 QRS 心搏過速、結構性與特發性 VT、Torsades、Brugada、長 QT、CPVT、VF、ICD 與電風暴",
   "specialty": "心臟內科",
   "sources": [
-    "Harrison's 22e - Ch.259 Approach to Ventricular Arrhythmias (p.1997-2003)；Ch.260 PVC, NSVT, AIVR (p.2003-2006)；Ch.261 Sustained VT (p.2006-2011)；Ch.262 Polymorphic VT and VF (p.2011-2015)；Ch.263 Electrical Storm (p.2015-2017)",
+    "Harrison's 22e - Ch.259 Approach to Ventricular Arrhythmias (p.1954-1960)；Ch.260 PVC, NSVT, AIVR (p.1960-1963)；Ch.261 Sustained VT (p.1963-1968)；Ch.262 Polymorphic VT and VF (p.1968-1972)；Ch.263 Electrical Storm (p.1972-1974)",
     "First Choice 醫學(三) 第1冊 - 寬 QRS 心搏過速、VT、QT prolong (p.120-121、171-175)；考題 (p.128、177、188，本篇收錄 3 題)",
     "補充：AHA 2025 成人 ACLS 心搏過速流程（寬 QRS 時 adenosine 的使用條件）"
   ],
@@ -122,7 +122,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1997-2000、2010"
+          "pages": "1954-1957、1967"
         },
         {
           "type": "source",
@@ -191,7 +191,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2001-2006"
+          "pages": "1958-1963"
         },
         {
           "type": "source",
@@ -264,7 +264,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "1985-1986、2006-2008"
+          "pages": "1942-1943、1963-1965"
         },
         {
           "type": "source",
@@ -361,7 +361,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2006-2011"
+          "pages": "1963-1968"
         },
         {
           "type": "source",
@@ -538,7 +538,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2002、2011-2014"
+          "pages": "1959、1968-1971"
         },
         {
           "type": "source",
@@ -654,7 +654,7 @@
         {
           "type": "source",
           "book": "Harrison's 22e",
-          "pages": "2001-2002、2014-2017"
+          "pages": "1958-1959、1971-1974"
         }
       ]
     },
