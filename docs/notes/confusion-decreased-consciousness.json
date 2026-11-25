@@ -9,7 +9,8 @@
   "sources": [
     "Harrison's 22e - Ch.27 Confusion and Delirium (p.182–186)、Ch.30 Coma (p.186–192)、Ch.318 Nervous System Disorders in Critical Care (Table 318-2 ICP, p.2345)、Ch.143 Meningitis (p.1121–1123)、Ch.56 低鈉 (p.350–351)、Ch.467 Opioid (Table 467-2, p.3690–3691)、Wernicke (p.2349)、酒精戒斷 (p.3679–3680)、Ch.355 肝性腦病變 (p.2717)、Ch.13 Table 13-7 (p.86)",
     "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）- Confusion／Decreased Level of Consciousness (p.98–101)",
-    "劑型依院內品項；約束依院內作業規範"
+    "劑型依院內品項；約束依院內作業規範",
+    "Harrison's 22e - Ch.470 Poisoning and Drug Overdose (Table 470-4 p.3710–3715：有機磷 atropine + 2-PAM、CO 高濃度氧／高壓氧、co-oximetry)；Ch.467 p.3690–3691（naloxone、flumazenil 0.2 mg/min）；p.2670（acetaminophen 中毒 NAC）"
   ],
   "related": [
     {
@@ -531,8 +532,8 @@
         },
         {
           "type": "collapsible",
-          "summary": "常見中毒與解毒劑（舊筆記，劑量未逐項核對）",
-          "text": "**naloxone、flumazenil 以本篇 Order 區為準；其他解毒劑請依院內或中毒諮詢中心建議。**\n- **Opioid**：Naloxone (Narcan)（0.2-2 mg IV/IM q5min (max 10mg)）；短效 → 需觀察 re-sedation；可能誘發 withdrawal\n- **BZD**：Flumazenil (Romazicon)（0.2 mg IV over 15 sec）；有 seizure 風險 → 不建議常規使用\n- **Acetaminophen**：N-acetylcysteine (NAC)（依 Rumack-Matthew nomogram）；超過 4 小時才驗 level\n- **Organophosphate**：Atropine + Pralidoxime（Atropine 2 mg IV q5min）；SLUDGE (Salivation, Lacrimation, Urination, Defecation, GI, Emesis)\n- **CO poisoning**：100% O₂ → consider HBO（Non-rebreather mask）；Cherry-red skin、headache → check COHb level"
+          "summary": "常見中毒與解毒劑（已對照 Harrison 22e）",
+          "text": "**劑量 Harrison 沒有列出的項目 → 依毒藥物諮詢中心或院內流程。**\n- **鴉片類**：**Naloxone 0.4–2 mg** IV／IM／氣管內管（IV 約 1–2 分鐘起效），可重複；或以「讓呼吸恢復的劑量」的 **1/2–2/3 每小時**持續滴注。fentanyl 可能需要約兩倍劑量；fentanyl 或 buprenorphine 過量總量可能 **≥ 10 mg**。目標是**恢復呼吸**，不是給到誘發戒斷（Harrison Table 467-2，p.3690–3691）\n- **BZD**：**Flumazenil 0.2 mg/min** IV 可快速逆轉，但**可能誘發抽搐、升高顱內壓**，且作用比多數 BZD 短 → **不常規使用**（Harrison p.3691）\n- **Acetaminophen**：**N-acetylcysteine**。攝入後 **4–8 小時**驗血中濃度對照 nomogram（**4 小時 > 200 μg/mL 或 8 小時 > 100 μg/mL** 為高風險）；**8 小時內開始**最好，晚到 24–36 小時仍可能部分有效。Harrison 列的方案：負荷 **140 mg/kg**，之後 **70 mg/kg q4h × 15–20 劑**；實際口服或靜脈方案依院內，並聯絡毒藥物諮詢中心（Harrison p.2670）\n- **有機磷（膽鹼酯酶抑制劑）**：**Atropine** 處理蕈毒鹼症狀（分泌物多、喘鳴、腹瀉、尿失禁）＋ **pralidoxime（2-PAM）** 處理菸鹼症狀（肌束顫動、無力、麻痺）；血漿或紅血球膽鹼酯酶活性 < 50%；**死因多為呼吸衰竭**（Harrison Table 470-4，p.3712）；**劑量 Harrison 未列**\n- **一氧化碳**：**高濃度氧氣**（non-rebreather）；嚴重者考慮**高壓氧**。**脈衝血氧會假性偏高** → 用 **co-oximetry** 驗 COHb；頭痛、噁心常見；火災病人要想到合併**氰化物** → hydroxocobalamin（Harrison Table 470-4，p.3713；p.2348）"
         },
         {
           "type": "collapsible",
