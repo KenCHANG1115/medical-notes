@@ -1,0 +1,259 @@
+{
+  "id": "oncall-arrhythmia",
+  "title": "On Call: 心跳太快或太慢（有脈搏的心律不整）",
+  "title_en": "On Call: Tachycardia and Bradycardia",
+  "title_zh": "值班：心跳太快或太慢",
+  "specialty": "值班守則",
+  "sources": [
+    "First Choice 醫學(三) 第1冊 - 心臟內科 丁、C. ACLS 心搏過緩、心搏過速（依 2020 AHA；〈Critical Care (二)〉）：adenosine 6／12 mg、amiodarone 150 mg、atropine 1 mg（最多 3 mg）、dopamine 5–20 μg/kg/min、epinephrine 2–10 μg/min、同步整流能量、MgSO₄ 1–2 g",
+    "AHA 2025 指引已發布，未能取得原文核對；AF 控制心跳藥物劑量依院內",
+    "劑型依院內品項"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "critical-bls-acls",
+      "name": "Critical Care (二)：BLS 與 ACLS——高品質 CPR、心臟停止流程、心搏過緩與過速、復甦後照護"
+    },
+    {
+      "id": "ecg-bradyarrhythmias",
+      "name": "ECG (二)：緩脈與傳導阻滯"
+    },
+    {
+      "id": "ecg-svt-af",
+      "name": "ECG (三)：上心室性心搏過速與心房顫動"
+    },
+    {
+      "id": "ecg-ventricular",
+      "name": "ECG (四)：心室性心律不整與猝死"
+    },
+    {
+      "id": "oncall-potassium-disorders",
+      "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+    },
+    {
+      "id": "oncall-hypotension",
+      "name": "On Call: 低血壓與休克（血壓掉了）"
+    },
+    {
+      "id": "oncall-chest-pain",
+      "name": "On Call: 胸痛（先抓會致命的五個）"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「心跳 160」或「心跳 38」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先問：病人穩不穩定？**（FC：看重要器官「腦心肺 + 血壓」）\n- **急性意識改變**、**缺血性胸痛**、**急性心衰竭（喘、肺水腫）**、**低血壓**、**休克徵象**\n→ 任何一項 = **不穩定**：快 → **同步心臟整流**；慢 → **atropine → 經皮節律器**\n**電話中就交代**：**12 導程心電圖**、心電圖監視器、生命徵象、SpO₂、靜脈通路、**急救車與電擊器推到床邊**\n**沒有脈搏** → 啟動急救（見〈Critical Care (二)〉）"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**立刻到床邊的紅旗**：任何不穩定徵象、**寬 QRS 心搏過速**、**心跳 < 40** 或 Mobitz II／三度房室阻斷、暫停 > 3 秒、新的胸痛\n**也要想原因**：**K、Mg**、缺氧、發燒、疼痛、脫水、出血、甲狀腺、藥物（β 阻斷劑、CCB、digoxin）、心肌缺血"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "心臟內科 丁、C. ACLS 心搏過緩與過速（〈Critical Care (二)〉，依 2020 AHA）"
+        }
+      ]
+    },
+    {
+      "title": "心搏過速（> 150）：寬窄、規則",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "心電圖",
+            "想到",
+            "穩定時處置（FC，2020 AHA）"
+          ],
+          "rows": [
+            [
+              "**窄 QRS、規則**",
+              "竇性心搏過速（找原因！）、**PSVT**（AVNRT、AVRT）、心房撲動",
+              "竇性 → **治療原因**；PSVT → **迷走神經刺激** → **adenosine 6 mg 快速推注** → 12 mg → β 阻斷劑或 CCB"
+            ],
+            [
+              "**窄 QRS、不規則**",
+              "**心房顫動**、多源性心房心搏過速",
+              "**控制心跳**：心功能好 → β 阻斷劑、non-DHP CCB（diltiazem）、amiodarone、digoxin；**心功能差 → 不用 CCB**（FC：好心 ABCD、壞心 ABD）；評估**抗凝**"
+            ],
+            [
+              "**寬 QRS、規則**",
+              "**當作 VT**（直到證明不是）",
+              "**amiodarone 150 mg IV 10 分鐘**（可重複）；procainamide、sotalol（QT 長禁用）；**不可給 digoxin、β 阻斷劑、verapamil 來猜**"
+            ],
+            [
+              "**寬 QRS、不規則**",
+              "多形性 VT、**torsades**、AF 合併預激或傳導異常",
+              "多形性 VT／torsades → **不同步電擊** + **MgSO₄ 1–2 g**；AF + WPW → 避免房室結阻斷劑"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**不穩定 → 同步心臟整流**（FC）\n- 窄規則 50–100 J；窄不規則（AF）120–200 J（雙相）；寬規則 100 J\n- **無脈搏 VT、VF、多形性 VT → 不同步電擊**\n- 清醒病人整流前**鎮靜**（時間允許時）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼竇性心搏過速不能「用藥壓下來」？**\n竇性心搏過速幾乎都是**身體在代償**：發燒、疼痛、脫水、出血、缺氧、敗血症、肺栓塞、甲狀腺亢進、戒斷。用 β 阻斷劑把心跳壓下來，等於拿走代償——低血容或敗血症的病人可能因此休克。所以竇性心搏過速的處置是**找原因、治原因**，心跳會跟著下來。"
+        }
+      ]
+    },
+    {
+      "title": "心搏過緩（< 50）",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "情況",
+            "處置（FC，2020 AHA）"
+          ],
+          "rows": [
+            [
+              "**穩定、無症狀**",
+              "觀察；找原因（藥物、睡眠、運動員、低體溫、甲狀腺低下、高血鉀、顱內壓）"
+            ],
+            [
+              "**不穩定**",
+              "**atropine 1 mg IV**，每 3–5 分鐘，**最多 3 mg** → 無效 → **經皮節律器（TCP）** 和／或 **dopamine 5–20 μg/kg/min** 或 **epinephrine 2–10 μg/min** → 經靜脈節律器"
+            ],
+            [
+              "**Mobitz II、三度房室阻斷**（阻滯在希氏束以下）",
+              "atropine 常無效 → **直接準備 TCP**、心臟科"
+            ],
+            [
+              "**心臟移植**",
+              "atropine 無效（去神經支配）→ TCP、β 致效劑"
+            ],
+            [
+              "藥物過量",
+              "β 阻斷劑、CCB、digoxin → 停藥；特定解毒依中毒諮詢"
+            ],
+            [
+              "**高血鉀**",
+              "寬 QRS 心搏過緩 → **calcium gluconate**、降鉀（見〈On Call: 鉀離子〉）"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**基本**｜**12 導程心電圖**、**心電圖監視器**、SpO₂；**K、Mg、Ca**、BUN／Cr、CBC、TSH（非急）、**troponin**（胸痛、缺血）、digoxin 濃度（有用者）\n- 注意：電解質是最常見、最好矯正的誘因"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Adenosine（穩定 PSVT）**｜**6 mg 快速 IV 推注 + 生理食鹽水沖** → 無效 **12 mg**\n- 劑型：依院內品項\n- 注意：從靠近心臟的靜脈給；先告知病人短暫胸悶；**氣喘**小心"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Amiodarone（穩定寬 QRS、或 AF 心功能差）**｜**150 mg IV 10 分鐘**；必要時之後持續輸注（FC）\n- 劑型：依院內泡法\n- 注意：低血壓、心搏過緩；QT"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**AF 控制心跳**｜心功能好：**β 阻斷劑** 或 **diltiazem**；心功能差：amiodarone 或 digoxin\n- 劑型：**劑量依院內**\n- 注意：先處理誘因（發燒、脫水、感染、疼痛）；**CHA₂DS₂-VASc** 評估抗凝（白天）；新發作 > 48 小時或不明時間 → 整流前要抗凝或排除血栓"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Torsades**｜**MgSO₄ 1–2 g IV**；無脈搏 → 不同步電擊\n- 劑型：依院內品項\n- 注意：停延長 QT 的藥、矯正 K、Mg"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Atropine（不穩定心搏過緩）**｜**1 mg IV q3–5 min，最多 3 mg**\n- 劑型：依院內品項\n- 注意：Mobitz II、三度阻斷、移植心臟常無效"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**升心跳點滴**｜**Dopamine 5–20 μg/kg/min** 或 **epinephrine 2–10 μg/min**\n- 劑型：依院內泡法\n- 注意：等待節律器時的橋接"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**經皮節律器**｜貼片、設定心跳與電流（依機器）\n- 注意：清醒者給止痛、鎮靜；確認有**機械性捕獲**（摸脈搏）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**同步整流**｜依上表能量；**清醒者先鎮靜**\n- 注意：AF > 48 小時、未抗凝者，非緊急時避免整流"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(三) 第1冊",
+          "pages": "心臟內科 丁 ACLS 心搏過緩、心搏過速流程（2020 AHA，〈Critical Care (二)〉）"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級、交班與常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**升級**：不穩定、需要電擊或節律器、寬 QRS 心搏過速、Mobitz II 或三度房室阻斷、反覆發作 → **找學長姐、心臟科、加護病房**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**交給白天團隊**：心律不整的原因（電解質、甲狀腺、缺血、藥物）、AF 的**抗凝**決策（CHA₂DS₂-VASc vs 出血風險）與長期控制策略、是否需要永久節律器、停用致心律不整或減慢心跳的藥物。\n**SBAR 範例**：「02:40 新發 AF，心跳 148，血壓 124/76，無胸痛、無喘；K 3.2、Mg 1.5；體溫 38.4°C（肺炎）。已補 K、Mg、退燒、輸液；diltiazem IV 後心跳 102。04:00 重做心電圖；白天評估抗凝。」"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 用藥**壓竇性心搏過速**（出血、敗血症、脫水）\n- 寬 QRS 心搏過速**當成 SVT** 給 verapamil\n- 不穩定還在**試藥**，沒有直接**同步整流**\n- VF、無脈搏 VT 用**同步**\n- adenosine **推太慢**、沒有沖\n- 心功能差的 AF 給 **diltiazem**\n- Mobitz II、三度阻斷**只靠 atropine**\n- 忘了查 **K、Mg**\n- AF 整流前沒想到**血栓與抗凝**"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 2 點：「術後病人心跳 145，規則窄 QRS，血壓 105/68，有點喘、發燒 38.6°C、引流管今天流很多血。」",
+          "text": "1. 可能是**竇性心搏過速**（發燒、出血、疼痛）——先看心電圖確認有沒有 P 波\n2. **找原因**：Hb、輸液狀況、出血量、感染、疼痛、肺栓塞\n3. 是竇性 → **不要用藥壓心跳**；輸液、輸血、退燒、止痛\n4. 若是 PSVT 或心房撲動 → 依流程"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 11 點：「AF 的阿嬤心跳 160，血壓 78/50，意識有點差。」",
+          "text": "1. **不穩定** → **同步整流**（AF 120–200 J 雙相），清醒者先鎮靜\n2. 找學長姐；給氧、通路\n3. 之後：K、Mg、找誘因（感染、脫水、甲狀腺）；抗凝評估"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 4 點：「阿公心跳 36，頭暈冒冷汗，血壓 82/50，心電圖三度房室傳導阻斷。」",
+          "text": "1. **不穩定心搏過緩 + 三度阻斷** → atropine 可試但常無效 → **直接準備經皮節律器**\n2. dopamine 或 epinephrine 點滴橋接\n3. 找原因：**下壁心肌梗塞**（心電圖、troponin）、藥物、**高血鉀**\n4. 心臟科：經靜脈節律器"
+        }
+      ]
+    },
+    {
+      "title": "延伸與相關筆記",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：ACLS 流程與考題見〈Critical Care (二)〉；心電圖判讀見 ECG 系列（心搏過緩、SVT 與 AF、心室性心律不整）；高血鉀見〈On Call: 鉀離子〉；低血壓見〈On Call: 低血壓與休克〉；胸痛見〈On Call: 胸痛〉。"
+        }
+      ]
+    }
+  ]
+}
