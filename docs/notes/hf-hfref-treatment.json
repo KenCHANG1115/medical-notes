@@ -73,6 +73,11 @@
           "text": "📌 **2022 AHA/ACC/HFSA 改了什麼**：**ARNI 取代 ACEI 成為首選 RAAS 抑制劑**（NYHA II–III：1）；**SGLT2 抑制劑不論有無糖尿病都列為基礎治療**（1）——FC 講義的順序是 ACEI／ARB 優先"
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼「四大支柱」能降低死亡，利尿劑卻不能？**\nHFrEF 會惡化，是因為 **RAAS、交感神經、醛固酮**長期過度活化、讓心臟重塑。四大支柱正好各擋一處：**ARNI／ACEI／ARB**（RAAS）、**β 阻斷劑**（交感）、**MRA**（醛固酮），加上 **SGLT2 抑制劑** → 減緩重塑、減少猝死 → **延長壽命**。\n**利尿劑**只是把多的水排掉、緩解鬱血，還會進一步**活化神經荷爾蒙** → 改善症狀，但不延長壽命；**digoxin** 減少住院，也不延長壽命。"
+        },
+        {
           "type": "collapsible",
           "summary": "延伸：各治療的死亡減少與非藥物治療（2022 Table 15）",
           "text": "全死因相對減少（NNT，36 個月）：ACEI／ARB 17%（26）｜ARNI 再多 16%（27）｜**β 阻斷劑 34%（9）**｜**MRA 30%（6）**｜SGLT2i 17%（22）｜H-ISDN（非裔）43%（7）｜CRT 36%（8）｜ICD 23%（23）\n**無效或有害的「合理」藥**：endothelin 拮抗劑、口服強心劑、moxonidine｜貧血用 EPO、竇性心律常規抗凝、statin、SSRI 無益｜**中樞型睡眠呼吸中止用 ASV 增加死亡**\n非藥物（2022）：多專業團隊照護（1）、自我照護衛教（1）、**運動訓練（1）**、心臟復健（2a）、疫苗（2a）、避免過多鈉（2a，沒有明確數字）"
@@ -101,6 +106,11 @@
           "type": "callout",
           "style": "key",
           "text": "**必背**\n- **緩解鬱血、改善症狀，但不延長壽命**；loop 利尿劑還會**增加神經荷爾蒙活化** → 用**最低有效劑量**\n- 首選 **loop 利尿劑（furosemide）**\n- **furosemide 副作用：低血鉀、低血鈣、高尿酸**（FC 111 年）\n- 利尿阻抗 → 加 **thiazide（metolazone）序列阻斷**，小心**嚴重低血鉀**\n- 靜脈 furosemide 數分鐘內**擴張靜脈、降前負荷**（急性肺水腫）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 loop 利尿劑效果變差時，加上 thiazide 會有效？**\n長期用 loop 利尿劑，送到遠端小管的鈉變多，**遠端小管會代償性地多回收鈉** → 利尿效果打折（利尿阻抗）。這時加 **thiazide（metolazone）**把遠端也擋住 → **序列阻斷**，利尿效果大增；但低血鉀、低血鈉、腎功能惡化的風險也上升，要密切追蹤電解質。"
         },
         {
           "type": "collapsible",
@@ -133,6 +143,11 @@
           "text": "**必背**\n- **ACEI：所有 HFrEF 都要用**，不論症狀多少；類別效應；**高劑量優於低劑量**\n- **ARB**：ACEI 因**咳嗽或血管性水腫**不耐受時改用（不增加 bradykinin）\n- **ARNI（sacubitril-valsartan）**：抑制 **neprilysin** → natriuretic peptide 分解減少｜**PARADIGM-HF：比 enalapril 降低死亡**｜低血壓較多\n- **ACEI 停藥 36 小時後才能開始 ARNI**；**曾有血管性水腫 → ARNI、ACEI 都禁用**\n- **懷孕禁用 ACEI、ARB、ARNI**（FC 111 年：ACEI 不是孕婦心衰竭首選）；雙側腎動脈狹窄 → 急性腎衰竭；高血鉀\n- **不要 ACEI＋ARB（＋MRA）三合一**：高血鉀、腎功能惡化，沒有額外好處"
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 ACEI 咳嗽要改 ARB？為什麼 ARNI 不能和 ACEI 一起用？**\n- ACE 除了製造 Ang II，也負責**分解 bradykinin** → ACEI 讓 bradykinin 累積 → **乾咳、血管性水腫**；**ARB** 直接擋 Ang II 受體、不影響 bradykinin → 可以替代\n- **Neprilysin** 也會分解 bradykinin → **ARNI（sacubitril）+ ACEI** 等於兩條分解路都被擋 → **血管性水腫**風險大增 → 不能併用，換藥要有空窗期\nARNI 抑制 neprilysin 還讓 natriuretic peptide 增加（排鈉、血管擴張）→ 效果優於 ACEI，現為首選。"
+        },
+        {
           "type": "collapsible",
           "summary": "延伸：RAAS 抑制細節",
           "text": "ACEI 統合分析：死亡 ↓ 23%、死亡或住院 ↓ 35%｜**無法耐受開始或加量 → 預後差**，可能進入晚期\nACEI＋neprilysin 抑制（omapatrilat）→ bradykinin 雙重堆積 → 血管性水腫增加；ARB 保留 ACE 分解 bradykinin 的路徑\nARNI：能耐受 ACEI／ARB 的有症狀 HFrEF → 換成 ARNI（2022：1）；血壓足夠的新診斷者可直接用；從 ARB 換不需間隔\n2022：ARNI 不可行 → ACEI（1）；ACEI 不耐受、ARNI 也不可行 → ARB（1）｜ARNI＋ACEI 或 36 小時內（3：有害）\n懷孕或計畫懷孕：ACEI、ARB、ARNI、MRA、SGLT2i、ivabradine、vericiguat 都不可用（3：有害）\nFC：多經腎排除 → 腎差減量；AS、HCM 等固定心輸出者降後負荷要小心"
@@ -161,6 +176,11 @@
           "type": "callout",
           "style": "key",
           "text": "**必背**\n- 加在 ACEI 上**死亡再降約 35%**；**降低猝死（致命心律不整）**\n- **沒有類別效應**：只有 **carvedilol、bisoprolol、metoprolol succinate（緩釋）**證實改善存活｜**propranolol 不行**（FC 111 年）\n- **低劑量開始、慢慢加**；注意低血壓、心搏過緩、短暫體液滯留（可暫加利尿劑）\n- 心室功能 **2–3 個月後**才明顯改善\n- **先 ACEI 或先 β 阻斷劑都可以**（CIBIS III）——重點是兩者都要盡快用上\n- **急性失代償時不要新開始或加量**（FC 103 年：要等肺水腫改善、心衰竭穩定後再開始），但原本在吃的盡量不要停"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 β 阻斷劑會抑制收縮，卻能讓心衰竭病人活更久？**\n長期**交感神經過度活化**對心肌有毒：促進重塑、細胞死亡、**致命心律不整** → β 阻斷劑擋掉這些作用 → 死亡再降約 35%，並**降低猝死**。\n但它短期確實會抑制收縮 → 一開始可能暫時變喘 → **低劑量開始、慢慢加**；而且**沒有類別效應**，只有 carvedilol、bisoprolol、緩釋 metoprolol succinate 證實有效。"
         },
         {
           "type": "collapsible",
@@ -198,6 +218,11 @@
           "text": "**必背**\n- **MRA（spironolactone、eplerenone）**：NYHA II–IV 再減少死亡與住院（RALES）｜長期 ACEI 下 aldosterone 會回升\n- **開始條件：eGFR > 30（FC：肌酸酐男 < 2.5、女 < 2.0）、鉀 < 5.0**｜**鉀無法維持 < 5.5 → 停**\n- spironolactone **男性女乳症** → 改 **eplerenone**\n- **SGLT2 抑制劑（dapagliflozin、empagliflozin 10 mg）**：**不論有無糖尿病**都減少心衰竭惡化與心血管死亡（DAPA-HF、EMPEROR-Reduced）；**效益與降血糖無關**；不論 EF 都有效\n- SGLT2i 缺點：**泌尿生殖道感染、DKA**"
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼用了 ACEI 還要加 MRA？為什麼一定要盯鉀？**\n長期用 ACEI 後，醛固酮會**逐漸回升**（不完全依賴 Ang II）→ 繼續造成留鈉、心肌纖維化 → **MRA** 直接擋醛固酮受體，再減少死亡與住院。\nACEI／ARB／ARNI + MRA 都會讓**鉀升高**，腎功能差時更明顯 → 開始條件 **eGFR > 30、K < 5.0**，追蹤中 K 無法維持 < 5.5 就停。\n**SGLT2 抑制劑**的好處**不論有沒有糖尿病**都存在，是第四根支柱。"
+        },
+        {
           "type": "collapsible",
           "summary": "延伸：細節",
           "text": "eplerenone 證據：NYHA II（EMPHASIS）、心梗後左心室功能不良（EPHESUS）\nspironolactone 抗雄性素：女乳症約 10–20% 男性、勃起障礙\nFC：canagliflozin、ertugliflozin 在心衰竭沒有證據｜SGLT2i 另有減重、降壓、降尿酸、心腎保護\n高血鉀時用鉀結合劑（patiromer、SZC）維持 RAAS 抑制劑：效果不確定（2022：2b）"
@@ -226,6 +251,11 @@
           "type": "callout",
           "style": "key",
           "text": "**必背**\n- **調到試驗證實的目標劑量**；穩定門診**約每 1–2 週加量一次**，FC：**3–6 個月內**調到適當劑量\n- 每一類**盡快用上**，再逐步加量；登錄資料顯示 GDMT 普遍**用得太少、劑量太低**\n- **心衰竭時**：灌流下降 → 腸胃**吸收減少**、肝腎**清除率下降**（不是增加）（FC 112 年）\n- **老年人即使沒有明顯腎病，腎清除率也可能下降 35–50%** → 調整劑量"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼心衰竭藥物要從低劑量開始，又一定要加到目標劑量？**\n- 降低死亡的效果是在**試驗的目標劑量**下證實的；停在低劑量，等於只拿到一部分好處\n- 但病人常有**低血壓、心搏過緩、腎功能差、高血鉀**，加太快會出問題 → 每 1–2 週加一次，**3–6 個月內**調到目標\n- 心衰竭時腸胃**吸收減少**、肝腎**清除率下降** → 藥物動力學改變，更要逐步調整"
         },
         {
           "type": "collapsible",
@@ -263,6 +293,11 @@
           "text": "📌 **digoxin 目標濃度變低**：FC 寫治療濃度 0.8–2.0 ng/mL；**2022 指引目標 0.5–< 0.9 ng/mL**（低濃度就夠，高濃度增加死亡）"
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 digoxin 減少住院卻不延長壽命？為什麼低血鉀會讓 digoxin 中毒？**\nDigoxin 抑制 **Na⁺/K⁺-ATPase** → 細胞內鈣增加 → 收縮力上升、房室結傳導變慢 → 症狀改善、住院減少（DIG 試驗），但**死亡率不變**（女性甚至增加）。\n**K⁺ 和 digoxin 競爭 Na⁺/K⁺-ATPase 的結合位**：低血鉀時 digoxin 結合更多 → **中毒**；腎功能差、amiodarone、verapamil 讓濃度上升也一樣。治療範圍很窄，所以新版目標濃度更低。"
+        },
+        {
           "type": "collapsible",
           "summary": "延伸：其他藥物細節（Harrison、2022）",
           "text": "digoxin：DIG 試驗減少住院、不降死亡，**女性死亡反而增加**｜FC 劑量 0.125–0.25 mg/日，腎差減量｜2022：GDMT 下仍有症狀（2b）\nH-ISDN：A-HeFT 非裔加在 ACEI＋β 上改善存活（2022：NYHA III–IV 非裔 1）；不能用 RAAS 抑制劑（2b）；每天 3 次\nivabradine：SHIFT 減少心血管死亡或住院（2022：2a）｜AF 時無效（作用在竇房結）\nvericiguat（sGC 刺激劑）：近期惡化高風險者減少住院（2b）｜omecamtiv mecarbil：myosin 活化劑，減少心衰竭事件\nstatin：非缺血性 HFrEF 不需常規（CORONA、GISSI-HF 無效）｜omega-3 輕度改善（2b）｜thiamine、selenium 嚴重缺乏才補\n抗 TNF 藥惡化心衰竭｜心衰竭的節律控制藥只用 **amiodarone、dofetilide**｜維生素與保健食品無益（3）"
@@ -291,6 +326,11 @@
           "type": "callout",
           "style": "key",
           "text": "**必背**\n- **缺鐵（不論有無貧血）→ 靜脈鐵劑**改善症狀與運動能力；**口服鐵無效**；**EPO 類不用**（增加血栓）\n- 缺鐵定義：**ferritin < 100，或 100–300 且轉鐵蛋白飽和度 < 20%**\n- **AF**：CHA₂DS₂-VASc 男 ≥ 2、女 ≥ 3 → **抗凝，DOAC 優於 warfarin**｜節律控制：**電燒優於藥物**；藥物只用 amiodarone、dofetilide\n- **CHA₂DS₂-VASc**：心衰竭 1、高血壓 1、**年齡 ≥ 75 → 2**、糖尿病 1、中風或 TIA 2、血管疾病 1、65–74 歲 1、**女性 1**（FC 110 年：76 歲女性、高血壓、糖尿病 → 5；若把「走路就喘」算心衰竭 → 6，兩個答案都給分）\n- 阻塞型睡眠呼吸中止 → **CPAP**｜**中樞型用 ASV → 增加死亡**"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼心衰竭的缺鐵要打靜脈鐵？為什麼合併 AF 要積極處理？**\n- 缺鐵（即使沒有貧血）會降低肌肉與心肌的能量代謝 → 疲倦、運動能力差；**口服鐵在心衰竭病人補不起來、也沒有改善運動能力** → 用**靜脈鐵**；EPO 類**增加血栓**、不建議\n- **AF** 讓心房失去收縮、心室率又快 → 心輸出量下降、心衰竭惡化；同時中風風險高 → **抗凝（DOAC 優先）**，症狀明顯者考慮節律控制"
         },
         {
           "type": "collapsible",
@@ -328,6 +368,11 @@
           "text": "📌 **CRT 條件 FC 與 2022 指引不同**：FC——LBBB 且 QRS > 130、非 LBBB 且 > 150、或 AF 且 > 130｜**2022——LBBB 且 ≥ 150（1）**；LBBB 120–149 或非 LBBB ≥ 150（2a）；AF 要能確保近 100% 起搏｜考題依出處作答"
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 ICD 要等最佳藥物治療約 3 個月後再決定？為什麼 CRT 要看 LBBB？**\n- 不少病人在 GDMT 下 **EF 會回升**；先把藥用足，3 個月後 **LVEF 仍 ≤ 35%** 才放 ICD，避免不必要的裝置\n- **LBBB** 讓左心室中隔和側壁**不同步收縮**，浪費力氣；**CRT（雙心室節律）**讓兩邊同時收縮 → EF 與存活改善。**QRS 越寬、越像 LBBB**，效果越好；非 LBBB 的好處較小"
+        },
+        {
           "type": "collapsible",
           "summary": "延伸：ICD 與 CRT 細節（Harrison、2022）",
           "text": "DANISH：非缺血性有症狀 HFrEF，預防性 ICD 沒有顯著降低全死因（< 60 歲有益）\n不放 ICD：預期壽命 < 6 個月、藥物難治 NYHA IV 且非移植候選（2022：存活 < 1 年 → 3：無益）\nICD 放電不等於「救回一次猝死」；適當放電代表近期預後較差\nCRT：經冠狀竇放左心室導線｜CARE-HF 第一個證明降死亡；輕症最大效益在 QRS > 149 且 LBBB｜RBBB、AF、側壁疤痕效果不確定｜高度房室阻斷＋LVEF 36–50% → CRT（2a）\n心臟收縮力調節（CCM）：EF 25–45%、窄 QRS，改善症狀，未證實降死亡"
@@ -356,6 +401,11 @@
           "type": "callout",
           "style": "key",
           "text": "**必背**\n- **缺血性心肌病、EF ≤ 35%、解剖合適 → CABG**（STICH：10 年死亡較少）；**PCI 再通無益**（REVIVED）\n- 嚴重續發性 MR → **先最佳化 GDMT**，再考慮**經導管瓣緣修補（MitraClip，COAPT）**\n- **D 期**：轉介評估 **LVAD、心臟移植、緩和照護**｜**長期強心劑增加死亡**，只作過渡或緩和\n- **HFimpEF（EF 回到 > 40%）→ 繼續 GDMT**，即使沒有症狀\n- 出院後**半年近一半再住院**、多在 2 週內 → **早期回診**；STRONG-HF：出院後快速加藥減少死亡與再住院"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼晚期心衰竭不能長期靠強心劑？**\n強心劑讓心臟更用力 → **耗氧增加、心律不整增加** → 長期使用**增加死亡**；只適合當作等待 LVAD 或移植的**橋接**，或**緩和**症狀。\n所以進入 **D 期**（最佳治療下仍反覆住院、嚴重症狀）時，要及早轉介討論 **LVAD、心臟移植或緩和照護**。"
         },
         {
           "type": "collapsible",
