@@ -551,6 +551,10 @@
         {
           "id": "oncall-oliguria",
           "name": "On Call: 尿少（少尿、無尿、肌酸酐上升）"
+        },
+        {
+          "id": "oncall-fall",
+          "name": "On Call: 病人跌倒（受傷評估、為什麼跌、預防再跌）"
         }
       ]
     }
