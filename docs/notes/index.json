@@ -571,6 +571,18 @@
         {
           "id": "oncall-pain",
           "name": "On Call: 疼痛控制（新的痛先找原因，再選止痛藥）"
+        },
+        {
+          "id": "oncall-insomnia-agitation",
+          "name": "On Call: 失眠與躁動（要安眠藥、病人很躁動）"
+        },
+        {
+          "id": "oncall-nausea-vomiting",
+          "name": "On Call: 噁心嘔吐（先找原因，再選止吐藥）"
+        },
+        {
+          "id": "oncall-constipation-diarrhea",
+          "name": "On Call: 便秘與腹瀉（住院病人的排便問題）"
         }
       ]
     }

@@ -10,7 +10,8 @@
     "Harrison's 22e - Ch.27 Confusion and Delirium (p.182–186)、Ch.30 Coma (p.186–192)、Ch.318 Nervous System Disorders in Critical Care (Table 318-2 ICP, p.2345)、Ch.143 Meningitis (p.1121–1123)、Ch.56 低鈉 (p.350–351)、Ch.467 Opioid (Table 467-2, p.3690–3691)、Wernicke (p.2349)、酒精戒斷 (p.3679–3680)、Ch.355 肝性腦病變 (p.2717)、Ch.13 Table 13-7 (p.86)",
     "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）- Confusion／Decreased Level of Consciousness (p.98–101)",
     "劑型依院內品項；約束依院內作業規範",
-    "Harrison's 22e - Ch.470 Poisoning and Drug Overdose (Table 470-4 p.3710–3715：有機磷 atropine + 2-PAM、CO 高濃度氧／高壓氧、co-oximetry)；Ch.467 p.3690–3691（naloxone、flumazenil 0.2 mg/min）；p.2670（acetaminophen 中毒 NAC）"
+    "Harrison's 22e - Ch.470 Poisoning and Drug Overdose (Table 470-4 p.3710–3715：有機磷 atropine + 2-PAM、CO 高濃度氧／高壓氧、co-oximetry)；Ch.467 p.3690–3691（naloxone、flumazenil 0.2 mg/min）；p.2670（acetaminophen 中毒 NAC）",
+    "Harrison's 22e - Ch.489 Geriatric Medicine p.3888（老人譫妄 risperidone 0.25–0.5 mg、quetiapine 12.5–50 mg 睡前）"
   ],
   "related": [
     {
@@ -412,7 +413,7 @@
         {
           "type": "callout",
           "style": "key",
-          "text": "**藥物：只有在嚴重躁動、可能傷害自己或他人時**（Harrison）\n- **很低劑量的抗精神病藥 PRN**：如 **haloperidol 0.5–5 mg PO／IV／SC／IM，q2–12h**（Harrison 表）；**老人從最低劑量開始**\n- 臨床試驗一致顯示抗精神病藥**無法預防或治療譫妄**，且老人使用與**死亡率上升**有關 → 最後手段、短期使用\n- 注意 **QTc 延長**；**帕金森病人避免 haloperidol**（改低劑量非典型抗精神病藥，依藥師建議）\n- **避免 BZD**——會讓譫妄更糟；**例外：酒精或 BZD 戒斷**"
+          "text": "**藥物：只有在嚴重躁動、可能傷害自己或他人時**（Harrison）\n- **很低劑量的抗精神病藥 PRN**：如 **haloperidol 0.5–5 mg PO／IV／SC／IM，q2–12h**（Harrison Table 13-7）；**老人從最低劑量開始**\n- **老人譫妄**：Harrison 老年醫學章建議低劑量 **risperidone 0.25–0.5 mg** 或 **quetiapine 12.5–50 mg 睡前**（利用鎮靜作用）（Harrison p.3888）\n- 臨床試驗一致顯示抗精神病藥**無法預防或治療譫妄**，且老人使用與**死亡率上升**有關 → 最後手段、短期使用\n- 注意 **QTc 延長**；**帕金森病人避免 haloperidol**（改低劑量非典型抗精神病藥，如 quetiapine）\n- **避免 BZD**——會讓譫妄更糟；**例外：酒精或 BZD 戒斷**"
         },
         {
           "type": "callout",

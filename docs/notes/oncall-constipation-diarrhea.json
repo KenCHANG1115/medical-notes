@@ -1,0 +1,269 @@
+{
+  "id": "oncall-constipation-diarrhea",
+  "title": "On Call: 便秘與腹瀉（住院病人的排便問題）",
+  "title_en": "On Call: Constipation and Diarrhea",
+  "title_zh": "值班：便秘與腹瀉",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.49 Diarrhea and Constipation（p.305：假性腹瀉、溢流性腹瀉、住院感染性腹瀉最常見為 C. difficile；p.307：補液、loperamide 限制、bismuth；p.312–313：Table 49-5 便秘原因、肛門指診必做、Ca/K/TSH、警示症狀、polyethylene glycol）",
+    "Harrison's 22e - Ch.13 Palliative（Table 13-5 p.82：senna 2–8 tab bid、bisacodyl 5–15 mg PO／10 mg PR、lactulose 15–30 mL q4–8h、magnesium hydroxide 15–30 mL、magnesium citrate 125–250 mL、docusate 300–600 mg/d、sodium phosphate enema；鴉片類預防、纖維禁用、嵌塞處理）",
+    "Harrison's 22e - Ch.139 Clostridioides difficile Infection（p.1084–1086：診斷標準 ≥3 次／24 h × ≥2 天、Table 139-2：fidaxomicin 200 mg bid × 10 d、vancomycin 125 mg qid × 10 d、猛爆性 vancomycin 500 mg + metronidazole 500 mg IV q8h + 保留灌腸；避免止瀉藥；靜脈 vancomycin 無效；肥皂洗手；乳酸 5 mmol/L 前手術）",
+    "Harrison's 22e - Ch.421 p.3267（腎功能差的高血鎂）；p.2440（口服磷酸鈉的急性磷酸鹽腎病變）",
+    "嗜中性球與血小板低下避免灌腸塞劑、腎功能差避免磷酸鹽灌腸：臨床常規",
+    "劑型依院內品項；C. difficile 檢驗依院內流程"
+  ],
+  "generated": "2026-11-26",
+  "updated": "2026-11-26",
+  "related": [
+    {
+      "id": "diarrhea",
+      "name": "Diarrhea (腹瀉)"
+    },
+    {
+      "id": "bowel-obstruction-appendicitis",
+      "name": "Bowel Obstruction, Appendicitis & Anorectal Disease (腸阻塞、闌尾炎與肛門直腸疾病)"
+    },
+    {
+      "id": "oncall-abdominal-pain",
+      "name": "On Call: 腹痛（住院病人新的腹痛）"
+    },
+    {
+      "id": "oncall-pain",
+      "name": "On Call: 疼痛控制（新的痛先找原因，再選止痛藥）"
+    },
+    {
+      "id": "onc-supportive-emergencies",
+      "name": "Oncology (三)：照顧癌症病人——嗜中性球低下發燒、腫瘤急症與症狀控制"
+    },
+    {
+      "id": "oncall-potassium-disorders",
+      "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+    },
+    {
+      "id": "oncall-nausea-vomiting",
+      "name": "On Call: 噁心嘔吐（先找原因，再選止吐藥）"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人幾天沒大便」／「病人一直拉肚子」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**兩個問題，同一個第一步：先排除危險，再處理排便**\n- **腸阻塞**：腹脹、嘔吐、**沒有排氣**、腹絞痛 → 見〈On Call: 腹痛〉，**不要給瀉劑**\n- **溢流性腹瀉**：長期臥床、老人、鴉片類病人「一直拉稀」，其實是**糞便嵌塞**旁邊滲出來的水便 → **肛門指診**（Harrison）\n- **嚴重 C. difficile**：發燒、腹脹、腹痛、**白血球 ≥ 15,000**、**肌酸酐 ≥ 1.5**、低血壓、**腸麻痺**（可能反而**沒有腹瀉**）\n- **血便、黑便** → 見〈On Call: 腸胃道出血〉；腹痛遠大於理學檢查 → 腸繫膜缺血\n- **脫水、低血壓、電解質異常**（低鉀）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**電話中先問**：生命徵象、腹痛腹脹、嘔吐、**最後一次排氣與排便**、大便的樣子（水便、血便、黑便）、一天幾次、**最近的抗生素**、有沒有正在用**瀉劑或軟便劑**、鴉片類、管灌飲食"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.49 Diarrhea and Constipation p.305（溢流性腹瀉、住院感染性腹瀉最常見為 C. difficile）；Ch.139 p.1084–1085（嚴重與猛爆性 CDI）"
+        }
+      ]
+    },
+    {
+      "title": "路 1：便秘——找原因與床邊評估",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**住院病人便秘的常見原因**\n- **藥物**：**鴉片類**（最常見）、**抗膽鹼藥**、三環抗憂鬱劑、**鈣離子阻斷劑**（Harrison）；鐵劑、含鋁或鈣的制酸劑（臨床常規）\n- **不能活動**、吃得少、喝得少（Harrison：住院本身就會讓便秘變嚴重）\n- **代謝**：**高血鈣**、低血鉀、甲狀腺低下\n- **新發生**的便秘：腫瘤、狹窄、肛裂或痔瘡疼痛（Harrison）\n- 神經疾病：巴金森病、脊髓損傷、糖尿病神經病變"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**床邊評估**\n1. 腹部：脹不脹、壓痛、腸音、有沒有腹膜炎徵象\n2. **肛門指診（必做）**：有沒有**糞便嵌塞**、腫塊、血（Harrison）\n3. 疑腸阻塞 → **腹部 X 光**\n4. 持續便秘 → 驗 **K、Ca、TSH**（Harrison）\n5. **體重減輕、血便、貧血** → 白天安排大腸鏡（Harrison）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.49 p.312–313（Table 49-5 便秘原因、肛門指診必做、Ca/K/TSH、警示症狀）；Ch.13 p.82（安寧病人便秘）"
+        }
+      ]
+    },
+    {
+      "title": "路 1：便秘的 Order",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先確認沒有腸阻塞**；**腎功能差避免含鎂瀉劑**（高血鎂，Harrison）；嗜中性球低下、血小板低下的病人**避免灌腸與塞劑**（臨床常規）。劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**刺激性瀉劑**｜**Senna 2–8 tab PO bid**；**bisacodyl 5–15 mg/d PO**，或 **10 mg 塞劑 PR qd**（Harrison Table 13-5）\n- 劑型：依院內品項\n- 注意：可能腹絞痛"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**滲透性瀉劑**｜**Lactulose 15–30 mL PO q4–8h**；magnesium hydroxide 15–30 mL/d PO；magnesium citrate 125–250 mL/d PO（Harrison Table 13-5）；polyethylene glycol（Harrison 未列劑量）\n- 劑型：依院內品項；台灣常見氧化鎂錠\n- 注意：Lactulose 約 1 天起效、會脹氣；**鎂製劑腎功能差避免**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**軟便劑**｜**Docusate 300–600 mg/d PO**（Harrison Table 13-5）\n- 劑型：依院內品項\n- 注意：1–3 天起效（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**灌腸**｜**Sodium phosphate enema（Fleet）PR qd**（Harrison Table 13-5）；甘油灌腸依院內\n- 劑型：依院內品項\n- 注意：**腎功能差避免磷酸鹽**（臨床常規；Harrison：口服磷酸鈉可造成急性磷酸鹽腎病變）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**糞便嵌塞**｜**手指挖便** + 塞劑（Harrison）；之後規則使用瀉劑"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**鴉片類病人**｜**一開鴉片類就同時開瀉劑 + 軟便劑**（如 senna + docusate）（Harrison）\n- 劑型：依院內品項\n- 注意：**纖維在使用鴉片類時禁用**（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**避免**｜**纖維、膨脹性瀉劑**用在脫水、腸蠕動差、用鴉片類的病人（Harrison）\n- 注意：會讓糞便更硬、甚至阻塞"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼鴉片類病人要「預防性」開瀉劑？**\n鴉片類讓腸道蠕動變慢，便秘幾乎一定發生、而且不會產生耐受性；Harrison 安寧章指出，**便秘不處理會造成疼痛、嘔吐，還會引起混亂與譫妄**。所以一開鴉片類就要同時開「刺激性瀉劑 + 軟便劑」，並且**每天確認有沒有排便**；幾天沒有排便就要做肛門指診、處理嵌塞。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.13 Table 13-5 p.82（便秘用藥劑量、鴉片類預防、纖維禁用、嵌塞處理）；Ch.49 p.313（polyethylene glycol、lactulose、塞劑）；Ch.421 p.3267（腎功能差 → 高血鎂）；p.2440（口服磷酸鈉的急性磷酸鹽腎病變）"
+        }
+      ]
+    },
+    {
+      "title": "路 2：腹瀉——先看是不是真的腹瀉，再想 C. difficile",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**先確認是「真的腹瀉」**（Harrison）\n- **C. difficile 的診斷標準**之一：**24 小時內 ≥ 3 次不成形便、持續 ≥ 2 天**，且沒有其他原因\n- **假性腹瀉**（次數多但量少、裡急後重）、**大便失禁**、**溢流性腹瀉**（糞便嵌塞）都會被說成「拉肚子」→ **肛門指診**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**住院病人腹瀉的常見原因**\n1. **瀉劑、軟便劑**（最常見也最容易忘：lactulose、鎂製劑、senna）\n2. **C. difficile**（住院與長照機構最常見的感染性腹瀉，Harrison）\n3. **其他藥物**：抗生素（非 C. difficile 的）、metformin、colchicine、化療（臨床常規）\n4. **管灌飲食**（濃度、速度）（臨床常規）\n5. 腸胃道出血（黑便）、缺血性腸炎\n6. 免疫低下者的特殊感染（CMV 等）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.49 p.305（假性腹瀉、溢流性腹瀉、住院腹瀉多為 C. difficile）；Ch.139 p.1084（CDI 診斷標準）"
+        }
+      ]
+    },
+    {
+      "title": "路 2：腹瀉的 Order",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**懷疑 C. difficile 時先不要給止瀉藥**（loperamide、鴉片類）——可能掩蓋症狀、讓病情變嚴重（Harrison）。劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**所有腹瀉**｜**停瀉劑與軟便劑**；**補水分與電解質**（口服電解質液，嚴重脫水或老人 → 靜脈輸液）（Harrison）\n- 劑型：依院內品項\n- 注意：脫水是腹瀉最主要的死因（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**抽血**｜CBC（**白血球**）、**BUN／Cr**、電解質（**K**）、乳酸（重症）、白蛋白\n- 注意：嚴重 CDI 指標：白血球 ≥ 15,000、Cr ≥ 1.5（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**C. difficile 檢驗**｜**只驗有症狀的人**：24 小時 ≥ 3 次不成形便，且**沒有在用瀉劑**；依院內流程（NAAT／PCR、毒素、GDH）\n- 注意：**不要驗沒症狀的人**、**不要做治癒檢驗**（Harrison）；檢驗會延遲 → 可先經驗性治療"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**接觸隔離**｜隔離、戴手套與隔離衣；**用肥皂洗手**\n- 注意：**酒精乾洗手殺不了芽孢**（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**停不必要的抗生素**｜可以的話停掉正在用的抗生素（Harrison 治療第一步）\n- 注意：和主治醫師、感染科討論"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**CDI 非嚴重**｜**Fidaxomicin 200 mg PO bid × 10 天**，或 **vancomycin 125 mg PO qid × 10 天**（Harrison Table 139-2）\n- 劑型：依院內品項\n- 注意：**靜脈 vancomycin 對 CDI 無效**；metronidazole 500 mg PO tid 只在前兩者無法取得時用於輕中度"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**CDI 嚴重（白血球 ≥ 15,000 或 Cr ≥ 1.5）**｜**Vancomycin 125 mg PO qid × 10 天**，或 fidaxomicin 200 mg PO bid × 10 天（Harrison）\n- 劑型：依院內品項"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**CDI 猛爆性（低血壓、休克、腸麻痺、毒性巨結腸）**｜**Vancomycin 500 mg PO 或鼻胃管** + **metronidazole 500 mg IV q8h**；考慮 **vancomycin 500 mg 加 100 mL 生理食鹽水保留灌腸 q6–8h**（Harrison）\n- 劑型：依院內品項\n- 注意：**找學長姐、會診外科**（Harrison：最好在乳酸到 5 mmol/L 之前開刀）、感染科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**非 C. difficile、不發燒、沒有血便**｜可考慮 **loperamide**（Harrison）\n- 劑型：依院內品項\n- 注意：**發燒或血便不要用**；QT 相關藥物併用要小心（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**管灌飲食造成**｜調整濃度、速度或配方（會診營養師）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 C. difficile 要用肥皂洗手、要接觸隔離？**\nC. difficile 會形成**芽孢**，能在環境表面存活好幾個月，主要經由**醫護人員的手**和環境傳播（Harrison）。酒精乾洗手**殺不了芽孢**，所以爆發時要用肥皂和水洗手、戴手套，病房用**含氯消毒劑**清潔。減少使用 clindamycin、第二代與第三代 cephalosporin、fluoroquinolone 也能控制爆發。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.139 Clostridioides difficile Infection p.1084–1086（診斷、Table 139-2 治療、避免止瀉藥、靜脈 vancomycin 無效、手部衛生與隔離）；Ch.49 p.307（急性腹瀉的補液、loperamide 的使用限制、bismuth 腎功能差避免）"
+        }
+      ]
+    },
+    {
+      "title": "家屬溝通、交班、常見錯誤與範例",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**家屬溝通（C. difficile 隔離）**\n- 「這是**抗生素後**常見的腸道感染，會經由手和環境傳染給其他病人」\n- 「進出病房請**用肥皂洗手**（酒精乾洗手沒有用）、穿隔離衣」\n- 「治療一般 10 天；有些人之後會**復發**，回家後再拉肚子要告訴醫師」"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**交給白天團隊**\n- 便秘：排便計畫（定時瀉劑）、檢討造成便秘的藥、持續便秘的原因（Ca、K、TSH、大腸鏡）\n- 腹瀉：C. difficile 結果、抗生素能否停或換、隔離、電解質與腎功能追蹤、管灌調整\n- 猛爆性 CDI：外科與感染科意見、乳酸追蹤\n**SBAR 範例**：「01:20 72 歲阿伯肺炎用 ceftriaxone 第 6 天，今天水便 6 次、發燒 38.4、腹部輕壓痛不脹；白血球 18,000、Cr 1.7（前 1.0）、血壓 112/68。疑**嚴重 C. difficile**。已停瀉劑、接觸隔離、送 C. difficile 檢驗、輸液補鉀；**先開 vancomycin 125 mg PO qid**；請白天評估抗生素能否停。」"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 病人一直拉肚子卻**還在吃瀉劑或 lactulose**\n- 沒有**肛門指診**，把溢流性腹瀉當成腹瀉給止瀉藥\n- 腸阻塞還給**瀉劑**\n- 疑 C. difficile 還給 **loperamide**、鴉片類\n- 用**靜脈** vancomycin 治 C. difficile\n- **用酒精乾洗手**處理 C. difficile 病人\n- 驗**沒有症狀**的人、做**治癒檢驗**\n- 開鴉片類**沒開瀉劑**；給鴉片類病人纖維\n- 腎功能差給**鎂製劑**、磷酸鹽灌腸\n- 猛爆性 CDI **沒有腹瀉**就沒想到（腸麻痺）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 2 點：「85 歲阿嬤臥床、吃 morphine，護理師說一直滲水便，要不要開止瀉藥？」",
+          "text": "1. 臥床 + 鴉片類 + 一直「滲」水便 → **溢流性腹瀉**優先\n2. **肛門指診**：直腸塞滿硬便 → **糞便嵌塞**\n3. **手指挖便** + 塞劑；之後規則使用瀉劑 + 軟便劑\n4. **不要給止瀉藥**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 4 點：「60 歲大叔腹部手術後用抗生素第 8 天，發燒、肚子越來越脹，血壓 86/50，但今天反而沒有拉肚子。」",
+          "text": "1. 抗生素 + 發燒 + 腹脹 + 休克 + **沒有腹瀉**（腸麻痺）→ **猛爆性 C. difficile**、毒性巨結腸要想到\n2. 找學長姐；輸液、血液培養、乳酸、**腹部 X 光或 CT**\n3. **Vancomycin 500 mg 經鼻胃管 + metronidazole 500 mg IV q8h** ± vancomycin 保留灌腸\n4. **會診外科**（乳酸到 5 mmol/L 之前）、感染科；也要排除其他腹腔感染"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：腹瀉的完整鑑別與 C. difficile 機轉見〈Diarrhea〉；腸阻塞見〈Bowel Obstruction／Appendicitis〉；腹痛見〈On Call: 腹痛〉；鴉片類與癌症病人症狀控制見〈On Call: 疼痛控制〉與〈Oncology (三)〉；低血鉀見〈On Call: 鉀離子異常〉。"
+        }
+      ]
+    }
+  ]
+}

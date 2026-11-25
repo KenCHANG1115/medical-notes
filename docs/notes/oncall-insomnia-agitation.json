@@ -1,0 +1,282 @@
+{
+  "id": "oncall-insomnia-agitation",
+  "title": "On Call: 失眠與躁動（要安眠藥、病人很躁動）",
+  "title_en": "On Call: Insomnia and Agitation",
+  "title_zh": "值班：失眠與躁動",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.33 Sleep Disorders（p.215–217：失眠原因、睡眠衛生 Table 33-2、zolpidem 5–10 mg、trazodone 25–100 mg、gabapentin 100–300 mg；鎮靜劑增加老人跌倒與混亂、可能加重睡眠呼吸中止）",
+    "Harrison's 22e - Ch.29 Confusion and Delirium（p.184–186：非藥物、抗精神病藥只作最後手段且增加老人死亡率、BZD 只用於戒斷、床邊警示與陪伴優於約束、melatonin）",
+    "Harrison's 22e - Ch.13 Palliative and End-of-Life Care（p.85–86：Table 13-7 譫妄用藥 haloperidol 0.5–5 mg、olanzapine 2.5–5 mg；IM 盡量避免；約束；老人 trazodone 25 mg、短效 BZD 優先）",
+    "Harrison's 22e - Ch.489 Geriatric Medicine（p.3888：老人譫妄 risperidone 0.25–0.5 mg、quetiapine 12.5–50 mg 睡前）；p.209（失智症躁動優先非典型、路易氏體失智症對副作用特別敏感）",
+    "巴金森病避免 haloperidol、鴉片類併用 BZD 的呼吸抑制、腎功能差 gabapentin 減量、IV haloperidol 監測 QTc：臨床常規",
+    "劑型依院內品項；約束依院內規範"
+  ],
+  "generated": "2026-11-26",
+  "updated": "2026-11-26",
+  "related": [
+    {
+      "id": "confusion-decreased-consciousness",
+      "name": "Confusion / Decreased Level of Consciousness (意識不清)"
+    },
+    {
+      "id": "oncall-pain",
+      "name": "On Call: 疼痛控制（新的痛先找原因，再選止痛藥）"
+    },
+    {
+      "id": "oncall-fall",
+      "name": "On Call: 病人跌倒（受傷評估、為什麼跌、預防再跌）"
+    },
+    {
+      "id": "onc-supportive-emergencies",
+      "name": "Oncology (三)：照顧癌症病人——嗜中性球低下發燒、腫瘤急症與症狀控制"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人睡不著，要安眠藥」／「病人很躁動」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先分清楚：這是「單純睡不著」，還是「譫妄、躁動」？**\n- 意識清楚、對答正常、只是睡不著 → **路 1：失眠**\n- **新的混亂**、注意力差、日夜顛倒、看到不存在的東西、拔管路 → **路 2：躁動與譫妄**——**不要只給安眠藥**\n**電話中先問**：生命徵象、**SpO₂**、**one-touch 血糖**、意識和平常比較、有沒有痛、最後一次解尿（**尿滯留**）、新加的藥"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**這些情況先到床邊，不要電話開藥**\n- **低血氧、低血壓、低血糖**、發燒\n- **意識變差**或新的局部神經學徵象（見〈On Call: 意識改變〉）\n- **酒精或 BZD 戒斷**的可能（停用後第 2–3 天、手抖、冒汗、心跳快）\n- 對自己或別人有**立即危險**（攻擊、拔氣管內管或中心靜脈導管）→ 先確保**人員安全**、找人幫忙"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.29 Confusion and Delirium p.184–186；Ch.33 Sleep Disorders p.215–217"
+        }
+      ]
+    },
+    {
+      "title": "路 1：失眠——先找原因，再給藥",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**住院病人睡不著，常見原因**（Harrison）\n- **症狀**：**疼痛**、喘（端坐呼吸、COPD、心衰竭）、頻尿或夜尿、胃食道逆流、癢\n- **藥物**：**類固醇**、利尿劑（晚上給）、**支氣管擴張劑**、theophylline、抗憂鬱劑、興奮劑；**停用**酒精、鴉片類、BZD 造成的戒斷\n- **環境**：夜間量生命徵象、抽血、點滴警示音、燈光、同房病人\n- **情緒**：焦慮、憂鬱（憂鬱的典型是**清晨早醒**）\n- **咖啡因**（半衰期 6–9 小時）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**電話中問**\n1. 平常在家有沒有吃安眠藥？什麼藥、多少劑量？（突然停用也會失眠）\n2. 是入睡困難、半夜醒來，還是太早醒？\n3. 有沒有痛、喘、想尿尿？\n4. 年紀、肝腎功能、**有沒有睡眠呼吸中止或 CO₂ 滯留的 COPD**、有沒有用鴉片類"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼不先給安眠藥？**\nHarrison 指出：所有鎮靜劑都會增加**老人跌倒受傷與混亂**的風險；有些安眠藥會**讓睡眠呼吸中止變嚴重**；BZD 有依賴與濫用風險。把痛止好、把利尿劑移到白天、減少夜間打擾，常常比安眠藥有效，也安全得多。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.33 p.215–217（Insomnia：原因、藥物注意事項）"
+        }
+      ]
+    },
+    {
+      "title": "路 1：失眠的 Order",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "Harrison：**老人用最低有效劑量**；鎮靜劑都會增加跌倒與混亂。劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**處理原因**｜止痛、止喘、**利尿劑改到白天**、類固醇改早上給；減少夜間不必要的生命徵象與抽血\n- 注意：最有效、最安全"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**非藥物**｜固定作息、關燈、降低噪音、白天不要一直睡；睡不著超過 20 分鐘就起來做放鬆的事（Harrison Table 33-2）\n- 注意：住院環境能做多少做多少"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**平常在家就有吃**｜**照平常的藥與劑量**\n- 劑型：依病人自備藥或院內品項\n- 注意：確認不是突然停藥造成的失眠或戒斷"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**入睡困難（短效）**｜**Zolpidem 5–10 mg PO 睡前**（Harrison；老人從 **5 mg** 開始）\n- 劑型：依院內品項\n- 注意：半衰期 2–4 小時；可能有夢遊、夜間進食等複雜行為；**跌倒**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**老人、不想用 BZD 類**｜**Trazodone 25–100 mg PO 睡前**（Harrison）；老人從 **25 mg** 開始（Harrison Ch.13）\n- 劑型：依院內品項\n- 注意：**姿勢性低血壓**（夜裡起身跌倒）；少見陰莖異常勃起"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**焦慮明顯**｜**Lorazepam 0.5–2 mg PO**（Harrison Table 13-7；短效 BZD 優於長效，如 diazepam）\n- 劑型：依院內品項\n- 注意：**老人、肝病**小心；觀察是否變混亂、譫妄"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**合併憂鬱**｜Mirtazapine（白天團隊調整）\n- 劑型：依院內品項\n- 注意：鎮靜、增加食慾"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**疼痛干擾睡眠**｜**Gabapentin 100–300 mg PO 睡前**（Harrison）\n- 劑型：依院內品項\n- 注意：腎功能差要減量（臨床常規）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**避免**｜**Diphenhydramine**等抗組織胺（老人：抗膽鹼作用 → 口乾、便秘、尿滯留、譫妄）；alprazolam（依賴）\n- 注意：Harrison Ch.33、Ch.489"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**特別小心**\n- **CO₂ 滯留的 COPD、睡眠呼吸中止、肥胖低通氣** → 鎮靜劑可能抑制呼吸\n- **已經在用鴉片類** → 再加 BZD 或安眠藥 → 呼吸抑制（臨床常規）\n- **肝硬化** → 鎮靜劑可能誘發肝性腦病變\n- **譫妄或失智**的病人 → BZD 會讓混亂更嚴重（Harrison）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.33 p.216–217（zaleplon 5–20、zolpidem 5–10、triazolam 0.125–0.25、eszopiclone 1–3、temazepam 15–30 mg；trazodone 25–100 mg；gabapentin 100–300 mg）；Ch.13 p.86（老人 trazodone 25 mg；短效 BZD 優先）"
+        }
+      ]
+    },
+    {
+      "title": "路 2：躁動與譫妄——安全、找原因、最後才用藥",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**順序：① 安全 → ② 找原因 → ③ 非藥物 → ④ 必要時低劑量藥物**\n- **嚴重躁動**本身就是緊急情況，要立即處理以確保病人與工作人員安全（Harrison）\n- **但藥物不是第一步**：抗精神病藥物**無法預防或治療譫妄**本身，只用在**嚴重躁動、可能傷害自己或別人**時；老人使用還會**增加死亡率** → 只當最後手段（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**找原因（詳見〈On Call: 意識改變〉）**\n- **低血氧**、低血糖、低血壓、發燒或敗血症\n- **疼痛**、**尿滯留**（膀胱超音波）、**便秘**\n- **藥物**：抗膽鹼藥、鴉片類、**BZD**、類固醇、抗組織胺；看 MAR 有沒有新加的藥\n- **戒斷**：酒精、BZD（即使每天只喝幾杯，老人也可能）\n- 電解質（Na、Ca）、肝腎功能、腦部病灶"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**非藥物**（Harrison）\n- 家屬陪伴、重新定向（時鐘、月曆、眼鏡、助聽器）\n- **白天亮、晚上暗且安靜**；減少夜間打擾；睡前可考慮 **melatonin**（依院內是否有品項）\n- **移除不必要的管路**（尿管、點滴、監視器線）\n- **床邊警示、專人陪伴**比身體約束**更有效、也比較不會讓病人更混亂**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.29 p.184–186（delirium：原因、非藥物、抗精神病藥物只作最後手段、BZD 只用於戒斷）"
+        }
+      ]
+    },
+    {
+      "title": "路 2：躁動的 Order",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**從最低劑量開始**，間隔足夠時間再評估；老人、失智、巴金森病人特別小心。劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**老人譫妄（有危險或妄想、幻覺）**｜**Quetiapine 12.5–50 mg PO 睡前**（利用鎮靜作用），或 **risperidone 0.25–0.5 mg PO**（Harrison 老年醫學章）\n- 劑型：依院內品項\n- 注意：比鎮靜性強的抗精神病藥與 BZD 更適合；**老人死亡率增加**——短期、最低劑量"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**嚴重躁動、無法口服**｜**Haloperidol 0.5–5 mg PO／IV／SC／IM**，可間隔 2–12 小時重複（Harrison Table 13-7）；**老人從 0.5 mg 開始**\n- 劑型：依院內品項\n- 注意：**IM 只在沒有其他途徑時使用**（Harrison Ch.13）；錐體外症狀、QT 延長（監測心電圖，臨床常規）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**可口服、需要較長時間控制**｜**Olanzapine 2.5–5 mg PO qd 或 bid**（Harrison Table 13-7）\n- 劑型：依院內品項\n- 注意：只有口服；約一週達穩定濃度；止吐、抗焦慮"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**酒精或 BZD 戒斷**｜**BZD**：diazepam 或 chlordiazepoxide（肝病 → lorazepam）（見〈On Call: 意識改變〉）\n- 劑型：依院內品項\n- 注意：**這是 BZD 唯一適合用在譫妄的情況**（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**錐體外症狀、急性肌張力不全**｜**Benztropine** 或 diphenhydramine IV（Harrison p.86、p.3706）\n- 劑型：依院內品項\n- 注意：劑量依院內"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**避免**｜一般譫妄用 **BZD**（讓混亂更嚴重）；**路易氏體失智症**病人用傳統抗精神病藥（對副作用特別敏感）；巴金森病人用 haloperidol\n- 注意：Harrison Ch.29、p.209；巴金森為臨床常規"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼老人譫妄優先選 quetiapine 或極低劑量 risperidone？**\nHarrison 老年醫學章建議：需要用藥時，用**低劑量** risperidone（0.25–0.5 mg）或 quetiapine（12.5–50 mg 睡前，順便利用它的鎮靜作用幫助睡眠）；**鎮靜性強的抗精神病藥與 BZD 應避免**，除非目標只是讓病人短時間睡著。若必須用 BZD，選**短效**（lorazepam）、**低劑量**。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.489 Geriatric Medicine p.3888（risperidone 0.25–0.5 mg、quetiapine 12.5–50 mg 睡前）；Ch.13 Table 13-7 p.86（haloperidol 0.5–5 mg q2–12h、olanzapine 2.5–5 mg、risperidone 1–3 mg q12h、lorazepam 0.5–2 mg）；p.209（失智症的躁動、路易氏體失智症）"
+        }
+      ]
+    },
+    {
+      "title": "約束、家屬溝通、白天追蹤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**身體約束（Harrison：非常不得已才用）**\n- **只在病人的暴力或行為威脅到自己或別人時**使用（例如拔氣管內管、攻擊人員）\n- 先試**床邊警示、專人陪伴、家屬陪伴、移除管路**\n- 一旦使用：**經常重新評估**是否還需要；依院內約束規範**記錄原因、方式、部位、時限**，並定時檢查皮膚、循環、呼吸\n- **約束本身會讓病人更混亂**、增加受傷與壓瘡\n- **告知家屬**並依院內規定取得同意"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**家屬溝通重點**\n- 「這是**譫妄**，是身體出了狀況（感染、藥物、電解質等）造成的**急性混亂**，不是突然失智或發瘋」\n- 「我們正在找原因；通常原因改善後會慢慢好轉，但可能要幾天」\n- 請家屬**陪伴**、帶熟悉的物品、眼鏡、助聽器，幫忙重新定向\n- 若使用藥物或約束，說明原因、預計多久、會怎麼觀察\n- **臨終病人**：Harrison 建議在出現譫妄早期就讓家屬知道，**把想說的話說完**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**交給白天團隊**\n- 譫妄的原因追蹤（感染、藥物、電解質、尿滯留、便秘）\n- **檢討用藥**：停掉抗膽鹼藥、BZD、不必要的鎮靜劑；安眠藥是否要繼續\n- 抗精神病藥物**何時停**（短期使用）、是否需要心電圖追蹤 QTc\n- 約束能否解除；會診精神科或老年醫學科\n- 夜間睡眠計畫：集中護理時間、減少夜間抽血"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.13 p.85–86（約束、臨終譫妄與家屬）；Ch.29 p.186（床邊警示與陪伴優於約束）"
+        }
+      ]
+    },
+    {
+      "title": "SBAR、常見錯誤、情境範例",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**SBAR 範例**：「02:10 82 歲阿嬤肺炎住院第 3 天，晚上開始躁動、拔點滴、說牆上有人。生命徵象：體溫 38.2、SpO₂ 93%、血糖 132。CAM 陽性 → 譫妄。膀胱超音波 450 mL → 已導尿；疼痛已處理。家屬到床邊陪伴後仍很躁動、想爬下床 → 給 quetiapine 12.5 mg PO。未約束。白天請追蹤感染控制、檢討用藥。」"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 把譫妄當**失眠**，給了 **BZD 或 zolpidem** → 更混亂、跌倒\n- 沒量**血氧、血糖**就給鎮靜劑\n- 忘了**尿滯留、便秘、疼痛**\n- 老人用**一般成人劑量**的 haloperidol、安眠藥\n- 給 **diphenhydramine** 幫老人睡覺\n- 第一步就**約束**，或約束後沒有定時重新評估\n- 已用鴉片類又加 BZD → **呼吸抑制**\n- 酒精戒斷沒想到，只給抗精神病藥（**戒斷要用 BZD**）\n- 開了 PRN 抗精神病藥卻沒有交班「何時停」"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 11 點：「45 歲大哥，膽囊手術後第 1 天，說睡不著，要安眠藥。」",
+          "text": "1. 電話中：意識清楚、生命徵象正常、**傷口很痛**、剛打完點滴\n2. 先處理**疼痛**（見〈On Call: 疼痛控制〉），減少夜間打擾\n3. 仍睡不著、沒有呼吸問題、沒在用大量鴉片類 → **zolpidem 5–10 mg** 睡前\n4. 交代護理師：起床小心跌倒"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 2 點：「78 歲阿公一直說睡不著，要下床回家，有點搞不清楚自己在哪裡。」",
+          "text": "1. **搞不清楚在哪裡** → 這不是單純失眠，是**譫妄**\n2. 到床邊：生命徵象、血糖、SpO₂、**膀胱超音波**、最後一次解便、看 MAR\n3. 先非藥物：家屬、燈光、移除管路\n4. 有危險再給**低劑量 quetiapine 12.5 mg** 或 haloperidol 0.5 mg；**不要給 BZD 或 zolpidem**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 4 點：「巴金森病阿嬤躁動、有幻覺，前一班已經給過 haloperidol，現在更僵硬。」",
+          "text": "1. **巴金森病人避免 haloperidol**（會讓僵硬惡化）——找原因：感染、藥物（抗巴金森藥物劑量改變？）、尿滯留\n2. 不要再追加 haloperidol；必要時低劑量 **quetiapine**\n3. 交班白天團隊與神經科：抗巴金森藥物調整、幻覺處理"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：譫妄的原因與酒精戒斷見〈On Call: 意識改變〉；疼痛見〈On Call: 疼痛控制〉；跌倒見〈On Call: 病人跌倒〉；癌症病人的症狀控制見〈Oncology (三)〉。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "oncall-nausea-vomiting",
+  "title": "On Call: 噁心嘔吐（先找原因，再選止吐藥）",
+  "title_en": "On Call: Nausea and Vomiting",
+  "title_zh": "值班：噁心嘔吐",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.48 Nausea, Vomiting, and Indigestion（p.297–300：Table 48-1 原因、病史與理學檢查線索、低鉀與代謝性鹼中毒、Table 48-2 止吐藥依機轉、metoclopramide 遲發性運動不能、5-HT3 拮抗劑與 QTc）",
+    "Harrison's 22e - Ch.78 p.575（prochlorperazine 10 mg IV/IM、10–25 mg PO、25 mg PR q4–6h 最多 4 劑；haloperidol 1 mg q8h；metoclopramide 10–20 mg IV q4–6h）；Ch.441 Table 441-4 p.3467（ondansetron 4 或 8 mg、metoclopramide 10 mg IV）",
+    "Harrison's 22e - Ch.13 Palliative（p.82–83：不明原因先用 metoclopramide、5-HT3 拮抗劑或多巴胺拮抗劑；octreotide）；Ch.74 p.509（晚期癌症 olanzapine 5 mg/d）；Ch.470 p.3706（benztropine、diphenhydramine 逆轉肌張力不全）",
+    "腸阻塞禁用 metoclopramide、巴金森病避免多巴胺拮抗劑、止吐後再評估時間：臨床常規",
+    "劑型依院內品項"
+  ],
+  "generated": "2026-11-26",
+  "updated": "2026-11-26",
+  "related": [
+    {
+      "id": "onc-supportive-emergencies",
+      "name": "Oncology (三)：照顧癌症病人——嗜中性球低下發燒、腫瘤急症與症狀控制"
+    },
+    {
+      "id": "bowel-obstruction-appendicitis",
+      "name": "Bowel Obstruction, Appendicitis & Anorectal Disease (腸阻塞、闌尾炎與肛門直腸疾病)"
+    },
+    {
+      "id": "oncall-abdominal-pain",
+      "name": "On Call: 腹痛（住院病人新的腹痛）"
+    },
+    {
+      "id": "oncall-gi-bleeding",
+      "name": "On Call: 腸胃道出血（吐血、黑便、血便）"
+    },
+    {
+      "id": "oncall-glucose",
+      "name": "On Call: 血糖異常（低血糖、住院高血糖、DKA／HHS）"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人一直吐，要止吐藥」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**止吐藥可以先給，但要先想：為什麼吐？有沒有危險？**\n**電話中先問**：生命徵象、**意識**（意識差的人吐 → **吸入性肺炎**）、吐了幾次、**吐出來是什麼**（血、咖啡渣、膽汁、糞臭味）、腹痛腹脹、最後一次排便排氣、**血糖**、新加的藥\n**意識差或一直吐** → 交代**側躺**、床邊備**抽吸**"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**到床邊 + 想到這些危險原因**\n- **腸阻塞**：腹脹、腹絞痛、沒排氣、**糞臭味嘔吐**（遠端阻塞）；嘔吐後腹痛會暫時緩解（Harrison）\n- **顱內壓上升**：頭痛、意識變差、局部神經學徵象、**用抗凝劑**的人 → 腦出血\n- **心肌梗塞**：上腹不適、冒冷汗 → **心電圖**（Harrison：心肌梗塞與心衰竭都會造成噁心嘔吐）\n- **DKA**、尿毒、高血鈣、腎上腺功能不全\n- **吐血、咖啡渣** → 見〈On Call: 腸胃道出血〉\n- **藥物中毒**：**digoxin**、鴉片類、化療；新開的抗生素\n- 胰臟炎、膽囊炎、闌尾炎；育齡女性 → **懷孕**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.48 Nausea, Vomiting, and Indigestion p.297–298（Table 48-1 原因、病史與理學檢查）"
+        }
+      ]
+    },
+    {
+      "title": "床邊評估與檢查：從病史和身體找原因",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "線索",
+            "想到"
+          ],
+          "rows": [
+            [
+              "**飯後 1 小時內吐**",
+              "胃排空延遲（胃輕癱）、幽門阻塞"
+            ],
+            [
+              "飯後較晚才吐、**糞臭味**",
+              "小腸或大腸阻塞"
+            ],
+            [
+              "**吐膽汁**",
+              "排除胃出口阻塞（阻塞在十二指腸以下）"
+            ],
+            [
+              "吐出未消化的食物",
+              "食道問題（Zenker 憩室、無弛緩症）"
+            ],
+            [
+              "**頭痛、視力變化**",
+              "顱內病灶"
+            ],
+            [
+              "眩暈、耳鳴",
+              "內耳（前庭）問題"
+            ],
+            [
+              "**沒有腸音**",
+              "腸麻痺（ileus）"
+            ],
+            [
+              "**高頻腸音**",
+              "腸阻塞"
+            ],
+            [
+              "搖晃上腹有水聲（succussion splash）",
+              "胃輕癱、幽門阻塞"
+            ],
+            [
+              "姿勢性低血壓、皮膚彈性差",
+              "**脫水**"
+            ],
+            [
+              "肺部異常",
+              "**吸入嘔吐物**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**看 MAR：常見造成噁心嘔吐的藥**（Harrison）\n**鴉片類**、NSAID、**GLP-1 受體促效劑**、口服降血糖藥、抗巴金森藥、抗憂鬱劑（特別是 SNRI）、**抗生素**、**抗心律不整藥**（含 digoxin）、降血壓藥、化療\n→ 可以的話**停藥或減量**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.48 p.298（病史、理學檢查、藥物）"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本：檢查與支持療法",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**抽血**｜**電解質（K、Na、Cl）**、**血糖**、BUN／Cr、**lipase**、肝功能、Ca；依情況：血氣（代謝性鹼中毒）、酮體、**懷孕試驗**、**digoxin 濃度**、troponin\n- 注意：Harrison：**低血鉀、代謝性鹼中毒**要補"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**心電圖**｜上腹不適、心臟病史、老人、糖尿病 → **心電圖**\n- 注意：也用來看 **QTc**（很多止吐藥會延長 QT）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**影像**｜**腹部 X 光**（腸阻塞：氣液面、大腸氣少；腸麻痺：瀰漫性擴張）；疑阻塞 → **CT**；膽道 → 超音波；神經學異常 → **腦部 CT**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**輸液**｜脫水 → **靜脈輸液**；依電解質補鉀\n- 劑型：依院內品項\n- 注意：口服補充無法維持就需要住院與靜脈輸液（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**腸阻塞**｜**禁食**、**鼻胃管減壓**、輸液、會診外科（見〈On Call: 腹痛〉）\n- 注意：**不要給促進腸蠕動的藥**（metoclopramide）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**預防吸入**｜意識差或一直吐 → **側躺、抽吸**；必要時鼻胃管；保護不了呼吸道 → 找學長姐、考慮插管"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.48 p.298（檢查、低鉀與代謝性鹼中毒要補、腸阻塞與腸麻痺的 X 光）"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本：依原因選止吐藥",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**沒有特定原因**時，Harrison 安寧章建議可先用 **metoclopramide**、**5-HT3 拮抗劑**（ondansetron）或**多巴胺拮抗劑**（prochlorperazine、haloperidol）。注意 **QTc**、老人、巴金森病。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**藥物、毒素、代謝問題（尿毒、高血鈣）**｜**Prochlorperazine 10 mg IV／IM**，或 10–25 mg PO，或 25 mg PR，**q4–6h，最多 4 劑**（Harrison）\n- 劑型：依院內品項\n- 注意：多巴胺拮抗劑：**錐體外症狀**、急性肌張力不全；巴金森病避免（臨床常規）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**胃排空變慢、胃輕癱、鴉片類造成**｜**Metoclopramide 10 mg IV**（Harrison）；10–20 mg IV q4–6h PRN（Harrison 化療止吐）\n- 劑型：依院內品項\n- 注意：**腸阻塞禁用**（臨床常規）；**遲發性運動不能**（尤其老人，Harrison）；巴金森病避免"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**化療、放療、術後、鴉片類造成**｜**Ondansetron 4 或 8 mg IV／PO**（Harrison）\n- 劑型：依院內品項\n- 注意：**QTc 延長**（Harrison）；便秘"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**多巴胺拮抗劑的另一選擇**｜**Haloperidol 1 mg IM 或 PO q8h**（Harrison）\n- 劑型：依院內品項\n- 注意：QTc、錐體外症狀"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**眩暈、暈車、內耳問題**｜抗組織胺（meclizine、dimenhydrinate）或抗膽鹼（scopolamine）（Harrison）\n- 劑型：依院內品項\n- 注意：**老人**：嗜睡、混亂、尿滯留"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**腦水腫、腸道發炎、化療**｜**Dexamethasone**（劑量依情境）\n- 劑型：依院內品項\n- 注意：血糖上升"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**預期性（化療前）、焦慮**｜**Lorazepam**（Harrison）\n- 劑型：依院內品項\n- 注意：嗜睡、混亂"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**晚期癌症、頑固嘔吐**｜**Olanzapine 5 mg/d**（Harrison）\n- 劑型：依院內品項\n- 注意：見〈Oncology (三)〉"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**即將腸阻塞、胃滯留（安寧）**｜**Octreotide** 減少分泌（Harrison）\n- 劑型：依院內品項\n- 注意：外科、安寧團隊決定"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**急性肌張力不全（給多巴胺拮抗劑後眼球上吊、頸部扭轉）**｜**Diphenhydramine** 或 benztropine IV（Harrison）\n- 劑型：依院內品項\n- 注意：劑量依院內"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要依「原因」選止吐藥？**\n嘔吐由不同部位觸發，各有不同的受體（Harrison）：\n- **化學受體觸發區**（藥物、毒素、尿毒、酮酸）→ **多巴胺 D2**、5-HT3 → prochlorperazine、haloperidol、metoclopramide\n- **腸胃道**（化療、腸道刺激）→ 迷走神經 **5-HT3** → ondansetron\n- **內耳**（暈車、迷路炎）→ **組織胺 H1、蕈毒鹼 M1** → meclizine、scopolamine\n- **大腦皮質**（預期性、焦慮）→ **BZD**\n- **胃排空慢** → 促進蠕動的 **metoclopramide**、erythromycin\n用錯機轉的藥，效果差又多了副作用。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.48 Table 48-2 p.299（止吐藥依機轉）；Ch.78 p.575（prochlorperazine 10 mg IV/IM、haloperidol 1 mg q8h、metoclopramide 10–20 mg IV q4–6h）；Ch.441 Table 441-4 p.3467（ondansetron 4 或 8 mg、metoclopramide 10 mg IV）；Ch.13 p.82–83（安寧止吐、octreotide）；Ch.74 p.509（olanzapine 5 mg/d）；p.3706（benztropine、diphenhydramine 逆轉肌張力不全）"
+        }
+      ]
+    },
+    {
+      "title": "再評估、交班、常見錯誤與範例",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**再評估**：止吐藥給了 30–60 分鐘後（臨床常規）、生命徵象、尿量、腹部檢查；**持續吐**或新的腹痛、腹脹、意識改變 → 重新找原因\n**交給白天團隊**：原因追蹤（腸阻塞、藥物、電解質、胃輕癱）、**停或換造成嘔吐的藥**、飲食計畫（先流質、低脂）、QTc 追蹤\n**SBAR 範例**：「23:30 68 歲大腸癌術後第 3 天，今晚吐 4 次、腹脹、沒排氣、高頻腸音。生命徵象：心跳 104、血壓 118/70。腹部 X 光：多個氣液面。疑**術後腸阻塞**。已禁食、放鼻胃管減壓、輸液、驗電解質；**沒有給 metoclopramide**。已通知外科。」"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 只開止吐藥，沒有想**腸阻塞、心肌梗塞、顱內壓、DKA**\n- **腸阻塞**還給 metoclopramide\n- 多種止吐藥疊加，沒看 **QTc**（ondansetron、haloperidol、抗生素……）\n- **巴金森病人**給 metoclopramide 或 prochlorperazine\n- 老人給抗組織胺 → 譫妄、尿滯留\n- 沒補**鉀**和水分\n- 鴉片類造成的嘔吐沒想到**便秘**（見〈On Call: 便秘與腹瀉〉）\n- 意識差的人沒交代**側躺、抽吸**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 1 點：「75 歲阿嬤一直吐，吃 digoxin，心跳 52，這兩天肌酸酐上升。」",
+          "text": "1. 噁心嘔吐 + 心跳慢 + 腎功能變差（digoxin 排不掉）→ 想到 **digoxin 中毒**\n2. **心電圖**、**digoxin 濃度**、**K**、腎功能；停 digoxin\n3. 心律不整或高血鉀 → 找學長姐（解毒劑依院內與毒藥物諮詢中心）\n4. 止吐藥選不太延長 QT、不造成心跳慢的"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 10 點：「60 歲大叔吃 warfarin，晚上頭很痛、吐了 3 次，現在有點想睡。」",
+          "text": "1. 抗凝 + 頭痛 + 嘔吐 + 意識變差 → **腦出血**，不是腸胃炎\n2. 立刻到床邊：GCS、瞳孔、局部徵象；**腦部 CT**；驗 INR\n3. 找學長姐、神經外科；反轉抗凝依院內流程\n4. 側躺、保護呼吸道"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 3 點：「癌症病人剛開始用 morphine，噁心想吐，已經 4 天沒大便。」",
+          "text": "1. 鴉片類引起的噁心 + **便秘**\n2. 先排除**腸阻塞**（腹脹、腸音、X 光）\n3. 止吐：**metoclopramide**（沒有阻塞時）或 haloperidol、ondansetron\n4. **加軟便劑與瀉劑**（見〈On Call: 便秘與腹瀉〉）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：化療止吐與晚期癌症症狀控制見〈Oncology (三)〉；腸阻塞見〈Bowel Obstruction／Appendicitis〉；腹痛見〈On Call: 腹痛〉；吐血見〈On Call: 腸胃道出血〉；DKA 見〈On Call: 血糖異常〉。"
+        }
+      ]
+    }
+  ]
+}
