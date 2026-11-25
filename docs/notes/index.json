@@ -523,6 +523,10 @@
         {
           "id": "oncall-hypotension",
           "name": "On Call: 低血壓與休克（血壓掉了）"
+        },
+        {
+          "id": "oncall-chest-pain",
+          "name": "On Call: 胸痛（先抓會致命的五個）"
         }
       ]
     }
