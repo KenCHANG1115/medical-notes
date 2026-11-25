@@ -1,0 +1,455 @@
+{
+  "id": "oncall-fever",
+  "title": "On Call: 發燒（住院病人發燒、敗血症、嗜中性球低下發燒）",
+  "title_en": "On Call: Fever in Hospitalized Patients",
+  "title_zh": "值班：發燒",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.21 Fever (p.134–137)；Table 急性發燒感染病人的經驗性治療 (p.963)；Ch.79 Infections in Patients with Cancer (p.577–581)；Ch.131 Pneumonia 治療表 (p.1028)；Ch.315 Sepsis (p.2313、2319–2320)",
+    "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
+    "退燒藥劑量為常用值；劑型依院內品項；抗生素依院內抗藥性與腎功能調整"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "critical-shock-sepsis-ards",
+      "name": "Critical Care (一)：休克、敗血症與 ARDS——血行動力學分類、敗血症處置、肺保護通氣與脫離呼吸器"
+    },
+    {
+      "id": "onc-supportive-emergencies",
+      "name": "Oncology (三)：照顧癌症病人——嗜中性球低下發燒、腫瘤急症與症狀控制"
+    },
+    {
+      "id": "pneumonia",
+      "name": "Pneumonia (肺炎)"
+    },
+    {
+      "id": "urinary-tract-infection",
+      "name": "Urinary Tract Infection (泌尿道感染)"
+    },
+    {
+      "id": "antibiotics-infection-control",
+      "name": "Antibiotics and Infection Control (抗生素與感染管制)"
+    },
+    {
+      "id": "transfusion-medicine",
+      "name": "Transfusion Medicine (輸血醫學：血品適應症、相容性與輸血反應)"
+    },
+    {
+      "id": "oncall-potassium-disorders",
+      "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+    },
+    {
+      "id": "confusion-decreased-consciousness",
+      "name": "Confusion / Decreased Level of Consciousness (意識不清)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人發燒了」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先問三件事，決定要不要馬上過去**\n1. **生命徵象**：血壓（收縮壓 ≤ 100 或 MAP < 65？）、心跳、**呼吸 ≥ 22**、SpO₂、**意識改變**\n2. **是不是嗜中性球低下**：化療後、血液腫瘤、**ANC < 500**（或預期會掉）→ **1 小時內給抗生素**\n3. **正在輸血嗎** → **先停輸血**"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**立刻到床邊 + 找學長姐／RRT 的紅旗**\n- **低血壓**、乳酸 > 2、尿量少、四肢冰冷或花斑 → **敗血性休克**\n- **qSOFA ≥ 2**（呼吸 ≥ 22、意識改變、收縮壓 ≤ 100）\n- **嗜中性球低下發燒**、免疫抑制、脾切除\n- **發燒 + 頸部僵硬或意識改變**（腦膜炎）\n- 寒顫 + 血壓掉發生在**輸血中**、**剛放管路**或**手術後**\n- 高熱 + 肌肉僵硬或用了抗精神病藥、血清素藥物 → **高熱症（hyperthermia）**，退燒藥無效"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.315 p.2313"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Table 經驗性治療 p.963"
+        }
+      ]
+    },
+    {
+      "title": "電話中：要問什麼、可以先開什麼",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "問護理師",
+            "為什麼"
+          ],
+          "rows": [
+            [
+              "體溫幾度、怎麼量的、第幾次燒、何時開始",
+              "單次低燒 vs 持續高燒；住院第幾天"
+            ],
+            [
+              "**生命徵象、意識、尿量**",
+              "篩敗血症"
+            ],
+            [
+              "為什麼住院、**化療後第幾天**、最近的 **WBC／ANC**",
+              "嗜中性球低下發燒最急"
+            ],
+            [
+              "**有哪些管路**：中心靜脈、尿管、引流管、氣管內管",
+              "最常見的院內感染來源"
+            ],
+            [
+              "**手術**是哪天、什麼手術",
+              "術後時間決定想什麼原因"
+            ],
+            [
+              "正在**輸血**？最近有沒有輸",
+              "輸血反應"
+            ],
+            [
+              "新加的藥（抗生素、抗癲癇藥、抗精神病藥）",
+              "藥物熱、NMS、血清素症候群"
+            ],
+            [
+              "有沒有咳嗽痰多、尿痛、腹瀉、傷口紅腫、新的疼痛",
+              "找來源"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**電話中可以先下的 order**\n- **生命徵象 q1h**（直到你評估過）、SpO₂、尿量\n- **血液培養 × 2 套**（不同部位；有中心靜脈導管 → 一套從導管、一套周邊）——**在第一劑抗生素之前**，但**不要因為抽培養而延誤**抗生素\n- **CBC／DC、BUN／Cr、電解質、肝功能、乳酸**、尿液常規 + 尿液培養；依症狀加胸部 X 光、痰培養\n- 正在輸血 → **停止輸血**、保留血袋與管路、通知血庫（依院內輸血反應流程）\n- 退燒藥：**抽完培養後**可給 acetaminophen（見 order）；**不要只給退燒藥就結束**\n- 嗜中性球低下、低血壓 → **告訴護理師你馬上到**，先準備抗生素與輸液"
+        }
+      ]
+    },
+    {
+      "title": "走廊上想：感染、非感染、還是高熱症",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "類別",
+            "想到"
+          ],
+          "rows": [
+            [
+              "**感染（最常見）**",
+              "**肺炎**（含吸入性、呼吸器相關）、**泌尿道**（尿管）、**導管相關血流感染**、**手術傷口**、**腹內**（膽道、腹膜炎、膿瘍）、**C. difficile 腸炎**（抗生素後腹瀉）、皮膚與壓瘡、鼻竇炎（鼻胃管）、中樞神經"
+            ],
+            [
+              "**非感染**",
+              "**藥物熱**、**輸血反應**、**深部靜脈血栓／肺栓塞**、術後早期發炎反應、**痛風**、胰臟炎、**戒斷**（酒精）、甲狀腺風暴、腫瘤熱、血腫吸收"
+            ],
+            [
+              "**高熱症（hyperthermia）**",
+              "**抗精神病藥惡性症候群（NMS）**、**血清素症候群**、**惡性高熱**（麻醉後）、中暑——**體溫調節點沒變，退燒藥無效**（Harrison）→ 物理降溫、停藥、找專科"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要分「發燒」和「高熱症」？**\n發燒是**下視丘的體溫設定點被調高**（細胞激素作用）——身體主動產熱、所以會發抖、手腳冰冷，**退燒藥能把設定點調回來**。高熱症則是設定點正常、但**產熱太多或散熱不了**（肌肉僵硬持續收縮、藥物、環境），皮膚通常又熱又乾，**退燒藥無效**，必須直接降溫並處理原因（Harrison）。所以一個用了 haloperidol 的病人高燒 + 肌肉僵硬 + 意識改變，給 acetaminophen 等它退燒是錯的。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.21 Fever p.134–137"
+        }
+      ]
+    },
+    {
+      "title": "床邊評估：從頭到腳找來源",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**床邊順序**\n1. 生命徵象、意識、末梢灌流（**微血管回填、花斑、四肢溫度**）、尿量\n2. **所有管路**：中心靜脈出口紅腫化膿？放多久？尿管？引流液性質？\n3. **肺**：呼吸音、痰量與顏色、血氧\n4. **腹部**：壓痛、反彈痛、膽囊、腹水（肝硬化 → SBP）\n5. **傷口**：紅腫熱痛、滲液\n6. **皮膚**：壓瘡、蜂窩性組織炎、皮疹（藥疹、栓塞）\n7. **下肢**：單側腫脹（DVT）\n8. **關節**：紅腫（痛風、化膿性關節炎）\n9. **頸部僵硬**、意識（腦膜炎）\n10. **翻病歷**：抗生素使用史、最近的培養與藥敏、化療日期、手術日期、用藥（藥物熱、NMS）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "術後發燒（依時間）",
+            "想到"
+          ],
+          "rows": [
+            [
+              "術後 48 小時內",
+              "多為手術本身的發炎反應；也要想吸入、輸血反應、壞死性傷口感染（少見但致命）"
+            ],
+            [
+              "術後 3–5 天",
+              "**肺炎、泌尿道感染、導管感染**"
+            ],
+            [
+              "術後 5–7 天以後",
+              "**傷口感染**、**腹內膿瘍或吻合處滲漏**、**DVT／肺栓塞**、藥物熱、C. difficile"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "術後發燒的時間分類是常用的臨床記憶框架（非 Harrison 原文），用來排優先順序，不是排除依據。"
+        }
+      ]
+    },
+    {
+      "title": "分流處置：先看嚴重度，再看宿主",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "情境",
+            "怎麼做"
+          ],
+          "rows": [
+            [
+              "**敗血性休克**（輸液後仍需升壓劑維持 MAP ≥ 65、乳酸 > 2）",
+              "**1 小時內**：培養 → **廣效抗生素** → **30 mL/kg 晶體液** → **norepinephrine** 維持 MAP 65；找學長姐、評估轉加護（細節見〈Critical Care (一)〉）"
+            ],
+            [
+              "**敗血症**（感染 + 器官功能障礙，qSOFA ≥ 2）",
+              "培養後**儘快**抗生素、輸液、追乳酸；密切監測"
+            ],
+            [
+              "**嗜中性球低下發燒**（≥ 38.3°C 一次或 ≥ 38.0°C 持續 1 小時，ANC < 500）",
+              "**1 小時內**：培養 → **單一抗綠膿桿菌 β-lactam**；vancomycin 只在特定情況加"
+            ],
+            [
+              "**穩定、有明確來源**",
+              "依來源做檢查與經驗性抗生素（肺炎、泌尿道、蜂窩性組織炎等）"
+            ],
+            [
+              "**穩定、沒有明確來源**",
+              "培養、檢查；**不一定要立刻上抗生素**——密切觀察，白天團隊追蹤；同時想非感染原因"
+            ],
+            [
+              "**高熱症**（NMS、血清素、惡性高熱）",
+              "**停可疑藥物**、物理降溫、補液；NMS／惡性高熱 → 找學長姐、加護病房"
+            ]
+          ]
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Table 經驗性治療 p.963"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.315 p.2319–2320"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.79 p.577–581"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。抗生素依**院內抗藥性**與**腎功能**調整，並在培養結果出來後**降階**。"
+        },
+        {
+          "type": "heading",
+          "text": "抽血與檢查"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "- **血液培養 × 2 套**（中心靜脈導管者：一套導管、一套周邊）\n- **CBC／DC**、**乳酸**、BUN／Cr、電解質、肝功能、血糖；依情況 CRP 或 procalcitonin\n- **尿液常規 + 尿液培養**；**胸部 X 光**；痰培養（有痰）\n- 腹瀉且用過抗生素 → **C. difficile** 檢測\n- 依來源：傷口培養、腹部超音波或 CT、下肢靜脈超音波、腰椎穿刺（先排除顱壓高）"
+        },
+        {
+          "type": "heading",
+          "text": "藥物"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**敗血性休克／重症（來源不明）**｜**Vancomycin 15 mg/kg IV q12h** + **抗綠膿桿菌 β-lactam**：piperacillin-tazobactam **4.5 g IV q6h**、或 meropenem **1 g IV q8h**、或 cefepime **1–2 g IV q8–12h**（Harrison 表）\n- 劑型：劑型依院內品項，**請以院內 formulary 與 protocol 為準**\n- 注意：依院內抗藥性；vancomycin 依血中濃度調整；**依腎功能調整劑量**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**嗜中性球低下發燒**｜**單一抗綠膿桿菌 β-lactam**：cefepime、piperacillin-tazobactam、ceftazidime、imipenem 或 meropenem（Harrison Ch.79）\n- 劑型：劑型依院內品項，**請以院內 formulary 與 protocol 為準**\n- 注意：**1 小時內**給；**vancomycin 不常規**——敗血症、明顯軟組織感染、導管出口感染、疑 MRSA 才加"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**院內肺炎（HAP）**｜抗綠膿桿菌藥：piperacillin-tazobactam 4.5 g q6h、cefepime 2 g q8h、meropenem 1 g q8h 等；MRSA 風險 → 加 vancomycin 或 linezolid 600 mg q12h（Harrison 肺炎表）\n- 劑型：劑型依院內品項，**請以院內 formulary 與 protocol 為準**\n- 注意：細節見〈Pneumonia〉"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**輸液（低血壓或乳酸高）**｜**平衡晶體液**（如 Lactated Ringer's）**30 mL/kg**，3 小時內開始\n- 注意：邊給邊評估：肺部囉音、SpO₂、頸靜脈；心衰竭、末期腎病者小量分次"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**升壓劑**｜補液後 MAP 仍 < 65 → **norepinephrine**（首選）\n- 劑型：依院內泡法\n- 注意：需要升壓劑 → 敗血性休克 → 找學長姐、加護病房"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**退燒藥**｜**Acetaminophen** 口服或 IV（常用 500–1,000 mg q6h PRN，每日上限依院規，肝病、酗酒者減量）\n- 劑型：依院內品項\n- 注意：劑量為常用值、非 Harrison 原文；**先抽培養再給**；退燒不代表感染控制了"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**高熱症（NMS、血清素）**｜**停可疑藥物**；以**物理降溫**為主（退燒藥無效）\n- 注意：NMS、惡性高熱的特定藥物（dantrolene 等）→ 依專科與院內流程；（一般發燒的高燒用冷卻毯時，Harrison 建議**要同時給口服退燒藥**）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Table 經驗性治療 p.963"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.131 肺炎表 p.1028"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.79 p.578–580"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.315 p.2319–2320"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.21 Fever p.134–137"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級、家屬溝通與白天追蹤",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "什麼時候",
+            "做什麼"
+          ],
+          "rows": [
+            [
+              "給輸液、抗生素後 1 小時內",
+              "血壓、心跳、意識、尿量；**乳酸 > 2 → 2–4 小時後重驗**"
+            ],
+            [
+              "抽完培養後",
+              "確認抗生素**真的已經掛上**（時間寫在病歷）"
+            ],
+            [
+              "之後",
+              "生命徵象 q1–2h 直到穩定；尿量"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**升級**\n- 需要升壓劑、乳酸持續上升、呼吸衰竭、意識變差 → **加護病房**\n- 嗜中性球低下發燒合併低血壓 → 加護病房、血液腫瘤科\n- 疑似壞死性筋膜炎、腹內膿瘍或吻合處滲漏 → **外科**\n- 疑似導管感染且敗血症 → 考慮**移除導管**\n- 疑 NMS、惡性高熱 → 學長姐、加護病房"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**家屬溝通**\n- 確認 **DNR／急救意願**（尤其敗血性休克、癌症末期）\n- 說明：可能的感染來源、已抽培養與開始抗生素、接下來幾小時要觀察什麼、轉加護的可能"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**交給白天團隊的待辦**\n- 追**血液、尿液、痰培養與藥敏** → **降階或停用**抗生素；決定療程\n- 還沒找到來源 → 影像（CT、超音波）、移除不必要的管路\n- 評估是否為藥物熱（停藥、換藥）\n- 嗜中性球低下：每天 ANC；發燒持續約 5 天 → 是否需要抗黴菌"
+        }
+      ]
+    },
+    {
+      "title": "交班與紀錄範本（SBAR）",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "- **S**：床號、姓名，**23:40 發燒 38.9°C**，血壓 92/54、心跳 118、呼吸 24、SpO₂ 95%、意識清楚\n- **B**：大腸癌化療後第 9 天（**ANC 300**）、Port-A 導管\n- **A**：**嗜中性球低下發燒** + 低血壓傾向；無明顯局部來源；乳酸 2.6\n- **R**：已抽血液培養 × 2（Port 與周邊）、**00:05 給 cefepime**、LR 30 mL/kg 進行中；**01:00 重評血壓與尿量、03:00 重驗乳酸**；MAP < 65 → norepinephrine、通知學長姐與加護病房"
+        }
+      ]
+    },
+    {
+      "title": "常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 只開**退燒藥**就結束，沒有評估與培養\n- **等培養結果或影像才給抗生素**（敗血性休克、嗜中性球低下要 1 小時內）\n- 嗜中性球低下發燒**常規加 vancomycin**\n- 忘了問**化療日期與 ANC**\n- 有中心靜脈導管卻沒抽**導管與周邊**兩套培養\n- 正在輸血卻沒先**停輸血**\n- 把 **NMS、血清素症候群、惡性高熱**當一般發燒處理（退燒藥無效）\n- 抗生素用了就不停：沒有依培養**降階**、沒有定療程\n- 抗生素後腹瀉沒想到 **C. difficile**\n- 心衰竭、末期腎病病人**一次灌 30 mL/kg** 沒有邊給邊評估"
+        }
+      ]
+    },
+    {
+      "title": "特殊情境",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "嗜中性球低下發燒（Harrison Ch.79）",
+          "text": "- 定義：口溫單次 **≥ 38.3°C** 或 **≥ 38.0°C 持續 1 小時**，且 **ANC < 500**（或預期 48 小時內 < 500）\n- **1 小時內**：培養後給**單一抗綠膿桿菌**廣效藥（ceftazidime、cefepime、imipenem、meropenem、piperacillin-tazobactam）\n- **vancomycin 不常規**：敗血症、明顯軟組織感染、導管出口感染、疑 MRSA 才加\n- 臨床穩定、無新發現 → **不必只因持續發燒就換抗生素**；約 **5 天**仍發燒、找不到原因 → 經驗性抗黴菌\n- 低風險（實體腫瘤、預期低下 ≤ 7 天、穩定、能進食）可考慮口服 quinolone + amoxicillin-clavulanate（白天團隊決定）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "輸血中發燒",
+          "text": "- **先停輸血**、保留血袋與管路、維持靜脈通路（生理食鹽水）\n- **核對病人與血袋**（ABO 不合是最危險的）\n- 依症狀分：發燒寒顫 → 發熱性非溶血反應最常見，但要排除**急性溶血**（低血壓、背痛、血紅素尿）與**細菌汙染**（高燒、低血壓）\n- 喘、缺氧 → **TRALI vs TACO**\n- 依院內輸血反應流程送檢（血袋回血庫、病人檢體）；細節見〈輸血〉"
+        },
+        {
+          "type": "collapsible",
+          "summary": "導管相關血流感染",
+          "text": "- 中心靜脈導管、Port-A、透析導管的病人發燒且**找不到其他來源** → 要懷疑\n- 血液培養：**一套從導管、一套周邊**\n- 出口紅腫化膿、隧道感染、敗血性休克、金黃色葡萄球菌或念珠菌菌血症 → 通常要**移除導管**（與團隊討論）\n- 經驗性藥物需涵蓋 **MRSA（vancomycin）** 與革蘭氏陰性菌"
+        },
+        {
+          "type": "collapsible",
+          "summary": "藥物熱（臨床常用整理，非 Harrison 原文）",
+          "text": "- 用藥後數天到數週出現；病人常「**看起來沒那麼病**」、心跳相對不快，可有皮疹、嗜酸性球增加\n- 常見：β-lactam、sulfonamide、抗癲癇藥等\n- 排除感染後，**停可疑藥物**，通常 48–72 小時內退燒"
+        },
+        {
+          "type": "collapsible",
+          "summary": "抗精神病藥惡性症候群（NMS）與血清素症候群（臨床常用整理）",
+          "text": "- **NMS**：抗精神病藥（如 haloperidol）、停用多巴胺藥物後 → **高燒、鉛管樣肌肉僵硬、意識改變、自律神經不穩**、CK 上升\n- **血清素症候群**：SSRI、tramadol、linezolid 等合併 → **肌躍症、反射亢進**、腹瀉、躁動，起病較快\n- 處理：**停藥**、物理降溫、補液、監測 CK 與腎功能；嚴重 → 加護病房、專科"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 1 點：「乳癌化療後第 10 天的阿姨發燒 38.6°C，血壓 110/70。」",
+          "text": "1. **嗜中性球低下發燒**直到證明不是：立刻驗 **CBC／DC**、乳酸、肝腎功能\n2. **血液培養 × 2**（有 Port-A → 一套從 Port）、尿液檢查、胸部 X 光\n3. **1 小時內 cefepime**（或 piperacillin-tazobactam、meropenem，依院內）\n4. 血壓穩 → 先不加 vancomycin；觀察生命徵象 q1h\n5. 交班：培養結果、ANC、發燒持續天數"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 10 點：「75 歲阿公尿管放了 5 天，發燒 39.2°C、血壓 84/50、有點喘、意識變差。」",
+          "text": "1. **敗血性休克**可能 → 立刻到床邊、找學長姐\n2. 血液培養 × 2、尿液培養、**乳酸**、胸部 X 光\n3. **1 小時內**廣效抗生素（院內感染、休克 → vancomycin + 抗綠膿桿菌 β-lactam）\n4. **LR 30 mL/kg**，邊給邊聽肺；MAP 仍 < 65 → **norepinephrine**、聯絡加護病房\n5. **更換或移除尿管**；確認 DNR 意願"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 3 點：「精神科轉來的病人用 haloperidol，現在 40.1°C、全身很硬、叫不太醒。」",
+          "text": "1. 高燒 + **肌肉僵硬** + 意識改變 + 抗精神病藥 → **NMS**（高熱症）\n2. **停 haloperidol**、物理降溫、補液；退燒藥效果有限\n3. 驗 **CK**、肌酸酐、電解質、尿液（肌紅素）\n4. 找學長姐、加護病房、精神科與神經科\n5. 同時仍要排除感染（培養）"
+        }
+      ]
+    },
+    {
+      "title": "延伸與相關筆記",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：敗血症與休克的完整處置見〈Critical Care (一)〉；嗜中性球低下發燒與腫瘤急症見〈Oncology (三)〉；肺炎見〈Pneumonia〉；泌尿道感染見〈Urinary Tract Infection〉；抗生素選擇與抗藥菌見〈Antibiotics〉；輸血反應見〈輸血〉。"
+        }
+      ]
+    }
+  ]
+}

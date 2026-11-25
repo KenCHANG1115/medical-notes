@@ -511,6 +511,10 @@
         {
           "id": "oncall-potassium-disorders",
           "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+        },
+        {
+          "id": "oncall-fever",
+          "name": "On Call: 發燒（住院病人發燒、敗血症、嗜中性球低下發燒）"
         }
       ]
     }
