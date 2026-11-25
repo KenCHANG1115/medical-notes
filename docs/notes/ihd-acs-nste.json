@@ -101,6 +101,11 @@
           ]
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 STEMI 可以用血栓溶解劑，NSTE-ACS 不行？**\n- **STEMI**：血管**完全阻塞**，血栓以**纖維蛋白為主（紅色）**→ 溶解纖維蛋白就能把血管打開\n- **NSTE-ACS**：血管**沒有完全阻塞**，血栓**富含血小板（白色）**→ 血栓溶解劑沒有好處；重點是**抗血小板 + 抗凝**，再依風險決定心導管時機"
+        },
+        {
           "type": "collapsible",
           "summary": "延伸：病生理細節",
           "text": "Harrison：**斑塊侵蝕至少占 ACS 的 1/3**（富含平滑肌與蛋白聚醣、少脂質，形成白色血栓）（Fig. 285-2）\nNSTE-ACS 四種機轉：斑塊裂開＋發炎、斑塊裂開不伴發炎、斑塊侵蝕、沒有血栓（痙攣或需求增加）\n血管攝影：左主幹 < 10%、三條約 35%、兩條 25%、一條 20%、約 10% 無明顯心外膜狹窄\n血栓形成：collagen、ADP、epinephrine、serotonin 活化血小板 → TXA₂ → GP IIb/IIIa 變形結合 fibrinogen；同時 tissue factor → thrombin → fibrin"
@@ -124,6 +129,11 @@
           "type": "callout",
           "style": "key",
           "text": "**必背**\n- **心肌損傷**：troponin 至少一次 **> 第 99 百分位上限**，有上升或下降的動態變化\n- **急性心肌梗塞＝急性心肌損傷＋缺血證據**（症狀、新心電圖變化、新 Q 波、影像新室壁運動異常、血栓）\n- **第 1 型**斑塊破裂＋血栓｜**第 2 型**供需失衡（貧血、低血壓、心搏過速、痙攣）｜**第 3 型**猝死｜**第 4a 型 PCI 後 48 小時、> 5 倍**｜**第 5 型 CABG 後 48 小時、> 10 倍**（FC 113 年）\n- STEMI 不及時再灌流，**不是所有人**都會出 Q 波（FC 113 年）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 troponin 上升不一定是心肌梗塞？**\nTroponin 上升只代表「**心肌受傷**」；要叫**心肌梗塞**，還要有**缺血的證據**（症狀、新心電圖變化、新室壁運動異常）。\n- **第 1 型**：斑塊破裂 + 血栓 → 抗血栓、考慮心導管\n- **第 2 型**：冠狀動脈沒有新血栓，而是**供需失衡**（貧血、低血壓、心搏過速、痙攣）→ **治療原因**才是重點\n- 心肌炎、肺栓塞、敗血症、CKD 也會讓 troponin 上升 → 不是每個都要抗血栓"
         },
         {
           "type": "collapsible",
@@ -154,6 +164,11 @@
           "type": "callout",
           "style": "guideline",
           "text": "**2025 ACC/AHA**：**首次醫療接觸 10 分鐘內完成心電圖**（1）｜**V1–V3 單獨 ST 下降 → 加做 V7–V9 找後壁梗塞**｜**新的 LBBB 本身不足以診斷急性心梗**"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 V1–V3 單獨 ST 下降要加做 V7–V9？**\n**後壁**沒有導程直接面對，從前面的 V1–V3 只能看到「倒影」（ST 下降、R 波變高）。把電極貼到背後（**V7–V9**），如果看到 **ST 上升**，就是**後壁 STEMI**——要走**緊急再灌流**，而不是 NSTE-ACS 的流程。\n另外女性、老人、糖尿病常**沒有典型胸痛**（喘、上腹不適），所以首次醫療接觸 **10 分鐘內**一定要做心電圖。"
         },
         {
           "type": "collapsible",
@@ -198,6 +213,11 @@
           "text": "**2025 ACC/AHA**：疑似 ACS 盡快驗 troponin（最好 hs-cTn）；**hs-cTn 1–2 小時後重驗**，傳統 troponin 3–6 小時後重驗（1）"
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 hs-troponin 0／1 小時就能排除？為什麼再梗塞要看 CK-MB？**\n- **hs-troponin** 能測到極低濃度，心肌一受傷很早就看得到 → **0 和 1 小時都沒有異常上升**，心梗的機率就很低\n- Troponin 上升後會**持續 7–10 天**，這段期間再梗塞會被原本的高值蓋住；**CK-MB 2–3 天就回落** → 回落後**再上升**就代表**再梗塞**"
+        },
+        {
           "type": "source",
           "book": "Harrison's 22e",
           "pages": "Ch.285 p.2108；Ch.286 p.2115-2117（Fig. 286-4）"
@@ -223,6 +243,11 @@
           "label": "Harrison's 22e Fig. 285-3",
           "caption": "急性胸痛的 HEART 流程",
           "explain": "**【怎麼看】**先做心電圖：STEMI → STEMI 流程｜缺血變化 → troponin｜非缺血 → 算 HEART：**0–3 分＋系列 troponin < 99th → 早期出院**；≥ 4 分 → troponin、住院或觀察，再壓力測試或心導管\n**【考點】**排除急性心梗**之後**才做壓力測試"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 NSTE-ACS 要做風險分層？**\nNSTE-ACS 從「幾乎不會出事」到「幾天內高死亡率」都有，**風險決定兩件事**：\n1. **心導管要多快做**：極高風險立即、高風險 24 小時內、其他選擇性（見§何時做心導管）\n2. **能不能安全回家**：HEART 低分、hs-troponin 排除的病人可以門診追蹤\nTIMI、GRACE、HEART 就是把年齡、危險因子、心電圖、troponin 這些線索量化。"
         },
         {
           "type": "collapsible",
@@ -253,6 +278,11 @@
           "type": "callout",
           "style": "guideline",
           "text": "**2025 ACC/AHA**：**SpO₂ ≥ 90% 常規給氧無益**（3：No Benefit）｜沒有禁忌 → **24 小時內口服 β 阻斷劑**（1, A）｜**避免 aspirin 以外的 NSAID**"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 nitrate 和 β 阻斷劑在急性冠心症有這麼多禁忌？**\n兩者都在**降低心臟的負荷**，但有些病人正**依賴那份負荷**維持血壓：\n- **Nitrate** 降低前負荷 → **低血壓、右心室梗塞**（靠前負荷撐住右心輸出）、**嚴重主動脈狹窄**、**24–48 小時內用過 PDE5 抑制劑** → 可能血壓崩掉；而且只改善症狀、**不降低死亡**\n- **β 阻斷劑** 降心跳與收縮力 → **心因性休克、急性心衰竭、心搏過緩、高度房室阻斷**的人等於拿掉代償\n- 給氧也一樣：**SpO₂ ≥ 90% 常規給氧沒有好處**"
         },
         {
           "type": "source",
@@ -306,6 +336,11 @@
         },
         {
           "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 NSTE-ACS 要「aspirin + P2Y12 抑制劑 + 抗凝」三管齊下？**\n白色血栓靠**血小板**：血小板活化有兩條主要放大路徑——**TXA₂**（aspirin 擋）和 **ADP → P2Y12**（clopidogrel、prasugrel、ticagrelor 擋）；同時**凝血酶**讓血栓穩定（heparin、enoxaparin、fondaparinux 擋）→ 急性期三者一起用。\n**Clopidogrel** 是前驅藥，要靠 **CYP2C19** 活化，效果因人而異 → PCI 時優先用更強的 **prasugrel 或 ticagrelor**；prasugrel 出血風險高，**曾中風或 TIA 禁用**。"
+        },
+        {
+          "type": "callout",
           "style": "guideline",
           "text": "**2025 ACC/AHA**\n- **NSTE-ACS 做 PCI → prasugrel 或 ticagrelor**（1）；**不做侵入性 → ticagrelor**（1）；其他不能用才 clopidogrel\n- **常規 GP IIb/IIIa 抑制劑有害**（3：Harm）；大量血栓或 no-reflow 救援使用（2a）\n- **fondaparinux 不可單獨用於 PCI**"
         },
@@ -348,6 +383,11 @@
         },
         {
           "type": "callout",
+          "style": "logic",
+          "text": "**為什麼極高風險要在 2 小時內做心導管？**\n休克、急性心衰竭、致命心律不整、藥物壓不住的胸痛——代表**心肌正在持續壞死、藥物已經失敗**，只有打通血管才能止損。\n**高風險**（確診 NSTEMI、GRACE > 140、動態 ST 變化）早期心導管能減少事件；**低風險**的人做不做心導管差別不大，可選擇性進行。"
+        },
+        {
+          "type": "callout",
           "style": "trap",
           "text": "**FC 書中表格（ESC 2020）**還有「中度風險 → 72 小時內」一級；**Harrison 22e 與 2025 ACC/AHA 已不再列 72 小時**｜**非犯人血管**：FC 101 年答案依舊觀念；**現在穩定的 STEMI 多條血管病變建議完全再通**（見〈冠心症（三）〉）"
         },
@@ -387,6 +427,11 @@
           "text": "**2025 ACC/AHA 改了什麼**：**ticagrelor 的 DAPT ≥ 1 個月後可改 ticagrelor 單一療法**減少出血（1, A）｜最大耐受 statin 下 **LDL ≥ 70 → 加非 statin 藥物**（1, A）｜**2026 血脂指引：極高風險 LDL < 55**"
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 ACS 後 DAPT 要 12 個月？合併心房顫動為什麼要縮短三合一？**\nACS 後第一年**再發血栓與支架血栓**的風險最高 → DAPT（aspirin + P2Y12）12 個月；30 天內不降階。\n合併 AF 時還需要**口服抗凝**預防中風；aspirin + P2Y12 + 抗凝的**出血風險很高** → 三合一越短越好（1–4 週停 aspirin），之後口服抗凝 + clopidogrel 到 12 個月，再只留口服抗凝。"
+        },
+        {
           "type": "collapsible",
           "summary": "延伸：長期治療細節",
           "text": "Harrison：高出血低缺血 → DAPT 3–6 個月後停 aspirin、留 P2Y12；或 3 個月時降階｜高缺血低出血 → DAPT 最多 3 年（ticagrelor 1 年後 60 mg bid）\n2025：PPI 減少腸胃出血（1, A）｜ACEI／ARB：LVEF ≤ 40%、高血壓、糖尿病（1, A）｜MRA：LVEF ≤ 40% 合併心衰竭或糖尿病（1）｜每年流感疫苗（1, A）\n女性、老人、糖尿病、CKD 容易被治療不足"
@@ -415,6 +460,11 @@
           "type": "callout",
           "style": "key",
           "text": "**必背**\n- **Prinzmetal（血管痙攣性）心絞痛**：年輕、抽菸、**休息時或清晨發作**、**短暫 ST 上升**（不是 ST 下降）（FC 100 年）；心導管常**無顯著狹窄**、**acetylcholine 可誘發**\n- 治療：**CCB＋nitrate**；**β 阻斷劑可能惡化痙攣**；**aspirin 可能增加發作**；statin 減少事件\n- **古柯鹼引起的 ACS → 禁用 propranolol**（非選擇性 β 阻斷劑：α 收縮失去抵銷 → 痙攣加重）；可用 **benzodiazepine、nitrate、phentolamine（α 阻斷劑）**（FC 108 年）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼血管痙攣性心絞痛用 CCB 和 nitrate，β 阻斷劑卻可能更糟？**\n問題不是固定狹窄，而是**冠狀動脈平滑肌痙攣**（常在休息或清晨，發作時**短暫 ST 上升**）→ 治療是讓血管放鬆的 **CCB、nitrate**。\n**β 阻斷劑**擋掉 β₂ 的血管擴張後，**α 的收縮作用沒有對抗** → 痙攣可能惡化；古柯鹼引起的胸痛也是同樣邏輯，急性期避免單純 β 阻斷劑。"
         },
         {
           "type": "collapsible",
