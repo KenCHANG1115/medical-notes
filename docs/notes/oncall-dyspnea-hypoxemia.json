@@ -1,0 +1,362 @@
+{
+  "id": "oncall-dyspnea-hypoxemia",
+  "title": "On Call: 喘與血氧下降（呼吸急促、SpO₂ 掉）",
+  "title_en": "On Call: Dyspnea and Hypoxemia",
+  "title_zh": "值班：喘與血氧下降",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.296 呼吸功能 (p.2201–2205)；Ch.298 Asthma (p.2227)；Ch.303 COPD 急性惡化 (p.2259：prednisone 40 mg × 5 天、目標 SpO₂ 88–92%)；急性心因性肺水腫 (p.2331：NTG 舌下 0.4 mg × 3、IV 5–10 μg/min)；Ch.290 Table 290-4 (p.2162–2163：UFH 80 U/kg + 18 U/kg/h、enoxaparin 1 mg/kg q12h)",
+    "IV loop 利尿劑劑量依〈Heart Failure (三)〉（2022 AHA/ACC/HFSA 指引）；大塊肺栓塞 tPA 依 FC（〈Thrombosis〉）",
+    "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）- Shortness of Breath (p.45–52)",
+    "過敏性休克 epinephrine 劑量依院內流程；劑型依院內品項"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "chest-hypoxemia-respiratory-failure",
+      "name": "Chest (三)：低血氧與呼吸衰竭——A-a gradient、氧氣治療、NIV、睡眠呼吸中止與高山症"
+    },
+    {
+      "id": "chest-copd-bronchiectasis",
+      "name": "Chest (五)：COPD 與支氣管擴張——慢性咳痰與固定的氣流受阻"
+    },
+    {
+      "id": "chest-asthma",
+      "name": "Chest (四)：氣喘——可變的氣流受阻、控制評估與 GINA 階梯治療"
+    },
+    {
+      "id": "thrombosis-vte",
+      "name": "Thrombosis (血栓：易栓症、靜脈血栓與抗凝治療)"
+    },
+    {
+      "id": "hf-hfpef-acute",
+      "name": "Heart Failure (三)：HFpEF、急性失代償與心因性休克"
+    },
+    {
+      "id": "critical-shock-sepsis-ards",
+      "name": "Critical Care (一)：休克、敗血症與 ARDS——血行動力學分類、敗血症處置、肺保護通氣與脫離呼吸器"
+    },
+    {
+      "id": "pneumonia",
+      "name": "Pneumonia (肺炎)"
+    },
+    {
+      "id": "oncall-fever",
+      "name": "On Call: 發燒（住院病人發燒、敗血症、嗜中性球低下發燒）"
+    },
+    {
+      "id": "confusion-decreased-consciousness",
+      "name": "Confusion / Decreased Level of Consciousness (意識不清)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人很喘／血氧掉了」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先做（電話中就交代）**\n1. **給氧**：先求 SpO₂ 上來——**COPD 或 CO₂ 滯留者目標 88–92%**，其他人 ≥ 94%\n2. **坐起來**（除非低血壓）、確認**氧氣真的有接上**、探頭夾得好不好\n3. 生命徵象、**呼吸速率**、意識\n4. **STAT 血氣（ABG）**、**胸部 X 光**、**心電圖**\n5. 有尿管、點滴的病人：**今天進出量**（是不是灌太多）"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**立刻到床邊 + 找學長姐／RRT 的紅旗**\n- **給氧後 SpO₂ 仍 < 90%**、呼吸 > 30 或越來越慢、**講不出完整句子**、用呼吸輔助肌\n- **意識變差**、躁動（缺氧或 CO₂ 滯留）\n- **低血壓**、心跳 > 130 或心律不整、胸痛\n- **喘鳴（stridor）**、臉嘴唇腫、蕁麻疹（上呼吸道阻塞、過敏）\n- **單側呼吸音消失** + 低血壓（張力性氣胸）\n- 剛做完處置（中心靜脈導管、胸腔穿刺）、剛輸完血、剛吃完東西嗆到"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.298 p.2227"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.303 p.2259"
+        }
+      ]
+    },
+    {
+      "title": "電話中：要問什麼、可以先開什麼",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "問護理師",
+            "為什麼"
+          ],
+          "rows": [
+            [
+              "SpO₂ 多少、**用什麼氧氣、幾升**、之前是多少",
+              "惡化速度、目前的氧氣需求"
+            ],
+            [
+              "呼吸速率、血壓、心跳、意識、體溫",
+              "篩敗血症、休克、CO₂ 滯留"
+            ],
+            [
+              "突然還是逐漸",
+              "突然 → 肺栓塞、氣胸、吸入、痰塞、急性肺水腫；逐漸 → 肺炎、心衰竭、肋膜積水"
+            ],
+            [
+              "**今天的輸入輸出量**、最近有沒有輸血",
+              "容積過多、TACO"
+            ],
+            [
+              "有沒有咳嗽、痰、胸痛、喘鳴、嗆到",
+              "找原因"
+            ],
+            [
+              "本來有什麼病：COPD、氣喘、心衰竭、末期腎病、癌症",
+              "最可能的惡化原因"
+            ],
+            [
+              "最近給了什麼藥：鴉片類、鎮靜劑、新抗生素（過敏）",
+              "呼吸抑制、過敏"
+            ],
+            [
+              "最近做了什麼處置：中心靜脈導管、胸腔穿刺、手術、長期臥床",
+              "氣胸、肺栓塞"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**電話中可以先下的 order**\n- **O₂**：鼻導管 → 不夠就面罩或非再吸入面罩；COPD 用**控制性給氧**（目標 88–92%）\n- **床頭抬高**、SpO₂ 連續監測\n- **STAT ABG**、**胸部 X 光**（可攜式）、**12 導程心電圖**；CBC、BUN／Cr、電解質；依情況 **BNP**、**troponin**\n- 有喘鳴（wheeze）的 COPD／氣喘病人 → 可先給**短效支氣管擴張劑霧化**\n- 正在輸血 → **停輸血**\n- **暫停**鴉片類、鎮靜劑下一劑"
+        }
+      ]
+    },
+    {
+      "title": "床邊評估：用「聽診 + X 光」分五條路",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**床邊順序**\n1. **看**：呼吸型態、輔助肌、能不能講話、**意識**、發紺、頸靜脈、下肢水腫（單側？）\n2. **聽**：喘鳴（wheeze）、囉音（crackles）、**單側呼吸音減弱或消失**、喘鳴音（stridor）、心雜音、S3\n3. **摸**：氣管有無偏移、皮下氣腫\n4. **血氣**：PaO₂、**PaCO₂**（高 → 換氣衰竭）、pH、A-a gradient\n5. **X 光**、心電圖（右心負荷、心肌缺血、心房顫動）\n6. **翻病歷**：輸入輸出量、體重變化、給藥、最近處置"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "床邊發現",
+            "想到",
+            "馬上做"
+          ],
+          "rows": [
+            [
+              "**喘鳴（wheeze）**、呼氣延長",
+              "**COPD／氣喘急性發作**；心衰竭也可能有（心因性氣喘）",
+              "支氣管擴張劑、類固醇；COPD 高碳酸 → NIV"
+            ],
+            [
+              "**兩側囉音** + 頸靜脈怒張、水腫、輸入 >> 輸出",
+              "**急性肺水腫**（心衰竭、容積過多、TACO）",
+              "坐起、給氧、**nitroglycerin**（血壓夠時）、**IV loop 利尿劑**；考慮 NIV"
+            ],
+            [
+              "**局部囉音**、發燒、膿痰",
+              "**肺炎**（院內、吸入性）",
+              "培養、抗生素（見〈發燒〉）"
+            ],
+            [
+              "**單側呼吸音消失**",
+              "**氣胸**（剛放中心導管？）、大量肋膜積水、**痰塞造成肺塌陷**",
+              "X 光；張力性氣胸 → 立即減壓；痰塞 → 抽痰、胸腔物理治療"
+            ],
+            [
+              "**肺部乾淨**，但低血氧、心跳快",
+              "**肺栓塞**（臥床、術後、癌症、單腳腫）；另想貧血、酸中毒（Kussmaul）、焦慮（排除診斷）",
+              "肺栓塞可能性高 → CTPA；高度懷疑且無出血風險 → 先開始抗凝"
+            ],
+            [
+              "**喘鳴音（stridor）**、臉嘴唇腫、蕁麻疹、剛用新藥",
+              "**上呼吸道阻塞**、**過敏性休克**、異物",
+              "過敏 → **epinephrine IM**；呼吸道危急 → 找麻醉科、準備插管"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 COPD 病人給太多氧會變更糟？**\n慢性 CO₂ 滯留的病人，給高濃度氧會讓原本因缺氧而收縮的肺血管放鬆，**通氣不好的區域也灌滿血流**（V/Q 更不配合）、呼吸驅動也可能下降 → **PaCO₂ 上升、意識變差**。所以目標是「夠用就好」的 **88–92%**（Harrison），並且要**追血氣**看 PaCO₂；但**絕不可以因為怕 CO₂ 而讓病人缺氧**——缺氧比高碳酸更快致命。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.296 p.2201–2205"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.303 p.2259"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**給氧**｜鼻導管 1–6 L/min → 簡單面罩 → **非再吸入面罩**；COPD → **Venturi**（精準 FiO₂）；目標 SpO₂ **≥ 94%**、**COPD 88–92%**\n- 注意：高流量鼻導管（HFNC）依院內；給氧後仍差 → 找學長姐"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**COPD 急性惡化**｜短效支氣管擴張劑霧化（± 抗膽鹼藥）；**prednisone 40 mg 口服（或等效）× 5 天**（Harrison）；痰變膿或需呼吸器 → 抗生素\n- 劑型：依院內霧化液與類固醇品項\n- 注意：**控制性給氧 88–92%**；**PaCO₂ 高、酸血症、意識清楚 → NIV（BiPAP）**；**theophylline 不建議**；類固醇最常見副作用是**高血糖**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**氣喘急性發作**｜**霧化 β2 致效劑最多每 20 分鐘一次**；1–2 小時沒改善 → **IV 類固醇**；給氧矯正低血氧；必要時 **magnesium**（Harrison）\n- 劑型：依院內品項\n- 注意：**講不出話、PEF 很低、PaCO₂ 正常或升高（疲乏）** → 加護病房"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**急性心因性肺水腫**｜坐起、給氧；**nitroglycerin 舌下 0.4 mg q5min × 3**，肺水腫持續且無低血壓 → **IV nitroglycerin 由 5–10 μg/min 開始**（Harrison）；**IV loop 利尿劑**（已在用者約為家中劑量的 1–2.5 倍，〈Heart Failure (三)〉）\n- 劑型：依院內泡法\n- 注意：**低血壓不給硝酸鹽**；考慮 **NIV（CPAP／BiPAP）**；找原因（心肌缺血、心律不整、輸液過多）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**肺栓塞（高度懷疑）**｜無出血禁忌 → 開始抗凝：**UFH 80 U/kg bolus + 18 U/kg/h**（依 aPTT 調整）或 **enoxaparin 1 mg/kg q12h**（腎功能正常）（Harrison Table 290-4）\n- 劑型：依院內品項\n- 注意：**低血壓、休克 → 大塊肺栓塞 → 溶栓**（FC：tPA 100 mg／2 小時）、找學長姐；CTPA 確診"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**張力性氣胸**｜**立即針刺減壓**（不要等 X 光）→ 胸管\n- 注意：找學長姐、外科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**痰塞、肺塌陷**｜抽痰、胸腔物理治療、早期活動\n- 注意：插管病人：檢查管路位置、抽痰"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**過敏性休克**｜**epinephrine IM**（大腿外側）、給氧、輸液；停可疑藥物\n- 劑型：**劑量依院內過敏性休克流程**\n- 注意：喘鳴音、上呼吸道水腫 → 呼吸道危急，找麻醉科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**鴉片類呼吸抑制**｜**naloxone 0.4–2 mg IV／IM**，可重複（見〈意識改變〉）\n- 劑型：依院內品項\n- 注意：作用短 → 觀察再次抑制"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**要插管或 NIV 的時候**\n- **NIV（BiPAP）**：COPD 急性惡化合併高碳酸血症、急性心因性肺水腫——**病人要清醒、能保護呼吸道**\n- **NIV 禁忌**：**休克、昏迷、分泌物多（頻繁抽痰）**、無法保護呼吸道、嘔吐 → **插管**\n- 給高濃度氧、NIV 後仍 SpO₂ 差、PaCO₂ 持續上升、意識變差 → **插管、加護病房**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.303 p.2259"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.298 Asthma p.2227"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "急性心因性肺水腫段落 p.2331"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.290 Table 290-4 p.2162–2163"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級、家屬溝通與白天追蹤",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "什麼時候",
+            "做什麼"
+          ],
+          "rows": [
+            [
+              "處置後 15–30 分鐘",
+              "SpO₂、呼吸速率、意識；**COPD 給氧或 NIV 後 30–60 分鐘重驗血氣**（PaCO₂）"
+            ],
+            [
+              "利尿後",
+              "尿量、血壓、電解質（低鉀）"
+            ],
+            [
+              "之後",
+              "生命徵象 q1h 直到穩定"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**升級**\n- 給氧需求一直增加、需要 NIV 或插管 → **加護病房**、找學長姐\n- 張力性氣胸、大量積水 → 外科、胸腔科\n- 大塊肺栓塞、疑似心肌梗塞 → 心臟科"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**家屬溝通**：先確認 **DNR／插管意願**（COPD 末期、癌症病人尤其重要）；說明可能原因、目前給氧與治療、可能需要呼吸器或轉加護病房。\n**交給白天團隊**：追 X 光、血氣、培養、CTPA 結果；檢討輸液量與利尿劑；COPD／氣喘的類固醇療程與吸入藥；肺栓塞的抗凝計畫；是否需要長期氧氣評估。"
+        }
+      ]
+    },
+    {
+      "title": "交班範本、常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**SBAR**\n- **S**：床號、姓名，**03:10 SpO₂ 從 95% 掉到 86%**（鼻導管 2 L），呼吸 28、心跳 112、血壓 156/90\n- **B**：心衰竭（EF 30%）、今天輸入 2,800 mL、輸出 900 mL\n- **A**：兩側囉音、頸靜脈怒張；X 光肺水腫；ABG pH 7.31、PaCO₂ 48、PaO₂ 58 → **急性肺水腫（容積過多）**\n- **R**：坐起、非再吸入面罩、NTG 舌下 × 2、furosemide IV；**04:00 重驗 ABG、追尿量**；仍差 → BiPAP、通知學長姐與加護病房"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- **只調高氧氣**卻沒找原因\n- COPD 病人**給氧過高**沒追 PaCO₂；或反過來**怕 CO₂ 而讓病人缺氧**\n- 沒看**輸入輸出量**就繼續大量輸液\n- 低血壓病人給**硝酸鹽**\n- 肺部乾淨的低血氧沒想到**肺栓塞**\n- 懷疑張力性氣胸還**等 X 光**\n- 昏迷、分泌物多、休克的病人用 **NIV**\n- 把喘歸因於**焦慮**（排除診斷）\n- 忘了確認 **DNR／插管意願**"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 2 點：「COPD 阿伯 SpO₂ 84%，我把氧氣開到 10 L 面罩，他越來越睏。」",
+          "text": "1. 嗜睡 + 高流量氧 → 想 **CO₂ 滯留**：**STAT ABG**\n2. 改 **Venturi** 控制性給氧，目標 **88–92%**\n3. 支氣管擴張劑霧化、**prednisone 40 mg**；痰變膿 → 抗生素\n4. **pH < 7.35、PaCO₂ 高、還叫得醒 → BiPAP**；叫不醒、分泌物多 → 插管、加護病房\n5. 確認插管意願"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 11 點：「術後第 4 天的病人突然喘，SpO₂ 88%，心跳 125，肺部聽起來乾淨。」",
+          "text": "1. 術後臥床 + 突然 + 肺部乾淨 + 心跳快 → **肺栓塞**優先\n2. 給氧、ABG、心電圖（竇性心搏過速、右心負荷）、看單腳腫\n3. **CTPA**；高度懷疑、無出血禁忌 → 先 **UFH 或 enoxaparin**（術後出血風險與外科討論）\n4. **低血壓 → 大塊肺栓塞**：找學長姐、考慮溶栓或其他再灌流"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 4 點：「剛放完中心靜脈導管 1 小時，病人說喘，右邊呼吸音很小，血壓 82/50。」",
+          "text": "1. 剛做處置 + 單側呼吸音消失 + 低血壓 → **張力性氣胸**\n2. **不要等 X 光** → 立即**針刺減壓**、準備胸管；找學長姐\n3. 給氧、建立通路\n4. 穩定後 X 光確認、胸管位置"
+        }
+      ]
+    },
+    {
+      "title": "延伸與相關筆記",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "延伸：低血氧機轉（A-a gradient）快速版",
+          "text": "- PAO₂ ≈ FiO₂ ×（760 − 47）− PaCO₂ ÷ 0.8；室內空氣 ≈ **150 − 1.25 × PaCO₂**；正常 A-a < 15（年紀越大越寬）\n- **A-a 正常 + PaCO₂ 高** → **換氣不足**（藥物、神經肌肉、COPD 末期）→ 解決換氣（NIV、naloxone）\n- **A-a 增加**：**V/Q 不配合**（給氧有效、最常見）vs **分流**（給氧**無效**：肺塌陷、肺炎、肺水腫、ARDS）→ 需要 PEEP、治療原因\n- 細節見〈Chest (三)〉"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：低血氧與呼吸衰竭、NIV 見〈Chest (三)〉；COPD 見〈Chest (五)〉；氣喘見〈Chest (四)〉；肺栓塞見〈Thrombosis〉；急性心衰竭見〈Heart Failure (三)〉；ARDS 與呼吸器見〈Critical Care (一)〉；肺炎見〈Pneumonia〉。"
+        }
+      ]
+    }
+  ]
+}

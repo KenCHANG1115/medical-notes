@@ -515,6 +515,10 @@
         {
           "id": "oncall-fever",
           "name": "On Call: 發燒（住院病人發燒、敗血症、嗜中性球低下發燒）"
+        },
+        {
+          "id": "oncall-dyspnea-hypoxemia",
+          "name": "On Call: 喘與血氧下降（呼吸急促、SpO₂ 掉）"
         }
       ]
     }
