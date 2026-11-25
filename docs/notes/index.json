@@ -559,6 +559,10 @@
         {
           "id": "oncall-hyponatremia",
           "name": "On Call: 低血鈉（Na 118 怎麼辦）"
+        },
+        {
+          "id": "oncall-transfusion-reaction",
+          "name": "On Call: 輸血反應（輸血中發燒、喘、低血壓、起疹）"
         }
       ]
     }
