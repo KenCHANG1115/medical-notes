@@ -88,6 +88,11 @@
           ]
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要記抗生素「作用在哪裡」？**\n作用位置直接推得出很多考點：\n- **沒有細胞壁**的菌（Mycoplasma）→ β-lactam、vancomycin **天生無效**\n- **細胞壁藥 + aminoglycoside** 有協同作用：細胞壁破了，aminoglycoside 更容易進入（腸球菌心內膜炎）\n- 殺菌（細胞壁、DNA）vs 抑菌（多數蛋白質合成抑制劑）→ 腦膜炎、心內膜炎、嗜中性球低下要用**殺菌性**藥"
+        },
+        {
           "type": "source",
           "book": "First Choice 醫學(三) 第3冊",
           "pages": "庚、細菌抗生素 講義 p.246–271、題目 p.272"
@@ -140,6 +145,11 @@
               "**唯一能打 MRSA 的頭孢**"
             ]
           ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼頭孢菌素世代越高，打革蘭氏陰性越強？為什麼都打不到 MRSA、腸球菌？**\n新世代在結構上更能抵抗**革蘭氏陰性菌的 β-lactamase**、穿透外膜，代價是對革蘭氏陽性的 PBP 親和力下降（第四代 cefepime 兩邊兼顧）。\n- **MRSA** 有改變的 **PBP2a** → 只有第五代 **ceftaroline** 打得到\n- **腸球菌、Listeria** 對所有頭孢菌素天生抗藥\n- **Ceftriaxone** 進入腦脊髓液好 → 細菌性腦膜炎；**ertapenem** 不打綠膿桿菌與 Acinetobacter"
         },
         {
           "type": "heading",
@@ -306,6 +316,11 @@
           ]
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 aminoglycoside 會傷腎傷耳？為什麼 TMP-SMX 會讓鉀上升？**\n- **Aminoglycoside** 會**累積在近端腎小管和內耳毛細胞** → 腎毒性（非少尿型、低血鎂）、耳毒性（常不可逆）→ 和**谷底濃度**相關 → 一天一次給藥、監測濃度\n- **TMP** 的作用像 **amiloride**，擋住集尿管的 ENaC → **高血鉀**；也會抑制肌酸酐分泌 → 肌酸酐假性上升\n- **FQ** 經腎臟排除 → 腎功能差要調劑量；注意肌腱斷裂、QT 延長"
+        },
+        {
           "type": "source",
           "book": "First Choice 醫學(三) 第3冊",
           "pages": "庚、細菌抗生素 講義 p.260–271、題目 p.272–274"
@@ -366,6 +381,11 @@
           ]
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 55 歲以上的細菌性腦膜炎要加 ampicillin？**\n**Listeria** 好發在**新生兒、老人、細胞免疫缺損**（移植、類固醇、懷孕）的人，而它對**頭孢菌素天生抗藥** → 經驗性處方（ceftriaxone + vancomycin）之外要加 **ampicillin**。\n同樣的邏輯：**嗜中性球低下發燒**一定要蓋**綠膿桿菌**（cefepime、pip-tazo、carbapenem）；**ESBL** 菌血症用 carbapenem。經驗用藥就是「這個宿主、這個部位，最可能是誰、最不能漏誰」。"
+        },
+        {
           "type": "source",
           "book": "First Choice 醫學(三) 第3冊",
           "pages": "庚、細菌抗生素 題目 p.273、276；丁、泌尿道感染 題目 p.202"
@@ -404,6 +424,11 @@
           "type": "callout",
           "style": "key",
           "text": "**必背**\n- 不當使用 → 抗藥性、醫療浪費、死亡率與副作用增加；**劑量不足也會促進抗藥** →「劑量與抗藥無關」是錯的\n- 選藥要考慮年齡、免疫、肝腎功能、病情；有培養結果就**降階**\n- **C. difficile**：醫療照護相關；**抗生素是主要誘因**（clindamycin、第二三代頭孢、FQ）；健康新生兒無症狀帶菌不少見\n- 治療：**口服 fidaxomicin 或口服 vancomycin**；**治療後復發約 15–30%**（不是 < 5%）\n- **芽孢不怕酒精** → 照顧 C. difficile 病人後要**用肥皂和水洗手**"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼抗生素「劑量不足」也會促進抗藥？**\n濃度不夠時，敏感的細菌被殺掉，**抗藥的突變株卻活下來**、被挑選出來繁殖 → 劑量不足和不必要的長療程一樣都在**培養抗藥菌**。\n所以抗生素管理強調：**正確劑量**、拿到培養後**降階**、用**最短有效療程**；不必要的抗生素還會增加 **C. difficile** 感染。"
         },
         {
           "type": "collapsible",
