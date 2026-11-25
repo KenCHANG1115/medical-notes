@@ -555,6 +555,10 @@
         {
           "id": "oncall-fall",
           "name": "On Call: 病人跌倒（受傷評估、為什麼跌、預防再跌）"
+        },
+        {
+          "id": "oncall-hyponatremia",
+          "name": "On Call: 低血鈉（Na 118 怎麼辦）"
         }
       ]
     }

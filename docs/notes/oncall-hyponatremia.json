@@ -1,0 +1,168 @@
+{
+  "id": "oncall-hyponatremia",
+  "title": "On Call: 低血鈉（Na 118 怎麼辦）",
+  "title_en": "On Call: Hyponatremia",
+  "title_zh": "值班：低血鈉",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.56 Fluid and Electrolyte Disturbances：Hyponatremia (p.345–351；3% NaCl 100 mL bolus、先升 4–6、24 小時 ≤ 8–10、48 小時 ≤ 18；低容積給生理食鹽水可能使 Na 快速上升)",
+    "劑型依院內品項"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "electrolyte-disorders",
+      "name": "Electrolyte Disorders (一)：鈉與水"
+    },
+    {
+      "id": "oncall-seizure",
+      "name": "On Call: 抽搐（正在抽、抽完了、癲癇重積）"
+    },
+    {
+      "id": "confusion-decreased-consciousness",
+      "name": "Confusion / Decreased Level of Consciousness (意識不清)"
+    },
+    {
+      "id": "oncall-potassium-disorders",
+      "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「Na 118」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先問：有沒有嚴重神經症狀？急性還是慢性？**\n1. **症狀**：**抽搐、意識改變、嘔吐、嗜睡** → 嚴重 → 立刻處理\n2. **多快掉下來的**：48 小時內（急性）vs 不知道或 > 48 小時（**當慢性**）\n3. **生命徵象**、容積狀態\n4. 現在在打什麼點滴（**低張液**？）、有沒有用 **thiazide**、SSRI、carbamazepine\n5. **先確認是真的**：高血糖（校正）、高血脂或高蛋白（假性）"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**最重要的兩個原則（Harrison）**\n- **嚴重症狀 → 3% 食鹽水 100 mL bolus**（比點滴有效），目標先升 **4–6 mEq/L** 就好\n- **慢性低鈉不可矯正太快**：**第一個 24 小時不超過 8–10 mEq/L、48 小時不超過 18** → 否則**滲透性去髓鞘（ODS）**"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Hyponatremia p.350–351"
+        }
+      ]
+    },
+    {
+      "title": "床邊評估：容積狀態三分法",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "容積",
+            "常見原因",
+            "怎麼處理"
+          ],
+          "rows": [
+            [
+              "**低容積**（口乾、姿勢性低血壓、BUN 高）",
+              "嘔吐腹瀉、**利尿劑（thiazide）**、腎上腺功能不足",
+              "**生理食鹽水**（Harrison：AVP 迅速下降 → 大量排水 → **Na 可能升太快**，要密切追蹤）；停 thiazide"
+            ],
+            [
+              "**正常容積**",
+              "**SIAD**（肺炎、中樞神經、藥物：SSRI、carbamazepine、化療；疼痛、噁心、術後）、甲狀腺低下、續發性腎上腺不足",
+              "**限水**、治療原因；必要時鹽錠 + 口服 furosemide；嚴重 → 3% 食鹽水"
+            ],
+            [
+              "**高容積**（水腫、腹水、頸靜脈怒張）",
+              "心衰竭、肝硬化、腎病症候群、腎衰竭",
+              "**限水限鈉**、利尿劑、治療原疾病"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**要驗的**：血清滲透壓、**尿滲透壓**、**尿 Na**、血糖、BUN／Cr、K、TSH、cortisol（依情況）\n- （常用判讀）血清滲透壓低 + 尿滲透壓 > 100 + 尿 Na > 30（正常容積）→ 支持 SIAD\n- 尿滲透壓 < 100 → 喝太多水、啤酒狂飲、茶與吐司症候群"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Hyponatremia p.345–351"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。**任何積極矯正都要頻繁追蹤 Na**（通常每 2–4 小時）。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**嚴重症狀（抽搐、昏迷、嚴重嘔吐）**｜**3% NaCl 100 mL IV bolus**；症狀未改善可重複（依院內）；目標**先升 4–6 mEq/L**\n- 劑型：依院內 3% 食鹽水品項\n- 注意：找學長姐、加護或中度照護；之後依慢性低鈉速度上限"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**低容積**｜**0.9% 生理食鹽水**\n- 注意：**Na 可能快速上升**（AVP 被抑制後大量排水）→ 追蹤尿量與 Na"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**SIAD**｜**限水**（依尿滲透壓設定量）；鹽錠、口服 furosemide；治療原因\n- 劑型：依院內品項\n- 注意：不要給生理食鹽水（SIAD 時可能更低）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**高容積**｜限水限鈉、loop 利尿劑\n- 劑型：依院內品項"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**矯正太快（超過上限）**｜**停止含鈉輸液**、**給低張液或 DDAVP** 把 Na 拉回來——**找學長姐、腎臟科**\n- 劑型：依院內品項\n- 注意：Harrison 參考文獻：DDAVP 可預防與逆轉過度矯正"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**監測**｜Na **q2–4h**（積極矯正時）、尿量（突然大量排尿 → Na 會衝高）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼慢性低鈉矯正太快會傷腦？**\n慢性低鈉時，腦細胞為了不腫脹，已經把細胞內的溶質（有機滲透分子）排出去適應低滲環境。如果血鈉一下子拉高，細胞外突然變高滲，腦細胞來不及把溶質拿回來 → **細胞脫水、髓鞘受損**（橋腦最常見）→ 數天後出現構音困難、吞嚥困難、四肢無力甚至閉鎖症候群。所以**症狀嚴重時只升 4–6 就停**，剩下的慢慢來。"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.56 Hyponatremia p.350–351"
+        }
+      ]
+    },
+    {
+      "title": "再評估、交班、常見錯誤與範例",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**交給白天團隊**：Na 趨勢與目標、原因（藥物、SIAD 病因、內分泌）、限水量、藥物調整（thiazide、SSRI）。\n**SBAR 範例**：「01:00 Na 116（昨日 124），病人嗜睡、嘔吐一次；正常容積、用 sertraline；尿滲透壓 480、尿 Na 52。已給 **3% NaCl 100 mL** → 03:00 Na 120、清醒。**24 小時上限 Na 124–126**；限水 800 mL/d；Na q4h；Na 上升過快 → 通知學長姐。」"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 慢性低鈉**矯正太快**（尤其低容積給生理食鹽水後大量排尿）\n- 有嚴重症狀卻**不敢給 3% 食鹽水**\n- SIAD **給生理食鹽水**\n- 沒考慮**假性低鈉**（高血糖校正）\n- 給了治療卻**沒有頻繁追蹤** Na\n- 忘了**停 thiazide**、SSRI 等致病藥"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 3 點：「70 歲阿嬤吃 thiazide，Na 112，但清醒、只說有點累。」",
+          "text": "1. 沒有嚴重症狀 → **當慢性**，不必急著 3% 食鹽水\n2. 停 thiazide；容積不足 → 生理食鹽水**小心給**\n3. **Na q2–4h**，24 小時上限 8–10（高風險者更低）\n4. 尿量突然變多 → Na 可能衝太快 → 找學長姐"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：低鈉的機轉與鑑別見〈Electrolyte Disorders (一)〉；抽搐見〈On Call: 抽搐〉；意識改變見〈On Call: 意識改變〉。"
+        }
+      ]
+    }
+  ]
+}
