@@ -1,0 +1,207 @@
+{
+  "id": "oncall-oliguria",
+  "title": "On Call: 尿少（少尿、無尿、肌酸酐上升）",
+  "title_en": "On Call: Oliguria and Rising Creatinine",
+  "title_zh": "值班：尿少",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.321 Acute Kidney Injury (p.2415–2428；KDIGO 定義；利尿劑 p.2384：增加尿量不改善預後、可能避免部分透析)",
+    "〈AKI (一)〉（Harrison Ch.321 + FC 第3冊）",
+    "劑型依院內品項"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "acute-kidney-injury",
+      "name": "Acute Kidney Injury (一)：診斷、分類與處置"
+    },
+    {
+      "id": "aki-intrinsic",
+      "name": "Acute Kidney Injury (二)：腎因性 AKI 各論"
+    },
+    {
+      "id": "oncall-potassium-disorders",
+      "name": "On Call: Potassium Disorders (值班鉀離子異常處置)"
+    },
+    {
+      "id": "oncall-hypotension",
+      "name": "On Call: 低血壓與休克（血壓掉了）"
+    },
+    {
+      "id": "oncall-dyspnea-hypoxemia",
+      "name": "On Call: 喘與血氧下降（呼吸急促、SpO₂ 掉）"
+    },
+    {
+      "id": "oncall-fever",
+      "name": "On Call: 發燒（住院病人發燒、敗血症、嗜中性球低下發燒）"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人 6 小時只有 50 mL 尿」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先排除最好處理的——管子和膀胱**\n1. **有尿管** → 檢查有沒有**扭折、阻塞**（沖洗或更換）；尿袋位置\n2. **沒尿管** → **膀胱超音波**（尿滯留？）\n3. **生命徵象**、意識、**容積狀態**（頸靜脈、肺部、水腫、口乾、姿勢性低血壓）\n4. 看**今天的輸入輸出量**、最近的 Cr 與 K\n5. 定義：尿量 **< 0.5 mL/kg/h 持續 6 小時**（KDIGO AKI）"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**立刻到床邊的紅旗（緊急透析的方向）**\n- **高血鉀**（K ≥ 6.5 或心電圖變化）\n- **肺水腫**、容積過多且利尿無效\n- **嚴重代謝性酸中毒**\n- **尿毒症狀**：意識改變、心包膜炎（摩擦音）、出血\n- 低血壓、休克（腎前性 → 先處理灌流）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.321 AKI（〈AKI (一)〉） p.2415–2428"
+        }
+      ]
+    },
+    {
+      "title": "電話中與床邊：腎後、腎前、腎因",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "路線",
+            "線索",
+            "做什麼"
+          ],
+          "rows": [
+            [
+              "**腎後性（阻塞）**",
+              "尿管阻塞、**膀胱脹**、攝護腺肥大、抗膽鹼藥、鴉片類、術後；**無尿**要特別想阻塞",
+              "**導尿或沖洗、更換尿管**；腎臟超音波（水腎）"
+            ],
+            [
+              "**腎前性（灌流不足）**",
+              "**低血壓**、脫水（嘔吐腹瀉、禁食、利尿）、出血、心衰竭、肝硬化；NSAID、ACEI／ARB",
+              "恢復灌流：**小量輸液並重新評估**（非心衰竭者）；停 NSAID；暫停 ACEI／ARB、利尿劑"
+            ],
+            [
+              "**腎因性**",
+              "敗血症、**顯影劑**、**腎毒性藥物**（aminoglycoside、vancomycin、amphotericin、NSAID）、橫紋肌溶解、血尿蛋白尿（腎絲球腎炎）",
+              "停腎毒藥、調整劑量、**尿沉渣**、找原因（見〈AKI (二)〉）"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**問護理師／看病歷**\n- 尿量變化的時間點、輸入輸出量、**體重變化**\n- 最近的藥：**NSAID、ACEI／ARB、利尿劑、抗生素（aminoglycoside、vancomycin）、顯影劑**、抗膽鹼藥、鴉片類\n- 血壓趨勢（有沒有低血壓的時段）、出血、發燒\n- **Cr 基線**（是不是本來就 CKD）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼「先摸膀胱、先看尿管」？**\n腎後性阻塞**最好處理、也最容易漏**：一根扭到的尿管、一個脹滿 800 mL 的膀胱，導尿就解決了；而且阻塞拖久了會變成真的腎損傷。所以在想腎前、腎因之前，**先花一分鐘排除阻塞**。另外，**完全無尿**很少見於腎前或一般 ATN，更要想到阻塞（或血管事件、嚴重腎絲球腎炎）。"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**排除阻塞**｜**膀胱超音波**；有尿管 → **沖洗或更換**；尿滯留 → **導尿**\n- 注意：大量尿滯留導出後注意**阻塞後多尿**與低血壓"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**抽血與尿液**｜**BUN／Cr、K、Na、HCO₃⁻**、Ca、P、CBC；**尿液常規 + 尿沉渣**、**尿 Na、尿 Cr**（算 **FENa**）；依情況 CK（橫紋肌溶解）、血氣\n- 注意：FENa 在用利尿劑後不準"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**影像**｜**腎臟超音波**（水腎、腎臟大小——小腎支持 CKD）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**容積不足（腎前）**｜**晶體液小量分次**、每次給完評估（尿量、血壓、肺部、SpO₂）\n- 注意：心衰竭、末期腎病者小心；敗血症依 30 mL/kg（見〈On Call: 發燒〉）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**停腎毒性藥物**｜停 **NSAID**、暫停 **ACEI／ARB、利尿劑**（腎前時）；**調整**經腎排除藥物劑量（抗生素、enoxaparin 等）；**vancomycin 濃度**\n- 注意：白天和團隊確認哪些藥要恢復"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**Furosemide**｜**只用於容積過多（肺水腫）**；Harrison：增加尿量本身**不改善 AKI 預後**，但可能避免部分病人透析；嚴重容積過多可 bolus 後持續輸注\n- 劑型：依院內品項\n- 注意：**不要用利尿劑「試」讓腎前性的病人尿多一點**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**高血鉀**｜依〈On Call: 鉀離子〉"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**緊急透析**｜**難治的高血鉀、肺水腫、嚴重酸中毒、尿毒症狀（意識改變、心包膜炎）、某些中毒** → **腎臟科**\n- 注意：需要放臨時透析導管"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.321 AKI p.2415–2428"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.321 利尿劑 p.2384"
+        }
+      ]
+    },
+    {
+      "title": "再評估、升級、交班與常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**升級**：緊急透析適應症、肺水腫、K 持續上升、休克 → **腎臟科**、找學長姐、加護病房；水腎 → **泌尿科**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**監測**：每小時尿量（需要時放尿管）、輸入輸出、每天體重；K 與 Cr 依嚴重度每 6–24 小時\n**交給白天團隊**：AKI 原因的釐清（尿沉渣、FENa、超音波）、藥物劑量調整與恢復時機、是否需要腎臟科、容積管理\n**SBAR 範例**：「22:00 起 6 小時尿量 60 mL（70 kg）；尿管沖洗後無改善；BP 102/60、皮膚乾、今天禁食輸液 500 mL；Cr 1.1 → 1.9、K 4.8。判斷**腎前性**（脫水 + 下午用了 ketorolac）。已停 NSAID、暫停 losartan、LR 500 mL × 2 後尿量 40 mL/h。06:00 重驗 Cr、K。」"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- 沒看尿管、沒做**膀胱超音波**就開始輸液或利尿\n- 用 **furosemide 讓尿變多**卻沒處理灌流不足（腎前性會更糟）\n- 心衰竭、末期腎病**大量輸液**造成肺水腫\n- 忘了**停 NSAID、暫停 ACEI／ARB**\n- 沒有依腎功能**調整藥物劑量**\n- 漏看**高血鉀**\n- 大量導尿後沒注意**阻塞後多尿**"
+        }
+      ]
+    },
+    {
+      "title": "情境範例：凌晨的電話",
+      "content": [
+        {
+          "type": "collapsible",
+          "summary": "凌晨 2 點：「80 歲阿公沒有尿管，晚上到現在都沒尿，一直躁動。」",
+          "text": "1. **膀胱超音波** → 900 mL **尿滯留**（攝護腺肥大、抗膽鹼藥？）\n2. **導尿**；躁動可能跟著改善\n3. 注意阻塞後多尿；驗 Cr、K\n4. 白天：檢查用藥、泌尿科"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 11 點：「敗血症的阿嬤用了 vancomycin 和 amikacin，今天尿量 200 mL，Cr 從 1.0 到 2.4，有點喘、肺部有囉音。」",
+          "text": "1. 腎因性（敗血症 + 腎毒性藥）+ **容積過多**\n2. **不要再大量輸液**；給氧；**furosemide**（容積過多）\n3. **調整或更換**腎毒性抗生素、驗 vancomycin 濃度\n4. K、HCO₃⁻；肺水腫利尿無效、K 高、酸中毒 → **腎臟科評估透析**"
+        }
+      ]
+    },
+    {
+      "title": "延伸與相關筆記",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：AKI 定義、腎前 vs 腎因、緊急透析見〈AKI (一)〉；腎因性 AKI 見〈AKI (二)〉；高血鉀見〈On Call: 鉀離子〉；低血壓見〈On Call: 低血壓與休克〉；喘與肺水腫見〈On Call: 喘與血氧下降〉。"
+        }
+      ]
+    }
+  ]
+}

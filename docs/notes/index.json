@@ -547,6 +547,10 @@
         {
           "id": "oncall-high-bp",
           "name": "On Call: 血壓很高（嚴重高血壓 vs 高血壓急症）"
+        },
+        {
+          "id": "oncall-oliguria",
+          "name": "On Call: 尿少（少尿、無尿、肌酸酐上升）"
         }
       ]
     }
