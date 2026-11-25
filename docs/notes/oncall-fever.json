@@ -7,7 +7,7 @@
   "sources": [
     "Harrison's 22e - Ch.21 Fever (p.134–137)；Table 急性發燒感染病人的經驗性治療 (p.963)；Ch.79 Infections in Patients with Cancer (p.577–581)；Ch.131 Pneumonia 治療表 (p.1028)；Ch.315 Sepsis (p.2313、2319–2320)",
     "On Call Principles and Protocols Survival Guide Ver2（院內流傳版）",
-    "退燒藥劑量為常用值；劑型依院內品項；抗生素依院內抗藥性與腎功能調整"
+    "退燒藥劑量依 Harrison Table 14-1 (p.97)；劑型依院內品項；抗生素依院內抗藥性與腎功能調整"
   ],
   "generated": "2026-11-25",
   "updated": "2026-11-25",
@@ -296,7 +296,7 @@
         {
           "type": "callout",
           "style": "guideline",
-          "text": "**退燒藥**｜**Acetaminophen** 口服或 IV（常用 500–1,000 mg q6h PRN，每日上限依院規，肝病、酗酒者減量）\n- 劑型：依院內品項\n- 注意：劑量為常用值、非 Harrison 原文；**先抽培養再給**；退燒不代表感染控制了"
+          "text": "**退燒藥**｜**Acetaminophen 650 mg PO q4h PRN**（Harrison Table 14-1；每日上限依院規，肝病、酗酒者減量）\n- 劑型：依院內品項\n- 注意：**先抽培養再給**；退燒不代表感染控制了"
         },
         {
           "type": "callout",

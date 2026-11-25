@@ -1,0 +1,134 @@
+{
+  "id": "oncall-pain",
+  "title": "On Call: 疼痛控制（新的痛先找原因，再選止痛藥）",
+  "title_en": "On Call: Pain Control",
+  "title_zh": "值班：疼痛控制",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Ch.14 Pain (p.97：Table 14-1 Drugs for Relief of Pain——acetaminophen 650 mg PO q4h、ibuprofen 400 mg q4–6h、ketorolac 15–60 mg q4–6h、morphine 5 mg 靜脈 q4h／30 mg PO、hydromorphone、oxycodone、tramadol；meperidine 不建議常規使用)",
+    "〈Oncology (三)〉（Harrison Ch.74：疼痛階梯、鴉片類配軟便劑）；再評估時間為臨床常規",
+    "劑型依院內品項"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "onc-supportive-emergencies",
+      "name": "Oncology (三)：照顧癌症病人——嗜中性球低下發燒、腫瘤急症與症狀控制"
+    },
+    {
+      "id": "oncall-chest-pain",
+      "name": "On Call: 胸痛（先抓會致命的五個）"
+    },
+    {
+      "id": "oncall-abdominal-pain",
+      "name": "On Call: 腹痛（住院病人新的腹痛）"
+    },
+    {
+      "id": "confusion-decreased-consciousness",
+      "name": "Confusion / Decreased Level of Consciousness (意識不清)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人說很痛，要止痛藥」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先問：這是「已知的痛」還是「新的痛」？**\n- **已知的痛**（術後、癌痛、骨折）且和之前一樣 → 依處方加強止痛\n- **新的、性質不同、突然加劇的痛** → **先到床邊找原因**，不要只開止痛藥\n**同時**：生命徵象、疼痛分數、意識、呼吸速率（給鴉片類前）、腎功能、過敏史、目前的止痛藥與上次給藥時間"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**新的痛要想到的危險原因**\n- 胸痛 → 心肌梗塞、主動脈剝離、肺栓塞（見〈On Call: 胸痛〉）\n- 腹痛 → 穿孔、缺血、出血（見〈On Call: 腹痛〉）\n- 肢體：**腔室症候群**（石膏或骨折後痛到不成比例、被動伸展痛）、**急性肢體缺血**（冷、白、無脈搏）、**DVT**\n- 頭痛 → 腦出血（抗凝者）、腦膜炎\n- 背痛 → 脊髓壓迫（癌症病人、無力、大小便異常）、主動脈瘤\n- 術後：傷口感染、血腫、吻合處滲漏"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本：依疼痛程度與機轉",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑量為 Harrison Table 14-1 的**一般成人常用劑量**；**老人、腎肝功能差、未用過鴉片類者從低劑量開始**；劑型依院內品項。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**輕度**｜**Acetaminophen 650 mg PO q4h**（Harrison）；或 NSAID：**ibuprofen 400 mg PO q4–6h**、naproxen 250–500 mg PO q12h\n- 劑型：依院內品項\n- 注意：acetaminophen 每日上限依院規（**肝病、酗酒減量**）；NSAID 避免於**腎功能差、腸胃道出血風險、心衰竭、用抗凝劑**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**中度（短期、需靜脈）**｜**Ketorolac 15–60 mg IM／IV q4–6h**（Harrison）\n- 劑型：依院內品項\n- 注意：NSAID 副作用同上；短期使用"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**中度**｜**Tramadol 50–100 mg PO q4–6h**；oxycodone 5–10 mg PO q4–6h\n- 劑型：依院內品項\n- 注意：tramadol：**降低癲癇閾值**、血清素症候群（合併 SSRI）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**重度**｜**Morphine 5 mg IV q4h**（或 30 mg PO q4h）；**hydromorphone 1–2 mg IV q4h**（2–4 mg PO）（Harrison）\n- 劑型：依院內品項\n- 注意：**未用過鴉片類、老人、腎功能差 → 從更低劑量開始並滴定**；監測呼吸速率、鎮靜程度、SpO₂"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**神經痛**｜gabapentin、pregabalin、三環抗憂鬱劑、duloxetine（白天團隊調整）\n- 劑型：依院內品項\n- 注意：鴉片類對神經痛效果較差（〈Oncology (三)〉）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**鴉片類的配套**｜**同時開軟便劑或瀉劑**；止吐 PRN\n- 劑型：依院內品項\n- 注意：便秘幾乎一定發生（〈Oncology (三)〉）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**鴉片類過量（呼吸 < 8–10、叫不醒、針尖瞳孔）**｜**Naloxone 0.4–2 mg IV／IM**，可重複；長期用鴉片類者小劑量滴定以免急性戒斷與疼痛反彈\n- 劑型：依院內品項\n- 注意：作用比多數鴉片類短 → 觀察再次抑制（見〈On Call: 意識改變〉）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**避免**｜**Meperidine 不建議常規使用**（代謝物 normeperidine 有毒性）（Harrison）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要「定時給」而不是「痛才給」？**\n持續性的痛（術後、癌痛）如果只開 PRN，病人往往痛到很厲害才叫、等藥、藥效才上來——血中濃度在「太少」和「太多」之間大幅擺盪，**止痛不足又副作用多**。定時給藥讓濃度穩定，再搭配**突破性疼痛的 PRN**；並且**多模式**（acetaminophen + NSAID + 鴉片類 + 神經痛藥物）用較低的各別劑量達到更好的效果。（癌痛原則見〈Oncology (三)〉：口服、定時、依階梯。）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.14 Pain：Table 14-1 Drugs for Relief of Pain p.97"
+        }
+      ]
+    },
+    {
+      "title": "再評估、交班、常見錯誤",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**再評估**：給藥後 **IV 約 15–30 分鐘、口服約 60 分鐘**重新評估疼痛與鎮靜程度、呼吸速率（臨床常規）\n**交給白天團隊**：疼痛原因、止痛方案改成**定時 + PRN**、神經痛藥物、鴉片類轉換與排便、會診疼痛科或安寧\n**SBAR 範例**：「01:30 術後第 1 天，傷口痛 8/10（同術後性質），生命徵象穩定、傷口無異常。已給 morphine 2 mg IV（未用過鴉片類、75 歲），30 分鐘後 4/10、呼吸 16。加 acetaminophen 定時、軟便劑。白天評估 PCA 或定時口服。」"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- **新的痛只開止痛藥**，沒去看病人（漏掉腔室症候群、缺血、心肌梗塞）\n- 老人、腎功能差的人**鴉片類起始劑量太高**\n- 開鴉片類**沒開軟便劑**\n- 腎功能差、出血風險高還給 **NSAID**\n- 持續性疼痛**只開 PRN**\n- 開 **meperidine**\n- 用了鴉片類又加 BZD、安眠藥 → 呼吸抑制\n- 因為「怕上癮」讓病人痛著"
+        },
+        {
+          "type": "collapsible",
+          "summary": "凌晨 3 點：「右小腿骨折打石膏的年輕人，止痛藥打了還是痛得要命，腳趾動一下就痛。」",
+          "text": "1. **痛到不成比例 + 被動伸展痛** → **腔室症候群**優先\n2. **立刻到床邊**：鬆開石膏或敷料、抬高到心臟高度（不要過高）、檢查感覺、脈搏、腳趾顏色\n3. **找骨科**（測壓、筋膜切開）\n4. 止痛要給，但**不能只靠加藥**"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：癌痛與鴉片類原則見〈Oncology (三)〉；胸痛、腹痛見對應的值班筆記；鴉片類過量見〈On Call: 意識改變〉。"
+        }
+      ]
+    }
+  ]
+}

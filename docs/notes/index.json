@@ -567,6 +567,10 @@
         {
           "id": "oncall-abdominal-pain",
           "name": "On Call: 腹痛（住院病人新的腹痛）"
+        },
+        {
+          "id": "oncall-pain",
+          "name": "On Call: 疼痛控制（新的痛先找原因，再選止痛藥）"
         }
       ]
     }
