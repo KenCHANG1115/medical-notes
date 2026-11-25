@@ -519,6 +519,10 @@
         {
           "id": "oncall-dyspnea-hypoxemia",
           "name": "On Call: 喘與血氧下降（呼吸急促、SpO₂ 掉）"
+        },
+        {
+          "id": "oncall-hypotension",
+          "name": "On Call: 低血壓與休克（血壓掉了）"
         }
       ]
     }
