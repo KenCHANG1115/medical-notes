@@ -222,6 +222,11 @@
           "explain": "病程 >10 天時加驗寄生蟲。"
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼急性腹瀉要分「非發炎性」和「發炎性」？**\n- **非發炎性**：毒素作用在**小腸**、讓腸道分泌水分 → **大量水瀉**、沒有血、通常不發燒 → 補水為主\n- **發炎性**：細菌**侵犯大腸**黏膜 → **量少、血便、發燒、裡急後重**、糞便有白血球 → 要做糞便檢查，考慮抗生素\n- 發炎性腹瀉**不要給 loperamide**：細菌和毒素留在腸道更久，可能更嚴重；**EHEC 不給抗生素**（細菌死亡釋放更多毒素 → 溶血性尿毒症候群）"
+        },
+        {
           "type": "table",
           "headers": [
             "臨床情況",
@@ -330,6 +335,11 @@
           ]
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼看潛伏期就能猜食物中毒的病原？**\n- **1–6 小時**：毒素**在食物裡已經做好**（S. aureus、B. cereus 嘔吐型）→ 吃下去很快就**吐**\n- **8–16 小時**：細菌在**腸道裡才產生毒素**（C. perfringens、B. cereus 腹瀉型）→ 以腹瀉腹痛為主\n- **> 16 小時**：細菌要在腸道**繁殖、侵犯**（Vibrio、ETEC、Salmonella 等）→ 可有發燒、血便"
+        },
+        {
           "type": "source",
           "book": "Harrison's 22e",
           "pages": "Ch.138 Table 138-4；Ch.49 Table 49-2"
@@ -405,6 +415,11 @@
           ]
         },
         {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼旅行者腹瀉多半會自己好？為什麼 Giardia 不帶血？**\n- 最常見的 **ETEC** 靠**毒素**讓小腸分泌水分，沒有侵犯黏膜 → 水瀉、**1–5 天自癒** → 補水為主\n- **Giardia** 附著在**小腸**黏膜表面，影響吸收但**不侵入** → 脹氣、油膩惡臭的糊便、吸收不良，**沒有血**\n- **E. histolytica** 會**侵犯大腸**黏膜 → **血便**，還可能經門靜脈造成**肝膿瘍**"
+        },
+        {
           "type": "collapsible",
           "summary": "延伸：旅行者腹瀉的細節",
           "text": "- 抵達後 3 天至 2 週發病，多在前 3–5 天\n- 約 1% 變成慢性腹瀉，約 10% 之後出現 IBS\n- 治療：bismuth 或 loperamide；嚴重時單次 azithromycin 或 ciprofloxacin 3–5 天\n- bismuth 也能減少旅行者腹瀉，但免疫低下與腎功能不全者不用（bismuth 腦病變）\n- rifaximin 不適用於侵襲性疾病"
@@ -473,6 +488,11 @@
               "fidaxomicin；多次復發 vancomycin taper-pulse、rifaximin、糞便菌叢移植"
             ]
           ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼抗生素後會得 C. difficile？為什麼要口服 vancomycin 或 fidaxomicin？**\n抗生素殺掉了**正常腸道菌叢**，原本被壓制的 C. difficile **芽孢萌發**、分泌毒素 → 大腸炎。\n- **口服 vancomycin** 幾乎**不被吸收**，直接在腸腔裡作用；**靜脈 vancomycin** 不會排進大腸 → 無效\n- **Fidaxomicin** 抗菌範圍窄，比較不傷正常菌叢 → **復發較少**\n- 芽孢**不怕酒精** → 接觸隔離、用**肥皂洗手**"
         },
         {
           "type": "figure",
