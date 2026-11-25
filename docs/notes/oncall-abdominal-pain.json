@@ -1,0 +1,187 @@
+{
+  "id": "oncall-abdominal-pain",
+  "title": "On Call: 腹痛（住院病人新的腹痛）",
+  "title_en": "On Call: Abdominal Pain",
+  "title_zh": "值班：腹痛",
+  "specialty": "值班守則",
+  "sources": [
+    "Harrison's 22e - Abdominal Pain 章 (p.110–113：腹外原因、腸繫膜缺血 pain out of proportion、主動脈瘤破裂疼痛放射、止痛不應延遲、破裂動脈瘤直接手術)",
+    "劑型依院內品項；影像與會診依院內流程"
+  ],
+  "generated": "2026-11-25",
+  "updated": "2026-11-25",
+  "related": [
+    {
+      "id": "bowel-obstruction-appendicitis",
+      "name": "Bowel Obstruction, Appendicitis & Anorectal Disease (腸阻塞、闌尾炎與肛門直腸疾病)"
+    },
+    {
+      "id": "pancreas-diseases",
+      "name": "Pancreatic Disease (胰臟疾病：急慢性胰臟炎與胰臟癌)"
+    },
+    {
+      "id": "biliary-liver-abscess",
+      "name": "Biliary Disease & Liver Abscess (膽道疾病與肝膿瘍)"
+    },
+    {
+      "id": "hypertension-treatment-aorta",
+      "name": "Hypertension (二)：治療、特殊族群、高血壓危象與主動脈疾病"
+    },
+    {
+      "id": "oncall-gi-bleeding",
+      "name": "On Call: 腸胃道出血（吐血、黑便、血便）"
+    },
+    {
+      "id": "oncall-chest-pain",
+      "name": "On Call: 胸痛（先抓會致命的五個）"
+    },
+    {
+      "id": "oncall-fever",
+      "name": "On Call: 發燒（住院病人發燒、敗血症、嗜中性球低下發燒）"
+    }
+  ],
+  "sections": [
+    {
+      "title": "第一分鐘卡：「病人肚子很痛」",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "**先判斷：需不需要外科、會不會死**\n1. **生命徵象**（低血壓、心跳快、發燒）\n2. **腹部**：腹膜炎徵象（**僵硬、反彈痛**、不敢動）、腹脹、腸音\n3. **心電圖**（上腹痛可能是**心肌梗塞**）、**血糖**\n4. 女性 → **懷孕的可能**（子宮外孕）\n5. **不要因為「怕掩蓋診斷」而不給止痛**——Harrison：適當止痛不太會讓診斷變模糊"
+        },
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**立刻到床邊 + 找學長姐的紅旗**\n- **低血壓、休克** + 腹痛 → **主動脈瘤破裂**、腹內出血、子宮外孕破裂、腸穿孔、敗血症\n- **腹膜炎**（板狀腹、反彈痛）→ 穿孔、闌尾炎、膽囊炎、缺血\n- **疼痛遠大於理學檢查發現**（pain out of proportion）+ 血管疾病或心房顫動 → **腸繫膜缺血**（Harrison）\n- 痛到**腰、側腹、會陰** + 血壓掉 → **主動脈瘤破裂**（Harrison）\n- 腹脹、嘔吐、沒排氣 → **腸阻塞**\n- 用抗凝劑 → 後腹腔或腹壁血腫"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Abdominal Pain 章 p.110–113"
+        }
+      ]
+    },
+    {
+      "title": "電話中與床邊：位置、性質、腹外原因",
+      "content": [
+        {
+          "type": "table",
+          "headers": [
+            "位置",
+            "常見原因（住院病人）"
+          ],
+          "rows": [
+            [
+              "**右上**",
+              "膽囊炎、膽管炎（發燒 + 黃疸）、肝膿瘍、右下肺炎"
+            ],
+            [
+              "**上腹**",
+              "**心肌梗塞**、胰臟炎、消化性潰瘍（穿孔）、胃炎"
+            ],
+            [
+              "**左上**",
+              "脾梗塞或破裂、胰臟炎"
+            ],
+            [
+              "**右下**",
+              "闌尾炎、卵巢扭轉、子宮外孕、腸炎"
+            ],
+            [
+              "**左下**",
+              "憩室炎、缺血性腸炎、卵巢"
+            ],
+            [
+              "**瀰漫**",
+              "腸阻塞、**腸繫膜缺血**、腹膜炎、**DKA**、**C. difficile 腸炎**（毒性巨結腸）"
+            ],
+            [
+              "**腰、側腹**",
+              "腎結石、腎盂腎炎、**主動脈瘤破裂**"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**別忘了腹部以外的原因**（Harrison）：**心肌梗塞**、心包膜炎、**肺炎（下葉）**、**肺栓塞**、氣胸；**DKA**、**尿毒**、高血鈣、紫質症；帶狀疱疹；睪丸扭轉\n**問與翻病歷**：發作時間與變化、嘔吐、排便排氣、最後一次解便（**便秘**、**尿滯留**也會腹痛）、發燒、最近的**手術或內視鏡**（穿孔、出血）、**抗凝劑**、**鴉片類**（便秘、腸阻塞）、抗生素（C. difficile）、月經史"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Abdominal Pain 章 p.110–113"
+        }
+      ]
+    },
+    {
+      "title": "Order 範本",
+      "content": [
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "劑型與換算：劑型依院內品項，**請以院內 formulary 與 protocol 為準**。"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**抽血**｜CBC／DC、**乳酸**（缺血）、**lipase**、**肝功能、膽紅素**、BUN／Cr、電解質、血糖、Ca；**troponin**（上腹痛）；**懷孕試驗**（育齡女性）；凝血、血型（出血或可能手術）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**尿液**｜尿液常規（結石、感染）"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**影像**｜**直立胸部 X 光**（腹腔游離氣體 → 穿孔）、**腹部 X 光**（阻塞）；**超音波**（膽囊、腎、婦科、主動脈）；**腹部 CT**（多數嚴重腹痛的主力檢查）\n- 注意：腎功能、顯影劑過敏依院內；不穩定的主動脈瘤破裂 → 直接開刀"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**止痛**｜依疼痛程度給止痛藥（包括鴉片類）；**不要等診斷才止痛**（Harrison）\n- 劑型：依院內品項\n- 注意：腎功能、呼吸抑制、腸阻塞時的鴉片類使用依情況"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**支持**｜**禁食**、靜脈輸液；嘔吐、腸阻塞 → **鼻胃管減壓**；止吐"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**抗生素**｜腹膜炎、膽管炎、憩室炎、敗血症 → 經驗性抗生素（涵蓋腸道革蘭氏陰性菌與厭氧菌；見〈On Call: 發燒〉）\n- 劑型：依院內品項\n- 注意：先抽血液培養"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**會診**｜**外科**：腹膜炎、游離氣體、腸缺血、闌尾炎、膽囊炎、阻塞合併絞窄、主動脈瘤；**婦產科**：子宮外孕、卵巢扭轉；腸胃科：膽管炎（ERCP）\n- 注意：破裂主動脈瘤 → 直接進手術室（Harrison）"
+        }
+      ]
+    },
+    {
+      "title": "再評估、交班、常見錯誤與範例",
+      "content": [
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "**再評估**：**每 1–2 小時重複腹部檢查**（同一個人檢查最好）、生命徵象、乳酸；症狀惡化或新出現腹膜炎 → 外科\n**交給白天團隊**：影像與會診結果、禁食與輸液計畫、抗生素、止痛藥與排便\n**SBAR 範例**：「02:00 心房顫動、沒在抗凝的 78 歲阿伯瀰漫性腹痛很劇烈，但腹部軟、壓痛輕微；心跳 118、血壓 108/64、乳酸 4.1。**疑腸繫膜缺血**（pain out of proportion）。已禁食、輸液、止痛、**CT 血管攝影**、通知**外科**；抽血液培養、給抗生素。」"
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "- **不給止痛**等外科看\n- 上腹痛沒做**心電圖**\n- 女性沒驗**懷孕**\n- **腹部軟就排除嚴重問題**——腸繫膜缺血早期、老人、用類固醇或免疫低下者徵象不明顯\n- 鴉片類病人腹脹嘔吐沒想到**腸阻塞**或嚴重便秘\n- 抗生素後腹痛腹瀉沒想到 **C. difficile**\n- 忘了**尿滯留**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "晚上 11 點：「70 歲高血壓阿伯突然左側腰痛到會陰，血壓 84/50，有點冒冷汗。」",
+          "text": "1. 腰痛到會陰 + 休克 → **主動脈瘤破裂**（Harrison）——不是腎結石\n2. **找學長姐、血管外科**；兩條大口徑通路、備血\n3. 不穩定 → **直接進手術室**；穩定才做 CT\n4. 允許性低血壓（依外科）"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**相關筆記**：腸阻塞與闌尾炎見〈Bowel Obstruction／Appendicitis〉；胰臟炎見〈Pancreas〉；膽道見〈Biliary〉；主動脈瘤見〈Hypertension (二)〉；腸胃道出血見〈On Call: 腸胃道出血〉；胸痛見〈On Call: 胸痛〉。"
+        }
+      ]
+    }
+  ]
+}

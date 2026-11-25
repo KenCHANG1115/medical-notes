@@ -563,6 +563,10 @@
         {
           "id": "oncall-transfusion-reaction",
           "name": "On Call: 輸血反應（輸血中發燒、喘、低血壓、起疹）"
+        },
+        {
+          "id": "oncall-abdominal-pain",
+          "name": "On Call: 腹痛（住院病人新的腹痛）"
         }
       ]
     }
