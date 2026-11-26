@@ -498,6 +498,13 @@
         {
           "id": "epilepsy-treatment-status",
           "name": "Epilepsy (二)：治療、重積狀態與手術"
+        },
+        {
+          "heading": "失智與動作障礙"
+        },
+        {
+          "id": "parkinsonism",
+          "name": "Parkinsonism：巴金森氏病、非典型巴金森與震顫鑑別"
         }
       ]
     },

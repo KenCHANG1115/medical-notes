@@ -1,0 +1,1018 @@
+{
+  "id": "parkinsonism",
+  "title": "Parkinsonism：巴金森氏病、非典型巴金森與震顫鑑別",
+  "title_en": "Parkinsonism: Parkinson's Disease, Atypical Parkinsonism & Tremor",
+  "title_zh": "巴金森氏病、非典型巴金森與震顫鑑別",
+  "specialty": "神經內科",
+  "sources": [
+    "Harrison's 22e - Ch.446 Parkinson's Disease (p.3493-3508)；Ch.447 Tremor, Chorea, and Other Movement Disorders (p.3508-3509、3516-3517)；Ch.451 Fig.451-6 (p.3549)",
+    "First Choice 醫學(四) 第4冊 - 王、基底核與動作障礙疾病 (講義 p.216-224；考題 p.225-237，本篇 21 題)"
+  ],
+  "generated": "2026-11-27",
+  "updated": "2026-11-27",
+  "related": [
+    {
+      "id": "localization-brainstem-cranial-nerves",
+      "name": "Localization (二)：腦幹與腦神經"
+    }
+  ],
+  "sections": [
+    {
+      "title": "讀前說明：一條主線",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**一條主線**　FC 21 題｜最常考：MSA／PSP／CBD 的招牌症狀、「哪個症狀不像 PD」、levodopa 與 DA agonist 的副作用、PD 與原發性顫抖的鑑別\n1. 動作緩慢＋僵硬或靜止性顫抖 → 先叫它 **parkinsonism**（症候群），還不是 PD\n2. 先排除**藥物**（抗精神病藥、metoclopramide、flunarizine）與其他次發原因（CO、中風、水腦、Wilson）\n3. 找**紅旗**：早期跌倒、兩側對稱、垂直凝視受限、明顯自主神經失調、小腦徵象、皮質感覺喪失 → **非典型巴金森**\n4. 單側開始、靜止性顫抖、對 levodopa 反應好 → **PD**；依年齡與失能選藥，晚期處理藥效波動與異動症\n5. 顫抖是**姿勢／動作性、對稱、有家族史、喝酒改善** → **原發性顫抖**，不是 PD"
+        }
+      ]
+    },
+    {
+      "title": "基底核迴路與 dopamine–ACh 平衡　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 錐體路徑管**力氣**：病變 → 無力、痙攣（摺刀式）、DTR 增加、Babinski (+)\n- 錐體外（基底核）管**動作的啟動與抑制**：病變 → 不自主運動、顫抖、**僵硬（雙向、齒輪狀）**、DTR 通常正常\n- 紋狀體（尾核＋殼核）是**輸入站**；**GPi 與黑質網狀部（SNr）是輸出站**，用 GABA 抑制視丘\n- **PD**：黑質緻密部（SNc）dopamine 神經元退化 → 紋狀體 dopamine ↓ → **STN、GPi 放電增加** → 視丘被過度抑制 → **動作少（不動）**\n- dopamine 少了，**ACh 相對過多** → 藥物方向：**補 dopamine、降 ACh**\n- 不動型（dopamine 太少）＝巴金森；過動型（紋狀體 GABA 神經元退化）＝亨丁頓舞蹈症，用 dopamine 拮抗劑\n- **CO 中毒**（錳也是）傷的是**蒼白球**：像非典型巴金森，對 levodopa 反應差"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "基底核成員",
+            "病變的代表疾病"
+          ],
+          "rows": [
+            [
+              "尾核、殼核（紋狀體）",
+              "亨丁頓舞蹈症（尾核萎縮）"
+            ],
+            [
+              "蒼白球",
+              "CO 中毒巴金森症；Wilson 病（豆狀核＝殼核＋蒼白球）"
+            ],
+            [
+              "視丘下核（STN）",
+              "半身芭蕾舞症（hemiballismus）"
+            ],
+            [
+              "黑質緻密部（SNc）",
+              "巴金森氏病"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/parkinson/h446-5.png",
+          "label": "圖 446-5 基底核迴路的經典模型",
+          "caption": "A 正常；B PD：SNc 退化，STN 與 GPi 過度放電，抑制視丘（VL）到皮質的輸出；C levodopa 異動症。",
+          "explain": "Putamen 是輸入站，GPi、SNr 是輸出站。這個模型解釋了為什麼 DBS 打在 STN 或 GPi 能改善 PD。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 dopamine 少了，人會「不動」？**\n基底核的輸出（GPi、SNr）本來就在**踩煞車**，用 GABA 抑制視丘到皮質的運動訊號。dopamine 的作用是幫忙**放開想做的動作的煞車**。\ndopamine 少了 → STN、GPi 放電增加 → **煞車踩太緊** → 動作啟動困難、變慢、變小。\n所以治療就是**補 dopamine**（levodopa、agonist），或直接用 **DBS 干擾 STN、GPi** 的異常放電。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 CO 中毒的巴金森症對 levodopa 沒反應？**\nCO 中毒傷的是**蒼白球**（對缺氧特別敏感），也就是 dopamine 作用點的**下游**。\nPD 是上游的 dopamine 不夠，補了就有效；下游的蒼白球壞了，補再多 dopamine 也傳不下去 → 表現像**非典型巴金森**、levodopa 反應差。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：經典模型的限制",
+          "text": "- 經典模型預測 levodopa 異動症是因為 GPi 輸出太少；但實際上**破壞 GPi 反而改善異動症**\n- 目前認為異動症與 GPi 的**放電型態**（停頓、爆發、同步）有關，不只是頻率\n- 直接路徑的紋狀體神經元帶 D1 受體，間接路徑帶 D2 受體"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.446 p.3495（Fig.446-2）、p.3497（次發性巴金森）、p.3500（Fig.446-5）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 講義 p.216–218"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 考題 p.229"
+        }
+      ]
+    },
+    {
+      "title": "PD 的病理與臨床表現：TRAP＋非動作症狀　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 病理：**SNc 含黑色素的 dopamine 神經元**減少（黑質變白），殘存細胞內有 **Lewy body**（主成分 **α-synuclein**）\n- 退化的是 **dopamine 神經元**，不是受體數量\n- 平均發病約 **60 歲**；PD 約占所有 parkinsonism 的 **75%**\n- **TRAP**：\n  - **T** 靜止性顫抖：**4–6 Hz**、搓藥丸；動作時減輕；緊張、動腦時加重\n  - **R** 僵硬：**齒輪狀**\n  - **A** 動作遲緩：面具臉、**小字症**、走路**手擺動減少**、說話小聲\n  - **P** 姿勢不穩：身體前傾；後拉測試（pull test）站不穩\n- 典型是**單側開始、不對稱**\n- **凍僵步態、姿勢不穩、跌倒**是**晚期**表現；發病兩年內就出現 → 不像 PD\n- **非動作症狀**很常見：嗅覺喪失、**便秘**、**RBD**（可早於動作症狀數年）、憂鬱焦慮、姿勢性低血壓、排尿問題、失智\n- **不寧腿**在 PD 也較常見\n- 藥物只改善症狀，**退化仍持續進行**"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主要動作症狀",
+            "其他動作症狀",
+            "非動作症狀"
+          ],
+          "rows": [
+            [
+              "動作遲緩",
+              "小字症、面具臉",
+              "嗅覺喪失"
+            ],
+            [
+              "靜止性顫抖",
+              "眨眼減少、流口水",
+              "憂鬱、焦慮、冷漠"
+            ],
+            [
+              "僵硬",
+              "說話小聲、吞嚥困難",
+              "睡眠障礙（RBD、睡眠片段）"
+            ],
+            [
+              "姿勢不穩",
+              "凍僵、跌倒",
+              "自主神經：姿勢性低血壓、便秘、排尿與性功能"
+            ],
+            [
+              "",
+              "",
+              "認知障礙、失智"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "⚠️ **陷阱**\n- PD 的顫抖是**靜止性**，不是**意向性**（intention tremor 是小腦）\n- 「PD 不會有非動作症狀」是錯的\n- 「和黑質多巴胺**受體**減少有關」：嚴格說是 dopamine **神經元**退化；FC 103 年這個選項不是答案"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼嗅覺喪失、便秘、RBD 會比顫抖更早出現？**\nLewy 病變不只在黑質。依 **Braak 分期**，它可能先從**嗅覺系統、腸胃道自主神經、迷走神經背核**開始，再往上擴散到黑質和大腦皮質。\n等到黑質 dopamine 神經元死掉一大半，才出現 TRAP。所以嗅覺喪失、便秘、RBD 被視為 PD 的**前驅期**，不只是危險因子。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼凍僵步態出現在早期就不像 PD？**\nPD 早期主要是 **dopamine 不足**的症狀（顫抖、僵硬、動作慢），補 dopamine 就有效。\n凍僵、姿勢不穩、跌倒多半來自**非 dopamine 系統**的退化，要到疾病中晚期才明顯。\n如果發病一兩年內就頻繁跌倒或凍僵 → 退化範圍一開始就很廣 → 要想到 **PSP、MSA** 等非典型巴金森。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：診斷準則與影像",
+          "text": "- 舊做法：顫抖、僵硬、動作遲緩三項有兩項；病理對照錯誤率 24%\n- **UK Brain Bank 準則**：動作遲緩＋僵硬，加上靜止性顫抖、不對稱、levodopa 反應好 → 病理證實 >90%\n- **MDS 準則**：核心是 parkinsonism，再看支持條件、絕對排除條件、紅旗；分「臨床確立」與「臨床可能」\n- **dopamine 轉運體影像（SPECT、PET）**：殼核後部攝取下降、不對稱；用於診斷不確定時（如和原發性顫抖鑑別），**無法區分 PD 與非典型巴金森**，臨床不常規做\n- α-synuclein 種子擴增檢測（SAA，腦脊髓液、皮膚）目前多在研究\n- 單基因 PD 約 5%；GBA1 最常見的遺傳關聯；<40 歲發病、家族史強要想遺傳型"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.446 p.3493–3496（Table 446-1、446-2）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 講義 p.218–219"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 考題 p.226、229–230、236"
+        }
+      ]
+    },
+    {
+      "title": "什麼時候「不像 PD」：紅旗與次發性原因　★ 2 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 早期說話、步態受影響，**沒有靜止性顫抖、兩側對稱、早期跌倒** → 非典型巴金森\n- **辨距障礙（dysmetria）**等小腦徵象 → **MSA-c**\n- **明顯姿勢性低血壓** → **MSA**\n- **垂直凝視受限（向下看困難）**、掃視變慢、複視 → **PSP**\n- **皮質感覺喪失**、失用、alien limb → **CBD**\n- 失智、幻覺**早於或與動作症狀同時（1 年內）** → **DLB**\n- **用過抗精神病藥** → 藥物引起\n- **<40 歲發病** → 遺傳型 PD、**Wilson 病**、dopa 反應性肌張力不全（FC：<50 歲的巴金森要懷疑可治療的 Wilson 病）\n- 肝病 → Wilson 病\n- **levodopa 足量試驗無效** → 非典型或次發性\n- **嗅覺減退、RBD、不寧腿**都可見於 PD，不是紅旗"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "線索",
+            "想到"
+          ],
+          "rows": [
+            [
+              "早期跌倒、對稱、沒有顫抖",
+              "非典型巴金森"
+            ],
+            [
+              "明顯姿勢性低血壓",
+              "MSA"
+            ],
+            [
+              "小腦徵象（辨距障礙、步態運動失調）",
+              "MSA-c"
+            ],
+            [
+              "垂直凝視受限、掃視慢",
+              "PSP"
+            ],
+            [
+              "皮質感覺喪失、alien limb",
+              "CBD"
+            ],
+            [
+              "失智或幻覺在前",
+              "DLB"
+            ],
+            [
+              "抗精神病藥、止吐藥",
+              "藥物引起"
+            ],
+            [
+              "<40 歲、肝病",
+              "Wilson 病、遺傳型 PD"
+            ],
+            [
+              "高頻、對稱、姿勢性顫抖",
+              "原發性顫抖"
+            ],
+            [
+              "levodopa 無效",
+              "非典型或次發性"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼對 levodopa 沒反應，就要懷疑不是 PD？**\nPD 的問題集中在**黑質 dopamine 不足**，紋狀體的受體和下游迴路還在 → 補 levodopa 幾乎人人有效。\n非典型巴金森（MSA、PSP、CBD）退化範圍更廣，連**紋狀體、蒼白球、小腦、腦幹**都受損；受體或下游迴路壞了，補 dopamine 也傳不下去。\n所以 Harrison 說：足量 levodopa 試驗**無效**，就要質疑 PD 的診斷。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：次發性巴金森的原因（Harrison Table 446-2）",
+          "text": "- **藥物**（最常見）、腫瘤、感染、血管性（小洞中風）、常壓性水腦、外傷、肝衰竭\n- 毒物：**CO、錳**、MPTP、氰化物、己烷、甲醇\n- 其他退化疾病合併巴金森：Wilson、亨丁頓（青少年型）、腦鐵沉積（PKAN）、SCA3、脆折 X 相關、普利昂病、阿茲海默合併巴金森\n- MPTP：非法合成海洛因的副產物，代謝成 MPP+ 毒殺 dopamine 神經元，通常沒有 Lewy body\n- Dopa 反應性肌張力不全：<20 歲、合併肌張力不全，levodopa 有效、不會異動症"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.446 p.3495–3497（Table 446-2、446-3）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 講義 p.218、p.224"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 考題 p.230–231"
+        }
+      ]
+    },
+    {
+      "title": "藥物治療：各類藥的機轉與招牌副作用　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Levodopa**：**最有效**、黃金標準；一定併用**周邊 DDC 抑制劑**（carbidopa 或 benserazide；台灣常用 Madopar＝levodopa＋benserazide）\n- 長期使用的問題：**運動併發症**（藥效波動、**異動症**）；與**劑量相關** → 用**最低有效劑量**，不是越早越大劑量越好\n- **DA agonist**（pramipexole、ropinirole、rotigotine 貼片）：比 levodopa 弱，但**較少異動症**；常用於**較年輕**病人\n- DA agonist 副作用：噁心、姿勢性低血壓、**嗜睡、突然睡著**、幻覺、下肢水腫、**衝動控制障礙（賭博、性慾、購物、暴食）**\n- 衝動控制障礙：FC 答案是 **D3 受體**（分布在邊緣系統、和獎賞有關）\n- 麥角類 agonist（bromocriptine、pergolide）：心臟瓣膜、肺纖維化 → 已少用\n- **MAO-B 抑制劑**（selegiline、rasagiline）：早期單用或輔助減少 off；可能有疾病修飾作用（未證實）\n- **COMT 抑制劑**（entacapone、opicapone）：延長 levodopa 半衰期、減少 off；**只能當 levodopa 的輔助**；tolcapone 有肝毒性\n- **Amantadine**（NMDA 拮抗）：唯一證實能**減少異動症**又不加重巴金森的口服藥\n- **抗膽鹼藥**（trihexyphenidyl、benztropine）：主要改善**顫抖**；**老人避免**（譫妄、認知、尿滯留、青光眼）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "藥物",
+            "機轉",
+            "重點",
+            "招牌副作用"
+          ],
+          "rows": [
+            [
+              "Levodopa＋DDC 抑制劑",
+              "dopamine 前驅物，可過 BBB",
+              "最有效",
+              "異動症、藥效波動；急性噁心、姿勢性低血壓"
+            ],
+            [
+              "DA agonist",
+              "直接刺激 dopamine 受體",
+              "較年輕者常用；較少異動症",
+              "衝動控制障礙、嗜睡突睡、幻覺、水腫"
+            ],
+            [
+              "MAO-B 抑制劑",
+              "減少中樞 dopamine 分解",
+              "早期輕症、輔助",
+              "可能增加異動症；與 SSRI 理論上有血清素症候群風險"
+            ],
+            [
+              "COMT 抑制劑",
+              "減少周邊 levodopa 分解",
+              "只能輔助 levodopa",
+              "異動症、腹瀉、尿液變色；tolcapone 肝毒性"
+            ],
+            [
+              "Amantadine",
+              "NMDA 拮抗",
+              "抗異動症",
+              "認知、網狀青斑、不可突然停"
+            ],
+            [
+              "抗膽鹼藥",
+              "降 ACh",
+              "顫抖",
+              "老人譫妄、口乾、尿滯留、青光眼"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **起始用藥，FC 與 Harrison 說法不同**\n- **FC**：**70 歲以下**用 DA agonist（年輕人受體敏感，levodopa 容易異動症）；70 歲以上用 levodopa\n- **Harrison**：美國神經學會建議診斷後即可用**低劑量 levodopa（≤400 mg/d）**，因為運動併發症和**劑量**有關；也有專家主張年輕人延後 levodopa，先用 MAO-B 抑制劑或 DA agonist\n- 共識：老人、失能較重、認知障礙、診斷不確定 → 先 levodopa；最後幾乎所有人都需要 levodopa，用**低劑量多藥併用**\n- 考題照 FC 作答；「愈早用大劑量 levodopa 愈好」一定錯"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 levodopa 要合併 carbidopa（或 benserazide）？**\ndopamine 本身**過不了血腦障壁**，所以給前驅物 levodopa。但 levodopa 在**周邊**就會被 DDC 轉成 dopamine → 進不了腦、又刺激**最後區（嘔吐中樞，沒有血腦障壁）**和血管 → 噁心嘔吐、姿勢性低血壓。\ncarbidopa **不能過血腦障壁**，只抑制周邊 DDC → levodopa 多數進到腦裡才轉成 dopamine，副作用也少。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 DA agonist 比較少異動症，卻比較會衝動控制障礙？**\n- **異動症**和 dopamine 濃度**忽高忽低**有關：levodopa 半衰期短（60–90 分鐘），agonist 作用**比較長**、刺激比較平穩\n- **衝動控制障礙**：agonist 直接刺激受體，對**腹側紋狀體、邊緣系統的獎賞迴路**（FC：D3 受體）作用較強 → 賭博、性慾亢進、強迫購物\n所以年輕人怕異動症可先用 agonist，但每次回診都要**主動問**這些行為。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Harrison 藥物劑量（Table 446-5）",
+          "text": "- Carbidopa/levodopa：200–1000 mg levodopa/天\n- Pramipexole 0.25–1.0 mg tid；ER 1–3 mg/d\n- Ropinirole 6–24 mg/d\n- Rotigotine 貼片 4–24 mg/d；不能口服的手術病人可用\n- Rasagiline 1 mg 早上；selegiline 5 mg bid\n- Entacapone 200 mg 隨每劑 levodopa；opicapone 50 mg 睡前\n- Amantadine 100–400 mg\n- 所有藥物都不可突然停，要逐步減"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他藥物",
+          "text": "- Apomorphine：唯一效果接近 levodopa 的 agonist，只能皮下（或舌下）給；用於急救 off\n- Istradefylline（腺苷 A2A 拮抗）：減少 off，不改善異動症；咖啡因也是 A2A 拮抗\n- Safinamide：可逆 MAO-B 抑制，輔助 levodopa\n- MAO-B 抑制劑在臨床劑量不會有起司效應（那是 MAO-A）\n- Rasagiline 1 mg 在 ADAGIO 研究符合疾病修飾的結果，2 mg 卻沒有，未獲核准\n- Levodopa 本身不會加速或延緩退化（延遲起始研究）"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.446 p.3501–3504（Table 446-5）、p.3507–3508"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 講義 p.219–220"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 考題 p.227、230–231"
+        }
+      ]
+    },
+    {
+      "title": "晚期：藥效波動、異動症、凍僵與 DBS　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **Wearing-off**：每劑藥效越來越短，接近 levodopa 半衰期\n- **On-off 現象**：突然、無法預測地從能動變成完全動不了，數小時後又恢復\n- **異動症**：多在**藥效高峰**（peak-dose），通常是**舞蹈樣**動作（點頭、咀嚼、手足舞動）\n- 處理：**縮短給藥間隔、分小劑量**（例如每次半顆、一天四次），或加 DA agonist、COMT、MAO-B 抑制劑；異動症加 **amantadine**\n- 急救 off：皮下或舌下 apomorphine、吸入型 levodopa\n- **凍僵（motor block）**：腳像黏在地上；**狹窄處、門口、電梯門、轉彎、時間壓力**最容易發生\n- 外在**視覺或聽覺提示**能幫忙：**上樓梯**（每階橫線）、跨過地上的線、踏步、唱歌 → 比較不受影響\n- **DBS（STN 或 GPi）**：適用於**嚴重顫抖**或**藥物無法控制的運動併發症**；效果不超過 levodopa；**不改善跌倒、失智等非 dopamine 症狀**\n- 運動對所有 PD 病人都建議"
+        },
+        {
+          "type": "figure",
+          "src": "figures/parkinson/h446-6.png",
+          "label": "圖 446-6 長期 levodopa 治療後運動反應的變化",
+          "caption": "早期：藥效長、很少異動症。中期：藥效變短，on 時可能異動症。晚期：藥效短，on 時幾乎都伴隨異動症。",
+          "explain": "兩條虛線：下面是「有效」門檻，上面是「異動症」門檻。疾病越晚期，兩條線之間的治療窗越窄。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼長期吃 levodopa 會出現藥效波動和異動症？**\n正常紋狀體的 dopamine 維持**穩定濃度**。PD 晚期 dopamine 神經末梢幾乎都壞了，**沒辦法儲存和緩衝** → 腦中 dopamine 完全跟著血中 levodopa 走。\nlevodopa 半衰期只有 **60–90 分鐘**，口服一次就是一個**高峰和低谷**：高峰超過異動症門檻 → **異動症**；低谷掉到有效門檻以下 → **off**。\n所以處理方向是讓濃度**更平穩**：**小劑量、增加次數**、加 COMT 抑制劑延長半衰期、持續輸注。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼凍僵的 PD 病人上樓梯反而比走平地、進電梯順？**\n基底核負責**自動化、內在啟動**的動作，PD 正是這條路壞了 → 第一步跨不出去。\n樓梯每一階的橫線是**外在視覺提示**，可以繞過基底核，改用**皮質的視覺運動路徑**驅動腳步。\n狹窄走廊、門口、電梯門、過馬路的時間壓力則會加重凍僵。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：其他晚期問題",
+          "text": "- 雙相異動症：藥效開始與結束時出現，多在下肢、不對稱；提高 levodopa 劑量反而改善\n- dopamine 失調症候群：渴望 levodopa、成癮式加藥；punding：無目的地重複組裝拆卸、收集\n- 持續 dopamine 給藥：腸道 levodopa 凝膠（Duodopa）、皮下 levodopa 或 apomorphine 輸注\n- DBS 打 STN 或 GPi 效果相當，GPi 憂鬱較少；副作用含出血、感染、言語與眼球異常、憂鬱\n- 單側 STN 破壞有半身芭蕾舞症風險；雙側蒼白球切除有吞嚥、構音、認知副作用\n- MRI 導引聚焦超音波：非侵入性破壞 GPi 或 STN\n- 幹細胞、基因治療仍在研究；移植的胎兒細胞多年後也出現 Lewy 病變"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.446 p.3501–3502（Fig.446-6）、p.3504–3505、p.3507–3508（Fig.446-7）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 講義 p.219–220"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 考題 p.227、232、237"
+        }
+      ]
+    },
+    {
+      "title": "非典型巴金森：MSA、PSP、CBD　★ 4 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 共通特色：**兩側同時、對稱**、**沒有靜止性顫抖**、早期說話與步態受影響、**早期跌倒**、**levodopa 反應差**、**進展快**\n- **MSA**：**自主神經大崩壞**（姿勢性低血壓、尿失禁、性功能障礙）＋**巴金森（MSA-p）**或**小腦運動失調（MSA-c）**；橋腦 **hot cross bun**；α-synuclein 沉積在**寡突膠細胞**；Shy-Drager 是舊名\n- **PSP**：**垂直凝視麻痺（向下看困難）**、**早期往後跌倒**、**頸部後仰（retrocollis）**、軀幹僵硬重於四肢；中腦萎縮 **hummingbird sign**；tau 蛋白；僅次於 PD 最常見的退化性巴金森\n- **CBD**：**不對稱**、單側手笨拙與肌張力不全、**肌躍**、**皮質感覺喪失**（觸覺辨識不能）、失用、**alien limb**；額頂葉不對稱萎縮；tau 蛋白\n- **DLB**：失智在動作症狀之前或 **1 年內**、視幻覺、認知波動、對抗精神病藥極度敏感（詳見〈失智〉）"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "MSA",
+            "PSP",
+            "CBD"
+          ],
+          "rows": [
+            [
+              "招牌",
+              "自主神經失調＋巴金森或小腦",
+              "向下看困難、早期往後跌",
+              "不對稱、皮質感覺喪失、alien limb"
+            ],
+            [
+              "姿勢",
+              "—",
+              "頸後仰、軀幹僵硬",
+              "單側肢體肌張力不全"
+            ],
+            [
+              "影像",
+              "橋腦 hot cross bun、殼核外緣訊號",
+              "中腦萎縮 hummingbird",
+              "不對稱額頂葉萎縮"
+            ],
+            [
+              "病理",
+              "α-synuclein（寡突膠細胞）",
+              "tau",
+              "tau"
+            ],
+            [
+              "levodopa",
+              "差",
+              "差（Richardson 型）",
+              "差"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "PD",
+            "PSP"
+          ],
+          "rows": [
+            [
+              "臥床",
+              "發病約 20 年",
+              "5–10 年內"
+            ],
+            [
+              "侵犯",
+              "某一肢體開始",
+              "對稱"
+            ],
+            [
+              "僵硬",
+              "肢體為主",
+              "軀幹重於肢體"
+            ],
+            [
+              "姿勢",
+              "駝背前傾",
+              "頸部後仰"
+            ],
+            [
+              "levodopa",
+              "反應良好",
+              "反應不佳"
+            ]
+          ]
+        },
+        {
+          "type": "figure",
+          "src": "figures/parkinson/h451-6.png",
+          "label": "圖 451-6 MSA-c 的 hot cross bun sign",
+          "caption": "軸切 T2 與 FLAIR：橋腦十字形高訊號，合併小腦中腳與小腦萎縮。",
+          "explain": "這個徵象有特徵性但不是 MSA 專屬，部分脊髓小腦萎縮與其他退化疾病也可能看到。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 MSA 會有自主神經失調和小腦症狀，PD 卻很少早期出現？**\nMSA 的 α-synuclein 沉積在**寡突膠細胞**，而且一開始就分布很廣：黑質、紋狀體、**小腦、下橄欖核**、腦幹與脊髓的**自主神經核**。\n所以除了巴金森，還早早出現**姿勢性低血壓、尿失禁、性功能障礙、運動失調**；紋狀體本身也壞了 → levodopa 反應差。\nHarrison：巴金森病人若早期就有明顯姿勢性低血壓，要想到 MSA。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 PSP 病人會向下看困難、常往後跌？**\nPSP 的 tau 病變侵犯**中腦**，包括眼球運動神經核**上方**控制垂直凝視的中樞 → 「核上性」麻痺：**向下看最先受限**、掃視變慢。\n看不到腳下又有**軀幹僵硬、頸部後仰**，重心往後 → **早期往後跌倒**。中腦萎縮在 MRI 正中矢狀切面像蜂鳥的嘴（hummingbird sign）。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 CBD 會有皮質感覺喪失和 alien limb？**\n名字就是答案：**皮質＋基底核**一起退化。基底核 → 僵硬、肌張力不全；**頂葉皮質** → 觸覺辨識不能（摸硬幣、鑰匙認不出來）、失用，甚至覺得手**不是自己的**（alien limb）。\n而且退化**不對稱**，常從單側手開始。單純 PD 不會有皮質感覺喪失。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Harrison 補充",
+          "text": "- MSA 也可能以單純自主神經失調表現；目前沒有確立的基因或特效治療\n- MSA-p MRI：殼核鐵沉積（T2 低訊號）、殼核外緣高訊號（putaminal rim）\n- PSP 分 Richardson 型（典型、levodopa 差）與巴金森型（早期像 PD、可能對 levodopa 有反應）；家族病例可見 MAPT 突變\n- PSP 晚期吞嚥、說話困難、認知障礙；眼瞼失用\n- CBS（corticobasal syndrome）與 PSP 臨床、病理重疊大\n- 葡萄糖代謝影像：非典型巴金森 GPi 活性下降、視丘上升，與 PD 相反\n- FC 講義寫 PSP「可能與慢性病毒感染有關」；Harrison 寫的是 tau 蛋白病變"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.446 p.3496–3497；Ch.451 p.3549（Fig.451-6）"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 講義 p.222–224"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 考題 p.225、228、232–233"
+        }
+      ]
+    },
+    {
+      "title": "藥物引起的巴金森與其他錐體外症狀　★ 1 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- 元兇：**dopamine D2 拮抗劑**\n  - 典型抗精神病藥：haloperidol、chlorpromazine\n  - **止吐、腸胃藥：metoclopramide（Primperan）、prochlorperazine（Novamin）** → 老人最常被忽略\n  - 其他：**flunarizine、cinnarizine**（鈣離子阻斷劑）、tetrabenazine、amiodarone、lithium\n- **藥物性巴金森**：**對稱**、數天到數週內出現、常合併**靜坐不能**；**停藥後通常可逆**\n- **急性肌張力不全**：用藥後**數分鐘到數天**；斜頸、眼瞼痙攣、動眼危象；**不是癲癇**（意識清楚、腦波正常）→ 靜脈或肌注 **benztropine**、**diphenhydramine**、BZD\n- **靜坐不能**：**2 週內**；坐立不安、一直想動 → 減量或停藥；BZD、**propranolol**、抗膽鹼藥\n- **遲發性異動症**：**數月到數年**；**口、唇、舌**的舞蹈樣動作 → 逐步減藥（**不可突然停**）、換非典型抗精神病藥；VMAT2 抑制劑（valbenazine、deutetrabenazine）\n- **抗精神病藥惡性症候群（NMS）**：數天到數週；**僵硬、高燒、意識改變、自主神經不穩、CK 很高** → 立即停藥、dopamine 類藥物、dantrolene、BZD；PD 病人**突然停 levodopa** 也會誘發"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "",
+            "藥物性巴金森",
+            "原發性 PD"
+          ],
+          "rows": [
+            [
+              "對稱性",
+              "通常對稱",
+              "早期不對稱"
+            ],
+            [
+              "合併",
+              "常合併靜坐不能、急性肌張力不全",
+              "極少"
+            ],
+            [
+              "發病",
+              "服藥數天到數週",
+              "數年緩慢進行"
+            ],
+            [
+              "預後",
+              "停藥通常可逆",
+              "持續退化"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "反應",
+            "出現時間",
+            "表現",
+            "處理"
+          ],
+          "rows": [
+            [
+              "急性肌張力不全",
+              "數分鐘到數天",
+              "斜頸、動眼危象、牙關緊閉",
+              "benztropine、diphenhydramine、BZD"
+            ],
+            [
+              "靜坐不能",
+              "2 週內",
+              "坐立不安",
+              "減藥；propranolol、BZD"
+            ],
+            [
+              "藥物性巴金森",
+              "數天到數週",
+              "對稱的巴金森",
+              "停藥或減量"
+            ],
+            [
+              "遲發性異動症",
+              "數月到數年",
+              "口舌頰舞蹈樣動作",
+              "逐步減藥、換非典型；VMAT2 抑制劑"
+            ],
+            [
+              "NMS",
+              "數天到數週",
+              "僵硬、高燒、意識改變、CK 高",
+              "停藥、dantrolene、dopamine 類藥"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "trap",
+          "text": "⚠️ **陷阱**\n- 急性肌張力不全不要給 **haloperidol**（同一類藥，會更糟），也不是 phenytoin\n- PD、DLB 病人**避免 haloperidol** 等典型抗精神病藥\n- 遲發性異動症突然停藥會**暫時變更嚴重**"
+        },
+        {
+          "type": "callout",
+          "style": "guideline",
+          "text": "📌 **抗膽鹼藥在藥物性巴金森的角色，FC 與 Harrison 不同**\n- **FC**：抗膽鹼藥（benztropine）可治療 Haldol、Novamin 引起的錐體外症狀\n- **Harrison**：急性肌張力不全用靜脈 benztropine 很有效；但對**藥物性巴金森**，常合併開的抗膽鹼藥**效果不佳**、會傷認知，還可能**增加遲發性異動症風險** → 處理以停藥或減量為主"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼 metoclopramide 會造成巴金森症？為什麼遲發性異動症突然停藥反而變嚴重？**\n- metoclopramide、prochlorperazine 雖然是腸胃藥、止吐藥，本質上都是 **D2 拮抗劑**（和抗精神病藥同類）→ 擋住紋狀體的 dopamine 作用 → 等於「藥物造成的 dopamine 不足」→ 巴金森、急性肌張力不全\n- 長期阻斷 D2 → 受體**上調、變得過度敏感** → 遲發性異動症（過動）。這時突然停藥，被擋住的過敏受體突然全部暴露 → **暫時更嚴重**；反過來加大劑量反而暫時壓住。所以要**逐步減藥**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Harrison 細節",
+          "text": "- 急性肌張力不全兒童多為全身性、成人多為局部；罕見影響呼吸道，要保護氣道\n- 興奮劑（methylphenidate、古柯鹼、安非他命）可急性誘發舞蹈症、刻板動作、抽動\n- FDA：metoclopramide 用超過 12 週增加遲發性異動症風險\n- 遲發性異動症：約三分之一停藥 3 個月內緩解；老人、女性、腦部器質性病變風險高\n- 遲發性肌張力不全：軀幹與骨盆搖擺，比遲發性異動症更頑固\n- 血清素症候群：肌躍明顯是和 NMS 的區別"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.446 p.3497；Ch.447 p.3516–3517"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 講義 p.221–222"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 考題 p.231"
+        }
+      ]
+    },
+    {
+      "title": "震顫鑑別：PD、原發性顫抖、藥物　★ 3 題",
+      "content": [
+        {
+          "type": "callout",
+          "style": "key",
+          "text": "**必背**\n- **原發性顫抖（ET）**：最常見的動作障礙；**姿勢性、動作性**（雙手平舉、端湯、寫字時抖）；通常**雙側對稱**\n- ET 常侵犯**頭部**（約 30%）、聲音；**約 50% 有家族史**（體染色體顯性）；**喝酒改善**、緊張加重\n- ET 除了顫抖，神經學檢查**正常**（沒有動作遲緩、僵硬）；寫字**字變大、歪斜**（PD 是小字症）\n- ET 治療：影響生活才用藥；**propranolol**（氣喘、心搏過慢禁用）或 **primidone**；難治 → 視丘 **VIM** 核 DBS 或聚焦超音波\n- **生理性顫抖加劇**：甲狀腺亢進、低血糖、焦慮、咖啡因、**valproate**、**鋰鹽**、β 致效劑 → 矯正原因\n- **Valproate** 比其他抗癲癇藥更常引起顫抖；和劑量相關，減量或停藥後消失\n- 小腦病變：**意向性顫抖**（越接近目標越抖）＋辨距障礙"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "特徵",
+            "原發性顫抖",
+            "PD 顫抖"
+          ],
+          "rows": [
+            [
+              "時機",
+              "動作性、姿勢性",
+              "靜止性；動作時減輕"
+            ],
+            [
+              "頻率",
+              "較快（FC 8–12 Hz；Harrison 6–10 Hz）",
+              "較慢（4–6 Hz）"
+            ],
+            [
+              "對稱",
+              "通常對稱",
+              "早期不對稱"
+            ],
+            [
+              "頭部、聲音",
+              "常見（頭約 30%、聲音約 20%）",
+              "—"
+            ],
+            [
+              "喝酒",
+              "多數改善",
+              "無效"
+            ],
+            [
+              "家族史",
+              "約 50%，顯性遺傳",
+              "較少"
+            ],
+            [
+              "寫字",
+              "字變大、抖",
+              "小字症"
+            ],
+            [
+              "其他徵象",
+              "無",
+              "動作遲緩、僵硬、姿勢不穩"
+            ],
+            [
+              "治療",
+              "propranolol、primidone",
+              "dopamine 類藥物"
+            ]
+          ]
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼要看顫抖「什麼時候出現」？**\n不同顫抖來自不同迴路：\n- **PD**：基底核迴路，休息時最明顯，**一動反而減輕**\n- **原發性顫抖**：可能和**小腦**與下橄欖核的節律有關，**維持姿勢或做動作**時才抖，嚴重者有輕微運動失調\n- **小腦病變**：伸手接近目標時越抖越大（意向性）\n所以檢查時讓病人**手放膝上休息**、**雙手平舉**、做**指鼻測試**，三個情境各看一次。"
+        },
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**為什麼原發性顫抖用 propranolol 而不是 levodopa？**\n原發性顫抖**不是 dopamine 不足**，所以 levodopa、抗膽鹼藥都沒用。\n**β 阻斷劑**（propranolol）和 **primidone** 是標準用藥，約一半有效；手部效果好、頭部顫抖常難治。propranolol 要注意**氣喘、心搏過慢**。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "延伸：Harrison 補充",
+          "text": "- ET 約占人口 1%，60 歲以上 5%；>70 歲盛行率大增\n- 嚴重 ET 可有意向性顫抖與輕微運動失調；也可能出現延遲出現的靜止性顫抖\n- PD 也可能有姿勢性顫抖，通常延遲幾秒才出現（emergent tremor）\n- 肌張力不全性顫抖：往肌張力不全方向動時加重、反方向減輕\n- 其他 ET 用藥：gabapentin、topiramate；肉毒桿菌素可用於手部或聲音顫抖\n- 檢查張力時要分清顫抖造成的中斷和齒輪狀僵硬"
+        },
+        {
+          "type": "source",
+          "book": "Harrison's 22e",
+          "pages": "Ch.446 p.3497（Table 446-3）；Ch.447 p.3508–3509"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 講義 p.220–221"
+        },
+        {
+          "type": "source",
+          "book": "First Choice 醫學(四) 第4冊",
+          "pages": "王、基底核與動作障礙疾病 考題 p.230、232–233"
+        }
+      ]
+    },
+    {
+      "title": "臨床推理演練",
+      "content": [
+        "以下用本篇的 **FC 原題**示範推理順序（題目在〈考題練習〉，這裡只拆解思考步驟）。先遮住步驟自己推一次，再打開核對。",
+        {
+          "type": "collapsible",
+          "summary": "演練 1（FC 111 年）：60 歲男性右手拇指食指顫抖一年，字越寫越小、走路右手不擺動，最近右腳僵硬、表情變少",
+          "text": "1. **先定症候群**：顫抖＋小字症（動作遲緩）＋手擺動減少＋僵硬、面具臉 → **parkinsonism**\n2. **看顫抖型態**：拇指食指搓藥丸、單側開始 → 靜止性、不對稱\n3. **找紅旗**：感覺正常、沒有早期跌倒、沒有凝視問題、沒有自主神經或小腦徵象 → 沒有紅旗\n4. **排除其他選項**：原發性顫抖不會有動作遲緩和僵硬；SCA 是運動失調；半身肌張力不全是扭轉姿勢\n5. **結論**：**巴金森氏病**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 2（FC 106 年）：50 歲男性左手動作時不自主抽動，左側肢體不靈活、智力衰退，有肌躍與肌張力不全，摸硬幣認不出來，說左手像外星人的手",
+          "text": "1. **巴金森＋其他**：左側肢體笨拙、肌張力不全 → 有基底核症狀\n2. **抓紅旗**：用手摸硬幣、鑰匙無法辨識 → **觸覺辨識不能＝皮質感覺喪失**；alien limb；肌躍 → **大腦皮質**也受影響\n3. **不對稱**：只有左側\n4. **對照非典型三兄弟**：MSA 看自主神經；PSP 看垂直凝視、往後跌、對稱；**皮質＋基底核、不對稱** → CBD\n5. **結論**：**皮質基底核退化症（CBD）**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 3（FC 112 年）：59 歲男性姿勢性低血壓暈倒多次，合併動作遲緩、步態不穩、性功能障礙，MRI 有特殊發現",
+          "text": "1. **巴金森**：動作遲緩\n2. **加上什麼**：**姿勢性低血壓、性功能障礙** → 自主神經失調；步態不穩 → 可能有小腦成分\n3. **紅旗**：明顯自主神經失調在巴金森早期出現 → 不像 PD，想到 **MSA**\n4. **影像**：小腦、腦幹萎縮，橋腦 **hot cross bun**\n5. **結論**：**多重系統萎縮症（MSA）**；PSP 要看垂直凝視與往後跌"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 4（FC 105 年）：45 歲女性雙手發抖近 20 年，右手先開始，無法用湯匙、寫字，仍能提水桶；父親雙手發抖、哥哥頭部顫抖",
+          "text": "1. **看顫抖情境**：用湯匙、寫字、拿碗時抖 → **動作性、姿勢性**；提水桶不影響\n2. **病程**：近 20 年、雙側 → 很慢、對稱化\n3. **家族史**：父親、哥哥都有，哥哥是**頭部顫抖** → 顯性遺傳、頭部侵犯\n4. **其他**：沒有其他異狀 → 沒有動作遲緩、僵硬\n5. **結論**：**原發性顫抖** → 下一題的治療選 **β 阻斷劑**，不是 levodopa 或抗膽鹼藥"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 5（FC 100 年）：服藥三年療效不錯，最近突發全身僵硬、無法移動約一個半小時；改成每次半顆、一天四次後改善",
+          "text": "1. **原本的病**：行動緩慢、面容僵硬，吃藥有效 → **PD 吃 levodopa**\n2. **新問題**：突然動不了、持續一段時間後恢復 → **off 期**（on-off 或 wearing-off）\n3. **機轉**：晚期 dopamine 末梢無法緩衝，腦中濃度跟著血中 levodopa 忽高忽低\n4. **為什麼分次有效**：**總量相近、劑量變小、次數變多** → 濃度比較平穩、低谷變淺\n5. **結論**：**巴金森氏病＋L-dopa**；其他選項的病和藥都對不上"
+        },
+        {
+          "type": "collapsible",
+          "summary": "演練 6（FC 107 年）：20 歲男性因胃食道逆流吃 metoclopramide，突然頸部僵硬、維持怪異姿勢",
+          "text": "1. **年輕人、突然**、持續的異常姿勢（斜頸）→ **急性肌張力不全**\n2. **找藥**：metoclopramide 是 **D2 拮抗劑** → 藥物引起的錐體外症狀\n3. **不是癲癇**：意識清楚、沒有發作後期\n4. **治療**：停藥，給 **benztropine**（抗膽鹼）或 diphenhydramine、BZD\n5. **排除**：haloperidol 同為 D2 拮抗劑會更糟；phenytoin 是抗癲癇藥；肉毒桿菌素用於慢性局部肌張力不全"
+        }
+      ]
+    },
+    {
+      "title": "考題練習與速查表",
+      "content": [
+        {
+          "type": "callout",
+          "style": "logic",
+          "text": "**題目註記：** 本章只有 OCR，沒有 PDF。看不清的選項已在題內標明，並依 FC 詳解補足；題號為本篇重編，不是 FC 原題號。"
+        },
+        {
+          "type": "heading",
+          "text": "基底核迴路（§基底核迴路與 dopamine–ACh 平衡）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q1：因為一氧化碳中毒造成的巴金森症候群（parkinsonism），病灶位置常發生在：（A 尾核 caudate B 殼部 putamen C 蒼白球 globus pallidus D 黑質 substantia nigra）（FC 111 年）",
+          "text": "**答：(C)。** 蒼白球對缺氧特別敏感，CO 中毒的特徵病變是蒼白球壞死。"
+        },
+        {
+          "type": "heading",
+          "text": "PD 臨床表現（§PD 的病理與臨床表現）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q2：關於巴金森氏症候群（parkinsonian syndrome）的敘述，下列何者錯誤？（A 後天的巴金森氏症成因包含藥物引發、水腦、缺氧性腦病變、病毒感染或腦炎後遺症、一氧化碳中毒、腦中風等 B 常見的 Parkinson-plus syndrome 包含 CBD、MSA 及 PSP C 巴金森氏病是最常見的神經退化性動作障礙疾病，主要症狀為顫抖、動作遲緩、肢體僵硬及姿勢不穩（OCR 部分不清，依上下文整理） D 巴金森氏病是運動障礙疾病，不會有非動作相關症狀）（FC 113 年）",
+          "text": "**答：(D)。** 非動作症狀包括嗅覺減退、憂鬱焦慮、自律神經異常（姿勢性低血壓、尿失禁）、認知障礙與失智。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q3：60 歲男性，一年前右手拇指及食指出現顫抖；寫字不如以前靈活、字越寫越小，走路時右手不太擺動，但仍可以用鋤頭整地種菜，感覺功能正常。最近半年右腳比較僵硬、臉部表情較少。最可能的診斷？（A 半身肌張力不全 hemidystonia B 脊髓小腦共濟失調症 C 巴金森氏病 D 原發性顫抖 essential tremor）（FC 111 年）",
+          "text": "**答：(C)。** 靜止性顫抖、動作遲緩、僵硬、小字症、表情減少。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q4：典型的原發性巴金森氏病在發病兩年內最不會出現下列哪一個症狀？（A 兩側不對稱的顫抖 B 起步時兩腳會顫抖，出現凍僵步態 freezing of gait C 【OCR 不清】 D 動腦（mental tasks）時會加重顫抖）（FC 111 年）",
+          "text": "**答：(B)。** 凍僵步態通常出現在疾病中晚期。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q5：下列有關帕金森氏症的敘述，何者錯誤？（A 和大腦黑質裡多巴胺受體（dopaminergic receptor）數量減少有關 B 造成原因也包括中樞神經感染或藥物濫用引發的腦病變 C 症狀包括意向性顫抖 intention tremor、肢體僵硬及動作遲緩等 D 即使藥物治療，神經退化仍是會持續進行）（FC 103 年）",
+          "text": "**答：(C)。** PD 是靜止性顫抖；意向性顫抖是小腦。"
+        },
+        {
+          "type": "heading",
+          "text": "紅旗（§什麼時候「不像 PD」）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q6：59 歲女性，出現漸進性行動遲緩、左側肢體動作笨拙。如果這個病人是罹患巴金森氏病，最不可能出現下列何種症狀？（A 靜坐時左手震顫 B 走路時左上肢擺動減少 C 左側肢體出現僵硬強直 D 左側上肢出現辨距障礙 dysmetria）（FC 109 年）",
+          "text": "**答：(D)。** PD 不會有辨距障礙；若出現須考慮 MSA。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q7：當病人出現下列哪一個症狀，比較有可能不是原發性的巴金森氏病？（A 嗅覺減退 hyposmia B 不寧腳症候群 restless legs syndrome C 皮質性感覺喪失 cortical sensory loss D 快速動眼期睡眠行為異常 RBD）（FC 108 年）",
+          "text": "**答：(C)。** 皮質感覺喪失要先想到皮質基底核退化症；(A)(B)(D) 都可見於 PD。"
+        },
+        {
+          "type": "heading",
+          "text": "藥物治療（§藥物治療）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q8：關於巴金森氏病之治療，下列何者錯誤？（A 左多巴 levodopa 是黃金治療準則，愈早使用大劑量對病患愈有利 B 多巴胺促效劑是治療選擇之一，尤其是對較年輕的患者 C 多巴胺促效劑可作用於不同類型之 dopamine receptors D 對口服藥物藥效波動大的患者，視丘下核（subthalamic nucleus）刺激術【其後 OCR 不清】）（FC 112 年）",
+          "text": "**答：(A)。** levodopa 應逐漸調整劑量，避免太早大劑量造成運動併發症。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q9：一位 55 歲男性巴金森氏病病人，在服用多巴胺促效劑之後，出現病態賭博的症狀，最可能是哪一種神經傳導素接受體被過度刺激的結果？（A D1 多巴胺接受體 B D2 多巴胺接受體 C D3 多巴胺接受體 D 5-HT 接受體）（FC 110 年）",
+          "text": "**答：(C)。** D3 受體主要分布於邊緣系統，和獎賞、衝動行為相關。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q10：巴金森氏病人服用左多巴者，會比服用多巴胺促效劑者容易出現下列何種副作用？（A 異動症 dyskinesia B 肢體水腫 C 幻覺 D 衝動控制失調）（FC 109 年）",
+          "text": "**答：(A)。** (B)(C)(D) 反而是 agonist 較常見。"
+        },
+        {
+          "type": "heading",
+          "text": "晚期（§晚期：藥效波動、異動症、凍僵與 DBS）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q11：當巴金森氏病病人在晚期開始出現運動阻滯（motor block）時，進行下列何種運動比較不受影響？（A 上樓梯 B 在狹窄的走廊步行 C 過馬路 D 進出電梯門）（FC 107 年）",
+          "text": "**答：(A)。** 樓梯橫線是外在視覺提示；狹窄空間、時間壓力、門口都會誘發凍僵。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q12：當帕金森氏病人在晚期開始出現運動阻滯時，進行下列何種動作比較不受影響？（A 上樓梯 B 走平地 C 過旋轉門 D 進出電梯門）（FC 99 年）",
+          "text": "**答：(A)。** PD 有凍僵現象，常第一步跨不出去。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q13：李先生三年前因行動緩慢、面容僵硬，在某醫學中心服藥治療，每餐一顆、一天三次，有不錯的療效。最近突發全身僵硬、無法移動，持續約一個半小時。醫師把藥量改為每次半顆、每天四次，情況獲得改善。下列推論何者正確？（A 帕金森氏症及 L-dopa B Benedikt 症候群及 aspirin C Jacksonian seizure 及 phenytoin D Guillain-Barré 症候群及維生素 B1）（FC 100 年）",
+          "text": "**答：(A)。** 長期 levodopa 造成 on-off；分成小劑量、多次給，濃度較平穩。"
+        },
+        {
+          "type": "heading",
+          "text": "非典型巴金森（§非典型巴金森）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q14：53 歲男性至神經科門診，近一年來動作遲緩、僵硬，頭部總是向後仰，眼睛轉動緩慢，無法自主性往下看，家人觀察到他最近時常往後跌倒。最可能的診斷？（A 巴金森氏病 B 多重系統萎縮症 MSA C 進行性上眼神經核麻痺症 PSP D 路易氏體失智症 DLB）（FC 114 年）",
+          "text": "**答：(C)。** 垂直凝視障礙（向下看困難）、早期往後跌、軀幹僵硬、頸後仰。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q15：59 歲男性因為姿勢性低血壓暈倒多次，同時還有動作遲緩、步態不穩及性功能障礙，腦部磁振造影如下圖（圖未收錄：小腦、腦幹萎縮，橋腦 hot cross bun sign）。最可能的診斷？（A 行為變異型額顳葉失智症 B 阿茲海默氏病 C 多重系統萎縮症 D 進行性上眼神經核麻痺症）（FC 112 年）",
+          "text": "**答：(C)。** 自主神經失調＋巴金森＋步態不穩，影像 hot cross bun。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q16：50 歲男性，自 1 年前開始左手做動作時會出現不自主的抽動，半年後左側肢體動作開始變得不靈活，並且合併智力衰退。神經檢查出現肌躍症及肌張力不全，左手對針刺激特別敏感，但若讓他用左手摸硬幣或鑰匙，病人無法辨識，且常抱怨自己的左手像外星人的手。最可能的診斷？（A 多發系統退化症 MSA B 巴金森病 C 皮質基底核退化症 CBD D 漸進性上核麻痺症 PSP）（FC 106 年）",
+          "text": "**答：(C)。** (A) 特色是嚴重姿勢性低血壓；(B) 較不會有感覺異常；(D) 通常對稱。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q17：以巴金森症與自主神經障礙為主要表現的神經症候群為：（A 肌躍-肌張力不全症 B 多發系統退化症 MSA C 漸行性核上麻痺 PSP D 皮質基底核退化症 CBD）（FC 104 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "藥物引起（§藥物引起的巴金森與其他錐體外症狀）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q18：一位 20 歲男性突然發生頸部僵硬的症狀，持續維持在奇怪的姿勢而很難轉動。無外傷，最近因為胃食道逆流服用 metoclopramide。此時最好的治療是給予：（A phenytoin B botulinum toxin C benztropine mesylate D haloperidol）（FC 107 年）",
+          "text": "**答：(C)。** 急性肌張力不全；可用抗組織胺（Vena）、BZD、抗膽鹼藥（benztropine）。"
+        },
+        {
+          "type": "heading",
+          "text": "震顫鑑別（§震顫鑑別）"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q19：服用下列哪一種藥物之後，可能會出現兩手的顫抖，必須與本態性顫抖（essential tremor）做鑑別診斷？（A phenytoin B phenobarbital C valproic acid D carbamazepine）（FC 109 年）",
+          "text": "**答：(C)。** VPA 較易產生顫抖，與劑量相關（1000–1500 mg/d 風險增加），減量或停藥即消失。"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q20：劉太太 45 歲，最近四年雙手發抖相當嚴重，右手幾乎無法用湯匙喝湯或用筷子夾菜，無法寫字，左手也無法拿碗，然而她仍然可以提水桶到花園澆花。雙手發抖已將近 20 年，從右手開始，接著左手也發抖。她的父親也有類似長期雙手發抖現象，只是比較輕微，一位哥哥則有頭部顫抖。除此之外身體沒有其他異狀。最可能的診斷？（A 全身性肌張力不全 B 脊髓小腦共濟失調症 C 巴金森病 D 原發性顫抖症 essential tremor）（FC 105 年）",
+          "text": "**答：(D)。**"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Q21：承上題，下列治療藥物何者最有效？（A 抗乙醯膽鹼藥物 anticholinergics B β 阻斷劑 β-blocker C 左多巴 levodopa D clonazepam）（FC 105 年）",
+          "text": "**答：(B)。**"
+        },
+        {
+          "type": "heading",
+          "text": "速查表"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "主題",
+            "速記"
+          ],
+          "rows": [
+            [
+              "病理",
+              "SNc dopamine 神經元退化、Lewy body（α-synuclein）"
+            ],
+            [
+              "TRAP",
+              "靜止顫抖 4–6 Hz、齒輪僵硬、動作遲緩（小字、面具臉）、姿勢不穩（晚期）"
+            ],
+            [
+              "前驅",
+              "嗅覺喪失、便秘、RBD"
+            ],
+            [
+              "CO 中毒",
+              "蒼白球；levodopa 差"
+            ],
+            [
+              "Levodopa",
+              "最有效；異動症、on-off；合併 DDC 抑制劑"
+            ],
+            [
+              "DA agonist",
+              "較年輕；衝動控制（D3）、嗜睡、水腫"
+            ],
+            [
+              "Amantadine",
+              "抗異動症"
+            ],
+            [
+              "抗膽鹼",
+              "顫抖；老人避免"
+            ],
+            [
+              "凍僵",
+              "上樓梯、視覺提示較順；門口、窄道、時間壓力較糟"
+            ],
+            [
+              "DBS",
+              "STN 或 GPi；嚴重顫抖或藥物控制不好的運動併發症"
+            ],
+            [
+              "MSA",
+              "自主神經＋巴金森或小腦；hot cross bun"
+            ],
+            [
+              "PSP",
+              "向下看困難、往後跌、頸後仰；hummingbird"
+            ],
+            [
+              "CBD",
+              "不對稱、皮質感覺喪失、alien limb"
+            ],
+            [
+              "DLB",
+              "失智在前或 1 年內、視幻覺、波動"
+            ],
+            [
+              "急性肌張力不全",
+              "metoclopramide → benztropine"
+            ],
+            [
+              "遲發性異動症",
+              "數月到數年、口舌；逐步減藥"
+            ],
+            [
+              "原發性顫抖",
+              "姿勢動作性、對稱、家族史、喝酒改善 → propranolol"
+            ],
+            [
+              "Valproate",
+              "顫抖副作用"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
