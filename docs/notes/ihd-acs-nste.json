@@ -161,8 +161,8 @@
           "text": "**必背**\n- 胸痛三型：**休息時 > 10 分鐘**、**2 週內新發**、**漸強型**\n- 女性、老人、糖尿病多**非典型**（喘、上腹不適）\n- 理學檢查要**排除肺栓塞、主動脈剝離、心包填塞**\n- **新的 ST 下降約 1/3**；深 T 倒置門檻 **0.3 mV**（不是 3 mV）（FC 113 年）\n- **不穩定型心絞痛沒有心肌酵素升高**（FC 101 年）；**ACS 的診斷不需要等酵素上升**（UA 本來就不上升）（FC 99 年）\n- 有 ACS 的典型表現 → **持續心電圖追蹤、heparin、抗血小板**（FC 99 年）"
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：2025 ACC/AHA 心電圖建議",
           "text": "**2025 ACC/AHA**：**首次醫療接觸 10 分鐘內完成心電圖**（1）｜**V1–V3 單獨 ST 下降 → 加做 V7–V9 找後壁梗塞**｜**新的 LBBB 本身不足以診斷急性心梗**"
         },
         {
@@ -208,8 +208,8 @@
           "explain": "**【怎麼看】**myoglobin 與 CK 同功酶最早升最快降｜**CK-MB 約 1 天達峰、2–3 天回落**｜**troponin（大梗塞）升到 20–50 倍、持續約一週**｜小梗塞的 troponin 只略高於 99th\n**【考點】**troponin 首選；CK-MB 偵測再梗塞"
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：2025 ACC/AHA troponin 重驗時間",
           "text": "**2025 ACC/AHA**：疑似 ACS 盡快驗 troponin（最好 hs-cTn）；**hs-cTn 1–2 小時後重驗**，傳統 troponin 3–6 小時後重驗（1）"
         },
         {
@@ -392,8 +392,8 @@
           "text": "**FC 書中表格（ESC 2020）**還有「中度風險 → 72 小時內」一級；**Harrison 22e 與 2025 ACC/AHA 已不再列 72 小時**｜**非犯人血管**：FC 101 年答案依舊觀念；**現在穩定的 STEMI 多條血管病變建議完全再通**（見〈冠心症（三）〉）"
         },
         {
-          "type": "callout",
-          "style": "guideline",
+          "type": "collapsible",
+          "summary": "延伸：2025 ACC/AHA 侵入性策略的時機",
           "text": "**2025 ACC/AHA**：中或高風險 → 住院期間侵入性評估（1, A）｜**難治心絞痛或血行動力、電氣不穩定 → 立即**（1）｜高風險 → < 24 小時（2a）｜優先橈動脈（1, A）"
         },
         {
