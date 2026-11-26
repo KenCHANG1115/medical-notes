@@ -12,6 +12,10 @@
   "updated": "2026-11-27",
   "related": [
     {
+      "id": "demyelinating-pns",
+      "name": "Demyelinating Disease (二)：Guillain-Barré、CIDP 與 Charcot-Marie-Tooth"
+    },
+    {
       "id": "localization-brainstem-cranial-nerves",
       "name": "Localization (二)：腦幹與腦神經"
     },
