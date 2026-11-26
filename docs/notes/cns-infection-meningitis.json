@@ -13,6 +13,10 @@
   "updated": "2026-11-27",
   "related": [
     {
+      "id": "cns-infection-encephalitis-chronic",
+      "name": "CNS Infection (二)：腦炎、神經性梅毒與普利昂病"
+    },
+    {
       "id": "stroke-hemorrhagic-cvst-pres",
       "name": "Stroke (三)：出血性中風、腦靜脈竇血栓與 PRES"
     }

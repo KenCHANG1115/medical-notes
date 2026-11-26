@@ -516,6 +516,10 @@
         {
           "id": "cns-infection-meningitis",
           "name": "CNS Infection (一)：腦膜炎、CSF 判讀與腦膿瘍"
+        },
+        {
+          "id": "cns-infection-encephalitis-chronic",
+          "name": "CNS Infection (二)：腦炎、神經性梅毒與普利昂病"
         }
       ]
     },
