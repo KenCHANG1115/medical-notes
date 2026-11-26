@@ -505,6 +505,10 @@
         {
           "id": "parkinsonism",
           "name": "Parkinsonism：巴金森氏病、非典型巴金森與震顫鑑別"
+        },
+        {
+          "id": "hyperkinetic-movement-disorders",
+          "name": "Hyperkinetic Movement Disorders：舞蹈症、Wilson 病與遺傳性運動失調"
         }
       ]
     },
